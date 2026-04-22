@@ -16,7 +16,7 @@ import {
   createUserWithEmailAndPassword, 
   signInWithEmailAndPassword 
 } from "firebase/auth";
-import { JORNADAS_ESTUDO } from "@/data/materias";
+import { JORNADAS_ESTUDO, Jornada, Materia } from "@/data/materias";
 
 export default function HomePage() {
   const router = useRouter();
@@ -50,7 +50,7 @@ export default function HomePage() {
     return () => unsub();
   }, []);
 
-  const jornadaAtual = useMemo(() => JORNADAS_ESTUDO.find(j => j.id === jornadaAtiva), [jornadaAtiva]);
+  const jornadaAtual = useMemo(() => JORNADAS_ESTUDO.find(j => j.nome.toLowerCase() === jornadaAtiva.toLowerCase()), [jornadaAtiva]);
   const materiaAtual = useMemo(() => jornadaAtual?.materias.find(m => m.nome === materiaSel), [jornadaAtual, materiaSel]);
 
   // Funções de Autenticação
@@ -247,7 +247,7 @@ export default function HomePage() {
                       {materiaSel && (
                         <motion.select initial={{ opacity: 0, y: -5 }} animate={{ opacity: 1, y: 0 }} value={temaSel} onChange={(e) => setTemaSel(e.target.value)} className="w-full bg-white border border-black rounded-xl p-5 text-black text-sm font-bold outline-none focus:ring-4 focus:ring-blue-600/30 appearance-none cursor-pointer">
                           <option value="" disabled className="text-slate-400">Escolha o Tema</option>
-                          {materiaAtual?.temas.map(t => <option key={t.id} value={t.nome}>{t.nome}</option>)}
+                          {materiaAtual?.temas.map(t => <option key={t} value={t}>{t}</option>)}
                         </motion.select>
                       )}
                     </>

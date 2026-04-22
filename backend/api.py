@@ -66,35 +66,35 @@ def gerar_guia_instantaneo():
     except Exception as e:
         return jsonify({"erro": str(e)}), 500
 
-# --- LÓGICA DE DADOS ESTÁTICOS HÍBRIDOS ---
+# --- LÓGICA DE DADOS ESTÁTICOS HÍBRIDOS (ATUALIZADA PARA O NOVO FLUXO) ---
 def carregar_dados_estaticos(jornada, materia, tema):
-    caminho = os.path.join(os.path.dirname(__file__), "questoes", jornada.capitalize(), materia, tema, "analise_estatica.json")
-    if os.path.exists(caminho):
-        try:
-            with open(caminho, 'r', encoding='utf-8') as f:
-                dados = json.load(f)
-                
-                # Monta a string limpa de Incidência (Custo Zero de IA)
-                incidencias = []
-                for item in dados.get("assuntos_maior_incidencia", []):
-                    incidencias.append(f"{item['posicao']}º {item['assunto']} ({item['incidencia_aproximada']}%): {', '.join(item['subtemas'])}")
-                texto_incidencia = "\n".join(incidencias)
+    caminho = os.path.join(os.path.dirname(__file__), "questoes", jornada.capitalize(), materia, "analise_estatica.json")
+    
+    if not os.path.exists(caminho):
+        print(f"⚠️ Arquivo não encontrado: {caminho}")
+        return {}
 
-                # Monta a string limpa de Pegadinhas
-                pegadinhas = []
-                for item in dados.get("pegadinhas_frequentes", []):
-                    pegadinhas.append(f"- {item['pegadinha']}: {item['detalhe']}")
-                texto_pegadinhas = "\n".join(pegadinhas)
-                
-                return texto_incidencia, texto_pegadinhas
-        except Exception as e:
-            print(f"Erro ao carregar analise_estatica: {e}")
-    return "Sem dados de incidência cadastrados para este tema.", "Sem pegadinhas cadastradas para este tema."
+    try:
+        with open(caminho, 'r', encoding='utf-8') as f:
+            # O ERRO ESTAVA AQUI: use json.load(f) em vez de f.read()
+            dados_completos = json.load(f) 
+        
+        # Agora o .get() funcionará porque dados_completos é um dicionário
+        return dados_completos.get(tema, {}) 
+    except Exception as e:
+        print(f"❌ Erro ao processar JSON de análise: {e}")
+        return {}
+
 
 def processar_e_salvar_auditoria(jornada, materia, tema, subtema, texto_aula, notas_manuais):
     
-    # 1. Lê os arquivos fixos locais
-    texto_incidencia, texto_pegadinhas = carregar_dados_estaticos(jornada, materia, tema)
+    # 1. Lê os arquivos fixos locais (Corrigido o desempacotamento)
+    dados_tema = carregar_dados_estaticos(jornada, materia, tema)
+    texto_incidencia = dados_tema.get("assuntos_maior_incidencia", [])
+    texto_pegadinhas = dados_tema.get("pegadinhas_frequentes", [])
+
+    # Formata a lista de pegadinhas para a IA ler como tópicos
+    pegadinhas_para_ia = "\n- ".join(texto_pegadinhas) if texto_pegadinhas else "Nenhuma pegadinha informada."
 
     # 2. Manda para a IA APENAS as pegadinhas para ela avaliar se o aluno caiu nelas
     json_resultado = auditor_v3.run_dynamic_audit(
@@ -103,7 +103,7 @@ def processar_e_salvar_auditoria(jornada, materia, tema, subtema, texto_aula, no
         tema=tema,
         aula_text=texto_aula,
         subtema=subtema,
-        dados_estaticos=texto_pegadinhas
+        dados_estaticos=pegadinhas_para_ia
     )
 
     if not json_resultado or "erro" in json_resultado:
@@ -113,8 +113,8 @@ def processar_e_salvar_auditoria(jornada, materia, tema, subtema, texto_aula, no
     seu_resultado_ia = json_resultado.pop("seu_resultado", "Análise preditiva não gerada.")
     
     json_resultado['analise_banca'] = {
-        "maior_incidencia": texto_incidencia,
-        "pegadinhas": texto_pegadinhas,
+        "maior_incidencia": texto_incidencia, # Agora envia a lista real!
+        "pegadinhas": texto_pegadinhas,       # Agora envia a lista real!
         "seu_resultado": seu_resultado_ia
     }
 

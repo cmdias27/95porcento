@@ -6,99 +6,90 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-# Carrega as chaves do .env (certifique-se de ter OPENAI_API_KEY lá)
 load_dotenv()
 
-def gerar_analise_estatica(caminho_questoes):
-    print(f"\n🔍 Buscando arquivo em: {caminho_questoes}")
+def gerar_analises_por_materia():
+    print("=" * 60)
+    print("ANALISTA ESTÁTICO TURBO (COM ESTATÍSTICA) - 95PORCENTO")
+    print("=" * 60)
     
-    # 1. Verifica se o arquivo de questões existe
+    jornada = input("🎯 Jornada (ex: Concurso): ").strip().capitalize()
+    materia = input("📚 Matéria (ex: Portugues): ").strip()
+    
+    caminho_questoes = os.path.join(os.path.dirname(__file__), "questoes", jornada, materia, "questoes.json")
+    caminho_saida = os.path.join(os.path.dirname(__file__), "questoes", jornada, materia, "analise_estatica.json")
+    
     if not os.path.exists(caminho_questoes):
-        print("❌ Erro: Arquivo questoes.json não encontrado neste caminho.")
+        print(f"❌ Banco de questões não encontrado em:\n{caminho_questoes}")
         return
 
-    pasta_base = os.path.dirname(caminho_questoes)
-    caminho_saida = os.path.join(pasta_base, "analise_estatica.json")
-
-    # 2. Lê e otimiza as questões (Corta as alternativas para economizar Tokens)
     with open(caminho_questoes, 'r', encoding='utf-8') as f:
-        dados = json.load(f)
+        banco_questoes = json.load(f)
 
-    questoes = dados.get("questoes", [])
-    if not questoes:
-        print("❌ Nenhuma questão encontrada no JSON.")
-        return
+    analises_existentes = {}
+    if os.path.exists(caminho_saida):
+        with open(caminho_saida, 'r', encoding='utf-8') as f:
+            analises_existentes = json.load(f)
 
-    texto_questoes = ""
-    for i, q in enumerate(questoes):
-        # Passamos apenas enunciado, gabarito e comentário para a IA mapear as pegadinhas
-        texto_questoes += f"Q{i+1}: {q.get('enunciado')}\nGabarito: {q.get('gabarito')}\nComentário: {q.get('comentario')}\n\n"
-
-    print(f"✅ {len(questoes)} questões carregadas. Enviando para o ChatGPT (GPT-4o)...")
-
-    # 3. Configura a IA da OpenAI com JSON Mode travado
-    llm = ChatOpenAI(
-        model="gpt-4o", # Você pode mudar para "gpt-4o-mini" se quiser baratear os testes
-        temperature=0.2,
-        model_kwargs={"response_format": {"type": "json_object"}}
-    )
-
+    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.1, model_kwargs={"response_format": {"type": "json_object"}})
+    
+    # PROMPT ATUALIZADO PARA EXIGIR PORCENTAGENS E EXPLICAÇÕES DETALHADAS
     template = """
-    Você é um especialista em concursos públicos e análise de bancas (FGV, CEBRASPE, FCC).
-    Abaixo está um banco de questões reais sobre um tema específico.
-    Sua tarefa é analisar as questões e comentários para mapear a incidência dos assuntos e as pegadinhas mais frequentes.
-
-    QUESTÕES FORNECIDAS:
-    {questoes}
-
-    ---
-    REGRAS DE EXTRAÇÃO:
-    1. "assuntos_maior_incidencia": Extraia os 5 a 7 assuntos mais abordados. "incidencia_aproximada" deve ser um número inteiro (a soma não precisa ser 100%, reflete a frequência no lote).
-    2. "pegadinhas_frequentes": Extraia de 5 a 7 pegadinhas conceituais citadas nos comentários das questões.
-
-    SAÍDA OBRIGATÓRIA:
-    Você deve retornar EXATAMENTE a estrutura JSON abaixo, sem blocos markdown.
+    Você é um Auditor Estatístico de Concursos Públicos. 
+    Sua missão é analisar matematicamente e pedagogicamente as questões do tema "{tema}".
+    
+    QUESTÕES EXTRAÍDAS DA BANCA:
+    {texto_questoes}
+    
+    Sua tarefa é extrair 2 listas e retornar ESTRITAMENTE em formato JSON.
+    
+    1. "assuntos_maior_incidencia": 
+       - Agrupe as questões por assunto.
+       - Calcule a PORCENTAGEM aproximada de incidência de cada assunto com base no total de questões desta amostra.
+       - Formato OBRIGATÓRIO de cada item da lista: "Nome do Assunto (XX%)". Ex: "Regra geral de Crase (45%)".
+       
+    2. "pegadinhas_frequentes": 
+       - Identifique as armadilhas comuns que a banca usou nessas questões para confundir o candidato.
+       - EXPLIQUE como a armadilha funciona na prática.
+       - Formato OBRIGATÓRIO de cada item da lista: "Nome da Pegadinha: Explicação de como a banca induz ao erro."
+    
+    Retorne o JSON exato:
     {{
-      "assuntos_maior_incidencia": [
-        {{
-          "posicao": 1,
-          "assunto": "Nome do Assunto",
-          "incidencia_aproximada": 15,
-          "subtemas": ["Subtema 1", "Subtema 2"]
-        }}
-      ],
-      "pegadinhas_frequentes": [
-        {{
-          "posicao": 1,
-          "pegadinha": "Nome Curto da Pegadinha",
-          "incidencia_aproximada": 8,
-          "detalhe": "Explicação de como a banca tenta confundir o candidato."
-        }}
-      ]
+        "assuntos_maior_incidencia": [],
+        "pegadinhas_frequentes": []
     }}
     """
-
     prompt = ChatPromptTemplate.from_template(template)
     chain = prompt | llm | StrOutputParser()
 
-    try:
-        # Executa a chamada
-        resultado_str = chain.invoke({"questoes": texto_questoes})
-        resultado_json = json.loads(resultado_str)
+    print(f"\n⚙️ Iniciando análise dos Temas de {materia}...")
+    
+    for tema, lista_questoes in banco_questoes.items():
+        # Se quiser forçar a reanálise de temas antigos, comente as 3 linhas abaixo:
+        if tema in analises_existentes:
+            print(f"⏭️ Tema '{tema}' já foi analisado anteriormente. Pulando.")
+            continue
+            
+        print(f"▶️ Analisando: {tema} ({len(lista_questoes)} questões) - Calculando estatísticas...")
+        
+        texto_questoes = ""
+        for i, q in enumerate(lista_questoes):
+            texto_questoes += f"Q{i+1}: {q.get('enunciado')}\nGab: {q.get('gabarito')}\nComentário: {q.get('comentario')}\n\n"
+            
+        try:
+            resultado_str = chain.invoke({"tema": tema, "texto_questoes": texto_questoes})
+            resultado_json = json.loads(resultado_str)
+            
+            analises_existentes[tema] = resultado_json
+            
+            with open(caminho_saida, 'w', encoding='utf-8') as f:
+                json.dump(analises_existentes, f, ensure_ascii=False, indent=2)
+                
+            print(f"   ✅ Análise Estatística de '{tema}' salva com sucesso!")
+        except Exception as e:
+            print(f"   ❌ Erro ao analisar '{tema}': {e}")
 
-        # 4. Salva o novo arquivo na mesma pasta do questoes.json
-        with open(caminho_saida, 'w', encoding='utf-8') as f:
-            json.dump(resultado_json, f, ensure_ascii=False, indent=2)
-
-        print(f"🎯 SUCESSO! Inteligência gerada e salva em:\n{caminho_saida}\n")
-
-    except Exception as e:
-        print(f"❌ Erro crítico ao processar e salvar a análise: {e}")
+    print(f"\n🎉 TODAS AS ANÁLISES CONCLUÍDAS! Salvo em:\n{caminho_saida}")
 
 if __name__ == "__main__":
-    # COLOQUE AQUI O CAMINHO DA PASTA ONDE ESTÃO AS SUAS QUESTÕES
-    # Use o 'r' antes das aspas para que o Python entenda o formato de diretório do Windows
-    
-    caminho_alvo = r"C:\Users\cassio\Desktop\Projetos Pyhton\AprendizadoAtivo_v5\backend\questoes\Concurso\Direito Administrativo\Poderes Administrativos\questoes.json"
-    
-    gerar_analise_estatica(caminho_alvo)
+    gerar_analises_por_materia()

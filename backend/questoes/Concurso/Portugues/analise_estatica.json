@@ -1,0 +1,205 @@
+{
+  "Ortografia Oficial e Acentuação Gráfica": {
+    "assuntos_maior_incidencia": [
+      "Acentuação Gráfica (45%)",
+      "Dígrafo e Fonemas (25%)",
+      "Regra do Hiato (20%)",
+      "Uso de Porquês (10%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Confusão entre paroxítonas e proparoxítonas: A banca utiliza palavras que podem ser confundidas em sua classificação, levando o candidato a errar ao não perceber a tonicidade correta.",
+      "Uso de pronomes enclíticos: A inclusão de pronomes nos verbos pode induzir o candidato a desconsiderar a tonicidade do verbo, levando a erros na acentuação.",
+      "Acento grave e agudo: A banca apresenta palavras que podem ser confundidas quanto ao uso de acentos, como 'à' (crase) e 'é' (monossílabo tônico), levando a erros de interpretação.",
+      "Ditongos abertos: Questões que envolvem ditongos podem confundir o candidato, especialmente quando a regra de acentuação não é clara, levando a erros na identificação da tonicidade."
+    ]
+  },
+  "Classes de Palavras": {
+    "assuntos_maior_incidencia": [
+      "Classes de Palavras (45%)",
+      "Uso de Hífen (15%)",
+      "Emprego de Advérbios (20%)",
+      "Substantivação (20%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Mudança de Sentido: A banca frequentemente altera a ordem das palavras ou substitui termos, o que pode mudar o sentido original da frase, levando o candidato a escolher uma alternativa incorreta.",
+      "Ambiguidade de Termos: A utilização de palavras que podem ter mais de um significado ou função gramatical, como 'menor' e 'último', confunde o candidato, que pode não perceber a mudança de classe gramatical.",
+      "Uso de Expressões Idiomáticas: A banca utiliza expressões que podem ser interpretadas de maneiras diferentes, como 'com efeito', levando o candidato a errar ao não perceber a nuance de significado.",
+      "Negação e Positivação: Questões que envolvem a posição de advérbios de negação, como 'não', podem induzir o candidato ao erro, pois a mudança de posição altera o sentido da frase."
+    ]
+  },
+  "Colocação Pronominal": {
+    "assuntos_maior_incidencia": [
+      "Colocação Pronominal (45%)",
+      "Uso de Pronomes Relativos (30%)",
+      "Uso de Pronomes Indefinidos (15%)",
+      "Uso de Pronomes Possessivos (10%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Substituição de Pronomes: A banca frequentemente propõe a troca de pronomes por outros que parecem sinônimos, mas que não mantêm a mesma função sintática ou semântica, levando o candidato a errar.",
+      "Deslocamento de Palavras: A mudança de posição de palavras, como advérbios ou pronomes, pode alterar o sentido da frase, mas a banca apresenta isso como uma simples reescrita, confundindo o candidato.",
+      "Uso de Crase: A banca utiliza questões que envolvem a crase de forma sutil, onde a ausência ou presença do acento pode mudar o sentido da frase, levando o candidato a errar por não perceber a nuance.",
+      "Ambiguidade em Referências Pronominais: Questões que envolvem pronomes que podem se referir a mais de um termo no texto são comuns, e a banca muitas vezes não deixa claro qual é o referente correto, induzindo o candidato ao erro."
+    ]
+  },
+  "Não Classificado": {
+    "assuntos_maior_incidencia": [
+      "Pronomes relativos (43%)",
+      "Referência e coesão textual (29%)",
+      "Substituição de termos (14%)",
+      "Correção gramatical (14%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Confusão entre pronomes: A banca utiliza pronomes relativos como 'os quais' e 'a qual' para testar a compreensão do candidato sobre a referência correta, levando a erros de interpretação.",
+      "Substituição de termos: A troca de expressões como 'nas quais' por 'aonde' pode parecer uma alternativa válida, mas altera o sentido e a correção gramatical, confundindo o candidato.",
+      "Ambiguidade na referência: Questões que envolvem termos como 'o' ou 'que' podem induzir o candidato a errar ao não perceber a quem ou a quê esses pronomes se referem, criando confusão."
+    ]
+  },
+  "Emprego de Tempos e Modos Verbais": {
+    "assuntos_maior_incidencia": [
+      "Emprego de Tempos Verbais (45%)",
+      "Correlação Verbal (30%)",
+      "Modos Verbais (25%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Mudança de Tempo Verbal: A banca frequentemente troca tempos verbais, como o pretérito perfeito pelo presente, induzindo o candidato a pensar que a mudança não altera o sentido, quando na verdade pode alterar a temporalidade da ação.",
+      "Uso do Subjuntivo: A banca utiliza o modo subjuntivo em contextos que podem parecer afirmativos, levando o candidato a confundir a certeza com a incerteza, o que pode resultar em respostas erradas.",
+      "Substituição de Verbos: A troca de verbos por sinônimos que não mantêm a mesma carga temporal ou de sentido é uma armadilha comum, fazendo com que o candidato não perceba que a mudança altera a correlação ou a coerência do texto."
+    ]
+  },
+  "Sintaxe da Oração e do Período (Coordenação e Subordinação)": {
+    "assuntos_maior_incidencia": [
+      "Sintaxe da Oração (45%)",
+      "Regência Verbal e Nominal (25%)",
+      "Função Sintática (20%)",
+      "Concordância (10%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Confusão entre sujeito e complemento: A banca frequentemente apresenta questões onde o candidato deve identificar o sujeito de uma oração, mas utiliza estruturas que podem levar à confusão, como orações adjetivas ou elípticas. Isso induz o candidato a pensar que o sujeito é um termo que não é o núcleo da oração.",
+      "Uso de pronomes relativos: Questões que envolvem pronomes relativos podem ser armadilhas, pois o candidato pode confundir a função do pronome na oração, levando a uma interpretação errada sobre o que ele retoma.",
+      "Mudança de sentido com a substituição de termos: A banca apresenta reescritas de frases que parecem corretas, mas que alteram o sentido original. Isso pode fazer com que o candidato não perceba que a nova estrutura não mantém a mesma ideia.",
+      "Ambiguidade em expressões: A utilização de expressões que podem ter mais de uma interpretação é uma estratégia comum. Isso pode levar o candidato a escolher uma resposta que parece correta, mas que não se alinha com a intenção do autor."
+    ]
+  },
+  "Pontuação": {
+    "assuntos_maior_incidencia": [
+      "Uso de vírgulas em orações explicativas (30%)",
+      "Uso de vírgulas em enumerações (25%)",
+      "Uso de vírgulas em orações adverbiais (20%)",
+      "Uso de dois-pontos (15%)",
+      "Uso de travessões e parênteses (10%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Mudança de sentido: A banca frequentemente altera a posição de expressões ou segmentos, o que pode mudar o sentido original da frase, levando o candidato a acreditar que a correção gramatical é mantida.",
+      "Isolamento de adjuntos: A banca utiliza vírgulas para isolar adjuntos adverbiais, mas em alguns casos, a supressão das vírgulas altera a estrutura da frase, levando a erros de interpretação.",
+      "Confusão entre orações explicativas e restritivas: A banca apresenta questões que envolvem a mudança de uma oração de explicativa para restritiva, o que altera o sentido da frase, confundindo o candidato.",
+      "Uso de expressões expletivas: A banca utiliza expressões como 'é que' que podem ser removidas sem prejuízo do sentido, mas a sua presença pode levar a confusões sobre a estrutura da frase.",
+      "Substituição de pontuação: A banca propõe a substituição de vírgulas por outros sinais de pontuação, como ponto e vírgula ou travessões, que podem alterar a relação entre as partes da frase, induzindo o candidato ao erro."
+    ]
+  },
+  "Tipologia e Gêneros Textuais": {
+    "assuntos_maior_incidencia": [
+      "Tipologia Textual (30%)",
+      "Gêneros Textuais (20%)",
+      "Pontuação (20%)",
+      "Coerência e Coesão (15%)",
+      "Estratégias Argumentativas (15%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Confusão entre voz do autor e voz de terceiros: A banca frequentemente apresenta questões que podem levar o candidato a confundir a opinião do autor com a de outros autores citados no texto, levando a respostas incorretas.",
+      "Interpretação de parênteses e travessões: A utilização de parênteses e travessões pode ser uma armadilha, pois a banca pode sugerir que a substituição de um pelo outro não altera o sentido do texto, quando na verdade pode afetar a ênfase ou a digressão.",
+      "Diferenciação entre tipos textuais: A banca pode apresentar textos que misturam características de diferentes tipos textuais, levando o candidato a errar ao classificar o texto como predominantemente de um tipo, quando na verdade é uma combinação.",
+      "Ambiguidade em ideias centrais: Questões que abordam a relação entre ideias centrais podem induzir ao erro, pois a banca pode apresentar as ideias de forma que pareçam interligadas, quando na verdade são independentes."
+    ]
+  },
+  "Concordância Verbal e Nominal": {
+    "assuntos_maior_incidencia": [
+      "Concordância Verbal (58%)",
+      "Concordância Nominal (42%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Sujeito elíptico: A banca induz ao erro ao afirmar que o sujeito de uma oração é o mesmo em todas as orações subsequentes, quando na verdade, em muitos casos, o sujeito é elíptico ou implícito, levando o candidato a confundir a referência semântica com a estrutura sintática.",
+      "Concordância atrativa: A banca utiliza a concordância atrativa em questões onde o verbo concorda com o núcleo mais próximo, o que pode confundir candidatos que não estão atentos a essa regra, levando-os a escolher a opção errada.",
+      "Uso do pronome 'se': A banca pode usar o pronome 'se' em contextos onde o sujeito é indeterminado, mas também em verbos pronominais, o que pode confundir candidatos que não percebem a diferença entre indeterminação e a função pronominal do verbo."
+    ]
+  },
+  "Regência Verbal e Nominal": {
+    "assuntos_maior_incidencia": [
+      "Regência Verbal (45%)",
+      "Regência Nominal (30%)",
+      "Crase (25%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Confusão entre preposições: A banca frequentemente apresenta questões que envolvem a troca de preposições, como 'para' e 'a', levando o candidato a acreditar que ambas são sempre intercambiáveis, quando na verdade a regência pode variar conforme o contexto do verbo.",
+      "Omissão de preposição: Algumas questões sugerem a supressão de preposições, o que pode parecer correto à primeira vista, mas na prática altera o sentido da frase, levando o candidato a errar por não perceber a necessidade da preposição para a construção gramatical correta.",
+      "Mudança de regência: A banca utiliza questões que alteram a regência de verbos, como 'esquecer', que pode ser transitivo direto ou indireto dependendo do contexto. Isso confunde o candidato, que pode não lembrar que a regência muda com o uso pronominal.",
+      "Substituição de expressões: Questões que propõem substituir uma expressão por outra que parece similar, mas que altera a regência ou o sentido, como 'dar destaque' por 'evidenciar', induzem o candidato ao erro ao não considerar as nuances de significado."
+    ]
+  },
+  "Crase": {
+    "assuntos_maior_incidencia": [
+      "Uso da crase em locuções (25%)",
+      "Regência de verbos e preposições (25%)",
+      "Crase antes de pronomes possessivos (20%)",
+      "Crase em expressões e locuções adverbiais (20%)",
+      "Crase em fusões de preposição e artigo (10%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Crase antes de palavras masculinas: A banca frequentemente apresenta questões que induzem o candidato a acreditar que a crase pode ser utilizada antes de substantivos masculinos, quando na verdade isso é incorreto, pois a crase é a fusão de 'a' (preposição) com 'a' (artigo), e não há artigo feminino antes de substantivos masculinos.",
+      "Uso de pronomes possessivos: A banca utiliza pronomes possessivos em contextos onde a crase é facultativa, levando o candidato a confundir a obrigatoriedade do uso do acento grave. Isso gera incerteza sobre a necessidade de crase, já que a regra geral é que a crase é facultativa antes de pronomes possessivos.",
+      "Locuções adverbiais: Questões que envolvem locuções adverbiais podem confundir os candidatos, pois a crase é obrigatória em algumas expressões, mas não em outras. A banca pode apresentar locuções que parecem semelhantes, mas que têm regras diferentes quanto ao uso da crase, induzindo ao erro.",
+      "Fusões de preposição e artigo: A banca frequentemente apresenta frases onde a fusão de preposição e artigo é necessária, mas pode omitir um dos elementos, levando o candidato a errar ao não perceber que a crase é obrigatória. Isso ocorre especialmente em contextos onde a preposição é exigida por um verbo ou substantivo."
+    ]
+  },
+  "Mecanismos de Coesão Textual": {
+    "assuntos_maior_incidencia": [
+      "Coesão Textual (45%)",
+      "Referência Pronominal (30%)",
+      "Elipse (25%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Confusão de Referentes: A banca frequentemente utiliza pronomes que podem se referir a mais de um termo no texto, levando o candidato a escolher a opção errada. Por exemplo, o pronome 'sua' pode se referir a diferentes sujeitos, dependendo do contexto, o que exige atenção redobrada.",
+      "Uso de Sinônimos: A banca pode usar sinônimos ou termos relacionados que confundem o candidato sobre a verdadeira referência. Por exemplo, 'ideia' e 'noção' podem ser usados de forma intercambiável, mas a questão pode exigir uma referência específica que não é imediatamente óbvia.",
+      "Elipse de Termos: A omissão de palavras que são subentendidas pode levar a erros de interpretação. A banca pode apresentar frases onde a elipse não é clara, fazendo com que o candidato não perceba a relação entre os termos omitidos e os que estão presentes."
+    ]
+  },
+  "Reescrita de Frases e Parágrafos": {
+    "assuntos_maior_incidencia": [
+      "Reescrita de Frases (45%)",
+      "Correção Gramatical (35%)",
+      "Coesão e Coerência (20%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Mudança de Sentido: A banca frequentemente altera a estrutura de uma frase de modo que a mudança de posição de palavras ou expressões resulta em uma alteração no sentido original, levando o candidato a escolher uma alternativa incorreta.",
+      "Concordância Verbal: Questões que envolvem a concordância verbal são armadilhas comuns, onde a troca de formas verbais pode gerar erros de concordância, confundindo o candidato sobre a forma correta a ser utilizada.",
+      "Uso de Pronomes Relativos: A substituição de expressões por pronomes relativos pode induzir ao erro, pois a relação de posse ou referência pode não ser clara, levando o candidato a interpretar erroneamente o sentido da frase."
+    ]
+  },
+  "Significação das Palavras (Semântica)": {
+    "assuntos_maior_incidencia": [
+      "Coesão e Coerência (27%)",
+      "Semântica e Significado das Palavras (36%)",
+      "Ambiguidade (36%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Uso de Pronome Relativo: A banca utiliza pronomes relativos como 'que' e 'cujo' que podem ter múltiplos referentes, levando o candidato a confundir o antecedente correto.",
+      "Homonímia e Sinônimos: A banca apresenta palavras que têm significados semelhantes ou idênticos, mas que pertencem a categorias diferentes (homônimos vs. sinônimos), induzindo o candidato a errar na classificação.",
+      "Ambiguidade de Termos: A utilização de termos que podem ser interpretados de mais de uma forma, como 'militar', que pode ser um substantivo ou um verbo, confunde o candidato sobre o contexto correto.",
+      "Interpretação de Hiperônimos e Hipônimos: A banca pode confundir o candidato ao usar termos que não se encaixam corretamente nas definições de hipônimo e hiperônimo, levando a erros de classificação."
+    ]
+  },
+  "Compreensão e Interpretação de Textos": {
+    "assuntos_maior_incidencia": [
+      "Compreensão e Interpretação de Textos (45%)",
+      "Gêneros Textuais (25%)",
+      "Análise Gramatical (20%)",
+      "Argumentação e Persuasão (10%)"
+    ],
+    "pegadinhas_frequentes": [
+      "Interpretação Literal: A banca frequentemente apresenta questões que exigem interpretação além do sentido literal, levando o candidato a escolher respostas que parecem corretas à primeira vista, mas que não consideram o contexto mais amplo do texto.",
+      "Confusão de Gêneros Textuais: A banca utiliza questões que misturam características de diferentes gêneros textuais, fazendo com que o candidato confunda anedotas com autobiografias, por exemplo, levando a respostas erradas.",
+      "Uso de Ditados Populares: Questões que envolvem ditados populares podem induzir ao erro, pois a banca pode apresentar uma frase que parece se basear em um ditado, mas que na verdade altera seu significado, levando o candidato a uma interpretação equivocada.",
+      "Adjetivos Subjetivos vs. Objetivos: A banca frequentemente apresenta questões que pedem a identificação de adjetivos opinativos, mas inclui opções que podem parecer subjetivas, confundindo o candidato sobre o que realmente expressa uma opinião.",
+      "Paráfrase vs. Paródia: A banca pode usar questões que confundem os conceitos de paráfrase e paródia, levando o candidato a errar ao interpretar a intenção do autor em um diálogo ou trecho específico."
+    ]
+  }
+}

@@ -9,15 +9,31 @@ import { db } from "@/lib/firebase";
 import { doc, getDoc } from "firebase/firestore";
 import { motion } from "framer-motion";
 
-const formatarTexto = (texto: string) => {
-  if (!texto) return "";
-  const partes = texto.split(/(\*\*.*?\*\*)/g);
-  return partes.map((parte, index) => {
-    if (parte.startsWith("**") && parte.endsWith("**")) {
-      return <strong key={index} className="font-bold text-slate-900">{parte.slice(2, -2)}</strong>;
-    }
-    return parte;
-  });
+const formatarTexto = (texto: any) => {
+  if (!texto) return null;
+
+  // 1. Se o backend mandou uma LISTA (Array), nós apenas mapeamos!
+  if (Array.isArray(texto)) {
+    return (
+      <ul className="list-disc pl-5 space-y-2">
+        {texto.map((item, index) => (
+          <li key={index} className="text-sm text-slate-700">{item}</li>
+        ))}
+      </ul>
+    );
+  }
+
+  // 2. Se o backend mandou um TEXTO (String), mantemos o comportamento antigo
+  if (typeof texto === 'string') {
+    return texto.split('\n').map((linha, index) => (
+      <span key={index}>
+        {linha}
+        <br />
+      </span>
+    ));
+  }
+
+  return texto;
 };
 
 const limparTextoExportacao = (texto: string) => {
@@ -161,11 +177,11 @@ export default function RelatorioFinal() {
              <div className="space-y-6 w-full">
                 <div className="bg-blue-50/50 border-2 border-blue-200 p-6 rounded-2xl shadow-sm w-full">
                   <h3 className="text-[10px] font-black uppercase text-blue-600 tracking-widest mb-3 flex items-center gap-2"><Target size={14} /> Maior Incidência</h3>
-                  <p className="text-sm font-medium text-slate-800 leading-relaxed whitespace-pre-wrap">{typeof relatorio.analise_banca === 'object' ? formatarTexto(relatorio.analise_banca.maior_incidencia) : formatarTexto(relatorio.analise_banca || "Análise não gerada.")}</p>
+                  <div className="text-sm font-medium text-slate-800 leading-relaxed whitespace-pre-wrap">{typeof relatorio.analise_banca === 'object' ? formatarTexto(relatorio.analise_banca.maior_incidencia) : formatarTexto(relatorio.analise_banca || "Análise não gerada.")}</div>
                 </div>
                 <div className="bg-amber-50/50 border-2 border-amber-200 p-6 rounded-2xl shadow-sm w-full">
                   <h3 className="text-[10px] font-black uppercase text-amber-600 tracking-widest mb-3 flex items-center gap-2"><AlertTriangle size={14} /> Pegadinhas Frequentes</h3>
-                  <p className="text-sm font-medium text-slate-800 leading-relaxed whitespace-pre-wrap">{typeof relatorio.analise_banca === 'object' ? formatarTexto(relatorio.analise_banca.pegadinhas) : "Sem dados"}</p>
+                  <div className="text-sm font-medium text-slate-800 leading-relaxed whitespace-pre-wrap">{typeof relatorio.analise_banca === 'object' ? formatarTexto(relatorio.analise_banca.pegadinhas) : "Sem dados"}</div>
                 </div>
                 <div className="bg-purple-50/50 border-2 border-purple-200 p-6 rounded-2xl shadow-sm w-full">
                   <h3 className="text-[10px] font-black uppercase text-purple-600 tracking-widest mb-3 flex items-center gap-2"><BrainCircuit size={14} /> Seu Resultado Projetado</h3>

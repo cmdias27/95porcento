@@ -299,7 +299,7 @@ export default function Auditorio() {
            <div className="p-4 border-b-2 border-black bg-[#FFF59D] flex items-center justify-between shrink-0">
              <div className="flex items-center gap-2"><Edit3 size={16} className="text-black" /><h2 className="text-xs font-black uppercase tracking-widest text-black">Rascunho</h2></div>
            </div>
-           <textarea value={notas} onChange={(e) => setNotas(e.target.value)} placeholder="Use este espaço para anotar palavras-chave antes de gravar..." className="flex-1 w-full bg-transparent p-4 resize-none outline-none text-sm font-bold text-slate-800 placeholder-slate-500/50 custom-scrollbar leading-relaxed" />
+           <textarea value={notas} onChange={(e) => setNotas(e.target.value)} placeholder="Use este espaço para fazer suas anotações..." className="flex-1 w-full bg-transparent p-4 resize-none outline-none text-sm font-bold text-slate-800 placeholder-slate-500/50 custom-scrollbar leading-relaxed" />
         </div>
       </main>
     </div>
