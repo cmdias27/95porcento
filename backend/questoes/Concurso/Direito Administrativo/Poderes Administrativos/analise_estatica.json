@@ -1,0 +1,92 @@
+{
+  "assuntos_maior_incidencia": [
+    {
+      "posicao": 1,
+      "assunto": "Poder Regulamentar",
+      "incidencia_aproximada": 20,
+      "subtemas": [
+        "Natureza derivada",
+        "Decretos e regulamentos",
+        "Limites do poder regulamentar"
+      ]
+    },
+    {
+      "posicao": 2,
+      "assunto": "Poder de Polícia",
+      "incidencia_aproximada": 18,
+      "subtemas": [
+        "Delegação do poder de polícia",
+        "Fases do poder de polícia",
+        "Atributos do poder de polícia"
+      ]
+    },
+    {
+      "posicao": 3,
+      "assunto": "Poder Disciplinar",
+      "incidencia_aproximada": 15,
+      "subtemas": [
+        "Sanções a servidores",
+        "Diferença entre poder disciplinar e de polícia"
+      ]
+    },
+    {
+      "posicao": 4,
+      "assunto": "Abuso de Poder",
+      "incidencia_aproximada": 12,
+      "subtemas": [
+        "Excesso de poder",
+        "Desvio de poder"
+      ]
+    },
+    {
+      "posicao": 5,
+      "assunto": "Poder Hierárquico",
+      "incidencia_aproximada": 10,
+      "subtemas": [
+        "Relação de subordinação",
+        "Distribuição de funções"
+      ]
+    },
+    {
+      "posicao": 6,
+      "assunto": "Poder Vinculado e Discricionário",
+      "incidencia_aproximada": 10,
+      "subtemas": [
+        "Conveniência e oportunidade",
+        "Limites legais"
+      ]
+    }
+  ],
+  "pegadinhas_frequentes": [
+    {
+      "posicao": 1,
+      "pegadinha": "Confusão entre Poder Disciplinar e de Polícia",
+      "incidencia_aproximada": 10,
+      "detalhe": "A banca tenta confundir o candidato ao misturar situações que envolvem sanções a servidores (poder disciplinar) com sanções a particulares (poder de polícia)."
+    },
+    {
+      "posicao": 2,
+      "pegadinha": "Delegação do Poder de Polícia",
+      "incidencia_aproximada": 8,
+      "detalhe": "Questões que tratam da possibilidade de delegação do poder de polícia a entidades privadas, confundindo os candidatos sobre os limites e condições dessa delegação."
+    },
+    {
+      "posicao": 3,
+      "pegadinha": "Excesso vs. Desvio de Poder",
+      "incidencia_aproximada": 8,
+      "detalhe": "A banca apresenta situações de abuso de poder e confunde os candidatos entre excesso de poder (competência) e desvio de poder (finalidade)."
+    },
+    {
+      "posicao": 4,
+      "pegadinha": "Natureza do Poder Regulamentar",
+      "incidencia_aproximada": 7,
+      "detalhe": "Confusão sobre a natureza derivada do poder regulamentar e sua limitação em não inovar o ordenamento jurídico."
+    },
+    {
+      "posicao": 5,
+      "pegadinha": "Poder Hierárquico e Subordinação",
+      "incidencia_aproximada": 7,
+      "detalhe": "Questões que confundem a relação de subordinação hierárquica com a vinculação entre administração direta e indireta."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "assuntos_maior_incidencia": [
+    {
+      "posicao": 1,
+      "assunto": "Atributos dos Atos Administrativos",
+      "incidencia_aproximada": 20,
+      "subtemas": [
+        "Presunção de Legitimidade",
+        "Imperatividade",
+        "Autoexecutoriedade",
+        "Tipicidade"
+      ]
+    },
+    {
+      "posicao": 2,
+      "assunto": "Teoria dos Motivos Determinantes",
+      "incidencia_aproximada": 15,
+      "subtemas": [
+        "Motivação de Atos",
+        "Vinculação aos Motivos"
+      ]
+    },
+    {
+      "posicao": 3,
+      "assunto": "Extinção dos Atos Administrativos",
+      "incidencia_aproximada": 15,
+      "subtemas": [
+        "Anulação",
+        "Revogação",
+        "Cassação"
+      ]
+    },
+    {
+      "posicao": 4,
+      "assunto": "Elementos dos Atos Administrativos",
+      "incidencia_aproximada": 10,
+      "subtemas": [
+        "Competência",
+        "Finalidade",
+        "Forma",
+        "Motivo",
+        "Objeto"
+      ]
+    },
+    {
+      "posicao": 5,
+      "assunto": "Convalidação de Atos Administrativos",
+      "incidencia_aproximada": 10,
+      "subtemas": [
+        "Vícios Sanáveis",
+        "Efeitos Retroativos"
+      ]
+    },
+    {
+      "posicao": 6,
+      "assunto": "Classificação dos Atos Administrativos",
+      "incidencia_aproximada": 10,
+      "subtemas": [
+        "Atos Vinculados",
+        "Atos Discricionários"
+      ]
+    },
+    {
+      "posicao": 7,
+      "assunto": "Silêncio Administrativo",
+      "incidencia_aproximada": 5,
+      "subtemas": [
+        "Controle Judicial",
+        "Omissão Administrativa"
+      ]
+    }
+  ],
+  "pegadinhas_frequentes": [
+    {
+      "posicao": 1,
+      "pegadinha": "Confusão entre Atributos",
+      "incidencia_aproximada": 10,
+      "detalhe": "A banca confunde atributos como imperatividade e autoexecutoriedade, levando o candidato a erro."
+    },
+    {
+      "posicao": 2,
+      "pegadinha": "Teoria dos Motivos Determinantes",
+      "incidencia_aproximada": 8,
+      "detalhe": "A banca sugere que a teoria não se aplica a atos discricionários ou não motivados, o que é incorreto."
+    },
+    {
+      "posicao": 3,
+      "pegadinha": "Revogação vs Anulação",
+      "incidencia_aproximada": 8,
+      "detalhe": "Confusão entre os conceitos de revogação (ato válido) e anulação (ato ilegal)."
+    },
+    {
+      "posicao": 4,
+      "pegadinha": "Convalidação de Vícios",
+      "incidencia_aproximada": 7,
+      "detalhe": "Sugere que todos os vícios podem ser convalidados, ignorando os vícios insanáveis."
+    },
+    {
+      "posicao": 5,
+      "pegadinha": "Silêncio Administrativo",
+      "incidencia_aproximada": 5,
+      "detalhe": "Induz a pensar que o silêncio administrativo não pode ser questionado judicialmente."
+    },
+    {
+      "posicao": 6,
+      "pegadinha": "Competência Exclusiva",
+      "incidencia_aproximada": 5,
+      "detalhe": "Confunde competência exclusiva com competência delegável, levando a erro sobre convalidação."
+    },
+    {
+      "posicao": 7,
+      "pegadinha": "Presunção de Legitimidade",
+      "incidencia_aproximada": 5,
+      "detalhe": "Sugere que a presunção de legitimidade é absoluta, quando na verdade pode ser contestada."
+    }
+  ]
+}

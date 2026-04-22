@@ -1,0 +1,401 @@
+{
+  "questoes": [
+    {
+      "tipo": "Múltipla Escolha",
+      "enunciado": "No que se refere aos poderes da administração pública, julgue os itens subsecutivos. I. Configura-se excesso de poder quando o agente atua dentro da sua esfera de competência, mas com fim diverso ao interesse público. II. O poder regulamentar é de natureza derivada e formalizado por meio de decretos e regulamentos. III. A autoexecutoriedade é a característica do poder de polícia por meio da qual se demonstra o grau de imperatividade de que se revestem os atos de polícia, tendo a administração o poder de usar a força se necessária para vencer eventual resistência ao cumprimento de suas ordens. Assinale a opção correta.",
+      "alternativas": {
+        "A": "Apenas o item I está certo.",
+        "B": "Apenas o item II está certo.",
+        "C": "Apenas os itens I e III estão certos.",
+        "D": "Apenas os itens II e III estão certos.",
+        "E": "Todos os itens estão certos."
+      },
+      "gabarito": "B",
+      "comentario": "O item I está incorreto. A situação descrita, em que o agente atua dentro de sua competência, mas com finalidade diversa do interesse público, configura abuso de poder na modalidade desvio de poder (ou desvio de finalidade). O item II está correto. O poder regulamentar, que consiste na competência do Chefe do Executivo para expedir normas gerais e abstratas para a fiel execução da lei, é considerado de natureza derivada, pois não inova o ordenamento jurídico (com as leis), sendo formalizado por meio de decretos e regulamentos. O item III está incorreto. A autoexecutoriedade é o atributo pelo qual o ato administrativo pode ser executado pela própria Administração, independentemente de prévia autorização judicial, não se confundindo com a coercibilidade, mencionada no enunciado. Gabarito (B)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "A outorga de um poder administrativo contrasta com uma postura de inércia do agente público, dado que tais poderes são irrenunciáveis.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "O item está correto. Quando a lei outorga poderes a um agente público, este deve exercer o poder que recebeu, não podendo se omitir ou ficar inerte. É o que se chama de poder-dever de agir, sendo atribuições irrenunciáveis. Gabarito (C)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "A invalidação da conduta administrativa que incorre em excesso de poder deve ocorrer, necessariamente, em âmbito judicial.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "O item está errado. Por força da autotutela, a Administração pública também pode invalidar esse ato, sem necessariamente envolver a via judicial. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "O poder regulamentar decorre da função normativa, ainda que em caráter derivado, considerada a natureza complementar em relação às leis, a exemplo de resoluções, portarias e instruções normativas.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "O item está correto. O poder regulamentar é a prerrogativa da Administração Pública para editar normas que visam complementar as leis, garantindo sua fiel execução. Vale lembrar que a doutrina em geral considera que o poder regulamentar (restrito ao chefe do Poder Executivo) deriva do poder normativo (mais amplo e pode ser usado por autoridades administrativas em geral). Gabarito (C)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Segundo a jurisprudência do STF, o poder de polícia fragmenta-se em cinco etapas: ordem, consentimento, fiscalização, apuração e sanção, sendo somente a última impassível de delegação a pessoa jurídica de direito privado.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "O item está duplamente errado. Segundo o STF (Tema de Repercussão Geral 532), a única fase indelegável é a ordem de polícia, por representar a própria função legislativa. Além disso, a doutrina majoritária defende que o poder de polícia se fragmenta em 4 etapas: ordem, consentimento, fiscalização e sanção. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Segundo jurisprudência mais recente do STF, as fases de ordem, consentimento, fiscalização e sanção do poder de polícia são todas delegáveis em situações excepcionais.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "O item está incorreto. Conforme entendimento do STF no tema 532, é constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial. No entanto, entendeu o STF que a ordem de polícia é fase do ciclo de polícia que é absolutamente indelegável. Gabarito (Errado)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "No exercício do poder regulamentar, pode o chefe do Poder Executivo tanto baixar um decreto para fiel execução da lei, quanto dispor, também por meio de decreto, sobre organização e funcionamento da administração federal, mesmo que isso implique aumento de despesa, criação ou extinção de órgãos públicos.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "O item está incorreto, pois decretos não podem dispor sobre organização e funcionamento da administração quando isso implicar em aumento de despesas, criação ou extinção de órgãos, conforme prevê o Art. 84, inciso VI, alínea a, da Constituição Federal de 1988. CF/88, Art. 84 - Compete privativamente ao Presidente da República: VI – Dispor, mediante decreto, sobre: a) organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos; Gabarito (Errado)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "É constitucional que a administração pública delegue poder de polícia a uma sociedade de economia mista de capital social majoritariamente público para fins de aplicação de multas de trânsito.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "O item está de acordo com entendimento do STF, pela constitucionalidade da delegação do poder de polícia a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público, atendidos os seguintes requisitos: STF, Tema 532 - É constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial. Embora o enunciado não esteja completo, pois não citou todos os requisitos aplicáveis, não está incorreto. Além disso, das 4 fases do poder de polícia, o STF entendeu que apenas a fase de legislação não poderia ser delegada, de modo que a fase de sanção (que envolve a aplicação de multas) poderia ser delegada, atendidos os requisitos transcritos acima. Gabarito (Certo)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Considera-se manifestação do poder hierárquico a faculdade de a administração pública punir internamente infrações praticadas por seus servidores e demais pessoas sujeitas à disciplina administrativa de seus órgãos e serviços.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "O item está incorreto, pois nesse caso há manifestação do poder disciplinar que consiste no poder-dever de aplicar sanções e penalidades a pessoas que estejam vinculadas à disciplina da Administração Pública, tais como servidores. O poder hierárquico, por sua vez, refere-se à prerrogativa de distribuir e escalonar as funções dos órgãos da Administração Pública, e de ordenar e rever a atuação dos agentes, por meio de uma relação de subordinação. Gabarito (E)"
+    },
+    {
+      "tipo": "Múltipla Escolha",
+      "enunciado": "No estado do Paraná, foi publicada uma lei prevendo regras específicas funcionais relacionadas aos servidores do Poder Executivo estadual. O governador do estado, então, editou um decreto com maior detalhamento das previsões estabelecidas na lei, visando à sua execução. Considerando a situação hipotética precedente, assinale a opção que corresponde ao poder da administração que fundamenta a atuação do chefe do Poder Executivo estadual no caso.",
+      "alternativas": {
+        "A": "poder disciplinar",
+        "B": "poder de polícia",
+        "C": "poder de mando",
+        "D": "poder regulamentar",
+        "E": "poder hierárquico"
+      },
+      "gabarito": "D",
+      "comentario": "A letra (A) está incorreta. O poder disciplinar refere-se à capacidade de a administração aplicar sanções a seus servidores e subordinados por infrações cometidas no exercício de suas funções, o que não se aplica ao caso. A letra (B) está incorreta. O poder de polícia relaciona-se ao controle do exercício de direitos individuais em favor do interesse público, como a fiscalização e regulação de atividades privadas, o que não se aplica ao contexto da criação de normas complementares à execução de uma lei. A letra (C) está incorreta. O \"poder de mando\" não é um poder administrativo reconhecido doutrinariamente. A atuação do Executivo não envolve \"mandar\", mas sim regulamentar, organizar, e fiscalizar conforme a lei. A letra (D) está correta. O poder regulamentar é o poder da administração que permite ao chefe do Poder Executivo editar decretos e regulamentos para detalhar e viabilizar a execução das leis. No caso apresentado, o governador utiliza esse poder para expedir normas complementares que dão eficácia às regras previstas na lei estadual, sem inovar na ordem jurídica, apenas detalhando e organizando sua aplicação prática. A letra (E) está incorreta. O poder hierárquico refere-se à organização da administração interna, incluindo delegação e avocação de competências, e controle sobre subordinados, não sendo o fundamento para expedição de decretos regulamentares. Gabarito (D)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Os poderes administrativos outorgados aos agentes públicos são irrenunciáveis.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "Questão correta, conforme Marcelo Alexandrino1, o poder do agente público é revestido de natureza de dever. Assim, se a legislação confere ao agente público um poder para desempenhar suas atribuições, tal gestor tem o dever de agir (Poder-dever de agir). Como decorrência desse poder-dever da administração pública, os poderes administrativos são irrenunciáveis e devem ser obrigatoriamente exercidos pelos titulares. Gabarito (C)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "O poder regulamentar exercido pela administração pública é de natureza secundária, dado que está condicionado à existência de lei preexistente.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "Questão dada como correta. As leis são atos normativos primários, pois retiram o seu fundamento de validade diretamente da constituição. De outro modo, o poder regulamentar da administração pública, em regra, é de natureza derivada (e não originária), visando à produção de atos normativos secundários. Em decorrência desta natureza derivada, como regra geral, o poder regulamentar da Administração não pode inovar o ordenamento jurídico, devendo ser exercido sem contrariar a lei preexistente sobre o tema. Gabarito (C)"
+    },
+    {
+      "tipo": "Múltipla Escolha",
+      "enunciado": "Configura exemplo de aplicação do poder hierárquico na administração pública",
+      "alternativas": {
+        "A": "a distribuição de funções dentro da organização administrativa.",
+        "B": "a instituição de novos tributos sem aprovação legislativa, desde que em situação emergencial.",
+        "C": "a aplicação de sanções penais a servidores públicos.",
+        "D": "a realização de atividades de policiamento ostensivo.",
+        "E": "o ato de legislar sobre temas específicos sem aprovação do Congresso Nacional."
+      },
+      "gabarito": "A",
+      "comentario": "A letra (A) está correta, Segundo Hely Lopes Meirelles, o poder hierárquico é aquele que permite à administração pública distribuir e escalonar funções entre seus órgãos, ordenar e rever a atuação de seus agentes, estabelecer a relação de subordinação entre os servidores de seu quadro. A letra (B) está incorreta, o poder hierárquico tem poder apenas para editar atos normativos de efeitos internos, com objetivo de ordenar a atuação dos órgãos subordinados. No caso em apreço, não é possível a instituição de novos tributos com base no poder hierárquico, pois geraria efeitos externos à Administração. A letra (C) está incorreta, o poder hierárquico contempla apenas infrações disciplinares a servidores públicos, não abrangendo as sanções de natureza penal. A letra (D) está incorreta, a realização de policiamento ostensivo está relacionada ao Poder de Polícia. A letra (E) está incorreta, a competência de legislar sobre temas específicos sem aprovação do Congresso Nacional está relacionada ao Poder Regulamentar. Gabarito (A)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Os decretos, como produto do poder regulamentar da administração pública, dependem de autorização do Poder Legislativo para terem validade.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "Questão incorreta. O poder regulamentar, em regra, manifesta-se na forma de Decretos, emitidos pelo Chefe do Poder Executivo naquela esfera de governo (ou seja, pelo Presidente da República, Governador ou Prefeito). Portanto, sem necessidade de autorização do Poder Legislativo, uma vez que os decretos regulamentares se limitam a detalhar direitos e obrigações já criados pela lei, sendo, por isso, chamados de atos normativos secundários. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Os recursos administrativos decorrem do exercício do poder de polícia.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "Questão incorreta, pois não há causalidade entre os recursos administrativos e o exercício do poder de polícia. Maria Sylvia Zanella Di Pietro define o recurso hierárquico como o “pedido de reexame do ato dirigido à autoridade superior à que proferiu o ato”. Em regra, os recursos administrativos próprios decorrem do próprio poder hierárquico, por isso, não precisam estar previstos em lei. De forma oposta, os recursos administrativos impróprios são aqueles em que a autoridade ou órgão revisor não está hierarquicamente acima da autoridade e dependem de previsão legal expressa. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "A discricionariedade existe como poder autônomo, na medida em que permite que um órgão administrativo aprecie, de forma autônoma, determinada situação não regulamentada.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "Questão incorreta, uma vez que o poder discricionário tem sua atuação regulamentada em lei. Nesse contexto, a lei estabelece limites para a atuação administrativa do poder discricionário. Mas, dentro destes limites, o administrador público poderá fazer seu juízo de valor, decidindo quanto à conveniência e oportunidade da prática daquele ato. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "A administração pública, no exercício do poder de polícia, regulamenta as leis e controla sua aplicação, preventivamente, por meio de ordens, notificações, licenças ou autorizações.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "Questão correta, a alternativa guarda semelhança com a definição de Administração Pública dada por Maria Sylvia Zanella Di Pietro2: A Administração Pública, no exercício da parcela que lhe é outorgada do mesmo poder, regulamenta as leis e controla a sua aplicação, preventivamente (por meio de ordens, notificações, licenças ou autorizações) ou repressivamente (mediante imposição de medidas coercitivas). Gabarito (C)"
+    },
+    {
+      "tipo": "Múltipla Escolha",
+      "enunciado": "A respeito do poder regulamentar da administração pública, assinale a opção correta.",
+      "alternativas": {
+        "A": "São essencialmente distintos o poder regulamentar e o poder normativo da administração pública.",
+        "B": "No caso de ato normativo que exceda o poder regulamentar da administração pública, pode o Congresso Nacional sustar o ato, mediante decreto legislativo, sem prejuízo do controle judicial.",
+        "C": "O produto do poder regulamentar são apenas os decretos regulamentares.",
+        "D": "O entendimento da doutrina administrativista é unânime no sentido de que o poder público não pode criar direitos e obrigações por meio de decreto."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa (A) está incorreta. Os poderes regulamentar e normativo da Administração não são essencialmente distintos, pois a doutrina majoritária entende que um é gênero e o outro é espécie. O poder normativo é a prerrogativa da Administração de editar atos de teor normativo por diversas autoridades (ex.: Resoluções, Portarias, Atos, Ordens de Serviço etc.). Já o poder regulamentar se restringe à edição de decretos pelo chefe do Poder Executivo, sejam eles regulamentares ou autônomos. A alternativa (B) está correta. Quando o Poder Executivo extrapola de seu poder regulamentar, o Congresso Nacional poderá sustar o ato violador, mediante decreto legislativo: Art. 49. É da competência exclusiva do Congresso Nacional: V - sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa; A alternativa (C) está incorreta. O produto do poder regulamentar não é apenas o decreto regulamentar, visto que também engloba a prática dos decretos autônomos nas hipóteses do art. 84, VI, da CF. A alternativa (D) está incorreta. Em primeiro lugar, não há unanimidade quanto a este ponto. De modo específico, por meio dos decretos autônomos a Administração poderia inovar o mundo jurídico, desde que limitadamente às hipóteses do art. 84, VI, da CF. Ou seja, não poderia a Administração dispor de maneira ampla a respeito de qualquer assunto mediante decreto autônomo, mas tão somente nas restritas hipóteses constitucionalmente previstas. Gabarito (B)"
+    },
+    {
+      "tipo": "Múltipla Escolha",
+      "enunciado": "A prerrogativa da administração pública para investigar e punir agentes públicos em decorrência de infração funcional decorre do poder",
+      "alternativas": {
+        "A": "de polícia.",
+        "B": "disciplinar.",
+        "C": "hierárquico.",
+        "D": "normativo.",
+        "E": "vinculado."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa (B) está correta. A prerrogativa da Administração Pública de punir as infrações funcionais de seus agentes deriva imediatamente do poder disciplinar, haja vista que essa modalidade de poder administrativo consiste no poder-dever de a Administração prezar pelo bom cumprimento de suas normas internas e, por conseguinte, punir os infratores. Quanto à alternativa (A) , não se trata de poder de polícia, visto que este configura-se quando do exercício do poder de império pelo Estado sobre o particular (e não sobre o agente público), de modo a limitar sua esfera jurídica com base no interesse público. Gabarito (B)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "A polícia administrativa e a polícia judiciária, que incidem sobre a liberdade das pessoas, são equivalentes.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "A polícia administrativa não se confunde com a judiciária. Inicialmente, a polícia administrativa é o conjunto de normas, órgãos e ações do Estado que restringem o exercício dos direitos individuais pelos particulares, tendo como exemplo a fiscalização de trânsito, a vigilância sanitária, a autorização e fiscalização das normas de atividade comercial. Por sua vez, a polícia judiciária é a instituição responsável pela identificação e investigação de infrações penais, a fim de se facilitar a persecução penal sobre os indivíduos. Gabarito (ERRADO)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "O abuso de poder é gênero do qual são espécies o desvio de poder (ou desvio de finalidade) e o excesso de poder.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "O abuso de poder é gênero que contém duas principais espécies: o excesso de poder (ultrapassa suas atribuições) e desvio de poder (desvia-se das finalidades administrativas). Portanto, o desvio de poder configura-se quando a autoridade praticante do ato é competente para praticá-lo, mas o faz almejando um fim diverso daquele previsto em lei, tornando o ato nulo (ex.: mudança da lotação de um servidor, baseada na necessidade de serviço em outro local, quando o real intuito é persegui-lo). Já o excesso de poder ocorre quando, de início, a autoridade é competente sobre o ato, mas o pratica além do que sua competência abrange. Gabarito (CERTO)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "O dever de eficiência dos agentes públicos, além de preconizar atuação de forma econômica e célere, deve ser considerado na interpretação das normas aplicáveis à administração pública.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "Nos termos do art. 37, caput, da CF, o princípio da eficiência – adicionado ao texto constitucional pela EC 19/1998 – aplica-se a toda a Administração Pública de todos os Poderes dos entes da Federação. Além disso, seu conteúdo normativo preceitua que a atuação dos agentes públicos deve sempre ser pautada pelo princípio da eficiência (atuação de forma econômica e célere), também sendo considerado na interpretação de outras normas aplicáveis à administração. Gabarito (CERTO)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Admite-se a delegação de poder de polícia administrativa, instituída por lei, a pessoas jurídicas de direito privado que integrem a administração pública indireta, cujo capital social seja majoritariamente público, e prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "A Banca exigiu entendimento do STF (RE 633.782/MG - tema 532), no sentido de ser possível delegar a entidades públicas de direito privado o exercício do poder de polícia, desde que atendidos os seguintes requisitos: delegação por meio de lei; pessoa de direito privado que integre a Administração Pública; capital social seja majoritariamente público; prestação de serviço público de atuação própria do Estado; e regime não concorrencial. Gabarito (C)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Por meio do poder regulamentar, cabe à administração pública criar mecanismos de complementação das leis, a fim de possibilitar a sua efetiva aplicabilidade.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "É isso mesmo! O poder regulamentar clássico consiste na edição de decretos que vão complementar a lei, a fim de permitir sua fiel execução. Gabarito (C)"
+    },
+    {
+      "tipo": "Múltipla Escolha",
+      "enunciado": "A prerrogativa da autoridade pública competente de eleger, entre as condutas possíveis, a que represente maior conveniência e oportunidade ao interesse público decorre do poder",
+      "alternativas": {
+        "A": "discricionário.",
+        "B": "finalístico.",
+        "C": "controlador.",
+        "D": "vinculante.",
+        "E": "impessoal."
+      },
+      "gabarito": "A",
+      "comentario": "Questão “direta”, exigindo conhecimento sobre o poder discricionário, por meio do qual a Administração pode praticar atos administrativos com certa liberdade de escolha. Gabarito (A)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "O poder que a administração possui de intervir na órbita particular para resguardar o interesse público, limitando direitos individuais, é denominado poder disciplinar.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "Quando se fala em intervenção na órbita particular e em restrição ou limitação de direitos individuais em prol do interesse público devemos pensar logo em poder de polícia. Observe também que a expressão “particular” aqui é usada de forma geral. No poder disciplinar, por outro lado, a aplicação de medidas sancionatórias será sempre direcionada aos servidores públicos ou aos particulares que possuam vínculo com a Administração. Gabarito (errada)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Eventual abuso do poder regulamentar pelo Poder Executivo sujeita o transgressor ao controle jurisdicional e ao exercício da competência extraordinária do Poder Legislativo para sustar os atos administrativos dele decorrentes.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "O examinador, ao elaborar a questão, claramente se baseou no seguinte julgado do STF: O abuso de poder regulamentar, especialmente nos casos em que o Estado atua contra legem ou praeter legem, não só expõe o ato transgressor ao controle jurisdicional, mas viabiliza, até mesmo, tal a gravidade desse comportamento governamental, o exercício, pelo Congresso Nacional, da competência extraordinária que lhe confere o art. 49, V, da Constituição da República e que lhe permite “sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar (…)”. Doutrina. Precedentes (RE 318.873 AgR/SC, rel. min. Celso de Mello, v.g.). Plausibilidade jurídica da impugnação à validade constitucional da Instrução Normativa STN 1/2005. [AC 1.033 AgR-QO, rel. min. Celso de Mello, j. 25-5-2006, P, DJ de 16-6-2006.] Primeiramente, o controle jurisdicional é o controle exercido pelo Poder Judiciário sobre atos da administração. Conforme princípio da inafastabilidade de jurisdição, “a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito” (CF, art. 5º, XXXV). No caso em questão, se o Poder Executivo emite ato que vai além do poder regulamentar, esse ato poderá ser submetido ao controle jurisdicional, pois se trata de ato ilegal. Além disso, o ato que excede o poder regulamentar também se submete a um outro tipo de controle, previsto expressamente pela Constituição Federal dentro das competências do Poder Legislativo: CF, art. 49. É da competência exclusiva do Congresso Nacional: V - sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa; Dessa forma, a questão está correta. Gabarito (correta)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Consubstancia-se poder de polícia a retenção temporária de mercadorias em sede de fiscalização fazendária.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "Exato! A retenção temporária de mercadorias pela fiscalização fazendária é sim um exemplo do exercício do poder de polícia. Nesse tipo de ato, o Estado utiliza seu poder de império para restringir ou condicionar os direitos individuais em prol da coletividade. Gabarito (correta)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "A punição por ato infracional praticado por servidor público configura exercício do poder de polícia administrativo.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "A punição a servidor público caracteriza manifestação do poder disciplinar, não do poder de polícia. O poder de polícia é aquele que permite a apuração de infrações e aplicação de sanções a particulares em geral, a exemplo da aplicação de uma multa de trânsito. Relembrando: Sanção a servidor público → poder disciplinar e hierárquico. Sanção a particulares com vínculo específico → poder disciplinar. Sanção a particulares em geral → poder de polícia. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Ato praticado de forma abusiva e com finalidade diversa daquela atribuída pela lei é configurado como excesso de poder.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "O item está incorreto, pois confunde \"desvio de poder\" com \"excesso de poder\". Relembrando: Abuso de poder é gênero que comporta duas espécies: Desvio de Poder → vício de finalidade; Excesso de Poder → vício de competência. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "A discricionariedade é um dos atributos do poder de polícia, mas não se faz presente, por exemplo, na concessão de alvarás de construção e de licenças para dirigir veículos.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "De fato, alvará de construção e licença para conduzir veículos são ambos atos vinculados. Portanto, embora sejam atos de polícia, fogem à regra geral e, assim, não possuem discricionariedade. Gabarito (C)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "O poder disciplinar não abrange as sanções impostas a particulares que não estejam sujeitos à disciplina interna da administração; nesse caso, as medidas punitivas encontram fundamento no poder de polícia.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "É isso mesmo! É o poder disciplinar que legitima a aplicação de sanções impostas àqueles sujeitos à disciplina interna da Administração. O poder de polícia, a seu turno, legitimaria a aplicação de sanções a particulares em geral, ou seja, àqueles não sujeitos à sua disciplina interna. Gabarito (C)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Determinado agente da Polícia Federal revelou um segredo sobre uma operação policial que seria realizada para deter uma quadrilha de traficantes. Ele havia se apropriado desse segredo em razão do seu cargo. Tendo a operação fracassado, a administração da Polícia recebeu uma denúncia sobre o ocorrido e abriu processo administrativo disciplinar contra o referido servidor. Considerando essa situação hipotética, julgue o item subsequente. O processo aberto contra o servidor caracteriza poder de polícia administrativo.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "A apuração de infrações e a aplicação de sanções a servidores públicos, como no caso, caracterizam manifestação imediata do poder disciplinar. O poder de polícia é aquele que permite a apuração de infrações e aplicação de sanções a particulares em geral, a exemplo da aplicação de uma multa de trânsito. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "O ato regulamentar poderá impor obrigações e direitos, desde que estes não sejam contrários à lei que tiver ensejado a sua prática.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "Sabemos que, em regra, o poder regulamentar da administração pública é de natureza derivada, visando à produção de atos normativos secundários e, por conseguinte, como regra geral, não poderá inovar o ordenamento jurídico (isto é, criar direitos, impor obrigações), devendo ser exercido sem contrariar a lei. Ocorre que parte da doutrina3 defende que decretos regulamentares poderiam criar obrigações subsidiárias (ou derivadas) – diversas das obrigações primárias (ou originárias) contidas na lei. Seria o caso, por exemplo, de uma lei que concede benefício mediante a comprovação de que a pessoa seja de baixa renda (obrigação primária) e o decreto regulamentar poderia indicar quais documentos o administrado deve apresentar (obrigação derivada) para fazer jus ao benefício legal. O erro do item, no entanto, é dizer que tais obrigações podem ser criadas mediante decreto “desde que estes não sejam contrários à lei”. Isto porque não basta não serem contrárias à lei, tais obrigações subsidiárias devem ser reflexo direto do que consta do texto legal. Fosse apenas “não contrariar a lei”, o decreto acabaria impondo uma obrigação “nova”, visto que aquela não estaria expressa no texto da lei. O erro é sutil, mas percebam que se exige uma correlação mais estrita, mais direta, entre o que prevê a lei (obrigação primária) e o regulamento editado (obrigação subsidiária). Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "O poder de polícia administrativa é indelegável a particulares e entre órgãos.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "O item se equivoca ao mencionar a indelegabilidade entre órgãos públicos. Apesar de a doutrina majoritária defender não ser possível delegação do poder de polícia a particulares4, a lei poderá delegar o poder de polícia a outros entes públicos, sejam de direito público e, atendidos determinados requisitos, a entidades de direito privado pertencentes à Administração. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "O corpo de bombeiros de determinada cidade, em busca da garantia de máximo benefício da coletividade, interditou uma escola privada, por falta de condições adequadas para a evacuação em caso de incêndio. Nesse caso, a atuação do corpo de bombeiros decorre imediatamente do poder disciplinar, ainda que o proprietário da escola tenha direito ao prédio e a exercer o seu trabalho.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "O item se equivoca na medida em que apresenta manifestação do poder de polícia (e não disciplinar). Isto porque a escola privada consiste em particular que não possui vínculo específico com o poder público. Assim, não há que se falar em exercício do poder disciplinar em face da escola. Além disso, percebam que o poder público está atuando na defesa da segurança da coletividade de alunos daquela escola (interesse público), ainda que contrarie interesse individual da escola. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Um tenente da Marinha do Brasil determinou que um grupo de soldados realizasse a limpeza de um navio, sob pena de sanção se descumprida a ordem. Nesse caso, o poder a ser exercido pelo tenente, em caso de descumprimento de sua ordem, é disciplinar e deriva do poder hierárquico.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "De fato, o tenente emitiu uma ordem, um comado, a outros agentes públicos que lhe eram subordinados, o que seria exemplo claro de manifestação do poder hierárquico. Reparem, no entanto, que a questão versa sobre a aplicação de sanção no caso de descumprimento de ordem. Aí sim, teremos, neste caso, a manifestação do poder disciplinar. De outro lado, igualmente está correta a afirmação de que, nesta situação, o poder disciplinar deriva do hierárquico, visto que a sanção será aplicada por autoridade em escalão hierárquico superior ao do servidor. Pode-se dizer que a sanção ao servidor decorre do poder disciplinar (de maneira imediata) e do poder hierárquico (de maneira mediata, derivada). Gabarito (C)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "A polícia judiciária é repressiva e está adstrita aos órgãos e agentes do Poder Judiciário, enquanto a polícia administrativa é preventiva e está disseminada pelos órgãos da administração pública.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "O erro da questão está em afirmar que a polícia judiciária está adstrita ao Poder Judiciário. Ao contrário, os órgãos e agentes da polícia judiciária são do Poder Executivo, a exemplo da polícia civil e da polícia federal. Além deste erro evidente, poderíamos argumentar que a polícia administrativa, embora seja preventiva como regra geral, pode também atuar em caráter repressivo, a exemplo da aplicação de multas de trânsito a motoristas infratores. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "O desvio de poder ocorre quando o ato é realizado por agente público sem competência para a sua prática.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "A questão tentou confundir o candidato entre as duas modalidades do abuso de poder. O desvio de poder consiste, na verdade, no vício do elemento finalidade dos atos administrativos, sendo também denominado de abuso por desvio de finalidade. O agente público que age fora de sua competência comete excesso de poder. Para não errar na hora da prova, lembrem-se que Abuso é o gênero, que comporta duas espécies: Desvio de Poder → vício de finalidade; Excesso de Poder → vício de competência. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "O abuso de poder pode ocorrer tanto na forma comissiva quanto na omissiva, uma vez que, em ambas as hipóteses, é possível afrontar a lei e causar lesão a direito individual do administrado.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "A questão está correta. Poderá ocorre abuso de poder tanto na ação estatal (conduta comissiva) quanto na omissão estatal (ação omissiva). Se, por exemplo, a legislação determina expressamente e até estipula prazo para que a administração atue, o gestor que se nega a agir (conduta omissiva), poderá responder por abuso de poder, na sua forma omissiva. Gabarito (C)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Em razão da discricionariedade do poder hierárquico, não são considerados abuso de poder eventuais excessos que o agente público, em exercício, sem dolo, venha a cometer.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "A caracterização do abuso de poder não requer que o agente público atue com dolo. Imaginem que determinado ato normativo obrigava o gestor de um hospital público a repassar dados de procedimentos hospitalares ao Ministério da Saúde, mas este gestor deixou de tomar tal providência. Nesta situação, não é necessário avaliar se a omissão do gestor foi dolosa ou culposa. Se o gestor deveria ter adotado uma conduta em determinado prazo e acaba deixando de agir daquela forma, mesmo de maneira não intencional, terá cometido abuso de autoridade. Hely Lopes Meirelles5 destaca, inclusive, a possibilidade de termos ato omissivo (decorrente da inércia da administração) na modalidade culposa. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Poder discricionário corresponde à prerrogativa do gestor público de avaliar a conveniência e a oportunidade de praticar determinado ato administrativo.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "Questão sem grandes dificuldades que descreve o elemento marcante do poder discricionário: a valoração da conveniência e oportunidade da prática de um ato (mérito administrativo). Gabarito (C)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "A contratação de prestação de serviços de manutenção predial está dentro da esfera do poder discricionário da administração.",
+      "alternativas": {},
+      "gabarito": "Certo",
+      "comentario": "Questão interessante! Perguntem-se: existe algum comando normativo que obrigue o gestor a contratar o serviço de “manutenção predial” com empresas do mercado? A resposta é negativa. Ao decidir pela forma de realizar os reparos e a conservação de um edifício público o gestor poderia optar entre se socorrer dos próprios servidores ou contratar terceiros para tanto. Como existe a possibilidade de o gestor decidir a respeito, realmente trata-se de assunto inserido na esfera do poder discricionário da Administração. Gabarito (C)"
+    },
+    {
+      "tipo": "Múltipla Escolha",
+      "enunciado": "Com relação aos poderes administrativos, a prerrogativa da administração pública de editar atos normativos para ordenar a atuação de órgãos subordinados decorre do exercício do poder",
+      "alternativas": {
+        "A": "discricionário.",
+        "B": "disciplinar.",
+        "C": "de polícia.",
+        "D": "regulamentar.",
+        "E": "hierárquico."
+      },
+      "gabarito": "E",
+      "comentario": "Apesar de se falar em “atos normativos”, reparem que o verdadeiro objetivo da atuação administrativa consiste na “ordenação da atuação de órgãos subordinados”, o que é feito no exercício do poder hierárquico. Segundo Hely Lopes Meirelles, uma das formas de manifestação do poder hierárquico é justamente a distribuição e escalonamento de funções entre os órgãos da administração pública. Lembro, ainda, que ‘subordinação’ é característica de uma relação hierárquica. Gabarito (E)"
+    },
+    {
+      "tipo": "Múltipla Escolha",
+      "enunciado": "A administração pública detém determinados poderes, a partir dos quais busca satisfazer o interesse público, que se sobrepõe ao interesse privado. Nesse sentido, o poder de cada ente administrativo de apurar infrações e aplicar penalidades a servidores públicos consiste no poder",
+      "alternativas": {
+        "A": "disciplinar.",
+        "B": "vinculado.",
+        "C": "discricionário.",
+        "D": "hierárquico.",
+        "E": "regulamentar."
+      },
+      "gabarito": "A",
+      "comentario": "A apuração de infrações e a aplicação de penalidades a servidores públicos (e àqueles particulares com vínculo específico com a Administração) insere-se no âmbito do poder disciplinar. Gabarito (A)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Define-se poder vinculado da administração pública como a faculdade do gestor público de determinar condutas vinculadas à sua conveniência e oportunidade, observada a legalidade.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "Pelo contrário, havendo faculdade do gestor público quando à conveniência e oportunidade, terá lugar o poder discricionário. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "A administração pública exerce o poder disciplinar ao aplicar sanções, por exemplo, a um motorista particular que dirige seu veículo em velocidade acima da máxima permitida.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "Trata-se da penalização de um particular sem vínculo específico com a administração pública. Neste caso, a aplicação da multa decorre do poder de polícia administrativa. Relembrando, quanto à aplicação de sanções, temos o seguinte: Ao servidor público → poderes hierárquico e disciplinar; Aos particulares com vínculo específico → poder disciplinar; Aos particulares em geral (vínculo geral) → poder de polícia. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "Ao exercer o poder regulamentar, a administração pública pode extrapolar os limites do ato normativo primário, desde que o faça com vistas à finalidade pública.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "A atuação regulamentar da Administração deve se limitar a regular a lei, permitindo sua fiel execução. Este ato não poderia inovar o ordenamento jurídico, sob o pretexto de regulamentar um ato normativo primário. Caso um decreto regulamentar, por exemplo, extrapole os limites da lei, é possível que o Congresso Nacional suste os efeitos deste ato (Constituição Federal, art. 49, V). Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "O poder hierárquico se manifesta no controle exercido pela administração pública direta sobre as empresas públicas.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "Na relação entre administração direta e indireta não há subordinação, mas mera vinculação (controle finalístico). Assim, inexistente a hierarquia, não é possível se falar em poder hierárquico. Gabarito (E)"
+    },
+    {
+      "tipo": "Certo/Errado",
+      "enunciado": "O poder hierárquico impõe o dever de obediência às ordens proferidas pelos superiores hierárquicos, ainda que manifestamente ilegais, sob pena de punição disciplinar.",
+      "alternativas": {},
+      "gabarito": "Errado",
+      "comentario": "O erro da proposição consiste em afirmar que as ordens manifestamente ilegais devem ser obedecidas por força do poder hierárquico. As ordens notoriamente ilegais não devem ser acatadas pelos subordinados. No âmbito federal, por exemplo, esta conclusão decorre de expressa disposição legal: Lei 8.112, art. 116. São deveres do servidor: (..) IV - cumprir as ordens superiores, exceto quando manifestamente ilegais; Gabarito (E)"
+    }
+  ]
+}
