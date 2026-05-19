@@ -43,7 +43,7 @@ const COMPLEXIDADE_CONFIG: Record<string, { cor: string }> = {
   "Elite":         { cor: "text-red-700 bg-red-50 border-red-300" },
 };
 
-export default function ModoSimuladoPage() {
+function ModoSimuladoContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -749,5 +749,19 @@ function SimpleHeader({ onAbandonar, subtitulo }: { onAbandonar: () => void; sub
       </div>
       <div className="w-24" />
     </header>
+  );
+}
+
+import { Suspense } from "react";
+
+export default function ModoSimuladoPage() {
+  return (
+    <Suspense fallback={
+      <div className="h-[100dvh] bg-[#F8FAFC] flex items-center justify-center">
+        <div className="w-6 h-6 border-4 border-amber-500 border-t-transparent rounded-full animate-spin" />
+      </div>
+    }>
+      <ModoSimuladoContent />
+    </Suspense>
   );
 }

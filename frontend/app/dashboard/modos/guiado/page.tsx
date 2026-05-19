@@ -47,7 +47,7 @@ const DIFICULDADE_COLOR: Record<string, string> = {
   "Alta":   "text-red-700 bg-red-50 border-red-200",
 };
 
-export default function ModoGuiadoPage() {
+function ModoGuiadoContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -695,5 +695,19 @@ function SimpleHeader({ onAbandonar, subtitulo }: { onAbandonar: () => void; sub
       </div>
       <div className="w-24" />
     </header>
+  );
+}
+
+import { Suspense } from "react";
+
+export default function ModoGuiadoPage() {
+  return (
+    <Suspense fallback={
+      <div className="h-[100dvh] bg-[#F8FAFC] flex items-center justify-center">
+        <div className="w-6 h-6 border-4 border-purple-600 border-t-transparent rounded-full animate-spin" />
+      </div>
+    }>
+      <ModoGuiadoContent />
+    </Suspense>
   );
 }
