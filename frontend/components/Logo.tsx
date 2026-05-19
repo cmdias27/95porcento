@@ -27,7 +27,7 @@ type LogoProps = {
   textClassName?: string; // mantido por compatibilidade, não usado
 };
 
-const HEIGHT_MAP = { sm: 40, md: 56, lg: 72 };
+const HEIGHT_MAP = { sm: 48, md: 72, lg: 96 };
 
 export function Logo({ size = "md", className = "" }: LogoProps) {
   const h = HEIGHT_MAP[size];

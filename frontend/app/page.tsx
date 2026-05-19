@@ -454,7 +454,7 @@ export default function LandingPage() {
 
       {/* Nav */}
       <nav className="relative z-20 flex items-center justify-between px-6 py-4 flex-shrink-0">
-        <Logo />
+        <Logo size="lg" />
         <div className="flex items-center gap-3">
           <motion.button
             whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}

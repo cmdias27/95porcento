@@ -212,7 +212,7 @@ export default function LoginPage() {
 
           {/* Logo + título */}
           <div className="flex flex-col items-center mb-8 gap-3">
-            <LogoMark size={40} />
+            <LogoMark size={80} />
             <div className="text-center">
               <span className="text-xl font-black tracking-tight text-slate-900">
                 <span className="text-blue-600">95</span>porcento
