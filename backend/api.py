@@ -27,6 +27,7 @@ ORIGENS_PERMITIDAS = [
     "http://localhost:3000",
     "https://95porcento.com.br",
     "https://www.95porcento.com.br",
+    "https://95porcento-dpoqh9neu-cassio-s-projects2.vercel.app/"
 ]
 CORS(app, resources={r"/api/*": {"origins": ORIGENS_PERMITIDAS}})
 
