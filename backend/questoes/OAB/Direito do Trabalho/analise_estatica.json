@@ -1,0 +1,1452 @@
+{
+  "Princípios E Fontes Do Direito Do Trabalho": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Princípio da proteção e suas vertentes (norma mais favorável, condição mais benéfica e in dubio pro operario)",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir a aplicação do princípio da norma mais favorável com a hierarquia formal das fontes e com a condição mais benéfica."
+      },
+      {
+        "nome_microtema": "Princípio da primazia da realidade e fraude trabalhista",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "A banca troca a forma documental do contrato pela realidade fática para induzir erro sobre vínculo, jornada ou função efetivamente exercida."
+      },
+      {
+        "nome_microtema": "Princípio da irrenunciabilidade e indisponibilidade de direitos trabalhistas",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Tratar como válida a renúncia genérica de direitos ou a transação de parcelas indisponíveis sem observar os limites legais."
+      },
+      {
+        "nome_microtema": "Princípio da continuidade da relação de emprego e ônus da prova da dispensa",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Presumir contrato por prazo determinado ou ruptura contratual sem exigir prova robusta da modalidade excepcional."
+      },
+      {
+        "nome_microtema": "Fontes formais do Direito do Trabalho: Constituição, lei, regulamento, sentença normativa, acordo e convenção coletiva",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Misturar hierarquia entre lei e norma coletiva, ou atribuir efeito normativo a instrumento que não possui força de fonte formal adequada."
+      },
+      {
+        "nome_microtema": "Negociação coletiva e prevalência do negociado sobre o legislado",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "A banca explora os limites materiais da negociação coletiva, especialmente quando a cláusula reduz direitos sem observar a autorização legal."
+      },
+      {
+        "nome_microtema": "Integração e aplicação subsidiária do Direito comum e analogia no Direito do Trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Aplicar automaticamente o Direito Civil sem verificar compatibilidade com os princípios trabalhistas e a finalidade protetiva do ramo."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com conflito entre contrato, prática habitual e norma coletiva, exigindo a identificação do princípio aplicável e da fonte normativa prevalente. As alternativas geralmente trazem conceitos próximos, como renúncia versus transação, norma mais favorável versus condição mais benéfica, e lei estatal versus negociação coletiva, com pegadinhas sobre hierarquia, validade e alcance.",
+      "palavras_gatilho": [
+        "cláusula coletiva",
+        "norma mais favorável",
+        "condição mais benéfica",
+        "renúncia",
+        "transação",
+        "primazia da realidade",
+        "fraude",
+        "prevalência do negociado sobre o legislado",
+        "compatibilidade",
+        "integração subsidiária"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Relação De Trabalho E Relação De Emprego": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Diretor não empregado e inaplicabilidade do FGTS por ausência de vínculo celetista",
+        "ids_questoes": [
+          "oab_38_71"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir cargo de direção com relação de emprego e supor que toda contraprestação elevada gera direito automático ao FGTS."
+      },
+      {
+        "nome_microtema": "Hipóteses de exclusão do controle de jornada e inexistência de horas extras",
+        "ids_questoes": [
+          "oab_39_71"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "Misturar teletrabalho, trabalho externo sem controle de horário e cargo de confiança, tratando todos como se tivessem jornada controlada e direito a horas extras."
+      },
+      {
+        "nome_microtema": "Prescrição trabalhista e ação meramente declaratória de vínculo para anotação em CTPS",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_73"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Aplicar o biênio prescricional como se impedisse também a declaração do vínculo, ignorando a imprescritibilidade da pretensão de anotação para fins de prova."
+      },
+      {
+        "nome_microtema": "Responsabilidade patrimonial de ex-sócio fraudulento e desconsideração da personalidade jurídica na execução trabalhista",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_72"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Achar que a saída formal da sociedade blinda o ex-sócio, sem considerar fraude, abuso e a possibilidade de responsabilização na execução."
+      },
+      {
+        "nome_microtema": "Obrigatoriedade de anotação da CTPS e indisponibilidade de direitos trabalhistas",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_75"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Aceitar a vontade do empregado como justificativa para não registrar o contrato, confundindo autonomia privada com dever legal do empregador."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto; a FGV testa a incidência literal da CLT em situações do cotidiano empresarial, com foco em exceções legais, efeitos processuais e consequências patrimoniais.",
+      "palavras_gatilho": [
+        "de acordo com a lei de regência",
+        "assinale a afirmativa correta",
+        "considerando esses fatos",
+        "sobre a decisão da sociedade empresária",
+        "em relação ao direito a horas extras"
+      ]
+    },
+    "total_questoes_analisadas": 5,
+    "banco_questoes": [
+      {
+        "id": "oab_38_71",
+        "materia": "Direito do Trabalho",
+        "assunto": "FGTS para Diretor Não-Empregado",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Anne é diretora não-empregada de uma grande multinacional. Ela tem contraprestação pecuniária elevada e algumas vantagens pelo cargo que ocupa como, por exemplo, veículo com motorista e o aluguel de uma espaçosa residência. Na última assembleia, no entanto, Anne levou a debate sua pretensão de receber mensalmente FGTS em conta vinculada. Sobre a pretensão de Anne, de acordo com a lei de regência, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A pretensão é inviável, porque Anne não tem o contrato regido pela CLT e, assim, não pode ter FGTS.",
+          "B": "Se a sociedade empresária desejar, poderá equiparar, para fins de FGTS, o diretor não-empregado aos demais trabalhadores.",
+          "C": "A Lei permite atender ao pedido, mas Anne terá creditada metade do percentual do FGTS de um empregado regular.",
+          "D": "Para ter direito ao FGTS, Anne terá que renunciar ao cargo que ocupa e passar a ser diretora empregada."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa B está correta. O art. 16 da Lei 8.036/90 permite que as empresas equiparem seus diretores não-empregados aos demais trabalhadores sujeitos ao FGTS, se assim desejarem."
+      },
+      {
+        "id": "oab_39_71",
+        "materia": "Direito do Trabalho",
+        "assunto": "Jornada de Trabalho - Empregados excluídos do regime de horas extras (Art. 62 da CLT)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 62, I, II, III da CLT.",
+        "enunciado": "Em determinada sociedade empresária trabalham, entre outras, as seguintes pessoas: José, que é teletrabalhador e recebe salário por produção; Vanilda, que trabalha externamente sem que o empregador consiga controlar o seu horário, situação que foi anotada em sua CTPS e na ficha de registro de empregados; Regina, que exerce a função de gerente, comanda um grupo de 45 pessoas, é dispensada da marcação de ponto e recebe salário de R$ 8.000,00 acrescido de gratificação de função de R$ 4.000,00. De acordo com a CLT, em relação ao direito a horas extras, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Somente José terá direito a horas extras, caso ultrapasse a jornada constitucional.",
+          "B": "Nenhum dos empregados indicados no enunciado terá direito a horas extras.",
+          "C": "Vanilda e Regina terão direito a horas extras, caso ultrapassem a jornada constitucional.",
+          "D": "José e Regina terão direito a horas extras, caso ultrapassem a jornada constitucional."
+        },
+        "gabarito": "B",
+        "comentario": "Art. 62 da CLT exclui do regime de horas extras: (I) empregados em atividade externa incompatível com controle de horário (Vanilda); (II) gerentes (cargo de gestão) com salário superior a 40% do salário efetivo (Regina: R$12.000, salário efetivo? Se salário + gratificação, o art. 62, parágrafo único exige que o salário do cargo de confiança seja inferior ao salário efetivo + 40%. Se o salário efetivo for, por exemplo, R$12.000, então R$12.000 > (R$12.000+40%=R$16.800? Não. A questão não dá elementos para afastar, mas a doutrina considera que o parágrafo único não se aplica se a gratificação é função. O mais seguro é que não tem direito); (III) teletrabalhador por produção (José). Portanto, nenhum tem direito."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_73",
+        "materia": "Direito do Trabalho",
+        "assunto": "Prescrição - Anotações para fins de prova junto à Previdência Social",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Em 2023, Denilson ajuizou reclamação trabalhista contra um supermercado alegando que lá trabalhou de 2004 a 2008 sem ter a CTPS assinada. Na reclamação, ele requereu a declaração do vínculo empregatício naquele período para fins de anotação na carteira profissional, pois precisaria desse interregno para conseguir sua aposentadoria no INSS. Em defesa, a sociedade empresária alegou prescrição, pois a ação foi ajuizada após o biênio constitucional. Considerando esses fatos e o que dispõe a CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A sociedade empresária está equivocada, pois o prazo é de 30 anos, tal qual sucede com o FGTS.",
+          "B": "A prescrição se consolidou e poderia ser conhecida de ofício pelo Juiz, mesmo não havendo defesa.",
+          "C": "A sociedade empresária está correta, havendo prescrição porque a ação foi ajuizada mais de 2 anos após a ruptura.",
+          "D": "A sociedade empresária está incorreta, pois as ações que têm por objeto anotações para fins de prova junto à Previdência Social são imprescritíveis."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata do tema prescrição em direito do trabalho. Apesar de o caput do artigo 11 da CLT trazer que a prescrição quanto a créditos trabalhistas ocorre em 5 anos, até o limite de 2 anos após a extinção do contrato de trabalho, o § 1º do mesmo artigo traz a ressalva de que isso não se aplica às ações que tenham por objeto anotações para fins de prova junto à Previdência Social. Vejamos: “§ 1º O disposto neste artigo não se aplica às ações que tenham por objeto anotações para fins de prova junto à Previdência Social.” Portanto, em relação ao caso concreto narrado pelo enunciado, a sociedade empresária está incorreta e a prescrição não ocorreu, pois as ações que têm por objeto anotações para fins de prova junto à Previdência Social são imprescritíveis. Logo, a alternativa correta é a letra D. A alternativa A está incorreta, pois fala em prazo de 30 anos quando, na verdade, há imprescritibilidade. As alternativas B e C estão incorretas, pois falam ter havido prescrição."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_72",
+        "materia": "Direito do Trabalho",
+        "assunto": "Responsabilidade do sócio retirante com fraude",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Rogéria, sócia de uma sociedade empresária especializada em festas infantis, saiu fraudulentamente da empresa em 2018, transferindo formalmente suas cotas sociais a um dos empregados da sociedade empresária que não tinha condições econômicas ou solvabilidade. Rogéria, mesmo após sua saída, permaneceu com uma procuração da sociedade empresária para movimentar as contas bancárias e fazia uso regular delas com transferências para sua conta, pagamentos de empregados, fornecedores e outros compromissos. Em 2022, um dos empregados ajuizou uma reclamação trabalhista que terminou em acordo no valor de R$ 30.000 (trinta mil reais), que não foram pagos na data acertada. Não havendo condições de executar a sociedade empresária, você, como advogado(a) do exequente, requereu o incidente de desconsideração da personalidade jurídica, incluindo os sócios atuais e Rogéria. Sobre a ação interposta, considerando o que dispõe a CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Rogéria não poderá ser alcançada, porque desligou-se formalmente da sociedade empresária há mais de dois anos.",
+          "B": "A ex-sócia, em razão da fraude perpetrada, terá responsabilidade subsidiária em relação aos sócios atuais.",
+          "C": "Rogéria terá responsabilidade solidária para com os demais sócios, em virtude da fraude na alteração societária.",
+          "D": "Não existe responsabilidade dos sócios atuais, porque eles não agiram com fraude e, assim, Rogéria também não pode ser responsabilizada."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema responsabilidade do sócio retirante. Em regra, a responsabilidade do sócio retirante é subsidiária. É o que determina art. 10-A da CLT: “Art. 10-A. O sócio retirante responde subsidiariamente pelas obrigações trabalhistas da sociedade relativas ao período em que figurou como sócio, somente em ações ajuizadas até dois anos depois de averbada a modificação do contrato, observada a seguinte ordem de preferência: I - a empresa devedora; II - os sócios atuais; e III - os sócios retirantes.” No entanto, no caso de se comprovar que houve fraude na alteração societária, a responsabilidade do sócio retirante passa a ser solidária com os demais sócios, e não subsidiária, conforme determina art. 10-A, parágrafo único, da CLT: “Parágrafo único. O sócio retirante responderá solidariamente com os demais quando ficar comprovada fraude na alteração societária decorrente da modificação do contrato.” Analisando o caso narrado, se observa que a saída de Rogéria se deu fraudulentamente, transferindo suas cotas sociais, mas mantendo procuração da sociedade para movimentar contas bancárias, pagar empregados, entre outros compromissos. Portanto, ainda que sua saída tenha se dado em 2018, Rogéria responderá solidariamente com os demais sócios pelo pagamento do valor do acordo, tendo em vista a fraude cometida na alteração societária. Logo, a alternativa correta é a letra C. As demais alternativas ficam automaticamente incorretas."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_75",
+        "materia": "Direito do Trabalho",
+        "assunto": "Anotação da CTPS",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Sérgio foi contratado, em 2022, por uma indústria mecânica para receber um salário mensal de R$ 3.000 (três mil reais). Ele pediu para não ter a CTPS assinada, porque estava recebendo o seguro-desemprego do emprego anterior. Também não queria ter contracheque formal para que a ex-esposa não soubesse do novo emprego, uma vez que estava devendo a pensão alimentícia e não queria que houvesse desconto judicial. A sociedade empresária cedeu aos seus argumentos e não assinou sua carteira profissional. Sobre a decisão da sociedade empresária, considerando o que dispõe a CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Ela não precisa assinar a CTPS, desde que isso esteja previsto em norma coletiva.",
+          "B": "Ela agiu incorretamente, porque deveria anotar o contrato de trabalho na CTPS no prazo de cinco dias úteis.",
+          "C": "Ela está equivocada, pois a anotação da CTPS é direito irrenunciável e deve ser feita em 15 (quinze) dias corridos.",
+          "D": "Ela agiu corretamente, porque essa era a vontade livre manifestada pelo empregado e, atualmente, o negociado suplanta o legislado."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tema Carteira de Trabalho e Previdência Social (CTPS). As alternativas A e D estão incorretas. As normas relativas às anotações na CTPS não podem ser negociadas, nem mesmo por acordo ou convenção coletivas. Conforme art. 611-B, I, da CLT: “Art. 611-B. Constituem objeto ilícito de convenção coletiva ou de acordo coletivo de trabalho, exclusivamente, a supressão ou a redução dos seguintes direitos: I - normas de identificação profissional, inclusive as anotações na Carteira de Trabalho e Previdência Social;” A alternativa B está correta. Conforme art. 29 da CLT: “Art. 29. O empregador terá o prazo de 5 (cinco) dias úteis para anotar na CTPS, em relação aos trabalhadores que admitir, a data de admissão, a remuneração e as condições especiais, se houver, facultada a adoção de sistema manual, mecânico ou eletrônico, conforme instruções a serem expedidas pelo Ministério da Economia.” A alternativa C está incorreta. De fato, a anotação da CTPS é direito irrenunciável, conforme art. 13 da CLT: “Art. 13 - A Carteira de Trabalho e Previdência Social é obrigatória para o exercício de qualquer emprego, inclusive de natureza rural, ainda que em caráter temporário, e para o exercício por conta própria de atividade profissional remunerada.”. No entanto, conforme disposto na explicação da letra B, o prazo para anotação é de 5 dias úteis, e não de 15 dias corridos."
+      }
+    ]
+  },
+  "Trabalhador Doméstico, Rural E Estagiário": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Empregado doméstico x empregado comum/rural: critério da finalidade lucrativa e da atividade no âmbito residencial",
+        "ids_questoes": [
+          "oab_38_74"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A FGV mistura casa/chácara/área urbana com prestação de serviços contínua para induzir o candidato a pensar em doméstico ou rural, quando o ponto decisivo é a finalidade lucrativa do imóvel e a natureza da atividade (hospedagem/locação por temporada), afastando o vínculo doméstico."
+      },
+      {
+        "nome_microtema": "Férias do empregado estudante menor de 18 anos: coincidência com férias escolares",
+        "ids_questoes": [
+          "oab_39_72"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A banca costuma inverter a regra: não é faculdade do empregador nem direito absoluto dos pais; o empregado estudante menor tem direito de fazer coincidir suas férias com as escolares, e a questão testa a leitura literal do art. 136, §2º, da CLT."
+      },
+      {
+        "nome_microtema": "Estágio em teletrabalho: compatibilidade jurídica e validade da modalidade",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_75"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A FGV tenta associar teletrabalho à perda da finalidade pedagógica do estágio, mas a regra é de compatibilidade, desde que observados os requisitos legais e a supervisão adequada; a pegadinha é tratar o home office como vedação automática."
+      },
+      {
+        "nome_microtema": "Grupo econômico trabalhista: requisitos de direção, controle ou administração e insuficiência do parentesco",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_72"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "O distrator clássico é presumir grupo econômico apenas por laço familiar entre empresários. A FGV cobra que o candidato exija demonstração de interesse integrado, comunhão de interesses e atuação conjunta, não bastando parentesco ou identidade setorial."
+      },
+      {
+        "nome_microtema": "Teletrabalho para aprendizes e estagiários: admissibilidade legal e distinção entre os regimes",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_72"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A banca explora a confusão entre aprendizes e estagiários, sugerindo que ambos teriam a mesma disciplina no teletrabalho. O ponto é separar os regimes: a CLT admite teletrabalho para estagiário e, em regra, também para aprendiz maior de idade, conforme a moldura legal aplicável."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com casos concretos curtos e detalhes aparentemente irrelevantes que definem a solução jurídica; a FGV costuma misturar categorias próximas (doméstico, rural, comum; aprendiz, estagiário; férias, teletrabalho, grupo econômico) para testar a exceção correta da CLT.",
+      "palavras_gatilho": [
+        "diante desta situação",
+        "considerando os fatos",
+        "assinale a afirmativa correta",
+        "é correto afirmar",
+        "nos termos da CLT",
+        "em caráter excepcional",
+        "pode ser reconhecido",
+        "tem direito a"
+      ]
+    },
+    "total_questoes_analisadas": 5,
+    "banco_questoes": [
+      {
+        "id": "oab_38_74",
+        "materia": "Direito do Trabalho",
+        "assunto": "Empregado Comum (Caseiro em Chácara de Aluguel por Temporada)",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Francisco é caseiro desde 2019 em uma chácara localizada em área urbana, cujo proprietário aluga o imóvel por temporada por meio de um site especializado neste tipo de negociação. Francisco tem a incumbência de manter limpa a casa, receber os locatários e atender às eventuais necessidades deles no tocante ao conforto e à segurança. Além disso, de 2ª feira a sábado, Francisco faz a manutenção geral do local, independentemente de estar locado, para que a aparência esteja sempre impecável e, assim, os hóspedes recomendem a estadia na chácara a outros candidatos. Diante desta situação e das normas de regência, assinale a opção que indica a categoria profissional de Francisco.",
+        "alternativas": {
+          "A": "Trabalhador intermitente.",
+          "B": "Empregado doméstico.",
+          "C": "Empregado rural.",
+          "D": "Empregado comum."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa D está correta. Francisco não é empregado doméstico (não presta serviços a pessoa/família no âmbito residencial - LC 150/15), nem rural (área urbana), nem intermitente (serviço contínuo). É empregado comum (art. 3°, CLT)."
+      },
+      {
+        "id": "oab_39_72",
+        "materia": "Direito do Trabalho",
+        "assunto": "Férias do empregado estudante e de membros da mesma família (Art. 136, §§1º e 2º da CLT)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Arts. 136, §1º e §2º da CLT.",
+        "enunciado": "Uma família, composta de pai, mãe e uma filha, respectivamente Jorge, Paula e Rita, trabalha na mesma sociedade empresária como funcionários do departamento de produção. Rita tem 16 anos de idade, estuda na parte da manhã em uma escola vizinha ao local de trabalho, e está cursando o primeiro ano do ensino médio. Os pais são responsáveis pelo setor de qualidade, que não conta com nenhum outro funcionário. Os três procuraram você, como advogado(a), porque desejam fazer coincidir as férias escolares de Rita, no mês de julho, com as férias de Jorge e Paula, a fim de viabilizar uma viagem familiar. Entretanto, o empregador indeferiu o requerimento das férias de Jorge e Paula, tendo deferido apenas o de Rita. Sobre o direito às férias, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Cabe o ajuizamento de reclamação trabalhista requerendo que o juiz marque as férias dos 3 membros da mesma família, pois Rita tem direito às férias no período escolar e deverá ser acompanhada pelos pais.",
+          "B": "Cabe aos empregados a designação do período de férias, inexistindo direito ao empregador de indeferi-las.",
+          "C": "Os três poderão gozar férias juntos, mas Rita não tem direito de requerer férias concomitantemente com o período de férias escolares.",
+          "D": "Rita tem direito a fazer coincidir suas férias no emprego com as férias escolares e seus pais terão direito a gozar férias no mesmo período, desde que isso não resulte prejuízo para o serviço, causa do indeferimento pelo empregador."
+        },
+        "gabarito": "D",
+        "comentario": "O art. 136, §2º da CLT garante ao empregado estudante menor de 18 anos o direito de fazer coincidir suas férias com as férias escolares. O §1º do mesmo artigo garante aos membros de uma família que trabalham no mesmo estabelecimento o direito de gozar férias no mesmo período, se isso não resultar prejuízo para o serviço. O indeferimento baseado no prejuízo (setor de qualidade sem outros funcionários) é legítimo."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_75",
+        "materia": "Direito do Trabalho",
+        "assunto": "Teletrabalho no estágio",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Em 2024, uma companhia imobiliária contratou Olívia como estagiária. Olívia foi designada para trabalhar em regime de teletrabalho (trabalho em domicílio, home office) na confecção de planilhas de locatários inadimplentes, que, em seguida, são enviadas ao setor jurídico da sociedade empresária. Considerando os fatos e o que dispõe a CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O regime de teletrabalho é incompatível com o estágio, por frustrar o seu objetivo principal que é a vivência prática das rotinas.",
+          "B": "Havendo autorização prévia do Juiz do Trabalho, é possível, em caráter excepcional, o regime de teletrabalho no estágio.",
+          "C": "Somente se estivesse na cota de estagiário com deficiência, ela poderia trabalhar em regime de teletrabalho.",
+          "D": "Se for conveniente para as partes, o regime de teletrabalho pode ser adotado nos contratos de estágio."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata do tema teletrabalho. De acordo com art. 75-B, § 6º, da CLT, é permitida a adoção do regime de teletrabalho para estagiários. Vejamos: “§ 6º Fica permitida a adoção do regime de teletrabalho ou trabalho remoto para estagiários e aprendizes.” Desta feita, é possível que Olívia, como estagiária, seja designada para trabalhar em regime de teletrabalho. Portanto, a alternativa D está correta. Analisemos as inconsistências das demais alternativas. A alternativa A está incorreta. Conforme art. 75-B, § 6º, da CLT, acima transcrito, o regime de teletrabalho é sim compatível com o estágio. A alternativa B está incorreta. Conforme art. 75-B, § 6º, da CLT, acima transcrito, é permitida a adoção do regime de teletrabalho para estagiários, sem necessidade de autorização prévia da autoridade judicial. Não há de se falar em excepcionalidade. A alternativa C está incorreta. A CLT não faz tal distinção, sendo possível o teletrabalho para todos os estagiários, não somente os deficientes."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_72",
+        "materia": "Direito do Trabalho",
+        "assunto": "Grupo econômico",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Os irmãos Décio e Beatriz são empresários. Décio explora a atividade pesqueira, enquanto Beatriz tem duas lojas de calçados. Em 2023, a sociedade empresária de Décio teve uma reclamação trabalhista ajuizada por um operador de produção que inseriu, na petição inicial, a sociedade empresária de Beatriz, advogando existir grupo econômico, apenas em razão do parentesco entre Décio e Beatriz. Considerando esses fatos e o que dispõe a CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O autor está correto, pois existe vínculo familiar entre Décio e Beatriz.",
+          "B": "Para se caracterizar grupo econômico somente é necessário haver identidade de sócios.",
+          "C": "Não há grupo econômico porque não há direção, controle ou administração de uma empresa sobre outra.",
+          "D": "O grupo econômico pode ser reconhecido pelo parentesco, mas apenas na fase executória da reclamação."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema relações de trabalho, mais precisamente sobre grupo econômico. Conforme art. 2º, § 3º, da CLT, não basta a mera identidade de sócios para que o grupo econômico fique configurado. Vejamos: “§ 3º Não caracteriza grupo econômico a mera identidade de sócios, sendo necessárias, para a configuração do grupo, a demonstração do interesse integrado, a efetiva comunhão de interesses e a atuação conjunta das empresas dele integrantes.” Portanto, no caso narrado, não é possível afirmar que há grupo econômico apenas em razão do parentesco entre Décio e Beatriz, já que para a configuração de um grupo econômico, deve haver também a demonstração do interesse integrado, a efetiva comunhão de interesses e a atuação conjunta das empresas dele integrantes. Logo, a alternativa correta é a letra C. Tomando por base o mesmo dispositivo legal mencionado, as alternativas A, B e D ficam automaticamente incorretas, já que afirmam haver grupo econômico na situação hipotética narrada."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_72",
+        "materia": "Direito do Trabalho",
+        "assunto": "Teletrabalho para aprendizes e estagiários",
+        "banca": "FGV",
+        "ano": "2025",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária Bons Caminhos Ltda. consultou você, como advogado(a), porque pretendia contratar, em setembro de 2025, alguns aprendizes e estagiários com 18 anos de idade para que realizassem atividades na modalidade de teletrabalho. A sociedade empresária deseja saber se tal pretensão era válida. Em resposta à demanda da sociedade empresária, considerando os termos da CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "É permitido contratar aprendizes e estagiários para realizarem atividades na modalidade de teletrabalho.",
+          "B": "É permitido contratar aprendizes na modalidade de teletrabalho, mas não estagiários, por desvirtuar a filosofia do estágio.",
+          "C": "É permitido contratar estagiários na modalidade de teletrabalho, mas não aprendizes, porque o contrato de trabalho deles é especial.",
+          "D": "Somente é permitido contratar aprendizes e estagiários em regime de teletrabalho se houver autorização dos seus pais ou responsáveis."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata do tema Teletrabalho. A alternativa A está correta. Conforme art. 75-B, § 6º, da CLT: “§ 6º Fica permitida a adoção do regime de teletrabalho ou trabalho remoto para estagiários e aprendizes.” A alternativa B está incorreta. É possível contratar tanto estagiários quanto aprendizes, vide comentário da letra A. A alternativa C está incorreta. É possível contratar tanto estagiários quanto aprendizes, vide comentário da letra A. A alternativa D está incorreta. A CLT não fala em autorização dos pais ou responsáveis para contratação em regime de teletrabalho."
+      }
+    ]
+  },
+  "Contrato Individual De Trabalho E Terceirização": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Cláusula de reserva na terceirização (vedação de impedir contratação pela tomadora)",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_73"
+        ],
+        "peso_percentual": 55,
+        "armadilha_favorita": "A FGV tenta fazer parecer que a cláusula é válida por autonomia privada, por previsão contratual ou por acordo coletivo, mas a regra da Lei 6.019/74 veda a cláusula de reserva que impeça a contratação do trabalhador pela tomadora ao fim do prazo."
+      },
+      {
+        "nome_microtema": "Férias no contrato de trabalho em regime de tempo parcial",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_74"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "A banca induz o candidato a confundir jornada reduzida com supressão ou redução automática de férias, quando o empregado em tempo parcial tem direito a férias, observadas as regras da CLT, e não perde o direito por trabalhar menos horas."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando contratos de terceirização e efeitos trabalhistas específicos do regime de contratação",
+      "palavras_gatilho": [
+        "considerando os fatos",
+        "assinale a afirmativa correta",
+        "à luz da CLT",
+        "conforme a norma de regência",
+        "é possível",
+        "é nula de pleno direito"
+      ]
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_73",
+        "materia": "Direito do Trabalho",
+        "assunto": "Trabalho temporário - cláusula de reserva",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Lei n° 6.019/74",
+        "enunciado": "A empresa de trabalho temporário Sempre Alerta Ltda. terceirizará o serviço de limpeza da sociedade empresária Extintores Infalíveis Ltda, nela alocando 10 (dez) auxiliares de limpeza que se revezarão em turnos de 12 x 36 horas. No contrato apresentado, que vigora a partir de janeiro de 2024, por 180 dias, e é regido pela Lei n° 6.019/74, existe cláusula de reserva que proíbe a contratação de qualquer auxiliar pela empresa tomadora ao fim do prazo em que ele tenha sido colocado à sua disposição. Considerando os fatos e a norma de regência, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A cláusula de reserva é válida, se ambas as partes a aceitarem.",
+          "B": "Para a validade da cláusula de reserva, é necessária a chancela do sindicato de classe dos empregadores.",
+          "C": "A inserção da cláusula de reserva é possível, desde que prevista em acordo coletivo de trabalho.",
+          "D": "A cláusula de reserva é nula de pleno direito."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata do tema trabalho temporário. De acordo com artigo 11, parágrafo único, da Lei 6.019/1974, é nula de pleno direito qualquer cláusula de reserva que proíba a contratação do trabalhador ao fim do prazo do trabalho temporário. Vejamos: “Parágrafo único. Será nula de pleno direito qualquer cláusula de reserva, proibindo a contratação do trabalhador pela empresa tomadora ou cliente ao fim do prazo em que tenha sido colocado à sua disposição pela empresa de trabalho temporário.” Portanto, a alternativa D está correta: A cláusula de reserva proposta pelo enunciado é nula de pleno direito. Tomando por base o mesmo dispositivo legal, as alternativas A, B e C ficam automaticamente incorretas, pois falam em validade da cláusula de reserva."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_74",
+        "materia": "Direito do Trabalho",
+        "assunto": "Férias no regime de tempo parcial",
+        "banca": "FGV",
+        "ano": "2022",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Leopoldo foi contratado, em 2020, por uma sociedade empresária de terceirização, como auxiliar de limpeza. Ele cumpre jornada em regime de tempo parcial de 22 horas semanais, conforme previsto e autorizado na norma coletiva da sua categoria. Após um ano de trabalho sem faltas injustificadas, é chegado o momento de Leopoldo fruir férias. Sobre a solicitação de Leopoldo, considerando o que dispõe a CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Por ser empregado em regime de tempo parcial, ele não terá direito a férias remuneradas.",
+          "B": "Tal qual os demais empregados, ele terá direito a 30 dias de férias com adicional de 1/3.",
+          "C": "Ele somente terá direito a férias se isso estiver expressamente previsto na convenção coletiva de sua categoria.",
+          "D": "Por cumprir apenas a metade da jornada dos demais empregados,"
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tema duração do trabalho, mais precisamente sobre o regime de trabalho parcial. Quanto às férias do regime de tempo parcial, o § 7º do art. 58-A determina que “são regidas pelo disposto no art. 130 desta Consolidação”, ou seja, férias semelhantes aos empregados que trabalham em tempo integral. Conforme art. 130 da CLT: “Art. 130 - Após cada período de 12 (doze) meses de vigência do contrato de trabalho, o empregado terá direito a férias, na seguinte proporção: I - 30 (trinta) dias corridos, quando não houver faltado ao serviço mais de 5 (cinco) vezes; II - 24 (vinte e quatro) dias corridos, quando houver tido de 6 (seis) a 14 (quatorze) faltas; III - 18 (dezoito) dias corridos, quando houver tido de 15 (quinze) a 23 (vinte e três) faltas; IV - 12 (doze) dias corridos, quando houver tido de 24 (vinte e quatro) a 32 (trinta e duas) faltas.” Como no caso narrado pelo enunciado Leopoldo não teve nenhuma falta injustificada, fará jus a 30 dias de férias, conforme art. 130, I, da CLT, e mais o adicional de 1/3. Logo, a alternativa correta é a letra B. As alternativas A, C e D ficam automaticamente incorretas."
+      }
+    ]
+  },
+  "Remuneração E Salário": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Salário in natura e parcelas não salariais (CLT, art. 458)",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_71"
+        ],
+        "peso_percentual": 100,
+        "armadilha_favorita": "A FGV mistura benefícios concedidos pelo empregador para testar quais parcelas têm natureza salarial e quais foram expressamente excluídas da remuneração pela CLT. A pegadinha está em fazer o candidato integrar tudo automaticamente ao salário, quando alimentação, habitação, plano de saúde e auxílio-educação podem ter tratamento legal de não integração, conforme a forma de concessão e as exceções do art. 458."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com enumeração de benefícios concedidos ao empregado para exigir a identificação exata do que integra ou não a remuneração",
+      "palavras_gatilho": [
+        "integrará a remuneração",
+        "benefícios",
+        "salário fixo",
+        "sem qualquer desconto",
+        "de acordo com os dados do enunciado"
+      ]
+    },
+    "total_questoes_analisadas": 1,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-42_71",
+        "materia": "Direito do Trabalho",
+        "assunto": "Integração de utilidades ao salário",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Geraldo trabalha desde 2022 para uma sociedade empresária, atua na região metropolitana do Estado e recebe um salário fixo de R$ 4.000,00, sem qualquer desconto, exceto o imposto sobre a renda e o INSS. Além disso, desfruta de um pacote de benefícios que inclui auxílio-alimentação em forma de ticket, habitação num luxuoso apartamento, plano de saúde e auxílio-educação (compreendendo os valores relativos à matrícula, à mensalidade, à anuidade, aos livros e ao material didático). Geraldo consultou você, como advogado(a), para saber quais benefícios devem ter seu valor integrado à sua remuneração. Sobre a questão levantada por Geraldo, de acordo com os dados do enunciado e com o texto da CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Apenas a educação integrará a remuneração.",
+          "B": "Apenas o valor do plano de saúde não integrará remuneração.",
+          "C": "Apenas habitação, fornecida pelo trabalho, integrará a remuneração.",
+          "D": "Alimentação, habitação, plano de saúde e auxílio-educação integrarão a remuneração."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema remuneração e salário. A alternativa A está incorreta. De acordo com art. 458, § 2º, II, da CLT: “§ 2º Para os efeitos previstos neste artigo, não serão consideradas como salário as seguintes utilidades concedidas pelo empregador: II – educação, em estabelecimento de ensino próprio ou de terceiros, compreendendo os valores relativos a matrícula, mensalidade, anuidade, livros e material didático;” A alternativa B está incorreta. De acordo com art. 458, § 2º, VI, da CLT: “§ 2º Para os efeitos previstos neste artigo, não serão consideradas como salário as seguintes utilidades concedidas pelo empregador: IV – assistência médica, hospitalar e odontológica, prestada diretamente ou mediante seguro-saúde;” A alternativa C está correta. Conforme art. 458, caput, da CLT: “Art. 458 - Além do pagamento em dinheiro, compreende-se no salário, para todos os efeitos legais, a alimentação, habitação, vestuário ou outras prestações 'in natura' que a empresa, por força do contrato ou do costume, fornecer habitualmente ao empregado. Em caso algum será permitido o pagamento com bebidas alcoólicas ou drogas nocivas.” Importante diferenciar as verbas recebidas “pelo” trabalho e “para” o trabalho. As verbas recebidas “pelo” trabalho são aquelas que configuram uma contraprestação pelos serviços prestados, ou seja, integram a remuneração. Já as verbas recebidas “para” o trabalho são aquelas de caráter indenizatório, que visam compensar o trabalhador por danos ou despesas relacionadas ao trabalho; logo, não integram a remuneração. A alternativa D está incorreta. Conforme já justificado nas alternativas anteriores, plano de saúde e auxílio-educação não integrarão a remuneração."
+      }
+    ]
+  },
+  "Duração Do Trabalho: Jornada E Repousos": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Tempo à disposição: troca de uniforme e higienização de vestuário",
+        "ids_questoes": [
+          "oab_38_73"
+        ],
+        "peso_percentual": 34,
+        "armadilha_favorita": "A FGV costuma confundir a regra geral de que o tempo gasto com uniforme integra a jornada com a exceção legal: só conta como tempo à disposição quando houver obrigatoriedade de troca na empresa ou quando a atividade exigir procedimento específico. Também mistura a troca com a higienização, tentando fazer o candidato presumir que lavar o uniforme sempre gera pagamento."
+      },
+      {
+        "nome_microtema": "Intervalo intrajornada reduzido em jornada superior a 6 horas: pagamento indenizatório do período suprimido",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_72",
+          "oab_Prova-comentada-OAB-45_75"
+        ],
+        "peso_percentual": 66,
+        "armadilha_favorita": "A pegadinha clássica é fazer o candidato confundir 'intervalo concedido a menor' com 'horas extras da jornada'. A FGV explora a diferença entre o intervalo mínimo legal devido, o intervalo efetivamente usufruído e a consequência jurídica da supressão parcial: pagamento apenas do tempo suprimido, com natureza indenizatória e acréscimo de 50%, sem transformar automaticamente todo o período em hora extra."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando rotina de trabalho, horários exatos, tempo de pausa e detalhes operacionais do ambiente laboral",
+      "palavras_gatilho": [
+        "diante dos fatos",
+        "considerando a previsão da CLT",
+        "assinale a afirmativa correta",
+        "tempo despendido",
+        "intervalo intrajornada",
+        "a título indenizatório",
+        "com adicional de 50%"
+      ]
+    },
+    "total_questoes_analisadas": 3,
+    "banco_questoes": [
+      {
+        "id": "oab_38_73",
+        "materia": "Direito do Trabalho",
+        "assunto": "Tempo de Troca de Uniforme (CLT, art. 4°, §2°, VII)",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Você advoga para uma rede de farmácias e recebeu uma petição inicial de reclamação trabalhista para elaborar defesa acerca de pedido de tempo despendido com troca de uniforme. No caso, alega o autor que levava cerca de 20 minutos para vestir o uniforme, composto por calça social comum, camisa social simples e sapato comum, só podendo registrar o ponto já uniformizado. Afirma, ainda, que levava o uniforme diariamente para casa para higienizá-lo, podendo chegar às dependências do empregador já uniformizado. Sobre a hipótese apresentada, observadas as normas da CLT, assinale a opção que você apresentaria em defesa de sua cliente.",
+        "alternativas": {
+          "A": "O tempo despendido para a troca de uniforme sempre será computado na duração do trabalho, pois o empregado já se encontra nas dependências do empregador. Já o tempo despendido na higienização não deve ser computado.",
+          "B": "Inexistindo obrigatoriedade de troca de uniforme nas dependências do empregador, o tempo despendido não é computado na jornada de trabalho. Tampouco deve ser computado o tempo de higienização.",
+          "C": "O tempo despendido na troca de uniforme, assim como o gasto na higienização do mesmo, são computados na jornada de trabalho, pois estão relacionados diretamente com a função desempenhada e a obrigatoriedade de trabalhar com o uniforme.",
+          "D": "O tempo despendido na higienização do uniforme deverá ser computado na duração do trabalho, pois reduz o intervalo mínimo entre duas jornadas. Já a troca de uniforme comum não deve ser computado, porque não há obrigatoriedade de troca na empresa."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa B está correta. A reforma trabalhista (Lei 13.467/17) inseriu o art. 4°, §2°, VII, na CLT, dispondo que o tempo de troca de uniforme não é computado na jornada quando a troca não é obrigatoriamente feita no local de trabalho. A higienização é de responsabilidade do trabalhador (art. 456-A, CLT)."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_72",
+        "materia": "Direito do Trabalho",
+        "assunto": "Intervalo intrajornada",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Pedro é caixa em um banco comercial desde 2022, e sua jornada contratual é de 2ª a 6ª feira, das 10 às 16 horas, com intervalo de 15 minutos para refeição. Ocorre que, na prática, diante do grande volume de trabalho, Pedro trabalha de 2ª a 6ª feira, das 10 às 18 horas, com intervalo de 15 minutos. Sobre o intervalo, considerando os fatos e a previsão da CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A jornada cumprida por Pedro não credencia qualquer intervalo.",
+          "B": "Pedro terá direito a um intervalo de 15 minutos diários, já aproveitado.",
+          "C": "Pedro receberá, a título indenizatório, 45 minutos diários com adicional de 50%.",
+          "D": "O empregado deverá receber 55 minutos de horas extras diárias acrescidas de 50%."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata dos períodos de descanso. A alternativa C está correta. Já que o trabalho de Pedro excede as seis horas diárias, ele tem direito ao intervalo de alimentação de no mínimo uma hora. Porém ele somente usufruiu de 15 minutos de intervalo, por tanto, a empresa terá que pagar a título indenizatório, os 45 minutos diários de intervalo a que ele tinha direito e não desfrutou, com adicional de 50%. Veja a literalidade da CLT: \"Art. 71 - Em qualquer trabalho contínuo, cuja duração exceda de 6 (seis) horas, é obrigatória a concessão de um intervalo para repouso ou alimentação, o qual será, no mínimo, de 1 (uma) hora e, salvo acordo escrito ou contrato coletivo em contrário, não poderá exceder de 2 (duas) horas. § 4 A não concessão ou a concessão parcial do intervalo intrajornada mínimo, para repouso e alimentação, a empregados urbanos e rurais, implica o pagamento, de natureza indenizatória, apenas do período suprimido, com acréscimo de 50% (cinquenta por cento) sobre o valor da remuneração da hora normal de trabalho\"."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_75",
+        "materia": "Direito do Trabalho",
+        "assunto": "Intervalo intrajornada",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Luana Moreira trabalha em uma sociedade empresária do setor de cosméticos das 7h às 13h15min e desfruta de 15 minutos de intervalo que ocorre das 10h às 10h15min, mas está pressionando sua chefia, aduzindo que teria direito a 1 hora, no mínimo, razão pela qual pretende receber 1 hora como extraordinária, com repercussão nas demais parcelas salariais do contrato. A sociedade empresária consultou você, como advogado(a), para saber como agir. Sobre a hipótese apresentada, de acordo com a legislação trabalhista em vigor, assinale a afirmativa que, corretamente, apresenta a sua resposta.",
+        "alternativas": {
+          "A": "Luana deverá receber o restante do período do intervalo para inteirar 1 hora de forma indenizatória.",
+          "B": "Luana não tem direito ao pagamento do intervalo, considerando que a jornada não excede 6 horas e os 15 minutos são de intervalo.",
+          "C": "Luana deverá receber o valor correspondente a uma hora integral, com os devidos reflexos nas parcelas salariais do contrato de trabalho.",
+          "D": "Luana deverá receber a diferença de 45 minutos de forma indenizatória, com repercussão nas parcelas salariais do contrato de trabalho."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tema Intervalo Intrajornada. A alternativa A está incorreta. No caso narrado pelo enunciado, a jornada de efetivo trabalho de Luana é de 6 horas diárias. Os 15 minutos de intervalo não são computados, pois configuram hipóteses de suspensão do contrato de trabalho, ou seja, nesse período não há prestação de serviço e tampouco remuneração. Assim, conforme art. 71, § 1º, da CLT, Luana faz jus somente a 15 minutos de intervalo, os quais estão sendo legalmente concedidos a ela. Vejamos: “§ 1º - Não excedendo de 6 (seis) horas o trabalho, será, entretanto, obrigatório um intervalo de 15 (quinze) minutos quando a duração ultrapassar 4 (quatro) horas.” A alternativa B está correta. Alternativa totalmente de acordo com o art. 71, § 1º, da CLT, vide comentário da letra A. A alternativa C está incorreta. Luana faz jus somente a 15 minutos de intervalo, os quais estão sendo legalmente concedidos a ela, conforme art. 71, § 1º, da CLT. Vide comentário da letra A. A alternativa D está incorreta. Luana faz jus somente a 15 minutos de intervalo, os quais estão sendo legalmente concedidos a ela, conforme art. 71, § 1º, da CLT. Vide comentário da letra A."
+      }
+    ]
+  },
+  "Duração Do Trabalho: Férias": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Fracionamento das férias anuais após a Reforma Trabalhista",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_71"
+        ],
+        "peso_percentual": 100,
+        "armadilha_favorita": "A FGV costuma trocar a regra legal do art. 134 da CLT por alternativas com fracionamento livre ou com limites errados, especialmente sugerindo períodos inferiores a 5 dias ou divisão automática em 3 partes iguais, quando a lei exige concordância do empregado e, em regra, um período não inferior a 14 dias e os demais não inferiores a 5 dias corridos."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando a aplicação literal da CLT sobre férias e suas exceções",
+      "palavras_gatilho": [
+        "fracionar férias",
+        "períodos",
+        "dias corridos",
+        "concordância",
+        "não inferior a 14 dias",
+        "não inferior a 5 dias"
+      ],
+      "padrao_distratores": "Alternativas plausíveis que misturam regras antigas e atuais, invertem os limites mínimos de cada período, ou criam requisitos inexistentes como repetição de anos anteriores ou fracionamento automático por conveniência do empregado."
+    },
+    "total_questoes_analisadas": 1,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comentada-OAB-44_71",
+        "materia": "Direito do Trabalho",
+        "assunto": "Fracionamento de férias",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Guilherme, engenheiro responsável por obras de infraestrutura, trabalha para uma sociedade empresária há cinco anos. Ao longo dos últimos 4 anos sempre desfrutou de 30 dias de férias corridos. Em janeiro de 2024, ao verificar a incidência de numerosos feriados ao longo do ano, ele pretendeu fracionar suas férias. Assim sendo, procurou você, como advogado(a), para orientá-lo sobre a possibilidade de fracionar os 30 dias de férias a que tem direito. Acerca do interesse do seu cliente, assinale a opção que indica, corretamente, a orientação a ser dada.",
+        "alternativas": {
+          "A": "Ele não pode fracionar as férias porque não usufruiu desse direito nos últimos quatro anos, mas tem o direito de converter 1/3 em pecúnia.",
+          "B": "Ele pode fracionar as férias em 3 períodos de 10 dias consecutivos cada, para fazer coincidir com os numerosos feriados observados ao longo do ano.",
+          "C": "Ele pode fracionar as férias em períodos inferiores a cinco dias, contados em dias úteis, de modo a coincidir, ou no início ou no término, com os feriados.",
+          "D": "Ele pode fracionar as férias em até 3 períodos, desde que um deles não seja inferior a 14 dias corridos, cada um."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata das férias. A alternativa D está correta. Guilherme poderá usufruir das férias em até três períodos, sendo que um deles não poderá ser inferior a quatorze dias corridos e os demais não poderão ser inferiores a cinco dias corridos, cada um. Além disso, poderá converter (um terço) do período de férias a que tiver direito em abono pecuniário. Veja a literalidade da CLT: \"Art. 143. É facultado ao empregado converter 1/3 (um terço) do período de férias a que tiver direito em abono pecuniário, no valor da remuneração que lhe seria devida nos dias correspondentes. Art. 134 - As férias serão concedidas por ato do empregador, em um só período, nos 12 (doze) meses subseqüentes à data em que o empregado tiver adquirido o direito. § 1 Desde que haja concordância do empregado, as férias poderão ser usufruídas em até três períodos, sendo que um deles não poderá ser inferior a quatorze dias corridos e os demais não poderão ser inferiores a cinco dias corridos, cada um\"."
+      }
+    ]
+  },
+  "Alteração, Suspensão E Interrupção Do Contrato": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Cargo interino, vacância e direito à efetivação/retorno ao cargo",
+        "ids_questoes": [
+          "oab_38_75"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir interinidade com efetivação automática: a FGV costuma testar se o candidato sabe que, havendo vacância, o empregado interino pode assumir o cargo; se não houver vacância, cessa a interinidade sem direito adquirido à permanência."
+      },
+      {
+        "nome_microtema": "Interrupção do contrato: hipóteses legais de ausência remunerada (doação de sangue, testemunha, luto, etc.) e suspensão por auxílio-doença",
+        "ids_questoes": [
+          "oab_39_73"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Misturar interrupção com suspensão: a FGV adora colocar no mesmo enunciado ausências remuneradas (como doação de sangue e comparecimento à Justiça) ao lado de hipótese suspensiva (auxílio-doença), além de ampliar indevidamente o rol de parentes para luto."
+      },
+      {
+        "nome_microtema": "Acidente de trabalho por equiparação e estabilidade acidentária",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_72"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Negar o acidente de trabalho porque o evento ocorreu fora do ambiente típico de labor; a FGV explora a equiparação legal e a diferença entre afastamento curto sem estabilidade e afastamento com direito à garantia provisória quando preenchidos os requisitos legais."
+      },
+      {
+        "nome_microtema": "Contagem do tempo de serviço durante afastamento: serviço militar obrigatório e acidente de trabalho",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_74"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Tratar todo afastamento como se interrompesse a contagem do tempo de serviço; a FGV costuma cobrar as exceções expressas da CLT, especialmente serviço militar e acidente de trabalho, que preservam a contagem em hipóteses específicas."
+      },
+      {
+        "nome_microtema": "Suspensão do contrato por prisão processual/denúncia criminal e ausência de efeito automático",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_75"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir simples recebimento de denúncia com justa causa ou suspensão automática do contrato; a FGV testa a ideia de que a persecução penal, por si só, não produz efeito trabalhista imediato sem previsão legal específica ou decisão adequada."
+      },
+      {
+        "nome_microtema": "Prescrição trabalhista durante suspensão contratual por auxílio-doença",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_74"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Achar que o contrato suspenso paralisa toda e qualquer prescrição ou, ao contrário, que o benefício previdenciário faz correr automaticamente a bienal; a FGV costuma cobrar a distinção entre prescrição bienal e quinquenal/parcial em contexto de suspensão contratual."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando efeitos jurídicos específicos da suspensão, interrupção e alteração contratual, com atenção a detalhes fáticos como tipo de afastamento, motivo da ausência, duração do benefício e consequência na contagem de tempo e prescrição.",
+      "palavras_gatilho": [
+        "diante da situação apresentada",
+        "considerando os fatos narrados",
+        "assinale a afirmativa correta",
+        "de acordo com a legislação em vigor",
+        "jurisprudência consolidada do TST",
+        "qual efeito jurídico essa situação terá no contrato de trabalho"
+      ]
+    },
+    "total_questoes_analisadas": 6,
+    "banco_questoes": [
+      {
+        "id": "oab_38_75",
+        "materia": "Direito do Trabalho",
+        "assunto": "Substituição Temporária e Reversão ao Cargo Anterior",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Silvio Luiz foi convidado pelo seu empregador para ocupar interinamente o cargo de supervisor administrativo; sendo certo que, em caso de vacância do cargo, este seria preenchido por Silvio Luiz. Diante desta situação, você foi consultado, como advogado(a) do empregado, para saber acerca dos seus direitos na hipótese. Sobre o caso apresentado, de acordo com o texto em vigor da CLT e a jurisprudência consolidada do TST, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Caso não haja a vacância e cessada a interinidade do cargo, Silvio Luiz terá que ser desligado da empresa por motivo econômico, o que afasta o pagamento da multa de 40%, pois a alteração contratual de reversão será ilícita e autorizada a dispensa na hipótese por justo motivo.",
+          "B": "Silvio Luiz, no caso de vacância definitiva do cargo, passará a ocupá-lo e terá necessariamente direito ao salário do seu antecessor.",
+          "C": "Sendo a hipótese de férias do efetivo supervisor administrativo que ensejou o trabalho interino de Silvio Luiz no cargo, este último não faz jus ao mesmo salário do substituído no período.",
+          "D": "Considerando que o exercício do cargo será interino, não havendo a vacância posterior, Silvio Luiz terá garantido o retorno ao seu cargo anterior e a contagem de tempo de serviço no cargo ocupado temporariamente."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa D está correta. O art. 450 da CLT garante ao empregado que ocupa cargo em comissão, interinamente, a volta ao cargo anterior e a contagem do tempo naquele serviço."
+      },
+      {
+        "id": "oab_39_73",
+        "materia": "Direito do Trabalho",
+        "assunto": "Faltas justificadas (Art. 473 da CLT)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 473, IV e VIII da CLT.",
+        "enunciado": "Você, como advogado, trabalha no setor de recursos humanos de uma grande empresa multinacional. Como o gerente do setor está de férias, e é ele, na condição de gerente, que defere ou indefere as licenças reivindicadas pelos funcionários, a secretária do setor, agora, lhe indagou sobre as solicitações de quatro funcionários: o primeiro está com o contrato suspenso por doença, em gozo de benefício previdenciário de auxílio doença comum e requer pagamento de salário; o segundo requereu o abono de um dia de trabalho, em razão de doação de sangue; o terceiro formulou requerimento de dispensa para ser ouvido como testemunha na Justiça do Trabalho em audiência presencial e, o quarto e último, aduziu que o primo faleceu e requereu a dispensa do dia de trabalho. Sobre as solicitações, considerando o teor da legislação trabalhista em vigor, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Na hipótese de falecimento do primo, sendo parente do funcionário, a dispensa ao trabalho é devida por um dia.",
+          "B": "Em caso de doação de sangue voluntária, devidamente comprovada, o empregado tem direito a um dia de licença remunerada a cada 12 meses.",
+          "C": "O empregado em gozo de auxílio-doença tem direito a receber a complementação salarial da diferença entre o benefício previdenciário e o salário.",
+          "D": "A ausência ao trabalho para comparecimento em juízo refere-se tão somente aos casos de o empregado ser parte na demanda, mas não para servir como testemunha."
+        },
+        "gabarito": "B",
+        "comentario": "O art. 473, IV da CLT garante ao empregado o direito de deixar de comparecer ao serviço, sem prejuízo do salário, por um dia a cada 12 meses de trabalho, em caso de doação voluntária de sangue devidamente comprovada. Falecimento do primo não está no rol do art. 473 (apenas cônjuge, ascendente, descendente, irmão). O empregado em auxílio-doença tem o contrato suspenso (art. 476), sem recebimento de salário do empregador. A ausência para comparecer a juízo é garantida para testemunha também (art. 473, VIII, sem distinção)."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_72",
+        "materia": "Direito do Trabalho",
+        "assunto": "Acidente de trabalho equiparado e estabilidade provisória",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Paulo trabalha desde 2022 na sociedade empresária Auditórios Fidedignas Ltda. como auditor. A empresa possui plano permanente de capacitação e, por isso, Paulo viaja com frequência para realizar cursos de auditoria em todo o país e se manter sempre atualizado. Em uma dessas viagens, Paulo estava no hotel tomando banho e abruptamente, sem motivo aparente, o vidro temperado do banheiro estourou, quebrando-se em vários pedaços, sendo que alguns deles atingiram e cortaram Paulo. Em virtude disso, o empregado precisou se afastar do serviço por 12 dias, findos os quais retornou ao trabalho e reassumiu suas atividades normais. Diante da situação apresentada e da legislação em vigor, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Uma vez que Paulo não estava trabalhando, o evento não é acidente do trabalho, daí porque ele não terá a garantia no emprego por 12 meses.",
+          "B": "O evento pode ser considerado acidente do trabalho e, por isso, o empregado terá estabilidade no emprego por 12 meses a partir do retorno.",
+          "C": "Trata-se de acidente do trabalho por equiparação, mas Paulo não terá estabilidade quando retornar.",
+          "D": "Não se trata de acidente do trabalho, mas, tendo ocorrido o sinistro, Paulo terá a garantia no emprego por um ano."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema acidente de trabalho. Conforme art. 21, IV, alínea “b”, da Lei 8.213/91: “Art. 21. Equiparam-se também ao acidente do trabalho, para efeitos desta Lei: IV - o acidente sofrido pelo segurado ainda que fora do local e horário de trabalho: b) na prestação espontânea de qualquer serviço à empresa para lhe evitar prejuízo ou proporcionar proveito;” Portanto, o fato de Paulo estar em viagem para realizar cursos de auditoria para se capacitar para o trabalho equipara seu acidente a um acidente de trabalho, conforme dispositivo acima indicado. No entanto, observe que o afastamento se deu por menos de 15 dias. Logo, Paulo gozará de auxílio acidente, e não de auxílio-doença acidentário (este último, apenas para afastamentos superiores a 15 dias). Logo, a estabilidade por 12 meses não se aplicará a Paulo, na forma do art. 118 da Lei 8.213/91: “Art. 118. O segurado que sofreu acidente do trabalho tem garantida, pelo prazo mínimo de doze meses, a manutenção do seu contrato de trabalho na empresa, após a cessação do auxílio-doença acidentário, independentemente de percepção de auxílio-acidente.” Corroborando com o exposto, a Súmula 378 do TST traz o seguinte: “Súmula 378: Seguridade social. Acidente de trabalho. Garantia de emprego. Estabilidade provisória. Pressupostos. Auxílio-acidente. Lei 8.213/1991, art. 118 (constitucionalidade). Lei 8.213/1991, art. 86. I - É constitucional o art. 118 da Lei 8.213/1991 que assegura o direito à estabilidade provisória por período de 12 meses após a cessação do auxílio-doença ao empregado acidentado. II - São pressupostos para a concessão da estabilidade o afastamento superior a 15 dias e a consequente percepção do auxílio-doença acidentário, salvo se constatada, após a despedida, doença profissional que guarde relação de causalidade com a execução do contrato de emprego. (...)” As alternativas A e D estão incorretas, pois não consideram o evento como acidente de trabalho equiparado. A alternativa B está incorreta, pois diz que o trabalhador terá estabilidade, o que contraria art. 118 da Lei 8.213/91, acima colacionado."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_74",
+        "materia": "Direito do Trabalho",
+        "assunto": "Tempo de serviço - afastamentos computáveis",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Pedro e Vitor trabalham na mesma sociedade empresária. Em 2023, Pedro foi convocado para prestar serviço militar obrigatório e Vitor sofreu um grave acidente de trabalho, que exigiu seu afastamento do emprego por um ano. Sobre o tempo de serviço dos dois empregados, considerando os fatos narrados e o que dispõe a CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Ambos os empregados terão computado o tempo de afastamento na contagem de tempo de serviço para efeito de indenização.",
+          "B": "Somente Pedro terá computado o tempo de serviço militar na contagem de tempo de serviço para efeito de indenização.",
+          "C": "Nenhum dos empregados terá computado o tempo de afastamento na contagem de tempo de serviço para efeito de indenização.",
+          "D": "Apenas Vitor terá computado o tempo de serviço militar na contagem de tempo de serviço para efeito de indenização."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata do tema tempo de serviço. A alternativa A está correta. Conforme art. 4º, § 1º, da CLT: “Art. 4º. (...) § 1º Computar-se-ão, na contagem de tempo de serviço, para efeito de indenização e estabilidade, os períodos em que o empregado estiver afastado do trabalho prestando serviço militar e por motivo de acidente do trabalho.” Assim, tanto Pedro quanto Vitor terão computado o tempo de afastamento na contagem de tempo de serviço para efeito de indenização. Portanto, a alternativa A está correta. As alternativas B, C e D ficam, pois, automaticamente incorretas."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_75",
+        "materia": "Direito do Trabalho",
+        "assunto": "Justa causa - condenação criminal transitada em julgado",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Constantino é empregado em uma indústria de fabricação de móveis. O empregador ficou ciente de que o Ministério Público Estadual apresentou denúncia contra Constantino pela prática de fato típico, antijurídico e culpável, praticado durante uma assembleia de condomínio contra um morador do mesmo prédio. A denúncia foi recebida pelo juiz criminal e o processo penal teve início. A sociedade empresária consulta você, como advogado(a), para saber que efeito jurídico essa situação terá no contrato de trabalho. De acordo com a legislação em vigor, assinale a afirmativa que, corretamente, apresenta sua resposta.",
+        "alternativas": {
+          "A": "O contrato de trabalho de Constantino ficará suspenso pelo recebimento da denúncia.",
+          "B": "O recebimento da denúncia é falta grave que automaticamente ensejará a extinção do contrato por justa causa.",
+          "C": "Nenhuma consequência haverá no contrato de trabalho, porque a presunção é de inocência.",
+          "D": "O contrato de trabalho ficará interrompido e Constantino será considerado licenciado até o término da ação penal."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema rescisão do contrato de trabalho. A alternativa A está incorreta. Não é causa de suspensão do contrato de trabalho, posto que não existe tal hipótese na CLT. A alternativa B está incorreta. Não há de se falar em extinção do contrato de trabalho por justa causa, pois não houve condenação transitada em julgado, conforme exige art. 482, alínea “d”, da CLT, acima colacionado. A alternativa C está correta. Conforme art. 482, alínea “d”, da CLT: “Art. 482 - Constituem justa causa para rescisão do contrato de trabalho pelo empregador: (...) d) condenação criminal do empregado, passada em julgado, caso não tenha havido suspensão da execução da pena;” Portanto, no caso narrado pelo enunciado e levando em consideração o dispositivo acima colacionado, é possível dizer que não haverá consequência ao contrato de trabalho de Constantino, posto que o processo criminal apenas teve início, não tendo havido ainda condenação transitada em julgado. Logo, presume-se sua inocência. Assim, a alternativa C está correta. A alternativa D está incorreta. Não é causa de interrupção do contrato de trabalho, posto que não existe tal hipótese no rol do artigo 473 e nem em nenhum outro dispositivo da CLT."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_74",
+        "materia": "Direito do Trabalho",
+        "assunto": "Prescrição trabalhista e suspensão do contrato",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Giovana encontra-se em auxílio temporário por incapacidade (auxílio-doença) há 6 anos, permanecendo, basicamente, em sua residência, realizando afazeres domésticos. Não há impossibilidade de Giovana realizar os atos da vida civil de maneira geral, mas está limitada em sua capacidade laborativa. Em 2024, Giovana lembrou que, no mês anterior ao início do seu benefício previdenciário, realizou várias horas extras, que pretende reivindicar judicialmente, e para tanto o(a) procura, como advogado(a), para obter uma orientação. Considerando esses fatos e o entendimento consolidado do TST, assinale a opção que apresenta, corretamente, sua orientação.",
+        "alternativas": {
+          "A": "Desaconselhável a demanda, porque a prescrição que vier a ser suscitada impedirá a análise do suposto direito.",
+          "B": "Haverá prescrição extintiva bienal porque a ação não foi ajuizada nos 2 anos seguintes à concessão do benefício.",
+          "C": "A prescrição para quem está recebendo benefício previdenciário é trintenária, daí o pedido de horas extras ser viável.",
+          "D": "Não corre prescrição parcial porque o contrato se encontra suspenso e, por isso, a prescrição não flui contra Giovana."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata da suspensão da prescrição. A alternativa B está correta, já que Giovana não obteria sucesso em sua demanda, pois é uma empregada afastada recebendo auxílio-doença, portanto, possui seu contrato suspenso, nos termos da CLT. Além disso, nos termos da OJ 375 do TST, a suspensão do contrato de trabalho em virtude de auxílio-doença não impede a fluência da prescrição quinquenal. Conforme informa o enunciado, Giovana está afastada há 6 anos, portanto, sua pretensão está prescrita. Veja literalidade da CLT: \"Art. 475. O empregado que for aposentado por invalidez terá suspenso o seu contrato de trabalho durante o prazo fixado pelas leis de previdência social para a efetivação do benefício\". OJ 375 da SDI-1 do TST: \"A suspensão do contrato de trabalho, em virtude da percepção do auxílio-doença ou da aposentadoria por invalidez, não impede a fluência da prescrição quinquenal, ressalvada a hipótese de absoluta impossibilidade de acesso ao Judiciário\"."
+      }
+    ]
+  },
+  "Cessação Do Contrato De Trabalho E Verbas Rescisórias": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Morte do empregado e efeitos rescisórios / verbas devidas aos dependentes ou sucessores",
+        "ids_questoes": [
+          "oab_38_72"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Confundir a morte do empregado com simples extinção sem efeitos patrimoniais, esquecendo que as verbas rescisórias são devidas e seguem a disciplina legal de pagamento aos dependentes/sucessores."
+      },
+      {
+        "nome_microtema": "Estabilidades e garantias provisórias no emprego",
+        "ids_questoes": [
+          "oab_39_74"
+        ],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Misturar o termo inicial e final da estabilidade gestante com as garantias da CIPA e do dirigente sindical, tratando todas como se tivessem a mesma duração e a mesma lógica de proteção."
+      },
+      {
+        "nome_microtema": "Movimentação do FGTS nas hipóteses legais de saque",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_71"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Achar que qualquer extinção contratual autoriza saque imediato do FGTS, sem distinguir pedido de demissão, aposentadoria e dispensa sem justa causa."
+      },
+      {
+        "nome_microtema": "Culpa recíproca na rescisão contratual e redução das verbas rescisórias",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_73"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Confundir culpa recíproca com justa causa pura e simples ou com rescisão indireta isolada, errando o percentual reduzido das parcelas devidas."
+      },
+      {
+        "nome_microtema": "PDV e quitação geral: acordo coletivo, convenção coletiva e norma interna",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_74"
+        ],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Supor que todo PDV gera quitação plena e irrevogável, sem perceber que a eficácia liberatória geral depende da previsão em instrumento coletivo, não bastando norma interna do empregador."
+      },
+      {
+        "nome_microtema": "Perempção na Justiça do Trabalho por arquivamentos sucessivos",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_78"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir ausência do reclamante com mera confissão ficta, ignorando que a reiteração do arquivamento pode gerar perempção e impedir nova ação por prazo legal."
+      },
+      {
+        "nome_microtema": "Ônus da prova na equiparação salarial",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_76"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Inverter o ônus probatório entre empregado e empregador, especialmente quanto à diferença de perfeição técnica e ao tempo de serviço superior ao paradigma."
+      },
+      {
+        "nome_microtema": "Responsabilidade do sócio retirante na execução trabalhista",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_80"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Tomar como marco apenas a data da ação ou da execução, esquecendo a janela temporal entre a averbação da saída e o ajuizamento da reclamação, além da ordem de preferência na execução."
+      },
+      {
+        "nome_microtema": "Multa do art. 477 da CLT e entrega de guias do FGTS/seguro-desemprego",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_73"
+        ],
+        "peso_percentual": 6,
+        "armadilha_favorita": "Achar que o pagamento das verbas rescisórias no prazo elimina qualquer penalidade, ignorando que a multa pode decorrer do atraso na entrega das guias e documentos rescisórios."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com narrativa curta e foco em um detalhe decisivo do vínculo ou da rescisão; a FGV costuma misturar institutos próximos para testar a leitura fina da CLT e da jurisprudência consolidada.",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "diante da situação apresentada",
+        "considerando os termos da CLT",
+        "observando a legislação em vigor",
+        "é correto afirmar"
+      ],
+      "padrão_distratores": "alternativas quase verdadeiras, com troca de prazo, sujeito protegido, percentual, marco temporal ou requisito formal; a pegadinha costuma estar em um único elemento que altera totalmente a solução."
+    },
+    "total_questoes_analisadas": 9,
+    "banco_questoes": [
+      {
+        "id": "oab_38_72",
+        "materia": "Direito do Trabalho",
+        "assunto": "Morte do Empregado e Pagamento de Verbas Rescisórias (Lei 6.858/80)",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Vladimir, formado em Educação Física, 28 anos de idade, era instrutor em uma academia de ginástica há 1 ano, com a CTPS devidamente assinada. Ao ser comunicado pelo empregador de sua dispensa sem justa causa, com aviso prévio que deveria ser trabalhado, Vladimir foi tomado de intensa emoção e teve um ataque cardíaco fulminante, vindo a óbito. De acordo com a situação retratada e a norma de regência, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A sociedade empresária será condenada pelo acidente do trabalho sofrido, mas não haverá indenização pela extinção do contrato porque o aviso prévio não foi cumprido.",
+          "B": "As verbas devidas serão pagas, em quotas iguais, aos dependentes de Vladimir habilitados perante a Previdência Social e, na falta, aos sucessores previstos na lei civil.",
+          "C": "Não haverá responsabilidade civil do empregador por se tratar de caso fortuito e a Lei determina, no caso de morte suspeita, a consignação em pagamento dos valores devidos.",
+          "D": "A morte do empregado extingue o contrato de trabalho e a indenização a ser paga será a metade do que é devido pela dispensa sem justa causa."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa B está correta. O art. 1° da Lei 6.858/80 determina que os valores devidos ao empregado falecido serão pagos, em quotas iguais, aos seus dependentes habilitados perante a Previdência Social."
+      },
+      {
+        "id": "oab_39_74",
+        "materia": "Direito do Trabalho",
+        "assunto": "Estabilidades provisórias (Gestante, CIPA, Dirigente Sindical)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 10, II do ADCT; Art. 165 da CLT; Art. 543, §3º da CLT.",
+        "enunciado": "Determinada sociedade empresária possui cerca de 100 funcionários e, em razão de mudança na direção, decidiu realizar algumas dispensas. Ocorre que alguns dos funcionários indicados para a dispensa são detentores de garantias no emprego, sendo uma em decorrência de gestação; outra por ser dirigente sindical; outro por ser membro da Comissão Interna de Prevenção de Acidentes (CIPA) eleito pelos empregados. Além desses casos existe um quarto funcionário, que informou não poder ser dispensado por também ser membro da CIPA, indicado pelo próprio empregador. Diante disso, a sociedade empresária consultou você, como advogado(a), para saber os períodos e as possibilidades de dispensa. A esse respeito, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Todas as modalidades de estabilidade ou garantia de emprego possuem a mesma duração.",
+          "B": "A estabilidade gestante dá-se da confirmação da gravidez até cinco meses após o parto; a do membro da CIPA eleito pelos empregados, dá-se do registro da candidatura até um ano após o término do mandato, assim como a do dirigente sindical.",
+          "C": "Os empregados representantes da CIPA, seja o eleito pelos empregados, seja o indicado como representante do empregador, têm garantia no emprego até um ano após o término do mandato.",
+          "D": "O conhecimento por parte do empregador do estado gravídico da empregada gestante é requisito para o reconhecimento da estabilidade."
+        },
+        "gabarito": "B",
+        "comentario": "A estabilidade gestante: art. 10, II, 'b' do ADCT (confirmação da gravidez até 5 meses após o parto). Estabilidade do membro da CIPA eleito: art. 165 da CLT c/c art. 10, II, 'a' do ADCT (desde o registro da candidatura até 1 ano após o término do mandato). Estabilidade do dirigente sindical: art. 543, §3º da CLT (desde o registro da candidatura até 1 ano após o término do mandato). O representante do empregador na CIPA não tem estabilidade. O conhecimento prévio do empregador sobre a gravidez não é requisito (Súmula 244, I do TST)."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_71",
+        "materia": "Direito do Trabalho",
+        "assunto": "Levantamento do FGTS",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Alexandre, Reginaldo e Maurício eram empregados da mesma sociedade empresária, mas em períodos distintos. Alexandre pediu demissão após 2 (dois) anos de trabalho, pois já estava cansado de trabalhar para o mesmo empregador e já era idoso contando com 71 (setenta e um) anos de idade. Reginaldo se aposentou após 3 (três) anos, pois já contava com idade e tempo de serviço anterior, apesar de ter 62 (sessenta e dois) anos. Maurício foi dispensado sem justa causa, após quatro meses, mesmo sendo jovem e contando com 25 (vinte e cinco) anos de idade. Os três consultaram você, como advogado(a), acerca da possibilidade de levantamento imediato dos valores depositados a título de FGTS dos contratos terminados. Observando a legislação em vigor e adstrito aos dados do enunciado, assinale a afirmativa que apresenta, corretamente, sua orientação.",
+        "alternativas": {
+          "A": "Os três poderão receber, imediatamente, os valores do FGTS.",
+          "B": "Alexandre e Maurício não poderão receber os valores imediatamente, pois um pediu demissão e o outro teve contrato inferior a seis meses.",
+          "C": "Apenas Alexandre não poderá movimentar sua conta vinculada e receber os valores imediatamente.",
+          "D": "Apenas Maurício, por haver sido dispensado sem justa causa, tem direito ao recebimento imediato do FGTS."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata do tema FGTS, disposto na Lei 8.038/90. Analisemos as situações propostas pelo enunciado. Alexandre, apesar de ter pedido demissão, conta mais de 70 anos de idade; logo, pode levantar os valores depositados a título de FGTS. De acordo com art. 20, XV, da Lei 8.038/90: “Art. 20. A conta vinculada do trabalhador no FGTS poderá ser movimentada nas seguintes situações: XV - quando o trabalhador tiver idade igual ou superior a setenta anos.” Reginaldo também poderá levantar os valores depositados a título de FGTS, pois conforme art. 20, III, da Lei 8.038/90, aposentadoria é hipótese de saque. Vejamos: “Art. 20. A conta vinculada do trabalhador no FGTS poderá ser movimentada nas seguintes situações: III - aposentadoria concedida pela Previdência Social;” Por fim, Maurício foi dispensado sem justa causa, o que também lhe dá direito de sacar os valores depositados a título de FGTS. De acordo com art. 20, I, da Lei 8.038/90: “Art. 20. A conta vinculada do trabalhador no FGTS poderá ser movimentada nas seguintes situações: I - despedida sem justa causa, inclusive a indireta, de culpa recíproca e de força maior;” Conforme demonstrado, os 3 trabalhadores poderão receber, imediatamente, os valores do FGTS. Portanto, a alternativa A está correta. Automaticamente, e utilizando por base os mesmos dispositivos legais acima transcritos, as alternativas B, C e D ficam incorretas."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_73",
+        "materia": "Direito do Trabalho",
+        "assunto": "Culpa recíproca na rescisão contratual",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Em sede de sentença prolatada nos autos de reclamação trabalhista, na qual você advoga para a sociedade empresária, parte ré, o Juiz reconheceu que tanto o seu cliente como o autor da ação foram responsáveis pela rescisão motivada do contrato de trabalho, tendo se operado a justa causa do empregado, concomitantemente com a rescisão indireta por parte do empregador. Sobre os fatos apresentados, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Dada a concomitância de motivações para o término motivado da relação contratual, presume-se pela dispensa imotivada, sendo devidas as verbas trabalhistas daí decorrentes.",
+          "B": "Configurada a culpa recíproca, seu cliente terá direito apenas a 50% das férias vencidas e ao saldo de salários integral, não havendo direito aos valores de aviso prévio, férias e 13º salário proporcionais e à multa sobre o FGTS.",
+          "C": "Configurada a culpa recíproca, seu cliente terá direito a 50% do valor do aviso prévio, das férias proporcionais e do 13° salário proporcional, além dos valores das férias vencidas e do saldo de salários. A multa sobre o FGTS, no entanto, não será devida.",
+          "D": "Configurada a culpa recíproca, seu cliente terá direito a 50% do valor do aviso prévio, das férias proporcionais e do 13° salário proporcional e 20% da multa sobre o FGTS, além dos valores que já seriam devidos na hipótese de justa causa, quais sejam, férias vencidas e saldo de salários."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata do tema extinção do contrato de trabalho. No caso da Rescisão por Culpa Recíproca, o art. 484 da CLT traz o seguinte: “Art. 484 - Havendo culpa recíproca no ato que determinou a rescisão do contrato de trabalho, o tribunal de trabalho reduzirá a indenização à que seria devida em caso de culpa exclusiva do empregador, por metade.” Ademais, a Súmula 14 do TST assim dispõe: “Reconhecida a culpa recíproca na rescisão do contrato de trabalho (art. 484 da CLT), o empregado tem direito a 50% (cinquenta por cento) do valor do aviso prévio, do décimo terceiro salário e das férias proporcionais.” E, no caso da multa sobre os depósitos do FGTS, a Lei 8.036/90 determina, em seu artigo 18, § 2º, que a multa será no valor de 20%, ou seja, metade da multa “normal” de 40%. Vejamos: “Art. 18. (...) § 2º Quando ocorrer despedida por culpa recíproca ou força maior, reconhecida pela Justiça do Trabalho, o percentual de que trata o § 1º será de 20 (vinte) por cento.” Desta feita, no caso hipotético narrado, o empregado receberá: saldo de salário dos dias trabalhados + férias vencidas + metade do aviso prévio + metade das férias proporcionais mais 1/3 + metade do 13º proporcional + metade da multa de 40% sobre o FGTS, ou seja, 20%. Logo, a alternativa correta é a letra D. As demais alternativas ficam automaticamente incorretas."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_74",
+        "materia": "Direito do Trabalho",
+        "assunto": "Plano de Demissão Voluntária (PDV) e quitação plena",
+        "banca": "FGV",
+        "ano": 2024,
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "As irmãs Margarida, Hortência e Rosa aderiram ao plano de demissão voluntária (PDV) oferecido pelos seus respectivos empregadores. No caso de Margarida, a previsão do PDV encontrava-se em acordo coletivo de trabalho; no caso de Hortência, estava previsto em convenção coletiva de trabalho; e, no caso de Rosa, em norma interna definida pelo empregador. Feitas as extinções dos contratos em 2024, sem ressalvas, as irmãs pretendem ajuizar reclamação trabalhista postulando direitos supostamente lesados ao longo do pacto laboral. Considerando a situação apresentada e os termos da CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Margarida e Hortência deram quitação plena e irrevogável dos direitos decorrentes da relação empregatícia, não podendo postular diferenças.",
+          "B": "As três irmãs poderão ajuizar ação trabalhista com chance de sucesso, porque não houve homologação do PDV no sindicato de classe das empregadas.",
+          "C": "A quitação geral somente ocorrerá no caso de Hortência, porque foi elaborada em convenção coletiva de trabalho.",
+          "D": "Nenhuma das irmãs poderá ajuizar ação, porque elas se submeteram às regras do PDV e não fizeram constar ressalva."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata do tema extinção do contrato de trabalho, em especial o plano de demissão voluntária. A Reforma Trabalhista incluiu o art. 477-B, para tratar do PDV: “Art. 477-B. Plano de Demissão Voluntária ou Incentivada, para dispensa individual, plúrima ou coletiva, previsto em convenção coletiva ou acordo coletivo de trabalho, enseja quitação plena e irrevogável dos direitos decorrentes da relação empregatícia, salvo disposição em contrário estipulada entre as partes.” A partir do dispositivo transcrito, analisemos a situação de cada uma das partes constantes no caso hipotético narrado pelo enunciado da questão. Para Margarida, cuja previsão do PDV se encontrava em acordo coletivo de trabalho, houve a quitação plena e irrevogável dos direitos decorrentes da relação empregatícia, conforme art. 477-B da CLT. Para Hortência, cuja previsão do PDV se encontrava em convenção coletiva de trabalho, também houve a quitação plena e irrevogável dos direitos decorrentes da relação empregatícia, conforme art. 477-B da CLT. Já para Rosa, como a previsão do PDV se deu em norma interna definida pelo empregador, não se enquadra no art. 477-B da CLT, não havendo de se falar em “quitação plena e irrevogável dos direitos decorrentes da relação empregatícia”. Portanto, a alternativa correta é a letra A: Apenas Margarida e Hortência deram quitação plena e irrevogável dos direitos decorrentes da relação empregatícia, não podendo postular diferenças. As demais alternativas ficam automaticamente incorretas."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_78",
+        "materia": "Direito do Trabalho",
+        "assunto": "Perempção na Justiça do Trabalho",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "José Luiz ajuizou reclamação trabalhista em face de Lojas Internacionais Ltda., pleiteando verbas resilitórias e horas extras. No dia da audiência, apesar de regularmente notificado, José Luiz injustificadamente não compareceu. Seu advogado, presente, requereu a dispensa de custas pela gratuidade de justiça, o que foi deferido pelo Juiz, com a concordância do réu e do respectivo advogado, também presentes na audiência. Ação idêntica foi ajuizada um mês após o fato, e, de novo, José Luiz injustificadamente não compareceu, sendo que, dessa vez, uma hora após a audiência, ele compareceu à sala de audiência e disse ao Juiz e ao secretário da audiência que dormira demais, perdendo a hora, e, por isso, atrasou-se e não chegou no horário. Foi juntada certidão do fato ao processo, no qual, novamente, foi acolhido e seu requerimento de gratuidade de justiça. As duas ações anteriormente ajuizadas foram extintas sem resolução do mérito. Agora, você foi procurado por José Luiz para, como advogado(a), ajuizar outra ação idêntica. Sobre as consequências das ausências de José Luiz para o ajuizamento de outra demanda, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Ocorrerá a confissão do autor.",
+          "B": "Não há penalidade, já que José Luiz, em ambas as situações, foi dispensado do pagamento das custas.",
+          "C": "José Luiz incorrerá na pena da perempção, perdendo, pelo prazo de seis meses, o direito de reclamar perante a Justiça do Trabalho.",
+          "D": "José Luiz poderá reclamar imediatamente, mas, independentemente, da prescrição parcial quinquenal, será descontado do prazo da sua reclamação o período de seis meses."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata dos temas audiência trabalhista e reclamação trabalhista, mais precisamente sobre a preempção. Observe que José Luiz, por duas vezes, deixou de comparecer à audiência de julgamento de modo injustificado. Nesse caso, incorrerá na pena de preempção, que consiste na perda, pelo prazo de 6 meses, do direito de reclamar perante a Justiça do Trabalho. É o que se depreende da leitura conjunta dos artigos 731 e 732 da CLT: “Art. 731 - Aquele que, tendo apresentado ao distribuidor reclamação verbal, não se apresentar, no prazo estabelecido no parágrafo único do art. 786, à Junta ou Juízo para fazê-lo tomar por termo, incorrerá na pena de perda, pelo prazo de 6 (seis) meses, do direito de reclamar perante a Justiça do Trabalho. Art. 732 - Na mesma pena do artigo anterior incorrerá o reclamante que, por 2 (duas) vezes seguidas, der causa ao arquivamento de que trata o art. 844.” Logo, a alternativa correta é a letra C. As demais alternativas ficam, pois, automaticamente incorretas."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_76",
+        "materia": "Direito do Trabalho",
+        "assunto": "Ônus da prova na equiparação salarial",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Sandra trabalhou na sociedade empresária Sorvete Saboroso Ltda. por 3 anos, como atendente de loja. Após ser dispensada em 2024, Sandra ajuizou reclamação trabalhista contra a ex-empregadora requerendo equiparação salarial com a funcionária Maria, que exercia a mesma função, mas recebia salário superior. Apresentada a defesa, os pontos controvertidos definidos foram: diferença na perfeição técnica entre as empregadas e diferença superior a quatro anos no tempo de serviço para o empregador. Considerando a distribuição estática do ônus da prova e os termos a CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A empresa caberá provar a diferença na perfeição técnica e a diferença superior a quatro anos no tempo de serviço entre as cotejadas.",
+          "B": "À empresa caberá provar a diferença superior a quatro anos no tempo de serviço e, à empregada, a diferença na perfeição técnica.",
+          "C": "À empregada caberá provar a diferença superior a quatro anos no tempo de serviço para o empregador e, à empresa, a diferença na perfeição técnica.",
+          "D": "À empregada caberá provar a diferença na perfeição técnica e a diferença superior a quatro anos no tempo de serviço entre as cotejadas."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata sobre ônus da prova. A alternativa A está correta, nos termos do art. 818 da CLT cabe à empresa o ônus de provar os fatos impeditivos, modificativos ou extintivos do direito do empregado. Vejamos: “Art. 818. O ônus da prova incumbe: I - ao reclamante, quanto ao fato constitutivo de seu direito; II - ao reclamado, quanto à existência de fato impeditivo, modificativo ou extintivo do direito do reclamante.” A alternativa B está incorreta. Ambas as provas são ônus do empregador, pois são fatos impeditivos do direito à equiparação. A alternativa C está incorreta. O ônus da prova não pode ser dividido dessa forma. A prova de ambos os fatos cabe ao empregador, nos termos do art. 818 da CLT. A alternativa D está incorreta. A empregada, Sandra, tem o ônus de provar os fatos constitutivos do seu direito (identidade de função, empregador, local de trabalho), mas não os fatos impeditivos alegados pela empresa. A prova desses fatos é do empregador."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_80",
+        "materia": "Direito do Trabalho",
+        "assunto": "Responsabilidade do sócio retirante na execução trabalhista",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Soraya integrava o contrato social de uma sociedade empresária, mas se afastou dela em janeiro de 2019 e registrou sua saída perante a Junta Comercial em dezembro de 2021. Joana foi empregada da sociedade empresária em questão de abril de 2019 a setembro de 2022, tendo ajuizado reclamação trabalhista em outubro de 2023. Obteve vitória judicial e iniciou a execução em janeiro de 2025. Não tendo a sociedade empresária solvabilidade, requereu o direcionamento da execução contra os sócios atuais, sem êxito. Então, requereu que a execução fosse feita em relação à Soraya. Considerando esses fatos e o que prevê a CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "É possível a execução de Soraya porque, entre a averbação de sua saída e o ajuizamento da ação, transcorreu prazo inferior a 2 anos.",
+          "B": "Uma vez que entre o afastamento de Soraya e o início da execução transcorreu prazo superior a 2 anos, ela não poderá ser executada.",
+          "C": "Entre o afastamento de Soraya e o ajuizamento da ação transcorreu prazo superior a 2 anos, pelo que a ex-sócia não poderá ser executada.",
+          "D": "Tendo sido sócia à época da prestação dos serviços de Joana, e enriquecido com o seu labor, Soraya pode ser executada a qualquer tempo."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata sobre execução trabalhista, especificamente, a responsabilidade do ex-sócio. A alternativa A está correta, conforme Art. 10-A da CLT, o sócio retirante responde subsidiariamente pelas obrigações trabalhistas da sociedade relativas ao período em que figurou como sócio, somente em ações ajuizadas até dois anos depois de averbada a modificação do contrato social. Soraya se retirou em janeiro de 2019 e a saída foi registrada em dezembro de 2021. Vejamos: “Art. 10-A. O sócio retirante responde subsidiariamente pelas obrigações trabalhistas da sociedade relativas ao período em que figurou como sócio, somente em ações ajuizadas até dois anos depois de averbada a modificação do contrato, observada a seguinte ordem de preferência: I - a empresa devedora; II - os sócios atuais; e III - os sócios retirantes. Parágrafo único. O sócio retirante responderá solidariamente com os demais quando ficar comprovada fraude na alteração societária decorrente da modificação do contrato. A reclamação trabalhista de Joana foi ajuizada em outubro de 2023, menos de dois anos após a averbação da saída, conforme o art. 10-A da CLT. Portanto, a execução contra Soraya é possível. A alternativa B está incorreta. O que importa para a responsabilidade do ex-sócio é o prazo entre a averbação de sua saída e o ajuizamento da ação, e não o início da execução. A alternativa C está incorreta. O prazo se conta a partir da averbação da saída na Junta Comercial, que ocorreu em dezembro de 2021. A ação foi ajuizada em outubro de 2023. O prazo é inferior a dois anos, o que permite a execução, consoante o art.10-A da CLT. A alternativa D está incorreta. O art. 10-A da CLT estabelece um limite temporal de dois anos para a responsabilidade do sócio retirante, afastando a possibilidade de execução a qualquer tempo."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_73",
+        "materia": "Direito do Trabalho",
+        "assunto": "Extinção do Contrato de Trabalho - Multa por atraso na entrega de documentos",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Em outubro de 2023, a sociedade empresária Plantas Ornamentais Ltda. dispensou o empregado Josimar, sem justa causa, após dois anos de contrato de trabalho. A sociedade calculou as verbas rescisórias e depositou-as na conta do trabalhador em cinco dias e, no mesmo dia, fez o recolhimento da indenização de 40% sobre o FGTS. Ocorre que, por equívoco do setor de Recursos Humanos da sociedade empresária, as guias para o saque do FGTS e os formulários para o requerimento do seguro-desemprego somente foram entregues 60 dias após o término do aviso prévio. Sobre a hipótese, considerando os termos da CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Não se cogitará qualquer multa ou penalidade pela ausência de prejuízo, já que as verbas foram depositadas na conta de Josimar no prazo legal.",
+          "B": "A sociedade empresária pagará uma multa de 50% do valor das verbas resilitórias, em razão do atraso na entrega dos documentos do FGTS e do seguro-desemprego.",
+          "C": "A situação gerou enorme prejuízo ao trabalhador, daí porque as verbas referentes à saída deverão ser pagas em dobro como forma de punição da sociedade empresária.",
+          "D": "A sociedade empresária pagará multa pelo atraso na entrega dos documentos do FGTS e do seguro-desemprego em favor do trabalhador, no valor equivalente ao seu salário."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata do tema Extinção do Contrato de Trabalho. Quando da extinção do contrato, a CLT determina que o empregador tem 10 dias para dar ao empregado o recibo de quitação e efetuar o pagamento dos valores devidos. É o que dispõe o § 6º do mesmo artigo, a seguir: “§ 6º A entrega ao empregado de documentos que comprovem a comunicação da extinção contratual aos órgãos competentes bem como o pagamento dos valores constantes do instrumento de rescisão ou recibo de quitação deverão ser efetuados até dez dias contados a partir do término do contrato.” Caso não pague no prazo, fica o empregador sujeito a uma multa, a favor do empregado, em valor equivalente ao seu salário, conforme § 10. Vejamos: “§ 10. A anotação da extinção do contrato na Carteira de Trabalho e Previdência Social é documento hábil para requerer o benefício do seguro-desemprego e a movimentação da conta vinculada no Fundo de Garantia do Tempo de Serviço, nas hipóteses legais, desde que a comunicação prevista no caput deste artigo tenha sido realizada.” A alternativa A está incorreta. Há sim multa, conforme art. 477, §§ 8 e 10, da CLT, acima transcritos. A alternativa B está incorreta. A multa a favor do empregado é em valor equivalente ao seu salário, conforme art. 477, §§ 8 e 10, da CLT, acima transcritos. A alternativa C está incorreta. A multa a favor do empregado é em valor equivalente ao seu salário, conforme art. 477, §§ 8 e 10, da CLT, acima transcritos. A alternativa D está correta. A alternativa está totalmente conforme art. 477, §§ 8 e 10, da CLT, acima transcritos."
+      }
+    ]
+  },
+  "Estabilidade E Garantias Provisórias No Emprego": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Estabilidade provisória da gestante e alcance subjetivo da garantia",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_73",
+          "oab_Prova-comentada-OAB-44_75"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "A FGV costuma misturar a proteção da gravidez com o tipo de vínculo ou com a forma de dispensa, levando o candidato a errar ao excluir estagiária, aprendiz ou trabalhadora em cenário de reestruturação empresarial. A pegadinha é esquecer que a garantia da gestante é ampla e independe da modalidade contratual, salvo hipóteses legalmente excepcionais."
+      },
+      {
+        "nome_microtema": "Aborto não criminoso e repouso remunerado de duas semanas",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_73"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A banca confunde aborto espontâneo com licença-maternidade integral ou com ausência total de proteção. O ponto exato é lembrar que, em caso de aborto não criminoso, a empregada tem direito a repouso remunerado de duas semanas, e não a 30 dias, 5 dias ou nada."
+      },
+      {
+        "nome_microtema": "Efeitos do afastamento por doença ocupacional: FGTS e manutenção de vantagens contratuais",
+        "ids_questoes": [
+          "oab_39_75"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A FGV explora a falsa ideia de que, sem prestação de serviço, cessam todos os efeitos do contrato. A pegadinha é separar o período de suspensão/interrupção e lembrar que, em afastamento por acidente/doença ocupacional, há depósito de FGTS e preservação de direitos como reajustes concedidos aos empregados ativos, conforme a regra aplicável."
+      },
+      {
+        "nome_microtema": "Vedação de práticas discriminatórias na admissão e na manutenção do emprego da mulher",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_75"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "A banca mistura discriminação por sexo, gravidez e exigências aparentemente neutras, como atestado de não gravidez ou preferência por homens. O erro clássico é achar que o poder diretivo autoriza seleção discriminatória ou que a justificativa empresarial afasta a ilicitude."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo a identificação do direito trabalhista aplicável a situações de gravidez, afastamento previdenciário e discriminação no emprego",
+      "palavras_gatilho": [
+        "assinale a opção correta",
+        "considerando os fatos narrados",
+        "na qualidade de advogado(a)",
+        "nos termos da CLT",
+        "garantia no emprego",
+        "repouso remunerado",
+        "dispensar sem justa causa"
+      ]
+    },
+    "total_questoes_analisadas": 4,
+    "banco_questoes": [
+      {
+        "id": "oab_39_75",
+        "materia": "Direito do Trabalho",
+        "assunto": "Efeitos do Afastamento por Acidente de Trabalho (FGTS e Reajuste Salarial)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Arts. 15, §5º da Lei 8.036/90 e 471 da CLT.",
+        "enunciado": "Plínio Salgado ficou afastado do trabalho por 8 meses em benefício previdenciário decorrente de doença ocupacional relacionada ao trabalho. Ao retornar após a alta médica, foi informado que não teria direito ao gozo de férias, pois necessitaria cumprir mais um ano de trabalho, bem como seu FGTS deixou de ser depositado, já que não houve trabalho. Além disso, seu salário permaneceu congelado, por não haver trabalho, não lhe sendo devidas as diferenças salariais decorrentes do aumento espontâneo concedido pelo empregador aos empregados que estavam ativos. Na qualidade de advogado(a) de Plínio, assinale a opção que, corretamente, contempla os efetivos direitos de seu cliente.",
+        "alternativas": {
+          "A": "Plínio apenas faz jus aos depósitos do FGTS do período de afastamento, bem como ao reajuste salarial concedido pelo empregador.",
+          "B": "Plínio faz jus aos depósitos do FGTS do período de afastamento, bem como ao reajuste salarial concedido pelo empregador e ao cômputo do período de afastamento no período aquisitivo de férias.",
+          "C": "Plínio não tem direito ao reajuste salarial, pois não houve contraprestação no período do aumento espontâneo, não se tratando de norma coletiva.",
+          "D": "Plínio não tem direito aos valores do FGTS do período, pois em gozo do benefício previdenciário não há cômputo do tempo de serviço."
+        },
+        "gabarito": "A",
+        "comentario": "A doença ocupacional equipara-se a acidente de trabalho. O art. 15, §5º da Lei 8.036/90 determina que o depósito do FGTS é obrigatório nos casos de licença por acidente do trabalho. O art. 471 da CLT garante ao empregado afastado todas as vantagens que, em sua ausência, tenham sido atribuídas à categoria (reajuste salarial). O art. 133, IV da CLT estabelece que o empregado que percebeu auxílio-doença por mais de 6 meses perde o direito a férias no período aquisitivo."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_73",
+        "materia": "Direito do Trabalho",
+        "assunto": "Estabilidade provisória da gestante",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Roberta é estagiária numa fábrica de tecelagem, mesmo lugar onde Rogéria atua como aprendiz e que Fabiane trabalha como subgerente. No ano de 2024, as três trabalhadoras engravidaram. O empregador consultou você, como advogado(a), sobre a possibilidade de dispensar essas trabalhadoras sem justa causa, porque os sócios decidiram investir em máquinas modernas, automatizadas, e dispensar 50% da mão de obra. Considerando os fatos narrados e a norma de regência, assinale a opção que apresenta a orientação correta que você prestou.",
+        "alternativas": {
+          "A": "Apenas Fabiane possui garantia no emprego.",
+          "B": "Somente Rogéria e Fabiane possuem garantia no emprego.",
+          "C": "Roberta, Rogéria e Fabiane não poderão ser dispensadas em razão da garantia no emprego oriunda da gravidez.",
+          "D": "Todas as trabalhadoras citadas poderão ser dispensadas sem justa causa em razão da força maior apresentada pela empresa."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tema garantia de emprego. A alternativa B está correta. Conforme a Súmula 244 do TST: “Súmula 244: GESTANTE. ESTABILIDADE PROVISÓRIA. I - O desconhecimento do estado gravídico pelo empregador não afasta o direito ao pagamento da indenização decorrente da estabilidade (art. 10, II, \"b\" do ADCT). II. A garantia de emprego à gestante só autoriza a reintegração se esta se der durante o período de estabilidade. Do contrário, a garantia restringe-se aos salários e demais direitos correspondentes ao período de estabilidade. III. A empregada gestante tem direito à estabilidade provisória prevista no art. 10, inciso II, alínea “b”, do Ato das Disposições Constitucionais Transitórias, mesmo na hipótese de admissão mediante contrato por tempo determinado.” Fabiane, que trabalha como subgerente, é empregada, então terá garantia ao emprego. Rogéria, que atua como aprendiz, exerce contrato por prazo determinado, na forma do art. 428 da CLT: “Art. 428. Contrato de aprendizagem é o contrato de trabalho especial, ajustado por escrito e por prazo determinado, em que o empregador se compromete a assegurar ao maior de 14 (quatorze) e menor de 24 (vinte e quatro) anos inscrito em programa de aprendizagem formação técnico-profissional metódica, compatível com o seu desenvolvimento físico, moral e psicológico, e o aprendiz, a executar com zelo e diligência as tarefas necessárias a essa formação.” Roberta, que atua como estagiária, não pode ser considerada empregada. Isso porque o contrato de estágio não se equipara ao contrato de emprego, não gerando o vínculo empregatício. É o que prevê art. 3º da Lei 11.788/08: “Art. 3º O estágio, tanto na hipótese do § 1o do art. 2o desta Lei quanto na prevista no § 2o do mesmo dispositivo, não cria vínculo empregatício de qualquer natureza, observados os seguintes requisitos:” Desta feita, observe que apenas Rogéria e Fabiane possuem garantia no emprego, enquanto Roberta não terá, pois o estágio não gera vínculo empregatício. Logo, a alternativa B está correta. As alternativas A, C e D ficam, pois, automaticamente incorretas."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_73",
+        "materia": "Direito do Trabalho",
+        "assunto": "Aborto espontâneo e repouso remunerado",
+        "banca": "FGV",
+        "ano": "44",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Eduarda estava radiante porque ficou grávida de seu primeiro filho, um sonho que acalentou durante muitos anos. Ocorre que, em virtude de problemas de saúde, Eduarda sofreu um aborto espontâneo na 6ª semana da gravidez. Sobre a situação de Eduarda, nos termos da CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Ela poderá se afastar do trabalho por um período de 30 dias.",
+          "B": "Ela terá direito a um repouso remunerado de duas semanas.",
+          "C": "Ela terá direito ao mesmo período da licença-paternidade, ou seja, 5 dias.",
+          "D": "Ela não terá direito a qualquer período de repouso, por faltar previsão legal."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata da proteção à maternidade. A alternativa B está correta, pois em caso de aborto espontâneo, a trabalhadora tem direito a um repouso remunerado de duas semanas, nos termos da CLT: \"Art. 395 - Em caso de aborto não criminoso, comprovado por atestado médico oficial, a mulher terá um repouso remunerado de 2 (duas) semanas, ficando-lhe assegurado o direito de retornar à função que ocupava antes de seu afastamento\"."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_75",
+        "materia": "Direito do Trabalho",
+        "assunto": "Discriminação contra a mulher no trabalho",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Você foi consultado, na qualidade de advogado(a), por quatro mulheres trabalhadoras (Ligia, Paula, Geórgia e Sílvia), acerca de situações específicas que ocorreram no mercado de trabalho. Ligia indagou sobre um anúncio de emprego para chefe de cozinha que continha expressa referência à preferência por homens. Paula teria sido preterida em promoção, porque estava grávida de 6 meses e entraria em licença-maternidade em pouco tempo. De Geórgia, na entrevista de emprego, foi exigido, como condicionante da contratação, o atestado de que não estaria grávida. Sílvia perguntou acerca de um anúncio de empregos exclusivos para homens, no qual havia a descrição dos serviços como sendo de transporte, armazenagem e movimentação de cargas de 30 kg, sem o auxílio de meios mecânicos. Acerca da sua resposta às quatro consultas, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Todas as exigências são legítimas, porque estão contidas no poder empregatício.",
+          "B": "Todas as exigências são ilegítimas, pois violam os direitos da mulher e demonstram discriminação no mercado de trabalho.",
+          "C": "As exigências nos casos de Ligia, Paula e Geórgia são ilegais, por violarem direitos das mulheres; em relação ao caso de Sílvia, a exigência é legítima.",
+          "D": "As exigências relacionadas a Paula e a Geórgia são ilícitas, pois ferem o direito à maternidade, sendo as demais justificáveis, com base nas naturais exigências do mercado de trabalho."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata da discriminação contra a mulher. A exigência feita a Ligia é ilegal. A expressa preferência por contratar um homem para o cargo de chefe de cozinha é vedada, pois não pode ser recusado emprego em razão do sexo. A exigência feita a Paula é ilegal. A recusa de promoção por estar a funcionária grávida é vedada pela legislação trabalhista. A exigência feita a Georgia é ilegal. Exigir atestado ou exame, de qualquer natureza, para comprovação de esterilidade ou gravidez, na admissão ou permanência no emprego é vedado pela legislação trabalhista. A exigência feita a Silvia é legal, já que a legislação dispõe que é de 60 kg o peso máximo que um empregado pode remover individualmente. A alternativa C está correta, pois as exigências nos casos de Ligia, Paula e Geórgia são ilegais, por violarem direitos das mulheres; em relação ao caso de Sílvia, a exigência é legítima. Veja a literalidade da CLT: \"Art.198. É de 60 kg (sessenta quilogramas) o peso máximo que um empregado pode remover individualmente, ressalvadas as disposições especiais relativas ao trabalho do menor e da mulher. Art. 373-A. Ressalvadas as disposições legais destinadas a corrigir as distorções que afetam o acesso da mulher ao mercado de trabalho e certas especificidades estabelecidas nos acordos trabalhistas, é vedado: II - recusar emprego, promoção ou motivar a dispensa do trabalho em razão de sexo, idade, cor, situação familiar ou estado de gravidez, salvo quando a natureza da atividade seja notória e publicamente incompatível; IV - exigir atestado ou exame, de qualquer natureza, para comprovação de esterilidade ou gravidez, na admissão ou permanência no emprego;\"."
+      }
+    ]
+  },
+  "Fundo De Garantia Do Tempo De Serviço (Fgts)": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Hipóteses de incidência e sujeitos obrigados ao depósito do FGTS",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir a obrigatoriedade do FGTS com a existência de vínculo celetista em qualquer relação de trabalho, ignorando as exceções legais e os sujeitos equiparados."
+      },
+      {
+        "nome_microtema": "Base de cálculo, alíquota e natureza das parcelas remuneratórias",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Misturar verbas salariais com indenizatórias para definir o que integra ou não a base de recolhimento do FGTS."
+      },
+      {
+        "nome_microtema": "Prazo de recolhimento, mora e consequências do inadimplemento",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Trocar o prazo legal de recolhimento com o vencimento da folha ou presumir que a mora gera apenas multa administrativa, sem reflexos trabalhistas e fiscais."
+      },
+      {
+        "nome_microtema": "Hipóteses de movimentação da conta vinculada",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir saque-rescisão com outras hipóteses legais de levantamento, especialmente dispensa sem justa causa, aposentadoria, doença grave e aquisição da casa própria."
+      },
+      {
+        "nome_microtema": "Rescisão contratual e multa de 40% sobre o FGTS",
+        "ids_questoes": [],
+        "peso_percentual": 17,
+        "armadilha_favorita": "Misturar a multa de 40% com a multa de 20% ou aplicar a indenização mesmo quando a ruptura contratual não decorre de dispensa sem justa causa."
+      },
+      {
+        "nome_microtema": "FGTS em modalidades contratuais especiais e situações atípicas",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Aplicar automaticamente as regras gerais do FGTS a contratos intermitentes, domésticos, temporários, aprendiz ou hipóteses de afastamento, sem verificar a disciplina específica."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto de admissão, afastamento, rescisão ou saque da conta vinculada, exigindo a identificação da hipótese legal exata, do percentual devido e da consequência jurídica correta. As alternativas geralmente exploram distinções finas entre verbas salariais e indenizatórias, tipos de desligamento e hipóteses de movimentação do saldo.",
+      "palavras_gatilho": [
+        "conta vinculada",
+        "depósito mensal",
+        "dispensa sem justa causa",
+        "multa de 40%",
+        "saque do FGTS",
+        "verbas salariais",
+        "verbas indenizatórias",
+        "rescisão contratual",
+        "prazo de recolhimento",
+        "hipóteses legais de movimentação"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Prescrição E Decadência Trabalhista": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Prescrição trabalhista do trabalhador rural e regra constitucional de contagem",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_72"
+        ],
+        "peso_percentual": 55,
+        "armadilha_favorita": "A FGV costuma misturar a proteção histórica do rurícola com regras antigas ou exceções inexistentes, levando o candidato a achar que há prazo especial, suspensão automática ou condição prévia para início da prescrição. A resposta correta exige aplicar a regra constitucional geral da prescrição trabalhista, sem criar privilégio não previsto."
+      },
+      {
+        "nome_microtema": "Conceito legal de teletrabalho e seus elementos caracterizadores",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_71"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "A FGV explora a confusão entre teletrabalho e trabalho externo ou trabalho em domicílio, além de testar se o candidato sabe que o elemento central é a prestação preponderante fora das dependências do empregador com uso de tecnologias de informação e comunicação. Distratores costumam trocar 'total ou parcialmente' por fórmulas imprecisas ou afirmar que a modalidade depende de prestação exclusivamente remota."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com enunciado curto e foco em enquadrar o fato na regra legal/constitucional correta",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "nos termos da Constituição Federal",
+        "assinale a opção que apresenta, corretamente, sua orientação"
+      ],
+      "padrão_distratores": "alternativas juridicamente plausíveis, mas com pequenas distorções conceituais; a FGV testa exceções, definições legais e confusões entre institutos próximos"
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_72",
+        "materia": "Direito do Trabalho",
+        "assunto": "Prescrição trabalhista para trabalhador rural",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Reinaldo, trabalhador rural, atua na Fazenda Boa Esperança como tratorista desde 1990. Em janeiro de 2021, o empregador de Reinaldo o dispensou sem justa causa, sendo que o ex-empregado ajuizou reclamação trabalhista em novembro de 2023. Sobre a situação apresentada, nos termos da Constituição Federal, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A prescrição para o trabalhador rural só tem início após uma prestação de contas, que não foi feita, razão pela qual não existe prescrição total.",
+          "B": "Como forma de proteção especial ao empregado rural, a lei garante que a ação possa ser proposta em até 5 (cinco) anos da extinção do contrato.",
+          "C": "Caso o reclamado suscite em defesa a prescrição extintiva, o juiz deverá acolhê-la.",
+          "D": "Somente se as verbas da extinção forem quitadas no sindicato de classe rural é que a prescrição bimestral terá início."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema prescrição. As alternativas A e D estão incorretas. Nem a Constituição Federal e nem a CLT colocam, como condição para início da contagem do prazo prescricional, qualquer tipo de prestação de contas ou quitação em sindicato de classe. Basta o fim do vínculo empregatício para que isso ocorra, conforme art. 11 da CLT: “Art. 11. A pretensão quanto a créditos resultantes das relações de trabalho prescreve em cinco anos para os trabalhadores urbanos e rurais, até o limite de dois anos após a extinção do contrato de trabalho.” A alternativa B está incorreta. A Emenda Constitucional nº 28/2000 modificou o inciso XXIX do art. 7º da CF para igualar os prazos prescricionais para os trabalhadores urbanos e rurais. Vejamos: “Art. 7º São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social: (...) XXIX - ação, quanto aos créditos resultantes das relações de trabalho, com prazo prescricional de cinco anos para os trabalhadores urbanos e rurais, até o limite de dois anos após a extinção do contrato de trabalho;” A alternativa C está correta. De acordo com art. 11 da CLT, o prazo prescricional, tanto para trabalhadores urbanos quanto para trabalhadores rurais, é de 2 anos após a extinção do contrato de trabalho. Vejamos: “Art. 11. A pretensão quanto a créditos resultantes das relações de trabalho prescreve em cinco anos para os trabalhadores urbanos e rurais, até o limite de dois anos após a extinção do contrato de trabalho.” Como Reinaldo somente propôs a ação 2 anos e 10 meses após o término do vínculo de trabalho, houve prescrição extintiva. Logo, se o reclamado suscitar tal prescrição, o juiz deverá acolhê-la."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_71",
+        "materia": "Direito do Trabalho",
+        "assunto": "Teletrabalho",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Antônio Valente é seu cliente por conta de uma reclamação trabalhista ajuizada anteriormente, na qual vocês se sagraram vitoriosos. Agora, trabalhando para outro empregador, Antônio Valente viu a possibilidade de passar a exercer suas atividades em teletrabalho, mas sem saber exatamente o que configuraria essa modalidade. Antes de se candidatar à vaga, Antônio resolveu consultar você a respeito do tema. Assinale a opção que apresenta, corretamente, sua orientação.",
+        "alternativas": {
+          "A": "O teletrabalho pode ser pactuado, tácita ou expressamente, entre empregado e empregador, não necessitando constar do instrumento individual de contrato de trabalho.",
+          "B": "O trabalho em regime de teletrabalho não pressupõe a prestação dos serviços por jornada, por produção ou por tarefa.",
+          "C": "O teletrabalho será descaracterizado, caso o empregado, habitualmente, tenha que comparecer às dependências do empregador e o empregado retornará ao sistema de trabalho presencial.",
+          "D": "O teletrabalho se dá, total ou parcialmente, fora das dependências do empregador, não se configurando como trabalho externo, pressupondo a utilização de tecnologias de comunicação e informação."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata do tema teletrabalho. A alternativa A está incorreta. Na forma do art. 75-C da CLT: “Art. 75-C. A prestação de serviços na modalidade de teletrabalho deverá constar expressamente do instrumento de contrato individual de trabalho.” A alternativa B está incorreta. Na forma do art. 75-B, § 2º, da CLT: “§ 2º O empregado submetido ao regime de teletrabalho ou trabalho remoto poderá prestar serviços por jornada ou por produção ou tarefa.” A alternativa C está incorreta. Na forma do art. 75-B, § 1º, da CLT: “§ 1º O comparecimento, ainda que de modo habitual, às dependências do empregador para a realização de atividades específicas que exijam a presença do empregado no estabelecimento não descaracteriza o regime de teletrabalho ou trabalho remoto.” A alternativa D está correta. Na forma do art. 75-B, caput, da CLT: “Art. 75-B. Considera-se teletrabalho ou trabalho remoto a prestação de serviços fora das dependências do empregador, de maneira preponderante ou não, com a utilização de tecnologias de informação e de comunicação, que, por sua natureza, não configure trabalho externo.”"
+      }
+    ]
+  },
+  "Segurança, Higiene E Medicina Do Trabalho": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Suspensão do contrato de trabalho por prisão provisória/cautelar do empregado",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_71"
+        ],
+        "peso_percentual": 34,
+        "armadilha_favorita": "Confundir prisão cautelar com justa causa automática ou com interrupção contratual. A FGV costuma testar se o candidato sabe que a mera prisão provisória não gera, por si só, ruptura por mau procedimento nem pagamento de salário como na interrupção."
+      },
+      {
+        "nome_microtema": "Gestante em atividade insalubre e afastamento obrigatório com manutenção do adicional",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_74"
+        ],
+        "peso_percentual": 33,
+        "armadilha_favorita": "Misturar afastamento da gestante com perda imediata do adicional. A pegadinha é trocar a lógica protetiva da CLT: a empregada deve ser afastada da insalubridade, mas a remuneração/adicional pode ser preservada conforme a hipótese legal, especialmente quando não há possibilidade de realocação em ambiente salubre equivalente."
+      },
+      {
+        "nome_microtema": "Perícia de insalubridade: profissional habilitado e entendimento do TST",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_79"
+        ],
+        "peso_percentual": 33,
+        "armadilha_favorita": "Confundir perícia de insalubridade com ato exclusivo de médico do trabalho. A FGV explora a distinção entre perícia técnica judicial e atuação médica, cobrando que a avaliação pode ser feita por engenheiro do trabalho ou médico do trabalho, conforme a CLT e a jurisprudência consolidada."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto; a FGV descreve uma situação laboral específica e exige a aplicação literal e finalística da CLT e da jurisprudência do TST, com foco em efeitos do contrato, proteção à gestante e requisitos técnicos da perícia.",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "sobre a situação apresentada",
+        "considerando os termos da CLT",
+        "jurisprudência consolidada do TST",
+        "o que deverá ocorrer com o contrato de trabalho"
+      ]
+    },
+    "total_questoes_analisadas": 3,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comentada-OAB-45_71",
+        "materia": "Direito do Trabalho",
+        "assunto": "Extinção do contrato de trabalho - justa causa",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Reginaldo trabalha para a sociedade empresária Móveis Modulados Ltda. desde 2021 como montador, sendo considerado um empregado exemplar. Em agosto de 2024, Reginaldo compareceu ao trabalho com uma tornozeleira eletrônica, fato que se tornou o comentário geral na sociedade empresária, pois todos especulavam o que Reginaldo teria feito de errado. A sociedade empresária, que nunca havia se deparado com tal situação, o(a) consultou, como advogado(a), para obter um parecer sobre o que deverá ocorrer com o contrato de trabalho de Reginaldo. Você verifica pelo sistema processual que a tornozeleira foi colocada de modo cautelar, pois o processo de Reginaldo ainda está no início e refere-se a vias de fato que teve com um torcedor de time adversário quando estava em um estádio, no final de semana, assistindo a uma partida de futebol. Sobre o contrato de trabalho de Reginaldo, considerando os fatos e a legislação em vigor, assinale a opção correta.",
+        "alternativas": {
+          "A": "Será interrompido, sendo garantido a Reginaldo 50% do seu salário.",
+          "B": "Será suspenso, até que haja decisão final da justiça criminal.",
+          "C": "Será rompido por justa causa, em razão do mau procedimento.",
+          "D": "Não sofrerá qualquer consequência."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata do tema Extinção do Contrato de Trabalho. No caso narrado pelo enunciado, o processo de Reginaldo ainda está no início, não tendo sentença transitada em julgado até o momento. Portanto, ele NÃO se enquadra no art. 482, alínea “d”, da CLT: “Art. 482 - Constituem justa causa para rescisão do contrato de trabalho pelo empregador: d) condenação criminal do empregado, passada em julgado, caso não tenha havido suspensão da execução da pena;”. Assim: A alternativa D está correta. Reginaldo não sofrerá qualquer consequência, não havendo de se falar em suspensão, interrupção nem extinção do contrato, já que não há sentença transitada em julgado, na forma do art. 482, alínea “d”, da CLT. As alternativas A, B e C estão automaticamente incorretas."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_74",
+        "materia": "Direito do Trabalho",
+        "assunto": "Adicional de insalubridade para gestante e lactante",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Jéssica trabalha em um hospital particular de Belo Horizonte, no setor de tratamento de pacientes com doenças infectocontagiosas, recebendo adicional de insalubridade em grau máximo. Em 2024, Jessica engravidou e deu ciência do fato ao seu chefe, que imediatamente a transferiu para o setor de convênios, localizado em um prédio diferente do hospital, ocupando uma confortável e arejada sala comercial na qual cinco funcionários negociam com os planos de saúde conveniados, por telefone, a tabela de valores pelos atendimentos e procedimentos, sem atendimento presencial do público externo. Sobre a situação apresentada e os termos da CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A empregada, durante a gestação, fez jus ao adicional de insalubridade, que cessará após o nascimento da criança, não se estendendo ao período de lactação.",
+          "B": "O direito ao adicional de insalubridade, até o retorno, deverá cessar porque a transferência foi uma necessidade para a qual a sociedade empresária não colaborou.",
+          "C": "Jéssica, de acordo com a norma de regência, terá direito à metade do valor do adicional de insalubridade que recebia, enquanto estiver em local sem agente agressor à saúde.",
+          "D": "A sociedade empresária deve pagar o adicional de insalubridade à gestante enquanto ela estiver no setor de convênios, fazendo a compensação desse valor na cota-parte do INSS."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata do tema Remuneração e Salário, mais precisamente sobre o Adicional de Insalubridade. A alternativa A está incorreta. O adicional de insalubridade se estende ao período de lactação também, conforme art. 394-A, § 2º, da CLT. Vejamos: “§ 2º Cabe à empresa pagar o adicional de insalubridade à gestante ou à lactante, efetivando-se a compensação, observado o disposto no art. 248 da Constituição Federal, por ocasião do recolhimento das contribuições incidentes sobre a folha de salários e demais rendimentos pagos ou creditados, a qualquer título, à pessoa física que lhe preste serviço.” A alternativa B está incorreta. O direito ao adicional de insalubridade não cessa. Mesmo a empregada tendo sido transferida de setor, a empresa ainda deverá pagar o adicional de insalubridade que ela recebia quando exercia a atividade insalubre, conforme art. 394-A, § 2º, da CLT, acima transcrito. A alternativa C está incorreta. O adicional é recebido em sua integralidade. Não há qualquer disposição na CLT ou na jurisprudência dos Tribunais Superiores que preveja redução de 50%. A alternativa D está correta. A alternativa está totalmente de acordo com o art. 394-A, § 2º, da CLT, acima transcrito."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_79",
+        "materia": "Direito do Trabalho",
+        "assunto": "Adicional de Insalubridade - Perícia",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Jean ajuizou reclamação trabalhista, em 2024, contra o seu ex-empregador, requerendo o pagamento do adicional de insalubridade. Após contestada, o Juiz determinou a realização de perícia a cargo de um engenheiro do trabalho. A ré apresentou seu protesto sob a alegação de que, para tal perícia, somente um médico do trabalho poderia realizá-la. Considerando os termos da CLT e da jurisprudência consolidada do TST, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A sociedade empresária está correta, porque a realização de perícia de insalubridade é ato privativo de médico do trabalho, conforme prevê a CLT.",
+          "B": "A sociedade empresária está equivocada, porque a perícia pode ser realizada por médico do trabalho ou engenheiro do trabalho registrados no Ministério do Trabalho.",
+          "C": "Sendo da confiança do Juiz, qualquer profissional poderá ser nomeado perito para a realização de perícia de insalubridade, cabendo à empresa antecipar os honorários.",
+          "D": "A perícia para fins de insalubridade somente pode ser realizada por engenheiro do trabalho, desde que registrado no Ministério do Trabalho."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tema Adicional de Insalubridade. A alternativa A está incorreta. A perícia de insalubridade poderá ser realizada por Médico do Trabalho ou Engenheiro do Trabalho, registrados no Ministério do Trabalho. Vide comentário da letra B. A alternativa B está correta. De fato, a perícia de insalubridade poderá ser realizada por Médico do Trabalho ou Engenheiro do Trabalho, registrados no Ministério do Trabalho. Assim, a alternativa está totalmente de acordo com o art. 195 da CLT: “Art.195 - A caracterização e a classificação da insalubridade e da periculosidade, segundo as normas do Ministério do Trabalho, far-se-ão através de perícia a cargo de Médico do Trabalho ou Engenheiro do Trabalho, registrados no Ministério do Trabalho.” A alternativa C está incorreta. Não é qualquer profissional. A perícia de insalubridade poderá ser realizada por Médico do Trabalho ou Engenheiro do Trabalho, registrados no Ministério do Trabalho. Vide comentário da letra B. A alternativa D está incorreta. A perícia de insalubridade poderá ser realizada por Médico do Trabalho ou Engenheiro do Trabalho, registrados no Ministério do Trabalho. Vide comentário da letra B."
+      }
+    ]
+  },
+  "Direito Coletivo Do Trabalho E Negociação Coletiva": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Ultratividade e incorporação de cláusula coletiva ao contrato de trabalho",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_74"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "A FGV costuma confundir a perda de eficácia da norma coletiva após o término da vigência com a ideia de incorporação automática e definitiva da vantagem ao contrato. A pegadinha é sugerir que o adicional ou benefício continua por simples inércia, quando a regra cobrada é a limitação temporal da norma coletiva e a ausência de ultratividade automática."
+      },
+      {
+        "nome_microtema": "Tempo à disposição, deslocamento interno e intervalos/áreas de lazer na jornada",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_75"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A banca mistura tempo de deslocamento com transporte fornecido pelo empregador, tempo gasto dentro da empresa e uso facultativo de espaços como biblioteca, capela e recreação. A confusão clássica é tratar tudo como jornada ou, ao contrário, excluir tudo, sem separar o que a CLT considera efetivo tempo à disposição e o que é mera liberalidade ou fruição facultativa."
+      },
+      {
+        "nome_microtema": "Negociação coletiva: limites para banco de horas, compensação e redução de intervalo intrajornada",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_71"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A FGV adora testar a prevalência do negociado sobre o legislado, mas com limites. A pegadinha é fazer parecer que o acordo coletivo pode tudo, inclusive ampliar jornada diária, reduzir intervalo e estruturar banco de horas sem observar os parâmetros legais e constitucionais específicos de validade."
+      },
+      {
+        "nome_microtema": "Competência material da Justiça do Trabalho após a EC 45: greve, dano moral, horas extras e contribuições previdenciárias",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_77"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A banca mistura matérias tipicamente trabalhistas com pedidos acessórios ou conexos para induzir erro sobre a competência. A confusão clássica é achar que dano moral, greve ou horas extras escapam da Justiça do Trabalho, ou que a cobrança de contribuições previdenciárias decorrentes da relação de emprego pode ser julgada como pedido autônomo pela JT."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto; a FGV explora a literalidade da CLT e da CRFB em situações de negociação coletiva, jornada, efeitos da norma coletiva e competência material, com enunciados longos e detalhes aparentemente irrelevantes para criar distração.",
+      "palavras_gatilho": [
+        "considerando os fatos",
+        "assinale a afirmativa correta",
+        "em sede de acordo coletivo",
+        "sobre a jornada",
+        "sobre a competência da Justiça do Trabalho",
+        "diante do caso concreto"
+      ]
+    },
+    "total_questoes_analisadas": 4,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_74",
+        "materia": "Direito do Trabalho",
+        "assunto": "Ultratividade de normas coletivas",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Os sindicatos de classe de uma determinada categoria elaboraram uma convenção coletiva normatizando o pagamento do adicional de penosidade. A norma previa vigência de 2 (dois) anos, com término em outubro de 2023. Considerando esses fatos e o que dispõe a CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Mesmo com a vigência encerrada, os trabalhadores que recebiam o adicional possuem direito adquirido, e o pagamento deve prosseguir.",
+          "B": "Ao término da vigência da norma coletiva, caso ela não seja renovada, os trabalhadores perderão o direito ao adicional.",
+          "C": "Os trabalhadores que já recebiam o adicional continuarão com o direito se isso for homologado pelo Ministério do Trabalho.",
+          "D": "A vantagem se incorpora ao contrato de trabalho dos empregados ativos, e os admitidos posteriormente ao dies ad quem da norma coletiva não a receberão."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tema normas coletivas de trabalho. De acordo com art. 614, § 3º, da CLT: “Art. 614 - Os Sindicatos convenentes ou as empresas acordantes promoverão, conjunta ou separadamente, dentro de 8 (oito) dias da assinatura da Convenção ou Acordo, o depósito de uma via do mesmo, para fins de registro e arquivo, no Departamento Nacional do Trabalho, em se tratando de instrumento de caráter nacional ou interestadual, ou nos órgãos regionais do Ministério do Trabalho e Previdência Social, nos demais casos. (...) § 3º Não será permitido estipular duração de convenção coletiva ou acordo coletivo de trabalho superior a dois anos, sendo vedada a ultratividade.” Portanto, ao término da vigência da norma coletiva, caso ela não seja renovada, os trabalhadores perderão o direito ao adicional. Logo, a alternativa B está correta. Analisemos as inconsistências das demais alternativas. A alternativa A está incorreta. As convenções e acordos coletivos não geram direito adquirido, posto que é vedada a ultratividade do instrumento, conforme disposto no art., 614, § 3º, da CLT, acima transcrito. A alternativa C está incorreta. Ao término da vigência da norma coletiva, caso ela não seja renovada, os trabalhadores perderão o direito ao adicional, sendo irrelevante haver ou não homologação, conforme disposto no art., 614, § 3º, da CLT, acima transcrito. A alternativa D está incorreta. Ao término da vigência da norma coletiva, não há incorporação ao contrato de trabalho de nenhuma das vantagens proporcionadas, posto que é vedada a ultratividade do instrumento, conforme disposto no art., 614, § 3º, da CLT, acima transcrito."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_75",
+        "materia": "Direito do Trabalho",
+        "assunto": "Jornada de trabalho: tempo à disposição e deslocamento",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Em sede de acordo coletivo, firmado em janeiro de 2024 e com vigência de dois anos, entre uma sociedade empresária e o sindicato da categoria profissional, constou cláusula determinando que o tempo de deslocamento dos empregados do portão até o interior da sociedade empresária, onde se situa o relógio de ponto, seria computado na jornada de trabalho. Isso porque o deslocamento é feito em transporte fornecido pela sociedade empresária e dura cerca de 20 minutos. Sobre a jornada, não consta mais nada na norma coletiva. A sociedade empresária, por liberalidade, mantém salas de recreação, biblioteca e uma capela. A utilização desses espaços antes e após o trabalho e durante os intervalos é facultada aos empregados. Em razão do ajuizamento de uma ação trabalhista por um ex-empregado, a sociedade empresária indagou a você, como advogado(a), se todos esses períodos, seja o de deslocamento, seja o tempo despendido nos espaços mencionados, deveriam integrar a jornada de trabalho. Acerca do tema, com base na CLT, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Todos os períodos não se computam na jornada de trabalho dos empregados.",
+          "B": "Apenas o tempo de utilização da capela deve ser computado na jornada, pois o Estado é laico.",
+          "C": "Apenas o período de deslocamento deve integrar a jornada por força da norma coletiva. Os demais períodos não são considerados tempo à disposição.",
+          "D": "O período de deslocamento assim como o período de utilização da biblioteca, voltado para o estudo, devem ser computados na jornada. Os demais períodos não são computados na jornada."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata do tema duração do trabalho. Conforme incisos III, IV e I, respectivamente, do § 2º do art. 4º da CLT, a utilização de salas de recreação, biblioteca e capela, antes e após o trabalho e durante os intervalos, não será computada na jornada de trabalho. Vejamos: “§ 2º Por não se considerar tempo à disposição do empregador, não será computado como período extraordinário o que exceder a jornada normal, ainda que ultrapasse o limite de cinco minutos previsto no § 1º do art. 58 desta Consolidação, quando o empregado, por escolha própria, buscar proteção pessoal, em caso de insegurança nas vias públicas ou más condições climáticas, bem como adentrar ou permanecer nas dependências da empresa para exercer atividades particulares, entre outras: I - práticas religiosas; III – lazer; IV – estudo;”. Quanto ao tempo de deslocamento, este também não será computado na jornada de trabalho, por força do § 2º do art. 58. Vejamos: “§ 2º O tempo despendido pelo empregado desde a sua residência até a efetiva ocupação do posto de trabalho e para o seu retorno, caminhando ou por qualquer meio de transporte, inclusive o fornecido pelo empregador, não será computado na jornada de trabalho, por não ser tempo à disposição do empregador.” Portanto, a alternativa correta é a letra A: nenhum dos períodos mencionados será computado na jornada de trabalho. As alternativas B, C e D ficam, pois, automaticamente incorretas."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_71",
+        "materia": "Direito do Trabalho",
+        "assunto": "Negociação coletiva e jornada de trabalho",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Determinada sociedade empresária firmou acordo coletivo com o sindicato dos empregados dispondo sobre banco de horas e compensação de horas extras, assim como sobre redução de intervalo. A jornada inicial de oito horas diárias, de segunda a sexta-feira, e quatro horas no sábado, perfazendo um total de 44 horas foi alterada. Pelo acordo coletivo, foi estabelecido que os empregados trabalhariam 30 minutos a mais no final do dia de segunda a quinta-feira e teriam apenas 30 minutos de intervalo, o que aumentaria o total trabalhado para nove horas diárias. Na sexta-feira o trabalho seria normal, com oito horas de jornada e intervalo de uma hora, e não haveria mais trabalho aos sábados. As horas extras excedentes seriam compensadas em até três meses com folgas ou redução da jornada diária de acordo com o banco de horas. Alguns empregados ajuizaram reclamação trabalhista questionando a alteração, alegando prejuízo por trabalharem mais, com a redução do intervalo e uma maior jornada, afirmando que isso contrariava a CLT e a CRFB. Sobre a hipótese apresentada, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O acordo coletivo é válido, exceto quanto ao banco de horas.",
+          "B": "O acordo coletivo é inválido com relação ao acréscimo de jornada, pois o limite diário constitucional é de oito horas.",
+          "C": "O acordo coletivo é inválido apenas com relação à redução do intervalo, pois, para a jornada de oito horas, o intervalo mínimo é de uma hora.",
+          "D": "Em todas as hipóteses, não há violação à CLT ou à CRFB, pois admite-se a prevalência do negociado sobre o legislado, respeitados os limites mínimos previstos na Constituição."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata dos temas negociação coletiva e jornada de trabalho. Em relação ao acréscimo de jornada, este é constitucional. Em regra, o regime de trabalho corresponde a 8 horas diárias e até 44 horas semanais. É o que determina o caput do art. 58 da CLT: “Art. 58 - A duração normal do trabalho, para os empregados em qualquer atividade privada, não excederá de 8 (oito) horas diárias, desde que não seja fixado expressamente outro limite.”. No entanto, há a possibilidade de prestação de horas extras, as quais não poderão exceder 2 horas diárias, conforme art. 59 da CLT: “Art. 59. A duração diária do trabalho poderá ser acrescida de horas extras, em número não excedente de duas, por acordo individual, convenção coletiva ou acordo coletivo de trabalho.”. Esta mesma disposição se encontra no artigo 7º, XIII, da CF: “Art. 7º São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social: XIII - duração do trabalho normal não superior a oito horas diárias e quarenta e quatro semanais, facultada a compensação de horários e a redução da jornada, mediante acordo ou convenção coletiva de trabalho;”. Como, no caso narrado, há acordo coletivo regulando, é plenamente possível a referida alteração na jornada, conforme determina art. 611-A, I, da CLT: “Art. 611-A. A convenção coletiva e o acordo coletivo de trabalho têm prevalência sobre a lei quando, entre outros, dispuserem sobre: I - pacto quanto à jornada de trabalho, observados os limites constitucionais;”. Em relação ao banco de horas, este também está conforme as disposições da CLT. No caso da prestação de horas extra, há a possibilidade de, mediante acordo ou convenção coletiva, compensar o excesso de horas de um dia pela correspondente diminuição em outro, o que dispensará o acréscimo de salário. É o que determina art. 59, § 2º, da CLT: “§ 2º Poderá ser dispensado o acréscimo de salário se, por força de acordo ou convenção coletiva de trabalho, o excesso de horas em um dia for compensado pela correspondente diminuição em outro dia, de maneira que não exceda, no período máximo de um ano, à soma das jornadas semanais de trabalho previstas, nem seja ultrapassado o limite máximo de dez horas diárias.”. A mesma autorização é encontrada no art. 611-A, II, da CLT: “Art. 611-A. A convenção coletiva e o acordo coletivo de trabalho têm prevalência sobre a lei quando, entre outros, dispuserem sobre: II - banco de horas anual;”. Por fim, em relação à redução do intervalo intrajornada, de fato, o art. 71 da CLT prevê um intervalo intrajornada mínimo de 1 hora, para jornadas superiores a 6 horas: “Art. 71 - Em qualquer trabalho contínuo, cuja duração exceda de 6 (seis) horas, é obrigatória a concessão de um intervalo para repouso ou alimentação, o qual será, no mínimo, de 1 (uma) hora e, salvo acordo escrito ou contrato coletivo em contrário, não poderá exceder de 2 (duas) horas.”. No entanto, conforme art. 611-A, III, da CLT, é sim possível um intervalo intrajornada de 30 minutos, desde que previsto em convenção ou acordo coletivo, sendo este o limite mínimo para jornadas superiores a 6 horas. Vejamos: Art. 611-A. A convenção coletiva e o acordo coletivo de trabalho têm prevalência sobre a lei quando, entre outros, dispuserem sobre: III - intervalo intrajornada, respeitado o limite mínimo de trinta minutos para jornadas superiores a seis horas;”. Logo, no tocante ao intervalo intrajornada, também não se vislumbra nenhuma irregularidade quanto ao caso narrado. Desta feita, a alternativa correta é a letra D: Em todas as hipóteses, não há violação à CLT ou à CF/88, pois admite-se a prevalência do negociado sobre o legislado, respeitados os limites mínimos previstos na Constituição. As demais alternativas ficam automaticamente incorretas."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_77",
+        "materia": "Direito do Trabalho",
+        "assunto": "Competência da Justiça do Trabalho",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Você é advogado(a) de uma sociedade empresária que figura como ré em quatro ações na Justiça do Trabalho. Uma ação versa sobre a dispensa de um empregado que aderiu a uma greve. Outra, sobre indenização por dano moral, em razão de suposto assédio moral praticado por um superior hierárquico de um empregado. A terceira versa sobre horas extras. E a quarta, versa exclusivamente sobre cobrança de contribuições previdenciárias supostamente não efetuadas pelo empregador ao longo de um contrato de trabalho de um outro empregado. Sobre a competência da Justiça do Trabalho nas quatro ações apresentadas, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A Justiça do Trabalho é competente para todos os pedidos formulados nas ações.",
+          "B": "A competência para o pedido de indenização por danos morais é da Justiça Comum.",
+          "C": "A Justiça do Trabalho não tem competência para os dissídios oriundos de direito de greve.",
+          "D": "A Justiça do Trabalho é incompetente para julgar o pedido de cobrança de contribuições previdenciárias supostamente não efetuadas pelo empregador."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata sobre competência. A alternativa A está incorreta. A Justiça do Trabalho tem competência para a maioria dos pedidos, mas não para todos. A alternativa B está incorreta. A competência para julgar ações de indenização por dano moral decorrente da relação de trabalho é da Justiça do Trabalho, conforme o art. 114, inciso VI, da Constituição Federal. Vejamos: “Art. 114. Compete à Justiça do Trabalho processar e julgar: VI as ações de indenização por dano moral ou patrimonial, decorrentes da relação de trabalho;” A alternativa C está incorreta. A Constituição Federal, no art. 114, inciso II, atribui expressamente à Justiça do Trabalho a competência para julgar dissídios decorrentes de exercício do direito de greve. A saber: “Art. 114. Compete à Justiça do Trabalho processar e julgar: II as ações que envolvam exercício do direito de greve;” A alternativa D está incorreta. O art. 114, inciso VIII, da Constituição Federal estabelece a competência da Justiça do Trabalho para a execução, de ofício, das contribuições sociais previstas no art. 195, I, 'a', e II, e seus acréscimos legais, decorrentes das sentenças que proferir. A súmula 368, I, do TST, e o art. 876, parágrafo único, da CLT, reforçam essa competência. A única ressalva é que a competência se limita às contribuições previdenciárias devidas durante o contrato de trabalho, não abarcando a cobrança de contribuições gerais. Portanto, a Justiça do Trabalho tem, sim, competência para esse pedido. Vejamos a jurisprudência nesse sentido: “DESCONTOS PREVIDENCIÁRIOS. IMPOSTO DE RENDA. COMPETÊNCIA. RESPONSABILIDADE PELO RECOLHIMENTO. FORMA DE CÁLCULO. FATO GERADOR. I - A Justiça do Trabalho é competente para determinar o recolhimento das contribuições fiscais. A competência da Justiça do Trabalho, quanto à execução das contribuições previdenciárias, limita-se às sentenças condenatórias em pecúnia que proferir e aos valores, objeto de acordo homologado, que integrem o salário de contribuição. (ex-OJ nº 141 da SBDI-1 - inserida em 27.11.1998). II - É do empregador a responsabilidade pelo recolhimento das contribuições previdenciárias e fiscais, resultantes de crédito do empregado oriundo de condenação judicial. A culpa do empregador pelo inadimplemento das verbas remuneratórias, contudo, não exime a responsabilidade do empregado pelos pagamentos do imposto de renda devido e da contribuição previdenciária que recaia sobre sua quota-parte. (ex-OJ nº 363 da SBDI-1, parte final) III - Os descontos previdenciários relativos à contribuição do empregado, no caso de ações trabalhistas, devem ser calculados mês a mês, de conformidade com o art. 276, § 4º, do Decreto nº 3.048/1999 que regulamentou a Lei nº 8.212/1991, aplicando-se as alíquotas previstas no art. 198, observado o limite máximo do salário de contribuição (ex-OJs nºs 32 e 228 da SBDI-1 inseridas, respectivamente, em 14.03.1994 e 20.06.2001). IV - Considera-se fato gerador das contribuições previdenciárias decorrentes de créditos trabalhistas reconhecidos ou homologados em juízo, para os serviços prestados até 4.3.2009, inclusive, o efetivo pagamento das verbas, configurando-se a mora a partir do dia dois do mês seguinte ao da liquidação (art. 276, caput, do Decreto nº 3.048/1999). Eficácia não retroativa da alteração legislativa promovida pela Medida Provisória nº 449/2008, posteriormente convertida na Lei nº 11.941/2009, que deu nova redação ao art. 43 da Lei nº 8.212/91. V - Para o labor realizado a partir de 5.3.2009, considera-se fato gerador das contribuições previdenciárias decorrentes de créditos trabalhistas reconhecidos ou homologados em juízo a data da efetiva prestação dos serviços. Sobre as contribuições previdenciárias não recolhidas a partir da prestação dos serviços incidem juros de mora e, uma vez apurados os créditos previdenciários, aplica-se multa a partir do exaurimento do prazo de citação para pagamento, se descumprida a obrigação, observado o limite legal de 20% (art. 61, § 2º, da Lei nº 9.430/96). VI - O imposto de renda decorrente de crédito do empregado recebido acumuladamente deve ser calculado sobre o montante dos rendimentos pagos, mediante a utilização de tabela progressiva resultante da multiplicação da quantidade de meses a que se refiram os rendimentos pelos valores constantes da tabela progressiva mensal correspondente ao mês do recebimento ou crédito, nos termos do art. 12-A da Lei nº 7.713, de 22/12/1988, com a redação conferida pela Lei nº 13.149/2015, observado o procedimento previsto nas Instruções Normativas da Receita Federal do Brasil.”"
+      }
+    ]
+  }
+}

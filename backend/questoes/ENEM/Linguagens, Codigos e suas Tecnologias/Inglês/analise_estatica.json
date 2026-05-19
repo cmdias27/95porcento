@@ -1,0 +1,733 @@
+{
+  "Compreensão De Textos Em Inglês": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Inferência de sentido global e ideia central em textos curtos",
+        "ids_questoes": [
+          "enem_enem2019_1dia_1_0",
+          "enem_enem2020_digital_1dia_2_1",
+          "enem_enem2021_1dia_vs4_4_3",
+          "enem_enem2022-2_1dia_4_3",
+          "enem_enem2023-2_1dia_2_1",
+          "enem_enem2017_1dia_1_0"
+        ],
+        "peso_percentual": 43,
+        "armadilha_favorita": "O INEP costuma oferecer alternativas muito próximas do tema do texto, mas que exageram, moralizam ou reduzem a mensagem. O candidato erra quando busca palavra-chave isolada em vez de captar o tom, a tese ou a conclusão implícita do autor."
+      },
+      {
+        "nome_microtema": "Reconhecimento de propósito argumentativo e função de recursos linguísticos",
+        "ids_questoes": [
+          "enem_enem2019_1dia_2_1",
+          "enem_enem2021_1dia_vs4_4_3",
+          "enem_enem2023-2_1dia_4_3",
+          "enem_enem2022-2_1dia_5_4"
+        ],
+        "peso_percentual": 29,
+        "armadilha_favorita": "A banca usa marcadores discursivos, repetição lexical e escolhas lexicais para induzir leitura literal. O distrator típico troca a função do recurso por um efeito superficial: convencer vira informar, criticar vira elogiar, celebrar vira descrever."
+      },
+      {
+        "nome_microtema": "Interpretação de contexto sociocultural e identidade",
+        "ids_questoes": [
+          "enem_enem2021_1dia_vs4_3_2",
+          "enem_enem2021_1dia_vs4_5_4",
+          "enem_enem2022-2_1dia_1_0",
+          "enem_enem2022-2_1dia_5_4",
+          "enem_enem2023-2_1dia_1_0",
+          "enem_enem2017_1dia_1_0"
+        ],
+        "peso_percentual": 28,
+        "armadilha_favorita": "O INEP contextualiza o texto em temas como cultura, migração, pertencimento e diversidade, mas confunde o candidato com respostas que focam apenas no cenário externo. A habilidade exigida é perceber como o contexto constrói identidade, visão de mundo ou contraste cultural."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio curtos ou médios, com forte exigência de inferência, identificação de intenção comunicativa, tom e relação entre elementos verbais e não verbais",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "o objetivo do texto",
+        "permite reconhecer",
+        "tem o objetivo de",
+        "revela que",
+        "nesse trecho",
+        "a autora utiliza",
+        "o narrador",
+        "a comunicação fica comprometida porque"
+      ]
+    },
+    "total_questoes_analisadas": 14,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2019_1dia_1_0",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2019,
+        "texto_auxiliar": "If children live with criticism, they learn to condemn. \nIf children live with fear, they learn to be apprehensive. If children live with pity, they learn to feel sorry for themselves. If children live with ridicule, they learn to feel shy. If children live with tolerance, they learn patience. If children live with praise, they learn appreciation. If children live with acceptance, they learn to love. If children live with approval, they learn to like themselves. If children live with recognition, they learn it is good to have a goal. If children live with sharing, they learn generosity. If children live with fairness, they learn justice. If children live with kindness and consideration, they learn respect. If children live with friendliness, they learn the world is a nice place in which to live.\n(NOLTE, D. L. Disponível em: www.americanfamilytradidions.com Acesso em: 30 jul. 2012.)",
+        "enunciado": "Valores culturais de um povo revelam sua forma de ser, agir e pensar. Na concepção da autora, as diferentes formas de educar crianças nos Estados Unidos confirmam que as crianças",
+        "alternativas": {
+          "A": "temem quem as amedronta.",
+          "B": "aprendem com o que vivem.",
+          "C": "amam aqueles que as aceitam.",
+          "D": "são gentis quando respeitadas.",
+          "E": "ridicularizam quem as intimida."
+        },
+        "gabarito": "B",
+        "comentario": "Em todo o texto é possível perceber que as crianças aprendem a forma de ser, agir e pensar, de acordo com o contexto em que vivem."
+      },
+      {
+        "id": "enem_enem2019_1dia_2_1",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2019,
+        "texto_auxiliar": "5 Ways Pets Can Improve Your Health\nA pet is certainly a great friend. After a difficult day, pet owners quite literally feel the love.\nIn fact, for nearly 25 years, research has shown that living with pets provides certain health benefits. Pets help lower blood pressure and lessen anxiety. They boost our immunity. They can even help you get dates.\nAllergy Fighters : A growing number of studies have suggested that kids growing up in a home with \"furred animals\" will have less risk of allergies and asthma.\nDate Magnets : Dogs are great for making love connections. Forget Internet matchmaking – a dog is a natural conversation starter.\nDogs for the Aged : Walking a dog or just caring for a pet – for elderly people who are able – can provide exercise and companionship.\nGood for Mind and Soul : Like any enjoyable activity, playing with a dog can elevate levels of serotonin and dopamine –- nerve transmitters that are known to have pleasurable and calming properties.\nGood for the Heart : Heart attack patients who have pets survive longer than those without, according to several studies.\n(DA VIS, J. L. Disponível em: www. webmd.com Acesso em: 21 abr. 2013. Adaptado.)",
+        "enunciado": "Ao discutir sobre a influência de animais de estimação no bem-estar do ser humano, a autora, a fim de fortalecer seus argumentos, utiliza palavras e expressões como research, a growing number of research e several studies com o objetivo de",
+        "alternativas": {
+          "A": "mostrar que animais de estimação ajudam na cura de doenças como alergias e asma.",
+          "B": "convencer sobre os benefícios da adoção de animais de estimação para a saúde",
+          "C": "fornecer dados sobre os impactos de animais de estimação nas relações amorosas.",
+          "D": "explicar como o contato com animais de estimação pode prevenir ataques cardíacos.",
+          "E": "esclarecer sobre o modo como os idosos devem se relacionar com animais de estimação."
+        },
+        "gabarito": "B",
+        "comentario": "Tais palavras e expressões têm o objetivo de dar maior credibilidade aos argumentos fornecidos no texto."
+      },
+      {
+        "id": "enem_enem2020_digital_1dia_2_1",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "GOAL has worked to improve access to food for highly vulnerable and food-insecure households in many districts of Zimbabwe. We identify such households, supply them with monthly food rations, and conduct monthly post-distribution monitoring. GOAL works in the same districts, to improve access to food for the most vulnerable primary school children during the peak hungry months. The emphasis is on orphans and vulnerable children. GOAL provides short-term food security support to other vulnerable households by increasing the availability of grain, and by helping enhance their ability to meet basic needs.",
+        "enunciado": "Tendo como público-alvo crianças órfãs e em situações de vulnerabilidade, a organização não governamental GOAL tem atuado no Zimbábue para",
+        "alternativas": {
+          "A": "incentivar a agricultura orgânica.",
+          "B": "intermediar processos de adoção.",
+          "C": "contribuir para a redução da fome.",
+          "D": "melhorar as condições de habitação.",
+          "E": "qualificar professores da escola básica."
+        },
+        "gabarito": "C",
+        "comentario": "Lê-se no texto: “GOAL has worked to improve access to food for highly vulnerable and food-insecure households in many districts of Zimbabwe.” *to improve = melhorar *households = domésticos"
+      },
+      {
+        "id": "enem_enem2021_1dia_vs4_3_2",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "Exterior: Between The Museums — Day\n\nCELINE\nAmericans always think Europe is perfect. But such beauty and history can be really oppressive. It reduces the individual to nothing. It just reminds you all the time you are just a little speck in a long history, where in America you feel like you could be making history. That’s why I like Los Angeles because it is so...\n\nJESSE\nUgly?\n\nCELINE\nNo, I was going to say “neutral”. It’s like looking at a blank canvas. I think people go to places like Venice on their honeymoon to make sure they are not going to fight for the first two weeks of their marriage because they’ll be too busy looking around at all the beautiful things. That’s what people call a romantic place — somewhere where the prettiness will contain your primary violent instinct. A real good honeymoon spot would be like somewhere in New Jersey.\n\nKRIZAN. K.; LINKLATER, R. Belore Sunrise : screenplay. New York: Vintage Books 2005.",
+        "enunciado": "Considerando-se o olhar dos personagens, esse trecho do roteiro de um filme permite reconhecer que a avaliação sobre um lugar depende do(a)",
+        "alternativas": {
+          "A": "beleza do próprio local.",
+          "B": "perspectiva do visitante.",
+          "C": "contexto histórico do local.",
+          "D": "tempo de permanência no local.",
+          "E": "finalidade da viagem do visitante."
+        },
+        "gabarito": "B",
+        "comentario": "No texto, temos: “No, I was going to say “neutral”. It’s like looking at a blank canvas.” A personagem Celine descreve o local (Los Angeles) como um lugar “neutro”, uma “tela em branco”. E é essa brancura, essa neutralidade, esse vazio que permite uma retratação do local de acordo com o olhar do visitante."
+      },
+      {
+        "id": "enem_enem2021_1dia_vs4_4_3",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "We are now a nation obsessed with the cult of celebrity. Celebrities have replaced the classic notion of the hero. But instead of being respected for talent, courage or intelligence, it is money, style and image the deciding factors in what commands respect. Image is everything. Their image is painstakingly constructed by a multitude of different image consultants to carve out the most profitable celebrity they can. Then society is right behind them, believing in everything that celebrity believes in. Companies know that people will buy a product if a celebrity has it too. It is as if the person buying the product feels that they now have some kind of connection with the celebrity and that some of their perceived happiness will now be passed onto the consumer. So to look at it one way, the cult of celebrity is really nothing more than a sophisticated marketing scheme. Celebrities though cannot be blamed for all negative aspects of society. In reality society is to blame. We are the people who seemed to have lost the ability to think for ourselves. I suppose it’s easier to be told what to think, rather than challenging what we are told. The reason we are swamped by celebrity is because there is a demand for it.\nDisponível em: www.pitlanemagazine.com. \nAcesso em 7 dez 2017 (adaptado).",
+        "enunciado": "O texto, que aborda questões referentes ao tema do culto à celebridade, tem o objetivo de",
+        "alternativas": {
+          "A": "destacar os méritos das celebridades.",
+          "B": "criticar o consumismo das celebridades.",
+          "C": "ressaltar a necessidade de reflexão dos fãs.",
+          "D": "culpar as celebridades pela obsessão dos fãs.",
+          "E": "valorizar o marketing pessoal das celebridades."
+        },
+        "gabarito": "C",
+        "comentario": "Lê-se no texto: “Celebrities though cannot be blamed for all negative aspects of society. In reality society is to blame. We are the people who seemed to have lost the ability to think for ourselves.” Celebridades, entretanto, não podem ser culpadas por todos os aspectos negativos da sociedade. Na verdade, deve-se culpar a sociedade. Nós somos as pessoas que parecem ter perdido a capacidade de pensar por nós mesmas."
+      },
+      {
+        "id": "enem_enem2021_1dia_vs4_5_4",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2021,
+        "texto_auxiliar": "The British (serves 60 mililon)\nTake some Picts, Celts and Silures\nAnd let them settle,Then overrun them with Roman conquerors.Remove the Romans after approximateiy 400 yearsAdd lots of Norman French to someAngles, Saxons, Jutes and Vikings, then stir\nvigorously.\n[...]Sprinkle some fresh Indians, Malaysians, Bosnians,Iraqis and Bangladeshis together with someAfghans, Spanish, Turkish, Kurdish, JapaneseAnd PalestiniansThen add to the melting pot.Leave the ingredients to simmer.As they mix and blend allow their languages to flourishBinding them together with English.Allow time to be cool.Add some unity, understanding, and respect for the future,Serve with justiceAnd enjoy.\nNote: All the ingredients are equally important. Treating\none ingredient better than another will leave a bitterunpleasant taste.\nWarning: An unequal spread of justice will damage the\npeople and cause pain. Give justice and equality to all.\nDisponível em: www.benjaminzephanish com. \nAcesso em: 12 dez. 2018 (fragmento).",
+        "enunciado": "Ao descrever o processo de formação da Inglaterra, o autor do poema recorre a caracteristicas de outro gênero textual para evidenciar",
+        "alternativas": {
+          "A": "a riqueza da mistura cultural.",
+          "B": "um legado de origem geográfica.",
+          "C": "um impacto de natureza histórica.",
+          "D": "um problema de estratificação social.",
+          "E": "a questão da intolerância linguística."
+        },
+        "gabarito": "A",
+        "comentario": "Nessa questão, precisamos analisar o poema como um todo. Ele foi escrito como se fosse uma receita para a formação da Inglaterra, utilizando cada nação como um ingrediente, evidenciando toda a riqueza cultural em sua composição."
+      },
+      {
+        "id": "enem_enem2022-2_1dia_1_0",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto (cartum)",
+        "banca": "INEP",
+        "ano": "2022",
+        "texto_auxiliar": "Disponível em: https://twitter.com/cqfluency. Acesso em: 23 ago. 2017.",
+        "enunciado": "Os recursos verbais e não verbais do cartum fazem referência a situações comuns em aeroportos, motivadas pelo fato de que os(as)",
+        "alternativas": {
+          "A": "hábitos culturais são diversos.",
+          "B": "mulheres são ignoradas.",
+          "C": "pessoas são impacientes.",
+          "D": "saguões são congestionados.",
+          "E": "atendentes são desqualificados."
+        },
+        "gabarito": "A",
+        "comentario": "Podemos observar os recursos verbais e não verbais do cartum através das perguntas: O que eu devo fazer agora? Quando ele vai pegar o meu cartão? Eu sou o próximo. O que eu deveria fazer? Resposta: A"
+      },
+      {
+        "id": "enem_enem2022-2_1dia_4_3",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto literário",
+        "banca": "INEP",
+        "ano": "2022",
+        "texto_auxiliar": "How little we know of what there is to know. I wish that I were going to live a long time instead of going to die today because I have learned much about life in these four days; more, I think than in all other time. I’d like to be an old man to really know. I wonder if you keep on learning or if there is only a certain amount each man can understand. I thought I knew so many things that I know nothing of. I wish there was more time.\n\nHEMINGWAY, E. For Whom the Bells Toll. Madison, Wisconsin: Demco Media, 1995.",
+        "enunciado": "Nessa passagem de um clássico de Ernest Hemingway, o narrador",
+        "alternativas": {
+          "A": "reclama de seu envelhecimento.",
+          "B": "manifesta seu contentamento.",
+          "C": "lamenta sua condição.",
+          "D": "exibe sua sabedoria.",
+          "E": "anseia por sua partida."
+        },
+        "gabarito": "C",
+        "comentario": "Lê-se no texto: “How little we know of what there is to know. I wish that I were going to live a long time instead of going to die today because I have learned much about life in these four days; more, I think than in all other time.”"
+      },
+      {
+        "id": "enem_enem2022-2_1dia_5_4",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2022,
+        "texto_auxiliar": "We walked on, the stranger walking with us. Taylor Franklin Bankole. Our last names an instant bond between us. We’re both descended from men who assumed African surnames back during the 1960s. His father and my grandfather had had their names legally changed, and both had chosen Yoruba replacement names.\n\n“Most people chose Swahili names in the ’60s”, Bankole told me. He wanted to be called Bankole. “My father had to do something different. All his life he had to be different”.\n\n“I don’t know my grandfather’s reasons”, I said. “His last name was Broome before he changed it, and that was no loss’. But why he chose Olamina…? Even my father didn’t know. He made the change before my father was born, so my father was always Olamina, and so were we.\n\nBUTLER, O. E. Parable of the Sower . New York: Hachette, 2019 (adaptado).",
+        "enunciado": "Nesse trecho do romance Parable of the Sower , os nomes “Bankole” e “Olamina” representam o(a)",
+        "alternativas": {
+          "A": "priorização do uso do inglês.",
+          "B": "resgate da identidade africana.",
+          "C": "existência de conflitos de gerações.",
+          "D": "afastamento da convivência familiar.",
+          "E": "desconhecimento de origens genealógicas."
+        },
+        "gabarito": "B",
+        "comentario": "Lê-se no texto: “We’re both descended from men who assumed African surnames back during the 1960s.” surnames = sobrenomes"
+      },
+      {
+        "id": "enem_enem2023-2_1dia_1_0",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "“We won’t ruin Mars. It’s too big and too good.” said the captain. “You think not? We Earth Men have a talent for ruining big, beautiful things. The only reason we didn’t set up hot-dog stands in the midst of the Egyptian temple of Karnak is because it was out of the way and served no large commercial purpose. And Egypt is a small part of Earth. But here, this whole thing is ancient and different, and we have to set down somewhere and start fouling it up. We’ll call the canal the Rockefeller Canal and the mountain King George Mountain and the sea the Dupont Sea, and there’ll be Roosevelt and Lincoln and Coolidge cities, and it won’t ever be right, when there are the proper names for these places.” BRADBURY , R. And the Moon Be Still as Bright. In: The Martian Chronicles . Londres: Harper Collins, 2014.",
+        "enunciado": "Nesse fragmento de um conto do autor Ray Bradbury, o personagem revela ao capitão",
+        "alternativas": {
+          "A": "sua dúvida sobre a preservação de lugares antigos.",
+          "B": "seu entusiasmo com a descoberta de um território.",
+          "C": "sua curiosidade sobre o desenvolvimento do Egito.",
+          "D": "sua indiferença com o crescimento dos espaços urbanos.",
+          "E": "sua preocupação com a exploração de um planeta."
+        },
+        "gabarito": "E",
+        "comentario": "Lê-se no texto: “We won’t ruin Mars. It’s too big and too good.” said the captain. “You think not? We Earth Men have a talent for ruining big, beautiful things. (…)”"
+      },
+      {
+        "id": "enem_enem2023-2_1dia_2_1",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto poético",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "we gave birth to a new generation, AmeRican, broader than lost gold never touched, hidden inside the puerto rican mountains. \n\nwe gave birth to a new generation AmeRican, it includes everything imaginable you-name-it-we-got-it society. \n\nwe gave birth to a new generation, AmeRican salutes all folklores, european, indian, black, spanish and anything else compatible. \n\nAmeRican, yes, for now, for i love this, my second land, and i dream to take the accent from the altercation, and be proud to call myself american, in the u.s. sense of the word, AmeRican, America! \n\nLA VIERA. T, Benedición . The complete Poetry of Tato Laviera. Houston: Arte Público Press, 2014 (fragmento).",
+        "enunciado": "Nos versos desse poema, o eu lírico adota um tom de",
+        "alternativas": {
+          "A": "objeção aos costumes de uma geração.",
+          "B": "crítica à política monetária.",
+          "C": "celebração de uma identidade plural.",
+          "D": "homenagem à sociedade americana.",
+          "E": "exaltação da geografia porto-riquenha."
+        },
+        "gabarito": "C",
+        "comentario": "Lê-se no texto: “AmeRican, yes, for now, for i love this, my second land, and i dream to take the accent from the altercation, and be proud to call myself american, in the u.s. sense of the word, AmeRican, America!” Resposta: C"
+      },
+      {
+        "id": "enem_enem2023-2_1dia_4_3",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "Our physical alienation from India almost inevitably means that we will not be capable of reclaiming precisely the thing that was lost; that we will, in short, create fictions, not actual cities or villages, but invisible ones, imaginary homelands, Indias of the mind. [...] It may be argued that the past is a country from which we have all emigrated [...], but I suggest that the writer who is out-of-country and even out-of-language may experience this loss in an intensified form.\nRUSHDIE. S. Imaginary Homelands. Londres: Vintage Books; 2010 (adaptado).",
+        "enunciado": "Nesse fragmento de texto, ao abordar a literatura anglo-indiana, o autor Salman Rushdie ressalta a relação entre criação literária e",
+        "alternativas": {
+          "A": "desejo de retorno à terra natal.",
+          "B": "narrativas de espaços urbanos.",
+          "C": "consequências da imigração de origem asiática.",
+          "D": "invisibilidade de autores de literatura indiana.",
+          "E": "distanciamento das raízes culturais."
+        },
+        "gabarito": "E",
+        "comentario": "Encontramos no texto: '…, but I suggest that the writer who is out-of-country and even out-of-language may experience this loss in an intensified form.'"
+      },
+      {
+        "id": "enem_enem2017_1dia_1_0",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2017,
+        "texto_auxiliar": "One of the things ‘that made an incredible impression on me in the film was Frida’s comfort in and celebration of her own unique beauty. She didn’t try to fit into conventional ideas or images about womanhood or what makes someone or something beautiful. Instead, she fully inhabited her own unique gifts, not particularly caring what other people thought. She was magnetic and beautiful in her own right. She painted for years, not to be a commercial success or to be discovered, but to express her own inner pain, joy, family, love and culture. She absolutely and resolutely was who she was. The trueness of her own unique vision and her ability to stand firmly in her own truth was what made her successful in the end.",
+        "enunciado": "A autora desse comentário sobre o filme Frida mostra-se impressionada com o fato de a pintora",
+        "alternativas": {
+          "A": "ter uma aparência exótica.",
+          "B": "vender bem a sua imagem.",
+          "C": "ter grande poder de sedução.",
+          "D": "assumir sua beleza singular.",
+          "E": "recriar-se por meio da pintura."
+        },
+        "gabarito": "D",
+        "comentario": "Lê-se no texto: “One of the things ‘that made an incredible impression on me in the film was Frida’s comfort in and celebration of her own unique beauty”."
+      },
+      {
+        "id": "enem_enem2015_2dia_93_2",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto (tirinha)",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "RIDGWAY, L. Disponível em: http://fborfw.com. Acesso em 23 fev. 2012.",
+        "enunciado": "Na tira da série For better or for worse, a comunicação entre as personagens fica comprometida em um determinado momento porque",
+        "alternativas": {
+          "A": "as duas amigas divergem de opinião sobre futebol.",
+          "B": "uma das amigas desconsidera as preferências da outra.",
+          "C": "uma das amigas ignora que o outono é temporada de futebol.",
+          "D": "uma das amigas desconhece a razão pela qual a outra a maltrata.",
+          "E": "as duas amigas atribuem sentidos diferentes à palavra season."
+        },
+        "gabarito": "E",
+        "comentario": "Na tira da série “For better or for worse”, a comunicação entre as personagens fica comprometida em um determinado momento porque as duas amigas atribuem sentidos diferentes à palavra season. Essa questão trabalha com a polissemia da palavra season. Essa palavra pode ser traduzida como “temporada” ou “estação do ano”. Uma das personagens atribuiu o sentido de “temporada” para a palavra season, no momento em que ela se referia à temporada de futebol, ao passo que a outra personagem havia entendido season como estação do ano, comprometendo, portanto, a comunicação entre elas."
+      }
+    ]
+  },
+  "Vocabulário E Expressões Idiomáticas": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Inferência de sentido de vocábulos e expressões idiomáticas em contexto",
+        "ids_questoes": [
+          "enem_enem2020_digital_1dia_5_4",
+          "enem_enem2021_1dia_vs4_1_0",
+          "enem_enem2021_1dia_vs4_2_1",
+          "enem_enem2023-2_1dia_3_2"
+        ],
+        "peso_percentual": 67,
+        "armadilha_favorita": "O INEP insere palavras/expressões de forte carga semântica (rarity, unthinkable, at odds with, be a shame if something were to happen to it) para induzir leitura literal. O candidato tende a traduzir palavra por palavra ou a escolher um sentido dicionarizado, quando a habilidade exigida é inferir o valor pragmático no texto e no tom da fala."
+      },
+      {
+        "nome_microtema": "Interpretação de humor, ironia e efeito de sentido em cartum",
+        "ids_questoes": [
+          "enem_enem2019_1dia_3_2"
+        ],
+        "peso_percentual": 17,
+        "armadilha_favorita": "A banca usa o cartum para deslocar o sentido esperado da expressão e criar ambiguidade entre objeto físico e tecnologia/uso social. O distrator favorito é a interpretação literal da fala, ignorando o contraste visual que produz o humor e revela a verdadeira intenção comunicativa."
+      },
+      {
+        "nome_microtema": "Leitura de publicidade e relação entre linguagem verbal e não verbal",
+        "ids_questoes": [
+          "enem_enem2017_1dia_3_2"
+        ],
+        "peso_percentual": 16,
+        "armadilha_favorita": "O INEP combina slogan, imagem e expressão idiomática para testar se o candidato percebe a mensagem implícita da propaganda. A armadilha é focar apenas no vocabulário isolado (anyplace, regret) e não relacioná-lo ao apelo persuasivo e à crítica à escolha inadequada do serviço."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio, cartuns e peças publicitárias; cobra inferência de sentido, valor pragmático, tom, ironia e relação entre linguagem verbal e não verbal",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "o vocábulo",
+        "a expressão",
+        "revela",
+        "ressalta",
+        "ao associar",
+        "constata-se que"
+      ]
+    },
+    "total_questoes_analisadas": 6,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2019_1dia_3_2",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "No cartum, o estudante faz uma pergunta usando turn this thing on por",
+        "enunciado": "No cartum, o estudante faz uma pergunta usando turn this thing on por",
+        "alternativas": {
+          "A": "suspeitar que o colega está com seu material por engano.",
+          "B": "duvidar que o colega possa se tornar um bom aluno.",
+          "C": "desconfiar que o livro levado é de outra matéria.",
+          "D": "entender como desligada a postura do colega.",
+          "E": "desconhecer como usar um livro impresso."
+        },
+        "gabarito": "E",
+        "comentario": "O fato de o garoto ter chamado o livro de coisa (“thing”) mostra seu desconhecimento em relação ao seu método de utilização. Por isso, ele pergunta ao amigo como ligá-lo (“turn on”)."
+      },
+      {
+        "id": "enem_enem2020_digital_1dia_5_4",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "Women in Theatre: Why Do So Few Make It to the Top?\nAn all-female Julius Caesar (A Shakespeare play) has just hit the stage, but it’s a rarity in theatre. In a special report, Charlotte Higgins asks leading figures why women are still underrepresented at every level of the business — and what needs to change.\nHIGGINS, C. Disponível em: www.guardian.co.uk. Acesso em: 12 dez. 2012.",
+        "enunciado": "O vocábulo “rarity” tem um papel central na abordagem do assunto desse texto, que destaca a",
+        "alternativas": {
+          "A": "falta de público feminino na plateia dos teatros.",
+          "B": "ausência de roteiros de autoria feminina.",
+          "C": "resistência dos diretores a personagens femininas.",
+          "D": "escassez de representação feminina no meio teatral.",
+          "E": "desvalorização da performance feminina no palco."
+        },
+        "gabarito": "D",
+        "comentario": "Lê-se no texto: \"... Charlotte Higgins asks leading figures why women are still underrepresented at every level of the business...\" *leading = importantes *to underrepresent = subrepresentar *level = nível Resposta: D"
+      },
+      {
+        "id": "enem_enem2021_1dia_vs4_1_0",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "Becoming\nBack in the ancestral homeland of Michelle Obama, black women were rarely granted the honorific Miss or Mrs., but were addressed by their first name, or simply as “gal” or “auntie” or worse. This so openly demeaned them that many black women, long after they had left the South, refused to answer if called by their first name. A mother and father in 1970s Texas named their newborn “Miss” so that white people would have no choice but to address their daughter by that title. Black women were meant for the field or the kitchen, or for use as they saw fit. They were, by definition, not ladies. The very idea of a black woman as first lady of the land, well, that would have been unthinkable.\nDisponível em: mwv.nytimes.com. Acesso em: 28 dez. 2018 (adaptado).",
+        "enunciado": "A crítica do livro de memórias de Michelle Obama, ex-primeira-dama dos EUA, aborda a história das relações humanas na cidade natal da autora. Nesse contexto, o uso do vocábulo “unthinkable” ressalta que",
+        "alternativas": {
+          "A": "a ascensão social era improvável.",
+          "B": "a mudança de nome era impensável.",
+          "C": "a origem do indivíduo era irrelevante.",
+          "D": "o trabalho feminino era inimaginável.",
+          "E": "o comportamento parental era irresponsável."
+        },
+        "gabarito": "A",
+        "comentario": "O uso do vocábulo “unthinkable” ressalta que a ascensão social era improvável, como mostra o trecho abaixo, retirado do excerto apresentado: “Black women were meant for the field or the kitchen, or for use as they saw fit. They were, by definition, not ladies. The very idea of a black woman as first lady of the land, well, that would have been unthinkable.”"
+      },
+      {
+        "id": "enem_enem2021_1dia_vs4_2_1",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "SIPRESS. Disponível em: www.newyorker.com. Acesso em 12 Jun. 2018.",
+        "enunciado": "A presença de “at odds with” na fala da personagem do cartum revela o(a)",
+        "alternativas": {
+          "A": "necessidade de acessar informações confiáveis.",
+          "B": "dificuldade de conciliar diferentes anseios.",
+          "C": "desejo de dominar novas tecnologias.",
+          "D": "desafio de permanecer imparcial.",
+          "E": "vontade de ler notícias positivas."
+        },
+        "gabarito": "B",
+        "comentario": "Tradução do cartum: Meu desejo de estar informado está atualmente em desacordo com meu desejo de permanecer são. * to be at odds with = estar em desacordo com"
+      },
+      {
+        "id": "enem_enem2023-2_1dia_3_2",
+        "materia": "Inglês",
+        "assunto": "Interpretação de tirinha",
+        "banca": "INEP",
+        "ano": 2023,
+        "texto_auxiliar": "MCPHAIL, W. Disponível em: https://fineartamerica.com. Acesso em: 25 out. 2021.",
+        "enunciado": "Ao utilizar a expressão “be a shame if something were to happen to it”, o pássaro",
+        "alternativas": {
+          "A": "expressa uma ideia de ameaça.",
+          "B": "demonstra uma sugestão de alimento.",
+          "C": "exprime uma sensação de vergonha.",
+          "D": "revela uma ocorrência do passado.",
+          "E": "retrata uma tentativa de aproximação."
+        },
+        "gabarito": "A",
+        "comentario": "Ao utilizar a expressão citada, o pássaro expressa ideia de ameaça (3.o quadrinho). “Seria uma pena se algo acontecesse com ela” (a jaqueta)."
+      },
+      {
+        "id": "enem_enem2017_1dia_3_2",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto publicitário",
+        "banca": "INEP",
+        "ano": 2017,
+        "texto_auxiliar": "Take your car just anyplace \nfor an oil change, and you may \nregret it down the road.\nReader’s Digest, set. 1993.",
+        "enunciado": "Nesse texto publicitário são utilizados recursos verbais e não verbais para transmitir a mensagem. Ao associar os termos anyplace e regret à imagem do texto, constata-se que o tema da propaganda é a importância da",
+        "alternativas": {
+          "A": "preservação do meio ambiente.",
+          "B": "manutenção do motor.",
+          "C": "escolha da empresa certa.",
+          "D": "consistência do produto.",
+          "E": "conservação do carro."
+        },
+        "gabarito": "C",
+        "comentario": "Os termos anyplace = qualquer lugar e regret = arrepender-se, associados à imagem de vazamento de óleo remetem o leitor a pensar na importância da escolha da empresa certa."
+      }
+    ]
+  },
+  "Aspectos Culturais E Textos Jornalísticos": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Inferência de posicionamento autoral em textos jornalísticos e cartas ao editor",
+        "ids_questoes": [
+          "enem_enem2019_1dia_4_3",
+          "enem_enem2022-2_1dia_2_1",
+          "enem_enem2017_1dia_4_3"
+        ],
+        "peso_percentual": 38,
+        "armadilha_favorita": "O INEP costuma oferecer alternativas que repetem palavras do texto, mas deslocam o foco do posicionamento do autor. A confusão mais comum é tomar opinião, crítica ou indignação como simples relato factual, ou ainda inferir uma conclusão mais forte do que a efetivamente sustentada pelo texto."
+      },
+      {
+        "nome_microtema": "Leitura crítica de notícia e previsão de desdobramentos em textos da mídia",
+        "ids_questoes": [
+          "enem_enem2020_digital_1dia_3_2",
+          "enem_enem2020_digital_1dia_4_3",
+          "enem_enem2017_1dia_2_1"
+        ],
+        "peso_percentual": 37,
+        "armadilha_favorita": "A banca induz o candidato a responder com base em estereótipos ou em leitura literal do tema, quando a habilidade exigida é perceber implicações, tendências e efeitos sociais sugeridos pelo texto. Distratores costumam exagerar, generalizar ou trocar a consequência prevista por uma opinião periférica."
+      },
+      {
+        "nome_microtema": "Compreensão de gêneros funcionais e comunicados institucionais",
+        "ids_questoes": [
+          "enem_enem2015_2dia_91_0"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "O INEP explora a diferença entre informar, orientar, advertir e justificar. O candidato pode confundir o objetivo do aviso com uma ação concreta do passageiro, quando o texto apenas comunica um procedimento já realizado pela instituição."
+      },
+      {
+        "nome_microtema": "Interpretação de texto literário-ensaístico sobre identidade, cultura e escrita",
+        "ids_questoes": [
+          "enem_enem2015_2dia_94_3"
+        ],
+        "peso_percentual": 13,
+        "armadilha_favorita": "A banca tende a trocar a ideia central por efeitos secundários do ato de escrever. O distrator costuma focar em consequências emocionais ou sociais da escrita, enquanto a resposta correta exige reconhecer a finalidade explicitada pela autora."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio, com forte exigência de inferência, identificação de intenção comunicativa e leitura crítica de gêneros jornalísticos e institucionais",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "o autor indica que",
+        "o intuito da autora é",
+        "tem o objetivo de",
+        "espera-se que",
+        "segundo informações veiculadas"
+      ]
+    },
+    "total_questoes_analisadas": 8,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2019_1dia_4_3",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "LETTER TO THE EDITOR: Sugar fear-mongering unhelpful\nBy The Washington Times Tuesday, June 25, 2013\nIn his recent piece “Is obesity a disease?” (Web, June 19), Dr. Peter Lind refers to high-fructose corn syrup and other “manufactured sugars” as “poison” that will “guarantee storage of fat in the body.” Current scientific research strongly indicates that obesity results from excessive calorie intake combined with a sedentary lifestyle. The fact is, Americans are consuming more total calories now than ever before. According to the U.S. Department of Agriculture, our total per-capita daily caloric intake increased by 22 percent from 2,076 calories per day in 1970 to 2,534 calories per day in 2010 — an additional 458 calories, only 34 of which come from increased added sugar intake. A vast majority of these calories come from increased fats and flour/cereals. Surprisingly, the amount of caloric sweeteners (i.e. sugar, high-fructose corn syrup, honey, etc.) Americans consume has actually decreased over the past decade. We need to continue to study the obesity epidemic to see what more can be done, but demonizing one specific ingredient accomplishes nothing and raises unnecessary fears that get in the way of real solutions.\n(JAMES M. RIPPE. Shrewsbury, Mass.)\n(Disponível em: www.washingtontimes.com. Acesso em: 29 jul. 2013. Adaptado.)",
+        "enunciado": "Ao abordar o assunto “obesidade”, em uma seção de jornal, o autor",
+        "alternativas": {
+          "A": "defende o consumo liberado de açúcar.",
+          "B": "aponta a gordura como o grande vilão da saúde.",
+          "C": "demonstra acreditar que a obesidade não é preocupante.",
+          "D": "indica a necessidade de mais pesquisas sobre o assunto.",
+          "E": "enfatiza a redução de ingestão de calorias pelos americanos."
+        },
+        "gabarito": "D",
+        "comentario": "Lê-se a afirmação no seguinte trecho do texto: “We need to continue... what more can be done, ...”"
+      },
+      {
+        "id": "enem_enem2020_digital_1dia_3_2",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "If Women Had Their Own Currency, Here’s What It Would Be Worth\nCharlotte Alter @charlottealter Maya Rhodan @m_rhodan July 31, 2014\nAfter a little girl asked President Obama why there aren’t any women on U.S. currency, he said that adding some female faces to our cash sounded like a “pretty good idea”. Almost immediately, all of our fantasies came alive on the web. What would, let’s say, Ruth Bader Ginsburg look like on a $20 bill? Where would we spend our Beyoncé $10 bill first? Will our grandmas give us a Susan B. Anthony $5 bill on our birthdays and tell us not to spend it all at once?\nBut then we remembered: because of the wage gap, a dollar for a woman is not the same as a dollar for a man. Although the true extent of the gender pay gap is widely disputed even among feminists, President Obama said in the 2014 State of the Union that women make only 77¢ for every dollar a man makes.\nDisponível em: http://time.com. Acesso em: 18 ago. 2014 (adaptado).",
+        "enunciado": "Nas notas e moedas de dólar norte-americano, estão estampados apenas bustos de homens. Ao imaginar a possibilidade de inclusão de figuras célebres femininas às notas, o autor do texto indica que",
+        "alternativas": {
+          "A": "o movimento feminista lutaria arduamente em favor dessa ideia.",
+          "B": "o presidente limitaria a impressão dessas imagens a apenas algumas notas.",
+          "C": "a votação para a escolha de tais celebridades seria realizada pela internet.",
+          "D": "a disputa para a seleção envolveria tanto personalidades vivas quanto já falecidas.",
+          "E": "a nota com o rosto de uma mulher valeria menos do que a mesma cédula com o retrato de um homem."
+        },
+        "gabarito": "E",
+        "comentario": "Lê-se a informação no seguinte trecho do texto: “But then we remembered: because of the wage gap, a dollar for a woman is not the same as a dollar for a man.” * wage gap = diferença salarial"
+      },
+      {
+        "id": "enem_enem2020_digital_1dia_4_3",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "Vogue Magazine’s Complicated Relationship with Diversity\n\nEdward Enninful, the new editor-in-chief of British Vogue, has a proven history of addressing diversity that many hope will be the start of an overhaul of the global Vogue brand.\n\nIn March, he responded sublimely when US President Donald Trump nominated Supreme Court judge Neil Gorsuch, who allegedly does not care much about civil rights: Enninful styled a shoot for his then employer, the New York-based W magazine, in which a range of ethnically diverse models climb the stairs of an imaginary “Supreme Court”. In February, after Trump initiated the much-debated immigration ban, Enninful put together a video showcasing the various fashion celebrities who have immigrated into the US. Even before his first official day in Vogue’s Mayfair offices, Enninful had hired two English superstars of Jamaican descent in an attempt to diversify the team. Model Naomi Campbell and make-up artist Pat McGrath both share Enninful’s aim of championing fashion as a force for social change.\n\nOne can only hope that Enninful’s appointment is not a mere blip, but a move in the right direction on a long road to diversity for the global brand.\n\nDisponível em: www.independent.co.uk. Acesso em: 11 ago. 2017 (adaptado).",
+        "enunciado": "Considerando-se as características dos trabalhos realizados pelo novo editor-chefe da Vogue inglesa, espera-se que a revista contribua para a",
+        "alternativas": {
+          "A": "integração da moda a questões sociais e raciais.",
+          "B": "ampliação do número de concursos de modelos.",
+          "C": "padronização de desfiles de moda internacionais.",
+          "D": "expansão da moda em países pouco retratados em editoriais.",
+          "E": "priorização de assuntos relacionados a imigrantes jamaicanos."
+        },
+        "gabarito": "A",
+        "comentario": "Lê-se no texto: “... Enninful had hired two English superstars of Jamaican descent in an attempt to diversify the team. Model Naomi Campbell and make-up artist Pat McGrath both share Enninful’s aim of championing fashion as a force for social change.” *to hire = contratar *attempt = tentativa *to share = compartilhar *aim = objetivo *to champion = defender/ promover Resposta: A"
+      },
+      {
+        "id": "enem_enem2022-2_1dia_2_1",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2022",
+        "texto_auxiliar": "Letter to the Editor\n\nMichael Gerson’s Oct. 19 Tuesday Opinion column,\n“The state laboratory of idiocracy strikes again” did not\nhighlight the disservice done to the Black community or\nany other minority group affected by White history. I\nwonder about how this will manipulate the perceptions\nof minorities in the eyes of students. The misguided\nstereotypes and assumptions perpetuated by these\ncurriculum restrictions will likely prevent Black\nAmericans from expressing themselves safely.\n\nIt’s plausible to assume that continued miseducation\nover generations could create a sense of false comfort for\nBlack Americans. Without proper access to history,\nminorities might begin to forget the oppression they have\nfaced and the injustices they are currently dealing with.\nLacking this vital historical education only serves to\ncontinue the longstanding issue of misinformation in\nmodern generations.\n\nThe problems are only the start of the issues that could\nbegin to plague the American education system. \n\nRiley Kilcarr, Springfield.\nDisponível em: www.washingtonpost.com. \nAcesso em: 29 out. 2021.",
+        "enunciado": "O autor dessa carta se reporta ao editor de um jornal para",
+        "alternativas": {
+          "A": "criticar uma matéria.",
+          "B": "manipular estudantes.",
+          "C": "atacar uma comunidade.",
+          "D": "revelar uma premonição.",
+          "E": "propagar desinformação."
+        },
+        "gabarito": "A",
+        "comentario": "Lê-se no texto: \"'The state laboratory of idiocracy strikes again' did not highlight the disservice done to the Black community or any other minority group affected by White history.\""
+      },
+      {
+        "id": "enem_enem2017_1dia_2_1",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2017,
+        "texto_auxiliar": "British Government to Recruit Teens as Next Generation of Spies\n\nIn the 50 years since the first James Bond movie created a lasting impression of a British secret agent, a completely different character is about to emerge. Britain’s intelligence agencies are to recruit their next generation of cyber spies by harnessing the talents of the “Xbox generation”.\n\nIn an expansion of a pilot program, Foreign Secretary William Hague announced Thursday that up to 100 18-year-olds will be given the chance to train for a career in Britain’s secret services. The move to recruit school-leavers marks a break with the past, when agencies mainly drew their staff from among university graduates.\n\n“Young people are the key to our country’s future success, just as they were during the war”, Hague said. “Today we are not at war, but I see evidence every day of deliberate, organized attacks against intellectual property and government networks in the United Kingdom.”\n\nThe new recruitment program, called the Single Intelligence Account apprenticeship scheme will enable students with suitable qualifications in science, technology or engineering, to spend two years learning about communications, security and engineering through formal education, technical training and work placements.\nJeary, P. Disponível em: http://worldnews.nbcnews.com. Acesso em: 19 nov. 2012.",
+        "enunciado": "Segundo informações veiculadas pelo NBC News, a geração digital já tem seu espaço conquistado nas agências britânicas de inteligência. O governo britânico decidiu que",
+        "alternativas": {
+          "A": "enfrentará a guerra vigente e deliberada contra a propriedade intelectual no Reino Unido.",
+          "B": "abandonará a política de contratação de universitários como agentes secretos.",
+          "C": "recrutará jovens jogadores de Xbox como ciberespiões das agências de inteligência.",
+          "D": "implantará um esquema de capacitação de adolescentes para atuarem como agentes secretos.",
+          "E": "anunciará os nomes dos jovens a serem contratados."
+        },
+        "gabarito": "D",
+        "comentario": "A informação sobre a idade dos jovens recrutados – teens = adolescentes – encontra-se no título. “British Government to Recruit Teens as Next Generation of Spies”. A capacitação dos candidatos encontra-se no último parágrafo. “The new recruitment program, called the Single Intelligence Account apprenticeship scheme will enable students with suitable qualifications in science, technology or engineering, to spend two years learning about communications, security and engineering through formal education, technical training and work placements.”"
+      },
+      {
+        "id": "enem_enem2017_1dia_4_3",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2017,
+        "texto_auxiliar": "Letters\nChildren and Guns\nPublished: May 7, 2013\nTo the Editor: Re “Girl’s Death by Gunshot Is Rejected as Symbol” (new article, May 6):\nI find it abhorrent that the people of Burkesville, Ky., are not willing to learn a lesson from the tragic shooting of a 2-year-old girl by her 5-year-old brother. I am not judging their lifestyle of introducing guns to children at a young age, but I do feel that it’s irresponsible not to practice basic safety with anything potentially lethal – guns, knives, fire and so on. How can anyone justify leaving guns lying around, unlocked and possibly loaded, in a home with two young children? I wish the family of the victim comfort during this difficult time, but to dismiss this as a simple accident leaves open the potential for many more such “accidents” to occur. I hope this doesn’t have to happen several more times for legislators to realize that something needs to be changed.\nEmily Loubaton\nBrooklyn, May 6, 2013\nDisponível em: www.nytimes.com. Acesso em: 10 maio 2013.",
+        "enunciado": "No que diz respeito à tragédia ocorrida em Burkesville, a autora da carta enviada ao The New York Times busca",
+        "alternativas": {
+          "A": "reconhecer o acidente noticiado como um fato isolado.",
+          "B": "responsabilizar o irmão da vítima pelo incidente ocorrido.",
+          "C": "apresentar versão diferente da notícia publicada pelo jornal.",
+          "D": "expor sua indignação com a negligência de portadores de armas.",
+          "E": "reforçar a necessidade de proibição do uso de armas por crianças."
+        },
+        "gabarito": "D",
+        "comentario": "Lê-se no texto: “... but I do feel that it’s irresponsible not to practice basic safety with anything potentially lethal – guns, knives, fire and so on. How can anyone justify leaving guns lying around, unlocked and possibly loaded, in a home with two young children?”"
+      },
+      {
+        "id": "enem_enem2015_2dia_91_0",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "NOTICE OF BAGGAGE INSPECTION\n\nTo protect you and your fellow passengers, the Transportation Security Administration (TSA) is required by law to inspect all checked baggage.\n\nAs part of this process, some bags are opened and physically inspected. Your bag was among those selected for physical inspection.\n\nDuring the inspection, your bag and its contents may have been searched for prohibited items. At the completion of the inspection, the contents were returned to your bag.\n\nIf the TSA security officer was unable to open your bag for inspection because it was locked, the officer may have been forced to break the locks on your bag. TSA sincerely regrets having to do this, however TSA is not liable for damage to your locks resulting from this necessary security precaution.\n\nFor packing tips and suggestions on how to secure your baggage during your next trip, please visit: www.tsa.gov\n\n–––––––––––––––––––––––––––––\nSmart Security Saves Time\n\nTransportation Security Administration. Disponível em: www.tsa.gov. Acesso em: 13 jan. 2010 (adaptado).",
+        "enunciado": "As instituições públicas fazem uso de avisos como instrumento de comunicação com o cidadão. Esse aviso, voltado a passageiros, tem o objetivo de",
+        "alternativas": {
+          "A": "solicitar que as malas sejam apresentadas para inspeção.",
+          "B": "notificar o passageiro pelo transporte de produtos proibidos.",
+          "C": "informar que a mala foi revistada pelos oficiais de segurança.",
+          "D": "dar instruções de como arrumar malas de forma a evitar inspeções.",
+          "E": "apresentar desculpas pelo dano causado à mala durante a viagem."
+        },
+        "gabarito": "C",
+        "comentario": "As instituições públicas fazem uso de avisos como instrumento de comunicação com o cidadão. Esse aviso voltado a passageiros, tem o objetivo de informar que a mala foi revistada pelos oficiais de segurança. No texto: “As part of this process, some bags are opened and physically inspected. Your bag was among those selected for physical inspection.”"
+      },
+      {
+        "id": "enem_enem2015_2dia_94_3",
+        "materia": "Inglês",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "Why am I compelled to write? Because the writing saves me from this complacency I fear. Because I have no choice. Because I must keep the spirit of my revolt and myself alive. Because the world I create in the writing compensates for what the real world does not give me. By writing I put order in the world, give it a handle so I can grasp it. \nANZALDÚA. G. E. Speaking in tongues: a letter to third world women writers. In: HERNANDEZ. J. B. (Ed.). Women writing resistance : essays on Latin America and the Caribbean. Boston: South End, 2003.",
+        "enunciado": "Gloria Evangelina Anzaldúa, falecida em 2004, foi uma escritora americana de origem mexicana que escreveu sobre questões culturais e raciais. Na citação, o intuito da autora é evidenciar as",
+        "alternativas": {
+          "A": "razões pelas quais ela escreve.",
+          "B": "compensações advindas da escrita.",
+          "C": "possibilidades de mudar o mundo real.",
+          "D": "maneiras de ela lidar com seus medos.",
+          "E": "escolhas que ela faz para ordenar o mundo."
+        },
+        "gabarito": "A",
+        "comentario": "Gloria Evangelina Anzaldúa, falecida em 2004, foi uma escritora americana de origem mexicana que escreveu sobre questões culturais e raciais. Na citação, o intuito da autora é evidenciar as razões pelas quais ela escreve. Por todo o texto, notamos a colocação da autora sobre suas justificativas a respeito do porquê ela escreve. \"Because the writing saves me …\" \"Because I have no choice.\" \"Because I must keep the spirit of my revolt …\" \"Because the world I create in the writing …\""
+      }
+    ]
+  },
+  "Gramática Aplicada À Interpretação": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Pronomes, referentes e coesão referencial",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir o antecedente do pronome com o termo mais próximo, ignorando a coesão global do texto."
+      },
+      {
+        "nome_microtema": "Tempos verbais e valor aspectual no contexto",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Interpretar o tempo verbal de forma isolada, sem considerar marcador temporal, progressão narrativa ou efeito de sentido."
+      },
+      {
+        "nome_microtema": "Modal verbs e inferência de sentido",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Tomar modal verb como obrigação literal, quando ele expressa possibilidade, hipótese, conselho ou dedução."
+      },
+      {
+        "nome_microtema": "Conectores discursivos e relações lógico-semânticas",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Associar conectores apenas à tradução literal e errar a relação de contraste, causa, concessão ou conclusão no texto."
+      },
+      {
+        "nome_microtema": "Voz passiva e foco informacional",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Achar que a voz passiva serve só para 'passar para a ativa', sem perceber o destaque dado ao processo, ao objeto ou ao agente omitido."
+      },
+      {
+        "nome_microtema": "Comparativos, superlativos e intensificação",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Confundir grau comparativo com superioridade absoluta e ignorar o parâmetro de comparação explícito ou implícito."
+      },
+      {
+        "nome_microtema": "Negação, quantificadores e escopo semântico",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Ler a negação de modo superficial e inverter o sentido de quantificadores como some, any, few, little, no e none."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "O ENEM cobra gramática aplicada à interpretação de forma contextualizada, priorizando efeito de sentido, inferência e função discursiva em textos autênticos ou semiautênticos. A regra gramatical raramente aparece de modo isolado; ela é usada como pista para compreender intenção, posição do enunciador, relações entre ideias e coesão textual. Os distratores costumam ser traduções literais ou leituras fragmentadas que ignoram contexto, referência e pragmática.",
+      "palavras_gatilho": [
+        "however",
+        "therefore",
+        "although",
+        "must",
+        "may",
+        "should",
+        "it",
+        "they",
+        "this",
+        "these",
+        "more than",
+        "the most",
+        "not only",
+        "few",
+        "little",
+        "passive voice"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  }
+}

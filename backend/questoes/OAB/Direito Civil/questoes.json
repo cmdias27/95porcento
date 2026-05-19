@@ -1,0 +1,814 @@
+{
+  "Direito Civil": [
+    {
+      "id": "oab_38_37",
+      "materia": "Direito Civil",
+      "assunto": "Obrigação Solidária e Divisível",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Os irmãos Eduardo e Letícia herdaram um apartamento de sua mãe. Concluído o inventário, decidiram vender o apartamento ao casal Pedro e Mariana. Para tanto, as partes celebraram contrato de compra e venda. Pedro e Mariana se obrigaram, solidariamente, a pagar o preço pactuado (R$600.000,00) no prazo de trinta dias. Não foi avençada cláusula de solidariedade ativa. Alcançado o prazo contratual, Pedro e Mariana não pagaram o preço. Tendo em vista a situação hipotética apresentada, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Eduardo, sozinho, tem direito de cobrar a integralidade do preço pactuado, R$ 600.000,00, de Mariana, sozinha.",
+        "B": "Letícia, sozinha, tem direito de cobrar apenas a metade do preço pactuado, R$ 300.000,00, de Pedro, sozinho.",
+        "C": "Letícia, sozinha, tem direito de cobrar apenas um quarto do preço pactuado, R$ 150.000,00, de Mariana, sozinha.",
+        "D": "Eduardo e Letícia não podem pleitear sozinhos o pagamento do preço, ainda que parcial."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa B está correta. A dívida é solidária passiva (Pedro e Mariana), mas ativa é divisível (Eduardo e Letícia, credores). Pelo art. 275 do CC/02, cada credor pode cobrar sua parte (R$300.000,00) de qualquer devedor."
+    },
+    {
+      "id": "oab_38_38",
+      "materia": "Direito Civil",
+      "assunto": "Fiança",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Renata alugou um imóvel a Tadeu. Como garantia das obrigações de Tadeu, Luzia e Humberto prestaram fiança a Renata. Tadeu descumpriu suas obrigações contratuais, deixando de pagar as contraprestações ajustadas. Diante desse quadro hipotético, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Não havendo limitação contratual, Renata poderá cobrar de Luzia, sozinha, todos os acessórios da dívida principal, inclusive as despesas judiciais, desde a citação dos fiadores.",
+        "B": "Caso sejam demandados, Luzia e Humberto não têm direito de exigir que sejam primeiro executados os bens de Tadeu, pois, salvo disposição expressa em sentido contrário, não há benefício de ordem na fiança.",
+        "C": "Luzia e Humberto não respondem solidariamente pelas obrigações decorrentes do contrato de fiança, a não ser que haja disposição expressa.",
+        "D": "A fiança constitui contrato informal, entre Renata e os fiadores (Luzia e Humberto), e poderia ter sido celebrada ainda que contrariamente à vontade de Tadeu. Ademais, não admite interpretação extensiva."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa A está correta. Pelo art. 822 do CC/02, a fiança não limitada compreende todos os acessórios da dívida principal, inclusive despesas judiciais desde a citação do fiador."
+    },
+    {
+      "id": "oab_38_39",
+      "materia": "Direito Civil",
+      "assunto": "Efeitos da Prisão sobre o Dever de Alimentos",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Robson, advogado de sucesso e bem-sucedido profissionalmente, foi preso e condenado, com sentença transitada em julgado, pelo crime de homicídio, iniciando o cumprimento de sua pena no regime fechado. Ele é pai de Raquel, 17 anos, fruto de sua união com Rose e ambos compartilham a guarda da filha. Rose e Robson divorciaram-se e, em ação própria, foi fixado o dever de Robson prover alimentos para Raquel. A respeito dos efeitos da prisão de Robson sobre o dever de alimentos, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Afasta-se a obrigação de prestar alimentos de Robson considerando que a mãe de Raquel, Rose, ainda está viva.",
+        "B": "A prisão de Robson suspende o dever de prestar alimentos, o que volta a produzir seus efeitos imediatamente após o cumprimento integral da pena.",
+        "C": "Robson poderá cessar a prestação de alimentos, independente de interpelação judicial, assim que Raquel alcançar a maioridade, o que acontecerá muito em breve.",
+        "D": "O fato de Robson estar preso não afasta sua obrigação alimentar."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa D está correta. O STJ entende que a prisão não isenta o alimentante do dever, pois é possível exercer atividade remunerada no cárcere. A maioridade não extingue automaticamente a pensão (Súmula 358/STJ)."
+    },
+    {
+      "id": "oab_38_40",
+      "materia": "Direito Civil",
+      "assunto": "Direito Real de Habitação do Cônjuge Sobrevivente",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Maria Cristina era casada com Roberto, falecido no início de 2022, sem deixar testamento, sob o regime de separação convencional de bens. O casal sempre viveu em um imóvel de propriedade de Roberto com seus dois filhos, Alcino e Valério, que não moram mais com os pais. Roberto deixou, além do referido imóvel residencial, alguns investimentos e outro imóvel, de natureza comercial. Sobre o direito real de habitação do cônjuge sobrevivente, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Maria Cristina é titular do direito real de habitação, sem prejuízo de sua participação na herança de Roberto.",
+        "B": "Maria Cristina não é titular do direito real de habitação, uma vez que existe mais de um imóvel a inventariar dentre os bens que compõem a herança de Roberto.",
+        "C": "Maria Cristina receberá seu quinhão da herança, mas só tem o direito de permanecer morando no imóvel em que vivia com Roberto, caso Alcino e Valério autorizem.",
+        "D": "Maria não é titular do direito real de habitação, pois esse não se aplica aos casamentos sob a vigência do regime de separação convencional de bens."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa A está correta. O art. 1.831 do CC/02 assegura o direito real de habitação ao cônjuge sobrevivente, qualquer que seja o regime de bens, desde que o imóvel seja o único daquela natureza a inventariar."
+    },
+    {
+      "id": "oab_38_41",
+      "materia": "Direito Civil",
+      "assunto": "Alteração de Prenome (Lei de Registros Públicos)",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Joana, conhecida durante toda a sua vida em sua cidade natal pelo prenome Giovanna, começa a enfrentar uma série de embaraços e constrangimentos ao ser chamada em órgãos públicos por seu prenome registral, constante de seus documentos de identificação civil. Diante disso, Joana, de 19 anos de idade, consulta você, como advogado (a), buscando descobrir a viabilidade jurídica de alterar o seu prenome e os eventuais requisitos jurídicos que deveriam ser observados caso seja possível a mudança. Sobre a pretensão de Joana, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Poderá alterar seu prenome para Giovanna, bastando realizar solicitação, por escrito e fundamentada, diante do oficial do Registro Civil, dependendo, no entanto, de sentença judicial.",
+        "B": "Não poderá alterar seu prenome para Giovanna, pois vigora no Direito Brasileiro o princípio da imutabilidade do nome.",
+        "C": "Poderá alterar seu prenome para Giovanna, mediante requerimento pessoal e imotivadamente, independentemente de decisão judicial.",
+        "D": "Não poderá alterar seu prenome registral, mas poderá incluir o nome Giovanna, por ser este apelido público e notório."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa C está correta. O art. 56 da Lei 6.015/73 (Lei de Registros Públicos) permite que a pessoa maior de idade altere seu prenome por requerimento pessoal e imotivado, independentemente de decisão judicial."
+    },
+    {
+      "id": "oab_38_42",
+      "materia": "Direito Civil",
+      "assunto": "Direito de Passagem (Servidão de Passagem)",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Antônio é proprietário de um prédio que não tem acesso à via pública. De um lado, Antônio tem Ricardo como vizinho, cuja propriedade alcança a via pública. Do outro lado, Antônio tem Luíza como vizinha, cuja propriedade também alcança a via pública. Todavia, no caso do imóvel de Luíza, o caminho até a via pública é menos natural e mais difícil. Ricardo e Luíza recusaram-se a oferecer voluntariamente a passagem. Diante disso, Antônio pode exigir",
+      "alternativas": {
+        "A": "tanto a passagem de Ricardo quanto a de Luíza, a seu critério, mas só precisará pagar indenização cabal se escolher Luíza.",
+        "B": "tanto a passagem de Ricardo quanto a de Luíza, a seu critério, e deverá pagar indenização cabal a quem escolher.",
+        "C": "que Ricardo lhe dê a passagem, sem que seja obrigado a pagar qualquer indenização a ele.",
+        "D": "que Ricardo lhe dê a passagem, mediante pagamento de indenização cabal."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa D está correta. O art. 1.258 do CC/02 determina que o constrangimento para dar passagem deve recair sobre o vizinho cujo imóvel mais natural e facilmente se prestar à passagem (Ricardo), mediante pagamento de indenização cabal."
+    },
+    {
+      "id": "oab_39_37",
+      "materia": "Direito Civil",
+      "assunto": "Mora e Perda da Coisa (Responsabilidade do Devedor)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Arts. 239, 399 e 402 do Código Civil.",
+      "enunciado": "Marcelo alugou um cavalo do haras Galopante para, com ele, disputar uma corrida no dia 15, comprometendo-se a devolvê-lo no dia seguinte à corrida (dia 16). Entretanto, Marcelo se afeiçoou pelo animal e não o devolveu no prazo estipulado, usando-o para passeios em sua fazenda. O haras, com isso, deixou de alugar o animal para outro jóquei que pretendia correr com ele no dia 18 e já havia reservado. Para completar, no dia 20, em um dos passeios com Marcelo, o cavalo se assustou com uma cobra e sofreu uma queda. No acidente, fraturou uma perna e teve que ser sacrificado. Diante disso, assinale a opção que indica os prejuízos que o haras Galopante pode exigir de Marcelo devido à falta do cavalo.",
+      "alternativas": {
+        "A": "Deve ser incluído o aluguel que deixou de receber do outro jóquei, mas não o equivalente do animal, porque Marcelo ficou liberado da responsabilidade pela impossibilidade da prestação a partir do dia 20, eis que decorrente de caso fortuito.",
+        "B": "Devem ser excluídos tanto o aluguel que receberia do outro jóquei, por se tratar de dano hipotético, como o equivalente do animal, pois Marcelo ficou liberado da responsabilidade pela impossibilidade da prestação a partir do dia 20, eis que decorrente de caso fortuito.",
+        "C": "Deve ser incluído o equivalente pecuniário do cavalo, tendo em vista a responsabilidade de Marcelo pela impossibilidade da prestação enquanto estava em mora, mas excluído o aluguel que receberia do outro jóquei, por se tratar de dano hipotético.",
+        "D": "Devem ser incluídos tanto o aluguel que deixou de receber do outro jóquei como equivalente pecuniário do cavalo, tendo em vista a responsabilidade de Marcelo pela impossibilidade da prestação, enquanto estava em mora."
+      },
+      "gabarito": "D",
+      "comentario": "Marcelo estava em mora (art. 399 do CC - mora ex re). Pelo art. 239 do CC, o devedor em mora responde pela impossibilidade da prestação, ainda que decorrente de caso fortuito, salvo se provar que o dano ocorreria mesmo sem a mora. Deve indenizar o valor do cavalo (equivalente pecuniário) e os lucros cessantes (aluguel que deixou de receber - art. 402 do CC)."
+    },
+    {
+      "id": "oab_39_38",
+      "materia": "Direito Civil",
+      "assunto": "Prescrição - Incapacidade do Lesado (Art. 198, I c/c Art. 203, §3º, V)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Arts. 198, I e 203, §3º, V do CC/02.",
+      "enunciado": "Luan, conduzindo seu automóvel em velocidade acima da permitida, colidiu violentamente contra o veículo em que estavam Felipe com 10 anos de idade, e seus pais, Paulo, com 45 anos de idade, e Juliana, com 38 anos. Em razão do acidente, Felipe sofreu ferimentos graves, só recebendo alta hospitalar após 6 meses. Paulo e Juliana faleceram no acidente. Pedro, tio de Felipe, foi nomeado seu tutor, função que exerceu até a maioridade de Felipe. Ao completar 18 anos de idade, Felipe ajuizou ação indenizatória em face de Luan, buscando reparação pelos danos morais sofridos em razão do acidente, bem como o ressarcimento de despesas médicas. A respeito do caso acima narrado, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A pretensão ressarcitória de Felipe não está prescrita, eis que exercida no prazo quinquenal, cujo termo inicial é a data em que Felipe alcançou a maioridade civil.",
+        "B": "A pretensão de Felipe não está prescrita, pois o termo inicial do prazo trienal é a data em que Felipe completou 16 anos.",
+        "C": "Luan e Felipe poderão convencionar que o prazo prescricional aplicável à pretensão de Luan é de dez anos.",
+        "D": "É vedado a Luan renunciar à eventual prescrição que lhe beneficie."
+      },
+      "gabarito": "B",
+      "comentario": "O prazo para pretensão de reparação civil é de 3 anos (art. 206, §3º, V do CC). A prescrição não corre contra os absolutamente incapazes (art. 198, I do CC). Felipe completou 18 anos, mas a fluência do prazo começou aos 16 anos (término da incapacidade absoluta - art. 3º, II do CC, com redação anterior à EC 66/2010). A ação aos 18 anos está dentro do prazo. Os prazos prescricionais são de ordem pública e não podem ser alterados por acordo das partes (art. 192 do CC). A renúncia à prescrição é possível após consumada (art. 191)."
+    },
+    {
+      "id": "oab_39_39",
+      "materia": "Direito Civil",
+      "assunto": "Pagamento Indevido e Possuidor de Má-fé (Arts. 876, 877, 885)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Arts. 876, 877 e 885 do CC/02.",
+      "enunciado": "Ana comprou de Miguel um carro usado, por R$ 60.000,00, e combinou de fazer o pagamento à vista, por PIX. Ocorre que, na hora de digitar a chave PIX de Miguel - seu número de celular -, Ana errou um dígito, e acabou enviando o pagamento, por coincidência, para uma pessoa chamada José Miguel. Ao receber o comprovante, Miguel alertou a compradora para o equívoco. Ana, então, entrou imediatamente em contato com José Miguel por telefone, pedindo a restituição do valor transferido. Em seguida, encaminhou notificação extrajudicial, requerendo a restituição do valor. José Miguel, todavia, esquivou-se de fazê-lo, o que levou a Ana a procurar você, como advogado, para orientá-la sobre o problema. Sobre a orientação dada, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O fato narrado configura doação de Ana a José Miguel, que ela somente poderia discutir por meio de ação anulatória, provando algum dos defeitos dos negócios jurídicos.",
+        "B": "Em eventual ação de Ana contra José Miguel, provando a autora o erro no pagamento, deve o réu ser condenado a restituir à autora apenas a quantia nominal indevidamente recebida.",
+        "C": "Em eventual ação de Ana contra José Miguel, provando a autora o erro no pagamento, deve o réu ser condenado a restituir à autora a quantia indevidamente recebida, com os acréscimos da mora, desde a data do fato, cabendo a ele, todavia, eventuais rendimentos que tenha auferido por ter investido o montante.",
+        "D": "Em eventual ação de Ana contra José Miguel, provando a autora o erro no pagamento, deve o réu ser condenado a restituir à autora a quantia indevidamente recebida, com os acréscimos da mora, desde a data do fato, bem como eventuais rendimentos que José Miguel tenha auferido por ter investido o montante, vez que se considera possuidor de má-fé."
+      },
+      "gabarito": "D",
+      "comentario": "O art. 876 do CC obriga a restituir o que recebeu indevidamente. José Miguel, ciente do erro e recusando-se a devolver, é possuidor de má-fé (art. 1201, 1202). Pelo art. 885 do CC, o possuidor de má-fé responde por todos os frutos colhidos ou que poderiam ser colhidos, além de perda e dano. A obrigação de restituir abrange o valor acrescido de mora desde a data do erro (art. 877)."
+    },
+    {
+      "id": "oab_39_40",
+      "materia": "Direito Civil",
+      "assunto": "Curatela do Ébrio Habitual (Arts. 1.767, III; 1.775; 1.778)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Arts. 1.767, III; 1.775; 1.778 do CC/02.",
+      "enunciado": "Devido às consequências da pandemia, Gabriel Cervantes teve problemas financeiros e profissionais, levando ao consumo de álcool de forma abusiva diariamente, sendo considerado pelos médicos como ébrio habitual. Rosa Torres, sua esposa, desesperada com a condição do marido e pela situação financeira da família, procura você, como advogado(a), desejando saber a respeito da possibilidade de curatela. Informa a esposa que o casal tem dois filhos absolutamente incapazes e os pais do marido encontram-se vivos. Comunica ainda que o casal não se encontra separado de fato. Sobre a hipótese, segundo o sistema jurídico brasileiro, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O alcoolismo por si só não conduz à curatela, devendo a esposa demonstrar a prodigalidade do marido.",
+        "B": "Em eventual curatela, os pais terão prioridade no exercício em relação à esposa, que só poderá ser designada curadora na desistência dos pais.",
+        "C": "A autoridade do curador estende-se à pessoa e aos bens dos filhos do curatelado, enquanto não houver a maioridade ou a emancipação.",
+        "D": "A interdição do ébrio habitual só o privará de, sem curador, emprestar, transgredir, dar quitação, alienar ou hipotecar seu patrimônio, podendo praticar livremente os demais atos da vida civil."
+      },
+      "gabarito": "C",
+      "comentario": "O art. 1.767, III do CC sujeita os ébrios habituais à curatela. O art. 1.775 do CC estabelece que o cônjuge ou companheiro, não separado de fato, é o legítimo curador, precedendo os ascendentes. O art. 1.778 dispõe que a autoridade do curador se estende à pessoa e aos bens dos filhos do curatelado, enquanto perdurar a curatela e até a maioridade ou emancipação destes."
+    },
+    {
+      "id": "oab_39_41",
+      "materia": "Direito Civil",
+      "assunto": "Hipoteca - Abrangência de Acessões e Melhoramentos (Art. 1.474)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Arts. 1.474 e 1.475 do CC/02.",
+      "enunciado": "Vítor contraiu empréstimo perante uma instituição bancária e ofereceu, como garantia da dívida, a hipoteca sobre um bem imóvel dele. Considerando essa situação hipotética, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Vítor poderá alienar o imóvel hipotecado, salvo se o contrato de empréstimo vedar a alienação, cláusula que é considerada válida.",
+        "B": "Vítor poderá alienar o imóvel hipotecado, mas a alienação implicará o vencimento automático do empréstimo, independentemente de previsão no contrato.",
+        "C": "Vítor não poderá alienar o imóvel hipotecado, porque isso resultaria em conduta contrária à boa-fé objetiva.",
+        "D": "Caso Vítor realize melhoramentos no imóvel após a constituição da hipoteca, eles integrarão a garantia real em prol da instituição bancária."
+      },
+      "gabarito": "D",
+      "comentario": "O art. 1.474 do CC estabelece que a hipoteca abrange todas as acessões, melhoramentos ou construções do imóvel. O art. 1.475 do CC permite a alienação do imóvel hipotecado, mas o credor pode opor-se (parágrafo único), não havendo vencimento automático. A cláusula de vencimento antecipado (alternativa B) precisa estar expressa."
+    },
+    {
+      "id": "oab_39_42",
+      "materia": "Direito Civil",
+      "assunto": "Direito de Convivência e Pensão Alimentícia",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 1.634 do CC/02.",
+      "enunciado": "Júlio Cesar e Thayane foram casados por 8 anos e tiveram 2 filhos. Como a separação foi amigável, o casal achou melhor não realizar qualquer medida judicial, acordando verbalmente o valor da pensão alimentícia que seria paga em benefício dos menores, bem como o esquema de convivência parental. Entretanto, 3 anos após a separação, Thayane resolveu reajustar o valor da pensão alimentícia. O que não foi aceito por Júlio Cesar. Como não conseguiram alcançar um acordo, já que Júlio Cesar não pagou os valores solicitados, Thayane decidiu suspender o contato do pai com os filhos. Sem poder ter contato com os filhos, Júlio Cesar procura você, advogado(a), a fim de receber sua orientação. Assinale a opção que indica, corretamente, sua orientação.",
+      "alternativas": {
+        "A": "A medida adotada por Thayane está correta, pois a mãe tem autonomia para suspender o contato como pai que não cumpre com seus deveres de prestar alimentos, resguardando, dessa forma, a proteção necessária ao desenvolvimento biopsíquico dos menores.",
+        "B": "Thayane pode impedir o contato de Júlio Cesar com o filho, já que, após a separação, o exercício da autoridade familiar é exclusivo da mãe, que tem o dever de garantir os direitos das crianças e dos adolescentes.",
+        "C": "Thayane não pode impedir a convivência de Júlio Cesar com os filhos em razão do não pagamento da pensão alimentícia nos valores que foram pleiteados, pois independentemente das questões pendentes com relação aos alimentos, a convivência dos filhos com os pais é um direito fundamental.",
+        "D": "Thayane não pode impedir o contato de Júlio Cesar com os filhos, já que, tanto os alimentos, quando a guarda e convivência parental jamais foram regularizadas judicialmente, limitando-se o casal a um acordo verbal."
+      },
+      "gabarito": "C",
+      "comentario": "O direito de convivência familiar é direito fundamental da criança e dos pais (art. 227, CF; art. 1.634, CC). A suspensão da convivência em razão do não pagamento de alimentos é vedada, pois são institutos autônomos. O inadimplemento de alimentos deve ser cobrado judicialmente, não obsta o direito de visitas."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_37",
+      "materia": "Direito Civil",
+      "assunto": "Poder familiar e dever de educação após divórcio",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Vitória e Rodrigo foram casados, em regime de comunhão parcial de bens, e são pais de Mariana. Quando Mariana atingiu 16 (dezesseis) anos, os pais divorciaram-se, passando a residir em lares distintos e a compartilhar a guarda de Mariana. Mariana passou a residir com o pai. A respeito do dever de educação de Mariana, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Caberá a Vitória e a Rodrigo, já que o dever de educação inserido nos deveres e direitos dos pais com relação aos filhos, no exercício do poder familiar, independe da situação conjugal de ambos.",
+        "B": "Com o divórcio, o dever de educação passa a ser somente do pai, com quem Mariana reside, sendo impossível fisicamente Vitória colaborar nesse sentido, dada a distância física de Mariana.",
+        "C": "Com o divórcio, caberá este dever somente ao pai, Rodrigo, pois, em que pese a guarda compartilhada, Mariana reside com ele.",
+        "D": "A guarda e a convivência determinam a quem caberá o dever de educar o filho, de modo que, nesse caso, o dever de educação passa a ser somente do pai."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A alternativa A está correta. Nos termos do art. 1.566, IV, do Código Civil: “Art. 1.566. São deveres de ambos os cônjuges: IV - sustento, guarda e educação dos filhos”. Além disso, o dever de educação dos pais com relação aos filhos independe da situação conjugal de ambos. De acordo com o art. 1.634, I, do Código Civil: “Art. 1.634. Compete a ambos os pais, qualquer que seja a sua situação conjugal, o pleno exercício do poder familiar, que consiste em, quanto aos filhos: I - dirigir-lhes a criação e a educação”. As alternativas B, C e D estão incorretas. De acordo com o art. 1.579 do Código Civil: “O divórcio não modificará os direitos e deveres dos pais em relação aos filhos”. Dessa forma, mantém-se o dever de Vitória e Rodrigo quanto à educação de Mariana, nos termos do art. 1.566, IV, do Código Civil: “Art. 1.566. São deveres de ambos os cônjuges: IV - sustento, guarda e educação dos filhos”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_39",
+      "materia": "Direito Civil",
+      "assunto": "Benfeitorias: classificação (necessárias, úteis, voluptuárias)",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "Art. 96 do Código Civil: \"As benfeitorias podem ser voluptuárias, úteis ou necessárias. § 1º São voluptuárias as de mero deleite ou recreio, que não aumentam o uso habitual do bem, ainda que o tornem mais agradável ou sejam de elevado valor. § 2º São úteis as que aumentam ou facilitam o uso do bem. § 3º São necessárias as que têm por fim conservar o bem ou evitar que se deteriore.\"",
+      "enunciado": "Antônio, locatário de um imóvel residencial, verificou uma enorme infiltração atrás dos armários da cozinha. Com a finalidade de evitar maior deterioração do imóvel, Antônio realizou a obra a fim de reparar o dano e conservar o bem. Aproveitando a presença do empreiteiro em sua casa, reformou todos os armários dos quartos, para incluir portas de espelho e puxadores em cobre com o único objetivo de deixá-los mais sofisticados, pois os anteriores estavam em perfeito estado. Aproveitou também a oportunidade para incluir um grande aquário embutido na parede da sala. Diante da situação narrada, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Por não ser proprietário do bem, as obras realizadas por Antônio não podem ser consideradas como benfeitorias.",
+        "B": "As obras realizadas por Antônio são classificadas como benfeitorias úteis, pois facilitam o uso do bem.",
+        "C": "O reparo na cozinha é uma benfeitoria necessária, porque conserva e evita que a coisa se deteriore, e a reforma dos armários e do aquário são benfeitorias voluptuárias, pois trata-se de mero deleite.",
+        "D": "A reforma dos armários dos quartos e o aquário da sala valorizam o bem, sendo consideradas como benfeitorias úteis, diferente do reparo na cozinha que, por força da gravidade, classifica-se como benfeitoria necessária."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. Consoante dispõe o art. 96 do Código Civil, há três espécies de benfeitorias: voluptuárias, úteis ou necessárias. Considerando o disposto no Código Civil e de acordo com o entendimento da doutrina, as benfeitorias realizadas por Antônio são classificadas da seguinte forma: 1. Obra realizada nos armários da cozinha em decorrência da enorme infiltração atrás dos armários, com a finalidade de evitar maior deterioração do imóvel, reparar o dano e conservar o bem: benfeitoria necessária. 2. Reforma de todos os armários dos quartos, para incluir portas de espelho e puxadores em cobre com o único objetivo de deixá-los mais sofisticados: benfeitoria voluptuária. 3. Obra para incluir um grande aquário embutido na parede da sala: benfeitoria voluptuária. A alternativa A está incorreta, pois as obras realizadas por Antônio podem ser consideradas como benfeitorias. A alternativa B está incorreta. As obras realizadas por Antônio nos armários da cozinha são classificadas como benfeitorias necessárias, pois tinham a finalidade de evitar maior deterioração do imóvel, reparar o dano e conservar o bem. Por outro lado, são benfeitorias voluptuárias a reforma dos armários dos quartos para incluir portas de espelho e puxadores em cobre, além da obra para incluir um grande aquário embutido na parede da sala. A alternativa C está correta. O reparo na cozinha consiste em benfeitoria necessária, pois o enunciado afirma que o local se encontrava com enorme infiltração. Assim, por se tratar de medida indispensável à conservação da coisa, evitando deterioração ou destruição do imóvel, a reforma do encanamento da cozinha é classificada como benfeitoria necessária. Nos termos do art. 96, §3º, do CC: \"São necessárias as que têm por fim conservar o bem ou evitar que se deteriore\". Em contrapartida, a reforma dos armários é benfeitoria voluptuária, pois a inclusão de portas de espelho e puxadores em cobre tinha como o único objetivo deixá-los mais sofisticados, pois os anteriores estavam em perfeito estado. De igual modo, a obra para incluir o aquário é benfeitoria voluptuária, pois trata-se de mero deleite. Nos termos do art. 96, §1º, do CC: \"São voluptuárias as de mero deleite ou recreio, que não aumentam o uso habitual do bem, ainda que o tornem mais agradável ou sejam de elevado valor\". A alternativa D está incorreta, pois a reforma dos armários dos quartos e a inclusão do aquário da sala são consideradas como benfeitorias voluptuárias, na medida em que caracterizam mero deleite ou recreio e não aumentam o uso habitual do bem, ainda que o tornem mais agradável ou sejam de elevado valor. Cumpre destacar que a segunda parte da alternativa está correta, pois o reparo na cozinha classifica-se como benfeitoria necessária, pois, diante da enorme infiltração, era imprescindível para conservar o bem ou evitar que se deteriore."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_40",
+      "materia": "Direito Civil",
+      "assunto": "Vícios redibitórios e perdas e danos",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "André, mediante contrato escrito, comprou o carro de passeio de seu vizinho, Bernardo. Duas semanas depois, enquanto André o conduzia por uma das principais avenidas da cidade, o veículo quebrou, por causa de um defeito não aparente na mangueira do radiador. Para pretender indenização por perdas e danos em desfavor de Bernardo pelo ocorrido, André deve provar",
+      "alternativas": {
+        "A": "a existência de cláusula expressa no contrato de garantia contra vícios ocultos.",
+        "B": "a preexistência do defeito, mesmo que desconhecido por Bernardo.",
+        "C": "a preexistência do defeito e que Bernardo tinha conhecimento dele.",
+        "D": "a preexistência do defeito, que Bernardo tinha conhecimento dele e a existência de cláusula no contrato de garantia contra vícios ocultos."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A alternativa A está incorreta, pois o Código Civil não exige cláusula contratual expressa como requisito para a existência da garantia contra vícios ocultos. A alternativa B está incorreta, pois a ausência do conhecimento de Bernardo acerca do vício somente acarreta a responsabilidade quanto ao valor recebido, não sendo cabível o pagamento de perdas e danos, consoante dispõe o art. 443 do Código Civil: “Se o alienante conhecia o vício ou defeito da coisa, restituirá o que recebeu com perdas e danos; se o não conhecia, tão-somente restituirá o valor recebido, mais as despesas do contrato”. A alternativa C está correta. Os vícios redibitórios são conceituados como os vícios ou defeitos ocultos que desvalorizam a coisa ou a tornam imprópria para uso a que é destinada. Na hipótese do questionamento proposto, para pretender indenização por perdas e danos em desfavor de Bernardo pelo ocorrido, André deve provar preexistência do defeito e que Bernardo tinha conhecimento dele, nos termos do art. 443 do Código Civil: “Se o alienante conhecia o vício ou defeito da coisa, restituirá o que recebeu com perdas e danos; se o não conhecia, tão-somente restituirá o valor recebido, mais as despesas do contrato”. Ademais, de acordo com Cristiano Chaves: “A existência dos vícios e a necessidade de sua reparação independem da boa-fé do alienante. Contudo, esta é fundamental para se determinar o quantum indenizatório visto que irá alterar o valor a ser pago. Se de boa-fé, ocorrerá responsabilidade apenas quanto ao valor recebido, se de má-fé, deverá a este valor acrescentar as eventuais perdas e danos”. A alternativa D está incorreta, pois o Código Civil não exige cláusula contratual expressa como requisito para a existência da garantia contra vícios ocultos. No caso hipotético, para pretender indenização por perdas e danos, André deve provar preexistência do defeito e que Bernardo tinha conhecimento dele, nos termos do art. 443 do Código Civil: “Se o alienante conhecia o vício ou defeito da coisa, restituirá o que recebeu com perdas e danos; se o não conhecia, tão-somente restituirá o valor recebido, mais as despesas do contrato”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_41",
+      "materia": "Direito Civil",
+      "assunto": "Divórcio e partilha de bens",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Mariana e Lucas estão casados há mais de 10 anos em regime da comunhão parcial de bens. Recentemente, Mariana descobriu que Lucas vem mantendo uma relação extraconjugal com uma vizinha. A descoberta abalou profundamente o casamento, e Mariana pediu o divórcio. Considerando a quebra do dever de fidelidade, Mariana alega que Lucas perdeu o direito sobre todos os bens do casal, ou seja, ela entende que, apesar do regime de comunhão parcial de bens, o patrimônio construído ao longo do casamento não deverá ser partilhado. Sobre a hipótese apresentada, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O adultério traduz-se em violação do dever de recíproca fidelidade no casamento. Assim, em razão da traição de Lucas, Mariana tem direito à indenização correspondente a parte dos bens do casal.",
+        "B": "A discussão de culpa e culpados para o divórcio não é mais necessária e, por isso, a divisão de bens deve seguir as regras do regime escolhido no casamento.",
+        "C": "O adultério é uma das mais graves infrações dos deveres conjugais e tem, como consequência, a perda do direito à meação.",
+        "D": "O adultério não interfere na partilha de bens do casal, mas tão somente no convívio do pai adúltero com os filhos menores de idade."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A alternativa A está incorreta, pois a traição de Lucas não gera automaticamente o direito à indenização correspondente a parte dos bens do casal. De acordo com Cristiano Chaves: “A aplicação das regras da Responsabilidade Civil na seara familiar, portanto, dependerá da ocorrência de um ato ilícito, devidamente comprovado. A simples violação de um dever decorrente de norma de família não é idônea, por si só, para a reparação de um eventual dano. Assim, a prática de adultério, isoladamente, não é suficiente para gerar dano moral indenizável”. Cumpre destacar que a primeira parte da alternativa está correta, nos termos do art. 1.566, I, do Código Civil: “São deveres de ambos os cônjuges: I - fidelidade recíproca”. A alternativa B está correta. De acordo com Cristiano Chaves: “Com a Emenda Constitucional n. 66/10, afasta-se a possibilidade de discussão de culpa (e de qualquer causa, objetiva ou subjetiva, pela dissolução nupcial), na medida em que o casamento somente pode ser dissolvido pelo divórcio e, em sede divorcista, não se pode tratar de culpa”. No mesmo sentido, Maria Berenice Dias afirma que: “Não há mais identificação de causas, a imposição de culpas ou a espera do decurso de prazos. Ao se excluir a culpa, doa-se à pessoa a possibilidade de extinguir seu casamento de maneira digna, conferindo também uma oportunidade para o exercício pleno de cidadania” (DIAS, Maria Berenice. Divórcio já, op. cit., p. 51). Portanto, a divisão de bens deve seguir as regras do regime escolhido no casamento, qual seja, o regime de comunhão parcial de bens previsto nos arts. 1.658 a 1.666 do Código Civil. A alternativa C está incorreta. De fato, o adultério é uma das infrações dos deveres conjugais, nos termos do art. 1.566, I, do Código Civil: “São deveres de ambos os cônjuges: I - fidelidade recíproca”. Contudo, não há previsão legal quanto à consequência de perda do direito à meação. A alternativa D está incorreta, pois o adultério não interfere no convívio do pai adúltero com os filhos menores de idade. De acordo com o art. 1.579 do Código Civil: “O divórcio não modificará os direitos e deveres dos pais em relação aos filhos”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_42",
+      "materia": "Direito Civil",
+      "assunto": "Estado de Perigo",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Joaquim estava jantando com sua família em um restaurante, quando percebeu que sua filha tinha iniciado um quadro alérgico, apresentando dificuldades respiratórias, que a colocavam em grave risco de morte. Em frente ao restaurante, havia uma clínica médica, onde buscaram atendimento. O médico de plantão, aproveitando-se da situação de urgência, exigiu pagamento antecipado de valor exorbitante – muito acima do cobrado regularmente por ele ou pelo mercado para esse tipo de atendimento. Joaquim, em desespero, anuiu com o pagamento desproporcional. Entretanto, depois do susto, consultou você, como advogado(a). Após inteirar-se do caso, você afirmou ao seu cliente que o negócio jurídico celebrado entre ele e o médico padecia de um defeito. Assinale a opção que o indica.",
+      "alternativas": {
+        "A": "Dolo, com prazo decadencial de seis meses.",
+        "B": "Lesão, com prazo decadencial de dois anos.",
+        "C": "Estado de perigo, com prazo decadencial de quatro anos.",
+        "D": "Estado de necessidade, sem prazo decadencial."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A alternativa A está incorreta, pois a situação narrada não caracteriza dolo. De acordo com a doutrina, o dolo é todo e qualquer artifício empregado por uma das partes, ou por terceiro, com o fito de induzir outrem à prática de um ato, o que não ocorreu no caso hipotético. Além disso, a segunda parte da alternativa também está incorreta, pois o prazo decadencial é de 4 (quatro) anos, nos termos do art. 178, II, do Código Civil: “Art. 178. É de quatro anos o prazo de decadência para pleitear-se a anulação do negócio jurídico, contado: II - no de erro, dolo, fraude contra credores, estado de perigo ou lesão, do dia em que se realizou o negócio jurídico”. A alternativa B está incorreta. No caso narrado, afasta-se a lesão, pois a circunstância fática da necessidade de Joaquim salvar a sua filha de grave risco de morte constitui requisito do estado de perigo. Acerca da lesão, dispõe o art. 157 do Código Civil que: “Art. 157. Ocorre a lesão quando uma pessoa, sob premente necessidade, ou por inexperiência, se obriga a prestação manifestamente desproporcional ao valor da prestação oposta”. De acordo com Cristiano Chaves: “observa-se que o elemento subjetivo do estado de perigo é muito parecido com o da lesão. Todavia, a diferença é explicável facilmente. Veja-se que no estado de perigo há uma situação de inferioridade da vítima, que é caracterizada pela necessidade de salvar-se, ou a pessoa de sua família, de grave dano, enquanto na lesão pode assumir feições diversas, como a inexperiência”. Além disso, a segunda parte da alternativa também está incorreta, pois o prazo decadencial é de 4 (quatro) anos, nos termos do art. 178, II, do Código Civil: “Art. 178. É de quatro anos o prazo de decadência para pleitear-se a anulação do negócio jurídico, contado: II - no de erro, dolo, fraude contra credores, estado de perigo ou lesão, do dia em que se realizou o negócio jurídico”. A alternativa C está correta. De acordo com o art. 156, caput, do Código Civil: “Art. 156. Configura-se o estado de perigo quando alguém, premido da necessidade de salvar-se, ou a pessoa de sua família, de grave dano conhecido pela outra parte, assume obrigação excessivamente onerosa”. No caso hipotético, está caracterizado o estado de perigo em virtude da presença de seus elementos caracterizadores: (i) existência de grave dano atual (ou iminente): Joaquim estava jantando com sua família em um restaurante, quando sua filha iniciou um quadro alérgico, apresentando dificuldades respiratórias, que a colocavam em grave risco de morte. (ii) que o perigo seja a causa determinante da declaração: Em frente ao restaurante, havia uma clínica médica, onde buscaram atendimento. Joaquim, em desespero, anuiu com o pagamento desproporcional. (iii) o conhecimento do perigo pela outra parte: O médico de plantão, aproveitando-se da situação de urgência, exigiu pagamento antecipado de valor exorbitante. (iv) a existência de obrigação onerosa excessivamente: O médico de plantão, aproveitando-se da situação de urgência, exigiu pagamento antecipado de valor exorbitante – muito acima do cobrado regularmente por ele ou pelo mercado para esse tipo de atendimento. (v) a intenção do declarante de salvar a si ou a pessoa de sua família ou a terceiro: a filha de Joaquim iniciou um quadro alérgico, apresentando dificuldades respiratórias, que a colocavam em grave risco de morte, razão pela qual, Joaquim, em desespero, anuiu com o pagamento desproporcional. A alternativa D está incorreta, pois o caso não traz uma narrativa acerca de estado de necessidade. De acordo com Cristiano Chaves: “O estado de necessidade, por sua vez, consiste na agressão de um bem jurídico pertencente a outrem para eliminar um perigo atual ou iminente causado injustamente ao agente. São, portanto, elementos do estado de necessidade: (i) perigo atual ou iminente; (ii) causado por outrem; (iii) inevitabilidade de conduta diversa; (iv) preservação de um direito próprio, existencial ou patrimonial; (v) inexistência de dever jurídico de enfrentar o perigo”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_37",
+      "materia": "Direito Civil",
+      "assunto": "Filiação e ação de contestação de paternidade",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Um ano antes da morte de Otávio, Natália, 19 anos, ajuizou ação declaratória de filiação, alegando ter nascido antes de trezentos dias da dissolução da sociedade conjugal de Otávio com Antônia, mãe dela. Otávio ainda teve tempo de contestar, alegando que, à época em que Antônia engravidou, ele sofria de impotência, e que ela o traía com Bernardo, irmão gêmeo univitelino dele — fato que foi devidamente comprovado, que o levou a se separar e a pedir o divórcio. Otávio faleceu pouco depois da contestação. Sobre o caso, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Os herdeiros de Otávio podem, após a sua morte, prosseguir na ação.",
+        "B": "Opera presunção absoluta de que Otávio é pai de Natália.",
+        "C": "O adultério de Antônia é suficiente para afastar a presunção de paternidade de Otávio.",
+        "D": "A alegação de impotência, ainda que provada, é irrelevante para a discussão da filiação."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão tratou sobre filiação. A alternativa A está correta. Os herdeiros de Otávio podem, após sua morte, prosseguir na ação de contestação da filiação, nos termos do Código Civil: Art. 1.601. Cabe ao marido o direito de contestar a paternidade dos filhos nascidos de sua mulher, sendo tal ação imprescritível. Parágrafo único. Contestada a filiação, os herdeiros do impugnante têm direito de prosseguir na ação. A alternativa B está incorreta. A presunção é absoluta quando não admite prova em contrário, portanto, a alternativa está incorreta, já que cabe ao marido o direito de contestar a paternidade dos filhos nascidos de sua mulher, nos termos do art. 1.601 do Código Civil. A alternativa C está incorreta. O adultério de Antônia por si só não é suficiente para afastar a presunção de paternidade de Otávio, nos termos do Código Civil: Art. 1.600. Não basta o adultério da mulher, ainda que confessado, para ilidir a presunção legal da paternidade. A alternativa D está incorreta. A prova de impotência retira a presunção de paternidade, portanto, é relevante para a discussão da filiação, nos termos do Código Civil: Art. 1.599. A prova da impotência do cônjuge para gerar, à época da concepção, ilide a presunção da paternidade."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_38",
+      "materia": "Direito Civil",
+      "assunto": "Fiança e benefício de ordem",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Aluísio concedeu um empréstimo a Fábio e, como garantia do empréstimo, Letícia concedeu a Aluísio a fiança, renunciando ao benefício de ordem. Considerando essa hipótese, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Letícia só pode conceder a Aluísio a fiança se houver o consentimento de Fábio.",
+        "B": "Se houver convenção expressa das partes, a fiança concedida por Letícia pode ser de valor superior à dívida de Fábio.",
+        "C": "Caso o empréstimo tenha sido verbal, a fiança também poderá sê-lo, pois, sendo contrato acessório, sua forma segue a do principal.",
+        "D": "Ao renunciar ao benefício de ordem, Letícia não poderá alegar que primeiro sejam executados os bens de Fábio."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão tratou sobre fiança. A alternativa A está incorreta. A lei não prevê que seja obrigatório o consentimento do devedor, nos termos do Código Civil: “Art. 820. Pode-se estipular a fiança, ainda que sem consentimento do devedor ou contra a sua vontade”. A alternativa B está incorreta. A fiança não poderá ser superior ao valor da dívida que assegura, nos termos do Código Civil: “Art. 823. A fiança pode ser de valor inferior ao da obrigação principal e contraída em condições menos onerosas, e, quando exceder o valor da dívida, ou for mais onerosa que ela, não valerá senão até ao limite da obrigação afiançada”. A alternativa C está incorreta. A fiança não pode ser convencionada verbalmente, deverá se dar de forma escrita, nos termos do Código Civil: “Art. 819. A fiança dar-se-á por escrito, e não admite interpretação extensiva”. A alternativa D está correta. O benefício de ordem é o direito do fiador - ao ser demandado judicialmente pelo pagamento da dívida que garantiu por meio da fiança - de exigir do credor que primeiro se persigam os bens do devedor principal, antes perseguir os bens do fiador. Como Letícia renunciou a este direito, não poderá exigir que sejam primeiro executados os bens do devedor, nos termos do Código Civil: “Art. 827. O fiador demandado pelo pagamento da dívida tem direito a exigir, até a contestação da lide, que sejam primeiro executados os bens do devedor. Art. 828. Não aproveita este benefício ao fiador: I - se ele o renunciou expressamente;”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_39",
+      "materia": "Direito Civil",
+      "assunto": "Direito Real de Superfície - Direito de Preferência",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "João é proprietário de um terreno e, por meio de escritura pública devidamente registrada no registro de imóveis, concedeu a Paula o direito real de superfície sobre esse imóvel, podendo Paula nele plantar pelo período de cinco anos. Decorridos dois anos da celebração do contrato, João decidiu vender o terreno a Fábio. Antes de ultimada a venda, Paula foi informada da intenção de venda e ofereceu a João as mesmas condições para que ela própria adquirisse o terreno. Diante dessa situação, considerando a disciplina prevista no Código Civil, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "João não pode vender o imóvel a terceiros durante o prazo de vigência do direito real de superfície, de modo que, apenas após o decurso do prazo de cinco anos, João pode vender o imóvel a Fábio.",
+        "B": "João pode vender o imóvel a Fábio, ainda que Paula tenha oferecido as mesmas condições para adquirir o terreno, mas, uma vez adquirido o terreno, Fábio estará obrigado a respeitar o direito real de superfície de Paula.",
+        "C": "João apenas restará obrigado a vender o imóvel a Paula se as condições oferecidas por ela forem melhores do que as oferecidas por Fábio, o que não é o caso.",
+        "D": "João é obrigado a respeitar o direito de preferência de Paula, em igualdade de condições, na aquisição do imóvel, caso decida vender o terreno."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão tratou sobre o direito real de superfície. A alternativa A está incorreta. Não há previsão legal nesse sentido, portanto, João poderá alienar o bem que é de sua propriedade, mas deverá respeitar o direito de preferência do superficiário, nos termos do artigo 1.373 do Código Civil. A alternativa B está incorreta. Veja que Paula tem direito de preferência, já que ela é superficiária do imóvel e ofereceu as mesmas condições para adquirir o terreno, portanto, João deve vender o terreno a Paula, nos termos do Código Civil: “Art. 1.373. Em caso de alienação do imóvel ou do direito de superfície, o superficiário ou o proprietário tem direito de preferência, em igualdade de condições”. A alternativa C está incorreta. João ficará obrigado a vender a Paula por causa do direito de preferência, se ela oferecer condições idênticas e não melhores, nos termos do artigo 1.373 do Código Civil. A alternativa D está correta. João é obrigado a respeitar o direito de preferência de Paula, em igualdade de condições, na aquisição do imóvel, caso decida vender o terreno, nos termos do Código Civil: “Art. 1.373. Em caso de alienação do imóvel ou do direito de superfície, o superficiário ou o proprietário tem direito de preferência, em igualdade de condições”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_40",
+      "materia": "Direito Civil",
+      "assunto": "Compra e venda de imóvel - forma e nulidade",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Lúcia, após negociações, concordou em vender para Cristina um imóvel pelo valor de R$500.000,00. Diante disso, as partes celebraram contrato definitivo de compra e venda, prevendo o objeto do contrato (o imóvel), o preço (R$500.000,00), a forma de pagamento e outras estipulações de caráter acessório. O contrato foi firmado por meio de instrumento particular. Considerando essas informações, sobre o contrato celebrado assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "É anulável, pois a escritura pública é essencial à sua validade.",
+        "B": "É nulo, pois contém vício de consentimento consistente em erro.",
+        "C": "É plenamente válido, produzindo integralmente os seus efeitos, uma vez que a compra e venda definitiva tem como elementos essenciais a coisa, o preço e o consenso das partes.",
+        "D": "É nulo, porque a compra e venda definitiva deveria ter sido celebrada mediante escritura pública, mas é possível sua conversão em contrato preliminar de compra e venda, o que pode ser feito mediante instrumento particular."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão tratou sobre o contrato de compra e venda. A alternativa A está incorreta. A escritura pública é requisito de validade para a compra e venda de um imóvel de valor superior a trinta vezes o maior salário-mínimo, portanto, o contrato não é válido, sendo nulo e não anulável, nos termos do artigo 108 do Código Civil: “Art. 108. Não dispondo a lei em contrário, a escritura pública é essencial à validade dos negócios jurídicos que visem à constituição, transferência, modificação ou renúncia de direitos reais sobre imóveis de valor superior a trinta vezes o maior salário mínimo vigente no País.” A alternativa B está incorreta. O contrato é nulo, pois não foram cumpridos os requisitos de forma, que exige que o contrato de compra e venda seja feito por escritura pública. O enunciado não menciona nenhuma situação que nos leve a acreditar que há erro, ignorância, dolo, coação, lesão ou estado de perigo, nos termos do artigo 108 do Código Civil: “Art. 108. Não dispondo a lei em contrário, a escritura pública é essencial à validade dos negócios jurídicos que visem à constituição, transferência, modificação ou renúncia de direitos reais sobre imóveis de valor superior a trinta vezes o maior salário mínimo vigente no País.” A alternativa C está incorreta. A escritura pública é requisito de validade para a compra e venda de um imóvel de valor superior a trinta vezes o maior salário-mínimo, portanto, o contrato não é válido, nos termos do artigo 108 do Código Civil: “Art. 108. Não dispondo a lei em contrário, a escritura pública é essencial à validade dos negócios jurídicos que visem à constituição, transferência, modificação ou renúncia de direitos reais sobre imóveis de valor superior a trinta vezes o maior salário mínimo vigente no País.” A alternativa D está correta. O contrato é nulo pois a escritura pública é requisito de validade. Porém, é possível sua conversão em contrato preliminar de compra e venda, o que pode ser feito mediante instrumento particular, nos termos do Código Civil: “Art. 170. Se, porém, o negócio jurídico nulo contiver os requisitos de outro, subsistirá este quando o fim a que visavam as partes permitir supor que o teriam querido, se houvessem previsto a nulidade”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_41",
+      "materia": "Direito Civil",
+      "assunto": "Cessão de crédito",
+      "banca": "FGV",
+      "ano": "Extraia do texto ou deduza pelo exame",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Adriana é fisioterapeuta e prestou serviços a Vitória (sessões de fisioterapia). Como contraprestação ao serviço prestado, Vitória se comprometeu a pagar a quantia de R$1.000,00 a Adriana. A obrigação foi registrada em instrumento contratual escrito. Posteriormente, Adriana cedeu seu crédito contra Vitória para Paulo. Sobre a cessão do crédito de Adriana para Paulo, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "É inválida, pois a natureza do crédito resultante de contrato de prestação de serviços não é compatível com a cessão.",
+        "B": "É ineficaz perante Vitória, salvo se ela tiver sido devidamente notificada do referido negócio ou se ela tiver se declarado ciente da cessão feita.",
+        "C": "Antes de ter tido conhecimento dela, Vitória não poderá opor a Paulo o eventual pagamento da dívida que já tenha efetuado a Adriana.",
+        "D": "Não havendo estipulação em contrário, caso Vitória se torne insolvente, Adriana responderá a Paulo pela dívida cedida."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão tratou sobre cessão de crédito. A alternativa A está incorreta. O credor poderá ceder seu crédito, já que não há proibição legal e o enunciado não informa que no contrato de prestação de serviços assinado por Adriana e Vitória fosse vedada a cessão de crédito. Veja Código Civil: “Art. 286. O credor pode ceder o seu crédito, se a isso não se opuser a natureza da obrigação, a lei, ou a convenção com o devedor; a cláusula proibitiva da cessão não poderá ser oposta ao cessionário de boa-fé, se não constar do instrumento da obrigação”. A alternativa B está correta. A cessão do crédito não tem eficácia em relação ao devedor, senão quando a este notificada, nos termos do artigo 290 do Código Civil. A alternativa C está incorreta. Fica desobrigado o devedor que, antes de ter conhecimento da cessão, paga ao credor primitivo, ou que, no caso de mais de uma cessão notificada, paga ao cessionário que lhe apresenta, com o título de cessão, o da obrigação cedida; quando o crédito constar de escritura pública, prevalecerá a prioridade da notificação, nos termos do artigo 292 do Código Civil. A alternativa D está incorreta. Adriana não responderá ante Paulo pela insolvência de Vitória, já que salvo estipulação em contrário, o cedente não responde pela solvência do devedor, nos termos do artigo 296 do Código Civil."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_42",
+      "materia": "Direito Civil",
+      "assunto": "Renúncia de herança e direito dos credores",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "João, viúvo, é pai da Marcela e Tatiana, capazes, que não possuem filhos. Por ocasião da morte de João, ambas as filhas são chamadas a aceitar a herança, no valor de R$200.000,00. Por ser devedora do Banco XYZ, no valor de R$50.000,00, Marcela, com receio da instituição financeira a privar da herança, decide renunciar seu quinhão, o que faz por meio de escritura pública. Tatiana, por sua vez, manifesta sua aceitação. Acerca desta situação, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Ante a existência de credor, a renúncia de Marcela é inválida.",
+        "B": "O Banco XYZ poderá aceitar a totalidade do quinhão deixado para Marcela.",
+        "C": "Diante da aceitação da herança, Tatiana poderá ser responsabilizada pelo débito de Marcela.",
+        "D": "O quinhão de Marcela poderá ser aceito pelo Banco XYZ até o valor de seu crédito."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão tratou sobre renúncia de herança. A alternativa A está incorreta. A renúncia de Marcela é válida, pois conforme o enunciado Marcela é maior e capaz. Não há qualquer menção de incapacidade ou vícios de consentimento. A alternativa B está incorreta. O Banco XYZ somente poderá aceitar o valor correspondente as dívidas do renunciante, devendo devolver o remanescente aos demais herdeiros, nos termos do art. 1.813 do Código Civil. A alternativa C está incorreta. Não há nenhum motivo elencado no enunciado que nos leve a pensar que Tatiana tem alguma responsabilidade no débito da irmã, por tanto, a mera aceitação da herança não traz qualquer responsabilidade entre as obrigações individuais de cada herdeiro. Não há nenhuma previsão legal neste sentido. A alternativa D está correta. O quinhão de Marcela poderá ser aceito pelo Banco XYZ até o valor de seu crédito, nos termos do Código Civil: “Art. 1.813. Quando o herdeiro prejudicar os seus credores, renunciando à herança, poderão eles, com autorização do juiz, aceitá-la em nome do renunciante. § 1º A habilitação dos credores se fará no prazo de trinta dias seguintes ao conhecimento do fato. § 2º Pagas as dívidas do renunciante, prevalece a renúncia quanto ao remanescente, que será devolvido aos demais herdeiros”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_37",
+      "materia": "Direito Civil",
+      "assunto": "Abuso de direito e ato ilícito",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Miguel Tavares vendeu um imóvel para Margarida Pinto localizado na comarca de Caxias do Sul, RS. Ficou avençado que a imissão da posse ocorreria na celebração da escritura pública, e o pagamento seria feito em 48 prestações. Após o pagamento de 38 prestações, a compradora, em virtude de desemprego, passou a não ter condições financeiras para a quitação das prestações, fato que foi imediatamente comunicado ao vendedor. Diante da inadimplência, Miguel contratou uma sociedade empresária, conferindo expressamente amplos poderes para a cobrança. A sociedade empresária entrou em contato com a compradora dezenas de vezes por dia cobrando a dívida. O teor do contato era a cobrança, tendo sido emitidas centenas de recados e mensagens por cerca de 45 dias, em horários diferentes, inclusive, pela madrugada. Além disso, a sociedade empresária publicou dezenas de comunicados em redes sociais com alcance na região de Caxias do Sul, informando a todos a inadimplência da compradora, que era marcada em todas as publicações. Diante da situação hipotética narrada, com base no ordenamento jurídico brasileiro, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A atitude da sociedade empresária é válida, visto que age em nome da vendedora, no exercício regular de seu direito.",
+        "B": "Por ser terceira interposta, a conduta da sociedade empresária é considerada ato lícito, não conduzindo à responsabilidade civil.",
+        "C": "O eventual ato ilícito cometido pela sociedade empresária só atinge a vendedora se for demonstrado o dolo omissivo de sua conduta.",
+        "D": "A conduta da sociedade empresária, que age em nome da vendedora, excede manifestamente os limites impostos pelo seu fim econômico ou social, pela boa-fé ou pelos bons costumes, caracterizando ato ilícito."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão tratou sobre atos ilícitos. Embora o mandato seja válido e a sociedade empresária está exercendo seu direito de cobrar a dívida, a forma em que está sendo feita essa cobrança é ilícita, já que excede os limites impostos pelo seu fim econômico ou social, pela boa-fé ou pelos bons costumes. Veja que segundo o Enunciado 413 da V Jornada de Direito Civil, os bons costumes previstos no art. 187 do CC possuem natureza subjetiva, destinada ao controle da moralidade social de determinada época, e objetiva, para permitir a sindicância da violação dos negócios jurídicos em questões não abrangidas pela função social e pela boa-fé objetiva. Neste caso, veja que o fato de que a empresa responsável pela cobrança ter ligado dezenas de vezes por dia, emitido centenas de mensagens e recados e publicado comunicados públicos em redes sociais informando da inadimplência de Margarida, são contrários aos bons costumes e a boa-fé, pois é uma forma de cobrança vexatória. Portanto, comete a empresa um ato ilícito, nos termos do Código Civil: \"Art. 187. Também comete ato ilícito o titular de um direito que, ao exercê-lo, excede manifestamente os limites impostos pelo seu fim econômico ou social, pela boa-fé ou pelos bons costumes\". A alternativa A está incorreta, já que embora a sociedade empresária age em nome do vendedor, a sua atitude não é válida, pois está exercendo cobrança vexatória, excedendo manifestamente os limites impostos pelo seu fim econômico ou social, pela boa-fé ou pelos bons costumes. A alternativa B está incorreta, já que por ser terceira interposta a sociedade empresária não deixa de ser obrigada a cumprir a lei. Portanto, aquele que violar o direito de outrem e lhe causar danos, comete ato ilícito e fica obrigado a repará-lo. Veja Código Civil: \"Art. 186. Aquele que, por ação ou omissão voluntária, negligência ou imprudência, violar direito e causar dano a outrem, ainda que exclusivamente moral, comete ato ilícito. Art. 927. Aquele que, por ato ilícito (arts. 186 e 187), causar dano a outrem, fica obrigado a repará-lo\". A alternativa C está incorreta, já que a demonstração de dolo omissivo não é um requisito para que a empresa seja responsabilizada pelo ato ilícito cometido. A alternativa D está correta, já que a conduta da sociedade empresária excede manifestamente os limites impostos pelo seu fim econômico ou social, pela boa-fé ou pelos bons costumes, nos termos do art. 187 do Código Civil."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_38",
+      "materia": "Direito Civil",
+      "assunto": "Locação de imóvel urbano - prorrogação e denúncia vazia",
+      "banca": "FGV",
+      "ano": "42º Exame de Ordem",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Mariana e Manuela celebraram contrato escrito de locação de imóvel urbano para fim residencial, pelo prazo de 30 meses. Decorrido o prazo previsto no contrato, Manuela, locatária, permaneceu no imóvel, e Mariana, locadora, periodicamente recebe e dá quitação dos aluguéis recebidos. Sobre a situação de Mariana, passados três meses do prazo fixado no contrato, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Está sujeita ao direito potestativo de renovação de Manuela, que poderá renovar por mais 30 meses o contrato.",
+        "B": "Tem a possibilidade de exercer denúncia vazia, garantindo à Manuela, pelo menos, o prazo de 30 dias para a desocupação do imóvel.",
+        "C": "Não tem a faculdade de exercer denúncia vazia pois, em razão do prazo contratado inicialmente, somente caberá denúncia cheia.",
+        "D": "Deverá renegociar as cláusulas contratuais com Manuela, e estabelecer um novo prazo, por não haver presunção de prorrogação contratual para o caso."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão tratou sobre locações de imóveis urbanos. A alternativa A está incorreta, já que findo o prazo ajustado, se o locatário continuar na posse do imóvel alugado por mais de trinta dias sem oposição do locador, presumir-se-á prorrogada a locação por prazo indeterminado, nos termos do art. 46, § 1º da Lei 8.245/1991. A alternativa B está correta, já que Mariana poderá exercer a resilição unilateral imotivada (denúncia vazia), tendo o prazo de 30 dias para desocupar o imóvel, nos termos do art. 46, §2º, da Lei 8.245/1991, veja: “Art. 46. Nas locações ajustadas por escrito e por prazo igual ou superior a trinta meses, a resolução do contrato ocorrerá findo o prazo estipulado, independentemente de notificação ou aviso. § 2º Ocorrendo a prorrogação, o locador poderá denunciar o contrato a qualquer tempo, concedido o prazo de trinta dias para desocupação”. As alternativas C e D estão incorretas, já que Manuela alugou o apartamento pelo prazo de 30 meses, portanto, ao continuar sem oposição na posse do imóvel por mais de 30 dias findo o contrato, se presume prorrogada a locação por prazo indeterminado e caberá a Manuela o direito de denúncia vazia, nos termos do art. 46, §2º, acima já transcrito."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_39",
+      "materia": "Direito Civil",
+      "assunto": "Parentalidade socioafetiva e multiparentalidade",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Priscila e Lucas tiveram filhos muito cedo. Com 20 anos, Priscila teve Hugo, com Pedro. Com 19 anos, Lucas teve Vitória, com Larissa. Priscila e Lucas começaram a namorar quando seus filhos ainda eram bebês e se casaram tempos depois. Após vinte anos de casamento, sempre morando com os filhos, decidiram se divorciar. Durante todo esse tempo, Priscila cuidou de Vitória como se fosse mãe dela, contribuindo, inclusive, com as despesas da menina. Lucas, por sua vez, nunca teve paciência com as crianças e não desenvolveu com Hugo um relacionamento próximo, apesar de viverem na mesma casa. Os gastos específicos do menino sempre foram custeados por Priscila e por Pedro. Sobre os fatos narrados, segundo o ordenamento jurídico brasileiro, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Por terem Priscila e Lucas criado as crianças, como um casal, sob o mesmo teto, fica automaticamente configurada a multiparentalidade.",
+        "B": "Por ter sempre morado com Lucas, Hugo pode buscar o reconhecimento do vínculo de parentalidade socioafetiva com ele, o que extinguiria o vínculo jurídico entre Hugo e Pedro.",
+        "C": "Por ter Priscila criado Vitória como se fossem mãe e filha, é possível o reconhecimento do vínculo de parentalidade socioafetiva, com o consentimento de Vitória e sem prejuízo, necessariamente, do vínculo de Vitória com Larissa.",
+        "D": "Por ser conhecida a mãe biológica de Vitória, não é possível a configuração de parentalidade socioafetiva com Priscila, assim como, por ser conhecido o pai biológico de Hugo, não é possível a configuração de parentalidade socioafetiva com Lucas."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão tratou sobre multiparentalidade socioafetiva. A alternativa A está incorreta, pois o fato de criar os filhos sob o mesmo teto, não configura automaticamente a multiparentalidade. Pois o que a multiparentalidade reconhece é um vínculo de filiação, que não existe automaticamente por morar na mesma residência. A filiação socioafetiva consiste no reconhecimento jurídico da maternidade e/ou paternidade com base no afeto, sem que haja vínculo sanguíneo/genético entre as pessoas, isto é, quando um homem e/ou uma mulher cria um filho como seu, mesmo não sendo o pai ou mãe biológica da criança ou adolescente. A alternativa B está incorreta, já que a filiação socioafetiva consiste no reconhecimento jurídico da maternidade e/ou paternidade com base no afeto. Veja que Lucas e Hugo nunca tiveram uma relação próxima de afeto, portanto, não é possível o reconhecimento da filiação socioafetiva. Além disso, a alternativa também erra ao afirmar que o reconhecimento da filiação socioafetiva extinguiria o vínculo da filiação biológica, já que o STF fixou a seguinte tese: \"a paternidade socioafetiva, declarada ou não em registro público, não impede o reconhecimento do vínculo de filiação concomitante baseado na origem biológica, com os efeitos jurídicos próprios\" (RE 898060, Relator: LUIZ FUX, Tribunal Pleno, julgado em 21/09/2016, PROCESSO ELETRÔNICO REPERCUSSÃO GERAL - MÉRITO DJe -187 DIVULG 23-08-2017 PUBLIC 24-08-2017). A alternativa C está correta, já que o STF (RE 898.060) passou a reconhecer, para além da filiação socioafetiva, a multiparentalidade. A multiparentalidade (dual paternity) denota a possibilidade de convivência de parentalidade de origens diferentes, sem que uma exclua a outra. Além disso, nos termos do art. 11 do Provimento 63 do CNJ, em caso de reconhecimento socioafetivo de filho maior de 18 anos, será necessária a anuência e assinatura do filho maior de idade. A alternativa D está incorreta, já que o reconhecimento da filiação socioafetiva não extingue o vínculo da filiação biológica, nos termos do REsp 1487596: \"Do referido julgamento, pode-se extrair que a possibilidade de cumulação da paternidade socioafetiva com a biológica contempla especialmente o princípio constitucional da igualdade dos filhos (art. 227, § 6º, da CF), sendo expressamente vedado qualquer tipo de discriminação e, portanto, de hierarquia entre eles. Assim, aceitar a concepção de multiparentalidade é entender que não é possível haver condições distintas entre o vínculo parental biológico e o afetivo. Isso porque criar status diferenciado entre o genitor biológico e o socioafetivo é, por consequência, conceber um tratamento desigual entre os filhos\"."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_40",
+      "materia": "Direito Civil",
+      "assunto": "Obrigações indivisíveis e sub-rogação",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Ivan, André e Caio celebraram negócio jurídico pelo qual se obrigaram a entregar um veículo da marca M a Bruna. Na data avençada para o cumprimento da obrigação, Ivan deu à Bruna um carro da marca M de sua propriedade. Sobre a situação hipotética apresentada, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Bruna pode exigir de André e de Caio as suas respectivas cotas partes na dívida.",
+        "B": "Ivan pode cobrar de André e de Caio, em dinheiro, as respectivas cotas-partes no débito.",
+        "C": "André e Caio permanecem coobrigados perante Bruna pela parte que lhes cabe na dívida.",
+        "D": "Tanto André como Caio permanecem responsáveis pela entrega de um carro, agora perante Ivan."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre obrigações indivisíveis. A alternativa A está incorreta, já que ao ser uma obrigação indivisível, cada devedor fica obrigado pela dívida toda e Ivan já deu o carro a Bruna, portanto, ela já recebeu a totalidade do que lhe era devido, não cabendo a ela exigir mais nada. A alternativa B está correta, já que Ivan pagou a dívida completa, portanto, se sub-roga no direito do credor em relação aos outros coobrigados, nos termos do Código Civil: “Art. 259. Se, havendo dois ou mais devedores, a prestação não for divisível, cada um será obrigado pela dívida toda. Parágrafo único. O devedor, que paga a dívida, sub-roga-se no direito do credor em relação aos outros coobrigados”. A alternativa C está incorreta, já que Ivan se sub-roga no direito do credor em relação aos outros coobrigados. André e Caio agora estão coobrigados perante Ivan. A alternativa D está incorreta, já que a obrigação de entregar o carro era de Ivan, Caio e André perante Bruna, obrigação já cumprida inteiramente por Ivan. Portanto, André e Caio não possuem a obrigação de entregar um veículo a Ivan, mas sim de pagar a ele os valores que lhes cabiam."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_41",
+      "materia": "Direito Civil",
+      "assunto": "Doação com reserva de usufruto e sucessão",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Maria, idosa de 75 anos, mãe de três filhos, decidiu contratar você, como advogado(a), para estruturar seu planejamento sucessório. A intenção de Maria era a de realizar a transferência antecipada da propriedade de um de seus imóveis (cujo valor representa 40% de seu patrimônio) para seu filho mais velho. No entanto, ela pretendia reservar para si o direito de permanecer no bem para usá-lo e explorá-lo economicamente, até a sua morte. Em razão disso, você propôs que ela fizesse uma doação com reserva de usufruto, por escritura pública, com cláusula que colocava o bem na parte disponível de seu patrimônio, seguida de um registro no Cartório de Registro de Imóveis, o que foi feito por Maria. Poucos anos depois, Maria faleceu. Diante da situação jurídica posta, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A doação deve ser declarada nula, porque caracteriza-se como inoficiosa.",
+        "B": "O herdeiro donatário é obrigado, em colação, a conferir o valor da doação para igualar as legítimas.",
+        "C": "Os três filhos de Maria herdam, via sucessão legítima, o seu direito de usufruto sobre o bem imóvel.",
+        "D": "O usufruto é extinto, consolidando-se a propriedade plena ao donatário com o cancelamento do registro."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata sobre direito sucessório. A alternativa A está incorreta, já que a doação não prejudica os demais herdeiros, pois Maria fez a doação de 40% do seu patrimônio. Código Civil: “Art. 1.789. Havendo herdeiros necessários, o testador só poderá dispor da metade da herança”. A alternativa B está incorreta, já que o herdeiro donatário recebeu o imóvel da parte disponível da sua mãe, portanto, não precisará levar ele à colação, nos termos do Código Civil: “Art. 2.005. São dispensadas da colação as doações que o doador determinar saiam da parte disponível, contanto que não a excedam, computado o seu valor ao tempo da doação”. A alternativa C está incorreta, já que o usufruto se extingue com a morte, nos termos do Código Civil: “Art. 1.410. O usufruto extingue-se, cancelando-se o registro no Cartório de Registro de Imóveis: I - pela renúncia ou morte do usufrutuário;”. A alternativa D está correta, já que a propriedade já era do filho mais velho de Maria e com sua morte, o usufruto extingue-se, e se consolida a propriedade plena ao donatário, nos termos do art. 1.410, I, do Código Civil."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_42",
+      "materia": "Direito Civil",
+      "assunto": "Direito de Vizinhança - Janelas e Construções",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Brás Cubas procurou você, como advogado(a), relatando ser possuidor e proprietário do imóvel situado à Rua Machado de Assis, nº XX, Centro, no Município Alpha, há mais de 50 anos, preservando, desde as suas origens até o presente, as mesmas características, sem que houvesse por parte da vizinhança qualquer reclamação ou denúncia, sobretudo no que tange à disposição das janelas, já que se encontram dentro dos limites legais. Segundo relato de Brás, sua vizinha, Virgília, no último mês, iniciou obra de expansão de sua casa, com abertura de uma janela no limite divisório com seu terreno e uma chaminé no telhado. Em consonância com o Código Civil brasileiro, assinale a opção que apresenta, corretamente, sua orientação sobre o caso apresentado.",
+      "alternativas": {
+        "A": "As janelas cuja visão não incida sobre a linha divisória, bem como as perpendiculares, não poderão ser abertas a menos de um metro e meio.",
+        "B": "A conduta de Virgília é válida e eficaz, porque não existe norma legal que impeça a abertura de janelas ou a construção de muro na linha divisória de imóveis.",
+        "C": "O proprietário pode, no lapso de ano e dia após a conclusão da obra, exigir que se desfaça janela que fora construída em desacordo com a legislação vigente.",
+        "D": "A construção da chaminé deve ser impedida devido à função social da propriedade, positivada no Código Civil brasileiro e tutelada pelo direito dos confinantes."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre o direito de construir. A alternativa A está incorreta, já que contraria as disposições do Código Civil: “Art. 1.301. É defeso abrir janelas, ou fazer eirado, terraço ou varanda, a menos de metro e meio do terreno vizinho. §1º As janelas cuja visão não incida sobre a linha divisória, bem como as perpendiculares, não poderão ser abertas a menos de setenta e cinco centímetros”. A alternativa B está incorreta, já que o Código Civil regula a abertura de janelas ou a construção de muro na linha divisória de imóveis, nos termos dos artigos 1.299 e seguintes do Código Civil. A alternativa C está correta, já que traz a literalidade do Código Civil: “Art. 1.302. O proprietário pode, no lapso de ano e dia após a conclusão da obra, exigir que se desfaça janela, sacada, terraço ou goteira sobre o seu prédio; escoado o prazo, não poderá, por sua vez, edificar sem atender ao disposto no artigo antecedente, nem impedir, ou dificultar, o escoamento das águas da goteira, com prejuízo para o prédio vizinho”. A alternativa D está incorreta, já que o enunciado não dá nenhuma informação que nos faça pensar que a construção da chaminé contraria algum dispositivo legal."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_48",
+      "materia": "Direito Civil",
+      "assunto": "Dissolução de Sociedade Simples",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "F. Beltrão, G. Carneiro e S. Moreira decidiram constituir uma sociedade do tipo simples de prazo indeterminado, que entrou em atividade na data da assinatura do contrato, levado a registro na semana seguinte, no Registro Civil de Pessoas Jurídicas. Assinale a opção que indica a hipótese de dissolução de pleno direito dessa sociedade.",
+      "alternativas": {
+        "A": "A deliberação dos sócios, por maioria absoluta do capital.",
+        "B": "O esgotamento da exploração do objeto social ou verificada a sua inexequibilidade.",
+        "C": "O falecimento de qualquer dos sócios, independentemente de optarem pela dissolução.",
+        "D": "A existência de apenas um sócio, não reconstituída a pluralidade em até 180 (cento e oitenta) dias."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A alternativa A está correta. Sendo a sociedade simples por prazo indeterminado, ela poderá ser dissolvida por maioria absoluta do capital, conforme o art. 1.033, III, do CC: “Art. 1.033. Dissolve-se a sociedade quando ocorrer: II - o consenso unânime dos sócios;”. As demais alternativas estão incorretas, ante a desconformidade com o dispositivo indicado acima."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_68",
+      "materia": "Direito Civil",
+      "assunto": "Ação civil ex delicto e responsabilidade civil do empregador",
+      "banca": "FGV",
+      "ano": "42º Exame de Ordem",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Anderson, motorista da sociedade empresária X, dirigindo o veículo da sociedade empresária fora do horário comercial e acima da velocidade permitida, atropelou Lucas. Lucas ficou internado pelo período de dois meses. Anderson foi condenado com trânsito em julgado, no âmbito criminal. Lucas propõe ação civil ex delicto de execução contra a sociedade empresária X. Sobre essa ação civil ex delicto, você, na qualidade de advogado(a) da sociedade empresária X, afirmou, corretamente, que ela é parte:",
+      "alternativas": {
+        "A": "legítima uma vez que é responsável civil.",
+        "B": "legítima para figurar como ré, ainda que Anderson fosse absolvido criminalmente.",
+        "C": "legítima para ação civil ex delicto de execução, uma vez que não teve oportunidade de participar da ação penal originária.",
+        "D": "ilegítima para ação civil ex delicto, seja de conhecimento ou de execução, que somente pode ser proposta contra o autor do crime."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre ação civil ex delicto. A alternativa A está incorreta. Embora a sociedade empresária X seja objetivamente responsável pelos danos causados por Anderson (art. 932, III, do Código Civil), a ação ex delicto de execução somente pode ser dirigida contra a empresa se ela tiver sido parte na ação penal originária, o que não ocorreu no caso. A ausência de participação no processo penal impede a execução direta contra a empresa com base na sentença penal condenatória. A alternativa B está incorreta. A sociedade empresária pode ser responsabilizada civilmente pelos atos de Anderson, mesmo que este fosse absolvido criminalmente, devido à independência entre as esferas penal e civil. No entanto, a legitimidade para figurar como ré em uma ação civil ex delicto depende de sua participação na ação penal, o que não ocorreu. Por isso, não pode ser diretamente executada com base na decisão penal. A alternativa C está correta. A sociedade empresária X é legítima para figurar como ré na ação civil ex delicto de execução, mas apenas porque não teve oportunidade de participar da ação penal originária. Conforme o art. 935 do Código Civil, a responsabilidade civil do empregador subsiste independentemente da responsabilização penal, mas o direito de execução civil direta com base na sentença penal depende de que a parte tenha tido oportunidade de defesa no processo criminal. Nesse caso, a ausência de participação no processo penal faz com que a ação civil ex delicto tenha que ser ajuizada contra a empresa de forma autônoma, e não diretamente executada. A alternativa D está incorreta. A sociedade empresária não é ilegítima para responder pela ação civil, seja em ação de conhecimento ou execução. Sua responsabilidade civil pelos atos praticados por Anderson decorre de norma específica (art. 932, III, do Código Civil) e independe da responsabilização criminal do motorista. Assim, afirmar que apenas o autor do crime pode ser demandado civilmente ignora a legislação aplicável. Portanto, considerando as razões acima, a única alternativa correta é a letra C, estando incorretas as alternativas A, B e D."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_37",
+      "materia": "Direito Civil",
+      "assunto": "Responsabilidade Civil pelo Fato da Coisa",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "No edifício em que reside Carolina, há, nas janelas das salas de todos os apartamentos, jardineiras com pequenas plantas. Trata-se de elemento original do projeto arquitetônico. Na sua jardineira, Carolina colocou alguns vasos de plantas. Certo dia, caiu um vaso da jardineira de Carolina sobre o carro de Thiago, que estava estacionado na rua, e causou um pequeno amassado. Sobre o caso narrado, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Carolina somente responde pelo prejuízo de Thiago, se este provar dolo por parte dela.",
+        "B": "Carolina somente responde pelo prejuízo de Thiago, se este provar dolo ou culpa por parte dela.",
+        "C": "Carolina responde pelo prejuízo de Thiago, independentemente de prova de dolo ou culpa por parte dela.",
+        "D": "Por se tratar de elemento original da construção, Carolina não tem responsabilidade pelo que cair da jardineira."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata da responsabilidade pelo fato da coisa. A responsabilidade civil pelas coisas que caírem ou forem lançadas se rege pelo CC/02, veja: \"Art. 938. Aquele que habitar prédio, ou parte dele, responde pelo dano proveniente das coisas que dele caírem ou forem lançadas em lugar indevido\". Veja que nos termos da lei, a responsabilidade pela queda do vaso será objetiva, uma vez que o legislador não exige a comprovação de dolo ou culpa para que exista o direito à reparação. A responsabilidade está baseada no dever de guarda, ou seja, o morador deve garantir que coisas não caiam ou sejam lançadas de sua unidade de forma a causar danos. As alternativas A e B estão incorretas, já que a responsabilidade objetiva não exige a comprovação de dolo ou culpa. A alternativa C está correta, já que por se tratar de responsabilidade objetiva, Carolina responde pelo prejuízo de Thiago, independentemente de prova de dolo ou culpa por parte dela. A alternativa D está incorreta, pois aquele que habitar prédio, ou parte dele, responde pelo dano proveniente das coisas que dele caírem."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_39",
+      "materia": "Direito Civil",
+      "assunto": "Sucessão legítima - concorrência do cônjuge com ascendentes",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Paulo e Glória mantiveram união estável por 22 anos, sem que nunca tivessem celebrado pacto de convivência. Ao longo da relação, amealharam, por esforço comum, patrimônio de R$ 1.600.000 (um milhão e seiscentos mil reais). Paulo faleceu, não deixando filhos nem pais, apenas seus quatro avós e dois irmãos. Diante dos fatos hipotéticos narrados, sobre a sucessão de Paulo, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Glória terá direito à meação, R$ 800.000 (oitocentos mil reais), mais metade do valor da herança, ou seja, R$ 400.000 (quatrocentos mil reais). O valor restante, de R$ 400.000 (quatrocentos mil reais), será dividido igualmente entre os avós de Paulo.",
+        "B": "Glória terá direito à meação, no valor de R$ 800.000 (oitocentos mil reais), ao direito real de habitação, mas não concorrerá com os ascendentes de Paulo.",
+        "C": "Glória terá direito ao valor total dos bens, já que o cônjuge afasta da sucessão os ascendentes do falecido.",
+        "D": "Glória terá direito à meação, no valor de R$ 800.000 (oitocentos mil reais), e o valor da herança será dividido em três partes iguais, recebendo Glória e os dois irmãos de Paulo, o correspondente a 1/3 (um terço) cada um."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata de direito das sucessões. Paulo e Glória mantiveram uma união estável por 22 anos, portanto, aplica-se o regime patrimonial da comunhão parcial de bens, nos termos do Código Civil: \"Art. 1.725. Na união estável, salvo contrato escrito entre os companheiros, aplica-se às relações patrimoniais, no que couber, o regime da comunhão parcial de bens\". Veja que o enunciado menciona que Paulo faleceu, sem deixar testamento e sem filhos, porém com ascendentes vivos, portanto, seus sucessores serão seu cônjuge e seus ascendentes, nos termos do Código Civil: \"Art. 1.829. A sucessão legítima defere-se na ordem seguinte: II - aos ascendentes, em concorrência com o cônjuge;\". Já em relação à divisão do patrimônio de Paulo, veja que caberá a Glória a metade da herança de Paulo já que concorre com ascendente de segundo grau, nos termos do Código Civil: \"Art. 1.837. Concorrendo com ascendente em primeiro grau, ao cônjuge tocará um terço da herança; caber-lhe-á a metade desta se houver um só ascendente, ou se maior for aquele grau\". A alternativa A está correta, já que Glória já é proprietária de metade dos bens, portanto é meeira em R$ 800.000 (oitocentos mil reais) e será herdeira de Paulo, lhe cabendo metade de seus bens, já que concorre com os ascendentes de segundo grau de Paulo. As alternativas B e C estão incorretas, já que Glória concorrerá com os ascendentes de Paulo, nos termos do art. 1.829 do CC/2002, acima transcrito. A alternativa D está incorreta, pois havendo cônjuge e ascendentes vivos, os irmãos não têm direito sucessório sobre os bens de Paulo. Portanto, Glória concorre na herança com os ascendentes, lhe cabendo metade da herança, já que são ascendentes de segundo grau, nos termos do art. 1.837 do CC/2002, acima transcrito."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_40",
+      "materia": "Direito Civil",
+      "assunto": "Mora e cláusula penal",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Cláudia comprou um apartamento e contratou o arquiteto Lúcio para elaborar o projeto de redecoração. Pelo contrato celebrado, Lúcio deverá entregar o projeto a Cláudia no prazo de 30 dias, contados da assinatura do instrumento. Em caso de mora, Lúcio fica obrigado a pagar multa diária a Cláudia. Considerando essa hipótese, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Caso haja atraso na entrega do projeto, Cláudia poderá exigir a multa de Lúcio, independentemente de alegar prejuízo da mora.",
+        "B": "A obrigação de pagar multa por dia de atraso afigura-se inválida, pois configura ônus manifestamente excessivo em detrimento do devedor.",
+        "C": "Havendo mora, caso Cláudia cobre a verba estipulada, não poderá exigir de Lúcio o cumprimento da obrigação principal, isto é, a entrega do projeto de redecoração.",
+        "D": "A obrigação de pagar a multa em caso de mora tem natureza jurídica de astreintes e não pode ser reduzida equitativamente pelo Juiz caso se revele manifestamente excessiva."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata de obrigações. Veja que Claudia e Lúcio celebraram livremente um contrato, no qual estabeleceram uma multa para Lúcio em caso de atraso na entrega do projeto. Neste caso, se dispensa a prova do dano, pois o contrato prevê a multa independentemente de comprovação específica de dano. Veja o que o Código Civil diz a respeito: \"Art. 389. Não cumprida a obrigação, responde o devedor por perdas e danos, mais juros, atualização monetária e honorários de advogado. Art. 396. Não havendo fato ou omissão imputável ao devedor, não incorre este em mora\". A alternativa A está correta, já que conforme estipulado por ambos no contrato, havendo atraso na entrega no trabalho, Claudia poderá exigir a multa de Lúcio. A alternativa B está incorreta. Não há menção no enunciado ao valor da multa, nem de qualquer situação diferenciada que nos leve a pensar que essa cláusula é manifestamente excessiva. A multa diária é um instrumento válido desde que não exceda um limite razoável. A alternativa C está incorreta, já que Lúcio se obrigou contratualmente a realizar o projeto para a Claudia, por tanto, Claudia poderá exigir o cumprimento do contrato, mesmo o Lúcio atrasando a entrega. Nos termos do art. 396 do CC/2002, Lúcio além de cumprir a obrigação, responderá por perdas e danos, mais juros, atualização monetária e honorários de advogado, por causa do seu atraso. A mora ocorre quando o devedor não cumpre a obrigação no tempo, lugar e forma estabelecidos. No entanto, mesmo havendo mora, a obrigação principal ainda pode ser exigida pelo credor. A alternativa D está incorreta. Veja que o examinador trouxe uma alternativa com conteúdo que foge do tema tratado na questão. As astreintes, ou multas cominatórias, são uma medida processual com natureza coercitiva, que visa impulsionar o cumprimento de obrigações de fazer ou não fazer determinadas decisões judiciais. Não têm natureza indenizatória ou compensatória, mas o objetivo de garantir a efetividade da decisão e evitar o descumprimento por parte do devedor. Além disso, o juiz pode reduzir a penalidade se o montante for manifestamente excessivo, nos termos do Código Civil: \"Art. 413. A penalidade deve ser reduzida eqüitativamente pelo juiz se a obrigação principal tiver sido cumprida em parte, ou se o montante da penalidade for manifestamente excessivo, tendo-se em vista a natureza e a finalidade do negócio\"."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_41",
+      "materia": "Direito Civil",
+      "assunto": "Usucapião Especial Urbana",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Fabiano e Vitória, casados pelo regime de comunhão parcial de bens, são possuidores de boa-fé de um imóvel residencial localizado no município de Quebrangulo, AL, com área de 160 m2 (cento e sessenta metros quadrados). O proprietário do imóvel é Graciliano, que se mudou para Maceió, no início do ano de 2011, nunca mais retornando à cidade. Destaca-se que Graciliano havia hipotecado o bem dias antes de sua mudança para a capital. No dia de ontem, o casal procurou você, como advogado(a), com o propósito de verificar uma possível usucapião, visto que residem no bem desde 2018. Com base no sistema jurídico brasileiro, assinale a opção que apresenta, corretamente, sua orientação.",
+      "alternativas": {
+        "A": "A usucapião é forma de aquisição derivada, de modo que permanecem os ônus reais que gravavam o imóvel antes de sua declaração, não podendo ser oposta em caso de hipoteca.",
+        "B": "O casal, Fabiano e Vitória, poderá adquirir o domínio do imóvel por usucapião especial urbana, desde que demonstre a posse sem oposição, a utilização para sua moradia ou de sua família e que não seja proprietário de outro imóvel urbano ou rural.",
+        "C": "Em eventual falecimento do casal, os herdeiros não têm legitimidade na propositura da ação de usucapião, visto que o Código Civil impede o acréscimo da posse a dos seus antecessores, ainda que sejam contínuas e pacíficas.",
+        "D": "O sistema jurídico brasileiro inibe que um casal casado por regime da comunhão adquira um bem por usucapião, mesmo para fins de moradia, pois nesse regime devem ser partilhados apenas os bens adquiridos a título oneroso."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata de usucapião. A alternativa A está incorreta. A usucapião é considerada uma forma de aquisição originária da propriedade, e não derivada. Portanto, a nova propriedade é adquirida como se o imóvel não tivesse sido previamente propriedade de alguém. Nessa perspectiva, ônus como hipotecas que existiam antes não são transferidos para o novo proprietário. A alternativa B está correta. Fabiano e Vitória poderão adquirir o domínio do imóvel por usucapião especial urbana, nos termos do Código Civil: \"Art. 1.240. Aquele que possuir, como sua, área urbana de até duzentos e cinquenta metros quadrados, por cinco anos ininterruptamente e sem oposição, utilizando-a para sua moradia ou de sua família, adquirir-lhe-á o domínio, desde que não seja proprietário de outro imóvel urbano ou rural\". A alternativa C está incorreta, já que a posse se transmite aos herdeiros ou legatários do possuidor, nos termos do Código Civil: \"Art. 1.206. A posse transmite-se aos herdeiros ou legatários do possuidor com os mesmos caracteres\". A alternativa D está incorreta, pois não há proibição na lei de que um casal casado pelo regime da comunhão adquira um bem por usucapião."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_42",
+      "materia": "Direito Civil",
+      "assunto": "Prescrição e decadência na responsabilidade civil",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Mário conduzia imprudentemente seu veículo quando perdeu o controle do automóvel e colidiu contra uma banca de jornais situada na calçada. João, que estava parado ao lado da banca, foi atingido e faleceu na hora do acidente. Mário permaneceu internado por cerca de dois meses antes de também falecer em decorrência dos ferimentos sofridos. Sobre as implicações do caso acima, segundo o ordenamento jurídico brasileiro, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Eventuais herdeiros de João terão o prazo decadencial de quatro anos para pleitear indenização em face do espólio de Mário.",
+        "B": "A prescrição iniciada em face de Mário continua a correr contra seu sucessor.",
+        "C": "O prazo prescricional, diante da inexistência de previsão legal específica, é de dez anos.",
+        "D": "A prescrição intercorrente, se ajuizada ação indenizatória pelos eventuais herdeiros de João, não observará o mesmo prazo de prescrição da pretensão, possuindo prazo fixo de cinco anos."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata de prescrição e decadência. A alternativa A está incorreta, já que o prazo prescricional para a reparação civil é de 3 anos, nos termos do Código Civil: \"Art. 206. Prescreve: § 3 Em três anos: V - a pretensão de reparação civil;\". A alternativa B está correta, pois a prescrição iniciada em face de Mário continua a correr contra seu sucessor, nos termos do Código Civil: \"Art. 196. A prescrição iniciada contra uma pessoa continua a correr contra o seu sucessor\". A alternativa C está incorreta, já que o prazo prescricional para a reparação civil é de 3 anos, nos termos do Código Civil: \"Art. 206. Prescreve: § 3 Em três anos: V - a pretensão de reparação civil;\". A alternativa D está incorreta, já que a prescrição intercorrente observará o mesmo prazo de prescrição da pretensão, nos termos do Código Civil: \"Art. 206 -A. A prescrição intercorrente observará o mesmo prazo de prescrição da pretensão, observadas as causas de impedimento, de suspensão e de interrupção da prescrição previstas neste Código e observado o disposto no art. 921 da Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil)\"."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_37",
+      "materia": "Direito Civil",
+      "assunto": "Tutela - Nomeação por testamento",
+      "banca": "FGV",
+      "ano": "44º Exame de Ordem",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Gabriel e Vitória, pais de Ana e de Clara, faleceram em um acidente aéreo. Os parentes mais próximos de Ana e Clara são os tios, Rafael - irmão de Gabriel -, com 42 anos de idade, e a tia, Júlia - irmã de Vitória -, com 38 anos de idade. Atualmente, Ana tem 9 anos de idade e Clara, 7. Verificou-se que, em seus respectivos testamentos, Gabriel e Vitória nomearam, como tutor de Ana e Clara, Lucas, primo de Gabriel. Sobre o caso narrado, segundo o ordenamento jurídico brasileiro, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Júlia deverá exercer a tutela das meninas, por estar no mesmo grau de parentesco que Rafael, e por ser mais nova que ele, além de ser parente mais próxima que Lucas.",
+        "B": "Rafael deverá exercer a tutela das meninas, por estar no mesmo grau de parentesco que Júlia, e por ser mais velho que ela, além de ser parente mais próximo que Lucas.",
+        "C": "Lucas não poderá exercer a tutela, porque somente os colaterais até o terceiro grau podem ser tutores.",
+        "D": "Lucas deverá exercer a tutela, por ter sido nomeado pelos pais das meninas em testamento."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata de tutela. A alternativa D está correta. O Código Civil estabelece que é direito dos pais em conjunto nomear tutor para seus filhos, ante a impossibilidade de ambos exercer o poder familiar. Somente em caso de falta de tutor nomeado pelos pais, é que incumbe a tutela aos parentes consanguíneos do menor. Neste caso, Júlia e Rafael não poderão ser os tutores dos sobrinhos, já que Gabriel e Vitória já haviam nomeado um tutor com anterioridade. Portanto, Lucas deverá exercer a tutela, por ter sido nomeado pelos pais das meninas em testamento. Veja literalidade da lei: “Art. 1.634. Compete a ambos os pais, qualquer que seja a sua situação conjugal, o pleno exercício do poder familiar, que consiste em, quanto aos filhos: VI - nomear-lhes tutor por testamento ou documento autêntico, se o outro dos pais não lhe sobreviver, ou o sobrevivo não puder exercer o poder familiar; Art. 1.731. Em falta de tutor nomeado pelos pais incumbe a tutela aos parentes consanguíneos do menor, por esta ordem: I - aos ascendentes, preferindo o de grau mais próximo ao mais remoto; II - aos colaterais até o terceiro grau, preferindo os mais próximos aos mais remotos, e, no mesmo grau, os mais velhos aos mais moços; em qualquer dos casos, o juiz escolherá entre eles o mais apto a exercer a tutela em benefício do menor. Art. 1.729. O direito de nomear tutor compete aos pais, em conjunto. Parágrafo único. A nomeação deve constar de testamento ou de qualquer outro documento autêntico”."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_39",
+      "materia": "Direito Civil",
+      "assunto": "Simulação no negócio jurídico",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Cláudia é devedora de valores elevados e foi executada em determinada demanda. Para evitar a penhora de seu carro, celebrou contrato de compra e venda do veículo com Eduardo, seu amigo fraterno, indicando data anterior às dívidas. Cláudia e Eduardo combinaram que o contrato não produziria qualquer efeito, de modo que não houve o pagamento do preço e tampouco a transferência da propriedade do carro. Sobre o contrato celebrado entre Cláudia e Eduardo, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "É anulável.",
+        "B": "É válido, mas ineficaz.",
+        "C": "É nulo, sem possibilidade de aproveitamento.",
+        "D": "Pode ser convalidado, bastando que se desconsidere a data indicada e se considere a data em que ele efetivamente foi celebrado."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata da invalidade do negócio jurídico. A alternativa C está correta. A simulação está contida no art. 167 do Código Civil, que prevê a nulidade do negócio jurídico simulado, mas estabelece que o negócio dissimulado subsiste, se válido for na substância e na forma: 'Art. 167. É nulo o negócio jurídico simulado, mas subsistirá o que se dissimulou, se válido for na substância e na forma'."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_40",
+      "materia": "Direito Civil",
+      "assunto": "Sucessão testamentária - Substituição ordinária",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Do testamento deixado por Natália constou a seguinte cláusula acerca da parte disponível: \"lego o apartamento X para meus filhos Henrique e Carolina, os quais serão individualmente substituídos, se não puderem aceitar, pelo meu filho Carlos.\" Após o registro, abertura e determinação de seu cumprimento, Henrique renunciou à sucessão testamentária, satisfazendo-se com a legítima. Você, como advogado(a), foi consultado(a) acerca da transmissão causa mortis do apartamento X. Assinale a opção que apresenta, corretamente, sua orientação.",
+      "alternativas": {
+        "A": "Caberá à Carolina e a Carlos, por força da substituição prevista.",
+        "B": "Ficará integralmente com Carolina, por conta do direito de acrescer.",
+        "C": "Será dividido entre Henrique e Carolina, pois a renúncia não pode ser parcial.",
+        "D": "Deverá ser integralmente entregue a Carlos, em razão da disposição conjuntiva."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata da sucessão testamentária. A alternativa A está correta. O testador pode substituir outra pessoa ao herdeiro ou ao legatário nomeado, para o caso de não querer (renúncia) ou não poder (incapacidade ou ilegitimidade) aceitar a disposição, presumindo-se que a substituição foi determinada para as duas alternativas, ainda que o testador só a uma se refira (art. 1.947). Trata-se da substituição ordinária ou vulgar, que nada mais é do que uma simples substituição: se o primeiro não pode, entra o segundo em seu lugar. Portanto, ao renunciar Henrique a seu direito na sucessão testamentária, veja literalidade da lei: \"Art. 1.947. O testador pode substituir outra pessoa ao herdeiro ou ao legatário nomeado, para o caso de um ou outro não querer ou não poder aceitar a herança ou o legado, presumindo-se que a substituição foi determinada para as duas alternativas, ainda que o testador só a uma se refira\". A alternativa B está incorreta. Nos termos do Código Civil, não haverá direito de acrescer, já que o testador estabeleceu um substituto: \"Art. 1.941. Quando vários herdeiros, pela mesma disposição testamentária, forem conjuntamente chamados à herança em quinhões não determinados, e qualquer deles não puder ou não quiser aceitá-la, a sua parte acrescerá à dos co-herdeiros, salvo o direito do substituto\". A alternativa C está incorreta. A renúncia pode ser parcial, e Henrique somente renunciou validamente somente à sucessão testamentária. Veja literalidade do Código Civil: \"Art. 1.808. Não se pode aceitar ou renunciar a herança em parte, sob condição ou a termo. § 2º O herdeiro, chamado, na mesma sucessão, a mais de um quinhão hereditário, sob títulos sucessórios diversos, pode livremente deliberar quanto aos quinhões que aceita e aos que renuncia\". A alternativa D está incorreta, já que a disposição conjuntiva dispõe que Henrique e Carolina são herdeiros do apartamento e Carlos o substituto de qualquer deles ou de ambos, em caso de renúncia individual. Veja que o apartamento não caberá só a Carlos, pois Carolina não renunciou a sua parte, nos termos dos artigos do Código Civil transcritos nas alternativas acima."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_41",
+      "materia": "Direito Civil",
+      "assunto": "Presunção de paternidade no casamento",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Beatriz nasceu duzentos e cinquenta dias após a morte do pai, Bernardo, com quem sua mãe, Gabriela, era casada há 2 anos. Quando Gabriela foi registrar Beatriz, Leonardo, irmão de Bernardo, afirmou que não aceitaria que ela registrasse como filha de Bernardo, a não ser que Gabriela provasse a paternidade, por meio de exame de DNA. Sobre a situação apresentada, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Gabriela precisa realizar o exame de DNA para que possa registrar Beatriz, uma vez que é direito da família do falecido questionar a paternidade a este atribuída após a sua morte.",
+        "B": "Gabriela precisa realizar o exame de DNA para que possa registrar Beatriz, uma vez que, nos termos do Código Civil, a paternidade não é presumida após a dissolução do vínculo conjugal.",
+        "C": "Gabriela não precisa realizar o exame de DNA para que possa registrar Beatriz, uma vez que a criança nasceu após a morte de Bernardo e o direito para contestação da paternidade é personalíssimo.",
+        "D": "Gabriela não precisa realizar o exame de DNA para que possa registrar Beatriz, uma vez que, nos termos do Código Civil, presumem-se concebidos na constância do casamento os filhos nascidos nos trezentos dias subsequentes à dissolução da sociedade conjugal por morte."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata da presunção de paternidade. A alternativa D está correta. Gabriela não precisa realizar o exame DNA em seu filho para poder registrar a criança, já que a criança nasceu nos trezentos dias subsequentes à dissolução da sociedade conjugal por morte do seu cônjuge, nos termos do Código Civil: \"Art. 1.597. Presumem-se concebidos na constância do casamento os filhos: II - nascidos nos trezentos dias subsequentes à dissolução da sociedade conjugal, por morte, separação judicial, nulidade e anulação do casamento;\". Além disso, em qualquer caso no qual se discuta filiação, cabe ao homem ou à mulher, exclusivamente, o direito de contestar a paternidade/maternidade dos filhos, sendo tal ação imprescritível, veja a literalidade do Código Civil: \"Art. 1.601. Cabe ao marido o direito de contestar a paternidade dos filhos nascidos de sua mulher, sendo tal ação imprescritível\"."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_42",
+      "materia": "Direito Civil",
+      "assunto": "Direito Real de Laje",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Carlos é titular de direito real de uma laje, referente à parte superior de uma edificação localizada em uma área urbana. Recentemente, ele tomou conhecimento de que uma empresa de internet está negociando diretamente com o proprietário da construção-base para instalar cabeamentos de fibra óptica e outros equipamentos de infraestrutura no subsolo dessa construção. A instalação não interfere no direito real de Carlos, bem como não afeta o uso do bem. Mesmo assim, Carlos tem dúvidas sobre a legalidade dessa instalação sem a sua expressa autorização, bem como sobre seu direito a eventual compensação. Diante disso, ele consultou você, como advogado(a), para orientá-lo sobre a questão. Assinale a opção que apresenta, corretamente, sua orientação.",
+      "alternativas": {
+        "A": "Carlos tem o direito de impedir a instalação dos cabos de fibra ótica, pois a utilização do subsolo da construção-base requer sua autorização expressa como titular do direito real de laje.",
+        "B": "A empresa de internet pode instalar os cabos de fibra óptica no subsolo da construção-base sem a autorização de Carlos, pois a instalação não interfere em seu direito real de laje.",
+        "C": "Carlos deve ser compensado financeiramente pela empresa de internet antes da instalação dos cabos no subsolo da construção-base, devido à titularidade de seu direito real de laje.",
+        "D": "A instalação dos cabos de fibra ótica pela empresa de internet é ilegal e pode ser contestada por Carlos judicialmente, já que ele possui um direito real sobre a construção e não autorizou o uso do subsolo."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata do direito de laje. A alternativa B está correta. No direito de laje não há transferência de direito de propriedade do imóvel sobrelevado, mas apenas se destacam alguns poderes proprietários. Não à toa, a sobrelevação não implica a atribuição de fração ideal de terreno ao titular da laje ou a participação proporcional em áreas já edificadas (art. 1.510-A, §4º). Portanto, o proprietário de uma construção-base poderá ceder a superfície superior ou inferior de sua construção, sem contemplar as demais áreas edificadas ou não pertencentes ao proprietário da construção-base. Veja que se Carlos não tem direito de propriedade e não tem atribuição de fração ideal de terreno, o proprietário não precisará de sua autorização. Portanto, a empresa de internet pode instalar os cabos de fibra óptica no subsolo da construção-base sem a autorização de Carlos. Além disso, não cabe qualquer indenização a Carlos, já que conforme o enunciado informa, a colocação dos cabos não interfere no direito real de Carlos, bem como não afeta o uso do bem. Veja literalidade do Código Civil: \"Art. 1.510-A. O proprietário de uma construção-base poderá ceder a superfície superior ou inferior de sua construção a fim de que o titular da laje mantenha unidade distinta daquela originalmente construída sobre o solo. § 1º O direito real de laje contempla o espaço aéreo ou o subsolo de terrenos públicos ou privados, tomados em projeção vertical, como unidade imobiliária autônoma, não contemplando as demais áreas edificadas ou não pertencentes ao proprietário da construção-base. § 4º A instituição do direito real de laje não implica a atribuição de fração ideal de terreno ao titular da laje ou a participação proporcional em áreas já edificadas\"."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_37",
+      "materia": "Direito Civil",
+      "assunto": "Servidão não aparente e usucapião",
+      "banca": "FGV",
+      "ano": "2025",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Ruth é proprietária do Sítio Felicidade, localizado na zona rural do município de Ribeirão Corrente (SP). Há 15 anos, ela mantém canos subterrâneos de irrigação que atravessam o Sítio da Lua, de propriedade de Demétrio, para captar água de uma nascente situada dentro desse último. O uso sempre foi contínuo e sem oposição, mas invisível a olho nu, já que o sistema está instalado sob o solo. Nunca houve registro da servidão no Cartório de Registro de Imóveis, tampouco um contrato formal entre os antigos proprietários. Em novembro de 2025, Pedro, novo dono do Sítio da Lua, ao descobrir as tubulações, notificou Ruth para interromper o uso da água, alegando que a servidão não se constituiu validamente por ausência de registro. Considerando o caso concreto e as normas do Código Civil sobre a constituição e aquisição de servidões, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A usucapião da servidão poderia ser reconhecida após cinco anos de uso contínuo, dada a boa-fé e a posse qualificada de Ruth.",
+        "B": "Ruth adquiriu a servidão por usucapião, pois o uso foi contínuo e incontestado por mais de dez anos, ainda que não fosse visível.",
+        "C": "O direito de Ruth configura mera detenção tolerada, mas poderia ser convertido em servidão após 20 anos de utilização contínua.",
+        "D": "Ruth não adquiriu a servidão, pois, não sendo aparente, exige registro no Cartório de Imóveis para a sua constituição válida, não admitindo usucapião."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata da servidão. A alternativa A está incorreta, porque o prazo de cinco anos para usucapião não se aplica à aquisição de servidões. Além disso, a boa-fé e a posse qualificada são irrelevantes quando a servidão não é aparente, como no caso das tubulações subterrâneas, que não podem ser adquiridas por usucapião, nos termos do artigo 1.379 do CC/2002: “Art. 1.379. O exercício incontestado e contínuo de uma servidão aparente, por dez anos, nos termos do art. 1.242, autoriza o interessado a registrá-la em seu nome no Registro de Imóveis, valendo-lhe como título a sentença que julgar consumado a usucapião. Parágrafo único. Se o possuidor não tiver título, o prazo da usucapião será de vinte anos”. A alternativa B está incorreta, porque, embora o uso tenha sido contínuo e por prazo superior a dez anos, a servidão em questão é classificada como não aparente. A usucapião de servidão só é admitida para as servidões aparentes, ou seja, aquelas que se manifestam por obras ou sinais exteriores visíveis, conforme interpretação do artigo 1.379 do Código Civil e consolidado pela jurisprudência. Uma decisão do Tribunal de Justiça de São Paulo ilustra essa vedação: “É impossível a declaração do usucapião de servidão não aparente por força do 1.379 do Código Civil (antigo artigo 698 do CC/1916)”. TJ-SP — Apelação Cível 9179484-41.2008.8.26.0000 — Publicado em 27/06/2012. A alternativa C está incorreta, porque o direito de Ruth não é mera detenção por tolerância, mas sim uma posse que, no entanto, não gera o direito à usucapião por se tratar de servidão não aparente. O prazo de 20 anos, previsto no parágrafo único do artigo 1.379 do Código Civil, aplica-se apenas à usucapião de servidões aparentes quando o possuidor não tem justo título, o que não é o caso. A alternativa D está correta, porque a servidão de aqueduto, quando realizada por meio de canos subterrâneos, é classificada como não aparente. A lei civil e a jurisprudência são claras ao vedar a aquisição de servidões não aparentes por meio da usucapião. Para sua constituição válida e oponibilidade contra terceiros (como o novo proprietário, Pedro), seria indispensável a existência de um título (contrato, testamento) devidamente registrado no Cartório de Registro de Imóveis. A ausência desse registro impede que o direito de Ruth prevaleça sobre o direito de propriedade de Pedro. O fundamento legal principal é o artigo 1.379 do CC/2002, vide transcrição na letra A."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_39",
+      "materia": "Direito Civil",
+      "assunto": "Doação de ascendente a descendente e dispensa de colação",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Gustavo, viúvo, é pai de Heitor e Gabriela. Gustavo tem uma relação harmoniosa com sua filha e extremamente conturbada com o filho. Por essa razão, Gustavo doou para sua filha uma casa que, ao tempo da liberalidade, correspondia a uma pequena fração de seu patrimônio. No contrato de doação, inexistiu qualquer cláusula especial. Dois anos após o referido contrato, Gustavo elaborou seu testamento, dispensando Gabriela de colacionar o bem. Com a morte de Gustavo e a abertura de seu testamento, Heitor está questionando a validade do contrato de doação e da dispensa de colação. Sobre a situação apresentada, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O contrato de doação é válido, e Gabriela está dispensada de colacionar o bem por força do testamento.",
+        "B": "O contrato de doação é válido, mas a dispensa de colação é nula. Essa dispensa só pode ocorrer no próprio contrato de doação.",
+        "C": "O contrato de doação é nulo, uma vez que a doação de ascendente para um descendente exige o consentimento dos demais descendentes.",
+        "D": "O contrato de doação é anulável, uma vez que a doação de ascendente para um descendente exige o consentimento dos demais descendentes."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do contrato de doação. A alternativa A está correta, porque o contrato de doação é plenamente válido e a dispensa de colação, realizada posteriormente por meio de testamento, também é eficaz. A doação de ascendente para descendente não exige o consentimento dos demais herdeiros para ser válida, sendo considerada um adiantamento da herança, nos termos do Código Civil: “Art. 544. A doação de ascendentes a descendentes, ou de um cônjuge a outro, importa adiantamento do que lhes cabe por herança”. O doador, no entanto, pode dispensar o herdeiro de trazer o bem à colação, determinando que a doação saia de sua parte disponível. A lei permite expressamente que essa dispensa seja feita tanto no ato da doação quanto em testamento posterior, conforme o Código Civil: “Art. 2.005. São dispensadas da colação as doações que o doador determinar saiam da parte disponível, contanto que não a excedam, computado o seu valor ao tempo da doação. Art. 2.006. A dispensa da colação pode ser outorgada pelo doador em testamento, ou no próprio título de liberalidade”. Como Gustavo fez a dispensa em testamento, um ato de última vontade válido, Gabriela não está obrigada a colacionar o imóvel. Veja que a legislação civil não exige o consentimento dos demais descendentes para a validade da doação de um pai para um filho. Essa exigência de consentimento existe para o contrato de venda de ascendente para descendente (art. 496 do CC), mas não se aplica à doação. A doação é válida desde que não ultrapasse a parte disponível do patrimônio do doador. Devido ao fundamento da letra A, as demais alternativas ficam automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_40",
+      "materia": "Direito Civil",
+      "assunto": "Condição suspensiva",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Dagoberto celebrou contrato por meio do qual se comprometeu a comprar a casa de Marina, se seu investimento em ações atingisse um rendimento acima de 10% no dia 20 daquele mês. No dia indicado por Dagoberto, restou comprovado que suas ações renderam 15%, mas ele se negou a comprar o imóvel. Em razão disso, Marina procurou você, como advogado(a), para saber como proceder frente ao caso narrado. Assinale a opção que indica a correta orientação jurídica que você prestou.",
+      "alternativas": {
+        "A": "Ela pode exigir a compra da casa, porque o encargo foi cumprido.",
+        "B": "Ela não pode exigir a compra da casa, por se tratar de termo incerto.",
+        "C": "Ela pode exigir a compra da casa, já que se implementou a condição suspensiva.",
+        "D": "Ela não pode exigir a compra da casa, pois a condição do negócio é puramente potestativa."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata do termo, da condição e do encargo. A alternativa A está incorreta, porque o elemento que condicionava o negócio jurídico não era um encargo, mas sim uma condição. Segundo o professor Paulo Sousa, o encargo é uma determinação que impõe um ônus ou uma obrigação ao beneficiário de uma liberalidade, como uma doação. No caso, o evento futuro e incerto não era um ônus, mas um fator que suspendia a eficácia do contrato de compra e venda. A alternativa B está incorreta, porque o negócio não estava sujeito a um termo, mas sim a uma condição. Segundo o professor Paulo Sousa, o termo se refere a um evento futuro e certo. A condição, por sua vez, refere-se a um evento futuro e incerto, como era o caso do rendimento das ações. A incerteza sobre a ocorrência do evento caracteriza a condição, e não o termo. A alternativa C está correta, porque o contrato celebrado entre Dagoberto e Marina estava sujeito a uma condição suspensiva: a eficácia do negócio estava suspensa até a ocorrência de um evento futuro e incerto. Uma vez que o evento ocorreu, a condição foi implementada. Com isso, o negócio jurídico passou a ter plena eficácia, e a obrigação de Dagoberto comprar o imóvel tornou-se exigível por Marina, nos termos dos artigos 121 e 125 do Código Civil: “Art. 121. Considera-se condição a cláusula que, derivando exclusivamente da vontade das partes, subordina o efeito do negócio jurídico a evento futuro e incerto. Art. 125. Subordinando-se a eficácia do negócio jurídico à condição suspensiva, enquanto esta se não verificar, não se terá adquirido o direito, a que ele visa”. A alternativa D está incorreta, porque a condição não era puramente potestativa. Uma condição puramente potestativa é aquela que sujeita o negócio ao puro arbítrio de uma das partes, o que a tornaria inválida, conforme o art. 122 do Código Civil: “Art. 122. São lícitas, em geral, todas as condições não contrárias à lei, à ordem pública ou aos bons costumes; entre as condições defesas se incluem as que privarem de todo efeito o negócio jurídico, ou o sujeitarem ao puro arbítrio de uma das partes”."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_41",
+      "materia": "Direito Civil",
+      "assunto": "Obrigações solidárias - Morte do devedor solidário",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Mateus e Pedro adquiriram um veículo de Joana, figurando ambos como devedores solidários. Foi pactuado que o pagamento seria feito no prazo de 30 dias, contado da data da celebração do contrato. Ocorre que, dez dias após o acordo, Mateus faleceu, deixando dois herdeiros. Sobre as obrigações de cada um dos herdeiros de Mateus, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Estão obrigados a pagar a dívida como um todo, se a obrigação for divisível, com direito de ação regressiva contra Pedro.",
+        "B": "Estão desobrigados de qualquer pagamento, pois a responsabilidade pelo pagamento não é transmitida aos herdeiros.",
+        "C": "São obrigados, individualmente, a pagar a dívida que corresponder ao devedor solidário falecido, pois a obrigação é divisível.",
+        "D": "São obrigados a pagar apenas a parte que corresponder à sua cota hereditária, pois a obrigação é divisível."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata das obrigações solidárias. A alternativa D está correta, porque a morte de um devedor solidário extingue a solidariedade para os seus herdeiros. A obrigação, sendo divisível (como uma dívida em dinheiro), é dividida entre os herdeiros, e cada um responderá apenas pela parte da dívida que for proporcional à sua cota na herança. O fundamento legal para essa regra é o artigo 276 do Código Civil: “Art. 276. Se um dos devedores solidários falecer deixando herdeiros, nenhum destes será obrigado a pagar senão a quota que corresponder ao seu quinhão hereditário, salvo se a obrigação for indivisível; mas todos reunidos serão considerados como um devedor solidário em relação aos demais devedores”. Devido ao fundamento da letra D, as demais alternativas ficam automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_42",
+      "materia": "Direito Civil",
+      "assunto": "Responsabilidade Civil - Dano Estético e Dano Moral",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "No último domingo, após uma partida de futebol, Ariano ofereceu carona em seu carro a João, seu fraterno amigo. Ao transitar por certa avenida em velocidade muito acima da permitida, o veículo conduzido por Ariano colidiu com um poste. João, com a colisão, sofreu graves lesões por todo corpo, tendo inclusive que amputar uma perna. A esposa de João, que está grávida, ficou extremamente abalada, encontrando-se internada em Unidade de Terapia Intensiva em um hospital público. A respeito do tema da responsabilidade civil de indenizar, com base nas súmulas do Superior Tribunal de Justiça, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "É possível a cumulação das indenizações de dano estético e dano moral eventualmente sofridos por João, em razão das graves lesões sofridas no acidente.",
+        "B": "A legitimidade para pleitear a indenização por dano moral é exclusiva de João, sendo inadmissível que sua esposa venha a pleitear perdas e danos pelo acidente.",
+        "C": "Mesmo que o transporte realizado por Ariano tenha sido desinteressado e de simples cortesia, ele responde objetivamente pelos danos sofridos por João.",
+        "D": "Como se trata de responsabilidade civil extracontratual, os eventuais danos sofridos por João geram juros moratórios e correção monetária a partir do trânsito em julgado da sentença."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata da responsabilidade civil. A alternativa A está correta, porque o dano estético, decorrente da deformidade física permanente, e o dano moral, relacionado ao sofrimento psíquico, possuem fundamentos distintos, o que autoriza que suas indenizações sejam recebidas conjuntamente, nos termos da Súmula 387 do STJ: \"É lícita a cumulação das indenizações de dano estético e dano moral.\" A alternativa B está incorreta, porque a jurisprudência admite que familiares próximos, como a esposa, têm legitimidade para pleitear indenização pelo sofrimento próprio decorrente do acidente (dano moral reflexo ou em ricochete), nos termos do entendimento consolidado do Superior Tribunal de Justiça: \"O dano moral indireto ou reflexo é aquele que, tendo se originado de um ato lesivo ao direito personalíssimo de determinada pessoa, não se esgota na ofensa à própria vítima direta, atingindo, de forma mediata, direito personalíssimo de terceiro, em razão de seu vínculo afetivo estreito com aquele diretamente atingido\". STJ — AgInt no AREsp 2542393 MG — Publicado em 26/06/2024. A alternativa C está incorreta, porque a responsabilidade civil no transporte de simples cortesia é subjetiva, e não objetiva, exigindo a comprovação de que o condutor agiu com dolo ou culpa grave para que seja obrigado a indenizar, nos termos da Súmula 145 do STJ: \"No transporte desinteressado, de simples cortesia, o transportador só será civilmente responsável por danos causados ao transportado quando incorrer em dolo ou culpa grave.\" A alternativa D está incorreta, porque em casos de responsabilidade civil extracontratual, os juros de mora não contam a partir do trânsito em julgado, mas sim do evento danoso, e a correção monetária sobre o dano moral incide a partir da data de sua fixação, nos termos das Súmulas 54 e 362 do STJ, respectivamente: \"Os juros moratórios fluem a partir do evento danoso, em caso de responsabilidade extracontratual\" e \"A correção monetária do valor da indenização do dano moral incide desde a data do arbitramento.\""
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_47",
+      "materia": "Direito Civil",
+      "assunto": "Ação renovatória de locação não residencial",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "A sociedade empresária Elétrica Passa Sete Ltda., por meio de seu administrador, ajuizou tempestivamente ação renovatória de locação não residencial referente ao imóvel onde está localizada a filial na cidade de Varginha, MG. Na petição inicial, a autora indicou as condições oferecidas para a renovação da locação, especialmente o novo valor do aluguel proposto. Apresentada a contestação, o locador informou que recebeu proposta de terceiro para a nova locação em condições melhores do que aquelas propostas pela locatária na petição inicial, sendo o valor locativo do imóvel 12% maior do que o oferecido pela locatária. Considerados os fatos narrados, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O locador não pode apresentar na contestação proposta de terceiro para a locação, ainda que em condições melhores, diante do direito potestativo do locatário à renovação compulsória.",
+        "B": "A proposta de terceiro pode ser apresentada em documento público ou particular. Caso o documento seja particular e esteja com assinatura autenticada, é dispensável a intervenção de testemunhas.",
+        "C": "O locatário poderá, em réplica, manifestar ao locador que aceita as condições apresentadas por terceiro para obter a renovação pretendida.",
+        "D": "O ramo de negócio a ser explorado pelo terceiro proponente pode ou não ser o mesmo do locatário, desde que seja explorado continuadamente nos últimos três anos."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre a lei de locações. A alternativa A está incorreta. O direito à renovação não é um direito potestativo absoluto, conforme assim assegura art. 72, II da Lei 8245/91: “II - não atender, a proposta do locatário, o valor locativo real do imóvel na época da renovação, excluída a valorização trazida por aquele ao ponto ou lugar;” A alternativa B está incorreta. O Art. 72, § 2º, exige que a proposta seja subscrita pelo terceiro e por duas testemunhas. A autenticação de assinatura não substitui a exigência das duas testemunhas. A alternativa C está correta. O sistema privilegia a continuidade do negócio do locatário atual. Se o locador diz: \"Tenho alguém que paga 12% a mais\", a lei dá ao locatário a chance de dizer: \"Pois bem, eu cubro a oferta e aceito pagar esses 12% a mais\". Se o locatário aceitar as condições do terceiro, ele garante a renovação do contrato. Vejamos o disposto no Art 72, III, § 2º da Lei 8245/91: “Art. 72. A contestação do locador, além da defesa de direito que possa caber, ficará adstrita, quanto à matéria de fato, ao seguinte: III - ter proposta de terceiro para a locação, em condições melhores; § 2º No caso do inciso III, o locador deverá juntar prova documental da proposta do terceiro, subscrita por este e por duas testemunhas, com clara indicação do ramo a ser explorado, que não poderá ser o mesmo do locatário. Nessa hipótese, o locatário poderá, em réplica, aceitar tais condições para obter a renovação pretendida.” A alternativa D está incorreta. O terceiro proponente não pode explorar o mesmo ramo de negócio do locatário atual (art. 72, §2º)."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_55",
+      "materia": "Direito Civil",
+      "assunto": "Inventário e Partilha",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Marta faleceu, deixando três filhos, cônjuge e bens a inventariar. Nenhum dos herdeiros é incapaz, há consenso sobre a partilha, e eles desejam realizar o inventário da forma mais rápida possível. Considerando os procedimentos judiciais e extrajudiciais que regem o inventário e a partilha, assinale a afirmativa que apresenta a providência a ser adotada pelos herdeiros.",
+      "alternativas": {
+        "A": "Realizar o inventário extrajudicial por meio de escritura pública, sendo necessária a assistência de um(a) advogado(a).",
+        "B": "Realizar o inventário escritura extrajudicial por meio de pública, exigindo-se assistência de um(a) advogado(a) e a intervenção do Ministério Público a fim de controlar a legalidade da partilha.",
+        "C": "Ajuizar ação pelo procedimento comum de inventário e partilha, os quais necessariamente devem ocorrer pela via judicial, independentemente da existência de consenso entre os herdeiros.",
+        "D": "Comparecer perante o Tabelionato e realizar o inventário e a partilha mediante escritura pública, dispensada a assistência de um(a) advogado(a) por haver acordo sobre a partilha."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre inventário judicial. A alternativa A está correta. Conforme o caso narrado, há a presença de interessado incapaz. Nesse caso, o inventário será judicial, contando com a presença do advogado de forma obrigatória. Vejamos o art. 610, CPC: “Art. 610. Havendo testamento ou interessado incapaz, proceder-se-á ao inventário judicial. § 2 o O tabelião somente lavrará a escritura pública se todas as partes interessadas estiverem assistidas por advogado ou por defensor público, cuja qualificação e assinatura constarão do ato notarial.” A alternativa B está incorreta. No caso, será inventário judicial (art. 610, CPC). A presença do MP se refere à legitimidade concorrente para requerer o inventário (art. 616, VII, CPC), não para controlar a legalidade da partilha. A alternativa C está incorreta. A via extrajudicial é uma faculdade das partes para aliviar o Judiciário e acelerar o processo. O inventário judicial é a exceção (obrigatório apenas se houver briga, incapaz ou testamento). A alternativa D está incorreta. Mesmo que todos sejam \"melhores amigos\" e estejam em pleno acordo, o advogado é indispensável (art. 610, CPC). Veja o comentário da alternativa A."
+    }
+  ]
+}

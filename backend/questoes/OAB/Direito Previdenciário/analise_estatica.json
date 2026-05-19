@@ -1,0 +1,696 @@
+{
+  "Seguridade Social: Saúde, Assistência Social E Previdência Social": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Conceito constitucional de seguridade social e seus pilares (saúde, assistência social e previdência social)",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir seguridade social com previdência social, como se toda proteção social dependesse de contribuição."
+      },
+      {
+        "nome_microtema": "Saúde pública no SUS: universalidade, integralidade, descentralização e acesso gratuito",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Achar que a saúde é benefício contributivo ou que pode ser restringida apenas a segurados da Previdência."
+      },
+      {
+        "nome_microtema": "Assistência social: caráter não contributivo, hipossuficiência e benefícios assistenciais",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Misturar assistência social com previdência e exigir qualidade de segurado ou carência para concessão."
+      },
+      {
+        "nome_microtema": "Previdência social: regime contributivo, filiação, inscrição, carência e qualidade de segurado",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Trocar carência por tempo de contribuição ou presumir cobertura automática sem filiação ao RGPS."
+      },
+      {
+        "nome_microtema": "Benefícios previdenciários por incapacidade, idade e morte: requisitos e distinções práticas",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir auxílio por incapacidade temporária, aposentadoria por incapacidade permanente e auxílio-acidente."
+      },
+      {
+        "nome_microtema": "Custeio da seguridade social e fontes de financiamento",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Supor que apenas empregado e empregador financiam a seguridade, ignorando a diversidade de fontes constitucionais."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo vulnerabilidade social, doença, desemprego, idade avançada ou ausência de contribuição, exigindo identificar se a tutela correta é saúde, assistência social ou previdência. A pegadinha central é trocar o regime jurídico aplicável e confundir benefício assistencial com previdenciário, além de explorar requisitos como carência, qualidade de segurado e natureza contributiva ou não contributiva da prestação.",
+      "palavras_gatilho": [
+        "carência",
+        "qualidade de segurado",
+        "não contributivo",
+        "hipossuficiência",
+        "SUS",
+        "LOAS",
+        "BPC",
+        "incapacidade",
+        "filiação",
+        "RGPS",
+        "segurado facultativo",
+        "benefício assistencial"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Princípios E Organização Da Seguridade Social": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Conceito, finalidade e estrutura da Seguridade Social",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir seguridade social com previdência social, assistência social ou saúde como se fossem sinônimos."
+      },
+      {
+        "nome_microtema": "Princípios constitucionais da Seguridade Social",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Trocar a lógica da universalidade da cobertura e do atendimento com a seletividade e distributividade na prestação dos benefícios e serviços."
+      },
+      {
+        "nome_microtema": "Financiamento da Seguridade Social e diversidade da base de custeio",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Achar que o custeio é exclusivo do trabalhador ou do empregador, ignorando a diversidade de fontes e a participação de toda a sociedade."
+      },
+      {
+        "nome_microtema": "Orçamento da Seguridade Social e vinculação das receitas",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Confundir orçamento da seguridade com orçamento fiscal e não perceber a destinação constitucional específica das receitas."
+      },
+      {
+        "nome_microtema": "Organização administrativa da Seguridade Social e competências institucionais",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Misturar as competências do Poder Público, do INSS, do SUS e da assistência social como se houvesse uma única estrutura administrativa."
+      },
+      {
+        "nome_microtema": "Saúde, assistência social e previdência: distinções e características",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Supor que todos os ramos exigem contribuição prévia ou que todos dependem de carência para acesso."
+      },
+      {
+        "nome_microtema": "Participação da sociedade, descentralização e gestão quadripartite",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Esquecer a composição quadripartite e confundir participação social com gestão exclusiva estatal."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo acesso a benefício, serviço ou política pública, exigindo a identificação do ramo correto da seguridade, do princípio aplicável e da fonte de custeio ou competência administrativa. As alternativas geralmente misturam conceitos constitucionais próximos, como universalidade, seletividade, solidariedade, contributividade e distributividade, para testar a distinção fina entre saúde, assistência e previdência.",
+      "palavras_gatilho": [
+        "universalidade",
+        "seletividade",
+        "distributividade",
+        "solidariedade",
+        "diversidade da base de financiamento",
+        "orçamento da seguridade social",
+        "gestão quadripartite",
+        "contributividade",
+        "carência",
+        "assistência social",
+        "saúde",
+        "previdência"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Regime Geral De Previdência Social (Rgps) E Financiamento": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Segurados obrigatórios do RGPS e enquadramento previdenciário",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir empregado, contribuinte individual, trabalhador avulso, doméstico e segurado especial na hipótese concreta."
+      },
+      {
+        "nome_microtema": "Segurados facultativos e hipóteses de filiação ao RGPS",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Tratar como facultativo quem, na verdade, é segurado obrigatório ou admitir filiação facultativa em situação vedada por lei."
+      },
+      {
+        "nome_microtema": "Empresa, empregador doméstico e obrigação de arrecadação/recolhimento",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Misturar responsabilidade pelo desconto, retenção e recolhimento entre segurado, empresa e tomador de serviço."
+      },
+      {
+        "nome_microtema": "Contribuições previdenciárias incidentes sobre a folha, receita e faturamento",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Confundir base de cálculo, fato gerador e sujeito passivo das contribuições sociais do RGPS."
+      },
+      {
+        "nome_microtema": "Contribuição do segurado: alíquotas, teto, salário de contribuição e múltiplas fontes",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Aplicar alíquota errada ou ignorar o teto do salário de contribuição em vínculos simultâneos."
+      },
+      {
+        "nome_microtema": "Arrecadação, lançamento, fiscalização e cobrança das contribuições previdenciárias",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir competência administrativa da Receita Federal com efeitos jurídicos do lançamento e da constituição do crédito."
+      },
+      {
+        "nome_microtema": "Responsabilidade solidária, retenção na fonte e sub-rogação previdenciária",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Trocar retenção obrigatória por responsabilidade exclusiva do prestador ou presumir solidariedade sem previsão legal."
+      },
+      {
+        "nome_microtema": "Isenções, imunidades, desonerações e contribuições substitutivas no financiamento da seguridade",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Confundir imunidade tributária com isenção legal e com regimes substitutivos de contribuição previdenciária."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com vínculo laboral ou prestação de serviços, exigindo a identificação do segurado correto, da base de incidência e do responsável pelo recolhimento. A pegadinha aparece na troca entre categorias de segurados, na definição do sujeito passivo e na distinção entre contribuição sobre folha, receita e faturamento. Também é comum explorar retenção, sub-rogação, solidariedade e desoneração com redação muito próxima da lei.",
+      "palavras_gatilho": [
+        "empresa",
+        "empregado doméstico",
+        "contribuinte individual",
+        "segurado especial",
+        "salário de contribuição",
+        "folha de salários",
+        "receita bruta",
+        "faturamento",
+        "retenção",
+        "sub-rogação",
+        "responsabilidade solidária",
+        "teto previdenciário",
+        "filiação facultativa",
+        "arrecadação",
+        "lançamento"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Segurados E Dependentes Do Rgps": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Segurado obrigatório contribuinte individual: empresário/sócio administrador com pró-labore",
+        "ids_questoes": [
+          "oab_38_69"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "A FGV tenta confundir a condição de empresário com a de segurado facultativo ou com a ideia de que atividade voluntária/beneficente gera filiação previdenciária. O ponto correto é que o sócio administrador que recebe pró-labore se enquadra como contribuinte individual e é segurado obrigatório."
+      },
+      {
+        "nome_microtema": "Filiação ao RGPS do servidor público efetivo após ingresso em cargo efetivo",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_70"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "A banca explora a falsa ideia de que o servidor público efetivo permanece no RGPS ou que a mudança de regime impede aproveitamento de tempo. A pegadinha costuma envolver filiação automática ao regime próprio e a possibilidade de contagem recíproca/averbação do tempo anterior."
+      },
+      {
+        "nome_microtema": "Contribuinte individual autônomo prestando serviços a pessoas físicas",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_70"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "A FGV costuma misturar trabalhador autônomo com empregado, avulso ou facultativo. O núcleo é reconhecer que o profissional liberal/autônomo sem vínculo empregatício é segurado obrigatório do RGPS como contribuinte individual, ainda que preste serviços a pessoas físicas."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo enquadramento do sujeito no RGPS e identificação da categoria previdenciária correta a partir de detalhes como pró-labore, cargo público efetivo e ausência de vínculo empregatício.",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "diante da situação hipotética",
+        "sobre o enquadramento",
+        "na condição de",
+        "segurado obrigatório"
+      ]
+    },
+    "total_questoes_analisadas": 3,
+    "banco_questoes": [
+      {
+        "id": "oab_38_69",
+        "materia": "Direito Previdenciário",
+        "assunto": "Contribuinte Individual (Sócio-Administrador)",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Manoel, empresário do segmento de alimentação, desempenha suas atividades como sócio administrador de sua sociedade empresária, a qual desenvolve suas atividades em mais de uma cidade, recebendo seu pro-labore regularmente. Além da condição de empresário, Manoel também é engajado em diversas ações voluntárias em prol de pessoas carentes. Diante dessa realidade, sobre os direitos previdenciários de Manoel assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Devido à atividade beneficente de Manoel, ele poderá verter contribuições ao Regime Geral de Previdência Social na condição de facultativo, além de seus aportes como empresário.",
+          "B": "Na condição de empresário administrador de sua sociedade empresária, Manoel é segurado obrigatório do Regime Geral de Previdência Social, como contribuinte individual.",
+          "C": "Manoel, na condição de administrador de sua sociedade, não poderá aposentar-se por invalidez, tendo em vista a prestação ser restrita a segurados empregados, somente.",
+          "D": "Manoel, caso encerre suas atividades profissionais, não poderá manter recolhimentos ao Regime Geral de Previdência Social, haja vista a perda da qualidade de segurado."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa B está correta. O sócio-administrador que recebe pro-labore é segurado obrigatório do RGPS na qualidade de contribuinte individual (art. 9º, V, 'e', do Decreto 3.048/99)."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_70",
+        "materia": "Direito Previdenciário",
+        "assunto": "Regime Próprio de Previdência Social (RPPS) e contagem recíproca",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Humberto Alves, que sempre atuou como advogado autônomo, logrou aprovação em concurso público para a Advocacia Geral da União, sendo regularmente nomeado em cargo público de provimento efetivo e iniciando suas atividades na função pública em janeiro de 2023. Diante da situação hipotética narrada, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Humberto permanece vinculado ao Regime Geral de Previdência Social na condição de segurado empregado, salvo se optar pelo ingresso em regime diverso.",
+          "B": "Caso Humberto já ingresse no cargo público com tempo de contribuição e idade suficientes para a aposentadoria, poderá requerer a prestação imediatamente no regime previdenciário a que estiver vinculado.",
+          "C": "Humberto, na hipótese de mudança de regime previdenciário, não poderá computar os recolhimentos previdenciários pretéritos na condição de contribuinte individual.",
+          "D": "Humberto, já na condição de servidor público federal, é automaticamente filiado ao regime próprio de previdência dos servidores federais."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata de regras gerais envolvendo o RPPS e a migração entre diferentes regimes previdenciários. A alternativa A está incorreta. Na verdade, ao ter sido empossado em cargo público efetivo da Advocacia-Geral da União, Humberto passou a ser automaticamente vinculado ao RPPS da União (art. 40, CF), não havendo qualquer direito de opção por parte dele em permanecer vinculado ao regime previdenciário de origem. A alternativa B está incorreta. Inicialmente, é necessário destacar que Humberto poderá, sim, aproveitar o tempo de contribuição já cumprido perante o RGPS para a obtenção de uma aposentadoria no RPPS, mas essa prestação não poderá ser requerida de imediato, tendo em vista que, no âmbito do RPPS da União, exige-se o cumprimento de um tempo mínimo de efetivo exercício no serviço público e, também, um tempo mínimo de efetivo exercício no cargo em que for concedida a aposentadoria (art. 10, §1º, I, “b”, EC 103/19). Portanto, não haverá a possibilidade de concessão imediata de aposentadoria por idade e tempo de contribuição em favor de Humberto no RPPS. A alternativa C está incorreta. Como já exposto nos comentários da alternativa B, é possível que os períodos já laborados por Humberto no RGPS sejam utilizados para a concessão de eventuais benefícios previdenciários no RPPS da União, e isso ocorre por meio da contagem recíproca de tempo de contribuição, que está prevista no §9º do art. 201 da CF: “Para fins de aposentadoria, será assegurada a contagem recíproca do tempo de contribuição entre o Regime Geral de Previdência Social e os regimes próprios de previdência social, e destes entre si, observada a compensação financeira, de acordo com os critérios estabelecidos em lei”. Em suma, esse instituto permite que os segurados, ao migrarem do RGPS para algum RPPS, ou vice-versa, tenham contado em seu favor, no regime em que estão ingressando, o tempo de contribuição já cumprido perante o regime do qual saíram, sendo certo que deverá ocorrer a compensação financeira entre os regimes de previdência social envolvidos (por exemplo, se Humberto utilizar seu tempo de contribuição do RGPS para obter uma aposentadoria no RPPS da União, este regime terá direito a receber uma indenização daquele). A alternativa D está correta. Os RPPS são regimes previdenciários destinados exclusivamente aos servidores ocupantes de cargo efetivo, dentre os quais se incluem os membros da Advocacia-Geral da União. Isso pode ser visto, por exemplo, no caput do art. 40 da CF, que dispõe: “O regime próprio de previdência social dos servidores titulares de cargos efetivos terá caráter contributivo e solidário, mediante contribuição do respectivo ente federativo, de servidores ativos, de aposentados e de pensionistas, observados critérios que preservem o equilíbrio financeiro e atuarial”. Portanto, o mero fato de Humberto ter tomado posse no seu cargo público federal já é suficiente para estabelecer um vínculo previdenciário entre ele e o RPPS da União."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_70",
+        "materia": "Direito Previdenciário",
+        "assunto": "Segurado obrigatório do RGPS - Contribuinte individual",
+        "banca": "FGV",
+        "ano": "44º Exame de Ordem",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Humberto Alves, profissional liberal, desempenha a atividade de eletricista autônomo, prestando serviço a diversos clientes, todos pessoas físicas, mediante remuneração e sem relação de emprego. Sobre o enquadramento de Humberto Alves como trabalhador autônomo no RGPS, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Ele é segurado obrigatório do Regime Geral de Previdência Social.",
+          "B": "Ele não poderá obter aposentadoria por idade ou por incapacidade permanente.",
+          "C": "Ele, por não possuir relação de emprego, é dispensado de quaisquer recolhimentos previdenciários.",
+          "D": "Ele se qualifica como segurado trabalhador avulso do Regime Geral de Previdência Social."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata sobre segurado no Regime Geral de Previdência Social (RGPS). A alternativa A está correta. Nos termos do art. 11, V, \"h\" da Lei 8.213/91, classifica como segurado obrigatório do RGPS \"quem presta serviço de natureza urbana ou rural, em caráter eventual, a uma ou mais empresas, sem relação de emprego\". Embora o exemplo cite pessoas físicas, a categoria de contribuinte individual abrange todos os profissionais autônomos que exercem atividade remunerada, sem vínculo trabalhista. Humberto, ao prestar serviço de forma autônoma (sem vínculo de emprego), se enquadra na categoria de contribuinte individual. Portanto, ele é um segurado obrigatório e deve contribuir para a Previdência Social. A alternativa B está incorreta. O direito a esses benefícios depende apenas do cumprimento dos requisitos legais, como carência e tempo de contribuição. A alternativa C está incorreta. O fato de não ter um empregador não o isenta da contribuição. Como contribuinte individual, a responsabilidade de recolher as contribuições previdenciárias é sua. O recolhimento é obrigatório para que ele mantenha a qualidade de segurado e tenha acesso aos benefícios do RGPS. A alternativa D está incorreta. A categoria de trabalhador avulso é específica para quem presta serviços a diversas empresas, com intermediação obrigatória de um órgão gestor de mão de obra (OGMO) ou de um sindicato. Os exemplos mais comuns são os portuários e os estivadores. Humberto, como eletricista autônomo, não se encaixa nessa definição, pois não tem a intermediação de um órgão de classe para sua contratação."
+      }
+    ]
+  },
+  "Salário De Contribuição E Custeio": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Conceito, composição e limites do salário de contribuição",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir remuneração total com salário de contribuição, ignorando parcelas excluídas por lei e os tetos aplicáveis."
+      },
+      {
+        "nome_microtema": "Parcelas integrantes e parcelas excluídas do salário de contribuição",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Tratar verbas indenizatórias como se fossem remuneratórias, ou vice-versa, especialmente em casos de ajuda de custo, diárias, vale-transporte e aviso-prévio."
+      },
+      {
+        "nome_microtema": "Salário de contribuição do segurado empregado, doméstico, avulso, contribuinte individual e facultativo",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Aplicar a mesma base de cálculo a todas as categorias de segurados, sem observar as particularidades de cada filiação."
+      },
+      {
+        "nome_microtema": "Arrecadação, responsabilidade pelo recolhimento e prazo de pagamento das contribuições",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Atribuir ao segurado a responsabilidade pelo recolhimento quando a lei impõe ao empregador ou tomador de serviços, ou errar o vencimento da obrigação."
+      },
+      {
+        "nome_microtema": "Custeio da seguridade social: fontes de financiamento e contribuições sociais",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Misturar contribuições previdenciárias com outras fontes da seguridade social, sem distinguir base constitucional e legal."
+      },
+      {
+        "nome_microtema": "Contribuições da empresa, do empregador doméstico e do tomador de serviços",
+        "ids_questoes": [],
+        "peso_percentual": 13,
+        "armadilha_favorita": "Confundir alíquota patronal, contribuição sobre folha, RAT/GILRAT e contribuições substitutivas em hipóteses especiais."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um vínculo concreto de trabalho ou prestação de serviço, com verbas pagas ao segurado e pedido para identificar o que integra a base de cálculo, quem recolhe a contribuição e qual a incidência correta. A pegadinha está em verbas de natureza híbrida, categorias distintas de segurados e distinção entre remuneração, indenização e custeio patronal.",
+      "palavras_gatilho": [
+        "verba remuneratória",
+        "verba indenizatória",
+        "integra o salário de contribuição",
+        "não integra a base de cálculo",
+        "responsável pelo recolhimento",
+        "contribuição patronal",
+        "RAT/GILRAT",
+        "segurado empregado",
+        "contribuinte individual",
+        "empregador doméstico",
+        "tomador de serviços",
+        "custeio da seguridade social"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Benefícios Previdenciários (Aposentadorias, Auxílios, Pensão Por Morte)": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Salário-maternidade da empregada doméstica e carência",
+        "ids_questoes": [
+          "oab_38_70"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "A FGV costuma misturar a qualidade de segurada da empregada doméstica com exigência indevida de carência. A pegadinha é fazer parecer que, por ter poucas contribuições, ela perderia o direito, quando o ponto central é a dispensa de carência para a categoria."
+      },
+      {
+        "nome_microtema": "Pensão por morte: termo inicial do benefício e prazo de requerimento",
+        "ids_questoes": [
+          "oab_39_69"
+        ],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir a data de início do benefício com a data do requerimento. A FGV explora o prazo de 90 dias para dependentes e tenta induzir a resposta 'do requerimento' ou 'da decisão judicial', quando o correto pode ser o óbito, conforme o caso."
+      },
+      {
+        "nome_microtema": "Salário-família: dependentes, idade, invalidez e trabalhador avulso",
+        "ids_questoes": [
+          "oab_39_70"
+        ],
+        "peso_percentual": 14,
+        "armadilha_favorita": "A banca mistura idade do filho, condição de estudante, invalidez e categoria do segurado. A confusão clássica é achar que filho maior de 14 anos sempre exclui o benefício, ignorando a hipótese de invalidez e a regra de rateio entre segurados com direito."
+      },
+      {
+        "nome_microtema": "Auxílio-reclusão: dependentes, carência e qualidade de segurado preso",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_69",
+          "oab_Prova-comenta-OAB-43_70"
+        ],
+        "peso_percentual": 24,
+        "armadilha_favorita": "A FGV adora inverter sujeito ativo e passivo do benefício: o auxílio-reclusão não é pago ao preso, mas aos dependentes. Também costuma testar carência, regime fechado, manutenção da qualidade de segurado e a irrelevância de o recluso exercer atividade remunerada para afastar automaticamente o benefício."
+      },
+      {
+        "nome_microtema": "Pensão por morte: classe de dependentes e dependência econômica",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_69"
+        ],
+        "peso_percentual": 14,
+        "armadilha_favorita": "A pegadinha é confundir dependente de primeira classe com dependente de segunda classe e exigir prova de dependência econômica de quem a lei presume. A FGV também gosta de testar a idade do filho estudante e a posição da mãe do segurado na ordem de vocação previdenciária."
+      },
+      {
+        "nome_microtema": "Acréscimo de 25% na aposentadoria por incapacidade permanente",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_70"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "A banca costuma trocar o benefício-base e sugerir extensão automática a outras prestações. A confusão clássica é achar que o adicional de 25% incorpora à pensão ou que vale para auxílio por incapacidade temporária, quando ele é vinculado à aposentadoria por incapacidade permanente e pode ser revisto com o reajuste do benefício."
+      },
+      {
+        "nome_microtema": "Perda da qualidade de segurado, período de graça e acidente após desligamento",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_70"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "A FGV explora o período de graça e a manutenção da proteção previdenciária após a cessação do vínculo. A pegadinha é afirmar que o desligamento por justa causa elimina qualquer direito, quando o foco é verificar se ainda havia qualidade de segurado ou se o acidente ocorreu dentro do período de graça."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto; a FGV testa a aplicação literal da Lei 8.213/91 em situações do cotidiano, com atenção a datas, qualidade de segurado, classe de dependentes, carência, termo inicial e acumulações vedadas ou permitidas.",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "diante do caso narrado",
+        "sobre a hipótese apresentada",
+        "segundo a Lei nº 8.213/91",
+        "em relação a esse acréscimo"
+      ]
+    },
+    "total_questoes_analisadas": 8,
+    "banco_questoes": [
+      {
+        "id": "oab_38_70",
+        "materia": "Direito Previdenciário",
+        "assunto": "Salário-Maternidade para Empregada Doméstica - Carência",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Maria, empregada doméstica, deu à luz um menino. No mês em que seu filho nasceu, foram contabilizadas sete contribuições mensais feitas por ela para o Regime Geral de Previdência Social. Em relação ao salário-maternidade solicitado por Maria, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Ela tem direito, pois a concessão desse benefício para as empregadas domésticas independe de carência.",
+          "B": "Ela terá direito, desde que contribua por mais três meses para o Regime Geral de Previdência Social.",
+          "C": "Ela não tem direito, já que não cumpriu o período de carência para a concessão do benefício.",
+          "D": "Ela não tem direito, pois as empregadas domésticas não podem gozar desse benefício."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa A está correta. O art. 30, II, do Decreto 3.048/99 dispensa a carência para a concessão de salário-maternidade à segurada empregada doméstica."
+      },
+      {
+        "id": "oab_39_69",
+        "materia": "Direito Previdenciário",
+        "assunto": "Pensão por Morte - Data de Início (DIB)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 74, I da Lei 8.213/91.",
+        "enunciado": "Henrique e Amanda foram casados por 30 anos. Em 02/03/2022, Amanda, que era segurada obrigatória do Regime Geral de Previdência Social, veio a óbito. Henrique fez o requerimento de pensão por morte ao INSS no dia 02/05/2022. Segundo a Lei nº 8.213/91, assinale a afirmativa que indica a data a partir da qual Henrique terá direito ao benefício.",
+        "alternativas": {
+          "A": "Do requerimento, já que foi requerido 60 dias após o óbito.",
+          "B": "Do óbito, já que foi requerido em até 90 dias após o óbito.",
+          "C": "Da decisão judicial, já que Henrique perdeu o prazo para requerer o benefício administrativamente.",
+          "D": "Do óbito, independentemente da data em que foi feito o requerimento."
+        },
+        "gabarito": "B",
+        "comentario": "O art. 74, I da Lei 8.213/91 estabelece que a pensão por morte será devida a contar da data do óbito quando requerida em até 90 dias após o óbito para os dependentes em geral. Henrique requereu em 02/05/2022, o óbito foi em 02/03/2022, exatos 60 dias depois, dentro do prazo de 90 dias. A DIB é a data do óbito."
+      },
+      {
+        "id": "oab_39_70",
+        "materia": "Direito Previdenciário",
+        "assunto": "Salário-Família (Arts. 65 e 66 da Lei 8.213/91)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Arts. 65 e 66 da Lei 8.213/91.",
+        "enunciado": "Marina, empregada doméstica, é casada com Pedro, trabalhador avulso. Ambos são pessoas de baixa renda. O casal possui 2 (dois) filhos, um com 7 (sete) anos e outro com 15 anos, sendo este inválido. Marina contribui para a Previdência Social há 2 (dois) anos e Pedro iniciou a contribuição há 4 (quatro) meses. Diante do caso narrado, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Pedro não possui carência mínima para receber o benefício do salário-família.",
+          "B": "Marina e Pedro não fazem jus ao salário-família por possuírem um filho maior de 14 (quatorze) anos.",
+          "C": "Marina e Pedro têm direito ao benefício do salário-família, na proporção do respectivo número de filhos.",
+          "D": "Pedro, na qualidade de trabalhador avulso, não possui direito ao benefício do salário-família."
+        },
+        "gabarito": "C",
+        "comentario": "O salário-família não tem carência (art. 26, I, Lei 8.213/91). O benefício é devido para filhos menores de 14 anos (ou inválidos em qualquer idade). O filho de 7 anos (menor de 14) e o filho inválido de 15 anos geram direito a duas cotas. A renda deve ser baixa (comprovado). Ambos os pais de baixa renda têm direito, na proporção do número de filhos (cada um recebe as cotas). Trabalhador avulso tem direito (art. 65)."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_69",
+        "materia": "Direito Previdenciário",
+        "assunto": "Auxílio-reclusão: carência e requisitos",
+        "banca": "FGV",
+        "ano": "2022",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Manoel é segurado de baixa renda, tendo sido recolhido à prisão, em regime fechado, no dia 01/01/2022. Antes da prisão, ele recolheu 12 contribuições mensais à Previdência Social e tem, como único dependente, o filho Maurício, de 19 anos. Diante destas considerações, sobre o auxílio-reclusão assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Maurício não faz jus ao benefício do auxílio-reclusão, uma vez que seu pai, Manoel, não cumpriu a carência de 24 (vinte e quatro) meses.",
+          "B": "Maurício, apesar de Manoel cumprir a carência exigida, não faz jus ao benefício do auxílio-reclusão por possuir mais de 18 (dezoito) anos.",
+          "C": "Caso Manoel venha a exercer atividade, ainda que em regime fechado, haverá a perda do direito ao recebimento do auxílio-reclusão para seu dependente.",
+          "D": "O requerimento de Manoel solicitando o auxílio-reclusão deve ser instruído com a certidão de nascimento do dependente, sem a necessidade de certidão sobre o seu recolhimento à prisão."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata do auxílio-reclusão. A alternativa A está correta, pois, desde a publicação da MP 871/2019 (posteriormente convertida na Lei 13.846/2019), o auxílio-reclusão passou a exigir o cumprimento de um período de carência de 24 meses, como estabelece o art. 25, IV, da Lei 8.213/91. Portanto, considerando que, no caso concreto relatado no enunciado, o segurado recolhido à prisão somente havia realizado o recolhimento de 12 contribuições mensais, podemos concluir que o seu dependente não irá fazer jus ao benefício em questão. A alternativa B está incorreta. Em regra, o filho mantém a qualidade de dependente do segurado até completar 21 anos de idade. Isso está expresso na Lei 8.213/91: “Art. 16. São beneficiários do Regime Geral de Previdência Social, na condição de dependentes do segurado: I - o cônjuge, a companheira, o companheiro e o filho não emancipado, de qualquer condição, menor de 21 (vinte e um) anos ou inválido ou que tenha deficiência intelectual ou mental ou deficiência grave”. Portanto, o fato de Maurício ter 19 anos não seria impeditivo à concessão do auxílio-reclusão. Todavia, como já mencionado nos comentários da alternativa A, o benefício não será concedido, tendo em vista que o período de carência não foi cumprido. A alternativa C está incorreta. A Lei 8.213/91 é clara ao estabelecer que o exercício de atividade remunerada pelo segurado que esteja recluso em regime fechado não é razão para a cessação do pagamento do auxílio-reclusão: “Art. 80. [...] § 7º O exercício de atividade remunerada do segurado recluso, em cumprimento de pena em regime fechado, não acarreta a perda do direito ao recebimento do auxílio-reclusão para seus dependentes”. A alternativa D está incorreta. Para a concessão do benefício do auxílio-reclusão, é necessário que, da prova da condição de dependente, seja apresentada a certidão judicial que efetivamente ateste o recolhimento do segurado à prisão, como se vê do §1º do art. 80 da Lei 8.213/91: “O requerimento do auxílio-reclusão será instruído com certidão judicial que ateste o recolhimento efetivo à prisão, e será obrigatória a apresentação de prova de permanência na condição de presidiário para a manutenção do benefício”."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_69",
+        "materia": "Direito Previdenciário",
+        "assunto": "Pensão por morte - dependentes",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Jorge, segurado obrigatório do Regime Geral de Previdência Social (RGPS), reside com sua mãe, Francisca, e sua filha, Helena, que é estudante e tem 19 anos. O emprego de Jorge é a principal fonte de renda da família e o único sustento da casa. Acontece que Jorge foi acometido de uma doença e veio a falecer. Por isso, as duas dependentes de Jorge ingressam com um pedido de pensão por morte no INSS. Sobre a hipótese apresentada, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Somente Helena faz jus à pensão por morte.",
+          "B": "Helena faz jus à pensão por morte, sendo necessária a comprovação de dependência econômica.",
+          "C": "Helena e Francisca fazem jus à pensão por morte, independentemente da comprovação de dependência econômica.",
+          "D": "Somente Francisca faz jus à pensão por morte, sendo necessária a comprovação de dependência econômica."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata de conhecimentos gerais a respeito dos dependentes no âmbito do RGPS. A alternativa A está correta. A pensão por morte é um dos benefícios que podem ser concedidos aos dependentes do segurado da previdência social que vier a falecer. O rol de dependentes, para os fins da legislação previdenciária, está exposto no art. 16 da Lei 8.213/91, e pode ser dividido em três classes distintas. Na primeira classe, estão, dentre outras pessoas, os filhos menores de 21 anos (é o caso de Helena), enquanto os pais estão na segunda classe (é o caso de Francisca). Pelo §1º do art. 16 da legislação em questão, a existência de dependente de qualquer das classes exclui do direito às prestações os dependentes das classes seguintes, o que significa dizer que, em razão de existir um dependente da classe 1, a mãe de Jorge, que é dependente da classe 2, não poderá pleitear a concessão da pensão por morte. A alternativa B está incorreta. Na verdade, os dependentes da classe 1 não precisam comprovar a dependência econômica com relação ao instituidor da pensão, pois a própria legislação já estabeleceu essa presunção em seu favor, como se percebe no §4º do art. 16 da Lei 8.213/91: “A dependência econômica das pessoas indicadas no inciso I é presumida e a das demais deve ser comprovada”. As alternativas C e D estão incorretas, conforme comentários da alternativa A."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_70",
+        "materia": "Direito Previdenciário",
+        "assunto": "Auxílio-acompanhante na aposentadoria por incapacidade permanente",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Antônio recebe aposentadoria por incapacidade permanente e, por necessitar da assistência permanente de outra pessoa, seu benefício foi acrescido de 25%. Em relação a esse acréscimo, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Será incorporado ao valor da pensão, com a morte do aposentado.",
+          "B": "Deverá ser recalculado, quando o benefício que lhe deu origem for reajustado.",
+          "C": "Não será devido, quando o valor da aposentadoria atingir o limite máximo legal.",
+          "D": "É devido ao segurado que recebe auxílio por incapacidade temporária e necessita da assistência permanente de outra pessoa."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do “auxílio-acompanhante” (ou “grande invalidez”) no âmbito da aposentadoria por incapacidade permanente. A alternativa A está incorreta. A legislação expressamente dispõe que o auxílio-acompanhante não será incorporado ao valor da pensão por morte no caso de falecimento do segurado aposentado (art. 45, parágrafo único, “c”, Lei 8.213/91). A alternativa B está correta. Ocorrendo algum reajuste na aposentadoria por incapacidade permanente, o auxílio-acompanhante também deve ser reajustado, a fim de que seja mantida a proporção de 25% do valor da aposentadoria em questão (art. 45, parágrafo único, “b”, Lei 8.213/91). A alternativa C está incorreta. Na verdade, a legislação menciona que o auxílio-acompanhante será devido mesmo nas hipóteses em que a aposentadoria por incapacidade permanente do segurado já tiver atingido o limite máximo dos benefícios do RGPS (art. 45, parágrafo único, “a”, Lei 8.213/91). A alternativa D está incorreta. De acordo com a legislação previdenciária atual, somente existe previsão expressa de concessão do auxílio-acompanhante para a aposentadoria por incapacidade permanente (art. 45, Lei 8.213/91), logo, o segurado que estiver em gozo do auxílio por incapacidade temporária, ainda que necessite da assistência permanente de outra pessoa para as atividades básicas da sua vida diária, não poderá fazer jus a esse acréscimo de 25% no valor do seu benefício."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_70",
+        "materia": "Direito Previdenciário",
+        "assunto": "Auxílio-reclusão",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Lucas, segurado obrigatório do Regime Geral de Previdência Social (RGPS), cometeu um crime e foi recolhido à prisão em regime fechado, em 1/1/2023, tendo contribuído previamente por 24 meses. Sobre a hipótese narrada, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O auxílio-reclusão é destinado ao segurado que foi preso, para que ele não fique desamparado.",
+          "B": "Os dependentes de Lucas fazem jus ao auxílio-reclusão, mesmo que o segurado preso não seja de baixa renda.",
+          "C": "A cônjuge de Lucas não poderá acumular o auxílio por incapacidade temporária que hoje recebe com o auxílio-reclusão decorrente da prisão do marido, devendo optar pelo mais favorável.",
+          "D": "O exercício de atividade remunerada do segurado recluso, em cumprimento de pena em regime fechado, não acarreta a perda do direito ao recebimento do auxílio-reclusão para seus dependentes."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata do auxílio-reclusão para dependentes e as vedações previstas (art. 80 da Lei 8.213/91). A alternativa A está incorreta. O auxílio-reclusão é destinado aos dependentes do segurado de baixa renda, e não ao próprio segurado. (Art. 80. O auxílio-reclusão, cumprida a carência prevista no inciso IV do caput do art. 25 desta Lei, será devido, nas condições da pensão por morte, aos dependentes do segurado de baixa renda recolhido à prisão em regime fechado que não receber remuneração da empresa nem estiver em gozo de auxílio-doença, de pensão por morte, de salário-maternidade, de aposentadoria ou de abono de permanência em serviço.) A alternativa B está incorreta. O auxílio-reclusão depende da condição de baixa renda do segurado preso. (Art. 80. O auxílio-reclusão, cumprida a carência prevista no inciso IV do caput do art. 25 desta Lei, será devido, nas condições da pensão por morte, aos dependentes do segurado de baixa renda recolhido à prisão em regime fechado que não receber remuneração da empresa nem estiver em gozo de auxílio-doença, de pensão por morte, de salário-maternidade, de aposentadoria ou de abono de permanência em serviço.) A alternativa C está incorreta. A acumulação entre auxílio-reclusão e outros benefícios para o dependente não é permitida. A alternativa D está correta. O exercício de atividade remunerada pelo recluso não impede o pagamento do auxílio-reclusão aos seus dependentes. (Art. 80 § 7º O exercício de atividade remunerada do segurado recluso, em cumprimento de pena em regime fechado, não acarreta a perda do direito ao recebimento do auxílio-reclusão para seus dependentes.)"
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_70",
+        "materia": "Direito Previdenciário",
+        "assunto": "Qualidade de segurado e período de graça",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Joana Silva, empregada doméstica, prestando serviço aos mesmos empregadores por cinco anos consecutivos, é demitida por justa causa, devido à prática de ilícito prontamente comprovado em ambiente laboral. Joana, seis meses após o desligamento, sofreu um acidente de trânsito, restando incapacitada permanentemente para qualquer atividade remunerada. Nesse contexto, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Joana poderá obter o benefício previdenciário de aposentadoria por incapacidade permanente.",
+          "B": "Joana não possui direito a qualquer prestação previdenciária, haja vista o desligamento por justa causa.",
+          "C": "Joana, caso comprove ter efetuado recolhimentos como facultativa, pode obter a concessão do benefício previdenciário.",
+          "D": "Joana somente pode obter o benefício previdenciário se o acidente tiver ocorrido no prazo de três meses após a se demissão"
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata sobre qualidade de segurado. A alternativa A está correta. Joana trabalhou por 5 anos, logo, era segurada obrigatória. Ao ser demitida (não importa se foi com ou sem justa causa), ela entra no Período de Graça. Segundo o Art. 15, inciso II, da Lei 8.213/91, o segurado mantém a qualidade de segurado (o direito aos benefícios) por até 12 meses após parar de contribuir. Como o acidente foi 6 meses após a demissão, ela ainda estava dentro do prazo de cobertura. Vejamos o disposto no Art. 15, II, da Lei 8.213/91: “Art. 15. Mantém a qualidade de segurado, independentemente de contribuições: II - até 12 (doze) meses após a cessação das contribuições, o segurado que deixar de exercer atividade remunerada abrangida pela Previdência Social ou estiver suspenso ou licenciado sem remuneração;”. Como a incapacidade é total e permanente, ela tem direito à aposentadoria por incapacidade permanente. A alternativa B está incorreta. O INSS não pune o trabalhador pela falta cometida no emprego. Veja o comentário da alternativa A. A alternativa C está incorreta. O período de graça de 12 meses é automático e decorre da lei pelo simples fato de ela ter sido segurada obrigatória anteriormente. Veja comentário da alternativa A. A alternativa D está incorreta. O prazo mencionado (3 meses) não existe na lei para este caso. O prazo padrão é de 12 meses (Art. 15, inciso II, da Lei 8.213/91). Veja o comentário da alternativa A."
+      }
+    ]
+  },
+  "Acidente De Trabalho E Benefícios Decorrentes": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Aposentadoria por incapacidade permanente decorrente de acidente de trabalho e acréscimo de 25% por assistência permanente",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_70"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A FGV costuma confundir incapacidade total com os efeitos acessórios do benefício: o candidato marca a aposentadoria, mas erra ao negar o adicional de 25% quando há necessidade de assistência permanente de outra pessoa."
+      },
+      {
+        "nome_microtema": "Auxílio-acidente após consolidação das lesões com redução da capacidade laborativa",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_69",
+          "oab_Prova-comentada-OAB-45_69"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "A pegadinha clássica é trocar benefício por incapacidade temporária por auxílio-acidente: a FGV explora a ideia de alta previdenciária seguida de sequelas permanentes que reduzem a capacidade, exigindo atenção ao momento posterior ao retorno ao trabalho."
+      },
+      {
+        "nome_microtema": "Acidente de trajeto e equiparação ao acidente de trabalho, com direito ao benefício previdenciário correspondente",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_69",
+          "oab_Prova-comentada-OAB-45_69"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A FGV gosta de testar se o candidato reconhece o acidente de trajeto como hipótese equiparada a acidente de trabalho e, ao mesmo tempo, não confunde isso com manutenção de salário pelo empregador ou com benefício automático sem análise da incapacidade."
+      },
+      {
+        "nome_microtema": "Reabilitação profissional no RGPS: obrigatoriedade, conteúdo e fornecimento de próteses, transporte e meios necessários",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_69"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A banca costuma induzir o erro ao afirmar que a reabilitação é facultativa ou incompleta. A pegadinha está em negar que o programa inclui próteses, órteses, fisioterapia, transporte e outros recursos indispensáveis ao retorno ao trabalho."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo enquadramento preciso do evento como acidente de trabalho, acidente de trajeto, sequela com redução da capacidade, ou hipótese de reabilitação profissional",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "diante dessas condições",
+        "após a alta previdenciária",
+        "em virtude do ocorrido",
+        "sobre a situação",
+        "assinale a opção que indica"
+      ]
+    },
+    "total_questoes_analisadas": 5,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_70",
+        "materia": "Direito Previdenciário",
+        "assunto": "Aposentadoria por incapacidade permanente",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "José, mecânico, contando com 12 (doze) meses de contribuição para a Previdência Social, sofreu acidente de trabalho, tornando-se tetraplégico. Em razão do acidente, ficou completamente incapacitado para o trabalho. Diante dessas condições, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "José não terá direito à aposentadoria por incapacidade permanente, uma vez que não cumpriu a carência mínima de 24 (vinte e quatro) meses de contribuição.",
+          "B": "José, necessitando da assistência permanente de outra pessoa, terá acrescido o valor da sua aposentadoria por incapacidade permanente em até 50% (cinquenta por cento).",
+          "C": "José, caso se recupere e volte a trabalhar voluntariamente, terá sua aposentadoria cancelada automaticamente, a partir da data do retorno.",
+          "D": "José, sendo portador de doença ou lesão ao filiar-se ao Regime Geral de Previdência Social, não terá direito à aposentadoria por incapacidade permanente, ainda que a incapacidade sobrevenha, após a filiação, por motivo de progressão ou agravamento dessa doença ou lesão."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata da aposentadoria por incapacidade permanente. A alternativa A está incorreta. Considerando que José se tornou permanentemente incapacitado para o trabalho em decorrência de um acidente de trabalho, a concessão da sua aposentadoria por incapacidade permanente independerá do cumprimento de qualquer período de carência. Isso pode ser encontrado no Decreto 3.048/99: “Art. 30. Independe de carência a concessão das seguintes prestações: [...] III - auxílio por incapacidade temporária e aposentadoria por incapacidade permanente nos casos de acidente de qualquer natureza ou causa e de doença profissional ou do trabalho e nos casos de segurado que, após filiar-se ao RGPS, seja acometido de alguma das doenças ou afecções especificadas em lista elaborada pelos Ministérios da Saúde e da Economia, atualizada a cada três anos, de acordo com os critérios de estigma, deformação, mutilação, deficiência ou outro fator que lhe confira especificidade e gravidade que mereçam tratamento particularizado”. Mas, mesmo que a incapacidade permanente fosse originada de alguma outra causa não inserida nesse dispositivo, José ainda teria direito à sua concessão, pois, na verdade, o período de carência exigido para esse benefício (salvo as três exceções citadas acima) é de 12 meses, conforme o art. 29, I, do Decreto 3.048/99. A alternativa B está incorreta. Essa alternativa se refere ao auxílio-acompanhante (ou “grande invalidez”), que tem previsão no art. 45 do Decreto 3.048/99: “O valor da aposentadoria por incapacidade permanente do segurado que necessitar da assistência permanente de outra pessoa será acrescido de vinte e cinco por cento, observada a relação constante do Anexo I”. Portanto, na verdade, o acréscimo será de 25%, razão pela qual a alternativa está incorreta. A alternativa C está correta, pois reproduz a regra prevista no art. 48 do Decreto 3.048/99: “O aposentado por incapacidade permanente que retornar voluntariamente à atividade terá a sua aposentadoria automaticamente cessada, a partir da data de seu retorno, observado o disposto no art. 179”. Portanto, percebe-se que o aposentado por incapacidade permanente não pode voltar a exercer atividades laborais, sob pena de ter o seu benefício cancelado a partir da data do retorno. Caso ele acredite estar apto a retornar ao trabalho, deverá solicitar ao INSS a realização de uma nova avaliação médico-pericial, que irá verificar a sua condição atual e autorizá-lo a voltar ao labor, com o cancelamento da sua aposentadoria (art. 47, parágrafo único, Decreto 3.048/99). A alternativa D está incorreta, pois contraria o §2º do art. 43 do Decreto 3.048/99: “A doença ou lesão de que o segurado já era portador ao filiar-se ao RGPS não lhe conferirá direito à aposentadoria por incapacidade permanente, exceto quando a incapacidade sobrevier por motivo de progressão ou agravamento dessa doença ou lesão”. Com base nesse dispositivo, percebemos que, de fato, o segurado que se filiar ao RGPS quando já portador de uma doença ou lesão não terá direito à aposentadoria por incapacidade permanente (ou ao auxílio por incapacidade temporária) em decorrência dessa doença ou lesão, salvo se a incapacidade resultar de uma progressão ou agravamento que venha a ocorrer em momento posterior, quando o segurado já estiver filiado."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_69",
+        "materia": "Direito Previdenciário",
+        "assunto": "Auxílio-acidente",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Em 2018, Antônio, segurado, empregado vinculado ao Regime Geral de Previdência Social, sofreu um acidente de trânsito quando voltava para sua residência. Depois de dois anos de afastamento, recebeu alta previdenciária e retornou ao trabalho. No entanto, Antônio apresenta sequelas do acidente que reduzem sua capacidade laborativa. Assinale a opção que indica o benefício previdenciário que ele poderá receber após a alta.",
+        "alternativas": {
+          "A": "Auxílio-acidente.",
+          "B": "Benefício por incapacidade temporária.",
+          "C": "Pecúlio previdenciário.",
+          "D": "Abono de permanência em serviço."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata dos benefícios previdenciários existentes no âmbito do RGPS. A alternativa A está correta. O enunciado foi claro ao indicar que Antônio foi vitimado por um acidente de trânsito e, em consequência disso, passou a conviver com algumas sequelas que reduziram a sua aptidão para o trabalho (como, por exemplo, a perda de mobilidade em uma das mãos). Nessa situação, considerando que ele recebeu alta previdenciária e foi tido como apto para o trabalho, as suas sequelas lhe darão o direito à percepção do benefício do auxílio-acidente, como se pode perceber a partir da leitura do art. 86 da Lei 8.213/91: “O auxílio-acidente será concedido, como indenização, ao segurado quando, após consolidação das lesões decorrentes de acidente de qualquer natureza, resultarem sequelas que impliquem redução da capacidade para o trabalho que habitualmente exercia”. Perceba que esse não é um benefício pago ao segurado que está incapacitado para trabalhar, mas, sim, ao segurado que, apesar de ter sofrido uma redução na sua capacidade laboral, ainda consegue desempenhar as suas atividades (e é justamente isso que diferencia o auxílio-acidente do auxílio por incapacidade temporária, pois, neste último, o segurado ainda está inapto para o trabalho). As alternativas B, C e D estão incorretas, conforme comentários da alternativa A."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_69",
+        "materia": "Direito Previdenciário",
+        "assunto": "Auxílio por incapacidade temporária para empregada doméstica",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Maria, empregada doméstica desde julho de 1990, no deslocamento para seu local de trabalho, sofreu um acidente em virtude de uma queda na saída do ônibus. Maria não sabe se deve procurar o sistema previdenciário desde já e se tem direito a algum benefício. Por isso, procurou você, como advogado(a). Assinale a opção que apresenta, corretamente, sua orientação.",
+        "alternativas": {
+          "A": "O direito ao benefício não é reconhecido, pois os empregados domésticos não são cobertos pela Previdência Social brasileira.",
+          "B": "Sobre o afastamento do trabalho, sendo superior a 15 dias consecutivos, haverá direito ao benefício previdenciário por incapacidade temporária.",
+          "C": "O benefício previdenciário deve ser requerido de imediato pelo site eletrônico do Instituto Nacional do Seguro Social (INSS) ou por central telefônica.",
+          "D": "Sobre o afastamento do trabalho, se a incapacidade for inferior a 30 dias de afastamento, não haverá qualquer direito subjetivo a benefício previdenciário."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do benefício por incapacidade temporária (auxílio-doença) para empregada doméstica (arts. 59 e 60 da Lei 8.213/91). A alternativa A está incorreta. Os empregados domésticos são segurados obrigatórios da Previdência Social (Art. 11. São segurados obrigatórios da Previdência Social as seguintes pessoas físicas: II - como empregado doméstico: aquele que presta serviço de natureza contínua a pessoa ou família, no âmbito residencial desta, em atividades sem fins lucrativos;). A alternativa B está correta. Se o afastamento for superior a 15 dias, há direito ao benefício de auxílio por incapacidade temporária (Art. 59. O auxílio-doença será devido ao segurado que, havendo cumprido, quando for o caso, o período de carência exigido nesta Lei, ficar incapacitado para o seu trabalho ou para a sua atividade habitual por mais de 15 (quinze) dias consecutivos.). A alternativa C está incorreta. O benefício pode ser requerido pelo site do INSS, mas o direito já nasce com a incapacidade e afastamento superior a 15 dias. Art. 60. O auxílio-doença será devido ao segurado empregado a contar do décimo sexto dia do afastamento da atividade, e, no caso dos demais segurados, a contar da data do início da incapacidade e enquanto ele permanecer incapaz. (Redação dada pela Lei nº 9.876, de 26.11.99) § 1º Quando requerido por segurado afastado da atividade por mais de 30 (trinta) dias, o auxílio-doença será devido a contar da data da entrada do requerimento. A alternativa D está incorreta. A exigência legal é de mais de 15 dias de afastamento, não 30 dias. (Art. 59. O auxílio-doença será devido ao segurado que, havendo cumprido, quando for o caso, o período de carência exigido nesta Lei, ficar incapacitado para o seu trabalho ou para a sua atividade habitual por mais de 15 (quinze) dias consecutivos.)"
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_69",
+        "materia": "Direito Previdenciário",
+        "assunto": "Reabilitação profissional",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Manoel, mecânico de manutenção, após acidente durante sua atividade remunerada, recebeu benefício por incapacidade temporária durante dois anos. Antes da alta previdenciária, foi encaminhado para a reabilitação profissional, na qual se identificou a necessidade de utilização de prótese e fisioterapia, sem necessidade de transfusão de sangue ou cirurgia, em local conveniado com o INSS. Nesse contexto hipotético, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "No seu processo de reabilitação profissional está incluído o transporte, quando necessário.",
+          "B": "Manoel poderia se recusar a fazer a reabilitação profissional, pois a lei não a indica como etapa obrigatória a ser observada pelos segurados.",
+          "C": "A reabilitação profissional permitirá seu retorno à atividade remunerada, na qual contará com estabilidade provisória de 5 anos.",
+          "D": "A reabilitação profissional não compreende o fornecimento de aparelhos de prótese, de órtese e de instrumentos de auxílio para locomoção."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata sobre reabilitação profissional. A alternativa A está correta. Nos termos do art. 89, parágrafo único, \"c\" da Lei 8.213/91 a reabilitação profissional inclui, entre outros serviços, o transporte para o deslocamento do segurado, quando necessário, para a realização das sessões ou procedimentos do programa. Vejamos: “Art. 89. A habilitação e a reabilitação profissional e social deverão proporcionar ao beneficiário incapacitado parcial ou totalmente para o trabalho, e às pessoas portadoras de deficiência, os meios para a (re)educação e de (re)adaptação profissional e social indicados para participar do mercado de trabalho e do contexto em que vive. Parágrafo único. A reabilitação profissional compreende: [...] c) o transporte do acidentado do trabalho, quando necessário.” A alternativa B está incorreta. A reabilitação profissional é uma etapa obrigatória para os segurados que, por motivo de doença ou acidente, perdem a capacidade para sua atividade habitual. A recusa em participar do programa, sem justificativa, pode levar à suspensão ou cancelamento do benefício por incapacidade, conforme o art. 101 da Lei nº 8.213/91. A saber: “Art. 101. O segurado em gozo de auxílio por incapacidade temporária, auxílio-acidente ou aposentadoria por incapacidade permanente e o pensionista inválido, cujos benefícios tenham sido concedidos judicial ou administrativamente, estão obrigados, sob pena de suspensão do benefício, a submeter-se a: [...] II - processo de reabilitação profissional prescrito e custeado pela Previdência Social;” A alternativa C está incorreta. O período de estabilidade após o retorno de um benefício por incapacidade acidentária é de 12 meses, conforme a literalidade do art. 118 da Lei nº 8.213/91: “Art. 118. O segurado que sofreu acidente do trabalho tem garantida, pelo prazo mínimo de doze meses, a manutenção do seu contrato de trabalho na empresa, após a cessação do auxílio-doença acidentário, independentemente de percepção de auxílio-acidente.” A alternativa D está incorreta. A afirmativa está contrária a lei. O art. 89 da Lei nº 8.213/91 estabelece que a reabilitação profissional compreende, sim, o fornecimento desses aparelhos. Vejamos: “Art. 89. A habilitação e a reabilitação profissional e social deverão proporcionar ao beneficiário incapacitado parcial ou totalmente para o trabalho, e às pessoas portadoras de deficiência, os meios para a (re)educação e de (re)adaptação profissional e social indicados para participar do mercado de trabalho e do contexto em que vive. Parágrafo único. A reabilitação profissional compreende: a) o fornecimento de aparelho de prótese, órtese e instrumentos de auxílio para locomoção quando a perda ou redução da capacidade funcional puder ser atenuada por seu uso e dos equipamentos necessários à habilitação e reabilitação social e profissional;” O caso de Manoel, que precisa de uma prótese, se encaixa perfeitamente nesse direito."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_69",
+        "materia": "Direito Previdenciário",
+        "assunto": "Estabilidade provisória após acidente de trabalho",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Sílvia Lima, empregada segurada do Regime Geral da Previdência Social (RGPS), desempenha suas funções em atividades externas, mediante entregas de produtos elaborados por seu empregador. Em uma de suas entregas, logo após deixar a mercadoria e já no retorno ao seu posto de trabalho, foi atingida por um veículo em alta velocidade, que transitava em desacordo com os limites da via. Em virtude do ocorrido, Sílvia permaneceu afastada por um ano, em gozo de benefício previdenciário por incapacidade temporária, tendo se recuperado plenamente para as suas atividades. Sobre a situação de Sílvia, segundo o RGPS, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Ela poderá se aposentar por incapacidade permanente.",
+          "B": "Ela tem direito ao auxílio-acidente após o retorno às atividades.",
+          "C": "Ela, durante o afastamento, deve continuar a receber salários, normalmente.",
+          "D": "Ela, após o retorno à sua atividade, gozará de estabilidade provisória de 12 meses no emprego."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata sobre o auxílio-doença acidentário. A alternativa A está incorreta. O enunciado diz expressamente que Sílvia 'se recuperou plenamente'. Logo, não há suporte para aposentadoria. Veja o comentário da alternativa D. A alternativa B está incorreta. Como Sílvia se recuperou plenamente e não ficou com sequelas, ela não tem direito a esse benefício. Veja o comentário da alternativa D. A alternativa C está incorreta. A empregada não recebe salário do patrão, mas sim o benefício previdenciário (auxílio por incapacidade temporária) pago pelo INSS. A alternativa D está correta. Como o acidente ocorreu no exercício das funções (acidente de trabalho), e ela ficou afastada por mais de 15 dias recebendo o benefício acidentário, ela adquire a estabilidade provisória. Vejamos o que dispõe o Art. 118 da Lei 8.213/91: 'Art. 118. O segurado que sofreu acidente do trabalho tem garantida, pelo prazo mínimo de doze meses, a manutenção do seu contrato de trabalho na empresa, após a cessação do auxílio-doença acidentário, independentemente de percepção de auxílio-acidente.' Ou seja, proteger o trabalhador que sofreu um acidente para que ele não seja demitido assim que colocar os pés de volta na empresa."
+      }
+    ]
+  }
+}

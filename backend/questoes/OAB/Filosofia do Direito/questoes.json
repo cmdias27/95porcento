@@ -1,0 +1,257 @@
+{
+  "Filosofia do Direito": [
+    {
+      "id": "oab_38_09",
+      "materia": "Filosofia do Direito",
+      "assunto": "Herbert Hart: relações entre Direito e Moral",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "'Há muitos tipos diferentes de relação direito e a moral e a relação entre eles não pode ser isolada com proveito para efeitos de estudo. Em vez disso, é importante distinguir algumas das muitas coisas diferentes que podem querer dizer-se através da afirmação ou negação de que o direito e a moral estão relacionados'. (Herbert Hart) Herbert Hart, em seu livro O Conceito de Direito, comenta sobre a influência da moral sobre o Direito, afirmando que nenhum positivista poderá negar que a estabilidade dos sistemas jurídicos depende, em parte, da correspondência com a moral. Assinale a opção que, segundo o autor no livro em referência, mostra como essa influência da moral sobre o direito pode ocorrer.",
+      "alternativas": {
+        "A": "Pode se dar por meio da legislação ou por intermédio do processo judicial. Pode ocorrer que, em alguns sistemas, os critérios últimos de validade incorporem explicitamente princípios de justiça ou valores morais substantivos.",
+        "B": "Por intermédio da religião, sobretudo naqueles estados que, mesmo tendo a forma laica, admitem a influência das autoridades religiosas sobre o funcionamento das instituições.",
+        "C": "Ocorre por meio do pensamento científico. O desenvolvimento da ciência aponta possibilidades que exigem uma base moral que normatize os padrões de conduta em relação ao que seria aceitável ou não naquela sociedade.",
+        "D": "A influência da moral sobre o direito acontece por força da própria natureza das coisas. São padrões de certo e errado que surgem naturalmente e em um determinado momento histórico são incorporados ao direito positivo de forma espontânea e automática."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa A está correta, pois reflete a passagem do livro de Hart em que ele afirma que a influência da moral entra no direito através da legislação ou do processo judicial, podendo os critérios de validade incorporar valores morais."
+    },
+    {
+      "id": "oab_38_10",
+      "materia": "Filosofia do Direito",
+      "assunto": "Foucault: castigo disciplinar",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "'Mas a disciplina traz consigo uma maneira específica de punir, e que é apenas um modelo reduzido do tribunal. O que pertence à penalidade disciplinar é a inobservância, tudo o que está inadequado à regra, tudo que se afasta dela, os desvios.' Michael Foucault Foucault, em seu livro Vigiar e Punir, fala do poder disciplinar que recai sobre os corpos dos indivíduos e, também, dos castigos disciplinares que resultam de uma lei, um programa ou um regulamento. Assinale a opção que, segundo o autor da obra de referência, apresenta a função do castigo disciplinar.",
+      "alternativas": {
+        "A": "Reduzir os desvios, funcionando, portanto, como algo essencialmente corretivo.",
+        "B": "Coibir a ocorrência de crime, de modo a evitar a ocorrência de atos ilícitos.",
+        "C": "Expirar a culpa de ter se afastado da norma, de forma a produzir arrependimento.",
+        "D": "Indenizar a vítima da conduta indisciplinada, como forma de reparação de um dano."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa A está correta. Para Foucault, a função do castigo disciplinar é corrigir, adestrar e normalizar os indivíduos, reduzindo os desvios e moldando os corpos às normas estabelecidas."
+    },
+    {
+      "id": "oab_39_09",
+      "materia": "Filosofia do Direito",
+      "assunto": "Escola da Exegese (Miguel Reale)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Lições Preliminares do Direito, de Miguel Reale.",
+      "enunciado": "O Código Civil de Napoleão, de 1804, representou um momento de grande expectativa e confiança nos poderes da lei escrita. Nesse contexto, surge um importante movimento no Direito, chamado 'Escola da Exegese'. Assinale a opção que, segundo Miguel Reale em seu livro Lições Preliminares do Direito, define este movimento.",
+      "alternativas": {
+        "A": "A afirmação de que a lei é uma realidade histórica, que se situa na progressão do tempo e, por isso, deve ser interpretada segundo as tradições e o próprio espírito do povo.",
+        "B": "A crença de que a lei é importante, mas se não corresponder mais aos fatos supervenientes, deve-se procurar a solução em outras fontes, como o costume, por exemplo.",
+        "C": "A concepção segundo a qual cabe ao juiz julgar segundo os ditames da ciência e de sua consciência, de forma a prevalecer um direito justo, seja na falta da lei, seja contra aquilo que dispõe a lei.",
+        "D": "A sustentação de que na lei positiva, e de maneira especial no Código Civil, já se encontra a possibilidade de uma solução para todos os eventuais casos ou ocorrências da vida social."
+      },
+      "gabarito": "D",
+      "comentario": "A Escola da Exegese (século XIX) pregava a onipotência do legislador e a crença de que o Código Civil já continha a solução para todos os casos (interpretação literal e gramatical). As alternativas A (Escola Histórica), B (superação da exegese) e C (Direito Livre) estão incorretas."
+    },
+    {
+      "id": "oab_39_10",
+      "materia": "Filosofia do Direito",
+      "assunto": "Lei Natural em Aristóteles (Retórica)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Retórica de Aristóteles e peça Antígona de Sófocles.",
+      "enunciado": "'E tiveste a audácia de desobedecer a essa determinação? Sim porque não foi Zeus que a promulgou; e a Justiça, a deusa que habita com as divindades subterrâneas jamais estabeleceu tal decreto entre os humanos; nem eu creio que teu édito tenha força bastante para conferir a um mortal o poder de infringir as leis divinas, que nunca foram escritas, mas são irrevogáveis; não existem a partir de ontem ou de hoje; são eternas sim e ninguém sabe desde quando vigoram.' Sófocles. O excerto acima é parte da peça Antígona, uma das mais importantes tragédias gregas, que foi escrita por Sófocles. De acordo com Aristóteles, em seu livro Retórica, essa peça de Sófocles pode ser usada para se entender o que seria uma lei natural. Assinale a opção que apresenta, segundo Aristóteles, o conceito de lei natural.",
+      "alternativas": {
+        "A": "Aquela que emana do diálogo comum entre diferentes comunidades políticas e resulta em um acordo que está acima de leis e tratados impostos pelo Estado.",
+        "B": "Uma expressão da natureza divina, que se encarna na figura do rei ou do soberano e é a base da legitimidade da monarquia como forma de governo.",
+        "C": "As tradições de uma comunidade política, que são repassadas de geração em geração sob a presunção de realizarem anseios de justiça de um determinado povo.",
+        "D": "A justiça da qual todos têm, de alguma maneira, uma intuição e que é comum a todos, independentemente de todo Estado, de toda convenção recíproca."
+      },
+      "gabarito": "D",
+      "comentario": "Para Aristóteles, a lei natural é o 'justo universal' (Ética a Nicômaco, V), comum a todos os homens, independentemente de convenções ou Estados, e intuída pela razão. O discurso de Antígona exemplifica a oposição entre essa lei natural e a lei positiva (édito de Creonte)."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_9",
+      "materia": "Filosofia do Direito",
+      "assunto": "Normativismo Jurídico de Kelsen",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Uma norma jurídica não vale porque tem um determinado conteúdo... (Hans Kelsen).",
+      "enunciado": "O que faz uma norma jurídica ser válida é tema central para a teoria e a Filosofia do Direito. Segundo o Normativismo Jurídico de Hans Kelsen, conforme apresentado em seu livro Teoria Pura do Direito, a validade da norma jurídica recai logicamente sobre uma categoria que é o ponto de partida do processo de criação do direito positivo. Assinale a opção que apresenta essa categoria.",
+      "alternativas": {
+        "A": "O legislador democrático.",
+        "B": "A soberania popular.",
+        "C": "A norma fundamental pressuposta.",
+        "D": "O direito das gentes."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata do tema Normativismo em Hans Kelsen. A alternativa A está incorreta. Embora o processo democrático e a figura do legislador sejam centrais para a criação de leis em muitos sistemas jurídicos, para Kelsen, a validade de uma norma jurídica não se fundamenta na natureza do seu criador. O foco da Teoria Pura do Direito é a estrutura normativa e sua validade independente dos agentes que a criam. A alternativa B está incorreta. A soberania popular refere-se a uma fonte de autoridade política. Embora seja um princípio fundamental em muitas democracias, não serve como base para a validade jurídica na teoria de Kelsen. A validade de uma norma, segundo ele, está na sua relação com a hierarquia normativa culminando na norma fundamental pressuposta. A alternativa C está correta. A Teoria Pura do Direito de Kelsen busca estabelecer uma ciência jurídica livre de influências externas, como as da política, da moral ou da sociologia. Neste contexto, Kelsen introduz o conceito de \"norma fundamental\" (Grundnorm) como o alicerce do sistema jurídico. A norma fundamental é uma norma hipotética, pressuposta, que serve de base para a validade de todas as outras normas do sistema. Ela não é escrita ou formalizada; em vez disso, é entendida como a premissa lógica que sustenta a autoridade das normas constitucionais e, por extensão, de todo o sistema jurídico. A validade de uma norma jurídica, portanto, não depende de seu conteúdo, mas de sua conformidade com outras normas, em última instância, com a norma fundamental pressuposta. A alternativa D está incorreta. O direito das gentes, ou direito internacional público, é um sistema de normas que regula as relações entre os Estados. Embora importante, não é o fundamento último da validade jurídica na perspectiva kelseniana. O conceito de norma fundamental pressuposta se aplica tanto ao direito interno quanto ao internacional, servindo como base lógica para a validade de todas as normas jurídicas, independentemente da sua esfera de aplicação."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_10",
+      "materia": "Filosofia do Direito",
+      "assunto": "Dignidade da pessoa humana em Kant",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Portanto, a moralidade, e a humanidade enquanto capaz de moralidade, são as únicas coisas que têm dignidade. Immanuel Kant.",
+      "enunciado": "O artigo primeiro da Constituição Federal de 1988 determina que a dignidade da pessoa humana é fundamento da República. Filósofos e juristas há muito debatem o tema da dignidade. Sobre o tema, assinale a opção que apresenta a posição de Immanuel Kant, em seu livro Fundamentação da Metafísica dos Costumes.",
+      "alternativas": {
+        "A": "Aquele que pode participar dos destinos políticos da cidade é quem possui e exerce sua dignidade.",
+        "B": "Quando algo está acima de todo preço e, portanto, não permite equivalente, então ele tem dignidade.",
+        "C": "O amor à lei e à pátria conformam as bases da dignidade na vida social e política.",
+        "D": "A dignidade ocorre quando alguém possui elevada estima por si mesmo, mantendo seu amor próprio."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata do tema Metafísica dos Costumes de Immanuel Kant. A alternativa A está incorreta. Embora a participação política possa ser considerada uma expressão da autonomia e racionalidade humanas, Kant não restringe a dignidade à capacidade de participação política. Sua concepção de dignidade é mais fundamental, vinculada à natureza racional e moral do ser humano, independentemente de seu status político. A alternativa B está correta. Kant desenvolve uma concepção de moralidade centrada no valor intrínseco do ser humano, que é dotado de razão e capaz de agir de acordo com princípios morais universais. Para Kant, a dignidade é uma qualidade inerente ao ser humano, que deriva de sua capacidade de agir moralmente, isto é, de sua autonomia e racionalidade. O que possui dignidade, segundo Kant, é de tal valor que não pode ser comparado ou substituído por qualquer equivalente material; não tem preço. Isso se alinha com a ideia de que a dignidade humana é absoluta e incondicional, fundamentando o imperativo categórico que orienta a ação moral. A alternativa C está incorreta. Enquanto Kant valoriza a lei moral e a ordem racional, ele não fundamenta a dignidade humana no amor à lei ou à pátria. A dignidade, na visão kantiana, decorre da capacidade de agir segundo princípios morais universais, que transcende quaisquer particularidades nacionais ou legais. A alternativa D está incorreta. Kant diferencia claramente entre amor-próprio, que pode ser condicional e baseado em inclinações pessoais, e a dignidade, que é incondicional e fundamentada na racionalidade e moralidade. A dignidade não é uma questão de autoestima, mas de reconhecimento do valor intrínseco de cada pessoa como um fim em si mesmo."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_9",
+      "materia": "Filosofia do Direito",
+      "assunto": "Teoria Pura do Direito de Hans Kelsen",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "A obra de Hans Kelsen é de fundamental importância para o Direito e segue estudada e discutida até os dias atuais. Acerca de sua Teoria Pura do Direito, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O autor nega a influência e a conexão entre Sociologia, Ética e Política com o Direito, de modo que apenas ignorando essas disciplinas seria possível construir uma teoria verdadeiramente pura.",
+        "B": "A pureza a que o autor alude possui sentido metodológico, diferenciando Direito da Ciência do Direito, a fim de excluir de sua análise tudo aquilo que não pertença ao seu objeto de estudo.",
+        "C": "Em sua obra Teoria Pura do Direito, Kelsen trata de ciência jurídica e não política do Direito, motivo pelo qual busca responder como deve ser o Direito e como ele deve ser feito.",
+        "D": "A conexão entre o Direito e os elementos essenciais à sua compreensão, como a Teoria Política, motivou Kelsen a incorporar esses elementos na elaboração da Teoria Pura do Direito, pois indissociáveis."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão tratou sobre a obra “Teoria Pura do Direito” do jurista Hans Kelsen. Para o autor, a pureza da teoria do Direito tem uma finalidade metodológica fundamental, pois sua teoria busca justamente distinguir o “Direito” da “Ciência do Direito”, com bastante rigor em excluir da análise tudo o que não pertence estritamente ao objeto de estudo jurídico, de modo que a principal finalidade da pureza na análise é assegurar que a análise jurídica se mantenha objetiva e científica, isto é, sem influências externas (moral, política, sociologia, psicologia etc.). Hans Kelsen desenvolveu a “Teoria Pura do Direito” (Reine Rechtslehre) com o intuito de estabelecer uma base metodológica clara e precisa para o estudo do Direito. De acordo com o autor, o Direito deve ser compreendido como um sistema normativo coerente e autônomo, composto exclusivamente por normas jurídicas, propondo uma abordagem normativa que exclui qualquer elemento não jurídico para preservar a objetividade científica. A alternativa A está incorreta, pois Hans Kelsen em sua obra não nega as influências exercidas pela Sociologia, Ética e Política ao Direito, mas ele busca uma ideia formal do Direito como ciência, de modo que as questões da ciência jurídica sejam respondidas pelo próprio Direito. A alternativa C está incorreta, pois na obra \"Teoria Pura do Direito\", o autor Hans Kelsen dá ênfase a distinção entre a “ciência jurídica” e a “política do Direito”. O enfoque da obra é responder à questão de “como o Direito deve ser compreendido e como ele deve ser estudado”, e não como o Direito deve ser feito ou quais conteúdos normativos ele deve incorporar. A alternativa D está incorreta, pois muito embora na \"Teoria Pura do Direito\", Hans Kelsen tenha reconhecido a conexão entre o Direito e outros elementos essenciais à sua compreensão (moral, política, sociologia etc.), essa conexão não significa que ele tenha incorporado diretamente a Teoria Política ou outros campos em sua Teoria Pura do Direito."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_10",
+      "materia": "Filosofia do Direito",
+      "assunto": "Justiça distributiva em Aristóteles",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "A regra da igualdade não consiste senão em quinhoar desigualmente aos desiguais, na medida em que se desigualam. [...] Tratar com desigualdade a iguais, ou a desiguais com igualdade, seria desigualdade flagrante, e não igualdade real. Rui Barbosa. Oração aos moços.",
+      "enunciado": "É comum encontrar frases de Rui Barbosa reproduzidas em sentenças, petições, sustentações orais ou mesmo estampadas em escritórios de advocacia ou gabinetes de juízes. O trecho acima é uma das frases mais conhecidas de Rui Barbosa. A ideia central contida no trecho citado tem clara inspiração em",
+      "alternativas": {
+        "A": "A República, de Platão.",
+        "B": "Ética a Nicômaco, de Aristóteles.",
+        "C": "Crítica da Razão Prática, de Kant.",
+        "D": "Teoria Pura do Direito, de Kelsen."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão tratou sobre o tema justiça de acordo com a filosofia clássica de Aristóteles, alinhada ao pensamento de Rui Barbosa. Aristóteles, em sua obra, discute o conceito de justiça e igualdade de maneira que ressoa fortemente com o princípio exposto por Rui Barbosa. Na obra \"Ética a Nicômaco\", Aristóteles faz uma distinção fundamental entre: - Justiça Distributiva: distribuir bens ou honras de acordo com o mérito, necessidade ou outra característica relevante das pessoas envolvidas. Essa forma de justiça leva em consideração as diferenças entre as pessoas e distribui os recursos de maneira proporcional a essas diferenças, e; - Justiça Comutativa: trocas e transações entre indivíduos, onde a justiça é alcançada quando o intercâmbio é feito de maneira igual, sem considerar as diferenças entre as partes envolvidas. Aristóteles entende que a justiça distributiva deve seguir a regra da igualdade proporcional, isto é, tratar desigualmente os desiguais na medida de suas desigualdades. O autor explica que a justiça deve atribuir a cada um o que lhe é devido de acordo com suas contribuições, méritos ou necessidades específicas. Ambos os pensadores (Aristóteles e Rui Barbosa) compartilham a compreensão de que a verdadeira justiça e igualdade envolvem tratar as pessoas de acordo com suas diferenças relevantes, promovendo assim uma igualdade substancial (não apenas formal). Assim, as alternativas A, C e D estão incorretas, conforme comentários à alternativa B."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_9",
+      "materia": "Filosofia do Direito",
+      "assunto": "Justiça em Platão",
+      "banca": "FGV",
+      "ano": "42º Exame de Ordem",
+      "texto_auxiliar": "Pois, segundo entendo, no limite do cognoscível é que se avista, a custo, a ideia do Bem; e, uma vez avistada, compreende-se que ela é para todos a causa de quanto há de justo e belo... (Platão)",
+      "enunciado": "Em seu livro A República, Platão conta a famosa Alegoria da Caverna, ensinando a não confundir aparência (imperfeita) com essência (perfeita). Nesse sentido, é correto afirmar que, para Platão, a Justiça corresponde:",
+      "alternativas": {
+        "A": "a uma prática que decorre dos atos justos praticados por homens justos.",
+        "B": "ao contrato social que assegura os direitos e as liberdades individuais.",
+        "C": "ao processo histórico de luta contra a exploração e a conquista da emancipação.",
+        "D": "a uma concepção ideal a ser conhecida e compreendida pela razão."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata sobre justiça. A alternativa A está incorreta. Para Platão, a justiça não é uma prática que decorre apenas de atos humanos, a justiça está além das ações concretas, sendo uma ideia universal e perfeita no mundo das ideias, acessível pela razão. A alternativa B está incorreta. Essa visão é atribuída aos contratualistas, como Hobbes, Locke e Rousseau, e não a Platão. Platão entendia a justiça como uma essência ideal, e não como um pacto social para organizar a convivência humana. A alternativa C está incorreta. Essa concepção está associada a correntes como o materialismo histórico de Marx, que entende a justiça em termos históricos e sociais. Platão, por outro lado, fundamenta a justiça no mundo das ideias, desvinculando-a de processos históricos. A alternativa D está correta. Para Platão, a justiça é uma ideia universal, perfeita e imutável que existe no mundo inteligível, acessível apenas pela razão. Em A República, ele explica que a justiça, assim como o Bem, faz parte do mundo das essências, sendo conhecida apenas por meio do exercício filosófico e da busca pela verdade."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_10",
+      "materia": "Filosofia do Direito",
+      "assunto": "Formas de governo em Aristóteles",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "O governo é o exercício do poder supremo do Estado. Este poder só poderia estar ou nas mãos de um só, ou da minoria, ou da maioria das pessoas. Quando o monarca, a minoria ou a maioria não buscam, uns ou outros, senão a felicidade geral, o governo é necessariamente justo. (Aristóteles)",
+      "enunciado": "No livro A Política, Aristóteles fala do que ele considera as formas adequadas ou justas de governo de um, de poucos e de muitos. São elas, respectivamente, monarquia, aristocracia e república. Porém, ele afirma que cada uma dessas formas de governo pode degenerar, respectivamente, para uma forma injusta. Seriam elas:",
+      "alternativas": {
+        "A": "Tirania, que busca apenas a utilidade do monarca; oligarquia, que busca apenas a utilidade dos ricos; e democracia, que busca apenas a utilidade dos pobres.",
+        "B": "Imperialismo, que busca apenas o que é bom para o império; aporofobia, que busca apenas o que é bom para os ricos; e timocracia, que busca apenas o que é bom para os pobres.",
+        "C": "Cleptocracia, que admite os desvios de quem governa; parlamentarismo, que enfraquece o poder do governante; e agorafobia, que enfraquece o poder dos cidadãos.",
+        "D": "Misticismo, que cria um fetiche em torno do governante; elitismo, em que apenas um pequeno grupo governa de fato; e assembleísmo, que dificulta o processo de decisão política."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre política. A alternativa A está correta. Segundo Aristóteles, a monarquia degenera em tirania, pois o governante busca seus próprios interesses em detrimento do bem comum. A aristocracia degenera em oligarquia, quando o poder é exercido em benefício de poucos ricos. Já a república (ou politeia), que visa o bem comum, degenera em uma forma injusta que ele também chama de democracia (no sentido negativo), pois ela busca atender exclusivamente os interesses das massas pobres. A alternativa B está incorreta. Aristóteles não usa os termos 'imperialismo' nem 'aporofobia' para se referir às degenerações das formas de governo. Esses conceitos são anacrônicos e alheios à sua filosofia política. A alternativa C está incorreta. Embora 'cleptocracia' se refira a governos corruptos, Aristóteles não faz uso desse termo, e 'parlamentarismo' e 'agorafobia' não estão relacionados com sua análise de formas de governo e suas degenerações. A alternativa D está incorreta. Aristóteles não menciona 'misticismo', 'elitismo' ou 'assembleísmo' como formas degeneradas de governo. Esses conceitos modernos não se aplicam à sua classificação das formas de governo."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_9",
+      "materia": "Filosofia do Direito",
+      "assunto": "Escola da Exegese",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Entre as diferentes correntes do positivismo jurídico, a Escola da Exegese destacou-se, sobretudo, por seus estudos em torno do Código de Napoleão. O jusfilósofo Miguel Reale, em seu livro Filosofia do Direito, afirma que, segundo essa escola, a evolução do Direito somente poderia se operar por meio do processo legislativo. Assinale a opção que, de acordo com Reale no livro em referência, apresenta a tese fundamental da Escola da Exegese.",
+      "alternativas": {
+        "A": "É a exegese da constituição que pode oferecer aos juristas a compreensão do ideal de justiça, que vincula e limita a liberdade de conformação legislativa da autoridade política.",
+        "B": "O Direito, por excelência, é revelado pelas leis, que são normas gerais escritas e emanadas pelo Estado, constitutivas de direito e instauradoras de faculdades e obrigações.",
+        "C": "A lei é o instrumento que revela os valores e princípios que são logicamente anteriores e eticamente superiores ao Estado e que conformam e estruturam o direito positivo.",
+        "D": "A interpretação da lei é a atividade essencial do jurista, que deve realizá-la buscando a vontade da lei em si, seus fins sociais e as exigências do bem comum, de modo a assegurar a própria evolução do direito."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata do tema positivismo jurídico. Com o Código Napoleônico (1804), surge a Escola da Exegese, que propõe a lei como a única fonte válida e incontestável do direito, sendo coesa e sem lacunas. Nesse contexto, a função do juiz é meramente aplicar a lei, sem margem para liberdade interpretativa. O positivismo jurídico, por sua vez, posiciona a norma como o objeto exclusivo da ciência jurídica e defende a independência dessa área em relação às demais ciências, especialmente à ética e à política, baseando-se no princípio da autonomia. Como consequência dessa visão, o direito passa a ser entendido como um reflexo do poder estatal, limitado às normas coercitivas e oficiais, caracterizando-se pela heteronomia. Nesse modelo, o direito não precisa corresponder necessariamente a conceitos de justiça, sendo aceito simplesmente por sua natureza oficial. A alternativa A está incorreta. Essa descrição se aproxima mais de teorias constitucionalistas do que da Escola da Exegese. A Escola da Exegese focava na lei ordinária escrita e não na Constituição como centro da atividade interpretativa. A alternativa B está correta. Esta alternativa reflete com precisão o pensamento da Escola da Exegese, segundo Miguel Reale. Para essa escola, o Direito se confunde com a lei escrita, emanada do legislador — não há Direito fora daquilo que a lei positiva prevê. A alternativa C está incorreta. Isso porque reflete a ideia típica do jusnaturalismo (Direito Natural), não do positivismo legalista da Exegese. A Escola da Exegese considerava que o Direito está na lei, não em princípios éticos anteriores ao Estado. A alternativa D está incorreta. Na Exegese, a interpretação não buscava o 'bem comum' nem 'fins sociais', mas se limitava a declarar o sentido objetivo da letra da lei."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_10",
+      "materia": "Filosofia do Direito",
+      "assunto": "Dignidade em Kant",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Segundo Kant, em seu livro Fundamentação da Metafísica dos Costumes, cada indivíduo, como ser moral, possui uma dignidade que lhe é própria. Assinale a afirmativa que, segundo Kant, no livro em referência, mostra como a dignidade deve ser entendida.",
+      "alternativas": {
+        "A": "Como o conjunto dos direitos fundamentais que devem ser assegurados pelo Estado e que permitem a cada indivíduo o exercício de sua plena cidadania.",
+        "B": "Como o valor moral da humanidade que, por isso mesmo, deve ser sempre posto em cálculo ou confronto com qualquer coisa que possua um preço, a fim de se verificar o que deve prevalecer.",
+        "C": "Como o valor do trabalho livre de uma pessoa no processo de transformação da natureza em bens de consumo úteis à existência e ao desenvolvimento econômico e moral da sociedade.",
+        "D": "Como aquilo que não possui um preço – valor relativo –, mas um valor íntimo, ou seja, uma condição graças à qual algo deve ser considerado um fim em si mesmo."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata do tema dignidade, segundo Kant. A alternativa A está incorreta. Embora Kant reconheça a importância dos direitos fundamentais para garantir a liberdade e a autonomia dos indivíduos, ele não define a dignidade exclusivamente como o conjunto desses direitos. Para Kant, a dignidade está relacionada à moralidade e à capacidade de agir de acordo com princípios éticos, não sendo apenas um conjunto de direitos garantidos pelo Estado. A dignidade, para Kant, é algo intrínseco à humanidade de cada pessoa, não dependendo diretamente da proteção de direitos formais. A alternativa B está incorreta. Esta alternativa está equivocada porque Kant, em sua filosofia moral, argumenta que a dignidade humana não pode ser calculada ou comparada com coisas que possuem preço. A alternativa C está incorreta. Kant não define a dignidade humana com base no trabalho ou no processo de transformação da natureza. A alternativa D está correta. Esta alternativa reflete a concepção kantiana de dignidade. Kant argumenta que a dignidade humana não pode ser comparada com objetos ou bens que têm um preço (e podem ser trocados ou substituídos), pois ela é um valor absoluto e intrínseco ao ser humano. A dignidade é algo que deve ser tratado como um 'fim em si mesmo', ou seja, cada pessoa deve ser tratada com respeito, independentemente de seus interesses ou valor utilitário. Esse é um dos princípios fundamentais da ética de Kant, a que ele chama de imperativo categórico."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_9",
+      "materia": "Filosofia do Direito",
+      "assunto": "John Locke e a obrigatoriedade universal das leis civis",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "John Locke, em seu Segundo Tratado sobre o Governo, fala da instituição de uma sociedade política onde devem vigorar não mais as leis da natureza, mas as leis feitas pelo poder civil. Portanto, nessa sociedade política, o parlamento faz as leis para que sejam cumpridas. Assinale a opção que, segundo Locke no livro em referência, expressa corretamente a ideia de cumprimento e obediência às leis civis.",
+      "alternativas": {
+        "A": "Todas as pessoas, as mais distintas e as mais modestas, estão sujeitas às leis feitas pelo parlamento, inclusive os próprios parlamentares, pois ninguém pode, na sociedade civil, isentar-se das leis que a regem.",
+        "B": "Os cidadãos ficam sujeitos às leis do governo civil após o contrato social, mas o soberano, encarnado nos agentes do governo, não faz parte do pacto e, por isso, não deve obediência às leis que produz.",
+        "C": "Os cidadãos e os governantes estão sujeitos às leis instituídas após o contrato social, contudo as autoridades religiosas, ainda que vivam na sociedade civil, não devem obediência às leis, mas, sim, a Deus.",
+        "D": "Os governantes, responsáveis pela administração da sociedade política, e os governados devem se submeter ao império da lei, contudo, parlamentares e magistrados estão isentos da obediência à lei para exercerem seu ofício de forma livre e soberana."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata da igualdade jurídica e da obrigatoriedade universal das leis civis no pensamento de John Locke, dentro do contexto do contrato social e da fundação da sociedade política. A alternativa A está correta, pois Locke defende a ideia de que, na sociedade civil, todos são iguais perante a lei. As normas estabelecidas pelo Parlamento vinculam indistintamente governantes e governados. Isso garante que ninguém esteja acima da lei, princípio fundamental do constitucionalismo moderno e do Estado de Direito. A alternativa B está incorreta, já que esse raciocínio se aproxima da teoria de Hobbes, não de Locke. Em Hobbes, o soberano não faz parte do contrato social e não está sujeito às mesmas obrigações que os súditos. A alternativa C está incorreta, pois Locke distingue as esferas civil e religiosa (especialmente em sua Carta sobre a Tolerância), mas nunca concede às autoridades religiosas o poder de se isentar das leis civis. A alternativa D está incorreta, na medida em que nega um dos pilares do pensamento lockeano: ninguém pode estar acima da lei, nem mesmo os que a criam ou aplicam."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_9",
+      "materia": "Filosofia do Direito",
+      "assunto": "Contrato Social em Rousseau",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Encontrar uma forma de associação que defenda e proteja as pessoas e os bens de cada associado com toda a força comum, e pela qual cada um, unindo-se a todos, só obedece a si mesmo, permanecendo, assim, tão livre quanto antes. (Jean-Jacques Rousseau)",
+      "enunciado": "Assinale a opção que indica a forma de associação que, segundo Rousseau, responde a esse problema.",
+      "alternativas": {
+        "A": "Luta de Classes.",
+        "B": "Contrato Social.",
+        "C": "União das Nações.",
+        "D": "Utilitarismo de Regras."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre Contrato Social. A alternativa A está incorreta. Este é um conceito fundamental de Karl Marx, e não de Rousseau. Veja o comentário da alternativa B. A alternativa B está correta. Para Rousseau, o Contrato Social é o pacto em que os indivíduos abrem mão de seu \"poder natural\" em favor da comunidade. Ao fazerem isso, eles criam a Vontade Geral. Conforme assim sintetiza Bianca Mussolino, “[...] o Contrato Social é o pacto em que os indivíduos abrem mão de seu \"poder natural\" em favor da comunidade. Ao fazerem isso, eles criam a Vontade Geral. A alternativa C está incorreta. A ideia de união de nações remete mais a conceitos contemporâneos de Direito Internacional do que o contrato social. Veja o comentário da alternativa B. A alternativa D está incorreta. O Utilitarismo é uma corrente ética fundada por Jeremy Bentham e John Stuart Mill."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_10",
+      "materia": "Filosofia do Direito",
+      "assunto": "Interpretação jurídica: espécies",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Considere hipoteticamente que determinado Tribunal, no julgamento de três casos diversos, profere as seguintes decisões: I. Ao analisar determinada lei que diz ser \"proibida a entrada de animais em estabelecimentos comerciais\", o Tribunal decide que cães-guias de pessoas com deficiência visual não estão abrangidos pela norma. II. Interpretando lei segundo a qual \"é proibido fumar em ambientes fechados\", o Tribunal considera que a proibição deve se limitar ao que está textualmente contido na norma. III. Com base em lei que prevê o \"benefício da licença-maternidade à mãe biológica\", o Tribunal defere esse benefício a uma mãe adotiva. Assinale a opção que indica corretamente os tipos de interpretação adotados pelo Tribunal nos casos I, II e III, respectivamente.",
+      "alternativas": {
+        "A": "Extensiva, teleológica e axiológica.",
+        "B": "Axiológica, restritiva e especificadora.",
+        "C": "Restritiva, especificadora e extensiva.",
+        "D": "Especificadora, restritiva e teleológica."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C, conforme o gabarito divulgado pela banca. Entretanto, mantemos nosso posicionamento quanto ao gabarito ser a alternativa D, sendo essa questão passível de recurso. A questão trata do sobre hermenêutica. A alternativa C está correta, conforme o gabarito divulgado pela banca. A questão pediu o \"tipo de interpretação\" no sentido do resultado da norma frente ao caso concreto. Veja o comentário da alternativa D. A alternativa D está correta. Na primeira decisão (I), ao especificar que a norma não atinge cães-guia, apresenta uma INTERPRETAÇÃO ESPECIFICADORA, que ao contrário do entendimento do Examinador, não apenas declara o conteúdo da norma, mas específica e destaca um determinado elemento de fato ou de Direito, o que foi o caso. Na segunda decisão (II), há uma INTERPRETAÇÃO RESTRITIVA, pois limita textualmente o alcance da norma ao explicitar que a proibição de fumar ocorre exclusivamente em ambientes fechados. Por fim, na terceira decisão (III), tem-se uma INTERPRETAÇÃO TELEOLÓGICA, pois descreve fato que está em consonância com a finalidade da norma, que é proteger todas as mães, independentemente de ser adotiva ou biológica. Devido ao fundamento da letra D, as demais alternativas ficam automaticamente incorretas."
+    }
+  ]
+}

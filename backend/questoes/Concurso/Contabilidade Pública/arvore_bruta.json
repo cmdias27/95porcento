@@ -1,0 +1,2830 @@
+[
+  {
+    "id": 405708,
+    "nome": "Elementos Introdutórios da Contabilidade Pública |"
+  },
+  {
+    "id": 412048,
+    "nome": "Conceito e Aplicabilidade das Normas |"
+  },
+  {
+    "id": 412049,
+    "nome": "Conceito de Contabilidade Aplicada ao Setor Público |"
+  },
+  {
+    "id": 412050,
+    "nome": "Normas Contábeis |"
+  },
+  {
+    "id": 412051,
+    "nome": "Campo de Aplicação da Contabilidade Pública |"
+  },
+  {
+    "id": 412052,
+    "nome": "Empresas Estatais Dependentes (EED) |"
+  },
+  {
+    "id": 412053,
+    "nome": "Conselhos Profissionais |"
+  },
+  {
+    "id": 412054,
+    "nome": "Serviços Sociais Autônomos |"
+  },
+  {
+    "id": 412055,
+    "nome": "Objeto da Contabilidade |"
+  },
+  {
+    "id": 412056,
+    "nome": "Objetivo da Contabilidade |"
+  },
+  {
+    "id": 412057,
+    "nome": "Usuários da Informação Contábil |"
+  },
+  {
+    "id": 412058,
+    "nome": "Evolução da contabilidade pública |"
+  },
+  {
+    "id": 412059,
+    "nome": "Processo de Convergência às Normas Internacionais de Contabilidade |"
+  },
+  {
+    "id": 412061,
+    "nome": "Bens Públicos |"
+  },
+  {
+    "id": 412062,
+    "nome": "Bens de Uso Comum do Povo |"
+  },
+  {
+    "id": 412063,
+    "nome": "Bens de uso Especial |"
+  },
+  {
+    "id": 412064,
+    "nome": "Bens Dominicais |"
+  },
+  {
+    "id": 405709,
+    "nome": "Princípios de Contabilidade |"
+  },
+  {
+    "id": 412065,
+    "nome": "Aplicação dos Princípios |"
+  },
+  {
+    "id": 412066,
+    "nome": "Princípio da Entidade |"
+  },
+  {
+    "id": 412067,
+    "nome": "Princípio da Continuidade |"
+  },
+  {
+    "id": 412068,
+    "nome": "Princípio da Oportunidade |"
+  },
+  {
+    "id": 412069,
+    "nome": "Princípio do Registro pelo Valor Original |"
+  },
+  {
+    "id": 412070,
+    "nome": "Princípio da Competência |"
+  },
+  {
+    "id": 412071,
+    "nome": "Princípio da Prudência |"
+  },
+  {
+    "id": 412072,
+    "nome": "Elementos Orçamentários |"
+  },
+  {
+    "id": 412073,
+    "nome": "Ingressos e dispêndios |"
+  },
+  {
+    "id": 412074,
+    "nome": "Conceitos |"
+  },
+  {
+    "id": 412075,
+    "nome": "Situações especiais de ingressos e dispêndios |"
+  },
+  {
+    "id": 412076,
+    "nome": "Restos a Pagar e Serviço da Dívida a Pagar: inscrição e cancelamento |"
+  },
+  {
+    "id": 412077,
+    "nome": "Superávit do Orçamento Corrente (SOC) |"
+  },
+  {
+    "id": 412078,
+    "nome": "Receita dos Conselhos Profissionais |"
+  },
+  {
+    "id": 405719,
+    "nome": "Receita Orçamentária |"
+  },
+  {
+    "id": 412079,
+    "nome": "Classificações |"
+  },
+  {
+    "id": 412085,
+    "nome": "Classificação da receita quanto à natureza |"
+  },
+  {
+    "id": 412086,
+    "nome": "Quanto à categoria econômica (1º nível quanto à natureza) |"
+  },
+  {
+    "id": 412087,
+    "nome": "Quanto à origem (2º nível quanto à natureza) |"
+  },
+  {
+    "id": 412088,
+    "nome": "Quanto à espécie (3º nível quanto à natureza) |"
+  },
+  {
+    "id": 412089,
+    "nome": "Quanto ao desdobramento (4º nível quanto à natureza) |"
+  },
+  {
+    "id": 412090,
+    "nome": "Quanto ao tipo (5º nível quanto à natureza) |"
+  },
+  {
+    "id": 412091,
+    "nome": "Classificação da receita por fonte |"
+  },
+  {
+    "id": 412092,
+    "nome": "Códigos utilizados na União |"
+  },
+  {
+    "id": 412093,
+    "nome": "Aplicação da fonte de recursos na União |"
+  },
+  {
+    "id": 412094,
+    "nome": "Classificação da receita para apuração do resultado primário |"
+  },
+  {
+    "id": 412095,
+    "nome": "Classificação por esfera orçamentária |"
+  },
+  {
+    "id": 412096,
+    "nome": "Classificação da receita quanto aos efeitos sobre o patrimônio líquido |"
+  },
+  {
+    "id": 412097,
+    "nome": "Classificação da receita quanto à coercitividade |"
+  },
+  {
+    "id": 412098,
+    "nome": "Classificação da receita quanto à periodicidade |"
+  },
+  {
+    "id": 412080,
+    "nome": "Etapas e estágio da receita |"
+  },
+  {
+    "id": 412099,
+    "nome": "Etapa de planejamento |"
+  },
+  {
+    "id": 412100,
+    "nome": "Etapa de execução |"
+  },
+  {
+    "id": 412101,
+    "nome": "Lançamento |"
+  },
+  {
+    "id": 412102,
+    "nome": "Arrecadação |"
+  },
+  {
+    "id": 412103,
+    "nome": "Recolhimento |"
+  },
+  {
+    "id": 412104,
+    "nome": "Etapa de controle e avaliação |"
+  },
+  {
+    "id": 412081,
+    "nome": "Recursos financeiros não reconhecidos como receita orçamentária |"
+  },
+  {
+    "id": 412105,
+    "nome": "Superávit financeiro |"
+  },
+  {
+    "id": 412106,
+    "nome": "Cancelamento de despesas inscritas em resto a pagar |"
+  },
+  {
+    "id": 412082,
+    "nome": "Receitas extraorçamentárias |"
+  },
+  {
+    "id": 412107,
+    "nome": "Deduções da receita |"
+  },
+  {
+    "id": 412108,
+    "nome": "Restituição de receitas orçamentárias |"
+  },
+  {
+    "id": 412109,
+    "nome": "Retificação |"
+  },
+  {
+    "id": 412110,
+    "nome": "Recursos cuja tributação e arrecadação competem a um ente da federação, mas são atribuídos a outro(s) ente(s) |"
+  },
+  {
+    "id": 412111,
+    "nome": "Renúncia de receita |"
+  },
+  {
+    "id": 412112,
+    "nome": "Contabilização da renúncia da receita no plano de contas |"
+  },
+  {
+    "id": 412113,
+    "nome": "Imposto de Renda retido na fonte |"
+  },
+  {
+    "id": 412114,
+    "nome": "Redutor financeiro - FPM |"
+  },
+  {
+    "id": 412115,
+    "nome": "Registros orçamentários das transferências governamentais |"
+  },
+  {
+    "id": 412116,
+    "nome": "Remuneração de depósitos bancários |"
+  },
+  {
+    "id": 412117,
+    "nome": "Receita orçamentária por baixa de dívida ativa inscrita |"
+  },
+  {
+    "id": 412083,
+    "nome": "Procedimentos contábeis referentes à receita orçamentária |"
+  },
+  {
+    "id": 412084,
+    "nome": "Definições |"
+  },
+  {
+    "id": 405746,
+    "nome": "Despesa Orçamentária |"
+  },
+  {
+    "id": 405747,
+    "nome": "Classificações |"
+  },
+  {
+    "id": 412121,
+    "nome": "Classificação da despesa por esfera orçamentária |"
+  },
+  {
+    "id": 412122,
+    "nome": "Classificação institucional |"
+  },
+  {
+    "id": 412123,
+    "nome": "Classificação funcional |"
+  },
+  {
+    "id": 412129,
+    "nome": "Função |"
+  },
+  {
+    "id": 412130,
+    "nome": "Subfunção |"
+  },
+  {
+    "id": 412124,
+    "nome": "Classificação programática |"
+  },
+  {
+    "id": 412131,
+    "nome": "Programa |"
+  },
+  {
+    "id": 412132,
+    "nome": "Ação |"
+  },
+  {
+    "id": 412133,
+    "nome": "Subtítulos |"
+  },
+  {
+    "id": 412134,
+    "nome": "Plano orçamentário |"
+  },
+  {
+    "id": 412135,
+    "nome": "Padronização de ações no âmbito federal |"
+  },
+  {
+    "id": 412125,
+    "nome": "Classificação por IDOC, IDUSO e fonte de recursos |"
+  },
+  {
+    "id": 412126,
+    "nome": "Classificação econômica (quanto à natureza) |"
+  },
+  {
+    "id": 412137,
+    "nome": "Conforme a Lei nº 4.320/64 |"
+  },
+  {
+    "id": 412138,
+    "nome": "Conforme Portaria 163/01 |"
+  },
+  {
+    "id": 412127,
+    "nome": "Classificação da despesa por identificador de resultado primário |"
+  },
+  {
+    "id": 412128,
+    "nome": "Classificação da despesa quanto aos efeitos sobre o patrimônio público |"
+  },
+  {
+    "id": 412118,
+    "nome": "Etapas e estágio da despesa |"
+  },
+  {
+    "id": 412139,
+    "nome": "Etapa de planejamento |"
+  },
+  {
+    "id": 412140,
+    "nome": "Estágio de fixação |"
+  },
+  {
+    "id": 412141,
+    "nome": "Estágio de descentralização de créditos orçamentários |"
+  },
+  {
+    "id": 412142,
+    "nome": "Programação orçamentária e financeira |"
+  },
+  {
+    "id": 412143,
+    "nome": "Estágio da licitação |"
+  },
+  {
+    "id": 412144,
+    "nome": "Etapa de execução |"
+  },
+  {
+    "id": 412145,
+    "nome": "Estágio do empenho |"
+  },
+  {
+    "id": 412146,
+    "nome": "Estágio da liquidação |"
+  },
+  {
+    "id": 412147,
+    "nome": "Estágio do pagamento |"
+  },
+  {
+    "id": 412148,
+    "nome": "Etapa de controle e avaliação |"
+  },
+  {
+    "id": 412119,
+    "nome": "Despesas extraorçamentárias |"
+  },
+  {
+    "id": 412120,
+    "nome": "Procedimentos contábeis referentes à despesa orçamentária |"
+  },
+  {
+    "id": 412149,
+    "nome": "Quanto à classificação da despesa por natureza |"
+  },
+  {
+    "id": 412150,
+    "nome": "Material permanente e material de consumo |"
+  },
+  {
+    "id": 412151,
+    "nome": "Serviços de terceiros e material de consumo |"
+  },
+  {
+    "id": 412152,
+    "nome": "Obras/instalações e serviços de terceiros |"
+  },
+  {
+    "id": 412153,
+    "nome": "Despesa de exercícios anteriores, indenizações e restituições, elemento próprio |"
+  },
+  {
+    "id": 412154,
+    "nome": "Restos a Pagar |"
+  },
+  {
+    "id": 412155,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 412156,
+    "nome": "Controles gerais sobre restos a pagar previstos na LRF |"
+  },
+  {
+    "id": 412157,
+    "nome": "Controles específicos sobre restos a pagar processados |"
+  },
+  {
+    "id": 412158,
+    "nome": "Controles específicos sobre restos a pagar não processados |"
+  },
+  {
+    "id": 412159,
+    "nome": "Restos a pagar de despesas plurianuais |"
+  },
+  {
+    "id": 412160,
+    "nome": "Prescrição e cancelamento de restos a pagar |"
+  },
+  {
+    "id": 412161,
+    "nome": "Cancelamento e reinscrição de restos a pagar |"
+  },
+  {
+    "id": 412162,
+    "nome": "Despesas de Exercícios Anteriores |"
+  },
+  {
+    "id": 412164,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 412165,
+    "nome": "Situações |"
+  },
+  {
+    "id": 412166,
+    "nome": "Despesas que não se tenham processado na época própria |"
+  },
+  {
+    "id": 412167,
+    "nome": "Restos a pagar com prescrição interrompida |"
+  },
+  {
+    "id": 412168,
+    "nome": "Compromissos reconhecidos após o encerramento do exercício |"
+  },
+  {
+    "id": 412163,
+    "nome": "Suprimento de Fundos |"
+  },
+  {
+    "id": 412169,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 412170,
+    "nome": "Fases |"
+  },
+  {
+    "id": 412171,
+    "nome": "Concessão |"
+  },
+  {
+    "id": 412172,
+    "nome": "Aplicação |"
+  },
+  {
+    "id": 412173,
+    "nome": "Comprovação |"
+  },
+  {
+    "id": 412174,
+    "nome": "Escrituração Contábil |"
+  },
+  {
+    "id": 405710,
+    "nome": "Patrimônio Público |"
+  },
+  {
+    "id": 405711,
+    "nome": "Conceito de Patrimônio Público |"
+  },
+  {
+    "id": 412175,
+    "nome": "Composição do Patrimônio Público |"
+  },
+  {
+    "id": 412176,
+    "nome": "Ativo |"
+  },
+  {
+    "id": 412177,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 412178,
+    "nome": "Recurso |"
+  },
+  {
+    "id": 412179,
+    "nome": "Controle |"
+  },
+  {
+    "id": 412180,
+    "nome": "Evento Passado |"
+  },
+  {
+    "id": 412181,
+    "nome": "Reconhecimento do Ativo |"
+  },
+  {
+    "id": 412182,
+    "nome": "Ativo Circulante e não Circulante |"
+  },
+  {
+    "id": 412183,
+    "nome": "Ativo Financeiro e Permanente (não financeiro) |"
+  },
+  {
+    "id": 405712,
+    "nome": "Passivo |"
+  },
+  {
+    "id": 412184,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 412188,
+    "nome": "Obrigação Presente |"
+  },
+  {
+    "id": 412191,
+    "nome": "Obrigações Legais |"
+  },
+  {
+    "id": 412192,
+    "nome": "Obrigações não Legalmente Vinculadas |"
+  },
+  {
+    "id": 412190,
+    "nome": "Saída de Recursos da Entidade |"
+  },
+  {
+    "id": 412185,
+    "nome": "Reconhecimento do Passivo |"
+  },
+  {
+    "id": 412186,
+    "nome": "Passivo Circulante e não Circulante |"
+  },
+  {
+    "id": 412187,
+    "nome": "Passivo Financeiro e Permanente |"
+  },
+  {
+    "id": 405713,
+    "nome": "Patrimônio Líquido (situação patrimonial líquida) |"
+  },
+  {
+    "id": 412193,
+    "nome": "Sistemas e Natureza das Contas |"
+  },
+  {
+    "id": 412194,
+    "nome": "Origem da Natureza das Contas |"
+  },
+  {
+    "id": 412195,
+    "nome": "Subsistemas e Natureza das Contas |"
+  },
+  {
+    "id": 412197,
+    "nome": "Características Gerais dos Subsistemas e das Naturezas das Contas |"
+  },
+  {
+    "id": 412196,
+    "nome": "Aplicação do Método das Partidas Dobradas |"
+  },
+  {
+    "id": 412198,
+    "nome": "Transações Contábeis |"
+  },
+  {
+    "id": 412199,
+    "nome": "Natureza das Transações no Setor Público |"
+  },
+  {
+    "id": 412200,
+    "nome": "Variações Patrimoniais |"
+  },
+  {
+    "id": 405714,
+    "nome": "Variações Patrimoniais |"
+  },
+  {
+    "id": 412202,
+    "nome": "Fatos Modificativos, Permutativos e Mistos |"
+  },
+  {
+    "id": 405716,
+    "nome": "Variações Quantitativas |"
+  },
+  {
+    "id": 412203,
+    "nome": "Variações Quantitativas Orçamentárias |"
+  },
+  {
+    "id": 412205,
+    "nome": "Receitas Efetivas |"
+  },
+  {
+    "id": 412206,
+    "nome": "Despesas Efetivas |"
+  },
+  {
+    "id": 412204,
+    "nome": "Variações Quantitativas Extraorçamentárias |"
+  },
+  {
+    "id": 412207,
+    "nome": "Superveniências e Insubsistências do Ativo e do Passivo |"
+  },
+  {
+    "id": 405715,
+    "nome": "Variações Qualitativas |"
+  },
+  {
+    "id": 412208,
+    "nome": "Variações Qualitativas Decorrentes da Execução Orçamentária |"
+  },
+  {
+    "id": 405717,
+    "nome": "Realização da variação patrimonial |"
+  },
+  {
+    "id": 412210,
+    "nome": "Interferências Ativas e Passivas |"
+  },
+  {
+    "id": 405718,
+    "nome": "Resultado patrimonial |"
+  },
+  {
+    "id": 412211,
+    "nome": "Plano de Contas Aplicado ao Setor Público (PCASP) |"
+  },
+  {
+    "id": 412214,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 412215,
+    "nome": "Objetivos do PCASP |"
+  },
+  {
+    "id": 412216,
+    "nome": "Competência para Instituição e Manutenção do PCASP |"
+  },
+  {
+    "id": 412217,
+    "nome": "Diretrizes do PCASP |"
+  },
+  {
+    "id": 412218,
+    "nome": "Alcance do PCASP |"
+  },
+  {
+    "id": 412219,
+    "nome": "Hierarquia de Normas |"
+  },
+  {
+    "id": 412220,
+    "nome": "Teoria das Contas e PCASP |"
+  },
+  {
+    "id": 412221,
+    "nome": "Estrutura do PCASP |"
+  },
+  {
+    "id": 412222,
+    "nome": "Natureza da Informação Contábil |"
+  },
+  {
+    "id": 412223,
+    "nome": "Código da Conta Contábil |"
+  },
+  {
+    "id": 412224,
+    "nome": "Estrutura do Código da Conta Contábil |"
+  },
+  {
+    "id": 412225,
+    "nome": "Detalhamento da Conta Contábil |"
+  },
+  {
+    "id": 412227,
+    "nome": "Consolidação |"
+  },
+  {
+    "id": 412226,
+    "nome": "Atributos da Conta Contábil |"
+  },
+  {
+    "id": 412228,
+    "nome": "Atributos Conceituais |"
+  },
+  {
+    "id": 412229,
+    "nome": "Atributos Legais |"
+  },
+  {
+    "id": 412230,
+    "nome": "Regras de Integridade do PCASP |"
+  },
+  {
+    "id": 412231,
+    "nome": "Lançamentos Contábeis |"
+  },
+  {
+    "id": 412232,
+    "nome": "Pagamento e Recebimento |"
+  },
+  {
+    "id": 412233,
+    "nome": "Desenvolvimento de Equações Contábeis |"
+  },
+  {
+    "id": 412234,
+    "nome": "Consistência dos Registros e Saldos de Contas |"
+  },
+  {
+    "id": 412235,
+    "nome": "Restrições Acerca da Informação Incluída no RCPGS |"
+  },
+  {
+    "id": 412236,
+    "nome": "Materialidade |"
+  },
+  {
+    "id": 412237,
+    "nome": "Custo-Benefício |"
+  },
+  {
+    "id": 412238,
+    "nome": "Equilíbrio entre as Características Qualitativas |"
+  },
+  {
+    "id": 412239,
+    "nome": "Prazos do PCASP |"
+  },
+  {
+    "id": 412212,
+    "nome": "Operações Típicas |"
+  },
+  {
+    "id": 412240,
+    "nome": "Receita Orçamentária |"
+  },
+  {
+    "id": 412244,
+    "nome": "Receitas Efetivas e não Efetivas |"
+  },
+  {
+    "id": 412245,
+    "nome": "Receitas em que o Fato Gerador Ocorre Antes da Arrecadação |"
+  },
+  {
+    "id": 412241,
+    "nome": "Despesa Orçamentária |"
+  },
+  {
+    "id": 412246,
+    "nome": "Despesas em que o Fato Gerador coincide com a Liquidação |"
+  },
+  {
+    "id": 412247,
+    "nome": "Despesas em que o Fato Gerador ocorre antes da Liquidação |"
+  },
+  {
+    "id": 412248,
+    "nome": "Despesas em que o Fato Gerador ocorre antes do Empenho |"
+  },
+  {
+    "id": 412249,
+    "nome": "Movimentação de Crédito |"
+  },
+  {
+    "id": 412242,
+    "nome": "Operações Extraorçamentárias |"
+  },
+  {
+    "id": 412250,
+    "nome": "Depreciação e Impairment |"
+  },
+  {
+    "id": 412251,
+    "nome": "Reavaliação |"
+  },
+  {
+    "id": 412252,
+    "nome": "Recebimento e Doação de Bens |"
+  },
+  {
+    "id": 412253,
+    "nome": "Restos a Pagar Processados |"
+  },
+  {
+    "id": 412254,
+    "nome": "Restos a Pagar não Processados em que o Fato Gerador ocorre na Liquidação |"
+  },
+  {
+    "id": 412255,
+    "nome": "Restos a Pagar não Processados em que o Fato Gerador ocorre antes da Liquidação |"
+  },
+  {
+    "id": 412256,
+    "nome": "Depósito e Cauções |"
+  },
+  {
+    "id": 412257,
+    "nome": "Antecipação de Receita Orçamentária (ARO) |"
+  },
+  {
+    "id": 412243,
+    "nome": "Operações Especiais |"
+  },
+  {
+    "id": 412258,
+    "nome": "Ciclo da Disponibilidade de Recursos |"
+  },
+  {
+    "id": 412259,
+    "nome": "Contratos |"
+  },
+  {
+    "id": 412260,
+    "nome": "Dívida Ativa |"
+  },
+  {
+    "id": 412261,
+    "nome": "Operações de Crédito |"
+  },
+  {
+    "id": 412262,
+    "nome": "Alienação de Bens com Ganho de Capital |"
+  },
+  {
+    "id": 412263,
+    "nome": "Créditos Adicionais |"
+  },
+  {
+    "id": 412213,
+    "nome": "Regimes Contábeis |"
+  },
+  {
+    "id": 412264,
+    "nome": "Regimes Contábeis da Ciência Contábil |"
+  },
+  {
+    "id": 412268,
+    "nome": "Enfoque Orçamentário |"
+  },
+  {
+    "id": 412269,
+    "nome": "Enfoque Patrimonial |"
+  },
+  {
+    "id": 412265,
+    "nome": "Receita Sob o Enfoque Patrimonial |"
+  },
+  {
+    "id": 412270,
+    "nome": "Fato Gerador da Receita Antes da Arrecadação |"
+  },
+  {
+    "id": 412271,
+    "nome": "Fato Gerador da Receita na Arrecadação |"
+  },
+  {
+    "id": 412272,
+    "nome": "Fato Gerador da Receita Após a Arrecadação |"
+  },
+  {
+    "id": 412266,
+    "nome": "Despesa Sob o Enfoque Patrimonial |"
+  },
+  {
+    "id": 412273,
+    "nome": "Fato Gerador da Despesa antes do Empenho |"
+  },
+  {
+    "id": 412274,
+    "nome": "Fato Gerador da Despesa na Liquidação |"
+  },
+  {
+    "id": 412275,
+    "nome": "Fato Gerador da Despesa Após a Liquidação |"
+  },
+  {
+    "id": 412267,
+    "nome": "Registros Patrimoniais Decorrentes das Despesas Orçamentárias de Exercícios Anteriores |"
+  },
+  {
+    "id": 405728,
+    "nome": "Tratamento contábil aplicável aos impostos e contribuições |"
+  },
+  {
+    "id": 405729,
+    "nome": "Sistema de custos no setor público |"
+  },
+  {
+    "id": 405730,
+    "nome": "Classificação e Nomenclatura de custos |"
+  },
+  {
+    "id": 405731,
+    "nome": "Aspectos legais do sistema de custos |"
+  },
+  {
+    "id": 405732,
+    "nome": "Ambiente da informação de custos |"
+  },
+  {
+    "id": 405733,
+    "nome": "Características da informação de custos |"
+  },
+  {
+    "id": 405734,
+    "nome": "Terminologia de custos |"
+  },
+  {
+    "id": 405736,
+    "nome": "Demonstrações contábeis aplicadas ao setor público |"
+  },
+  {
+    "id": 412276,
+    "nome": "Aspectos Gerais das Demonstrações Contábeis (NBC TSP 11) |"
+  },
+  {
+    "id": 412277,
+    "nome": "Conceitos Iniciais Relacionados às Demonstrações Contábeis |"
+  },
+  {
+    "id": 412278,
+    "nome": "Responsabilidade pelas Demonstrações Contábeis |"
+  },
+  {
+    "id": 412279,
+    "nome": "Finalidade das Demonstrações Contábeis |"
+  },
+  {
+    "id": 412280,
+    "nome": "Considerações Gerais sobre Demonstrações Contábeis |"
+  },
+  {
+    "id": 412282,
+    "nome": "Apresentação Apropriada e Conformidade com as Normas |"
+  },
+  {
+    "id": 412283,
+    "nome": "Continuidade |"
+  },
+  {
+    "id": 412284,
+    "nome": "Consistência de Apresentação |"
+  },
+  {
+    "id": 412285,
+    "nome": "Materialidade e Agregação |"
+  },
+  {
+    "id": 412286,
+    "nome": "Compensação de Valores |"
+  },
+  {
+    "id": 412287,
+    "nome": "Informação Comparativa |"
+  },
+  {
+    "id": 412288,
+    "nome": "Identificação das Demonstrações Contábeis |"
+  },
+  {
+    "id": 412289,
+    "nome": "Período Contábil para Apresentação das Demonstrações |"
+  },
+  {
+    "id": 412290,
+    "nome": "Tempestividade (oportunidade) |"
+  },
+  {
+    "id": 412281,
+    "nome": "Critérios Gerais de Evidenciação das Demonstrações Contábeis |"
+  },
+  {
+    "id": 412291,
+    "nome": "Seleção e Natureza da Informação |"
+  },
+  {
+    "id": 412292,
+    "nome": "Informação Selecionada para Exposição ou Evidenciação |"
+  },
+  {
+    "id": 412293,
+    "nome": "Localização da Informação |"
+  },
+  {
+    "id": 412294,
+    "nome": "Organização da Informação |"
+  },
+  {
+    "id": 405737,
+    "nome": "Balanço orçamentário |"
+  },
+  {
+    "id": 412295,
+    "nome": "Conceitos Gerais |"
+  },
+  {
+    "id": 412296,
+    "nome": "Estrutura |"
+  },
+  {
+    "id": 412302,
+    "nome": "Conforme a Lei nº 4.320/64 |"
+  },
+  {
+    "id": 412303,
+    "nome": "Conforme o MCASP e os anexos atualizados da Lei nº 4.320/64 |"
+  },
+  {
+    "id": 412297,
+    "nome": "Análise da Demonstração |"
+  },
+  {
+    "id": 412304,
+    "nome": "Análise a partir do Orçamento Aprovado |"
+  },
+  {
+    "id": 412307,
+    "nome": "Cumprimento da Regra de Ouro |"
+  },
+  {
+    "id": 412308,
+    "nome": "Capitalização e Descapitalização |"
+  },
+  {
+    "id": 412309,
+    "nome": "Endividamento |"
+  },
+  {
+    "id": 412305,
+    "nome": "Análise a partir da Execução do Orçamento |"
+  },
+  {
+    "id": 412310,
+    "nome": "Resultado Orçamentário |"
+  },
+  {
+    "id": 412311,
+    "nome": "Resultado da Execução da Receita |"
+  },
+  {
+    "id": 412312,
+    "nome": "Resultado da Execução da Despesa |"
+  },
+  {
+    "id": 412306,
+    "nome": "Análise por meio de índices Contábeis |"
+  },
+  {
+    "id": 412313,
+    "nome": "RP Processados Inscritos no Exercício |"
+  },
+  {
+    "id": 412314,
+    "nome": "RP não Processados Inscritos no Exercício |"
+  },
+  {
+    "id": 412315,
+    "nome": "Quociente do Equilíbrio Orçamentário |"
+  },
+  {
+    "id": 412316,
+    "nome": "Quociente de Execução da Receita |"
+  },
+  {
+    "id": 412317,
+    "nome": "Quociente de Desempenho da Arrecadação |"
+  },
+  {
+    "id": 412318,
+    "nome": "Quociente de Utilização do Excesso de Arrecadação |"
+  },
+  {
+    "id": 412319,
+    "nome": "Quociente de Utilização do Superávit Financeiro |"
+  },
+  {
+    "id": 412320,
+    "nome": "Quociente de Execução da Despesa |"
+  },
+  {
+    "id": 412321,
+    "nome": "Quociente do Resultado Orçamentário |"
+  },
+  {
+    "id": 412322,
+    "nome": "Quociente da Execução Orçamentária Corrente |"
+  },
+  {
+    "id": 412323,
+    "nome": "Quociente Financeiro Real da Execução Orçamentária |"
+  },
+  {
+    "id": 412298,
+    "nome": "Medidas de Desempenho Fiscal |"
+  },
+  {
+    "id": 412299,
+    "nome": "Abertura de Créditos Adicionais e seus Reflexos no Balanço Orçamentário |"
+  },
+  {
+    "id": 412300,
+    "nome": "Elaboração do Balanço Orçamentário |"
+  },
+  {
+    "id": 412301,
+    "nome": "Notas Explicativas |"
+  },
+  {
+    "id": 405738,
+    "nome": "Balanço Financeiro |"
+  },
+  {
+    "id": 412324,
+    "nome": "Conceitos Gerais |"
+  },
+  {
+    "id": 412325,
+    "nome": "Estrutura |"
+  },
+  {
+    "id": 412326,
+    "nome": "Conforme a Lei nº 4.320/64 |"
+  },
+  {
+    "id": 412327,
+    "nome": "Conforme o MCASP |"
+  },
+  {
+    "id": 412328,
+    "nome": "Análise da Demonstração |"
+  },
+  {
+    "id": 412329,
+    "nome": "Compreensão quanto à Inclusão dos Restos a Pagar Inscritos como Receitas Extraorçamentárias |"
+  },
+  {
+    "id": 412330,
+    "nome": "Análises Específicas |"
+  },
+  {
+    "id": 412332,
+    "nome": "Notas Explicativas |"
+  },
+  {
+    "id": 412331,
+    "nome": "Elaboração do Balanço Financeiro |"
+  },
+  {
+    "id": 405740,
+    "nome": "Balanço patrimonial |"
+  },
+  {
+    "id": 412333,
+    "nome": "Conceitos Gerais |"
+  },
+  {
+    "id": 412334,
+    "nome": "Estrutura, Análise e Elaboração |"
+  },
+  {
+    "id": 412335,
+    "nome": "Conforme a Lei nº 4.320/64 |"
+  },
+  {
+    "id": 412336,
+    "nome": "Conforme o MCASP |"
+  },
+  {
+    "id": 412337,
+    "nome": "Quadro Principal |"
+  },
+  {
+    "id": 412338,
+    "nome": "Quadro dos Ativos e Passivos Financeiros e Permanentes |"
+  },
+  {
+    "id": 412339,
+    "nome": "Quadro das Contas de Compensação |"
+  },
+  {
+    "id": 412340,
+    "nome": "Quadro do Superávit ou Déficit Financeiro |"
+  },
+  {
+    "id": 412341,
+    "nome": "Apuração do Superávit Financeiro |"
+  },
+  {
+    "id": 412342,
+    "nome": "Notas Explicativas |"
+  },
+  {
+    "id": 412343,
+    "nome": "Disposições sobre o Balanço Patrimonial na NBC TSP 11 |"
+  },
+  {
+    "id": 405739,
+    "nome": "Demonstração das variações patrimoniais |"
+  },
+  {
+    "id": 412344,
+    "nome": "Conceitos Gerais |"
+  },
+  {
+    "id": 412345,
+    "nome": "Elaboração |"
+  },
+  {
+    "id": 412346,
+    "nome": "Estrutura |"
+  },
+  {
+    "id": 412347,
+    "nome": "Resultado Patrimonial |"
+  },
+  {
+    "id": 412348,
+    "nome": "Notas Explicativas |"
+  },
+  {
+    "id": 412349,
+    "nome": "Apresentação de Análise das VPDs |"
+  },
+  {
+    "id": 412350,
+    "nome": "Superveniências e Insubsistências |"
+  },
+  {
+    "id": 412351,
+    "nome": "Superveniência do Ativo |"
+  },
+  {
+    "id": 412352,
+    "nome": "Superveniência do Passivo |"
+  },
+  {
+    "id": 412353,
+    "nome": "Insubsistência do Ativo |"
+  },
+  {
+    "id": 412354,
+    "nome": "Insubsistência do Passivo |"
+  },
+  {
+    "id": 412355,
+    "nome": "Interferências Ativas e Passivas |"
+  },
+  {
+    "id": 412356,
+    "nome": "Interferência Ativa Orçamentária |"
+  },
+  {
+    "id": 412357,
+    "nome": "Interferência Ativa Extraorçamentária |"
+  },
+  {
+    "id": 412358,
+    "nome": "Interferência Passiva Orçamentária |"
+  },
+  {
+    "id": 412359,
+    "nome": "Interferência Passiva Extraorçamentária |"
+  },
+  {
+    "id": 412360,
+    "nome": "Mutações Ativas e Passivas |"
+  },
+  {
+    "id": 412361,
+    "nome": "Mutações Ativas |"
+  },
+  {
+    "id": 412362,
+    "nome": "Mutações Passivas |"
+  },
+  {
+    "id": 405741,
+    "nome": "Demonstração de fluxos de caixa |"
+  },
+  {
+    "id": 412365,
+    "nome": "Conceitos |"
+  },
+  {
+    "id": 412366,
+    "nome": "Importância da DFC |"
+  },
+  {
+    "id": 412367,
+    "nome": "Estrutura, Análise e Elaboração |"
+  },
+  {
+    "id": 412368,
+    "nome": "Conforme NBCT SP 12 |"
+  },
+  {
+    "id": 412369,
+    "nome": "Conforme MCASP (STN) |"
+  },
+  {
+    "id": 412370,
+    "nome": "Quadro Principal |"
+  },
+  {
+    "id": 412371,
+    "nome": "Quadro de Receitas Derivadas e Originárias |"
+  },
+  {
+    "id": 412372,
+    "nome": "Quadro de Transferências Recebidas e Concedidas |"
+  },
+  {
+    "id": 412373,
+    "nome": "Quadro de Desembolsos de Pessoal e Demais Despesas por Função |"
+  },
+  {
+    "id": 412374,
+    "nome": "Quadro de Juros e Encargos da Dívida |"
+  },
+  {
+    "id": 412375,
+    "nome": "Métodos de Elaboração |"
+  },
+  {
+    "id": 412376,
+    "nome": "Método Direto |"
+  },
+  {
+    "id": 412377,
+    "nome": "Método Indireto |"
+  },
+  {
+    "id": 412378,
+    "nome": "Exigências e Incentivos Conforme NBCT SP 12 e MCASP |"
+  },
+  {
+    "id": 412379,
+    "nome": "Casos Especiais |"
+  },
+  {
+    "id": 412380,
+    "nome": "Fluxos de Caixa em Moeda Estrangeira |"
+  },
+  {
+    "id": 412381,
+    "nome": "Juros e Dividendos ou Distribuições Similares |"
+  },
+  {
+    "id": 412382,
+    "nome": "Transações que não Envolvem Caixa ou Equivalentes de Caixa |"
+  },
+  {
+    "id": 412383,
+    "nome": "Aquisição e Venda de Controlada e outras Unidades Operacionais |"
+  },
+  {
+    "id": 412384,
+    "nome": "Componente de Caixa e Equivalentes de Caixa |"
+  },
+  {
+    "id": 412385,
+    "nome": "Notas Explicativas |"
+  },
+  {
+    "id": 405742,
+    "nome": "Demonstração das Mutações do Patrimônio Líquido |"
+  },
+  {
+    "id": 412386,
+    "nome": "Obrigatoriedade |"
+  },
+  {
+    "id": 412387,
+    "nome": "Estrutura e Elaboração |"
+  },
+  {
+    "id": 412388,
+    "nome": "Conforme o MCASP |"
+  },
+  {
+    "id": 412389,
+    "nome": "Análise da Demonstração |"
+  },
+  {
+    "id": 412390,
+    "nome": "Notas Explicativas |"
+  },
+  {
+    "id": 412391,
+    "nome": "Disposições sobre a DMPL na NBC TSP 11 |"
+  },
+  {
+    "id": 405743,
+    "nome": "Notas explicativas às demonstrações contábeis |"
+  },
+  {
+    "id": 412392,
+    "nome": "Conceito - NBCT 16 |"
+  },
+  {
+    "id": 412393,
+    "nome": "Conceito e Estrutura Conforme MCASP |"
+  },
+  {
+    "id": 412394,
+    "nome": "Evidenciação e Alteração de Políticas Contábeis |"
+  },
+  {
+    "id": 412395,
+    "nome": "Evidenciação de Estimativas |"
+  },
+  {
+    "id": 412396,
+    "nome": "Gestão de Capital |"
+  },
+  {
+    "id": 412397,
+    "nome": "Bases de Mensuração |"
+  },
+  {
+    "id": 412398,
+    "nome": "Julgamentos pela Aplicação das Políticas Contábeis |"
+  },
+  {
+    "id": 412399,
+    "nome": "Outras Divulgações |"
+  },
+  {
+    "id": 412400,
+    "nome": "Disposição sobre Notas Explicativas na NBC TSP 11 |"
+  },
+  {
+    "id": 405744,
+    "nome": "Consolidação das demonstrações contábeis |"
+  },
+  {
+    "id": 412402,
+    "nome": "Consolidação conforme o MCASP |"
+  },
+  {
+    "id": 412403,
+    "nome": "Consolidação conforme a LRF |"
+  },
+  {
+    "id": 412404,
+    "nome": "Consolidação conforme a NBC T 16.7 (válida até 01/01/21) |"
+  },
+  {
+    "id": 412405,
+    "nome": "Procedimentos para a Consolidação |"
+  },
+  {
+    "id": 412406,
+    "nome": "Consolidação conforme NBC TSP 17 |"
+  },
+  {
+    "id": 412363,
+    "nome": "Demonstração do Resultado Econômico |"
+  },
+  {
+    "id": 412364,
+    "nome": "Exclusão pela Resolução CFC n.º 1.437/13 |"
+  },
+  {
+    "id": 412407,
+    "nome": "Controle Interno |"
+  },
+  {
+    "id": 412408,
+    "nome": "Conceitos |"
+  },
+  {
+    "id": 412409,
+    "nome": "Classificação |"
+  },
+  {
+    "id": 412410,
+    "nome": "Estrutura e Componentes |"
+  },
+  {
+    "id": 412411,
+    "nome": "Avaliação do Patrimônio e dos Custos |"
+  },
+  {
+    "id": 412412,
+    "nome": "Base de Mensuração em Conformidade com a Estrutura Conceitual |"
+  },
+  {
+    "id": 412413,
+    "nome": "Conceitos |"
+  },
+  {
+    "id": 412414,
+    "nome": "Fatores das Bases de Mensuração |"
+  },
+  {
+    "id": 412415,
+    "nome": "Valores de Entrada e de Saída |"
+  },
+  {
+    "id": 412416,
+    "nome": "Ativo |"
+  },
+  {
+    "id": 412417,
+    "nome": "Passivo |"
+  },
+  {
+    "id": 412419,
+    "nome": "Medidas Específicas e não Específicas |"
+  },
+  {
+    "id": 405720,
+    "nome": "Bases de Mensuração para os Ativos |"
+  },
+  {
+    "id": 405721,
+    "nome": "Custo Histórico |"
+  },
+  {
+    "id": 405722,
+    "nome": "Valor de Mercado |"
+  },
+  {
+    "id": 405723,
+    "nome": "Custo de Reposição ou Substituição |"
+  },
+  {
+    "id": 405724,
+    "nome": "Depreciação, amortização e exaustão |"
+  },
+  {
+    "id": 412420,
+    "nome": "Preço Líquido de Venda |"
+  },
+  {
+    "id": 412421,
+    "nome": "Valor em Uso |"
+  },
+  {
+    "id": 405725,
+    "nome": "Bases de Mensuração para os Passivos |"
+  },
+  {
+    "id": 405726,
+    "nome": "Custo Histórico |"
+  },
+  {
+    "id": 405727,
+    "nome": "Custo de Cumprimento da Obrigação |"
+  },
+  {
+    "id": 412422,
+    "nome": "Valor de Mercado |"
+  },
+  {
+    "id": 412423,
+    "nome": "Custo de Liberação |"
+  },
+  {
+    "id": 412424,
+    "nome": "Preço Presumido |"
+  },
+  {
+    "id": 412425,
+    "nome": "Avaliação dos Elementos Patrimoniais |"
+  },
+  {
+    "id": 412426,
+    "nome": "Conceitos |"
+  },
+  {
+    "id": 412427,
+    "nome": "Avaliação dos Componentes Patrimoniais na Lei nº 4.320/64 |"
+  },
+  {
+    "id": 412428,
+    "nome": "Avaliação e Mensuração de Ativos e Passivos Conforme as NBC TSP e o MCASP |"
+  },
+  {
+    "id": 412429,
+    "nome": "Avaliação e Mensuração das Disponibilidades |"
+  },
+  {
+    "id": 412430,
+    "nome": "Avaliação e Mensuração das Aplicações Financeiras de Liquidez Imediata |"
+  },
+  {
+    "id": 412431,
+    "nome": "Avaliação e Mensuração dos Créditos e Obrigações |"
+  },
+  {
+    "id": 412432,
+    "nome": "Avaliação e Mensuração dos Estoques (MCASP e NBC TSP 04) |"
+  },
+  {
+    "id": 412433,
+    "nome": "Custo dos Estoques |"
+  },
+  {
+    "id": 412434,
+    "nome": "Ajustes de Perdas de Estoques |"
+  },
+  {
+    "id": 412435,
+    "nome": "Reconhecimento no Resultado |"
+  },
+  {
+    "id": 412436,
+    "nome": "Evidenciação |"
+  },
+  {
+    "id": 412437,
+    "nome": "Avaliação e Mensuração dos Investimentos Permanentes (MCASP e NBC TSP 18) |"
+  },
+  {
+    "id": 412441,
+    "nome": "Método da Equivalência Patrimonial |"
+  },
+  {
+    "id": 412442,
+    "nome": "Influência Significativa |"
+  },
+  {
+    "id": 412443,
+    "nome": "Exceções da Aplicação do MEP |"
+  },
+  {
+    "id": 412444,
+    "nome": "Descontinuidade do uso do MEP |"
+  },
+  {
+    "id": 412445,
+    "nome": "Mudanças no Direito de Propriedade |"
+  },
+  {
+    "id": 412446,
+    "nome": "Procedimentos do MEP |"
+  },
+  {
+    "id": 412447,
+    "nome": "Método do Custo |"
+  },
+  {
+    "id": 412438,
+    "nome": "Avaliação e Mensuração de Propriedades para Investimento (MCASP e NBC TSP 06) |"
+  },
+  {
+    "id": 412449,
+    "nome": "Identificação de uma Propriedade para Investimento |"
+  },
+  {
+    "id": 412450,
+    "nome": "Reconhecimento |"
+  },
+  {
+    "id": 412451,
+    "nome": "Mensuração |"
+  },
+  {
+    "id": 412452,
+    "nome": "Mensuração no Reconhecimento Inicial |"
+  },
+  {
+    "id": 412453,
+    "nome": "Mensuração após o Reconhecimento Inicial |"
+  },
+  {
+    "id": 412454,
+    "nome": "Modelo do Custo |"
+  },
+  {
+    "id": 412455,
+    "nome": "Modelo do Valor Justo |"
+  },
+  {
+    "id": 412456,
+    "nome": "Reclassificação |"
+  },
+  {
+    "id": 412457,
+    "nome": "Desreconhecimento |"
+  },
+  {
+    "id": 412458,
+    "nome": "Evidenciação |"
+  },
+  {
+    "id": 412460,
+    "nome": "Modelo do Valor Justo |"
+  },
+  {
+    "id": 412439,
+    "nome": "Avaliação e Mensuração do Ativo Imobilizado (MCASP e NBC TSP 07) |"
+  },
+  {
+    "id": 412461,
+    "nome": "Reconhecimento |"
+  },
+  {
+    "id": 412465,
+    "nome": "Princípio Geral de Reconhecimento |"
+  },
+  {
+    "id": 412467,
+    "nome": "Ativos Imobilizados Obtidos a Título Gratuito |"
+  },
+  {
+    "id": 412468,
+    "nome": "Bens de uso Comum |"
+  },
+  {
+    "id": 412470,
+    "nome": "Ativos de Infraestrutura |"
+  },
+  {
+    "id": 412471,
+    "nome": "Bens do Patrimônio Cultural |"
+  },
+  {
+    "id": 412469,
+    "nome": "Custos Subsequentes |"
+  },
+  {
+    "id": 412462,
+    "nome": "Mensuração |"
+  },
+  {
+    "id": 412463,
+    "nome": "Desreconhecimento |"
+  },
+  {
+    "id": 412464,
+    "nome": "Evidenciação |"
+  },
+  {
+    "id": 412440,
+    "nome": "Avaliação e Mensuração do Ativo Intangível (MCASP e NBC TSP 08) |"
+  },
+  {
+    "id": 412472,
+    "nome": "Identificação |"
+  },
+  {
+    "id": 412473,
+    "nome": "Reconhecimento |"
+  },
+  {
+    "id": 412479,
+    "nome": "Aquisição Separada |"
+  },
+  {
+    "id": 412480,
+    "nome": "Geração Interna |"
+  },
+  {
+    "id": 412482,
+    "nome": "Custo do Ativo Intangível Gerado Internamente |"
+  },
+  {
+    "id": 412481,
+    "nome": "Aquisição por meio de Transações sem Contraprestação |"
+  },
+  {
+    "id": 412474,
+    "nome": "Permuta de Ativos Intangíveis |"
+  },
+  {
+    "id": 412475,
+    "nome": "Patrimônio Cultural intangível |"
+  },
+  {
+    "id": 412476,
+    "nome": "Mensuração do Ativo Intangível |"
+  },
+  {
+    "id": 412483,
+    "nome": "Mensuração Inicial do Custo do Ativo Intangível |"
+  },
+  {
+    "id": 412484,
+    "nome": "Mensuração Após o Reconhecimento Inicial |"
+  },
+  {
+    "id": 412477,
+    "nome": "Desreconhecimento |"
+  },
+  {
+    "id": 412478,
+    "nome": "Evidenciação |"
+  },
+  {
+    "id": 412485,
+    "nome": "Depreciação, Amortização e Exaustão |"
+  },
+  {
+    "id": 412494,
+    "nome": "Aplicação |"
+  },
+  {
+    "id": 412495,
+    "nome": "Conceitos |"
+  },
+  {
+    "id": 412496,
+    "nome": "Depreciação |"
+  },
+  {
+    "id": 412499,
+    "nome": "Métodos de Depreciação |"
+  },
+  {
+    "id": 412502,
+    "nome": "Método Linear ou das Quotas Constantes |"
+  },
+  {
+    "id": 412503,
+    "nome": "Método da Soma dos Algarismos dos Anos |"
+  },
+  {
+    "id": 412505,
+    "nome": "Método das Unidades Produzidas |"
+  },
+  {
+    "id": 412500,
+    "nome": "Aspectos Práticos da Depreciação |"
+  },
+  {
+    "id": 412501,
+    "nome": "Registro Contábil da Depreciação |"
+  },
+  {
+    "id": 412497,
+    "nome": "Exaustão |"
+  },
+  {
+    "id": 412507,
+    "nome": "Exaustão de Recursos Minerais |"
+  },
+  {
+    "id": 412498,
+    "nome": "Amortização |"
+  },
+  {
+    "id": 412508,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 412509,
+    "nome": "Determinação da Vida Útil |"
+  },
+  {
+    "id": 412510,
+    "nome": "Amortização de Ativo Intangível com Vida Útil Definida |"
+  },
+  {
+    "id": 412511,
+    "nome": "Métodos de Amortização |"
+  },
+  {
+    "id": 412512,
+    "nome": "Método Linear ou das Quotas Constantes |"
+  },
+  {
+    "id": 412513,
+    "nome": "Método da Soma dos Algarismos dos Anos |"
+  },
+  {
+    "id": 412515,
+    "nome": "Determinação do Valor Residual |"
+  },
+  {
+    "id": 412517,
+    "nome": "Ativo Intangível com Vida Útil Indefinida |"
+  },
+  {
+    "id": 412518,
+    "nome": "Revisão da Vida Útil |"
+  },
+  {
+    "id": 412486,
+    "nome": "Reavaliação e Impairment |"
+  },
+  {
+    "id": 412520,
+    "nome": "Reavaliação |"
+  },
+  {
+    "id": 412522,
+    "nome": "Frequência das Reavaliações |"
+  },
+  {
+    "id": 412523,
+    "nome": "Reavaliação do Imobilizado |"
+  },
+  {
+    "id": 412525,
+    "nome": "Registro Contábil da Reavaliação do Imobilizado |"
+  },
+  {
+    "id": 412524,
+    "nome": "Reavaliação do Intangível |"
+  },
+  {
+    "id": 412526,
+    "nome": "Registro Contábil da Reavaliação do Intangível |"
+  },
+  {
+    "id": 412527,
+    "nome": "Ativo Intangível Mensurado Após o Reconhecimento Utilizando o Modelo da Reavaliação |"
+  },
+  {
+    "id": 412521,
+    "nome": "Redução ao Valor Recuperável (teste de recuperabilidade) - MCASP e NBC TSP 09 e 10 |"
+  },
+  {
+    "id": 412528,
+    "nome": "Mensuração |"
+  },
+  {
+    "id": 412531,
+    "nome": "Mensuração de Ativo não Gerador de Caixa (NBC TSP 09) |"
+  },
+  {
+    "id": 412533,
+    "nome": "Identificação de Perda ao Valor Recuperável de Ativo não Gerador de Caixa |"
+  },
+  {
+    "id": 412534,
+    "nome": "Mensuração do Valor Recuperável do Ativo não Gerador de Caixa |"
+  },
+  {
+    "id": 412535,
+    "nome": "Reconhecimento e Mensuração da Perda por Redução ao Valor Recuperável do Ativo não Gerador de Caixa |"
+  },
+  {
+    "id": 412536,
+    "nome": "Reversão da Perda por Redução ao Valor Recuperável do Ativo não Gerador de Caixa |"
+  },
+  {
+    "id": 412532,
+    "nome": "Mensuração de Ativo Gerador de Caixa (NBC TSP 10) |"
+  },
+  {
+    "id": 412537,
+    "nome": "Identificação de Perda ao Valor Recuperável de Ativo Gerador de Caixa |"
+  },
+  {
+    "id": 412538,
+    "nome": "Mensuração do Valor Recuperável do Ativo Gerador de Caixa |"
+  },
+  {
+    "id": 412539,
+    "nome": "Reconhecimento e Mensuração da Perda por Redução ao Valor Recuperável do Ativo Gerador de Caixa |"
+  },
+  {
+    "id": 412540,
+    "nome": "Reversão de Impairment para Ativos Geradores de Caixa |"
+  },
+  {
+    "id": 412529,
+    "nome": "Reclassificação de Ativos |"
+  },
+  {
+    "id": 412530,
+    "nome": "Evidenciação |"
+  },
+  {
+    "id": 412487,
+    "nome": "Provisão, Passivo Contingente e Ativo Contingente (MCASP e NBC TSP 03) |"
+  },
+  {
+    "id": 412541,
+    "nome": "Provisão |"
+  },
+  {
+    "id": 412545,
+    "nome": "Reconhecimento |"
+  },
+  {
+    "id": 412546,
+    "nome": "Mensuração |"
+  },
+  {
+    "id": 412548,
+    "nome": "Ajuste a Valor Presente |"
+  },
+  {
+    "id": 412549,
+    "nome": "Mudanças nas Provisões |"
+  },
+  {
+    "id": 412547,
+    "nome": "Evidenciação |"
+  },
+  {
+    "id": 412542,
+    "nome": "Passivo Contingente |"
+  },
+  {
+    "id": 412550,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 412543,
+    "nome": "Ativo Contingente |"
+  },
+  {
+    "id": 412551,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 412544,
+    "nome": "Casos Especiais de Provisão e Passivos Contingentes |"
+  },
+  {
+    "id": 412552,
+    "nome": "Reestruturação (caso de provisão) |"
+  },
+  {
+    "id": 412553,
+    "nome": "Responsabilidade Solidária (caso de passivo contingente) |"
+  },
+  {
+    "id": 412554,
+    "nome": "Repartição de Crédito Tributário (caso de provisão) |"
+  },
+  {
+    "id": 412556,
+    "nome": "Impactos no Ente Transferidor (no caso um estado) |"
+  },
+  {
+    "id": 412557,
+    "nome": "Impactos no Ente Recebedor (no caso um município) |"
+  },
+  {
+    "id": 412555,
+    "nome": "Provisão Matemática Financeira (caso de provisão) |"
+  },
+  {
+    "id": 412488,
+    "nome": "Inventário na Administração Pública Federal |"
+  },
+  {
+    "id": 412558,
+    "nome": "Conceito e Objetivos do Inventário Físico |"
+  },
+  {
+    "id": 412559,
+    "nome": "Tipos de Inventários Físicos |"
+  },
+  {
+    "id": 412560,
+    "nome": "Formas de Recebimento, Distribuição e Desfazimento do Material |"
+  },
+  {
+    "id": 412565,
+    "nome": "Distribuição: Conceito e Formas |"
+  },
+  {
+    "id": 412566,
+    "nome": "Destinação e Desfazimento do Material: Formas Previstas na Legislação |"
+  },
+  {
+    "id": 412567,
+    "nome": "Inutilização ou Abandono |"
+  },
+  {
+    "id": 412561,
+    "nome": "Controle do Material |"
+  },
+  {
+    "id": 412569,
+    "nome": "Controle do Material na Lei 4.320/1964 |"
+  },
+  {
+    "id": 412562,
+    "nome": "Material Permanente e Material de Consumo: Características |"
+  },
+  {
+    "id": 412570,
+    "nome": "Identificação dos Equipamentos e Materiais Permanentes |"
+  },
+  {
+    "id": 412563,
+    "nome": "Fases do Inventário e Princípios |"
+  },
+  {
+    "id": 412489,
+    "nome": "Sistema de Custos (NBC T 16.11) |"
+  },
+  {
+    "id": 412571,
+    "nome": "Sistema de Custos no Governo Federal: Estrutura e Atribuições |"
+  },
+  {
+    "id": 412573,
+    "nome": "Contextualização |"
+  },
+  {
+    "id": 412574,
+    "nome": "Antecedentes: Aspectos Legais do Sistema de Custos |"
+  },
+  {
+    "id": 412575,
+    "nome": "Estrutura do Sistema de Custos do Governo Federal |"
+  },
+  {
+    "id": 412572,
+    "nome": "Subsistema de Informação de Custos do Setor Público (SICSP) - NBCT 16.11 |"
+  },
+  {
+    "id": 412576,
+    "nome": "Elementos do SICSP |"
+  },
+  {
+    "id": 412577,
+    "nome": "Características e Atributos da Informação de Custos |"
+  },
+  {
+    "id": 412578,
+    "nome": "Evidenciação das Informações de Custos |"
+  },
+  {
+    "id": 412579,
+    "nome": "Princípio de Competência |"
+  },
+  {
+    "id": 412580,
+    "nome": "Cota de Distribuição de Custos Indiretos |"
+  },
+  {
+    "id": 412581,
+    "nome": "Variação da Capacidade Produtiva |"
+  },
+  {
+    "id": 412582,
+    "nome": "Integração com os Demais Sistemas Organizacionais |"
+  },
+  {
+    "id": 412583,
+    "nome": "Implantação do Subsistema de Custos |"
+  },
+  {
+    "id": 412584,
+    "nome": "Responsabilidade pela Informação de Custos |"
+  },
+  {
+    "id": 412585,
+    "nome": "Demonstração do Resultado Econômico |"
+  },
+  {
+    "id": 405745,
+    "nome": "Transações no setor público |"
+  },
+  {
+    "id": 405748,
+    "nome": "Execução orçamentária e financeira |"
+  },
+  {
+    "id": 405749,
+    "nome": "Conta Única do Tesouro Nacional |"
+  },
+  {
+    "id": 405750,
+    "nome": "Sistema Integrado de Administração Financeira: conceitos básicos, objetivos, características, instrumentos de segurança e principais documentos de entrada |"
+  },
+  {
+    "id": 412490,
+    "nome": "Outros Procedimentos Contábeis |"
+  },
+  {
+    "id": 412586,
+    "nome": "Estrutura Conceitual (NBC TSP) |"
+  },
+  {
+    "id": 412606,
+    "nome": "Função, Autoridade e Alcance da Estrutura Conceitual |"
+  },
+  {
+    "id": 412609,
+    "nome": "Função |"
+  },
+  {
+    "id": 412610,
+    "nome": "Autoridade |"
+  },
+  {
+    "id": 412611,
+    "nome": "Alcance da Estrutura Conceitual e das NBCs TSP |"
+  },
+  {
+    "id": 412612,
+    "nome": "Relatório Contábil de Propósito Geral das Entidades do Setor Público (RCPG) |"
+  },
+  {
+    "id": 412607,
+    "nome": "Objetivos e Usuários da Informação Contábil de Propósito Geral das Entidades do Setor Público |"
+  },
+  {
+    "id": 412613,
+    "nome": "Objetivos da Elaboração e Divulgação da Informação Contábil |"
+  },
+  {
+    "id": 412614,
+    "nome": "Usuários dos RCPGs |"
+  },
+  {
+    "id": 412615,
+    "nome": "Prestação de Contas e Responsabilização (accountability) e Tomada de Decisão |"
+  },
+  {
+    "id": 412616,
+    "nome": "Necessidade de Informação dos Usuários dos Serviços e dos Provedores de Recursos |"
+  },
+  {
+    "id": 412617,
+    "nome": "Informação Fornecida pelos RCPGs |"
+  },
+  {
+    "id": 412618,
+    "nome": "Demonstrações Contábeis e a Informação que as Aprimore, Complemente e Suplemente |"
+  },
+  {
+    "id": 412619,
+    "nome": "Outras Fontes de Informação |"
+  },
+  {
+    "id": 412608,
+    "nome": "Características Qualitativas |"
+  },
+  {
+    "id": 412620,
+    "nome": "Relevância |"
+  },
+  {
+    "id": 412621,
+    "nome": "Representação Fidedigna |"
+  },
+  {
+    "id": 412622,
+    "nome": "Compreensibilidade |"
+  },
+  {
+    "id": 412623,
+    "nome": "Tempestividade |"
+  },
+  {
+    "id": 412624,
+    "nome": "Comparabilidade |"
+  },
+  {
+    "id": 412625,
+    "nome": "Verificabilidade |"
+  },
+  {
+    "id": 412626,
+    "nome": "Entidade que Reporta a Informação Contábil |"
+  },
+  {
+    "id": 412627,
+    "nome": "Elementos das Demonstrações Contábeis |"
+  },
+  {
+    "id": 412628,
+    "nome": "Ativo |"
+  },
+  {
+    "id": 412629,
+    "nome": "Passivo |"
+  },
+  {
+    "id": 412630,
+    "nome": "Situação Patrimonial Líquida |"
+  },
+  {
+    "id": 412631,
+    "nome": "Receitas |"
+  },
+  {
+    "id": 412632,
+    "nome": "Despesas |"
+  },
+  {
+    "id": 412633,
+    "nome": "Reconhecimento nas Demonstrações Contábeis |"
+  },
+  {
+    "id": 412634,
+    "nome": "Mensuração de Ativos e Passivos nas Demonstrações Contábeis |"
+  },
+  {
+    "id": 412635,
+    "nome": "Apresentação de Informação no Relatório Contábil de Propósito Geral das Entidades do Setor Público |"
+  },
+  {
+    "id": 412587,
+    "nome": "Receita de Transação sem Contraprestação (NBC TSP 1) |"
+  },
+  {
+    "id": 412636,
+    "nome": "Reconhecimento |"
+  },
+  {
+    "id": 412637,
+    "nome": "Tributos |"
+  },
+  {
+    "id": 412638,
+    "nome": "Recebimentos Antecipados |"
+  },
+  {
+    "id": 412639,
+    "nome": "Transferências |"
+  },
+  {
+    "id": 412641,
+    "nome": "Mensuração do Ativo Transferido |"
+  },
+  {
+    "id": 412642,
+    "nome": "Perdão de Dívida e Assunção de Passivo |"
+  },
+  {
+    "id": 412643,
+    "nome": "Multa |"
+  },
+  {
+    "id": 412645,
+    "nome": "Presente e Doação |"
+  },
+  {
+    "id": 412646,
+    "nome": "Serviço em Espécie |"
+  },
+  {
+    "id": 412647,
+    "nome": "Compromisso de Doação |"
+  },
+  {
+    "id": 412649,
+    "nome": "Empréstimo Subsidiado |"
+  },
+  {
+    "id": 412640,
+    "nome": "Evidenciação |"
+  },
+  {
+    "id": 412588,
+    "nome": "Receita de Transação Com Contraprestação (NBC TSP 2) |"
+  },
+  {
+    "id": 412650,
+    "nome": "Reconhecimento |"
+  },
+  {
+    "id": 412651,
+    "nome": "Mensuração da Receita |"
+  },
+  {
+    "id": 412652,
+    "nome": "Evidenciação |"
+  },
+  {
+    "id": 412589,
+    "nome": "Contratos de Concessão de Serviços Públicos: Concedente (NBC TSP 05) |"
+  },
+  {
+    "id": 412653,
+    "nome": "Definições |"
+  },
+  {
+    "id": 412654,
+    "nome": "Reconhecimento e Mensuração de Ativo da Concessão de Serviço |"
+  },
+  {
+    "id": 412655,
+    "nome": "Reconhecimento e Mensuração de Passivos |"
+  },
+  {
+    "id": 412656,
+    "nome": "Modelo de Financiamento de Passivos |"
+  },
+  {
+    "id": 412657,
+    "nome": "Modelo de Concessão de Direitos à Concessionária |"
+  },
+  {
+    "id": 412658,
+    "nome": "Modelo Bifurcado |"
+  },
+  {
+    "id": 412659,
+    "nome": "Outros Passivos, Compromissos, Passivos Contingentes e Ativos Contingentes |"
+  },
+  {
+    "id": 412660,
+    "nome": "Outras Receitas |"
+  },
+  {
+    "id": 412590,
+    "nome": "Custos dos Empréstimos (NBC TSP 14) |"
+  },
+  {
+    "id": 412662,
+    "nome": "Definições |"
+  },
+  {
+    "id": 412663,
+    "nome": "Tratamento Padrão para Custos de Empréstimos |"
+  },
+  {
+    "id": 412666,
+    "nome": "Reconhecimento |"
+  },
+  {
+    "id": 412665,
+    "nome": "Divulgação |"
+  },
+  {
+    "id": 412664,
+    "nome": "Tratamento Alternativo Permitido para Custos de Empréstimos |"
+  },
+  {
+    "id": 412667,
+    "nome": "Reconhecimento |"
+  },
+  {
+    "id": 412668,
+    "nome": "Custos de Empréstimos Capitalizáveis |"
+  },
+  {
+    "id": 412669,
+    "nome": "Excesso do Valor Contábil do Ativo Qualificável sobre o Montante Recuperável |"
+  },
+  {
+    "id": 412670,
+    "nome": "Início da Capitalização |"
+  },
+  {
+    "id": 412671,
+    "nome": "Suspensão da Capitalização |"
+  },
+  {
+    "id": 412672,
+    "nome": "Término da Capitalização |"
+  },
+  {
+    "id": 412673,
+    "nome": "Divulgação |"
+  },
+  {
+    "id": 412591,
+    "nome": "Benefícios a Empregados (NBC TSP 15) |"
+  },
+  {
+    "id": 412675,
+    "nome": "Alcance |"
+  },
+  {
+    "id": 412676,
+    "nome": "Definições |"
+  },
+  {
+    "id": 412677,
+    "nome": "Benefícios de Curto Prazo a Empregados |"
+  },
+  {
+    "id": 412678,
+    "nome": "Benefícios Pós-Emprego: Distinção entre Planos de Contribuição Definida e Planos de Benefício Definido |"
+  },
+  {
+    "id": 412679,
+    "nome": "Benefícios Pós-Emprego: Planos de Contribuição Definida |"
+  },
+  {
+    "id": 412680,
+    "nome": "Outros Benefícios de Longo Prazo a Empregados |"
+  },
+  {
+    "id": 412681,
+    "nome": "Benefícios Rescisórios |"
+  },
+  {
+    "id": 412592,
+    "nome": "Demonstrações Contábeis Separadas (NBC TSP 16) |"
+  },
+  {
+    "id": 412682,
+    "nome": "Objetivo |"
+  },
+  {
+    "id": 412685,
+    "nome": "Elaboração de Demonstrações Contábeis Separadas |"
+  },
+  {
+    "id": 412593,
+    "nome": "Acordos em Conjunto (NBC TSP 19) |"
+  },
+  {
+    "id": 412686,
+    "nome": "Objetivo |"
+  },
+  {
+    "id": 412689,
+    "nome": "Acordo em Conjunto |"
+  },
+  {
+    "id": 412692,
+    "nome": "Controle em Conjunto |"
+  },
+  {
+    "id": 412690,
+    "nome": "Demonstrações Contábeis das Partes de Acordo em Conjunto |"
+  },
+  {
+    "id": 412694,
+    "nome": "Operação em Conjunto |"
+  },
+  {
+    "id": 412695,
+    "nome": "Empreendimento Controlado em Conjunto |"
+  },
+  {
+    "id": 412691,
+    "nome": "Demonstrações Contábeis Separadas |"
+  },
+  {
+    "id": 412594,
+    "nome": "Divulgação de Participações em Outras Entidades (NBC TSP 20) |"
+  },
+  {
+    "id": 412696,
+    "nome": "Objetivo |"
+  },
+  {
+    "id": 412697,
+    "nome": "Alcance |"
+  },
+  {
+    "id": 412698,
+    "nome": "Definições |"
+  },
+  {
+    "id": 412699,
+    "nome": "Divulgação de Informações sobre Participações em Outras Entidades |"
+  },
+  {
+    "id": 412700,
+    "nome": "Julgamentos e Premissas Significativos |"
+  },
+  {
+    "id": 412701,
+    "nome": "Condição de Entidade de Investimento |"
+  },
+  {
+    "id": 412702,
+    "nome": "Participações em Controladas |"
+  },
+  {
+    "id": 412703,
+    "nome": "Participações em Controladas não Consolidadas (entidade de investimento) |"
+  },
+  {
+    "id": 412704,
+    "nome": "Participações em Acordos em Conjunto e em Coligadas |"
+  },
+  {
+    "id": 412705,
+    "nome": "Participações em Entidades Estruturadas não Consolidadas |"
+  },
+  {
+    "id": 412595,
+    "nome": "Combinações no Setor Público (NBC TSP 21) |"
+  },
+  {
+    "id": 412708,
+    "nome": "Objetivo |"
+  },
+  {
+    "id": 412710,
+    "nome": "Definições |"
+  },
+  {
+    "id": 412711,
+    "nome": "Identificação da Combinação no Setor Público |"
+  },
+  {
+    "id": 412712,
+    "nome": "Classificação das Combinações no Setor Público |"
+  },
+  {
+    "id": 412713,
+    "nome": "Contabilização de Fusão |"
+  },
+  {
+    "id": 412714,
+    "nome": "Método Modificado da União de Participações |"
+  },
+  {
+    "id": 412715,
+    "nome": "Contabilização da Aquisição |"
+  },
+  {
+    "id": 412716,
+    "nome": "Método de Contabilização da Aquisição |"
+  },
+  {
+    "id": 412596,
+    "nome": "Apresentação de Informações Orçamentárias nas Demonstrações Contábeis (NBC TSP 13) |"
+  },
+  {
+    "id": 412597,
+    "nome": "Provisões, Passivos e Ativos Contingentes (NBC TSP 3) |"
+  },
+  {
+    "id": 412598,
+    "nome": "Estoques (NBC TSP 4) |"
+  },
+  {
+    "id": 412600,
+    "nome": "Propriedades para Investimento (NBC TSP 06) |"
+  },
+  {
+    "id": 412601,
+    "nome": "Ativo Imobilizado (NBC TSP 07) |"
+  },
+  {
+    "id": 412602,
+    "nome": "Ativo Intangível (NBC TSP 08) |"
+  },
+  {
+    "id": 412603,
+    "nome": "Redução ao Valor Recuperável de Ativo Não Gerador de Caixa (NBC TSP 09) |"
+  },
+  {
+    "id": 412604,
+    "nome": "Apresentação das Demonstrações Contábeis (NBC TSP 11) |"
+  },
+  {
+    "id": 412605,
+    "nome": "Demonstração dos Fluxos de Caixa (NBC TSP 12) |"
+  },
+  {
+    "id": 438441,
+    "nome": "Informações por Segmento (NBC TSP 27) |"
+  },
+  {
+    "id": 438474,
+    "nome": "Divulgação de informação Financeira do Setor Governo Geral (NBC TSP 28) |"
+  },
+  {
+    "id": 438872,
+    "nome": "Divulgação sobre Partes Relacionadas (NBC TSP 22) |"
+  },
+  {
+    "id": 412491,
+    "nome": "Sistemas e Mecanismos Contábeis da União |"
+  },
+  {
+    "id": 412492,
+    "nome": "Demais Legislações aplicáveis à Contabilidade Pública |"
+  },
+  {
+    "id": 412717,
+    "nome": "Normas da Secretaria do Tesouro Nacional (STN) |"
+  },
+  {
+    "id": 412718,
+    "nome": "Manual de Contabilidade Aplicada ao Setor Público (MCASP) |"
+  },
+  {
+    "id": 412719,
+    "nome": "Normas da Secretaria da Receita Federal (SRF) |"
+  },
+  {
+    "id": 412720,
+    "nome": "Outras NBCs aplicáveis ao Setor Público |"
+  },
+  {
+    "id": 412721,
+    "nome": "NBC T 16.1 (Conceituação, objeto e campo de aplicação) |"
+  },
+  {
+    "id": 412722,
+    "nome": "NBC T 16.2 (Patrimônio e Sistemas Contábeis) |"
+  },
+  {
+    "id": 412723,
+    "nome": "NBC T 16.3 (Planejamento e seus instrumentos sob o enfoque contábil) |"
+  },
+  {
+    "id": 412724,
+    "nome": "NBC T 16.4 (Transações no Setor Público) |"
+  },
+  {
+    "id": 412725,
+    "nome": "NBC T 16.5 (Registro Contábil) |"
+  },
+  {
+    "id": 412726,
+    "nome": "NBC T 16.6 (Demonstrações Contábeis) |"
+  },
+  {
+    "id": 412727,
+    "nome": "NBC T 16.7 (Consolidação das Demonstrações Contábeis) |"
+  },
+  {
+    "id": 412728,
+    "nome": "NBC T 16.8 (Controle Interno) |"
+  },
+  {
+    "id": 412729,
+    "nome": "NBC T 16.9 (Depreciação, Amortização e Exaustão) |"
+  },
+  {
+    "id": 412730,
+    "nome": "NBC T 16.10 (Avaliação e Mensuração dos ativos e passivos em Entidades do Setor Público) |"
+  },
+  {
+    "id": 430106,
+    "nome": "NBC T 16.11 (Custeio direto) |"
+  },
+  {
+    "id": 433519,
+    "nome": "NBC TSP 23 – Políticas contábeis, mudança de estimativas e retificação de erros |"
+  },
+  {
+    "id": 433520,
+    "nome": "NBC TSP 24 – Efeitos nas mudanças nas taxas de câmbio e conversação das demonstrações contábeis |"
+  },
+  {
+    "id": 433521,
+    "nome": "NBC TSP 25 – Evento subsequente. |"
+  },
+  {
+    "id": 435799,
+    "nome": "NBC TSP 26 - Ativo Biológico e Produto Agrícola |"
+  },
+  {
+    "id": 433605,
+    "nome": "NBC TSP 34 - Custos no Setor Público |"
+  },
+  {
+    "id": 440333,
+    "nome": "NBC TSP 32 – Instrumentos Financeiros: Reconhecimento e Mensuração (Contabilidade de Hedge - Aplicação Residual). |"
+  },
+  {
+    "id": 412493,
+    "nome": "Sistemas e Mecanismos Contábeis dos Estados e Municípios |"
+  },
+  {
+    "id": 412731,
+    "nome": "SIAFEM |"
+  },
+  {
+    "id": 454303,
+    "nome": "Tributos e Obrigações Retidos na Fonte |"
+  }
+]

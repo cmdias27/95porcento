@@ -1,0 +1,2272 @@
+{
+  "Física": [
+    {
+      "id": "enem_enem2018_2dia_92_1",
+      "materia": "Física",
+      "assunto": "Indução eletromagnética",
+      "banca": "INEP",
+      "ano": "2018",
+      "texto_auxiliar": "A tecnologia de comunicação da etiqueta RFID (chamada de etiqueta inteligente) é usada há anos para rastrear gado, vagões de trem, bagagem aérea e carros nos pedágios. Um modelo mais barato dessas etiquetas pode funcionar sem baterias e é constituído por três componentes: um microprocessador de silício; uma bobina de metal, feita de cobre ou de alumínio, que é enrolada em um padrão circular; e um encapsulador, que é um material de vidro ou polímero envolvendo o microprocessador e a bobina. Na presença de um campo de radiofrequência gerado pelo leitor, a etiqueta transmite sinais. A distância de leitura é determinada pelo tamanho da bobina e pela potência da onda de rádio emitida pelo leitor.",
+      "enunciado": "A etiqueta funciona sem pilhas porque o campo",
+      "alternativas": {
+        "A": "elétrico da onda de rádio agita elétrons da bobina.",
+        "B": "elétrico da onda de rádio cria uma tensão na bobina.",
+        "C": "magnético da onda de rádio induz corrente na bobina.",
+        "D": "magnético da onda de rádio aquece os fios da bobina.",
+        "E": "magnético da onda de rádio diminui a ressonância no interior da bobina."
+      },
+      "gabarito": "C",
+      "comentario": "O fenômeno é o de indução eletromagnética. A variação do campo magnético da onda de rádio induz corrente elétrica na bobina (Lei de Faraday)."
+    },
+    {
+      "id": "enem_enem2018_2dia_98_7",
+      "materia": "Física",
+      "assunto": "Conservação da energia mecânica",
+      "banca": "INEP",
+      "ano": "2018",
+      "texto_auxiliar": "Um projetista deseja construir um brinquedo que lance um pequeno cubo ao longo de um trilho horizontal, e o dispositivo precisa oferecer a opção de mudar a velocidade de lançamento. Para isso, ele utiliza uma mola e um trilho onde o atrito pode ser desprezado, conforme a figura. [IMAGEM OMITIDA]",
+      "enunciado": "Para que a velocidade de lançamento do cubo seja aumentada quatro vezes, o projetista deve",
+      "alternativas": {
+        "A": "manter a mesma mola e aumentar duas vezes a sua deformação.",
+        "B": "manter a mesma mola e aumentar quatro vezes a sua deformação.",
+        "C": "manter a mesma mola e aumentar dezesseis vezes a sua deformação.",
+        "D": "trocar a mola por outra de constante elástica duas vezes maior e manter a deformação.",
+        "E": "trocar a mola por outra de constante elástica quatro vezes maior e manter a deformação."
+      },
+      "gabarito": "B",
+      "comentario": "Conservação da energia mecânica: Eelástica = Ecinética => (1/2)kx² = (1/2)mV² => V = x√(k/m). Mantendo a mesma mola (k constante), a velocidade é proporcional à deformação x. Para V quadruplicar, x deve quadruplicar."
+    },
+    {
+      "id": "enem_enem2018_2dia_103_12",
+      "materia": "Física",
+      "assunto": "Hidrostática",
+      "banca": "INEP",
+      "ano": 2018,
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Talvez você já tenha bebido suco usando dois canudinhos iguais. Entretanto, pode-se verificar que, se colocar um canudo imerso no suco e outro do lado de fora do líquido, fazendo a sucção simultaneamente em ambos, você terá dificuldade em bebê-lo. Essa dificuldade ocorre porque o(a)",
+      "alternativas": {
+        "A": "força necessária para a sucção do ar e do suco simultaneamente dobra de valor.",
+        "B": "densidade do ar é menor que a do suco, portanto, o volume de ar aspirado é muito maior que o volume de suco.",
+        "C": "velocidade com que o suco sobe deve ser constante nos dois canudos, o que é impossível com um dos canudos de fora.",
+        "D": "peso da coluna de suco é consideravelmente maior que o peso da coluna de ar, o que dificulta a sucção do líquido.",
+        "E": "pressão no interior da boca assume praticamente o mesmo valor daquela que atua sobre o suco."
+      },
+      "gabarito": "E",
+      "comentario": "Se você sugar simultaneamente as extremidades superiores de dois canudos, um mergulhado no suco e outro colocado fora do copo, como indica a figura, não será possível sorver o líquido. Isso ocorrerá porque no interior da boca a pressão será praticamente a pressão atmosférica e, sem diferença de pressão, não ocorre o escoamento do fluido. Tudo ocorrerá como se você estivesse tentando sorver o suco com um canudo dotado de um grande furo nas proximidades da sua boca."
+    },
+    {
+      "id": "enem_enem2018_2dia_106_15",
+      "materia": "Física",
+      "assunto": "Circuitos elétricos",
+      "banca": "INEP",
+      "ano": 2018,
+      "texto_auxiliar": "Muitos smartphones e tablets não precisam mais de teclas, uma vez que todos os comandos podem ser dados ao se pressionar a própria tela. Inicialmente essa tecnologia foi proporcionada por meio das telas resistivas, formadas basicamente por duas camadas de material condutor transparente que não se encostam até que alguém as pressione, modificando a resistência total do circuito de acordo com o ponto onde ocorre o toque. A imagem é uma simplificação do circuito formado pelas placas, em que A e B representam pontos onde o circuito pode ser fechado por meio do toque.",
+      "enunciado": "Qual é a resistência equivalente no circuito provocada por um toque que fecha o circuito no ponto A?",
+      "alternativas": {
+        "A": "1,3 kΩ",
+        "B": "4,0 kΩ",
+        "C": "6,0 kΩ",
+        "D": "6,7 kΩ",
+        "E": "12,0 kΩ"
+      },
+      "gabarito": "C",
+      "comentario": "Fechando o circuito no ponto A, temos a seguinte configuração: Entre A e C: Rp = (4kΩ * 4kΩ) / (4kΩ + 4kΩ) = 2kΩ. O circuito fica: Req = 2kΩ + 4kΩ = 6kΩ."
+    },
+    {
+      "id": "enem_enem2018_2dia_109_18",
+      "materia": "Física",
+      "assunto": "Potência elétrica",
+      "banca": "INEP",
+      "ano": "2018",
+      "texto_auxiliar": "Alguns peixes, como o poraquê, a enguia-elétrica da Amazônia, podem produzir uma corrente elétrica quando se encontram em perigo. Um poraquê de 1 metro de comprimento, em perigo, produz uma corrente em torno de 2 ampères e uma voltagem de 600 volts. O quadro apresenta a potência aproximada de equipamentos elétricos.",
+      "enunciado": "O equipamento elétrico que tem potência similar àquela produzida por esse peixe em perigo é o(a)",
+      "alternativas": {
+        "A": "exaustor.",
+        "B": "computador.",
+        "C": "aspirador de pó.",
+        "D": "churrasqueira elétrica.",
+        "E": "secadora de roupas."
+      },
+      "gabarito": "D",
+      "comentario": "Com os dados fornecidos, temos: i = 2 A, U = 600 V. A potência elétrica é P = iU = 2 * 600 = 1200 W. Esse valor corresponde à potência da churrasqueira elétrica."
+    },
+    {
+      "id": "enem_enem2018_2dia_110_19",
+      "materia": "Física",
+      "assunto": "Eletricidade - Resistência elétrica e Lei de Ohm",
+      "banca": "INEP",
+      "ano": "2018",
+      "texto_auxiliar": "Ao pesquisar um resistor feito de um novo tipo de material, um cientista observou o comportamento mostrado no gráfico tensão versus corrente. Após a análise do gráfico, ele concluiu que a tensão em função da corrente é dada pela equação V = 10 i + i^2.",
+      "enunciado": "O gráfico da resistência elétrica (R) do resistor em função da corrente (i) é",
+      "alternativas": {
+        "A": "Gráfico A (não descrito no texto)",
+        "B": "Gráfico B (não descrito no texto)",
+        "C": "Gráfico C (não descrito no texto)",
+        "D": "Gráfico D (não descrito no texto)",
+        "E": "Gráfico E (não descrito no texto)"
+      },
+      "gabarito": "D",
+      "comentario": "Ao dividirmos a tensão elétrica (V) pela intensidade de corrente elétrica (i), obtemos a resistência elétrica aparente R (Lei de Ohm). Assim: R = V/i = (10i + i^2)/i = 10 + 1,0i. Portanto, a resistência elétrica aparente (R) varia com a intensidade de corrente elétrica (i) de acordo com uma função do primeiro grau. O gráfico é retilíneo, com coeficiente linear 10 e coeficiente angular 1,0. Assim, o gráfico correspondente é o da alternativa D."
+    },
+    {
+      "id": "enem_enem2018_2dia_117_26",
+      "materia": "Física",
+      "assunto": "Ondulatória",
+      "banca": "INEP",
+      "ano": "2018",
+      "texto_auxiliar": "O sonorizador é um dispositivo físico implantado sobre a superfície de uma rodovia de modo que provoque uma trepidação e ruído quando da passagem de um veículo sobre ele, alertando para uma situação atípica à frente, como obras, pedágios ou travessia de pedestres. Ao passar sobre os sonorizadores, a suspensão do veículo sofre vibrações que produzem ondas sonoras, resultando em um barulho peculiar. Considere um veículo que passe com velocidade constante igual a 108 km/h sobre um sonorizador cujas faixas são separadas por uma distância de 8 cm.",
+      "enunciado": "A frequência da vibração do automóvel percebida pelo condutor durante a passagem nesse sonorizador é mais próxima de",
+      "alternativas": {
+        "A": "8,6 hertz.",
+        "B": "13,5 hertz.",
+        "C": "375 hertz.",
+        "D": "1 350 hertz.",
+        "E": "4 860 hertz."
+      },
+      "gabarito": "C",
+      "comentario": "No esquema abaixo, temos um trecho do sonorizador, que pode ser assimilado a uma onda com velocidade de módulo 108 km/h = 30 m/s em relação ao carro. O comprimento dessa “onda” é λ = 8 cm = 8 . 10^-2 m. Logo: V = λf ⇒ 30 = 8 . 10^-2 f ⇒ f = 375 Hz."
+    },
+    {
+      "id": "enem_enem2018_2dia_118_27",
+      "materia": "Física",
+      "assunto": "Alavancas",
+      "banca": "INEP",
+      "ano": "2018",
+      "texto_auxiliar": "As pessoas que utilizam objetos cujo princípio de funcionamento é o mesmo do das alavancas aplicam uma força, chamada de força potente, em um dado ponto da barra, para superar ou equilibrar uma segunda força, chamada de resistente, em outro ponto da barra. Por causa das diferentes distâncias entre os pontos de aplicação das forças, potente e resistente, os seus efeitos também são diferentes. A figura mostra alguns exemplos desses objetos.",
+      "enunciado": "Em qual dos objetos a força potente é maior que a força resistente?",
+      "alternativas": {
+        "A": "Pinça.",
+        "B": "Alicate.",
+        "C": "Quebra-nozes.",
+        "D": "Carrinho de mão.",
+        "E": "Abridor de garrafa."
+      },
+      "gabarito": "A",
+      "comentario": "Os torques da força potente e da força resistente têm módulos praticamente iguais: F_potente * d_potente = F_resistente * d_resistente. Para a pinça, o braço da força potente é menor que o braço da força resistente e, portanto, F_potente > F_resistente."
+    },
+    {
+      "id": "enem_enem2018_2dia_122_31",
+      "materia": "Física",
+      "assunto": "Dilatação térmica",
+      "banca": "INEP",
+      "ano": 2018,
+      "texto_auxiliar": "Alguns materiais sólidos são compostos por átomos que interagem entre si formando ligações que podem ser covalentes, iônicas ou metálicas. A figura apresenta a energia potencial de ligação em função da distância interatômica em um sólido cristalino. Analisando essa figura, observa-se que, na temperatura de zero kelvin, a distância de equilíbrio da ligação entre os átomos (R0) corresponde ao valor mínimo de energia potencial. Acima dessa temperatura, a energia térmica fornecida aos átomos aumenta sua energia cinética e faz com que eles oscilem em torno de uma posição de equilíbrio média (círculos cheios), que é diferente para cada temperatura. A distância de ligação pode variar sobre toda a extensão das linhas horizontais, identificadas com o valor da temperatura, de T1 a T4 (temperaturas crescentes).",
+      "enunciado": "O deslocamento observado na distância média revela o fenômeno da",
+      "alternativas": {
+        "A": "ionização.",
+        "B": "dilatação.",
+        "C": "dissociação.",
+        "D": "quebra de ligações covalentes.",
+        "E": "formação de ligações metálicas."
+      },
+      "gabarito": "B",
+      "comentario": "Os íons estão em constante agitação, proporcional à temperatura, que ao ser elevada, aumenta a distância de equilíbrio da ligação entre os átomos (R0), relacionada com a amplitude de oscilação. A separação maior dos íons revela o fenômeno da dilatação térmica."
+    },
+    {
+      "id": "enem_enem2018_2dia_124_33",
+      "materia": "Física",
+      "assunto": "Ondulatória - Interferência de ondas sonoras",
+      "banca": "INEP",
+      "ano": "2018",
+      "texto_auxiliar": "Nos manuais de instalação de equipamentos de som há o alerta aos usuários para que observem a correta polaridade dos fios ao realizarem as conexões das caixas de som. As figuras ilustram o esquema de conexão das caixas de som de um equipamento de som mono, no qual os alto-falantes emitem as mesmas ondas. No primeiro caso, a ligação obedece às especificações do fabricante e no segundo mostra uma ligação na qual a polaridade está invertida.",
+      "enunciado": "O que ocorre com os alto-falantes E e D se forem conectados de acordo com o segundo esquema?",
+      "alternativas": {
+        "A": "O alto-falante E funciona normalmente e o D entra em curto-circuito e não emite som.",
+        "B": "O alto-falante E emite ondas sonoras com frequências ligeiramente diferentes do alto-falante D provocando o fenômeno de batimento.",
+        "C": "O alto-falante E emite ondas sonoras com frequências e fases diferentes do alto-falante D provocando o fenômeno conhecido como ruído.",
+        "D": "O alto-falante E emite ondas sonoras que apresentam um lapso de tempo em relação às emitidas pelo alto-falante D provocando o fenômeno de reverberação.",
+        "E": "O alto-falante E emite ondas sonoras em oposição de fase às emitidas pelo alto-falante D provocando o fenômeno de interferência destrutiva nos pontos equidistantes aos alto-falantes."
+      },
+      "gabarito": "E",
+      "comentario": "Invertendo-se a polaridade da caixa de som D, o seu alto-falante passará a emitir ondas sonoras com a fase invertida em relação à ligação correta. Assim, as caixas de som E e D estarão emitindo ondas sonoras em oposição de fase. Para pontos equidistantes de ambas, haverá interferência destrutiva."
+    },
+    {
+      "id": "enem_enem2018_2dia_127_36",
+      "materia": "Física",
+      "assunto": "Densidade e empuxo",
+      "banca": "INEP",
+      "ano": "2018",
+      "texto_auxiliar": "Usando um densímetro cuja menor divisão da escala, isto é, a diferença entre duas marcações consecutivas, é de 5,0 x 10^–2 g cm^–3, um estudante realizou um teste de densidade: colocou este instrumento na água pura e observou que ele atingiu o repouso na posição mostrada. Em dois outros recipientes A e B contendo 2 litros de água pura, em cada um, ele adicionou 100 g e 200 g de NaCl, respectivamente. Quando o cloreto de sódio é adicionado à água pura ocorre sua dissociação formando os íons Na+ e Cl–. Considere que esses íons ocupam os espaços intermoleculares na solução.",
+      "enunciado": "Nestes recipientes, a posição de equilíbrio do densímetro está representada em:",
+      "alternativas": {
+        "A": "[IMAGEM OMITIDA]",
+        "B": "[IMAGEM OMITIDA]",
+        "C": "[IMAGEM OMITIDA]",
+        "D": "[IMAGEM OMITIDA]",
+        "E": "[IMAGEM OMITIDA]"
+      },
+      "gabarito": "D",
+      "comentario": "Como os íons ocupam os espaços intermoleculares, o volume total da mistura é igual ao volume inicial de água. As densidades das misturas em A e B são dadas por: μA = (mágua + 100)/2000 = (mágua/2000) + 5,0×10^–2 g/cm³; μB = (mágua + 200)/2000 = (mágua/2000) + 10×10^–2 g/cm³. Inicialmente, imerso em água pura, o densímetro estava posicionado com o volume do balão + 2 unidades da escala abaixo da linha da água. Para o recipiente A, a densidade do líquido aumentou em 5,0×10^–2 g/cm³ e, portanto, o densímetro deve subir uma divisão de sua escala. Para o recipiente B, a densidade do líquido aumentou em 10×10^–2 g/cm³ e, portanto, o densímetro deve subir duas unidades de sua escala, o que nos remete à opção D."
+    },
+    {
+      "id": "enem_enem2018_2dia_128_37",
+      "materia": "Física",
+      "assunto": "Óptica - Dispersão da Luz",
+      "banca": "INEP",
+      "ano": "2018",
+      "texto_auxiliar": "A figura representa um prisma óptico, constituido de um material transparente, cujo índice de refração é crescente com a frequência da luz que sobre ele incide. Um feixe luminoso, composto por luzes vermelha, azul e verde, incide na face A, emerge na face B e, após ser refletido por um espelho, incide num filme para fotografia colorida, revelando três pontos.",
+      "enunciado": "Observando os pontos luminosos revelados no filme, de baixo para cima, constatam-se as seguintes cores:",
+      "alternativas": {
+        "A": "Vermelha, verde, azul.",
+        "B": "Verde, vermelha, azul.",
+        "C": "Azul, verde, vermelha.",
+        "D": "Verde, azul, vermelha.",
+        "E": "Azul, vermelha, verde."
+      },
+      "gabarito": "A",
+      "comentario": "Das cores citadas – vermelha, azul e verde –, as frequências f obedecem à expressão: fazul > fverde > fvermelha. Isso significa que o prisma apresenta índices de refração n de acordo com: nazul > nverde > nvermelha. Logo, ao atravessar o prisma, a frequência azul se desvia angularmente mais que a verde, que se desvia mais que a vermelha, resultando no filme, depois da reflexão no espelho plano, o padrão indicado abaixo. Resposta: A"
+    },
+    {
+      "id": "enem_enem2018_2dia_131_40",
+      "materia": "Física",
+      "assunto": "Leis de Newton e Quantidade de Movimento",
+      "banca": "INEP",
+      "ano": 2018,
+      "texto_auxiliar": "Em desenhos animados é comum vermos a personagem tentando impulsionar um barco soprando ar contra a vela para compensar a falta de vento. Algumas vezes usam o próprio fôlego, foles ou ventiladores. Estudantes de um laboratório didático resolveram investigar essa possibilidade. Para isso, usaram dois pequenos carros de plástico. A e B, instalaram sobre estes pequenas ventoinhas e fixaram verticalmente uma cartolina de curvatura parabólica para desempenhar uma função análoga à vela de um barco. No carro B inverteu-se o sentido da ventoinha e manteve-se a vela, a fim de manter as características do barco, massa e formato da cartolina. As figuras representam os carros produzidos. A montagem do carro A busca simular a situação dos desenhos animados, pois a ventoinha está direcionada para a vela.",
+      "enunciado": "Com os carros orientados de acordo com as figuras, os estudantes ligaram as ventoinhas, aguardaram o fluxo de ar ficar permanente e determinaram os módulos das velocidades médias dos carros A (VA) e B (VB) para o mesmo intervalo de tempo. A respeito das intensidades das velocidades médias e do sentido de movimento do carro A, os estudantes observaram que:",
+      "alternativas": {
+        "A": "VA = 0; VB > 0; o carro A não se move.",
+        "B": "0 < VA < VB; o carro A se move para a direita.",
+        "C": "0 < VA < VB; o carro A se move para a esquerda.",
+        "D": "0 < VB < VA; o carro A se move para a direita.",
+        "E": "0 < VB < VA; o carro A se move para a esquerda."
+      },
+      "gabarito": "B",
+      "comentario": "Carro B: a ventoinha aplica no ar uma força de ação F e o ar aplica na ventoinha uma força de reação -F que acelera o carro B para a direita. Carro A: a cartolina parabólica faz com que a colisão do ar seja parcialmente elástica, com o ar retornando, gerando uma força maior que F sobre a cartolina, movendo o carro A para a direita, porém com aceleração menor que a do carro B. Portanto, 0 < VA < VB e o carro A se move para a direita."
+    },
+    {
+      "id": "enem_enem2018_2dia_133_42",
+      "materia": "Física",
+      "assunto": "Cinemática",
+      "banca": "INEP",
+      "ano": "2018",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Visando a melhoria estética de um veículo, o vendedor de uma loja sugere ao consumidor que ele troque as rodas de seu automóvel de aro 15 polegadas para aro 17 polegadas, o que corresponde a um diâmetro maior do conjunto roda e pneu. Duas consequências provocadas por essa troca de aro são:",
+      "alternativas": {
+        "A": "Elevar a posição do centro de massa do veículo tornando-o mais instável e aumentar a velocidade do automóvel em relação à indicada no velocímetro.",
+        "B": "Abaixar a posição do centro de massa do veículo tornando-o mais instável e diminuir a velocidade do automóvel em relação à indicada no velocímetro.",
+        "C": "Elevar a posição do centro de massa do veículo tornando-o mais estável e aumentar a velocidade do automóvel em relação à indicada no velocímetro.",
+        "D": "Abaixar a posição do centro de massa do veículo tornando-o mais estável e diminuir a velocidade do automóvel em relação à indicada no velocímetro.",
+        "E": "Elevar a posição do centro de massa do veículo tornando-o mais estável e diminuir a velocidade do automóvel em relação à indicada no velocímetro."
+      },
+      "gabarito": "A",
+      "comentario": "1) O aumento do diâmetro da roda do pneu faz com que o centro de massa do veículo sofra uma elevação, o que torna o automóvel mais instável. 2) O velocímetro mede, na realidade, a velocidade angular da roda do carro, a qual não vai alterar-se com a mudança do diâmetro do pneu. A velocidade real do carro (V = ωR) vai aumentar por causa do aumento do raio do pneu. Vfinal = (17/15) Voriginal. Portanto, a indicação do velocímetro fica menor do que a velocidade real do carro."
+    },
+    {
+      "id": "enem_enem2018_2dia_151_60",
+      "materia": "Física",
+      "assunto": "Lei da Gravitação Universal",
+      "banca": "INEP",
+      "ano": "2018",
+      "texto_auxiliar": "De acordo com a Lei Universal da Gravitação, proposta por Isaac Newton, a intensidade da força gravitacional F que a Terra exerce sobre um satélite em órbita circular é proporcional à massa m do satélite e inversamente proporcional ao quadrado do raio r da órbita, ou seja, F = km/r^2.",
+      "enunciado": "No plano cartesiano, três satélites, A, B e C, estão representados, cada um, por um ponto (m; r) cujas coordenadas são, respectivamente, a massa do satélite e o raio da sua órbita em torno da Terra. Com base nas posições relativas dos pontos no gráfico, deseja-se comparar as intensidades FA, FB e FC da força gravitacional que a Terra exerce sobre os satélites A, B e C, respectivamente. As intensidades FA, FB e FC expressas no gráfico satisfazem a relação",
+      "alternativas": {
+        "A": "FC = FA < FB",
+        "B": "FA = FB < FC",
+        "C": "FA < FB < FC",
+        "D": "FA < FC < FB",
+        "E": "FC < FA < FB"
+      },
+      "gabarito": "E",
+      "comentario": "Do gráfico, temos mA = mC e rA < rC, logo FA > FC. Também, rA = rB e mA < mB, logo FA < FB. Portanto, FC < FA < FB."
+    },
+    {
+      "id": "enem_enem2019_1dia_59_63",
+      "materia": "Física",
+      "assunto": "História da Ciência",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "A lenda diz que, em um belo dia ensolarado, Newton estava relaxando sob uma macieira. Pássaros gorjeavam em suas orelhas. Havia uma brisa gentil. Ele cochilou por alguns minutos. De repente, uma maçã caiu sobre a sua cabeça e ele acordou com um susto. Olhou para cima. “Com certeza um pássaro ou um esquilo derrubou a maçã da árvore”, supôs. Mas não havia pássaros ou esquilos na árvore por perto. Ele, então, pensou: “Apenas alguns minutos antes, a maçã estava pendurada na árvore. Nenhuma força externa fez ela cair. Deve haver alguma força subjacente que causa a queda das coisas para a terra”.",
+      "enunciado": "Em contraponto a uma interpretação idealizada, o texto aponta para a seguinte dimensão fundamental da ciência moderna:",
+      "alternativas": {
+        "A": "Falsificação de teses.",
+        "B": "Negação da observação.",
+        "C": "Proposição de hipóteses.",
+        "D": "Contemplação da natureza.",
+        "E": "Universalização de conclusões."
+      },
+      "gabarito": "C",
+      "comentario": "Newton propôs uma hipótese ao afirmar que deve haver uma força subjacente que causa a queda das coisas sendo atraídas pela Terra. Trata-se do exercício essencial da ciência: propor hipóteses."
+    },
+    {
+      "id": "enem_enem2019_2dia_91_0",
+      "materia": "Física",
+      "assunto": "Circuitos elétricos",
+      "banca": "INEP",
+      "ano": "2019",
+      "texto_auxiliar": "Uma casa tem um cabo elétrico mal dimensionado, de resistência igual a 10 Ω, que a conecta à rede elétrica de 120V. Nessa casa, cinco lâmpadas, de resistência igual a 200 Ω, estão conectadas ao mesmo circuito que uma televisão de resistência igual a 50 Ω, conforme ilustrado no esquema. A televisão funciona apenas com tensão entre 90V e 130V.",
+      "enunciado": "O número máximo de lâmpadas que podem ser ligadas sem que a televisão pare de funcionar é:",
+      "alternativas": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "gabarito": "B",
+      "comentario": "A menor tensão no televisor deve ser de 90V. Para uma ddp de 90V no televisor, a tensão elétrica no resistor de 10 Ω será igual a 30V, assim: Televisão: UTV = RTV * iTV => 90 = 50 * iTV => iTV = 1,8A. Resistor de 10 Ω: U = R * itotal => 30 = 10 * itotal => itotal = 3,0A. Cada lâmpada que for conectada ao circuito será percorrida por uma corrente elétrica dada por: Ulâmp = Rlâmp * ilâmp => 90 = 200 * ilâmp => ilâmp = 0,45A. A corrente elétrica I que poderá acionar as lâmpadas será dada por: I = itotal – iTV => I = 3,0 – 1,8 (A) => I = 1,2A. Finalmente: I = n * ilâmp => 1,2 = n * 0,45 => n ≈ 2,67. Assim, o número máximo de lâmpadas é 2."
+    },
+    {
+      "id": "enem_enem2019_2dia_95_4",
+      "materia": "Física",
+      "assunto": "Eletromagnetismo",
+      "banca": "INEP",
+      "ano": "2019",
+      "texto_auxiliar": "As redes de alta tensão para transmissão de energia elétrica geram campo magnético variável o suficiente para induzir corrente elétrica no arame das cercas. Tanto os animais quanto os funcionários das propriedades rurais ou das concessionárias de energia devem ter muito cuidado ao se aproximarem de uma cerca quando esta estiver próxima a uma rede de alta tensão, pois, se tocarem no arame da cerca, poderão sofrer choque elétrico.",
+      "enunciado": "Para minimizar este tipo de problema, deve-se:",
+      "alternativas": {
+        "A": "Fazer o aterramento dos arames da cerca.",
+        "B": "Acrescentar fusível de segurança na cerca.",
+        "C": "Realizar o aterramento da rede de alta tensão.",
+        "D": "Instalar fusível de segurança na rede de alta tensão.",
+        "E": "Utilizar fios encapados com isolante na rede de alta tensão."
+      },
+      "gabarito": "A",
+      "comentario": "Para evitarmos um acidente com uma pessoa encostando na cerca de arame farpado, esta deverá ser aterrada, pois seus fios de arame passarão a ter potencial zero volt, igualando-se ao da terra. Deste modo, a ddp (diferença de potencial) se anula e a pessoa não leva choque elétrico."
+    },
+    {
+      "id": "enem_enem2019_2dia_97_6",
+      "materia": "Física",
+      "assunto": "Conservação da energia mecânica",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "Numa feira de ciências, um estudante utilizará o disco de Maxwell (ioiô) para demonstrar o princípio da conservação da energia. A apresentação consistirá em duas etapas. Etapa 1 – a explicação de que, à medida que o disco desce, parte de sua energia potencial gravitacional é transformada em energia cinética de translação e energia cinética de rotação; Etapa 2 – o cálculo da energia cinética de rotação do disco no ponto mais baixo de sua trajetória, supondo o sistema conservativo. Ao preparar a segunda etapa, ele considera a aceleração da gravidade igual a 10 m/s² e a velocidade linear do centro de massa do disco desprezível em comparação com a velocidade angular. Em seguida, mede a altura do topo do disco em relação ao chão no ponto mais baixo de sua trajetória, obtendo 2/3 da altura da haste do brinquedo. As especificações de tamanho do brinquedo, isto é, de comprimento (C), largura (L) e altura (A), assim como da massa de seu disco de metal, foram encontradas pelo estudante no recorte de manual ilustrado a seguir. Conteúdo: base de metal, hastes metálicas, barra superior, disco de metal. Tamanho (C x L x A): 300 mm x 100 mm x 410 mm. Massa do disco de metal: 30 g.",
+      "enunciado": "O resultado do cálculo da etapa 2, em joule, é:",
+      "alternativas": {
+        "A": "4,10 x 10⁻²",
+        "B": "8,20 x 10⁻²",
+        "C": "1,23 x 10⁻¹",
+        "D": "8,20 x 10⁴",
+        "E": "1,23 x 10⁵"
+      },
+      "gabarito": "B",
+      "comentario": "Conservação da energia mecânica: E_final = E_inicial. Como a velocidade escalar linear é desprezível em comparação com a velocidade escalar angular, então a energia final é exclusivamente a energia cinética de rotação: E_cin_rotação = E_inicial = m g h. E_cin_rotação = 30 . 10⁻³ . 10 . (2/3) . 0,410 (J) = 0,820 . 10⁻¹ J = 8,20 . 10⁻² J."
+    },
+    {
+      "id": "enem_enem2019_2dia_100_9",
+      "materia": "Física",
+      "assunto": "Pressão e deformação de pneus",
+      "banca": "INEP",
+      "ano": "2019",
+      "texto_auxiliar": "Dois amigos se encontram em um posto de gasolina para calibrar os pneus de suas bicicletas. Uma das bicicletas é de corrida (bicicleta A) e a outra, de passeio (bicicleta B). Os pneus de ambas as bicicletas têm as mesmas características, exceto que a largura dos pneus de A é menor que a largura dos pneus de B. Ao calibrarem os pneus das bicicletas A e B, respectivamente com pressões de calibração pA e pB, os amigos observam que o pneu da bicicleta A deforma, sob mesmos esforços, muito menos que o pneu da bicicleta B. Pode-se considerar que as massas de ar comprimido no pneu da bicicleta A, mA, e no pneu da bicicleta B, mB, são diretamente proporcionais aos seus volumes.",
+      "enunciado": "Comparando as pressões e massas de ar comprimido nos pneus das bicicletas, temos:",
+      "alternativas": {
+        "A": "pA < pB e mA < mB",
+        "B": "pA > pB e mA < mB",
+        "C": "pA > pB e mA = mB",
+        "D": "pA < pB e mA = mB",
+        "E": "pA > pB e mA > mB"
+      },
+      "gabarito": "B",
+      "comentario": "Comparação das pressões: De acordo com o texto, “o pneu da bicicleta A deforma, sob os mesmos esforços, muito menos que o pneu da bicicleta B”, por isso, a pressão pA deve ser maior que a pressão pB. Comparação das massas: De acordo com o texto, as massas são diretamente proporcionais aos volumes. O pneu A é menos largo que o pneu B, tem menor volume de ar, e consequentemente, menos massa de ar. Resposta: B (pA > pB e mA < mB)."
+    },
+    {
+      "id": "enem_enem2019_2dia_107_16",
+      "materia": "Física",
+      "assunto": "Impulso e Quantidade de Movimento",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "Em qualquer obra de construção civil é fundamental a utilização de equipamentos de proteção individual, tal como capacetes. Por exemplo, a queda livre de um tijolo de massa 2,5kg de uma altura de 5m, cujo impacto contra um capacete pode durar até 0,5s, resulta em uma força impulsiva média maior do que o peso do tijolo. Suponha que a aceleração gravitacional seja 10 m s–2 e que o efeito de resistência do ar seja desprezível.",
+      "enunciado": "A força impulsiva média gerada por esse impacto equivale ao peso de quantos tijolos iguais?",
+      "alternativas": {
+        "A": "2",
+        "B": "5",
+        "C": "10",
+        "D": "20",
+        "E": "50"
+      },
+      "gabarito": "A",
+      "comentario": "Cálculo do módulo da velocidade de impacto: V = √(2gh) = √(2·10·5) = 10 m/s. Teorema do impulso: Fm·Δt = mV → Fm·0,5 = 2,5·10 → Fm = 50 N. Peso de um tijolo: P = mg = 2,5·10 = 25 N. Logo, Fm = 2P, equivalendo a 2 tijolos."
+    },
+    {
+      "id": "enem_enem2019_2dia_109_18",
+      "materia": "Física",
+      "assunto": "Força magnética e movimento circular uniforme",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "O espectrômetro de massa de tempo de voo é um dispositivo utilizado para medir a massa de íons. Nele, um íon de carga elétrica q é lançado em uma região de campo magnético constante B, descrevendo uma trajetória helicoidal, conforme a figura. Essa trajetória é formada pela composição de um movimento circular uniforme no plano yz e uma translação ao longo do eixo x. A vantagem desse dispositivo é que a velocidade angular do movimento helicoidal do íon é independente de sua velocidade inicial. O dispositivo então mede o tempo t de voo para N voltas do íon. Logo, com base nos valores q, B, N e t, pode-se determinar a massa do íon.",
+      "enunciado": "A massa do íon medida por esse dispositivo será",
+      "alternativas": {
+        "A": "qBt / (2πN)",
+        "B": "qBt / (πN)",
+        "C": "2qBt / (πN)",
+        "D": "qBt / N",
+        "E": "2qBt / N"
+      },
+      "gabarito": "A",
+      "comentario": "No movimento circular uniforme, a força magnética é a resultante centrípeta: qvB = mv²/R, resultando em R = mv/(qB). O período T = 2πR/v = 2πm/(qB). Para N voltas, t = N T = 2πNm/(qB), logo m = qBt/(2πN)."
+    },
+    {
+      "id": "enem_enem2019_2dia_117_26",
+      "materia": "Física",
+      "assunto": "Estática e Decomposição de Forças",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "Slackline é um esporte no qual o atleta deve se equilibrar e executar manobras estando sobre uma fita esticada. Para a prática do esporte, as duas extremidades da fita são fixadas de forma que ela fique a alguns centímetros do solo. Quando uma atleta de massa igual a 80 kg está exatamente no meio da fita, essa se desloca verticalmente, formando um ângulo de 10º com a horizontal, como esquematizado na figura. Sabe-se que a aceleração da gravidade é igual a 10 m/s², cos(10º) = 0,98 e sen(10º) = 0,17.",
+      "enunciado": "Qual é a força que a fita exerce em cada uma das árvores por causa da presença da atleta?",
+      "alternativas": {
+        "A": "4,0 x 10² N",
+        "B": "4,1 x 10² N",
+        "C": "8,0 x 10² N",
+        "D": "2,4 x 10³ N",
+        "E": "4,7 x 10³ N"
+      },
+      "gabarito": "D",
+      "comentario": "Para o equilíbrio da pessoa, temos: 2T sen 10° = P => 2T * 0,17 = 800 => T = 800 / (2*0,17) ≈ 2353 N ≈ 2,4 x 10³ N."
+    },
+    {
+      "id": "enem_enem2019_2dia_120_29",
+      "materia": "Física",
+      "assunto": "Movimento Circular Uniforme",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "Na madrugada de 11 de março de 1978, partes de um foguete soviético reentraram na atmosfera acima da cidade do Rio de Janeiro e caíram no Oceano Atlântico. Foi um belo espetáculo, os inúmeros fragmentos entrando em ignição devido ao atrito com a atmosfera brilharam intensamente, enquanto “cortavam o céu”. Mas se a reentrada tivesse acontecido alguns minutos depois, teríamos uma tragédia, pois a queda seria na área urbana do Rio de Janeiro e não no oceano.",
+      "enunciado": "De acordo com os fatos relatados, a velocidade angular do foguete em relação à Terra no ponto de reentrada era",
+      "alternativas": {
+        "A": "igual à da Terra e no mesmo sentido.",
+        "B": "superior à da Terra e no mesmo sentido.",
+        "C": "inferior à da Terra e no sentido oposto.",
+        "D": "igual à da Terra e no sentido oposto.",
+        "E": "superior à da Terra e no sentido oposto."
+      },
+      "gabarito": "B",
+      "comentario": "Se, na situação relatada, os fragmentos do foguete adentraram a atmosfera terrestre sobre a cidade do Rio de Janeiro e caíram no Oceano Atlântico, sua velocidade angular está orientada no mesmo sentido da rotação da Terra, porém com intensidade maior que a velocidade angular de rotação do planeta."
+    },
+    {
+      "id": "enem_enem2019_2dia_122_31",
+      "materia": "Física",
+      "assunto": "Transmissão de calor",
+      "banca": "INEP",
+      "ano": "2019",
+      "texto_auxiliar": "O objetivo de recipientes isolantes térmicos é minimizar as trocas de calor com o ambiente externo. Essa troca de calor é proporcional à condutividade térmica k e à área interna das faces do recipiente, bem como à diferença de temperatura entre o ambiente externo e o interior do recipiente, além de ser inversamente proporcional à espessura das faces.",
+      "enunciado": "A fim de avaliar a qualidade de dois recipientes A (40 cm x 40 cm x 40 cm) e B (60 cm x 40 cm x 40 cm) de faces de mesma espessura, uma estudante compara suas condutividades térmicas kA e kB. Para isso suspende, dentro de cada recipiente, blocos idênticos de gelo a 0°C, de modo que suas superfícies estejam em contato apenas com o ar. Após um intervalo de tempo, ela abre os recipientes enquanto ambos ainda contêm um pouco de gelo e verifica que a massa de gelo que se fundiu no recipiente B foi o dobro da que se fundiu no recipiente A. A razão kA/kB é mais próxima de",
+      "alternativas": {
+        "A": "0,50.",
+        "B": "0,67.",
+        "C": "0,75.",
+        "D": "1,33.",
+        "E": "2,00"
+      },
+      "gabarito": "B",
+      "comentario": "O fluxo de calor por condução através das paredes dos recipientes A e B é calculado pela Lei de Fourier: Φ = k A Δθ / e. A área total de A é 2(40·40)+2(40·40)+2(40·40)=9600 cm², e a de B é 2(60·40)+2(60·40)+2(40·40)=12800 cm². Como a massa de gelo fundida em B é o dobro, o fluxo em B é o dobro: ΦB = 2ΦA. Assim, kB·12800/e = 2·(kA·9600/e) → kB·12800 = 2·kA·9600 → kB·12800 = kA·19200 → kA/kB = 12800/19200 = 2/3 ≈ 0,67."
+    },
+    {
+      "id": "enem_enem2019_2dia_124_33",
+      "materia": "Física",
+      "assunto": "Calorimetria",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "Em 1962, um jingle (vinheta musical) criado por Heitor Carillo fez tanto sucesso que extrapolou as fronteiras do rádio e chegou à televisão ilustrado por um desenho animado. Nele, uma pessoa respondia ao fantasma que batia em sua porta, personificando o “frio”, que não o deixaria entrar, pois não abriria a porta e compraria lãs e cobertores para aquecer sua casa. Apesar de memorável, tal comercial televisivo continha incorreções a respeito de conceitos físicos relativos à calorimetria. DUARTE, M. Jingle é a alma do negócio: livro revela os bastidores das músicas de propagandas. Disponível em: https://guiadoscuriosos.uol.com.br. Acesso em: 24 abr. 2019 adaptado).",
+      "enunciado": "Para solucionar essas incorreções, deve-se associar à porta e aos cobertores, respectivamente, as funções de:",
+      "alternativas": {
+        "A": "Aquecer a casa e os corpos.",
+        "B": "Evitar a entrada do frio na casa e nos corpos.",
+        "C": "Minimizar a perda de calor pela casa e pelos corpos.",
+        "D": "Diminuir a entrada do frio na casa e aquecer os corpos.",
+        "E": "Aquecer a casa e reduzir a perda de calor pelos corpos."
+      },
+      "gabarito": "C",
+      "comentario": "A energia térmica flui espontaneamente da maior para a menor temperatura, logo, “frio não entra”, como propõe o jingle. A porta da casa minimiza as perdas de calor do interior da casa para o exterior, enquanto o cobertor proporciona um bom isolamento térmico entre o corpo da pessoa e o ambiente do dormitório, reduzindo a condução do calor para o ambiente."
+    },
+    {
+      "id": "enem_enem2019_2dia_129_38",
+      "materia": "Física",
+      "assunto": "Óptica",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "A maioria das pessoas fica com a visão embaçada ao abrir os olhos debaixo d’água. Mas há uma exceção: o povo moken, que habita a costa da Tailândia. Essa característica se deve principalmente à adaptabilidade do olho e à plasticidade do cérebro, o que significa que você também, com algum treinamento, poderia enxergar relativamente bem debaixo d’água. Estudos mostraram que as pupilas de olhos de indivíduos moken sofrem redução significativa debaixo d’água, o que faz com que os raios luminosos incidam quase paralelamente ao eixo óptico da pupila.",
+      "enunciado": "A acuidade visual associada à redução das pupilas é fisicamente explicada pela diminuição",
+      "alternativas": {
+        "A": "da intensidade luminosa incidente na retina.",
+        "B": "da difração dos feixes luminosos que atravessam a pupila.",
+        "C": "da intensidade dos feixes luminosos em uma direção por polarização.",
+        "D": "do desvio dos feixes luminosos refratados no interior do olho.",
+        "E": "das reflexões dos feixes luminosos no interior do olho."
+      },
+      "gabarito": "D",
+      "comentario": "De acordo com o texto, a citação “debaixo d’água, o que faz com que os raios luminosos incidam quase paralelamente ao eixo óptico da pupila” leva-nos a concluir que os raios incidentes estão muito próximos do eixo principal do sistema de lentes do olho e possuem menor desvio por refração."
+    },
+    {
+      "id": "enem_enem2019_2dia_132_41",
+      "materia": "Física",
+      "assunto": "Natureza da luz",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "Quando se considera a extrema velocidade com que a luz se espalha por todos os lados e que, quando vêm de diferentes lugares, mesmo totalmente opostos, os raios luminosos se atravessam uns aos outros sem se atrapalharem, compreende-se que, quando vemos um objeto luminoso, isso não poderia ocorrer pelo transporte de uma matéria que venha do objeto até nós, como uma flecha ou bala atravessa o ar; pois certamente isso repugna bastante a essas duas propriedades da luz, principalmente a última.\nHUYGENS, C. in: MARTINS, R. A. Tratado sobre a luz, de Cristian Huygens. Caderno de História e Filosofia da Ciência, supl. 4, 1986.",
+      "enunciado": "O texto contesta que concepção acerca do comportamento da luz?",
+      "alternativas": {
+        "A": "O entendimento de que a luz precisa de um meio de propagação, difundido pelos defensores da existência do éter.",
+        "B": "O modelo ondulatório para a luz, o qual considera a possibilidade de interferência entre feixes luminosos.",
+        "C": "O modelo corpuscular defendido por Newton, que descreve a luz como um feixe de partículas.",
+        "D": "A crença na velocidade infinita da luz, defendida pela maioria dos filósofos gregos.",
+        "E": "A ideia defendida pelos gregos de que a luz era produzida pelos olhos."
+      },
+      "gabarito": "C",
+      "comentario": "O texto da questão critica o modelo corpuscular da luz, pois a luz, supostamente, não pode comportar-se como se fosse um projétil (flecha ou bala) propagando-se no ar. O modelo corpuscular da luz fora proposto por Newton em desacordo com o comportamento ondulatório proposto por Huygens."
+    },
+    {
+      "id": "enem_enem2020_digital_2dia_92_1",
+      "materia": "Física",
+      "assunto": "Circuitos elétricos",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "O adaptador de tomada tipo T (Figura 1) é um acessório utilizado em domicílios para ligar vários aparelhos eletrodomésticos em uma única tomada. Conectar três aparelhos de alta potência em um mesmo adaptador pode superaquecê-lo e, consequentemente, provocar um incêndio. O circuito da Figura 2A representa um aparelho de resistência elétrica R ligado ao adaptador de resistência elétrica r. Na Figura 2B está representado um circuito com três aparelhos de resistência elétrica R ligados ao mesmo adaptador. Em ambos os circuitos, os pontos C e D são os terminais de uma mesma tomada elétrica. Considere todos os resistores ôhmicos.",
+      "enunciado": "Comparando-se a Figura 2B com a Figura 2A, verifica-se que o possível superaquecimento do adaptador de tomada acontece em decorrência do aumento da",
+      "alternativas": {
+        "A": "tensão em R.",
+        "B": "corrente em R.",
+        "C": "tensão entre C e D.",
+        "D": "corrente entre C e D.",
+        "E": "resistência equivalente entre C e D."
+      },
+      "gabarito": "D",
+      "comentario": "A resistência equivalente entre C e D no circuito B é menor que no circuito A, resultando em maior corrente total entre C e D, o que causa superaquecimento do adaptador."
+    },
+    {
+      "id": "enem_enem2020_digital_2dia_96_5",
+      "materia": "Física",
+      "assunto": "Ondulatória",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "Para se deslocar e obter alimentos, alguns mamíferos como morcegos e golfinhos, contam com a sofisticada capacidade biológica de detectar a posição de objetos e animais pela emissão e recepção de ondas ultrassônicas.",
+      "enunciado": "O fenômeno ondulatório que permite o uso dessa capacidade biológica é a",
+      "alternativas": {
+        "A": "reflexão.",
+        "B": "difração.",
+        "C": "refração.",
+        "D": "dispersão.",
+        "E": "polarização."
+      },
+      "gabarito": "A",
+      "comentario": "Esses animais emitem geralmente ultrassons – inaudíveis pelos humanos —, que se refletem em eventuais presas ou obstáculos, retornando com informações de distância e dimensões. Tal mecanismo é denominado ecolocalização."
+    },
+    {
+      "id": "enem_enem2020_digital_2dia_97_6",
+      "materia": "Física",
+      "assunto": "Termodinâmica",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Um fabricante de termômetros orienta em seu manual de instruções que o instrumento deve ficar três minutos em contato com o corpo para aferir a temperatura. Esses termômetros são feitos com o bulbo preenchido com mercúrio conectado a um tubo capilar de vidro. De acordo com a termodinâmica, esse procedimento se justifica, pois é necessário que",
+      "alternativas": {
+        "A": "o termômetro e o corpo tenham a mesma energia interna.",
+        "B": "a temperatura do corpo passe para o termômetro.",
+        "C": "o equilíbrio térmico entre os corpos seja atingido.",
+        "D": "a quantidade de calor dos corpos seja a mesma.",
+        "E": "o calor do termômetro passe para o corpo."
+      },
+      "gabarito": "C",
+      "comentario": "O intervalo de tempo de três minutos é necessário para que ocorra equilíbrio térmico entre o termômetro e o corpo que se deseja medir a temperatura. O termômetro e o corpo trocam energia térmica – calor – até que suas temperaturas se igualem, o que requer certo intervalo de tempo."
+    },
+    {
+      "id": "enem_enem2020_digital_2dia_98_7",
+      "materia": "Física",
+      "assunto": "Movimento Circular Uniforme",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "No Autódromo de Interlagos, um carro de Fórmula 1 realiza a curva S do Senna numa trajetória curvilínea. Enquanto percorre esse trecho, o velocímetro do carro indica velocidade constante. Quais são a direção e o sentido da aceleração do carro?",
+      "alternativas": {
+        "A": "Radial, apontada para fora da curva.",
+        "B": "Radial, apontada para dentro da curva.",
+        "C": "Aceleração nula, portanto, sem direção nem sentido.",
+        "D": "Tangencial, apontada no sentido da velocidade do carro.",
+        "E": "Tangencial, apontada no sentido contrário à velocidade do carro."
+      },
+      "gabarito": "B",
+      "comentario": "O velocímetro dando indicação constante o movimento é uniforme e sendo a trajetória curva a aceleração só terá componente centrípeta e, portanto, tem direção radial e aponta para o centro da curva."
+    },
+    {
+      "id": "enem_enem2020_digital_2dia_99_8",
+      "materia": "Física",
+      "assunto": "Termodinâmica",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "O leite UHT (do inglês Ultra-High Temperature ) é o leite tratado termicamente por um processo que recebe o nome de ultrapasteurização. Elevando sua temperatura homogeneamente a 135 °C por apenas 1 ou 2 segundos, o leite é esterilizado sem prejudicar significativamente seu sabor e aparência. Desse modo, ele pode ser armazenado, sem a necessidade de refrigeração, por meses. Para alcançar essa temperatura sem que a água que o compõe vaporize, o leite é aquecido em alta pressão. É necessário, entretanto, resfriar o leite rapidamente para evitar o seu cozimento. Para tanto, a pressão é reduzida subitamente, de modo que parte da água vaporize e a temperatura diminua.",
+      "enunciado": "O processo termodinâmico que explica essa redução súbita de temperatura é a",
+      "alternativas": {
+        "A": "convecção induzida pelo movimento de bolhas de vapor de água.",
+        "B": "emissão de radiação térmica durante a liberação de vapor de água.",
+        "C": "expansão livre do vapor de água liberado pelo leite no resfriamento.",
+        "D": "conversão de energia térmica em energia química pelas moléculas orgânicas.",
+        "E": "transferência de energia térmica durante a vaporização da água presente no leite."
+      },
+      "gabarito": "E",
+      "comentario": "Ao reduzirmos a pressão subitamente, ocorre a vaporização, pois parte da energia térmica da água transfere-se na forma de energia cinética para moléculas do vapor e a temperatura diminui."
+    },
+    {
+      "id": "enem_enem2020_digital_2dia_100_9",
+      "materia": "Física",
+      "assunto": "Eletromagnetismo",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "Os ventos solares são fenômenos caracterizados por feixes de partículas carregadas, lançadas pelo Sol, no espaço, em alta velocidade. Somente uma pequena fração dessas partículas atinge a atmosfera nos polos, provocando as auroras. A chegada dessas partículas à superfície pode gerar efeitos indesejáveis, interferindo nas telecomunicações, no tráfego aéreo e nas linhas de transmissão de energia elétrica.",
+      "enunciado": "Esses efeitos são minimizados na Terra pela ação de seu(sua)",
+      "alternativas": {
+        "A": "ionosfera.",
+        "B": "campo geomagnético.",
+        "C": "camada de ozônio.",
+        "D": "campo gravitacional.",
+        "E": "atmosfera."
+      },
+      "gabarito": "B",
+      "comentario": "O campo magnético ao redor da Terra promove uma proteção contra os ventos solares. Esse campo geomagnético forma um escudo protetor minimizando as interferências nas telecomunicações."
+    },
+    {
+      "id": "enem_enem2020_digital_2dia_111_20",
+      "materia": "Física",
+      "assunto": "Unidades de medida e potência",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "BTU é a sigla para British Thermal Unit (Unidade Térmica Inglesa), que é definida como a quantidade de calor necessária para elevar a temperatura de 1 libra (0,45kg) de água de 59,5°F a 60,5°F sob pressão constante de 1 atmosfera. A unidade BTU é utilizada, de forma errônea, por diversos profissionais como sendo a potência de resfriamento do aparelho.\nRODITI, I. Dicionário Houaiss de Física. Rio de Janeiro: Objetiva, 2005 (adaptado).",
+      "enunciado": "Como se pode representar corretamente a unidade de potência com base na definição de BTU?",
+      "alternativas": {
+        "A": "BTU × h−1",
+        "B": "BTU × m2",
+        "C": "BTU × h−1× m2",
+        "D": "BTU × h",
+        "E": "BTU × m−2"
+      },
+      "gabarito": "A",
+      "comentario": "Potência, por definição, é a razão entre energia e o tempo. Para a energia, em forma de calor, medida em BTU e o tempo, medido em horas, temos: Pot = Q/t ⇒ u(Pot) = u(Q)/u(t) = BTU/h = BTU·h⁻¹."
+    },
+    {
+      "id": "enem_enem2020_digital_2dia_116_25",
+      "materia": "Física",
+      "assunto": "Instrumentos de medição",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Quais são as possíveis leituras obtidas com o uso dos paquímetros A e B, em milímetro, respectivamente?",
+      "alternativas": {
+        "A": "11,01 e 12,50",
+        "B": "11,02 e 12,51",
+        "C": "11,04 e 12,55",
+        "D": "11,05 e 12,50",
+        "E": "11,06 e 12,54"
+      },
+      "gabarito": "C",
+      "comentario": "O paquímetro A tem resolução de 0,02 mm, portanto as leituras possíveis são múltiplos de 0,02 mm a partir de 11,0 mm: 11,02; 11,04; 11,06; etc. O paquímetro B tem resolução de 0,05 mm, portanto as leituras possíveis são múltiplos de 0,05 mm a partir de 12,5 mm: 12,50; 12,55; 12,60; etc. A única combinação que atende é 11,04 mm (paquímetro A) e 12,55 mm (paquímetro B), correspondente à alternativa C."
+    },
+    {
+      "id": "enem_enem2020_digital_2dia_117_26",
+      "materia": "Física",
+      "assunto": "Condutibilidade térmica",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "Os materiais são classificados pela sua natureza química e estrutural, e as diferentes aplicações requerem características específicas, como a condutibilidade térmica, quando são utilizados, por exemplo, em utensílios de cozinha. Assim, os alimentos são acondicionados em recipientes que podem manter a temperatura após o preparo. Considere a tabela, que apresenta a condutibilidade térmica (K) de diferentes materiais utilizados na confecção de panelas.\n\nCondutibilidade térmica de materiais utilizados na confecção de panelas\n\nMaterial / K (kcal h–1 m–1 °C–1)\nI Cobre 332,0\nII Alumínio 175,0\nIII Ferro 40,0\nIV Vidro 0,65\nV Cerâmica 0,40",
+      "enunciado": "Qual dos materiais é o recomendado para manter um alimento aquecido por um maior intervalo de tempo?",
+      "alternativas": {
+        "A": "I",
+        "B": "II",
+        "C": "III",
+        "D": "IV",
+        "E": "V"
+      },
+      "gabarito": "E",
+      "comentario": "Para que o alimento se mantenha aquecido, trocando o mínimo de energia térmica com o ambiente externo, em geral mais frio, ele deve ser acondicionado em um recipiente isolante. Isso vai ocorrer com panelas fabricadas de materiais de baixo coeficiente de condutibilidade térmica (K). Dentre os materiais citados nas alternativas, a cerâmica é o melhor isolante térmico, isto é, aquele com menor valor de K."
+    },
+    {
+      "id": "enem_enem2020_digital_2dia_118_27",
+      "materia": "Física",
+      "assunto": "Efeito fotoelétrico",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "As células fotovoltaicas (placas semicondutoras compostas de silício) são os componentes principais dos painéis solares e são capazes de converter, com certa eficiência, parte da energia dos raios solares em energia elétrica. Essa conversão é causada pelo fenômeno físico denominado “efeito fotoelétrico”, que pode ocorrer em uma variedade de materiais, incluindo metais e semicondutores.",
+      "enunciado": "Na superfície dos metais, a sequência de eventos que caracteriza esse efeito, de forma simplificada, é a",
+      "alternativas": {
+        "A": "absorção de fótons e a emissão de elétrons.",
+        "B": "absorção de elétrons e a emissão de fótons.",
+        "C": "emissão de fótons e a absorção de elétrons.",
+        "D": "absorção e a emissão de elétrons.",
+        "E": "absorção e a emissão de fótons."
+      },
+      "gabarito": "A",
+      "comentario": "No átomo, o elétron se prende ao núcleo por uma energia de ligação chamada função trabalho, que é característica do metal. A onda eletromagnética incide no metal na forma de fótons. Quando a energia do fóton for maior que a função trabalho, então o elétron absorve o fóton e se projeta para fora do metal com uma energia cinética Ec dada por: Ec = hf – τ, onde: hf = energia do fóton, τ = função trabalho."
+    },
+    {
+      "id": "enem_enem2020_digital_2dia_120_29",
+      "materia": "Física",
+      "assunto": "Eletrodinâmica",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "Diversos brinquedos são constituídos de pilhas ligadas a um motor elétrico. A figura mostra uma pilha e um motor acoplados, em que ε representa a força eletromotriz (FEM) da pilha, ε’ representa a força contraeletromotriz (FCEM) do motor e r e r’ são resistências internas. Um problema comum que danifica esses brinquedos é o travamento do eixo do motor.",
+      "enunciado": "O que ocorre com a FCEM e com a energia fornecida pelas pilhas, que ocasiona danos ao motor, quando seu eixo de rotação é travado?",
+      "alternativas": {
+        "A": "A FCEM iguala-se com a FEM e toda a energia fornecida pela pilha fica armazenada no circuito.",
+        "B": "A FCEM sofre grande aumento e toda a energia fornecida pela pilha passa a ser dissipada na forma de calor.",
+        "C": "A FCEM inverte a polaridade e toda a energia fornecida pela pilha é devolvida para ela na forma de energia potencial.",
+        "D": "A FCEM reduz-se a zero e toda a energia fornecida pela pilha passa a ser dissipada na resistência interna do motor.",
+        "E": "A FCEM mantém-se constante e toda a energia fornecida pela pilha continua sendo transformada em energia mecânica."
+      },
+      "gabarito": "D",
+      "comentario": "No circuito formado por um gerador e um motor, a intensidade da corrente elétrica é dada por: i = (ε - ε')/(r + r'). Ao travarmos o eixo de rotação do motor, a força contraeletromotriz (FCEM) reduz-se a zero e a intensidade de corrente elétrica aumenta de valor. Nessa situação, o motor atua como um resistor de resistência elétrica r' dissipando a energia fornecida pela pilha."
+    },
+    {
+      "id": "enem_enem2020_digital_2dia_126_35",
+      "materia": "Física",
+      "assunto": "Capacitores e carga elétrica",
+      "banca": "INEP",
+      "ano": 2020,
+      "texto_auxiliar": "O desfibrilador salva vidas de pessoas que são acometidas por ataques cardíacos ou arritmias. Ele dispõe de um capacitor que pode ser carregado por uma fonte com uma alta tensão. Usando o desfibrilador, pode-se fornecer energia ao coração, por meio de um choque elétrico, para que ele volte a pulsar novamente em seu ritmo normal. Um socorrista dispõe de um desfibrilador com capacitor de 70 microfarads que pode armazenar cerca de 220 J de energia, quando conectado a uma tensão de 2 500 V.",
+      "enunciado": "O valor da carga armazenada por esse desfibrilador, em coulomb, é de",
+      "alternativas": {
+        "A": "0,015.",
+        "B": "0,088.",
+        "C": "0,175.",
+        "D": "3,15.",
+        "E": "11,4."
+      },
+      "gabarito": "C",
+      "comentario": "Do enunciado, temos: C = 70 μF = 70 . 10⁻⁶ F, U = 2500 V = 2,5 . 10³ V. Assim, a carga armazenada será dada por: Q = C U = 70 . 10⁻⁶ . 2,5 . 10³ C = 175 . 10⁻³ C = 0,175 C."
+    },
+    {
+      "id": "enem_enem2020_digital_2dia_160_68",
+      "materia": "Física",
+      "assunto": "Gravitação Universal",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "Com base na Lei Universal da Gravitação, proposta por Isaac Newton, o peso de um objeto na superfície de um planeta aproximadamente esférico é diretamente proporcional à massa do planeta e inversamente proporcional ao quadrado do raio desse planeta. A massa do planeta Mercúrio é, aproximadamente, 1/20 da massa da Terra e seu raio é, aproximadamente, 2/5 do raio da Terra. Considere um objeto que, na superfície da Terra, tenha peso P.",
+      "enunciado": "O peso desse objeto na superfície de Mercúrio será igual a",
+      "alternativas": {
+        "A": "5P/16",
+        "B": "5P/2",
+        "C": "25P/4",
+        "D": "P/8",
+        "E": "P/20"
+      },
+      "gabarito": "A",
+      "comentario": "Resolução: Sendo m e r, respectivamente, a massa e o raio da Terra, sendo P o peso do objeto na Terra e x o peso do objeto em Mercúrio, tem-se: x/P = (1/20 m / m) * (r^2 / (2/5 r)^2) = (1/20) * (25/4) = 5/16, logo x = 5P/16."
+    },
+    {
+      "id": "enem_enem2021_2dia_96_5",
+      "materia": "Física",
+      "assunto": "Eletricidade, Potência e Energia",
+      "banca": "INEP",
+      "ano": 2021,
+      "texto_auxiliar": "Carros elétricos estão cada vez mais baratos, no entanto, os órgãos governamentais e a indústria se preocupam com o tempo de recarga das baterias, que é muito mais lento quando comparado ao tempo gasto para encher o tanque de combustível. Portanto, os usuários de transporte individual precisam se conscientizar dos ganhos ambientais dessa mudança e planejar com antecedência seus percursos, pensando em pausas necessárias para recargas.",
+      "enunciado": "Após realizar um percurso de 110 km, um motorista pretende recarregar as baterias de seu carro elétrico, que tem um desempenho médio de 5,0 km/kWh, usando um carregador ideal que opera a uma tensão de 220 V e é percorrido por uma corrente de 20 A. Quantas horas são necessárias para recarregar a energia utilizada nesse percurso?",
+      "alternativas": {
+        "A": "0,005",
+        "B": "0,125",
+        "C": "2,5",
+        "D": "5,0",
+        "E": "8,0"
+      },
+      "gabarito": "D",
+      "comentario": "Cálculo da energia elétrica consumida no percurso: 1,0 kWh – 5,0 km, então para 110 km: ε = 110/5,0 = 22 kWh. Potência do carregador: P = i·U = 20·220 = 4400 W = 4,4 kW. Tempo: ε = P·Δt → 22 = 4,4·Δt → Δt = 5,0 h."
+    },
+    {
+      "id": "enem_enem2021_2dia_104_13",
+      "materia": "Física",
+      "assunto": "Potência e energia cinética",
+      "banca": "INEP",
+      "ano": 2021,
+      "texto_auxiliar": "Analisando a ficha técnica de um automóvel popular, verificam-se algumas características em relação ao seu desempenho. Considerando o mesmo automóvel em duas versões, uma delas funcionando a álcool e outra, a gasolina, tem-se os dados apresentados no quadro, em relação ao desempenho de cada motor.\n\nParâmetro Motor a gasolina   Motor a álcool\nAceleração de 0 a 100 km/h \nem 13,4s de 0 a 100 km/h\nem 12,9s\nVelocidade\nmáxima 165 km/h 163 km/h",
+      "enunciado": "Considerando desprezível a resistência do ar, qual versão apresenta a maior potência?",
+      "alternativas": {
+        "A": "Como a versão a gasolina consegue a maior aceleração, esta é a que desenvolve a maior potência.",
+        "B": "Como a versão a gasolina atinge o maior valor de energia cinética, esta é a que desenvolve a maior potência.",
+        "C": "Como a versão a álcool apresenta a maior taxa de variação de energia cinética, esta é a que desenvolve a maior potência.",
+        "D": "Como ambas as versões apresentam a mesma variação de velocidade no cálculo da aceleração, a potência desenvolvida é a mesma.",
+        "E": "Como a versão a gasolina fica com o motor trabalhando por mais tempo para atingir os 100 km/h, esta é a que desenvolve a maior potência."
+      },
+      "gabarito": "C",
+      "comentario": "O conceito de Potência nos remete à taxa de transferência de energia cinética, isto é, a razão entre a energia cinética e o tempo gasto para obtê-la. De 0 a 100 km/h a variação de energia cinética é a mesma, porém, o tempo gasto pela versão à álcool é menor (12,9s) e, portanto, o carro à álcool desenvolve maior potência."
+    },
+    {
+      "id": "enem_enem2021_2dia_105_14",
+      "materia": "Física",
+      "assunto": "Circuitos elétricos",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "Um garoto precisa montar um circuito que acenda três lâmpadas de cores diferentes, uma de cada vez. Ele dispõe das lâmpadas, de fios, uma bateria e dois interruptores, como ilustrado, junto com seu símbolo de três pontos. Quando esse interruptor fecha AB, abre BC e vice-versa.",
+      "enunciado": "O garoto fez cinco circuitos elétricos usando os dois interruptores, mas apenas um satisfaz a sua necessidade. Esse circuito é representado por",
+      "alternativas": {
+        "A": "[IMAGEM OMITIDA]",
+        "B": "[IMAGEM OMITIDA]",
+        "C": "[IMAGEM OMITIDA]",
+        "D": "[IMAGEM OMITIDA]",
+        "E": "[IMAGEM OMITIDA]"
+      },
+      "gabarito": "D",
+      "comentario": "Para que uma única lâmpada se acenda de cada vez, o circuito que satisfaz a condição é o da alternativa D. I) Nesta situação, somente a lâmpada verde acende. II) Nesta situação, somente a lâmpada vermelha acende. III) Nesta situação, somente a lâmpada azul acende."
+    },
+    {
+      "id": "enem_enem2021_2dia_112_21",
+      "materia": "Física",
+      "assunto": "Queda dos corpos e resistência do ar",
+      "banca": "INEP",
+      "ano": 2021,
+      "texto_auxiliar": "No seu estudo sobre a queda dos corpos, Aristóteles afirmava que se abandonarmos corpos leves e pesados de uma mesma altura, o mais pesado chegaria mais rápido ao solo. Essa ideia está apoiada em algo que é difícil de refutar, a observação direta da realidade baseada no senso comum.\n\nApós uma aula de física, dois colegas estavam discutindo sobre a queda dos corpos, e um tentava convencer o outro de que tinha razão:\n\nColega A: “O corpo mais pesado cai mais rápido que um menos pesado, quando largado de uma mesma altura. Eu provo, largando uma pedra e uma rolha. A pedra chega antes. Pronto! Tá provado!”.\n\nColega B: Eu não acho! Peguei uma folha de papel esticado e deixei cair. Quando amassei, ela caiu mais rápido. Como isso é possível? Se era a mesma folha de papel, deveria cair do mesmo jeito. Tem que ter outra explicação!”.",
+      "enunciado": "O aspecto físico comum que explica a diferença de comportamento dos corpos em queda nessa discussão é o(a)",
+      "alternativas": {
+        "A": "peso dos corpos.",
+        "B": "resistência do ar.",
+        "C": "massa dos corpos.",
+        "D": "densidade dos corpos.",
+        "E": "aceleração da gravidade."
+      },
+      "gabarito": "B",
+      "comentario": "No movimento de queda, é sabido que a aceleração da gravidade é a mesma para todos os corpos. No experimento do segundo aluno a mesma folha cai em tempos diferentes, pois, ao amassá-la, o colega B altera a área de contato entre o papel e o ar. Assim, altera a força de resistência do ar sobre a folha de papel."
+    },
+    {
+      "id": "enem_enem2021_2dia_116_25",
+      "materia": "Física",
+      "assunto": "Astronomia",
+      "banca": "INEP",
+      "ano": 2021,
+      "texto_auxiliar": "TEXTO I\nNo cordel intitulado Senhor dos Anéis, de autoria de Gonçalo Ferreira da Silva, lê-se a sextilha:\nA distância em relação\nAo nosso planeta amado\nPouco menos que a do Sol\nEle está distanciado\nE menos denso que a água\nQuando no normal estado\n\nTEXTO II\nDistâncias médias dos planetas ao Sol e suas densidades médias\nu.a. = 149 600 000 km, é a unidade astronômica. *Planeta clássico, **Planeta-anão\nCaracterísticas dos planetas. Disponível em astronco.com. Acesso em: 8 nov. 2019 (adaptado).",
+      "enunciado": "Considerando os versos da sextilha e as informações da tabela, a qual planeta o cordel faz referência?",
+      "alternativas": {
+        "A": "Mercúrio.",
+        "B": "Júpiter.",
+        "C": "Urano.",
+        "D": "Saturno.",
+        "E": "Netuno."
+      },
+      "gabarito": "D",
+      "comentario": "A frase “menos denso que a água” nos remete ao planeta Saturno, que é o único cuja densidade relativa à água é menor do que 1. O nosso Planeta amado, sendo a Terra, está a uma distância de Saturno de 8,6 ua, que é pouco menor que a distância de Saturno ao Sol (9,6 ua)."
+    },
+    {
+      "id": "enem_enem2021_2dia_117_26",
+      "materia": "Física",
+      "assunto": "Lei de Ohm e resistência elétrica",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "Cientistas da Universidade de New South Wales, na Austrália, demonstraram em 2012 que a Lei de Ohm é válida mesmo para fios finíssimos, cuja área da seção reta compreende alguns poucos átomos. A tabela apresenta as áreas e comprimentos de alguns dos fios construídos (respectivamente com as mesmas unidades de medida). Considere que a resistividade mantém-se constante para todas as geometrias (uma aproximação confirmada pelo estudo).",
+      "enunciado": "As resistências elétricas dos fios, em ordem crescente, são",
+      "alternativas": {
+        "A": "R1 < R2 < R3 < R4.",
+        "B": "R2 < R1 < R3 < R4.",
+        "C": "R2 < R3 < R1 < R4.",
+        "D": "R4 < R1 < R3 < R2.",
+        "E": "R4 < R3 < R2 < R1."
+      },
+      "gabarito": "C",
+      "comentario": "Com os dados fornecidos na tabela e utilizando-se a 2ª Lei de Ohm R = ρ L/A, temos: R1 = ρ * 312/9 = 34,7ρ; R2 = ρ * 47/4 = 11,75ρ; R3 = ρ * 54/2 = 27ρ; R4 = ρ * 106/1 = 106ρ. Observando-se os valores encontrados, temos: R2 < R3 < R1 < R4."
+    },
+    {
+      "id": "enem_enem2021_2dia_121_30",
+      "materia": "Física",
+      "assunto": "Força magnética sobre cargas em movimento",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "Duas esferas carregadas com cargas iguais em módulo e sinais contrários estão ligadas por uma haste rígida isolante na forma de haltere. O sistema se movimenta sob a ação da gravidade numa região que tem um campo magnético horizontal uniforme (→B), da esquerda para a direita. A imagem apresenta o sistema visto de cima para baixo, no mesmo sentido da aceleração da gravidade (→g) que atua na região.",
+      "enunciado": "Visto de cima, o diagrama esquemático das forças magnéticas que atuam no sistema, no momento inicial em que as cargas penetram na região de campo magnético, está representado em",
+      "alternativas": {
+        "A": "[IMAGEM OMITIDA]",
+        "B": "[IMAGEM OMITIDA]",
+        "C": "[IMAGEM OMITIDA]",
+        "D": "[IMAGEM OMITIDA]",
+        "E": "[IMAGEM OMITIDA]"
+      },
+      "gabarito": "A",
+      "comentario": "A velocidade →V das esferas tem mesma orientação da aceleração da gravidade →g, ou seja, →V está orientada do leitor para dentro do plano do papel. Pela 'regra da mão esquerda', determinamos a direção e o sentido da força magnética →F na carga positiva: Para a carga negativa, a força magnética tem sentido oposto ao de →F: O binário de forças magnéticas no haltere fica: Resposta: AA"
+    },
+    {
+      "id": "enem_enem2021_2dia_126_35",
+      "materia": "Física",
+      "assunto": "Condução de calor",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "Na montagem de uma cozinha para um restaurante, a escolha do material correto para as panelas é importante, pois a panela que conduz mais calor é capaz de cozinhar os alimentos mais rapidamente e, com isso, há economia de gás. A taxa de condução do calor depende da condutividade k do material, de sua área A, da diferença de temperatura ΔT e da espessura d do material, sendo dada pela relação = k A . Em panelas com dois materiais, a taxa de condução é dada por = A , em que d1 e d2 são as espessuras dos dois materiais, e k1 e k2, são as condutividades de cada material. Os materiais mais comuns no mercado para panelas são o alumínio (k = 20 W/m K), o ferro (k = 8 W/m K) e o aço (k = 5 W/m K) combinado com o cobre (k = 40 W/m K). Compara-se uma panela de ferro, uma de alumínio e uma composta de da espessura em cobre e da espessura em aço, todas com a mesma espessura total e com a mesma área de fundo.",
+      "enunciado": "A ordem crescente da mais econômica para a menos econômica é",
+      "alternativas": {
+        "A": "cobre-aço, alumínio e ferro.",
+        "B": "alumínio, cobre-aço e ferro.",
+        "C": "cobre-aço, ferro e alumínio.",
+        "D": "alumínio, ferro e cobre-aço.",
+        "E": "ferro, alumínio e cobre-aço."
+      },
+      "gabarito": "B",
+      "comentario": "A seguir faremos os cálculos dos fluxos de calor por condução através dos fundos das panelas de ferro, de alumínio e de cobre-aço. ... Comparando-se os resultados obtidos, tem-se: alumínio > cobre-aço > ferro. Logo, a ordem crescente da mais econômica para a menos econômica é: alumínio, cobre-aço e ferro."
+    },
+    {
+      "id": "enem_enem2021_2dia_127_36",
+      "materia": "Física",
+      "assunto": "Circuitos elétricos",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "É possível ligar aparelhos elétricos de baixa corrente utilizando materiais comuns de laboratório no lugar das tradicionais pilhas. A ilustração apresenta uma montagem que faz funcionar um cronômetro digital.",
+      "enunciado": "Utilizando a representação de projetos elétricos, o circuito equivalente a esse sistema é",
+      "alternativas": {
+        "A": "[IMAGEM OMITIDA]",
+        "B": "[IMAGEM OMITIDA]",
+        "C": "[IMAGEM OMITIDA]",
+        "D": "[IMAGEM OMITIDA]",
+        "E": "[IMAGEM OMITIDA]"
+      },
+      "gabarito": "B",
+      "comentario": "O sistema apresentado é formado por duas pilhas de cobre/zinco em que o cobre forma o polo positivo e o zinco o polo negativo. O cronômetro pode ser considerado um elemento resistivo de circuito. O medidor de tensão elétrica é um voltímetro cuja representação no circuito é: Todos os elementos estão ligados em paralelo aos terminais extremos das duas pilhas que, por sua vez, estão ligadas em série. Assim o circuito equivalente a esse sistema pode ser representado por: Resposta: B"
+    },
+    {
+      "id": "enem_enem2021_2dia_128_37",
+      "materia": "Física",
+      "assunto": "Lançamento oblíquo",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "A figura foi extraída de um antigo jogo para computadores, chamado Bang! Bang! No jogo, dois competidores controlam os canhões A e B, disparando balas alternadamente com o objetivo de atingir o canhão do adversário; para isso, atribuem valores estimados para o módulo da velocidade inicial de disparo (|→v0|) e para o ângulo de disparo (θ). Em determinado momento de uma partida, o competidor B deve disparar; ele sabe que a bala disparada anteriormente, θ= 53°, passou tangenciando o ponto P. No jogo, |→g | é igual a 10 m/s². Considere sen 53°= 0,8, cos 53°= 0,6 e desprezível a ação de forças dissipativas. Disponível em: http://mebdownloads.butzke.net.br. Acesso em: 18 abr. 2015 (adaptado).",
+      "enunciado": "Com base nas distâncias dadas e mantendo o último ângulo de disparo, qual deveria ser, aproximadamente, o menor valor de |→v0| que permitiria ao disparo efetuado pelo canhão B atingir o canhão A?",
+      "alternativas": {
+        "A": "30 m/s.",
+        "B": "35 m/s.",
+        "C": "40 m/s.",
+        "D": "45 m/s.",
+        "E": "50 m/s."
+      },
+      "gabarito": "C",
+      "comentario": "Resolução: 1) Na direção horizontal: Δsx = V0x . t → 120 = V0 cos 53° . T → 120 = 0,6 V0 T ⇒ (1) V0 T = 200. 2) Na direção vertical: Δsy = V0y t + (g t²)/2 → 35 = (V0 sen 53°) T – 5,0 T² → 35 = V0 . 0,8 T – 5,0 T² (2). 3) (1) em (2): 35 = 200 . 0,8 – 5,0 T² → 5,0 T² = 160 – 35 = 125 → T² = 25 (SI) ⇒ T = 5,0 s. 4) Na relação (1): V0 . 5,0 = 200 → V0 = 40 m/s. Resposta: C."
+    },
+    {
+      "id": "enem_enem2021_2dia_134_43",
+      "materia": "Física",
+      "assunto": "Ondulatória",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "O sino dos ventos é composto por várias barras metálicas de mesmo material e espessura, mas de comprimentos diferentes, conforme a figura.",
+      "enunciado": "Considere f1 e v1, respectivamente, como a frequência fundamental e a velocidade de propagação do som emitido pela barra de menor comprimento, e f2 e v2 são essas mesmas grandezas para o som emitido pela barra de maior comprimento. As relações entre as frequências fundamentais e entre as velocidades de propagação são, respectivamente,",
+      "alternativas": {
+        "A": "f1 < f2 e v1 < v2",
+        "B": "f1 < f2 e v1 = v2",
+        "C": "f1 < f2 e v1 > v2",
+        "D": "f1 > f2 e v1 = v2",
+        "E": "f1 > f2 e v1 > v2"
+      },
+      "gabarito": "D",
+      "comentario": "No sino dos ventos, a barra de menor comprimento produz o som fundamental mais agudo, isto é, uma maior frequência, ocorrendo o oposto com a barra de maior comprimento, logo: f1 > f2. Independentemente da frequência, todos os sons se propagam no ar, de um mesmo ambiente, com a mesma intensidade de velocidade, algo em torno de 340 m/s. Assim: v1 = v2."
+    },
+    {
+      "id": "enem_enem2021_2dia_149_58",
+      "materia": "Física",
+      "assunto": "Análise dimensional",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "A relação de Newton-Laplace estabelece que o módulo volumétrico de um fluido é diretamente proporcional ao quadrado da velocidade do som (em metro por segundo) no fluido e à sua densidade (em quilograma por metro cúbico), com uma constante de proporcionalidade adimensional.",
+      "enunciado": "Nessa relação, a unidade de medida adequada para o módulo volumétrico é",
+      "alternativas": {
+        "A": "kg . m–2 . s–1.",
+        "B": "kg . m–1 . s–2.",
+        "C": "kg . m–5 . s2.",
+        "D": "kg–1. m1 . s2.",
+        "E": "kg–1 . m5. s–2."
+      },
+      "gabarito": "B",
+      "comentario": "Para que o módulo volumétrico seja diretamente proporcional ao quadrado da velocidade do som, ele precisa ser escrito na forma K . (m/s)^2. Da mesma maneira, para ser diretamente proporcional à densidade, precisa ser escrito como b . (kg/m^3). Portanto, o módulo volumétrico precisa ser escrito como |v| = K . (m^2/s^2) . (kg/m^3) = kg . m^{-1} . s^{-2}. Resposta: BB"
+    },
+    {
+      "id": "enem_enem2022-2_2dia_93_2",
+      "materia": "Física",
+      "assunto": "Óptica - Reflexão total interna",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "Na área de comunicações, a demanda por grande volume de dados exige uma transmissão em alta frequência. Uma inovação nesse sentido foi o desenvolvimento da fibra óptica, que faz uso da luz como portadora de sinais. A fibra óptica é um meio de propagação da luz formada por duas camadas de vidro, com índices de refração diferentes. Considere que a camada externa da fibra apresente índice de refração n2, e a camada interna, índice de refração n1, como ilustrado na figura. O objetivo dessa diferença é obter a condição de reflexão interna total do sinal óptico que se encontre na camada interna, de forma que ele se propague por toda a extensão da fibra.",
+      "enunciado": "A tecnologia envolvida na confecção das fibras ópticas deve garantir que o ângulo de refração e a relação entre n1 e n2 sejam, respectivamente,",
+      "alternativas": {
+        "A": "45° e n2 < n1.",
+        "B": "nulo e n2 > n1.",
+        "C": "nulo e n2 < n1.",
+        "D": "90° e n2 > n1.",
+        "E": "90° e n2 < n1."
+      },
+      "gabarito": "E",
+      "comentario": "Para que ocorram as desejadas reflexões totais internas, a casca da fibra óptica deve ser menos refringente que o núcleo, isto é n2 < n1. Ademais, o ângulo de incidência da luz na interface núcleo-casca deve ser maior que o ângulo-limite L do dioptro. O ângulo de refração de 90° é aquele associado ao menor valor de ângulo – ângulo-limite ou crítico – que ainda viabiliza o funcionamento da fibra."
+    },
+    {
+      "id": "enem_enem2022-2_2dia_95_4",
+      "materia": "Física",
+      "assunto": "Impulso e Quantidade de Movimento",
+      "banca": "INEP",
+      "ano": 2022,
+      "texto_auxiliar": "Esteiras e escadas rolantes são dispositivos que deslocam, a velocidade constante, os objetos neles colocados, por meio de sistemas de controle com sensores. Quando a massa total do dispositivo varia, seja pelo acréscimo ou pela retirada de objetos, a ação de forças impulsivas mantém a velocidade constante. Como exemplo, considere que a massa total diminua de 1 200 kg para 1 000 kg em um intervalo de tempo de 0,10 s, e que, então, seja aplicada uma força impulsiva constante de 250 N para manter constante a velocidade.",
+      "enunciado": "No exemplo mencionado, o valor da velocidade constante do dispositivo rolante é, em m/s,",
+      "alternativas": {
+        "A": "0,011.",
+        "B": "0,021.",
+        "C": "0,025.",
+        "D": "0,125.",
+        "E": "0,500."
+      },
+      "gabarito": "D",
+      "comentario": "Teorema do Impulso: I = ΔQ = m2V – m1V; |I| = |m2 – m1| V; F . Δt = |m2 – m1| V; 250 . 0,10 = (1200 – 1000) V; 25,0 = 200 V; V = 0,125 m/s."
+    },
+    {
+      "id": "enem_enem2022-2_2dia_98_7",
+      "materia": "Física",
+      "assunto": "Energia Cinética",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "Estudos apontam que o meteorito que atingiu o céu da Rússia em fevereiro de 2013 liberou uma energia equivalente a 500 quilotoneladas de TNT (trinitrotolueno), cerca de 30 vezes mais forte que a bomba atômica lançada pelos Estados Unidos em Hiroshima, no Japão, em 1945. Os cálculos estimam que o meteorito estava a 19 quilômetros por segundo no momento em que atingiu a atmosfera e que seu brilho era 30 vezes mais intenso do que o brilho do Sol.",
+      "enunciado": "A energia liberada pelo meteorito ao entrar na atmosfera terrestre é proveniente, principalmente,",
+      "alternativas": {
+        "A": "da queima de combustíveis contidos no meteorito.",
+        "B": "de reações nucleares semelhantes às que ocorrem no Sol.",
+        "C": "da energia cinética associada à grande velocidade do meteorito.",
+        "D": "de reações semelhantes às que ocorrem em explosões nucleares.",
+        "E": "da queima da grande quantidade de trinitrotolueno presente no meteorito."
+      },
+      "gabarito": "C",
+      "comentario": "Devido ao trabalho da força de resistência do ar, há transformação de energia cinética do meteorito em energia térmica, tornando-o incandescente e com brilho intenso. A energia cinética Ec = (1/2)mv² está associada à grande velocidade do meteorito."
+    },
+    {
+      "id": "enem_enem2022-2_2dia_103_12",
+      "materia": "Física",
+      "assunto": "Usinas nucleares e impactos ambientais",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "As usinas nucleares utilizam o princípio da fissão nuclear para gerar energia elétrica. Dentro do reator, nêutrons colidem com átomos de urânio, que se dividem em dois novos átomos, liberando de dois a três nêutrons do núcleo, em uma reação em cadeia. Esse processo libera muito calor, que é utilizado para gerar energia. Porém, é necessário um sistema de arrefecimento para evitar uma explosão. Para isso, a água captada de fontes naturais circula em um sistema fechado e depois volta para o meio ambiente.",
+      "enunciado": "Caso esse sistema não ocorra de maneira adequada, será gerado um impacto negativo porque",
+      "alternativas": {
+        "A": "produzirá gases tóxicos.",
+        "B": "diminuirá a reserva hídrica local.",
+        "C": "aquecerá os ecossistemas aquáticos.",
+        "D": "aumentará a disponibilidade de nutrientes.",
+        "E": "permitirá a contaminação por microrganismos."
+      },
+      "gabarito": "C",
+      "comentario": "Uma usina nuclear para geração de energia elétrica a partir da fissão nuclear do urânio é uma máquina térmica que, como qualquer outra, requer uma fonte fria para que ocorra o rejeito do calor não utilizado em trabalho mecânico. Essas usinas são instaladas geralmente nas margens de rios, mares e lagos para que a água circule pelo equipamento e refrigere o sistema. Se essa refrigeração for prejudicada, poderá ocorrer superaquecimento do reator, bem como das águas de arrefecimento."
+    },
+    {
+      "id": "enem_enem2022-2_2dia_104_13",
+      "materia": "Física",
+      "assunto": "Força de atrito",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "Com o objetivo de revestir o piso de uma rampa de acesso para cadeiras de rodas, determina-se que, sob a aplicação de uma força motora de até 200 N, não ocorra deslizamento dos pneus em relação à superfície de contato. Considera-se que a força normal que atua sobre o conjunto cadeira e cadeirante é de 800 N. O quadro a seguir indica alguns materiais, seus respectivos coeficientes de atrito estático com a borracha dos pneus e seus custos referentes ao metro quadrado instalado. Cada cifrão ($) indica uma unidade monetária genérica.\n\nRevestimento | Coeficiente de atrito | Custo do m2 instalado\nCimento | 0,20 | $\nMármore | 0,30 | $$$$$\nMadeira | 0,35 | $$\nCarpete | 0,45 | $$$$\nLona | 0,55 | $$$",
+      "enunciado": "Qual revestimento apresenta o menor custo, além de garantir que cadeiras de rodas passem pela rampa sem risco de escorregamento?",
+      "alternativas": {
+        "A": "Cimento.",
+        "B": "Mármore.",
+        "C": "Madeira.",
+        "D": "Carpete.",
+        "E": "Lona."
+      },
+      "gabarito": "C",
+      "comentario": "Para que não haja escorregamento, a força motora não pode superar a força de atrito de destaque. Fmotora ≤ Fatdestaque => Fmotora ≤ μE * FN => 200 ≤ μE * 800 => μE ≥ 0,25. Com exceção do cimento, todos os demais revestimentos seriam adequados, porém o mais econômico é a madeira."
+    },
+    {
+      "id": "enem_enem2022-2_2dia_109_18",
+      "materia": "Física",
+      "assunto": "Radioatividade e Corrente Elétrica",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "Detectores de fumaça baseados em ionização funcionam como se fossem um “nariz eletrônico”, acusando a presença de moléculas incomuns (fumaça) em seu interior. Dentro do aparelho, conforme esquematizado na figura, existe uma câmara de ionização aberta para o ar (1) e preenchida com íons (2) formados pelos choques das moléculas do ar com as partículas emitidas pelo elemento químico amerício 24395Am (3). O amerício expele, no interior da câmara, pequenas partículas radioativas, chamadas partículas alfa, que são núcleos de átomos de 42He. Com o choque, são formados cátions e elétrons, que transitam em direções opostas entre dois eletrodos. Enquanto houver cátions e elétrons se movendo no interior da câmara, uma corrente se estabelece entre os eletrodos no circuito (4) e, por se considerar que tudo está bem, o alarme (5) permanece em silêncio. Entretanto, se um incêndio acontecer, partículas de fumaça entram no detector e começam a obstruir a câmara de ionização (6). As partículas de fumaça se prendem aos íons, e o circuito no detector acusa essa mudança imediatamente (7), acionando o alarme (8). Assim que o incêndio é controlado, e a fumaça é removida, a câmara de detecção fica limpa, os íons voltam a se deslocar entre os eletrodos como antes, o circuito é desligado e o alarme para de tocar.",
+      "enunciado": "O sensor percebe a fumaça quando ela interrompe o(a)",
+      "alternativas": {
+        "A": "fissão nuclear do gás hélio.",
+        "B": "passagem de corrente elétrica.",
+        "C": "transmutação das moléculas do ar.",
+        "D": "decaimento radioativo do amerício.",
+        "E": "fusão nuclear entre o hélio e o amerício."
+      },
+      "gabarito": "B",
+      "comentario": "24395Am : emissor de partículas alfa (42He ou 42α). 42α + moléculas do ar → cátions + elétrons, gerando corrente elétrica. As partículas de fumaça se prendem aos íons (cátions), interrompendo a passagem de corrente elétrica."
+    },
+    {
+      "id": "enem_enem2022-2_2dia_112_21",
+      "materia": "Física",
+      "assunto": "Óptica - Refração da Luz",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "Escrito em 1897, pelo britânico H. G. Wells (1866-1946), O homem invisível é um livro que narra a história de um cientista que teria desenvolvido uma forma de tornar todos os tecidos do seu corpo transparentes à luz, ao fazer o índice de refração absoluto do corpo humano corresponder ao do ar. Contudo, Wells não explorou no livro o fato de que esse efeito comprometeria a visão de seu protagonista.",
+      "enunciado": "Nesse caso, qual seria a deficiência visual provocada?",
+      "alternativas": {
+        "A": "Miopia.",
+        "B": "Cegueira.",
+        "C": "Daltonismo.",
+        "D": "Astigmatismo.",
+        "E": "Hipermetropia."
+      },
+      "gabarito": "B",
+      "comentario": "Se o índice de refração absoluto de todas as partes do corpo humano – inclusive das estruturas do globo ocular – fosse igual ao do ar, a luz incidente encontraria continuidade óptica em seu percurso, propagando-se através do corpo sem sofrer desvios. Com isso, não ocorreria no olho as fundamentais refrações no cristalino, tampouco as projeções das imagens visualizadas na retina. Assim, a conversão da energia luminosa em energia elétrica inerente à retina não ocorreria. O indivíduo, embora invisível, seria portador de cegueira."
+    },
+    {
+      "id": "enem_enem2022-2_2dia_115_24",
+      "materia": "Física",
+      "assunto": "Consumo de energia elétrica",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "A preocupação com a sustentabilidade faz com que se procurem, cada vez mais, métodos eficientes para a economia de energia elétrica. Um procedimento que se pode adotar é a substituição das lâmpadas incandescentes por lâmpadas de LED nas residências. Uma lâmpada incandescente, que opera 8 horas por dia, foi substituída por uma de LED. Elas apresentam 60 W e 8 W de potência nominal de consumo, respectivamente. A redução do consumo de energia elétrica, em quilowatt-hora, obtida durante trinta dias foi",
+      "alternativas": {
+        "A": "0,24.",
+        "B": "1,80.",
+        "C": "1,92.",
+        "D": "12,48.",
+        "E": "14,40."
+      },
+      "gabarito": "D",
+      "comentario": "O intervalo de tempo de funcionamento nos dois casos é: Δt = 8h . 30 = 240 h. Assim, a redução no consumo de energia será dada por: ΔEel = ΔP . Δt = (60 – 8)/1000 . 240 = 12,48 kWh."
+    },
+    {
+      "id": "enem_enem2022-2_2dia_118_27",
+      "materia": "Física",
+      "assunto": "Transmissão de calor",
+      "banca": "INEP",
+      "ano": 2022,
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Um menino está ajudando sua mãe na cozinha. Ela lhe pede que tire do fogo uma panela que já estava lá há bastante tempo, em fogo baixo, orientando-lhe que tome cuidado para não se queimar, buscando tocar apenas no cabo de madeira, e não na base de metal da panela. A mãe lhe fez essa recomendação porque o metal, em relação à madeira, apresenta maior",
+      "alternativas": {
+        "A": "calor específico.",
+        "B": "energia interna.",
+        "C": "temperatura.",
+        "D": "condutividade térmica.",
+        "E": "coeficiente de dilatação térmica."
+      },
+      "gabarito": "D",
+      "comentario": "O metal é muito melhor condutor de calor que a madeira. Veja os respectivos coeficientes de condutividade térmica: Alumínio: 237W/m℃; Madeira: entre 0,11 e 0,14W/m℃."
+    },
+    {
+      "id": "enem_enem2022-2_2dia_123_32",
+      "materia": "Física",
+      "assunto": "Eletricidade",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "Carregadores elétricos são projetados para fornecer energia a baterias recarregáveis, como as usadas em aparelhos celulares e máquinas fotográficas.\nAs especificações típicas de um desses dispositivos são:\nCarregador:\nEntrada AC 100-240 V / 200 mA / 50-60 Hz\nSaída DC 5,0 V / 1 000 mA\nBateria recarregável:\n1,5 V / 4 000 mAh",
+      "enunciado": "Usando o carregador com corrente máxima, o tempo total de recarga dessa bateria totalmente descarregada, em hora, é",
+      "alternativas": {
+        "A": ".",
+        "B": ".",
+        "C": "4.",
+        "D": "6.",
+        "E": "8."
+      },
+      "gabarito": "C",
+      "comentario": "Na situação proposta, temos: imáx = 1000 mA = Q/Δt = 4000 mAh/Δt => Δt = 4 h"
+    },
+    {
+      "id": "enem_enem2022-2_2dia_125_34",
+      "materia": "Física",
+      "assunto": "Eletrostática",
+      "banca": "INEP",
+      "ano": 2022,
+      "texto_auxiliar": "Para reduzir a poluição atmosférica gerada pela emissão de fumaça por grandes indústrias, utilizam-se precipitadores eletrostáticos. Sua função é suprimir os gases poluentes antes que sejam lançados para a atmosfera. A figura ilustra um precipitador constituído, basicamente, por uma entrada e uma saída de gases e por um fio grosso de cobre, conectado a uma fonte de tensão. O acúmulo de cargas no fio de cobre induz a polarização das partículas poluentes. Os gases poluídos são injetados pela entrada de gases, e os gases sem poluentes são lançados na atmosfera pela saída do precipitador.",
+      "enunciado": "No precipitador eletrostático, as partículas poluentes são",
+      "alternativas": {
+        "A": "atraídas e se acumulam no fio carregado.",
+        "B": "decompostas em moléculas não poluentes.",
+        "C": "ionizadas e podem ser lançadas na atmosfera.",
+        "D": "repelidas pelo fio carregado e se acumulam na parede do tubo.",
+        "E": "induzidas a fazer ligações iônicas, formando íons não poluentes."
+      },
+      "gabarito": "A",
+      "comentario": "Nos precipitadores eletrostáticos mais comuns, temos eletrodos que funcionam sob alta tensão. Esses eletrodos por meio do efeito corona emitem íons com carga negativa, desse modo, o gás carregado negativamente e outras partículas são atraídos pelo eletrodo de polaridade oposta."
+    },
+    {
+      "id": "enem_enem2022-2_2dia_127_36",
+      "materia": "Física",
+      "assunto": "Eletrodinâmica",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Considerando a resistência da fiação, a tensão aplicada aos terminais da torneira é mais próxima de",
+      "alternativas": {
+        "A": "211 V",
+        "B": "213 V",
+        "C": "216 V",
+        "D": "219 V",
+        "E": "220 V"
+      },
+      "gabarito": "C",
+      "comentario": "Calculemos, inicialmente, a resistência elétrica total do fio: R = (1,7 x 10^-8 * 28) / (4 x 10^-6) = 11,9 x 10^-2 Ω. A queda de tensão elétrica devida aos fios será: U = R * i = 11,9 x 10^-2 * 30 = 3,57 V. Assim, a tensão elétrica na torneira terá um valor próximo de: U_final = 220 V - 3,57 V ≈ 216 V."
+    },
+    {
+      "id": "enem_enem2022-2_2dia_130_39",
+      "materia": "Física",
+      "assunto": "Circuitos elétricos",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "No circuito elétrico, estão associadas quatro lâmpadas elétricas idênticas A, B, C e D. Considere a fonte de tensão (V) ideal.",
+      "enunciado": "Comparando-se o brilho das lâmpadas, se a lâmpada A queimar, de modo que não possa conduzir corrente elétrica, observa-se que",
+      "alternativas": {
+        "A": "as lâmpadas B e D apagam-se, e C permanece acesa com o mesmo brilho.",
+        "B": "a lâmpada B apaga-se, a C permanece acesa com mesmo brilho e D permanece apagada.",
+        "C": "a lâmpada B apaga-se, a C permanece acesa com maior brilho e D permanece acesa com o mesmo brilho.",
+        "D": "a lâmpada B apaga-se, a C permanece acesa com o mesmo brilho e D permanece acesa com maior brilho.",
+        "E": "as lâmpadas C e D permanecem acesas com o mesmo brilho e B permanece acesa com maior brilho."
+      },
+      "gabarito": "B",
+      "comentario": "Observando-se o circuito e os terminais da fonte designados por x e y, temos: A lâmpada A queimada atua como circuito aberto e consequentemente B também apaga. A lâmpada D continua apagada, pois está em curto-circuito. A lâmpada C continua acesa com o mesmo brilho, pois está ligada diretamente aos terminais da fonte."
+    },
+    {
+      "id": "enem_enem2022-2_2dia_131_40",
+      "materia": "Física",
+      "assunto": "Circuitos elétricos",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "Um multímetro pode atuar como voltímetro (leitura em volt) ou como amperímetro (leitura em ampère), dependendo da função selecionada. A forma de conectar o multímetro ao circuito depende da grandeza física a ser medida. Uma lâmpada de lanterna, de resistência elétrica igual a 40 Ω, brilha quando conectada a quatro pilhas em série, cada uma com 1,5 V de tensão elétrica. O multímetro 2 indica o valor 5,62, conforme a figura, e o multímetro 1 está conectado, porém desligado.",
+      "enunciado": "Ao se ligar o multímetro 1, a grandeza física e o seu valor correspondente indicados na tela são, respectivamente,",
+      "alternativas": {
+        "A": "corrente elétrica e 0,14.",
+        "B": "corrente elétrica e 0,15.",
+        "C": "corrente elétrica e 0,29.",
+        "D": "tensão elétrica e 0,14.",
+        "E": "tensão elétrica e 225."
+      },
+      "gabarito": "A",
+      "comentario": "O multímetro 2, ligado em paralelo com a lâmpada, atua como voltímetro (U = 5,62 V). Assim, a intensidade da corrente elétrica na lâmpada será dada por: U = R . i => 5,62 = 40 . i => i ≈ 0,14 A. Essa corrente elétrica será lida pelo multímetro 1, ligado em série com o restante do circuito e atuando como amperímetro."
+    },
+    {
+      "id": "enem_enem2022-2_2dia_133_42",
+      "materia": "Física",
+      "assunto": "Refração da luz",
+      "banca": "INEP",
+      "ano": 2022,
+      "texto_auxiliar": "O feixe de um laser incide obliquamente na lateral de uma janela de vidro, cujo índice de refração é maior do que o do ar, e a atravessa. Uma representação esquemática dessa situação utiliza linhas pontilhadas para demonstrar a trajetória que o feixe teria, caso não sofresse refração, e linhas contínuas com setas para mostrar a trajetória realmente seguida pelo feixe.",
+      "enunciado": "Qual representação esquemática apresenta a trajetória seguida pelo feixe de laser quando atravessa a janela de vidro?",
+      "alternativas": {
+        "A": "Representação esquemática A",
+        "B": "Representação esquemática B",
+        "C": "Representação esquemática C",
+        "D": "Representação esquemática D",
+        "E": "Representação esquemática E"
+      },
+      "gabarito": "A",
+      "comentario": "Numa lâmina de faces paralelas envolta por um mesmo meio, o raio luminoso emergente é sempre paralelo ao raio luminoso incidente. Tendo-se em conta que o vidro é mais refringente que o ar, na refração do ar para o vidro, o raio luminoso aproxima-se da normal e o trajeto do laser ao atravessar a vidraça é semelhante ao que está esboçado a seguir."
+    },
+    {
+      "id": "enem_enem2023-2_2dia_91_0",
+      "materia": "Física",
+      "assunto": "Termodinâmica",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "Na última década, para melhorar a performance dos motores a combustão e reduzir o consumo, a indústria automobilística tem investido cada vez mais no desenvolvimento dos turbo compressores. O turbo compressor é formado por duas câmaras distintas, chamadas caixa fria e caixa quente. No interior de cada uma dessas caixas, existe um rotor e ambos são interligados por um mesmo eixo. Com a caixa quente instalada no coletor de escapamento, a passagem dos gases faz girar o rotor. Consequentemente, gira também o rotor da caixa fria, produzindo a compressão. Em alguns modelos, é instalado, entre a turbina e a câmara de explosão, um dispositivo denominado intercooler, que é reconhecido como um dos componentes principais para melhorar a performance dos motores turbo. O intercooler é uma espécie de radiador ou, mais especificamente, um permutador de calor. Ele é posicionado entre o turbo e o coletor de admissão, tendo como uma das principais vantagens a redução da temperatura do ar quente que sai do turbo. Disponível em: www.turbocenter.com.br. Acesso em: 21 nov. 2019 (adaptado).",
+      "enunciado": "O ar que sai do turbo está em alta temperatura porque",
+      "alternativas": {
+        "A": "sofreu uma compressão isocórica.",
+        "B": "sofreu uma compressão adiabática.",
+        "C": "sofreu uma transformação isotérmica.",
+        "D": "recebeu diretamente calor dos gases aquecidos do sistema de escape.",
+        "E": "recebeu diretamente calor do motor a combustão que está em alta temperatura."
+      },
+      "gabarito": "B",
+      "comentario": "A caixa quente recebe os gases do escapamento que acionam um rotor ligado ao rotor da câmara fria que suga e comprime rapidamente o ar ambiente. Essa compressão rápida, produzida pela alta rotação do turbo, é adiabática, e por isso provoca a elevação da temperatura do ar, que deve ser resfriado pelo intercooler, antes de misturar-se com o combustível na câmara de combustão, para obter maior potência e aumentar a vida útil do motor."
+    },
+    {
+      "id": "enem_enem2023-2_2dia_92_1",
+      "materia": "Física",
+      "assunto": "Termodinâmica",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "As baterias de lítio para carros elétricos são capazes de armazenar cerca de 700 Wh de energia em um volume de 1 L, enquanto a combustão de 1 L de etanol hidratado em um motor a combustão disponibiliza 6 300 Wh de energia. Os motores a combustão têm uma eficiência baixa, com apenas 30% da energia do combustível sendo transformada em movimento. Já os motores elétricos apresentam eficiência três vezes maior. Para estudar a viabilidade de se utilizar a mesma plataforma de um carro movido a álcool, com tanque de 40 L de combustível, para a produção de modelos elétricos, uma equipe de engenharia precisa estimar o volume da bateria de lítio que corresponda, no carro elétrico, à mesma quantidade energética desse carro a álcool.",
+      "enunciado": "O volume aproximado, em litro, da bateria de lítio a ser utilizada é",
+      "alternativas": {
+        "A": "36.",
+        "B": "120.",
+        "C": "360.",
+        "D": "400.",
+        "E": "1 080."
+      },
+      "gabarito": "B",
+      "comentario": "Baterias de lítio: 700Wh → 1 L, com rendimento de 90% (eficiência três vezes maior que 30% = 90%), temos 0,9·700Wh = 630Wh. Motores a combustão: 6300Wh → 1 L, com rendimento de 30%, temos 0,3·6300Wh = 1890Wh. Para 40 L: energiaetanol = 40·1890Wh = 75600Wh. Para bateria: 1 L – 630Wh, V – 75600Wh → V = 120 L."
+    },
+    {
+      "id": "enem_enem2023-2_2dia_93_2",
+      "materia": "Física",
+      "assunto": "Cinemática",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Duas pessoas saem de suas casas para se exercitarem numa pista retilínea cujo comprimento é D. Elas percorrem todo o percurso e, ao final dele, retornam ao ponto de partida pelo mesmo caminho. A primeira delas caminha com velocidade de módulo v, e a segunda corre com uma velocidade de módulo 2v. As duas partem do mesmo ponto, no mesmo instante. A distância percorrida pela segunda pessoa até o ponto em que as duas se encontram pela primeira vez é",
+      "alternativas": {
+        "A": "4D/3",
+        "B": "5D/4",
+        "C": "2D/3",
+        "D": "7D/4",
+        "E": "5D/3"
+      },
+      "gabarito": "C",
+      "comentario": "Resolução: Quando a pessoa P2 chegar a B, então a pessoa P1 estará no ponto M. Cálculo do instante de encontro tE: Equações horárias: s = s0 + Vt; s1 = D/2 + Vt; s2 = D – 2Vt. Encontro: s1 = s2 => D/2 + VtE = D – 2VtE => 3VtE = D/2 => tE = D/(6V). Local de encontro: sE = D/2 + V*(D/(6V)) = D/2 + D/6 = 2D/3. Até o encontro a pessoa P1 percorreu uma distância D/3 e a pessoa P2 percorreu a distância: D + D/3 = 4D/3. Resposta: C."
+    },
+    {
+      "id": "enem_enem2023-2_2dia_97_6",
+      "materia": "Física",
+      "assunto": "Associação de pilhas",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "Para se utilizar um controle remoto que funciona com uma diferença de potencial de 3 V , compraram-se duas pilhas tipo AA de 1,5 V cada uma. Sabe-se que a ligação em série dessas pilhas possibilita um aumento da diferença de potencial do conjunto e da energia total disponível. Quando ligadas em paralelo no entanto, só ocorre o aumento da energia total disponível.",
+      "enunciado": "Qual dos esquemas representa a ligação correta das pilhas utilizadas no controle remoto?",
+      "alternativas": {
+        "A": "[IMAGEM OMITIDA]",
+        "B": "[IMAGEM OMITIDA]",
+        "C": "[IMAGEM OMITIDA]",
+        "D": "[IMAGEM OMITIDA]",
+        "E": "[IMAGEM OMITIDA]"
+      },
+      "gabarito": "B",
+      "comentario": "Para que o controle remoto funcione corretamente, as duas pilhas de 1,5V devem ser associadas em série fornecendo em seus terminais uma tensão elétrica total de 3,0V. A alternativa “b” estabelece a associação em série com as polaridades corretas, ou seja, polo positivo de um gerador ligado ao polo negativo do outro."
+    },
+    {
+      "id": "enem_enem2023-2_2dia_98_7",
+      "materia": "Física",
+      "assunto": "Eletricidade - Potência e Resistência",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "Lâmpadas incandescentes são constituídas de um filamento de tungstênio dentro de um bulbo de vidro com um gás de baixa pressão. Essas lâmpadas podem apresentar diferentes potências quando submetidas à mesma tensão elétrica.",
+      "enunciado": "Um estudante precisa selecionar uma lâmpada que forneça o maior brilho, para isso deverá selecionar aquela que possui o filamento mais",
+      "alternativas": {
+        "A": "curto, pois terá a menor resistência.",
+        "B": "comprido, pois terá a maior resistência.",
+        "C": "curto, pois terá a menor resistividade.",
+        "D": "curto, pois terá a menor corrente elétrica.",
+        "E": "comprido, pois terá a menor resistividade."
+      },
+      "gabarito": "A",
+      "comentario": "A lâmpada apresentará maior brilho quanto maior for a potência elétrica dissipada em seu filamento. Se a tensão elétrica é mantida constante, a potência é inversamente proporcional à resistência. Pela 2ª Lei de Ohm, a resistência é diretamente proporcional ao comprimento do fio, portanto um filamento mais curto resulta em menor resistência e maior potência, logo maior brilho."
+    },
+    {
+      "id": "enem_enem2023-2_2dia_100_9",
+      "materia": "Física",
+      "assunto": "Força de atrito",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "Dois operários deslizam uma pedra, para cima, sobre uma superfície inclinada com velocidade constante. Um deles puxa a pedra utilizando uma corda, enquanto o outro a empurra, conforme a figura. No instante em que a pedra desliza sobre a posição B, apesar da força de atrito →fB exercida pela superfície, os pés dos operários não deslizam nas posições A e C, por causa, respectivamente, das forças de atrito →fA e →fC , exercidas sobre esses pés.",
+      "enunciado": "O diagrama que representa os sentidos das forças de atrito exercidas pela superfície da rampa nas posições A, B e C é:",
+      "alternativas": {
+        "A": "a) ABC fB/c174 fA/c174 fC/c174",
+        "B": "b) ABC fB/c174 fA/c174 fC/c174",
+        "C": "c) ABC fB/c174 fA/c174 fC/c174",
+        "D": "d) ABC fB/c174 fA/c174 fC/c174",
+        "E": "e) ABC fB/c174 fA/c174 fC/c174"
+      },
+      "gabarito": "C",
+      "comentario": "1) Como a pedra está subindo, então a força de atrito →fB exercida pela superfície é dirigida para baixo. 2) A pessoa A empurra a superfície para baixo e, pela lei da ação e reação, recebe da superfície uma força de atrito dirigida para cima. 3) A pessoa C também empurra a superfície para baixo e recebe uma força de atrito dirigida para cima. Resposta: C"
+    },
+    {
+      "id": "enem_enem2023-2_2dia_101_10",
+      "materia": "Física",
+      "assunto": "Ondulatória",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "A primeira tecnologia comercial de comunicação da internet foi realizada usando a rede de voz telefônica, implantada por pares de fios condutores (par trançado), que permitiam uma transferência máxima de 56 kbps (quilobites por segundo). Nesse padrão de comunicação, a transferência se faz usando uma onda quadrada modulada, com os níveis 1 e 0 representados pela diferença de potencial (d.d.p.) nos fios ou pela ausência dessa d.d.p. Nas comunicações atuais, a capacidade de transferência de dados por fibra óptica ou micro-ondas (usando uma onda de 2,5 GHz na tecnologia 4G ou uma de 3,5 GHz na tecnologia 5G) é muito superior. Na 5G está prevista uma capacidade de transferência superior a 10 Gbps para cada dispositivo conectado. Considere que a informação é transportada a uma velocidade igual a 2/3 da velocidade da luz (c = 3 x 10^8 m/s), por uma perturbação do campo elétrico ou por uma onda eletromagnética.",
+      "enunciado": "Os comprimentos, em metro, de um bit de informação transportado no par trançado e na rede 5G, respectivamente, são mais próximos de",
+      "alternativas": {
+        "A": "3,6 x 10^3 e 2,0 x 10^–2",
+        "B": "3,6 x 10^3 e 8,6 x 10^–2",
+        "C": "3,6 x 10^–1 e 2,0 x 10^–1",
+        "D": "5,4 x 10^–1 e 8,6 x 10^–2",
+        "E": "5,4 x 10^–1 e 3,0 x 10^–2"
+      },
+      "gabarito": "A",
+      "comentario": "Trata-se de uma aplicação da equação fundamental da Ondulatória: V = λ f. Transmissão por par trançado: V = 2/3 c e fPT = 56 kbps = 56 . 10^3 bps. V = λ f => 2/3 * 3 . 10^8 = λPT * 56 . 10^3 => λPT ≈ 3,6 . 10^3 m. Transmissão em rede 5G: V = 2/3 c e f5G = 10 Gbps = 1,0 . 10^10 bps. V = λ f => 2/3 * 3 . 10^8 = λ5G * 1,0 . 10^10 => λ5G = 2,0 . 10^-2 m. Resposta: A."
+    },
+    {
+      "id": "enem_enem2023-2_2dia_102_11",
+      "materia": "Física",
+      "assunto": "Espectro eletromagnético e cintiladores",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "O ser humano é incapaz de enxergar a radiação infravermelha e as ondas de rádio (baixas frequências), assim como a ultravioleta e os raios X (altas frequências). A observação dessas faixas do espectro pode ser realizada por meios indiretos, por exemplo, usando um cintilador, que é uma placa utilizada como sensor para detectar um feixe de raios X, pois emite luz quando o feixe incide sobre ela.",
+      "enunciado": "Para que uma pessoa enxergue a incidência de raios X no cintilador, é necessário que essa placa",
+      "alternativas": {
+        "A": "reflita o feixe de raios X, alterando sua polarização.",
+        "B": "transmita o feixe de raios X, alterando sua polarização.",
+        "C": "absorva o feixe de raios X, reemitindo parte de sua energia na região do visível.",
+        "D": "absorva o feixe de raios X, reemitindo parte de sua energia na região do ultravioleta.",
+        "E": "absorva o feixe de raios X, reemitindo parte de sua energia na região do infravermelho."
+      },
+      "gabarito": "C",
+      "comentario": "Os raios X são absorvidos pela placa e esta, por sua vez, emite parte da energia recebida em forma de radiação no espectro visível, que pode ser enxergada pelo olho humano."
+    },
+    {
+      "id": "enem_enem2023-2_2dia_103_12",
+      "materia": "Física",
+      "assunto": "Eletricidade e Energia",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "Uma microempresa adquire um sistema fotovoltaico de captação de energia solar para reduzir o gasto mensal de energia elétrica. O sistema é composto de 15 placas com potência média útil de 150 W por placa, realizando captação de energia solar oito horas por dia. A energia captada é armazenada em um conjunto de baterias de 12V . O sistema apresenta também um inversor, cuja função é converter a tensão de 12V contínua para 120V alternada, e sua eficiência é de 80%. A microempresa trabalha doze horas por dia, utilizando a energia captada pelo sistema solar.",
+      "enunciado": "As intensidades das correntes elétricas, em ampère, na entrada e saída do inversor são, respectivamente,",
+      "alternativas": {
+        "A": "100 e 8.",
+        "B": "100 e 10.",
+        "C": "125 e 10.",
+        "D": "125 e 12,5.",
+        "E": "1 500 e 150."
+      },
+      "gabarito": "C",
+      "comentario": "Calculemos inicialmente a potência total útil: Pútil = 15 . 150 (W) = 2250W. No entanto, essa potência elétrica é captada em 8,0h e utilizada em um período de 12h, assim: Pútil . Δt1 = Pentrada . Δt2 => 2250 . 8,0 = Pentrada . 12 => Pentrada = 1500W. Portanto: Pentrada = i entrada . Uentrada => 1500 = ientrada . 12 => ientrada = 125A. Devido ao fator de eficiência, temos: Psaída = (80/100) . Pentrada => Psaída = 0,80 . 1500 (W) => Psaída = 1200W. Finalmente: Psaída = isaída . Usaída => 1200 = isaída . 120 => isaída = 10A. Resposta: C."
+    },
+    {
+      "id": "enem_enem2023-2_2dia_105_14",
+      "materia": "Física",
+      "assunto": "Gases e Lei de Boyle",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Balões cheios de gás hélio são soltos no ar pelas crianças e sobem até não serem mais vistos em poucos minutos. Durante a subida, o gás no interior do balão sofre aumento de",
+      "alternativas": {
+        "A": "volume.",
+        "B": "pressão.",
+        "C": "densidade.",
+        "D": "temperatura.",
+        "E": "massa molar."
+      },
+      "gabarito": "A",
+      "comentario": "Durante a subida, o gás (He) no interior do balão sofre aumento de volume, pois a pressão externa diminui com a altitude. (Lei de Boyle: ↓ P ↑V)"
+    },
+    {
+      "id": "enem_enem2023-2_2dia_124_33",
+      "materia": "Física",
+      "assunto": "Fontes de energia e geração distribuída",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "A crescente facilidade para aquisição de aerogeradores e painéis fotovoltaicos tem permitido que unidades consumidoras tenham suas próprias unidades microgeradoras de energia. A integração das unidades microgeradoras à rede pública de distribuição pode beneficiar tanto as unidades consumidoras quanto as concessionárias de fornecimento, conforme o fluxograma. Quando as unidades microgeradoras não geram energia suficiente para a unidade consumidora a rede de distribuição supre a diferença. Quando a unidade microgeradora gera excedente de energia, esse excedente poderá ser entregue à concessionária em troca de crédito. [IMAGEM OMITIDA]",
+      "enunciado": "A vantagem técnica que as unidades microgeradoras proporcionam para as concessionárias da rede pública é a",
+      "alternativas": {
+        "A": "redução das perdas energéticas provenientes do transporte de longa distância.",
+        "B": "sincronização dos picos de produção das microgeradoras com os picos de demanda da rede pública.",
+        "C": "diminuição da necessidade da rede pública, no caso de todas as unidades consumidoras optarem pela microgeração.",
+        "D": "intensificação do uso da energia gerada por pequenas termoelétricas próximas às unidades consumidoras.",
+        "E": "diminuição da dependência da energia gerada em grandes parques eólicos."
+      },
+      "gabarito": "A",
+      "comentario": "A adoção de unidades microgeradoras locais tem a finalidade de independência e integração para substituir, complementar e viabilizar as linhas de transmissão, de acordo com as necessidades sazonais e contingenciais de consumo, além de reduzir as perdas energéticas provenientes do transporte de longa distância."
+    },
+    {
+      "id": "enem_enem2023-2_2dia_130_39",
+      "materia": "Física",
+      "assunto": "Calorimetria e Potência",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "Um fabricante de eletrodomésticos desenvolveu um compartimento refrigerador inovador que consegue resfriar, em apenas 7 minutos, duas latas de refrigerante (350 mL cada), com densidade igual a 1,0 g/mL. A refrigeração do líquido consome 21% da potência do sistema quando o refrigerante tem sua temperatura diminuída em 15°C. Considere o calor específico do refrigerante igual a 1,0 cal/(g°C) e 1 cal = 4,2 J.",
+      "enunciado": "A potência total, em watt, desse dispositivo refrigerador é, aproximadamente,",
+      "alternativas": {
+        "A": "105",
+        "B": "120",
+        "C": "315",
+        "D": "500",
+        "E": "1500"
+      },
+      "gabarito": "D",
+      "comentario": "Resolução: (I) Cálculo do módulo da quantidade de calor perdida pelas latas de refrigerante: Q = m c Δθ = d V c Δθ = 1,0 * 700 * 1,0 * 15 = 10500 cal = 10500 * 4,2 = 44100 J. (II) Cálculo da potência útil: PotU = Q/Δt = 44100 / (7*60) = 105 W. (III) Cálculo da potência total: η = PotU / PotT => 0,21 = 105 / PotT => PotT = 500 W."
+    },
+    {
+      "id": "enem_enem2023-2_2dia_141_50",
+      "materia": "Física",
+      "assunto": "Análise dimensional",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "Em radiometria, a potência radiante emitida por uma fonte de radiação é diretamente proporcional à quantidade de energia, em joule (J), irradiada pela fonte, e inversamente proporcional ao intervalo de tempo, em segundo (s), que a fonte necessita para emitir essa energia. Por meio de sensores adequados, localizados em diferentes distâncias da fonte, medidas em metro (m), é possível medir a potência radiante por unidade de área que chega àquela posição.",
+      "enunciado": "A expressão que representa a unidade de medida para a grandeza potência radiante por unidade de área é",
+      "alternativas": {
+        "A": "J . s . m²",
+        "B": "J . s . m",
+        "C": "J / s",
+        "D": "J / (s . m²)",
+        "E": "J / (s . m²)"
+      },
+      "gabarito": "E",
+      "comentario": "A potência radiante é energia por tempo: J/s. Dividindo por área (m²), obtém-se J/(s·m²)."
+    },
+    {
+      "id": "enem_enem2023-2_2dia_152_61",
+      "materia": "Física",
+      "assunto": "Unidades de medida",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "Um equipamento monitora o volume de água que passa por uma tubulação em um período de tempo. Um técnico rascunhou cinco possibilidades de unidade de medida para a grandeza que esse equipamento monitora. Nas imagens, cm significa centímetro, e s significa segundo.",
+      "enunciado": "O rascunho que expressa corretamente uma unidade de medida para a grandeza que esse equipamento monitora é o",
+      "alternativas": {
+        "A": "I",
+        "B": "II",
+        "C": "III",
+        "D": "IV",
+        "E": "V"
+      },
+      "gabarito": "C",
+      "comentario": "O rascunho III que apresenta cm³/s expressa corretamente esse equipamento que monitora o volume de água que passa por uma tubulação em um período de tempo."
+    },
+    {
+      "id": "enem_enem2017_2dia_93_2",
+      "materia": "Física",
+      "assunto": "Eletricidade - Resistência elétrica e Lei de Ohm",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "Dispositivos eletrônicos que utilizam materiais de baixo custo, como polímeros semicondutores, têm sido desenvolvidos para monitorar a concentração de amônia (gás tóxico e incolor) em granjas avícolas. A polianilina é um polímero semicondutor que tem o valor de sua resistência elétrica nominal quadruplicado quando exposta a altas concentrações de amônia. Na ausência de amônia, a polianilina se comporta como um resistor ôhmico e a sua resposta elétrica é mostrada no gráfico.",
+      "enunciado": "O valor da resistência elétrica da polianilina na presença de altas concentrações de amônia, em ohm, é igual a",
+      "alternativas": {
+        "A": "0,5 x 10^0",
+        "B": "2,0 x 10^0",
+        "C": "2,5 x 10^5",
+        "D": "5,0 x 10^5",
+        "E": "2,0 x 10^6"
+      },
+      "gabarito": "E",
+      "comentario": "A polianilina comporta-se como um resistor ôhmico, assim, da 1ª Lei de Ohm, temos: U = R i. Do gráfico: i = 5,0 . 10⁻⁶ A, U = 2,5 V. Assim: 2,5 = R . 5,0 . 10⁻⁶ → R = 0,5 . 10⁶ Ω = 5,0 . 10⁵ Ω. Quando submetida a altas concentrações de amônia, esse valor é quadruplicado, portanto: R' = 4 . 5,0 . 10⁵ Ω = 2,0 . 10⁶ Ω."
+    },
+    {
+      "id": "enem_enem2017_2dia_99_8",
+      "materia": "Física",
+      "assunto": "Força e aceleração",
+      "banca": "INEP",
+      "ano": 2017,
+      "texto_auxiliar": "Em uma colisão frontal entre dois automóveis, a força que o cinto de segurança exerce sobre o tórax e abdômen do motorista pode causar lesões graves nos órgãos internos. Pensando na segurança do seu produto, um fabricante de automóveis realizou testes em cinco modelos diferentes de cinto. Os testes simularam uma colisão de 0,30 segundo de duração, e os bonecos que representavam os ocupantes foram equipados com acelerômetros. Esse equipamento registra o módulo da desaceleração do boneco em função do tempo. Os parâmetros como massa dos bonecos, dimensões dos cintos e velocidade imediatamente antes e após o impacto foram os mesmos para todos os testes. O resultado final obtido está no gráfico de aceleração por tempo.",
+      "enunciado": "Qual modelo de cinto oferece menor risco de lesão interna ao motorista?",
+      "alternativas": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "gabarito": "B",
+      "comentario": "O risco de lesão interna está ligado à intensidade da força de frenagem e, portanto à intensidade da aceleração do carro. O cinto 2 corresponde ao de menor aceleração máxima e, portanto o de menor risco de lesão."
+    },
+    {
+      "id": "enem_enem2017_2dia_101_10",
+      "materia": "Física",
+      "assunto": "Radiação eletromagnética e espectro visível",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "A figura mostra como é a emissão de radiação eletromagnética para cinco tipos de lâmpada: haleto metálico, tungstênio, mercúrio, xênon e LED (diodo emissor de luz). As áreas marcadas em cinza são proporcionais à intensidade da energia liberada pela lâmpada. As linhas pontilhadas mostram a sensibilidade do olho humano aos diferentes comprimentos de onda. UV e IV são as regiões do ultravioleta e do infravermelho, respectivamente.",
+      "enunciado": "Um arquiteto deseja iluminar uma sala usando uma lâmpada que produza boa iluminação, mas que não aqueça o ambiente. Qual tipo de lâmpada melhor atende ao desejo do arquiteto?",
+      "alternativas": {
+        "A": "Haleto metálico.",
+        "B": "Tungstênio.",
+        "C": "Mercúrio.",
+        "D": "Xênon.",
+        "E": "LED"
+      },
+      "gabarito": "E",
+      "comentario": "A lâmpada LED, dentre as opções apresentadas, é a que mais emite na faixa do visível. Além disso, a intensidade emitida na faixa do IV é desprezível, o que melhor atende o desejo do arquiteto, que é de não aquecer em demasia o ambiente."
+    },
+    {
+      "id": "enem_enem2017_2dia_103_12",
+      "materia": "Física",
+      "assunto": "Óptica e ondas",
+      "banca": "INEP",
+      "ano": 2017,
+      "texto_auxiliar": "Em uma linha de transmissão de informações por fibra óptica, quando um sinal diminui sua intensidade para valores inferiores a 10 dB, este precisa ser retransmitido. No entanto, intensidades superiores a 100 dB não podem ser transmitidas adequadamente. A figura apresenta como se dá a perda de sinal (perda óptica) para diferentes comprimentos de onda para certo tipo de fibra óptica. Atenuação e limitações das fibras ópticas. Disponível em: www.gta.ufrj.br. Acesso em: 25 maio 2017 (adaptado).",
+      "enunciado": "Qual é a máxima distância, em km, que um sinal pode ser enviado nessa fibra sem ser necessária uma retransmissão?",
+      "alternativas": {
+        "A": "6",
+        "B": "18",
+        "C": "60",
+        "D": "90",
+        "E": "100"
+      },
+      "gabarito": "D",
+      "comentario": "A menor perda óptica ocorre, de acordo com o gráfico, para o comprimento de onda de 1,5 μm e corresponde a 1 dB/km. A faixa operacional da linha, sem retransmissão, ocorre entre 10 dB e 100 dB; dessa forma, para a diferença de 90 dB, temos: 1 dB de perda – 1,0 km; 90 dB de perda – d. d = 90 km."
+    },
+    {
+      "id": "enem_enem2017_2dia_104_13",
+      "materia": "Física",
+      "assunto": "Datação por carbono-14",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "A técnica do carbono-14 permite a datação de fósseis pela medição dos valores de emissão beta desse isótopo presente no fóssil. Para um ser em vida, o máximo são 15 emissões beta/(min g). Após a morte, a quantidade de 14C se reduz pela metade a cada 5 730 anos. \nA prova do carbono 14. \nDisponível em: http:///noticias.terra.com.br. \nAcesso em: 9 nov. 2013 (adaptado).",
+      "enunciado": "Considere que um fragmento fóssil de massa igual a 30 g foi encontrado em um sítio arqueológico, e a medição de radiação apresentou 6 750 emissões beta por hora. A idade desse fóssil, em anos, é",
+      "alternativas": {
+        "A": "450",
+        "B": "1 433",
+        "C": "11 460",
+        "D": "17 190",
+        "E": "27 000"
+      },
+      "gabarito": "C",
+      "comentario": "Resolução: 1) E0 = 15 emissões beta/(min g) * 60 min/h = 900 emissões beta/(h g). Para 30 g: N0 = 30 * 900 = 27 000 emissões beta/h. 2) N = 6 750 = N0 / 2^n => 2^n = 27 000 / 6 750 = 4 => n = 2. 3) t = n * 5 730 anos = 2 * 5 730 = 11 460 anos. Resposta: C."
+    },
+    {
+      "id": "enem_enem2017_2dia_105_14",
+      "materia": "Física",
+      "assunto": "Fontes de energia e sustentabilidade",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "A figura mostra o funcionamento de uma estação híbrida de geração de eletricidade movida a energia eólica e biogás. Essa estação possibilita que a energia gerada no parque eólico seja armazenada na forma de gás hidrogênio, usado no fornecimento de energia para a rede elétrica comum e para abastecer células a combustível. Disponível em: www.enertrag.com. Acesso em: 24 abr. 2015 (adaptado).",
+      "enunciado": "Mesmo com ausência de ventos por curtos períodos, essa estação continua abastecendo a cidade onde está instalada, pois o(a)",
+      "alternativas": {
+        "A": "planta mista de geração de energia realiza eletrólise para enviar energia à rede de distribuição elétrica.",
+        "B": "hidrogênio produzido e armazenado é utilizado na combustão com o biogás para gerar calor e eletricidade.",
+        "C": "conjunto de turbinas continua girando com a mesma velocidade, por inércia, mantendo a eficiência anterior.",
+        "D": "combustão da mistura biogás-hidrogênio gera diretamente energia elétrica adicional para a manutenção da estação.",
+        "E": "planta mista de geração de energia é capaz de utilizar todo o calor fornecido na combustão para a geração de eletricidade."
+      },
+      "gabarito": "B",
+      "comentario": "Em primeiro lugar, vamos observar que as turbinas eólicas propiciam a produção de hidrogênio, o qual pode ser armazenado e usado posteriormente, na ausência de vento. Nos curtos períodos de não funcionamento das turbinas eólicas (calmaria), podemos usar o biogás (armazenado) e misturá-lo com o hidrogênio (armazenado), produzindo a combustão do biogás, a qual vai gerar calor. Este é usado na produção de vapor d’água, acionando as turbinas que, por sua vez, darão energia mecânica aos geradores elétricos."
+    },
+    {
+      "id": "enem_enem2017_2dia_107_16",
+      "materia": "Física",
+      "assunto": "Ondas eletromagnéticas",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "A epilação a laser (popularmente conhecida como depilação a laser) consiste na aplicação de uma fonte de luz para aquecer e causar uma lesão localizada e controlada nos folículos capilares. Para evitar que outros tecidos sejam danificados, selecionam-se comprimentos de onda que são absorvidos pela melanina presente nos pelos, mas que não afetam a oxi-hemoglobina do sangue e a água dos tecidos da região em que o tratamento será aplicado. A figura mostra como é a absorção de diferentes comprimentos de onda pela melanina, oxi-hemoglobina e água. [IMAGEM OMITIDA]",
+      "enunciado": "Qual é o comprimento de onda, em nm, ideal para a epilação a laser?",
+      "alternativas": {
+        "A": "400",
+        "B": "700",
+        "C": "1 100",
+        "D": "900",
+        "E": "500"
+      },
+      "gabarito": "B",
+      "comentario": "A melanina tem absorção percentual elevada, com nenhuma absorção por parte da oxi-hemoglobina e absorção nula por parte da água, para o comprimento de onda de 700 nm."
+    },
+    {
+      "id": "enem_enem2017_2dia_108_17",
+      "materia": "Física",
+      "assunto": "Energia Mecânica e Movimento Harmônico Simples",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "O brinquedo pula-pula (cama elástica) é composto por uma lona circular flexível horizontal presa por molas à sua borda. As crianças brincam pulando sobre ela, alterando e alternando suas formas de energia. Ao pular verticalmente, desprezando o atrito com o ar e os movimentos de rotação do corpo enquanto salta, uma criança realiza um movimento periódico vertical em torno da posição de equilíbrio da lona (h = 0), passando pelos pontos de máxima e de mínima alturas, hmáx e hmín, respectivamente.",
+      "enunciado": "Esquematicamente, o esboço do gráfico da energia cinética da criança em função de sua posição vertical na situação descrita é:",
+      "alternativas": {
+        "A": "Gráfico A",
+        "B": "Gráfico B",
+        "C": "Gráfico C",
+        "D": "Gráfico D",
+        "E": "Gráfico E"
+      },
+      "gabarito": "C",
+      "comentario": "A resolução indica que a energia cinética é máxima no ponto de equilíbrio (h=0) e mínima nos extremos, resultando em um gráfico parabólico com concavidade para baixo, correspondente à alternativa C."
+    },
+    {
+      "id": "enem_enem2017_2dia_110_19",
+      "materia": "Física",
+      "assunto": "Circuitos elétricos",
+      "banca": "INEP",
+      "ano": 2017,
+      "texto_auxiliar": "Fusível é um dispositivo de proteção contra sobrecorrente em circuitos. Quando a corrente que passa por esse componente elétrico é maior que sua máxima corrente nominal, o fusível queima. Dessa forma, evita que a corrente elevada danifique os aparelhos do circuito. Suponha que o circuito elétrico mostrado seja alimentado por uma fonte de tensão U e que o fusível suporte uma corrente nominal de 500 mA.",
+      "enunciado": "Qual é o máximo valor da tensão U para que o fusível não queime?",
+      "alternativas": {
+        "A": "20V",
+        "B": "40V",
+        "C": "60V",
+        "D": "120V",
+        "E": "185V"
+      },
+      "gabarito": "D",
+      "comentario": "Analisando a parte inferior do circuito fornecido, temos: No resistor de 120 Ω: UAC = R . i = 120 . 500 . 10^-3 = 60V. No resistor de 60 Ω: UAC = R . i' => 60 = 60 i' => i' = 1,0A. No resistor de 40 Ω: iCB = i + i' = 0,5A + 1,0A = 1,5A. Assim: UCB = RCB . iCB = 40 . 1,5 = 60V. Portanto, a tensão elétrica U será dada por: UAB = UAC + UCB = 60V + 60V = 120V."
+    },
+    {
+      "id": "enem_enem2017_2dia_112_21",
+      "materia": "Física",
+      "assunto": "Interferência de ondas sonoras",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "O trombone de Quincke é um dispositivo experimental utilizado para demonstrar o fenômeno da interferência de ondas sonoras. Uma fonte emite ondas sonoras de determinada frequência na entrada do dispositivo. Essas ondas se dividem pelos dois caminhos (ADC e AEC) e se encontram no ponto C, a saída do dispositivo, onde se posiciona um detector. O trajeto ADC pode ser aumentado pelo deslocamento dessa parte do dispositivo. Com o trajeto ADC igual ao AEC, capta-se um som muito intenso na saída. Entretanto, aumentando-se gradativamente o trajeto ADC, até que ele fique como mostrado na figura, a intensidade do som na saída fica praticamente nula. Desta forma, conhecida a velocidade do som no interior do tubo (320 m/s), é possível determinar o valor da frequência do som produzido pela fonte.",
+      "enunciado": "O valor da frequência, em hertz, do som produzido pela fonte sonora é",
+      "alternativas": {
+        "A": "3 200.",
+        "B": "1 600.",
+        "C": "800.",
+        "D": "640.",
+        "E": "400."
+      },
+      "gabarito": "C",
+      "comentario": "Deslocando-se a haste móvel do trombone a partir da posição inicial, que determina no local de saída do som uma situação de interferência construtiva, as ondas que atingem o detector se defasam até ficarem em oposição de fase. Nesse caso, ocorre interferência destrutiva (anulamento) no detector e o som percebido nesse local tem intensidade praticamente nula. Condição de interferência destrutiva: Δx = i·λ/2 (i = 1, 3, 5, …). Sendo Δx = 2·(40 – 30) cm = 20 cm = 0,20 m, Vsom = 320 m/s e i = 1 (1ª posição da haste para a ocorrência de interferência destrutiva), vem: 0,20 = 1·(320/(2f)) ⇒ f = 800 Hz."
+    },
+    {
+      "id": "enem_enem2017_2dia_115_24",
+      "materia": "Física",
+      "assunto": "Força centrífuga e densidade",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "As centrífugas são equipamentos utilizados em laboratórios, clínicas e indústrias. Seu funcionamento faz uso da aceleração centrífuga obtida pela rotação de um recipiente e que serve para a separação de sólidos em suspensão em líquidos ou de líquidos misturados entre si.\nRODITI. I. Dicionário Houaiss de física. Rio de Janeiro: Objetiva, 2005 (adaptado).",
+      "enunciado": "Nesse aparelho, a separação das substâncias ocorre em função",
+      "alternativas": {
+        "A": "das diferentes densidades.",
+        "B": "dos diferentes raios de rotação.",
+        "C": "das diferentes velocidades angulares.",
+        "D": "das diferentes quantidades de cada substância.",
+        "E": "da diferente coesão molecular de cada substância."
+      },
+      "gabarito": "A",
+      "comentario": "Na centrífuga usa-se o conceito da força de inércia centrífuga: o módulo da força centrífuga será proporcional à massa do sólido e, portanto, depende de sua densidade."
+    },
+    {
+      "id": "enem_enem2017_2dia_127_36",
+      "materia": "Física",
+      "assunto": "Potência e calorimetria",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "No manual fornecido pelo fabricante de uma ducha elétrica de 220 V é apresentado um gráfico com a variação da temperatura da água em função da vazão para três condições (morno, quente e superquente). Na condição superquente, a potência dissipada é de 6 500 W. Considere o calor específico da água igual a 4 200 J/(kg °C) e densidade da água igual a 1 kg/L.",
+      "enunciado": "Com base nas informações dadas, a potência na condição morno corresponde a que fração da potência na condição superquente?",
+      "alternativas": {
+        "A": "5/8",
+        "B": "3/8",
+        "C": "3/5",
+        "D": "1/5",
+        "E": "1/3"
+      },
+      "gabarito": "B",
+      "comentario": "A potência é proporcional à variação de temperatura. Do gráfico, para uma vazão de 3 L/min, a elevação de temperatura no morno é 12°C e no superquente é 32°C. Assim, P_morno / P_superquente = 12/32 = 3/8."
+    },
+    {
+      "id": "enem_enem2017_2dia_129_38",
+      "materia": "Física",
+      "assunto": "Eletrodinâmica",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "Em algumas residências, cercas eletrificadas são utilizadas com o objetivo de afastar possíveis invasores. Uma cerca eletrificada funciona com uma diferença de potencial elétrico de aproximadamente 10 000 V. Para que não seja letal, a corrente que pode ser transmitida através de uma pessoa não deve ser maior do que 0,01 A. Já a resistência elétrica corporal entre as mãos e os pés de uma pessoa é da ordem de 1 000 Ω.",
+      "enunciado": "Para que a corrente não seja letal a uma pessoa que toca a cerca eletrificada, o gerador de tensão deve possuir uma resistência interna que, em relação à do corpo humano, é",
+      "alternativas": {
+        "A": "praticamente nula.",
+        "B": "aproximadamente igual.",
+        "C": "milhares de vezes maior.",
+        "D": "da ordem de 10 vezes maior.",
+        "E": "da ordem de 10 vezes menor."
+      },
+      "gabarito": "C",
+      "comentario": "Para a pessoa, temos: i = 0,01 A, R = 1000 Ω, U = R i = 1000 * 0,01 = 10 V. Nessa situação letal, o gerador aplicará na pessoa uma ddp de 10 V, assim: U = E – r i → 10 = 10000 – r * 0,01 → r = 999000 Ω. Relacionando r com R: r/R = 999000/1000 = 999, ou seja, milhares de vezes maior. Portanto, a alternativa correta é C."
+    },
+    {
+      "id": "enem_enem2017_2dia_131_40",
+      "materia": "Física",
+      "assunto": "Cinemática",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Que distância o motorista desatento percorre a mais do que o motorista atento, até a parada total dos carros?",
+      "alternativas": {
+        "A": "2,90m",
+        "B": "14,0m",
+        "C": "14,5m",
+        "D": "15,0m",
+        "E": "17,4m"
+      },
+      "gabarito": "E",
+      "comentario": "Para a solução, vamos admitir que o motorista desatento mantenha sua aceleração escalar inicial de 1,00 m/s² até o início de sua frenagem. Durante 1,00 s, o carro do desatento motorista aumenta sua velocidade escalar em 1,00 m/s, atingindo a velocidade escalar V1 = 15,0 m/s e percorrendo uma distância d1 dada por: d1 = (V0 + V1)/2 * Δt = (14,0 + 15,0)/2 * 1,00 = 14,5 m. Durante a frenagem, as distâncias percorridas são dadas por: Motorista atento: V² = V0² + 2αΔs → 0 = (14,0)² + 2(-5,00)d2 → 10,0 d2 = 196 → d2 = 19,6 m. Motorista desatento: V² = V1² + 2αΔs → 0 = (15,0)² + 2(-5,00)d3 → 10,0 d3 = 225 → d3 = 22,5 m. O motorista atento percorreu d2 = 19,6 m. O motorista desatento percorreu d1 + d3 = 37,0 m. Portanto: Δd = 37,0 m – 19,6 m → Δd = 17,4 m."
+    },
+    {
+      "id": "enem_enem2017_2dia_133_42",
+      "materia": "Física",
+      "assunto": "Eletromagnetismo",
+      "banca": "INEP",
+      "ano": 2017,
+      "texto_auxiliar": "Para demonstrar o processo de transformação de energia mecânica em elétrica, um estudante constrói um pequeno gerador utilizando:\n• um fio de cobre de diâmetro D enrolado em N espiras circulares de área A;\n• dois ímãs que criam no espaço entre eles um campo magnético uniforme de intensidade B; e\n• um sistema de engrenagens que lhe permite girar as espiras em torno de um eixo com uma frequência f.\nAo fazer o gerador funcionar, o estudante obteve uma tensão máxima V e uma corrente de curto-circuito i.",
+      "enunciado": "Para dobrar o valor da tensão máxima V do gerador mantendo constante o valor da corrente de curto i, o estudante deve dobrar o(a)",
+      "alternativas": {
+        "A": "número de espiras.",
+        "B": "frequência de giro.",
+        "C": "intensidade do campo magnético.",
+        "D": "área das espiras.",
+        "E": "diâmetro do fio."
+      },
+      "gabarito": "A",
+      "comentario": "Sendo V a máxima tensão do gerador, concluímos que se trata da sua força eletromotriz ε. ε = V. O módulo da força eletromotriz induzida no gerador de N espiras é dada pela Lei de Faraday: ε = N * (ΔΦ/Δt). Um dos modos de se dobrar a tensão induzida é dobrar o número N de espiras. Por outro lado, a corrente de curto-circuito do gerador é dada por i_cc = ε / r, onde r é a resistência interna, ou seja, a resistência das N espiras. r = N * (ρ * L / A). Dobrando o número de espiras, obtemos 2ε e também 2r, então i_cc = 2ε / (2r) = ε / r (constante). Resposta: A."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_51_50",
+      "materia": "Física",
+      "assunto": "Potência elétrica",
+      "banca": "INEP",
+      "ano": 2016,
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Qual é o valor da redução da potência consumida ao se substituir a lâmpada incandescente pela de LED?",
+      "alternativas": {
+        "A": "54,6W",
+        "B": "27,0W",
+        "C": "26,6W",
+        "D": "5,4W",
+        "E": "5,0W"
+      },
+      "gabarito": "A",
+      "comentario": "A potência da lâmpada LED é dada por: PotL = UI = 12 . 0,45 (W) = 5,4W. A redução de potência é dada por: ΔPot = PotI – PotL = 60W – 5,4W = 54,6W."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_53_52",
+      "materia": "Física",
+      "assunto": "Segunda Lei da Termodinâmica",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "Até 1824 acreditava-se que as máquinas térmicas, cujos exemplos são as máquinas a vapor e os atuais motores a combustão, poderiam ter um funcionamento ideal. Sadi Carnot demonstrou a impossibilidade de uma máquina térmica, funcionando em ciclos entre duas fontes térmicas (uma quente e outra fria), obter 100% de rendimento.",
+      "enunciado": "Tal limitação ocorre porque essas máquinas",
+      "alternativas": {
+        "A": "realizam trabalho mecânico.",
+        "B": "produzem aumento da entropia.",
+        "C": "utilizam transformações adiabáticas.",
+        "D": "contrariam a lei da conservação de energia.",
+        "E": "funcionam com temperatura igual à da fonte quente."
+      },
+      "gabarito": "B",
+      "comentario": "O fato de uma máquina térmica operando em ciclos entre duas temperaturas fixas não poder ter rendimento 100% está ligado à 2.ª Lei da Termodinâmica e é justificado pelo aumento de entropia."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_56_55",
+      "materia": "Física",
+      "assunto": "Calor e temperatura",
+      "banca": "INEP",
+      "ano": 2016,
+      "texto_auxiliar": "Nos dias frios. é comum ouvir expressões como: “Esta roupa é quentinha” ou então “Feche a janela para o frio não entrar”. As expressões do senso comum utilizadas estão em desacordo com o conceito de calor da termodinâmica. A roupa não é “quentinha”, muito menos o frio “entra” pela janela.",
+      "enunciado": "A utilização das expressões “roupa é quentinha” e “para o frio não entrar” é inadequada, pois o(a)",
+      "alternativas": {
+        "A": "roupa absorve a temperatura do corpo da pessoa, e o frio não entra pela janela, o calor é que sai por ela.",
+        "B": "roupa não fornece calor por ser um isolante térmico, e o frio não entra pela janela, pois é a temperatura da sala que sai por ela.",
+        "C": "roupa não é uma fonte de temperatura, e o frio não pode entrar pela janela, pois o calor está contido na sala, logo o calor é que sai por ela.",
+        "D": "calor não está contido num corpo, sendo uma forma de energia em trânsito de um corpo de maior temperatura para outro de menor temperatura.",
+        "E": "calor está contido no corpo da pessoa, e não na roupa, sendo uma forma de temperatura em trânsito de um corpo mais quente para um corpo mais frio."
+      },
+      "gabarito": "D",
+      "comentario": "Calor é conceituado como uma forma de energia em trânsito que se transfere espontaneamente do corpo mais quente para o corpo mais frio. É errado, do ponto de vista físico, dizer que uma roupa contém calor ou falar em trânsito de frio."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_59_58",
+      "materia": "Física",
+      "assunto": "Eletrodinâmica",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "Um eletricista deve instalar um chuveiro que tem as especificações 220 V — 4 400 W a 6 800 W. Para a instalação de chuveiros, recomenda-se uma rede própria, com fios de diâmetro adequado e um disjuntor dimensionado à potência e à corrente elétrica previstas, com uma margem de tolerância próxima de 10%. Os disjuntores são dispositivos de segurança utilizados para proteger as instalações elétricas de curtos-circuitos e sobrecargas elétricas e devem desarmar sempre que houver passagem de corrente elétrica superior à permitida no dispositivo.",
+      "enunciado": "Para fazer uma instalação segura desse chuveiro, o valor da corrente máxima do disjuntor deve ser",
+      "alternativas": {
+        "A": "20A.",
+        "B": "25A.",
+        "C": "30A.",
+        "D": "35A.",
+        "E": "40A."
+      },
+      "gabarito": "D",
+      "comentario": "A corrente máxima requerida para o funcionamento do chuveiro é: Pmax = U Imax => 6800 = 220 Imax => Imax = 30,9 A. Com a margem de segurança de 10%: I'max = 1,1 Imax = 1,1 * 30,9 A = 33,99 A. O disjuntor adequado é o de 35A."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_67_66",
+      "materia": "Física",
+      "assunto": "Ondulatória",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "As notas musicais podem ser agrupadas de modo a formar um conjunto. Esse conjunto pode formar uma escala musical. Dentre as diversas escalas existentes, a mais difundida é a escala diatônica, que utiliza as notas denominadas dó, ré, mi, fá, sol, lá e si. Essas notas estão organizadas em ordem crescente de alturas, sendo a nota dó a mais baixa e a nota si a mais alta.",
+      "enunciado": "Considerando uma mesma oitava, a nota si é a que tem menor",
+      "alternativas": {
+        "A": "amplitude.",
+        "B": "frequência.",
+        "C": "velocidade.",
+        "D": "intensidade.",
+        "E": "comprimento de onda."
+      },
+      "gabarito": "E",
+      "comentario": "Na escala diatônica, dentro de uma mesma oitava a nota si é a que tem maior frequência. Como a velocidade de propagação tem o mesmo módulo, a nota de maior frequência tem menor comprimento de onda (λ = v/f, máxima frequência ⇒ λ mínimo)."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_71_70",
+      "materia": "Física",
+      "assunto": "Capacitores em série",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Um cosmonauta russo estava a bordo da estação espacial MIR quando um de seus rádios de comunicação quebrou. Ele constatou que dois capacitores do rádio de 3 μF e 7 μF ligados em série estavam queimados. Em função da disponibilidade, foi preciso substituir os capacitores defeituosos por um único capacitor que cumpria a mesma função. Qual foi a capacitância, medida em μF, do capacitor utilizado pelo cosmonauta?",
+      "alternativas": {
+        "A": "0,10",
+        "B": "0,50",
+        "C": "2,1",
+        "D": "10",
+        "E": "21"
+      },
+      "gabarito": "C",
+      "comentario": "Para a associação em série de capacitores, temos: 1/Ceq = 1/C1 + 1/C2 => Ceq = (C1*C2)/(C1+C2) = (3*7)/(3+7) = 21/10 = 2,1 μF."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_73_72",
+      "materia": "Física",
+      "assunto": "Ciclo de Otto",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "O motor de combustão interna, utilizado no transporte de pessoas e cargas, é uma máquina térmica cujo ciclo consiste em quatro etapas: admissão, compressão, explosão/expansão e escape. Essas etapas estão representadas no diagrama da pressão em função do volume. Nos motores a gasolina, a mistura ar/combustível entra em combustão por uma centelha elétrica.",
+      "enunciado": "Para o motor descrito, em qual ponto do ciclo é produzida a centelha elétrica?",
+      "alternativas": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "gabarito": "C",
+      "comentario": "A centelha elétrica provoca a explosão que ocorre ao final da etapa de compressão que ocorre no ponto C."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_76_75",
+      "materia": "Física",
+      "assunto": "Lançamento horizontal e queda livre",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Para um salto no Grand Canyon usando motos, dois paraquedistas vão utilizar uma moto cada, sendo que uma delas possui massa três vezes maior. Foram construídas duas pistas idênticas até a beira do precipício, de forma que no momento do salto as motos deixem a pista horizontalmente e ao mesmo tempo. No instante em que saltam, os paraquedistas abandonam suas motos e elas caem praticamente sem resistência do ar. As motos atingem o solo simultaneamente porque",
+      "alternativas": {
+        "A": "possuem a mesma inércia.",
+        "B": "estão sujeitas à mesma força resultante.",
+        "C": "têm a mesma quantidade de movimento inicial.",
+        "D": "adquirem a mesma aceleração durante a queda.",
+        "E": "são lançadas com a mesma velocidade horizontal."
+      },
+      "gabarito": "D",
+      "comentario": "As motos atingem o solo no mesmo instante porque partem de uma mesma altura H com velocidade horizontal e ficam sujeitas à mesma aceleração vertical que é a aceleração da gravidade. O tempo de queda não dependerá da velocidade horizontal nem da massa da motocicleta."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_79_78",
+      "materia": "Física",
+      "assunto": "Mecânica - Força Peso e Balanças",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "A figura mostra uma balança de braços iguais, em equilíbrio, na Terra, onde foi colocada uma massa m, e a indicação de uma balança de força na Lua, onde a aceleração da gravidade é igual a 1,6 m/s², sobre a qual foi colocada uma massa M.",
+      "enunciado": "A razão das massas M/m é",
+      "alternativas": {
+        "A": "4,0.",
+        "B": "2,5.",
+        "C": "0,4.",
+        "D": "1,0.",
+        "E": "0,25."
+      },
+      "gabarito": "B",
+      "comentario": "Na Terra, a balança de braços iguais em equilíbrio indica que a massa m é igual a 1,0 kg (considerando que o equilíbrio ocorre com massas iguais). Na Lua, a balança de força indica 4,0 N, que é o peso de M: P = M * g_Lua => 4,0 = M * 1,6 => M = 2,5 kg. Portanto, M/m = 2,5/1,0 = 2,5."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_80_79",
+      "materia": "Física",
+      "assunto": "Força resultante e trajetória",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "No dia 27 de junho de 2011, o asteroide 2011 MD, com cerca de 10 m de diâmetro, passou a 12 mil quilômetros do planeta Terra, uma distância menor do que a órbita de um satélite. A trajetória do asteroide é apresentada na figura.",
+      "enunciado": "A explicação física para a trajetória descrita é o fato de o asteroide",
+      "alternativas": {
+        "A": "deslocar-se em um local onde a resistência do ar é nula.",
+        "B": "deslocar-se em um ambiente onde não há interação gravitacional.",
+        "C": "sofrer a ação de uma força resultante no mesmo sentido de sua velocidade.",
+        "D": "sofrer a ação de uma força gravitacional resultante no sentido contrário ao de sua velocidade.",
+        "E": "estar sob a ação de uma força resultante cuja direção é diferente da direção de sua velocidade."
+      },
+      "gabarito": "E",
+      "comentario": "A força resultante no asteroide é de natureza gravitacional e tem uma componente tangencial que altera o módulo de sua velocidade e uma componente centrípeta que altera a direção de sua velocidade tornando a trajetória curva."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_85_84",
+      "materia": "Física",
+      "assunto": "Convecção térmica",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "Para a instalação de um aparelho de ar-condicionado, é sugerido que ele seja colocado na parte superior da parede do cômodo, pois a maioria dos fluidos (líquidos e gases), quando aquecidos, sofrem expansão, tendo sua densidade diminuída e sofrendo um deslocamento ascendente. Por sua vez, quando são resfriados, tornam-se mais densos e sofrem um deslocamento descendente.",
+      "enunciado": "A sugestão apresentada no texto minimiza o consumo de energia, porque",
+      "alternativas": {
+        "A": "diminui a umidade do ar dentro do cômodo.",
+        "B": "aumenta a taxa de condução térmica para fora do cômodo.",
+        "C": "torna mais fácil o escoamento da água para fora do cômodo.",
+        "D": "facilita a circulação das correntes de ar frio e quente dentro do cômodo.",
+        "E": "diminui a taxa de emissão de calor por parte do aparelho para dentro do cômodo."
+      },
+      "gabarito": "D",
+      "comentario": "A posição adequada do aparelho de ar condicionado está ligado ao fato de propiciar correntes de convecção térmica com ar quente subindo (menos denso) e ar frio descendo (mais denso)."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_86_85",
+      "materia": "Física",
+      "assunto": "Calorimetria",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Após duas horas nessa situação, que quantidade de água essa pessoa deve ingerir para repor a perda pela transpiração?",
+      "alternativas": {
+        "A": "0,8g",
+        "B": "0,44g",
+        "C": "1,30g",
+        "D": "1,80g",
+        "E": "80,0g"
+      },
+      "gabarito": "E",
+      "comentario": "Potência dissipada pelo suor: 20% de 120 W = 24 W. Energia em 2 h: 24 * 7200 = 172800 J. Calor de vaporização: 540 cal/g = 2160 J/g. Massa: 172800 / 2160 = 80 g."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_89_88",
+      "materia": "Física",
+      "assunto": "Óptica - Polarização da Luz",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "Nas rodovias, é comum motoristas terem a visão ofuscada ao receberem a luz refletida na água empoçada no asfalto. Sabe-se que essa luz adquire polarização horizontal. Para solucionar esse problema, há a possibilidade de o motorista utilizar óculos de lentes constituídas por filtros polarizadores. As linhas nas lentes dos óculos representam o eixo de polarização dessas lentes.",
+      "enunciado": "Quais são as lentes que solucionam o problema descrito?",
+      "alternativas": {
+        "A": "Lentes com eixo de polarização vertical.",
+        "B": "Lentes com eixo de polarização horizontal.",
+        "C": "Lentes com eixo de polarização a 45°.",
+        "D": "Lentes com eixo de polarização circular.",
+        "E": "Lentes sem filtro polarizador."
+      },
+      "gabarito": "A",
+      "comentario": "Um filtro polarizador quando posicionado verticalmente ele impede a passagem da luz que está polarizada horizontalmente. Como o texto afirma que a luz refletida na água empoçada está polarizada horizontalmente então os filtros nos óculos devem estar posicionados verticalmente."
+    },
+    {
+      "id": "enem_enem2015_1dia_46_45",
+      "materia": "Física",
+      "assunto": "Interferência de película fina",
+      "banca": "INEP",
+      "ano": "2015",
+      "texto_auxiliar": "Certos tipos de superfícies na natureza podem refletir luz de forma a gerar um efeito de arco-íris. Essa característica é conhecida como iridescência e ocorre por causa do fenômeno da interferência de película fina. A figura ilustra o esquema de uma fina camada iridescente de óleo sobre uma poça d’água. Parte do feixe de luz branca incidente /L54706 reflete na interface ar/óleo e sofre inversão de fase /L54707, o que equivale a uma mudança de meio comprimento de onda. A parte refratada do feixe /L54708 incide na interface óleo/água e sofre reflexão sem inversão de fase /L54709. O observador indicado enxergará aquela região do filme com coloração equivalente à do comprimento de onda que sofre interferência completamente construtiva entre os raios /L54707 e /L54710, mas essa condição só é possível para uma espessura mínima da película. Considere que o caminho percorrido em /L54708 e /L54709 corresponde ao dobro da espessura E da película de óleo.",
+      "enunciado": "Expressa em termos do comprimento de onda (λ), a espessura mínima é igual a",
+      "alternativas": {
+        "A": "λ/4",
+        "B": "λ/2",
+        "C": "3λ/4",
+        "D": "λ",
+        "E": "2λ"
+      },
+      "gabarito": "A",
+      "comentario": "Como a reflexão na interface óleo/água ocorreu sem inversão de fase (dado no texto) e a reflexão na interface ar/óleo ocorreu com inversão de fase (também dado no texto), isso implica uma defasagem de π rad entre os raios /L54707 e /L54710. Por outro lado, há uma defasagem por diferença de caminhos entre os raios /L54707 e /L54710. O caminho do raio que penetra no óleo, e sofre reflexão na interface óleo/água, é mais extenso de uma distância 2E. Para que ocorra interferência construtiva (reforço), a diferença de caminhos deve provocar uma outra defasagem de π rad e, portanto: 2E = λ/2 ⇒ E = λ/4."
+    },
+    {
+      "id": "enem_enem2015_1dia_51_50",
+      "materia": "Física",
+      "assunto": "Termodinâmica",
+      "banca": "INEP",
+      "ano": "2015",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Uma pessoa abre sua geladeira, verifica o que há dentro e depois fecha a porta dessa geladeira. Em seguida, ela tenta abrir a geladeira novamente, mas só consegue fazer isso depois de exercer uma força mais intensa do que a habitual. A dificuldade extra para reabrir a geladeira ocorre porque o (a)",
+      "alternativas": {
+        "A": "volume de ar dentro da geladeira diminuiu.",
+        "B": "motor da geladeira está funcionando com potência máxima.",
+        "C": "força exercida pelo ímã fixado na porta da geladeira aumenta.",
+        "D": "pressão no interior da geladeira está abaixo da pressão externa.",
+        "E": "temperatura no interior da geladeira é inferior ao valor existente antes de ela ser aberta."
+      },
+      "gabarito": "D",
+      "comentario": "O ar confinado no interior da geladeira é resfriado a volume constante, o que produz redução na pressão desse ar. Com isso, a pessoa, para abrir novamente a geladeira, deve exercer uma força capaz de vencer a força resultante proveniente da diferença entre as forças de pressão do ar externo e interno."
+    },
+    {
+      "id": "enem_enem2015_1dia_52_51",
+      "materia": "Física",
+      "assunto": "Trabalho e Energia Cinética",
+      "banca": "INEP",
+      "ano": "2015",
+      "texto_auxiliar": "Uma análise criteriosa do desempenho de Usain Bolt na quebra do recorde mundial dos 100 metros rasos mostrou que, apesar de ser o último dos corredores a reagir ao tiro e iniciar a corrida, seus primeiros 30 metros foram os mais velozes já feitos em um recorde mundial, cruzando essa marca em 3,78 segundos. Até se colocar com o corpo reto, foram 13 passadas, mostrando sua potência durante a aceleração, o momento mais importante da corrida. Ao final desse percurso, Bolt havia atingido a velocidade máxima de 12m/s. \nDisponível em: http://esporte.uol.com.br\nAcesso em: 5 ago. 2012 (adaptado)",
+      "enunciado": "Supondo que a massa desse corredor seja igual a 90kg, o trabalho total realizado nas 13 primeiras passadas é mais próximo de",
+      "alternativas": {
+        "A": "5,4 × 10^2 J",
+        "B": "6,5 × 10^3 J",
+        "C": "8,6 × 10^3 J",
+        "D": "1,3 × 10^4 J",
+        "E": "3,2 × 10^4 J"
+      },
+      "gabarito": "B",
+      "comentario": "O trabalho total realizado é medido pela variação da energia cinética do atleta: τtotal = ΔEcin = (m Vf^2)/2 - (m V0^2)/2. Considerando V0 = 0 e Vf = 12 m/s, m = 90 kg, temos τtotal = (90 * 12^2)/2 = 6480 J ≈ 6,5 × 10^3 J."
+    },
+    {
+      "id": "enem_enem2015_1dia_53_52",
+      "materia": "Física",
+      "assunto": "Fissão Nuclear",
+      "banca": "INEP",
+      "ano": "2015",
+      "texto_auxiliar": "A bomba\nreduz neutros e neutrinos, e abana-se com o leque da\nreação em cadeia.\nANDRADE C. D. Poesia completa e prosa. Rio de Janeiro.\nAguilar, 1973 (fragmento).",
+      "enunciado": "Nesse fragmento de poema, o autor refere-se à bomba atômica de urânio. Essa reação é dita “em cadeia” porque na",
+      "alternativas": {
+        "A": "fissão do 235U ocorre liberação de grande quantidade de calor, que dá continuidade à reação.",
+        "B": "fissão de 235U ocorre liberação de energia, que vai desintegrando o isótopo 238U, enriquecendo-o em mais 235U.",
+        "C": "fissão do 235U ocorre uma liberação de nêutrons, que bombardearão outros núcleos.",
+        "D": "fusão do 235U com 238U ocorre formação de neutrino, que bombardeará outros núcleos radioativos.",
+        "E": "fusão do 235U com 238U ocorre formação de outros elementos radioativos mais pesados, que desencadeiam novos processos de fusão."
+      },
+      "gabarito": "C",
+      "comentario": "Na bomba atômica de urânio, ocorre uma reação “em cadeia” com a fissão do 235U, liberando nêutrons, que bombardeiam outros núcleos. A equação simplificada do processo é: 1n0 + 235U92 → X + Y + 2/3 1n0 + energia."
+    },
+    {
+      "id": "enem_enem2015_1dia_55_54",
+      "materia": "Física",
+      "assunto": "Óptica - Refração e Reflexão",
+      "banca": "INEP",
+      "ano": "2015",
+      "texto_auxiliar": "Será que uma miragem ajudou a afundar o Titanic? O fenômeno ótico conhecido como Fata Morgana pode fazer com que uma falsa parede de água apareça sobre o horizonte molhado. Quando as condições são favoráveis, a luz refletida pela água fria pode ser desviada por uma camada incomum de ar quente acima, chegando até o observador, vinda de muitos ângulos diferentes. De acordo com estudos de pesquisadores da Universidade de San Diego, uma Fata Morgana pode ter obscurecido os icebergs da visão da tripulação que estava a bordo do Titanic. Dessa forma, a certa distância, o horizonte verdadeiro fica encoberto por uma névoa escurecida, que se parece muito com águas calmas no escuro.",
+      "enunciado": "O fenômeno ótico que, segundo os pesquisadores, provoca a Fata Morgana é a",
+      "alternativas": {
+        "A": "ressonância.",
+        "B": "refração.",
+        "C": "difração.",
+        "D": "reflexão.",
+        "E": "difusão."
+      },
+      "gabarito": "B",
+      "comentario": "O fenômeno citado ocorre depois que a luz sofre sucessivas refrações com subsequente reflexão total. Na ocorrência da Fata Morgana os fenômenos óticos envolvidos são a refração da luz na atmosfera e a reflexão. Não há como priorizar a importância de um deles, de modo que as opções d e b são possíveis. A banca examinadora do ENEM optou pela alternativa b."
+    },
+    {
+      "id": "enem_enem2015_1dia_58_57",
+      "materia": "Física",
+      "assunto": "Óptica",
+      "banca": "INEP",
+      "ano": "2015",
+      "texto_auxiliar": "Entre os anos de 1028 e 1038, Alhazen (lbn al-Haytham: 965-1040 d.C.) escreveu sua principal obra, o Livro da Óptica, que, com base em experimentos, explicava o funcionamento da visão e outros aspectos da ótica, por exemplo, o funcionamento da câmara escura. O livro foi traduzido e incorporado aos conhecimentos científicos ocidentais pelos europeus. Na figura, retirada dessa obra, é representada a imagem invertida de edificações em tecido utilizado como anteparo. \nZewail, A. H. Micrographia of twenty-first century: from camera obscure to 4D microscopy. Philosophical Transactions of the Royal Society A v. 368, 2010 (adaptado)",
+      "enunciado": "Se fizermos uma analogia entre a ilustração e o olho humano, o tecido corresponde ao(à)",
+      "alternativas": {
+        "A": "íris",
+        "B": "retina",
+        "C": "pupila",
+        "D": "córnea",
+        "E": "cristalino"
+      },
+      "gabarito": "B",
+      "comentario": "As figuras abaixo estabelecem uma analogia entre a câmara escura e o olho humano, em que o tecido corresponde à retina."
+    },
+    {
+      "id": "enem_enem2015_1dia_59_58",
+      "materia": "Física",
+      "assunto": "Energia mecânica e alcance horizontal",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "Um garoto foi à loja comprar um estilingue e encontrou dois modelos: um com borracha mais “dura” e outro com borracha mais “mole”. O garoto concluiu que o mais adequado seria o que proporcionasse maior alcance horizontal, D, para as mesmas condições de arremesso, quando submetidos à mesma força aplicada. Sabe-se que a constante elástica kd (do estilingue mais “duro”) é o dobro da constante elástica km (do estilingue mais “mole”).",
+      "enunciado": "A razão entre os alcances , referentes aos estilingues com borrachas “dura” e “mole”, respectivamente, é igual a",
+      "alternativas": {
+        "A": "1/4",
+        "B": "1/2",
+        "C": "1",
+        "D": "2",
+        "E": "4"
+      },
+      "gabarito": "B",
+      "comentario": "Conservação da energia mecânica: energia elástica se transforma em cinética. Para mesma força F, a deformação x = F/k. A velocidade inicial V0^2 = F^2/(k m). O alcance D = (V0^2/g) sen(2θ) = (F^2/(k m g)) sen(2θ). Para mesma massa e ângulo, D é inversamente proporcional a k. Como kd = 2 km, então Dd/Dm = km/kd = 1/2."
+    },
+    {
+      "id": "enem_enem2015_1dia_63_62",
+      "materia": "Física",
+      "assunto": "Equilíbrio de corpos rígidos",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "Em um experimento, um professor levou para a sala de aula um saco de arroz, um pedaço de madeira triangular e uma barra de ferro cilíndrica e homogênea. Ele propôs que fizessem a medição da massa da barra utilizando esses objetos. Para isso, os alunos fizeram marcações na barra, dividindo-a em oito partes iguais, e em seguida apoiaram-na sobre a base triangular, com o saco de arroz pendurado em uma de suas extremidades, até atingir a situação de equilíbrio.",
+      "enunciado": "Nessa situação, qual foi a massa da barra obtida pelos alunos?",
+      "alternativas": {
+        "A": "3,00 kg",
+        "B": "3,75 kg",
+        "C": "5,00 kg",
+        "D": "6,00 kg",
+        "E": "15,00 kg"
+      },
+      "gabarito": "E",
+      "comentario": "Para o equilíbrio rotacional em relação ao polo (O), temos: Pbarra * 1u = Parroz * 3u => mbarra * g = marroz * g * 3 => mbarra = 3 * 5,00 kg = 15,00 kg."
+    },
+    {
+      "id": "enem_enem2015_1dia_67_66",
+      "materia": "Física",
+      "assunto": "Calorimetria",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "As altas temperaturas de combustão e o atrito entre suas peças móveis são alguns dos fatores que provocam o aquecimento dos motores à combustão interna. Para evitar o superaquecimento e consequentes danos a esses motores, foram desenvolvidos os atuais sistemas de refrigeração, em que um fluido arrefecedor com propriedades especiais circula pelo interior do motor, absorvendo o calor que, ao passar pelo radiador, é transferido para a atmosfera.",
+      "enunciado": "Qual propriedade o fluido arrefecedor deve possuir para cumprir seu objetivo com maior eficiência?",
+      "alternativas": {
+        "A": "Alto calor específico.",
+        "B": "Alto calor latente de fusão.",
+        "C": "Baixa condutividade térmica.",
+        "D": "Baixa temperatura de ebulição.",
+        "E": "Alto coeficiente de dilatação térmica."
+      },
+      "gabarito": "A",
+      "comentario": "O líquido de arrefecimento do motor deve ter alto calor específico sensível para absorver muito calor e variar pouco sua temperatura, evitando-se o risco de ocorrer-lhe a ebulição."
+    },
+    {
+      "id": "enem_enem2015_1dia_71_70",
+      "materia": "Física",
+      "assunto": "Termodinâmica",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "O ar atmosférico pode ser utilizado para armazenar o excedente de energia gerada no sistema elétrico, diminuindo seu desperdício, por meio do seguinte processo: água e gás carbônico são inicialmente removidos do ar atmosférico e a massa de ar restante é resfriada até –198°C. Presente na proporção de 78% dessa massa de ar, o nitrogênio gasoso é liquefeito, ocupando um volume 700 vezes menor. A energia excedente do sistema elétrico é utilizada nesse processo, sendo parcialmente recuperada quando o nitrogênio líquido, exposto à temperatura ambiente, entra em ebulição e se expande, fazendo girar turbinas que convertem energia mecânica em energia elétrica.\nMACHADO, R. Disponível em www.correiobraziliense.com.br Acesso em: 9 set. 2013 (adaptado).",
+      "enunciado": "No processo descrito, o excedente de energia elétrica é armazenado pela",
+      "alternativas": {
+        "A": "expansão do nitrogênio durante a ebulição.",
+        "B": "absorção de calor pelo nitrogênio durante a ebulição.",
+        "C": "realização de trabalho sobre o nitrogênio durante a liquefação.",
+        "D": "retirada de água e gás carbônico da atmosfera antes do resfriamento.",
+        "E": "liberação de calor do nitrogênio para a vizinhança durante a liquefação."
+      },
+      "gabarito": "C",
+      "comentario": "No processo descrito, o excedente de energia elétrica é armazenado pela realização de trabalho sobre o nitrogênio durante a liquefação. Essa energia armazenada é devida ao trabalho que é realizado para liquefazer o nitrogênio. Essa energia será usada para girar as turbinas que convertem energia mecânica em energia elétrica."
+    },
+    {
+      "id": "enem_enem2015_1dia_73_72",
+      "materia": "Física",
+      "assunto": "Ondulatória - Timbre",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Ao ouvir uma flauta e um piano emitindo a mesma nota musical, consegue-se diferenciar esses instrumentos um do outro. Essa diferenciação se deve principalmente ao(a)",
+      "alternativas": {
+        "A": "intensidade sonora do som de cada instrumento musical.",
+        "B": "potência sonora do som emitido pelos diferentes instrumentos musicais.",
+        "C": "diferente velocidade de propagação do som emitido por cada instrumento musical",
+        "D": "timbre do som, que faz com que os formatos das ondas de cada instrumento sejam diferentes.",
+        "E": "altura do som, que possui diferentes frequências para diferentes instrumentos musicais."
+      },
+      "gabarito": "D",
+      "comentario": "A mesma nota musical emitida pela flauta e pelo piano, supostamente com a mesma intensidade, será diferenciada pelo timbre associado a cada som. Para cada uma dessas duas ondas sonoras, haverá uma forma da onda característica, que dependerá do número e intensidade dos harmônicos que acompanham o som fundamental."
+    },
+    {
+      "id": "enem_enem2015_1dia_75_74",
+      "materia": "Física",
+      "assunto": "Localização por triangulação",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "Para obter a posição de um telefone celular, a polícia baseia-se em informações do tempo de resposta do aparelho em relação às torres de celular da região de onde se originou a ligação. Em uma região, um aparelho está na área de cobertura de cinco torres, conforme o esquema.",
+      "enunciado": "Considerando que as torres e o celular são puntiformes e que estão sob o mesmo plano, qual o número mínimo de torres necessárias para se localizar a posição do telefone celular que originou a ligação?",
+      "alternativas": {
+        "A": "Uma.",
+        "B": "Duas.",
+        "C": "Três.",
+        "D": "Quatro.",
+        "E": "Cinco."
+      },
+      "gabarito": "C",
+      "comentario": "Como temos o tempo de resposta do aparelho em relação à torre e sabemos que a velocidade da onda eletromagnética é constante, podemos determinar a distância do celular em relação à antena. Dessa maneira, sabemos que o celular se encontra em uma circunferência de raio d com centro nesta antena, portanto, em posição ainda indeterminada. Para duas antenas, ainda continuamos com uma indeterminação, pois o celular poderá estar nas posições P1 e P2. Para, finalmente, determinarmos a posição exata do aparelho celular, iremos precisar de uma terceira antena. Concluímos, então, que são necessárias, no mínimo, 3 antenas para determinarmos a posição única P em que se encontra o aparelho celular."
+    },
+    {
+      "id": "enem_enem2015_1dia_77_76",
+      "materia": "Física",
+      "assunto": "Energia e potência",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "Um carro solar é um veículo que utiliza apenas a energia solar para a sua locomoção. Tipicamente, o carro contém um painel fotovoltaico que converte a energia do Sol em energia elétrica que, por sua vez, alimenta um motor elétrico. A imagem mostra o carro solar Tokai Challenger, desenvolvido na Universidade de Tokai, no Japão, e que venceu o World Solar Challenge de 2009, uma corrida internacional de carros solares, tendo atingido uma velocidade média acima de 100 km/h. \nDisponível em: www.physics.hku. Acesso em: 3 jun. 2015.",
+      "enunciado": "Considere uma região plana onde a insolação (energia solar por unidade de tempo e de área que chega à superfície da Terra) seja de 1 000 W/m2, que o carro solar possua massa de 200 kg e seja construído de forma que o painel fotovoltaico em seu topo tenha uma área de 9,0 m2 e rendimento de 30%. Desprezando as forças de resistência do ar, o tempo que esse carro solar levaria, a partir do repouso, para atingir a velocidade de 108 km/h é um valor mais próximo de",
+      "alternativas": {
+        "A": "1,0 s.",
+        "B": "4,0 s.",
+        "C": "10 s.",
+        "D": "33 s.",
+        "E": "300 s."
+      },
+      "gabarito": "D",
+      "comentario": "Resolução: 1) Cálculo da potência total: I = PotT/A => PotT = I . A = 1000 . 9,0 = 9,0 . 10^3 W. 2) Cálculo da potência útil: η = PotU/PotT => PotU = η . PotT = 0,30 . 9,0 . 10^3 = 2,7 . 10^3 W. 3) Cálculo do trabalho realizado: TEC: τtotal = ΔEcin = m/2 (V^2 - V0^2) = 200/2 . (30)^2 = 9,0 . 10^4 J. 4) Cálculo do tempo gasto: PotU = τtotal/Δt => Δt = τtotal/PotU = 9,0 . 10^4 / 2,7 . 10^3 = 33 s. Resposta: D."
+    },
+    {
+      "id": "enem_enem2015_1dia_80_79",
+      "materia": "Física",
+      "assunto": "Circuitos elétricos",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "Um estudante, precisando instalar um computador, um monitor e uma lâmpada em seu quarto, verificou que precisaria fazer a instalação de duas tomadas e um interruptor na rede elétrica. Decidiu esboçar com antecedência o esquema elétrico. “O circuito deve ser tal que as tomadas e a lâmpada devem estar submetidas à tensão nominal da rede elétrica e a lâmpada deve poder ser ligada ou desligada por um interruptor sem afetar os outros dispositivos” — pensou. Símbolos adotados: [IMAGEM OMITIDA]",
+      "enunciado": "Qual dos circuitos esboçados atende às exigências?",
+      "alternativas": {
+        "A": "Circuito A",
+        "B": "Circuito B",
+        "C": "Circuito C",
+        "D": "Circuito D",
+        "E": "Circuito E"
+      },
+      "gabarito": "E",
+      "comentario": "As duas tomadas devem ficar em paralelo e tal que a chave não as desligue. A lâmpada deverá estar em série com a chave e esse conjunto deverá estar em paralelo com as tomadas. O circuito acima é equivalente ao mostrado na alternativa E."
+    },
+    {
+      "id": "enem_enem2015_1dia_82_81",
+      "materia": "Física",
+      "assunto": "Calorimetria",
+      "banca": "INEP",
+      "ano": "2015",
+      "texto_auxiliar": "Uma garrafa térmica tem como função evitar a troca de calor entre o líquido nela contido e o ambiente, mantendo a temperatura de seu conteúdo constante. Uma forma de orientar os consumidores na compra de uma garrafa térmica seria criar um selo de qualidade, como se faz atualmente para informar o consumo de energia de eletrodomésticos. O selo identificaria cinco categorias e informaria a variação de temperatura do conteúdo da garrafa, depois de decorridas seis horas de seu fechamento, por meio de uma porcentagem do valor inicial da temperatura de equilíbrio do líquido na garrafa. O quadro apresenta as categorias e os intervalos de variação percentual da temperatura. Tipo de selo Variação de temperatura A menor que 10% B entre 10% e 25% C entre 25% e 40% D entre 40% e 55% E maior que 55%",
+      "enunciado": "Qual selo deveria ser posto na garrafa térmica testada?",
+      "alternativas": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "gabarito": "D",
+      "comentario": "I. Cálculo da temperatura de equilíbrio térmico no momento em que as duas porções de água são misturadas. ∑Q = 0 ⇒ QAQ + QAF = 0 (m c Δθ)AQ + (m c Δθ)AF = 0 Mc (θ – 40) + Mc (θ – 10) = 0 2θ – 80 + θ – 10 = 0 ⇒ θ = 30°C II. Determinação percentual da variação relativa da temperatura depois de 6h. V = (Δθ/θ) x 100% ⇒ V = (30 – 16)/30 x 100% V ≅ 47% III. A garrafa térmica considerada deve ser classificada na categoria D, já que a variação térmica se situa entre 40% e 55%."
+    },
+    {
+      "id": "enem_enem2015_1dia_88_87",
+      "materia": "Física",
+      "assunto": "Radiação eletromagnética e espectro de absorção",
+      "banca": "INEP",
+      "ano": "2015",
+      "texto_auxiliar": "A radiação ultravioleta (UV) é dividida, de acordo com três faixas de frequência, em UV-A, UV-B e UV-C, conforme a figura. Para selecionar um filtro solar que apresente absorção máxima na faixa UV-B, uma pessoa analisou os espectros de absorção da radiação UV de cinco filtros solares: [IMAGEM OMITIDA] Considere: velocidade da luz = 3,0 x 10^8 m/s e 1 nm = 1,0 x 10^-9 m.",
+      "enunciado": "O filtro solar que a pessoa deve selecionar é o",
+      "alternativas": {
+        "A": "V",
+        "B": "IV",
+        "C": "III",
+        "D": "II",
+        "E": "I"
+      },
+      "gabarito": "B",
+      "comentario": "Cálculo dos comprimentos de onda associados às frequências limítrofes do UV-B: λmín = c/fmáx = 3,0×10^8 / 1,03×10^15 = 2,9×10^-7 m = 290 nm; λmáx = c/fmín = 3,0×10^8 / 9,34×10^14 = 3,2×10^-7 m = 320 nm. Os comprimentos de onda calculados remetem, no gráfico dado, à curva correspondente ao filtro solar IV, que apresenta absorção máxima entre 290 nm e 340 nm."
+    }
+  ]
+}

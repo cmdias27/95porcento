@@ -1,0 +1,954 @@
+[
+  {
+    "id": 419622,
+    "nome": "Manual de Redação da Presidência da República (2ª Edição, 2002) |"
+  },
+  {
+    "id": 411116,
+    "nome": "Manual de Redação da Presidência da República (3ª Edição, 2018) |"
+  },
+  {
+    "id": 411122,
+    "nome": "As comunicações oficiais |"
+  },
+  {
+    "id": 411123,
+    "nome": "Aspectos gerais da redação oficial |"
+  },
+  {
+    "id": 419623,
+    "nome": "Panorama da comunicação oficial |"
+  },
+  {
+    "id": 419624,
+    "nome": "O que é redação oficial |"
+  },
+  {
+    "id": 411124,
+    "nome": "Atributos da Redação Oficial |"
+  },
+  {
+    "id": 411125,
+    "nome": "Clareza e precisão |"
+  },
+  {
+    "id": 411126,
+    "nome": "Objetividade |"
+  },
+  {
+    "id": 411127,
+    "nome": "Concisão |"
+  },
+  {
+    "id": 411128,
+    "nome": "Coesão e Coerência |"
+  },
+  {
+    "id": 411129,
+    "nome": "Impessoalidade |"
+  },
+  {
+    "id": 411130,
+    "nome": "Formalidade e padronização |"
+  },
+  {
+    "id": 419625,
+    "nome": "As comunicações oficiais |"
+  },
+  {
+    "id": 411131,
+    "nome": "Pronomes de Tratamento |"
+  },
+  {
+    "id": 411132,
+    "nome": "Concordância com os pronomes de tratamento |"
+  },
+  {
+    "id": 411143,
+    "nome": "Signatários |"
+  },
+  {
+    "id": 411144,
+    "nome": "Cargos interino e substituto |"
+  },
+  {
+    "id": 411145,
+    "nome": "Signatários do sexo feminino |"
+  },
+  {
+    "id": 411146,
+    "nome": "Grafia de cargos compostos |"
+  },
+  {
+    "id": 419626,
+    "nome": "Vocativo |"
+  },
+  {
+    "id": 411150,
+    "nome": "Padrão Ofício |"
+  },
+  {
+    "id": 411158,
+    "nome": "Partes do documento no Padrão Ofício |"
+  },
+  {
+    "id": 411159,
+    "nome": "Cabeçalho |"
+  },
+  {
+    "id": 411160,
+    "nome": "Identificação do expediente |"
+  },
+  {
+    "id": 411161,
+    "nome": "Local e data do documento |"
+  },
+  {
+    "id": 411162,
+    "nome": "Endereçamento |"
+  },
+  {
+    "id": 411163,
+    "nome": "Assunto |"
+  },
+  {
+    "id": 411164,
+    "nome": "Texto do documento |"
+  },
+  {
+    "id": 411165,
+    "nome": "Fechos para comunicações |"
+  },
+  {
+    "id": 411166,
+    "nome": "Identificação do signatário |"
+  },
+  {
+    "id": 411167,
+    "nome": "Numeração das páginas |"
+  },
+  {
+    "id": 411168,
+    "nome": "Formatação e apresentação |"
+  },
+  {
+    "id": 411151,
+    "nome": "Tipos de documento |"
+  },
+  {
+    "id": 419627,
+    "nome": "Variações dos documentos oficiais |"
+  },
+  {
+    "id": 419628,
+    "nome": "Exposição de Motivos |"
+  },
+  {
+    "id": 419629,
+    "nome": "Definição e finalidade |"
+  },
+  {
+    "id": 419630,
+    "nome": "Forma e estrutura |"
+  },
+  {
+    "id": 411153,
+    "nome": "Sistema de Geração e Tramitação de Documentos Oficias (SIDOF) |"
+  },
+  {
+    "id": 411154,
+    "nome": "Mensagem |"
+  },
+  {
+    "id": 411178,
+    "nome": "Definição e finalidade |"
+  },
+  {
+    "id": 419631,
+    "nome": "Forma e estrutura |"
+  },
+  {
+    "id": 411155,
+    "nome": "Correio eletrônico (e-mail) |"
+  },
+  {
+    "id": 411185,
+    "nome": "Definição e Finalidade |"
+  },
+  {
+    "id": 411186,
+    "nome": "Valor documental |"
+  },
+  {
+    "id": 419632,
+    "nome": "Forma e estrutura |"
+  },
+  {
+    "id": 419633,
+    "nome": "Anexos |"
+  },
+  {
+    "id": 419634,
+    "nome": "Recomendações |"
+  },
+  {
+    "id": 411118,
+    "nome": "Ortografia e Gramática na Redação Oficial |"
+  },
+  {
+    "id": 411251,
+    "nome": "Uso de sinais - Hífen |"
+  },
+  {
+    "id": 411252,
+    "nome": "Ortografia |"
+  },
+  {
+    "id": 411253,
+    "nome": "Formatação |"
+  },
+  {
+    "id": 411254,
+    "nome": "Sintaxe |"
+  },
+  {
+    "id": 411266,
+    "nome": "Semântica |"
+  },
+  {
+    "id": 419635,
+    "nome": "Os atos normativos |"
+  },
+  {
+    "id": 419636,
+    "nome": "Fundamentos da elaboração normativa |"
+  },
+  {
+    "id": 419637,
+    "nome": "Questões fundamentais da elaboração normativa |"
+  },
+  {
+    "id": 419638,
+    "nome": "Requisitos da elaboração normativa |"
+  },
+  {
+    "id": 419639,
+    "nome": "Clareza e determinação das normas |"
+  },
+  {
+    "id": 419641,
+    "nome": "Desenvolvimento de uma lei |"
+  },
+  {
+    "id": 419642,
+    "nome": "Técnica legislativa e atos normativos |"
+  },
+  {
+    "id": 419643,
+    "nome": "Técnica legislativa |"
+  },
+  {
+    "id": 419644,
+    "nome": "Tópicos de técnica legislativa |"
+  },
+  {
+    "id": 419645,
+    "nome": "Apostila |"
+  },
+  {
+    "id": 419646,
+    "nome": "Atos normativos |"
+  },
+  {
+    "id": 419647,
+    "nome": "Lei ordinária |"
+  },
+  {
+    "id": 419648,
+    "nome": "Lei complementar |"
+  },
+  {
+    "id": 419649,
+    "nome": "Lei delegada |"
+  },
+  {
+    "id": 419650,
+    "nome": "Medida provisória |"
+  },
+  {
+    "id": 419651,
+    "nome": "Decreto |"
+  },
+  {
+    "id": 419652,
+    "nome": "Portaria |"
+  },
+  {
+    "id": 411313,
+    "nome": "O processo legislativo |"
+  },
+  {
+    "id": 411318,
+    "nome": "Sanção |"
+  },
+  {
+    "id": 411319,
+    "nome": "Veto |"
+  },
+  {
+    "id": 411320,
+    "nome": "Promulgação |"
+  },
+  {
+    "id": 411321,
+    "nome": "Publicação |"
+  },
+  {
+    "id": 411322,
+    "nome": "Procedimento legislativo |"
+  },
+  {
+    "id": 419653,
+    "nome": "Procedimento legislativo normal |"
+  },
+  {
+    "id": 419654,
+    "nome": "Procedimento legislativo abreviado |"
+  },
+  {
+    "id": 419658,
+    "nome": "Medidas provisórias |"
+  },
+  {
+    "id": 419659,
+    "nome": "Consolidações da legislação |"
+  },
+  {
+    "id": 419660,
+    "nome": "Manual de Elaboração de Textos do Senado Federal |"
+  },
+  {
+    "id": 419661,
+    "nome": "Orientações básicas |"
+  },
+  {
+    "id": 419662,
+    "nome": "Instruções específicas |"
+  },
+  {
+    "id": 419663,
+    "nome": "Atualização de minuta de parecer de medida provisória |"
+  },
+  {
+    "id": 419666,
+    "nome": "A escrita de numerais |"
+  },
+  {
+    "id": 419667,
+    "nome": "Apresentação de citações e notas de rodapé |"
+  },
+  {
+    "id": 419668,
+    "nome": "Referências bibliográficas |"
+  },
+  {
+    "id": 419670,
+    "nome": "Abreviação vocabular |"
+  },
+  {
+    "id": 419671,
+    "nome": "O uso de destaques gráficos e sinais |"
+  },
+  {
+    "id": 419672,
+    "nome": "Manual de Redação do Tribunal de Contas do Distrito Federal |"
+  },
+  {
+    "id": 419673,
+    "nome": "Aspectos gerais da redação oficial |"
+  },
+  {
+    "id": 419674,
+    "nome": "Atos oficiais do tribunal |"
+  },
+  {
+    "id": 419675,
+    "nome": "Elementos de gramática |"
+  },
+  {
+    "id": 419676,
+    "nome": "Normas para Padronização de Documentos da Universidade de Brasília |"
+  },
+  {
+    "id": 419677,
+    "nome": "Normas gerais |"
+  },
+  {
+    "id": 419678,
+    "nome": "Tipologia dos documentos e competências |"
+  },
+  {
+    "id": 419679,
+    "nome": "Estrutura dos atos oficiais (ato, instrução e resolução) |"
+  },
+  {
+    "id": 419681,
+    "nome": "Consolidação e divulgação dos documentos normativos (ato, instrução e resolução) |"
+  },
+  {
+    "id": 411117,
+    "nome": "Outros documentos oficiais (e comerciais e administrativos) |"
+  },
+  {
+    "id": 411194,
+    "nome": "Carta |"
+  },
+  {
+    "id": 411195,
+    "nome": "Despacho |"
+  },
+  {
+    "id": 411196,
+    "nome": "Ata |"
+  },
+  {
+    "id": 411197,
+    "nome": "Declaração |"
+  },
+  {
+    "id": 411198,
+    "nome": "Atestado |"
+  },
+  {
+    "id": 411199,
+    "nome": "Certidão |"
+  },
+  {
+    "id": 411200,
+    "nome": "Circular |"
+  },
+  {
+    "id": 411201,
+    "nome": "Comunicado |"
+  },
+  {
+    "id": 411202,
+    "nome": "Convite |"
+  },
+  {
+    "id": 411203,
+    "nome": "Convocação |"
+  },
+  {
+    "id": 411204,
+    "nome": "Edital |"
+  },
+  {
+    "id": 411205,
+    "nome": "Ordem de serviço |"
+  },
+  {
+    "id": 411206,
+    "nome": "Portaria |"
+  },
+  {
+    "id": 411207,
+    "nome": "Requerimento |"
+  },
+  {
+    "id": 411208,
+    "nome": "Relatórios |"
+  },
+  {
+    "id": 411209,
+    "nome": "Alvará |"
+  },
+  {
+    "id": 411210,
+    "nome": "Resolução |"
+  },
+  {
+    "id": 411211,
+    "nome": "Aviso |"
+  },
+  {
+    "id": 411212,
+    "nome": "Ofício |"
+  },
+  {
+    "id": 411213,
+    "nome": "Memorando |"
+  },
+  {
+    "id": 411214,
+    "nome": "Correspondência |"
+  },
+  {
+    "id": 419682,
+    "nome": "Abaixo-assinado |"
+  },
+  {
+    "id": 414117,
+    "nome": "Acórdão |"
+  },
+  {
+    "id": 419683,
+    "nome": "Acordo |"
+  },
+  {
+    "id": 419684,
+    "nome": "Apostila |"
+  },
+  {
+    "id": 419685,
+    "nome": "Atos administrativos |"
+  },
+  {
+    "id": 419686,
+    "nome": "Auto |"
+  },
+  {
+    "id": 419687,
+    "nome": "Boletim |"
+  },
+  {
+    "id": 419688,
+    "nome": "Certificado |"
+  },
+  {
+    "id": 419689,
+    "nome": "Comunicação |"
+  },
+  {
+    "id": 419690,
+    "nome": "Consulta |"
+  },
+  {
+    "id": 419691,
+    "nome": "Contrato |"
+  },
+  {
+    "id": 419693,
+    "nome": "Convênio |"
+  },
+  {
+    "id": 419696,
+    "nome": "Correio eletrônico (e-mail) |"
+  },
+  {
+    "id": 419697,
+    "nome": "Currículo (Curriculum vitae) |"
+  },
+  {
+    "id": 419698,
+    "nome": "Decisão |"
+  },
+  {
+    "id": 419699,
+    "nome": "Decreto |"
+  },
+  {
+    "id": 419700,
+    "nome": "Diploma |"
+  },
+  {
+    "id": 419701,
+    "nome": "Ementa |"
+  },
+  {
+    "id": 419702,
+    "nome": "Estatuto |"
+  },
+  {
+    "id": 419703,
+    "nome": "Exposição de motivos |"
+  },
+  {
+    "id": 411157,
+    "nome": "Fax |"
+  },
+  {
+    "id": 419704,
+    "nome": "Formulário |"
+  },
+  {
+    "id": 419706,
+    "nome": "Indicação |"
+  },
+  {
+    "id": 419707,
+    "nome": "Informação |"
+  },
+  {
+    "id": 419708,
+    "nome": "Instrução |"
+  },
+  {
+    "id": 419709,
+    "nome": "Laudo |"
+  },
+  {
+    "id": 419711,
+    "nome": "Manifesto |"
+  },
+  {
+    "id": 419712,
+    "nome": "Memorial |"
+  },
+  {
+    "id": 419713,
+    "nome": "Mensagem |"
+  },
+  {
+    "id": 419714,
+    "nome": "Normas |"
+  },
+  {
+    "id": 419715,
+    "nome": "Nota |"
+  },
+  {
+    "id": 419716,
+    "nome": "Notificação |"
+  },
+  {
+    "id": 419718,
+    "nome": "Parecer |"
+  },
+  {
+    "id": 419719,
+    "nome": "Petição |"
+  },
+  {
+    "id": 419720,
+    "nome": "Processo |"
+  },
+  {
+    "id": 419721,
+    "nome": "Procuração |"
+  },
+  {
+    "id": 419722,
+    "nome": "Proposição |"
+  },
+  {
+    "id": 419723,
+    "nome": "Protocolo |"
+  },
+  {
+    "id": 419725,
+    "nome": "Regimento |"
+  },
+  {
+    "id": 419726,
+    "nome": "Registro |"
+  },
+  {
+    "id": 419727,
+    "nome": "Regulamento |"
+  },
+  {
+    "id": 411156,
+    "nome": "Telegrama |"
+  },
+  {
+    "id": 419728,
+    "nome": "Termo |"
+  },
+  {
+    "id": 411119,
+    "nome": "Redação Parlamentar |"
+  },
+  {
+    "id": 411296,
+    "nome": "Redação Parlamentar - Redação e Técnica Legislativa |"
+  },
+  {
+    "id": 411297,
+    "nome": "Textos produzidos |"
+  },
+  {
+    "id": 411298,
+    "nome": "Documentos parlamentares |"
+  },
+  {
+    "id": 411299,
+    "nome": "Textos de natureza técnico-legislativa |"
+  },
+  {
+    "id": 411303,
+    "nome": "Técnicas de revisão e normalização geral do texto |"
+  },
+  {
+    "id": 411304,
+    "nome": "Adequação do texto e o papel do redator |"
+  },
+  {
+    "id": 411306,
+    "nome": "Adequação conforme o destinatário do texto |"
+  },
+  {
+    "id": 411309,
+    "nome": "Adequação conforme o grau de publicidade do texto |"
+  },
+  {
+    "id": 411311,
+    "nome": "Adequação conforme as circunstâncias políticas e administrativas |"
+  },
+  {
+    "id": 411312,
+    "nome": "Proposições legislativas |"
+  },
+  {
+    "id": 411323,
+    "nome": "Regras básicas para elaboração de projetos legislativos |"
+  },
+  {
+    "id": 411324,
+    "nome": "Regras de redação |"
+  },
+  {
+    "id": 411325,
+    "nome": "Regras de técnicas legislativas |"
+  },
+  {
+    "id": 411326,
+    "nome": "Projeto |"
+  },
+  {
+    "id": 411327,
+    "nome": "Caracterização de projeto |"
+  },
+  {
+    "id": 411328,
+    "nome": "Projeto de lei complementar |"
+  },
+  {
+    "id": 411329,
+    "nome": "Projeto de lei ordinária |"
+  },
+  {
+    "id": 411330,
+    "nome": "Projeto de decreto legislativo |"
+  },
+  {
+    "id": 411331,
+    "nome": "Projeto de resolução |"
+  },
+  {
+    "id": 411332,
+    "nome": "Parecer |"
+  },
+  {
+    "id": 411333,
+    "nome": "Caracterização de parecer |"
+  },
+  {
+    "id": 411339,
+    "nome": "Estrutura do parecer |"
+  },
+  {
+    "id": 411340,
+    "nome": "Cabeçalho ou preâmbulo |"
+  },
+  {
+    "id": 411341,
+    "nome": "Epígrafe |"
+  },
+  {
+    "id": 411342,
+    "nome": "Ementa |"
+  },
+  {
+    "id": 411344,
+    "nome": "Relatório |"
+  },
+  {
+    "id": 411346,
+    "nome": "Fecho |"
+  },
+  {
+    "id": 411347,
+    "nome": "Indicação |"
+  },
+  {
+    "id": 411349,
+    "nome": "Estrutura da indicação |"
+  },
+  {
+    "id": 411350,
+    "nome": "Cabeçalho ou preâmbulo |"
+  },
+  {
+    "id": 411351,
+    "nome": "Epígrafe |"
+  },
+  {
+    "id": 411354,
+    "nome": "Texto ou corpo |"
+  },
+  {
+    "id": 411355,
+    "nome": "Justificação |"
+  },
+  {
+    "id": 411356,
+    "nome": "Fecho |"
+  },
+  {
+    "id": 411357,
+    "nome": "Moção |"
+  },
+  {
+    "id": 411358,
+    "nome": "Caracterização de moção |"
+  },
+  {
+    "id": 411359,
+    "nome": "Estrutura da moção |"
+  },
+  {
+    "id": 411364,
+    "nome": "Vocativo |"
+  },
+  {
+    "id": 411368,
+    "nome": "Requerimento |"
+  },
+  {
+    "id": 411369,
+    "nome": "Caracterização do requerimento |"
+  },
+  {
+    "id": 411370,
+    "nome": "Estrutura do requerimento |"
+  },
+  {
+    "id": 411375,
+    "nome": "Vocativo |"
+  },
+  {
+    "id": 411377,
+    "nome": "Justificação |"
+  },
+  {
+    "id": 411379,
+    "nome": "Recurso |"
+  },
+  {
+    "id": 411383,
+    "nome": "Caracterização de recurso |"
+  },
+  {
+    "id": 411385,
+    "nome": "Estrutura do recurso |"
+  },
+  {
+    "id": 411388,
+    "nome": "Texto ou corpo |"
+  },
+  {
+    "id": 411389,
+    "nome": "Fecho |"
+  },
+  {
+    "id": 411380,
+    "nome": "Veto |"
+  },
+  {
+    "id": 411390,
+    "nome": "Caracterização de veto |"
+  },
+  {
+    "id": 411381,
+    "nome": "Estudos básicos legislativos |"
+  },
+  {
+    "id": 411397,
+    "nome": "Estudo |"
+  },
+  {
+    "id": 411399,
+    "nome": "Estrutura do estudo |"
+  },
+  {
+    "id": 411400,
+    "nome": "Folha de rosto |"
+  },
+  {
+    "id": 411402,
+    "nome": "Corpo do trabalho |"
+  },
+  {
+    "id": 411404,
+    "nome": "Anexo |"
+  },
+  {
+    "id": 411382,
+    "nome": "Nota técnica |"
+  },
+  {
+    "id": 411120,
+    "nome": "Legislações sobre Redação Oficial de Atos Normativos |"
+  },
+  {
+    "id": 411406,
+    "nome": "Lei Complementar Federal nº 95/1998 |"
+  },
+  {
+    "id": 411407,
+    "nome": "Disposições preliminares (Art. 1º e 2º) |"
+  },
+  {
+    "id": 411408,
+    "nome": "Das técnicas de elaboração, redação e alteração das leis (Art. 3º a 9º) |"
+  },
+  {
+    "id": 411409,
+    "nome": "Da articulação e redação das leis (Art. 10 e 11) |"
+  },
+  {
+    "id": 411410,
+    "nome": "Da alteração das leis (Art. 12) |"
+  },
+  {
+    "id": 411411,
+    "nome": "Da consolidação das leis e outros atos normativos (Art. 13 a 17) |"
+  },
+  {
+    "id": 432587,
+    "nome": "Decreto n.º 9.191/2017 - Estabelece as normas e as diretrizes para elaboração, redação, alteração, consolidação e encaminhamento de propostas de atos normativos ao Presidente da República pelos Ministros de Estado |"
+  },
+  {
+    "id": 411413,
+    "nome": "Legislação Estadual e Municipal sobre Atos Normativos |"
+  },
+  {
+    "id": 411434,
+    "nome": "RS |"
+  },
+  {
+    "id": 411441,
+    "nome": "Legislação municipal sobre atos normativos |"
+  },
+  {
+    "id": 411446,
+    "nome": "Municípios da BA |"
+  },
+  {
+    "id": 411454,
+    "nome": "Municípios de MG |"
+  },
+  {
+    "id": 411465,
+    "nome": "Municípios de SC |"
+  },
+  {
+    "id": 421297,
+    "nome": "Manual de Redação e Estilo da APEX-Brasil |"
+  },
+  {
+    "id": 419729,
+    "nome": "Expressões latinas, vocábulos latinos, latinismos e brocardos jurídicos |"
+  }
+]

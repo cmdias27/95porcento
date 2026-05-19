@@ -1,0 +1,2934 @@
+[
+  {
+    "id": 416995,
+    "nome": "Auditoria Privada, Independente ou de Recursos Externos |"
+  },
+  {
+    "id": 416997,
+    "nome": "Noções Introdutórias de Auditoria |"
+  },
+  {
+    "id": 416998,
+    "nome": "Conceito de Auditoria |"
+  },
+  {
+    "id": 416999,
+    "nome": "Objetivo da Auditoria |"
+  },
+  {
+    "id": 417003,
+    "nome": "Finalidade da Auditoria |"
+  },
+  {
+    "id": 417005,
+    "nome": "Origem, Evolução e Desenvolvimento da Auditoria |"
+  },
+  {
+    "id": 417006,
+    "nome": "NBC TA – Estrutura Conceitual |"
+  },
+  {
+    "id": 400572,
+    "nome": "Definição e Objetivo do Trabalho de Asseguração |"
+  },
+  {
+    "id": 4575,
+    "nome": "Trabalho de Asseguração Razoável |"
+  },
+  {
+    "id": 4577,
+    "nome": "Trabalho de Asseguração Limitada |"
+  },
+  {
+    "id": 417046,
+    "nome": "Trabalho de Atestação |"
+  },
+  {
+    "id": 417066,
+    "nome": "Trabalho Direto |"
+  },
+  {
+    "id": 417058,
+    "nome": "Precondições para o Trabalho de Asseguração |"
+  },
+  {
+    "id": 417056,
+    "nome": "Elementos do Trabalho de Asseguração |"
+  },
+  {
+    "id": 4688,
+    "nome": "Relação de Três Partes |"
+  },
+  {
+    "id": 426959,
+    "nome": "Auditor |"
+  },
+  {
+    "id": 4580,
+    "nome": "Partes Responsáveis |"
+  },
+  {
+    "id": 4573,
+    "nome": "Usuários Previstos |"
+  },
+  {
+    "id": 4572,
+    "nome": "Objeto Apropriado |"
+  },
+  {
+    "id": 426960,
+    "nome": "Critérios Aplicáveis |"
+  },
+  {
+    "id": 417068,
+    "nome": "Evidência de Auditoria |"
+  },
+  {
+    "id": 4663,
+    "nome": "Formato do Relatório e Parecer |"
+  },
+  {
+    "id": 4649,
+    "nome": "Tipos de Auditoria |"
+  },
+  {
+    "id": 4650,
+    "nome": "Auditoria de Gestão |"
+  },
+  {
+    "id": 4651,
+    "nome": "Auditoria de Sistemas |"
+  },
+  {
+    "id": 4653,
+    "nome": "Auditoria Operacional ou de Desempenho |"
+  },
+  {
+    "id": 4652,
+    "nome": "Auditoria Contábil |"
+  },
+  {
+    "id": 4657,
+    "nome": "Auditoria de Programas |"
+  },
+  {
+    "id": 4654,
+    "nome": "Auditoria Especial |"
+  },
+  {
+    "id": 4656,
+    "nome": "Auditoria de Qualidade |"
+  },
+  {
+    "id": 417010,
+    "nome": "Auditoria Integral |"
+  },
+  {
+    "id": 417011,
+    "nome": "Auditoria de Conformidade |"
+  },
+  {
+    "id": 417012,
+    "nome": "Auditoria de Instituições Financeiras |"
+  },
+  {
+    "id": 426961,
+    "nome": "Auditoria na Escrita Fiscal Digital (EFD) e nos Documentos Fiscais |"
+  },
+  {
+    "id": 4581,
+    "nome": "Auditoria Independente |"
+  },
+  {
+    "id": 4582,
+    "nome": "Aspectos Gerais da Auditoria Independente |"
+  },
+  {
+    "id": 4583,
+    "nome": "Objetivo da Auditoria Independente |"
+  },
+  {
+    "id": 4585,
+    "nome": "Objetivo do Auditor Independente |"
+  },
+  {
+    "id": 4626,
+    "nome": "Normas Profissionais de Auditor Independente |"
+  },
+  {
+    "id": 417043,
+    "nome": "Ética Profissional |"
+  },
+  {
+    "id": 4627,
+    "nome": "Integridade |"
+  },
+  {
+    "id": 4628,
+    "nome": "Eficiência |"
+  },
+  {
+    "id": 4629,
+    "nome": "Confidencialidade |"
+  },
+  {
+    "id": 4631,
+    "nome": "Qualidade |"
+  },
+  {
+    "id": 4632,
+    "nome": "Requisitos do Auditor |"
+  },
+  {
+    "id": 4633,
+    "nome": "Ceticismo Profissional |"
+  },
+  {
+    "id": 4634,
+    "nome": "Julgamento Profissional |"
+  },
+  {
+    "id": 417065,
+    "nome": "Normas e Procedimentos de Auditoria emitidas pelo IBRACON – Instituto dos Auditores Independentes do Brasil. |"
+  },
+  {
+    "id": 417071,
+    "nome": "Condução da Auditoria em Conformidade com as NBC TAs |"
+  },
+  {
+    "id": 4584,
+    "nome": "Independência |"
+  },
+  {
+    "id": 4586,
+    "nome": "Conceito de Independência |"
+  },
+  {
+    "id": 417044,
+    "nome": "Independência de Pensamento |"
+  },
+  {
+    "id": 417045,
+    "nome": "Aparência de Independência |"
+  },
+  {
+    "id": 417047,
+    "nome": "Objetivos dos Conceitos sobre Independência |"
+  },
+  {
+    "id": 417048,
+    "nome": "Identificação das Ameaças à Independência |"
+  },
+  {
+    "id": 417067,
+    "nome": "Avaliação das Ameaças Encontradas |"
+  },
+  {
+    "id": 417069,
+    "nome": "Aplicação de Salvaguardas |"
+  },
+  {
+    "id": 417070,
+    "nome": "Rotação dos Responsáveis Técnicos da Equipe de Auditoria |"
+  },
+  {
+    "id": 417072,
+    "nome": "Intervalo de Rotação do Sócio e do Revisor |"
+  },
+  {
+    "id": 417041,
+    "nome": "Intervalo para Retorno dos Responsáveis à Equipe |"
+  },
+  {
+    "id": 417042,
+    "nome": "Rotação da Firma de Auditoria |"
+  },
+  {
+    "id": 4579,
+    "nome": "Intervalo de Rotação da Firma |"
+  },
+  {
+    "id": 396201,
+    "nome": "Ameaças à Independência |"
+  },
+  {
+    "id": 4665,
+    "nome": "Interesse Próprio |"
+  },
+  {
+    "id": 4664,
+    "nome": "Auto Revisão |"
+  },
+  {
+    "id": 4662,
+    "nome": "Defesa do Interesse do Cliente |"
+  },
+  {
+    "id": 4661,
+    "nome": "Familiaridade |"
+  },
+  {
+    "id": 4660,
+    "nome": "Intimidação |"
+  },
+  {
+    "id": 4659,
+    "nome": "Concordância com os Termos do Trabalho de Auditoria |"
+  },
+  {
+    "id": 417051,
+    "nome": "Objetivo |"
+  },
+  {
+    "id": 417050,
+    "nome": "Condições Prévias para uma Auditoria |"
+  },
+  {
+    "id": 417054,
+    "nome": "Acordo sobre termos do trabalho de auditoria |"
+  },
+  {
+    "id": 417049,
+    "nome": "Outros assuntos que afetam a aceitação |"
+  },
+  {
+    "id": 417030,
+    "nome": "Responsabilidades da Administração quanto à Auditoria Independente |"
+  },
+  {
+    "id": 400573,
+    "nome": "Comunicação com os Responsáveis pela Governança |"
+  },
+  {
+    "id": 4625,
+    "nome": "Papel da Comunicação |"
+  },
+  {
+    "id": 4624,
+    "nome": "Assuntos a Serem Comunicados |"
+  },
+  {
+    "id": 4678,
+    "nome": "Processo de Comunicação |"
+  },
+  {
+    "id": 417059,
+    "nome": "Documentação |"
+  },
+  {
+    "id": 426963,
+    "nome": "Controle de Qualidade da Auditoria Independente |"
+  },
+  {
+    "id": 417064,
+    "nome": "Sistema de Controle de Qualidade |"
+  },
+  {
+    "id": 417063,
+    "nome": "Revisão de controle de qualidade do trabalho |"
+  },
+  {
+    "id": 417062,
+    "nome": "Revisor do controle de qualidade do trabalho |"
+  },
+  {
+    "id": 417061,
+    "nome": "Monitoramento |"
+  },
+  {
+    "id": 417060,
+    "nome": "Aceitação e Continuidade de Relacionamento com Clientes e Trabalhos de Auditoria |"
+  },
+  {
+    "id": 4687,
+    "nome": "Serviços de Consultoria e Assessoria |"
+  },
+  {
+    "id": 4686,
+    "nome": "Responsabilidade do Auditor |"
+  },
+  {
+    "id": 4685,
+    "nome": "Responsabilidade Perante os Conselhos de Classe |"
+  },
+  {
+    "id": 4684,
+    "nome": "Responsabilidade Civil |"
+  },
+  {
+    "id": 4681,
+    "nome": "Responsabilidade com Clientes |"
+  },
+  {
+    "id": 426964,
+    "nome": "Princípios Éticos do Profissional de Contabilidade |"
+  },
+  {
+    "id": 426965,
+    "nome": "Integridade |"
+  },
+  {
+    "id": 426966,
+    "nome": "Objetividade |"
+  },
+  {
+    "id": 426967,
+    "nome": "Competência e Zelo Profissional |"
+  },
+  {
+    "id": 426968,
+    "nome": "Confidencialidade ou Sigilo Profissional |"
+  },
+  {
+    "id": 426969,
+    "nome": "Comportamento Profissional |"
+  },
+  {
+    "id": 426970,
+    "nome": "Consideração de Leis e Regulamentos na Auditoria de Demonstrações Contábeis |"
+  },
+  {
+    "id": 426971,
+    "nome": "Efeito de leis e Regulamentos |"
+  },
+  {
+    "id": 426972,
+    "nome": "Responsabilidade pela Conformidade com Leis e Regulamentos |"
+  },
+  {
+    "id": 426973,
+    "nome": "Consideração pelo Auditor da Conformidade com Leis e Regulamentos |"
+  },
+  {
+    "id": 426974,
+    "nome": "Procedimentos de Auditoria quando da Identificação ou da Suspeita de não Conformidade |"
+  },
+  {
+    "id": 426975,
+    "nome": "Comunicação de não Conformidade Identificada ou Suspeita de não Conformidade |"
+  },
+  {
+    "id": 426976,
+    "nome": "Documentação |"
+  },
+  {
+    "id": 4576,
+    "nome": "Planejamento de Auditoria |"
+  },
+  {
+    "id": 4588,
+    "nome": "Características da Fase de Planejamento |"
+  },
+  {
+    "id": 426977,
+    "nome": "Atividades Preliminares |"
+  },
+  {
+    "id": 4578,
+    "nome": "Estratégia Global de Auditoria |"
+  },
+  {
+    "id": 4574,
+    "nome": "Considerações Específicas para Entidades de Pequeno Porte |"
+  },
+  {
+    "id": 4571,
+    "nome": "Plano de Auditoria |"
+  },
+  {
+    "id": 4570,
+    "nome": "Programa de Auditoria |"
+  },
+  {
+    "id": 426978,
+    "nome": "Determinação de Escopo |"
+  },
+  {
+    "id": 426979,
+    "nome": "Materialidade no Planejamento |"
+  },
+  {
+    "id": 426980,
+    "nome": "Determinação da Materialidade no Planejamento e na Execução da Auditoria |"
+  },
+  {
+    "id": 426981,
+    "nome": "Revisão da Materialidade no Decorrer da Auditoria |"
+  },
+  {
+    "id": 426982,
+    "nome": "Relevância em Auditoria |"
+  },
+  {
+    "id": 4591,
+    "nome": "Risco de Auditoria |"
+  },
+  {
+    "id": 417034,
+    "nome": "Tipos de Risco de Auditoria |"
+  },
+  {
+    "id": 426983,
+    "nome": "Risco de Distorção Relevante |"
+  },
+  {
+    "id": 426984,
+    "nome": "Risco Inerente |"
+  },
+  {
+    "id": 426985,
+    "nome": "Risco de Controle |"
+  },
+  {
+    "id": 426986,
+    "nome": "Risco de Detecção |"
+  },
+  {
+    "id": 426987,
+    "nome": "Plano de Auditoria Baseado no Risco |"
+  },
+  {
+    "id": 426989,
+    "nome": "Revisão da Avaliação de Risco |"
+  },
+  {
+    "id": 426990,
+    "nome": "Resposta ao Risco de Auditoria |"
+  },
+  {
+    "id": 426992,
+    "nome": "Documentação |"
+  },
+  {
+    "id": 426995,
+    "nome": "Documentação do Plano de Auditoria |"
+  },
+  {
+    "id": 426996,
+    "nome": "Documentação da Materialidade |"
+  },
+  {
+    "id": 426997,
+    "nome": "Registro das Mudanças Significativas na Estratégia Global e no Plano de Auditoria |"
+  },
+  {
+    "id": 426993,
+    "nome": "Considerações Adicionais em Auditoria Inicial |"
+  },
+  {
+    "id": 417057,
+    "nome": "Execução do Trabalho de Auditoria |"
+  },
+  {
+    "id": 396202,
+    "nome": "Achados de Auditoria |"
+  },
+  {
+    "id": 426999,
+    "nome": "Achados Negativos |"
+  },
+  {
+    "id": 427000,
+    "nome": "Impropriedades |"
+  },
+  {
+    "id": 427001,
+    "nome": "Irregularidades |"
+  },
+  {
+    "id": 427002,
+    "nome": "Achados Positivos |"
+  },
+  {
+    "id": 427003,
+    "nome": "Atributos dos achados |"
+  },
+  {
+    "id": 427004,
+    "nome": "Requisitos dos achados |"
+  },
+  {
+    "id": 409601,
+    "nome": "Evidências de Auditoria |"
+  },
+  {
+    "id": 427005,
+    "nome": "Conceito de Evidência |"
+  },
+  {
+    "id": 427006,
+    "nome": "Atributos da Evidência |"
+  },
+  {
+    "id": 427007,
+    "nome": "Adequação da Evidência |"
+  },
+  {
+    "id": 427008,
+    "nome": "Confiabilidade da Evidência |"
+  },
+  {
+    "id": 427009,
+    "nome": "Relevância |"
+  },
+  {
+    "id": 427010,
+    "nome": "Suficiência da Evidência |"
+  },
+  {
+    "id": 427011,
+    "nome": "Validade da Evidência |"
+  },
+  {
+    "id": 427012,
+    "nome": "Tipos de Evidência |"
+  },
+  {
+    "id": 427013,
+    "nome": "Evidência Física |"
+  },
+  {
+    "id": 427014,
+    "nome": "Evidência Documental |"
+  },
+  {
+    "id": 427015,
+    "nome": "Evidência Testemunhal |"
+  },
+  {
+    "id": 427016,
+    "nome": "Evidência Analítica |"
+  },
+  {
+    "id": 427017,
+    "nome": "Problemas ou Fragilidades das Evidências |"
+  },
+  {
+    "id": 4602,
+    "nome": "Testes e Procedimentos de Auditoria |"
+  },
+  {
+    "id": 427018,
+    "nome": "Testes de Auditoria |"
+  },
+  {
+    "id": 4603,
+    "nome": "Testes de Controle ou Testes de Observância ou Testes de Aderência |"
+  },
+  {
+    "id": 4605,
+    "nome": "Testes Flagrantes |"
+  },
+  {
+    "id": 4606,
+    "nome": "Testes Substantivos ou Testes de Comprovação |"
+  },
+  {
+    "id": 4607,
+    "nome": "Testes de Detalhes |"
+  },
+  {
+    "id": 4608,
+    "nome": "Procedimentos Analíticos Substantivos |"
+  },
+  {
+    "id": 427019,
+    "nome": "Tipos de Testes em Áreas Específicas das Demonstrações Contábeis |"
+  },
+  {
+    "id": 427020,
+    "nome": "Tipos de não Conformidades |"
+  },
+  {
+    "id": 427021,
+    "nome": "Testes em Contas do Ativo |"
+  },
+  {
+    "id": 427022,
+    "nome": "Caixa e Bancos |"
+  },
+  {
+    "id": 427023,
+    "nome": "Clientes (outros créditos) |"
+  },
+  {
+    "id": 427024,
+    "nome": "Estoques |"
+  },
+  {
+    "id": 427025,
+    "nome": "Investimentos |"
+  },
+  {
+    "id": 427026,
+    "nome": "Imobilizado |"
+  },
+  {
+    "id": 427027,
+    "nome": "Testes em Contas do Passivo |"
+  },
+  {
+    "id": 427028,
+    "nome": "Fornecedores |"
+  },
+  {
+    "id": 427029,
+    "nome": "Folhas de Pagamento (salários a pagar) |"
+  },
+  {
+    "id": 427030,
+    "nome": "Outras Contas |"
+  },
+  {
+    "id": 427031,
+    "nome": "Auditoria do Patrimônio Líquido |"
+  },
+  {
+    "id": 427032,
+    "nome": "Testes em Contas de Resultado |"
+  },
+  {
+    "id": 427033,
+    "nome": "Receitas |"
+  },
+  {
+    "id": 427034,
+    "nome": "Presunção de Omissão de Receitas |"
+  },
+  {
+    "id": 427035,
+    "nome": "Outros Testes |"
+  },
+  {
+    "id": 427036,
+    "nome": "Seguros |"
+  },
+  {
+    "id": 427037,
+    "nome": "Advogados |"
+  },
+  {
+    "id": 427038,
+    "nome": "Técnica de Auditoria Assistida por Computador (TAAC) |"
+  },
+  {
+    "id": 427040,
+    "nome": "Procedimentos ou Técnicas de Auditoria |"
+  },
+  {
+    "id": 427041,
+    "nome": "Exame Documental (inspeção de registros e documentos) |"
+  },
+  {
+    "id": 427047,
+    "nome": "Características a Serem Verificadas |"
+  },
+  {
+    "id": 427049,
+    "nome": "Autenticidade |"
+  },
+  {
+    "id": 427051,
+    "nome": "Aprovação |"
+  },
+  {
+    "id": 427052,
+    "nome": "Registro |"
+  },
+  {
+    "id": 427042,
+    "nome": "Inspeção Física |"
+  },
+  {
+    "id": 427053,
+    "nome": "Características a Serem Verificadas |"
+  },
+  {
+    "id": 427054,
+    "nome": "Existência Física |"
+  },
+  {
+    "id": 427055,
+    "nome": "Autenticidade |"
+  },
+  {
+    "id": 427057,
+    "nome": "Qualidade |"
+  },
+  {
+    "id": 427043,
+    "nome": "Recálculo |"
+  },
+  {
+    "id": 427044,
+    "nome": "Observação |"
+  },
+  {
+    "id": 427045,
+    "nome": "Entrevista (Indagação) |"
+  },
+  {
+    "id": 427046,
+    "nome": "Circularização (Confirmação Externa) |"
+  },
+  {
+    "id": 427058,
+    "nome": "Tipos de pedido de Confirmação |"
+  },
+  {
+    "id": 427059,
+    "nome": "Confirmação Positiva |"
+  },
+  {
+    "id": 427060,
+    "nome": "Confirmação Positiva em Branco |"
+  },
+  {
+    "id": 417055,
+    "nome": "Confirmação Positiva em Preto |"
+  },
+  {
+    "id": 417053,
+    "nome": "Confirmação Negativa |"
+  },
+  {
+    "id": 417052,
+    "nome": "Conciliações |"
+  },
+  {
+    "id": 427061,
+    "nome": "Análise de Contas Contábeis |"
+  },
+  {
+    "id": 427062,
+    "nome": "Revisão Analítica (procedimentos analíticos) |"
+  },
+  {
+    "id": 427063,
+    "nome": "Reexecução |"
+  },
+  {
+    "id": 427064,
+    "nome": "Investigação |"
+  },
+  {
+    "id": 4623,
+    "nome": "Amostragem de Auditoria |"
+  },
+  {
+    "id": 427066,
+    "nome": "Conceito de Amostragem |"
+  },
+  {
+    "id": 427067,
+    "nome": "Características da Amostragem |"
+  },
+  {
+    "id": 427068,
+    "nome": "Definições sobre Amostragem |"
+  },
+  {
+    "id": 427069,
+    "nome": "Tipos de Amostragem |"
+  },
+  {
+    "id": 427070,
+    "nome": "Amostragem Estatística |"
+  },
+  {
+    "id": 427071,
+    "nome": "Amostragem não Estatística |"
+  },
+  {
+    "id": 427072,
+    "nome": "Risco de Amostragem |"
+  },
+  {
+    "id": 427073,
+    "nome": "Testes de Superavaliação da Confiabilidade |"
+  },
+  {
+    "id": 427074,
+    "nome": "Testes de Subavaliação da Confiabilidade |"
+  },
+  {
+    "id": 427075,
+    "nome": "Risco não Resultante da Amostragem |"
+  },
+  {
+    "id": 427076,
+    "nome": "Anomalias |"
+  },
+  {
+    "id": 427077,
+    "nome": "Unidade de amostragem |"
+  },
+  {
+    "id": 427078,
+    "nome": "Erro ou Distorção Tolerável |"
+  },
+  {
+    "id": 427080,
+    "nome": "Requisitos da Amostragem |"
+  },
+  {
+    "id": 427081,
+    "nome": "Natureza e causa de Desvios e Distorções |"
+  },
+  {
+    "id": 427082,
+    "nome": "Projeção de Distorções |"
+  },
+  {
+    "id": 427083,
+    "nome": "Avaliação do Resultado da Amostragem |"
+  },
+  {
+    "id": 427084,
+    "nome": "Limite Superior de Desvios (LSD) |"
+  },
+  {
+    "id": 427085,
+    "nome": "Limite Superior de Erros (LSE) |"
+  },
+  {
+    "id": 427086,
+    "nome": "Estratificação e Seleção com Base em Valor |"
+  },
+  {
+    "id": 427087,
+    "nome": "Estratificação |"
+  },
+  {
+    "id": 427088,
+    "nome": "Seleção com Base em Valor |"
+  },
+  {
+    "id": 427089,
+    "nome": "Tamanho da Amostra |"
+  },
+  {
+    "id": 427091,
+    "nome": "Taxa Tolerável de Desvio |"
+  },
+  {
+    "id": 427092,
+    "nome": "Taxa Esperada de Desvio |"
+  },
+  {
+    "id": 427093,
+    "nome": "Nível de Segurança |"
+  },
+  {
+    "id": 427094,
+    "nome": "Risco de Distorção Relevante |"
+  },
+  {
+    "id": 427095,
+    "nome": "Confiança em Outros Procedimentos |"
+  },
+  {
+    "id": 427090,
+    "nome": "Métodos de Seleção da Amostra |"
+  },
+  {
+    "id": 427096,
+    "nome": "Seleção Aleatória |"
+  },
+  {
+    "id": 427097,
+    "nome": "Seleção Sistemática ou por Intervalos |"
+  },
+  {
+    "id": 427098,
+    "nome": "Seleção por Unidade Monetária |"
+  },
+  {
+    "id": 427099,
+    "nome": "Seleção ao Acaso |"
+  },
+  {
+    "id": 4674,
+    "nome": "Fraude e Erro |"
+  },
+  {
+    "id": 4675,
+    "nome": "Conceito de Fraude |"
+  },
+  {
+    "id": 427101,
+    "nome": "Informações Contábeis Fraudulentas |"
+  },
+  {
+    "id": 427102,
+    "nome": "Apropriação Indevida de Ativos |"
+  },
+  {
+    "id": 4676,
+    "nome": "Conceito de Erro |"
+  },
+  {
+    "id": 427103,
+    "nome": "Responsabilidade do Auditor Quanto à Fraude |"
+  },
+  {
+    "id": 427104,
+    "nome": "Responsabilidade da Administração quanto à Fraude |"
+  },
+  {
+    "id": 427105,
+    "nome": "Fatores de Risco de Fraude |"
+  },
+  {
+    "id": 427106,
+    "nome": "Comunicação de Fraude aos Responsáveis |"
+  },
+  {
+    "id": 427107,
+    "nome": "Comunicação à Administração |"
+  },
+  {
+    "id": 427108,
+    "nome": "Comunicação aos Responsáveis pela Governança |"
+  },
+  {
+    "id": 427109,
+    "nome": "Aos Órgãos Reguladores e de Controle |"
+  },
+  {
+    "id": 427110,
+    "nome": "Identificação de Fraudes e Erros na Escrita Fiscal e Contábil |"
+  },
+  {
+    "id": 4677,
+    "nome": "Documentação de Auditoria |"
+  },
+  {
+    "id": 4679,
+    "nome": "Finalidades da Documentação de Auditoria |"
+  },
+  {
+    "id": 4680,
+    "nome": "Objetivo do Auditor quanto à Documentação |"
+  },
+  {
+    "id": 4682,
+    "nome": "Forma, Conteúdo e Extensão da Documentação |"
+  },
+  {
+    "id": 4683,
+    "nome": "Montagem do Arquivo Final de Auditoria |"
+  },
+  {
+    "id": 427111,
+    "nome": "Formação da Opinião e Emissão do Relatório do Auditor Independente |"
+  },
+  {
+    "id": 427112,
+    "nome": "Tipos de Relatório/Opinião do Auditor |"
+  },
+  {
+    "id": 427113,
+    "nome": "Estrutura e Elementos do Relatório de Auditoria |"
+  },
+  {
+    "id": 427114,
+    "nome": "Responsabilidade do Auditor quanto ao Relatório |"
+  },
+  {
+    "id": 427115,
+    "nome": "Parágrafo de Ênfase e Parágrafo de outros Assuntos |"
+  },
+  {
+    "id": 427116,
+    "nome": "Parágrafo de Ênfase |"
+  },
+  {
+    "id": 427118,
+    "nome": "Obrigatoriedade do Parágrafo de Ênfase |"
+  },
+  {
+    "id": 427119,
+    "nome": "Facultatividade do Parágrafo de Ênfase |"
+  },
+  {
+    "id": 427120,
+    "nome": "Características do Parágrafo de Ênfase |"
+  },
+  {
+    "id": 427121,
+    "nome": "Parágrafo de Outros Assuntos |"
+  },
+  {
+    "id": 427122,
+    "nome": "Função do Parágrafo de outros Assuntos |"
+  },
+  {
+    "id": 4668,
+    "nome": "Utilização de Outros Trabalhos |"
+  },
+  {
+    "id": 4669,
+    "nome": "Utilização do Trabalho de outro Auditor Independente |"
+  },
+  {
+    "id": 4670,
+    "nome": "Utilização do Trabalho do Auditor Interno |"
+  },
+  {
+    "id": 4671,
+    "nome": "Utilização do Trabalho de Especialista de Outra Área |"
+  },
+  {
+    "id": 4672,
+    "nome": "Especialista da Administração |"
+  },
+  {
+    "id": 4673,
+    "nome": "Especialista do Auditor |"
+  },
+  {
+    "id": 4615,
+    "nome": "Continuidade Operacional |"
+  },
+  {
+    "id": 4619,
+    "nome": "Objetivos e Responsabilidades do Auditor quanto à Continuidade Operacional da Entidade |"
+  },
+  {
+    "id": 4620,
+    "nome": "Incerteza Significativa quanto à Continuidade Operacional |"
+  },
+  {
+    "id": 4616,
+    "nome": "Tratamento das Incertezas Significativas e o Relatório do Auditor |"
+  },
+  {
+    "id": 4617,
+    "nome": "Pressuposto de Continuidade Inadequado |"
+  },
+  {
+    "id": 4618,
+    "nome": "Pressuposto de Continuidade Adequado |"
+  },
+  {
+    "id": 4621,
+    "nome": "Pressuposto Divulgado Adequadamente |"
+  },
+  {
+    "id": 4622,
+    "nome": "Pressuposto não Divulgado |"
+  },
+  {
+    "id": 427124,
+    "nome": "Contingências |"
+  },
+  {
+    "id": 427125,
+    "nome": "Reconhecimento e Divulgação |"
+  },
+  {
+    "id": 427126,
+    "nome": "Provisão |"
+  },
+  {
+    "id": 427127,
+    "nome": "Passivo Contingente |"
+  },
+  {
+    "id": 427128,
+    "nome": "Ativo Contingente |"
+  },
+  {
+    "id": 427129,
+    "nome": "Estimativas Contábeis |"
+  },
+  {
+    "id": 427130,
+    "nome": "Definições |"
+  },
+  {
+    "id": 427131,
+    "nome": "Estimativa Contábil |"
+  },
+  {
+    "id": 427132,
+    "nome": "Incerteza da Estimativa |"
+  },
+  {
+    "id": 427133,
+    "nome": "Tendenciosidade da Administração |"
+  },
+  {
+    "id": 427134,
+    "nome": "Estimativa Pontual da Administração |"
+  },
+  {
+    "id": 427136,
+    "nome": "Objetivos e Responsabilidades do Auditor quanto às Estimativas Contábeis |"
+  },
+  {
+    "id": 427137,
+    "nome": "Eventos Subsequentes |"
+  },
+  {
+    "id": 427138,
+    "nome": "Objetivos e Responsabilidades do Auditor quanto aos Eventos Subsequentes |"
+  },
+  {
+    "id": 427139,
+    "nome": "Momentos de Ocorrência dos Eventos Subsequentes e suas Tratativas |"
+  },
+  {
+    "id": 427140,
+    "nome": "Eventos Ocorridos entre a data das Demonstrações Contábeis e a Data do Relatório do Auditor |"
+  },
+  {
+    "id": 427141,
+    "nome": "Eventos Ocorridos após a data do Relatório do Auditor, mas antes da Data de Divulgação das Demonstrações Contábeis |"
+  },
+  {
+    "id": 427142,
+    "nome": "Eventos Ocorridos após a data de Divulgação das Demonstrações Contábeis |"
+  },
+  {
+    "id": 4589,
+    "nome": "Transações com Partes Relacionadas |"
+  },
+  {
+    "id": 427143,
+    "nome": "Objetivos e Responsabilidades do Auditor quanto às Transações com partes Relacionadas |"
+  },
+  {
+    "id": 4590,
+    "nome": "Definições |"
+  },
+  {
+    "id": 427144,
+    "nome": "Partes Relacionadas |"
+  },
+  {
+    "id": 427145,
+    "nome": "Transações em Condições Normais de Mercado |"
+  },
+  {
+    "id": 427146,
+    "nome": "Representações Formais |"
+  },
+  {
+    "id": 427149,
+    "nome": "Membros da Administração aos quais são Solicitadas as Representações Formais |"
+  },
+  {
+    "id": 427151,
+    "nome": "Representações Formais sobre a Responsabilidade da Administração |"
+  },
+  {
+    "id": 427152,
+    "nome": "Representações Formais como Forma de Evidência de Auditoria |"
+  },
+  {
+    "id": 427154,
+    "nome": "Dúvida quanto à Confiabilidade das Representações |"
+  },
+  {
+    "id": 427155,
+    "nome": "Representações Solicitadas e não Fornecidas |"
+  },
+  {
+    "id": 427156,
+    "nome": "Outras Representações Formais |"
+  },
+  {
+    "id": 4592,
+    "nome": "Controle Interno |"
+  },
+  {
+    "id": 417013,
+    "nome": "Definição de Controle Interno |"
+  },
+  {
+    "id": 4593,
+    "nome": "Importância do Controle Interno |"
+  },
+  {
+    "id": 4597,
+    "nome": "Objetivos do Controle Interno |"
+  },
+  {
+    "id": 4596,
+    "nome": "Natureza e Extensão do Entendimento dos Controles Relevantes |"
+  },
+  {
+    "id": 4595,
+    "nome": "Divisões do Controle Interno |"
+  },
+  {
+    "id": 4594,
+    "nome": "Controles Contábeis |"
+  },
+  {
+    "id": 4600,
+    "nome": "Controles Administrativos |"
+  },
+  {
+    "id": 4599,
+    "nome": "Controles Preventivos |"
+  },
+  {
+    "id": 417028,
+    "nome": "Controles Detectivos |"
+  },
+  {
+    "id": 4598,
+    "nome": "Princípios do Controle Interno |"
+  },
+  {
+    "id": 427157,
+    "nome": "Atribuição de Responsabilidades |"
+  },
+  {
+    "id": 427158,
+    "nome": "Segregação de Funções |"
+  },
+  {
+    "id": 427160,
+    "nome": "Limitação do Acesso aos Ativos |"
+  },
+  {
+    "id": 427161,
+    "nome": "Custo-Benefício do Controle |"
+  },
+  {
+    "id": 4587,
+    "nome": "Auditoria Interna |"
+  },
+  {
+    "id": 427162,
+    "nome": "COSO I |"
+  },
+  {
+    "id": 427163,
+    "nome": "Definição de Controles Internos segundo o COSO I |"
+  },
+  {
+    "id": 427164,
+    "nome": "Noções Gerais sobre o Comitê |"
+  },
+  {
+    "id": 427165,
+    "nome": "Componentes do Controle Interno Segundo COSO I |"
+  },
+  {
+    "id": 427166,
+    "nome": "Ambiente de Controle |"
+  },
+  {
+    "id": 427167,
+    "nome": "Avaliação de Risco |"
+  },
+  {
+    "id": 427168,
+    "nome": "Atividades de Controle |"
+  },
+  {
+    "id": 427169,
+    "nome": "Informação e Comunicação |"
+  },
+  {
+    "id": 427170,
+    "nome": "Monitoramento ou Monitoração |"
+  },
+  {
+    "id": 427171,
+    "nome": "Limitações do Controle Interno |"
+  },
+  {
+    "id": 427173,
+    "nome": "Eventos Externos |"
+  },
+  {
+    "id": 427174,
+    "nome": "Negligência dos Funcionários |"
+  },
+  {
+    "id": 427176,
+    "nome": "COSO II |"
+  },
+  {
+    "id": 427177,
+    "nome": "Definição de Gerenciamento de Riscos segundo o COSO II |"
+  },
+  {
+    "id": 427178,
+    "nome": "Componentes do Controle Interno Segundo COSO II |"
+  },
+  {
+    "id": 427180,
+    "nome": "Ambiente interno |"
+  },
+  {
+    "id": 427181,
+    "nome": "Avaliação de Risco |"
+  },
+  {
+    "id": 427182,
+    "nome": "Atividades de Controle |"
+  },
+  {
+    "id": 427183,
+    "nome": "Informação e Comunicação |"
+  },
+  {
+    "id": 427184,
+    "nome": "Monitoramento ou Monitoração |"
+  },
+  {
+    "id": 427185,
+    "nome": "Definição/Fixação de Objetivos |"
+  },
+  {
+    "id": 427186,
+    "nome": "Identificação de Eventos |"
+  },
+  {
+    "id": 427187,
+    "nome": "Resposta ao Risco |"
+  },
+  {
+    "id": 427188,
+    "nome": "COSO versão 2013 |"
+  },
+  {
+    "id": 427189,
+    "nome": "COSO versão 2017 |"
+  },
+  {
+    "id": 427190,
+    "nome": "Avaliação dos Controles Internos |"
+  },
+  {
+    "id": 427191,
+    "nome": "Necessidade de Parâmetros de Avaliação |"
+  },
+  {
+    "id": 427192,
+    "nome": "Avaliação do Ambiente de Controle |"
+  },
+  {
+    "id": 427193,
+    "nome": "Avaliação dos Procedimentos de Controle |"
+  },
+  {
+    "id": 427194,
+    "nome": "Comunicação de Deficiências de Controle Interno |"
+  },
+  {
+    "id": 427195,
+    "nome": "Deficiências Significativas de Controle Interno |"
+  },
+  {
+    "id": 4601,
+    "nome": "Auditoria Interna |"
+  },
+  {
+    "id": 4609,
+    "nome": "Conceito de Auditoria Interna |"
+  },
+  {
+    "id": 4614,
+    "nome": "Finalidade e Objetivos da Auditoria Interna |"
+  },
+  {
+    "id": 4613,
+    "nome": "Atribuições da Auditoria Interna |"
+  },
+  {
+    "id": 4612,
+    "nome": "Papel da Auditoria Interna quanto às Fraudes e/ou Erros Encontrados |"
+  },
+  {
+    "id": 4611,
+    "nome": "Comunicação de Fraude à Administração |"
+  },
+  {
+    "id": 4610,
+    "nome": "Documentação ou Papéis de Trabalho da Auditoria Interna |"
+  },
+  {
+    "id": 427196,
+    "nome": "Papéis de Trabalho Correntes |"
+  },
+  {
+    "id": 427197,
+    "nome": "Papéis de Trabalho Permanentes |"
+  },
+  {
+    "id": 427198,
+    "nome": "Normas de Execução dos Trabalhos de Auditoria Interna |"
+  },
+  {
+    "id": 427199,
+    "nome": "Planejamento da Auditoria Interna |"
+  },
+  {
+    "id": 427200,
+    "nome": "Fatores Relevantes a Serem Considerados no Planejamento |"
+  },
+  {
+    "id": 427201,
+    "nome": "Documentação do Planejamento |"
+  },
+  {
+    "id": 427202,
+    "nome": "Revisão e Atualização do Planejamento |"
+  },
+  {
+    "id": 427203,
+    "nome": "Riscos da Auditoria Interna |"
+  },
+  {
+    "id": 427204,
+    "nome": "Limitações ao Alcance dos Procedimentos de Auditoria Interna |"
+  },
+  {
+    "id": 427205,
+    "nome": "Extensão da Responsabilidade do Auditor Interno no uso dos Trabalhos de Especialistas |"
+  },
+  {
+    "id": 427206,
+    "nome": "Procedimentos da Auditoria Interna |"
+  },
+  {
+    "id": 427207,
+    "nome": "Tipos de Procedimentos e Testes de Auditoria Interna |"
+  },
+  {
+    "id": 427208,
+    "nome": "Testes de Observância |"
+  },
+  {
+    "id": 427209,
+    "nome": "Inspeção |"
+  },
+  {
+    "id": 427210,
+    "nome": "Observação |"
+  },
+  {
+    "id": 427211,
+    "nome": "Investigação |"
+  },
+  {
+    "id": 427212,
+    "nome": "Confirmação |"
+  },
+  {
+    "id": 427213,
+    "nome": "Testes Substantivos |"
+  },
+  {
+    "id": 427214,
+    "nome": "Obtenção e Avaliação das Informações |"
+  },
+  {
+    "id": 427215,
+    "nome": "Suficiência |"
+  },
+  {
+    "id": 427216,
+    "nome": "Adequação |"
+  },
+  {
+    "id": 427217,
+    "nome": "Relevância |"
+  },
+  {
+    "id": 427218,
+    "nome": "Utilidade |"
+  },
+  {
+    "id": 427219,
+    "nome": "Efetividade |"
+  },
+  {
+    "id": 427220,
+    "nome": "Processamento Eletrônico de Dados (PED) na Auditoria Interna |"
+  },
+  {
+    "id": 427221,
+    "nome": "Exigência de Profissional com Conhecimento sobre TI |"
+  },
+  {
+    "id": 427222,
+    "nome": "Relatório da Auditoria Interna |"
+  },
+  {
+    "id": 427225,
+    "nome": "Requisitos do Relatório de Auditoria Interna |"
+  },
+  {
+    "id": 427226,
+    "nome": "Apresentação do Relatório de Auditoria Interna |"
+  },
+  {
+    "id": 427227,
+    "nome": "Relatório Parcial de Auditoria Interna |"
+  },
+  {
+    "id": 427228,
+    "nome": "Necessidade de Emissão |"
+  },
+  {
+    "id": 427223,
+    "nome": "Administração da Área de Auditoria Interna |"
+  },
+  {
+    "id": 427224,
+    "nome": "Auditoria Interna versus Auditoria Independente |"
+  },
+  {
+    "id": 427229,
+    "nome": "Semelhanças entre a Auditoria Interna e a Auditoria Independente |"
+  },
+  {
+    "id": 427230,
+    "nome": "Diferenças entre a Auditoria Interna e Auditoria Independente |"
+  },
+  {
+    "id": 427231,
+    "nome": "Vinculação do Auditor à Entidade |"
+  },
+  {
+    "id": 427232,
+    "nome": "Ação e Objetivo da Auditoria |"
+  },
+  {
+    "id": 427233,
+    "nome": "Finalidade da Auditoria |"
+  },
+  {
+    "id": 427234,
+    "nome": "Objetivo do Relatório |"
+  },
+  {
+    "id": 427235,
+    "nome": "Grau de Independência |"
+  },
+  {
+    "id": 427236,
+    "nome": "Interessados no Trabalho |"
+  },
+  {
+    "id": 427237,
+    "nome": "Responsabilidade do Auditor |"
+  },
+  {
+    "id": 427238,
+    "nome": "Continuidade do Trabalho |"
+  },
+  {
+    "id": 427239,
+    "nome": "Auditoria no Setor Público Federal |"
+  },
+  {
+    "id": 427240,
+    "nome": "Caracterização da Auditoria Governamental |"
+  },
+  {
+    "id": 427241,
+    "nome": "Finalidades e Objetivos da Auditoria Governamental |"
+  },
+  {
+    "id": 427242,
+    "nome": "Sistema de Controle Interno do Poder Executivo Federal (SCI-PEF) |"
+  },
+  {
+    "id": 427243,
+    "nome": "Abrangência de Atuação do SCI-PEF |"
+  },
+  {
+    "id": 427244,
+    "nome": "Normas Relativas ao Controle Interno Administrativo |"
+  },
+  {
+    "id": 427245,
+    "nome": "Princípios do Controle Interno |"
+  },
+  {
+    "id": 427246,
+    "nome": "Relação Custo/Benefício |"
+  },
+  {
+    "id": 427247,
+    "nome": "Qualificação Adequada, Treinamento e Rodízio de Funcionários |"
+  },
+  {
+    "id": 427248,
+    "nome": "Delegação de Poderes e Definição de Responsabilidades |"
+  },
+  {
+    "id": 427249,
+    "nome": "Segregação de Funções |"
+  },
+  {
+    "id": 427250,
+    "nome": "Instruções Devidamente Formalizadas |"
+  },
+  {
+    "id": 427251,
+    "nome": "Controle sobre as Transações |"
+  },
+  {
+    "id": 427252,
+    "nome": "Aderência a Diretrizes e Normas Legais |"
+  },
+  {
+    "id": 427253,
+    "nome": "Planejamento das Ações de Controle Interno |"
+  },
+  {
+    "id": 427254,
+    "nome": "Orçamento Global do Ministério |"
+  },
+  {
+    "id": 427255,
+    "nome": "Hierarquização |"
+  },
+  {
+    "id": 427256,
+    "nome": "Programas e Programações Sob Controle |"
+  },
+  {
+    "id": 427257,
+    "nome": "Ações sob Controle |"
+  },
+  {
+    "id": 427259,
+    "nome": "Estrutura Conceitual Básica das Técnicas de Controle |"
+  },
+  {
+    "id": 427260,
+    "nome": "Auditoria Fiscal |"
+  },
+  {
+    "id": 427261,
+    "nome": "Conhecimentos de Auditoria Aplicados à Legislação Tributária |"
+  },
+  {
+    "id": 427262,
+    "nome": "Legislação Tributária Municipal |"
+  },
+  {
+    "id": 427263,
+    "nome": "ISS |"
+  },
+  {
+    "id": 427264,
+    "nome": "IPTU |"
+  },
+  {
+    "id": 427267,
+    "nome": "Legislação Tributária Estadual |"
+  },
+  {
+    "id": 427268,
+    "nome": "ICMS |"
+  },
+  {
+    "id": 427269,
+    "nome": "ITCD ou ITCMD |"
+  },
+  {
+    "id": 427271,
+    "nome": "Demais Tributos Estaduais |"
+  },
+  {
+    "id": 427272,
+    "nome": "Legislação Tributária Federal |"
+  },
+  {
+    "id": 427273,
+    "nome": "Impostos Federais |"
+  },
+  {
+    "id": 427274,
+    "nome": "Imposto de Renda |"
+  },
+  {
+    "id": 427277,
+    "nome": "IRPF |"
+  },
+  {
+    "id": 427278,
+    "nome": "IRPJ |"
+  },
+  {
+    "id": 427282,
+    "nome": "IOF |"
+  },
+  {
+    "id": 427283,
+    "nome": "ITR |"
+  },
+  {
+    "id": 427289,
+    "nome": "Conhecimentos de Auditoria Aplicados à Escrituração Digital (Contábil e Fiscal) |"
+  },
+  {
+    "id": 427290,
+    "nome": "Escrituração Contábil Digital – SPED Contábil |"
+  },
+  {
+    "id": 427291,
+    "nome": "Escrituração Fiscal Digital – SPED Fiscal |"
+  },
+  {
+    "id": 427292,
+    "nome": "Conhecimentos de Auditoria Aplicados à Declarações Eletrônicas |"
+  },
+  {
+    "id": 427293,
+    "nome": "PGDAS-D: Programa Gerador do Documento de Arrecadação do Simples Nacional |"
+  },
+  {
+    "id": 427295,
+    "nome": "DIPJ: Declaração de Rendimentos da Pessoa Jurídica |"
+  },
+  {
+    "id": 427296,
+    "nome": "Conhecimentos de Regimes Tributários e Auditoria |"
+  },
+  {
+    "id": 427298,
+    "nome": "Lucro Real |"
+  },
+  {
+    "id": 427299,
+    "nome": "Lucro Presumido |"
+  },
+  {
+    "id": 4635,
+    "nome": "Auditoria Governamental |"
+  },
+  {
+    "id": 4637,
+    "nome": "Finalidades e Objetivos da Auditoria Governamental |"
+  },
+  {
+    "id": 4638,
+    "nome": "Formas e Tipos de Auditoria Governamental |"
+  },
+  {
+    "id": 4636,
+    "nome": "Tipos de Auditoria Governamental |"
+  },
+  {
+    "id": 4639,
+    "nome": "Auditoria de Avaliação da Gestão |"
+  },
+  {
+    "id": 4658,
+    "nome": "Auditoria de Acompanhamento da Gestão |"
+  },
+  {
+    "id": 4648,
+    "nome": "Auditoria Contábil |"
+  },
+  {
+    "id": 427301,
+    "nome": "Auditoria Operacional ou de Desempenho |"
+  },
+  {
+    "id": 427302,
+    "nome": "Auditoria Especial |"
+  },
+  {
+    "id": 4640,
+    "nome": "Formas de Execução da Auditoria Governamental |"
+  },
+  {
+    "id": 4641,
+    "nome": "Execução Direta |"
+  },
+  {
+    "id": 4643,
+    "nome": "Descentralizada |"
+  },
+  {
+    "id": 4644,
+    "nome": "Integrada |"
+  },
+  {
+    "id": 4645,
+    "nome": "Execução Indireta |"
+  },
+  {
+    "id": 4646,
+    "nome": "Compartilhada |"
+  },
+  {
+    "id": 4647,
+    "nome": "Terceirizada |"
+  },
+  {
+    "id": 427303,
+    "nome": "Execução Simplificada |"
+  },
+  {
+    "id": 427304,
+    "nome": "Normas Relativas à Execução do Trabalho |"
+  },
+  {
+    "id": 427305,
+    "nome": "Exame Preliminar |"
+  },
+  {
+    "id": 427306,
+    "nome": "Planejamento do Trabalho |"
+  },
+  {
+    "id": 427307,
+    "nome": "Avaliação dos Controles Internos Administrativos |"
+  },
+  {
+    "id": 427308,
+    "nome": "Prevenção de Impropriedade e Irregularidades |"
+  },
+  {
+    "id": 427309,
+    "nome": "Supervisão das Atividades |"
+  },
+  {
+    "id": 427310,
+    "nome": "Responsabilidade pela Supervisão |"
+  },
+  {
+    "id": 427311,
+    "nome": "Supervisão das Equipes de Trabalho |"
+  },
+  {
+    "id": 427314,
+    "nome": "Seleção do Objeto |"
+  },
+  {
+    "id": 427315,
+    "nome": "Delimitação do escopo |"
+  },
+  {
+    "id": 427316,
+    "nome": "Especificação dos critérios |"
+  },
+  {
+    "id": 427317,
+    "nome": "Avaliação de riscos |"
+  },
+  {
+    "id": 427318,
+    "nome": "Elaboração da matriz de planejamento |"
+  },
+  {
+    "id": 427319,
+    "nome": "Elaboração do Programa de Trabalho |"
+  },
+  {
+    "id": 427320,
+    "nome": "Execução do Trabalho(\"Trabalho de Campo\") |"
+  },
+  {
+    "id": 427321,
+    "nome": "Obtenção de Evidências |"
+  },
+  {
+    "id": 427322,
+    "nome": "Finalidade da Evidência |"
+  },
+  {
+    "id": 427323,
+    "nome": "Suficiência da Evidência |"
+  },
+  {
+    "id": 427324,
+    "nome": "Adequação da Evidência |"
+  },
+  {
+    "id": 427325,
+    "nome": "Pertinência da Evidência |"
+  },
+  {
+    "id": 427326,
+    "nome": "Natureza das Evidências |"
+  },
+  {
+    "id": 427327,
+    "nome": "Evidência direta |"
+  },
+  {
+    "id": 427328,
+    "nome": "Evidência circunstancial |"
+  },
+  {
+    "id": 427330,
+    "nome": "Evidência corroborativa |"
+  },
+  {
+    "id": 427332,
+    "nome": "Evidência testemunhal |"
+  },
+  {
+    "id": 427333,
+    "nome": "Evidência analítica |"
+  },
+  {
+    "id": 427334,
+    "nome": "Evidência documental |"
+  },
+  {
+    "id": 427335,
+    "nome": "Testes e Procedimentos de Auditoria |"
+  },
+  {
+    "id": 427336,
+    "nome": "Testes de Auditoria |"
+  },
+  {
+    "id": 427337,
+    "nome": "Testes de Controle ou Testes de Observância ou Testes de Aderência |"
+  },
+  {
+    "id": 427600,
+    "nome": "Testes Retrospectivos |"
+  },
+  {
+    "id": 427338,
+    "nome": "Testes Substantivos ou Testes de Comprovação |"
+  },
+  {
+    "id": 427601,
+    "nome": "Testes de Detalhes |"
+  },
+  {
+    "id": 427602,
+    "nome": "Procedimentos Analíticos Substantivos |"
+  },
+  {
+    "id": 427339,
+    "nome": "Técnicas de Auditoria |"
+  },
+  {
+    "id": 427340,
+    "nome": "Indagação Escrita ou Oral |"
+  },
+  {
+    "id": 427341,
+    "nome": "Análise Documental |"
+  },
+  {
+    "id": 427342,
+    "nome": "Conferência de Cálculos |"
+  },
+  {
+    "id": 427343,
+    "nome": "Confirmação Externa |"
+  },
+  {
+    "id": 427344,
+    "nome": "Exame dos Registros |"
+  },
+  {
+    "id": 427345,
+    "nome": "Correlação das Informações Obtidas |"
+  },
+  {
+    "id": 427346,
+    "nome": "Inspeção Física |"
+  },
+  {
+    "id": 427347,
+    "nome": "Observação |"
+  },
+  {
+    "id": 427348,
+    "nome": "Corte das Operações ou Cut-off |"
+  },
+  {
+    "id": 427349,
+    "nome": "Rastreamento |"
+  },
+  {
+    "id": 427350,
+    "nome": "Técnicas de Fiscalização |"
+  },
+  {
+    "id": 427351,
+    "nome": "Indagação Escrita ou Oral |"
+  },
+  {
+    "id": 427352,
+    "nome": "Análise Documental |"
+  },
+  {
+    "id": 427353,
+    "nome": "Conferência de Cálculos |"
+  },
+  {
+    "id": 427354,
+    "nome": "Confirmação Externa |"
+  },
+  {
+    "id": 427355,
+    "nome": "Exame dos Registros |"
+  },
+  {
+    "id": 427356,
+    "nome": "Correlação das Informações Obtidas |"
+  },
+  {
+    "id": 427357,
+    "nome": "Inspeção Física |"
+  },
+  {
+    "id": 427358,
+    "nome": "Observação |"
+  },
+  {
+    "id": 427359,
+    "nome": "Emissão do Relatório de Auditoria |"
+  },
+  {
+    "id": 427360,
+    "nome": "Normas Relativas à Opinião do Auditor |"
+  },
+  {
+    "id": 427361,
+    "nome": "Nota |"
+  },
+  {
+    "id": 427362,
+    "nome": "Relatório |"
+  },
+  {
+    "id": 427363,
+    "nome": "Certificado |"
+  },
+  {
+    "id": 427364,
+    "nome": "Certificado de Regularidade |"
+  },
+  {
+    "id": 427365,
+    "nome": "Certificado de Regularidade com Ressalvas |"
+  },
+  {
+    "id": 427367,
+    "nome": "Parecer do Dirigente do Órgão de Controle Interno |"
+  },
+  {
+    "id": 427368,
+    "nome": "Normas Relativas à Audiência do Auditado |"
+  },
+  {
+    "id": 427369,
+    "nome": "Normas Relativas à Forma de Comunicação |"
+  },
+  {
+    "id": 427370,
+    "nome": "Formação de Opinião sobre as contas nos Tribunais de Contas |"
+  },
+  {
+    "id": 427371,
+    "nome": "Certificado de Regularidade |"
+  },
+  {
+    "id": 427372,
+    "nome": "Certificado de Regularidade com Ressalvas |"
+  },
+  {
+    "id": 427373,
+    "nome": "Certificado de Irregularidade |"
+  },
+  {
+    "id": 427374,
+    "nome": "Normas de Auditoria Governamental (NAG) |"
+  },
+  {
+    "id": 427376,
+    "nome": "NAG 1000 – Normas Gerais |"
+  },
+  {
+    "id": 427377,
+    "nome": "NAG 2000 – Relativas aos Tribunais de Contas |"
+  },
+  {
+    "id": 427378,
+    "nome": "NAG 3000 - Relativas aos Profissionais de Auditoria Governamental |"
+  },
+  {
+    "id": 427379,
+    "nome": "NAG 4000 - Relativas aos Trabalhos de Auditoria Governamental |"
+  },
+  {
+    "id": 427375,
+    "nome": "Normas de Auditoria do TCU (NAT) – Portaria TCU nº 280/2010 |"
+  },
+  {
+    "id": 427380,
+    "nome": "Bases Conceituais |"
+  },
+  {
+    "id": 427382,
+    "nome": "Accountability |"
+  },
+  {
+    "id": 427383,
+    "nome": "Classificação das auditorias |"
+  },
+  {
+    "id": 427384,
+    "nome": "Auditorias de regularidade |"
+  },
+  {
+    "id": 427385,
+    "nome": "Auditoria de conformidade |"
+  },
+  {
+    "id": 427386,
+    "nome": "Auditoria contábil |"
+  },
+  {
+    "id": 427387,
+    "nome": "Auditorias operacionais |"
+  },
+  {
+    "id": 427390,
+    "nome": "Estrutura das NAT |"
+  },
+  {
+    "id": 427391,
+    "nome": "Capítulo 1 – Preceitos Básicos do Controle Externo |"
+  },
+  {
+    "id": 427392,
+    "nome": "Independência e Autonomia |"
+  },
+  {
+    "id": 427393,
+    "nome": "Capítulo 2 – Normas Gerais |"
+  },
+  {
+    "id": 427394,
+    "nome": "Princípios Éticos |"
+  },
+  {
+    "id": 427395,
+    "nome": "Interesse Público, Preservação e Defesa do Patrimônio Público |"
+  },
+  {
+    "id": 427396,
+    "nome": "Integridade |"
+  },
+  {
+    "id": 427397,
+    "nome": "Independência, Objetividade e Imparcialidade |"
+  },
+  {
+    "id": 427398,
+    "nome": "Uso do Cargo, de Informações e de Recursos Públicos |"
+  },
+  {
+    "id": 427399,
+    "nome": "Normas Relativas ao Tribunal |"
+  },
+  {
+    "id": 427400,
+    "nome": "Normas Relativas à Pessoa do Auditor |"
+  },
+  {
+    "id": 427401,
+    "nome": "Cautela, Zelo e Julgamento Profissional |"
+  },
+  {
+    "id": 427402,
+    "nome": "Competência e Desenvolvimento Profissional |"
+  },
+  {
+    "id": 427404,
+    "nome": "Conflitos de Interesses |"
+  },
+  {
+    "id": 427405,
+    "nome": "Sigilo Profissional |"
+  },
+  {
+    "id": 427406,
+    "nome": "Capítulo 3 – Normas relativas ao Planejamento e Execução |"
+  },
+  {
+    "id": 427408,
+    "nome": "Identificação e Avaliação de Objetivos, Riscos e Controles |"
+  },
+  {
+    "id": 427409,
+    "nome": "Supervisão, Revisão e Comunicação |"
+  },
+  {
+    "id": 427410,
+    "nome": "Comunicação entre Equipe de Auditoria e Supervisor |"
+  },
+  {
+    "id": 427411,
+    "nome": "Comunicação com o Auditado e Requisição de Documentos |"
+  },
+  {
+    "id": 427414,
+    "nome": "Escopo da Auditoria |"
+  },
+  {
+    "id": 427415,
+    "nome": "Programas de Auditoria |"
+  },
+  {
+    "id": 427416,
+    "nome": "Desenvolvimento dos Achados |"
+  },
+  {
+    "id": 427417,
+    "nome": "Achados Negativos |"
+  },
+  {
+    "id": 427419,
+    "nome": "Irregularidades |"
+  },
+  {
+    "id": 427420,
+    "nome": "Evidência |"
+  },
+  {
+    "id": 427421,
+    "nome": "Suficiência |"
+  },
+  {
+    "id": 427422,
+    "nome": "Adequação |"
+  },
+  {
+    "id": 427424,
+    "nome": "Completude |"
+  },
+  {
+    "id": 427425,
+    "nome": "Documentação de Auditoria |"
+  },
+  {
+    "id": 427426,
+    "nome": "Utilização de Especialistas e Terceiros |"
+  },
+  {
+    "id": 427427,
+    "nome": "Capítulo 4 – Normas Relativas à comunicação de Resultados |"
+  },
+  {
+    "id": 427428,
+    "nome": "Relatório de Auditoria |"
+  },
+  {
+    "id": 427429,
+    "nome": "Requisitos de Qualidade dos Relatórios |"
+  },
+  {
+    "id": 427430,
+    "nome": "Clareza |"
+  },
+  {
+    "id": 427431,
+    "nome": "Convicção |"
+  },
+  {
+    "id": 427432,
+    "nome": "Concisão |"
+  },
+  {
+    "id": 427433,
+    "nome": "Completude |"
+  },
+  {
+    "id": 427434,
+    "nome": "Exatidão |"
+  },
+  {
+    "id": 427435,
+    "nome": "Relevância |"
+  },
+  {
+    "id": 427436,
+    "nome": "Tempestividade |"
+  },
+  {
+    "id": 427437,
+    "nome": "Objetividade |"
+  },
+  {
+    "id": 427438,
+    "nome": "Declaração de Conformidade com as NAT |"
+  },
+  {
+    "id": 427439,
+    "nome": "Objetivos da Auditoria, Escopo, Metodologia e Limitações |"
+  },
+  {
+    "id": 427440,
+    "nome": "Visão Geral do Objeto |"
+  },
+  {
+    "id": 427441,
+    "nome": "Apresentação dos Achados |"
+  },
+  {
+    "id": 427442,
+    "nome": "Esclarecimentos dos Responsáveis |"
+  },
+  {
+    "id": 427443,
+    "nome": "Comentários dos Gestores |"
+  },
+  {
+    "id": 427445,
+    "nome": "Benefícios Estimados ou Esperados e volume de Recursos Fiscalizados |"
+  },
+  {
+    "id": 427446,
+    "nome": "Conclusão do Relatório |"
+  },
+  {
+    "id": 427448,
+    "nome": "Monitoramento |"
+  },
+  {
+    "id": 427449,
+    "nome": "Manual de Auditoria Operacional do TCU |"
+  },
+  {
+    "id": 427450,
+    "nome": "Características da Auditoria Operacional |"
+  },
+  {
+    "id": 427451,
+    "nome": "Caracterização de Achados de Auditoria |"
+  },
+  {
+    "id": 427452,
+    "nome": "Atributos dos Achados de Auditoria |"
+  },
+  {
+    "id": 427453,
+    "nome": "Monitoramento |"
+  },
+  {
+    "id": 427454,
+    "nome": "Plano de Ação |"
+  },
+  {
+    "id": 427455,
+    "nome": "Sistemática de Monitoramento |"
+  },
+  {
+    "id": 427458,
+    "nome": "Supervisão e Controle da Qualidade |"
+  },
+  {
+    "id": 427459,
+    "nome": "Modalidades de Controle de Qualidade |"
+  },
+  {
+    "id": 427460,
+    "nome": "Instrumentos de Fiscalização de Acordo com o TCU |"
+  },
+  {
+    "id": 427461,
+    "nome": "Levantamento |"
+  },
+  {
+    "id": 427462,
+    "nome": "Auditoria |"
+  },
+  {
+    "id": 427463,
+    "nome": "Inspeção |"
+  },
+  {
+    "id": 427464,
+    "nome": "Acompanhamento |"
+  },
+  {
+    "id": 427465,
+    "nome": "Monitoramento |"
+  },
+  {
+    "id": 427466,
+    "nome": "Auditoria Governamental segundo a INTOSAI |"
+  },
+  {
+    "id": 427467,
+    "nome": "Níveis das Normas de Auditoria da INTOSAI |"
+  },
+  {
+    "id": 427468,
+    "nome": "Nível I – Princípios Fundamentais da Estrutura |"
+  },
+  {
+    "id": 427469,
+    "nome": "Nível II – Normas profissionais Propriamente Ditas |"
+  },
+  {
+    "id": 427470,
+    "nome": "Nível III – Princípios Fundamentais de Auditoria |"
+  },
+  {
+    "id": 427472,
+    "nome": "Declaração de Lima |"
+  },
+  {
+    "id": 427474,
+    "nome": "Independência da EFS |"
+  },
+  {
+    "id": 427475,
+    "nome": "Independência da EFS Propriamente Dita |"
+  },
+  {
+    "id": 427476,
+    "nome": "Independência dos Membros e Diretores da EFS |"
+  },
+  {
+    "id": 427481,
+    "nome": "Métodos e Procedimentos de Auditoria |"
+  },
+  {
+    "id": 427482,
+    "nome": "Competências das EFS |"
+  },
+  {
+    "id": 427483,
+    "nome": "Auditoria da Gestão Financeira Pública |"
+  },
+  {
+    "id": 427486,
+    "nome": "Contratos e Obras públicas |"
+  },
+  {
+    "id": 427487,
+    "nome": "Auditorias de TI |"
+  },
+  {
+    "id": 427489,
+    "nome": "Código de Ética da INTOSAI |"
+  },
+  {
+    "id": 427490,
+    "nome": "Capítulo 1 – Introdução |"
+  },
+  {
+    "id": 427491,
+    "nome": "Valores éticos da INTOSAI |"
+  },
+  {
+    "id": 427493,
+    "nome": "Capítulo 3 – Independência e Objetividade |"
+  },
+  {
+    "id": 427496,
+    "nome": "Normas de Auditoria da INTOSAI |"
+  },
+  {
+    "id": 427497,
+    "nome": "ISSAI 100 – Princípios Fundamentais da Auditoria no Setor Público |"
+  },
+  {
+    "id": 427498,
+    "nome": "Propósito e Aplicabilidade das ISSAI |"
+  },
+  {
+    "id": 427499,
+    "nome": "Contexto da Auditoria no Setor Público |"
+  },
+  {
+    "id": 427500,
+    "nome": "Auditoria Financeira |"
+  },
+  {
+    "id": 427501,
+    "nome": "Auditoria de Regularidade |"
+  },
+  {
+    "id": 427502,
+    "nome": "Auditoria Operacional |"
+  },
+  {
+    "id": 427503,
+    "nome": "Elementos de Auditoria no Setor Público |"
+  },
+  {
+    "id": 427504,
+    "nome": "Princípios de Auditoria no Setor Público |"
+  },
+  {
+    "id": 427505,
+    "nome": "Princípios Gerais |"
+  },
+  {
+    "id": 427506,
+    "nome": "Princípios Relacionados ao Processo de Auditoria |"
+  },
+  {
+    "id": 427507,
+    "nome": "ISSAI 200 – Princípios fundamentais de Auditoria Financeira |"
+  },
+  {
+    "id": 427509,
+    "nome": "Elementos da Auditoria Financeira |"
+  },
+  {
+    "id": 427510,
+    "nome": "Princípios da Auditoria Financeira |"
+  },
+  {
+    "id": 427511,
+    "nome": "ISSAI 300 – Princípios Fundamentais da Auditoria Operacional |"
+  },
+  {
+    "id": 427512,
+    "nome": "Elementos e Objeto da Auditoria Operacional |"
+  },
+  {
+    "id": 427513,
+    "nome": "Asseguração na Auditoria Operacional |"
+  },
+  {
+    "id": 427514,
+    "nome": "Princípios da Auditoria Operacional |"
+  },
+  {
+    "id": 427515,
+    "nome": "ISSAI 400 – Princípios Fundamentais da Auditoria de Conformidade |"
+  },
+  {
+    "id": 427516,
+    "nome": "Características da Auditoria de Conformidade |"
+  },
+  {
+    "id": 427517,
+    "nome": "Diferentes Perspectivas da Auditoria de Conformidade |"
+  },
+  {
+    "id": 427518,
+    "nome": "Elementos da Auditoria de Conformidade |"
+  },
+  {
+    "id": 427520,
+    "nome": "Auditoria Interna Segundo o IIA |"
+  },
+  {
+    "id": 427521,
+    "nome": "Definição de Auditoria Interna |"
+  },
+  {
+    "id": 427522,
+    "nome": "Código de Ética |"
+  },
+  {
+    "id": 427523,
+    "nome": "Normas do IIA |"
+  },
+  {
+    "id": 427524,
+    "nome": "Normas de Atributos |"
+  },
+  {
+    "id": 427526,
+    "nome": "Série 1100 – Independência e Objetividade |"
+  },
+  {
+    "id": 427528,
+    "nome": "Série 1300 - Programa de Avaliação da Qualidade e Melhoria |"
+  },
+  {
+    "id": 427529,
+    "nome": "Normas de Desempenho |"
+  },
+  {
+    "id": 427530,
+    "nome": "Série 2000 - Gerenciamento da Atividade de Auditoria Interna |"
+  },
+  {
+    "id": 427532,
+    "nome": "Série 2300 - Execução do Trabalho de Auditoria |"
+  },
+  {
+    "id": 427533,
+    "nome": "Série 2400 – Comunicação dos Resultados |"
+  },
+  {
+    "id": 427534,
+    "nome": "Série 2500 – Monitoramento do Progresso |"
+  },
+  {
+    "id": 427536,
+    "nome": "Auditoria Interna Governamental – IN 03/2017 (CGU) |"
+  },
+  {
+    "id": 427537,
+    "nome": "Capítulo I – Propósito e Abrangência da Auditoria Interna Governamental |"
+  },
+  {
+    "id": 427538,
+    "nome": "Capítulo II - Sistema de Controle Interno do Poder Executivo Federal |"
+  },
+  {
+    "id": 427539,
+    "nome": "Capítulo III – Princípios e Requisitos Éticos |"
+  },
+  {
+    "id": 427540,
+    "nome": "Capítulo IV – Gerenciamento da Atividade de Auditoria Interna Governamental |"
+  },
+  {
+    "id": 427541,
+    "nome": "Objetivos dos Trabalhos |"
+  },
+  {
+    "id": 427542,
+    "nome": "Governança |"
+  },
+  {
+    "id": 427543,
+    "nome": "Gerenciamento dos Riscos |"
+  },
+  {
+    "id": 427544,
+    "nome": "Controles internos de Gestão |"
+  },
+  {
+    "id": 427545,
+    "nome": "Planejamento |"
+  },
+  {
+    "id": 427546,
+    "nome": "Gerenciamento de Recursos |"
+  },
+  {
+    "id": 427547,
+    "nome": "Políticas, Procedimentos e Coordenação |"
+  },
+  {
+    "id": 427548,
+    "nome": "Reporte para a Alta Administração |"
+  },
+  {
+    "id": 427549,
+    "nome": "Gestão e Melhoria da Qualidade |"
+  },
+  {
+    "id": 427550,
+    "nome": "Capítulo V – Operacionalização das Atividades de Auditoria Interna |"
+  },
+  {
+    "id": 427551,
+    "nome": "Normas Brasileiras de Auditoria do Setor Público (NBASP) |"
+  },
+  {
+    "id": 427552,
+    "nome": "NBASP Nível I – Institucional dos Tribunais de Contas |"
+  },
+  {
+    "id": 427553,
+    "nome": "NBASP 10 – Independência dos Tribunais de Contas |"
+  },
+  {
+    "id": 427554,
+    "nome": "NBASP 12 – Valor e Benefícios dos Tribunais de Contas |"
+  },
+  {
+    "id": 427555,
+    "nome": "NBASP 20 – Transparência e Accountability |"
+  },
+  {
+    "id": 427556,
+    "nome": "NBASP 30 – Gestão da Ética pelos Tribunais de Contas |"
+  },
+  {
+    "id": 427558,
+    "nome": "NBASP 40 – Controle de Qualidade das Auditorias Realizadas pelos Tribunais de Contas |"
+  },
+  {
+    "id": 427559,
+    "nome": "NBASP Nível II – Princípios Fundamentais de Auditoria do Setor Público |"
+  },
+  {
+    "id": 427560,
+    "nome": "NBASP 100 – Princípios Fundamentais da Auditoria do Setor Público |"
+  },
+  {
+    "id": 427561,
+    "nome": "NBASP 200 – Princípios Fundamentais da Auditoria Financeira |"
+  },
+  {
+    "id": 427562,
+    "nome": "NBASP 300 – Princípios Fundamentais da Auditoria Operacional |"
+  },
+  {
+    "id": 427563,
+    "nome": "NBASP 400 – Princípios Fundamentais da Auditoria de Conformidade |"
+  },
+  {
+    "id": 430375,
+    "nome": "NBASP Nível III - Requisitos Mandatórios para Auditorias do Setor Público |"
+  },
+  {
+    "id": 430376,
+    "nome": "NBASP 3000 - Norma para auditoria operacional |"
+  },
+  {
+    "id": 430377,
+    "nome": "NBASP 4000 - Norma para auditoria de conformidade |"
+  },
+  {
+    "id": 427564,
+    "nome": "Governança Corporativa e Gestão de Riscos |"
+  },
+  {
+    "id": 427565,
+    "nome": "Governança no Setor Público |"
+  },
+  {
+    "id": 427566,
+    "nome": "Conceitos de Governança Corporativa |"
+  },
+  {
+    "id": 427567,
+    "nome": "Princípios de Governança Corporativa |"
+  },
+  {
+    "id": 427568,
+    "nome": "Lei Sarbanes-Oxley |"
+  },
+  {
+    "id": 427569,
+    "nome": "Governança no Setor Público |"
+  },
+  {
+    "id": 427570,
+    "nome": "Referencial Básico de Governança do TCU |"
+  },
+  {
+    "id": 427572,
+    "nome": "Instrução Normativa MP/CGU no 01/2016 |"
+  },
+  {
+    "id": 427573,
+    "nome": "Papel da Auditoria na Estrutura de Governança |"
+  },
+  {
+    "id": 427574,
+    "nome": "Estrutura Conceitual da Análise de Risco – COSO II – ERM |"
+  },
+  {
+    "id": 427576,
+    "nome": "Objetivos do COSO II |"
+  },
+  {
+    "id": 427577,
+    "nome": "Componentes do COSO II |"
+  },
+  {
+    "id": 427578,
+    "nome": "Ambiente de Controle |"
+  },
+  {
+    "id": 427579,
+    "nome": "Avaliação de Risco |"
+  },
+  {
+    "id": 427580,
+    "nome": "Atividades de Controle |"
+  },
+  {
+    "id": 427581,
+    "nome": "Informação e Comunicação |"
+  },
+  {
+    "id": 427582,
+    "nome": "Monitoramento |"
+  },
+  {
+    "id": 427583,
+    "nome": "Definição/Fixação de Objetivos |"
+  },
+  {
+    "id": 427584,
+    "nome": "Identificação de Eventos |"
+  },
+  {
+    "id": 427585,
+    "nome": "Resposta ao Risco |"
+  },
+  {
+    "id": 427586,
+    "nome": "Matriz tridimensional do COSO II |"
+  },
+  {
+    "id": 427587,
+    "nome": "Manual de Orientações Técnicas da Atividade de Auditoria Interna Governamental do Poder Executivo Federal - IN 08/2017 \" |"
+  },
+  {
+    "id": 455427,
+    "nome": "ISSAI 1 - Declaração de Lima |"
+  },
+  {
+    "id": 427588,
+    "nome": "Normas Complementares do Processo de Auditoria |"
+  },
+  {
+    "id": 427589,
+    "nome": "Normas de Auditoria do Ministério da Saúde, SUS, DENASUS |"
+  },
+  {
+    "id": 427590,
+    "nome": "Normas de Auditoria de Enfermagem |"
+  },
+  {
+    "id": 427591,
+    "nome": "Normas de Auditoria de Odontologia |"
+  },
+  {
+    "id": 427592,
+    "nome": "Normas de Contabilidade |"
+  },
+  {
+    "id": 427593,
+    "nome": "Normas do BACEN |"
+  },
+  {
+    "id": 427594,
+    "nome": "Normas do SUSEP |"
+  },
+  {
+    "id": 427595,
+    "nome": "Normas da CVM |"
+  },
+  {
+    "id": 427596,
+    "nome": "Normas de Auditoria do Sistema de Gestão da Qualidade e/ou Ambiental |"
+  },
+  {
+    "id": 427597,
+    "nome": "Normas de Auditoria da ISO |"
+  },
+  {
+    "id": 427598,
+    "nome": "Outras Normas de Auditoria |"
+  },
+  {
+    "id": 430218,
+    "nome": "Perícia Contábil |"
+  }
+]

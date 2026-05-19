@@ -1,0 +1,708 @@
+{
+  "Arte Na Pré-História E Antiguidade": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Arte rupestre e funções simbólicas na Pré-História",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Achar que as pinturas rupestres eram apenas decoração, ignorando suas funções ritual, comunicativa e de registro."
+      },
+      {
+        "nome_microtema": "Escultura e arte móvel paleolítica (Vênus, talhe em osso e pedra)",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir arte móvel pré-histórica com arte monumental e atribuir-lhe finalidade estética moderna."
+      },
+      {
+        "nome_microtema": "Neolítico: sedentarização, cerâmica, megalitismo e arte utilitária",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Associar a arte neolítica a caça e nomadismo, quando ela se relaciona à vida sedentária, agricultura e organização social."
+      },
+      {
+        "nome_microtema": "Arte egípcia: cânone, frontalidade, hierarquia de escala e função funerária",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Interpretar a rigidez formal egípcia como falta de técnica, em vez de convenção estética e religiosa."
+      },
+      {
+        "nome_microtema": "Arte mesopotâmica: poder político, religião e narrativa em relevos e zigurates",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Reduzir a arte mesopotâmica a mera ornamentação, sem reconhecer sua função de legitimação do poder e da ordem religiosa."
+      },
+      {
+        "nome_microtema": "Arte grega arcaica e clássica: idealização do corpo, proporção e antropocentrismo",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir idealização clássica com retrato realista fiel, ignorando o ideal de beleza e equilíbrio."
+      },
+      {
+        "nome_microtema": "Arte romana: pragmatismo, engenharia, retrato e propaganda imperial",
+        "ids_questoes": [],
+        "peso_percentual": 6,
+        "armadilha_favorita": "Tratar a arte romana como cópia passiva da grega, sem perceber sua função política, urbana e documental."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "O ENEM costuma cobrar o tema por meio de imagens, comparações entre períodos e textos curtos que relacionam forma, função e contexto histórico. A questão geralmente exige identificar a finalidade social da obra, a relação com religião/poder e a mudança de valores entre sociedades, evitando leituras puramente estéticas ou anacrônicas.",
+      "palavras_gatilho": [
+        "função ritual",
+        "cânone",
+        "hierarquia de escala",
+        "frontalidade",
+        "idealização",
+        "propaganda",
+        "sedentarização",
+        "arte rupestre",
+        "megalitismo",
+        "antropocentrismo"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Movimentos Artísticos Europeus (Renascimento A Romantismo)": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Renascimento: humanismo, perspectiva e retomada da Antiguidade Clássica",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir o Renascimento com mera cópia da arte greco-romana, ignorando a centralidade do humanismo e da racionalidade visual."
+      },
+      {
+        "nome_microtema": "Barroco: dramaticidade, contraste, religiosidade e persuasão",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Atribuir ao Barroco equilíbrio e serenidade clássicos, quando sua marca é o conflito, o chiaroscuro e a teatralidade."
+      },
+      {
+        "nome_microtema": "Rococó: leveza, ornamentação e arte aristocrática",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir Rococó com Barroco por excesso decorativo, sem perceber o tom mais leve, íntimo e mundano."
+      },
+      {
+        "nome_microtema": "Neoclassicismo: racionalismo, moralidade e retorno à ordem clássica",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Misturar Neoclassicismo com Renascimento, sem distinguir o contexto iluminista e a função moralizante e cívica."
+      },
+      {
+        "nome_microtema": "Romantismo: subjetividade, nacionalismo e exaltação do sentimento",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Reduzir o Romantismo a 'arte bonita' ou sentimentalismo, ignorando sua dimensão política, histórica e identitária."
+      },
+      {
+        "nome_microtema": "Comparação entre movimentos: ruptura, continuidade e contexto histórico-social",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Tratar os movimentos como etapas lineares e homogêneas, sem considerar permanências, transições e disputas de valores."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "O ENEM costuma cobrar esses movimentos por meio de imagens de obras, trechos de crítica de arte, textos históricos ou comparações entre estilos. A questão geralmente exige reconhecer a relação entre forma, função social e contexto histórico, evitando respostas baseadas apenas em aparência visual. A armadilha mais comum é um distrator que descreve corretamente um traço formal, mas o associa ao movimento errado ou a uma interpretação histórica simplificada.",
+      "palavras_gatilho": [
+        "humanismo",
+        "perspectiva",
+        "chiaroscuro",
+        "dramaticidade",
+        "ornamentação",
+        "iluminismo",
+        "ordem clássica",
+        "subjetividade",
+        "nacionalismo",
+        "sentimento",
+        "contexto histórico",
+        "função social",
+        "ruptura",
+        "continuidade"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Arte Moderna E Vanguardas": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Influência das vanguardas europeias e identificação de movimento artístico",
+        "ids_questoes": [
+          "enem_enem2017_1dia_21_25",
+          "enem_enem2017_1dia_45_49",
+          "enem_enem2016-2_2dia_131_40"
+        ],
+        "peso_percentual": 33,
+        "armadilha_favorita": "O INEP mistura características próximas entre movimentos (Expressionismo, Cubismo, Futurismo, Surrealismo) para induzir o candidato a reconhecer apenas traços visuais soltos, sem relacioná-los ao projeto estético e histórico da vanguarda correta."
+      },
+      {
+        "nome_microtema": "Relação entre arte moderna, primitivismo e apropriação de referências não ocidentais",
+        "ids_questoes": [
+          "enem_enem2016-2_2dia_100_9",
+          "enem_enem2015_2dia_116_25"
+        ],
+        "peso_percentual": 22,
+        "armadilha_favorita": "A banca usa obras modernistas com referências africanas para confundir entre 'inspiração formal' e 'cópia cultural', levando o candidato a responder pela aparência da imagem em vez de perceber a síntese, a estilização e a ruptura com o academicismo."
+      },
+      {
+        "nome_microtema": "Arte contemporânea, apropriação e diálogo paródico com a tradição",
+        "ids_questoes": [
+          "enem_enem2023-2_1dia_12_16",
+          "enem_enem2016-2_2dia_124_33",
+          "enem_enem2017_1dia_45_49"
+        ],
+        "peso_percentual": 33,
+        "armadilha_favorita": "O INEP costuma apresentar obras que reutilizam imagens, materiais ou objetos do cotidiano para confundir o estudante entre mera colagem/reciclagem e uma operação crítica mais ampla, como paródia, releitura, deslocamento de sentido e diálogo com a Pop Art e os ready-mades."
+      },
+      {
+        "nome_microtema": "Corpo, subjetividade e ruptura com o ideal acadêmico de beleza",
+        "ids_questoes": [
+          "enem_enem2021_1dia_vs4_12_16",
+          "enem_enem2015_2dia_135_44"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "A banca explora obras que tratam do corpo de modo não idealizado para induzir respostas ligadas ao belo clássico, à sensualização genérica ou à descrição formal, quando a habilidade exigida é reconhecer crítica ao padrão acadêmico e valorização da experiência concreta do corpo."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio e imagens de obras, com foco em leitura de linguagem visual, relação obra-contexto histórico e identificação de procedimentos estéticos das vanguardas e da arte moderna/contemporânea",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "a obra remete",
+        "sinaliza",
+        "estabelece um diálogo",
+        "ruptura",
+        "caracteriza-se por",
+        "intencionalidade do artista"
+      ]
+    },
+    "total_questoes_analisadas": 9,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2021_1dia_vs4_12_16",
+        "materia": "Artes",
+        "assunto": "Pop Art e corpo feminino",
+        "banca": "INEP",
+        "ano": 2021,
+        "texto_auxiliar": "LICHTENSTEIN, R. Garota com bola. Óleo sobre tela, 153 cm x 91,9 cm. Museu de Arte Moderna de Nova York, 1961. Disponível em: www.moma.org. Acesso em: 4 dez. 2018.",
+        "enunciado": "A obra, da década de 1960, pertencente ao movimento artístico Pop Art, explora a beleza e a sensualidade do corpo feminino em uma situação de divertimento. Historicamente, a sociedade inventou e continua reinventando o corpo como objeto de intervenções sociais, buscando atender aos valores e costumes de cada época. Na reprodução desses preceitos, a erotização do corpo feminino tem sido constituída pela",
+        "alternativas": {
+          "A": "realização de exercícios físicos sistemáticos e excessivos.",
+          "B": "utilização de medicamentos e produtos estéticos.",
+          "C": "educação do gesto, da vontade e do comportamento.",
+          "D": "construção de espaços para vivência de práticas corporais.",
+          "E": "promoção de novas experiências de movimento humano no lazer."
+        },
+        "gabarito": "C",
+        "comentario": "O corpo é resultado de pressão social, tanto que sua representação é construída socialmente. Essa construção se dá por meio do gesto, da vontade e do comportamento, como representado na imagem 'Garota com bola', construída historicamente, atendendo 'aos valores e costumes de cada época'."
+      },
+      {
+        "id": "enem_enem2023-2_1dia_12_16",
+        "materia": "Artes",
+        "assunto": "Arte contemporânea e renascentista",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "TEXTO I\n\nVIK MUNIZ. Segundo Warhol: dupla Mona Lisa. Fotografia da composição realizada com geleia e pasta de amendoim, MAC Lima, Peru, 1999.\nDisponível em: www.artnet.com. Acesso em: 1 nov. 2022.\n\nTEXTO II\n\nARCIMBOLDO, G. Vertumnus (Imperador Rodolfo II). Óleo sobre painel de madeira, 70 x 57 cm. Castelo Skokloster, Suécia. circa 1590.\nDisponível em: www.aventurasnahistoria.uol.com.br. Acesso em: 16 fev. 2023.",
+        "enunciado": "Produzidas com mais de 400 anos de diferença, as obras de Vik Muniz e Giuseppe Arcimboldo têm em comum a referência a alimentos. Contudo, enquanto na obra de Arcimboldo os alimentos fazem parte de um jogo de representação, em Muniz, são empregados como matéria-prima, sinalizando uma",
+        "alternativas": {
+          "A": "composição minimalista em contraposição aos excessos do Barroco.",
+          "B": "forma de questionar a importância do cânone na pintura de Leonardo Da Vinci.",
+          "C": "provocação sobre as mudanças de hábitos alimentares com o passar dos séculos.",
+          "D": "intenção parodística, estabelecendo um diálogo entre a Pop Art e a tradição.",
+          "E": "reafirmação da estética renascentista revisitada pela contemporaneidade."
+        },
+        "gabarito": "D",
+        "comentario": "Vik Muniz, na Pop Art (1999), utiliza como matéria-prima geleia e pasta de amendoim na reconstrução da Mona Lisa, parodiando um quadro de Giuseppe Arcimboldo (c. 1590) em que o imperador Rodolfo II, da Suécia, é todo construído com alimentos. Dessa forma se estabelece um diálogo entre os dois movimentos artísticos, mesmo que distantes no tempo."
+      },
+      {
+        "id": "enem_enem2017_1dia_21_25",
+        "materia": "Artes",
+        "assunto": "Expressionismo",
+        "banca": "INEP",
+        "ano": "2017",
+        "texto_auxiliar": "TEXTO I: GOELDI. O. Sem título. Bico de pena, 29,4 x 24 cm. Coleção Ary Ferreira Macedo, circa 1940. Disponível em: http://revistacontemporartes.blogspot.com.br. Acesso em: 10 dez. 2012.\nTEXTO II: Na sua produção, Goeldi buscou refletir seu caminho pessoal e político, sua melancolia e paixão sobre os intensos aspectos mais latentes em sua obra, como: cidades, peixes, urubus, caveiras, abandono, solidão, drama e medo. ZULIETTI, L. F. Goeldi: da melancolia ao inevitável. Revista de Arte, Mídia e Política. Acesso em: 24 abr. 2017 (adaptado).",
+        "enunciado": "O gravador Oswaldo Goeldi recebeu fortes influências de um movimento artístico europeu do início do século XX, que apresenta as características reveladas nos traços da obra de",
+        "alternativas": {
+          "A": "Alfred Kubin, representante do Expressionismo. Sonho e desarranjo, Alfred Kubin.",
+          "B": "Henri Matisse, representante do Fauvismo. Bailarina deitada, Henri Matisse",
+          "C": "Diego Rivera, representante do Muralismo. Mineiro, Diego Rivera.",
+          "D": "Pablo Picasso, representante do Cubismo. Retrato de Igor Stravinsky, Pablo Picasso.",
+          "E": "René Magritte, representante do Surrealismo. Os amantes, René Magritte."
+        },
+        "gabarito": "A",
+        "comentario": "O texto II, ao referir-se à imagem do texto I, destaca a preocupação de Goeldi em refletir na sua arte a realidade de forma patética e deformada, características do Expressionismo."
+      },
+      {
+        "id": "enem_enem2017_1dia_45_49",
+        "materia": "Artes",
+        "assunto": "Arte contemporânea - ready-made",
+        "banca": "INEP",
+        "ano": "2017",
+        "texto_auxiliar": "TEXTO I: RAUSCHENBERG. R. Cama. Óleo e lápis em travesseiro, colcha e folha em suporte de madeira. 191,1 x 80 x 20,3 cm. Museu de Arte Moderna de Nova York. 1995. Disponível em: www.moma.org. Acesso em: 8 Jun 2017.\n\nTEXTO II: No verão de 1954, o artista Robert Rauschenberg (n. 1925) criou o termo combine para se referir a suas novas obras que possuíam aspectos tanto da pintura como da escultura. Em 1958, Cama foi selecionada para ser incluída em uma exposição de jovens artistas americanos e italianos no Festival dos Dois Mundos em Spoleto, na Itália. Os responsáveis pelo festival, entretanto, se recusaram a expor a obra e a removeram para um depósito. Embora o mundo da arte debatesse a inovação de se pendurar uma cama numa parede, Rauschenberg considerava sua obra \"um dos quadros mais acolhedores que já pintei, mas sempre tive medo de que ninguém quisesse se enfiar nela\". DEMPSEY. A. Estilos, escolas e movimentos: guia enciclopédico da arte moderna. São Paulo: Cosac & Naify. 2003.",
+        "enunciado": "A obra de Rauschenberg chocou o público na época em que foi feita e recebeu forte influência de um movimento artístico que se caracterizava pela",
+        "alternativas": {
+          "A": "dissolução das tonalidades e dos contornos, revelando uma produção rápida.",
+          "B": "exploração insólita de elementos do cotidiano, dialogando com os ready-mades.",
+          "C": "repetição exaustiva de elementos visuais, levando à simplificação máxima da composição.",
+          "D": "incorporação das transformações tecnológicas, valorizando o dinamismo da vida moderna.",
+          "E": "geometrização das formas, diluindo os detalhes sem se preocupar com a fidelidade ao real."
+        },
+        "gabarito": "B",
+        "comentario": "Rauschenberg deslocou a cama do uso cotidiano para ressignificá-la, tanto insólita quanto artisticamente. Trata-se de um procedimento criado pelos dadaístas e que ficou consagrado como ready-made."
+      },
+      {
+        "id": "enem_enem2016-2_2dia_100_9",
+        "materia": "Artes",
+        "assunto": "Cubismo e Primitivismo",
+        "banca": "INEP",
+        "ano": "2016",
+        "texto_auxiliar": "PICASSO, P. Les desmoiselles d’Avignon . Óleo sobre tela, 243,9 x 233,7 cm. Museu de Arte Moderna, Nova Iorque, 1907. Disponível em: www.moma.org. Acesso em: 13 set. 2012.",
+        "enunciado": "A obra Les desmoiselles d’Avignon , do pintor espanhol Pablo Picasso, é um dos marcos iniciais do movimento cubista. Essa obra filia-se também ao Primitivismo, uma vez que sua composição recorre à manifestação cultural de um determinado grupo étnico, que se caracteriza por",
+        "alternativas": {
+          "A": "produção de máscaras ritualísticas africanas.",
+          "B": "rituais de fertilidade das comunidades celtas.",
+          "C": "festas profanas dos povos mediterrâneos.",
+          "D": "culto à nudez de populações aborígenes.",
+          "E": "danças ciganas do sul da Espanha."
+        },
+        "gabarito": "A",
+        "comentario": "O quadro cubista Les desmoiselles d’Avignor , de Pablo Picasso, apresenta nítida influência do Primitivismo ao incorporar elementos estéticos provenientes da África, como as máscaras ritualísticas daquele continente, que aparecem nas duas figuras femininas posicionadas no lado direito da obra."
+      },
+      {
+        "id": "enem_enem2016-2_2dia_124_33",
+        "materia": "Artes",
+        "assunto": "Técnicas artísticas contemporâneas",
+        "banca": "INEP",
+        "ano": "2016",
+        "texto_auxiliar": "ROTELLA, M. Marilyn , 1962. Disponível em: wvvw.nyu.edu. Acesso em: 30 maio 2016.",
+        "enunciado": "A técnica da décollage , utilizada pelo artista Mimmo Rotella em sua obra Marilyn , é um procedimento artístico representativo da década de 1960 por",
+        "alternativas": {
+          "A": "visar a conservação das representações e dos registros visuais.",
+          "B": "basear-se na reciclagem de material gráfico, contribuindo para a sustentabilidade.",
+          "C": "encobrir o passado, abrindo caminho para novas formas plásticas, pela releitura.",
+          "D": "fazer conviver campos de expressão diferentes e integrar novos significados.",
+          "E": "abolir o trabalho manual do artista na confecção das imagens recontextualizadas."
+        },
+        "gabarito": "D",
+        "comentario": "O princípio da décollage é a criação de uma obra de arte por meio do recorte de materiais diferentes posteriormente colados sobre telas, resultando em uma imagem original composta por partes de outras já existentes, integrando, assim, diferentes elementos em novas significações."
+      },
+      {
+        "id": "enem_enem2016-2_2dia_131_40",
+        "materia": "Artes",
+        "assunto": "Vanguardas Europeias - Futurismo",
+        "banca": "INEP",
+        "ano": 2016,
+        "texto_auxiliar": "TEXTO I\nSEVERINI, G. A hieroglífica dinâmica do Bal Tabarin. Óleo sobre tela, 161,6 x 156,2 cm. Museu de Arte Moderna, Nova Iorque, 1912. Disponível em: www.moma.org. Acesso em: 18 maio 2013.\n\nTEXTO II\nA existência dos homens criadores modernos é muito mais condensada e mais complicada do que a das pessoas dos séculos precedentes. A coisa representada, por imagem, fica menos fixa, o objeto em si mesmo se expõe menos do que antes. Uma paisagem rasgada por um automóvel, ou por um trem, perde em valor descritivo, mas ganha em valor sintético. O homem moderno registra cem vezes mais impressões do que o artista do século XVIII.\nLEGÉR, F. Funções da pintura. São Paulo: Nobel, 1989.",
+        "enunciado": "A vanguarda europeia, evidenciada pela obra e pelo texto, expressa os ideais e a estética do",
+        "alternativas": {
+          "A": "Cubismo, que questionava o uso da perspectiva por meio da fragmentação geométrica.",
+          "B": "Expressionismo alemão, que criticava a arte acadêmica, usando a deformação das figuras.",
+          "C": "Dadaísmo, que rejeitava a instituição artística, propondo a antiarte.",
+          "D": "Futurismo, que propunha uma nova estética, baseada nos valores da vida moderna.",
+          "E": "Neoplasticismo, que buscava o equilíbrio plástico, com utilização da direção horizontal e vertical."
+        },
+        "gabarito": "D",
+        "comentario": "O texto de F. Legér refere-se à 'paisagem rasgada por um automóvel ou por um trem' e ao 'homem moderno que registra cem vezes mais impressões do que o artista do século XVIII'. A valorização do dinamismo e da velocidade no mundo moderno encontram correspondência na pintura 'A hieroglífica dinâmica do Bal Tabarin'. O pintor G. Severini escolheu a forma da bailarina para expressar a vanguarda futurista."
+      },
+      {
+        "id": "enem_enem2015_2dia_116_25",
+        "materia": "Artes",
+        "assunto": "Arte africana e vanguardas europeias",
+        "banca": "INEP",
+        "ano": "2015",
+        "texto_auxiliar": "Máscara senufo, Mati. Madeira e fibra vegetal. Acervo do MAE/USP.",
+        "enunciado": "As formas plásticas nas produções africanas conduziram artistas modernos do início do século XX, como Pablo Picasso, a algumas proposições artísticas denominadas vanguardas. A máscara remete à",
+        "alternativas": {
+          "A": "preservação da proporção.",
+          "B": "idealização do movimento.",
+          "C": "estruturação assimétrica.",
+          "D": "sintetização das formas.",
+          "E": "valorização estética."
+        },
+        "gabarito": "D",
+        "comentario": "A vanguarda europeia também se inspirou na arte africana, retomando a síntese e a expressividade de formas da arte tribal."
+      },
+      {
+        "id": "enem_enem2015_2dia_135_44",
+        "materia": "Artes",
+        "assunto": "Arte contemporânea",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "Texto I: [IMAGEM OMITIDA]\nTexto II: Lucian Freud é, como ele próprio gosta de relembrar às pessoas, um biólogo. Mais propriamente, tem querido registrar verdades muito específicas sobre como é tomar posse deste determinado corpo nesta situação particular, neste específico espaço de tempo.\nSMEE, S. Freud Koin: Taschen, 2010.",
+        "enunciado": "Considerando a intencionalidade do artista, mencionada no Texto II, e a ruptura da arte no século XX com o parâmetro acadêmico, a obra apresentada trata do(a)",
+        "alternativas": {
+          "A": "exaltação da figura masculina.",
+          "B": "descrição precisa e idealizada da forma.",
+          "C": "arranjo simétrico e proporcional dos elementos.",
+          "D": "representação do padrão do belo contemporâneo.",
+          "E": "fidelidade à forma realista isenta do ideal de perfeição."
+        },
+        "gabarito": "E",
+        "comentario": "Conforme a definição que Lucian Freud apresenta de si mesmo, fica evidente a preocupação com a reprodução fiel à verdade, tal como a pintura de Francis Wyndham."
+      }
+    ]
+  },
+  "Arte Contemporânea E Mídias Digitais": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Releitura, apropriação e ressignificação de imagens/objetos na arte contemporânea",
+        "ids_questoes": [
+          "enem_enem2019_1dia_32_36",
+          "enem_enem2021_1dia_vs4_23_27",
+          "enem_enem2022-2_1dia_36_40",
+          "enem_enem2016-2_2dia_120_29"
+        ],
+        "peso_percentual": 57,
+        "armadilha_favorita": "O INEP costuma induzir o candidato a ler a obra como mera cópia, decoração ou uso de materiais inusitados. A resposta correta, porém, exige perceber a mudança de função, o deslocamento de sentido e a crítica/ressignificação do objeto ou da imagem, e não apenas identificar o material empregado."
+      },
+      {
+        "nome_microtema": "Instalação, performance e participação do público",
+        "ids_questoes": [
+          "enem_enem2017_1dia_37_41",
+          "enem_enem2015_2dia_118_27"
+        ],
+        "peso_percentual": 29,
+        "armadilha_favorita": "A banca frequentemente confunde o candidato ao sugerir que a obra é só uma encenação, um evento museológico ou uma atividade educativa. O foco, no entanto, está na interação, na presença do corpo, na experiência do espectador e na quebra da passividade tradicional da fruição artística."
+      },
+      {
+        "nome_microtema": "Arte contemporânea em contexto de globalização, circulação e novas mídias",
+        "ids_questoes": [
+          "enem_enem2020_digital_1dia_37_36"
+        ],
+        "peso_percentual": 14,
+        "armadilha_favorita": "O INEP pode levar o estudante a associar a obra apenas à paisagem natural ou à estética do ambiente. A habilidade cobrada é compreender a Land Art como intervenção que transforma o espaço em obra, articulando território, circulação da arte e deslocamento do objeto artístico para fora do museu."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio, imagens de obras e leitura de movimentos da arte contemporânea a partir de função, contexto e recepção",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "a originalidade reside",
+        "denota o(a)",
+        "caracteriza-se pela",
+        "faz parte do movimento artístico",
+        "explorando como principal característica"
+      ]
+    },
+    "total_questoes_analisadas": 7,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2019_1dia_32_36",
+        "materia": "Artes",
+        "assunto": "Arte contemporânea",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "TEXTO I\nFotografia de Jackson Pollock pintando em seu ateliê, realizada por Hans Namuth em 1951.\nCHIPP, H. Teorias da arte moderna . São Paulo: Martins Fontes, 1988.\nTEXTO II\nMUNIZ, V . Action Photo (segundo Hans Namuth em Pictures in Chocolate). Impressão fotográfica, 152,4 cm x 121,92 cm, The Museum of Modern Art, Nova lorque, 1977. \nNEVES, A. História da arte 4 . Vitória: Ufes-Nead, 2011.",
+        "enunciado": "Utilizando chocolate derretido como matéria-prima, essa obra de Vick Muniz reproduz a célebre fotografia do processo de criação de Jackson Pollock. A originalidade dessa releitura reside na",
+        "alternativas": {
+          "A": "apropriação parodística das técnicas e materiais utilizados.",
+          "B": "reflexão acerca dos sistemas de circulação da arte.",
+          "C": "simplificação dos traços da composição pictórica.",
+          "D": "contraposição de linguagens artísticas distintas.",
+          "E": "crítica ao advento do abstracionismo."
+        },
+        "gabarito": "A",
+        "comentario": "Vick Muniz reproduz a fotografia de Jackson Pollock, produzindo uma tela com tinta, empregando como matéria-prima chocolate derretido e, assim, faz uma releitura da obra original, numa nova interpretação parodística."
+      },
+      {
+        "id": "enem_enem2020_digital_1dia_37_36",
+        "materia": "Artes",
+        "assunto": "Land Art",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "DE MARIA, W. Campo relampejante, 1977. Disponível em: www.ballardian.com. Acesso em: 12 jun. 2018.",
+        "enunciado": "Na obra Campo relampejante (1977), o artista Walter de Maria coloca hastes de ferro em espaços regulares, em um campo de 1600 metros quadrados no Novo México. O trabalho faz parte do movimento artístico Land Art, que trata da",
+        "alternativas": {
+          "A": "constituição da cena artística marcada pela paisagem natural, modificada pela multimídia.",
+          "B": "ocupação de um local vazio sem função específica, passando a existir como arte.",
+          "C": "utilização de equipamentos tradicionais como suporte para a atividade artística.",
+          "D": "divulgação de fenômenos científicos que dialogam com a estética da arte.",
+          "E": "exposição da obra em locais naturais e institucionais abertos ao público."
+        },
+        "gabarito": "B",
+        "comentario": "Walter de Maria, para criar Campo relampejante, valeu-se de uma área aberta, na qual instalou hastes de ferro que, ao atraírem os raios de uma tempestade, originam uma criação artística única."
+      },
+      {
+        "id": "enem_enem2021_1dia_vs4_23_27",
+        "materia": "Artes",
+        "assunto": "Arte contemporânea e reciclagem",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "TEXTO I: HAZOUMÉ, R. Nanawax. Plástico e tecido. Galerie Gagosian, 2009. Disponível em: www.actuar.org. Acesso em 19 jun. 2019\nTEXTO II: As máscaras não foram feitas para serem usadas; elas se concentram apenas nas possibilidades antropomórficas dos recipientes plásticos descartados e, ao mesmo tempo, chamam a atenção para a quantidade de lixo que se acumula em quase todas as cidades ou aldeias africanas. FARTHING. S. Tudo sobre arte. Rio de Janeiro: Sextante, 2011 (adaptado).",
+        "enunciado": "Romuald Hazoumé costuma dizer que sua obra apenas manda de volta ao oeste o refugo de uma sociedade de consumo cada vez mais invasiva. A obra desse artista africano que vive no Benin denota o(a)",
+        "alternativas": {
+          "A": "empobrecimento do valor artístico pela combinação de diferentes matérias-primas.",
+          "B": "reposicionamento estético de objetos por meio da mudança de função.",
+          "C": "convite aos espectadores para interagir e completar obras inacabadas.",
+          "D": "militância com temas da ecologia que marcam o continente africano.",
+          "E": "realidade precária de suas condições de produção artística."
+        },
+        "gabarito": "B",
+        "comentario": "Ao utilizar materiais descartados como lixo, para criar obras artísticas que representam máscaras, o artista plástico Romuald Hazoumé ressignifica esses materiais, dando-lhes uma nova função, nesse caso, estética, para criticar o consumo e o descarte do lixo."
+      },
+      {
+        "id": "enem_enem2022-2_1dia_36_40",
+        "materia": "Artes",
+        "assunto": "Arte contemporânea e globalização",
+        "banca": "INEP",
+        "ano": 2022,
+        "texto_auxiliar": "GUPTA, S. Booth B20 Thing (Coisa). Aço inoxidável e ferro, 95 cm x 120 cm x 42 cm, Feira de Arte de Frieze, 2005. Disponível em: https://art-sheep.com. Acesso em: 28 jun. 2022 (adaptado).",
+        "enunciado": "O ano de 2005 foi importante para a arte indiana em razão das novas conjunções entre a globalização e a economia do país. Mudanças geopolíticas e a evolução dos meios de comunicação intensificaram as trocas artísticas e a projeção dessa cultura, que pôde",
+        "alternativas": {
+          "A": "trabalhar com novas mídias, instalações e performances.",
+          "B": "modificar a arte contemporânea com objetos extraídos do cotidiano.",
+          "C": "enfatizar a pintura e a escultura com a desmaterialização do objeto.",
+          "D": "apresentar um novo conceito de uso das formas e materiais naturais.",
+          "E": "retratar imagens múltiplas que expressam a agitação da modernidade."
+        },
+        "gabarito": "A",
+        "comentario": "Segundo o texto, “mudanças geopolíticas e a evolução dos meios de comunicação” favoreceram a arte indiana por ampliar sua visibilidade. Essa nova perspectiva é exemplificada pelo artista, celebrado internacionalmente, S. Gupta, que utiliza aço inoxidável, ferro e utensílios domésticos como matéria prima de suas produções."
+      },
+      {
+        "id": "enem_enem2017_1dia_37_41",
+        "materia": "Artes",
+        "assunto": "Artes visuais - instalação",
+        "banca": "INEP",
+        "ano": "2017",
+        "texto_auxiliar": "A instalação Dengo transformou a sala do MAM-SP em um ambiente singular, explorando como principal característica artística a",
+        "enunciado": "A instalação Dengo transformou a sala do MAM-SP em um ambiente singular, explorando como principal característica artística a",
+        "alternativas": {
+          "A": "participação do público na interação lúdica com a obra.",
+          "B": "distribuição de obstáculos no espaço da exposição.",
+          "C": "representação simbólica de objetos oníricos.",
+          "D": "interpretação subjetiva da lei da gravidade.",
+          "E": "valorização de técnicas de artesanato."
+        },
+        "gabarito": "A",
+        "comentario": "Dengo, do artista plástico Ernesto Neto, é uma instalação que permite ao público uma interação com os componentes da obra, o que se pode perceber na fotografia apresentada, uma vez que há pessoas se movimentando em meio às peças."
+      },
+      {
+        "id": "enem_enem2016-2_2dia_120_29",
+        "materia": "Artes",
+        "assunto": "Arte contemporânea brasileira",
+        "banca": "INEP",
+        "ano": 2016,
+        "texto_auxiliar": "CASTRO, A. Sem título . Escultura em aço, Minas Gerais, 1990. Disponível em: www.institutoamilcardecastro.com.br. Acesso em: 2 ago. 2013.",
+        "enunciado": "A escultura do artista construtivista Amílcar de Castro é representativa da arte contemporânea brasileira e tem o traço estrutural marcado por elementos como",
+        "alternativas": {
+          "A": "o corte e a dobra.",
+          "B": "a força e a visualidade.",
+          "C": "o adereço e a expressão.",
+          "D": "o rompimento e a inércia.",
+          "E": "a decomposição e a articulação."
+        },
+        "gabarito": "A",
+        "comentario": "Nesta escultura de Amílcar de Castro, conformam-se o traço estrutural, o corte e a dobra. Tais elementos oferecem a essa construção artística um aspecto que remete ao formato do origami."
+      },
+      {
+        "id": "enem_enem2015_2dia_118_27",
+        "materia": "Artes",
+        "assunto": "Performance e arte contemporânea",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "Na exposição “A Artista Está Presente”, no MoMA, em Nova Iorque, a performer Marina Abramovic fez uma retrospectiva de sua carreira. No meio desta, protagonizou uma performance marcante. Em 2010, de 14 de março a 31 de maio, seis dias por semana, num total de 736 horas, ela repetia a mesma postura. Sentada numa sala, recebia os visitantes, um a um, e trocava com cada um deles um longo olhar sem palavras. Ao redor, o público assistia a essas cenas recorrentes.",
+        "enunciado": "O texto apresenta uma obra da artista Marina Abramovic, cuja performance se alinha a tendências contemporâneas e se caracteriza pela",
+        "alternativas": {
+          "A": "inovação de uma proposta de arte relacional que adentra um museu.",
+          "B": "abordagem educacional estabelecida na relação da artista com o público.",
+          "C": "redistribuição do espaço do museu, que integra diversas linguagens artísticas.",
+          "D": "negociação colaborativa de sentidos entre a artista e a pessoa com quem interage.",
+          "E": "aproximação entre artista e público, o que rompe com a elitização dessa forma de arte."
+        },
+        "gabarito": "E",
+        "comentario": "A performer Marina Abramovic apresentou-se no MoMA (Museum of Modern Art), em Nova Iorque. Ela ficava sentada numa sala trocando olhares com seus visitantes. Essa relação próxima entre artista e público possibilita a exploração das percepções sensoriais."
+      }
+    ]
+  },
+  "Patrimônio Cultural E Arte Brasileira": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Leitura de obra de arte e ressignificação de materiais/objetos",
+        "ids_questoes": [
+          "enem_enem2019_1dia_27_31"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Induzir a leitura literal do objeto (touro, bronze, sucata) para marcar reciclagem ou materialidade, quando a habilidade exigida é perceber a mudança de função e o gesto artístico de ressignificação."
+      },
+      {
+        "nome_microtema": "Arte contemporânea e representação de identidades sociais",
+        "ids_questoes": [
+          "enem_enem2023-2_1dia_8_12"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Fazer o candidato associar a imagem apenas ao cotidiano ou ao valor material baixo, sem inferir a dimensão social e identitária da obra, especialmente a experiência das mulheres afro-brasileiras trabalhadoras."
+      },
+      {
+        "nome_microtema": "Intertextualidade estética e aproximações entre vanguardas internacionais e arte brasileira",
+        "ids_questoes": [
+          "enem_enem2023-2_1dia_13_17"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Levar o candidato a escolher obras brasileiras apenas por semelhança formal superficial, ignorando a lógica de signos, fragmentação, grafismo e crítica social que aproxima Basquiat de certas produções modernistas brasileiras."
+      },
+      {
+        "nome_microtema": "Arte como resistência cultural e leitura de releituras visuais",
+        "ids_questoes": [
+          "enem_enem2017_1dia_90_94"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Explorar a palavra 'releitura' para induzir respostas sobre cópia, tradição ou folclore, quando o foco é reconhecer uma poética de resistência e afirmação cultural."
+      },
+      {
+        "nome_microtema": "Colonização, etnocentrismo e apagamento de matrizes culturais",
+        "ids_questoes": [
+          "enem_enem2015_2dia_117_26"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir o estudante com alternativas técnicas (suporte, tecnologia, estética) e fazê-lo ignorar que o texto cobra a compreensão da base antropológica comum entre produções coloniais e indígenas, apesar da assimetria histórica."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio e imagens de obras, com foco em interpretação, inferência e relação entre forma, contexto histórico e função social da arte",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "releitura",
+        "aproximam-se",
+        "mostra",
+        "revela",
+        "por meio da",
+        "inexiste distinção"
+      ]
+    },
+    "total_questoes_analisadas": 5,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2019_1dia_27_31",
+        "materia": "Artes",
+        "assunto": "Arte moderna e contemporânea",
+        "banca": "INEP",
+        "ano": 2019,
+        "texto_auxiliar": "PICASSO, P. Cabeça de touro. Bronze, 33,5 cm x 43,5 cm x 19 cm. Musée Picasso, Paris. França, 1945. JANSON, H. W. Iniciação à história da arte. São Paulo: Martines Fontes, 1988.",
+        "enunciado": "Na obra Cabeça de touro, o material descartado torna-se objeto de arte por meio da",
+        "alternativas": {
+          "A": "reciclagem da matéria-prima original.",
+          "B": "complexidade da combinação de formas abstratas.",
+          "C": "perenidade dos elementos que constituem a escultura.",
+          "D": "mudança da funcionalidade pela integração dos objetos.",
+          "E": "fragmentação da imagem no uso de elementos diversificados."
+        },
+        "gabarito": "D",
+        "comentario": "Na escultura de Picasso, há utilização de partes de uma bicicleta reagrupadas de forma a comporem uma estátua com cabeça de touro. O guidão forma os chifres e a cabeça é produzida a partir do assento."
+      },
+      {
+        "id": "enem_enem2023-2_1dia_8_12",
+        "materia": "Artes",
+        "assunto": "Arte contemporânea e cotidiano",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "PAULINO, R. Bastidores (detalhe). Gravura sobre tecido em suporte de madeira para bordado, 1997. Disponível em: wwwgaleriavirgilio.com.br. Acesso em: 29 out. 2010.",
+        "enunciado": "Sob a perspectiva em que o artista deve trabalhar com as coisas que o tocam profundamente, a singularidade da obra Bastidores, produzida com objetos do cotidiano e de pouco valor material, mostra a boca, que expressa uma",
+        "alternativas": {
+          "A": "situação religiosa afro-brasileira que envolve grande parte da população.",
+          "B": "condição particular da artista, deslocada de um contexto sociocultural.",
+          "C": "situação histórica em que as mulheres ainda bordavam em bastidores.",
+          "D": "condição vivida por parte das mulheres afro-brasileiras trabalhadoras.",
+          "E": "situação que se sugere, mas que não se aplica, a parcelas da população."
+        },
+        "gabarito": "D",
+        "comentario": "A boca marcada com lábios costurados em um bastidor, 'objeto do cotidiano e de pouco valor material', ilustra a situação da mulher negra trabalhadora."
+      },
+      {
+        "id": "enem_enem2023-2_1dia_13_17",
+        "materia": "Artes",
+        "assunto": "Arte contemporânea",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "Basquiat representa uma das classes da sociedade americana às quais as barreiras sociais impedem, geralmente, o acesso à arte. Os seus quadros, objetos pictóricos e desenhos apresentam-se cheios de sinais, transcrições de textos e elementos figurativos, encadeados em ritmos pictóricos de uma precisão empolgante — um misto de pintura gráfica, símbolos populares americanos, gírias de rua e alusões a obras de arte famosas. HONNEF, K. Arte contemporânea. São Paulo: 1994 (adaptado).",
+        "enunciado": "As características pictóricas das obras de Basquiat apresentadas no texto aproximam-se das que encontramos no Brasil no",
+        "alternativas": {
+          "A": "conjunto de azulejos da arte barroca.",
+          "B": "óleo sobre tela A Batalha do Riachuelo, do artista Victor Meirelles.",
+          "C": "painel de pastilhas do mural de rua Imprensa, do artista modernista Di Cavalcanti, localizado na cidade de São Paulo.",
+          "D": "óleo sobre tela intitulado Abaporu, da artista modernista Tarsila do Amaral, em São Paulo.",
+          "E": "óleo sobre tela do artista modernista Alfredo Volpi."
+        },
+        "gabarito": "C",
+        "comentario": "Questão ruim, que não mede o conhecimento do aluno, por ser absurda. Primeiro porque não são reproduzidas as obras dos artistas mencionados nas alternativas, segundo porque nenhum dos autores mencionados produz obra subversiva como a de Basquiat, que inicia sua carreira fazendo arte de rua, grafite, criticando a desigualdade social, o racismo, o consumismo, utilizando temas do cotidiano. Sua obra foi de arte de rua para os museus. A única longínqua similaridade que se pode mencionar entre Basquiat e possivelmente Di Cavalcanti é o mural de rua Imprensa, por ser arte feita na rua."
+      },
+      {
+        "id": "enem_enem2017_1dia_90_94",
+        "materia": "Artes",
+        "assunto": "Arte brasileira e resistência cultural",
+        "banca": "INEP",
+        "ano": 2017,
+        "texto_auxiliar": "Elaborada em 1969, a releitura contida na Figura 2 revela aspectos de uma trajetória e obra dedicada à",
+        "enunciado": "Elaborada em 1969, a releitura contida na Figura 2 revela aspectos de uma trajetória e obra dedicada à",
+        "alternativas": {
+          "A": "valorização de uma representação tradicional da mulher.",
+          "B": "descaracterização de referências do folclore nordestino.",
+          "C": "fusão de elementos brasileiros à moda da Europa.",
+          "D": "massificação do consumo de uma arte local.",
+          "E": "criação de uma estética de resistência."
+        },
+        "gabarito": "E",
+        "comentario": "Zuzu Angel se inspirou em Maria Bonita, personagem do cangaço brasileiro para criar um modelo estético e desafiador do regime militar. Convém lembrar que Stuart Edgard, filho de Zuzu, militou politicamente na esquerda e desapareceu durante o regime militar."
+      },
+      {
+        "id": "enem_enem2015_2dia_117_26",
+        "materia": "Artes",
+        "assunto": "Arte e cultura",
+        "banca": "INEP",
+        "ano": "2015",
+        "texto_auxiliar": "Ao se apossarem do novo território, os europeus ignoraram um universo de antiga sabedoria, povoado por homens e bens unidos por um sistema integrado. A recusa em se inteirar dos valores culturais dos primeiros habitantes levou-os a uma descrição simplista desses grupos e à sua sucessiva destruição. Na verdade, não existe uma distinção entre a nossa arte e aquela produzida por povos tecnicamente menos desenvolvidos. As duas manifestações devem ser encaradas como expressões diferentes dos modos de sentir e pensar das várias sociedades, mas também como equivalentes, por resultarem de impulsos humanos comuns. SCATAMACHIA, M. C. M. In: AGUILAR, N. (Org.). Mostra do redescobrimento: arqueologia. São Paulo: Fundação Bienal de São Paulo – Associação Brasil 500 anos artes visuais, 2000.",
+        "enunciado": "De acordo com o texto, inexiste distinção entre as artes produzidas pelos colonizadores e pelos colonizados, pois ambas compartilham o(a)",
+        "alternativas": {
+          "A": "suporte artístico.",
+          "B": "nível tecnológico.",
+          "C": "base antropológica.",
+          "D": "concepção estética.",
+          "E": "referencial temático."
+        },
+        "gabarito": "C",
+        "comentario": "Segundo o texto, a arte dos povos considerados mais e menos desenvolvidos resulta “de impulsos humanos comuns”, ou seja, ele tem origem em uma mesma base antropológica."
+      }
+    ]
+  },
+  "Elementos Visuais, Cênicos E Musicais": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Elementos básicos da linguagem visual: gênese da linha a partir do movimento do ponto",
+        "ids_questoes": [
+          "enem_enem2023-2_1dia_40_44"
+        ],
+        "peso_percentual": 100,
+        "armadilha_favorita": "O INEP tende a induzir o candidato a confundir a linha com outros elementos plásticos presentes na obra (textura, mancha, cor ou plano), levando-o a responder pela aparência do desenho em vez de reconhecer o princípio formal pedido: a linha como resultado do deslocamento do ponto.",
+        "fingerprint_banca": "A banca contextualiza o conteúdo em obras de arte ou imagens autorais, cobrando leitura dos elementos visuais e compreensão conceitual da linguagem artística. O padrão de distratores costuma explorar termos próximos do vocabulário das artes visuais, mas que não correspondem à relação estrutural solicitada no enunciado."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "conclui-se que",
+        "exemplifica"
+      ]
+    },
+    "total_questoes_analisadas": 1,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2023-2_1dia_40_44",
+        "materia": "Artes",
+        "assunto": "Elementos da linguagem visual",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "KANDINSKY, W. Sem título (desenho para o Diagrama 17). Nanquim sobre papel. 28,4 cm x 36cm. Museu de Arte Mount Holyoke College, South Hadley. 1925. Disponível em: https://artmuseum.mtholyoke.edu/object/untitled-drawing-diagram-17.",
+        "enunciado": "O artista Wassily Kandinsky apresenta, em sua produção, aspectos formais relacionados aos elementos fundamentais da linguagem visual, que comprovam que a linha é criada a partir do(a)",
+        "alternativas": {
+          "A": "movimento do ponto.",
+          "B": "criação da textura sobre o plano.",
+          "C": "cor aplicada sobre a superfície.",
+          "D": "mancha na relação formal.",
+          "E": "plano visual sobre o volume."
+        },
+        "gabarito": "A",
+        "comentario": "A linha surge da movimentação do ponto na superfície do papel. Há, portanto, dois aspectos formais relacionados aos elementos fundamentais da linguagem visual."
+      }
+    ]
+  }
+}

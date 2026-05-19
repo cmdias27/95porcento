@@ -1,0 +1,499 @@
+{
+  "Direito Internacional Público: Fontes E Tratados": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Competência internacional da jurisdição brasileira por fato ocorrido no Brasil e domicílio/elemento de conexão da vítima",
+        "ids_questoes": [
+          "oab_39_22"
+        ],
+        "peso_percentual": 55,
+        "armadilha_favorita": "A FGV costuma induzir o candidato a achar que a nacionalidade da vítima ou a nacionalidade da empresa ré define a competência, quando o ponto decisivo é o fato ter ocorrido em território nacional, atraindo a jurisdição brasileira."
+      },
+      {
+        "nome_microtema": "Artigo 3º comum às Convenções de Genebra: aplicação aos conflitos armados não internacionais e garantias humanitárias mínimas",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_18"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "A pegadinha clássica é confundir o Art. 3º comum com regras de conflito armado internacional, como cessar-fogo obrigatório, atuação do Conselho de Segurança ou criação de tribunal específico, quando ele trata justamente de conflitos sem caráter internacional e de proteção humanitária mínima."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com caso concreto e escolha da norma aplicável a partir de um único elemento de conexão ou de uma regra humanitária específica",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "sobre a hipótese apresentada",
+        "em comum às quatro Convenções",
+        "segundo o direito brasileiro"
+      ],
+      "padrao_distratores": "alternativas juridicamente plausíveis que trocam o critério central da incidência: nacionalidade da parte em vez do local do fato, ou regras de guerra internacional em vez do regime mínimo do conflito armado não internacional"
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "oab_39_22",
+        "materia": "Direito Internacional",
+        "assunto": "Competência da Justiça Brasileira em acidente aéreo",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 53, V do CPC.",
+        "enunciado": "Um jato privado, de propriedade de empresa inglesa, causou um acidente ao colidir com uma aeronave comercial brasileira em território nacional, provocando várias mortes, entre passageiros e tripulantes. A família de uma das vítimas brasileiras propõe uma ação contra a empresa inglesa no Brasil, formulando pedido de reparação por danos materiais e morais. A empresa ré alega que a competência para julgar o caso é da justiça inglesa. Sobre a hipótese apresentada, segundo o direito brasileiro, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O acidente ocorreu no Brasil e, assim, a justiça brasileira é competente para julgá-lo.",
+          "B": "A ré é uma empresa estrangeira que não opera no Brasil, o que impede a justiça brasileira de julgar o caso.",
+          "C": "A justiça brasileira é competente para julgar o caso, porque a vítima é brasileira.",
+          "D": "O caso deve ser remetido por carta rogatória à justiça inglesa, a quem cabe julgá-lo."
+        },
+        "gabarito": "A",
+        "comentario": "O art. 53, V do CPC estabelece que é competente o foro do local do fato ou do domicílio do autor para a ação de reparação de dano sofrido em razão de acidente de veículos, inclusive aeronaves. Como o acidente ocorreu em território nacional, a justiça brasileira é competente, independentemente da nacionalidade da vítima ou da ré."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_18",
+        "materia": "Direito Internacional",
+        "assunto": "Convenções de Genebra - Art. 3º comum",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Os conflitos armados, infelizmente, são uma realidade que afeta diferentes países. As quatro Convenções de Genebra de 1949 conformam a base do Direito Internacional Humanitário. Em comum às quatro Convenções está o Art. 3º que, entre outros dispositivos, determina o tratamento humano para todos os indivíduos em poder do inimigo, sem nenhuma distinção adversa. Proíbe, especialmente, os assassinatos, as mutilações, as torturas e os tratamentos cruéis, humilhantes e degradantes, a tomada de reféns e os julgamentos parciais. Sobre esse artigo, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Abrange também as situações de conflito armado sem caráter internacional e que surjam no território de um Estado-parte da Convenção.",
+          "B": "Determina a obrigatoriedade de cessar-fogo, no caso de início de uma rodada de negociações para a busca de solução não armada do conflito.",
+          "C": "Atribui ao Conselho de Segurança da ONU a competência para julgar a legitimidade da guerra e as eventuais sanções a serem impostas às partes do conflito.",
+          "D": "Prevê a instituição de um tribunal específico para o julgamento de acusados de terem cometido crimes de guerra pela Assembleia-Geral das Nações Unidas."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão tratou sobre as Convenções de Genebra de 1949, destinadas a proteger as vítimas de guerra, promulgadas pelo Decreto n.º 42.121/1957, de modo que a letra A corresponde a única alternativa correta, conforme o artigo 3º: “Artigo 3º No caso de conflito armado sem caráter internacional e que surja no território de uma das Altas Partes Contratantes, cada uma das Partes em luta será obrigada a aplicar pelo menos, as seguintes disposições”. As alternativas B, C e D estão incorretas, conforme comentário à alternativa A."
+      }
+    ]
+  },
+  "Sujeitos De Direito Internacional E Órgãos": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Atos de representação consular e ausência de controle jurisdicional sobre concessão de visto",
+        "ids_questoes": [
+          "oab_38_21"
+        ],
+        "peso_percentual": 55,
+        "armadilha_favorita": "Fazer o candidato confundir a negativa de visto por autoridade consular estrangeira com ato passível de mandado de segurança ou outra ação no Brasil. A FGV explora a ideia de que, embora haja lesão concreta ao interessado, não há medida judicial cabível perante o Judiciário brasileiro para rever ato discricionário de Estado estrangeiro praticado por sua representação consular."
+      },
+      {
+        "nome_microtema": "Pessoa jurídica estrangeira: abertura de filial no Brasil e necessidade de autorização do Poder Executivo",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_22"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "Confundir a simples existência regular da entidade no exterior com a possibilidade automática de instalar filial no Brasil. A pegadinha da FGV costuma trocar a exigência de autorização prévia do Poder Executivo e aprovação dos atos constitutivos pelo registro comum, induzindo o candidato a marcar alternativa que menciona apenas formalidades cartorárias ou judiciais."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo identificação do sujeito de direito internacional ou da condição jurídica da entidade estrangeira no Brasil e a consequência processual correta",
+      "palavras_gatilho": [
+        "é correto afirmar",
+        "diante dos fatos",
+        "pode abrir filial no Brasil",
+        "medida judicial cabível",
+        "autorização prévia",
+        "aprovação dos atos constitutivos"
+      ]
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "oab_38_21",
+        "materia": "Direito Internacional",
+        "assunto": "Imunidade de Jurisdição Consular - Visto",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Um brasileiro teve seu pedido de visto de trabalho negado por uma representação consular de Estado estrangeiro. Inconformado, consultou você, como advogado (a), para a adoção das providências cabíveis no Brasil. Após a avaliação do caso, você concluiu que",
+        "alternativas": {
+          "A": "nenhuma medida judicial é cabível.",
+          "B": "deve ser proposto mandado de segurança perante a Justiça Federal.",
+          "C": "cabe reclamação trabalhista perante a Justiça do Trabalho.",
+          "D": "deve ser proposta ação condenatória por obrigação de fazer, perante o Tribunal de Justiça competente."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa A está correta. A concessão de visto é ato discricionário da autoridade consular, e o funcionário consular goza de imunidade de jurisdição (art. 43.1 da Convenção de Viena sobre Relações Consulares de 1963)."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_22",
+        "materia": "Direito Internacional",
+        "assunto": "Ingresso de organizações estrangeiras no Brasil",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A Fundação de Juristas Moçambique-Brasil, associação privada de fim de interesse coletivo, constituiu-se na década de 1990, na cidade de Maputo, capital de Moçambique, e pretende abrir filial no Brasil. Você, advogado(a) especializado em Direito Internacional, é procurado pela Fundação para avaliar a pretensão do caso em tela. Sobre a hipótese apresentada, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A Fundação não poderá ter filial no Brasil, salvo se houver prévia decisão da justiça brasileira autorizativa.",
+          "B": "A Fundação não poderá ter filial no Brasil, antes da aprovação dos atos constitutivos pelo governo brasileiro, ficando a filial sujeita à lei brasileira.",
+          "C": "A Fundação não poderá ter filial no Brasil, salvo se houver prévia autorização legislativa do Congresso Nacional.",
+          "D": "A Fundação não poderá ter filial no Brasil, antes da aprovação dos atos constitutivos pelo governo moçambicano, ficando a filial sujeita à lei moçambicana."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão tratou sobre o ingresso de organizações de interesse coletivo estrangeiras no Brasil. A letra B está de acordo com o que se extrai do art. 11, § 1º, da LINDB: “Art. 11. As organizações destinadas a fins de interesse coletivo, como as sociedades e as fundações, obedecem à lei do Estado em que se constituírem. § 1º Não poderão, entretanto ter no Brasil filiais, agências ou estabelecimentos antes de serem os atos constitutivos aprovados pelo Governo brasileiro, ficando sujeitas à lei brasileira”. As alternativas A e C estão incorretas, pois não há necessidade de decisão judicial ou legislativa autorizativa, mas de decisão meramente administrativa. A alternativa D está incorreta, pois a aprovação dos atos constitutivos dar-se-á pelo governo brasileiro e não de Moçambique."
+      }
+    ]
+  },
+  "Nacionalidade E Condição Jurídica Do Estrangeiro": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Regime jurídico do visto: natureza, finalidade e hipóteses de concessão/recusa",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_22",
+          "oab_Prova-comentada-OAB-45_21"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "A FGV costuma trocar a natureza do visto por um suposto direito de ingresso ou permanência, além de misturar visto de visita com visto temporário. A pegadinha clássica é afirmar que o visto gera direito adquirido de entrada, ou ampliar indevidamente hipóteses de concessão/dispensa, quando a lei trata o visto apenas como expectativa autorizativa vinculada ao objetivo da viagem."
+      },
+      {
+        "nome_microtema": "Vistos específicos e suas exceções: visita, temporário, diplomático e dependentes",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_21",
+          "oab_Prova-comenta-OAB-42_22"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A banca explora a confusão entre categorias de visto e suas finalidades: visita para turismo/negócios sem intenção de residência, temporário para hipóteses legalmente taxadas, e extensão do visto diplomático aos dependentes. O distrator típico é negar uma exceção expressa ou atribuir ao visto de visita uma finalidade de residência/atividade laboral."
+      },
+      {
+        "nome_microtema": "Medidas de retirada compulsória e impedimento de reingresso: expulsão, deportação, repatriação e efeitos",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_22"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "A FGV adora confundir as três medidas de retirada compulsória, especialmente quando o estrangeiro já sofreu expulsão e tenta reingressar. A pegadinha é trocar expulsão por deportação ou repatriação, ignorando que a expulsão é medida ligada a conduta grave e pode vir acompanhada de impedimento de reingresso por prazo determinado."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo identificação da medida jurídica correta a partir de fatos objetivos como finalidade da viagem, tipo de visto e histórico migratório do estrangeiro",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "sobre a hipótese apresentada",
+        "segundo a legislação pertinente",
+        "medida de retirada compulsória",
+        "concessão de visto"
+      ]
+    },
+    "total_questoes_analisadas": 3,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-42_22",
+        "materia": "Direito Internacional",
+        "assunto": "Vistos e ingresso de estrangeiros na Lei de Migração",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "No Brasil, quanto às formas de ingresso no país, é aplicada a política de visto por reciprocidade, de acordo com a nacionalidade do estrangeiro. O tipo de visto, previsto na Lei de Migração, depende do objetivo da viagem do solicitante ao Brasil. A Lei de Migração (Lei nº 13.445/2017) ajustou o tratamento do estrangeiro no Brasil aos preceitos constitucionais. Sobre as formas de ingresso no país, segundo a legislação pertinente, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O visto é o documento que dá a seu titular o direito adquirido de ingresso em território nacional.",
+          "B": "Ao solicitante que pretenda ingressar ou permanecer em território nacional poderá ser concedido visto de visita, temporário, diplomático e oficial. A Lei de Migração não prevê o visto de cortesia.",
+          "C": "É causa de recusa absoluta de visto, sem possibilidade de entrevista individual e necessidade de ato fundamentado, quando a razão da viagem não seja condizente com o visto ou com o motivo alegado para a isenção de visto.",
+          "D": "O visto temporário para pesquisa, ensino ou extensão acadêmica poderá ser concedido ao imigrante com ou sem vínculo empregatício com a instituição de pesquisa ou de ensino brasileira, sendo exigida, na hipótese de vínculo, a comprovação de formação compatível."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata sobre entrada, a permanência e a saída de estrangeiros do território nacional, e estabelece os tipos de vistos e suas condições de concessão, conforme a Lei de Imigração (Lei n.º 13.445/2017). A alternativa A está incorreta. O visto é o documento que dá a seu titular expectativa de ingresso em território nacional (art. 6º, Lei n.º 13.445/2017). Ele não garante automaticamente o ingresso no território nacional, uma vez que este ainda está sujeito à decisão da autoridade migratória no momento da entrada. A alternativa B está incorreta. A Lei de Migração prevê diversos tipos de vistos, incluindo o visto de cortesia, previsto no art. 12, V, da Lei n.º 13.445/2017. A alternativa C está incorreta. Embora a razão da viagem deva ser condizente com o tipo de visto solicitado, a recusa de visto deve ser sempre fundamentada, e a entrevista individual pode ser realizada conforme o caso, para esclarecer as circunstâncias da solicitação. A alternativa D está correta. A Lei de Migração permite a concessão de visto temporário para atividades de pesquisa, ensino ou extensão acadêmica, com ou sem vínculo empregatício com a instituição brasileira. Na hipótese de vínculo empregatício, é necessária a comprovação de formação compatível, conforme assim estabelece o art. 14, §1º da Lei n.º 13.445/2017."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_21",
+        "materia": "Direito Internacional",
+        "assunto": "Concessão de vistos na Lei de Migração",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Sobre a concessão de visto, com base na Lei de Migração e na Constituição da República, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O visto de visita poderá ser concedido ao imigrante que venha ao Brasil com o intuito de estabelecer residência por tempo indeterminado para tratar de sua saúde.",
+          "B": "O visto de visita não será exigido do estrangeiro em caso de escala ou conexão em território nacional, ainda que o visitante deixe a área de trânsito internacional por algumas horas.",
+          "C": "Entre as hipóteses de concessão do visto temporário está a do imigrante que vem ao Brasil com o intuito de estabelecer residência por tempo determinado e que venha praticar atividade religiosa ou serviço voluntário.",
+          "D": "O visto diplomático não poderá ser estendido aos dependentes das autoridades e funcionários estrangeiros que viajem ao Brasil em missão oficial de caráter transitório ou permanente, representando Estado estrangeiro ou organismo internacional."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata sobre concessão do visto. A alternativa A está incorreta. O visto de visita proíbe expressamente que a pessoa estabeleça residência ou exerça atividade remunerada (art. 13, §1º da Lei 13.445/2017). A alternativa B está incorreta. A regra de isenção de visto para escala ou conexão só vale enquanto o passageiro permanecer na área de trânsito internacional (art. 13, §3º da Lei 13.445/2017). A alternativa C está correta. O visto temporário é a porta de entrada para quem deseja estabelecer residência por tempo determinado, seja para trabalhar, estudar, pesquisar ou exercer missão religiosa/voluntária. Vejamos o disposto no art. 14, g, Lei de Migração: “Art. 14. O visto temporário poderá ser concedido ao imigrante que venha ao Brasil com o intuito de estabelecer residência por tempo determinado e que se enquadre em pelo menos uma das seguintes hipóteses: I - o visto temporário tenha como finalidade: g) prática de atividade religiosa ou serviço voluntário;” A alternativa D está incorreta. Podem, sim, ser estendidos aos dependentes da autoridade (cônjuge, filhos, etc.), conforme prevê o regulamento da Lei de Migração em seu art. 15, §2º."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_22",
+        "materia": "Direito Internacional",
+        "assunto": "Repatriação",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Hector, cidadão espanhol, chega ao Brasil, em janeiro de 2024, para passar as férias de verão em Salvador. Contudo, é proibido de ingressar no país pela Polícia Federal do Aeroporto Internacional de Salvador, porque, em janeiro de 2020, Hector foi expulso do Brasil e tal medida fora conjugada com o impedimento de reingresso por cinco anos. Sobre a hipótese apresentada, assinale a opção que indica, corretamente, a medida de retirada compulsória a ser aplicada a Hector.",
+        "alternativas": {
+          "A": "Extradição.",
+          "B": "Expulsão.",
+          "C": "Deportação.",
+          "D": "Repatriação."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata sobre repatriação. A alternativa A está incorreta. Ela é um ato de cooperação internacional. Ocorre quando outro país solicita ao Brasil que entregue alguém para responder a um processo ou cumprir pena lá fora. Veja o comentário da alternativa D. A alternativa B está incorreta. Hector já foi expulso no passado, mas a medida que se aplica agora, no momento da tentativa de entrada, tem outro nome. Veja o comentário da alternativa D. A alternativa C está incorreta. Se Hector tivesse conseguido passar pela Polícia Federal e fosse pego dias depois na praia, aí sim seria deportado. Veja o comentário da alternativa D. A alternativa D está correta. A repatriação é a medida aplicada na fronteira (aeroportos, portos ou terra). O migrante nem chega a entrar formalmente no país. Vejamos o art. 49, Lei de Migração, bem como o art. 5°, XV, CF: “Art. 49. A repatriação consiste em medida administrativa de devolução de pessoa em situação de impedimento ao país de procedência ou de nacionalidade. [...] XV - é livre a locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou dele sair com seus bens;” Como Hector tem um impedimento de reingresso (de 5 anos, e só se passaram 4), a Polícia Federal o impede de entrar e o devolve imediatamente ao país de procedência ou nacionalidade. É o \"ir e voltar rapidamente\" na fronteira."
+      }
+    ]
+  },
+  "Asilo, Extradição, Deportação E Expulsão": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Expulsão de estrangeiro condenado por crime grave e impedimento de reingresso",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_21"
+        ],
+        "peso_percentual": 100,
+        "armadilha_favorita": "A FGV costuma misturar a expulsão com a ideia de reingresso livre ou com prazo errado. A pegadinha aqui é fazer o candidato esquecer que a condenação por crime grave pode ensejar expulsão e que ela vem acompanhada de impedimento de reingresso, afastando alternativas que falam em ausência de impedimento, prazo indeterminado ou exceções irrelevantes como idade avançada."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo a aplicação literal da Lei de Migração a situações de estrangeiro condenado no Brasil.",
+      "palavras_gatilho": [
+        "condenação transitada em julgado",
+        "expulsão",
+        "impedimento de reingresso",
+        "Lei de Migração",
+        "é correto afirmar"
+      ]
+    },
+    "total_questoes_analisadas": 1,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-42_21",
+        "materia": "Direito Internacional",
+        "assunto": "Expulsão de estrangeiro - Lei de Migração",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Você atua, como advogado(a), em um caso em que seu cliente, Luka, croata, de 65 anos de idade e 6 anos de residência fixa no Brasil, sem família no país, foi condenado, com sentença transitada em julgado, pela prática do crime de estupro no Brasil. Com base no que dispõe a Lei de Migração (Lei nº 13.445/2017), a condenação ensejará a expulsão de Luka do Brasil,",
+        "alternativas": {
+          "A": "sem a possibilidade de impedimento de reingresso.",
+          "B": "conjugada com o impedimento de reingresso por prazo determinado.",
+          "C": "conjugada com o impedimento de reingresso por prazo indeterminado.",
+          "D": "com a possibilidade de reingresso, por ser pessoa com mais de 60 anos de idade e residente no país"
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata sobre a expulsão de estrangeiros condenados por crimes no Brasil, consoante as disposições previstas na Lei nº 13.445/2017. A alternativa B está correta. A Lei de Migração estabelece que a expulsão será acompanhada de impedimento de reingresso por prazo determinado, conforme o art. 54 da Lei nº 13.445/2017: “Art. 54. A expulsão consiste em medida administrativa de retirada compulsória de migrante ou visitante do território nacional, conjugada com o impedimento de reingresso por prazo determinado.” Além disso, a idade e o tempo de residência não impedem a aplicação da expulsão e do impedimento de reingresso, conforme a gravidade do crime cometido. As demais alternativas estão incorretas, por estarem em desconformidade com o dispositivo indicado acima."
+      }
+    ]
+  },
+  "Direito Internacional Privado: Elementos De Conexão": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Sucessão de bem situado no Brasil: lex rei sitae / lei do local da situação do imóvel",
+        "ids_questoes": [
+          "oab_38_22"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "A FGV induz o candidato a aplicar a lei da nacionalidade, do domicílio do falecido ou do local dos vínculos familiares, quando o ponto decisivo é o elemento de conexão do bem imóvel situado no Brasil."
+      },
+      {
+        "nome_microtema": "Competência internacional concorrente da autoridade judiciária brasileira em obrigação contratual com conexão com o Brasil",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_21"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "Confundir competência exclusiva de outro país com competência concorrente brasileira, especialmente quando o contrato foi celebrado no exterior, mas a prestação/resultado do contrato se projeta no Brasil."
+      },
+      {
+        "nome_microtema": "Lei aplicável ao contrato internacional na LINDB: locus regit actum / lugar da constituição da obrigação, independentemente do foro eleito",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_21"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "Misturar cláusula de eleição de foro com escolha da lei aplicável. A FGV explora a falsa ideia de que escolher o foro brasileiro faz incidir automaticamente a lei brasileira."
+      },
+      {
+        "nome_microtema": "Interpretação de tratados internacionais pela Convenção de Viena de 1969: boa-fé, contexto, objeto e finalidade, e meios suplementares",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_22"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Trocar a regra principal de interpretação por exceções: a banca costuma confundir contexto do tratado com texto isolado, além de exagerar a força de versões linguísticas e negar indevidamente meios suplementares."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo identificação do elemento de conexão correto e distinção entre competência jurisdicional, lei aplicável e regras de interpretação internacional",
+      "palavras_gatilho": [
+        "assinale a opção correta",
+        "diante dos fatos",
+        "de acordo com o direito internacional privado brasileiro",
+        "conforme a LINDB",
+        "para os fins de interpretação de um tratado"
+      ]
+    },
+    "total_questoes_analisadas": 4,
+    "banco_questoes": [
+      {
+        "id": "oab_38_22",
+        "materia": "Direito Internacional",
+        "assunto": "Lei aplicável à sucessão (LINDB) - Domicílio",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "O cidadão francês Pierre Renoir, residente e domiciliado em Portugal, foi casado com uma espanhola, com quem teve dois filhos nascidos na Alemanha. Pierre faleceu em 2022 e deixou como herança um apartamento no Brasil, onde viveu durante a fase universitária. Nesta hipótese, à sucessão do bem será aplicada a lei",
+        "alternativas": {
+          "A": "francesa.",
+          "B": "portuguesa.",
+          "C": "brasileira.",
+          "D": "alemã."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa B está correta. O art. 10, caput, da LINDB determina que a sucessão obedece à lei do país em que domiciliado o defunto, independentemente da natureza e situação dos bens. O domicílio de Pierre era Portugal."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_21",
+        "materia": "Direito Internacional",
+        "assunto": "Competência internacional concorrente",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Uma sociedade empresária colombiana celebrou, na Inglaterra, com uma sociedade alemã, um contrato para a entrega de 500 (quinhentas) sacas de café tipo arábica no Porto de Santos, Brasil, sem cláusula de eleição de foro exclusivo. Durante o transporte, houve um acidente com a embarcação, que acarretou o perecimento da mercadoria. Você, como advogado(a), é procurado(a) para ajuizar a presente ação. De acordo com o direito internacional privado brasileiro, assinale a opção que indica a autoridade judiciária competente para processar e julgar eventual demanda entre as contratantes.",
+        "alternativas": {
+          "A": "A autoridade judiciária inglesa, única e exclusivamente.",
+          "B": "A autoridade judiciária colombiana, concorrentemente.",
+          "C": "A autoridade judiciária alemã, única e exclusivamente.",
+          "D": "A autoridade judiciária brasileira, concorrentemente."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão tratou sobre a competência jurisdicional de acordo com o Direito Internacional Privado. A obrigação contratual (entrega das 500 sacas de café) deveria ser cumprida no Brasil, razão pela qual a LINDB e o CPC, indicam que a jurisdição brasileira poderá ser acionada para processar e julgar o feito: LINDB: “Art. 12. É competente a autoridade judiciária brasileira, quando for o réu domiciliado no Brasil ou aqui tiver de ser cumprida a obrigação”. CPC: “Art. 21. Compete à autoridade judiciária brasileira processar e julgar as ações em que: [...] II - no Brasil tiver de ser cumprida a obrigação”. Mas além do Brasil, há outro país em que a demanda poderá ser aforada? A resposta é sim! Tanto no CPC, quanto na LINDB, existem hipóteses em que o legislador dispôs que a jurisdição brasileira se aplica com exclusão de qualquer outra, a exemplo de ações relativas a imóveis situados no Brasil (questão de soberania nacional etc.). Assim, interpretando a contrário senso, nos casos em que a lei não delimita a competência exclusiva, é possível que, por exemplo, a jurisdição do país onde foi celebrado o contrato (Inglaterra) ou de onde é sediada a empresa (Colômbia) seja provocada pelas partes contratantes, razão pela qual, a competência da jurisdição brasileira é concorrente. As alternativas A, B e C estão incorretas, conforme comentário à alternativa D."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_21",
+        "materia": "Direito Internacional",
+        "assunto": "Lei aplicável a contratos internacionais (LINDB)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "João, brasileiro domiciliado no Japão, celebrou um contrato presencial no Japão com Adam, estrangeiro domiciliado no Brasil, com uma cláusula de eleição de foro, em que o Brasil foi escolhido como competente para resolver eventuais conflitos. A controvérsia sobre o contrato foi submetida à justiça brasileira. Assinale a opção que indica, conforme a Lei de Introdução às normas do Direito Brasileiro (LINDB), a lei que deve ser aplicada para a resolução da lide",
+        "alternativas": {
+          "A": "A do Brasil, devido à cláusula de eleição de foro.",
+          "B": "A do Japão, porque é o local em que João é domiciliado.",
+          "C": "A do Brasil, porque é o local em que Adam é domiciliado.",
+          "D": "A do Japão, porque é o local em que o contrato foi celebrado."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata sobre contrato celebrado no exterior, entre partes domiciliadas em países diferentes, mas que escolheram o foro brasileiro para resolver eventual litígio. A dúvida central é distinguir duas coisas: foro competente (jurisdição) e lei aplicável (direito material). A alternativa A está incorreta, pois a cláusula de eleição de foro define apenas qual jurisdição será competente para processar e julgar a demanda, mas não estabelece qual lei deve ser aplicada ao mérito da controvérsia. A alternativa B está incorreta, já que a Lei de Introdução às Normas do Direito Brasileiro (LINDB) não utiliza o domicílio das partes como critério para determinar a lei aplicável ao contrato. O domicílio pode ser relevante em outros contextos do direito internacional privado, como em matéria de estado e capacidade das pessoas, mas não para a definição da lei que rege as obrigações contratuais. A alternativa C está incorreta, na medida em que o domicílio de uma das partes não é critério determinante para fixar a lei aplicável ao contrato. O fato de Adam residir no Brasil não torna automaticamente aplicável a lei brasileira. O critério estabelecido pela LINDB é objetivo e não depende do domicílio dos contratantes. A alternativa D está correta, pois o artigo 9º da LINDB dispõe que “para qualificar e reger as obrigações, aplicar-se-á a lei do país em que se constituírem”. Como o contrato foi celebrado presencialmente no Japão, a lei japonesa é a aplicável à relação contratual. A eleição de foro brasileiro não altera essa regra, já que se refere apenas à competência jurisdicional, e não à lei material aplicável. Portanto, a solução adequada é reconhecer que a Justiça brasileira julgará o litígio, mas aplicando a lei japonesa ao mérito da causa."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_22",
+        "materia": "Direito Internacional",
+        "assunto": "Interpretação de Tratados - Convenção de Viena de 1969",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "A Convenção de Viena sobre os Direitos dos Tratados de 1969 estabelece regras gerais para os tratados internacionais em relação a diversos aspectos, como entrada em vigor, aplicação e interpretação. Quanto à interpretação dos tratados, estes devem ser interpretados de boa-fé levando em consideração o contexto, o objetivo e a finalidade.",
+        "enunciado": "A esse respeito, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Para os fins de interpretação de um tratado, o contexto compreenderá, além do texto, seu preâmbulo e anexos.",
+          "B": "Toda vez que um tratado for autenticado em duas ou mais línguas, sem exceção, seu texto tem validade em cada uma delas.",
+          "C": "Uma versão do tratado em língua diversa daquelas em que o texto foi autenticado, só será considerada texto autêntico se o tratado o previr.",
+          "D": "Não são admitidos meios suplementares de interpretação dos tratados internacionais, como os trabalhos preparatórios e as circunstâncias de conclusão do tratado, ainda que a interpretação deixe o sentido ambíguo ou obscuro."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata sobre a interpretação de tratados internacionais segundo as regras estabelecidas pela Convenção de Viena sobre o Direito dos Tratados de 1969. A alternativa A está correta, pois de acordo com a Convenção de Viena de 1969 (art. 31, §2º): para os fins de interpretação de um tratado, o contexto compreenderá, além do texto, seu preâmbulo e anexos: a) qualquer acordo relativo ao tratado e feito entre todas as partes em conexão com a conclusão do tratado; b) qualquer instrumento estabelecido por uma ou várias partes em conexão com a conclusão do tratado e aceito pelas outras partes como instrumento relativo ao tratado. A regra confirma que a interpretação não se limita ao texto principal, mas abrange elementos formais que ajudam a esclarecer a intenção dos Estados signatários. A alternativa B está incorreta, já que o art. 33 da Convenção prevê que: “quando um tratado foi autenticado em duas ou mais línguas, seu texto faz igualmente fé em cada uma delas, a não ser que o tratado disponha ou as partes concordem que, em caso de divergência, prevalece um texto determinado.” Portanto, não é “sem exceção”, como afirma a alternativa. A alternativa C está incorreta, na medida em que uma versão em língua diferente daquelas autenticadas só terá caráter autêntico se assim for estabelecido no próprio tratado. Essa afirmação é verdadeira, mas isoladamente não reflete a integralidade da disciplina da Convenção (que também prevê a interpretação harmonizada das versões autênticas). A alternativa D está incorreta, pois admite meios suplementares de interpretação, como os trabalhos preparatórios (travaux préparatoires) e as circunstâncias da conclusão do tratado, especialmente quando a interpretação deixa o sentido ambíguo, obscuro ou leva a resultado manifestamente absurdo ou irracional. Logo, a alternativa nega expressamente o que a Convenção prevê."
+      }
+    ]
+  },
+  "Lei De Introdução Às Normas Do Direito Brasileiro (Lindb)": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Prova do teor e da vigência da lei estrangeira (art. 14 da LINDB)",
+        "ids_questoes": [
+          "oab_39_21"
+        ],
+        "peso_percentual": 100,
+        "armadilha_favorita": "A FGV costuma trocar a regra de prova da lei estrangeira por ideias de ordem pública, necessidade de concordância da parte contrária ou impossibilidade de o juiz distribuir o ônus probatório. A correta é lembrar que quem invoca a lei estrangeira deve provar seu texto e vigência, salvo se o juiz determinar de ofício a produção da prova."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com situação de litígio envolvendo elemento internacional e pergunta direta sobre a aplicação da LINDB",
+      "palavras_gatilho": [
+        "lei estrangeira",
+        "provar-lhe-á o texto e a vigência",
+        "ordem pública",
+        "ônus da prova",
+        "diante da hipótese"
+      ]
+    },
+    "total_questoes_analisadas": 1,
+    "banco_questoes": [
+      {
+        "id": "oab_39_21",
+        "materia": "Direito Internacional",
+        "assunto": "Prova da Lei Estrangeira (LINDB)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 14 da LINDB.",
+        "enunciado": "Em uma disputa judicial estabelecida no Brasil referente a um contrato de compra e venda internacional de mercadorias, regido por lei estrangeira, uma sociedade empresária a invocou para fundamentar a sua pretensão perante a outra parte. Você, como advogado(a) especializado(a) em Direito Internacional, foi procurado(a) pela sociedade para avaliar a validade de invocar a lei estrangeira no caso em tela. Sobre a hipótese apresentada, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A alegação de lei estrangeira pelos litigantes viola a ordem pública.",
+          "B": "A parte que invocar a lei estrangeira provar-lhe-á o texto e a vigência, se assim o juiz determinar diante do seu desconhecimento daquela.",
+          "C": "A alegação de lei estrangeira pelos litigantes depende da concordância da parte contrária.",
+          "D": "Ao juiz é vedado transferir o encargo de comprovar o teor e a vigência da lei estrangeira à parte."
+        },
+        "gabarito": "B",
+        "comentario": "O art. 14 da LINDB dispõe: 'Não conhecendo a lei estrangeira, poderá o juiz exigir de quem a invoca prova do texto e da vigência'. É facultado ao juiz determinar a prova, não sendo automático. A lei estrangeira pode ser invocada sem violar a ordem pública."
+      }
+    ]
+  },
+  "Homologação De Sentença Estrangeira E Cooperação Jurídica": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Transferência da execução da pena / cooperação penal internacional com tratado e reciprocidade",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_21"
+        ],
+        "peso_percentual": 55,
+        "armadilha_favorita": "A FGV induz o candidato a confundir transferência da execução da pena com homologação de sentença estrangeira. Aqui, a pegadinha é achar que sempre depende de STJ/STF, quando o caso trata de cooperação penal prevista em tratado, com admissibilidade administrativa pelo MJSP e sem necessidade de homologação judicial da sentença para viabilizar a transferência."
+      },
+      {
+        "nome_microtema": "Obtenção de provas no exterior pela Convenção da Haia / Autoridade Central e carta rogatória",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_21"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "A FGV costuma misturar carta rogatória, auxílio direto e Autoridade Central. A confusão clássica é afirmar que a produção de provas no exterior depende de homologação judicial prévia ou que a carta rogatória é o meio ordinário para toda prova internacional, quando a Convenção da Haia estrutura o fluxo pela Autoridade Central e disciplina a cooperação direta entre Estados."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto; a banca testa o caminho procedimental correto da cooperação internacional, quem é a autoridade competente e se há ou não necessidade de homologação judicial",
+      "palavras_gatilho": [
+        "é correto afirmar",
+        "diante dos fatos",
+        "assinale a afirmativa correta",
+        "depende de homologação",
+        "Autoridade Central",
+        "carta rogatória",
+        "tratado e reciprocidade"
+      ]
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-41_21",
+        "materia": "Direito Internacional",
+        "assunto": "Transferência de execução da pena e homologação de sentença estrangeira",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Estado estrangeiro solicita, por via diplomática, ao Ministério da Justiça e Segurança Pública brasileiro (MJSP), com base em tratado, com promessa de reciprocidade, a transferência da execução da pena de Olof, estrangeiro com residência habitual no Brasil, pelo cometimento de crime perante a lei de ambos os países, punido com pena superior a dois anos. Você, como advogado(a) especializado(a) em Direito Internacional, foi procurado(a) por Olof para avaliar a viabilidade do pedido do Estado estrangeiro, depois que ele soube que o MJSP já havia se manifestado pela presença dos pressupostos formais de admissibilidade exigidos pelo tratado de que são signatários o Brasil e o Estado estrangeiro solicitante. Sobre a hipótese apresentada, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O pedido terá êxito após a homologação pelo Supremo Tribunal Federal da sentença criminal estrangeira, ainda que não tenha transitado em julgado, para fins de transferência de execução da pena.",
+          "B": "O pedido terá êxito após a homologação pelo Superior Tribunal de Justiça da sentença criminal estrangeira, transitada em julgado, para fins de transferência de execução da pena.",
+          "C": "O pedido terá êxito independentemente da homologação por órgão judicial da sentença criminal estrangeira, transitada em julgado, para fins de transferência de execução da pena.",
+          "D": "O pedido terá êxito independentemente da homologação por órgão judicial da sentença criminal estrangeira, ainda que não tenha transitado em julgado, para fins de transferência de execução da pena."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão aborda o tema homologação de sentença estrangeira. A competência para a homologação de sentença estrangeira, após a Emenda Constitucional n. 45/2004 passou a ser do Superior Tribunal de Justiça, conforme previsto no artigo 105, inciso I, “i” da Constituição Federal: Art. 105. Compete ao Superior Tribunal de Justiça: I - processar e julgar, originariamente:[...]i) a homologação de sentenças estrangeiras e a concessão de exequatur às cartas rogatórias;. Por sua vez, os requisitos para a transferência de execução da pena estão previstos no artigo 100 da Lei de Imigração – Lei n. 13.445/2017: Art. 100. Nas hipóteses em que couber solicitação de extradição executória, a autoridade competente poderá solicitar ou autorizar a transferência de execução da pena, desde que observado o princípio do non bis in idem. Parágrafo único. Sem prejuízo do disposto no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), a transferência de execução da pena será possível quando preenchidos os seguintes requisitos: I - o condenado em território estrangeiro for nacional ou tiver residência habitual ou vínculo pessoal no Brasil; II - a sentença tiver transitado em julgado; III - a duração da condenação a cumprir ou que restar para cumprir for de, pelo menos, 1 (um) ano, na data de apresentação do pedido ao Estado da condenação; IV - o fato que originou a condenação constituir infração penal perante a lei de ambas as partes; e V - houver tratado ou promessa de reciprocidade. O artigo 101 da Lei de Imigração reforça a necessidade de homologação pelo Superior Tribunal de Justiça: Art. 101. O pedido de transferência de execução da pena de Estado estrangeiro será requerido por via diplomática ou por via de autoridades centrais. § 1º O pedido será recebido pelo órgão competente do Poder Executivo e, após exame da presença dos pressupostos formais de admissibilidade exigidos nesta Lei ou em tratado, encaminhado ao Superior Tribunal de Justiça para decisão quanto à homologação. Assim, a alternativa correta a ser assinalada é a letra “B”."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_21",
+        "materia": "Direito Internacional",
+        "assunto": "Cooperação Jurídica Internacional - Obtenção de Provas no Exterior",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A cooperação jurídica internacional é uma modalidade formal de solicitar a outro país uma medida judicial, investigativa ou administrativa para casos concretos. Esforçando-se para facilitar a cooperação jurídica nos casos de litígios e disputas internacionais, o Brasil aderiu à Convenção da Haia sobre a Obtenção de Provas no Estrangeiro em Matéria Civil ou Comercial (Convenção da Haia sobre Provas), promulgada pelo Decreto nº 9.039, de 27 de abril de 2017. Sobre a obtenção de provas no exterior, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A tramitação do pedido de cooperação jurídica internacional para a obtenção de prova no exterior apenas poderá ser feita com base em acordo internacional vigente entre o Brasil e o Estado Requerido.",
+          "B": "A Convenção da Haia sobre a Obtenção de Provas no Estrangeiro em matéria civil e comercial prevê que a autoridade judiciária deve aplicar inteiramente a legislação do Estado Requerente no que diz respeito às formalidades a serem cumpridas na colheita da prova.",
+          "C": "O cumprimento da Carta Rogatória em que se peça uma produção de provas é submetido exclusivamente à análise da autoridade competente do Estado Contratante em que está o órgão judiciário que deferiu a produção da prova.",
+          "D": "Cada Estado Contratante designará uma Autoridade Central para receber as Cartas Rogatórias provenientes da autoridade judiciária de outro Estado Contratante e de transmiti-las à autoridade competente para cumprimento. A organização dessa Autoridade Central deve ser a mesma em todos os Estados signatários da Convenção da Haia sobre Provas, sem possibilidade de cada um legislar sobre essa organização."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata da análise e cumprimento da Carta Rogatória segundo a Convenção da Haia. A alternativa A está incorreta. A cooperação pode se dar não apenas com base em tratado, mas também com base na reciprocidade. (Art. 26 § 1º do CPC: Na ausência de tratado, a cooperação jurídica internacional poderá realizar-se com base em reciprocidade, manifestada por via diplomática.). A alternativa B está incorreta. A autoridade do Estado Requerido aplica sua própria legislação interna, e não a legislação do Estado que pediu a prova (art. 9º da Convenção de Haia. Artigo 9º. A autoridade requerida executará o pedido de obtenção de provas de acordo com a sua lei interna.). A alternativa C está correta. A autoridade competente do Estado Requerido examina e executa a Carta Rogatória de provas (Convenção da Haia de 1970 – Art. 25. Os Estados Contratantes nos quais mais de um sistema jurídico esteja em vigor poderão designar as autoridades de um desses sistemas, que terão competência exclusiva para o cumprimento das Cartas Rogatórias, conforme disposto na presente Convenção.). A alternativa D está incorreta. A organização da Autoridade Central pode variar entre os Estados Contratantes da Convenção (Convenção da Haia de 1970 – Art. 25. Os Estados Contratantes nos quais mais de um sistema jurídico esteja em vigor poderão designar as autoridades de um desses sistemas, que terão competência exclusiva para o cumprimento das Cartas Rogatórias, conforme disposto na presente Convenção.)."
+      }
+    ]
+  }
+}

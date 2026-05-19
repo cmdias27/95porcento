@@ -1,0 +1,257 @@
+{
+  "Direitos Humanos": [
+    {
+      "id": "oab_38_17",
+      "materia": "Direitos Humanos",
+      "assunto": "Convenção Americana de Direitos Humanos (CADH) - Direito de Resposta",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Numa acirrada disputa eleitoral pelo governo municipal de sua cidade, o prefeito atual e candidato à reeleição, divulgou, por meio do site da Prefeitura, informações inexatas e ofensivas contra o candidato da oposição. Esse candidato o(a) procurou, por saber de sua atuação como advogado(a) em defesa dos Direitos Humanos, e disse que, amparado na Convenção Americana sobre Direitos Humanos, queria o direito de resposta na rádio local. Sobre a hipótese narrada, cabe a você esclarecer que a Convenção assegura",
+      "alternativas": {
+        "A": "plenamente o direito à resposta, que deve ocorrer no órgão de difusão da escolha do ofendido.",
+        "B": "o direito de resposta e determina que ele aconteça no órgão de difusão que tenha a capacidade de alcançar o maior número de pessoas.",
+        "C": "o direito à resposta e determina que ela deve ser feita no mesmo órgão de difusão em que ocorreu a divulgação das informações inexatas e ofensivas.",
+        "D": "o direito de resposta, mas estabelece como condição a apreciação judicial e o encerramento da lide em última instância."
+      },
+      "gabarito": "C",
+      "comentario": "O gabarito preliminar é a letra C, com base no art. 14.1 da CADH. O comentário do material, entretanto, aponta que a alternativa D também está correta (duplo gabarito) com base no art. 46 da CADH, que exige o esgotamento dos recursos internos."
+    },
+    {
+      "id": "oab_38_18",
+      "materia": "Direitos Humanos",
+      "assunto": "Suspensão de Garantias (Habeas Corpus) - Opiniões Consultivas da Corte IDH",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Considere a hipótese de ter sido decretado Estado de Emergência no país, implicando a suspensão de garantias judiciais, como o habeas corpus. Argumentando a favor desse Decreto, o Governo alega que a própria Convenção Americana de Direitos Humanos prevê, em seu Art. 27, a suspensão de garantias. Como advogada(o) que atua na defesa dos Direitos Humanos, de acordo com as importantes Opiniões Consultivas OC-08/87 e OC 09/87 da Corte Interamericana de Direitos Humanos, você deve esclarecer que",
+      "alternativas": {
+        "A": "uma vez que tais garantias judiciais não estejam previstas entre os direitos ressalvados expressamente no Art. 27.2 da Convenção, elas podem ser suspensas.",
+        "B": "pode haver a suspensão de tais garantias, inclusive do habeas corpus em situações de estado de emergência, como o Estado de Defesa, desde que isso seja decidido pelo Poder Executivo e confirmado pelo Poder Judiciário.",
+        "C": "as garantias judiciais, como o habeas corpus, não podem ser canceladas ou descontinuadas, pois visam à proteção dos direitos essenciais que, segundo o art. 27.2 da Convenção, não podem ser suspensos.",
+        "D": "em situações de emergência, como o Estado de Defesa, tendo em vista a proteção da soberania nacional, pode haver a suspensão de alguns direitos e garantias, dentre eles o direito ao habeas corpus."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa C está correta. As Opiniões Consultivas 08/87 e 09/87 da Corte IDH estabelecem que o habeas corpus (art. 7.6) e o amparo (art. 25.1) são garantias judiciais indispensáveis para a proteção dos direitos não-suspensíveis do art. 27.2, não podendo ser suspensos."
+    },
+    {
+      "id": "oab_39_17",
+      "materia": "Direitos Humanos",
+      "assunto": "Estatuto dos Refugiados (Lei 9.474/97) - Extensão à família",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Arts. 1º e 2º da Lei 9.474/97.",
+      "enunciado": "Você atua, como advogado(a), em um caso em que seu cliente é um estrangeiro indocumentado que vive no Brasil. Isso ocorreu porque ele teve de fugir às pressas do país de origem, porque estava sendo perseguido por motivos religiosos. Ele gostaria de permanecer no Brasil e trazer a esposa. Assim, com base no que dispõe a Lei nº 9.474/97 que trata da implementação do Estatuto dos Refugiados no Brasil, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A perseguição por motivos religiosos não faz parte dos tipos de perseguição abrangidos no conceito de refugiado e, assim, ele deve regularizar sua documentação de estrangeiro ou deixar o país.",
+        "B": "A perseguição por motivos religiosos se enquadra no conceito de refugiado e ele pode pedir refúgio no Brasil, mas o refúgio é ato personalíssimo e não se estende à sua esposa.",
+        "C": "A perseguição por motivos religiosos é reconhecida como condição de refugiado e os efeitos dessa condição são extensivos à esposa.",
+        "D": "A perseguição religiosa é motivo para que o governo brasileiro o declare refugiado e a extensão dessa condição à esposa depende de decisão judicial e não administrativa."
+      },
+      "gabarito": "C",
+      "comentario": "A Lei 9.474/97, em seu art. 1º, inclui a perseguição por motivos religiosos como causa de refúgio. O art. 2º estabelece que os efeitos da condição de refugiado são extensivos ao cônjuge, ascendentes, descendentes e outros membros do grupo familiar que dependam economicamente do refugiado, desde que estejam em território nacional. A alternativa C é a que mais se aproxima do gabarito da banca, embora haja controvérsia sobre a extensão à esposa fora do país."
+    },
+    {
+      "id": "oab_39_18",
+      "materia": "Direitos Humanos",
+      "assunto": "Estatuto da Pessoa com Deficiência (Lei 13.146/15) - Barreiras Atitudinais",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 3º, IV, 'e' da Lei 13.146/15.",
+      "enunciado": "Você, como advogado(a), recebeu uma família cujo filho mais velho é pessoa com deficiência. Na conversa inicial, os pais relataram algumas situações em que certas barreiras eram verdadeiros obstáculos para que seu filho pudesse exercer seus direitos. Com base no Estatuto da Pessoa com Deficiência, cabe a você, como advogado(a), esclarecer que uma das barreiras mais significativas é a atitudinal. Assinale a afirmativa que a caracteriza.",
+      "alternativas": {
+        "A": "Os obstáculos existentes nas vias e nos espaços públicos e privados abertos ao público ou de uso coletivo.",
+        "B": "Os comportamentos que impedem a participação social da pessoa com deficiência em igualdade de condições e oportunidades com as demais pessoas.",
+        "C": "As barreiras que ocorrem nos edifícios públicos e privados, bem como nos sistemas e meios de transportes de uso coletivo.",
+        "D": "Os meios que dificultam a expressão ou o recebimento de mensagens e de informações por intermédio de sistemas de comunicação e de tecnologia da informação."
+      },
+      "gabarito": "B",
+      "comentario": "O art. 3º, IV, 'e', da Lei 13.146/15 define barreiras atitudinais como 'atitudes ou comportamentos que impeçam ou prejudiquem a participação social da pessoa com deficiência em igualdade de condições e oportunidades com as demais pessoas'. As demais alternativas referem-se a barreiras urbanísticas (A), arquitetônicas (C) e comunicacionais (D)."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_17",
+      "materia": "Direitos Humanos",
+      "assunto": "Incidente de Deslocamento de Competência (IDC)",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "QUESTÃO 17. STJ transfere à Justiça Federal apuração da morte de líderes de trabalhadores rurais em Rondônia. A pedido da Procuradoria-Geral da República (PGR), a Terceira Seção do Superior Tribunal de Justiça (STJ) determinou a transferência, para a Justiça Federal, de seis inquéritos relativos a crimes de homicídio praticados contra líderes de trabalhadores rurais e outras pessoas que denunciaram grilagem de terras e exploração ilegal de madeira em Rondônia. Notícias do STJ - 25/08/2023 A notícia acima, informada no site do STJ, diz respeito a um instituto exclusivo para a proteção dos Direitos Humanos previsto na Constituição Federal/88. Assinale a opção que o indica.",
+      "alternativas": {
+        "A": "Arguição de Descumprimento de Preceito Fundamental.",
+        "B": "Incidente de Deslocamento de Competência.",
+        "C": "Tese com Repercussão Geral.",
+        "D": "Ação Popular."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão tratou sobre o Incidente de Deslocamento de Competência (IDC). A Emenda Constitucional n.º 45/2004 incluiu o § 5º ao art. 109 da CRFB com a seguinte redação: “Art. 109 [...] § 5º Nas hipóteses de grave violação de direitos humanos, o Procurador-Geral da República, com a finalidade de assegurar o cumprimento de obrigações decorrentes de tratados internacionais de direitos humanos dos quais o Brasil seja parte, poderá suscitar, perante o Superior Tribunal de Justiça, em qualquer fase do inquérito ou processo, incidente de deslocamento de competência para a Justiça Federal”. A matéria jornalística destacada se referiu à decisão do IDC n.º 22 pelo STJ, no qual a Corte considerou as razões trazidas pela PGR, especialmente, pois os crimes foram praticados em um cenário de violência marcado pela atuação de grupos de extermínio, com envolvimento de agentes da segurança pública local, que atuam em favor de pessoas política e economicamente poderosas com o objetivo de manter seu controle sobre terras no estado de Rondônia. A alternativa A está incorreta, pois não se trata de ADPF, além disso, nem poderia, pois tal ação de controle concentrado de constitucionalidade sequer compete ao STJ, mas apenas ao STF. As alternativas C e D estão incorretas, conforme comentários à alternativa B."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_17",
+      "materia": "Direitos Humanos",
+      "assunto": "Direitos dos Trabalhadores Migrantes",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Na qualidade de advogado, você foi consultado por um grupo de imigrantes que, uma vez residindo no território nacional, mesmo que em situação irregular, passou a trabalhar em condições indignas, tendo vários dos direitos trabalhistas, expressamente reconhecidos aos trabalhadores em geral, desrespeitados. Sobre esse caso, assinale a afirmativa que apresenta a orientação correta que você prestou.",
+      "alternativas": {
+        "A": "Em razão de o Estado brasileiro ainda não ter ratificado a Convenção Internacional sobre a Proteção dos Direitos de Todos os Trabalhadores Migrantes e dos Membros de suas Famílias, a situação não poderá ser submetida à apreciação dos órgãos integrantes do sistema regional americano de proteção dos direitos humanos.",
+        "B": "Na condição de Estado-membro da Organização dos Estados Americanos, o Brasil tem o dever de respeitar e garantir os direitos dos trabalhadores migrantes indocumentados, independentemente de sua nacionalidade, em nome do direito à igualdade e não discriminação em relação aos trabalhadores nacionais.",
+        "C": "Os trabalhadores em referência poderão levar o caso ao conhecimento da Comissão Interamericana de Direitos Humanos, muito embora não tenham assegurada a possibilidade de acesso ao Poder Judiciário nacional, diante do status irregular do seu ingresso e permanência no território brasileiro.",
+        "D": "Os trabalhadores em questão têm assegurado o acesso tanto ao Poder Judiciário local, quanto aos órgãos integrantes do sistema regional americano de proteção dos direitos humanos, inclusive de forma simultânea, diante da inexistência de litispendência entre as instâncias nacional e internacional."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre direitos e garantias dos trabalhadores migrantes. A alternativa B está correta. Para responder a essa questão, o examinando deveria ter familiaridade com alguns artigos legais que regulam a política migratória, como a proteção dos direitos fundamentais dos imigrantes, bem como a proteção dos direitos trabalhistas e à saúde do trabalhador migrante. O Brasil deve respeitar e garantir direitos aos trabalhadores migrantes em igualdade com os trabalhadores nacionais, para que toda pessoa goze desse direito em condições justas, equitativas e satisfatórias, inclusive de saúde, garantindo a igualdade de tratamento e de oportunidade ao migrante e a seus familiares e o repúdio e prevenção à xenofobia, ao racismo e a quaisquer formas de discriminação. A alternativa encontra fundamentos em diversos dispositivos legais, como no artigo 3º, II e IX da Lei de Migração (Lei 13.445/17), bem como no Pacto San José da Costa Rica (Decreto 678/92), nos seus artigos 1º e 10. Ainda, no Protocolo de San Salvador (Decreto 3.321/99) arts. 7º e 10. As demais alternativas estão incorretas, conforme o comentário da alternativa B."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_18",
+      "materia": "Direitos Humanos",
+      "assunto": "Convenção 169 da OIT - Direito à Consulta Prévia",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em razão da alta concentração de indígenas no Município X e com vistas à melhor promoção dos seus direitos e garantias, as autoridades locais adotaram uma série de medidas administrativas com impacto direto sobre as referidas comunidades. Não lhes foi franqueada, contudo, qualquer mecanismo de participação nos ciclos de elaboração e implementação dessas medidas. Nesse contexto, você foi procurado(a), como advogado(a), para representar uma das comunidades. À luz da Convenção 169 da Organização Internacional do Trabalho sobre Povos Indígenas e Tribais, assinale a opção que apresenta, corretamente, sua orientação.",
+      "alternativas": {
+        "A": "É assegurado às comunidades indígenas e às populações tradicionais o direito à consulta, mediante procedimentos apropriados e, particularmente, por meio de suas instituições representativas, cada vez que sejam previstas medidas legislativas ou administrativas suscetíveis de afetá-las diretamente.",
+        "B": "No caso específico, a Convenção em questão excetua o dever de assegurar a participação das comunidades indígenas diretamente atingidas, já que se trata de medidas tomadas com o intuito de promover a máxima eficácia dos direitos e das garantias dessas populações tradicionais.",
+        "C": "Apesar de as disposições da Convenção em questão estabelecerem a necessidade de efetiva participação das comunidades indígenas cada vez que forem previstas medidas legislativas ou administrativas suscetíveis de afetá-las diretamente, a não observância desse dever estatal somente acarreta vício capaz de anular os atos praticados se restar demonstrado, no caso concreto, a existência de prejuízo.",
+        "D": "É assegurado às comunidades indígenas e populações tradicionais o direito à consulta, mediante procedimentos apropriados, cada vez que sejam previstas medidas legislativas ou administrativas suscetíveis de afetá-las diretamente. No âmbito nacional, confiou-se à Fundação Nacional do Índio (FUNAI) a atribuição para representar diretamente as referidas comunidades, por serem desprovidas de personalidade jurídica própria."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre a Resolução 169 da Organização Internacional do Trabalho. Exigindo o conhecimento do examinando à essa Resolução especificamente, eliminando as demais alternativas em dissonância. A alternativa A está correta, portanto, sendo essa a alternativa correspondente à orientação da Resolução 169 da Organização Internacional do Trabalho. Consoante a Convenção, a consulta aos povos interessados, deverá proceder mediante procedimentos apropriados toda vez que sejam previstas medidas legislativas ou administrativas suscetíveis de afetá-los diretamente. Essas medidas podem ser tanto aditadas pela esfera pública quanto pela esfera privada. Ou seja, a OIT 169 trata da importância de realizar uma consulta livre, prévia e informada sempre que alguma obra, ação, política ou programa for ser desenvolvido e afete aos povos tradicionais. Independente da iniciativa pública ou privada, a consulta é prevista pela OIT 169. Portanto, as demais alternativas estão incorretas, por não corresponderem à Convenção 169 da OIT no que tange a consulta aos povos interessados."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_17",
+      "materia": "Direitos Humanos",
+      "assunto": "Comunidades quilombolas",
+      "banca": "FGV",
+      "ano": "42º Exame de Ordem",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Você está participando de um debate na OAB de sua cidade sobre direitos humanos de comunidades tradicionais, quando é questionado sobre a identificação e o reconhecimento dos remanescentes das comunidades quilombolas. Assinale a opção que apresenta, corretamente, sua resposta.",
+      "alternativas": {
+        "A": "Os grupos étnico-raciais, segundo critérios de autoatribuição, com trajetória histórica própria, dotados de relações territoriais específicas, com presunção de ancestralidade negra relacionada à resistência e à opressão histórica sofrida.",
+        "B": "Todo e qualquer cidadão ou cidadã que esteja privado do seu direito à moradia em função de grave violação de direitos humanos e que seja descendente de imigrantes que se estabeleceram no Brasil com ou sem autorização de permanência dada pelo Estado brasileiro.",
+        "C": "A população afrodescendente brasileira, que vive processos de privação de direitos e, por isso, busca tanto os meios próprios de subsistência quanto a reparação pelos preconceitos e pela discriminação que sofreu e que resultaram em restrições de acesso à terra e à moradia.",
+        "D": "Os povos originais, aos quais são reconhecidos a organização social, os costumes, as línguas, as crenças e as tradições, bem como os direitos originários sobre as terras que tradicionalmente ocuparam, competindo à União demarcá-las, proteger e fazer respeitar todos os seus bens."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre quilombolas. A alternativa A está correta. A definição está em conformidade com o art. 68 do Ato das Disposições Constitucionais Transitórias (ADCT) e com o Decreto 4.887/2003, que regulamenta o processo de reconhecimento dos territórios quilombolas. Segundo o decreto, as comunidades quilombolas são grupos étnico-raciais que se identificam como tal (autoatribuição) e possuem vínculos históricos e territoriais, associados à resistência à opressão. A alternativa B está incorreta. Essa descrição não corresponde às comunidades quilombolas, mas a situações relacionadas à vulnerabilidade social e imigração. Comunidades quilombolas são formadas por remanescentes de africanos escravizados, com características culturais e históricas próprias. A alternativa C está incorreta. Embora comunidades quilombolas sejam afrodescendentes e enfrentem privação de direitos, nem toda população afrodescendente é quilombola. A alternativa D está incorreta. Essa definição refere-se aos povos indígenas, conforme o art. 231 da Constituição Federal."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_18",
+      "materia": "Direitos Humanos",
+      "assunto": "Refúgio e migração",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Um cidadão venezuelano, que ingressou de forma irregular no país, com o propósito de regularizar sua situação no Brasil, procura você, como advogado(a), para ter sua assistência jurídica. Nesse contexto, com base nos direitos dos refugiados e migrantes, assinale a opção que apresenta, corretamente, sua orientação.",
+      "alternativas": {
+        "A": "O reconhecimento da condição de refugiado não impedirá o prosseguimento do processo administrativo eventualmente já instaurado para a apuração do seu ingresso irregular no país.",
+        "B": "De acordo com a legislação brasileira, o cidadão em questão terá sua condição de refugiado reconhecida se demonstrar que foi obrigado a deixar seu país de nacionalidade em razão de grave e generalizada violação de Direitos Humanos.",
+        "C": "Se a sua vinda para o Brasil não tiver sido motivada pelo risco de responder penalmente, no âmbito do Estado de origem, pelo cometimento de crime de natureza política, ele deverá solicitar a concessão de asilo político, ao invés do refúgio.",
+        "D": "De acordo com a legislação brasileira, se for solicitado o reconhecimento da sua condição de refugiado, o indivíduo somente terá proteção jurídica após a devida instrução e o devido encerramento do procedimento para a obtenção de refúgio no Comitê Nacional para os Refugiados - Conare. Antes disso, poderá ser expulso ou deportado, como decorrência da sua entrada irregular no país."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre refugiados. As alternativas A e D estão incorretas. O art. 10 da Lei 9.474/1997 estabelece que o reconhecimento da condição de refugiado impede a instauração ou o prosseguimento de processos administrativos ou penais relacionados à entrada ou estada irregular no Brasil. Isso garante proteção jurídica ao refugiado enquanto sua situação é regularizada. A alternativa B está correta. O art. 1º, III, da Lei 9.474/1997 prevê o reconhecimento da condição de refugiado para aqueles que, devido a grave e generalizada violação de Direitos Humanos, são obrigados a deixar seu país de origem. Essa condição abrange situações como a crise humanitária vivida na Venezuela. A alternativa C está incorreta. A concessão de asilo político é uma figura distinta do refúgio e não se aplica necessariamente a todos os casos em que não há risco de perseguição por crime político. O refúgio é mais amplo, abrangendo violações de Direitos Humanos e outras situações de risco previstas na Lei 9.474/1997."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_17",
+      "materia": "Direitos Humanos",
+      "assunto": "Mecanismos globais de proteção: Tribunal Penal Internacional",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Na condição de advogado(a), você é procurado(a) por uma Organização não Governamental que atua na defesa e proteção dos Direitos Humanos de grupos minoritários no Brasil. A entidade solicita esclarecimentos quanto aos mecanismos de que dispõe para levar ao conhecimento das instâncias competentes, no âmbito do sistema global de proteção dos Direitos Humanos, uma situação que entende violar a Convenção para a Prevenção e a Repressão do Crime de Genocídio, com o objetivo de responsabilizar o Estado brasileiro. Nesse contexto, você deve esclarecer que, para a obtenção da finalidade pretendida, dentre os mecanismos existentes em nível global, as Organizações não Governamentais podem submeter o caso em questão diretamente à apreciação.",
+      "alternativas": {
+        "A": "da Corte Internacional de Justiça.",
+        "B": "do Tribunal Penal Internacional.",
+        "C": "do Conselho de Direitos Humanos das Nações Unidas.",
+        "D": "do Alto Comissariado das Nações Unidas para os Direitos Humanos."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão aborda os mecanismos globais de responsabilização internacional por violações de Direitos Humanos, especificamente crimes de genocídio. A alternativa A está incorreta. A CIJ é o principal tribunal da ONU para litígios entre Estados. A Convenção para Prevenção e Repressão do Genocídio (art. IX) determina que disputas entre Estados-Partes relativas a genocídio sejam submetidas à CIJ. Contudo, apenas Estados-Partes podem levar casos à CIJ (Estatuto da CIJ, art. 34), não cabendo a ONGs apresentar demanda direta. A alternativa B está correta. O Tribunal Penal Internacional (TPI), nos termos do Estatuto de Roma do Tribunal Penal Internacional, Art. 5º, alínea \"a\", terá competência para julgar crime de genocídio. A alternativa C está incorreta. O Conselho de Direitos Humanos das Nações Unidas atua mais na promoção, fiscalização e recomendação de políticas públicas, mas não tem competência para julgar crimes de genocídio ou responsabilizar criminalmente Estados ou indivíduos. Resolução 60/251 da Assembleia Geral da ONU. A alternativa D está incorreta. O Alto Comissariado das Nações Unidas para os Direitos Humanos não possui competência judicial ou de responsabilização de Estados por crimes como o genocídio, mas, conforme a resolução 48/141 da Assembleia Geral da ONU (1993), art. 3(b), o Alto Comissariado tem o mandato de \"responder a informações relativas a violações de direitos humanos\"."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_18",
+      "materia": "Direitos Humanos",
+      "assunto": "Direito à Educação e Sistema Interamericano de Direitos Humanos",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Na condição de advogado(a), você foi procurado por um grupo de mães de crianças entre 6 e 10 anos que tentaram, sem sucesso, matricular seus filhos na rede básica de ensino. Elas alegam que já envidaram todos os esforços no âmbito administrativo, sendo-lhes sempre apresentada a justificativa da inexistência de vagas. Considerando a situação hipotética em questão, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Caso seja demonstrada a inércia do Estado em prover o efetivo acesso ao ensino de primeiro grau, comprovando-se ainda que a situação foi devidamente submetida ao crivo do Poder Judiciário local, esgotados todos os recursos cabíveis, frustrada a obtenção de tutela eficaz, o caso poderá ser submetido diretamente pelas vítimas à análise da Comissão Interamericana de Direitos Humanos.",
+        "B": "De acordo com a interpretação fixada pelo Supremo Tribunal Federal em relação ao direito à educação, em razão do seu desenvolvimento progressivo, não se pode configurá-lo como típico direito subjetivo, cujo efetiva implementação possa ser determinada por decisão judicial.",
+        "C": "Apesar de o direito à educação, em razão da sua natureza social, estar previsto no Protocolo Adicional de São Salvador, no âmbito do Sistema Regional Americano de Proteção dos Direitos Humanos foram previstos meios próprios para sua proteção, não sendo possível a utilização do sistema de petições individuais regulado pela Convenção Americana sobre Direitos Humanos.",
+        "D": "Em razão de o Brasil não ter ratificado o Protocolo Adicional de São Salvador, o caso em questão não poderá ser submetido aos órgãos integrantes do Sistema Regional Americano de Proteção dos Direitos Humanos."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão aborda Direito à Educação e conhecimento do Sistema Interamericano. A alternativa A está correta. Esgotados os recursos internos, com base nos artigos 44 e 46 da Convenção Americana sobre Direitos Humanos, esta pode receber petições individuais alegando violação de direitos humanos reconhecidos na Convenção Americana sobre Direitos Humanos (Pacto de San José da Costa Rica) e em tratados complementares. A alternativa B está incorreta. O STF reconhece o direito à educação como direito subjetivo público, que pode ser exigido judicialmente (STF - ARE: 639337 SP, Relator.: Min. CELSO DE MELLO, Data de Julgamento: 21/06/2011, Data de Publicação: DJe -123 DIVULG 28/06/2011 PUBLIC 29/06/2011). A alternativa C está incorreta. O Protocolo de São Salvador, em seu artigo art. 19, (6), prevê que violações de certos direitos sociais, como educação, podem ser objeto de petições individuais. A alternativa D está incorreta. O Brasil ratificou o Protocolo de São Salvador em 1996 (Decreto nº 3.321/1999), com reservas parciais, não em relação ao direito à educação."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_17",
+      "materia": "Direitos Humanos",
+      "assunto": "Standards internacionais de proteção do direito à igualdade",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "No que concerne aos standards internacionais atualmente adotados para defesa do Direito Humano à Igualdade, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O direito à igualdade abrange atualmente três dimensões, havendo amplo consenso quanto à existência de uma dimensão de ordem formal, também compreendida como igualdade perante a lei; uma segunda dimensão, de ordem material, comumente relacionada ao conceito de justiça retributiva; e uma terceira dimensão, de ordem instrumental, que reconhece no direito à igualdade a condição viabilizadora da concretização de outros direitos fundamentais.",
+        "B": "No âmbito do sistema global de proteção aos direitos humanos, a Convenção das Nações Unidas sobre a Eliminação de Todas as Formas de Discriminação Contra a Mulher pode ser apontada como importante instrumento para superação das desigualdades de gênero. Contudo, o instrumento não admite de forma expressa a utilização de ações afirmativas, ou medidas compensatórias, destinadas a acelerar o processo de superação das desigualdades existentes.",
+        "C": "A Convenção Internacional sobre a Eliminação de Todas as Formas de Discriminação Racial rechaça a possibilidade dos Estados-parte estabelecerem medidas de tratamento desigual, em detrimento de grupos étnicos historicamente mais favorecidos, por considerar que a referida prática pode configurar a conduta expressamente vedada do denominado “racismo reverso”.",
+        "D": "Ao interpretar a Convenção Americana sobre Direitos Humanos, a Corte IDH reconhece a possibilidade de serem adotados critérios para “distinção” de tratamento entre determinados grupos de indivíduos. O que não se admite é a prática de condutas “discriminatórias”. Para a Corte, as “distinções” constituem diferenças compatíveis com a Convenção Americana por serem razoáveis e objetivas. Já as “discriminações” constituem diferenças arbitrárias que redundam em prejuízo dos Direitos Humanos."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata da interpretação e aplicação dos standards internacionais de proteção do Direito Humano à Igualdade, ou seja, busca avaliar se o candidato conhece como esse direito é concebido e protegido nos tratados, convenções e jurisprudência internacional de direitos humanos. a) A alternativa A está incorreta, pois a igualdade é tradicionalmente compreendida em duas dimensões: a igualdade formal (perante a lei) e a igualdade material (que busca compensar desigualdades fáticas). A doutrina e os organismos internacionais também reconhecem a igualdade como reconhecimento e inclusão, mas não se utiliza, nos tratados e jurisprudência internacionais, a formulação apresentada na alternativa (especialmente a ideia de “igualdade instrumental” como categoria consolidada). b) A alternativa B está incorreta, já que a CEDAW (Convenção da ONU sobre a Eliminação de Todas as Formas de Discriminação contra a Mulher, de 1979) expressamente admite ações afirmativas. O art. 4º, §1º prevê a adoção de medidas temporárias especiais destinadas a acelerar a igualdade de fato entre homens e mulheres, que não serão consideradas discriminação. c) A alternativa C está incorreta, na medida em que a Convenção Internacional sobre a Eliminação de Todas as Formas de Discriminação Racial (1965), no art. 1º, §4º, autoriza expressamente a adoção de medidas especiais e diferenciadas para assegurar o desenvolvimento ou a proteção de certos grupos raciais ou étnicos, a fim de garantir igualdade de direitos. d) A alternativa D está correta, pois a Corte Interamericana de Direitos Humanos (Corte IDH) distingue entre “distinções” (quando razoáveis, objetivas e proporcionais, portanto compatíveis com a Convenção Americana) e “discriminações” (quando arbitrárias, irrazoáveis e prejudiciais a direitos humanos). A interpretação é reiterada em diversos casos, como Atala Riffo vs. Chile (2012), onde a Corte enfatizou que não é toda diferenciação de tratamento que é discriminatória, mas apenas aquela que se dá sem justificação objetiva e razoável."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_18",
+      "materia": "Direitos Humanos",
+      "assunto": "Regras de Nelson Mandela e Regras de Bangkok",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em relação aos Direitos Humanos das pessoas presas, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Tanto as Regras de Nelson Mandela quanto as Regras de Bangkok possuem natureza de soft law, ou seja, são consideradas normas não vinculantes de Direito Internacional. Nada obstante, configuram-se em importantes diretrizes que servem de orientação para os Estados membros da Organização das Nações Unidas.",
+        "B": "No âmbito do Sistema de Proteção Interamericano de Direitos Humanos foram editadas as denominadas regras de Nelson Mandela, com vistas à fixação de standards mínimos de organização e funcionamento dos estabelecimentos prisionais, em ordem à proteção dos direitos dos indivíduos privados de suas liberdades.",
+        "C": "De acordo com as Regras Mínimas das Nações Unidas para o Tratamento de Presos, todas as penas cruéis, desumanas, degradantes ou que impliquem tortura devem ser proibidas. Entretanto, não há óbice à imposição do confinamento solitário prolongado, desde que aplicado como forma de sanção disciplinar, em razão de falta grave cometida pelo apenado.",
+        "D": "No âmbito do sistema global, há dois tratados, consubstanciando-se em norma de jus cogens, que estabelecem disposições específicas para os presos do sexo masculino e do sexo feminino. Assim, enquanto as Regras de Nelson Mandela disciplinam os cuidados mínimos com os encarcerados do sexo masculino, não se aplicando às mulheres presas, as regras de Bangkok se destinam exclusivamente ao encarceramento feminino."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão a respeito da dimensão internacional dos direitos das pessoas presas, cobrando a noção de que esses padrões (Mandela e Bangkok) não são tratados obrigatórios, mas funcionam como referências normativas e éticas globais, utilizadas por tribunais, organismos de monitoramento e até mesmo legislações internas para assegurar a dignidade da pessoa humana no sistema prisional. A alternativa A está correta, pois as Regras de Nelson Mandela (Regras Mínimas da ONU para o Tratamento de Presos, revisadas em 2015) e as Regras de Bangkok (Regras da ONU para o Tratamento de Mulheres Presas e Medidas Não Privativas de Liberdade para Mulheres Infratoras, de 2010) têm natureza de soft law, ou seja, não são tratados vinculantes do ponto de vista jurídico. Contudo, funcionam como parâmetros internacionais de proteção dos direitos humanos das pessoas presas, orientando a interpretação dos Estados e sendo citadas por organismos internacionais de direitos humanos. A alternativa B está incorreta, já que as Regras de Nelson Mandela não foram editadas no âmbito do Sistema Interamericano de Direitos Humanos, mas sim no âmbito das Nações Unidas. O sistema interamericano, por sua vez, tem outros documentos e parâmetros próprios (como decisões da Corte IDH e relatórios da Comissão IDH). A alternativa C está incorreta, na medida em que as Regras de Nelson Mandela proíbem o confinamento solitário prolongado. A regra 44 define como “prolongado” aquele que ultrapassa 15 dias, considerando-o tratamento cruel, desumano ou degradante. Portanto, não é admissível como sanção disciplinar. A alternativa D está incorreta, pois as Regras de Nelson Mandela não se restringem a presos homens, aplicam-se a todas as pessoas privadas de liberdade. As Regras de Bangkok são complementares, voltadas especificamente às necessidades de mulheres presas, mas não significam que as regras gerais sejam exclusivas para homens."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_17",
+      "materia": "Direitos Humanos",
+      "assunto": "Proteção Judicial na Convenção Americana de Direitos Humanos",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "De acordo com a jurisprudência da Corte Interamericana de Direitos Humanos, em relação ao Direito à Proteção Judicial, previsto no Art. 25 do Pacto de São José da Costa Rica, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O direito à proteção judicial não se exaure na prestação da tutela judicial cognitiva, sendo imprescindível que o Estado garanta os meios para executar, de maneira efetiva, as suas decisões definitivas.",
+        "B": "Trata-se de direito que impõe obrigação meramente instrumental aos Estados-parte. Nesse sentido, é suficiente a previsão de recursos no plano formal para que a garantia seja considerada efetivamente observada.",
+        "C": "Com vistas à preservação da soberania dos Estados-parte, caso sejam necessários esclarecimentos quanto à violação ou não por determinado Estado, de suas obrigações internacionais em virtude das atuações de seus órgãos judiciais, não poderá a Corte IDH examinar os processos judiciais internos, devendo se valer de outros elementos de análise.",
+        "D": "Nos casos em que se verificou uma situação de graves violações a Direitos Humanos, é obrigação do Estado-parte promover a devida apuração e responsabilização de todos os envolvidos, sejam autoridades oficiais ou particulares. Admite-se, como única justificativa legítima ao não sancionamento dos responsáveis, a concessão de anistia, quando prevista em lei, devidamente aprovada pelo Poder Legislativo competente."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre a Convenção Interamericana de Direitos Humanos, mais precisamente acerca da proteção judicial. A alternativa A está correta. A Corte IDH possui o entendimento consolidado de que a proteção judicial deve ser efetiva (effet utile). Se um juiz reconhece seu direito (cognição), mas o Estado não fornece meios para que essa decisão saia do papel (execução), o direito foi violado. Vejamos o disposto no artigo 25 da Convenção Americana de Direitos Humanos: “Artigo 25. Proteção judicial - 1. Toda pessoa tem direito a um recurso simples e rápido ou a qualquer outro recurso efetivo, perante os juízes ou tribunais competentes, que a proteja contra atos que violem seus direitos fundamentais reconhecidos pela constituição, pela lei ou pela presente Convenção, mesmo quando tal violação seja cometida por pessoas que estejam atuando no exercício de suas funções oficiais. 2. Os Estados Partes comprometem-se: a. a assegurar que a autoridade competente prevista pelo sistema legal do Estado decida sobre os direitos de toda pessoa que interpuser tal recurso; b. a desenvolver as possibilidades de recurso judicial; e c. a assegurar o cumprimento, pelas autoridades competentes, de toda decisão em que se tenha considerado procedente o recurso.” A alternativa B está incorreta. Para a Corte IDH, não basta que o recurso exista no código de processo (existência formal); ele precisa ser adequado e eficaz na prática. Veja o comentário da alternativa A. A alternativa C está incorreta. Em que pese a Corte IDH não seja uma \"quarta instância\" para revisar erros de interpretação de leis locais, ela tem competência para analisar processos internos para verificar se eles respeitaram as Garantias Judiciais (Art. 8º) e a Proteção Judicial (Art. 25). A alternativa D está incorreta. Ao contrário do que afirma a alternativa, a anistia não é uma justificativa legítima para deixar de punir torturadores ou responsáveis por crimes de lesa-humanidade. Nesse sentido, conforme afirma Amerigo Incalcaterra, Representante Regional para América do Sul do Alto Comissariado das Nações Unidas para os Direitos Humanos (ACNUDH): \"As leis de anistia, especialmente em casos de graves violações de direitos humanos, são claramente incompatíveis com o direito internacional dos direitos humanos e devem ser rejeitadas expressamente. E sua aplicação não deve ser deixada ao critério de um juiz ou tribunal\"."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_18",
+      "materia": "Direitos Humanos",
+      "assunto": "Direitos dos povos originários - propriedade e posse",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Na condição de advogado(a) especializado(a) na defesa de Direitos Humanos, você é procurado(a) por membros de uma comunidade de povos originários, interessados em regularizar a situação das terras por eles tradicionalmente ocupadas. A referida comunidade pretende obter esclarecimentos acerca do seu eventual direito de propriedade, bem como quanto à forma de sua utilização. Em relação ao tema, de acordo com o sistema regional americano e o ordenamento jurídico nacional, assinale a opção que apresenta, corretamente, o seu esclarecimento.",
+      "alternativas": {
+        "A": "De acordo com o ordenamento jurídico interno, aos povos originários é assegurado o usufruto exclusivo das riquezas do solo por eles tradicionalmente ocupado. Nesse sentido, pode a comunidade, exercendo o seu direito à autodeterminação, cultivar organismos geneticamente modificados em suas terras.",
+        "B": "A Convenção nº 169, da Organização Internacional do Trabalho, reconhece expressamente o direito de propriedade dos povos originários em relação às terras que tradicionalmente ocupam.",
+        "C": "Ao reconhecer, em favor das comunidades de povos originários, os direitos originários sobre as terras que tradicionalmente ocupam, o ordenamento jurídico nacional admite que tais áreas possam ser objeto de contrato de arrendamento, desde que celebrado pelos próprios, adequadamente representados e informados.",
+        "D": "Embora a Corte Interamericana de Direitos Humanos não reconheça o direito de propriedade coletiva em favor das comunidades de povos originários quanto às terras que tradicionalmente ocupam, a Constituição Federal de 1988 expressamente determinou a outorga do título de propriedade aos povos originários, desde que demonstrada a tradicionalidade da sua ocupação."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre povos originários. A alternativa A está incorreta. A Lei 11.460/2007 proíbe, expressamente, o cultivo de OGMs em terras indígenas. Vejamos: “Art. 1. Ficam vedados a pesquisa e o cultivo de organismos geneticamente modificados nas terras indígenas e áreas de unidades de conservação, exceto nas Áreas de Proteção Ambiental.” A alternativa B está correta. O Artigo 14.1 determina que os Estados devem reconhecer os direitos de propriedade e de posse sobre as terras ocupadas. Vejamos o que dispõe o Art. 14.1 da Convenção 169, OIT: “Artigo 14 1. Dever-se-á reconhecer aos povos interessados os direitos de propriedade e de posse sobre as terras que tradicionalmente ocupam. Além disso, nos casos apropriados, deverão ser adotadas medidas para salvaguardar o direito dos povos interessados de utilizar terras que não estejam exclusivamente ocupadas por eles, mas às quais, tradicionalmente, tenham tido acesso para suas atividades tradicionais e de subsistência. Nesse particular, deverá ser dada especial atenção à situação dos povos nômades e dos agricultores itinerantes.” A alternativa C está incorreta. No Brasil, as terras indígenas são bens da União (Art. 20, XI, CF/88) e são inalienáveis e indisponíveis. Vejamos: “Art. 20. São bens da União: XI - as terras tradicionalmente ocupadas pelos índios.”. Nesse sentido, é proibido o arrendamento dessas terras, pois são para usufruto exclusivo dos indígenas. Vejamos: “Art. 231. São reconhecidos aos índios sua organização social, costumes, línguas, crenças e tradições, e os direitos originários sobre as terras que tradicionalmente ocupam, competindo à União demarcá-las, proteger e fazer respeitar todos os seus bens. § 4º As terras de que trata este artigo são inalienáveis e indisponíveis, e os direitos sobre elas, imprescritíveis. § 6º São nulos e extintos, não produzindo efeitos jurídicos, os atos que tenham por objeto a ocupação, o domínio e a posse das terras a que se refere este artigo, ou a exploração das riquezas naturais do solo, dos rios e dos lagos nelas existentes, ressalvado relevante interesse público da União, segundo o que dispuser lei complementar, não gerando a nulidade e a extinção direito a indenização ou a ações contra a União, salvo, na forma da lei, quanto às benfeitorias derivadas da ocupação de boa fé. A alternativa D está incorreta. A Corte IDH RECONHECE, sim, o direito à propriedade coletiva. A Corte Interamericana de Direitos Humanos prolatou sentença em 05 de fevereiro de 2018, sendo o Brasil responsabilizado por violar direitos de propriedade coletiva e o acesso à justiça do Povo Indígena Xucuru."
+    }
+  ]
+}

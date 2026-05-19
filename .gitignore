@@ -1,27 +1,29 @@
-# --- BACKEND (Python) ---
-__pycache__/
-*.py[cod]
-*$py.class
-venv/
-.venv/
-env/
-.env
-firebase_key.json
-temp/
-
-# --- FRONTEND (Node/Next.js) ---
+# --- DEPENDÊNCIAS E AMBIENTES (NUNCA SUBIR) ---
 node_modules/
 .next/
 out/
 build/
-.DS_Store
-*.local
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# --- GERAL ---
+venv/
+.venv/
+env/
+__pycache__/
 .vscode/
 .idea/
+
+# --- ARQUIVOS DE CONFIGURAÇÃO E CHAVES ---
+.env
+.env.local
+*.local
+firebase_key.json
 *.log
+
+# --- DADOS BRUTOS (BLOQUEADOS) ---
+*.pdf
+**/PDFs/
+# Ignora apenas arquivos soltos na raiz ou específicos que sejam gigantes (se houver)
+todas_questoes_enem.json
+todas_questoes_oab.json
+
+# --- TRAVA DE SEGURANÇA ---
+# Garante que as pastas estruturadas de questões e editais VÃO para o GitHub
+!backend/questoes/**/*.json

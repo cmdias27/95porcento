@@ -1,0 +1,3718 @@
+[
+  {
+    "id": 406224,
+    "nome": "Introdução ao Estudo de Direito Penal |"
+  },
+  {
+    "id": 413471,
+    "nome": "Conceito e Objeto |"
+  },
+  {
+    "id": 413472,
+    "nome": "Características |"
+  },
+  {
+    "id": 413473,
+    "nome": "Evolução Histórica |"
+  },
+  {
+    "id": 413475,
+    "nome": "Direito Penal Romano |"
+  },
+  {
+    "id": 413477,
+    "nome": "Direito Penal na Idade Média |"
+  },
+  {
+    "id": 413478,
+    "nome": "Direito Penal Moderno e o IIuminismo |"
+  },
+  {
+    "id": 406225,
+    "nome": "Fontes do Direito Penal |"
+  },
+  {
+    "id": 413481,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 413482,
+    "nome": "Fontes formais |"
+  },
+  {
+    "id": 413483,
+    "nome": "Fontes materiais (competência legislativa) |"
+  },
+  {
+    "id": 413485,
+    "nome": "Medida Provisória |"
+  },
+  {
+    "id": 413486,
+    "nome": "As Velocidades do Direito Penal |"
+  },
+  {
+    "id": 413907,
+    "nome": "Função do Direito Penal |"
+  },
+  {
+    "id": 413908,
+    "nome": "Garantia |"
+  },
+  {
+    "id": 413909,
+    "nome": "Ético-social |"
+  },
+  {
+    "id": 418163,
+    "nome": "Simbólica |"
+  },
+  {
+    "id": 418164,
+    "nome": "Motivadora |"
+  },
+  {
+    "id": 418165,
+    "nome": "Promocional |"
+  },
+  {
+    "id": 418166,
+    "nome": "Instrumento de controle social |"
+  },
+  {
+    "id": 418167,
+    "nome": "Relação do Direito Penal com outros ramos do Direito |"
+  },
+  {
+    "id": 418168,
+    "nome": "Criminalização primária e secundária |"
+  },
+  {
+    "id": 418169,
+    "nome": "Ciências Criminais |"
+  },
+  {
+    "id": 418170,
+    "nome": "Política Criminal |"
+  },
+  {
+    "id": 418171,
+    "nome": "Garantismo Penal |"
+  },
+  {
+    "id": 418172,
+    "nome": "Dogmática |"
+  },
+  {
+    "id": 418186,
+    "nome": "Criminologia |"
+  },
+  {
+    "id": 418190,
+    "nome": "Vitimologia |"
+  },
+  {
+    "id": 418191,
+    "nome": "Privatização do Direito Penal |"
+  },
+  {
+    "id": 413479,
+    "nome": "As Escolas do Direito Penal |"
+  },
+  {
+    "id": 418209,
+    "nome": "Escola Clássica |"
+  },
+  {
+    "id": 418210,
+    "nome": "Escola Positiva |"
+  },
+  {
+    "id": 418211,
+    "nome": "Correcionalismo Penal |"
+  },
+  {
+    "id": 418212,
+    "nome": "Tecnicismo jurídico-penal |"
+  },
+  {
+    "id": 418217,
+    "nome": "Funcionalismo Penal |"
+  },
+  {
+    "id": 418219,
+    "nome": "Funcionalismo teleológico ou moderado - Claus Roxin |"
+  },
+  {
+    "id": 418220,
+    "nome": "Funcionalismo sistêmico ou radical - Gunther Jakobs |"
+  },
+  {
+    "id": 418221,
+    "nome": "Direito Penal do Inimigo |"
+  },
+  {
+    "id": 413709,
+    "nome": "Teoria Constitucional do Direito Penal |"
+  },
+  {
+    "id": 413493,
+    "nome": "Imunidades |"
+  },
+  {
+    "id": 413494,
+    "nome": "Diplomáticas |"
+  },
+  {
+    "id": 413495,
+    "nome": "Parlamentares |"
+  },
+  {
+    "id": 418230,
+    "nome": "Imunidades materiais |"
+  },
+  {
+    "id": 418234,
+    "nome": "Imunidades processuais |"
+  },
+  {
+    "id": 406226,
+    "nome": "Princípios do Direito Penal |"
+  },
+  {
+    "id": 418294,
+    "nome": "Conceitos gerais |"
+  },
+  {
+    "id": 413497,
+    "nome": "Diferenciação entre Princípios e Regras |"
+  },
+  {
+    "id": 413498,
+    "nome": "Princípios em Espécie |"
+  },
+  {
+    "id": 413502,
+    "nome": "Princípio da Dignidade da Pessoa Humana |"
+  },
+  {
+    "id": 413503,
+    "nome": "Princípio da Legalidade |"
+  },
+  {
+    "id": 418414,
+    "nome": "Princípio da reserva legal ou da estrita legalidade |"
+  },
+  {
+    "id": 418415,
+    "nome": "Princípio da Anterioridade |"
+  },
+  {
+    "id": 413504,
+    "nome": "Princípio da Presunção da Inocência (ou da não culpa) |"
+  },
+  {
+    "id": 413505,
+    "nome": "Princípio da Humanidade |"
+  },
+  {
+    "id": 413506,
+    "nome": "Princípio da Individualização da Pena |"
+  },
+  {
+    "id": 413507,
+    "nome": "Princípio da Intranscedência da Pena (Pessoalidade ou Personalidade) |"
+  },
+  {
+    "id": 413508,
+    "nome": "Princípio do Devido Processo Legal |"
+  },
+  {
+    "id": 413509,
+    "nome": "Princípio da Intervenção Mínima (ultima ratio) |"
+  },
+  {
+    "id": 413510,
+    "nome": "Princípio da Fragmentariedade (ou caráter fragmentário) |"
+  },
+  {
+    "id": 413511,
+    "nome": "Princípio da Subsidiariedade |"
+  },
+  {
+    "id": 413512,
+    "nome": "Princípio da Adequação Social |"
+  },
+  {
+    "id": 413513,
+    "nome": "Princípio da Culpabilidade (Responsabilidade Penal Subjetiva) |"
+  },
+  {
+    "id": 413514,
+    "nome": "Princípio da Ofensividade ou Lesividade |"
+  },
+  {
+    "id": 413516,
+    "nome": "Princípio da Coculpabilidade ou da Corresponsabilidade |"
+  },
+  {
+    "id": 413517,
+    "nome": "Princípio da Confiança |"
+  },
+  {
+    "id": 413518,
+    "nome": "Princípio da Alteridade ou da Transcedentalidade |"
+  },
+  {
+    "id": 413519,
+    "nome": "Princípio da Exteriorização ou Materialização do Fato |"
+  },
+  {
+    "id": 413520,
+    "nome": "Princípio da Proporcionalidade |"
+  },
+  {
+    "id": 413523,
+    "nome": "Princípio da proibição de bis in idem (Vedação da Dupla Punição pelo Mesmo Fato) |"
+  },
+  {
+    "id": 413524,
+    "nome": "Princípio da Insignificância (ou Bagatela) |"
+  },
+  {
+    "id": 413525,
+    "nome": "Princípios do Garantismo |"
+  },
+  {
+    "id": 413526,
+    "nome": "Princípios do Garantismo |"
+  },
+  {
+    "id": 413527,
+    "nome": "Princípio da Continuidade Normativo-Típica |"
+  },
+  {
+    "id": 413528,
+    "nome": "Princípio da Irretroatividade da Lei Penal |"
+  },
+  {
+    "id": 413529,
+    "nome": "Princípio da Anterioridade da Lei Penal |"
+  },
+  {
+    "id": 413530,
+    "nome": "Princípio da Exclusiva Proteção do Bem Jurídico |"
+  },
+  {
+    "id": 413531,
+    "nome": "Princípio da Taxatividade |"
+  },
+  {
+    "id": 418416,
+    "nome": "Princípio da Responsabilidade Pessoal |"
+  },
+  {
+    "id": 418417,
+    "nome": "Princípio da Responsabilidade Subjetiva |"
+  },
+  {
+    "id": 418418,
+    "nome": "Lei Penal |"
+  },
+  {
+    "id": 406245,
+    "nome": "Aplicação da Lei Penal |"
+  },
+  {
+    "id": 406246,
+    "nome": "Lei penal no tempo |"
+  },
+  {
+    "id": 413535,
+    "nome": "Tempo do Crime |"
+  },
+  {
+    "id": 413536,
+    "nome": "Teoria da Atividade |"
+  },
+  {
+    "id": 413537,
+    "nome": "Teoria do Resultado |"
+  },
+  {
+    "id": 413538,
+    "nome": "Teoria da Ubiquidade ou Mista |"
+  },
+  {
+    "id": 413539,
+    "nome": "Abolitio Criminis |"
+  },
+  {
+    "id": 413540,
+    "nome": "Novatio legis in Mellius (benéfica) |"
+  },
+  {
+    "id": 413541,
+    "nome": "Novatio Legis In Pejus (prejudicial) |"
+  },
+  {
+    "id": 413542,
+    "nome": "Novatio Legis Incriminadora |"
+  },
+  {
+    "id": 413543,
+    "nome": "Lei Penal no Tempo e os Crimes Permanentes e Continuados |"
+  },
+  {
+    "id": 418424,
+    "nome": "Lei Penal no Espaço |"
+  },
+  {
+    "id": 406250,
+    "nome": "Lugar do Crime |"
+  },
+  {
+    "id": 413547,
+    "nome": "Teoria da Ubiquidade ou Mista |"
+  },
+  {
+    "id": 406249,
+    "nome": "Territorialidade |"
+  },
+  {
+    "id": 406251,
+    "nome": "Extraterritorialidade |"
+  },
+  {
+    "id": 413548,
+    "nome": "Extraterritorialidade Incondicionada |"
+  },
+  {
+    "id": 418425,
+    "nome": "Extraterritorialidade Condicionada |"
+  },
+  {
+    "id": 418426,
+    "nome": "Extraterritorialidade Hipercondicionada |"
+  },
+  {
+    "id": 418427,
+    "nome": "Princípios da Extraterritorialidade |"
+  },
+  {
+    "id": 413549,
+    "nome": "Lei Penal em Relação às Pessoas |"
+  },
+  {
+    "id": 413550,
+    "nome": "Sujeito Ativo |"
+  },
+  {
+    "id": 413551,
+    "nome": "Sujeito Passivo |"
+  },
+  {
+    "id": 418428,
+    "nome": "Disposições Preliminares do Código Penal |"
+  },
+  {
+    "id": 406254,
+    "nome": "Contagem de prazo |"
+  },
+  {
+    "id": 406255,
+    "nome": "Frações não computáveis na pena |"
+  },
+  {
+    "id": 406253,
+    "nome": "Eficácia de sentença estrangeira |"
+  },
+  {
+    "id": 406252,
+    "nome": "Pena cumprida no estrangeiro |"
+  },
+  {
+    "id": 413492,
+    "nome": "Interpretação da Lei Penal |"
+  },
+  {
+    "id": 413552,
+    "nome": "Classificação |"
+  },
+  {
+    "id": 418429,
+    "nome": "Quanto ao resultado: interpretação extensiva, restritiva e declarativa |"
+  },
+  {
+    "id": 418430,
+    "nome": "Quanto ao sujeito: autêntica, judicial ou doutrinária |"
+  },
+  {
+    "id": 418431,
+    "nome": "Quanto aos meios ou métodos: gramatical ou lógica |"
+  },
+  {
+    "id": 413554,
+    "nome": "Método Descritivo da Lei Penal |"
+  },
+  {
+    "id": 413553,
+    "nome": "Interpretação progressiva |"
+  },
+  {
+    "id": 418432,
+    "nome": "Interpretação Analógica |"
+  },
+  {
+    "id": 418433,
+    "nome": "Analogia |"
+  },
+  {
+    "id": 406248,
+    "nome": "Lei Excepcional ou Temporária |"
+  },
+  {
+    "id": 413561,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 413562,
+    "nome": "Lei Excepcional |"
+  },
+  {
+    "id": 413563,
+    "nome": "Lei Temporária em Sentido Estrito |"
+  },
+  {
+    "id": 413564,
+    "nome": "Características Comuns |"
+  },
+  {
+    "id": 418434,
+    "nome": "Norma penal em branco |"
+  },
+  {
+    "id": 418435,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 418436,
+    "nome": "Espécies |"
+  },
+  {
+    "id": 418437,
+    "nome": "Norma Penal em branco homogênea |"
+  },
+  {
+    "id": 418438,
+    "nome": "Norma Penal em branco heterogênea |"
+  },
+  {
+    "id": 418439,
+    "nome": "Norma Penal em branco às avessas (ao avesso) |"
+  },
+  {
+    "id": 418441,
+    "nome": "Preceito primário e secundário da norma penal |"
+  },
+  {
+    "id": 413555,
+    "nome": "Conflito Aparente de Normas |"
+  },
+  {
+    "id": 413557,
+    "nome": "Princípio da Especialidade |"
+  },
+  {
+    "id": 413558,
+    "nome": "Princípio da Subsidiariedade |"
+  },
+  {
+    "id": 413559,
+    "nome": "Princípio da Consunção (absorção) |"
+  },
+  {
+    "id": 413560,
+    "nome": "Princípio da Alternatividade |"
+  },
+  {
+    "id": 406256,
+    "nome": "Teoria Geral do Crime |"
+  },
+  {
+    "id": 406257,
+    "nome": "Considerações iniciais |"
+  },
+  {
+    "id": 413698,
+    "nome": "Infração penal - espécies |"
+  },
+  {
+    "id": 413699,
+    "nome": "Contravenção penal |"
+  },
+  {
+    "id": 418451,
+    "nome": "Crime |"
+  },
+  {
+    "id": 406283,
+    "nome": "Classificação dos Crimes |"
+  },
+  {
+    "id": 413604,
+    "nome": "Quanto ao sujeito Ativo (comum, próprio, de mão própria) |"
+  },
+  {
+    "id": 418452,
+    "nome": "Quanto ao sujeito Passivo (comum ou próprio) |"
+  },
+  {
+    "id": 413605,
+    "nome": "Quanto à Necessidade de Resultado Naturalístico para sua Consumação |"
+  },
+  {
+    "id": 413628,
+    "nome": "Crime material |"
+  },
+  {
+    "id": 413629,
+    "nome": "Crime formal |"
+  },
+  {
+    "id": 413630,
+    "nome": "Crime de mera conduta |"
+  },
+  {
+    "id": 413620,
+    "nome": "Quanto ao Número de Bens Jurídicos Atingidos (mono-ofensivos e pluriofensivos) |"
+  },
+  {
+    "id": 413607,
+    "nome": "Quanto à Forma de Conduta |"
+  },
+  {
+    "id": 413640,
+    "nome": "Crime comissivo |"
+  },
+  {
+    "id": 413641,
+    "nome": "Crime omissivo |"
+  },
+  {
+    "id": 413643,
+    "nome": "Crime omissivo impróprio |"
+  },
+  {
+    "id": 413644,
+    "nome": "Crime omissivo por comissão |"
+  },
+  {
+    "id": 413608,
+    "nome": "Quanto ao Tempo da Consumação |"
+  },
+  {
+    "id": 413646,
+    "nome": "Crime instantâneo |"
+  },
+  {
+    "id": 413647,
+    "nome": "Crime permanente |"
+  },
+  {
+    "id": 413648,
+    "nome": "Crime instantâneo de efeitos permanentes |"
+  },
+  {
+    "id": 418453,
+    "nome": "Crimes simples e complexos |"
+  },
+  {
+    "id": 413616,
+    "nome": "Quanto aos Vestígios |"
+  },
+  {
+    "id": 413667,
+    "nome": "Crime de fato transeunte |"
+  },
+  {
+    "id": 413668,
+    "nome": "Crime de fato permanente |"
+  },
+  {
+    "id": 413612,
+    "nome": "Quanto ao Número de Atos Exigidos para sua Consumação |"
+  },
+  {
+    "id": 413656,
+    "nome": "Crime unissubsistente |"
+  },
+  {
+    "id": 413657,
+    "nome": "Crime plurissubsistente |"
+  },
+  {
+    "id": 413613,
+    "nome": "Quanto à Necessidade de Mais de um Sujeito Ativo |"
+  },
+  {
+    "id": 413658,
+    "nome": "Crime unissubjetivo, monossubjetivo ou de concurso eventual |"
+  },
+  {
+    "id": 413659,
+    "nome": "Crime plurissubjetivo ou de concurso necessário |"
+  },
+  {
+    "id": 413615,
+    "nome": "Quanto ao Lugar |"
+  },
+  {
+    "id": 413665,
+    "nome": "Crime à distância |"
+  },
+  {
+    "id": 413666,
+    "nome": "Crime plurilocal |"
+  },
+  {
+    "id": 418454,
+    "nome": "Crimes em trânsito |"
+  },
+  {
+    "id": 413606,
+    "nome": "Quanto ao Resultado Perseguido |"
+  },
+  {
+    "id": 413631,
+    "nome": "Crime de dano |"
+  },
+  {
+    "id": 413632,
+    "nome": "Crime de perigo |"
+  },
+  {
+    "id": 413633,
+    "nome": "Crime de perigo concreto |"
+  },
+  {
+    "id": 413634,
+    "nome": "Crime de perigo abstrato |"
+  },
+  {
+    "id": 418457,
+    "nome": "Quanto à potencialidade ofensiva |"
+  },
+  {
+    "id": 418458,
+    "nome": "Crimes de menor potencial ofensivo |"
+  },
+  {
+    "id": 418460,
+    "nome": "Crimes de elevado potencial ofensivo |"
+  },
+  {
+    "id": 413624,
+    "nome": "Outras Classificações |"
+  },
+  {
+    "id": 413685,
+    "nome": "Crime habitual |"
+  },
+  {
+    "id": 413654,
+    "nome": "Crime progressivo |"
+  },
+  {
+    "id": 413655,
+    "nome": "Progressão criminosa |"
+  },
+  {
+    "id": 418461,
+    "nome": "Crime obstáculo |"
+  },
+  {
+    "id": 418462,
+    "nome": "Crime de responsabilidade |"
+  },
+  {
+    "id": 413809,
+    "nome": "Crime de Atentado ou Empreendimento |"
+  },
+  {
+    "id": 418489,
+    "nome": "Conceito de Crime |"
+  },
+  {
+    "id": 418490,
+    "nome": "Conceito analítico |"
+  },
+  {
+    "id": 418491,
+    "nome": "Conceito legal |"
+  },
+  {
+    "id": 418493,
+    "nome": "Sujeitos do Crime |"
+  },
+  {
+    "id": 418494,
+    "nome": "Sujeito Ativo |"
+  },
+  {
+    "id": 418495,
+    "nome": "Pessoa Jurídica como Sujeito Ativo |"
+  },
+  {
+    "id": 418496,
+    "nome": "Sujeito Passivo |"
+  },
+  {
+    "id": 413703,
+    "nome": "Objeto do Crime |"
+  },
+  {
+    "id": 418497,
+    "nome": "Objeto material |"
+  },
+  {
+    "id": 418498,
+    "nome": "Objeto jurídico |"
+  },
+  {
+    "id": 406258,
+    "nome": "Fato Típico |"
+  },
+  {
+    "id": 418499,
+    "nome": "Elementos do Fato Típico |"
+  },
+  {
+    "id": 406263,
+    "nome": "Teoria do tipo |"
+  },
+  {
+    "id": 406264,
+    "nome": "Tipos incriminadores e tipos permissivos |"
+  },
+  {
+    "id": 406265,
+    "nome": "Classificações do tipo legal |"
+  },
+  {
+    "id": 418502,
+    "nome": "Tipo fechado e tipo aberto |"
+  },
+  {
+    "id": 418503,
+    "nome": "Tipo simples e tipo misto |"
+  },
+  {
+    "id": 413704,
+    "nome": "Conduta |"
+  },
+  {
+    "id": 413705,
+    "nome": "Teoria Causalista, Causal-Naturalista, Naturalística ou Clássica |"
+  },
+  {
+    "id": 413706,
+    "nome": "Teoria Neokantista, Neoclássica, ou Causal-Valorativa |"
+  },
+  {
+    "id": 413707,
+    "nome": "Teoria Finalista |"
+  },
+  {
+    "id": 413708,
+    "nome": "Teoria Social da Ação |"
+  },
+  {
+    "id": 418504,
+    "nome": "Teorias funcionalistas |"
+  },
+  {
+    "id": 413710,
+    "nome": "Elementos da Conduta |"
+  },
+  {
+    "id": 413711,
+    "nome": "Causas de Exclusão da Conduta |"
+  },
+  {
+    "id": 418506,
+    "nome": "Caso fortuito e força maior |"
+  },
+  {
+    "id": 418507,
+    "nome": "Atos e movimentos reflexos |"
+  },
+  {
+    "id": 418508,
+    "nome": "Coação física irresistível |"
+  },
+  {
+    "id": 413712,
+    "nome": "Formas de Conduta |"
+  },
+  {
+    "id": 413713,
+    "nome": "Comissão (ação) |"
+  },
+  {
+    "id": 413714,
+    "nome": "Omissão |"
+  },
+  {
+    "id": 413768,
+    "nome": "Espécies de Crime Omissivo |"
+  },
+  {
+    "id": 413642,
+    "nome": "Omissão própria |"
+  },
+  {
+    "id": 418510,
+    "nome": "Omissão imprópria (crime comissivo por omissão) |"
+  },
+  {
+    "id": 413769,
+    "nome": "Requisitos da Omissão |"
+  },
+  {
+    "id": 413716,
+    "nome": "Tipo Doloso |"
+  },
+  {
+    "id": 413720,
+    "nome": "Elementos do Dolo |"
+  },
+  {
+    "id": 413721,
+    "nome": "Vontade |"
+  },
+  {
+    "id": 413722,
+    "nome": "Consciência |"
+  },
+  {
+    "id": 413723,
+    "nome": "Teorias do Dolo |"
+  },
+  {
+    "id": 418511,
+    "nome": "Teoria da representação |"
+  },
+  {
+    "id": 418512,
+    "nome": "Teoria da vontade |"
+  },
+  {
+    "id": 418513,
+    "nome": "Teoria do assentimento |"
+  },
+  {
+    "id": 413724,
+    "nome": "Espécies de Dolo |"
+  },
+  {
+    "id": 413725,
+    "nome": "Quanto à valoração |"
+  },
+  {
+    "id": 413726,
+    "nome": "Dolo natural ou neutro |"
+  },
+  {
+    "id": 413727,
+    "nome": "Dolo normativo, híbrido ou colorido |"
+  },
+  {
+    "id": 413728,
+    "nome": "Quanto ao elemento volitivo do agente |"
+  },
+  {
+    "id": 413729,
+    "nome": "Dolo direto ou determinado |"
+  },
+  {
+    "id": 418514,
+    "nome": "Dolo direto de 1º grau |"
+  },
+  {
+    "id": 418515,
+    "nome": "Dolo direto de 2º grau |"
+  },
+  {
+    "id": 413730,
+    "nome": "Dolo indireto ou indeterminado |"
+  },
+  {
+    "id": 413731,
+    "nome": "Dolo alternativo |"
+  },
+  {
+    "id": 413732,
+    "nome": "Dolo eventual |"
+  },
+  {
+    "id": 418516,
+    "nome": "Outras espécies de dolo |"
+  },
+  {
+    "id": 413717,
+    "nome": "Tipo Culposo |"
+  },
+  {
+    "id": 418517,
+    "nome": "Conceito e definição |"
+  },
+  {
+    "id": 413750,
+    "nome": "Modalidades de Culpa |"
+  },
+  {
+    "id": 413752,
+    "nome": "Negligência |"
+  },
+  {
+    "id": 413753,
+    "nome": "Imperícia |"
+  },
+  {
+    "id": 413754,
+    "nome": "Imprudência |"
+  },
+  {
+    "id": 413751,
+    "nome": "Requisitos e elementos do crime culposo |"
+  },
+  {
+    "id": 413755,
+    "nome": "Espécies de Culpa |"
+  },
+  {
+    "id": 418518,
+    "nome": "Culpa consciente |"
+  },
+  {
+    "id": 418519,
+    "nome": "Culpa inconsciente |"
+  },
+  {
+    "id": 413718,
+    "nome": "Tipo Qualificado pelo Resultado |"
+  },
+  {
+    "id": 418520,
+    "nome": "Crimes Qualificados pelo Resultado e seus Elementos |"
+  },
+  {
+    "id": 418521,
+    "nome": "Crime Preterdoloso |"
+  },
+  {
+    "id": 406267,
+    "nome": "Resultado |"
+  },
+  {
+    "id": 406268,
+    "nome": "Resultado naturalístico |"
+  },
+  {
+    "id": 406269,
+    "nome": "Resultado jurídico |"
+  },
+  {
+    "id": 406266,
+    "nome": "Erro |"
+  },
+  {
+    "id": 418522,
+    "nome": "Erro de tipo |"
+  },
+  {
+    "id": 413770,
+    "nome": "Erro de Tipo Essencial |"
+  },
+  {
+    "id": 418523,
+    "nome": "Erro de tipo invencível, inevitável, escusável, desculpável |"
+  },
+  {
+    "id": 418524,
+    "nome": "Erro de tipo vencível, evitável, inescusável, indesculpável |"
+  },
+  {
+    "id": 413771,
+    "nome": "Erro de Tipo Acidental |"
+  },
+  {
+    "id": 413772,
+    "nome": "Erro Sobre a Pessoa (error in persona) |"
+  },
+  {
+    "id": 413773,
+    "nome": "Erro Sobre o Nexo Causal (aberratio causae) |"
+  },
+  {
+    "id": 413774,
+    "nome": "Erro na Execução (aberratio ictus) |"
+  },
+  {
+    "id": 413775,
+    "nome": "Erro sobre o Crime ou Resultado Diverso do Pretendido (aberratio delicti ou aberratio criminis) |"
+  },
+  {
+    "id": 413839,
+    "nome": "Erro Sobre o Objeto (error in objecto) |"
+  },
+  {
+    "id": 413776,
+    "nome": "Erro de Tipo Causado por Terceiro |"
+  },
+  {
+    "id": 418525,
+    "nome": "Erro de Proibição (erro sobre a ilicitude do fato) |"
+  },
+  {
+    "id": 418526,
+    "nome": "Erro de proibição invencível, inevitável, escusável, desculpável |"
+  },
+  {
+    "id": 418527,
+    "nome": "Erro de proibição vencível, evitável, inescusável, indesculpável |"
+  },
+  {
+    "id": 418528,
+    "nome": "Erro de proibição mandamental |"
+  },
+  {
+    "id": 418529,
+    "nome": "Erro de proibição indireto |"
+  },
+  {
+    "id": 406261,
+    "nome": "Nexo Causal |"
+  },
+  {
+    "id": 413777,
+    "nome": "Teoria da Equivalência dos Antecedentes (teoria da conditio sine qua non) |"
+  },
+  {
+    "id": 413778,
+    "nome": "Teoria da Eliminação Hipotética dos Antecedentes Causais |"
+  },
+  {
+    "id": 413779,
+    "nome": "Teoria da Causalidade Adequada |"
+  },
+  {
+    "id": 413780,
+    "nome": "Teoria da Imputação Objetiva |"
+  },
+  {
+    "id": 413781,
+    "nome": "O Nexo Causal e o Direito Penal Brasileiro |"
+  },
+  {
+    "id": 418530,
+    "nome": "Concausas |"
+  },
+  {
+    "id": 418531,
+    "nome": "Causas absolutamente independentes |"
+  },
+  {
+    "id": 418532,
+    "nome": "Causas relativamente independentes |"
+  },
+  {
+    "id": 418533,
+    "nome": "Tipicidade |"
+  },
+  {
+    "id": 418534,
+    "nome": "Espécies de Tipicidade |"
+  },
+  {
+    "id": 418535,
+    "nome": "Tipicidade formal |"
+  },
+  {
+    "id": 418536,
+    "nome": "Tipicidade material |"
+  },
+  {
+    "id": 418537,
+    "nome": "Relação entre Tipicidade e Ilicitude |"
+  },
+  {
+    "id": 418538,
+    "nome": "Tipicidade conglobante |"
+  },
+  {
+    "id": 418539,
+    "nome": "Ilicitude (antijuridicidade) |"
+  },
+  {
+    "id": 418543,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 418544,
+    "nome": "Causas Excludentes da Ilicitude |"
+  },
+  {
+    "id": 418546,
+    "nome": "Estado de Necessidade |"
+  },
+  {
+    "id": 418547,
+    "nome": "Legítima Defesa |"
+  },
+  {
+    "id": 418549,
+    "nome": "Classificações da Legítima Defesa |"
+  },
+  {
+    "id": 418551,
+    "nome": "Estrito Cumprimento do Dever Legal |"
+  },
+  {
+    "id": 418553,
+    "nome": "Exercício Regular de Direito |"
+  },
+  {
+    "id": 418556,
+    "nome": "Ofendículos (ofendículas, ofensáculas) |"
+  },
+  {
+    "id": 418558,
+    "nome": "Causas Supralegais de Exclusão da Ilicitude |"
+  },
+  {
+    "id": 418560,
+    "nome": "Excesso Punível |"
+  },
+  {
+    "id": 406277,
+    "nome": "Descriminantes putativa |"
+  },
+  {
+    "id": 418562,
+    "nome": "Natureza jurídica |"
+  },
+  {
+    "id": 418565,
+    "nome": "Teoria extremada (estrita) |"
+  },
+  {
+    "id": 418566,
+    "nome": "Teoria limitada |"
+  },
+  {
+    "id": 413795,
+    "nome": "Iter Criminis |"
+  },
+  {
+    "id": 413796,
+    "nome": "Fases do Iter Criminis |"
+  },
+  {
+    "id": 413797,
+    "nome": "Teorias Sobre a Diferenciação entre Atos Preparatórios e Executórios |"
+  },
+  {
+    "id": 413798,
+    "nome": "Crime Consumado |"
+  },
+  {
+    "id": 418614,
+    "nome": "Exaurimento (crime exaurido) |"
+  },
+  {
+    "id": 413808,
+    "nome": "Crime Tentado ou Conatus |"
+  },
+  {
+    "id": 418633,
+    "nome": "Punibilidade da tentativa |"
+  },
+  {
+    "id": 418636,
+    "nome": "Teorias sobre a punibilidade da tentativa |"
+  },
+  {
+    "id": 418638,
+    "nome": "Classificações da Tentativa |"
+  },
+  {
+    "id": 418641,
+    "nome": "Tentativa perfeita e imperfeita |"
+  },
+  {
+    "id": 418643,
+    "nome": "Tentativa cruenta (vermelha) e incruenta (branca) |"
+  },
+  {
+    "id": 418647,
+    "nome": "Infrações Penais que não Admitem Tentativa |"
+  },
+  {
+    "id": 418649,
+    "nome": "Desistência Voluntária |"
+  },
+  {
+    "id": 418653,
+    "nome": "Arrependimento Posterior |"
+  },
+  {
+    "id": 422505,
+    "nome": "Arrependimento Eficaz |"
+  },
+  {
+    "id": 406273,
+    "nome": "Culpabilidade |"
+  },
+  {
+    "id": 418664,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 413783,
+    "nome": "Teorias sobre a Culpabilidade |"
+  },
+  {
+    "id": 413784,
+    "nome": "Teoria Psicológica da Culpabilidade |"
+  },
+  {
+    "id": 413785,
+    "nome": "Teoria Psicológico-Normativa ou Normativa da Culpabilidade |"
+  },
+  {
+    "id": 413786,
+    "nome": "Teoria Normativa Pura ou Extremada da Culpabilidade |"
+  },
+  {
+    "id": 413787,
+    "nome": "Teoria Limitada da Culpabilidade |"
+  },
+  {
+    "id": 413789,
+    "nome": "Teoria da Coculpabilidade |"
+  },
+  {
+    "id": 413790,
+    "nome": "Causas Excludentes da Culpabilidade |"
+  },
+  {
+    "id": 413791,
+    "nome": "Imputabilidade |"
+  },
+  {
+    "id": 418665,
+    "nome": "Emoção e paixão |"
+  },
+  {
+    "id": 418666,
+    "nome": "Menoridade penal |"
+  },
+  {
+    "id": 418667,
+    "nome": "Embriaguez |"
+  },
+  {
+    "id": 418668,
+    "nome": "Doença mental ou desenvolvimento mental incompleto ou retardado |"
+  },
+  {
+    "id": 406275,
+    "nome": "Exigibilidade de Conduta Diversa |"
+  },
+  {
+    "id": 413792,
+    "nome": "Coação Moral Irresistível |"
+  },
+  {
+    "id": 413793,
+    "nome": "Obediência Hierárquica |"
+  },
+  {
+    "id": 406276,
+    "nome": "Potencial Consciência da Ilicitude - Erro de Proibição |"
+  },
+  {
+    "id": 418669,
+    "nome": "Causas Supralegais de Exclusão da Culpabilidade |"
+  },
+  {
+    "id": 418670,
+    "nome": "Teoria da Coculpabilidade |"
+  },
+  {
+    "id": 406278,
+    "nome": "Do Concurso de Pessoas |"
+  },
+  {
+    "id": 413824,
+    "nome": "Conceito, Natureza e Características |"
+  },
+  {
+    "id": 413825,
+    "nome": "Requisitos |"
+  },
+  {
+    "id": 413831,
+    "nome": "Pluralidade de Agentes |"
+  },
+  {
+    "id": 413832,
+    "nome": "Relevância Causal da Colaboração |"
+  },
+  {
+    "id": 413833,
+    "nome": "Vínculo Subjetivo (ou liame subjetivo) |"
+  },
+  {
+    "id": 413834,
+    "nome": "Identidade de Infração Penal |"
+  },
+  {
+    "id": 413835,
+    "nome": "Existência de Fato Punível |"
+  },
+  {
+    "id": 413830,
+    "nome": "Autoria e Participação |"
+  },
+  {
+    "id": 418671,
+    "nome": "Teorias que diferenciam autoria e participação |"
+  },
+  {
+    "id": 418672,
+    "nome": "Teorias subjetiva e extensiva |"
+  },
+  {
+    "id": 418674,
+    "nome": "Teoria objetivo-formal |"
+  },
+  {
+    "id": 418675,
+    "nome": "Teoria do domínio do fato |"
+  },
+  {
+    "id": 418676,
+    "nome": "Participação de menor importância |"
+  },
+  {
+    "id": 418677,
+    "nome": "Punibilidade do partícipe |"
+  },
+  {
+    "id": 418678,
+    "nome": "Teorias da acessoriedade |"
+  },
+  {
+    "id": 413826,
+    "nome": "Autoria Mediata |"
+  },
+  {
+    "id": 413827,
+    "nome": "Autoria Colateral |"
+  },
+  {
+    "id": 418680,
+    "nome": "Autoria incerta |"
+  },
+  {
+    "id": 413828,
+    "nome": "Multidão Delinquente |"
+  },
+  {
+    "id": 413829,
+    "nome": "Coautoria |"
+  },
+  {
+    "id": 418685,
+    "nome": "Concurso de Agentes e Crimes Culposos |"
+  },
+  {
+    "id": 418686,
+    "nome": "Concurso de Agentes e Crimes Omissivos |"
+  },
+  {
+    "id": 418687,
+    "nome": "Punibilidade no concurso de pessoas |"
+  },
+  {
+    "id": 418688,
+    "nome": "Teoria monista (monística ou unitária) |"
+  },
+  {
+    "id": 418689,
+    "nome": "Teoria pluralista ou pluralística |"
+  },
+  {
+    "id": 418690,
+    "nome": "Teoria dualista ou dualística |"
+  },
+  {
+    "id": 418691,
+    "nome": "Cooperação Dolosamente Distinta |"
+  },
+  {
+    "id": 418692,
+    "nome": "Comunicabilidade das Circunstâncias, Condições e Elementares |"
+  },
+  {
+    "id": 418693,
+    "nome": "Participação Impunível |"
+  },
+  {
+    "id": 418694,
+    "nome": "Temas variados de concursos de pessoas |"
+  },
+  {
+    "id": 418695,
+    "nome": "Autoria de escritório |"
+  },
+  {
+    "id": 418696,
+    "nome": "Autoria intelectual |"
+  },
+  {
+    "id": 418697,
+    "nome": "Participação sucessiva |"
+  },
+  {
+    "id": 406284,
+    "nome": "Teoria Geral das Penas |"
+  },
+  {
+    "id": 413840,
+    "nome": "Conceitos introdutórios |"
+  },
+  {
+    "id": 413845,
+    "nome": "Princípios Sobre as Penas |"
+  },
+  {
+    "id": 418699,
+    "nome": "Sanção Penal |"
+  },
+  {
+    "id": 413841,
+    "nome": "Teorias Sobre a Finalidade da Pena |"
+  },
+  {
+    "id": 413842,
+    "nome": "Teoria Absoluta e sua Finalidade Retributiva |"
+  },
+  {
+    "id": 413843,
+    "nome": "Teoria Relativa e sua Finalidade Preventiva |"
+  },
+  {
+    "id": 413844,
+    "nome": "Teoria Mista (unificadora ou eclética ou unitária) e sua Dupla Finalidade |"
+  },
+  {
+    "id": 418700,
+    "nome": "Função social da pena |"
+  },
+  {
+    "id": 413846,
+    "nome": "Penas em Espécie |"
+  },
+  {
+    "id": 413848,
+    "nome": "Penas Vedadas |"
+  },
+  {
+    "id": 413849,
+    "nome": "Pena de Morte |"
+  },
+  {
+    "id": 413850,
+    "nome": "Penas de Caráter Perpétuo |"
+  },
+  {
+    "id": 413851,
+    "nome": "Pena de Trabalhos Forçados |"
+  },
+  {
+    "id": 413852,
+    "nome": "Pena de Banimento |"
+  },
+  {
+    "id": 413847,
+    "nome": "Espécies e cominação das penas |"
+  },
+  {
+    "id": 406285,
+    "nome": "Penas Privativas de Liberdade |"
+  },
+  {
+    "id": 406286,
+    "nome": "Reclusão |"
+  },
+  {
+    "id": 418701,
+    "nome": "Detenção |"
+  },
+  {
+    "id": 406288,
+    "nome": "Prisão simples |"
+  },
+  {
+    "id": 406287,
+    "nome": "Regimes de cumprimento da pena |"
+  },
+  {
+    "id": 418702,
+    "nome": "Regime Fechado |"
+  },
+  {
+    "id": 418703,
+    "nome": "Regime Semiaberto |"
+  },
+  {
+    "id": 418704,
+    "nome": "Regime Aberto |"
+  },
+  {
+    "id": 406289,
+    "nome": "Penas restritivas de direitos |"
+  },
+  {
+    "id": 413859,
+    "nome": "Prestação Pecuniária |"
+  },
+  {
+    "id": 413860,
+    "nome": "Perda de Bens e de Valores |"
+  },
+  {
+    "id": 413861,
+    "nome": "Limitação de Fim de Semana |"
+  },
+  {
+    "id": 413862,
+    "nome": "Prestação de Serviço à Comunidade ou a Entidades Públicas |"
+  },
+  {
+    "id": 413863,
+    "nome": "Interdição Temporária de Direitos |"
+  },
+  {
+    "id": 406290,
+    "nome": "Pena de multa |"
+  },
+  {
+    "id": 413854,
+    "nome": "Aplicação das Penas |"
+  },
+  {
+    "id": 413855,
+    "nome": "Primeira Fase da dosimetria da pena (pena-base) |"
+  },
+  {
+    "id": 418705,
+    "nome": "Circunstâncias judiciais (art. 59, CP) |"
+  },
+  {
+    "id": 413856,
+    "nome": "Segunda Fase da dosimetria da pena (agravantes e atenuantes) (pena intermediária ou provisória) |"
+  },
+  {
+    "id": 413857,
+    "nome": "Agravantes |"
+  },
+  {
+    "id": 418706,
+    "nome": "Reincidência |"
+  },
+  {
+    "id": 418707,
+    "nome": "Agravantes no concurso de pessoas |"
+  },
+  {
+    "id": 418708,
+    "nome": "Atenuantes |"
+  },
+  {
+    "id": 418709,
+    "nome": "Confissão |"
+  },
+  {
+    "id": 418710,
+    "nome": "Impossibilidade de redução abaixo do mínimo legal |"
+  },
+  {
+    "id": 418711,
+    "nome": "Concurso de circunstâncias agravante e atenuantes |"
+  },
+  {
+    "id": 413858,
+    "nome": "Terceira Fase da dosimetria da pena (causas de aumento e de diminuição) (pena definitiva) |"
+  },
+  {
+    "id": 418712,
+    "nome": "Concurso de causas de aumento e de diminuição da pena |"
+  },
+  {
+    "id": 413905,
+    "nome": "Limites da pena (art. 75, CP) |"
+  },
+  {
+    "id": 406279,
+    "nome": "Do Concurso de Crimes |"
+  },
+  {
+    "id": 406280,
+    "nome": "Concurso Material |"
+  },
+  {
+    "id": 406281,
+    "nome": "Concurso Formal |"
+  },
+  {
+    "id": 413864,
+    "nome": "Homogêneo |"
+  },
+  {
+    "id": 413865,
+    "nome": "Heterogêneo |"
+  },
+  {
+    "id": 413866,
+    "nome": "Perfeito ou próprio |"
+  },
+  {
+    "id": 413867,
+    "nome": "Imperfeito ou impróprio |"
+  },
+  {
+    "id": 406282,
+    "nome": "Crime Continuado |"
+  },
+  {
+    "id": 413868,
+    "nome": "Requisitos para a Configuração do Crime Continuado |"
+  },
+  {
+    "id": 413869,
+    "nome": "Aplicação da Pena no Crime Continuado |"
+  },
+  {
+    "id": 418717,
+    "nome": "Concurso de Crimes e Pena de Multa |"
+  },
+  {
+    "id": 418718,
+    "nome": "Concurso de Crimes e Prescrição |"
+  },
+  {
+    "id": 418719,
+    "nome": "Sistemas de aplicação da pena em concurso de crimes |"
+  },
+  {
+    "id": 406291,
+    "nome": "Suspensão Condicional da Pena (sursis) |"
+  },
+  {
+    "id": 418720,
+    "nome": "Requisitos e condições |"
+  },
+  {
+    "id": 413872,
+    "nome": "Revogação Obrigatória |"
+  },
+  {
+    "id": 413873,
+    "nome": "Revogação Facultativa |"
+  },
+  {
+    "id": 413874,
+    "nome": "Cassação |"
+  },
+  {
+    "id": 413875,
+    "nome": "Extinção |"
+  },
+  {
+    "id": 406293,
+    "nome": "Livramento Condicional |"
+  },
+  {
+    "id": 413876,
+    "nome": "Requisitos e Condições |"
+  },
+  {
+    "id": 413877,
+    "nome": "Concessão do Livramento Condicional |"
+  },
+  {
+    "id": 413878,
+    "nome": "Revogação Obrigatória |"
+  },
+  {
+    "id": 413879,
+    "nome": "Revogação Facultativa |"
+  },
+  {
+    "id": 413881,
+    "nome": "Prorrogação |"
+  },
+  {
+    "id": 413882,
+    "nome": "Suspensão |"
+  },
+  {
+    "id": 413883,
+    "nome": "Extinção |"
+  },
+  {
+    "id": 413894,
+    "nome": "Efeitos da Condenação |"
+  },
+  {
+    "id": 413895,
+    "nome": "Efeitos principais |"
+  },
+  {
+    "id": 418721,
+    "nome": "Efeitos secundários |"
+  },
+  {
+    "id": 418722,
+    "nome": "De natureza penal |"
+  },
+  {
+    "id": 418723,
+    "nome": "De natureza extrapenal |"
+  },
+  {
+    "id": 413896,
+    "nome": "Efeitos Genéricos |"
+  },
+  {
+    "id": 413897,
+    "nome": "Obrigação de Reparar o Dano |"
+  },
+  {
+    "id": 413898,
+    "nome": "Confisco |"
+  },
+  {
+    "id": 413899,
+    "nome": "Efeitos Específicos |"
+  },
+  {
+    "id": 413900,
+    "nome": "Perda do Cargo, Função Pública ou Mandato Eletivo. |"
+  },
+  {
+    "id": 413901,
+    "nome": "Incapacidade para Exercício do Pátrio Poder, Tutela ou Curatela |"
+  },
+  {
+    "id": 413902,
+    "nome": "Inabilitação para Dirigir Veículo |"
+  },
+  {
+    "id": 418724,
+    "nome": "Efeitos previstos fora do Código Penal |"
+  },
+  {
+    "id": 418725,
+    "nome": "Suspensão dos Direitos Políticos (art. 15, CF) |"
+  },
+  {
+    "id": 406294,
+    "nome": "Reabilitação Criminal |"
+  },
+  {
+    "id": 418726,
+    "nome": "Requisitos |"
+  },
+  {
+    "id": 413903,
+    "nome": "Sigilo das Condenações |"
+  },
+  {
+    "id": 413904,
+    "nome": "Efeitos Secundários Extrapenais da Condenação |"
+  },
+  {
+    "id": 406292,
+    "nome": "Medidas de Segurança |"
+  },
+  {
+    "id": 413884,
+    "nome": "Sistema de Imposição de Medida de Segurança |"
+  },
+  {
+    "id": 418727,
+    "nome": "Sistema vicariante ou unitário vs sistema do duplo binário, duplo trilho ou duplo via |"
+  },
+  {
+    "id": 413885,
+    "nome": "Espécies de Medida de Segurança |"
+  },
+  {
+    "id": 418728,
+    "nome": "Internação |"
+  },
+  {
+    "id": 418729,
+    "nome": "Tratamento ambulatorial |"
+  },
+  {
+    "id": 413886,
+    "nome": "Aplicação da Medida de Segurança |"
+  },
+  {
+    "id": 413887,
+    "nome": "Limite da Medida de Segurança |"
+  },
+  {
+    "id": 418730,
+    "nome": "Prazo mínimo |"
+  },
+  {
+    "id": 418731,
+    "nome": "Prazo máximo |"
+  },
+  {
+    "id": 413888,
+    "nome": "Liberação ou Desinternação Condicional |"
+  },
+  {
+    "id": 413889,
+    "nome": "Reinternação e Internação do Submetido a Tratamento |"
+  },
+  {
+    "id": 413890,
+    "nome": "Semi-Imputabilidade |"
+  },
+  {
+    "id": 413891,
+    "nome": "Conversão da Pena em Medida de Segurança |"
+  },
+  {
+    "id": 413892,
+    "nome": "Extinção da Punibilidade |"
+  },
+  {
+    "id": 413893,
+    "nome": "Prescrição |"
+  },
+  {
+    "id": 418732,
+    "nome": "Temas de Execução Penal |"
+  },
+  {
+    "id": 418733,
+    "nome": "Detração |"
+  },
+  {
+    "id": 418734,
+    "nome": "Regime Especial |"
+  },
+  {
+    "id": 418735,
+    "nome": "Direitos do Preso e Legislação Especial |"
+  },
+  {
+    "id": 418736,
+    "nome": "Trabalho do Preso e Legislação Especial |"
+  },
+  {
+    "id": 418738,
+    "nome": "Conselho Nacional de Política Criminal e Penitenciária |"
+  },
+  {
+    "id": 418739,
+    "nome": "Progressão de regime |"
+  },
+  {
+    "id": 406295,
+    "nome": "Da Ação Penal |"
+  },
+  {
+    "id": 406296,
+    "nome": "Conceito e instauração (denúncia e queixa) |"
+  },
+  {
+    "id": 406297,
+    "nome": "Ação Penal Pública (gênero) |"
+  },
+  {
+    "id": 406298,
+    "nome": "Ação Penal Pública Incondicionada |"
+  },
+  {
+    "id": 406299,
+    "nome": "Ação Penal Pública Condicionada |"
+  },
+  {
+    "id": 418751,
+    "nome": "Ação Penal Pública Condicionada à Representação do Ofendido |"
+  },
+  {
+    "id": 406300,
+    "nome": "Ação Penal Pública Condicionada à Requisição do Ministro da Justiça |"
+  },
+  {
+    "id": 406301,
+    "nome": "Ação Penal Privada (gênero) |"
+  },
+  {
+    "id": 418754,
+    "nome": "Ação Penal Privada Exclusiva ou Propriamente Dita ou Comum |"
+  },
+  {
+    "id": 406302,
+    "nome": "Ação Penal Privada Personalíssima |"
+  },
+  {
+    "id": 406303,
+    "nome": "Ação Penal Privada Subsidiária da Pública |"
+  },
+  {
+    "id": 406304,
+    "nome": "Punibilidade |"
+  },
+  {
+    "id": 418756,
+    "nome": "Considerações Iniciais |"
+  },
+  {
+    "id": 418757,
+    "nome": "Conceito de Punibilidade |"
+  },
+  {
+    "id": 413911,
+    "nome": "Causas de Extinção da Punibilidade |"
+  },
+  {
+    "id": 406305,
+    "nome": "Morte do Agente |"
+  },
+  {
+    "id": 406306,
+    "nome": "Anistia, graça e indulto |"
+  },
+  {
+    "id": 406307,
+    "nome": "Abolitio Criminis |"
+  },
+  {
+    "id": 406308,
+    "nome": "Prescrição |"
+  },
+  {
+    "id": 418758,
+    "nome": "Conceito e Noções Gerais |"
+  },
+  {
+    "id": 418759,
+    "nome": "Prescrição da Pretensão Punitiva |"
+  },
+  {
+    "id": 418760,
+    "nome": "Prescrição da Pretensão Punitiva Propriamente Dita |"
+  },
+  {
+    "id": 418765,
+    "nome": "Prescrição da Pretensão Punitiva Superveniente ou Intercorrente |"
+  },
+  {
+    "id": 418766,
+    "nome": "Prescrição da Pretensão Punitiva Retroativa |"
+  },
+  {
+    "id": 418768,
+    "nome": "Prescrição da Pretensão Punitiva Virtual ou Antecipada |"
+  },
+  {
+    "id": 418769,
+    "nome": "Prescrição da Pretensão Executória |"
+  },
+  {
+    "id": 418770,
+    "nome": "Termo inicial do prazo prescricional |"
+  },
+  {
+    "id": 418771,
+    "nome": "Causas impeditivas ou suspensivas |"
+  },
+  {
+    "id": 418772,
+    "nome": "Causas interruptivas |"
+  },
+  {
+    "id": 418773,
+    "nome": "Prescrição da Pena de Multa. |"
+  },
+  {
+    "id": 418774,
+    "nome": "Prescrição no concurso de crimes |"
+  },
+  {
+    "id": 418775,
+    "nome": "Prescrição na legislação penal especial |"
+  },
+  {
+    "id": 418777,
+    "nome": "Prescrição na legislação penal especial |"
+  },
+  {
+    "id": 406309,
+    "nome": "Decadência |"
+  },
+  {
+    "id": 406310,
+    "nome": "Perempção |"
+  },
+  {
+    "id": 406311,
+    "nome": "Renúncia |"
+  },
+  {
+    "id": 406312,
+    "nome": "Perdão do ofendido |"
+  },
+  {
+    "id": 406313,
+    "nome": "Retratação do agente |"
+  },
+  {
+    "id": 406314,
+    "nome": "Perdão Judicial |"
+  },
+  {
+    "id": 413912,
+    "nome": "Condições Objetivas de Punibilidade |"
+  },
+  {
+    "id": 413913,
+    "nome": "Constituição Definitiva do Débito nos Crimes Tributários |"
+  },
+  {
+    "id": 413914,
+    "nome": "Sentença de Falência, Recuperação Judicial ou Extrajudicial e Crimes Falimentares |"
+  },
+  {
+    "id": 413915,
+    "nome": "Condições para a Extraterritorialidade Condicionada |"
+  },
+  {
+    "id": 418778,
+    "nome": "Crimes contra a pessoa |"
+  },
+  {
+    "id": 406315,
+    "nome": "Crimes Contra a Vida |"
+  },
+  {
+    "id": 418794,
+    "nome": "Considerações gerais |"
+  },
+  {
+    "id": 406316,
+    "nome": "Homicídio |"
+  },
+  {
+    "id": 413916,
+    "nome": "Homicídio Simples |"
+  },
+  {
+    "id": 413917,
+    "nome": "Homicídio Privilegiado |"
+  },
+  {
+    "id": 413918,
+    "nome": "Homicídio Qualificado |"
+  },
+  {
+    "id": 418795,
+    "nome": "Homicídio qualificado privilegiado (homicídio híbrido) |"
+  },
+  {
+    "id": 413919,
+    "nome": "Homicídio Qualificado: Feminicídio |"
+  },
+  {
+    "id": 418796,
+    "nome": "Causas de aumento de pena do feminicídio |"
+  },
+  {
+    "id": 413920,
+    "nome": "Homicídio Doloso Majorado |"
+  },
+  {
+    "id": 413921,
+    "nome": "Homicídio Culposo |"
+  },
+  {
+    "id": 418797,
+    "nome": "Homicídio Culposo Majorado |"
+  },
+  {
+    "id": 418798,
+    "nome": "Perdão judicial |"
+  },
+  {
+    "id": 406317,
+    "nome": "Induzimento, Instigação ou Auxílio ao Suicídio ou a Automutilação |"
+  },
+  {
+    "id": 406319,
+    "nome": "Infanticídio |"
+  },
+  {
+    "id": 406318,
+    "nome": "Aborto |"
+  },
+  {
+    "id": 413922,
+    "nome": "Autoaborto e Aborto Consentido |"
+  },
+  {
+    "id": 413923,
+    "nome": "Aborto sem Consentimento da Gestante |"
+  },
+  {
+    "id": 413924,
+    "nome": "Aborto com Consentimento da Gestante |"
+  },
+  {
+    "id": 413925,
+    "nome": "Aborto Majorado |"
+  },
+  {
+    "id": 413926,
+    "nome": "Aborto Legal |"
+  },
+  {
+    "id": 418799,
+    "nome": "Aborto necessário ou terapêutico |"
+  },
+  {
+    "id": 418800,
+    "nome": "Aborto sentimental ou ético (gravidez resultante de estupro) |"
+  },
+  {
+    "id": 418801,
+    "nome": "Aborto de feto anencéfalo (anencefalia) |"
+  },
+  {
+    "id": 406320,
+    "nome": "Lesões Corporais |"
+  },
+  {
+    "id": 406321,
+    "nome": "Modalidades |"
+  },
+  {
+    "id": 413927,
+    "nome": "Lesão Corporal de Natureza Leve |"
+  },
+  {
+    "id": 413928,
+    "nome": "Lesão Corporal de Natureza Grave |"
+  },
+  {
+    "id": 413929,
+    "nome": "Lesão Corporal de Natureza Gravíssima |"
+  },
+  {
+    "id": 413930,
+    "nome": "Lesão Corporal Seguida de Morte (com Resultado Morte) |"
+  },
+  {
+    "id": 413931,
+    "nome": "Lesão Corporal Privilegiada |"
+  },
+  {
+    "id": 413932,
+    "nome": "Lesão Corporal Culposa |"
+  },
+  {
+    "id": 413933,
+    "nome": "Lesão Corporal majorada |"
+  },
+  {
+    "id": 413934,
+    "nome": "Perdão judicial |"
+  },
+  {
+    "id": 406323,
+    "nome": "Lesão Corporal - Violência doméstica |"
+  },
+  {
+    "id": 413935,
+    "nome": "Lesão Corporal funcional |"
+  },
+  {
+    "id": 413936,
+    "nome": "Lesão Corporal e ação penal |"
+  },
+  {
+    "id": 406324,
+    "nome": "Periclitação da Vida e da Saúde |"
+  },
+  {
+    "id": 406325,
+    "nome": "Perigo de contágio venéreo |"
+  },
+  {
+    "id": 406326,
+    "nome": "Perigo de contágio de moléstia grave |"
+  },
+  {
+    "id": 406327,
+    "nome": "Perigo para a vida ou saúde de outrem |"
+  },
+  {
+    "id": 406328,
+    "nome": "Abandono de incapaz |"
+  },
+  {
+    "id": 418802,
+    "nome": "Abandono de incapaz qualificado pela lesão corporal de natureza grave |"
+  },
+  {
+    "id": 418803,
+    "nome": "Abandono de incapaz qualificado pela morte |"
+  },
+  {
+    "id": 406329,
+    "nome": "Exposição ou abandono de recém-nascido |"
+  },
+  {
+    "id": 406330,
+    "nome": "Omissão de socorro |"
+  },
+  {
+    "id": 406331,
+    "nome": "Condicionamento de atendimento médico-hospitalar emergencial |"
+  },
+  {
+    "id": 406332,
+    "nome": "Maus-tratos |"
+  },
+  {
+    "id": 406333,
+    "nome": "Rixa |"
+  },
+  {
+    "id": 406334,
+    "nome": "Crimes Contra a Honra |"
+  },
+  {
+    "id": 406352,
+    "nome": "Calúnia |"
+  },
+  {
+    "id": 406353,
+    "nome": "Difamação |"
+  },
+  {
+    "id": 406354,
+    "nome": "Injúria |"
+  },
+  {
+    "id": 406355,
+    "nome": "Disposições comuns aos crimes contra a honra |"
+  },
+  {
+    "id": 413939,
+    "nome": "Exclusão do crime |"
+  },
+  {
+    "id": 413940,
+    "nome": "Retratação |"
+  },
+  {
+    "id": 418804,
+    "nome": "Exceção da verdade |"
+  },
+  {
+    "id": 418805,
+    "nome": "Ação penal nos crimes contra a honra |"
+  },
+  {
+    "id": 406335,
+    "nome": "Crimes Contra a Liberdade Pessoal |"
+  },
+  {
+    "id": 406356,
+    "nome": "Constrangimento ilegal e aumento de pena |"
+  },
+  {
+    "id": 406357,
+    "nome": "Ameaça |"
+  },
+  {
+    "id": 430148,
+    "nome": "Perseguição |"
+  },
+  {
+    "id": 406358,
+    "nome": "Sequestro e cárcere privado |"
+  },
+  {
+    "id": 406359,
+    "nome": "Redução a condição análoga à de escravo |"
+  },
+  {
+    "id": 406360,
+    "nome": "Tráfico de Pessoas |"
+  },
+  {
+    "id": 413941,
+    "nome": "Violação de domicílio |"
+  },
+  {
+    "id": 413942,
+    "nome": "Violação de correspondência |"
+  },
+  {
+    "id": 413943,
+    "nome": "Outros crimes ligações à violação de correspondência |"
+  },
+  {
+    "id": 418806,
+    "nome": "Sonegação ou destruição de correspondência |"
+  },
+  {
+    "id": 418807,
+    "nome": "Violação de comunicação telegráfica, radioelétrica ou telefônica |"
+  },
+  {
+    "id": 413944,
+    "nome": "Correspondência comercial |"
+  },
+  {
+    "id": 413945,
+    "nome": "Divulgação de segredo |"
+  },
+  {
+    "id": 413946,
+    "nome": "Violação de segredo profissional |"
+  },
+  {
+    "id": 413947,
+    "nome": "Invasão de dispositivo informático |"
+  },
+  {
+    "id": 406339,
+    "nome": "Crimes Contra o Patrimônio |"
+  },
+  {
+    "id": 406361,
+    "nome": "Furto |"
+  },
+  {
+    "id": 413948,
+    "nome": "Furto noturno (repouso noturno) |"
+  },
+  {
+    "id": 413949,
+    "nome": "Furto privilegiado |"
+  },
+  {
+    "id": 413950,
+    "nome": "Furto de energia elétrica |"
+  },
+  {
+    "id": 418808,
+    "nome": "Furto Qualificado |"
+  },
+  {
+    "id": 418809,
+    "nome": "Furto qualificado privilegiado |"
+  },
+  {
+    "id": 418810,
+    "nome": "Furto com emprego de explosivos e furto de explosivos |"
+  },
+  {
+    "id": 418811,
+    "nome": "Furto de coisa comum |"
+  },
+  {
+    "id": 406362,
+    "nome": "Roubo |"
+  },
+  {
+    "id": 413951,
+    "nome": "Roubo impróprio |"
+  },
+  {
+    "id": 413952,
+    "nome": "Roubo circunstanciado ou majorado |"
+  },
+  {
+    "id": 413953,
+    "nome": "Roubo qualificado com resultado lesão corporal grave |"
+  },
+  {
+    "id": 413954,
+    "nome": "Roubo qualificado com resultado morte (latrocínio) |"
+  },
+  {
+    "id": 406364,
+    "nome": "Extorsão |"
+  },
+  {
+    "id": 418812,
+    "nome": "Extorsão circunstanciada ou majorada |"
+  },
+  {
+    "id": 418813,
+    "nome": "Extorsão qualificada |"
+  },
+  {
+    "id": 418814,
+    "nome": "Extorsão com restrição de liberdade |"
+  },
+  {
+    "id": 406365,
+    "nome": "Extorsão mediante sequestro |"
+  },
+  {
+    "id": 406366,
+    "nome": "Extorsão indireta |"
+  },
+  {
+    "id": 406367,
+    "nome": "Usurpação |"
+  },
+  {
+    "id": 413956,
+    "nome": "Alteração de limites |"
+  },
+  {
+    "id": 413957,
+    "nome": "Usurpação de águas |"
+  },
+  {
+    "id": 413958,
+    "nome": "Esbulho Possessório |"
+  },
+  {
+    "id": 413959,
+    "nome": "Supressão ou alteração de marcas em animais |"
+  },
+  {
+    "id": 406368,
+    "nome": "Dano |"
+  },
+  {
+    "id": 418818,
+    "nome": "Dano simples |"
+  },
+  {
+    "id": 413960,
+    "nome": "Dano qualificado |"
+  },
+  {
+    "id": 413961,
+    "nome": "Introdução ou abandono de animais em propriedade alheia |"
+  },
+  {
+    "id": 413962,
+    "nome": "Dano em coisa de valor artístico, arqueológico ou histórico |"
+  },
+  {
+    "id": 413964,
+    "nome": "Ação penal |"
+  },
+  {
+    "id": 406369,
+    "nome": "Apropriação indébita |"
+  },
+  {
+    "id": 413965,
+    "nome": "Apropriação indébita previdenciária |"
+  },
+  {
+    "id": 413966,
+    "nome": "Apropriação de coisa havida por erro, caso fortuito ou força da natureza |"
+  },
+  {
+    "id": 413967,
+    "nome": "Apropriação de tesouro |"
+  },
+  {
+    "id": 413968,
+    "nome": "Apropriação de coisa achada |"
+  },
+  {
+    "id": 413969,
+    "nome": "Forma privilegiada para os crimes de apropriação indébita |"
+  },
+  {
+    "id": 406370,
+    "nome": "Estelionato e outras fraudes |"
+  },
+  {
+    "id": 418827,
+    "nome": "Estelionato |"
+  },
+  {
+    "id": 413970,
+    "nome": "Disposição de coisa alheia como própria |"
+  },
+  {
+    "id": 413971,
+    "nome": "Alienação ou oneração fraudulenta de coisa própria |"
+  },
+  {
+    "id": 413972,
+    "nome": "Defraudação de penhor |"
+  },
+  {
+    "id": 413973,
+    "nome": "Fraude na entrega de coisa |"
+  },
+  {
+    "id": 413974,
+    "nome": "Fraude para recebimento de indenização ou valor de seguro |"
+  },
+  {
+    "id": 413975,
+    "nome": "Fraude no pagamento por meio de cheque |"
+  },
+  {
+    "id": 413976,
+    "nome": "Formas majoradas de estelionato e figuras equiparadas |"
+  },
+  {
+    "id": 413977,
+    "nome": "Duplicata simulada |"
+  },
+  {
+    "id": 413978,
+    "nome": "Abuso de incapazes |"
+  },
+  {
+    "id": 413979,
+    "nome": "Induzimento à especulação |"
+  },
+  {
+    "id": 413980,
+    "nome": "Fraude no comércio |"
+  },
+  {
+    "id": 413981,
+    "nome": "Outras fraudes |"
+  },
+  {
+    "id": 413982,
+    "nome": "Fraudes e abusos na fundação ou administração de sociedade por ações |"
+  },
+  {
+    "id": 413984,
+    "nome": "Fraude à execução |"
+  },
+  {
+    "id": 406371,
+    "nome": "Da Receptação |"
+  },
+  {
+    "id": 418860,
+    "nome": "Receptação simples |"
+  },
+  {
+    "id": 418861,
+    "nome": "Receptação qualificada |"
+  },
+  {
+    "id": 418862,
+    "nome": "Receptação culposa |"
+  },
+  {
+    "id": 418863,
+    "nome": "Receptação privilegiada |"
+  },
+  {
+    "id": 413985,
+    "nome": "Receptação de animal |"
+  },
+  {
+    "id": 418865,
+    "nome": "Disposições gerais para crimes contra o patrimônio |"
+  },
+  {
+    "id": 418866,
+    "nome": "Escusas absolutórias (art. 181, CP) |"
+  },
+  {
+    "id": 418867,
+    "nome": "Imunidades relativas ou processuais (art. 182, CP) |"
+  },
+  {
+    "id": 418868,
+    "nome": "Exceções (art. 183, CP) |"
+  },
+  {
+    "id": 406336,
+    "nome": "Crimes Contra a Inviolabilidade do Domicílio |"
+  },
+  {
+    "id": 406337,
+    "nome": "Crimes Contra a Inviolabilidade de Correspondências |"
+  },
+  {
+    "id": 406338,
+    "nome": "Crimes Contra a Inviolabilidade dos Segredos |"
+  },
+  {
+    "id": 406340,
+    "nome": "Crimes Contra a Propriedade Imaterial |"
+  },
+  {
+    "id": 413986,
+    "nome": "Dos Crimes Contra a Propriedade Intelectual |"
+  },
+  {
+    "id": 413987,
+    "nome": "Violação de Direito Autoral |"
+  },
+  {
+    "id": 413988,
+    "nome": "Da Ação Penal nos Crimes contra a Propriedade Intelectual |"
+  },
+  {
+    "id": 406341,
+    "nome": "Crimes Contra a Organização do Trabalho |"
+  },
+  {
+    "id": 413992,
+    "nome": "Atentado Contra a Liberdade de Trabalho |"
+  },
+  {
+    "id": 413993,
+    "nome": "Atentado Contra a Liberdade de Contrato de Trabalho e Boicotagem Violenta |"
+  },
+  {
+    "id": 413994,
+    "nome": "Atentado Contra a Liberdade de Associação |"
+  },
+  {
+    "id": 413995,
+    "nome": "Paralisação de Trabalho, Seguida de Violência ou Perturbação da Ordem |"
+  },
+  {
+    "id": 413996,
+    "nome": "Paralisação de Trabalho de Interesse Coletivo |"
+  },
+  {
+    "id": 413997,
+    "nome": "Invasão de Estabelecimento Industrial, Comercial ou Agrícola. Sabotagem |"
+  },
+  {
+    "id": 413998,
+    "nome": "Frustração de Direito Assegurado por Lei Trabalhista |"
+  },
+  {
+    "id": 413999,
+    "nome": "Frustração de Lei Sobre a Nacionalização do Trabalho |"
+  },
+  {
+    "id": 414000,
+    "nome": "Exercício de Atividade com Infração de Decisão Administrativa |"
+  },
+  {
+    "id": 414001,
+    "nome": "Aliciamento para o Fim de Emigração |"
+  },
+  {
+    "id": 414002,
+    "nome": "Aliciamento de Trabalhadores de um Local para Outro do Território Nacional |"
+  },
+  {
+    "id": 406342,
+    "nome": "Dos Crimes Contra o Sentimento Religioso e o Respeito aos Mortos |"
+  },
+  {
+    "id": 414003,
+    "nome": "Dos Crimes Contra o Sentimento Religioso |"
+  },
+  {
+    "id": 418869,
+    "nome": "Ultraje a Culto e Impedimento ou Perturbação de Ato a Ele Relativo |"
+  },
+  {
+    "id": 406343,
+    "nome": "Crimes Contra o Respeito aos Mortos |"
+  },
+  {
+    "id": 414004,
+    "nome": "Impedimento ou Perturbação de Cerimônia Funerária |"
+  },
+  {
+    "id": 414005,
+    "nome": "Violação de Sepultura |"
+  },
+  {
+    "id": 414006,
+    "nome": "Destruição, Subtração ou Ocultação de Cadáver |"
+  },
+  {
+    "id": 414007,
+    "nome": "Vilipêndio a Cadáver |"
+  },
+  {
+    "id": 406344,
+    "nome": "Crimes Contra a Dignidade Sexual |"
+  },
+  {
+    "id": 418870,
+    "nome": "Dos Crimes Contra a Liberdade Sexual |"
+  },
+  {
+    "id": 406372,
+    "nome": "Estupro |"
+  },
+  {
+    "id": 406373,
+    "nome": "Violação sexual mediante fraude |"
+  },
+  {
+    "id": 406374,
+    "nome": "Importunação Sexual |"
+  },
+  {
+    "id": 406375,
+    "nome": "Assédio sexual |"
+  },
+  {
+    "id": 414008,
+    "nome": "Da exposição da intimidade sexual |"
+  },
+  {
+    "id": 414009,
+    "nome": "Registro não autorizado da intimidade sexual |"
+  },
+  {
+    "id": 414010,
+    "nome": "Dos Crimes Sexuais Contra Vulnerável |"
+  },
+  {
+    "id": 406377,
+    "nome": "Estupro de vulnerável |"
+  },
+  {
+    "id": 406378,
+    "nome": "Sedução e Corrupção de Menores |"
+  },
+  {
+    "id": 406379,
+    "nome": "Satisfação de lascívia mediante presença de criança ou adolescente |"
+  },
+  {
+    "id": 406380,
+    "nome": "Favorecimento da prostituição ou de outra forma de exploração sexual de criança ou adolescente ou de vulnerável |"
+  },
+  {
+    "id": 406381,
+    "nome": "Divulgação de cena de estupro ou de cena de estupro de vulnerável, de cena de sexo ou de pornografia |"
+  },
+  {
+    "id": 418871,
+    "nome": "Disposições gerais dos crimes contra a liberdade sexual e contra vulneráveis (arts. 225 e 226) |"
+  },
+  {
+    "id": 418872,
+    "nome": "Ação penal nos crimes contra a dignidade sexual |"
+  },
+  {
+    "id": 418873,
+    "nome": "Causas de aumento de pena nos crimes contra a dignidade sexual |"
+  },
+  {
+    "id": 414011,
+    "nome": "Do Lenocínio e do Tráfico de Pessoas para Fim de Prostituição ou Outra Forma de Exploração Sexual |"
+  },
+  {
+    "id": 406383,
+    "nome": "Favorecimento da prostituição ou outra forma de exploração sexual |"
+  },
+  {
+    "id": 406384,
+    "nome": "Casa de prostituição |"
+  },
+  {
+    "id": 406385,
+    "nome": "Rufianismo |"
+  },
+  {
+    "id": 406387,
+    "nome": "Promoção de migração ilegal |"
+  },
+  {
+    "id": 406386,
+    "nome": "Tráfico internacional de pessoas para fim de exploração sexual |"
+  },
+  {
+    "id": 406388,
+    "nome": "Ultraje Público ao Pudor |"
+  },
+  {
+    "id": 418877,
+    "nome": "Ato obsceno |"
+  },
+  {
+    "id": 418878,
+    "nome": "Escrito ou objeto obsceno |"
+  },
+  {
+    "id": 418880,
+    "nome": "Disposições gerais dos crimes contra a dignidade sexual (arts. 234-A a 234-B) |"
+  },
+  {
+    "id": 406345,
+    "nome": "Crimes Contra a Família |"
+  },
+  {
+    "id": 418883,
+    "nome": "Dos Crimes Contra o Casamento |"
+  },
+  {
+    "id": 406389,
+    "nome": "Bigamia |"
+  },
+  {
+    "id": 406390,
+    "nome": "Induzimento a erro essencial e ocultação de impedimento |"
+  },
+  {
+    "id": 418885,
+    "nome": "Espécie de ação penal no crime de Induzimento a Erro Essencial e Ocultação de Impedimento |"
+  },
+  {
+    "id": 406393,
+    "nome": "Simulação de casamento |"
+  },
+  {
+    "id": 418890,
+    "nome": "Dos Crimes Contra o Estado de Filiação |"
+  },
+  {
+    "id": 406394,
+    "nome": "Registro de nascimento inexistente |"
+  },
+  {
+    "id": 406395,
+    "nome": "Parto suposto, supressão ou alteração de direito inerente ao estado civil de recém-nascido |"
+  },
+  {
+    "id": 406396,
+    "nome": "Sonegação de estado de filiação |"
+  },
+  {
+    "id": 418894,
+    "nome": "Dos Crimes Contra a Assistência Familiar |"
+  },
+  {
+    "id": 406397,
+    "nome": "Abandono material |"
+  },
+  {
+    "id": 406398,
+    "nome": "Entrega de filho menor a pessoa inidônea |"
+  },
+  {
+    "id": 406399,
+    "nome": "Abandono intelectual |"
+  },
+  {
+    "id": 414012,
+    "nome": "Abandono Moral |"
+  },
+  {
+    "id": 418899,
+    "nome": "Dos Crimes Contra o Pátrio Poder, Tutela e Curatela |"
+  },
+  {
+    "id": 406400,
+    "nome": "Induzimento a fuga, entrega arbitrária ou sonegação de incapazes |"
+  },
+  {
+    "id": 406401,
+    "nome": "Subtração de incapazes |"
+  },
+  {
+    "id": 406346,
+    "nome": "Crimes Contra a Incolumidade Pública |"
+  },
+  {
+    "id": 406402,
+    "nome": "Crimes de Perigo Comum |"
+  },
+  {
+    "id": 414013,
+    "nome": "Incêndio |"
+  },
+  {
+    "id": 414014,
+    "nome": "Explosão |"
+  },
+  {
+    "id": 414015,
+    "nome": "Uso de Gás Tóxico ou Asfixiante |"
+  },
+  {
+    "id": 414016,
+    "nome": "Fabrico, Fornecimento, Aquisição Posse ou Transporte de Explosivos ou Gás Tóxico, ou Asfixiante |"
+  },
+  {
+    "id": 414017,
+    "nome": "Inundação |"
+  },
+  {
+    "id": 414018,
+    "nome": "Perigo de Inundação |"
+  },
+  {
+    "id": 414019,
+    "nome": "Desabamento ou Desmoronamento |"
+  },
+  {
+    "id": 414021,
+    "nome": "Formas Qualificadas de Crime de Perigo Comum |"
+  },
+  {
+    "id": 414022,
+    "nome": "Difusão de Doença ou Praga |"
+  },
+  {
+    "id": 406403,
+    "nome": "Crimes Contra a Segurança dos Meios de Comunicação e Transporte e Outros Serviços Públicos |"
+  },
+  {
+    "id": 414023,
+    "nome": "Perigo de Desastre Ferroviário |"
+  },
+  {
+    "id": 414024,
+    "nome": "Atentado Contra a Segurança de Transporte Marítimo, Fluvial ou Aéreo |"
+  },
+  {
+    "id": 414025,
+    "nome": "Atentado Contra a Segurança de Outro Meio de Transporte |"
+  },
+  {
+    "id": 414026,
+    "nome": "Forma Qualificada |"
+  },
+  {
+    "id": 414027,
+    "nome": "Arremesso de Projétil |"
+  },
+  {
+    "id": 414028,
+    "nome": "Atentado Contra a Segurança de Serviço de Utilidade Púbica |"
+  },
+  {
+    "id": 414029,
+    "nome": "Interrupção ou Perturbação de Serviço Telegráfico, Telefônico, Informático, Telemático ou de Informação de Utilidade Pública |"
+  },
+  {
+    "id": 406404,
+    "nome": "Crimes Contra a Saúde Pública |"
+  },
+  {
+    "id": 414030,
+    "nome": "Epidemia |"
+  },
+  {
+    "id": 414031,
+    "nome": "Infração de Medida Sanitária Preventiva |"
+  },
+  {
+    "id": 414032,
+    "nome": "Omissão de Notificação de Doença |"
+  },
+  {
+    "id": 414033,
+    "nome": "Envenenamento de Água Potável ou de Substância Alimentícia ou Medicinal |"
+  },
+  {
+    "id": 414034,
+    "nome": "Corrupção ou Poluição de Água Potável |"
+  },
+  {
+    "id": 414035,
+    "nome": "Falsificação, Corrupção, Adulteração ou Alteração de Substância ou Produtos Alimentícios |"
+  },
+  {
+    "id": 414036,
+    "nome": "Falsificação, Corrupção, Adulteração ou Alteração de Produto Destinado a Fins Terapêuticos ou Medicinais. |"
+  },
+  {
+    "id": 414037,
+    "nome": "Emprego de Processo Proibido ou de Substância não Permitida |"
+  },
+  {
+    "id": 414039,
+    "nome": "Produto ou Substância nas Condições dos Dois Artigos Anteriores |"
+  },
+  {
+    "id": 414040,
+    "nome": "Substância Destinada à Falsificação |"
+  },
+  {
+    "id": 414041,
+    "nome": "Outras Substância Nocivas à Saúde Pública |"
+  },
+  {
+    "id": 414042,
+    "nome": "Medicamento em Desacordo com Receita Médica |"
+  },
+  {
+    "id": 414043,
+    "nome": "Exercício Ilegal da Medicina, Arte Dentária ou Farmacêutica |"
+  },
+  {
+    "id": 414044,
+    "nome": "Charlatanismo |"
+  },
+  {
+    "id": 414045,
+    "nome": "Curandeirismo |"
+  },
+  {
+    "id": 406347,
+    "nome": "Crimes Contra a Paz Pública |"
+  },
+  {
+    "id": 406405,
+    "nome": "Incitação ao crime |"
+  },
+  {
+    "id": 406406,
+    "nome": "Apologia de crime ou criminoso |"
+  },
+  {
+    "id": 406408,
+    "nome": "Associação Criminosa |"
+  },
+  {
+    "id": 406409,
+    "nome": "Constituição de milícia privada |"
+  },
+  {
+    "id": 406348,
+    "nome": "Crimes Contra a Fé Pública |"
+  },
+  {
+    "id": 418908,
+    "nome": "Aspectos Gerais |"
+  },
+  {
+    "id": 406411,
+    "nome": "Moeda Falsa |"
+  },
+  {
+    "id": 414047,
+    "nome": "Crimes Assimilados ao de Moeda Falsa |"
+  },
+  {
+    "id": 414048,
+    "nome": "Emissão de Título ao Portador sem Permissão Legal |"
+  },
+  {
+    "id": 406412,
+    "nome": "Petrechos para falsificação de moeda |"
+  },
+  {
+    "id": 406413,
+    "nome": "Falsidade de Títulos e Outros Papéis Públicos |"
+  },
+  {
+    "id": 414049,
+    "nome": "Falsificação de Papéis Públicos |"
+  },
+  {
+    "id": 414050,
+    "nome": "Petrechos de Falsificação |"
+  },
+  {
+    "id": 406414,
+    "nome": "Falsidade Documental |"
+  },
+  {
+    "id": 406415,
+    "nome": "Falsificação do selo ou sinal público |"
+  },
+  {
+    "id": 406416,
+    "nome": "Falsificação do documento público |"
+  },
+  {
+    "id": 406417,
+    "nome": "Falsificação de documento particular |"
+  },
+  {
+    "id": 406418,
+    "nome": "Falsidade ideológica |"
+  },
+  {
+    "id": 406420,
+    "nome": "Falso reconhecimento de firma ou letra |"
+  },
+  {
+    "id": 406421,
+    "nome": "Certidão ou atestado ideologicamente falso |"
+  },
+  {
+    "id": 406422,
+    "nome": "Falsidade material de atestado ou certidão |"
+  },
+  {
+    "id": 406424,
+    "nome": "Falsidade de atestado médico |"
+  },
+  {
+    "id": 406425,
+    "nome": "Reprodução ou adulteração de selo ou peça filatélica |"
+  },
+  {
+    "id": 406426,
+    "nome": "Uso de documento falso |"
+  },
+  {
+    "id": 406427,
+    "nome": "Supressão de documento |"
+  },
+  {
+    "id": 406428,
+    "nome": "Outras Falsidades |"
+  },
+  {
+    "id": 414052,
+    "nome": "Falsificação do sinal empregado no contraste de metal precioso ou na fiscalização alfandegária, ou para outros fins |"
+  },
+  {
+    "id": 414053,
+    "nome": "Falsa identidade |"
+  },
+  {
+    "id": 414054,
+    "nome": "Fraude de lei sobre estrangeiro |"
+  },
+  {
+    "id": 414055,
+    "nome": "Adulteração de sinal identificador de veículo automotor |"
+  },
+  {
+    "id": 406430,
+    "nome": "Das Fraudes em Certames de Interesse Público |"
+  },
+  {
+    "id": 406349,
+    "nome": "Crimes Contra a Administração Pública |"
+  },
+  {
+    "id": 406431,
+    "nome": "Crimes Praticados por Funcionário Público Contra a Administração em Geral |"
+  },
+  {
+    "id": 406432,
+    "nome": "Peculato |"
+  },
+  {
+    "id": 418924,
+    "nome": "Peculato próprio (peculato-apropriação e peculato-desvio) |"
+  },
+  {
+    "id": 418927,
+    "nome": "Peculato impróprio (peculato furto) |"
+  },
+  {
+    "id": 418929,
+    "nome": "Peculato culposo |"
+  },
+  {
+    "id": 406433,
+    "nome": "Peculato mediante erro de outrem |"
+  },
+  {
+    "id": 406434,
+    "nome": "Inserção de dados falsos em sistema de informações |"
+  },
+  {
+    "id": 406438,
+    "nome": "Modificação ou alteração não autorizada de sistema de informações |"
+  },
+  {
+    "id": 406440,
+    "nome": "Extravio, sonegação ou inutilização de livro ou documento |"
+  },
+  {
+    "id": 406442,
+    "nome": "Emprego irregular de verbas ou rendas públicas |"
+  },
+  {
+    "id": 406446,
+    "nome": "Concussão |"
+  },
+  {
+    "id": 406450,
+    "nome": "Excesso de exação |"
+  },
+  {
+    "id": 406453,
+    "nome": "Corrupção passiva |"
+  },
+  {
+    "id": 414056,
+    "nome": "Corrupção Passiva Privilegiada |"
+  },
+  {
+    "id": 406454,
+    "nome": "Facilitação de contrabando ou descaminho |"
+  },
+  {
+    "id": 406455,
+    "nome": "Prevaricação |"
+  },
+  {
+    "id": 414057,
+    "nome": "Prevaricação \"Imprópria\" |"
+  },
+  {
+    "id": 406456,
+    "nome": "Condescendência criminosa |"
+  },
+  {
+    "id": 406457,
+    "nome": "Advocacia administrativa |"
+  },
+  {
+    "id": 406459,
+    "nome": "Violência arbitrária |"
+  },
+  {
+    "id": 406460,
+    "nome": "Abandono de função |"
+  },
+  {
+    "id": 406462,
+    "nome": "Violação de sigilo funcional |"
+  },
+  {
+    "id": 406469,
+    "nome": "Violação do sigilo de propostas de concorrência |"
+  },
+  {
+    "id": 418941,
+    "nome": "Conceito de Funcionário Público e Causa de Aumento de Pena |"
+  },
+  {
+    "id": 418942,
+    "nome": "Conceito de funcionário público por extensão |"
+  },
+  {
+    "id": 418943,
+    "nome": "Aumento de pena (cargos em comissão, função de direção ou assessoramento) |"
+  },
+  {
+    "id": 406474,
+    "nome": "Crimes Praticados por Particular Contra a Administração em Geral |"
+  },
+  {
+    "id": 406475,
+    "nome": "Usurpação de função pública |"
+  },
+  {
+    "id": 406476,
+    "nome": "Resistência |"
+  },
+  {
+    "id": 406477,
+    "nome": "Desobediência |"
+  },
+  {
+    "id": 406478,
+    "nome": "Desacato |"
+  },
+  {
+    "id": 406479,
+    "nome": "Tráfico de influência |"
+  },
+  {
+    "id": 406480,
+    "nome": "Corrupção ativa |"
+  },
+  {
+    "id": 406481,
+    "nome": "Contrabando |"
+  },
+  {
+    "id": 418944,
+    "nome": "Descaminho |"
+  },
+  {
+    "id": 406482,
+    "nome": "Impedimento, perturbação ou fraude de concorrência |"
+  },
+  {
+    "id": 406483,
+    "nome": "Inutilização de edital ou de sinal |"
+  },
+  {
+    "id": 406484,
+    "nome": "Subtração ou inutilização de livro ou documento |"
+  },
+  {
+    "id": 406485,
+    "nome": "Sonegação de contribuição previdenciária |"
+  },
+  {
+    "id": 406493,
+    "nome": "Dos Crimes Praticados por Particular Contra a Administração Pública Estrangeira |"
+  },
+  {
+    "id": 406494,
+    "nome": "Corrupção ativa em transação comercial internacional |"
+  },
+  {
+    "id": 406495,
+    "nome": "Tráfico de influência em transação comercial internacional |"
+  },
+  {
+    "id": 414058,
+    "nome": "Funcionário Público Estrangeiro |"
+  },
+  {
+    "id": 430329,
+    "nome": "Dos Crimes em Licitações e Contratos Administrativos |"
+  },
+  {
+    "id": 430330,
+    "nome": "Contratação direta ilegal |"
+  },
+  {
+    "id": 430331,
+    "nome": "Frustração do caráter competitivo de licitação |"
+  },
+  {
+    "id": 430332,
+    "nome": "Patrocínio de contratação indevida |"
+  },
+  {
+    "id": 430333,
+    "nome": "Modificação ou pagamento irregular em contrato administrativo |"
+  },
+  {
+    "id": 430334,
+    "nome": "Perturbação de processo licitatório |"
+  },
+  {
+    "id": 430335,
+    "nome": "Violação de sigilo em licitação |"
+  },
+  {
+    "id": 430336,
+    "nome": "Afastamento de licitante |"
+  },
+  {
+    "id": 430337,
+    "nome": "Fraude em licitação ou contrato |"
+  },
+  {
+    "id": 430338,
+    "nome": "Contratação inidônea |"
+  },
+  {
+    "id": 430339,
+    "nome": "Impedimento indevido |"
+  },
+  {
+    "id": 430340,
+    "nome": "Omissão grave de dado ou de informação por projetista |"
+  },
+  {
+    "id": 406496,
+    "nome": "Crimes Contra a Administração da Justiça |"
+  },
+  {
+    "id": 406497,
+    "nome": "Reingresso de estrangeiro expulso |"
+  },
+  {
+    "id": 406498,
+    "nome": "Denunciação caluniosa |"
+  },
+  {
+    "id": 406499,
+    "nome": "Comunicação falsa de crime ou de contravenção |"
+  },
+  {
+    "id": 406500,
+    "nome": "Autoacusação falsa |"
+  },
+  {
+    "id": 406501,
+    "nome": "Falso testemunho ou falsa perícia |"
+  },
+  {
+    "id": 406502,
+    "nome": "Coação no curso do processo |"
+  },
+  {
+    "id": 406503,
+    "nome": "Exercício arbitrário das próprias razões |"
+  },
+  {
+    "id": 418946,
+    "nome": "Exercício Arbitrário das Próprias Razões: Modalidade Especial (art. 346, CP) |"
+  },
+  {
+    "id": 406504,
+    "nome": "Fraude processual |"
+  },
+  {
+    "id": 406505,
+    "nome": "Favorecimento pessoal |"
+  },
+  {
+    "id": 406506,
+    "nome": "Favorecimento real |"
+  },
+  {
+    "id": 406508,
+    "nome": "Fuga de pessoa presa ou submetida a medida de segurança |"
+  },
+  {
+    "id": 406509,
+    "nome": "Evasão mediante violência contra a pessoa |"
+  },
+  {
+    "id": 406510,
+    "nome": "Arrebatamento de preso |"
+  },
+  {
+    "id": 406511,
+    "nome": "Motim de presos |"
+  },
+  {
+    "id": 406512,
+    "nome": "Patrocínio infiel |"
+  },
+  {
+    "id": 432522,
+    "nome": "Patrocínio simultâneo ou tergiversação |"
+  },
+  {
+    "id": 406514,
+    "nome": "Sonegação de papel ou objeto de valor probatório |"
+  },
+  {
+    "id": 406515,
+    "nome": "Exploração de prestígio |"
+  },
+  {
+    "id": 406516,
+    "nome": "Violência ou fraude em arrematação judicial |"
+  },
+  {
+    "id": 406517,
+    "nome": "Desobediência a decisão judicial sobre perda ou suspensão de direito |"
+  },
+  {
+    "id": 418945,
+    "nome": "Corrupção Ativa de Testemunha, Servidor ou Auxiliar da Justiça. |"
+  },
+  {
+    "id": 418948,
+    "nome": "Introdução de Aparelho Telefônico Móvel ou Similar em Estabelecimento Prisional (favorecimento real impróprio) |"
+  },
+  {
+    "id": 406518,
+    "nome": "Crimes Contra as Finanças Públicas |"
+  },
+  {
+    "id": 414059,
+    "nome": "Contratação de Operação de Crédito |"
+  },
+  {
+    "id": 414060,
+    "nome": "Inscrição de Despesas não Empenhadas em Restos a Pagar |"
+  },
+  {
+    "id": 414061,
+    "nome": "Assunção de Obrigação no Último Ano de Mandato ou Legislatura |"
+  },
+  {
+    "id": 414062,
+    "nome": "Ordenação de Despesa não Autorizada |"
+  },
+  {
+    "id": 414063,
+    "nome": "Prestação de Garantia Graciosa |"
+  },
+  {
+    "id": 414064,
+    "nome": "Não Cancelamento de Restos a Pagar |"
+  },
+  {
+    "id": 414065,
+    "nome": "Aumento de Despesa Total com Pessoal no Último Ano do Mandato ou Legislatura |"
+  },
+  {
+    "id": 414066,
+    "nome": "Oferta Pública ou Colocação de Títulos no Mercado |"
+  },
+  {
+    "id": 430346,
+    "nome": "Dos Crimes Contra o Estado Democrático de Direito |"
+  },
+  {
+    "id": 430347,
+    "nome": "Dos crimes contra a soberania nacional |"
+  },
+  {
+    "id": 430348,
+    "nome": "Dos crimes contra as instituições democráticas |"
+  },
+  {
+    "id": 430349,
+    "nome": "Dos crimes contra o funcionamento das instituições democráticas no processo eleitoral |"
+  },
+  {
+    "id": 430351,
+    "nome": "Disposições Comuns e Disposições Finais |"
+  },
+  {
+    "id": 406350,
+    "nome": "Súmulas e entendimentos jurisprudenciais sobre Direito Penal |"
+  },
+  {
+    "id": 406351,
+    "nome": "Legislação Especial |"
+  },
+  {
+    "id": 406519,
+    "nome": "Lei de Contravenções Penais - Decreto-Lei nº 3.688/1941 |"
+  },
+  {
+    "id": 406520,
+    "nome": "Lei do Abuso de Autoridade - Lei nº 4.898/1965 |"
+  },
+  {
+    "id": 406521,
+    "nome": "Lei do Abuso de Autoridade - Lei nº 13.869/2019 |"
+  },
+  {
+    "id": 406522,
+    "nome": "Lei do Colarinho Branco - Lei nº 7.492/1986 - Crimes contra o Sistema Financeiro |"
+  },
+  {
+    "id": 406523,
+    "nome": "Crimes Resultantes de Preconceito de Raça ou Cor - Lei nº 7.716/1989 |"
+  },
+  {
+    "id": 406524,
+    "nome": "Lei de Crimes Hediondos - Lei nº 8.072/1990 |"
+  },
+  {
+    "id": 406525,
+    "nome": "Crime contra a Ordem Econômica e Tributária - Lei nº 8.137/1990 |"
+  },
+  {
+    "id": 406526,
+    "nome": "Lei dos Crimes de Tortura - Lei nº 9.455/1997 |"
+  },
+  {
+    "id": 406527,
+    "nome": "Lei da Lavagem de Dinheiro - Lei nº 9.613/1998 |"
+  },
+  {
+    "id": 406528,
+    "nome": "Estatuto do Desarmamento - Lei nº 10.826/2003 |"
+  },
+  {
+    "id": 432750,
+    "nome": "Decreto nº 9.847/2019 - Regulamenta a Lei nº 10.826, de 22 de dezembro de 2003, para dispor sobre a aquisição, o cadastro, o registro, o porte e a comercialização de armas de fogo e de munição e sobre o Sistema Nacional de Armas |"
+  },
+  {
+    "id": 406529,
+    "nome": "Lei de Drogas - Lei nº 11.343/2006 |"
+  },
+  {
+    "id": 421163,
+    "nome": "Lei 5.553/68 - Documentação pessoal |"
+  },
+  {
+    "id": 421164,
+    "nome": "Lei 12.830/13 - Autoridade Policial |"
+  },
+  {
+    "id": 421165,
+    "nome": "Lei 12.850/13 - Crimes organizados |"
+  },
+  {
+    "id": 421166,
+    "nome": "Lei 13.260/2016 - Terrorismo |"
+  },
+  {
+    "id": 421167,
+    "nome": "Lei 12.037/2009 - Identificação criminal |"
+  },
+  {
+    "id": 421168,
+    "nome": "Lei 10.446/2002 - Atribuições da Polícia Federal |"
+  },
+  {
+    "id": 421169,
+    "nome": "Lei 9.503/1997 - Crimes de Trânsito |"
+  },
+  {
+    "id": 421170,
+    "nome": "Lei 4.947/1966 - Invasão de Terras Públicas |"
+  },
+  {
+    "id": 421171,
+    "nome": "Lei 2.889/1956 - Genocídio |"
+  },
+  {
+    "id": 423200,
+    "nome": "Lei nº 5.250/1967 - Lei de Imprensa |"
+  },
+  {
+    "id": 423207,
+    "nome": "Lei nº 9.605/1998 - Lei de Crimes Ambientais |"
+  },
+  {
+    "id": 423219,
+    "nome": "Lei nº 10.028/2000 - Crimes contra as Finanças Públicas |"
+  },
+  {
+    "id": 433711,
+    "nome": "Lei nº 4.729/1965 - Define o crime de sonegação fiscal e dá outras providências. |"
+  },
+  {
+    "id": 439136,
+    "nome": "Lei n° 14.532/2023 - Altera a Lei nº 7.716, de 5 de janeiro de 1989 (Lei do Crime Racial), e o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para tipificar como crime de racismo a injúria racial. |"
+  },
+  {
+    "id": 455359,
+    "nome": "Decreto-Lei n.º 3.914/1941 - Lei de introdução do Código Penal (decreto-lei n. 2.848, de 7-12-940) e da Lei das Contravenções Penais (decreto-lei n. 3.688, de 3 outubro de 1941) |"
+  },
+  {
+    "id": 423169,
+    "nome": "Disposições Constitucionais Aplicáveis ao Direito Penal |"
+  }
+]

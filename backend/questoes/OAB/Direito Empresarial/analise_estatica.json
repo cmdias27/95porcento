@@ -1,0 +1,1036 @@
+{
+  "Direito De Empresa E Perfil Do Empresário": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Proibições legais de arquivamento na Junta Comercial",
+        "ids_questoes": [
+          "oab_38_47"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A FGV mistura a regra geral de que a Junta não analisa o mérito com a exceção legal de vedação expressa ao arquivamento. O distrator costuma trazer ato aparentemente regular, mas que esbarra em proibição específica do Código Civil."
+      },
+      {
+        "nome_microtema": "Firma individual do empresário individual",
+        "ids_questoes": [
+          "oab_38_48"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir firma com nome fantasia ou marca. A banca explora a exigência de uso do nome civil do empresário, completo ou abreviado, com aditamento facultativo, e derruba quem escolhe denominação livre."
+      },
+      {
+        "nome_microtema": "Transformação do empresário individual em sociedade empresária",
+        "ids_questoes": [
+          "oab_39_49"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A FGV induz o candidato a pensar em dissolução e nova constituição, quando o correto é a transformação do registro. A pegadinha está em manter a atividade e o estabelecimento, alterando apenas a forma jurídica."
+      },
+      {
+        "nome_microtema": "Exclusão da atividade intelectual e exceção pela organização empresarial",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_47"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir exercício de profissão intelectual com empresariedade automática. A exceção depende de elemento organizacional relevante, e a FGV costuma trocar isso por mera habitualidade, auxílio de terceiros ou opção tributária."
+      },
+      {
+        "nome_microtema": "Inscrição do empresário individual e registro da sede/filiais",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_49"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Misturar domicílio do empresário com local da sede do estabelecimento e com o registro das filiais. A banca testa a competência da Junta Comercial correta e a lógica de inscrição vinculada ao local do estabelecimento principal."
+      },
+      {
+        "nome_microtema": "MEI e regime jurídico simplificado da LC 123/2006",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_50"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "A FGV costuma confundir regras do MEI com regras gerais do empresário individual ou do Simples Nacional. O erro clássico é atribuir ao MEI exigências ou efeitos que pertencem a outros regimes, como formalidades de sede, alienação de estabelecimento ou prova de receita."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto; a FGV testa aplicação literal do Código Civil e da LC 123/2006 em situações do cotidiano empresarial, com foco em registro, nome empresarial, transformação, enquadramento e regime do MEI.",
+      "palavras_gatilho": [
+        "assinale a opção",
+        "é correto afirmar",
+        "consoante a determinação",
+        "considerando-se as normas",
+        "diante dos fatos",
+        "qual condição",
+        "qual documento"
+      ]
+    },
+    "total_questoes_analisadas": 6,
+    "banco_questoes": [
+      {
+        "id": "oab_38_47",
+        "materia": "Direito Empresarial",
+        "assunto": "Registro Público de Empresas - Nome Idêntico ou Semelhante",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Ainda que o Registro Público de Empresas Mercantis, a cargo das Juntas Comerciais, não possa examinar o mérito dos atos dos empresários, sociedades empresárias e cooperativas, limitando-se sua análise aos requisitos formais, existe proibição de arquivamento de documentos em razão de expressa disposição legal. Assinale a opção que indica o documento que incorre na proibição legal de arquivamento.",
+        "alternativas": {
+          "A": "Os atos de empresas mercantis com nome idêntico a outro já existente.",
+          "B": "A prorrogação do contrato social depois de findo o prazo nele fixado.",
+          "C": "A alteração contratual, por deliberação majoritária do capital social, quando não houver cláusula restritiva.",
+          "D": "Os atos constitutivos de empresas mercantis que não designarem o nome do liquidante e a forma de liquidação."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa A está correta. O art. 35, V, da Lei 8.934/94 e o art. 1.163 do CC/02 proíbem o arquivamento de atos de empresas com nome idêntico ou semelhante a outro já existente no mesmo registro."
+      },
+      {
+        "id": "oab_38_48",
+        "materia": "Direito Empresarial",
+        "assunto": "Firma Individual (Empresário Individual)",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Marco Araripe pretende iniciar uma empresa em nome próprio e mediante responsabilidade ilimitada pelas obrigações. Antes de realizar sua inscrição na Junta Comercial, Marco Araripe precisa indicar o nome que adotará para o exercício da empresa. Consoante a determinação contida no Código Civil quanto à formação de firma individual, ela deve ser constituída",
+        "alternativas": {
+          "A": "pelo nome do empresário, completo ou abreviado, aditando-lhe, se quiser, designação mais precisa da sua pessoa ou do gênero de atividade.",
+          "B": "pelo nome de fantasia livremente escolhido, aditando-lhe, se quiser, designação do gênero de atividade.",
+          "C": "pelo nome abreviado do empresário ou pelo nome de fantasia, aditando-lhe, se quiser, designação mais precisa da sua pessoa.",
+          "D": "Em duas partes: a primeira, o nome completo do empresário e, a segunda, o nome de fantasia, sendo vedada a indicação do gênero de atividade."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa A está correta. O empresário individual opera sob firma constituída por seu nome, completo ou abreviado, podendo aditar designação mais precisa (art. 1.156 do CC/02). Não pode adotar nome de fantasia (art. 1.157 do CC/02)."
+      },
+      {
+        "id": "oab_39_49",
+        "materia": "Direito Empresarial",
+        "assunto": "Transformação de Empresário Individual para Sociedade (Art. 1.113 do CC)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 1.113 do CC/02.",
+        "enunciado": "O empresário individual Valério Pavão deseja alterar a forma de exercício da sociedade empresária, passando a admitir como sócio Jerônimo e Atílio, e mantendo a mesma atividade e localização de seu estabelecimento. Sobre a mudança pretendida, assinale a opção que apresenta as ações que Valério Pavão deverá executar.",
+        "alternativas": {
+          "A": "Dissolver sua empresa individual e, após o encerramento da liquidação, constituir uma sociedade com os sócios Jerônimo e Atílio.",
+          "B": "Solicitar ao registro Público de Empresas Mercantis a transformação de seu registro de empresário para registro de sociedade empresária.",
+          "C": "Solicitar ao Registro Público de Empresas Mercantis o enquadramento de sua empresa como microempresa para, em seguida, requerer a transformação do registro para sociedade empresária.",
+          "D": "Dissolver sua empresa individual e, no curso da liquidação e após o levantamento do balanço patrimonial, constituir uma sociedade com os sócios Jerônimo e Atílio."
+        },
+        "gabarito": "B",
+        "comentario": "O art. 1.113 do CC estabelece que o ato de transformação (mudança do tipo jurídico) independe de dissolução ou liquidação da sociedade, e obedecerá aos preceitos reguladores da constituição e inscrição próprios do tipo em que vai converter-se. A transformação é a operação adequada."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_47",
+        "materia": "Direito Empresarial",
+        "assunto": "Conceito de empresário e profissão intelectual",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O Código Civil, ao tratar da caracterização do empresário, afasta desse instituto as pessoas naturais que exercem profissão intelectual, de natureza científica, literária ou artística. Todavia, o Código Civil admitiu a possibilidade de essas pessoas virem a ser reputadas empresárias e, como tal, sujeitarem-se à inscrição na Junta Comercial. Assinale a opção que apresenta a condição para que isso ocorra.",
+        "alternativas": {
+          "A": "O exercício da profissão intelectual deve congregar emprego habitual de mão de obra e insumos.",
+          "B": "A pessoa natural deve exercer atividade econômica com o concurso de auxiliares ou colaboradores.",
+          "C": "O exercício da profissão, de natureza científica, literária ou artística, deve constituir elemento de empresa.",
+          "D": "A pessoa natural deve optar pelo Simples Nacional e ser enquadrada como Microempreendedor Individual."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata sobre a profissão intelectual, de natureza científica, literária ou artística. A alternativa C está correta. Quando há elemento de empresa, é possível que a pessoa jurídica exerça tais atividades, conforme assim dispõe o art. 966, parágrafo único, do CC. Vejamos: “Art. 966. Considera-se empresário quem exerce profissionalmente atividade econômica organizada para a produção ou a circulação de bens ou de serviços. Parágrafo único. Não se considera empresário quem exerce profissão intelectual, de natureza científica, literária ou artística, ainda com o concurso de auxiliares ou colaboradores, salvo se o exercício da profissão constituir elemento de empresa.” As demais alternativas estão incorretas, ante a desconformidade com o dispositivo indicado acima."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_49",
+        "materia": "Direito Empresarial",
+        "assunto": "Registro de empresário e filiais",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Francisco Morato tem domicílio em Cidade Ocidental/GO e pretende ser empresário individual em Brasília/DF. Se o negócio der certo, Francisco Morato pretende abrir duas filiais, uma em Unaí/MG e, outra, em Natividade/TO. Considerando-se as normas do Código Civil para a inscrição do empresário e da instituição de filiais, é correto afirmar que Francisco Morato deverá realizar sua inscrição como empresário na Junta Comercial do",
+        "alternativas": {
+          "A": "Estado de Goiás, tendo como referência a cidade do seu domicílio, Cidade Ocidental, e, com relação às filiais, nas Juntas Comerciais dos Estados de Minas Gerais e do Tocantins, sem necessidade de averbação da constituição das filiais na Junta Comercial do Estado de Goiás.",
+          "B": "Distrito Federal, tendo como referência a sede da sociedade empresária, Brasília, e, com relação às filiais, nas Juntas Comerciais dos Estados de Minas Gerais e do Tocantins, com averbação da constituição das filiais na Junta Comercial do Distrito Federal.",
+          "C": "Estado de Goiás, tendo como referência a cidade do seu domicílio, Cidade Ocidental, e, com relação às filiais, na mesma Junta Comercial, por ser o lugar do seu domicílio.",
+          "D": "Distrito Federal, tendo como referência a sede da sociedade empresária, Brasília, e, com relação às filiais, na mesma Junta Comercial por ser o lugar da sede."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tema de registro de matriz e filiais. A alternativa A está incorreta, pois a inscrição ocorrerá na Junta Comercial da respectiva sede, que no caso é Brasília/DF, conforme art. 967 do Código Civil. Ainda, a averbação das filiais na Junta Comercial da sede é obrigatória, conforme parágrafo único do art. 969 do Código Civil. A alternativa B está correta, pois o art. 967 do Código Civil determina que será obrigatória a inscrição do empresário no Registro Público de Empresas Mercantis da respectiva sede, que no caso do enunciado, é Brasília/DF. Com relação às filiais, o art. 969 do Código Civil determina que a inscrição deverá ser realizada na Junta Comercial do local em que forem constituídas e, também, deverão ser averbadas na respectiva sede, conforme art. 969, parágrafo único, do Código Civil. A alternativa C está incorreta, pois o local da sede é que define a Junta Comercial que será competente para a inscrição (art. 967, do Código Civil). As filiais devem ser inscritas nas Juntas Comerciais respectivas do local em que forem estabelecidas, bem como, deverão ser averbadas na Junta Comercial da respectiva sede da matriz (art. 969, parágrafo único, do Código Civil). A alternativa D está incorreta, pois as filiais devem ser inscritas nas Juntas Comerciais respectivas do local em que forem estabelecidas, bem como, deverão ser averbadas na Junta Comercial da respectiva sede da matriz (art. 969, parágrafo único, do Código Civil)."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_50",
+        "materia": "Direito Empresarial",
+        "assunto": "Microempreendedor Individual (MEI)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Nísia Parnamirim realizou sua inscrição como microempreendedora individual (MEI) e consultou você, como advogado(a), para saber o tratamento que lhe é dispensado pela Lei Complementar nº 123/2006 (Lei do Simples Nacional). Sobre a hipótese, assinale a opção que apresenta, corretamente, sua resposta.",
+        "alternativas": {
+          "A": "Nísia Parnamirim poderá utilizar sua residência como sede do estabelecimento, quando não for indispensável a existência de local próprio para o exercício da atividade.",
+          "B": "Nísia Parnamirim poderá manter sua condição de microempreendedora individual desde que a receita bruta auferida no ano-calendário anterior seja de até R$ 60.000,00 (sessenta mil reais).",
+          "C": "Caso Nísia Parnamirim queira alienar seu estabelecimento, a eficácia do ato em relação a terceiros depende da averbação do contrato no Registro Público de Empresas Mercantis e de sua publicação na imprensa oficial.",
+          "D": "A comprovação da receita bruta anual por parte de Nísia Parnamirim será feita mediante escrituração do Livro Caixa e apresentação do registro de vendas ou de prestação de serviços."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata do tema do Microempreendedor Individual (MEI). A alternativa A está correta, pois retrata a literalidade do §25 do art. 18-A da Lei Complementar 123/2006. Veja a literalidade da lei: “Art. 18-A. O Microempreendedor Individual - MEI poderá optar pelo recolhimento dos impostos e contribuições abrangidos pelo Simples Nacional em valores fixos mensais, independentemente da receita bruta por ele auferida no mês, na forma prevista neste artigo. [...] § 25. O MEI poderá utilizar sua residência como sede do estabelecimento, quando não for indispensável a existência de local próprio para o exercício da atividade. A alternativa B está incorreta, pois o valor auferido de receita bruta não pode ultrapassar R$ 81.000,00 (oitenta e um mil reais), conforme §1º do art. 18-A da Lei Complementar 123/2006. Veja a literalidade da lei: “Art. 18-A [...] § 1º Para os efeitos desta Lei Complementar, considera-se MEI quem tenha auferido receita bruta, no ano-calendário anterior, de até R$ 81.000,00 (oitenta e um mil reais), que seja optante pelo Simples Nacional e que não esteja impedido de optar pela sistemática prevista neste artigo, e seja empresário individual que se enquadre na definição do art. 966 da Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), ou o empreendedor que exerça:”. A alternativa C está incorreta, pois quem possui MEI está dispensado de publicação de qualquer ato societário, conforme determina o art. 71 da Lei Complementar 123/2006. Veja a literalidade da lei: “Art. 71. Os empresários e as sociedades de que trata esta Lei Complementar, nos termos da legislação civil, ficam dispensados da publicação de qualquer ato societário.”. A alternativa D está incorreta, pois o MEI fará a comprovação da receita bruta mediante apresentação do registro de vendas ou de prestação de serviços na forma estabelecida pelo CGSN (Comitê Gestor do Simples Nacional), conforme art. 26, §1º, da Lei Complementar 123/2006. Veja a literalidade da lei: “Art. 26. As microempresas e empresas de pequeno porte optantes pelo Simples Nacional ficam obrigadas a: [...] § 1º O MEI fará a comprovação da receita bruta mediante apresentação do registro de vendas ou de prestação de serviços na forma estabelecida pelo CGSN, ficando dispensado da emissão do documento fiscal previsto no inciso I do caput, ressalvadas as hipóteses de emissão obrigatória previstas pelo referido Comitê.”."
+      }
+    ]
+  },
+  "Sociedades Empresárias: Disposições Gerais E Tipos": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Enquadramento como microempresa e vedação por participação de empresário individual",
+        "ids_questoes": [
+          "oab_39_50"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir a regra de enquadramento da sociedade com a mera qualidade pessoal dos sócios, ignorando a vedação legal específica quando há participação de empresário individual ou pessoa jurídica em certas hipóteses da LC 123/2006."
+      },
+      {
+        "nome_microtema": "Sociedade sem registro: sociedade em comum e regime jurídico subsidiário",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_48",
+          "oab_Prova-comenta-OAB-43_49"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "Trocar sociedade em comum por sociedade simples ou conta de participação, esquecendo que a ausência de registro desloca o regime para a sociedade em comum, com responsabilidade própria e possibilidade de demanda pelos credores que conhecem a existência da sociedade."
+      },
+      {
+        "nome_microtema": "Arquivamento tardio do contrato social e início da irregularidade",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_47"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Achar que o prazo de 30 dias para arquivamento elimina qualquer irregularidade, quando a FGV costuma explorar o período entre o início da atividade e o efetivo protocolo/deferimento do registro para cobrar a noção de funcionamento irregular."
+      },
+      {
+        "nome_microtema": "Dissolução pelo vencimento do prazo determinado",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_50"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir dissolução automática pelo término do prazo com necessidade de ação judicial ou continuidade automática da sociedade, ignorando que o vencimento do prazo gera dissolução de pleno direito."
+      },
+      {
+        "nome_microtema": "Sociedade em conta de participação: admissão de novos sócios e silêncio contratual",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-44_47"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Supor que o sócio ostensivo tem liberdade plena para admitir terceiros, quando a FGV costuma cobrar a necessidade de consentimento dos sócios participantes na ausência de cláusula expressa autorizando a admissão."
+      },
+      {
+        "nome_microtema": "Sociedade entre cônjuges e parentes: limites do Código Civil",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_49"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Misturar a vedação à sociedade entre cônjuges em certas hipóteses com a possibilidade de sociedade entre cônjuges e filhos, especialmente quando o enunciado traz regime de bens para induzir erro."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando detalhes de registro, tipo societário, responsabilidade dos sócios, dissolução e regras especiais do Código Civil e da LC 123/2006",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "considerando a situação",
+        "diante da omissão",
+        "sobre a situação",
+        "considerados tais fatos"
+      ]
+    },
+    "total_questoes_analisadas": 7,
+    "banco_questoes": [
+      {
+        "id": "oab_39_50",
+        "materia": "Direito Empresarial",
+        "assunto": "Enquadramento como Microempresa - Vedação (Lei Complementar 123/2006)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 3º, §4º, III da LC 123/2006.",
+        "enunciado": "Quatro professores, que dão aulas particulares, decidiram constituir uma sociedade simples e chamaram para integrar a sociedade Belfort Pereira, empresário individual, inscrito na Junta Comercial do Estado do Rio de Janeiro, sob a condição de investir na sociedade como sócio minoritário. Sobre as condições para o enquadramento de uma sociedade simples como microempresa, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "É lícito o enquadramento como microempresa apenas em razão da participação do sócio Belfort Pereira no capital ser minoritária.",
+          "B": "O enquadramento como microempresa é exclusivo para as sociedades empresárias, de modo que, a sociedade simples está impedida.",
+          "C": "É facultado o enquadramento como microempresa porque todos os sócios são pessoas naturais, independentemente da condição de empresário de um deles.",
+          "D": "É vedada a participação de pessoa física inscrita como empresário no capital de uma sociedade enquadrada como microempresa."
+        },
+        "gabarito": "D",
+        "comentario": "O art. 3º, §4º, III da Lei Complementar 123/2006 veda o enquadramento como microempresa ou empresa de pequeno porte se no capital da pessoa jurídica participar pessoa física que seja inscrita como empresário ou seja sócia de outra empresa que receba tratamento jurídico diferenciado. A presença de Belfort Pereira (empresário individual) impede o enquadramento."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_48",
+        "materia": "Direito Empresarial",
+        "assunto": "Sociedade em comum",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Quatro pessoas naturais constituíram uma sociedade para exploração de prestação de serviços de entrega domiciliar, mas não se preocuparam em arquivar o documento particular de constituição em qualquer registro. Considerando a situação dessa sociedade e as disposições aplicáveis, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Ela se rege pelas normas da sociedade em comum e, subsidiariamente, no que forem compatíveis, pelas normas da sociedade simples.",
+          "B": "Ela se rege pelas normas da sociedade em conta de participação e, subsidiariamente e no que forem compatíveis, pelas normas das sociedades por ações.",
+          "C": "Ela se rege pelas normas da sociedade simples e, subsidiariamente e no que forem compatíveis, pelas normas da sociedade cooperativa.",
+          "D": "Ela se rege pelas normas da companhia e, subsidiariamente e no que forem compatíveis, pelas normas da sociedade limitada."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão aborda as normas que regem as sociedades em comum. A alternativa A está correta, pois o Código Civil, ao tratar das sociedades não personificadas, determina que estas seguirão as normas das sociedades comuns e, subsidiariamente, pelas normas das sociedades simples. Vejamos: \"Art. 986. Enquanto não inscritos os atos constitutivos, reger-se-á a sociedade, exceto por ações em organização, pelo disposto neste Capítulo, observadas, subsidiariamente e no que com ele forem compatíveis, as normas da sociedade simples.\". A alternativa B está incorreta, pois contraria o Código Civil, que determina que tal sociedade se rege pelas normas da sociedade em comum, e, subsidiariamente, pelas normas da sociedade simples. Veja: \"Art. 986. Enquanto não inscritos os atos constitutivos, reger-se-á a sociedade, exceto por ações em organização, pelo disposto neste Capítulo, observadas, subsidiariamente e no que com ele forem compatíveis, as normas da sociedade simples.\". A alternativa C está incorreta, pois contraria o Código Civil, que determina que tal sociedade se rege pelas normas da sociedade em comum, e, subsidiariamente, pelas normas da sociedade simples. Veja: \"Art. 986. Enquanto não inscritos os atos constitutivos, reger-se-á a sociedade, exceto por ações em organização, pelo disposto neste Capítulo, observadas, subsidiariamente e no que com ele forem compatíveis, as normas da sociedade simples.\". A alternativa D está incorreta, tendo em vista que, consoante o Código Civil, tal sociedade se rege pelas normas da sociedade em comum, e, subsidiariamente, pelas normas da sociedade simples. Vejamos: \"Art. 986. Enquanto não inscritos os atos constitutivos, reger-se-á a sociedade, exceto por ações em organização, pelo disposto neste Capítulo, observadas, subsidiariamente e no que com ele forem compatíveis, as normas da sociedade simples.\""
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_47",
+        "materia": "Direito Empresarial",
+        "assunto": "Registro do contrato social e responsabilidade do administrador",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O contrato de constituição de uma sociedade empresária foi assinado pelos sócios no dia 17 de abril de 2023, iniciando-se nessa data a atividade social. O sócio Ubajara Horizonte, administrador nomeado no contrato, somente apresentou o documento para arquivamento na Junta Comercial no dia 22 de maio de 2023, sendo deferido dois dias depois. Considerados esses dados, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Em razão de a representação extrajudicial da sociedade empresária caber, por lei, a seu administrador, nenhum dos sócios poderia requerer o arquivamento do contrato antes de 22 de maio de 2023.",
+          "B": "A sociedade, em nenhum momento, funcionou irregularmente, pois o prazo para o requerimento do arquivamento só expiraria em 16 de junho de 2023; logo, foi tempestivo na data em que foi feito.",
+          "C": "A sociedade funcionou irregularmente até a data do requerimento de arquivamento, mas tal fato foi sanado com o efeito ex tunc do deferimento pela Junta Comercial.",
+          "D": "O sócio administrador pode ser responsabilizado pela demora no requerimento de arquivamento do contrato social, eis que não foi respeitado o prazo legal de trinta dias."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão tratou sobre registro empresarial. A alternativa A está incorreta. Se não existir um administrador, todos os sócios podem realizar o arquivamento do contrato social. A alternativa B está incorreta. A empresa funcionou irregularmente do dia 17 de maio a 22 de maio, quando o ato constitutivo foi arquivado, pois esgotado o prazo legal de 30 dias. Nesse sentido, dispõe o artigo 998 do Código Civil: Art. 998. Nos trinta dias subsequentes à sua constituição, a sociedade deverá requerer a inscrição do contrato social no Registro Civil das Pessoas Jurídicas do local de sua sede. A alternativa C está incorreta. Nos termos do artigo 36 da Lei nº 8.934/94: Art. 36. Os documentos referidos no inciso II do art. 32 [documentos relativos à constituição de firmas mercantis individuais, sociedades mercantis e cooperativas] deverão ser apresentados a arquivamento na junta, dentro de 30 (trinta) dias contados de sua ASSINATURA, a cuja data [da assinatura] retroagirão os efeitos do arquivamento; fora desse prazo, o arquivamento só terá eficácia a partir do despacho que o conceder. A alternativa D está correta. Com a inscrição do ato constitutivo no registro, a empresa adquire personalidade jurídica. A ausência de inscrição implica na responsabilidade pessoal dos sócios pelas obrigações da sociedade. Assim, o administrador deverá ser responsabilizado pelos prejuízos dos sócios, caso não efetue o registro: Art. 985. A sociedade adquire personalidade jurídica com a inscrição, no registro próprio e na forma da lei, dos seus atos constitutivos (arts. 45 e 1.150). Ademais, dispõe o artigo 1.016: Os administradores respondem solidariamente perante a sociedade e os terceiros prejudicados, por culpa no desempenho de suas funções."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_49",
+        "materia": "Direito Empresarial",
+        "assunto": "Sociedade em comum e responsabilidade dos sócios",
+        "banca": "FGV",
+        "ano": "43º Exame de Ordem",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Lucélia, Marília e Natividade constituíram uma sociedade empresária sem levar o documento escrito de constituição a qualquer registro. Ficou estabelecido verbalmente entre as sócias que os atos sociais seriam praticados por Marília, no interesse comum. Inadimplida uma obrigação social, o credor, ciente da existência da sociedade, demandou a sociedade e todas as sócias, responsabilizando-as solidariamente e sem benefício de ordem pela obrigação assumida por Marília. Considerados tais fatos, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O credor não poderia demandar a sociedade em razão da ausência de personalidade jurídica, sendo, contudo, possível exigir de todas as sócias, solidariamente e sem benefício de ordem, a obrigação assumida por Marília.",
+          "B": "O credor agiu corretamente ao demandar a sociedade, ainda que diante da ausência de personalidade jurídica; contudo, mesmo havendo solidariedade entre as sócias, Lucélia e Natividade possuem benefício de ordem.",
+          "C": "O credor está autorizado a demandar a sociedade, diante da ausência de personalidade jurídica, como também poderá responsabilizar as sócias Lucélia e Natividade, solidariamente e sem benefício de ordem, pela obrigação assumida por Marília.",
+          "D": "O credor está totalmente equivocado, pois a sociedade não poderia ser demandada, em razão da ausência de personalidade jurídica, e deve ser respeitado o benefício de ordem das sócias Lucélia e Natividade, que não contrataram pela sociedade."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A alternativa B está correta, porque apenas Marília não tem o benefício de ordem, por ter contratado em nome da sociedade, podendo o benefício legal ser utilizado pelas demais sócias, conforme o previsto no art. 990, do CC: “Todos os sócios respondem solidária e ilimitadamente pelas obrigações sociais, excluído do benefício de ordem, previsto no art. 1.024, aquele que contratou pela sociedade.”. Assim, as demais estão incorretas, já retiram o benefício de ordem das sócias Lucélia e Natividade. Por fim, está incorreta a letra D, porque a sociedade em comum pode ser demandada, tendo capacidade processual, devendo, neste caso, ser representada em juízo por Marília, a quem compete a administração de seus bens, conforme art. 75, IX, do CPC: “Serão representados em juízo, ativa e passivamente: [...] IX - a sociedade e a associação irregulares e outros entes organizados sem personalidade jurídica, pela pessoa a quem couber a administração de seus bens; [...].”."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_50",
+        "materia": "Direito Empresarial",
+        "assunto": "Dissolução de sociedade simples por prazo determinado",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Uma sociedade simples que adotou um dos tipos societários previstos no Código Civil, com sede em Guarapari/ES, foi constituída por prazo determinado, até 31 de dezembro de 2023. Sobre a situação da sociedade empresária a partir de 1º de janeiro de 2024, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Ela continuará em atividade normalmente até que algum sócio ou credor requeira sua dissolução judicial nos 30 (trinta) dias seguintes após o término do prazo de duração.",
+          "B": "Os administradores devem providenciar imediatamente a investidura do liquidante, mantendo os negócios sociais por até 180 dias (cento e oitenta dias); findo esse prazo, a continuidade da atividade implica na responsabilidade ilimitada e solidária deles.",
+          "C": "A dissolução judicial da sociedade pode ser requerida por qualquer sócio, devido ao exaurimento do fim social, cabendo ao Juiz a nomeação do liquidante.",
+          "D": "A sociedade reputa-se dissolvida em razão do vencimento do prazo de duração, salvo se, sem oposição de sócio, não entrar a sociedade em liquidação, caso em que se prorrogará por tempo indeterminado."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A alternativa D está correta, porque reproduz o texto do art. 1.033, I, do CC: “Dissolve-se a sociedade quando ocorrer: I - o vencimento do prazo de duração, salvo se, vencido este e sem oposição de sócio, não entrar a sociedade em liquidação, caso em que se prorrogará por tempo indeterminado; [...].”. Assim, as demais estão incorretas, porque, não dissolvida a sociedade, esta prorroga-se, automaticamente, por prazo indeterminado, não havendo transmudação do regime de sociedade dos sócios, já que não se trata de sociedade irregular. Já, quanto ao liquidante, este será o definido no contrato social ou, na sua falta, por deliberação dos sócios, conforme o caput, do art. 1.038, do CC: “Se não estiver designado no contrato social, o liquidante será eleito por deliberação dos sócios, podendo a escolha recair em pessoa estranha à sociedade.”."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_47",
+        "materia": "Direito Empresarial",
+        "assunto": "Sociedade em Conta de Participação - Admissão de Novo Sócio",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "No contrato de sociedade em conta de participação firmado entre o sócio ostensivo e quatro sócios participantes não há cláusula dispondo sobre a admissão de novos sócios. Diante da omissão, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "É defeso ao sócio ostensivo admitir novo sócio sem o consentimento expresso ou tácito dos demais sócios, sendo tácito o consentimento se eles não se opuserem nos trinta dias seguintes ao ingresso do novo sócio.",
+          "B": "O sócio ostensivo pode admitir novo sócio com ou sem o consentimento dos demais sócios em razão de sua responsabilidade ilimitada e pessoal pelo exercício da atividade constitutiva do objeto social.",
+          "C": "É defeso ao sócio ostensivo admitir novo sócio sem o consentimento expresso dos demais sócios.",
+          "D": "O sócio ostensivo pode admitir novo sócio com o consentimento da maioria dos demais sócios; havendo empate, cabe a ele o voto de qualidade."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema Sociedades em Conta de Participação. A alternativa A está incorreta, pois apenas é permitido o ingresso de novos sócios através de consentimento expresso. O consentimento tácito não é permitido. Veja literalidade da lei: “Art. 995. Salvo estipulação em contrário, o sócio ostensivo não pode admitir novo sócio sem o consentimento expresso dos demais.” A alternativa B está incorreta, pois demanda consentimento expresso para admitir novo sócio. Veja literalidade da lei: “Art. 995. Salvo estipulação em contrário, o sócio ostensivo não pode admitir novo sócio sem o consentimento expresso dos demais.” A alternativa C está correta, pois é, de fato, vedado ao sócio ostensivo admitir novo sócio sem o consentimento expresso dos demais sócios, conforme art. 995 do Código Civil. Veja literalidade da lei: “Art. 995. Salvo estipulação em contrário, o sócio ostensivo não pode admitir novo sócio sem o consentimento expresso dos demais.” A alternativa D está incorreta, pois o consentimento deve ser expresso por todos os demais sócios. Não há que se falar em consentimento da maioria. Veja literalidade da lei: “Art. 995. Salvo estipulação em contrário, o sócio ostensivo não pode admitir novo sócio sem o consentimento expresso dos demais.”"
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_49",
+        "materia": "Direito Empresarial",
+        "assunto": "Participação de cônjuges em sociedade simples",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Pedro e Vitória são casados desde 2005 no regime de comunhão parcial de bens e pretendem constituir sociedade simples com seus filhos Carlos e Conceição. De acordo com as regras do Código Civil para a participação de pessoas casadas em sociedade, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "É possível a constituição de sociedade simples simultaneamente entre os cônjuges e seus filhos, tendo em vista não ser a sociedade empresária.",
+          "B": "É defeso a constituição de sociedade simples simultaneamente entre os cônjuges e seus filhos, qualquer que seja o regime de bens do casamento.",
+          "C": "É possível a constituição de sociedade simples entre os cônjuges e seus filhos simultaneamente, tendo em vista ser o regime de bens do casamento de comunhão parcial.",
+          "D": "É defeso a constituição de sociedade simples simultaneamente entre os cônjuges e seus filhos, pois o casamento foi celebrado em regime de bens diferente do da separação absoluta."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata sobre direito de empresa. A alternativa A está incorreta. O erro está em dizer que é possível \"por não ser sociedade empresária\". A regra do Art. 977 se aplica tanto a sociedades empresárias quanto a sociedades simples. O que define a possibilidade não é o tipo de sociedade, mas o regime de bens. Veja o comentário da alternativa C. A alternativa B está incorreta. Como vimos, a regra é a liberdade de contratar, sendo a proibição a exceção (apenas para comunhão universal e separação obrigatória). Veja o comentário da alternativa C. A alternativa C está correta. Pedro e Vitória podem ser sócios entre si e com os filhos, justamente porque o regime de comunhão parcial não está no rol de proibições do Código Civil. Vejamos o disposto no Art 977, CC: “Art. 977. Faculta-se aos cônjuges contratar sociedade, entre si ou com terceiros, desde que não tenham casado no regime da comunhão universal de bens, ou no da separação obrigatória.” A alternativa D está incorreta. Tenta confundir o candidato ao citar \"separação absoluta\". A lei proíbe a separação obrigatória (legal), mas permite a sociedade na separação absoluta convencional (escolhida pelo casal no pacto antenupcial). Veja o comentário da alternativa C."
+      }
+    ]
+  },
+  "Sociedade Limitada": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Copropriedade de quota em sociedade limitada: exercício de direitos e responsabilidade solidária dos condôminos",
+        "ids_questoes": [
+          "oab_38_50"
+        ],
+        "peso_percentual": 55,
+        "armadilha_favorita": "A FGV costuma confundir o candidato entre a autonomia dos condôminos e a disciplina legal da quota em condomínio: os direitos não são exercidos separadamente por cada coproprietário, e os condôminos respondem solidariamente perante a sociedade pelas prestações relativas à quota."
+      },
+      {
+        "nome_microtema": "Sociedade limitada unipessoal e pluripessoal: regra comum sobre designação de administrador em ato separado",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_50"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "A pegadinha é misturar regras exclusivas de deliberação, dissolução ou responsabilidade por integralização com a norma que vale tanto para a limitada pluripessoal quanto para a unipessoal: a designação de administrador em ato separado."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando detalhes da disciplina da sociedade limitada e comparando institutos próximos para induzir erro por semelhança.",
+      "palavras_gatilho": [
+        "considerando a situação",
+        "assinale a afirmativa correta",
+        "apenas uma delas",
+        "norma aplicável tanto"
+      ]
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "oab_38_50",
+        "materia": "Direito Empresarial",
+        "assunto": "Condomínio de Quota (Sociedade Limitada)",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Cambira e Mallet adquiriram 1 (uma) quota da sociedade limitada Imbaú Ensino Superior Ltda. no valor de R$250.000,00 (duzentos e cinquenta mil reais), sendo, portanto, condôminos desta quota. Considerando a situação de copropriedade da quota, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Cambira não poderá ceder sua parte ideal no condomínio a outro sócio ou a terceiro em razão da indivisibilidade da quota em relação à sociedade",
+          "B": "Cambira e Mallet respondem solidariamente perante a sociedade pelas prestações necessárias à integralização da quota.",
+          "C": "Os direitos inerentes à quota poderão ser exercidos separadamente por cada condômino, não se aplicando a indivisibilidade da quota neste caso.",
+          "D": "Cambira poderá ceder sua parte ideal tanto para outro sócio quanto para terceiro independente de audiência dos demais sócios, ainda que omisso o contrato"
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa B está correta. O art. 1.056, §2°, do CC/02 estabelece que os condôminos de quota indivisa respondem solidariamente pelas prestações necessárias à sua integralização."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_50",
+        "materia": "Direito Empresarial",
+        "assunto": "Sociedade Limitada Unipessoal",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Em 2019, a constituição da sociedade limitada unipessoal, de modo permanente, passou a ser possível. Nas opções a seguir, são apresentadas normas aplicáveis às sociedades limitadas em geral, mas apenas uma delas apresenta norma aplicável tanto às sociedades limitadas pluripessoais quanto às unipessoais. Assinale -a.",
+        "alternativas": {
+          "A": "A possibilidade de realização de deliberações em reunião ou assembleia.",
+          "B": "A ocorrência de dissolução de pleno direito mediante distrato.",
+          "C": "A possibilidade de designação de administrador em ato separado.",
+          "D": "A solidariedade pela exata estimação dos bens conferidos ao capital social."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão tratou sobre sociedades limitadas. A alternativa A está incorreta. Trata-se de regra aplicável à pluralidade de sócios, a fim de que seja tomada a vontade da maioria, nos termos do artigo 1.072 do Código Civil: As deliberações dos sócios, obedecido o disposto no art. 1.010, serão tomadas em reunião ou em assembléia, conforme previsto no contrato social, devendo ser convocadas pelos administradores nos casos previstos em lei ou no contrato. A alternativa B está incorreta. O distrato, por si só, exige a manifestação de vontade plural, sendo característica da sociedade pluripessoal, prevista no artigo 1.033, II, do Código Civil: Art. 1.033. Dissolve-se a sociedade quando ocorrer: [...] ato sem o consenso unânime dos sócios. A alternativa C está correta. Nos termos do artigo Art. 1.052. Na sociedade limitada, a responsabilidade de cada sócio é restrita ao valor de suas quotas, mas todos respondem solidariamente pela integralização do capital social. § 1º A sociedade limitada pode ser constituída por 1 (uma) ou mais pessoas. Ademais, a previsão de designação em ato separado está prevista no artigo 1.060 do Código Civil: Art. 1.060. A sociedade limitada é administrada por uma ou mais pessoas designadas no contrato social ou em ato separado. A alternativa D está incorreta. A solidariedade pressupõe a existência de mais de um sócio, tal como prevista no artigo 1.055, §1º, do Código Civil: § 1º Pela exata estimação de bens conferidos ao capital social respondem solidariamente todos os sócios, até o prazo de cinco anos da data do registro da sociedade."
+      }
+    ]
+  },
+  "Sociedade Anônima": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Alienação fiduciária em garantia de veículo automotor: mora do devedor e busca e apreensão pelo fiduciário",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_47"
+        ],
+        "peso_percentual": 50,
+        "armadilha_favorita": "A FGV costuma trocar a providência legal correta por medidas processuais incompatíveis: exigir prova da mora quando a lei dispensa em certos casos, confundir busca e apreensão com execução de entrega de coisa certa, ou sugerir venda direta do bem sem observar o rito legal próprio."
+      },
+      {
+        "nome_microtema": "Nome empresarial da companhia: adoção obrigatória de denominação e possibilidade de uso do nome dos fundadores",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_48"
+        ],
+        "peso_percentual": 50,
+        "armadilha_favorita": "A pegadinha clássica é confundir companhia com sociedade limitada: a companhia não adota firma, mas denominação; e a banca testa se o candidato sabe que o nome dos fundadores pode constar na denominação, sem exigir que seja o único elemento do nome."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando a aplicação literal da Lei das S.A. e de institutos empresariais em situações do cotidiano societário e contratual.",
+      "palavras_gatilho": [
+        "assinale a opção",
+        "considerando as regras",
+        "sobre a hipótese",
+        "providência assegurada por lei",
+        "orientação sobre o nome empresarial"
+      ]
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-43_47",
+        "materia": "Direito Empresarial",
+        "assunto": "Alienação fiduciária de veículos",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Itarana Avícola e Abatedouro S.A. celebrou contrato de alienação fiduciária de veículos automotores com o Banco Alegre S.A. O valor financiado deveria ser pago em 60 (sessenta) prestações mensais, mas, após o vencimento da 14ª (décima quarta) prestação, a fiduciante cessou o pagamento. Sobre a hipótese, assinale a opção que indica a providência assegurada por lei ao fiduciário.",
+        "alternativas": {
+          "A": "Vender os bens alienados a terceiros, independentemente de leilão, hasta pública, avaliação prévia ou qualquer outra medida judicial ou extrajudicial, após a comprovação prévia da mora do fiduciante, salvo disposição expressa em contrário prevista no contrato.",
+          "B": "Requerer, independentemente de comprovação da mora, contra o fiduciante, a busca e apreensão dos bens alienados fiduciariamente, a qual será concedida liminarmente, podendo ser apreciada em plantão judiciário.",
+          "C": "Ajuizar ação de execução para a entrega de coisa certa, pleiteando nos mesmos autos a busca e apreensão, que será deferida liminarmente, salvo na hipótese de ter sido requerida recuperação judicial pelo fiduciante.",
+          "D": "Promover, alternativamente ao pedido de busca e apreensão dos bens, independentemente de comprovação da mora, a consolidação da propriedade perante o competente cartório de registro de títulos e documentos, desde que haja previsão expressa no contrato em cláusula em destaque."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A alternativa A está correta, porque reproduz o texto do art. 2º caput, do Decreto-Lei 911/1969: “No caso de inadimplemento ou mora nas obrigações contratuais garantidas mediante alienação fiduciária, o proprietário fiduciário ou credor poderá vender a coisa a terceiros, independentemente de leilão, hasta pública, avaliação prévia ou qualquer outra medida judicial ou extrajudicial, salvo disposição expressa em contrário prevista no contrato, devendo aplicar o preço da venda no pagamento de seu crédito e das despesas decorrentes e entregar ao devedor o saldo apurado, se houver, com a devida prestação de contas”. A alternativa B está incorreta, porque é pressuposto da busca e apreensão a comprovação da mora, a teor do previsto no art. 3º, caput, do Decreto-Lei 911/1969: “O proprietário fiduciário ou credor poderá, desde que comprovada a mora, na forma estabelecida pelo § 2o do art. 2o, ou o inadimplemento, requerer contra o devedor ou terceiro a busca e apreensão do bem alienado fiduciariamente, a qual será concedida liminarmente, podendo ser apreciada em plantão judiciário.”. A alternativa C está incorreta, porque o pedido de recuperação judicial não impede a busca e apreensão do bem, na forma do art. 6º-A, do Decreto-Lei 911/1969: “O pedido de recuperação judicial ou extrajudicial pelo devedor nos termos da Lei no 11.101, de 9 de fevereiro de 2005, não impede a distribuição e a busca e apreensão do bem.”. A alternativa D está incorreta, porque a consolidação da propriedade tem como pressuposto a comprovação da mora, conforme art. 8º-B, caput, do Decreto-Lei 911/1969: “Desde que haja previsão expressa no contrato em cláusula em destaque e após comprovação da mora na forma do § 2º do art. 2º deste Decreto-Lei, é facultado ao credor promover a consolidação da propriedade perante o competente cartório de registro de títulos e documentos no lugar do procedimento judicial a que se referem os arts. 3º, 4º, 5º e 6º deste Decreto-Lei.”."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_48",
+        "materia": "Direito Empresarial",
+        "assunto": "Nome empresarial da sociedade anônima",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Bento de Abreu e Bernardino de Campos são os únicos sócios e fundadores da sociedade empresária Abreu & Campos Ltda. Os sócios deliberaram a transformação da sociedade de limitada para companhia e lhe pediram orientação sobre o nome empresarial. Considerando algumas das regras para a formação do nome empresarial do tipo que a sociedade adotará, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A companhia adotará denominação, na qual poderá constar o(s) nome(s) do(s) fundador(es), sendo facultada a designação do objeto social.",
+          "B": "A companhia adotará firma, sendo formada por nome de fantasia a partir da escolha dos sócios, seguido obrigatoriamente pela designação do objeto social.",
+          "C": "A companhia adotará denominação, formada apenas pelo nome dos sócios, seguida facultativamente pela expressão Sociedade Anônima ou Companhia, indicadas unicamente ao final.",
+          "D": "A companhia poderá adotar firma ou denominação, devendo ser mantido o nome antigo Abreu & Campos, substituindo-se o aditivo Ltda. pelo aditivo Companhia ou Cia."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A alternativa A está correta, porque reproduz o texto do art. 1.160, do CC: “A sociedade anônima opera sob denominação integrada pelas expressões ‘sociedade anônima’ ou ‘companhia’, por extenso ou abreviadamente, facultada a designação do objeto social. Parágrafo único. Pode constar da denominação o nome do fundador, acionista, ou pessoa que haja concorrido para o bom êxito da formação da empresa.”. A alternativa B está incorreta, porque, conforme o art. 1.160, do CC, a sociedade anônima não adotará firma, mas denominação. A alternativa C está incorreta, porque, conforme o art. 1.160, do CC, a denominação da Companhia pode se dar pelo nome do fundador, acionista ou pessoa que haja concorrido para o bom êxito da formação da empresa, não sendo o caso do uso do nome de sócios, além de ser obrigatório o uso da expressão “sociedade anônima” ou “companhia”. A alternativa D está incorreta, porque, conforme art. 1.160, do CC, o nome da sociedade anônima não pode ser composto por firma, podendo ser alterado o nome original para o nome de seu fundador, acionista ou benfeitor ou pelo objeto social."
+      }
+    ]
+  },
+  "Desconsideração Da Personalidade Jurídica": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Requisitos materiais da desconsideração da personalidade jurídica (abuso, desvio de finalidade e confusão patrimonial)",
+        "ids_questoes": [],
+        "peso_percentual": 25,
+        "armadilha_favorita": "Confundir inadimplemento ou insolvência da sociedade com hipótese automática de desconsideração."
+      },
+      {
+        "nome_microtema": "Desconsideração direta da pessoa jurídica no Código Civil e no CDC",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Misturar o regime geral do art. 50 do CC com a disciplina consumerista, que admite critérios mais amplos."
+      },
+      {
+        "nome_microtema": "Desconsideração inversa da personalidade jurídica",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Trocar a responsabilização da sociedade por dívidas do sócio pela responsabilização do sócio por dívidas da sociedade."
+      },
+      {
+        "nome_microtema": "Incidente de desconsideração da personalidade jurídica no CPC (cabimento, contraditório e suspensão do processo)",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Achar que a desconsideração pode ser decretada sem incidente e sem prévia oitiva do atingido, em qualquer fase processual."
+      },
+      {
+        "nome_microtema": "Legitimidade, alcance subjetivo e efeitos da decisão de desconsideração",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Supor que a decisão atinge automaticamente todos os sócios e administradores, sem delimitação do polo passivo e do patrimônio alcançado."
+      },
+      {
+        "nome_microtema": "Desconsideração em sociedades empresárias e distinção entre responsabilidade limitada e responsabilidade pessoal dos administradores",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir desconsideração da personalidade jurídica com responsabilidade civil direta do administrador por ato ilícito."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar caso concreto com dívida da sociedade, esvaziamento patrimonial, uso abusivo da pessoa jurídica ou confusão entre patrimônio social e pessoal, exigindo identificar se cabe desconsideração, qual modalidade se aplica e se o incidente processual é obrigatório. A pegadinha geralmente está em trocar desconsideração por responsabilidade pessoal ordinária, ou em ignorar o contraditório e os requisitos legais específicos.",
+      "palavras_gatilho": [
+        "abuso da personalidade jurídica",
+        "desvio de finalidade",
+        "confusão patrimonial",
+        "esvaziamento patrimonial",
+        "fraude contra credores",
+        "incidente de desconsideração",
+        "contraditório",
+        "responsabilidade limitada",
+        "desconsideração inversa",
+        "alcance patrimonial"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Estabelecimento Empresarial": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Estabelecimento empresarial em local virtual e endereço para efeitos jurídicos",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_47"
+        ],
+        "peso_percentual": 55,
+        "armadilha_favorita": "Confundir a novidade legal do local virtual com ausência de efeitos jurídicos: a FGV costuma trocar o endereço físico pelo virtual para testar se o candidato sabe que o empresário deve indicar um endereço para fins de registro, comunicação e responsabilização, mesmo quando o exercício da atividade ocorre em ambiente digital."
+      },
+      {
+        "nome_microtema": "Preposto/gerente do estabelecimento e eficácia das limitações de poderes perante terceiros",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_48"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "Misturar limitações internas da outorga com oponibilidade a terceiros: a pegadinha clássica é fazer parecer que qualquer restrição ao gerente vale automaticamente contra todos, quando a FGV explora justamente a necessidade de publicidade/averbação e a proteção da boa-fé do terceiro."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto; a FGV costuma inserir uma inovação legislativa ou um detalhe operacional do estabelecimento para testar a aplicação literal do Código Civil, com alternativas plausíveis e diferenças finas entre eficácia interna e externa dos atos.",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "considerando os fatos narrados",
+        "de acordo com o Código Civil",
+        "independentemente do arquivamento",
+        "a partir de 2022"
+      ]
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_47",
+        "materia": "Direito Empresarial",
+        "assunto": "Estabelecimento empresarial virtual",
+        "banca": "FGV",
+        "ano": "2022",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A partir de 2022, a possibilidade de o local de exercício da atividade empresarial ser virtual passou a ser reconhecido no Código Civil. A respeito desse tema, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Se o empresário ou a sociedade empresária exercer a empresa em local virtual, tal local é denominado pelo Código Civil de \"estabelecimento virtual\", com o mesmo significado jurídico de estabelecimento.",
+          "B": "Ao contrário do local físico de exercício da empresa, se ele for virtual, a fixação do horário de funcionamento competirá ao Município, observada a regra geral de qualquer horário ou dia da semana, inclusive feriados.",
+          "C": "Quando o local em que se exerce a atividade empresarial for virtual, o endereço informado para fins de registro poderá ser, conforme o caso, o endereço do empresário individual ou o de um dos sócios da sociedade empresária.",
+          "D": "A escolha do local virtual de exercício da empresa impõe ao empresário ou ao administrador da sociedade empresária o dever de comunicar sua alteração à Junta Comercial nos 15 (quinze) dias seguintes."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão aborda o tema atividade empresarial virtual. A alternativa A está incorreta, pois contraria o art. 1.142, § 1º do Código Civil, que dispõe que o estabelecimento não se confunde com o local onde é exercida a atividade empresarial. A alternativa B está incorreta, pois de acordo com o Código Civil, caso o estabelecimento empresarial onde se exerça a atividade seja físico, a fixação do horário de funcionamento competirá ao Município. A alternativa C está correta, pois é a literalidade do art. 1.142, § 2º do Código Civil. A alternativa D está incorreta, pois não há tal determinação legal no que diz respeito à escolha do local virtual de exercício da empresa. A obrigação de informar a alteração do endereço físico ocorrerá no caso do Decreto-lei 5.844/1943, que em seu artigo 195 determina sua realização, no prazo de 30 dias, às repartições competentes, o que não é o caso em tela."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_48",
+        "materia": "Direito Empresarial",
+        "assunto": "Preposto - Limitações de poderes e registro",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Marialva Castro foi nomeada pelo empresário individual Wenceslau Paiçandu como gerente do seu estabelecimento, intitulado Hortifruti Fazenda Rio Grande. No instrumento de outorga de poderes consta que Marialva Castro não está autorizada a conceder desconto de preços nem receber pagamentos por cartão de crédito. De acordo com o Código Civil, considerando os fatos narrados e a condição de preposto de Marialva Castro, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "As limitações contidas na outorga de poderes pelo empresário ao preposto, para serem opostas a terceiros, dependem do arquivamento e da averbação do instrumento no Registro Público de Empresas Mercantis.",
+          "B": "As limitações contidas na outorga de poderes pelo empresário ao preposto, para serem opostas a terceiros, dependem do arquivamento e da averbação do instrumento no Registro de Títulos e Documentos.",
+          "C": "A modificação ou a revogação dos poderes concedidos por Wenceslau Paiçandu a Marialva Castro pode ser feita sem necessidade de arquivamento e de averbação do novo documento no Registro Público de Empresas Mercantis, a cargo das Juntas Comerciais.",
+          "D": "Independentemente do arquivamento e da averbação do instrumento de outorga de poderes em qualquer registro, Wenceslau Paiçandu responderá por quaisquer atos praticados pela gerente, dentro ou fora dos limites fixados, mesmo provado que a pessoa que tratou com o gerente conhecia tais restrições."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão tratou sobre a figura do preposto na empresa. A alternativa A está correta. Nos termos do artigo 1.174 do Código Civil: As limitações contidas na outorga de poderes, para serem opostas a terceiros, dependem do arquivamento e averbação do instrumento no Registro Público de Empresas Mercantis, salvo se provado serem conhecidas da pessoa que tratou com o gerente. A alternativa B está incorreta. Consoante ao artigo 1.174 do Código Civil, o arquivamento é feito no Registro Público de Empresas Mercantis: As limitações contidas na outorga de poderes, para serem opostas a terceiros, dependem do arquivamento e averbação do instrumento no Registro Público de Empresas Mercantis, salvo se provado serem conhecidas da pessoa que tratou com o gerente. A alternativa C está incorreta. Conforme determina o parágrafo único do artigo 1.174 do Código Civil: Para o mesmo efeito e com idêntica ressalva, deve a modificação ou revogação do mandato ser arquivada e averbada no Registro Público de Empresas Mercantis. A alternativa D está incorreta. Consoante ao artigo 1.174 do Código Civil: As limitações contidas na outorga de poderes, para serem opostas a terceiros, dependem do arquivamento e averbação do instrumento no Registro Público de Empresas Mercantis, salvo se provado serem conhecidas da pessoa que tratou com o gerente."
+      }
+    ]
+  },
+  "Propriedade Industrial (Marcas E Patentes)": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Prazo de proteção das patentes de invenção e de modelo de utilidade",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_49"
+        ],
+        "peso_percentual": 55,
+        "armadilha_favorita": "A FGV costuma misturar as categorias de patente para induzir o candidato a achar que invenção e modelo de utilidade têm regimes distintos de duração. A pegadinha é esquecer que ambas conferem proteção temporária, embora com prazos legais diferentes."
+      },
+      {
+        "nome_microtema": "Direitos do titular de marca de produto: licenciamento e zelo pela integridade",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_49"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "A banca confunde os poderes do titular da marca com direitos absolutos sobre qualquer uso do sinal. O distrator clássico é ampliar indevidamente a exclusividade para impedir usos lícitos, quando a lei destaca sobretudo o direito de licenciar e zelar pela integridade material ou reputação da marca."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando a diferença entre institutos próximos da propriedade industrial e testando o alcance exato dos direitos do titular.",
+      "palavras_gatilho": [
+        "assinale a opção",
+        "sobre a hipótese narrada",
+        "com base na legislação",
+        "quais os direitos assegurados",
+        "privilégio de exploração"
+      ]
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_49",
+        "materia": "Direito Empresarial",
+        "assunto": "Patentes: prazo de vigência",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Os cientistas Pio Alves e Cardoso Moreira desenvolveram dois produtos que reúnem os requisitos de patenteabilidade e reivindicaram a autoria perante o Instituto Nacional da Propriedade Industrial (INPI). O primeiro recebeu registro de patente na categoria de invenção e, o segundo, a patente na categoria de modelo de utilidade. Assinale a opção que indica o privilégio de exploração que as patentes assegurarão aos autores.",
+        "alternativas": {
+          "A": "Temporário, para ambos.",
+          "B": "Vitalício, para ambos.",
+          "C": "Perpétuo, até a terceira geração de descendentes dos autores.",
+          "D": "Temporário, para Pio Alves, autor da invenção, e vitalício para Cardoso Moreira, autor do modelo de utilidade."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão aborda o tema do registro de patentes. A alternativa A está correta, pois, no que diz respeito à vigência das patentes, a Lei nº 9.279 traz que sua duração será temporária, tanto no que diz respeito à patente de invenção, como na patente de modelo de utilidade, veja: \"Art. 40. A patente de invenção vigorará pelo prazo de 20 (vinte) anos e a de modelo de utilidade pelo prazo 15 (quinze) anos contados da data de depósito.\" A alternativa B está incorreta, pois contraria a Lei nº 9.279, que traz a vigência temporária para as patentes de invenção e de modelo de utilidade, veja: \"Art. 40. A patente de invenção vigorará pelo prazo de 20 (vinte) anos e a de modelo de utilidade pelo prazo 15 (quinze) anos contados da data de depósito.\" A alternativa C está incorreta, pois contraria a Lei nº 9.279, que traz a vigência temporária para as patentes de invenção e de patente de modelo de utilidade, veja: \"Art. 40. A patente de invenção vigorará pelo prazo de 20 (vinte) anos e a de modelo de utilidade pelo prazo 15 (quinze) anos contados da data de depósito.\" A alternativa D está incorreta, pois contraria a Lei nº 9.279, que traz a vigência temporária para as patentes de invenção e de patente de modelo de utilidade, veja: \"Art. 40. A patente de invenção vigorará pelo prazo de 20 (vinte) anos e a de modelo de utilidade pelo prazo 15 (quinze) anos contados da data de depósito.\""
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_49",
+        "materia": "Direito Empresarial",
+        "assunto": "Direitos do titular de marca",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Maura Chalé, sócia administradora da sociedade Produtora de Laticínios Santana do Manhuaçu Ltda., procura você, como advogado(a), informando que a sociedade é titular da marca de produto Chalé e deseja saber quais os direitos assegurados por lei ao titular de marca de produto. Sobre a hipótese narrada, com base na legislação, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A sociedade pode licenciar o uso da marca de produto Chalé e zelar pela sua integridade material ou reputação.",
+          "B": "A sociedade pode impedir que empresários utilizem sinais distintivos que lhes são próprios, juntamente com a marca, na sua promoção e comercialização.",
+          "C": "A sociedade pode proibir que fabricantes de acessórios utilizem a marca para indicar a destinação do produto, ainda que obedecidas as práticas leais de concorrência.",
+          "D": "A sociedade pode vetar a citação da marca em discurso, obra científica ou literária, com ou sem conotação comercial, independentemente de prejuízo ao caráter distintivo."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A alternativa A está correta. Consoante o art. 130 da Lei 9.279/96, o uso da marca Chalé poderá ser licenciado pela sociedade com o objetivo de zelar pela sua integridade material e reputação. As alternativas B, C e D estão incorretas, pois dispõem acerca das proibições elencadas pela Lei 9.279/96. Vejamos: “Art. 132. O titular da marca não poderá: I - impedir que comerciantes ou distribuidores utilizem sinais distintivos que lhes são próprios, juntamente com a marca do produto, na sua promoção e comercialização; II - impedir que fabricantes de acessórios utilizem a marca para indicar a destinação do produto, desde que obedecidas as práticas leais de concorrência; III - impedir a livre circulação de produto colocado no mercado interno, por si ou por outrem com seu consentimento, ressalvado o disposto nos §§ 3º e 4º do art. 68; e IV - impedir a citação da marca em discurso, obra científica ou literária ou qualquer outra publicação, desde que sem conotação comercial e sem prejuízo para seu caráter distintivo.”"
+      }
+    ]
+  },
+  "Teoria Geral Dos Títulos De Crédito": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Conceito, princípios cambiários e características dos títulos de crédito",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir literalidade, cartularidade e autonomia com requisitos formais do título ou com simples prova documental da dívida."
+      },
+      {
+        "nome_microtema": "Classificação dos títulos de crédito e distinção entre títulos causais, abstratos e à ordem",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Misturar a natureza do título com a origem da obrigação, especialmente ao diferenciar título causal de título abstrato."
+      },
+      {
+        "nome_microtema": "Endosso: espécies, efeitos e limites à circulação do crédito",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Trocar endosso translativo por endosso-mandato ou endosso-caução e errar os efeitos sobre titularidade e responsabilidade."
+      },
+      {
+        "nome_microtema": "Aval: natureza jurídica, autonomia da garantia e responsabilidade do avalista",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Confundir aval com fiança, sobretudo quanto à autonomia da obrigação e à extensão da responsabilidade do garantidor."
+      },
+      {
+        "nome_microtema": "Aceite, apresentação, vencimento e recusa no título de crédito",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Misturar aceite obrigatório e facultativo, ou presumir que a ausência de aceite sempre impede a cobrança do título."
+      },
+      {
+        "nome_microtema": "Protesto, prescrição e decadência nas ações cambiárias",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir protesto com requisito de validade do título ou com condição única para ajuizamento da ação de cobrança."
+      },
+      {
+        "nome_microtema": "Inoponibilidade das exceções pessoais e defesa do devedor cambiário",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Achar que toda defesa contratual pode ser oposta ao terceiro de boa-fé, ignorando a autonomia e a abstração cambiária."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo circulação do título, cobrança por terceiro, garantia cambiária ou inadimplemento, exigindo a identificação do instituto correto e de seus efeitos jurídicos. A pegadinha geralmente está na troca entre institutos próximos, como endosso e cessão civil, aval e fiança, protesto e vencimento, ou exceções pessoais e autonomia do título.",
+      "palavras_gatilho": [
+        "endosso",
+        "aval",
+        "protesto",
+        "aceite",
+        "vencimento",
+        "circulação",
+        "terceiro de boa-fé",
+        "exceções pessoais",
+        "autonomia",
+        "literalidade",
+        "cartularidade",
+        "abstração"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Títulos De Crédito Em Espécie (Cheque, Duplicata, Np, Letra De Câmbio)": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Endosso em preto com cláusula 'não à ordem' / proibição de novo endosso e seus efeitos cambiários",
+        "ids_questoes": [
+          "oab_38_49"
+        ],
+        "peso_percentual": 100,
+        "armadilha_favorita": "Confundir a cláusula de proibição de novo endosso com nulidade do endosso ou com impossibilidade absoluta de circulação. A FGV costuma explorar que a cláusula é válida e produz efeito apenas para o endossante que a inseriu, limitando sua responsabilidade perante endossatários posteriores, sem impedir a transferência do título."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com foco em circulação do título, responsabilidade dos coobrigados e efeitos específicos de cláusulas cambiárias",
+      "palavras_gatilho": [
+        "cláusula de proibição de novo endosso",
+        "endosso em preto",
+        "coobrigado",
+        "responde pelo pagamento",
+        "assinale a afirmativa correta"
+      ]
+    },
+    "total_questoes_analisadas": 1,
+    "banco_questoes": [
+      {
+        "id": "oab_38_49",
+        "materia": "Direito Empresarial",
+        "assunto": "Endosso com Cláusula de Proibição de Novo Endosso (Nota Promissória - LUG)",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Para honrar um empréstimo que lhe foi concedido, o empresário Ruy Barbosa subscreveu nota promissória em favor de Medeiros Neto, com vencimento para o dia 30 de março de 2023. O primeiro endossante transferiu o título em preto para Wagner Desidério e proibiu novo endosso. Considerando o efeito legal da cláusula de proibição de novo endosso, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Para o endossante Medeiros Neto, a cláusula de proibição de novo endosso tem efeito de cessão de crédito perante o endossatário direto e de endosso perante os endossatários posteriores.",
+          "B": "Wagner Desidério não poderá realizar novo endosso no título sob pena de desoneração de responsabilidade cambial dos coobrigados.",
+          "C": "A cláusula de proibição de novo endosso é nula, tal qual a de endosso parcial, por restringir a responsabilidade cambiária do endossante a seu endossatário imediato.",
+          "D": "Medeiros Neto, embora coobrigado, não responde pelo pagamento da nota promissória perante os endossatários posteriores a Wagner Desidério."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa D está correta. Pelo art. 15, II, da Lei Uniforme de Genebra (LUG), o endosso com cláusula 'não à ordem' (proibição de novo endosso) não proíbe o novo endosso, mas exonera o endossante proibidor em relação aos endossatários posteriores."
+      }
+    ]
+  },
+  "Contratos Empresariais": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Contrato de comissão: responsabilidade do comissário e cláusula del credere",
+        "ids_questoes": [
+          "oab_39_47"
+        ],
+        "peso_percentual": 50,
+        "armadilha_favorita": "A FGV induz o candidato a confundir a regra geral da comissão com a exceção da cláusula del credere: sem essa cláusula, o comissário não garante a solvência ou o adimplemento do terceiro, respondendo apenas pelos próprios atos e pela execução das instruções recebidas."
+      },
+      {
+        "nome_microtema": "Alienação fiduciária de bem móvel: mora do fiduciante e prerrogativas do credor fiduciário",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_50"
+        ],
+        "peso_percentual": 50,
+        "armadilha_favorita": "A pegadinha clássica é trocar a via extrajudicial própria da alienação fiduciária pela lógica da execução judicial comum: a FGV testa se o candidato sabe que, comprovada a mora, o credor fiduciário pode promover a venda do bem a terceiros, sem exigir leilão, hasta pública ou ação de execução por quantia certa."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando a consequência jurídica imediata do inadimplemento e a disciplina específica do contrato empresarial aplicado ao cenário narrado.",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "diante da mora",
+        "considerando que",
+        "sem cláusula del credere",
+        "na condição de proprietário fiduciário"
+      ]
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "oab_39_47",
+        "materia": "Direito Empresarial",
+        "assunto": "Contrato de Comissão - Cláusula del credere",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Arts. 697 e 698 do CC/02.",
+        "enunciado": "Pastifício Ponte Serrada S/A celebrou contrato de comissão com Elói Mendes para aquisição de cereais. O negócio foi efetuado pelo comissário conforme as instruções recebidas, mas a vendedora, Cerealista Campos Novos Ltda., ficou inadimplente na entrega do produto. Considerando-se que o contrato de comissão celebrado entre Pastifício Ponte Serrada S/A e Elói Mendes não contém cláusula del credere, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O comissário não responde perante o comitente pelo inadimplemento do vendedor Cerealista Campos Novos Ltda., devendo o segundo suportar os prejuízos advindos.",
+          "B": "Tanto o comissário quanto o vendedor Cerealista Campos Novos Ltda. respondem solidariamente perante o comitente pelos prejuízos advindos.",
+          "C": "Apenas o comissário responde perante o comitente pelos prejuízos advindos do inadimplemento do vendedor Cerealista Campos Novos Ltda.",
+          "D": "O comissário e o vendedor Cerealista Campos Novos Ltda. respondem solidariamente perante o comitente pelos prejuízos advindos, mas o primeiro apenas em caráter subsidiário."
+        },
+        "gabarito": "A",
+        "comentario": "O art. 697 do CC estabelece que o comissário não responde pela insolvência das pessoas com quem tratar, exceto em caso de culpa ou se houver cláusula del credere (art. 698). Como o contrato foi cumprido conforme instruções e não há cláusula del credere, o comissário não responde pelo inadimplemento do vendedor."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_50",
+        "materia": "Direito Empresarial",
+        "assunto": "Alienação fiduciária de bens móveis",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária Brasilândia Materiais de Construção contraiu empréstimo junto ao Banco Figueirão S.A. garantido pela alienação fiduciária de seis veículos automotores. O contrato tem prazo de vigência de 36 meses e, após o decurso de 17 meses, a devedora fiduciante deixou de pagar as prestações do empréstimo, sendo a mora comprovada por carta registrada com aviso de recebimento devidamente entregue. Diante da mora no adimplemento das obrigações contratuais, assinale a opção que indica a prerrogativa que o Banco Figueirão tem, na condição de proprietário fiduciário dos veículos automotores.",
+        "alternativas": {
+          "A": "Poderá vendê-los a terceiros, independentemente de leilão, hasta pública, avaliação prévia ou qualquer outra medida judicial ou extrajudicial, salvo disposição expressa em contrário prevista no contrato.",
+          "B": "Deverá ajuizar ação declaratória para positivar a mora da fiduciante e, após a avaliação dos bens e alvará judicial, poderá vendê-los a terceiros, devendo aplicar o preço da venda no pagamento de seu crédito e das despesas decorrentes.",
+          "C": "Poderá vendê-los a terceiros desde que interpele previamente a devedora fiduciante para que realize o pagamento no prazo improrrogável de 15 dias, findo o qual a propriedade estará consolidada se não for realizado o pagamento integral do saldo devedor.",
+          "D": "Deverá ajuizar ação de execução por quantia certa em face da fiduciante para cobrar o crédito, que abrange o principal, a correção monetária, os juros, as comissões, as taxas e a cláusula penal, podendo requerer, liminarmente, uma autorização judicial para a venda do bem em sede de tutela de evidência."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata sobre alienação fiduciária. A alternativa A está correta. Diferente de uma hipoteca comum, onde o bem precisa ir a leilão judicial (demorado), na alienação fiduciária de móveis, o Banco tem \"mãos livres\". Uma vez comprovada a mora (o que já foi feito via carta com AR, conforme o enunciado), o Banco pode vender o carro diretamente para uma loja ou particular. Vejamos o disposto no Decreto Lei 911/69, em seu Art 2º: “Art. 2o No caso de inadimplemento ou mora nas obrigações contratuais garantidas mediante alienação fiduciária, o proprietário fiduciário ou credor poderá vender a coisa a terceiros, independentemente de leilão, hasta pública, avaliação prévia ou qualquer outra medida judicial ou extrajudicial, salvo disposição expressa em contrário prevista no contrato, devendo aplicar o preço da venda no pagamento de seu crédito e das despesas decorrentes e entregar ao devedor o saldo apurado, se houver, com a devida prestação de contas.” A alternativa B está incorreta. O Banco não precisa de uma ação declaratória para \"positivar\" a mora; basta a notificação extrajudicial (carta com AR) para que ela esteja comprovada e autorize a Busca e Apreensão. Veja o comentário da alternativa A. A alternativa C está incorreta. Esta alternativa tenta confundir o candidato com o rito da alienação fiduciária de bens imóveis. Veja o comentário da alternativa A. A alternativa D está incorreta. O Banco não precisa de \"tutela de evidência\" para vender. A lei já lhe confere esse direito de venda extrajudicial após a apreensão do bem. Veja o comentário da alternativa A."
+      }
+    ]
+  },
+  "Recuperação Judicial E Extrajudicial": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Créditos excluídos da recuperação extrajudicial (trabalhistas e acidentários)",
+        "ids_questoes": [
+          "oab_39_48"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "A FGV costuma misturar a recuperação extrajudicial com a judicial para induzir o candidato a achar que créditos trabalhistas e por acidente de trabalho podem ser incluídos por analogia ou por negociação ampla. A regra cobrada é a exclusão expressa desses créditos do plano extrajudicial."
+      },
+      {
+        "nome_microtema": "Vedação de distribuição de lucros/dividendos na recuperação judicial",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_50"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "A banca explora a confusão entre o período de processamento, a aprovação do plano e a concessão da recuperação judicial. A pegadinha é achar que a vedação de distribuição de lucros dura até o encerramento do processo, quando a lei limita a restrição ao período legal específico após o deferimento do processamento."
+      },
+      {
+        "nome_microtema": "Legitimidade para voto na assembleia de credores e hipóteses de impedimento",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_48"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "A FGV adora confundir a condição de sócio da recuperanda com a de credor e também misturar credor sujeito ao plano com credor cujas condições não serão alteradas. O erro clássico é presumir impedimento automático de voto por ser sócio ou, ao contrário, liberar voto de credor cujo crédito não sofre alteração, quando a lei restringe a participação em hipóteses específicas."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo aplicação literal e precisa da Lei 11.101/2005 em situações de recuperação judicial e extrajudicial.",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "sobre a pretensão",
+        "com base nessas informações",
+        "é correto afirmar",
+        "diante dos fatos",
+        "poderá votar",
+        "pode ser incluído no plano"
+      ]
+    },
+    "total_questoes_analisadas": 3,
+    "banco_questoes": [
+      {
+        "id": "oab_39_48",
+        "materia": "Direito Empresarial",
+        "assunto": "Recuperação Extrajudicial - Créditos Trabalhistas",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 161, §1º da Lei 11.101/2005.",
+        "enunciado": "Pedreira Anitópolis Ltda está passando por sérias dificuldades de fluxo de caixa a curto e médio prazo e não está conseguindo crédito no mercado financeiro para honrar seus compromissos urgentes, em especial com credores trabalhistas e por acidentes de trabalho. A sociedade empresária pretende elaborar um plano de recuperação extrajudicial para apresentar a seus credores e negociar com eles sua aprovação. Sobre a pretensão de submeter créditos trabalhistas e por acidentes de trabalho aos efeitos da recuperação extrajudicial, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Os créditos de natureza trabalhista e por acidentes de trabalho podem ser incluídos no plano de recuperação extrajudicial, mas, para homologação, é necessária prévia negociação coletiva com o sindicato da respectiva categoria funcional.",
+          "B": "Os créditos de natureza trabalhista e por acidentes de trabalho, à semelhança do que ocorre com os créditos de natureza tributária, não podem ser incluídos no plano de recuperação extrajudicial, por não se sujeitarem aos efeitos da recuperação extrajudicial.",
+          "C": "Os créditos decorrentes de acidentes de trabalho, no limite máximo de 150 (cento e cinquenta) salários mínimos por empregado, podem ser incluídos no plano de recuperação extrajudicial, mas os créditos de natureza trabalhista não se sujeitam aos efeitos da recuperação judicial.",
+          "D": "Os créditos de natureza trabalhista podem ser incluídos no plano de recuperação extrajudicial, mediante negociação coletiva prévia com o sindicato da respectiva categoria funcional, mas os créditos decorrentes de acidentes de trabalho não se sujeitam aos efeitos da recuperação extrajudicial."
+        },
+        "gabarito": "A",
+        "comentario": "O art. 161, §1º da Lei 11.101/2005 dispõe que a sujeição dos créditos de natureza trabalhista e por acidentes de trabalho aos efeitos da recuperação extrajudicial exige negociação coletiva prévia com o sindicato da respectiva categoria profissional."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_50",
+        "materia": "Direito Empresarial",
+        "assunto": "Distribuição de lucros na recuperação judicial",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária Drogaria Ponto dos Volantes Ltda. requereu recuperação judicial e teve deferido o processamento, sendo que ambos os eventos ocorreram no ano de 2021. Nos exercícios sociais de 2021, 2022 e 2023, a sociedade não distribuiu lucros aos sócios, embora eles tivessem sido auferidos em 2022 e 2023. O sócio minoritário Lucas Sobrado consulta você, como advogado(a), para saber sobre a legalidade da ausência de distribuição de lucros nos referidos exercícios sociais, informando que o plano de recuperação judicial foi aprovado em dezembro de 2022 e a concessão ocorreu em janeiro de 2023, mas o processo ainda não foi encerrado. Assinale a opção que apresenta, corretamente, seu parecer.",
+        "alternativas": {
+          "A": "É vedada a distribuição de lucros pela sociedade aos sócios enquanto não for encerrada a recuperação judicial, de modo que não há ilegalidade por parte dela.",
+          "B": "A sociedade não poderia ter deixado de distribuir lucros nos exercícios sociais de 2022 e 2023, pois os lucros devem ser pagos aos sócios por ser direito essencial deles.",
+          "C": "É vedada a distribuição de lucros pela sociedade aos sócios enquanto não for realizado o pagamento aos credores sujeitos à recuperação judicial, de modo que não há ilegalidade por parte dela.",
+          "D": "A sociedade empresarial, até a aprovação do plano de recuperação judicial, estava impedida de distribuir lucros aos sócios, mas não há justificativa para o não pagamento no exercício de 2023."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa D está correta. A recuperação judicial foi deferida, tendo seu processamento ocorrido. Nesse caso, nos termos do art. 6º-A da Lei 11.101/2005, poderá distribuir os lucros com a aprovação do plano de recuperação judicial, vejamos: “Art. 6º-A. É vedado ao devedor, até a aprovação do plano de recuperação judicial, distribuir lucros ou dividendos a sócios e acionistas, sujeitando-se o infrator ao disposto no art. 168 desta Lei. (Incluído pela Lei nº 14.112, de 2020).” No ano de 2022 não era possível fazer a distribuição ainda, porque ainda estava pendente a aprovação. As demais alternativas estão incorretas, portanto."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_48",
+        "materia": "Direito Empresarial",
+        "assunto": "Assembleia de Credores e Direito de Voto na Recuperação Judicial",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "À Assembleia de Credores, convocada para deliberação sobre o plano de recuperação judicial apresentado por Atacado Têxtil Itapemirim Ltda., compareceram os credores Afonso Fundão e Viana & Cia. Ltda. O primeiro é sócio da recuperanda e credor por empréstimo fornecido a ela; o segundo é credor por duplicatas, cujo valor e condições de pagamento não serão alterados pelo plano. Com base nessas informações e nas disposições sobre a participação e o voto nas Assembleias de Credores (Lei nº 11.101/2005), assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Apenas Afonso Fundão poderá votar, já que se trata de credor subordinado, integrante da classe III; Viana & Cia. Ltda. não poderá votar, porque o plano não alterou o valor ou as condições originais de pagamento.",
+          "B": "Nenhum dos credores poderá votar na Assembleia, em razão de o primeiro ser sócio da devedora, e o segundo não ter alterado o valor ou as condições originais de pagamento.",
+          "C": "Ambos poderão votar, em razão de o primeiro ser credor subordinado e o segundo credor quirografário, integrando a classe III na composição da Assembleia.",
+          "D": "Apenas Viana & Cia. Ltda. poderá votar na Assembleia por ser credor quirografário, integrando a classe III; Afonso Fundão não poderá votar, em razão de ser sócio da devedora."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata sobre a falência e recuperação de empresas. A alternativa A está incorreta. Embora o crédito de sócio possa ser classificado como subordinado em uma falência, na AGC o impedimento do Art. 43 da Lei 11.101/05 prevalece. Veja o comentário da alternativa B. A alternativa B está correta. Afonso está barrado pelo Art. 43, por conflito de interesse por ser sócio; e Viana & Cia. está barrada pelo Art. 45, § 3º, por desinteresse de agir, já que o crédito não será alterado. O Art. 43 da Lei 11.101/05 retira o direito de voto dos sócios do devedor e de sociedades coligadas/controladas. Eles podem até estar presentes na assembleia (ouvir e falar), mas não votam nem contam para o quórum. “Art. 43. Os sócios do devedor, bem como as sociedades coligadas, controladoras, controladas ou as que tenham sócio ou acionista com participação superior a 10% (dez por cento) do capital social do devedor ou em que o devedor ou algum de seus sócios detenham participação superior a 10% (dez por cento) do capital social, poderão participar da assembleia-geral de credores, sem ter direito a voto e não serão considerados para fins de verificação do quorum de instalação e de deliberação. O Art. 45, § 3º da Lei 11.101/05 estabelece que o credor não vota se o plano não alterar o valor ou as condições originais de pagamento. A lógica é simples: se para ele nada muda, ele não tem legitimidade para interferir na reestruturação dos outros credores que aceitarão perdas. Vejamos: “Art. 45. Nas deliberações sobre o plano de recuperação judicial, todas as classes de credores referidas no art. 41 desta Lei deverão aprovar a proposta. § 3º O credor não terá direito a voto e não será considerado para fins de verificação de quorum de deliberação se o plano de recuperação judicial não alterar o valor ou as condições originais de pagamento de seu crédito.” A alternativa C está incorreta. O simples fato de pertencerem à Classe III (quirografários e subordinados) não anula os impedimentos subjetivos e objetivos. A alternativa D está incorreta. Erra ao permitir o voto de Viana & Cia. Ltda. O examinador tentou induzir o candidato ao erro, fazendo-o focar apenas no impedimento óbvio do sócio e esquecer a regra nova sobre créditos não alterados. Veja o comentário da alternativa B."
+      }
+    ]
+  },
+  "Falência": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Guarda e depósito dos bens arrecadados na falência",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_50"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "A FGV tenta fazer o candidato achar que a guarda dos bens arrecadados é função personalíssima e indelegável do administrador judicial, quando a lei admite depositários nomeados pelo juiz, inclusive para bens fora e dentro do estabelecimento, desde que observadas as vedações legais."
+      },
+      {
+        "nome_microtema": "Legitimidade passiva e pressupostos da falência do empresário individual",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_49"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "A banca confunde cessação fática das atividades com extinção jurídica da condição de empresário. O ponto-chave é que, sem cancelamento do registro na Junta Comercial, a falência ainda pode ser decretada, mesmo que o devedor alegue ter parado de exercer a atividade há anos."
+      },
+      {
+        "nome_microtema": "Efeitos da decretação da falência sobre as obrigações do falido",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_48"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "A FGV costuma trocar os efeitos típicos da falência: vencimento antecipado das dívidas com abatimento de juros, suspensão das execuções e prescrição, e novação. O distrator clássico é atribuir à falência um efeito que pertence a outro instituto ou inverter o marco temporal correto."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando detalhes do procedimento falimentar, legitimidade do devedor e efeitos imediatos da decretação da falência",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "sobre a hipótese",
+        "diante dos fatos",
+        "é possível",
+        "assinale a opção que apresenta corretamente"
+      ]
+    },
+    "total_questoes_analisadas": 3,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_50",
+        "materia": "Direito Empresarial",
+        "assunto": "Guarda de bens na falência",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O juiz da falência da sociedade empresária Refrigeração Abaíra Ltda. determinou que o administrador judicial ficasse responsável pela guarda dos bens arrecadados. O administrador judicial, entretanto, apresentou justificativas que o impossibilitavam de assumir tal encargo. Foi proposto ao juiz que os bens situados fora do estabelecimento da falida ficassem sob a guarda do Sr. Belmonte, conhecido empresário na Comarca, e sob a responsabilidade do administrador judicial. Para os bens situados dentro do estabelecimento, inclusive o próprio imóvel, propôs o administrador judicial que a Sra. América Dourada, ex-administradora da sociedade e representante da falida no processo, fosse nomeada depositária dos bens. Sobre a proposta do administrador judicial, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "É ilícita, porque é uma atribuição legal e personalíssima do administrador judicial ter os bens arrecadados do falido sob sua guarda.",
+          "B": "Deve ser acatada, pois é permitido que os bens arrecadados fiquem sob a guarda da pessoa por ele escolhida e sob sua responsabilidade, podendo também qualquer dos representantes do falido ser nomeado depositário dos bens.",
+          "C": "Deve ser rejeitada, ante a vedação legal que o falido ou qualquer de seus representantes seja nomeado depositário de quaisquer bens.",
+          "D": "Deve ser aceita somente se os depositários indicados - Sr. Belmonte e Sra. América Dourada - prestarem caução antes de serem imitidos na posse dos bens."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão aborda a guarda dos bens no processo falimentar. A alternativa A está incorreta, pois contraria a Lei 11.101, que em seu art. 108, § 1º, estabelece que os bens arrecadados pelo administrador judicial poderão ficar sob a guarda de pessoa por ele escolhida. Veja: \"Art. 108. Ato contínuo à assinatura do termo de compromisso, o administrador judicial efetuará a arrecadação dos bens e documentos e a avaliação dos bens, separadamente ou em bloco, no local em que se encontrem, requerendo ao juiz, para esses fins, as medidas necessárias. § 1º Os bens arrecadados ficarão sob a guarda do administrador judicial ou de pessoa por ele escolhida, sob responsabilidade daquele, podendo o falido ou qualquer de seus representantes ser nomeado depositário dos bens.\" A alternativa B está correta, pois conforme a Lei 11.101, em seu art. 108, os bens arrecadados pelo administrador judicial poderão ficar sob a guarda de pessoa por ele escolhida. Veja: \"Art. 108. Ato contínuo à assinatura do termo de compromisso, o administrador judicial efetuará a arrecadação dos bens e documentos e a avaliação dos bens, separadamente ou em bloco, no local em que se encontrem, requerendo ao juiz, para esses fins, as medidas necessárias. § 1º Os bens arrecadados ficarão sob a guarda do administrador judicial ou de pessoa por ele escolhida, sob responsabilidade daquele, podendo o falido ou qualquer de seus representantes ser nomeado depositário dos bens.\" A alternativa C está incorreta, pois contraria a Lei 11.101, que em seu art. 108, § 1º, estabelece que os bens arrecadados pelo administrador judicial poderão ficar sob a guarda de pessoa por ele escolhida. Veja: \"Art. 108. Ato contínuo à assinatura do termo de compromisso, o administrador judicial efetuará a arrecadação dos bens e documentos e a avaliação dos bens, separadamente ou em bloco, no local em que se encontrem, requerendo ao juiz, para esses fins, as medidas necessárias. § 1º Os bens arrecadados ficarão sob a guarda do administrador judicial ou de pessoa por ele escolhida, sob responsabilidade daquele, podendo o falido ou qualquer de seus representantes ser nomeado depositário dos bens.\" A alternativa D está incorreta, pois contraria a Lei 11.101, que em seu art. 108, § 1º, estabelece que os bens arrecadados pelo administrador judicial poderão ficar sob a guarda de pessoa por ele escolhida. Veja: \"Art. 108. Ato contínuo à assinatura do termo de compromisso, o administrador judicial efetuará a arrecadação dos bens e documentos e a avaliação dos bens, separadamente ou em bloco, no local em que se encontrem, requerendo ao juiz, para esses fins, as medidas necessárias. § 1º Os bens arrecadados ficarão sob a guarda do administrador judicial ou de pessoa por ele escolhida, sob responsabilidade daquele, podendo o falido ou qualquer de seus representantes ser nomeado depositário dos bens.\""
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_49",
+        "materia": "Direito Empresarial",
+        "assunto": "Falência - Cessação de atividades",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O empresário individual Valério Sampaio, devidamente inscrito na Junta Comercial do Estado do Espírito Santo, teve sua falência requerida em 3 de maio de 2023 com fundamento na falta de pagamento, sem relevante razão de direito, de nota promissória no valor de R$ 91.000,00, submetida previamente ao protesto especial. Após ser citado, apresentou contestação alegando que cessou suas atividades empresariais em 31 de março de 2020 e, como tal, não teria legitimidade passiva no processo. Sobre a hipótese, sabendo que o empresário não apresentou prova de cancelamento do registro na Junta Comercial, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Trata-se de empresário irregular diante da cessação do exercício da empresa.",
+          "B": "É possível a decretação da falência diante da falta de comprovação da cessação da empresa.",
+          "C": "Deve ser acatada a contestação apresentada em razão da cessação há mais de dois anos.",
+          "D": "Somente com o cancelamento do registro será possível a decretação da falência."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão tratou sobre registro empresarial e falência. A alternativa A está incorreta. Não obstante o empresário tenha encerrado irregularmente suas atividades, não se trata de empresário irregular, diante da realização do registro na Junta Comercial. Conforme dispõe o artigo 967 do Código Civil: É obrigatória a inscrição do empresário no Registro Público de Empresas Mercantis da respectiva sede, antes do início de sua atividade. A alternativa B está correta. É necessária a comprovação da cessação das atividades por mais de 2 anos, para que haja o impedimento da decretação da falência, conforme dispõe o artigo 96 da Lei n. 11.101/05: A falência requerida com base no art. 94, inciso I do caput, desta Lei, não será decretada se o requerido provar: [...] VIII – cessação das atividades empresariais mais de 2 (dois) anos antes do pedido de falência, comprovada por documento hábil do Registro Público de Empresas, o qual não prevalecerá contra prova de exercício posterior ao ato registrado. A alternativa C está incorreta. Nos termos do artigo 96 da Lei n. 11.101/05: A falência requerida com base no art. 94, inciso I do caput, desta Lei, não será decretada se o requerido provar: [...] VIII – cessação das atividades empresariais mais de 2 (dois) anos antes do pedido de falência, comprovada por documento hábil do Registro Público de Empresas, o qual não prevalecerá contra prova de exercício posterior ao ato registrado. A alternativa D está incorreta. É possível a decretação da falência até mesmo sem o cancelamento do registro, desde que comprovada documentalmente a cessação das atividades por mais de 2 anos, conforme previsto no artigo 96 da Lei n. 11.101/05: A falência requerida com base no art. 94, inciso I do caput, desta Lei, não será decretada se o requerido provar: [...] VIII – cessação das atividades empresariais mais de 2 (dois) anos antes do pedido de falência, comprovada por documento hábil do Registro Público de Empresas, o qual não prevalecerá contra prova de exercício posterior ao ato registrado."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_48",
+        "materia": "Direito Empresarial",
+        "assunto": "Efeitos da decretação da falência",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Santa Aceguá, administradora e sócia da Mercearia Cerro Branco Ltda., para saber os efeitos que a falência de um dos seus devedores, o empresário Júlio Cidreira, terá em relação a seu crédito, consulta você como advogado(a). Assinale a opção que apresenta, corretamente, sua orientação.",
+        "alternativas": {
+          "A": "A falência opera a novação dos créditos quirografários existentes na data da decretação, que serão pagos até o limite de 25% (vinte e cinco por cento) de seu valor, exceto se o ativo apurado for superior para garantir o pagamento integral a outras classes de credores.",
+          "B": "A falência produz o vencimento antecipado das dívidas do falido, com o abatimento proporcional dos juros, e converte todos os créditos em moeda estrangeira para a moeda do País, pelo câmbio do dia da decisão judicial.",
+          "C": "A falência determina a suspensão da prescrição a partir da data da decretação a falência, sendo retomado o curso do prazo a partir da data do trânsito em julgado da sentença de encerramento.",
+          "D": "A falência acarreta a suspensão das execuções pelo prazo de 180 (cento e oitenta) dias, contado da data da decretação, prorrogável uma única vez por igual prazo."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tema da falência. A alternativa A está incorreta, pois a novação não é um efeito da declaração de falência, mas pode ser um efeito da concessão da recuperação judicial, conforme art. 59 da Lei 11.101/2005. A alternativa B está correta, pois é o que determina expressamente o art. 77 da Lei 11.101/2005. A alternativa C está incorreta, pois em virtude da revogação do art. 157 da Lei 11.101/2005, não há que se falar mais em retomada do prazo prescricional na falência. A alternativa D está incorreta, pois esta é uma previsão aplicável à recuperação judicial e não à falência, conforme art. 6º, §4º, da Lei 11.101/2005."
+      }
+    ]
+  }
+}

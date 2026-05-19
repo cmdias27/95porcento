@@ -1,0 +1,5438 @@
+[
+  {
+    "id": 406603,
+    "nome": "Noções introdutórias do direito processual penal |"
+  },
+  {
+    "id": 420920,
+    "nome": "Conceitos de processo e direito processual penal |"
+  },
+  {
+    "id": 420921,
+    "nome": "Finalidades do direito processual penal |"
+  },
+  {
+    "id": 420924,
+    "nome": "Características do direito processual penal |"
+  },
+  {
+    "id": 420926,
+    "nome": "Instrumentalidade |"
+  },
+  {
+    "id": 420928,
+    "nome": "Conceitos basilares ou básicos |"
+  },
+  {
+    "id": 420929,
+    "nome": "Interesse ou interesse de agir |"
+  },
+  {
+    "id": 420930,
+    "nome": "Pretensão |"
+  },
+  {
+    "id": 420932,
+    "nome": "Ação |"
+  },
+  {
+    "id": 414138,
+    "nome": "Teorias da Ação |"
+  },
+  {
+    "id": 420934,
+    "nome": "Ação civilista ou imanentista |"
+  },
+  {
+    "id": 420935,
+    "nome": "Ação como direito concreto |"
+  },
+  {
+    "id": 420938,
+    "nome": "Processo |"
+  },
+  {
+    "id": 420939,
+    "nome": "Procedimento (aspecto objetivo do processo) |"
+  },
+  {
+    "id": 420940,
+    "nome": "Relação jurídica processual (aspecto subjetivo do processo) |"
+  },
+  {
+    "id": 420941,
+    "nome": "Pressupostos processuais |"
+  },
+  {
+    "id": 420942,
+    "nome": "Pressupostos processuais subjetivos |"
+  },
+  {
+    "id": 420944,
+    "nome": "Competência |"
+  },
+  {
+    "id": 420945,
+    "nome": "Ausência de suspeição |"
+  },
+  {
+    "id": 420948,
+    "nome": "Capacidade postulatória |"
+  },
+  {
+    "id": 420949,
+    "nome": "Pressupostos processuais objetivos |"
+  },
+  {
+    "id": 420951,
+    "nome": "Intrínsecos |"
+  },
+  {
+    "id": 406604,
+    "nome": "Fontes do Direito Processual Penal |"
+  },
+  {
+    "id": 414067,
+    "nome": "Fontes formais, cognitivas ou de conhecimento |"
+  },
+  {
+    "id": 420962,
+    "nome": "Fontes formais imediatas ou diretas |"
+  },
+  {
+    "id": 420963,
+    "nome": "Fontes formais mediatas, indiretas, supletivas ou secundárias |"
+  },
+  {
+    "id": 420967,
+    "nome": "Princípios gerais do direito |"
+  },
+  {
+    "id": 414068,
+    "nome": "Fontes materiais, substanciais ou de produção |"
+  },
+  {
+    "id": 414070,
+    "nome": "Sistemas Processuais Penais |"
+  },
+  {
+    "id": 414071,
+    "nome": "Sistema inquisitorial ou inquisitivo |"
+  },
+  {
+    "id": 414072,
+    "nome": "Sistema Acusatório |"
+  },
+  {
+    "id": 414073,
+    "nome": "Sistema Misto ou Francês ou Acusatório Formal |"
+  },
+  {
+    "id": 414074,
+    "nome": "Sistema Brasileiro |"
+  },
+  {
+    "id": 414069,
+    "nome": "Princípios do Direito Processual Penal |"
+  },
+  {
+    "id": 414075,
+    "nome": "Presunção de Inocência ou da não Culpabilidade |"
+  },
+  {
+    "id": 414077,
+    "nome": "Regra Probatória (in dubio pro reo) |"
+  },
+  {
+    "id": 414078,
+    "nome": "Regra de Tratamento |"
+  },
+  {
+    "id": 414079,
+    "nome": "Execução Provisória da Pena |"
+  },
+  {
+    "id": 414080,
+    "nome": "Princípio do contraditório (Princípio da bilateralidade da audiência) |"
+  },
+  {
+    "id": 420968,
+    "nome": "Direito de participação |"
+  },
+  {
+    "id": 420969,
+    "nome": "Contraditório para a prova (real) |"
+  },
+  {
+    "id": 420970,
+    "nome": "Contraditório sobre a prova (diferido ou postergado) |"
+  },
+  {
+    "id": 414082,
+    "nome": "Princípio da Ampla Defesa |"
+  },
+  {
+    "id": 414083,
+    "nome": "Defesa Técnica, Processual ou Específica |"
+  },
+  {
+    "id": 414084,
+    "nome": "Defesa Técnica Necessária e Irrenunciável |"
+  },
+  {
+    "id": 414085,
+    "nome": "Direito de Escolha do Defensor |"
+  },
+  {
+    "id": 414086,
+    "nome": "Defesa Técnica Plena e Efetiva |"
+  },
+  {
+    "id": 414087,
+    "nome": "Autodefesa (material ou genérica) |"
+  },
+  {
+    "id": 414088,
+    "nome": "Direito de Audiência |"
+  },
+  {
+    "id": 414089,
+    "nome": "Direito de Presença |"
+  },
+  {
+    "id": 414090,
+    "nome": "Capacidade Postulatória Autônoma do Acusado |"
+  },
+  {
+    "id": 414091,
+    "nome": "Ampla Defesa no Processo Administrativo Disciplinar e na Execução Penal |"
+  },
+  {
+    "id": 414092,
+    "nome": "Princípio da Publicidade |"
+  },
+  {
+    "id": 420971,
+    "nome": "Publicidade restrita ou interna |"
+  },
+  {
+    "id": 414095,
+    "nome": "Princípio da Busca da Verdade Real |"
+  },
+  {
+    "id": 414096,
+    "nome": "Busca da verdade consensual no âmbito dos juizados |"
+  },
+  {
+    "id": 414097,
+    "nome": "Princípio da Inadmissibilidade das Provas Ilícitas |"
+  },
+  {
+    "id": 414098,
+    "nome": "Princípio do Juiz Natural |"
+  },
+  {
+    "id": 414099,
+    "nome": "Princípio contra a autoincriminação (Princípio do nemo tenetur se detegere) |"
+  },
+  {
+    "id": 414100,
+    "nome": "Direito ao silêncio ou direito de ficar calado |"
+  },
+  {
+    "id": 414101,
+    "nome": "Prerrogativa de não Praticar Comportamento Ativo Incriminador |"
+  },
+  {
+    "id": 414102,
+    "nome": "Prerrogativa de não Produzir Prova Incriminadora Invasiva |"
+  },
+  {
+    "id": 414104,
+    "nome": "Consequências do Exercício do Direito e a Prática de Outros Crimes |"
+  },
+  {
+    "id": 414105,
+    "nome": "Princípio da Proporcionalidade |"
+  },
+  {
+    "id": 414109,
+    "nome": "Princípio da igualdade processual ou Princípio da paridade de armas |"
+  },
+  {
+    "id": 420972,
+    "nome": "Princípio da ação, demanda ou iniciativa das partes |"
+  },
+  {
+    "id": 420973,
+    "nome": "Princípio da oficiosidade |"
+  },
+  {
+    "id": 420974,
+    "nome": "Princípio da obrigatoriedade |"
+  },
+  {
+    "id": 420975,
+    "nome": "Princípio da obrigatoriedade limitada ou discricionariedade regrada |"
+  },
+  {
+    "id": 420976,
+    "nome": "Princípio da oportunidade |"
+  },
+  {
+    "id": 420977,
+    "nome": "Princípio da indisponibilidade |"
+  },
+  {
+    "id": 420978,
+    "nome": "Princípio da disponibilidade |"
+  },
+  {
+    "id": 420980,
+    "nome": "Princípio da motivação das decisões |"
+  },
+  {
+    "id": 420981,
+    "nome": "Princípio do duplo grau de jurisdição |"
+  },
+  {
+    "id": 420982,
+    "nome": "Princípio do promotor natural ou promotor legal |"
+  },
+  {
+    "id": 420983,
+    "nome": "Princípio do defensor natural |"
+  },
+  {
+    "id": 420984,
+    "nome": "Princípio do devido processo legal |"
+  },
+  {
+    "id": 420985,
+    "nome": "Princípio do favor rei ou favor réu |"
+  },
+  {
+    "id": 420989,
+    "nome": "Princípio da razoável duração do processo |"
+  },
+  {
+    "id": 420990,
+    "nome": "Princípio da cooperação processual |"
+  },
+  {
+    "id": 420991,
+    "nome": "Comparativo de princípios, direitos e garantias individuais |"
+  },
+  {
+    "id": 420992,
+    "nome": "Disposições constitucionais acerca do processo penal |"
+  },
+  {
+    "id": 420993,
+    "nome": "Disposições preliminares do Código de Processo Penal |"
+  },
+  {
+    "id": 406607,
+    "nome": "Lei processual penal no espaço |"
+  },
+  {
+    "id": 414118,
+    "nome": "Princípio da territorialidade |"
+  },
+  {
+    "id": 414119,
+    "nome": "Exceções |"
+  },
+  {
+    "id": 406606,
+    "nome": "Lei processual penal no tempo |"
+  },
+  {
+    "id": 414120,
+    "nome": "Sistemas de aplicação da lei processual penal no tempo |"
+  },
+  {
+    "id": 414121,
+    "nome": "Sistema da unidade processual |"
+  },
+  {
+    "id": 414122,
+    "nome": "Sistema das fases processuais |"
+  },
+  {
+    "id": 420994,
+    "nome": "Sistema do isolamento dos atos processuais |"
+  },
+  {
+    "id": 420995,
+    "nome": "Normas híbridas, mistas, materialmente processuais ou processuais materiais |"
+  },
+  {
+    "id": 420996,
+    "nome": "Normas processuais heterotópicas |"
+  },
+  {
+    "id": 420997,
+    "nome": "Vigência, validade e revogação da lei processual penal |"
+  },
+  {
+    "id": 414127,
+    "nome": "Interpretação da Lei Processual Penal |"
+  },
+  {
+    "id": 414128,
+    "nome": "Classificação |"
+  },
+  {
+    "id": 421000,
+    "nome": "Quanto à origem ou ao sujeito que a realiza |"
+  },
+  {
+    "id": 414131,
+    "nome": "Autêntica ou legislativa |"
+  },
+  {
+    "id": 421002,
+    "nome": "Judicial ou jurisprudencial |"
+  },
+  {
+    "id": 414129,
+    "nome": "Quanto ao modo ou aos meios empregados |"
+  },
+  {
+    "id": 421003,
+    "nome": "Literal, gramatical ou sintática |"
+  },
+  {
+    "id": 421004,
+    "nome": "Teleológica ou finalística |"
+  },
+  {
+    "id": 414130,
+    "nome": "Quanto ao resultado |"
+  },
+  {
+    "id": 421015,
+    "nome": "Restritiva |"
+  },
+  {
+    "id": 421016,
+    "nome": "Extensiva ou ampliativa |"
+  },
+  {
+    "id": 406605,
+    "nome": "Integração da lei processual penal |"
+  },
+  {
+    "id": 421017,
+    "nome": "Analogia |"
+  },
+  {
+    "id": 421018,
+    "nome": "Analogia legis |"
+  },
+  {
+    "id": 421020,
+    "nome": "Distinção entre analogia e interpretação analógica |"
+  },
+  {
+    "id": 421021,
+    "nome": "Aplicação da lei processual em relação às pessoas |"
+  },
+  {
+    "id": 421022,
+    "nome": "Juiz das Garantias |"
+  },
+  {
+    "id": 421023,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 421024,
+    "nome": "Competência |"
+  },
+  {
+    "id": 406608,
+    "nome": "Investigação e inquérito policial |"
+  },
+  {
+    "id": 414132,
+    "nome": "Investigação |"
+  },
+  {
+    "id": 414133,
+    "nome": "Persecução Penal |"
+  },
+  {
+    "id": 414134,
+    "nome": "Investigação e suas Formas |"
+  },
+  {
+    "id": 414135,
+    "nome": "Polícia Judiciária |"
+  },
+  {
+    "id": 414136,
+    "nome": "Conceito de Autoridade Policial |"
+  },
+  {
+    "id": 406609,
+    "nome": "Inquérito policial |"
+  },
+  {
+    "id": 406610,
+    "nome": "Conceito de inquérito policial |"
+  },
+  {
+    "id": 406611,
+    "nome": "Histórico do inquérito policial |"
+  },
+  {
+    "id": 421025,
+    "nome": "Natureza jurídica do inquérito policial |"
+  },
+  {
+    "id": 421026,
+    "nome": "Função e finalidade do inquérito policial |"
+  },
+  {
+    "id": 421027,
+    "nome": "Inquérito policial e foro por prerrogativa de função |"
+  },
+  {
+    "id": 421028,
+    "nome": "Valor probatório do inquérito policial |"
+  },
+  {
+    "id": 421029,
+    "nome": "Atribuição para a presidência do inquérito policial |"
+  },
+  {
+    "id": 421030,
+    "nome": "Funções de polícia administrativa, judiciária e investigativa |"
+  },
+  {
+    "id": 421031,
+    "nome": "Polícia administrativa |"
+  },
+  {
+    "id": 421032,
+    "nome": "Polícia judiciária |"
+  },
+  {
+    "id": 421035,
+    "nome": "Da atribuição em face da natureza da infração penal |"
+  },
+  {
+    "id": 421036,
+    "nome": "Características do inquérito policial |"
+  },
+  {
+    "id": 421037,
+    "nome": "Procedimento escrito |"
+  },
+  {
+    "id": 421038,
+    "nome": "Procedimento dispensável |"
+  },
+  {
+    "id": 421039,
+    "nome": "Procedimento sigiloso |"
+  },
+  {
+    "id": 421040,
+    "nome": "Procedimento inquisitorial |"
+  },
+  {
+    "id": 421041,
+    "nome": "Assistência jurídica obrigatória em favor dos servidores da segurança pública em investigações relacionadas ao uso da força letal no exercício profissional |"
+  },
+  {
+    "id": 421042,
+    "nome": "Militares das Forças Armadas |"
+  },
+  {
+    "id": 421043,
+    "nome": "Procedimento discricionário |"
+  },
+  {
+    "id": 421044,
+    "nome": "Liberdade procedimental |"
+  },
+  {
+    "id": 421045,
+    "nome": "Procedimento oficial |"
+  },
+  {
+    "id": 421046,
+    "nome": "Procedimento oficioso |"
+  },
+  {
+    "id": 421047,
+    "nome": "Procedimento indisponível |"
+  },
+  {
+    "id": 421048,
+    "nome": "Procedimento temporário |"
+  },
+  {
+    "id": 421049,
+    "nome": "Procedimento administrativo |"
+  },
+  {
+    "id": 421050,
+    "nome": "Procedimento informativo |"
+  },
+  {
+    "id": 421052,
+    "nome": "Formas de instauração do inquérito policial |"
+  },
+  {
+    "id": 421053,
+    "nome": "Crimes de ação penal pública incondicionada |"
+  },
+  {
+    "id": 421054,
+    "nome": "Instauração de ofício |"
+  },
+  {
+    "id": 421056,
+    "nome": "Instauração por requisição da autoridade judiciária ou do Ministério Público |"
+  },
+  {
+    "id": 421057,
+    "nome": "Instauração por requerimento do ofendido ou de seu representante legal |"
+  },
+  {
+    "id": 421059,
+    "nome": "Instauração por notícia oferecida por qualquer do povo |"
+  },
+  {
+    "id": 421060,
+    "nome": "Instauração por auto de prisão em flagrante |"
+  },
+  {
+    "id": 421061,
+    "nome": "Crimes de ação penal pública condicionada e de ação penal privada |"
+  },
+  {
+    "id": 421068,
+    "nome": "Representação do ofendido ou de seu representante legal |"
+  },
+  {
+    "id": 421070,
+    "nome": "Requisição do Ministro da Justiça |"
+  },
+  {
+    "id": 421071,
+    "nome": "Notitia criminis |"
+  },
+  {
+    "id": 421072,
+    "nome": "Notitia criminis de cognição imediata (ou espontânea) |"
+  },
+  {
+    "id": 421073,
+    "nome": "Notitia criminis de cognição mediata (ou provocada) |"
+  },
+  {
+    "id": 421074,
+    "nome": "Notitia criminis de cognição coercitiva |"
+  },
+  {
+    "id": 421075,
+    "nome": "Delatio criminis |"
+  },
+  {
+    "id": 421076,
+    "nome": "Notitia criminis inqualificada (denúncia anônima ou denúncia apócrifa) |"
+  },
+  {
+    "id": 421077,
+    "nome": "Verificação de procedência das informações |"
+  },
+  {
+    "id": 421078,
+    "nome": "Procedimento Investigativo |"
+  },
+  {
+    "id": 421079,
+    "nome": "Preservação do local do crime |"
+  },
+  {
+    "id": 421080,
+    "nome": "Apreensão de objetos |"
+  },
+  {
+    "id": 421081,
+    "nome": "Colheita de outras provas |"
+  },
+  {
+    "id": 421082,
+    "nome": "Oitiva do ofendido |"
+  },
+  {
+    "id": 421083,
+    "nome": "Oitiva do indiciado |"
+  },
+  {
+    "id": 421084,
+    "nome": "Reconhecimento de pessoas e coisas e acareações |"
+  },
+  {
+    "id": 421085,
+    "nome": "Realização de exame de corpo delito e outras perícias |"
+  },
+  {
+    "id": 421086,
+    "nome": "Identificação do indiciado |"
+  },
+  {
+    "id": 421087,
+    "nome": "Averiguação da vida pregressa do investigado |"
+  },
+  {
+    "id": 421088,
+    "nome": "Reconstituição do fato delituoso |"
+  },
+  {
+    "id": 421089,
+    "nome": "Acesso aos dados cadastrais de vítimas e suspeitos |"
+  },
+  {
+    "id": 421090,
+    "nome": "Requisição de informações acerca das estações rádio base (ERB) |"
+  },
+  {
+    "id": 421091,
+    "nome": "Identificação criminal |"
+  },
+  {
+    "id": 421092,
+    "nome": "Conceito de identificação criminal |"
+  },
+  {
+    "id": 421094,
+    "nome": "Documentos atestadores da identificação criminal |"
+  },
+  {
+    "id": 421095,
+    "nome": "Identificação do perfil genético (Lei nº 12.654/12) |"
+  },
+  {
+    "id": 421096,
+    "nome": "Incomunicabilidade do indiciado preso |"
+  },
+  {
+    "id": 421097,
+    "nome": "Indiciamento |"
+  },
+  {
+    "id": 421100,
+    "nome": "Conceito de indiciamento |"
+  },
+  {
+    "id": 421101,
+    "nome": "Momento do indiciamento |"
+  },
+  {
+    "id": 421102,
+    "nome": "Espécies de indiciamento |"
+  },
+  {
+    "id": 421104,
+    "nome": "Indiciamento indireto |"
+  },
+  {
+    "id": 421105,
+    "nome": "Pressupostos do indiciamento |"
+  },
+  {
+    "id": 421106,
+    "nome": "Desindiciamento |"
+  },
+  {
+    "id": 421107,
+    "nome": "Atribuição do indiciamento |"
+  },
+  {
+    "id": 421108,
+    "nome": "Sujeito passivo do indiciamento |"
+  },
+  {
+    "id": 421109,
+    "nome": "Afastamento do servidor público de suas funções como efeito automático do indiciamento em crimes de lavagem de capitais |"
+  },
+  {
+    "id": 421098,
+    "nome": "Conclusão do inquérito policial |"
+  },
+  {
+    "id": 421110,
+    "nome": "Prazo para conclusão |"
+  },
+  {
+    "id": 421111,
+    "nome": "Relatório final da autoridade policial (ou relatório da autoridade policial) |"
+  },
+  {
+    "id": 421112,
+    "nome": "Destinatário dos autos do inquérito policial |"
+  },
+  {
+    "id": 421113,
+    "nome": "Providências a serem adotadas após a remessa dos autos do inquérito policial |"
+  },
+  {
+    "id": 421114,
+    "nome": "Crimes de ação penal pública |"
+  },
+  {
+    "id": 421115,
+    "nome": "Crimes de ação penal privada |"
+  },
+  {
+    "id": 421099,
+    "nome": "Arquivamento do inquérito policial |"
+  },
+  {
+    "id": 421116,
+    "nome": "Fundamentos do arquivamento |"
+  },
+  {
+    "id": 421117,
+    "nome": "Coisa julgada na decisão de arquivamento |"
+  },
+  {
+    "id": 421118,
+    "nome": "Dissidência quanto ao arquivamento |"
+  },
+  {
+    "id": 421119,
+    "nome": "Arquivamento implícito |"
+  },
+  {
+    "id": 421120,
+    "nome": "Arquivamento indireto |"
+  },
+  {
+    "id": 421121,
+    "nome": "Arquivamento por juiz absolutamente incompetente |"
+  },
+  {
+    "id": 421122,
+    "nome": "Procedimento do arquivamento |"
+  },
+  {
+    "id": 421128,
+    "nome": "Arquivamento no âmbito da justiça estadual |"
+  },
+  {
+    "id": 421132,
+    "nome": "Arquivamento nas hipóteses de atribuição do procurador geral da república ou do procurador geral de justiça |"
+  },
+  {
+    "id": 421123,
+    "nome": "Arquivamento em crimes de ação penal de iniciativa privada |"
+  },
+  {
+    "id": 421124,
+    "nome": "Recorribilidade contra a decisão de arquivamento |"
+  },
+  {
+    "id": 421125,
+    "nome": "Desarquivamento e oferecimento de denúncia no surgimento de provas novas |"
+  },
+  {
+    "id": 421126,
+    "nome": "Provas formalmente novas |"
+  },
+  {
+    "id": 421127,
+    "nome": "Provas materialmente novas |"
+  },
+  {
+    "id": 421133,
+    "nome": "Trancamento ou encerramento anômalo do inquérito policial |"
+  },
+  {
+    "id": 421134,
+    "nome": "Instrumentos investigatórios diversos do inquérito policial |"
+  },
+  {
+    "id": 421140,
+    "nome": "Comissão parlamentar de inquérito (inquéritos parlamentares) |"
+  },
+  {
+    "id": 421141,
+    "nome": "Inquérito policial militar |"
+  },
+  {
+    "id": 421142,
+    "nome": "Inquérito civil |"
+  },
+  {
+    "id": 421143,
+    "nome": "Conselho de Controle de Atividades Financeiras (COAF) |"
+  },
+  {
+    "id": 421144,
+    "nome": "Investigação pelo Ministério Público |"
+  },
+  {
+    "id": 421145,
+    "nome": "Teoria dos poderes implícitos |"
+  },
+  {
+    "id": 423170,
+    "nome": "Garantias do investigado |"
+  },
+  {
+    "id": 421135,
+    "nome": "Inquérito judicial |"
+  },
+  {
+    "id": 421136,
+    "nome": "Investigação criminal defensiva |"
+  },
+  {
+    "id": 421137,
+    "nome": "Investigação por detetive particular (Lei nº 13.432/17) |"
+  },
+  {
+    "id": 421138,
+    "nome": "Controle externo da atividade policial |"
+  },
+  {
+    "id": 421146,
+    "nome": "Controle externo difuso |"
+  },
+  {
+    "id": 421147,
+    "nome": "Controle externo concentrado |"
+  },
+  {
+    "id": 421139,
+    "nome": "Acordo de não persecução penal |"
+  },
+  {
+    "id": 421148,
+    "nome": "Requisitos para a celebração do acordo de não persecução penal |"
+  },
+  {
+    "id": 406612,
+    "nome": "Condições a serem impostas ao investigado |"
+  },
+  {
+    "id": 406615,
+    "nome": "Controle jurisdicional |"
+  },
+  {
+    "id": 421149,
+    "nome": "Descumprimento injustificado das obrigações assumidas pelo investigado |"
+  },
+  {
+    "id": 421150,
+    "nome": "Cumprimento integral do acordo de não persecução penal |"
+  },
+  {
+    "id": 406616,
+    "nome": "Ação penal e ação civil ex delicto |"
+  },
+  {
+    "id": 421151,
+    "nome": "Ação penal |"
+  },
+  {
+    "id": 421152,
+    "nome": "Conceito de ação penal |"
+  },
+  {
+    "id": 421153,
+    "nome": "Teorias da ação |"
+  },
+  {
+    "id": 421154,
+    "nome": "Direito de ação penal |"
+  },
+  {
+    "id": 421155,
+    "nome": "Características do direito de ação penal |"
+  },
+  {
+    "id": 414137,
+    "nome": "Direito subjetivo |"
+  },
+  {
+    "id": 414139,
+    "nome": "Direito autônomo |"
+  },
+  {
+    "id": 414140,
+    "nome": "Direito abstrato |"
+  },
+  {
+    "id": 421156,
+    "nome": "Direito determinado |"
+  },
+  {
+    "id": 421157,
+    "nome": "Direito específico |"
+  },
+  {
+    "id": 421158,
+    "nome": "Lide no processo penal |"
+  },
+  {
+    "id": 414141,
+    "nome": "Condições da Ação Penal |"
+  },
+  {
+    "id": 414142,
+    "nome": "Condições Genéricas da Ação Penal |"
+  },
+  {
+    "id": 414143,
+    "nome": "Pela Teoria Geral do Processo |"
+  },
+  {
+    "id": 414148,
+    "nome": "Prescrição em Perspectiva e Ausência do Interesse de Agir |"
+  },
+  {
+    "id": 414144,
+    "nome": "Possibilidade Jurídica do Pedido |"
+  },
+  {
+    "id": 414145,
+    "nome": "Legitimidade para agir |"
+  },
+  {
+    "id": 421159,
+    "nome": "Legitimidade ordinária |"
+  },
+  {
+    "id": 421160,
+    "nome": "Legitimidade extraordinária |"
+  },
+  {
+    "id": 414147,
+    "nome": "Interesse de agir |"
+  },
+  {
+    "id": 421161,
+    "nome": "Prescrição em perspectiva e ausência do interesse de agir |"
+  },
+  {
+    "id": 414149,
+    "nome": "Justa Causa |"
+  },
+  {
+    "id": 414151,
+    "nome": "Condições Específicas da Ação Penal |"
+  },
+  {
+    "id": 414152,
+    "nome": "Condições de prosseguibilidade (condição superveniente da ação) |"
+  },
+  {
+    "id": 414153,
+    "nome": "Condições da Ação, Condições Objetivas de Punibilidade e Escusas Absolutórias |"
+  },
+  {
+    "id": 421162,
+    "nome": "Decisão final do procedimento administrativo nos crimes materiais contra a ordem tributária |"
+  },
+  {
+    "id": 406618,
+    "nome": "Classificação das ações penais |"
+  },
+  {
+    "id": 414154,
+    "nome": "Princípios da Ação Penal |"
+  },
+  {
+    "id": 414155,
+    "nome": "Princípio da Obrigatoriedade da Ação Penal Pública |"
+  },
+  {
+    "id": 414156,
+    "nome": "Princípio da oportunidade ou conveniência da ação penal de iniciativa privada |"
+  },
+  {
+    "id": 414157,
+    "nome": "Princípio da Indisponibilidade da Ação Penal Pública |"
+  },
+  {
+    "id": 414158,
+    "nome": "Princípio da Disponibilidade da Ação Penal de Iniciativa Privada |"
+  },
+  {
+    "id": 414159,
+    "nome": "Princípio da divisibilidade da ação penal pública |"
+  },
+  {
+    "id": 414160,
+    "nome": "Princípio da Indivisibilidade da Ação Penal de Iniciativa Privada |"
+  },
+  {
+    "id": 414161,
+    "nome": "Princípio da Intranscendência |"
+  },
+  {
+    "id": 414162,
+    "nome": "Princípio da Oficialidade |"
+  },
+  {
+    "id": 406619,
+    "nome": "Princípio ne procedat iudex ex officio |"
+  },
+  {
+    "id": 421173,
+    "nome": "Princípio do ne bis in idem (inadmissibilidade da persecução penal múltipla) |"
+  },
+  {
+    "id": 421174,
+    "nome": "Ação penal pública incondicionada |"
+  },
+  {
+    "id": 406620,
+    "nome": "Ação Penal Pública Condicionada |"
+  },
+  {
+    "id": 414165,
+    "nome": "Representação |"
+  },
+  {
+    "id": 414167,
+    "nome": "Forma e natureza jurídica da representação |"
+  },
+  {
+    "id": 414168,
+    "nome": "Destinatário da representação |"
+  },
+  {
+    "id": 414169,
+    "nome": "Titularidade ou legitimidade para o oferecimento da representação |"
+  },
+  {
+    "id": 421175,
+    "nome": "Prazo da representação |"
+  },
+  {
+    "id": 421176,
+    "nome": "Retratação da representação |"
+  },
+  {
+    "id": 421177,
+    "nome": "Retratação da retratação da representação |"
+  },
+  {
+    "id": 421178,
+    "nome": "Retratação da representação na Lei Maria da Penha |"
+  },
+  {
+    "id": 421179,
+    "nome": "Extensão e eficácia da representação |"
+  },
+  {
+    "id": 421180,
+    "nome": "Eficácia objetiva da representação |"
+  },
+  {
+    "id": 414175,
+    "nome": "Requisição (ou requisição do Ministro da Justiça) |"
+  },
+  {
+    "id": 406622,
+    "nome": "Ação Penal Privada |"
+  },
+  {
+    "id": 421181,
+    "nome": "Ação penal exclusivamente privada |"
+  },
+  {
+    "id": 414174,
+    "nome": "Ação Penal Privada Personalíssima |"
+  },
+  {
+    "id": 406624,
+    "nome": "Ação penal privada subsidiária da pública (ou ação penal acidentalmente privada ou supletiva) |"
+  },
+  {
+    "id": 421182,
+    "nome": "Decadência imprópria |"
+  },
+  {
+    "id": 421183,
+    "nome": "Denúncia substitutiva |"
+  },
+  {
+    "id": 414176,
+    "nome": "Extinção da Punibilidade e Ação Penal de Iniciativa Privada |"
+  },
+  {
+    "id": 414177,
+    "nome": "Decadência |"
+  },
+  {
+    "id": 414178,
+    "nome": "Perempção |"
+  },
+  {
+    "id": 414179,
+    "nome": "Renúncia ao Direito de Queixa |"
+  },
+  {
+    "id": 414180,
+    "nome": "Perdão do Ofendido |"
+  },
+  {
+    "id": 421184,
+    "nome": "Ação penal popular |"
+  },
+  {
+    "id": 421185,
+    "nome": "Ação penal adesiva |"
+  },
+  {
+    "id": 421186,
+    "nome": "Ação de prevenção penal |"
+  },
+  {
+    "id": 414186,
+    "nome": "Ação Penal nas Várias Espécies de Crime |"
+  },
+  {
+    "id": 414191,
+    "nome": "Ação Penal nos Crimes Contra a Honra do Servidor Público |"
+  },
+  {
+    "id": 414192,
+    "nome": "Ação Penal nos Crimes de Lesão Corporal Leve e Culposa com Violência Doméstica |"
+  },
+  {
+    "id": 414194,
+    "nome": "Ação Penal nos Crimes Ambientais |"
+  },
+  {
+    "id": 421188,
+    "nome": "Ação penal nos crimes contra a dignidade sexual (Lei nº 13.718/18) |"
+  },
+  {
+    "id": 421189,
+    "nome": "Ação penal nos crimes de trânsito |"
+  },
+  {
+    "id": 421238,
+    "nome": "Ação penal no crime de trânsito de lesão corporal culposa |"
+  },
+  {
+    "id": 421239,
+    "nome": "Ação penal no crime de trânsito de embriaguez ao volante |"
+  },
+  {
+    "id": 421240,
+    "nome": "Ação penal no crime de trânsito de participação em competição não autorizada |"
+  },
+  {
+    "id": 421191,
+    "nome": "Ação penal nos crimes contra a honra |"
+  },
+  {
+    "id": 421241,
+    "nome": "Injúria real |"
+  },
+  {
+    "id": 421242,
+    "nome": "Crime contra a honra do Presidente da República ou contra chefe de governo estrangeiro |"
+  },
+  {
+    "id": 421243,
+    "nome": "Crime contra a honra de funcionário público no exercício das funções |"
+  },
+  {
+    "id": 421245,
+    "nome": "Injúria racial |"
+  },
+  {
+    "id": 414196,
+    "nome": "Peça Acusatória |"
+  },
+  {
+    "id": 406617,
+    "nome": "Denúncia e queixa |"
+  },
+  {
+    "id": 414197,
+    "nome": "Requisitos da Peça Acusatória |"
+  },
+  {
+    "id": 414206,
+    "nome": "Prazo para Oferecimento da Peça Acusatória |"
+  },
+  {
+    "id": 414207,
+    "nome": "Questões Diversas |"
+  },
+  {
+    "id": 414209,
+    "nome": "Denúncia Genérica e Crimes Societários |"
+  },
+  {
+    "id": 414210,
+    "nome": "Acusação Geral e Acusação Genérica |"
+  },
+  {
+    "id": 414213,
+    "nome": "Imputação Alternativa |"
+  },
+  {
+    "id": 414208,
+    "nome": "Aditamento à Denúncia |"
+  },
+  {
+    "id": 414214,
+    "nome": "Espécies de Aditamento |"
+  },
+  {
+    "id": 414216,
+    "nome": "Quanto ao Objeto do Aditamento |"
+  },
+  {
+    "id": 414218,
+    "nome": "Aditamento Próprio |"
+  },
+  {
+    "id": 414198,
+    "nome": "Aditamento próprio real |"
+  },
+  {
+    "id": 414215,
+    "nome": "Recebimento do Aditamento |"
+  },
+  {
+    "id": 414222,
+    "nome": "Interrupção da Prescrição |"
+  },
+  {
+    "id": 414224,
+    "nome": "Recurso cabível quanto ao indeferimento do recebimento do aditamento |"
+  },
+  {
+    "id": 414225,
+    "nome": "Aditamento à Queixa-Crime |"
+  },
+  {
+    "id": 406625,
+    "nome": "Ação civil ex delicto |"
+  },
+  {
+    "id": 414226,
+    "nome": "Definição e Sistemas |"
+  },
+  {
+    "id": 421252,
+    "nome": "Sistema da independência |"
+  },
+  {
+    "id": 421253,
+    "nome": "Ação de execução ex delicto |"
+  },
+  {
+    "id": 414227,
+    "nome": "Prejudicialidade |"
+  },
+  {
+    "id": 414228,
+    "nome": "Legitimidade |"
+  },
+  {
+    "id": 414229,
+    "nome": "Eficácia Preclusiva e Força Vinculatória |"
+  },
+  {
+    "id": 406626,
+    "nome": "Jurisdição e Competência |"
+  },
+  {
+    "id": 421254,
+    "nome": "Jurisdição |"
+  },
+  {
+    "id": 421255,
+    "nome": "Princípios |"
+  },
+  {
+    "id": 421258,
+    "nome": "Juiz natural |"
+  },
+  {
+    "id": 421261,
+    "nome": "Correlação ou relatividade |"
+  },
+  {
+    "id": 421262,
+    "nome": "Devido processo legal |"
+  },
+  {
+    "id": 421263,
+    "nome": "Características |"
+  },
+  {
+    "id": 421264,
+    "nome": "Inércia |"
+  },
+  {
+    "id": 421269,
+    "nome": "Competência |"
+  },
+  {
+    "id": 421270,
+    "nome": "Espécies de competência |"
+  },
+  {
+    "id": 421271,
+    "nome": "Ratione materiae |"
+  },
+  {
+    "id": 421273,
+    "nome": "Ratione loci |"
+  },
+  {
+    "id": 421274,
+    "nome": "Competência funcional |"
+  },
+  {
+    "id": 421275,
+    "nome": "Competência funcional por fase do processo |"
+  },
+  {
+    "id": 421276,
+    "nome": "Competência funcional por objeto do juízo |"
+  },
+  {
+    "id": 421277,
+    "nome": "Competência funcional por grau de jurisdição |"
+  },
+  {
+    "id": 421280,
+    "nome": "Competência absoluta |"
+  },
+  {
+    "id": 421281,
+    "nome": "Competência relativa |"
+  },
+  {
+    "id": 414247,
+    "nome": "Fixação da Competência Criminal |"
+  },
+  {
+    "id": 414248,
+    "nome": "Competência Internacional |"
+  },
+  {
+    "id": 414234,
+    "nome": "Tribunal penal internacional |"
+  },
+  {
+    "id": 406633,
+    "nome": "Competência territorial |"
+  },
+  {
+    "id": 414250,
+    "nome": "Lugar da Infração |"
+  },
+  {
+    "id": 414267,
+    "nome": "Competência Territorial pela Residência ou Domicílio do Réu |"
+  },
+  {
+    "id": 414268,
+    "nome": "Competência Territorial na Justiça Federal, na Justiça Militar e na Justiça Eleitoral |"
+  },
+  {
+    "id": 406627,
+    "nome": "Competência em razão da matéria |"
+  },
+  {
+    "id": 414269,
+    "nome": "Competência Criminal da Justiça Militar |"
+  },
+  {
+    "id": 414270,
+    "nome": "Justiça Militar da União |"
+  },
+  {
+    "id": 414271,
+    "nome": "Justiça militar dos estados |"
+  },
+  {
+    "id": 414272,
+    "nome": "Crime Propriamente Militar e Crime Impropriamente Militar |"
+  },
+  {
+    "id": 406628,
+    "nome": "Competência criminal da Justiça Eleitoral |"
+  },
+  {
+    "id": 406630,
+    "nome": "Competência criminal da Justiça Federal |"
+  },
+  {
+    "id": 414280,
+    "nome": "Atribuições de Polícia Investigativa da Polícia Federal |"
+  },
+  {
+    "id": 406631,
+    "nome": "Competência criminal da Justiça Estadual |"
+  },
+  {
+    "id": 414312,
+    "nome": "Competência para Crimes de Responsabilidade |"
+  },
+  {
+    "id": 406632,
+    "nome": "Competência por prerrogativa de função |"
+  },
+  {
+    "id": 414320,
+    "nome": "Competência por Prerrogativa de Função e Competência do Tribunal do Júri |"
+  },
+  {
+    "id": 414323,
+    "nome": "Exceção da Verdade |"
+  },
+  {
+    "id": 414350,
+    "nome": "Juízo Colegiado em Primeiro Grau de Jurisdição para Julgamento de Crimes de Organizações Criminosas |"
+  },
+  {
+    "id": 406634,
+    "nome": "Modificação de competência |"
+  },
+  {
+    "id": 414356,
+    "nome": "Conexão e continência |"
+  },
+  {
+    "id": 421283,
+    "nome": "Conexão |"
+  },
+  {
+    "id": 421284,
+    "nome": "Conexão intersubjetiva |"
+  },
+  {
+    "id": 421285,
+    "nome": "Conexão intersubjetiva por simultaneidade (conexão subjetivo-objetiva ou conexão intersubjetiva ocasional) |"
+  },
+  {
+    "id": 421286,
+    "nome": "Conexão intersubjetiva por concurso (ou concursal) |"
+  },
+  {
+    "id": 421288,
+    "nome": "Conexão objetiva, lógica, material ou teleológica |"
+  },
+  {
+    "id": 421289,
+    "nome": "Conexão instrumental, probatória ou processual |"
+  },
+  {
+    "id": 421290,
+    "nome": "Continência |"
+  },
+  {
+    "id": 421291,
+    "nome": "Continência por cumulação subjetiva ou continência subjetiva |"
+  },
+  {
+    "id": 421292,
+    "nome": "Continência por cumulação objetiva |"
+  },
+  {
+    "id": 421293,
+    "nome": "Efeitos da conexão e continência |"
+  },
+  {
+    "id": 414357,
+    "nome": "Foro Prevalente |"
+  },
+  {
+    "id": 414360,
+    "nome": "Competência Prevalente do Tribunal do Júri |"
+  },
+  {
+    "id": 414362,
+    "nome": "Concurso Entre a Jurisdição Comum e a Especial |"
+  },
+  {
+    "id": 414364,
+    "nome": "Concurso entre a Justiça Federal e Justiça Estadual |"
+  },
+  {
+    "id": 414365,
+    "nome": "Jurisdições de mesma Categoria |"
+  },
+  {
+    "id": 421294,
+    "nome": "Força atrativa do juízo da comarca em que tiver sido praticado o delito mais grave |"
+  },
+  {
+    "id": 421295,
+    "nome": "Força atrativa do juízo do local do maior número de infrações, se as penas forem de igual gravidade |"
+  },
+  {
+    "id": 421296,
+    "nome": "Se a gravidade do delito for igual e o número igual, a competência firma-se pela prevenção |"
+  },
+  {
+    "id": 414358,
+    "nome": "Separação de Processos |"
+  },
+  {
+    "id": 414366,
+    "nome": "Separação Obrigatória de Processos |"
+  },
+  {
+    "id": 414369,
+    "nome": "Concurso entre a Jurisdição Comum e a do Juízo de Menores |"
+  },
+  {
+    "id": 414370,
+    "nome": "Doença Mental Superveniente à Prática Delituosa |"
+  },
+  {
+    "id": 414371,
+    "nome": "Citação por edital de um dos corréus, seguida de seu não-comparecimento e não-constituição de defensor |"
+  },
+  {
+    "id": 414367,
+    "nome": "Separação Facultativa de Processos |"
+  },
+  {
+    "id": 414373,
+    "nome": "Infrações Praticadas em Tempo ou Lugar Diferentes |"
+  },
+  {
+    "id": 414359,
+    "nome": "Perpetuação da Competência nas Hipóteses de Conexão e Continência |"
+  },
+  {
+    "id": 406643,
+    "nome": "Das Provas |"
+  },
+  {
+    "id": 414378,
+    "nome": "Teoria Geral das Provas |"
+  },
+  {
+    "id": 414379,
+    "nome": "Terminologia da Prova |"
+  },
+  {
+    "id": 414381,
+    "nome": "Acepções da palavra Prova |"
+  },
+  {
+    "id": 414382,
+    "nome": "Distinção entre Prova e Elementos Informativos |"
+  },
+  {
+    "id": 421298,
+    "nome": "Elementos de informação no inquérito policial e grau de cognição |"
+  },
+  {
+    "id": 414383,
+    "nome": "Classificação das Provas |"
+  },
+  {
+    "id": 414384,
+    "nome": "Provas Cautelares, não Repetíveis e Antecipadas |"
+  },
+  {
+    "id": 421299,
+    "nome": "Provas cautelares |"
+  },
+  {
+    "id": 421300,
+    "nome": "Provas não repetíveis |"
+  },
+  {
+    "id": 421301,
+    "nome": "Provas antecipadas |"
+  },
+  {
+    "id": 414385,
+    "nome": "Prova Emprestada |"
+  },
+  {
+    "id": 414386,
+    "nome": "Prova Direta e Prova Indireta |"
+  },
+  {
+    "id": 414387,
+    "nome": "Prova Nominada e Prova Inominada |"
+  },
+  {
+    "id": 414390,
+    "nome": "Destinatários da Prova |"
+  },
+  {
+    "id": 414391,
+    "nome": "Elemento de Prova e Resultado da Prova |"
+  },
+  {
+    "id": 414395,
+    "nome": "Forma da Prova |"
+  },
+  {
+    "id": 414396,
+    "nome": "Fonte de Prova, meios de Prova e meios de Obtenção de Prova |"
+  },
+  {
+    "id": 421302,
+    "nome": "Fonte de prova |"
+  },
+  {
+    "id": 421303,
+    "nome": "Meios de prova |"
+  },
+  {
+    "id": 421304,
+    "nome": "Meios de obtenção de prova |"
+  },
+  {
+    "id": 421305,
+    "nome": "Meios ordinários de obtenção de prova |"
+  },
+  {
+    "id": 414397,
+    "nome": "Meios extraordinários de obtenção de prova (ou técnicas especiais de investigação) |"
+  },
+  {
+    "id": 414398,
+    "nome": "Critérios de decisão (standards probatórios) |"
+  },
+  {
+    "id": 414399,
+    "nome": "Objeto da prova |"
+  },
+  {
+    "id": 406646,
+    "nome": "Ônus da prova |"
+  },
+  {
+    "id": 414400,
+    "nome": "Definição, Conceito e Distinções |"
+  },
+  {
+    "id": 414401,
+    "nome": "Ônus da Prova Subjetivo e Objetivo |"
+  },
+  {
+    "id": 414402,
+    "nome": "Ônus da Prova Perfeito e Menos Perfeito |"
+  },
+  {
+    "id": 414403,
+    "nome": "Distribuição do Ônus da Prova |"
+  },
+  {
+    "id": 414407,
+    "nome": "Inversão do Ônus da Prova |"
+  },
+  {
+    "id": 406644,
+    "nome": "Sistemas de apreciação e valoração |"
+  },
+  {
+    "id": 414411,
+    "nome": "Sistema de íntima convicção do magistrado (ou sistema da certeza moral do juiz ou da livre convicção) |"
+  },
+  {
+    "id": 414412,
+    "nome": "Sistema da prova tarifada (sistema das regras legais, da certeza moral do legislador ou da prova legal) |"
+  },
+  {
+    "id": 414413,
+    "nome": "Sistema do (livre) convencimento motivado (persuasão racional ou livre apreciação judicial da prova) |"
+  },
+  {
+    "id": 414414,
+    "nome": "Princípios Relativos à Prova Penal |"
+  },
+  {
+    "id": 414415,
+    "nome": "Princípio da Proporcionalidade |"
+  },
+  {
+    "id": 414416,
+    "nome": "Princípio da Proporcionalidade e Prova Ilícita pro Reo |"
+  },
+  {
+    "id": 414417,
+    "nome": "Princípio da Proporcionalidade e Prova Ilícita pro Societate |"
+  },
+  {
+    "id": 414418,
+    "nome": "Princípio da comunhão da prova ou aquisição |"
+  },
+  {
+    "id": 414420,
+    "nome": "Princípio da Oralidade |"
+  },
+  {
+    "id": 414421,
+    "nome": "Princípio da concentração |"
+  },
+  {
+    "id": 414422,
+    "nome": "Princípio do imediatismo |"
+  },
+  {
+    "id": 414423,
+    "nome": "Princípio da Identidade Física do Juiz |"
+  },
+  {
+    "id": 414424,
+    "nome": "Princípio da Liberdade Probatória |"
+  },
+  {
+    "id": 421312,
+    "nome": "Princípio da audiência contraditória |"
+  },
+  {
+    "id": 421313,
+    "nome": "Princípio da publicidade |"
+  },
+  {
+    "id": 406645,
+    "nome": "Prova ilegal |"
+  },
+  {
+    "id": 414429,
+    "nome": "Limitações ao direito à prova |"
+  },
+  {
+    "id": 414430,
+    "nome": "Provas Ilícitas e Ilegítimas |"
+  },
+  {
+    "id": 414431,
+    "nome": "Provas ilícitas |"
+  },
+  {
+    "id": 421314,
+    "nome": "Provas ilegítimas |"
+  },
+  {
+    "id": 414433,
+    "nome": "Hipóteses de Admissibilidade da Prova Ilícita |"
+  },
+  {
+    "id": 414445,
+    "nome": "Prova ilícita por derivação (teoria dos frutos da árvore envenenada, fruits of the poisonous tree ou taint doctrine) |"
+  },
+  {
+    "id": 414448,
+    "nome": "Teoria (ou exceção) da fonte independente |"
+  },
+  {
+    "id": 414449,
+    "nome": "Teoria da Descoberta Inevitável |"
+  },
+  {
+    "id": 421317,
+    "nome": "Doutrina da visão aberta |"
+  },
+  {
+    "id": 421318,
+    "nome": "Teoria do encontro fortuito (ou casual) de provas (serendipidade) e crime achado |"
+  },
+  {
+    "id": 421319,
+    "nome": "Serendipidade de primeiro grau |"
+  },
+  {
+    "id": 414446,
+    "nome": "Inutilização da Prova Ilícita |"
+  },
+  {
+    "id": 414447,
+    "nome": "Descontaminação do julgado |"
+  },
+  {
+    "id": 414452,
+    "nome": "Meios de Prova e Meios de Obtenção de Prova em Espécie |"
+  },
+  {
+    "id": 406647,
+    "nome": "Exame de corpo delito e perícias |"
+  },
+  {
+    "id": 414453,
+    "nome": "Natureza Jurídica |"
+  },
+  {
+    "id": 414454,
+    "nome": "Definição e Terminologia |"
+  },
+  {
+    "id": 414455,
+    "nome": "Corpo de Delito |"
+  },
+  {
+    "id": 414456,
+    "nome": "Exame de Corpo de Delito |"
+  },
+  {
+    "id": 421324,
+    "nome": "Exame de corpo de delito direto |"
+  },
+  {
+    "id": 421325,
+    "nome": "Exame de corpo de delito indireto |"
+  },
+  {
+    "id": 414457,
+    "nome": "Laudo Pericial |"
+  },
+  {
+    "id": 414458,
+    "nome": "Momento para a juntada do laudo pericial |"
+  },
+  {
+    "id": 414459,
+    "nome": "Sistemas de apreciação dos laudos periciais |"
+  },
+  {
+    "id": 414460,
+    "nome": "Sistema vinculatório |"
+  },
+  {
+    "id": 414461,
+    "nome": "Sistema liberatório |"
+  },
+  {
+    "id": 414482,
+    "nome": "Ausência do Exame de Corpo de Delito |"
+  },
+  {
+    "id": 414469,
+    "nome": "Peritos |"
+  },
+  {
+    "id": 414483,
+    "nome": "Peritos oficiais |"
+  },
+  {
+    "id": 414484,
+    "nome": "Peritos não oficiais |"
+  },
+  {
+    "id": 421327,
+    "nome": "Número de peritos |"
+  },
+  {
+    "id": 421328,
+    "nome": "Assistente técnico |"
+  },
+  {
+    "id": 414471,
+    "nome": "Autópsia e exumação para exame cadavérico |"
+  },
+  {
+    "id": 414472,
+    "nome": "Laudo Complementar no Crime de Lesões Corporais |"
+  },
+  {
+    "id": 414473,
+    "nome": "Exame de Local de Crime |"
+  },
+  {
+    "id": 414474,
+    "nome": "Exames Laboratoriais |"
+  },
+  {
+    "id": 414475,
+    "nome": "Exame Pericial para Avaliação do Prejuízo Causado pelo Delito |"
+  },
+  {
+    "id": 414476,
+    "nome": "Exame de Local de Incêndio |"
+  },
+  {
+    "id": 414477,
+    "nome": "Exame grafotécnico (exame pericial para reconhecimento de escritos) |"
+  },
+  {
+    "id": 414479,
+    "nome": "Exame Pericial por meio de Carta Precatória |"
+  },
+  {
+    "id": 414481,
+    "nome": "Cadeia de Custódia |"
+  },
+  {
+    "id": 414470,
+    "nome": "Etapas do rastreamento do vestígio na cadeia de custódia |"
+  },
+  {
+    "id": 414485,
+    "nome": "Coleta dos vestígios |"
+  },
+  {
+    "id": 421330,
+    "nome": "Recipientes para acondicionamento de vestígios |"
+  },
+  {
+    "id": 421331,
+    "nome": "Centrais de custódia |"
+  },
+  {
+    "id": 421332,
+    "nome": "Destinação do material após a realização da perícia |"
+  },
+  {
+    "id": 406648,
+    "nome": "Interrogatório judicial |"
+  },
+  {
+    "id": 414488,
+    "nome": "Momento para a Realização do Interrogatório |"
+  },
+  {
+    "id": 414489,
+    "nome": "Condução Coercitiva |"
+  },
+  {
+    "id": 414490,
+    "nome": "Ausência do Interrogatório |"
+  },
+  {
+    "id": 414487,
+    "nome": "Interrogatório por videoconferência |"
+  },
+  {
+    "id": 414498,
+    "nome": "Finalidades do uso da videoconferência |"
+  },
+  {
+    "id": 406649,
+    "nome": "Confissão |"
+  },
+  {
+    "id": 414506,
+    "nome": "Confissão qualificada |"
+  },
+  {
+    "id": 414508,
+    "nome": "Características da Confissão |"
+  },
+  {
+    "id": 406650,
+    "nome": "Declarações do ofendido |"
+  },
+  {
+    "id": 406651,
+    "nome": "Prova testemunhal |"
+  },
+  {
+    "id": 414512,
+    "nome": "Características da Prova Testemunhal |"
+  },
+  {
+    "id": 414513,
+    "nome": "Deveres das Testemunhas |"
+  },
+  {
+    "id": 414514,
+    "nome": "Espécies das Testemunhas |"
+  },
+  {
+    "id": 414519,
+    "nome": "Testemunhas vulneráveis e depoimento sem dano (depoimento especial) |"
+  },
+  {
+    "id": 414520,
+    "nome": "Retirada do acusado da sala de audiência |"
+  },
+  {
+    "id": 414523,
+    "nome": "Contradita e arguição de parcialidade da testemunha |"
+  },
+  {
+    "id": 421337,
+    "nome": "Colheita do depoimento: exame direto (direct-examination) e exame cruzado (cross-examination) |"
+  },
+  {
+    "id": 421338,
+    "nome": "Inversão da ordem de oitiva das testemunhas |"
+  },
+  {
+    "id": 406652,
+    "nome": "Reconhecimento de pessoas e coisas |"
+  },
+  {
+    "id": 414536,
+    "nome": "Procedimento |"
+  },
+  {
+    "id": 414535,
+    "nome": "Reconhecimento fotográfico |"
+  },
+  {
+    "id": 414537,
+    "nome": "Reconhecimento fonográfico |"
+  },
+  {
+    "id": 406653,
+    "nome": "Acareação |"
+  },
+  {
+    "id": 414539,
+    "nome": "Procedimento probatório |"
+  },
+  {
+    "id": 414540,
+    "nome": "Valor Probatório |"
+  },
+  {
+    "id": 406654,
+    "nome": "Prova documental |"
+  },
+  {
+    "id": 414544,
+    "nome": "Tradução de Documentos em Língua Estrangeira |"
+  },
+  {
+    "id": 414545,
+    "nome": "Restituição de Documentos |"
+  },
+  {
+    "id": 406655,
+    "nome": "Indícios |"
+  },
+  {
+    "id": 406656,
+    "nome": "Busca e apreensão |"
+  },
+  {
+    "id": 414550,
+    "nome": "Iniciativa e Decretação |"
+  },
+  {
+    "id": 414551,
+    "nome": "Objeto da busca e apreensão |"
+  },
+  {
+    "id": 414552,
+    "nome": "Espécies de Busca |"
+  },
+  {
+    "id": 414553,
+    "nome": "Busca Domiciliar |"
+  },
+  {
+    "id": 414555,
+    "nome": "Execução da Busca Domiciliar |"
+  },
+  {
+    "id": 414554,
+    "nome": "Mandado de Busca e Apreensão |"
+  },
+  {
+    "id": 414557,
+    "nome": "Busca Pessoal |"
+  },
+  {
+    "id": 406659,
+    "nome": "Interceptação telefônica - Lei nº 9.296/96 |"
+  },
+  {
+    "id": 414558,
+    "nome": "Conceitos |"
+  },
+  {
+    "id": 421339,
+    "nome": "Interceptação telefônica (ou interceptação em sentido estrito) |"
+  },
+  {
+    "id": 414559,
+    "nome": "Escuta telefônica |"
+  },
+  {
+    "id": 414560,
+    "nome": "Gravação telefônica ou gravação clandestina |"
+  },
+  {
+    "id": 414568,
+    "nome": "Gerações de provas (trilogia Olmstead-Katz-Kyllo) |"
+  },
+  {
+    "id": 414569,
+    "nome": "Quebra do sigilo de dados telefônicos |"
+  },
+  {
+    "id": 421343,
+    "nome": "Requisitos para a interceptação telefônica |"
+  },
+  {
+    "id": 421344,
+    "nome": "Teoria do juízo aparente |"
+  },
+  {
+    "id": 421345,
+    "nome": "Duração da interceptação |"
+  },
+  {
+    "id": 421346,
+    "nome": "Incidente de inutilização da gravação que não interessar à prova |"
+  },
+  {
+    "id": 414570,
+    "nome": "Quebra do Sigilo de Dados (bancários, financeiros e fiscais) |"
+  },
+  {
+    "id": 414571,
+    "nome": "Colaboração Premiada |"
+  },
+  {
+    "id": 414574,
+    "nome": "Distinção entre colaboração premiada e delação premiada (chamamento de corréu) |"
+  },
+  {
+    "id": 414575,
+    "nome": "Natureza jurídica da colaboração premiada |"
+  },
+  {
+    "id": 414577,
+    "nome": "Direito ao Silêncio |"
+  },
+  {
+    "id": 414578,
+    "nome": "Previsão Normativa |"
+  },
+  {
+    "id": 406706,
+    "nome": "Lei nº 9.807/1999 - Lei De Proteção à Vítima e à Testemunha |"
+  },
+  {
+    "id": 414576,
+    "nome": "Prêmios legais |"
+  },
+  {
+    "id": 414579,
+    "nome": "Valor probatório da colaboração premiada (regra da corroboração) |"
+  },
+  {
+    "id": 414580,
+    "nome": "Corroboração recíproca ou cruzada |"
+  },
+  {
+    "id": 414581,
+    "nome": "Acordo de colaboração premiada |"
+  },
+  {
+    "id": 414582,
+    "nome": "Legitimidade para a celebração do acordo de colaboração premiada |"
+  },
+  {
+    "id": 414583,
+    "nome": "Retratação do acordo |"
+  },
+  {
+    "id": 414584,
+    "nome": "Intervenção do juiz |"
+  },
+  {
+    "id": 421348,
+    "nome": "Momento para a celebração do acordo de colaboração premiada |"
+  },
+  {
+    "id": 421349,
+    "nome": "Publicidade do acordo de colaboração premiada |"
+  },
+  {
+    "id": 414572,
+    "nome": "Ação Controlada |"
+  },
+  {
+    "id": 414586,
+    "nome": "(Des)necessidade de Prévia Autorização Judicial |"
+  },
+  {
+    "id": 414587,
+    "nome": "Flagrante Prorrogado, Retardado ou Diferido |"
+  },
+  {
+    "id": 414573,
+    "nome": "Infiltração de Agentes |"
+  },
+  {
+    "id": 414589,
+    "nome": "Infiltração policial virtual |"
+  },
+  {
+    "id": 414590,
+    "nome": "Requisitos para a infiltração |"
+  },
+  {
+    "id": 414593,
+    "nome": "Duração da Infiltração |"
+  },
+  {
+    "id": 414595,
+    "nome": "Sustação da Operação |"
+  },
+  {
+    "id": 414597,
+    "nome": "Medidas Cautelares |"
+  },
+  {
+    "id": 414598,
+    "nome": "A tutela cautelar no processo penal |"
+  },
+  {
+    "id": 414599,
+    "nome": "Previsão e Modalidades |"
+  },
+  {
+    "id": 421352,
+    "nome": "Medidas cautelares de natureza patrimonial |"
+  },
+  {
+    "id": 421354,
+    "nome": "Medidas cautelares de natureza pessoal |"
+  },
+  {
+    "id": 414602,
+    "nome": "Princípios Aplicáveis às Medidas Cautelares |"
+  },
+  {
+    "id": 414605,
+    "nome": "Da jurisdicionalidade (princípio tácito ou implícito da individualização da prisão e não somente da pena) |"
+  },
+  {
+    "id": 421355,
+    "nome": "Da vedação da prisão ex lege |"
+  },
+  {
+    "id": 414607,
+    "nome": "Princípio da Presunção de Inocência ou não Culpabilidade |"
+  },
+  {
+    "id": 414608,
+    "nome": "Características das Medidas Cautelares |"
+  },
+  {
+    "id": 421357,
+    "nome": "Preventividade |"
+  },
+  {
+    "id": 421359,
+    "nome": "Provisoriedade |"
+  },
+  {
+    "id": 421360,
+    "nome": "Revogabilidade (ou variabilidade) |"
+  },
+  {
+    "id": 421363,
+    "nome": "Jurisdicionalidade |"
+  },
+  {
+    "id": 414609,
+    "nome": "Pressupostos Genéricos das Medidas Cautelares |"
+  },
+  {
+    "id": 414610,
+    "nome": "Fumus Comissi Delicti |"
+  },
+  {
+    "id": 414612,
+    "nome": "Procedimento para aplicação das medidas cautelares de natureza pessoal |"
+  },
+  {
+    "id": 414613,
+    "nome": "Aplicação isolada ou cumulativa das medidas cautelares |"
+  },
+  {
+    "id": 414614,
+    "nome": "Vedação à decretação de medidas cautelares pelo juiz de ofício na fase investigatória e na fase processual |"
+  },
+  {
+    "id": 414615,
+    "nome": "Legitimidade para o requerimento de decretação de medida cautelar |"
+  },
+  {
+    "id": 414616,
+    "nome": "Contraditório prévio à decretação das medidas cautelares |"
+  },
+  {
+    "id": 414617,
+    "nome": "Descumprimento injustificado das obrigações inerentes às medidas cautelares |"
+  },
+  {
+    "id": 414618,
+    "nome": "Revogabilidade e/ou substitutividade das medidas cautelares |"
+  },
+  {
+    "id": 414621,
+    "nome": "Recursos Cabíveis |"
+  },
+  {
+    "id": 414624,
+    "nome": "Duração e Extinção das Medidas Cautelares |"
+  },
+  {
+    "id": 414625,
+    "nome": "Detração |"
+  },
+  {
+    "id": 414600,
+    "nome": "Lei nº 12.403/2011 e Superação da Bipolaridade |"
+  },
+  {
+    "id": 414626,
+    "nome": "Medidas cautelares diversas da prisão |"
+  },
+  {
+    "id": 414627,
+    "nome": "Comparecimento Periódico em Juízo |"
+  },
+  {
+    "id": 414629,
+    "nome": "Proibição de Manter Contato com Pessoa Determinada |"
+  },
+  {
+    "id": 414630,
+    "nome": "Proibição de Ausentar-se da Comarca ou do País |"
+  },
+  {
+    "id": 414631,
+    "nome": "Recolhimento Domiciliar |"
+  },
+  {
+    "id": 414632,
+    "nome": "Suspensão do Exercício de Função ou Atividade |"
+  },
+  {
+    "id": 414633,
+    "nome": "Internação Provisória |"
+  },
+  {
+    "id": 414634,
+    "nome": "Fiança |"
+  },
+  {
+    "id": 414635,
+    "nome": "Monitoração Eletrônica |"
+  },
+  {
+    "id": 414636,
+    "nome": "Proibição de acesso ou frequência a determinados lugares |"
+  },
+  {
+    "id": 414637,
+    "nome": "Medidas cautelares de natureza pessoal diversas da prisão previstas na legislação especial |"
+  },
+  {
+    "id": 421365,
+    "nome": "Poder geral de cautela no processo penal |"
+  },
+  {
+    "id": 406671,
+    "nome": "Da Prisão e da Liberdade Provisória |"
+  },
+  {
+    "id": 406673,
+    "nome": "Da Prisão em Flagrante |"
+  },
+  {
+    "id": 414677,
+    "nome": "Conceito de Prisão em Flagrante |"
+  },
+  {
+    "id": 421369,
+    "nome": "Fases da prisão em flagrante |"
+  },
+  {
+    "id": 414678,
+    "nome": "Funções da Prisão em Flagrante |"
+  },
+  {
+    "id": 414679,
+    "nome": "Natureza jurídica da prisão em flagrante delito |"
+  },
+  {
+    "id": 414680,
+    "nome": "Insubsistência do Flagrante pela Lei 12.403/2011 |"
+  },
+  {
+    "id": 414681,
+    "nome": "Sujeito Ativo da Prisão em Flagrante |"
+  },
+  {
+    "id": 414682,
+    "nome": "Flagrante Facultativo |"
+  },
+  {
+    "id": 414683,
+    "nome": "Flagrante Obrigatório, Compulsório ou Coercitivo |"
+  },
+  {
+    "id": 414684,
+    "nome": "Sujeito Passivo da Prisão em Flagrante |"
+  },
+  {
+    "id": 414685,
+    "nome": "Espécies de Flagrante |"
+  },
+  {
+    "id": 414686,
+    "nome": "Flagrante Próprio, Perfeito, Real ou Verdadeiro |"
+  },
+  {
+    "id": 414687,
+    "nome": "Flagrante Impróprio, Imperfeito, Irreal ou Quase-Flagrante |"
+  },
+  {
+    "id": 414688,
+    "nome": "Flagrante Presumido, Ficto ou Assimilado |"
+  },
+  {
+    "id": 414689,
+    "nome": "Flagrante preparado, provocado, crime de ensaio, delito de experiência ou delito putativo por obra do agente provocador |"
+  },
+  {
+    "id": 414690,
+    "nome": "Flagrante Esperado |"
+  },
+  {
+    "id": 414691,
+    "nome": "Venda simulada de droga ou outros objetos ilícitos |"
+  },
+  {
+    "id": 414692,
+    "nome": "Flagrante Prorrogado, Protelado, Retardado ou Diferido |"
+  },
+  {
+    "id": 421370,
+    "nome": "Ação controlada |"
+  },
+  {
+    "id": 414693,
+    "nome": "Flagrante Forjado, Maquinado, Fabricado ou Urdido |"
+  },
+  {
+    "id": 414694,
+    "nome": "Prisão em Flagrante nas Várias Espécies de Crime |"
+  },
+  {
+    "id": 414695,
+    "nome": "Crimes Permanentes |"
+  },
+  {
+    "id": 414697,
+    "nome": "Crimes continuados (flagrante fracionado) |"
+  },
+  {
+    "id": 414698,
+    "nome": "Crime de Ação Penal Privada e de Ação Penal Pública Condicionada |"
+  },
+  {
+    "id": 414700,
+    "nome": "Apresentação Espontânea do Sujeito |"
+  },
+  {
+    "id": 414701,
+    "nome": "Lavratura do Auto de Prisão em Flagrante Delito |"
+  },
+  {
+    "id": 414703,
+    "nome": "Autoridade com Atribuições para Lavratura |"
+  },
+  {
+    "id": 414704,
+    "nome": "Condutor e Testemunhas |"
+  },
+  {
+    "id": 414705,
+    "nome": "Interrogatório do Preso |"
+  },
+  {
+    "id": 414706,
+    "nome": "Prazo para a lavratura do auto de prisão em flagrante delito |"
+  },
+  {
+    "id": 414709,
+    "nome": "Recolhimento à Prisão |"
+  },
+  {
+    "id": 414708,
+    "nome": "Comunicação imediata da prisão ao juiz competente e ao Ministério Público |"
+  },
+  {
+    "id": 414710,
+    "nome": "Comunicação imediata da prisão à família do preso ou à pessoa por ele indicada |"
+  },
+  {
+    "id": 414711,
+    "nome": "Remessa do auto de prisão em flagrante delito à autoridade judiciária |"
+  },
+  {
+    "id": 414712,
+    "nome": "Remessa do auto de prisão em flagrante à Defensoria Pública, se o autuado não informar o nome de seu advogado |"
+  },
+  {
+    "id": 414713,
+    "nome": "Nota de culpa |"
+  },
+  {
+    "id": 414702,
+    "nome": "Convalidação Judicial da Prisão em Flagrante |"
+  },
+  {
+    "id": 414714,
+    "nome": "Audiência de custódia |"
+  },
+  {
+    "id": 414715,
+    "nome": "Relaxamento da prisão em flagrante ilegal |"
+  },
+  {
+    "id": 421372,
+    "nome": "Conversão da prisão em flagrante em preventiva (ou temporária) |"
+  },
+  {
+    "id": 421373,
+    "nome": "Concessão de liberdade provisória, com ou sem fiança, cumulada (ou não) com as medidas cautelares diversas da prisão |"
+  },
+  {
+    "id": 421374,
+    "nome": "Flagrante e apresentação espontânea do agente |"
+  },
+  {
+    "id": 406674,
+    "nome": "Da Prisão Preventiva |"
+  },
+  {
+    "id": 414719,
+    "nome": "Natureza da Prisão Preventiva |"
+  },
+  {
+    "id": 414720,
+    "nome": "Prisão Preventiva Durante a Fase Preliminar das Investigações |"
+  },
+  {
+    "id": 414721,
+    "nome": "Prisão Preventiva Durante o Curso do Processo Criminal |"
+  },
+  {
+    "id": 421375,
+    "nome": "Concessão antecipada de benefícios prisionais ao preso cautelar |"
+  },
+  {
+    "id": 414722,
+    "nome": "Iniciativa para Decretação da Prisão Preventiva |"
+  },
+  {
+    "id": 414740,
+    "nome": "Legitimidade para o Requerimento de Decretação da Prisão Preventiva |"
+  },
+  {
+    "id": 421376,
+    "nome": "Impossibilidade de decretação da prisão preventiva pelo juiz de ofício na fase investigatória e no curso do processo penal |"
+  },
+  {
+    "id": 414723,
+    "nome": "Pressupostos da Prisão Preventiva |"
+  },
+  {
+    "id": 414741,
+    "nome": "Fumus comissi delicti |"
+  },
+  {
+    "id": 414742,
+    "nome": "Perigo gerado pelo estado de liberdade do imputado (princípio da atualidade ou contemporaneidade do periculum libertatis) |"
+  },
+  {
+    "id": 421377,
+    "nome": "Garantia da ordem pública |"
+  },
+  {
+    "id": 414746,
+    "nome": "Garantia da Ordem Econômica |"
+  },
+  {
+    "id": 414744,
+    "nome": "Garantia de aplicação da lei penal |"
+  },
+  {
+    "id": 414743,
+    "nome": "Conveniência da Instrução Criminal |"
+  },
+  {
+    "id": 414724,
+    "nome": "Requisitos da Prisão Preventiva |"
+  },
+  {
+    "id": 414745,
+    "nome": "Crimes dolosos punidos com pena máxima superior a 4 (quatro) anos |"
+  },
+  {
+    "id": 421379,
+    "nome": "Investigado ou acusado condenado por outro crime doloso em sentença transitada em julgado, ressalvado o disposto no art. 64, inciso I, do Código Penal |"
+  },
+  {
+    "id": 421380,
+    "nome": "Quando o crime envolver violência doméstica e familiar contra a mulher, criança, adolescente, idoso, enfermo ou pessoa com deficiência, para garantir a execução das medidas protetivas de urgência |"
+  },
+  {
+    "id": 421381,
+    "nome": "Dúvida sobre a identidade civil da pessoa ou não fornecimento de elementos suficientes para seu esclarecimento |"
+  },
+  {
+    "id": 414725,
+    "nome": "Fundamentação da Prisão Preventiva |"
+  },
+  {
+    "id": 414747,
+    "nome": "Rol exemplificativo de decisões não-fundamentadas |"
+  },
+  {
+    "id": 414726,
+    "nome": "Provisoriedade da Prisão Preventiva |"
+  },
+  {
+    "id": 421382,
+    "nome": "Obrigatoriedade de revisão periódica da necessidade da manutenção da prisão preventiva a cada 90 (noventa) dias |"
+  },
+  {
+    "id": 414730,
+    "nome": "Admissibilidade da Prisão Preventiva |"
+  },
+  {
+    "id": 414728,
+    "nome": "Duração da prisão preventiva |"
+  },
+  {
+    "id": 414727,
+    "nome": "Prisão preventiva e excludentes de ilicitude e culpabilidade |"
+  },
+  {
+    "id": 414729,
+    "nome": "Prisão Preventiva de Acordo com a Lei nº 12.403/11 |"
+  },
+  {
+    "id": 414731,
+    "nome": "Conversão do Flagrante em Preventiva |"
+  },
+  {
+    "id": 414733,
+    "nome": "Prisão Domiciliar |"
+  },
+  {
+    "id": 414736,
+    "nome": "Revogação da Prisão Preventiva |"
+  },
+  {
+    "id": 421383,
+    "nome": "Apresentação espontânea do acusado |"
+  },
+  {
+    "id": 406675,
+    "nome": "Da Prisão Temporária (Lei nº 7.960/1989) |"
+  },
+  {
+    "id": 414754,
+    "nome": "Origem da Prisão Temporária |"
+  },
+  {
+    "id": 414755,
+    "nome": "Conceito de Prisão Temporária |"
+  },
+  {
+    "id": 414756,
+    "nome": "Momento e Legitimidade |"
+  },
+  {
+    "id": 414757,
+    "nome": "Pressupostos ou Requisitos da Prisão Temporária |"
+  },
+  {
+    "id": 421384,
+    "nome": "Da imprescindibilidade da prisão temporária para as investigações |"
+  },
+  {
+    "id": 421385,
+    "nome": "Ausência de residência fixa e não fornecimento de elementos necessários ao esclarecimento da identidade do indiciado |"
+  },
+  {
+    "id": 421386,
+    "nome": "Fundadas razões de autoria ou participação do indiciado nos crimes listados no inciso III do art. 1º da Lei nº 7.960/89 e no art. 2º, § 4º, da Lei nº 8.072/90 |"
+  },
+  {
+    "id": 414758,
+    "nome": "Conjugação dos pressupostos ou requisitos |"
+  },
+  {
+    "id": 414759,
+    "nome": "Procedimento da Prisão Temporária |"
+  },
+  {
+    "id": 414760,
+    "nome": "Prazo da Prisão Temporária |"
+  },
+  {
+    "id": 414761,
+    "nome": "Direitos e Garantias do Preso Temporário |"
+  },
+  {
+    "id": 421390,
+    "nome": "Prisão decorrente de pronúncia e de sentença condenatória recorrível |"
+  },
+  {
+    "id": 406676,
+    "nome": "Prisão domiciliar |"
+  },
+  {
+    "id": 414763,
+    "nome": "Hipóteses |"
+  },
+  {
+    "id": 421387,
+    "nome": "Liberdade provisória para gestante e mãe/responsável por crianças ou pessoas com deficiência |"
+  },
+  {
+    "id": 414764,
+    "nome": "Fiscalização da Prisão Domiciliar |"
+  },
+  {
+    "id": 414765,
+    "nome": "Saídas Controladas |"
+  },
+  {
+    "id": 421388,
+    "nome": "Saída controlada específica |"
+  },
+  {
+    "id": 414766,
+    "nome": "Detração |"
+  },
+  {
+    "id": 406677,
+    "nome": "Da liberdade provisória, com ou sem fiança |"
+  },
+  {
+    "id": 414767,
+    "nome": "Conceito de Liberdade Provisória |"
+  },
+  {
+    "id": 414769,
+    "nome": "Distinção entre Liberdade Provisória, Relaxamento da Prisão e Revogação da Prisão Cautelar |"
+  },
+  {
+    "id": 414768,
+    "nome": "Natureza Jurídica da Liberdade Provisória |"
+  },
+  {
+    "id": 414770,
+    "nome": "Espécies de Liberdade Provisória |"
+  },
+  {
+    "id": 414771,
+    "nome": "Liberdade Provisória sem Fiança |"
+  },
+  {
+    "id": 421391,
+    "nome": "Liberdade provisória sem fiança nas hipóteses de descriminantes |"
+  },
+  {
+    "id": 421393,
+    "nome": "Liberdade provisória sem fiança por motivo de pobreza |"
+  },
+  {
+    "id": 414772,
+    "nome": "Liberdade Provisória com Fiança |"
+  },
+  {
+    "id": 414773,
+    "nome": "Conceito e Natureza Jurídica de Fiança |"
+  },
+  {
+    "id": 414774,
+    "nome": "Momento para Concessão da Fiança |"
+  },
+  {
+    "id": 414775,
+    "nome": "Concessão de Fiança pela Autoridade Policial |"
+  },
+  {
+    "id": 414776,
+    "nome": "Valor da Fiança |"
+  },
+  {
+    "id": 414777,
+    "nome": "Infrações Inafiançáveis |"
+  },
+  {
+    "id": 421394,
+    "nome": "Obrigações processuais |"
+  },
+  {
+    "id": 414779,
+    "nome": "Incidentes Relativos à Fiança |"
+  },
+  {
+    "id": 414780,
+    "nome": "Quebramento da Fiança |"
+  },
+  {
+    "id": 414782,
+    "nome": "Perda da Fiança |"
+  },
+  {
+    "id": 414783,
+    "nome": "Cassação da Fiança |"
+  },
+  {
+    "id": 414784,
+    "nome": "Reforço da Fiança |"
+  },
+  {
+    "id": 414786,
+    "nome": "Dispensa da Fiança |"
+  },
+  {
+    "id": 414788,
+    "nome": "Destinação da Fiança |"
+  },
+  {
+    "id": 414789,
+    "nome": "Execução da Fiança |"
+  },
+  {
+    "id": 414792,
+    "nome": "Liberdade provisória proibida |"
+  },
+  {
+    "id": 421395,
+    "nome": "Liberdade provisória proibida para agentes reincidentes, integrantes de organizações criminosas armadas ou milícias, ou que portem arma de fogo de uso restrito |"
+  },
+  {
+    "id": 421396,
+    "nome": "Liberdade provisória com vinculação |"
+  },
+  {
+    "id": 421397,
+    "nome": "Liberdade provisória cumulada com uma ou mais das medidas cautelares diversas da prisão |"
+  },
+  {
+    "id": 414638,
+    "nome": "Conceito e Fundamentos Constitucionais |"
+  },
+  {
+    "id": 414639,
+    "nome": "Espécies de Prisão |"
+  },
+  {
+    "id": 414640,
+    "nome": "Axioma de Liberdade |"
+  },
+  {
+    "id": 421367,
+    "nome": "Respeito à integridade física e moral do preso e uso de algemas |"
+  },
+  {
+    "id": 421368,
+    "nome": "Vedação ao uso de algemas em mulheres grávidas durante o parto e em mulheres durante a fase de puerpério imediato |"
+  },
+  {
+    "id": 414642,
+    "nome": "Prisão Extrapenal |"
+  },
+  {
+    "id": 414643,
+    "nome": "Prisão Civil |"
+  },
+  {
+    "id": 414646,
+    "nome": "Prisão Civil do Devedor de alimentos e Depositário Infiel |"
+  },
+  {
+    "id": 414644,
+    "nome": "Prisão Administrativa |"
+  },
+  {
+    "id": 414648,
+    "nome": "Prisão do Estrangeiro para Fins de Expulsão, Extradição e Deportação |"
+  },
+  {
+    "id": 414645,
+    "nome": "Prisão Militar |"
+  },
+  {
+    "id": 414649,
+    "nome": "Da Prisão Militar em Virtude de Transgressão Militar |"
+  },
+  {
+    "id": 414651,
+    "nome": "Prisão penal, prisão pena ou carcer ad poenam |"
+  },
+  {
+    "id": 414652,
+    "nome": "Prisão cautelar, provisória, processual, sem pena ou carcer ad custodiam |"
+  },
+  {
+    "id": 414653,
+    "nome": "Momento da Prisão |"
+  },
+  {
+    "id": 414654,
+    "nome": "Inviolabilidade do Domicílio |"
+  },
+  {
+    "id": 414658,
+    "nome": "Imunidades Prisionais |"
+  },
+  {
+    "id": 414664,
+    "nome": "Imunidade Diplomática |"
+  },
+  {
+    "id": 414665,
+    "nome": "Senadores, Deputados Federais, Estaduais ou Distritais |"
+  },
+  {
+    "id": 414666,
+    "nome": "Magistrados e membros do Ministério Público |"
+  },
+  {
+    "id": 414667,
+    "nome": "Advogados |"
+  },
+  {
+    "id": 414659,
+    "nome": "Prisão e Emprego da Força |"
+  },
+  {
+    "id": 414669,
+    "nome": "Instrumentos de Menor Potencial Ofensivo (ou não letais) |"
+  },
+  {
+    "id": 414660,
+    "nome": "Mandado de Prisão |"
+  },
+  {
+    "id": 414670,
+    "nome": "Cumprimento do mandado de prisão |"
+  },
+  {
+    "id": 414672,
+    "nome": "Difusão vermelha (red notice) |"
+  },
+  {
+    "id": 414673,
+    "nome": "Difusão vermelha a ser executada no exterior |"
+  },
+  {
+    "id": 414674,
+    "nome": "Difusão vermelha a ser cumprida no Brasil |"
+  },
+  {
+    "id": 414675,
+    "nome": "Formalidades do Mandado de Prisão |"
+  },
+  {
+    "id": 414661,
+    "nome": "Prisão especial e separação de presos provisórios |"
+  },
+  {
+    "id": 414662,
+    "nome": "Sala de Estado-Maior |"
+  },
+  {
+    "id": 406635,
+    "nome": "Questões e processos incidentes |"
+  },
+  {
+    "id": 406639,
+    "nome": "Incompatibilidades e Impedimentos |"
+  },
+  {
+    "id": 414841,
+    "nome": "Conflito de Atribuições no Âmbito do Ministério Público |"
+  },
+  {
+    "id": 414797,
+    "nome": "Questões prejudiciais |"
+  },
+  {
+    "id": 414800,
+    "nome": "Distinção entre questões prejudiciais e questões preliminares |"
+  },
+  {
+    "id": 414801,
+    "nome": "Classificação das questões prejudiciais |"
+  },
+  {
+    "id": 414802,
+    "nome": "Quanto à natureza |"
+  },
+  {
+    "id": 421402,
+    "nome": "Questão prejudicial homogênea, comum ou imperfeita |"
+  },
+  {
+    "id": 421403,
+    "nome": "Questão prejudicial heterogênea, jurisdicional ou perfeita |"
+  },
+  {
+    "id": 414803,
+    "nome": "Quanto à competência |"
+  },
+  {
+    "id": 421405,
+    "nome": "Questões prejudiciais devolutivas |"
+  },
+  {
+    "id": 421406,
+    "nome": "Questões prejudiciais devolutivas absolutas (ou obrigatórias) |"
+  },
+  {
+    "id": 414804,
+    "nome": "Quanto aos efeitos |"
+  },
+  {
+    "id": 421408,
+    "nome": "Questões prejudiciais obrigatórias, necessárias ou em sentido estrito |"
+  },
+  {
+    "id": 414805,
+    "nome": "Quanto ao grau de influência da questão prejudicial sobre a prejudicada |"
+  },
+  {
+    "id": 421411,
+    "nome": "Prejudicial parcial |"
+  },
+  {
+    "id": 414806,
+    "nome": "Sistemas de solução das questões prejudiciais |"
+  },
+  {
+    "id": 414809,
+    "nome": "Sistema da cognição incidental (ou do predomínio da jurisdição penal) |"
+  },
+  {
+    "id": 421412,
+    "nome": "Sistema da prejudicialidade obrigatória |"
+  },
+  {
+    "id": 421413,
+    "nome": "Sistema da prejudicialidade facultativa |"
+  },
+  {
+    "id": 414807,
+    "nome": "Questões prejudiciais devolutivas absolutas (heterogêneas relativas ao estado civil das pessoas) |"
+  },
+  {
+    "id": 414813,
+    "nome": "Recursos cabíveis |"
+  },
+  {
+    "id": 414808,
+    "nome": "Questões prejudiciais devolutivas relativas (heterogêneas não relativas ao estado civil das pessoas) |"
+  },
+  {
+    "id": 421415,
+    "nome": "Decisão cível acerca da questão prejudicial heterogênea e sua influência no âmbito criminal |"
+  },
+  {
+    "id": 406638,
+    "nome": "Exceções |"
+  },
+  {
+    "id": 414815,
+    "nome": "Conceito de exceções |"
+  },
+  {
+    "id": 414817,
+    "nome": "Classificação das exceções |"
+  },
+  {
+    "id": 414822,
+    "nome": "Exceção de suspeição, de impedimento ou de incompatibilidade |"
+  },
+  {
+    "id": 414823,
+    "nome": "Procedimento de exceção de suspeição |"
+  },
+  {
+    "id": 414824,
+    "nome": "Exceção de incompetência |"
+  },
+  {
+    "id": 414828,
+    "nome": "Incompetência absoluta e relativa |"
+  },
+  {
+    "id": 414829,
+    "nome": "Reconhecimento de ofício pelo juiz da incompetência absoluta ou relativa |"
+  },
+  {
+    "id": 414832,
+    "nome": "Recursos cabíveis |"
+  },
+  {
+    "id": 414826,
+    "nome": "Exceção de litispendência |"
+  },
+  {
+    "id": 414827,
+    "nome": "Exceção de coisa julgada |"
+  },
+  {
+    "id": 414835,
+    "nome": "Coisa julgada formal e material |"
+  },
+  {
+    "id": 406642,
+    "nome": "Conflito de competência |"
+  },
+  {
+    "id": 421424,
+    "nome": "Conflito positivo de competência |"
+  },
+  {
+    "id": 421425,
+    "nome": "Conflito negativo de competência |"
+  },
+  {
+    "id": 406640,
+    "nome": "Medidas Assecuratórias |"
+  },
+  {
+    "id": 414848,
+    "nome": "Noções Gerais |"
+  },
+  {
+    "id": 414850,
+    "nome": "Pressupostos |"
+  },
+  {
+    "id": 414851,
+    "nome": "Contraditório Prévio |"
+  },
+  {
+    "id": 414852,
+    "nome": "Sequestro |"
+  },
+  {
+    "id": 414853,
+    "nome": "Procedimento |"
+  },
+  {
+    "id": 414854,
+    "nome": "Defesa |"
+  },
+  {
+    "id": 421428,
+    "nome": "Embargos do acusado |"
+  },
+  {
+    "id": 414855,
+    "nome": "Levantamento do Sequestro |"
+  },
+  {
+    "id": 414856,
+    "nome": "Destinação Final do Sequestro |"
+  },
+  {
+    "id": 414857,
+    "nome": "Especialização e registro da hipoteca legal |"
+  },
+  {
+    "id": 414862,
+    "nome": "Defesa |"
+  },
+  {
+    "id": 414859,
+    "nome": "Substituição da hipoteca legal por caução |"
+  },
+  {
+    "id": 414863,
+    "nome": "Finalização |"
+  },
+  {
+    "id": 414861,
+    "nome": "Arresto prévio (ou preventivo) |"
+  },
+  {
+    "id": 414865,
+    "nome": "Arresto Subsidiário de Bens Móveis |"
+  },
+  {
+    "id": 414864,
+    "nome": "Inscrição de hipoteca legal e arresto nos crimes de lavagem de capitais |"
+  },
+  {
+    "id": 414866,
+    "nome": "Utilização de bens sequestrados, apreendidos ou sujeitos a qualquer medida assecuratória pelos órgãos de segurança pública |"
+  },
+  {
+    "id": 414867,
+    "nome": "Alienação Antecipada |"
+  },
+  {
+    "id": 406641,
+    "nome": "Restituição de coisas apreendidas |"
+  },
+  {
+    "id": 414842,
+    "nome": "Apreensão |"
+  },
+  {
+    "id": 414843,
+    "nome": "Vedações e Restrições à Restituição de Coisas Apreendidas |"
+  },
+  {
+    "id": 414845,
+    "nome": "Procedimento de Restituição de coisas Apreendidas |"
+  },
+  {
+    "id": 414847,
+    "nome": "Coisas Facilmente Deterioráveis e Excesso de Prazo na Apreensão |"
+  },
+  {
+    "id": 414844,
+    "nome": "Destinação das coisas Apreendidas não Restituídas |"
+  },
+  {
+    "id": 406636,
+    "nome": "Incidente de falsidade |"
+  },
+  {
+    "id": 406637,
+    "nome": "Incidente de insanidade |"
+  },
+  {
+    "id": 414879,
+    "nome": "Procedimento |"
+  },
+  {
+    "id": 406660,
+    "nome": "Sujeitos do processo |"
+  },
+  {
+    "id": 421431,
+    "nome": "Noções gerais |"
+  },
+  {
+    "id": 421432,
+    "nome": "Sujeitos principais (ou essenciais) |"
+  },
+  {
+    "id": 406661,
+    "nome": "Juiz |"
+  },
+  {
+    "id": 421434,
+    "nome": "Imparcialidade do juiz |"
+  },
+  {
+    "id": 421435,
+    "nome": "Impedimento |"
+  },
+  {
+    "id": 421436,
+    "nome": "Suspeição |"
+  },
+  {
+    "id": 421437,
+    "nome": "Incompatibilidade |"
+  },
+  {
+    "id": 406666,
+    "nome": "Partes |"
+  },
+  {
+    "id": 406663,
+    "nome": "Ministério Público |"
+  },
+  {
+    "id": 421438,
+    "nome": "Princípios institucionais do Ministério Público |"
+  },
+  {
+    "id": 421441,
+    "nome": "Independência funcional |"
+  },
+  {
+    "id": 406667,
+    "nome": "Ofendido |"
+  },
+  {
+    "id": 421442,
+    "nome": "Ofendido como querelante |"
+  },
+  {
+    "id": 421443,
+    "nome": "Ofendido como assistente da acusação |"
+  },
+  {
+    "id": 421444,
+    "nome": "Habilitação do ofendido como assistente da acusação |"
+  },
+  {
+    "id": 421445,
+    "nome": "Atribuições do assistente |"
+  },
+  {
+    "id": 406664,
+    "nome": "Acusado |"
+  },
+  {
+    "id": 421446,
+    "nome": "Capacidade do acusado |"
+  },
+  {
+    "id": 421448,
+    "nome": "Pessoa jurídica |"
+  },
+  {
+    "id": 421449,
+    "nome": "Teoria da dupla imputação |"
+  },
+  {
+    "id": 421450,
+    "nome": "Imunidade diplomática |"
+  },
+  {
+    "id": 421451,
+    "nome": "Autodefesa e presença do acusado |"
+  },
+  {
+    "id": 421452,
+    "nome": "Direito de audiência |"
+  },
+  {
+    "id": 421454,
+    "nome": "Capacidade postulatória autônoma |"
+  },
+  {
+    "id": 406665,
+    "nome": "Defensor |"
+  },
+  {
+    "id": 421455,
+    "nome": "Espécies de defensor |"
+  },
+  {
+    "id": 421457,
+    "nome": "Defensor constituído |"
+  },
+  {
+    "id": 421458,
+    "nome": "Defensor Público |"
+  },
+  {
+    "id": 421459,
+    "nome": "Defensor dativo |"
+  },
+  {
+    "id": 421456,
+    "nome": "Abandono do processo pelo defensor |"
+  },
+  {
+    "id": 406662,
+    "nome": "Assistente de defesa |"
+  },
+  {
+    "id": 421462,
+    "nome": "Assistentes e auxiliares da Justiça |"
+  },
+  {
+    "id": 421463,
+    "nome": "Peritos e intérpretes |"
+  },
+  {
+    "id": 421464,
+    "nome": "Funcionários da Justiça |"
+  },
+  {
+    "id": 406668,
+    "nome": "Comunicação dos atos processuais |"
+  },
+  {
+    "id": 406669,
+    "nome": "Citação |"
+  },
+  {
+    "id": 414930,
+    "nome": "Efeitos da Citação Válida |"
+  },
+  {
+    "id": 414931,
+    "nome": "Espécies de Citação |"
+  },
+  {
+    "id": 414932,
+    "nome": "Citação Pessoal ou Real |"
+  },
+  {
+    "id": 414936,
+    "nome": "Citação por Mandado |"
+  },
+  {
+    "id": 414937,
+    "nome": "Citação por Carta Precatória |"
+  },
+  {
+    "id": 414938,
+    "nome": "Citação do Militar |"
+  },
+  {
+    "id": 414939,
+    "nome": "Citação de Funcionário Público |"
+  },
+  {
+    "id": 414940,
+    "nome": "Citação de Acusado Preso |"
+  },
+  {
+    "id": 414941,
+    "nome": "Citação de Acusado no Estrangeiro |"
+  },
+  {
+    "id": 414942,
+    "nome": "Citação em Legações Estrangeiras |"
+  },
+  {
+    "id": 414943,
+    "nome": "Citação Mediante Carta de Ordem |"
+  },
+  {
+    "id": 414933,
+    "nome": "Citação Ficta ou Presumida |"
+  },
+  {
+    "id": 414934,
+    "nome": "Citação por Edital e Art. 366 do CPP |"
+  },
+  {
+    "id": 414944,
+    "nome": "Hipóteses que Autorizam a Citação por Edital |"
+  },
+  {
+    "id": 414945,
+    "nome": "Suspensão do Processo e Prescrição (Art. 366 do CPP) |"
+  },
+  {
+    "id": 414947,
+    "nome": "Limitação Temporal do Prazo de Suspensão da Prescrição |"
+  },
+  {
+    "id": 414948,
+    "nome": "Produção Antecipada de Provas Urgentes |"
+  },
+  {
+    "id": 414949,
+    "nome": "Prisão Preventiva |"
+  },
+  {
+    "id": 414950,
+    "nome": "Comparecimento do Acusado |"
+  },
+  {
+    "id": 414951,
+    "nome": "Aplicação do Art. 366 do CPP na Lei de Lavagem de Capitais |"
+  },
+  {
+    "id": 414935,
+    "nome": "Citação por Hora Certa |"
+  },
+  {
+    "id": 406670,
+    "nome": "Intimação e notificação |"
+  },
+  {
+    "id": 414952,
+    "nome": "Formas de intimação e Notificação das Partes |"
+  },
+  {
+    "id": 421465,
+    "nome": "Revelia no processo penal |"
+  },
+  {
+    "id": 406679,
+    "nome": "Processo e procedimento |"
+  },
+  {
+    "id": 414953,
+    "nome": "Introdução |"
+  },
+  {
+    "id": 414955,
+    "nome": "Procedimento e devido processo penal |"
+  },
+  {
+    "id": 414959,
+    "nome": "Violação às regras procedimentais |"
+  },
+  {
+    "id": 406686,
+    "nome": "Procedimento comum |"
+  },
+  {
+    "id": 406687,
+    "nome": "Procedimento comum sumário |"
+  },
+  {
+    "id": 415015,
+    "nome": "Distinção entre Procedimento comum Ordinário e Sumário |"
+  },
+  {
+    "id": 406711,
+    "nome": "Procedimento comum sumaríssimo (Lei n.º 9.099/95) |"
+  },
+  {
+    "id": 406712,
+    "nome": "Princípios informadores ou orientadores |"
+  },
+  {
+    "id": 406713,
+    "nome": "Princípio da oralidade |"
+  },
+  {
+    "id": 406714,
+    "nome": "Princípio da simplicidade |"
+  },
+  {
+    "id": 406715,
+    "nome": "Princípio da informalidade |"
+  },
+  {
+    "id": 415016,
+    "nome": "Princípio da economia processual |"
+  },
+  {
+    "id": 415017,
+    "nome": "Princípio da celeridade processual |"
+  },
+  {
+    "id": 415018,
+    "nome": "Competência dos juizados especiais criminais (Lei n.º 9.099/95) |"
+  },
+  {
+    "id": 415019,
+    "nome": "Infração de menor potencial ofensivo |"
+  },
+  {
+    "id": 415025,
+    "nome": "Conexão e continência entre crime comum e infração penal de menor potencial ofensivo |"
+  },
+  {
+    "id": 415026,
+    "nome": "Causas de modificação da competência dos Juizados |"
+  },
+  {
+    "id": 406716,
+    "nome": "Impossibilidade de citação pessoal do autuado |"
+  },
+  {
+    "id": 415020,
+    "nome": "Complexidade da causa |"
+  },
+  {
+    "id": 415021,
+    "nome": "Conexão e continência |"
+  },
+  {
+    "id": 415022,
+    "nome": "Natureza da competência dos Juizados |"
+  },
+  {
+    "id": 415023,
+    "nome": "Competência territorial |"
+  },
+  {
+    "id": 415024,
+    "nome": "Juizados Especiais Itinerantes |"
+  },
+  {
+    "id": 415039,
+    "nome": "Termo circunstanciado |"
+  },
+  {
+    "id": 415038,
+    "nome": "Situação de flagrância nas infrações de menor potencial ofensivo |"
+  },
+  {
+    "id": 415045,
+    "nome": "Afastamento do lar nos casos de violência doméstica |"
+  },
+  {
+    "id": 415044,
+    "nome": "Fase preliminar dos juizados |"
+  },
+  {
+    "id": 415036,
+    "nome": "Composição dos danos civis |"
+  },
+  {
+    "id": 415035,
+    "nome": "Oferecimento de representação |"
+  },
+  {
+    "id": 415034,
+    "nome": "Transação penal |"
+  },
+  {
+    "id": 415033,
+    "nome": "Pressupostos de admissibilidade da transação penal |"
+  },
+  {
+    "id": 414963,
+    "nome": "Procedimento para o oferecimento da proposta de transação penal |"
+  },
+  {
+    "id": 414964,
+    "nome": "Recusa injustificada de oferecimento da proposta de transação penal |"
+  },
+  {
+    "id": 414983,
+    "nome": "Descumprimento injustificado da transação penal |"
+  },
+  {
+    "id": 415027,
+    "nome": "Suspensão Condicional do Processo |"
+  },
+  {
+    "id": 415028,
+    "nome": "Conceito e natureza Jurídica |"
+  },
+  {
+    "id": 415029,
+    "nome": "Requisitos de Admissibilidade |"
+  },
+  {
+    "id": 415030,
+    "nome": "Suspensão Condicional em Crimes de Ação Penal de Iniciativa Privada |"
+  },
+  {
+    "id": 415031,
+    "nome": "Iniciativa da Proposta de Suspensão Condicional |"
+  },
+  {
+    "id": 415032,
+    "nome": "Momento para Aceitação da Proposta |"
+  },
+  {
+    "id": 421467,
+    "nome": "Desclassificação e procedência parcial da pretensão punitiva |"
+  },
+  {
+    "id": 414965,
+    "nome": "Aceitação da proposta |"
+  },
+  {
+    "id": 414984,
+    "nome": "Recurso cabível contra a decisão homologatória da suspensão |"
+  },
+  {
+    "id": 414966,
+    "nome": "Condições da suspensão condicional do processo |"
+  },
+  {
+    "id": 414987,
+    "nome": "Revogação da suspensão condicional do processo |"
+  },
+  {
+    "id": 414989,
+    "nome": "Extinção da punibilidade |"
+  },
+  {
+    "id": 414968,
+    "nome": "Recursos no Juizado Especial Criminal |"
+  },
+  {
+    "id": 414969,
+    "nome": "Execução no âmbito dos juizados especiais criminais |"
+  },
+  {
+    "id": 414971,
+    "nome": "Procedimentos Especiais |"
+  },
+  {
+    "id": 406689,
+    "nome": "Processo e julgamento dos crimes de responsabilidade dos funcionários públicos. |"
+  },
+  {
+    "id": 414973,
+    "nome": "Defesa preliminar |"
+  },
+  {
+    "id": 406690,
+    "nome": "Procedimento especial dos crimes contra a honra |"
+  },
+  {
+    "id": 414991,
+    "nome": "Audiência de conciliação |"
+  },
+  {
+    "id": 414993,
+    "nome": "Crimes contra a propriedade imaterial |"
+  },
+  {
+    "id": 406688,
+    "nome": "Procedimento especial dos crimes de competência do Tribunal do Júri |"
+  },
+  {
+    "id": 414970,
+    "nome": "Princípios constitucionais do júri |"
+  },
+  {
+    "id": 414972,
+    "nome": "Plenitude de defesa |"
+  },
+  {
+    "id": 414995,
+    "nome": "Sigilo das votações |"
+  },
+  {
+    "id": 414996,
+    "nome": "Sala especial |"
+  },
+  {
+    "id": 414998,
+    "nome": "Incomunicabilidade dos jurados |"
+  },
+  {
+    "id": 414974,
+    "nome": "Soberania dos veredictos |"
+  },
+  {
+    "id": 415006,
+    "nome": "Cabimento de apelação contra decisões do Júri |"
+  },
+  {
+    "id": 415011,
+    "nome": "Cabimento de revisão criminal contra decisões do Júri |"
+  },
+  {
+    "id": 406691,
+    "nome": "Competência para o julgamento dos crimes dolosos contra a vida |"
+  },
+  {
+    "id": 406692,
+    "nome": "Procedimento bifásico do tribunal do júri |"
+  },
+  {
+    "id": 415037,
+    "nome": "Iudicium accusationis (ou sumário da culpa) |"
+  },
+  {
+    "id": 421468,
+    "nome": "Impronúncia |"
+  },
+  {
+    "id": 421469,
+    "nome": "Provas novas e oferecimento de outra peça acusatória |"
+  },
+  {
+    "id": 421472,
+    "nome": "Despronúncia |"
+  },
+  {
+    "id": 421473,
+    "nome": "Recurso cabível contra a impronúncia |"
+  },
+  {
+    "id": 421474,
+    "nome": "Desclassificação do delito |"
+  },
+  {
+    "id": 421475,
+    "nome": "Recurso cabível contra a desclassificação |"
+  },
+  {
+    "id": 421476,
+    "nome": "Absolvição sumária |"
+  },
+  {
+    "id": 421477,
+    "nome": "Recurso contra a absolvição sumária |"
+  },
+  {
+    "id": 421478,
+    "nome": "Pronúncia |"
+  },
+  {
+    "id": 421479,
+    "nome": "Intimação da pronúncia |"
+  },
+  {
+    "id": 421480,
+    "nome": "Recurso cabível contra a decisão de pronúncia |"
+  },
+  {
+    "id": 421481,
+    "nome": "Desaforamento |"
+  },
+  {
+    "id": 421482,
+    "nome": "Legitimidade para o requerimento de desaforamento |"
+  },
+  {
+    "id": 421483,
+    "nome": "Momento para o desaforamento |"
+  },
+  {
+    "id": 421484,
+    "nome": "Hipóteses que autorizam o desaforamento |"
+  },
+  {
+    "id": 421486,
+    "nome": "Preparação do processo para julgamento pelo tribunal do júri |"
+  },
+  {
+    "id": 421487,
+    "nome": "Ordem do julgamento |"
+  },
+  {
+    "id": 421488,
+    "nome": "Organização do júri |"
+  },
+  {
+    "id": 421490,
+    "nome": "Requisitos para ser jurado |"
+  },
+  {
+    "id": 421491,
+    "nome": "Recusa injustificada |"
+  },
+  {
+    "id": 421492,
+    "nome": "Direitos dos jurados |"
+  },
+  {
+    "id": 421489,
+    "nome": "Sessão de julgamento |"
+  },
+  {
+    "id": 421495,
+    "nome": "Ausências |"
+  },
+  {
+    "id": 421496,
+    "nome": "Ausência do órgão do Ministério Público |"
+  },
+  {
+    "id": 421500,
+    "nome": "Ausência do advogado do assistente de acusação |"
+  },
+  {
+    "id": 421501,
+    "nome": "Ausência do advogado do querelante |"
+  },
+  {
+    "id": 421502,
+    "nome": "Ausência de testemunhas |"
+  },
+  {
+    "id": 421504,
+    "nome": "Verificação da presença de, pelo menos, 15 jurados |"
+  },
+  {
+    "id": 421510,
+    "nome": "Empréstimo de jurados |"
+  },
+  {
+    "id": 421505,
+    "nome": "Suspeição, impedimento e incompatibilidade |"
+  },
+  {
+    "id": 421511,
+    "nome": "Dos jurados |"
+  },
+  {
+    "id": 421512,
+    "nome": "Do juiz-presidente |"
+  },
+  {
+    "id": 421513,
+    "nome": "Do órgão do Ministério Público |"
+  },
+  {
+    "id": 421506,
+    "nome": "Composição do Conselho de Sentença |"
+  },
+  {
+    "id": 421507,
+    "nome": "Instrução em plenário |"
+  },
+  {
+    "id": 421516,
+    "nome": "Uso de algemas |"
+  },
+  {
+    "id": 421508,
+    "nome": "Debates |"
+  },
+  {
+    "id": 421517,
+    "nome": "Réplica e tréplica |"
+  },
+  {
+    "id": 421521,
+    "nome": "Acusado indefeso |"
+  },
+  {
+    "id": 421509,
+    "nome": "Quesitação |"
+  },
+  {
+    "id": 421522,
+    "nome": "Leitura dos quesitos |"
+  },
+  {
+    "id": 421523,
+    "nome": "Votação |"
+  },
+  {
+    "id": 421524,
+    "nome": "Ordem dos quesitos |"
+  },
+  {
+    "id": 421525,
+    "nome": "Questões diversas |"
+  },
+  {
+    "id": 421530,
+    "nome": "Absolvição imprópria |"
+  },
+  {
+    "id": 421531,
+    "nome": "Falso testemunho em plenário |"
+  },
+  {
+    "id": 421526,
+    "nome": "Desclassificação |"
+  },
+  {
+    "id": 421532,
+    "nome": "Desclassificação própria |"
+  },
+  {
+    "id": 421533,
+    "nome": "Desclassificação imprópria |"
+  },
+  {
+    "id": 421534,
+    "nome": "Desclassificação e infração de menor potencial ofensivo |"
+  },
+  {
+    "id": 421535,
+    "nome": "Desclassificação e crimes conexos |"
+  },
+  {
+    "id": 421527,
+    "nome": "Sentença |"
+  },
+  {
+    "id": 421536,
+    "nome": "Sentença absolutória |"
+  },
+  {
+    "id": 421537,
+    "nome": "Sentença condenatória |"
+  },
+  {
+    "id": 421538,
+    "nome": "Procedimento perante o STF e STJ |"
+  },
+  {
+    "id": 421539,
+    "nome": "Aspectos processuais da Lei nº 11.340/06 (Lei Maria Penha) |"
+  },
+  {
+    "id": 421540,
+    "nome": "Aspectos processuais da Lei nº 11.343/06 (Lei de Drogas) |"
+  },
+  {
+    "id": 421541,
+    "nome": "Aspectos processuais da Lei nº 12.850/13 (Organizações Criminosas) |"
+  },
+  {
+    "id": 406680,
+    "nome": "Sentença penal |"
+  },
+  {
+    "id": 415046,
+    "nome": "Atos Processuais do Juiz |"
+  },
+  {
+    "id": 421542,
+    "nome": "Atos reais ou materiais |"
+  },
+  {
+    "id": 421544,
+    "nome": "Atos instrutórios |"
+  },
+  {
+    "id": 415047,
+    "nome": "Classificação dos Provimentos Judiciais |"
+  },
+  {
+    "id": 415055,
+    "nome": "Despachos de Mero Expediente |"
+  },
+  {
+    "id": 415056,
+    "nome": "Decisões Interlocutórias Simples e Mistas |"
+  },
+  {
+    "id": 421546,
+    "nome": "Interlocutória mista terminativa (ou decisões com força de definitivas) |"
+  },
+  {
+    "id": 415057,
+    "nome": "Decisões Definitivas |"
+  },
+  {
+    "id": 415058,
+    "nome": "Sentença |"
+  },
+  {
+    "id": 415060,
+    "nome": "Decisões Executáveis, não Executáveis e Condicionais |"
+  },
+  {
+    "id": 415062,
+    "nome": "Decisões Suicidas, Vazias e Autofágicas |"
+  },
+  {
+    "id": 415063,
+    "nome": "Decisões Condenatórias, Declaratórias, Constitutivas, Mandamentais e Executivas |"
+  },
+  {
+    "id": 415048,
+    "nome": "Estrutura e Requisitos da Sentença |"
+  },
+  {
+    "id": 415064,
+    "nome": "Relatório |"
+  },
+  {
+    "id": 415065,
+    "nome": "Fundamentação |"
+  },
+  {
+    "id": 415066,
+    "nome": "Fundamentação per Relationem |"
+  },
+  {
+    "id": 415049,
+    "nome": "Sentença Absolutória |"
+  },
+  {
+    "id": 415069,
+    "nome": "Espécies de Sentença Absolutória |"
+  },
+  {
+    "id": 415070,
+    "nome": "Sentença absolutória própria |"
+  },
+  {
+    "id": 415071,
+    "nome": "Sentença absolutória imprópria |"
+  },
+  {
+    "id": 415072,
+    "nome": "Absolvição sumária |"
+  },
+  {
+    "id": 421550,
+    "nome": "Presunção de inocência e regra probatória |"
+  },
+  {
+    "id": 421551,
+    "nome": "Fundamentos da sentença absolutória |"
+  },
+  {
+    "id": 421552,
+    "nome": "Efeitos decorrentes da sentença absolutória |"
+  },
+  {
+    "id": 415050,
+    "nome": "Sentença Condenatória |"
+  },
+  {
+    "id": 415076,
+    "nome": "Elementos |"
+  },
+  {
+    "id": 415077,
+    "nome": "Fixação da Pena |"
+  },
+  {
+    "id": 421553,
+    "nome": "Espécies de individualização |"
+  },
+  {
+    "id": 421555,
+    "nome": "Individualização judicial |"
+  },
+  {
+    "id": 415080,
+    "nome": "Fixação da Pena-Base |"
+  },
+  {
+    "id": 415081,
+    "nome": "Fixação da Pena Provisória |"
+  },
+  {
+    "id": 415082,
+    "nome": "Fixação da Pena Definitiva |"
+  },
+  {
+    "id": 415083,
+    "nome": "Fixação do Regime Penitenciário |"
+  },
+  {
+    "id": 415084,
+    "nome": "Substituição da Pena Privativa de Liberdade por Restritiva de Direitos |"
+  },
+  {
+    "id": 415085,
+    "nome": "Fixação da Pena de Multa |"
+  },
+  {
+    "id": 415078,
+    "nome": "Detração para Regime Inicial de Pena |"
+  },
+  {
+    "id": 421557,
+    "nome": "Decretação (ou manutenção) da prisão preventiva ou das medidas cautelares diversas da prisão na sentença condenatória |"
+  },
+  {
+    "id": 415079,
+    "nome": "Efeitos da Sentença Condenatória |"
+  },
+  {
+    "id": 415086,
+    "nome": "Efeitos Penais |"
+  },
+  {
+    "id": 415087,
+    "nome": "Efeitos Extrapenais |"
+  },
+  {
+    "id": 415088,
+    "nome": "Efeitos Extrapenais Obrigatórios |"
+  },
+  {
+    "id": 415051,
+    "nome": "Pedido absolutório formulado pela acusação e possibilidade de condenação |"
+  },
+  {
+    "id": 415052,
+    "nome": "Publicação da Sentença |"
+  },
+  {
+    "id": 415091,
+    "nome": "Intimação da Sentença |"
+  },
+  {
+    "id": 415053,
+    "nome": "Princípio da Correlação e da Consubstanciação |"
+  },
+  {
+    "id": 415094,
+    "nome": "Emendatio Libelli |"
+  },
+  {
+    "id": 415098,
+    "nome": "Momento da emendatio libelli |"
+  },
+  {
+    "id": 415100,
+    "nome": "Emendatio libelli na 2ª instância |"
+  },
+  {
+    "id": 415095,
+    "nome": "Mutatio Libelli |"
+  },
+  {
+    "id": 415104,
+    "nome": "Aditamento espontâneo (CPP, art. 384, caput) e provocado (CPP, art. 384, § 1º) |"
+  },
+  {
+    "id": 415054,
+    "nome": "Coisa Julgada |"
+  },
+  {
+    "id": 415092,
+    "nome": "Limites Objetivos da Coisa Julgada |"
+  },
+  {
+    "id": 415093,
+    "nome": "Limites Subjetivos da Coisa Julgada |"
+  },
+  {
+    "id": 406682,
+    "nome": "Nulidades |"
+  },
+  {
+    "id": 415105,
+    "nome": "Espécies de irregularidades |"
+  },
+  {
+    "id": 421558,
+    "nome": "Irregularidades ou defeitos sem consequência |"
+  },
+  {
+    "id": 421560,
+    "nome": "Irregularidades ou defeitos que podem acarretar a invalidação do ato processual |"
+  },
+  {
+    "id": 415106,
+    "nome": "Espécies de atos processuais |"
+  },
+  {
+    "id": 421564,
+    "nome": "Atos nulos |"
+  },
+  {
+    "id": 421565,
+    "nome": "Atos inexistentes |"
+  },
+  {
+    "id": 415107,
+    "nome": "Espécies de nulidades |"
+  },
+  {
+    "id": 415108,
+    "nome": "Nulidade absoluta |"
+  },
+  {
+    "id": 415110,
+    "nome": "Hipóteses de Nulidades Absolutas |"
+  },
+  {
+    "id": 421566,
+    "nome": "Nulidade relativa |"
+  },
+  {
+    "id": 415111,
+    "nome": "Hipóteses de nulidades Relativas |"
+  },
+  {
+    "id": 415129,
+    "nome": "Momento para Arguição das Nulidades Relativas |"
+  },
+  {
+    "id": 415109,
+    "nome": "Princípios Informadores |"
+  },
+  {
+    "id": 415119,
+    "nome": "Princípio da Tipicidade das Formas |"
+  },
+  {
+    "id": 415120,
+    "nome": "Princípio do Prejuízo |"
+  },
+  {
+    "id": 415122,
+    "nome": "Princípio do Interesse |"
+  },
+  {
+    "id": 415123,
+    "nome": "Princípio da Lealdade ou da Boa-Fé |"
+  },
+  {
+    "id": 415124,
+    "nome": "Princípio da Convalidação |"
+  },
+  {
+    "id": 421573,
+    "nome": "Preclusão |"
+  },
+  {
+    "id": 421578,
+    "nome": "Preclusão temporal |"
+  },
+  {
+    "id": 421574,
+    "nome": "Prolação da sentença |"
+  },
+  {
+    "id": 415125,
+    "nome": "Princípio da causalidade, Contaminação, Consequencialidade ou Extensão |"
+  },
+  {
+    "id": 415126,
+    "nome": "Princípio da Conservação |"
+  },
+  {
+    "id": 415127,
+    "nome": "Princípio da Eficácia |"
+  },
+  {
+    "id": 415112,
+    "nome": "Reconhecimento das Nulidades |"
+  },
+  {
+    "id": 415130,
+    "nome": "Reconhecimento na Primeira Instância |"
+  },
+  {
+    "id": 415113,
+    "nome": "Nulidades em Espécie |"
+  },
+  {
+    "id": 415132,
+    "nome": "Incompetência |"
+  },
+  {
+    "id": 415134,
+    "nome": "Suspeição |"
+  },
+  {
+    "id": 415135,
+    "nome": "Ilegitimidade de Parte |"
+  },
+  {
+    "id": 415136,
+    "nome": "Falta de Denúncia, Queixa ou Representação |"
+  },
+  {
+    "id": 415137,
+    "nome": "Falta de Exame de Corpo de Delito |"
+  },
+  {
+    "id": 415138,
+    "nome": "Falta de Nomeação de Defensor |"
+  },
+  {
+    "id": 415139,
+    "nome": "Falta de intervenção do Ministério Público |"
+  },
+  {
+    "id": 421581,
+    "nome": "Falta de intervenção do Ministério Público nos crimes de ação penal pública |"
+  },
+  {
+    "id": 421582,
+    "nome": "Falta de intervenção do Ministério Público nos casos de ação penal privada subsidiária da pública |"
+  },
+  {
+    "id": 415140,
+    "nome": "Ausência de citação (circundução), do interrogatório do acusado e de concessão dos prazos à acusação e à defesa |"
+  },
+  {
+    "id": 415148,
+    "nome": "Falta de Sentença |"
+  },
+  {
+    "id": 415150,
+    "nome": "Falta de Intimação de Sentenças e Decisões Irrecorríveis |"
+  },
+  {
+    "id": 415149,
+    "nome": "Falta de Recurso de Ofício |"
+  },
+  {
+    "id": 415151,
+    "nome": "Falta de Quórum para Julgamento em Tribunais |"
+  },
+  {
+    "id": 421583,
+    "nome": "Nulidade decorrente da carência de fundamentação |"
+  },
+  {
+    "id": 421584,
+    "nome": "Falta de citação do acusado para se ver processar |"
+  },
+  {
+    "id": 421585,
+    "nome": "Falta de interrogatório do acusado |"
+  },
+  {
+    "id": 415144,
+    "nome": "Nulidades cominadas no procedimento bifásico do Tribunal do Júri |"
+  },
+  {
+    "id": 415142,
+    "nome": "Falta de Intimação do Réu para a Sessão |"
+  },
+  {
+    "id": 415143,
+    "nome": "Falta de Intimação das Testemunhas Arroladas |"
+  },
+  {
+    "id": 415145,
+    "nome": "Falta de Sorteio de Jurados e Incomunicabilidade |"
+  },
+  {
+    "id": 415146,
+    "nome": "Formulação de Quesitos |"
+  },
+  {
+    "id": 415147,
+    "nome": "Falta de Acusação e Defesa na Sessão |"
+  },
+  {
+    "id": 415114,
+    "nome": "Nulidades no Inquérito Policial |"
+  },
+  {
+    "id": 406683,
+    "nome": "Recursos |"
+  },
+  {
+    "id": 415153,
+    "nome": "Teoria Geral dos Recursos |"
+  },
+  {
+    "id": 415154,
+    "nome": "Conceito e Características |"
+  },
+  {
+    "id": 421588,
+    "nome": "Voluntariedade |"
+  },
+  {
+    "id": 421589,
+    "nome": "Previsão legal |"
+  },
+  {
+    "id": 415155,
+    "nome": "Natureza Jurídica dos Recursos |"
+  },
+  {
+    "id": 415156,
+    "nome": "Fundamentos dos Recursos |"
+  },
+  {
+    "id": 415157,
+    "nome": "Princípios |"
+  },
+  {
+    "id": 415158,
+    "nome": "Duplo Grau de Jurisdição |"
+  },
+  {
+    "id": 421593,
+    "nome": "Acusados com foro por prerrogativa de função |"
+  },
+  {
+    "id": 415159,
+    "nome": "Princípio da unirrecorribilidade das decisões (unicidade ou singularidade) |"
+  },
+  {
+    "id": 415160,
+    "nome": "Taxatividade |"
+  },
+  {
+    "id": 415161,
+    "nome": "Fungibilidade Recursal |"
+  },
+  {
+    "id": 415162,
+    "nome": "Convolação |"
+  },
+  {
+    "id": 415163,
+    "nome": "Disponibilidade |"
+  },
+  {
+    "id": 415164,
+    "nome": "Voluntariedade |"
+  },
+  {
+    "id": 421594,
+    "nome": "Reexame necessário (recurso de ofício ou remessa necessária) |"
+  },
+  {
+    "id": 415165,
+    "nome": "Princípio da non reformatio in pejus (efeito prodrômico da sentença) |"
+  },
+  {
+    "id": 415168,
+    "nome": "Princípio da non reformatio in pejus direta e indireta |"
+  },
+  {
+    "id": 421596,
+    "nome": "Princípio da reformatio in mellius |"
+  },
+  {
+    "id": 421598,
+    "nome": "Princípio da complementariedade |"
+  },
+  {
+    "id": 421599,
+    "nome": "Princípio da variabilidade |"
+  },
+  {
+    "id": 415173,
+    "nome": "Pressupostos recursais (juízo de prelibação) |"
+  },
+  {
+    "id": 415177,
+    "nome": "Pressupostos Objetivos ou Extrínsecos |"
+  },
+  {
+    "id": 415181,
+    "nome": "Tempestividade |"
+  },
+  {
+    "id": 421600,
+    "nome": "Início do prazo recursal |"
+  },
+  {
+    "id": 421602,
+    "nome": "Início do prazo recursal para o Ministério Público |"
+  },
+  {
+    "id": 415182,
+    "nome": "Inexistência de fato extintivo (extinção anômala do recurso) |"
+  },
+  {
+    "id": 415184,
+    "nome": "Desistência |"
+  },
+  {
+    "id": 415185,
+    "nome": "Deserção |"
+  },
+  {
+    "id": 415183,
+    "nome": "Inexistência de Fato Impeditivo |"
+  },
+  {
+    "id": 415188,
+    "nome": "Renúncia ao Direito de Recorrer |"
+  },
+  {
+    "id": 415189,
+    "nome": "Preclusão |"
+  },
+  {
+    "id": 421610,
+    "nome": "Regularidade formal |"
+  },
+  {
+    "id": 415178,
+    "nome": "Pressupostos Subjetivos ou Intrínsecos |"
+  },
+  {
+    "id": 421611,
+    "nome": "Legitimidade recursal |"
+  },
+  {
+    "id": 421612,
+    "nome": "Legitimação restrita e subsidiária do assistente da acusação |"
+  },
+  {
+    "id": 421613,
+    "nome": "Interesse recursal |"
+  },
+  {
+    "id": 421614,
+    "nome": "Classificação da sucumbência |"
+  },
+  {
+    "id": 421623,
+    "nome": "Sentença absolutória e interesse recursal da defesa |"
+  },
+  {
+    "id": 421624,
+    "nome": "Extinção da punibilidade e interesse recursal no julgamento do mérito |"
+  },
+  {
+    "id": 421626,
+    "nome": "Sentença condenatória e/ou absolutória e interesse recursal do Ministério Público |"
+  },
+  {
+    "id": 415174,
+    "nome": "Efeitos dos Recursos |"
+  },
+  {
+    "id": 415192,
+    "nome": "Efeito Devolutivo |"
+  },
+  {
+    "id": 421638,
+    "nome": "Recurso de instância iterada |"
+  },
+  {
+    "id": 421639,
+    "nome": "Recurso de instância reiterada |"
+  },
+  {
+    "id": 415193,
+    "nome": "Efeito Suspensivo |"
+  },
+  {
+    "id": 421640,
+    "nome": "Impetração de mandado de segurança para atribuir efeito suspensivo a recurso criminal interposto pelo Ministério Público |"
+  },
+  {
+    "id": 415194,
+    "nome": "Efeito Regressivo, Iterativo ou Diferido |"
+  },
+  {
+    "id": 415195,
+    "nome": "Efeito Extensivo |"
+  },
+  {
+    "id": 415175,
+    "nome": "Direito Intertemporal e Recursos |"
+  },
+  {
+    "id": 415176,
+    "nome": "Classificação dos Recursos |"
+  },
+  {
+    "id": 415199,
+    "nome": "Quanto à Obrigatoriedade |"
+  },
+  {
+    "id": 421627,
+    "nome": "Recurso voluntário |"
+  },
+  {
+    "id": 415201,
+    "nome": "Quanto à Extensão da Matéria Impugnada |"
+  },
+  {
+    "id": 421633,
+    "nome": "Recurso parcial |"
+  },
+  {
+    "id": 415202,
+    "nome": "Quanto aos Pressupostos de Admissibilidade |"
+  },
+  {
+    "id": 421634,
+    "nome": "Recurso genérico |"
+  },
+  {
+    "id": 415203,
+    "nome": "Quanto ao Objeto Imediato de Recursos |"
+  },
+  {
+    "id": 421636,
+    "nome": "Recursos extraordinários |"
+  },
+  {
+    "id": 421637,
+    "nome": "Recursos ordinários |"
+  },
+  {
+    "id": 421641,
+    "nome": "Recursos criminais em espécie |"
+  },
+  {
+    "id": 406693,
+    "nome": "Recurso em sentido estrito |"
+  },
+  {
+    "id": 415204,
+    "nome": "Interpretação extensiva |"
+  },
+  {
+    "id": 415205,
+    "nome": "Utilização Residual do Recurso em Sentido Estrito |"
+  },
+  {
+    "id": 415206,
+    "nome": "Hipóteses de Cabimento |"
+  },
+  {
+    "id": 415208,
+    "nome": "Rejeição ou não Recebimento da Peça Acusatória |"
+  },
+  {
+    "id": 415209,
+    "nome": "Incompetência do Juízo |"
+  },
+  {
+    "id": 415210,
+    "nome": "Procedência das Exceções, Salvo Suspeição |"
+  },
+  {
+    "id": 415211,
+    "nome": "Pronúncia do Acusado |"
+  },
+  {
+    "id": 415212,
+    "nome": "Decisão que conceder, negar, arbitrar, cassar ou julgar inidônea a fiança, indeferir requerimento de prisão preventiva ou revogá-la, conceder liberdade provisória ou relaxar a prisão em flagrante |"
+  },
+  {
+    "id": 415213,
+    "nome": "Decisão que julgar quebrada a fiança ou perdido o seu valor |"
+  },
+  {
+    "id": 415214,
+    "nome": "Decisão que decretar (ou não) a extinção da punibilidade |"
+  },
+  {
+    "id": 415215,
+    "nome": "Decisão que conceder ou negar a ordem de habeas corpus |"
+  },
+  {
+    "id": 415217,
+    "nome": "Decisão que conceder, negar ou revogar livramento condicional |"
+  },
+  {
+    "id": 415218,
+    "nome": "Decisão que anular o processo da instrução criminal, no todo ou em parte, ou que reconhecer a ilicitude da prova e determinar seu desentranhamento |"
+  },
+  {
+    "id": 415220,
+    "nome": "Decisão que denegar a apelação ou a julgar deserta |"
+  },
+  {
+    "id": 415221,
+    "nome": "Decisão que ordenar a suspensão do processo, seja em virtude de questão prejudicial, seja quando o acusado, citado por edital, não comparecer, nem constituir defensor |"
+  },
+  {
+    "id": 415222,
+    "nome": "Decisão que decidir o incidente de falsidade |"
+  },
+  {
+    "id": 415223,
+    "nome": "Decisão que recusar homologação à proposta de acordo de não persecução penal (CPP, art. 28-A) |"
+  },
+  {
+    "id": 415207,
+    "nome": "Procedimento do Recurso em Sentido Estrito |"
+  },
+  {
+    "id": 415228,
+    "nome": "Prazo |"
+  },
+  {
+    "id": 406694,
+    "nome": "Apelação |"
+  },
+  {
+    "id": 415230,
+    "nome": "Espécies de Apelação |"
+  },
+  {
+    "id": 421644,
+    "nome": "Apelação plena (ou ampla) e apelação parcial (restrita) |"
+  },
+  {
+    "id": 421645,
+    "nome": "Apelação principal e apelação subsidiária (ou supletiva) |"
+  },
+  {
+    "id": 421646,
+    "nome": "Apelação sumária e apelação ordinária |"
+  },
+  {
+    "id": 415231,
+    "nome": "Hipóteses de Cabimento |"
+  },
+  {
+    "id": 415232,
+    "nome": "Sentença definitiva de condenação ou absolvição proferida por juiz singular |"
+  },
+  {
+    "id": 421648,
+    "nome": "Decisões definitivas, ou com força de definitivas, proferidas por juiz singular, nos casos em que não houver previsão legal de cabimento do recurso em sentido estrito |"
+  },
+  {
+    "id": 421649,
+    "nome": "Decisões do Tribunal do Júri |"
+  },
+  {
+    "id": 421652,
+    "nome": "Nulidade posterior à pronúncia |"
+  },
+  {
+    "id": 421653,
+    "nome": "Sentença do juiz presidente contrária à lei expressa ou à decisão dos jurados |"
+  },
+  {
+    "id": 421654,
+    "nome": "Erro ou injustiça no tocante à aplicação da pena ou da medida de segurança |"
+  },
+  {
+    "id": 421655,
+    "nome": "Decisão dos jurados manifestamente contrária à prova dos autos |"
+  },
+  {
+    "id": 421650,
+    "nome": "Aspectos procedimentais da apelação |"
+  },
+  {
+    "id": 421656,
+    "nome": "Forma |"
+  },
+  {
+    "id": 421657,
+    "nome": "Prazo |"
+  },
+  {
+    "id": 421658,
+    "nome": "Processamento |"
+  },
+  {
+    "id": 421659,
+    "nome": "Competência para o julgamento |"
+  },
+  {
+    "id": 421651,
+    "nome": "Efeitos |"
+  },
+  {
+    "id": 415233,
+    "nome": "Protesto por novo Júri |"
+  },
+  {
+    "id": 415235,
+    "nome": "Pressupostos Objetivos e Subjetivos de Admissibilidade Recursal do Revogado Protesto por novo Júri |"
+  },
+  {
+    "id": 406695,
+    "nome": "Embargos infringentes e embargos de nulidade |"
+  },
+  {
+    "id": 415236,
+    "nome": "Hipóteses de Cabimento |"
+  },
+  {
+    "id": 415240,
+    "nome": "Possibilidade de Interposição Simultânea de Embargos Infringentes e de Nulidade e Recursos Extraordinários |"
+  },
+  {
+    "id": 406696,
+    "nome": "Embargos de declaração |"
+  },
+  {
+    "id": 415241,
+    "nome": "Hipóteses de Cabimento |"
+  },
+  {
+    "id": 421661,
+    "nome": "Obscuridade |"
+  },
+  {
+    "id": 415242,
+    "nome": "Prazo |"
+  },
+  {
+    "id": 415243,
+    "nome": "Procedimento |"
+  },
+  {
+    "id": 415244,
+    "nome": "Efeitos |"
+  },
+  {
+    "id": 406697,
+    "nome": "Agravo em execução |"
+  },
+  {
+    "id": 415245,
+    "nome": "Hipóteses de Cabimento |"
+  },
+  {
+    "id": 415246,
+    "nome": "Prazo |"
+  },
+  {
+    "id": 415247,
+    "nome": "Procedimento |"
+  },
+  {
+    "id": 415248,
+    "nome": "Efeitos |"
+  },
+  {
+    "id": 406704,
+    "nome": "Carta Testemunhável |"
+  },
+  {
+    "id": 415249,
+    "nome": "Hipóteses de Cabimento |"
+  },
+  {
+    "id": 415250,
+    "nome": "Prazo |"
+  },
+  {
+    "id": 415251,
+    "nome": "Procedimento |"
+  },
+  {
+    "id": 406699,
+    "nome": "Correição parcial |"
+  },
+  {
+    "id": 415253,
+    "nome": "Hipóteses de Cabimento |"
+  },
+  {
+    "id": 415256,
+    "nome": "Prazo |"
+  },
+  {
+    "id": 406700,
+    "nome": "Recursos especial e extraordinário em matéria penal |"
+  },
+  {
+    "id": 421664,
+    "nome": "Hipóteses de cabimento |"
+  },
+  {
+    "id": 421665,
+    "nome": "Processamento |"
+  },
+  {
+    "id": 421667,
+    "nome": "Reclamação constitucional |"
+  },
+  {
+    "id": 421668,
+    "nome": "Hipóteses de cabimento |"
+  },
+  {
+    "id": 415257,
+    "nome": "Recurso Ordinário Constitucional |"
+  },
+  {
+    "id": 415258,
+    "nome": "Hipóteses de cabimento |"
+  },
+  {
+    "id": 421672,
+    "nome": "Agravo em recurso especial e em recurso extraordinário |"
+  },
+  {
+    "id": 421678,
+    "nome": "Processamento |"
+  },
+  {
+    "id": 421673,
+    "nome": "Embargos de divergência |"
+  },
+  {
+    "id": 406684,
+    "nome": "Meios Autônomos de Impugnação |"
+  },
+  {
+    "id": 406701,
+    "nome": "Habeas Corpus |"
+  },
+  {
+    "id": 415261,
+    "nome": "Natureza Jurídica |"
+  },
+  {
+    "id": 415262,
+    "nome": "Interesse de Agir |"
+  },
+  {
+    "id": 421684,
+    "nome": "Hipóteses que autorizam o conhecimento do habeas corpus |"
+  },
+  {
+    "id": 421685,
+    "nome": "Hipóteses em que não se autoriza o conhecimento do habeas corpus por falta de adequação |"
+  },
+  {
+    "id": 415263,
+    "nome": "Possibilidade Jurídica do Pedido |"
+  },
+  {
+    "id": 421687,
+    "nome": "Cabimento do habeas corpus em relação a punições disciplinares militares |"
+  },
+  {
+    "id": 415264,
+    "nome": "Legitimação Ativa |"
+  },
+  {
+    "id": 421690,
+    "nome": "Distinção entre impetrante e paciente |"
+  },
+  {
+    "id": 421691,
+    "nome": "Habeas corpus coletivo |"
+  },
+  {
+    "id": 421692,
+    "nome": "Legitimação ampla e irrestrita |"
+  },
+  {
+    "id": 421693,
+    "nome": "Pessoa jurídica |"
+  },
+  {
+    "id": 421694,
+    "nome": "Ministério Público |"
+  },
+  {
+    "id": 415266,
+    "nome": "Espécies de Habeas Corpus |"
+  },
+  {
+    "id": 421700,
+    "nome": "Liberatório (repressivo) |"
+  },
+  {
+    "id": 421701,
+    "nome": "Preventivo (salvo-conduto) |"
+  },
+  {
+    "id": 421703,
+    "nome": "Trancativo |"
+  },
+  {
+    "id": 415267,
+    "nome": "Hipóteses de Impetração do Habeas Corpus |"
+  },
+  {
+    "id": 421704,
+    "nome": "Ausência de justa causa |"
+  },
+  {
+    "id": 421706,
+    "nome": "Coação ordenada por autoridade incompetente |"
+  },
+  {
+    "id": 421707,
+    "nome": "Cessação do motivo que autorizou a coação |"
+  },
+  {
+    "id": 421708,
+    "nome": "Não admissão de prestação de fiança |"
+  },
+  {
+    "id": 421709,
+    "nome": "Processo manifestamente nulo |"
+  },
+  {
+    "id": 421710,
+    "nome": "Extinção da punibilidade |"
+  },
+  {
+    "id": 415268,
+    "nome": "Competência |"
+  },
+  {
+    "id": 421711,
+    "nome": "Competência do Supremo Tribunal Federal |"
+  },
+  {
+    "id": 421712,
+    "nome": "Competência do Superior Tribunal de Justiça |"
+  },
+  {
+    "id": 421714,
+    "nome": "Competência da Justiça Militar |"
+  },
+  {
+    "id": 421715,
+    "nome": "Competência das Turmas Recursais |"
+  },
+  {
+    "id": 421717,
+    "nome": "Competência do juiz de 1ª instância |"
+  },
+  {
+    "id": 421718,
+    "nome": "Ministério Público como autoridade coatora e competência para o julgamento do habeas corpus |"
+  },
+  {
+    "id": 415269,
+    "nome": "Procedimento |"
+  },
+  {
+    "id": 421720,
+    "nome": "Petição inicial |"
+  },
+  {
+    "id": 421722,
+    "nome": "Medida liminar |"
+  },
+  {
+    "id": 421723,
+    "nome": "Indeferimento de liminar por relator em Tribunal e impetração de novo habeas corpus |"
+  },
+  {
+    "id": 414888,
+    "nome": "Apresentação do preso e requisição de informações |"
+  },
+  {
+    "id": 414924,
+    "nome": "Efeito extensivo da ordem de habeas corpus |"
+  },
+  {
+    "id": 414921,
+    "nome": "Intervenção das partes |"
+  },
+  {
+    "id": 414906,
+    "nome": "Recursos contra as decisões em habeas corpus |"
+  },
+  {
+    "id": 414903,
+    "nome": "Coisa julgada na decisão do habeas corpus |"
+  },
+  {
+    "id": 421686,
+    "nome": "Habeas corpus substitutivo de recurso ordinário |"
+  },
+  {
+    "id": 406702,
+    "nome": "Revisão Criminal |"
+  },
+  {
+    "id": 415270,
+    "nome": "Noções Gerais |"
+  },
+  {
+    "id": 415271,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 415272,
+    "nome": "Natureza Jurídica |"
+  },
+  {
+    "id": 415273,
+    "nome": "Distinção entre Revisão Criminal e Ação Rescisória |"
+  },
+  {
+    "id": 415274,
+    "nome": "Pedidos: Juízo Rescindente e Juízo Rescisório |"
+  },
+  {
+    "id": 414915,
+    "nome": "Juízo rescindente |"
+  },
+  {
+    "id": 415275,
+    "nome": "Condições da Ação |"
+  },
+  {
+    "id": 414890,
+    "nome": "Legitimidade ativa e passiva |"
+  },
+  {
+    "id": 414889,
+    "nome": "Interesse de agir: coisa julgada |"
+  },
+  {
+    "id": 414887,
+    "nome": "Desnecessidade de esgotamento das instâncias ordinárias (prequestionamento) |"
+  },
+  {
+    "id": 414884,
+    "nome": "Possibilidade jurídica do pedido: sentença condenatória ou absolutória imprópria, inclusive após o cumprimento da pena e/ou morte do acusado |"
+  },
+  {
+    "id": 414289,
+    "nome": "Extinção da punibilidade |"
+  },
+  {
+    "id": 414314,
+    "nome": "Revisão criminal no âmbito do Júri e soberania dos veredictos |"
+  },
+  {
+    "id": 414336,
+    "nome": "Juizados Especiais Criminais |"
+  },
+  {
+    "id": 415276,
+    "nome": "Hipóteses de Cabimento |"
+  },
+  {
+    "id": 414326,
+    "nome": "Contrariedade à evidência dos autos |"
+  },
+  {
+    "id": 414315,
+    "nome": "Sentença fundada em depoimentos, exames ou documentos comprovadamente falsos |"
+  },
+  {
+    "id": 414349,
+    "nome": "Descoberta de novas provas de inocência do condenado ou de circunstância que determine ou autorize diminuição da pena |"
+  },
+  {
+    "id": 415277,
+    "nome": "Procedimento |"
+  },
+  {
+    "id": 414347,
+    "nome": "Capacidade postulatória |"
+  },
+  {
+    "id": 414235,
+    "nome": "Desnecessidade de recolhimento à prisão |"
+  },
+  {
+    "id": 414232,
+    "nome": "Inexistência de prazo decadencial |"
+  },
+  {
+    "id": 414491,
+    "nome": "Competência para julgamento da revisão criminal |"
+  },
+  {
+    "id": 414503,
+    "nome": "Ônus da prova |"
+  },
+  {
+    "id": 414960,
+    "nome": "Non reformatio in pejus direta e indireta |"
+  },
+  {
+    "id": 421724,
+    "nome": "Recursos contra a decisão da revisão criminal |"
+  },
+  {
+    "id": 421725,
+    "nome": "Indenização pelo erro judiciário |"
+  },
+  {
+    "id": 421726,
+    "nome": "Coisa julgada na decisão da revisão criminal |"
+  },
+  {
+    "id": 406703,
+    "nome": "Mandado de Segurança |"
+  },
+  {
+    "id": 415278,
+    "nome": "Noções Gerais |"
+  },
+  {
+    "id": 415280,
+    "nome": "Objeto da Tutela |"
+  },
+  {
+    "id": 415282,
+    "nome": "Legitimação Ativa e Passiva |"
+  },
+  {
+    "id": 415283,
+    "nome": "Cabimento |"
+  },
+  {
+    "id": 415284,
+    "nome": "Aspectos Procedimentais |"
+  },
+  {
+    "id": 421727,
+    "nome": "Petição inicial |"
+  },
+  {
+    "id": 421730,
+    "nome": "Competência |"
+  },
+  {
+    "id": 421733,
+    "nome": "Competência do Supremo Tribunal Federal |"
+  },
+  {
+    "id": 421734,
+    "nome": "Competência do Superior Tribunal de Justiça |"
+  },
+  {
+    "id": 421735,
+    "nome": "Competência dos Tribunais Regionais Federais |"
+  },
+  {
+    "id": 421736,
+    "nome": "Competência dos Tribunais de Justiça |"
+  },
+  {
+    "id": 406705,
+    "nome": "Recursos contra a decisão do mandado de segurança |"
+  },
+  {
+    "id": 432671,
+    "nome": "Da Graça, Do Indulto, Da Anistia e da Reabilitação |"
+  },
+  {
+    "id": 432672,
+    "nome": "Da Graça, Do Indulto, Da Anistia |"
+  },
+  {
+    "id": 432673,
+    "nome": "Da Reabilitação |"
+  },
+  {
+    "id": 421737,
+    "nome": "Disposições gerais do Código de Processo Penal |"
+  },
+  {
+    "id": 421739,
+    "nome": "Audiências e sessões |"
+  },
+  {
+    "id": 421742,
+    "nome": "Prazos |"
+  },
+  {
+    "id": 421747,
+    "nome": "Prazos penais versus prazos processuais |"
+  },
+  {
+    "id": 421748,
+    "nome": "Fluência dos prazos processuais |"
+  },
+  {
+    "id": 421749,
+    "nome": "Prazos processuais em espécie |"
+  },
+  {
+    "id": 421750,
+    "nome": "Princípios informadores da disciplina dos prazos processuais |"
+  },
+  {
+    "id": 421756,
+    "nome": "Princípio da continuidade |"
+  },
+  {
+    "id": 421743,
+    "nome": "Retirada de autos |"
+  },
+  {
+    "id": 421744,
+    "nome": "Custas processuais |"
+  },
+  {
+    "id": 421745,
+    "nome": "Substituição do escrivão/diretor de secretaria |"
+  },
+  {
+    "id": 406681,
+    "nome": "Estatística judiciária criminal |"
+  },
+  {
+    "id": 421738,
+    "nome": "Súmulas do STF e do STJ |"
+  },
+  {
+    "id": 406685,
+    "nome": "Leis Processuais Penais |"
+  },
+  {
+    "id": 418413,
+    "nome": "Lei 13.964/2019 - Aperfeiçoa a legislação penal e processual penal. |"
+  }
+]

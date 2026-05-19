@@ -1,0 +1,274 @@
+{
+  "Direito Ambiental": [
+    {
+      "id": "oab_38_35",
+      "materia": "Direito Ambiental",
+      "assunto": "Competência Municipal para legislar sobre meio ambiente",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Determinado Município localizado no interior do Estado Delta pretende legislar sobre matéria ambiental, no que tange ao processamento e destinação final de pneus inservíveis e à logística reversa, visando atender ao peculiar interesse local. Sabe-se que o projeto de lei está harmônico com a disciplina legislativa estadual e federal atualmente vigente. No caso em tela, em matéria de competência legislativa ambiental, de acordo com a CRFB/88, é correto afirmar que o projeto de lei em tese,",
+      "alternativas": {
+        "A": "ofende a Carta Magna, porque compete à União legislar privativamente sobre proteção ao meio ambiente, observadas as premissas constitucionais.",
+        "B": "é incompatível com a Carta Magna, porque compete à União, aos Estados e ao Distrito Federal legislar privativamente sobre proteção ao meio ambiente.",
+        "C": "não viola a Carta Magna, porque o Município possui competência suplementar à da União e à dos Estados para legislar sobre proteção ao meio ambiente, no limite do seu interesse local e desde que tal regramento seja harmônico com a disciplina estabelecida pelos demais entes federados.",
+        "D": "não afronta a Carta Magna, porque o Município possui competência concorrente e não suplementar com a União e os Estados para legislar sobre proteção ao meio ambiente, de maneira que pode dispor de forma diversa e menos protetiva ao ambiente do que a disciplina estadual."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa C está correta. O Município tem competência suplementar para legislar sobre meio ambiente (art. 30, I e II, CF), desde que haja interesse local e harmonia com a legislação federal e estadual (RE 732686/STF)."
+    },
+    {
+      "id": "oab_38_36",
+      "materia": "Direito Ambiental",
+      "assunto": "Outorga de Uso de Recursos Hídricos",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "O condomínio residencial Alfa Orquídeas é constituído por diversos blocos, com médio núcleo populacional, e está localizado em zona urbana do Município Beta, situado no Estado Gama. Diante da inexistência de rede canalizada para distribuição e abastecimento de água potável na localidade, desde a recente construção do condomínio, os condôminos fazem uso de caminhões pipas. Seja pelo alto custo, seja pela escassez dos caminhões pipas, os condôminos aprovaram, por unanimidade em assembleia, que o condomínio iria proceder à construção de um poço semiaresiano, para extração de água de um aquífero subterrâneo existente no local, para fins de consumo final. Sabe-se que o citado aquífero não é de domínio da União, que não tem qualquer tipo de interesse na questão. Para agir dentro da legalidade, antes da construção do poço, síndico do condomínio residencial Alfa Orquídeas deve requerer",
+      "alternativas": {
+        "A": "licença ambiental ao Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama).",
+        "B": "licença ambiental ao órgão ambiental do Município Beta.",
+        "C": "licença de uso de recursos hídricos ao Município Beta.",
+        "D": "outorga de uso de recursos hídricos ao Estado Gama."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa D está correta. A extração de água de aquífero subterrâneo sujeita-se à outorga de direito de uso de recursos hídricos (art. 12, II, da Lei 9.433/96). Como o aquífero não é de domínio da União (art. 26, I, CF), a competência é do Estado Gama."
+    },
+    {
+      "id": "oab_39_35",
+      "materia": "Direito Ambiental",
+      "assunto": "Crime Ambiental - Informação Falsa em EIA (Lei 9.605/98)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 69-A, §2º da Lei 9.605/98.",
+      "enunciado": "O engenheiro ambiental João foi contratado pelo empreendedor Alfa para coordenar uma equipe multidisciplinar durante a elaboração de um estudo de impacto ambiental (EIA), referente a empreendimento que causará relevantes impactos ambientais. João também foi contratado para representar o empreendedor junto ao órgão ambiental licenciador, inclusive recebendo procuração para impulsionar o processo administrativo de requerimento de licença. Com intuito de esconder os reais impactos ambientais do empreendimento, e sem que os demais profissionais que participaram dos estudos do EIA tivessem ciência, João, de forma dolosa, elaborou e apresentou, no licenciamento ambiental, estudo de impacto ambiental parcialmente enganoso, por omissão. Diante da conduta de João, foi emitida licença ambiental sem as devidas condicionantes, de maneira que houve dano significativo ao meio ambiente, em decorrência do uso da informação incompleta e enganosa por ele apresentada ao órgão ambiental. De acordo com a Lei n.º 9.605/98, em matéria de responsabilidade penal, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "João não praticou crime ambiental, pois não existe crime ambiental omissivo, mas deve ser responsabilizado na esfera ambiental, em âmbito cível e administrativo.",
+        "B": "João não realizou conduta que configure crime ambiental, pois não é o empreendedor, que deve responder, como pessoa jurídica, nas esferas criminal, cível e administrativa.",
+        "C": "João cometeu crime ambiental, e a pena deve ser aumentada, porque houve dano significativo ao meio ambiente, em decorrência do uso da informação incompleta e enganosa por ele apresentada ao órgão ambiental.",
+        "D": "João incorreu em crime ambiental, e a pena deve ser diminuída, porque o responsável pela elaboração e apresentação do EIA não é o empreendedor e sim, o profissional técnico."
+      },
+      "gabarito": "C",
+      "comentario": "João praticou o crime do art. 69-A da Lei 9.605/98 (elaborar ou apresentar estudo ambiental falso ou enganoso, inclusive por omissão). O §2º do mesmo artigo determina que a pena é aumentada de 1/3 a 2/3 se há dano significativo ao meio ambiente em decorrência do uso da informação falsa, incompleta ou enganosa."
+    },
+    {
+      "id": "oab_39_36",
+      "materia": "Direito Ambiental",
+      "assunto": "Princípio da Prevenção",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Princípios do Direito Ambiental.",
+      "enunciado": "A sociedade empresária Alfa requereu licença ambiental para empreendimento consistente em indústria de cimento que gera materiais particulados, que se instalaria em determinada zona industrial já saturada. Durante o processo de licenciamento ambiental, restou comprovado que o impacto apresentado comprometeria a capacidade de suporte da área, causando grave poluição atmosférica. Diante dos riscos e impactos já de antemão conhecidos, o órgão ambiental licenciador indeferiu o pedido da licença. Assinale a opção que indica o princípio específico que embasou a decisão de negar a licença ambiental.",
+      "alternativas": {
+        "A": "Precaução, que requer certeza científica conclusiva e segura sobre os impactos ambientais.",
+        "B": "Prevenção, em que o risco é previamente conhecido e existe certeza a respeito da sua ocorrência.",
+        "C": "Desenvolvimento sustentável, que se relaciona à informação científica conclusiva quanto aos danos ambientais a serem causados.",
+        "D": "Poluidor-pagador, que evidenciou que o perigo de dano ambiental era certo com elementos seguros para concluir que a atividade é efetivamente perigosa."
+      },
+      "gabarito": "B",
+      "comentario": "O princípio da prevenção aplica-se quando o risco é conhecido e há certeza científica sobre o dano ambiental (risco certo). O princípio da precaução (alternativa A) aplica-se quando há incerteza científica. O desenvolvimento sustentável (C) busca equilíbrio, e o poluidor-pagador (D) é sancionatório/reparatório."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_35",
+      "materia": "Direito Ambiental",
+      "assunto": "Unidades de Conservação - Desafetação e Redução de Limites",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Município Alfa criou regularmente uma Unidade de Conservação (UC), por meio de decreto do Prefeito. Três anos depois, mediante a realização de novos estudos técnicos e de consulta pública, o chefe do Executivo municipal se convenceu de que deveria reduzir os limites geográficos da Unidade de Conservação. Sabendo que o Prefeito está prestes a assinar novo decreto promovendo a supressão e a desafetação de uma parte dessa Unidade de Conservação, um grupo de ambientalistas procurou você como advogado(a). Nesse contexto, assinale a opção que apresenta, corretamente, sua orientação acerca do novo decreto.",
+      "alternativas": {
+        "A": "O decreto em questão não pode ser considerado válido, pois quaisquer alterações na UC devem ser precedidas de autorização dos órgãos ambientais estadual e federal;",
+        "B": "Não há qualquer mácula no aludido decreto, uma vez que foram realizados novos estudos técnicos e consulta pública, que são imprescindíveis para quaisquer alterações na UC;",
+        "C": "É inviável a alteração pretendida por decreto, haja vista que a desafetação ou redução dos limites de Unidade de Conservação só pode ser feita mediante lei específica;",
+        "D": "O decreto em análise está em consonância com o ordenamento jurídico, na medida em que, se a criação da UC se deu por tal via, sua redução pode ser realizada pelo mesmo instrumento normativo."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata do tema Unidades de Conservação. A alternativa A está incorreta, pois não há previsão na Lei Federal nº 9.985/2000 quanto à necessidade de prévia autorização dos órgãos ambientais estadual e federal para alterações em UC. A alternativa B está incorreta, pois a alteração pretendida, referente a redução de limites geográficos, demanda Lei específica, mesmo que existentes estudos técnicos e consulta pública. A alternativa C está correta, conforme art. 22, §7º, da Lei Federal nº 9.985/2000: \"A desafetação ou redução dos limites de uma unidade de conservação só pode ser feita mediante lei específica\". Assim sendo, conforme o referido dispositivo legal, a redução dos limites geográficos pretendida pelo chefe do Executivo municipal só poderia ser realizada mediante Lei específica, sendo inviável a sua concretização via Decreto. A alternativa D está incorreta, pois somente a ampliação dos limites de uma UC pode ser feita por instrumento normativo do mesmo nível hierárquico do que criou a unidade, conforme art. 22, §6º, da Lei Federal nº 9.985/2000."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_36",
+      "materia": "Direito Ambiental",
+      "assunto": "Licenciamento Ambiental - Licença Prévia",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "A sociedade empresária Gama requereu licença ambiental para empreender um aterro sanitário. O processo de licenciamento ambiental tramita no órgão licenciador competente. No curso do procedimento, observadas as cautelas legais necessárias, o licenciador deferiu licença na fase inicial do planejamento do empreendimento, aprovando sua localização e concepção, atestando a viabilidade ambiental e estabelecendo os requisitos básicos e condicionantes a serem atendidos nas próximas fases de sua implementação. Registre-se que tal licença foi deferida isoladamente, diante da natureza, das características e da fase do empreendimento. O caso em tela, de acordo com a Resolução CONAMA nº 237/1997, trata de licença",
+      "alternativas": {
+        "A": "Prévia, que será sucedida, na próxima etapa do licenciamento, pela licença de instalação, que autorizará a instalação do empreendimento de acordo com as especificações constantes dos planos, programas e projetos aprovados;",
+        "B": "De instalação, que será sucedida, na próxima etapa do licenciamento, pela licença de operação, que autorizará a operação da atividade ou do empreendimento, após a verificação do efetivo cumprimento do que consta das licenças anteriores, com as medidas de controle ambiental e os condicionantes determinados para a operação;",
+        "C": "De funcionamento, que foi precedida pela licença ambiental simplificada, que autorizará o início dos estudos ambientais, em especial, a elaboração do estudo prévio de impacto ambiental e seu correlato relatório de impacto ambiental;",
+        "D": "De operação, que foi precedida pela licença de instalação, que autorizará a execução das medidas mitigatórias previstas no estudo de impacto ambiental e a instalação do empreendimento de acordo com as especificações constantes dos planos, programas e projetos aprovados."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do tema Licenciamento Ambiental. A alternativa A está correta, conforme art. 8º, inciso I, da Resolução CONAMA nº 237/1997: \"Licença Prévia (LP) - concedida na fase preliminar do planejamento do empreendimento ou atividade aprovando sua localização e concepção, atestando a viabilidade ambiental e estabelecendo os requisitos básicos e condicionantes a serem atendidos nas próximas fases de sua implementação\". Assim, considerando o contexto apresentado pelo enunciado da questão, de licença deferida na fase inicial do planejamento do empreendimento, aprovando sua localização e concepção, atestando a viabilidade ambiental e estabelecendo os requisitos básicos e condicionantes a serem atendidos nas próximas fases de sua implementação, trata-se de licença prévia. Ressalta-se que as licenças ambientais poderão ser expedidas isoladamente, conforme art. 8º, parágrafo único, da Resolução CONAMA nº 237/1997: \"As licenças ambientais poderão ser expedidas isolada ou sucessivamente, de acordo com a natureza, características e fase do empreendimento ou atividade\". A alternativa B está incorreta, pois apesar de trazer o conceito de licença de operação previsto no art. 8º, inciso III, da Resolução CONAMA nº 237/1997, e a correta ordem das licenças a serem concedidas, a licença de instalação não é deferida na fase inicial do planejamento. A alternativa C está incorreta, dado que não há previsão na Resolução CONAMA nº 237/1997 sobre licença de funcionamento ou licença ambiental simplificada. A alternativa D está incorreta, pois não traz o conceito correto de licença de instalação previsto no art. 8º, inciso II, da Resolução CONAMA nº 237/1997, além de que a licença de operação não é deferida na fase inicial do planejamento."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_35",
+      "materia": "Direito Ambiental",
+      "assunto": "Licença Ambiental e Lei Superveniente",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "A Sociedade Divergente, após os procedimentos pertinentes, obteve a licença de operação para as atividades lesivas ao meio ambiente que exerce pelo prazo de dez anos. Para tanto, vem cumprindo todas as condicionantes da licença ambiental, inclusive medidas mitigadoras e compensatórias, então determinadas pelo órgão competente. Dois anos depois da concessão da mencionada licença de operação, houve um grande avanço tecnológico, que viabiliza a drástica redução das externalidades negativas do empreendimento em questão. Por isso, foi editada uma lei que passou a exigir o emprego da nova técnica, inclusive, para as atividades já licenciadas. Em razão disso, os representantes da mencionada pessoa jurídica consultaram a sua assessoria jurídica para dirimir as dúvidas relacionadas aos efeitos do mencionado Diploma Legal superveniente na licença regularmente obtida em momento anterior, situação em que você esclareceu, corretamente, que a exigência da nova técnica",
+      "alternativas": {
+        "A": "poderá condicionar apenas os empreendimentos que não tenham obtido a licença de instalação ou a de operação, não podendo, em nenhuma hipótese, afetar aquelas que tenham sido validamente concedidas.",
+        "B": "importará na anulação automática da licença de operação anteriormente concedida, independentemente de motivação do respectivo órgão competente, por se tratar de medida mais protetiva ao meio ambiente.",
+        "C": "não poderá ser aplicada em nenhuma situação em que a licença ambiental tenha sido deferida de forma válida, seja ela prévia, de instalação ou de operação, de modo que somente pode condicionar os empreendimentos que ainda não iniciaram o licenciamento ambiental.",
+        "D": "é passível de ser exigida mesmo para as situações em que há licença de operação válida, pois o órgão ambiental competente, mediante decisão motivada poderá modificar as condicionantes, suspender ou cancelar licença expedida, quando ocorrer inadequação às normas legais."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão aborda o conhecimento sobre licença ambiental. A alternativa A está incorreta, tendo em vista que a nova técnica é passível de ser exigida, mesmo para as situações em que há licença de operação válida, tendo em vista a edição de uma lei que passou a exigir o emprego da nova técnica, inclusive, para as atividades já licenciadas. De acordo com o art. 19, I, da Resolução nº 237 do CONAMA: “Art. 19. O órgão ambiental competente, mediante decisão motivada, poderá modificar os condicionantes e as medidas de controle e adequação, suspender ou cancelar uma licença expedida, quando ocorrer: I - violação ou inadequação de quaisquer condicionantes ou normas legais”. A alternativa B está incorreta, pois a superveniência do diploma legal não importa na anulação automática da licença de operação anteriormente concedida, sendo necessária decisão motivada do respectivo órgão competente. Nesse sentido, dispõe o art. 19, I, da Resolução nº 237 do CONAMA que: “Art. 19. O órgão ambiental competente, mediante decisão motivada, poderá modificar os condicionantes e as medidas de controle e adequação, suspender ou cancelar uma licença expedida, quando ocorrer: I - violação ou inadequação de quaisquer condicionantes ou normas legais”. A alternativa C está incorreta, pois a nova técnica é passível de ser exigida, mesmo para as situações em que há licença de operação válida, tendo em vista a edição de uma lei que passou a exigir o emprego da nova técnica, inclusive, para as atividades já licenciadas. De acordo com o art. 19, I, da Resolução nº 237 do CONAMA: “Art. 19. O órgão ambiental competente, mediante decisão motivada, poderá modificar os condicionantes e as medidas de controle e adequação, suspender ou cancelar uma licença expedida, quando ocorrer: I - violação ou inadequação de quaisquer condicionantes ou normas legais”. A alternativa D está correta, pois a nova técnica é passível de ser exigida, mesmo para as situações em que há licença de operação válida, tendo em vista a edição de uma lei que passou a exigir o emprego da nova técnica, inclusive, para as atividades já licenciadas. De acordo com o art. 19, I, da Resolução nº 237 do CONAMA: “Art. 19. O órgão ambiental competente, mediante decisão motivada, poderá modificar os condicionantes e as medidas de controle e adequação, suspender ou cancelar uma licença expedida, quando ocorrer: I - violação ou inadequação de quaisquer condicionantes ou normas legais”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_36",
+      "materia": "Direito Ambiental",
+      "assunto": "Política Nacional de Recursos Hídricos",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Gentil realiza atividade de agricultura familiar, tem um aviário e cria alguns animais, notadamente para a produção de leite. A pequena propriedade rural de Gentil vem sendo drasticamente afetada pelas alterações do entorno, de modo que o acesso à água, que já foi abundante, resta cada vez mais comprometido, configurando o contexto chamado de escassez hídrica. Em razão disso, Gentil consultou você, como advogado(a) especializado(a) em Direito Ambiental, acerca da existência e do delineamento de uma Política Nacional de Recursos Hídricos, até mesmo para viabilizar o acesso à água fora dos limites de sua propriedade. Com relação aos fundamentos da mencionada Política, na forma prevista na Lei nº 9.433/1997, você informou a Gentil que a legislação em vigor lhe confere o direito de continuar com suas atividades, com base na seguinte afirmativa:",
+      "alternativas": {
+        "A": "A água é um bem privado, de modo que pertence aos proprietários das terras em que se situam, que podem explorá-las economicamente sem autorização do Poder Público.",
+        "B": "A água, por ser um recurso ilimitado, não possui valor econômico, de modo que deve ser utilizada por todos os interessados de comum acordo.",
+        "C": "O uso prioritário dos recursos hídricos, em situações de escassez, é para o consumo humano e a dessedentação de animais.",
+        "D": "A gestão de recursos hídricos é centralizada em âmbito federal, de modo que não pode contar com a participação dos usuários e das comunidades, que, entretanto, têm o direito de exercer atividades econômicas com a utilização da água."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão aborda o conhecimento sobre a Política Nacional de Recursos Hídricos prevista na Lei nº 9.433/97. A alternativa A está incorreta, tendo em vista que a água não é um bem privado, mas trata-se de bem de domínio público. De acordo com o art. 1º, I, da Política Nacional de Recursos Hídricos (Lei nº 9.433/97): “Art. 1º A Política Nacional de Recursos Hídricos baseia-se nos seguintes fundamentos: I - a água é um bem de domínio público”. A alternativa B está incorreta, pois a água é um recurso limitado, que possui valor econômico, nos termos do art. 1º, II, da Política Nacional de Recursos Hídricos (Lei nº 9.433/97): “Art. 1º A Política Nacional de Recursos Hídricos baseia-se nos seguintes fundamentos: II - a água é um recurso natural limitado, dotado de valor econômico”. A alternativa C está correta, pois traz a redação literal expressa do art. 1º, III, da Política Nacional de Recursos Hídricos (Lei nº 9.433/97): “Art. 1º A Política Nacional de Recursos Hídricos baseia-se nos seguintes fundamentos: III - em situações de escassez, o uso prioritário dos recursos hídricos é o consumo humano e a dessedentação de animais”. A alternativa D está incorreta, pois a gestão de recursos hídricos é descentralizada e deve contar com a participação dos usuários e das comunidades, conforme o disposto no art. 1º, VI, da Política Nacional de Recursos Hídricos (Lei nº 9.433/97): “Art. 1º A Política Nacional de Recursos Hídricos baseia-se nos seguintes fundamentos: VI - a gestão dos recursos hídricos deve ser descentralizada e contar com a participação do Poder Público, dos usuários e das comunidades”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_35",
+      "materia": "Direito Ambiental",
+      "assunto": "Supressão de vegetação em APP para ecoturismo",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Bruno pretende realizar supressão de vegetação nativa em Área de Preservação Permanente no interior de sua propriedade, a fim de viabilizar a implantação de trilhas para o desenvolvimento do ecoturismo. Com objetivo de verificar a legalidade de seu projeto, Bruno consultou você, como advogado(a). Você informou a seu cliente que, de acordo com o Código Florestal, a intervenção ou a supressão de vegetação nativa em Área de Preservação Permanente ocorrerá nas hipóteses previstas naquela Lei. Assim, sobre a implantação de trilhas para o desenvolvimento do ecoturismo, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Encaixa-se na hipótese de interesse social, razão pela qual é viável a supressão vegetal.",
+        "B": "Não se amolda a qualquer das hipóteses, razão pela qual é inviável a supressão vegetal.",
+        "C": "Enquadra-se na hipótese de baixo impacto ambiental, razão pela qual é viável a supressão vegetal.",
+        "D": "Não se compatibiliza com qualquer das hipóteses, mas é viável a supressão vegetal, mediante pagamento de prévia compensação ambiental."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata do tema Áreas de Preservação Permanente. Em regra, as APPs não podem ser suprimidas, salvo hipóteses específicas trazidas pelo próprio Código Florestal. São elas: utilidade pública, interesse social e baixo impacto ambiental. É o que determina o texto do art. 8º do Código Florestal: “Art. 8º A intervenção ou a supressão de vegetação nativa em Área de Preservação Permanente somente ocorrerá nas hipóteses de utilidade pública, de interesse social ou de baixo impacto ambiental previstas nesta Lei.” No caso concreto narrado, depreende-se que a implantação de trilhas para ecoturismo se enquadra como atividade de baixo impacto ambiental, na forma do art. 3º, X, alínea “c”, da Lei 12.651/12, sendo viável a supressão de vegetação nativa na respectiva Área de Preservação Permanente. Vejamos: “Art. 3º Para os efeitos desta Lei, entende-se por: X - atividades eventuais ou de baixo impacto ambiental: c) implantação de trilhas para o desenvolvimento do ecoturismo;” Portanto, a alternativa correta é a letra C. As alternativas A, B e D ficam, pois, automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_36",
+      "materia": "Direito Ambiental",
+      "assunto": "Crimes ambientais - pesca em período proibido",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "A palavra piracema vem do tupi e significa saída de peixes. Trata-se de um fenômeno que ocorre com diversas espécies de peixes e constitui importante estratégia reprodutiva para garantir que o peixe complete seu ciclo de vida, dando continuidade à sua espécie. Apesar de estar ciente da importância de respeitar o período em que a legislação veda a pesca, Carlos, de forma livre e consciente, estava pescando, no período em que a pesca ainda estava proibida. Por isso, foi abordado por fiscais do meio ambiente, que encontraram em seu barco várias caixas de peixes já mortos. Após o aludido fato, Carlos procurou você, como advogado(a), para tirar dúvidas acerca das penalidades que poderiam a ele ser aplicadas e os eventuais reflexos delas decorrentes. Sobre a conduta praticada por Carlos, à luz da Lei nº 9.605/1998, assinale a opção que apresenta, corretamente, a orientação dada.",
+      "alternativas": {
+        "A": "Caracteriza crime ambiental punível com pena de detenção, sendo incabível, contudo, a transação penal, em decorrência da penalidade prevista para o delito.",
+        "B": "Caracteriza tanto crime ambiental quanto infração administrativa, mas não pode ensejar a apreensão dos produtos e instrumentos utilizados na prática do ilícito.",
+        "C": "Caracteriza apenas infração administrativa, viabilizando a imediata apreensão dos peixes, sendo a ele aplicáveis sanções restritivas de direitos na esfera extrapenal.",
+        "D": "Caracteriza somente infração administrativa, passível da aplicação de multa e da apreensão dos peixes e dos instrumentos, petrechos e equipamentos de qualquer natureza utilizados na infração."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do tema crimes ambientais. O artigo 34 da Lei 9.605/98 classifica como crime a pesca realizada em períodos proibidos. Vejamos: “Art. 34. Pescar em período no qual a pesca seja proibida ou em lugares interditados por órgão competente: Pena - detenção de um ano a três anos ou multa, ou ambas as penas cumulativamente.”. Assim, não é cabível a transação penal, já que o delito não se enquadra como de menor potencial ofensivo, pois sua pena máxima é superior a 02 anos. A título de esclarecimento, a transação penal está disposta no art. 76 da Lei 9.099/95: “Art. 76. Havendo representação ou tratando-se de crime de ação penal pública incondicionada, não sendo caso de arquivamento, o Ministério Público poderá propor a aplicação imediata de pena restritiva de direitos ou multas, a ser especificada na proposta.” Portanto, a alternativa correta é a letra A: A conduta praticada por Carlos caracteriza crime ambiental punível com pena de detenção, sendo incabível, contudo, a transação penal, em decorrência da penalidade prevista para o delito. As alternativas B, C e D ficam, pois, automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_35",
+      "materia": "Direito Ambiental",
+      "assunto": "Licenciamento ambiental e competência supletiva",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "A sociedade empresária XYZ, recentemente constituída, exercerá atividade econômica potencialmente causadora de degradação ambiental, tornando-se necessário o licenciamento ambiental. Os sócios da entidade verificaram, contudo, que o Município Alfa, responsável pelo licenciamento ambiental no caso concreto, não dispõe de órgão ambiental capacitado ou de conselho do meio ambiente. Logo, a entidade contratou os serviços de um(a) advogado(a) para orientá-la sobre como proceder na sequência. O patrono constatou, então, que o Estado Beta, cuja capital está no Município Alfa, e a União possuem órgãos ambientais capacitados. Nesse cenário, considerando as disposições da Lei Complementar nº 140/2011, que versa sobre a competência ambiental dos entes federativos, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Na ausência de órgão ambiental capacitado ou conselho do meio ambiente no Município Alfa, a ação administrativa de licenciamento ocorrerá perante a União.",
+        "B": "Inexistindo órgão ambiental capacitado ou conselho do meio ambiente no Município Alfa, a ação administrativa de licenciamento ocorrerá perante o Estado Beta.",
+        "C": "Até que o Município Alfa crie um órgão ambiental capacitado ou um conselho do meio ambiente, a sociedade empresária XYZ não poderá exercer, regularmente, as suas atividades, por ausência de licenciamento ambiental.",
+        "D": "Como não há órgão ambiental capacitado ou conselho do meio ambiente no Município Alfa, a sociedade empresária XYZ terá direito ao licenciamento ambiental tácito, podendo exercer suas atividades de forma regular."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata dos temas licenciamento ambiental e competência dos entes em relação à proteção do meio ambiente. A alternativa A está incorreta. Observe que, como o Estado Beta possui os órgãos competentes, será dele a competência para desempenhar as ações administrativas do Município Alfa. Tal competência somente seria da União se tanto Município Alfa quanto o Estado Beta não tivessem os órgãos competentes. É o que determina art. 15, III, da LC 140/2011: “Art. 15. Os entes federativos devem atuar em caráter supletivo nas ações administrativas de licenciamento e na autorização ambiental, nas seguintes hipóteses: III - inexistindo órgão ambiental capacitado ou conselho de meio ambiente no Estado e no Município, a União deve desempenhar as ações administrativas até a sua criação em um daqueles entes federativos.” A alternativa B está correta. Ao analisar o caso concreto, percebe-se que o Município Alfa, responsável pelo licenciamento ambiental, não dispõe de órgão ambiental capacitado ou de conselho do meio ambiente, mas o Estado Beta (onde Alfa está inserido) e a União possuem tais órgãos ambientais capacitados. Nessa hipótese, segue-se o disposto no artigo 15, II, da LC 140/2011, vejamos: “Art. 15. Os entes federativos devem atuar em caráter supletivo nas ações administrativas de licenciamento e na autorização ambiental, nas seguintes hipóteses: II - inexistindo órgão ambiental capacitado ou conselho de meio ambiente no Município, o Estado deve desempenhar as ações administrativas municipais até a sua criação;”. Logo, a alternativa correta é a letra B. Automaticamente, a alternativa C fica incorreta, pois haverá sim o licenciamento, a ser realizado pelo Estado Beta. A alternativa D está incorreta. Não existe, em nenhum dispositivo legal, o chamado licenciamento tácito. Pelo contrário, o licenciamento é um procedimento administrativo, com suas fases e trâmites definidos em lei. Conforme art. 2º, I, da LC 140/2011: “Art. 2º Para os fins desta Lei Complementar, consideram-se: I - licenciamento ambiental: o procedimento administrativo destinado a licenciar atividades ou empreendimentos utilizadores de recursos ambientais, efetiva ou potencialmente poluidores ou capazes, sob qualquer forma, de causar degradação ambiental;”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_36",
+      "materia": "Direito Ambiental",
+      "assunto": "Litigância climática e fundamentos normativos",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Diante das numerosas tragédias climáticas registradas, ganhou força nas recentes discussões jurídicas a pauta relacionada à designada litigância climática, por meio da qual o Judiciário é instado a se manifestar para impor medidas com vistas a reduzir efeitos deletérios sobre o clima, especialmente por meio de ações civis públicas ajuizadas pelo Ministério Público. A associação Puravida, que atua na área ambiental, tem especial interesse na aludida matéria, de modo que procurou você, como advoga do(a), para esclarecer dúvidas acerca do respectivo arcabouço jurídico. Com relação à atuação jurisdicional da litigância climática, assinale a afirmativa que apresenta, corretamente, seu esclarecimento.",
+      "alternativas": {
+        "A": "Inexiste qualquer amparo no ordenamento jurídico, diante da primazia do princípio da livre iniciativa e do desenvolvimento econômico do país.",
+        "B": "Tem assento, exclusivamente, em normas infraconstitucionais, notadamente na lei que institui a Política Nacional sobre a Mudança do Clima (PNMC).",
+        "C": "A temática dispõe de previsão em normas nacionais e internacionais que versam sobre o tema, mas não há fundamento constitucional que lhe confira amparo.",
+        "D": "Decorre das normas previstas na CRFB/88 para a proteção do meio ambiente ecologicamente equilibrado e de normas internacionais, além das editadas internamente para tal fim, como a Política Nacional sobre a Mudança do Clima (PNMC)."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata do tema proteção ao meio ambiente, em especial no tocante às mudanças climáticas. Observa-se que a proteção ao meio ambiente é tratada tanto na CF/88, quanto em normas internacionais, quanto em leis infraconstitucionais e normas internacionais. Na Constituição, é o artigo 225 que trata da proteção ao meio ambiente. Vejamos: “Art. 225. Todos têm direito ao meio ambiente ecologicamente equilibrado, bem de uso comum do povo e essencial à sadia qualidade de vida, impondo-se ao Poder Público e à coletividade o dever de defendê-lo e preservá-lo para as presentes e futuras gerações. (...)”. Internacionalmente, tem-se o Acordo de Paris tratando sobre as mudanças climáticas. Segundo seu artigo 2º: “1. Este Acordo, ao reforçar a implementação da Convenção, incluindo seu objetivo, visa fortalecer a resposta global à ameaça da mudança do clima, no contexto do desenvolvimento sustentável e dos esforços de erradicação da pobreza, incluindo: (a) Manter o aumento da temperatura média global bem abaixo de 2°C em relação aos níveis pré-industriais, e envidar esforços para limitar esse aumento da temperatura a 1,5°C em relação aos níveis pré-industriais, reconhecendo que isso reduziria significativamente os riscos e os impactos da mudança do clima; (b) Aumentar a capacidade de adaptação aos impactos negativos da mudança do clima e promover a resiliência à mudança do clima e um desenvolvimento de baixa emissão de gases de efeito estufa, de uma maneira que não ameace a produção de alimentos; e (c) Tornar os fluxos financeiros compatíveis com uma trajetória rumo a um desenvolvimento de baixa emissão de gases de efeito estufa e resiliente à mudança do clima.” E, quanto ao ordenamento interno, é a PNMC (Política Nacional sobre Mudança do Clima – Lei 12.187/2009) que trata sobre o tema, trazendo diversos instrumentos, objetivos e diretrizes a serem seguidos quanto à mudança do clima. Como exemplo, menciona-se o artigo 5º, II, IV e V, da PNMC. Vejamos: “Art. 5º São diretrizes da Política Nacional sobre Mudança do Clima: III - as medidas de adaptação para reduzir os efeitos adversos da mudança do clima e a vulnerabilidade dos sistemas ambiental, social e econômico; IV - as estratégias integradas de mitigação e adaptação à mudança do clima nos âmbitos local, regional e nacional; V - o estímulo e o apoio à participação dos governos federal, estadual, distrital e municipal, assim como do setor produtivo, do meio acadêmico e da sociedade civil organizada, no desenvolvimento e na execução de políticas, planos, programas e ações relacionados à mudança do clima;”."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_35",
+      "materia": "Direito Ambiental",
+      "assunto": "Estudo de Impacto de Vizinhança (EIV) e Estudo de Impacto Ambiental (EIA)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "A sociedade empresária Empreendedorix deseja construir em grande shopping center em terreno situado na área urbana do Município Delta, que contribuirá para incrementar o comércio na localidade, mas surtirá efeitos na qualidade de vida da população e no meio ambiente do entorno, razão pela qual a atividade se enquadra entre aquelas para as quais é necessária a elaboração de Estudo de Impacto Ambiental (EIA). Ocorre que o Município Delta tem legislação local que define que tal empreendimento privado depende de elaboração de Estudo Prévio de Impacto de Vizinhança (EIV), para obter as licenças ou autorizações de construção, ampliação ou funcionamento a cargo do Poder Público local. Em razão disso, os representantes da sociedade empresária Empreendedorix procuram você, como advogado(a), para esclarecer as peculiaridades do instrumento previsto na referida legislação municipal. Considerando os fatos narrados, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O EIV, diferentemente do EIA, não pode ser enquadrado como instrumento da Política Nacional do Meio Ambiente.",
+        "B": "A realização do EIV não substitui a elaboração e a aprovação do EIA, requeridas nos termos da legislação ambiental.",
+        "C": "O EIV será executado de forma a contemplar seus efeitos positivos, mas não precisa apontar os efeitos negativos do empreendimento, diante de seus objetivos legítimos.",
+        "D": "Independentemente de previsão na lei municipal, o EIV seria necessário, considerando o grande empreendimento a ser realizado pela sociedade Empreendedorix."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata do tema do Estudo de Impacto de Vizinhança (EIV) e do Estudo de Impacto Ambiental (EIA). A alternativa A está incorreta, pois tanto o EIV como o EIA podem ser enquadrados (ou considerados) como instrumentos da Política Nacional do Meio Ambiente, conforme determina o art. 9º, incisos III e IV, da Lei 6.938/1981. Veja literalidade da lei: “Art. 9º - São Instrumentos da Política Nacional do Meio Ambiente: III - a avaliação de impactos ambientais; IV - o licenciamento e a revisão de atividades efetiva ou potencialmente poluidoras;”. A alternativa B está correta, pois é a literalidade do art. 38 da Lei 10.257/2001. Veja literalidade da lei: “Art. 38. A elaboração do EIV não substitui a elaboração e a aprovação de estudo prévio de impacto ambiental (EIA), requeridas nos termos da legislação ambiental.”. A alternativa C está incorreta, pois o art. 37 da Lei 10.257/2001 prevê expressamente que deverão ser contemplados tanto os efeitos positivos como negativos. Veja a literalidade da lei: “Art. 37. O EIV será executado de forma a contemplar os efeitos positivos e negativos do empreendimento ou atividade quanto à qualidade de vida da população residente na área e suas proximidades, incluindo a análise, no mínimo, das seguintes questões:”. A alternativa D está incorreta, pois depende de lei municipal. A lei municipal definirá quais empreendimentos dependerão de elaboração de estudo prévio de impacto de vizinhança (EIV), conforme determina o art. 36 da Lei 10.257/2001. Veja a literalidade da lei: “Art. 36. Lei municipal definirá os empreendimentos e atividades privados ou públicos em área urbana que dependerão de elaboração de estudo prévio de impacto de vizinhança (EIV) para obter as licenças ou autorizações de construção, ampliação ou funcionamento a cargo do Poder Público municipal”."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_36",
+      "materia": "Direito Ambiental",
+      "assunto": "Responsabilidade ambiental da pessoa jurídica",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Por decisão de seus representantes legais, o exercício de determinada atividade empresarial da sociedade Aurora, em benefício próprio, ensejou a poluição de um determinado rio, de modo que a conduta praticada ocasionou severos danos ao meio ambiente e, ao mesmo tempo, caracteriza ilícito penal, civil e administrativo. Diante dessa situação hipotética e considerando as normas de responsabilização da pessoa jurídica em matéria ambiental, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A sociedade Aurora deve ser responsabilizada administrativa, civil e penalmente pela aludida conduta, nos termos da legislação de regência.",
+        "B": "Eventual responsabilização penal da sociedade Aurora afasta a possibilidade de que ela seja responsabilizada nas esferas civil e administrativa.",
+        "C": "Para que possa responder na esfera administrativa, é imprescindível a condenação penal da sociedade Aurora, o que não ocorre para fins de responsabilização civil.",
+        "D": "Por se tratar de pessoa jurídica, a sociedade Aurora não pode ser responsabilizada na esfera penal, de modo que a sua responsabilização fica restrita às esferas civil e administrativa."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do tema da responsabilidade ambiental das pessoas jurídicas. A alternativa A está correta, pois reflete a literalidade do art. 3º da Lei 9.605/1998. Veja a literalidade da lei: “Art. 3º As pessoas jurídicas serão responsabilizadas administrativa, civil e penalmente conforme o disposto nesta Lei, nos casos em que a infração seja cometida por decisão de seu representante legal ou contratual, ou de seu órgão colegiado, no interesse ou benefício da sua entidade”. A alternativa B está incorreta, pois o art. 3º da Lei 9.605/1998 determina que a responsabilidade da pessoa jurídica que cometa infração por decisão de seu representante legal (como é o caso do enunciado) responde nas três esferas: penal, civil e administrativa. A alternativa C está incorreta, pois no caso do enunciado não há que se falar em aguardar a condenação penal, uma vez que a responsabilidade da pessoa jurídica será apurada nas três esferas: penal, civil e administrativa. A alternativa D está incorreta, pois mesmo sendo pessoa jurídica, poderá ser responsabilizada nas três esferas: penal, civil e administrativa."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_35",
+      "materia": "Direito Ambiental",
+      "assunto": "Licenciamento Ambiental - Competência",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "A sociedade empresária XYZ, com sede no Estado Alfa, pretende desenvolver atividade econômica potencialmente causadora de significativa degradação ambiental nos territórios dos Estados Alfa e Beta. Dessa forma, com o objetivo de cumprir a legislação ambiental, a entidade contratou você para, na qualidade de advogado(a), dar entrada com o requerimento de licenciamento ambiental junto ao(s) órgão(s) competente(s), auxiliando-a a obter todas as licenças ambientais necessárias. Nesse cenário, considerando as disposições da Resolução nº 237/1997 do Conselho Nacional do Meio Ambiente (Conama), que versa sobre o licenciamento ambiental, assinale a opção que apresenta, corretamente, a sua orientação.",
+      "alternativas": {
+        "A": "O licenciamento ambiental deverá ser realizado pelo órgão ambiental competente do Estado Alfa, onde está localizada a sede da sociedade empresária XYZ.",
+        "B": "Caberá aos órgãos ambientais dos Estados Alfa e Beta, em conjunto, procederem ao licenciamento ambiental da atividade econômica que a sociedade empresária XYZ pretende desenvolver.",
+        "C": "Compete ao Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama), autarquia de natureza federal, o licenciamento ambiental da atividade econômica que será desenvolvida pela sociedade empresária XYZ.",
+        "D": "A sociedade empresária XYZ poderá, a seu critério, requerer o licenciamento ambiental junto ao órgão ambiental competente do Estado Alfa ou do Estado Beta, já que a atividade econômica será desenvolvida nos dois entes federativos."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata do tema Licenciamento Ambiental. A alternativa A está incorreta. A competência é do IBAMA. Conforme art. 4º, II, da Resolução 237/97 do CONAMA: “Art. 4º Compete ao Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - IBAMA, órgão executor do SISNAMA, o licenciamento ambiental a que se refere o artigo 10 da Lei nº 6.938, de 31 de agosto de 1981, de empreendimentos e atividades com significativo impacto ambiental de âmbito nacional ou regional, a saber: (...) II - localizadas ou desenvolvidas em dois ou mais Estados;”. A alternativa B está incorreta. A competência é do IBAMA, conforme já explicado no comentário da letra A. A alternativa C está correta. De fato, a competência é do IBAMA, conforme art. 4º, II, da Resolução 237/97 do CONAMA, já transcrito acima. No mesmo sentido, temos o art. 7º, XIV, alínea “e”, da LC 240/2011, vejamos: “Art. 7º São ações administrativas da União: XIV - promover o licenciamento ambiental de empreendimentos e atividades: (...) e) localizados ou desenvolvidos em 2 (dois) ou mais Estados;”. A alternativa D está incorreta. A competência é do IBAMA, conforme já explicado no comentário da letra A."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_36",
+      "materia": "Direito Ambiental",
+      "assunto": "Responsabilidade civil ambiental e obrigação propter rem",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "A sociedade empresária Algoz, ao realizar o tratamento de determinados produtos químicos, causou danos ambientais que comprometeram o solo de sua propriedade, sendo certo que tanto o Estado X quanto o Município Y foram omissos no dever de fiscalização. Após a poluidora mascarar os aludidos danos, a propriedade foi vendida para a sociedade empresária Crédula, que não tinha conhecimento de tais fatos. Diante da situação descrita, o Ministério Público ajuizou ação civil pública com vistas a obter a responsabilização civil em decorrência dos danos ambientais, sendo certo que incluiu no polo passivo da demanda a sociedade empresária Crédula, atual proprietária, a sociedade Algoz, que praticou a conduta lesiva ao meio ambiente, bem como o Estado X e o Município Y, pela omissão deles no dever de fiscalização. Considerando os dados apresentados, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Os entes federativos têm legitimidade passiva para a demanda, na medida em que sua conduta omissiva não pode ensejar a responsabilização civil.",
+        "B": "Apenas a sociedade empresária Algoz tem legitimidade passiva para a demanda, na medida em que foi a única que praticou a conduta comissiva que ensejou o dano ambiental.",
+        "C": "A sociedade empresária Crédula não pode ser civilmente responsabilizada pelos danos ambientais em comento, de modo que não poderia constar do polo passivo da demanda.",
+        "D": "Tanto as referidas sociedades quanto os entes federativos têm legitimidade passiva para a demanda, pois são passíveis de responsabilização civil todos aqueles que concorrerem para o dano ambiental, comissiva ou omissivamente, sendo certo que a obrigação ambiental é de natureza propter rem."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata do tema Responsabilidade Civil Ambiental. A alternativa A está incorreta. Seja a conduta omissiva ou comissiva, há responsabilização pelo dano ambiental. É a posição do STJ sobre o tema, vejamos: “PROCESSUAL CIVIL. AMBIENTAL. AGRAVO DE INSTRUMENTO EM AÇÃO CIVIL PÚBLICA. LEGITIMIDADE DO ESTADO DE SÃO PAULO FIGURAR NO PÓLO PASSIVO. ACÓRDÃO RECORRIDO EM CONSONÂNCIA COM A JURISPRUDÊNCIA DO STJ. SÚMULA 83/STJ. OFENSA AO ART. 535 DO CPC REPELIDA. (...) 3. A conclusão exarada pelo Tribunal a quo alinha-se à jurisprudência deste Superior Tribunal de Justiça, orientada no sentido de reconhecer a legitimidade passiva de pessoa jurídica de direito público para figurar em ação que pretende a responsabilização por danos causados ao meio ambiente em decorrência de sua conduta omissiva quanto ao dever de fiscalizar. Igualmente, coaduna-se com o texto constitucional, que dispõe, em seu art. 23, VI, a competência comum para a União, Estados, Distrito Federal e Municípios no que se refere à proteção do meio ambiente e combate à poluição em qualquer de suas formas. E, ainda, o art. 225, caput, também da CF, que prevê o direito de todos a um meio ambiente ecologicamente equilibrado e impõe ao Poder Público e à coletividade o dever de defendê-lo e preservá-lo para as presentes e futuras gerações. (...)”. (STJ - AgRg no Ag: 973577 SP 2007/0275202-0, Relator: Ministro MAURO CAMPBELL MARQUES, Data de Julgamento: 16/09/2008, T2 - SEGUNDA TURMA, Data de Publicação: DJe 19/12/2008). A alternativa B está incorreta. Todos serão responsabilizados. Conforme art. 225, § 3º, da CF: “§ 3º As condutas e atividades consideradas lesivas ao meio ambiente sujeitarão os infratores, pessoas físicas ou jurídicas, a sanções penais e administrativas, independentemente da obrigação de reparar os danos causados.” A alternativa C está incorreta. A sociedade empresária Crédula pode, sim, ser civilmente responsabilizada. Conforme a Súmula 623 do STJ: “Súmula 623: As obrigações ambientais possuem natureza propter rem, sendo possível exigi-las, à escolha do credor, do proprietário ou possuidor atual, de qualquer dos anteriores, ou de ambos, ficando isento de responsabilidade o alienante cujo direito real tenha cessado antes da causação do dano, desde que para ele não tenha concorrido, direta ou indiretamente.” A alternativa D está correta. Conforme já explicado nos comentários das alternativas A, B e C, a responsabilidade civil ambiental é propter rem e solidária. Isso já foi, inclusive, fixado em sede de Repetitivo do STJ, vejamos: “Tema 1204: As obrigações ambientais possuem natureza propter rem, sendo admissível cobrá-las do proprietário ou possuidor atual e/ou dos anteriores ou, ainda, dos sucessores, à escolha do credor.”"
+    }
+  ]
+}

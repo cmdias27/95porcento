@@ -1,0 +1,1515 @@
+{
+  "Princípios E Fontes Do Direito Administrativo": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Princípios expressos da Administração Pública (art. 37, caput, CF/88)",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir legalidade administrativa com legalidade privada e tratar moralidade, publicidade e eficiência como princípios sem efeitos jurídicos concretos."
+      },
+      {
+        "nome_microtema": "Princípios implícitos do Direito Administrativo",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Misturar supremacia do interesse público com indisponibilidade do interesse público, como se fossem sinônimos absolutos."
+      },
+      {
+        "nome_microtema": "Fontes do Direito Administrativo: lei, jurisprudência, doutrina, costumes e princípios gerais",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Atribuir à doutrina ou à jurisprudência força normativa equivalente à lei em qualquer hipótese, sem distinguir vinculação, persuasão e controle judicial."
+      },
+      {
+        "nome_microtema": "Hierarquia normativa e aplicação da Constituição, leis e atos infralegais",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Aceitar ato administrativo ou regulamento contrariando lei sob pretexto de discricionariedade ou autonomia administrativa."
+      },
+      {
+        "nome_microtema": "Princípio da legalidade administrativa e reserva legal",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir atuação administrativa autorizada por lei com atuação livre da Administração, especialmente em sanção, restrição de direitos e criação de obrigações."
+      },
+      {
+        "nome_microtema": "Segurança jurídica, proteção da confiança e autotutela administrativa",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Achar que a Administração pode anular ou revogar atos a qualquer tempo, sem observar decadência, boa-fé e limites da autotutela."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo atuação administrativa aparentemente legítima, mas com vício de fundamento, e cobra a identificação do princípio violado ou da fonte normativa aplicável. As alternativas geralmente exploram distinções finas entre legalidade, legitimidade, moralidade, eficiência, supremacia do interesse público, autotutela e segurança jurídica.",
+      "palavras_gatilho": [
+        "ato administrativo",
+        "legalidade",
+        "moralidade",
+        "eficiência",
+        "interesse público",
+        "autotutela",
+        "anulação",
+        "revogação",
+        "segurança jurídica",
+        "proteção da confiança",
+        "regulamento",
+        "reserva legal",
+        "discricionariedade"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Acesso À Informação E Lgpd": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Regra de publicidade e exceções de sigilo na Lei de Acesso à Informação",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir a publicidade como regra absoluta com hipóteses legais de sigilo e restrição de acesso."
+      },
+      {
+        "nome_microtema": "Classificação da informação sigilosa: ultrassecreta, secreta e reservada",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Trocar os prazos de sigilo e os agentes competentes para classificar cada grau de restrição."
+      },
+      {
+        "nome_microtema": "Procedimento de acesso à informação, negativa de acesso e recursos administrativos",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir o pedido de informação com o recurso cabível e com a autoridade responsável pela resposta."
+      },
+      {
+        "nome_microtema": "Proteção de dados pessoais na LGPD e tratamento pelo Poder Público",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Misturar a base legal do tratamento de dados pelo Estado com a lógica de consentimento típica do setor privado."
+      },
+      {
+        "nome_microtema": "Compartilhamento de dados entre órgãos públicos e hipóteses de divulgação",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Achar que todo compartilhamento entre órgãos públicos é livre, sem observar finalidade, necessidade e competência legal."
+      },
+      {
+        "nome_microtema": "Dados pessoais sensíveis, anonimização e pseudonimização",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Tratar dado anonimizado como se ainda fosse dado pessoal e confundir anonimização com simples ocultação de nome."
+      },
+      {
+        "nome_microtema": "Responsabilização, transparência ativa e governança em proteção de dados",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir dever de transparência ativa com exposição irrestrita de dados pessoais e esquecer a compatibilização entre LAI e LGPD."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo pedido de informação, negativa administrativa, divulgação de dados pessoais ou compartilhamento entre órgãos, exigindo a compatibilização entre a regra de publicidade da LAI e a proteção de dados da LGPD. A pegadinha geralmente está em alternativas juridicamente próximas, explorando exceções, prazos, competência para classificação, necessidade de motivação e limites do tratamento de dados pelo Poder Público.",
+      "palavras_gatilho": [
+        "pedido de acesso",
+        "sigilo",
+        "classificação da informação",
+        "dados pessoais",
+        "dados sensíveis",
+        "transparência ativa",
+        "compartilhamento entre órgãos",
+        "consentimento",
+        "finalidade",
+        "necessidade",
+        "anonimização",
+        "negativa de acesso",
+        "recurso administrativo"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Organização Administrativa E Terceiro Setor": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Administração Direta e Indireta: desconcentração, descentralização e espécies de entidades",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir desconcentração com descentralização e atribuir personalidade jurídica a órgãos."
+      },
+      {
+        "nome_microtema": "Autarquias, fundações públicas, empresas públicas e sociedades de economia mista",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Misturar regime jurídico de direito público e privado, especialmente quanto a patrimônio, responsabilidade e licitação."
+      },
+      {
+        "nome_microtema": "Agências reguladoras e agências executivas",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Trocar a natureza das agências reguladoras por autarquias comuns e confundir qualificação como agência executiva."
+      },
+      {
+        "nome_microtema": "Consórcios públicos e contratos de rateio/ programa",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Confundir consórcio público com convênio e errar a personalidade jurídica, o regime e a forma de contratação."
+      },
+      {
+        "nome_microtema": "Terceiro setor: OSCIP, OS, entidades paraestatais e serviços sociais autônomos",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Tratar entidades do terceiro setor como se fossem integrantes da Administração Indireta ou presumir delegação automática de serviço público."
+      },
+      {
+        "nome_microtema": "Parcerias com o terceiro setor: qualificação, fomento, contrato de gestão e termo de parceria",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir contrato de gestão com termo de parceria e achar que toda parceria gera vínculo hierárquico ou controle finalístico amplo."
+      },
+      {
+        "nome_microtema": "Controle, responsabilidade e regime de pessoal nas entidades administrativas e paraestatais",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Aplicar automaticamente o regime estatutário, a imunidade recíproca ou a responsabilidade objetiva sem verificar a natureza da entidade."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo criação, qualificação, contratação ou fiscalização de entidades administrativas e do terceiro setor, exigindo a identificação precisa da natureza jurídica, do regime aplicável e do instrumento correto de parceria ou controle. As alternativas geralmente misturam conceitos próximos, como autarquia, fundação pública, OS, OSCIP, consórcio público e convênio, para testar a distinção fina entre descentralização, fomento e delegação.",
+      "palavras_gatilho": [
+        "qualificação",
+        "contrato de gestão",
+        "termo de parceria",
+        "consórcio público",
+        "descentralização",
+        "desconcentração",
+        "autarquia",
+        "organização social",
+        "OSCIP",
+        "fomento",
+        "controle finalístico",
+        "administração indireta"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Poderes Administrativos": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Delegação e avocação de competência na Lei 9.784/99",
+        "ids_questoes": [
+          "oab_38_32"
+        ],
+        "peso_percentual": 100,
+        "armadilha_favorita": "A FGV costuma confundir delegação com avocação e explorar os limites legais: delegação exige ato formal e pode ocorrer para subordinado ou, excepcionalmente, para órgão não hierarquicamente subordinado; já a avocação é medida excepcional, temporária e motivada, apenas por razões relevantes devidamente justificadas. Também é comum trocar a ideia de revogabilidade da delegação e insinuar que ela pode ser verbal, quando a lei exige forma adequada e delimitação de competência."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com situações de gestão administrativa e hierarquia funcional, exigindo aplicação literal da Lei 9.784/99 aos institutos de delegação e avocação.",
+      "palavras_gatilho": [
+        "delegar",
+        "avocar",
+        "competência",
+        "excepcional",
+        "interesse público",
+        "hierarquicamente inferior",
+        "revogar"
+      ]
+    },
+    "total_questoes_analisadas": 1,
+    "banco_questoes": [
+      {
+        "id": "oab_38_32",
+        "materia": "Direito Administrativo",
+        "assunto": "Delegação e Avocação de Competência (Lei 9.784/99)",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Josias e Januário são servidores públicos federais de alta hierarquia e estavam conversando sobre os problemas inerentes ao exercício de suas atribuições. Enquanto Josias está extremamente exacerbado de trabalho e precisa delegar algumas de suas atribuições, para não comprometer o funcionamento da atividade administrativa, Januário entende ser necessário avocar competência atribuída a órgão hierarquicamente inferior, por questões excepcionais que são de extrema relevância para o interesse público. Considerando as circunstâncias narradas, em consonância com a Lei n° 9.784/99, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Josias poderá delegar verbalmente parcela de sua competência, considerando que esta é renunciável por servidor de alta hierarquia.",
+          "B": "Eventual delegação de competência por parte de Josias não poderá ser revogada após a sua formalização.",
+          "C": "A delegação de competência por Josias só pode ser realizada para órgão que lhe seja hierarquicamente inferior.",
+          "D": "A avocação temporária de competência por Januário será permitida em caráter excepcional e por motivos relevantes devidamente justificados."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa D está correta. O art. 15 da Lei 9.784/99 permite a avocação temporária de competência por motivos relevantes e devidamente justificados. As demais alternativas contrariam a lei (arts. 14, 12 e 13)."
+      }
+    ]
+  },
+  "Atos Administrativos": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Mudança de orientação administrativa e proteção da segurança jurídica na LINDB",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_33"
+        ],
+        "peso_percentual": 100,
+        "armadilha_favorita": "A FGV costuma confundir a regra geral de aplicação imediata da nova orientação administrativa com a exceção protetiva da LINDB: quando a nova interpretação impõe novo dever/condicionamento, ela não pode atingir situações já constituídas de modo automático, especialmente atos válidos praticados sob orientação anterior."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com foco em efeitos concretos de mudança de entendimento administrativo sobre situações já consolidadas",
+      "palavras_gatilho": [
+        "mudança de entendimento",
+        "conceito jurídico indeterminado",
+        "nova orientação",
+        "segurança jurídica",
+        "retroagir",
+        "ato vinculado",
+        "licença"
+      ]
+    },
+    "total_questoes_analisadas": 1,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comentada-OAB-44_33",
+        "materia": "Direito Administrativo",
+        "assunto": "Segurança jurídica e mudança de orientação administrativa (LINDB)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Lei nº 13.655/2018 (alterações no Decreto-Lei nº 4.657/1942 - LINDB)",
+        "enunciado": "A sociedade empresária Bemquerer obteve junto ao órgão municipal competente uma licença, que não tem cunho ambiental, versando sobre matéria administrativa, a qual é ato vinculado, mediante o preenchimento dos requisitos legais, de acordo com a orientação geral da Administração, vigente à época do deferimento, quanto a certo conceito jurídico indeterminado constante da respectiva norma local. Diante da relevância de tal licença para as suas atividades, os dirigentes da aludida sociedade consultam você, na condição de advogado(a), em relação à viabilidade de modificação da situação jurídica deles, em decorrência de eventual mudança de entendimento atinente ao referido conceito jurídico indeterminado, notadamente se a nova orientação vier a impor um novo condicionamento para o Direito. À luz das normas sobre segurança jurídica e eficiência na interpretação e aplicação do Direito Público, introduzidas pela Lei nº 13.655/2018 no Decreto-Lei nº 4.657/1942 (Lei de Introdução às Normas do Direito Brasileiro), assinale a opção que, corretamente, apresenta seu esclarecimento.",
+        "alternativas": {
+          "A": "Caso nova orientação geral venha a ser editada pela Administração, deve ser invalidada situação jurídica consolidada para a sociedade Bemquerer, mesmo que a licença ainda esteja em seu prazo de validade, considerando que a anulação deve operar efeitos retroativos.",
+          "B": "Eventual mudança de orientação geral em sede administrativa deve retroagir para alcançar a situação jurídica constituída para a sociedade Bemquerer, independentemente da orientação vigente à época do deferimento da licença, o que importaria necessariamente na revogação do ato deferido.",
+          "C": "O entendimento que permitiu o deferimento da licença para a sociedade Bemquerer apenas poderia prevalecer se fundado em jurisprudência firmada no âmbito do Poder Judiciário, considerando que as diretrizes estabelecidas em sede administrativa não podem ser consideradas orientações gerais.",
+          "D": "A decisão administrativa que venha a estabelecer nova orientação que preveja novo condicionamento do Direito, deverá prever regime de transição para que a sociedade Bemquerer possa cumprir tal condicionamento ulterior de modo proporcional, equânime e eficiente e sem prejuízo aos interesses gerais."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão versa sobre a LINDB (e seus dispositivos envolvendo decisões dos órgãos administrativos). A alternativa A está incorreta, pois desconsidera a proteção à segurança jurídica e à boa-fé dos particulares. A LINDB veda a aplicação retroativa de nova interpretação que altere situações já consolidadas sob orientação anterior, salvo excepcional interesse público justificado. Aqui, a licença foi deferida de forma regular sob a norma vigente, logo não pode ser invalidada automaticamente. A alternativa B está incorreta. A LINDB consagra a irretroatividade das mudanças interpretativas, justamente para evitar insegurança jurídica e proteger os administrados que agiram conforme a orientação então vigente. O entendimento da Administração não pode prejudicar de forma retroativa situações regularmente constituídas. É praticamente a mesma fundamentação da alternativa A. A alternativa C está incorreta. A alternativa ignora que a própria Administração Pública pode formular orientações gerais em sede administrativa. A LINDB reconhece a legitimidade dessas interpretações administrativas, inclusive para fins de controle e segurança jurídica. A validade da licença não depende de respaldo judicial, bastando que tenha sido deferida conforme orientação administrativa geral vigente à época. A alternativa D está correta, pois respeita o princípio da segurança jurídica e da proteção da confiança legítima. Quando a Administração adota nova interpretação de norma com conteúdo indeterminado, impondo novo dever ou restrição, ela deve prever regime de transição, como determina o art. 23 da LINDB. Isso visa evitar efeitos abruptos e permitir adaptação razoável por parte dos administrados."
+      }
+    ]
+  },
+  "Licitações E Contratos": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Inexigibilidade para locação de imóvel com características singulares e avaliação prévia",
+        "ids_questoes": [
+          "oab_39_33"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir locação de imóvel singular com dispensa genérica de licitação; a FGV cobra a inexigibilidade (inviabilidade de competição), exigindo ainda justificativa da escolha, certificação da necessidade e avaliação prévia do imóvel."
+      },
+      {
+        "nome_microtema": "Acordo de leniência na Lei Anticorrupção: efeitos sancionatórios e redução de penalidades",
+        "ids_questoes": [
+          "oab_39_34"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Trocar os efeitos do acordo de leniência, especialmente errando quais sanções são afastadas, quais são reduzidas e em que percentual; a FGV gosta de misturar multa, ressarcimento e sanções restritivas."
+      },
+      {
+        "nome_microtema": "Contratação direta por inexigibilidade de serviços técnicos especializados com notória especialização",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_30"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir serviço técnico especializado com hipótese de concurso ou diálogo competitivo; a pegadinha é exigir licitação onde a lei admite inexigibilidade, desde que haja natureza singular e notória especialização."
+      },
+      {
+        "nome_microtema": "Responsabilidade da Administração por encargos trabalhistas e previdenciários em contratos com dedicação exclusiva de mão de obra",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_34"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "A FGV costuma induzir à ideia de responsabilidade automática e integral do Poder Público; a regra é separar encargos previdenciários e trabalhistas, além de testar o alcance da fiscalização e a possibilidade de previsão contratual de mecanismos de mitigação."
+      },
+      {
+        "nome_microtema": "Meios alternativos de solução de controvérsias em contratos administrativos: cláusula expressa, arbitragem, mediação e conciliação",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_32"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir a necessidade de previsão expressa para arbitragem com a admissibilidade mais ampla de mediação e conciliação; a banca explora também a ideia de que todo conflito contratual pode ser resolvido por arbitragem, o que não é automático."
+      },
+      {
+        "nome_microtema": "Contratação direta para manutenção de veículos: hipótese de dispensa e limites da contratação direta",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_30"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Misturar dispensa com inexigibilidade e criar falsa impressão de que o valor baixo, por si só, autoriza contratação direta sem observar a hipótese legal específica; a FGV adora testar o enquadramento correto da exceção."
+      },
+      {
+        "nome_microtema": "Suspensão contratual prolongada pela Administração e direito à extinção do contrato",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_32"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir suspensão da execução com mero inadimplemento sem consequência extintiva; a FGV cobra o prazo e o efeito jurídico da paralisação prolongada, especialmente o direito do contratado de buscar a extinção do vínculo."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo enquadramento preciso da hipótese legal e identificação da consequência jurídica correta",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "diante dos fatos",
+        "nos termos da lei",
+        "é admissível",
+        "é correto afirmar",
+        "consoante dispõe a Lei nº 14.133/21"
+      ]
+    },
+    "total_questoes_analisadas": 7,
+    "banco_questoes": [
+      {
+        "id": "oab_39_33",
+        "materia": "Direito Administrativo",
+        "assunto": "Inexigibilidade de Licitação para Locação de Imóvel (Lei 14.133/21)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 74, V e §5º da Lei 14.133/2021.",
+        "enunciado": "O Município Ômega pretende alugar o imóvel de propriedade de João, pois suas características de instalações e de localização tornam necessária sua escolha, uma vez que se trata de um prédio de três andares situado ao lado do principal hospital municipal, que, após as necessárias adaptações e investimentos, poderá sediar a Secretaria Municipal de Saúde, cuja sede atual não mais comporta todos seus setores. Desta forma, o Município Ômega instaurou processo administrativo, no bojo do qual já houve a certificação da inexistência de imóveis públicos vagos e disponíveis que atendam ao objeto pretendido, bem como foram juntadas informações com as justificativas que demonstram a singularidade do imóvel a ser locado pela Administração e que evidenciam vantagem para ela. João, que tem interesse em alugar seu imóvel, foi procurado por agentes públicos da Secretaria Municipal de Saúde para assinar o contrato administrativo, que será firmado expressamente sob o regime jurídico da nova Lei de Licitações, mediante dispensa de licitação e com valor compatível com o preço de mercado. Na qualidade de advogado(a) contratado por João, você lhe informou que, de acordo com a Lei n° 14.133/21, o contrato administrativo de locação",
+        "alternativas": {
+          "A": "pode ser assinado com fundamento na dispensa de licitação, desde que haja prévias avaliação do bem e autorização do Prefeito Municipal.",
+          "B": "deve ser assinado com fundamento na inexigibilidade de licitação, desde que haja prévias avaliação do bem e autorização legal da Câmara Municipal.",
+          "C": "pode ser assinado com fundamento na dispensa de licitação, com avaliação prévia do bem, do seu estado de conservação e estimativa dos custos de adaptações para atender às necessidades de utilização da Secretaria Municipal de Saúde.",
+          "D": "deve ser assinado com fundamento na inexigibilidade de licitação, com avaliação prévia do bem, do seu estado de conservação, dos custos de adaptações, quando imprescindíveis às necessidades de utilização, e do prazo de amortização dos investimentos."
+        },
+        "gabarito": "D",
+        "comentario": "O art. 74, V da Lei 14.133/2021 considera inexigível a licitação para aquisição ou locação de imóvel cujas características de instalações e localização tornem necessária sua escolha. O §5º, I exige avaliação prévia do bem, estado de conservação, custos de adaptações e prazo de amortização. O enunciado narra hipótese de inexigibilidade, não dispensa."
+      },
+      {
+        "id": "oab_39_34",
+        "materia": "Direito Administrativo",
+        "assunto": "Acordo de Leniência (Lei Anticorrupção - 12.846/13)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 16, §2º da Lei 12.846/2013.",
+        "enunciado": "A sociedade empresária Alfa praticou ato lesivo à administração pública do Estado Beta, pois, em matéria de licitações e contratos, obteve vantagem indevida, de modo fraudulento, em sucessivas prorrogações de contrato administrativo, sem autorização legal, no ato convocatório da licitação pública ou no respectivo instrumento contratual. Com a devida orientação de seu advogado, visando obter isenção de sanções que provavelmente lhe seriam aplicadas, a sociedade empresária firmou com o Estado Beta acordo de leniência. No caso em tela, nos termos da chamada Lei Anticorrupção (Lei n° 12.846/13), a celebração do citado acordo isentará a sociedade empresária Alfa da proibição de receber incentivos, subsídios, subvenções, doações ou empréstimos na forma prevista na lei, bem como da sanção de",
+        "alternativas": {
+          "A": "multa civil, e reduzirá à metade a obrigação de ressarcimento dos danos ao erário.",
+          "B": "obrigação de ressarcimento ao erário e da medida de suspensão ou interdição parcial de suas atividades.",
+          "C": "publicação extraordinária da decisão condenatória e reduzirá, em até 2/3 (dois terços), o valor da multa aplicável.",
+          "D": "multa administrativa, e condicionará a manutenção das atividades da pessoa jurídica à adoção de programa de integridade, no prazo de 90 (noventa) dias da assinatura do acordo."
+        },
+        "gabarito": "C",
+        "comentario": "O art. 16, §2º da Lei 12.846/13 estabelece que o acordo de leniência isentará a pessoa jurídica das sanções previstas no inciso II do art. 6º (publicação extraordinária da decisão condenatória) e no inciso IV do art. 19 (proibição de receber incentivos, subsídios, subvenções, doações ou empréstimos), e reduzirá em até 2/3 o valor da multa aplicável."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_30",
+        "materia": "Direito Administrativo",
+        "assunto": "Inexigibilidade de licitação - serviços técnicos especializados",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O Município Delta procurou o Escritório Alfa com a intenção de contratá-lo para prestar serviços especializados de consultoria e auditoria financeira, de natureza predominantemente técnica, diante de sua notória especialização na área. Na reunião realizada entre os representantes do escritório e do município, o Procurador do Município Delta consignou que, para formalizar o mencionado negócio jurídico, pretende formalizar uma contratação direta, ou seja, sem a necessidade de realizar uma licitação sob o regime jurídico da nova lei de licitações. Sobre a hipótese, na qualidade de advogado(a) do Escritório Alfa, consoante dispõe a Lei nº 14.133/21, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A licitação não é exigível, devendo ser considerada de notória especialização a sociedade empresária cujo conceito, decorrente de estudos, desempenho anterior, publicações, organização, equipe técnica ou outros requisitos relacionados às suas atividades, permita inferir que seu trabalho é essencial e reconhecidamente adequado à plena satisfação do objeto do contrato.",
+          "B": "A licitação na modalidade concurso é necessária, devendo ser considerada de notória especialização a sociedade empresária que possa prestar o serviço em situação emergencial para manter a continuidade do serviço público, observados os valores praticados pelo mercado.",
+          "C": "A licitação pode ser dispensada, devendo ser considerada de notória especialização a sociedade empresária apta a prestar serviços contratados pela Administração Pública para a manutenção da atividade administrativa, decorrentes de necessidades permanentes ou prolongadas.",
+          "D": "A licitação na modalidade diálogo competitivo é necessária, devendo ser considerada de notória especialização a sociedade empresária que tenha sido contratada anteriormente pelo poder público, com prestação de contas aprovada pelo Tribunal de Contas, permitindo inferir que seu trabalho é essencial e reconhecidamente adequado à plena satisfação do objeto do contrato."
+        },
+        "gabarito": "A",
+        "comentario": "A resposta correta é a letra A. A questão trata dos casos de inexigibilidade de licitação. A alternativa A está correta, pois, conforme a Lei 14.133/21, artigo 74, III, c, e seu § 3º, a licitação no caso em comento é inexigível: \"Art. 74. É inexigível a licitação quando inviável a competição, em especial nos casos de: (...) III - contratação dos seguintes serviços técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de notória especialização, vedada a inexigibilidade para serviços de publicidade e divulgação: (...) c) assessorias ou consultorias técnicas e auditorias financeiras ou tributárias; (...) § 3º Para fins do disposto no inciso III do caput deste artigo, considera-se de notória especialização o profissional ou a empresa cujo conceito no campo de sua especialidade, decorrente de desempenho anterior, estudos, experiência, publicações, organização, aparelhamento, equipe técnica ou outros requisitos relacionados com suas atividades, permita inferir que o seu trabalho é essencial e reconhecidamente adequado à plena satisfação do objeto do contrato.\". A alternativa B está incorreta, pois, conforme o art. 74 da Lei 14.133/21, a licitação no caso em análise é inexigível, vejamos: \"Art. 74. É inexigível a licitação quando inviável a competição, em especial nos casos de: (...) III - contratação dos seguintes serviços técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de notória especialização, vedada a inexigibilidade para serviços de publicidade e divulgação: (...) c) assessorias ou consultorias técnicas e auditorias financeiras ou tributárias;\". Ademais, a alternativa apresenta definição de notória especialização diversa da trazida na referida Lei, vejamos: \"Art. 6º Para os fins desta Lei, consideram-se: (...) XIX - notória especialização: qualidade de profissional ou de empresa cujo conceito, no campo de sua especialidade, decorrente de desempenho anterior, estudos, experiência, publicações, organização, aparelhamento, equipe técnica ou outros requisitos relacionados com suas atividades, permite inferir que o seu trabalho é essencial e reconhecidamente adequado à plena satisfação do objeto do contrato;\". A alternativa C está incorreta, pois troca a definição de \"notória especialização\" com o conceito de \"serviços e fornecimentos contínuos\", o qual é trazido pela Lei 14.133/21 em seu artigo 6º, XV: \"Para os fins desta Lei, consideram-se: (...) XV - serviços e fornecimentos contínuos: serviços contratados e compras realizadas pela Administração Pública para a manutenção da atividade administrativa, decorrentes de necessidades permanentes ou prolongadas;\". A alternativa D está incorreta, pois no caso em análise a licitação é inexigível, não sendo necessária na modalidade de diálogo competitivo, conforme expõe o art. 74 da Lei 14.133/21: \"Art. 74. É inexigível a licitação quando inviável a competição, em especial nos casos de: (...) III - contratação dos seguintes serviços técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de notória especialização, vedada a inexigibilidade para serviços de publicidade e divulgação: (...) c) assessorias ou consultorias técnicas e auditorias financeiras ou tributárias;\". Além disso, a assertiva também traz conceituação de notória especialização diversa da trazida na supracitada Lei, vejamos: \"Art. 6º Para os fins desta Lei, consideram-se: (...) XIX - notória especialização: qualidade de profissional ou de empresa cujo conceito, no campo de sua especialidade, decorrente de desempenho anterior, estudos, experiência, publicações, organização, aparelhamento, equipe técnica ou outros requisitos relacionados com suas atividades, permite inferir que o seu trabalho é essencial e reconhecidamente adequado à plena satisfação do objeto do contrato;\"."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_34",
+        "materia": "Direito Administrativo",
+        "assunto": "Responsabilidade da Administração em contratos de serviços contínuos",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Após o devido procedimento licitatório, foi formalizado com a sociedade empresária Esperta determinado contrato de prestação de serviços contínuos com dedicação exclusiva de mão de obra, sendo certo que, no curso de contrato, a contratada, ou seja, a sociedade Esperta, inadimpliu com diversos encargos previdenciários e trabalhistas, decorrentes da aludida avença. Em razão disso, a Administração contratante consultou a respectiva assessoria jurídica para dirimir as dúvidas atinentes à responsabilização do Poder Público e/ou as condutas que poderiam ser adotadas na situação descrita, à luz do disposto na Lei nº 14.133/2021. Assinale a opção que apresenta a informação correta a ser prestada pela assessoria jurídica.",
+        "alternativas": {
+          "A": "Somente a Administração Pública será objetivamente responsável pelos encargos trabalhistas e previdenciários resultantes da mencionada inexecução do contrato.",
+          "B": "Com relação aos encargos previdenciários, a responsabilização da Administração é subsidiária, desde que comprovada a falha na fiscalização do cumprimento das obrigações do contratado.",
+          "C": "A fiscalização por parte da Administração contratante exime o contratado de responsabilidade, tanto com relação aos encargos trabalhistas quanto no que concerne aos previdenciários.",
+          "D": "A Administração contratante, mediante disposição em edital ou em contrato, poderá, em caso de inadimplemento, efetuar diretamente o pagamento das verbas trabalhistas, que serão deduzidas do pagamento devido ao contratado."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata do tema Contratos, mais precisamente sobre a responsabilidade da Administração na execução dos contratos. A alternativa A está incorreta. Estas são responsabilidades do contratado, conforme art. 121, caput, da Lei 14.133/2021: “Art. 121. Somente o contratado será responsável pelos encargos trabalhistas, previdenciários, fiscais e comerciais resultantes da execução do contrato.” A alternativa B apesar de considerada incorreta pela banca, gera controvérsias. Se tomarmos por base a letra fria da Lei 14.133/2021, de fato, a responsabilização pelos encargos previdenciários é solidária. Conforme art. 121, § 2º, da Lei 14.133/2021: “§ 2º Exclusivamente nas contratações de serviços contínuos com regime de dedicação exclusiva de mão de obra, a Administração responderá solidariamente pelos encargos previdenciários e subsidiariamente pelos encargos trabalhistas se comprovada falha na fiscalização do cumprimento das obrigações do contratado.” No entanto, a jurisprudência consolidada do STF e do TST determinam que a responsabilidade da Administração será subsidiária. Vejamos tese firmada pelo STF: “(...) 9. Recurso Extraordinário parcialmente conhecido e, na parte admitida, julgado procedente para fixar a seguinte tese para casos semelhantes: “O inadimplemento dos encargos trabalhistas dos empregados do contratado não transfere automaticamente ao Poder Público contratante a responsabilidade pelo seu pagamento, seja em caráter solidário ou subsidiário, nos termos do art. 71, § 1º, da Lei nº 8.666/93”.”. Vejamos, ainda, o entendimento do TST: “RECURSO DE REVISTA. RESPONSABILIDADE SUBSIDIÁRIA. ENTE PÚBLICO. ARTIGO 71 DA LEI 8.666/93. CONSTITUCIONALIDADE DECLARADA PELO STF. CULPA IN VIGILANDO NÃO EVIDENCIADA. MERO INADIMPLEMENTO. Em que pese o reconhecimento da constitucionalidade do artigo 71 da Lei 8.666/93, pelo Supremo Tribunal Federal (ADC 16, julgada pelo STF em 24/11/2010), não foi afastada, in totum, pela excelsa Corte, a responsabilidade subsidiária das entidades estatais, tomadoras de serviços, pela fiscalização do correto cumprimento da legislação trabalhista e previdenciária na vigência do contrato administrativo. Subsiste tal responsabilidade quando existente sua culpa in vigilando, observada a partir da análise fática da conduta específica da Administração Pública. No caso concreto, o Regional embasou a condenação subsidiária apenas no mero inadimplemento, razão por que não há falar em responsabilidade subsidiária. Recurso de revista conhecido e provido”. (RR -11437-84.2022.5.15.0079, 6ª Turma, Relator Ministro Augusto Cesar Leite de Carvalho, DEJT 29/11/2024). Tomando por base o mesmo dispositivo legal (art. 121, § 2º, da Lei 14.133/2021), a alternativa C está incorreta. A fiscalização por parte da Administração contratante não exime o contratado de responsabilidade. A alternativa D está correta. Conforme art. 121, § 3º, IV, da Lei 14.133/2021: “Art. 121. (...) § 3º Nas contratações de serviços contínuos com regime de dedicação exclusiva de mão de obra, para assegurar o cumprimento de obrigações trabalhistas pelo contratado, a Administração, mediante disposição em edital ou em contrato, poderá, entre outras medidas: IV - em caso de inadimplemento, efetuar diretamente o pagamento das verbas trabalhistas, que serão deduzidas do pagamento devido ao contratado;”."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_32",
+        "materia": "Direito Administrativo",
+        "assunto": "Contratos Administrativos - Meios Alternativos de Solução de Controvérsias",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária Chique possui dois contratos administrativos distintos regularmente formalizados com o Município Gama, tendo por objeto a realização de serviços contínuos, com contratação de mão de obra para atividades de limpeza e manutenção predial. Registre-se que em apenas uma das contratações há cláusula expressa para a adoção de meios alternativos de solução de controvérsias. Durante a execução, o equilíbrio econômico-financeiro dos contratos foi fortemente afetado por áleas econômicas extraordinárias e imprevisíveis. Dessa forma, os representantes da sociedade empresária Chique procuram você, como advogado(a), sobre a viabilidade de usar instrumentos consensuais para restabelecer o equilíbrio econômico-financeiro do contrato ou outro meio extrajudicial para dirimir o conflito. À luz do disposto na Lei nº 14.133/2021, assinale a opção que, corretamente, materializa a essência da consultoria jurídica prestada por você à sociedade empresária Chique.",
+        "alternativas": {
+          "A": "O contrato, que não prevê expressamente a utilização de meios alternativos de solução de controvérsias, pode ser aditado para admitir instrumentos consensuais para tal finalidade.",
+          "B": "O contrato, que possui previsão expressa, pode usar a arbitragem como meio alternativo de resolução das controvérsias, sendo que a escolha dos árbitros cabe à contratante, independentemente dos critérios isonômicos, técnicos e de transparência.",
+          "C": "A conciliação e a mediação não são admitidas como instrumentos consensuais para a resolução de conflitos com a Administração Pública, de modo que não é possível a utilização de tais meios alternativos, nem mesmo para a hipótese em que exista previsão contratual.",
+          "D": "Em razão da natureza do conflito, que versa sobre o equilíbrio econômico-financeiro de contrato administrativo, não é viável o uso de qualquer meio alternativo de resolução das controvérsias, de forma que eventual cláusula contratual nesse sentido, estipulada pelo Município Alfa e pela sociedade empresária Chique, é nula."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão versa sobre contratos administrativos. A alternativa A está correta. O artigo 153, da Lei nº 14.133/2021, nossa Lei de Licitações, permite que o contrato seja aditado para que se prevejam cláusulas de solução consensual de conflitos (arbitragem, mediação, conciliação e comitê de resolução de disputas). Esse aditamento inclui os contratos que não previam essas cláusulas. A alternativa B está incorreta. A arbitragem é sim admitida, conforme art. 151, mas a escolha dos árbitros não é livre pela contratante. Ainda, o artigo 154 determina que a escolha deve seguir critérios isonômicos, técnicos e transparentes, o que impede a contratação unilateral dos árbitros por uma das partes. A alternativa C está incorreta. A mediação e a conciliação são expressamente previstas pela Lei nº 14.133/2021 como meios válidos de resolução de conflitos. O art. 151 reconhece expressamente esses mecanismos, inclusive para questões que envolvam direitos patrimoniais disponíveis, como o restabelecimento do equilíbrio econômico-financeiro do contrato. A alternativa D está incorreta por contrariar o previsto no artigo 151 da Lei de Licitações. O conflito envolve direitos patrimoniais disponíveis (equilíbrio econômico-financeiro do contrato), justamente uma das hipóteses em que se admite a mediação, conciliação e arbitragem (art. 151, parágrafo único). Logo, a cláusula é válida e a utilização desses meios é plenamente possível."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_30",
+        "materia": "Direito Administrativo",
+        "assunto": "Licitações e Contratos Administrativos - Contratação Direta",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Lucas, servidor público estatutário do Município Alfa, procurou Rodrigo, proprietário do estabelecimento comercial XYZ, especializado na manutenção de automóveis, para saber se ele tinha interesse em firmar um contrato administrativo, no valor de R$ 60.000,00 (sessenta mil reais), para a prestação de serviços de manutenção de veículos automotores de propriedade do Município. Antes de prosseguir nas tratativas, Rodrigo entrou em contato com você para, na qualidade de advogado(a), prestar-lhe a adequada consultoria jurídica. Considerando as disposições da Lei n° 14.133/2021 (Lei de Licitações e Contratos Administrativos), assinale a afirmativa que apresenta, corretamente, a sua orientação.",
+        "alternativas": {
+          "A": "Em razão da inexigibilidade da licitação, é admissível a contratação direta entre o Município Alfa e o particular Rodrigo, desde que seja apresentada justificativa de preço.",
+          "B": "O Município Alfa deverá realizar o processo licitatório para celebrar o contrato administrativo, vedando-se a contratação direta no cenário narrado, por ausência de previsão legal.",
+          "C": "Admitir-se-á a contratação direta entre o Município Alfa e o particular Rodrigo, desde que o estabelecimento comercial XYZ esteja situado nos limites territoriais do ente federativo contratante.",
+          "D": "É possível a contratação direta entre o Município Alfa e o particular Rodrigo, para a prestação de serviços de manutenção de veículos automotores de propriedade do ente federativo, por ser caso de licitação dispensável."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata do tema Licitações, mais especificamente sobre a Contratação Direta. A alternativa A está incorreta. Não se trata de inexigibilidade de licitação, pois o caso não se enquadra em nenhuma das situações do artigo 74 da Lei 14.133/2021. Pelo contrário, é caso de licitação dispensável, pois o caso se enquadra perfeitamente no art. 75, inciso I, da Lei 14.133/2021, vide explicação da letra D. A alternativa B está incorreta. Há, sim, possibilidade de contratação direta no caso, a qual se dará mediante dispensa de licitação, conforme art. 75, inciso I, da Lei 14.133/2021, vide explicação da letra D. A alternativa C está incorreta. O artigo 72 da Lei 14.133/2021, que traz as condições para haver a contratação direta, não faz menção à obrigatoriedade de o estabelecimento estar localizado nos limites territoriais do ente federativo contratante. Vejamos: “Art. 72. O processo de contratação direta, que compreende os casos de inexigibilidade e de dispensa de licitação, deverá ser instruído com os seguintes documentos: I - documento de formalização de demanda e, se for o caso, estudo técnico preliminar, análise de riscos, termo de referência, projeto básico ou projeto executivo; II - estimativa de despesa, que deverá ser calculada na forma estabelecida no art. 23 desta Lei; III - parecer jurídico e pareceres técnicos, se for o caso, que demonstrem o atendimento dos requisitos exigidos; IV - demonstração da compatibilidade da previsão de recursos orçamentários com o compromisso a ser assumido; V - comprovação de que o contratado preenche os requisitos de habilitação e qualificação mínima necessária; VI - razão da escolha do contratado; VII - justificativa de preço; VIII - autorização da autoridade competente.” A alternativa D está correta. De fato, é caso de licitação dispensável, conforme art. 75, inciso I, da Lei 14.133/2021: “Art. 75. É dispensável a licitação: I - para contratação que envolva valores inferiores a R$ 100.000,00 (cem mil reais), no caso de obras e serviços de engenharia ou de serviços de manutenção de veículos automotores;”."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_32",
+        "materia": "Direito Administrativo",
+        "assunto": "Extinção de contrato administrativo por suspensão",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária XYZ, após o regular processo licitatório, celebrou contrato administrativo com o Estado Alfa, sem previsão de cláusula compromissória ou compromisso arbitral. Contudo, sem qualquer justificativa, a Administração Pública, por meio de uma ordem escrita, suspendeu a execução do contrato, o que já perdura por seis meses. Sendo assim, a entidade privada procurou você, para, na qualidade de advogado(a) auxiliá-la a equacionar a questão posta. Nesse cenário, considerando as disposições da Lei nº 14.133/2021 (Lei de Licitações e Contratos Administrativos), assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A extinção do contrato administrativo não é juridicamente cabível, pois a suspensão da sua execução não ultrapassou o prazo de 12 meses.",
+          "B": "A sociedade empresária XYZ não tem direito à extinção do contrato administrativo, pois, como o Estado Alfa suspendeu a sua execução, inexiste inadimplemento contratual.",
+          "C": "A extinção do contrato administrativo de forma consensual é vedada por expressa previsão legal, a qual impede o emprego da conciliação e da mediação no âmbito da Administração Pública.",
+          "D": "A entidade privada contratada tem direito à extinção do contrato administrativo, que poderá ser consensual, por acordo entre as partes, por conciliação, por mediação ou por comitê de resolução de disputas, desde que haja interesse da Administração ou, ainda, por meio de decisão judicial."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata do tema Contratos. O enunciado traz exatamente a hipótese do art. 137, § 2º, II, vejamos: “§ 2º O contratado terá direito à extinção do contrato nas seguintes hipóteses: II - suspensão de execução do contrato, por ordem escrita da Administração, por prazo superior a 3 (três) meses;”. Portanto, nesse caso, a sociedade empresária XYZ terá, sim, direito à extinção do contrato administrativo. Tal extinção pode se dar conforme o art. 138 da lei 14.133/2021, vejamos: “Art. 138. A extinção do contrato poderá ser: I - determinada por ato unilateral e escrito da Administração, exceto no caso de descumprimento decorrente de sua própria conduta; II - consensual, por acordo entre as partes, por conciliação, por mediação ou por comitê de resolução de disputas, desde que haja interesse da Administração; III - determinada por decisão arbitral, em decorrência de cláusula compromissória ou compromisso arbitral, ou por decisão judicial.” Como o enunciado fala que a extinção se deu por conduta da Administração, não poderá se dar por ato unilateral e escrito desta. Ademais, o enunciado fala também que não há previsão de cláusula compromissória ou compromisso arbitral, o que elimina a extinção determinada por decisão arbitral, em decorrência de cláusula compromissória ou compromisso arbitral. Assim, resta à sociedade empresária XYZ as seguintes formas de extinção: consensual, por acordo entre as partes, por conciliação, por mediação ou por comitê de resolução de disputas, desde que haja interesse da Administração; e por decisão judicial. Assim: A alternativa D está correta. Conforme artigos 137, § 2º, II, c/c art. 138 da Lei 14.133/2021, a sociedade empresária XYZ pode, sim, pedir a extinção do contrato, a qual se dará por uma das seguintes formas: consensual, por acordo entre as partes, por conciliação, por mediação ou por comitê de resolução de disputas, desde que haja interesse da Administração; e por decisão judicial. As demais alternativas ficam automaticamente incorretas."
+      }
+    ]
+  },
+  "Serviços Públicos E Parcerias": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Diálogo competitivo na Lei 14.133/2021",
+        "ids_questoes": [
+          "oab_38_33"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir diálogo competitivo com concorrência, leilão ou concurso; a FGV explora o caso em que a Administração não consegue definir previamente a solução técnica e precisa dialogar com o mercado antes das propostas finais."
+      },
+      {
+        "nome_microtema": "Concessão patrocinada e limites da contraprestação pública na PPP",
+        "ids_questoes": [
+          "oab_39_30"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Misturar as regras de PPP com concessão comum: a banca costuma testar o teto de 70% da remuneração estatal, a necessidade de autorização legislativa específica e a possibilidade de garantias públicas."
+      },
+      {
+        "nome_microtema": "Permissão de serviço público: delegação a pessoa física ou jurídica mediante licitação",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_31"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir permissão com concessão e exigir indevidamente SPE, ou negar a possibilidade de pessoa física ser permissionária; a FGV gosta de cobrar a simplicidade formal da permissão, mas sem dispensar licitação."
+      },
+      {
+        "nome_microtema": "Concessão administrativa em PPP: prazo, contraprestação e repartição de riscos",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_33"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Trocar os elementos estruturais da concessão administrativa com concessão comum: a FGV costuma cobrar prazo mínimo e máximo, contraprestação integral ou parcial do parceiro público, SPE obrigatória e repartição de riscos."
+      },
+      {
+        "nome_microtema": "Intervenção na concessão de serviço público",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_34"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir intervenção com caducidade ou encampação e errar o procedimento: a banca explora decreto formal, prazo, objetivos, limites, instauração de processo administrativo e efeitos sobre a administração do serviço."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo enquadramento imediato do instituto correto e leitura fina dos requisitos legais da delegação de serviços públicos e das PPPs.",
+      "palavras_gatilho": [
+        "assinale a alternativa correta",
+        "à luz da lei",
+        "diante da situação hipotética",
+        "peculiaridades",
+        "validade e desdobramentos",
+        "é correto afirmar"
+      ]
+    },
+    "total_questoes_analisadas": 5,
+    "banco_questoes": [
+      {
+        "id": "oab_38_33",
+        "materia": "Direito Administrativo",
+        "assunto": "Diálogo Competitivo (Nova Lei de Licitações - 14.133/21)",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "O pequeno Município Alfa, situado no interior do Estado Beta, enfrenta grave problema de abastecimento de água potável, pois não há fornecimento de água encanada para determinada região da cidade, por dificuldades técnicas. Visando à resolução para a questão juntamente com a iniciativa privada, o Município Alfa pretende, mediante licitação, contratar objeto que envolva inovação tecnológica ou técnica, sendo imprescindível a adaptação de soluções disponíveis no mercado. Atualmente, verifica-se a impossibilidade de as especificações técnicas serem definidas com precisão suficiente pela Administração, razão pela qual é preciso o prévio debate com o setor privado, para se definir em e se identificarem os meios e as alternativas que possam satisfazer as necessidades da administração municipal. Ao tomar conhecimento de que o Município Alfa pretende realizar licitação nas condições narradas, com o intuito de desenvolver uma ou mais alternativas capazes de atender às suas necessidades da forma mais adequada, dada a complexidade da questão local de abastecimento de água, a sociedade empresária Delta se interessou em participar do certame. Como advogado(a) da sociedade empresária, você informou à diretoria que, de acordo com a nova Lei de Licitações (Lei n° 14.133/21), a modalidade de licitação mais adequada diante da realidade fática descrita, é o(a)",
+        "alternativas": {
+          "A": "concorrência, que é mais abrangente, seja do ponto de vista do valor do contrato, seja por contemplar variados objetos.",
+          "B": "leilão, em que serão admitidos como licitantes todos os interessados que preencherem os requisitos objetivos estabelecidos.",
+          "C": "concurso, no qual o poder público municipal não poderá revelar a outros licitantes as soluções técnicas propostas por um concorrente.",
+          "D": "diálogo competitivo, em que os licitantes devem apresentar proposta final após o encerramento dos diálogos."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa D está correta. O caso se enquadra perfeitamente nos requisitos do diálogo competitivo (art. 32, I, da Lei 14.133/21): objeto de inovação, necessidade de adaptação de soluções e impossibilidade de definir as especificações com precisão."
+      },
+      {
+        "id": "oab_39_30",
+        "materia": "Direito Administrativo",
+        "assunto": "Concessão Patrocinada - Autorização Legislativa (Lei 11.079/04)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 10, §3º da Lei 11.079/2004.",
+        "enunciado": "Diante da necessidade de vultosos investimentos em infraestrutura e para atrair a iniciativa privada, a União divulgou, pelos meios de comunicação, que pretende realizar uma parceria público-privada, na modalidade concessão patrocinada, salientando que já ficou caracterizado que cerca de 75% (setenta e cinco por cento) da remuneração do parceiro privado deverá ser paga pela Administração. Tal notícia despertou o interesse da sociedade Considera, que procurou a sua assessoria jurídica acerca da contratação pretendida. Diante dessa situação hipotética, assinale a alternativa correta, à luz da Lei n° 11.079/2004.",
+        "alternativas": {
+          "A": "A concessão patrocinada pretendida depende de autorização legislativa específica.",
+          "B": "Acaso vença a licitação, a própria sociedade Considera poderá formalizar o respectivo contrato administrativo para implantar e gerir o objeto da parceria.",
+          "C": "A contraprestação da União no contrato em questão deverá ser realizada exclusivamente por ordem bancária.",
+          "D": "Não é possível que a União preste garantia das obrigações pecuniárias contraídas pela Administração Pública."
+        },
+        "gabarito": "A",
+        "comentario": "O art. 10, §3º da Lei 11.079/2004 determina que as concessões patrocinadas em que mais de 70% da remuneração do parceiro privado for paga pela Administração Pública dependerão de autorização legislativa específica. A alternativa B contraria o art. 9º (constituição de SPE), a C o art. 6º (outros meios) e a D o art. 16 (FGP)."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_31",
+        "materia": "Direito Administrativo",
+        "assunto": "Permissão de serviços públicos",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária Sabiá tomou conhecimento de um edital de licitação elaborado pelo Município Alfa para promover a permissão de determinado serviço público de competência local, razão pela qual procura sua assessoria jurídica, a fim de dirimir algumas dúvidas acerca da mencionada modalidade de delegação. Acerca das peculiaridades da permissão de serviços públicos, à luz do disposto na CRFB/88 e na Lei nº 8.987/95, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A modalidade licitatória deverá ser necessariamente aquela designada como diálogo competitivo.",
+          "B": "Não é necessária a realização de licitação para a formalização da delegação pretendida pelo Município Alfa.",
+          "C": "É necessária a constituição de uma sociedade de propósito específico para a formalização do respectivo contrato.",
+          "D": "A delegação pretendida poderá ser realizada para pessoa física ou jurídica que demonstre capacidade para a prestação do serviço por sua conta e risco."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão aborda o tema permissão de serviços públicos. A alternativa A está incorreta, pois, em se tratando de permissões de serviços públicos, a legislação não exige modalidade específica de licitação, como se depreende da definição vazada no art. 2º, IV, da Lei 8.987/95: “Para os fins do disposto nesta Lei, considera-se (...) permissão de serviço público: a delegação, a título precário, mediante licitação, da prestação de serviços públicos, feita pelo poder concedente à pessoa física ou jurídica que demonstre capacidade para seu desempenho, por sua conta e risco.” A alternativa B está incorreta, uma vez que, para além da definição legal acima transcrita, que revela a necessidade, sim, de licitação, a própria Constituição da República é clara ao estabelecer tal exigência, como se vê da leitura de seu art. 175, caput: “Incumbe ao Poder Público, na forma da lei, diretamente ou sob regime de concessão ou permissão, sempre através de licitação, a prestação de serviços públicos.” A alternativa C está incorreta, porquanto a constituição de sociedade de propósito específico é uma exigência pertinente às concessões especiais de serviços públicos, via contratos de parcerias público-privadas, o que não é o caso das permissões de serviços públicos. A alternativa D está correta, tendo em vista que seu teor está perfeitamente alinhado ao conceito legal de permissão de serviços públicos, consoante art. 2º, IV, da Lei 8.987/95, transcrito nos comentários à alternativa A."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_33",
+        "materia": "Direito Administrativo",
+        "assunto": "Parcerias Público-Privadas (Lei 11.079/2004)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Diante da divulgação de uma notícia veiculando a intenção do Município Beta em formalizar uma concessão administrativa para a realização de certo serviço indivisível, que envolve a realização de obras de infraestrutura para sua materialização, os representantes da sociedade empresária Astuciosa ficaram entusiasmados em participar da respectiva licitação. Em razão disso, procuraram você, como advogada(o), para esclarecer as peculiaridades da respectiva avença. Sobre o contrato, assinale a opção que apresenta, corretamente, a orientação jurídica prestada.",
+        "alternativas": {
+          "A": "Não pode ter prazo de vigência inferior a cinco anos, nem superior a trinta e cinco anos, incluindo eventual prorrogação.",
+          "B": "Envolve a contraprestação pecuniária do parceiro público ao parceiro privado, adicionalmente à tarifa cobrada dos usuários.",
+          "C": "Independe da criação de sociedade de propósito específico antes de sua celebração, para fins de implantação e gestão do objeto da parceria.",
+          "D": "Não pode prever a repartição de riscos entre as partes, especialmente em relação a caso fortuito, força maior, fato do príncipe e álea econômica extraordinária."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A alternativa A está correta. Conforme art. 5º, I, da Lei 11.079/2004: “Art. 5º As cláusulas dos contratos de parceria público-privada atenderão ao disposto no art. 23 da Lei nº 8.987, de 13 de fevereiro de 1995, no que couber, devendo também prever: I – o prazo de vigência do contrato, compatível com a amortização dos investimentos realizados, não inferior a 5 (cinco), nem superior a 35 (trinta e cinco) anos, incluindo eventual prorrogação;”. A alternativa B está incorreta. Conforme enunciado, trata-se de uma concessão administrativa. No entanto, a modalidade de concessão que enseja contraprestação pecuniária do parceiro público ao parceiro privado, adicionalmente à tarifa cobrada dos usuários, é a concessão patrocinada, conforme art. 2º, § 1º, da Lei 11.079/2004: “§ 1º Concessão patrocinada é a concessão de serviços públicos ou de obras públicas de que trata a Lei nº 8.987, de 13 de fevereiro de 1995, quando envolver, adicionalmente à tarifa cobrada dos usuários contraprestação pecuniária do parceiro público ao parceiro privado.” A alternativa C está incorreta. Conforme art. 9º da Lei 11.079/2004: “Art. 9º Antes da celebração do contrato, deverá ser constituída sociedade de propósito específico, incumbida de implantar e gerir o objeto da parceria.” A alternativa D está incorreta. Conforme art. 4º, VI, da Lei 11.079/2004: “Art. 4º Na contratação de parceria público-privada serão observadas as seguintes diretrizes: VI – repartição objetiva de riscos entre as partes;”."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_34",
+        "materia": "Direito Administrativo",
+        "assunto": "Intervenção na concessão de serviços públicos",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O Estado Beta, após os devidos trâmites, promoveu a concessão de serviços de sua competência para a sociedade empresária Servicaos. Em decorrência do descumprimento de algumas cláusulas contratuais que estão impactando a qualidade da atividade delegada, o poder concedente editou um decreto, contendo a designação do interventor, o prazo da intervenção e os objetivos e limites da medida, a fim de assegurar a adequação na prestação do serviço, bem como o fiel cumprimento das normas contratuais, regulamentares e legais pertinentes. Em razão disso, a sociedade empresária Servicaos procura você, na condição de advogado(a), a fim de obter esclarecimentos acerca da validade e dos desdobramentos da medida adotada. Assinale a opção que apresenta o esclarecimento correto a ser prestado.",
+        "alternativas": {
+          "A": "A medida é nula, pois não poderia se materializar por meio de decreto, na medida em que o Poder Concedente deveria ter editado uma lei autorizativa para tal finalidade.",
+          "B": "Após o devido processo administrativo, a constatação de inexecução do contrato deve ensejar sua extinção, constituindo causa justificadora da encampação, que independe do interesse público.",
+          "C": "O Poder Concedente, declarada a intervenção, deverá, no prazo de 30 dias, instaurar procedimento administrativo para comprovar as causas determinantes da medida e apurar as responsabilidades, assegurado o direito de ampla defesa.",
+          "D": "A administração do serviço, cessada a intervenção e caso não seja extinta a concessão, será devolvida à concessionária, independentemente da prestação de contas do interventor, na medida em que este não responde pelos atos por ele praticados na vigência da medida."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema concessão de serviços públicos. A alternativa A está incorreta. Conforme art. 32, p.u., da Lei 8.987/95: “Parágrafo único. A intervenção far-se-á por decreto do poder concedente, que conterá a designação do interventor, o prazo da intervenção e os objetivos e limites da medida.” A alternativa B está incorreta. A constatação da inexecução do contrato acarreta a declaração de caducidade, e não na encampação. Conforme art. 38 da Lei 8.987/95: “Art. 38. A inexecução total ou parcial do contrato acarretará, a critério do poder concedente, a declaração de caducidade da concessão ou a aplicação das sanções contratuais, respeitadas as disposições deste artigo, do art. 27, e as normas convencionadas entre as partes.” A alternativa C está correta. Conforme art. 33, caput, da Lei 8.987/95: “Art. 33. Declarada a intervenção, o poder concedente deverá, no prazo de trinta dias, instaurar procedimento administrativo para comprovar as causas determinantes da medida e apurar responsabilidades, assegurado o direito de ampla defesa.” A alternativa D está incorreta. A devolução da administração do serviço à concessionária deve ser precedida de prestação de contas pelo interventor. É o que determina art. 34 da Lei 8.987/95: “Art. 34. Cessada a intervenção, se não for extinta a concessão, a administração do serviço será devolvida à concessionária, precedida de prestação de contas pelo interventor, que responderá pelos atos praticados durante a sua gestão.”"
+      }
+    ]
+  },
+  "Agentes Públicos": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Acesso à informação e dados funcionais do servidor",
+        "ids_questoes": [
+          "oab_38_30"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "A FGV costuma confundir o direito de acesso do servidor aos próprios assentamentos/dados funcionais com sigilo administrativo ou discricionariedade da Administração para negar informações."
+      },
+      {
+        "nome_microtema": "Exame psicotécnico em concurso público e reserva legal",
+        "ids_questoes": [
+          "oab_39_31"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Mistura a exigência de previsão em lei para exame psicotécnico com a ideia de que edital ou ato administrativo bastariam; também tenta deslocar a solução para remédios processuais inadequados."
+      },
+      {
+        "nome_microtema": "PAD, comissão processante, independência das instâncias e efeitos da sentença penal",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_30"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "A banca induz a crer que a falta de estabilidade de um membro da comissão invalida o PAD, ou que a ação penal suspende automaticamente a apuração administrativa; também confunde absolvição penal com repercussão automática na esfera administrativa."
+      },
+      {
+        "nome_microtema": "Extinção do cargo, estabilidade e disponibilidade",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_32"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "A FGV troca exoneração por disponibilidade e tenta fazer o candidato esquecer que servidor estável, extinto o cargo, fica em disponibilidade remunerada até adequado aproveitamento."
+      },
+      {
+        "nome_microtema": "Reversão do servidor aposentado por invalidez",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_33"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confunde reversão com reintegração, recondução e readaptação, explorando o retorno à atividade após cessação dos motivos da aposentadoria por invalidez."
+      },
+      {
+        "nome_microtema": "Concurso público: direito subjetivo à nomeação, preterição e novo certame",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_33"
+        ],
+        "peso_percentual": 14,
+        "armadilha_favorita": "A FGV costuma misturar mera expectativa de direito com direito subjetivo à nomeação, além de sugerir preterição por abertura de novo concurso sem demonstrar a ordem de classificação e a existência de vagas."
+      },
+      {
+        "nome_microtema": "Prescrição disciplinar, prazo penal e excesso de prazo no PAD",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_32"
+        ],
+        "peso_percentual": 14,
+        "armadilha_favorita": "A pegadinha é confundir prazo para concluir o PAD com prazo prescricional para punir, além de tentar aplicar automaticamente a prescrição penal ou invalidar a demissão apenas porque o processo extrapolou o prazo interno."
+      },
+      {
+        "nome_microtema": "Acumulação ilegal de cargos e procedimento disciplinar específico",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_33"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "A banca explora a opção pelo cargo como se fosse irrelevante ou tardia, e confunde o rito especial da acumulação ilegal com o PAD comum, inclusive quanto à comissão e aos efeitos da omissão do servidor."
+      },
+      {
+        "nome_microtema": "Servidor público federal eleito prefeito: afastamento e remuneração",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_34"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "A FGV costuma confundir afastamento obrigatório com compatibilidade de horários e também mistura regras de mandato eletivo com licença para atividade político-partidária."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto; a FGV descreve a situação funcional do servidor, aponta um ato administrativo ou procedimento disciplinar e cobra a consequência jurídica exata, sem pedir teoria abstrata.",
+      "palavras_gatilho": [
+        "à luz das disposições",
+        "assinale a afirmativa correta",
+        "diante dessa situação hipotética",
+        "considerando os dados apresentados",
+        "assinale a opção que apresenta a orientação jurídica correta"
+      ],
+      "padrão_distratores": "alternativas juridicamente plausíveis, com troca de institutos próximos (reintegração/reversão/readaptação; exoneração/disponibilidade; expectativa/direito subjetivo; PAD/prescrição; lei/edital; independência das instâncias), geralmente com uma opção correta muito específica e as demais contendo um erro técnico sutil."
+    },
+    "total_questoes_analisadas": 9,
+    "banco_questoes": [
+      {
+        "id": "oab_38_30",
+        "materia": "Direito Administrativo",
+        "assunto": "Acesso à Informação - Lei 12.527/11 (LAI)",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Ariquemes é servidor público federal e vem cumprindo diligentemente com as obrigações estabelecidas em lei para obter sua progressão funcional e assim aumentar sua remuneração. Os critérios para tanto estão estabelecidos em lei, são de caráter objetivo, mediante pontuação a ser adquirida pelo servidor, sendo certo que o provimento derivado em questão é ato vinculado. O mencionado servidor acredita ter cumprido todos os requisitos estabelecidos na aludida lei, mas foi surpreendido com o indeferimento de sua progressão, sob o fundamento de que não alcançou a pontuação necessária. Em razão disso, com fulcro na Lei n° 12.527/11, Ariquemes pleiteou acesso às informações que levaram a tal conclusão da Administração, que considera flagrantemente equivocada. Contudo, o fornecimento dos dados foi negado sob o fundamento de que não há interesse público na respectiva divulgação. Diante dessa situação hipotética, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O preenchimento dos requisitos previstos em lei não confere a Ariquemes o direito subjetivo à progressão almejada.",
+          "B": "As informações pleiteadas constituem atos internos da Administração e, portanto, são informação reservada, protegida por sigilo.",
+          "C": "O fornecimento dos dados pessoais pretendido por Ariquemes submete-se à discricionariedade da Administração, que atuou nos limites da lei.",
+          "D": "Ariquemes tem direito ao acesso a tais dados, considerando que este direito compreende as atividades exercidas pelos órgãos, inclusive as relativas a sua organização e serviços."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa D está correta. O art. 7°, V, da Lei 12.527/11 garante o acesso a informações sobre atividades exercidas pelos órgãos, inclusive relativas à sua política, organização e serviços. A negativa foi indevida."
+      },
+      {
+        "id": "oab_39_31",
+        "materia": "Direito Administrativo",
+        "assunto": "Descumprimento de Súmula Vinculante - Pedido de Reconsideração (Lei 9.784/99)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 56, §3º da Lei 9.784/99.",
+        "enunciado": "No ano de 2020, o Município Alfa, por meio da Secretaria Municipal de Saúde, realizou concurso público para o cargo de médico. Não obstante a inexistência de previsão legal, no curso do certame, a Secretaria de Saúde incluiu como fase do concurso exame psicotécnico e eliminou diversos candidatos. O candidato Antônio apresentou os requerimentos administrativos cabíveis para tentar reverter a decisão, mas não obteve êxito. Assim sendo, Antônio ajuizou reclamação constitucional junto ao Supremo Tribunal Federal, julgada procedente com base na Súmula Vinculante nº 44, do STF, que dispõe 'Só por lei se pode sujeitar a exame psicotécnico a habilitação de candidato a cargo público', tendo a Suprema Corte dado ciência à autoridade prolatora do ato ilegal e ao órgão competente para o julgamento do recurso. No ano de 2022, a Secretaria Municipal de Saúde publicou edital de novo concurso público, agora para o cargo de enfermeiro. Mantida a inexistência de lei prevendo o exame psicotécnico, mais uma vez, o Município Alfa incluiu o mencionado exame em fase do concurso e o mesmo Secretário Municipal eliminou do certame a candidata Maria. Na qualidade de advogado(a) de Maria, com base na Lei nº 9.784/99, integralmente aplicável ao Município Alfa por força de lei local, você deve",
+        "alternativas": {
+          "A": "impetrar mandado de segurança, observado o prazo decadencial de 180 (cento e oitenta dias), pleiteando a anulação de todo concurso, em razão de descumprimento de súmula vinculante do STF.",
+          "B": "ajuizar ação popular, requerendo a nomeação de Maria e a condenação do Secretário Municipal de Saúde por crime de responsabilidade, pela inobservância reiterada de súmula vinculante do STF.",
+          "C": "propor ação anulatória do ato de eliminação de Maria e de afastamento cautelar do Secretário Municipal de Saúde, pelo prazo de um ano, como medida punitiva pelas ilegalidades praticadas que afrontaram o interesse público.",
+          "D": "manejar pedido de reconsideração ao Secretário de Saúde, lhe alertando de que, em razão do julgamento de anterior reclamação pelo STF em caso semelhante, deve adequar sua decisão ao julgado da Suprema Corte, sob pena de responsabilização pessoal nas esferas cível, administrativa e penal."
+        },
+        "gabarito": "D",
+        "comentario": "O art. 56, §3º da Lei 9.784/99 prevê que, se o recorrente alegar que a decisão contraria súmula vinculante, a autoridade prolatora da decisão deve, se não a reconsiderar, explicitar as razões da aplicabilidade ou inaplicabilidade da súmula antes de encaminhar o recurso à autoridade superior. O pedido de reconsideração é o instrumento prévio adequado."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_30",
+        "materia": "Direito Administrativo",
+        "assunto": "Processo Administrativo Disciplinar",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Vicente, servidor público federal estável, praticou conduta que corresponde a crime, na forma da legislação penal, e se enquadra como falta funcional grave, passível de demissão. Ao tomar conhecimento de tal situação, a Administração determinou a instauração de processo administrativo disciplinar, com a designação da Comissão processante, composta por três servidores ocupantes de cargos efetivos, sendo certo que um deles, Alípio, ainda não alcançou a estabilidade. Paralelamente, o Juízo criminal competente recebeu denúncia em desfavor de Vicente em razão dos mesmos fatos. Considerando os dados apresentados, Vicente procurou você, como advogado(a), para esclarecer dúvidas acerca da mencionada situação. Assinale a opção que apresenta a orientação jurídica que, corretamente, você prestou.",
+        "alternativas": {
+          "A": "O processo administrativo disciplinar em face de Vicente não poderia ser instaurado, na medida em que a sua responsabilização deve se restringir à esfera criminal.",
+          "B": "A nomeação de Alípio para compor a comissão processante do processo administrativo disciplinar não é válida.",
+          "C": "O recebimento da denúncia em desfavor de Vicente suspende a apuração levada a efeito em sede de processo administrativo disciplinar.",
+          "D": "Eventual sentença absolutória na ação penal deverá repercutir em demissão de Vicente, ainda que fundada na ausência de provas."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão aborda o tema processo administrativo disciplinar de servidor público federal. A alternativa A está incorreta, uma vez que a responsabilidade do servidor pode abarcar as esferas cível, penal e administrativa, conforme art. 121 da Lei 8.112/90, na linha do qual “O servidor responde civil, penal e administrativamente pelo exercício irregular de suas atribuições.” Portanto, incorreto aduzir que a responsabilidade do servidor devesse se ater apenas à órbita criminal. A alternativa B está correta, porquanto tem apoio no teor do art. 149 da Lei 8.112/90, segundo o qual “O processo disciplinar será conduzido por comissão composta de três servidores estáveis designados pela autoridade competente, observado o disposto no § 3o do art. 143, que indicará, dentre eles, o seu presidente, que deverá ser ocupante de cargo efetivo superior ou de mesmo nível, ou ter nível de escolaridade igual ou superior ao do indiciado.” Dessa maneira, acertado dizer que a nomeação de Alípio para compor a comissão processante mostrou-se inválida, eis que ainda não se tratava de servidor estável. A alternativa C está incorreta, visto que as responsabilidades civil, penal e administrativa são, via de regra, independentes entre si, na forma do art. 125 da Lei 8.112/90, in verbis: “As sanções civis, penais e administrativas poderão cumular-se, sendo independentes entre si.” Assim sendo, o recebimento da denúncia na seara criminal não interfere no processamento administrativo disciplinar do servidor. A alternativa D está incorreta, tendo em vista a apontada independência das instâncias penal, civil e administrativa, sendo certo que a absolvição criminal por insuficiência de provas não constitui uma das exceções contempladas em nossa legislação."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_32",
+        "materia": "Direito Administrativo",
+        "assunto": "Extinção de cargo público e servidor estável",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Jamile, após aprovação em concurso público, foi investida em cargo efetivo na Secretaria de Administração do Estado Alfa, no qual alcançou a estabilidade. No entanto, o mencionado ente federativo decidiu reformular o seu quadro de pessoal, de modo que, após o devido processo legislativo, fez publicar a Lei XYX que extinguiu a carreira e, consequentemente, o cargo efetivo ocupado por Jamile, e, em razão disso, ato contínuo, promoveu sua exoneração. Diante dessa situação hipotética, à luz das disposições constitucionais acerca dos servidores públicos, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Jamile não pode ser afetada pela alteração legislativa em comento, pois possui o direito adquirido de permanecer no cargo para o qual foi aprovada em concurso.",
+          "B": "O Estado Alfa deve promover o aproveitamento de Jamile em outro cargo, ainda que com atribuições e remuneração distintas daquele para o qual ela fora aprovada em concurso.",
+          "C": "A exoneração de Jamile revela-se adequada e pertinente, diante da extinção da carreira e do cargo efetivo que ocupava pela Lei XYZ.",
+          "D": "Jamile, em razão da extinção do cargo, deve ficar em disponibilidade, com remuneração proporcional ao tempo de serviço, até o seu adequado aproveitamento em outro cargo."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão aborda o tema extinção de cargo público ocupado por servidor estável. A alternativa A está incorreta, uma vez que inexiste o alegado direito adquirido à permanência especificamente no cargo público para o qual o servidor foi aprovado. A alternativa B está incorreta, tendo em conta que o aproveitamento deve se dar em cargo com atribuições e remuneração compatíveis com o anteriormente ocupado. Nessa linha, apenas como exemplo, no âmbito federal, cite-se o teor do art. 30 da Lei 8.112/90: “O retorno à atividade de servidor em disponibilidade far-se-á mediante aproveitamento obrigatório em cargo de atribuições e vencimentos compatíveis com o anteriormente ocupado.” A alternativa C está incorreta, considerando que a servidora já teria adquirido estabilidade no serviço público, de maneira que não poderia ser exonerada, mas sim colocada em disponibilidade até seu adequado aproveitamento em outro cargo. A alternativa D está correta, porquanto em linha com o art. 41, §3º, da CRFB, segundo o qual “Extinto o cargo ou declarada a sua desnecessidade, o servidor estável ficará em disponibilidade, com remuneração proporcional ao tempo de serviço, até seu adequado aproveitamento em outro cargo.”"
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_33",
+        "materia": "Direito Administrativo",
+        "assunto": "Provimento derivado: reversão",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "Lei nº 8.112/90, que dispõe sobre o regime jurídico dos servidores públicos civis da União",
+        "enunciado": "Marcelo, servidor público federal estável, aposentou-se por invalidez. Meses depois, uma junta médica oficial declarou insubsistentes os motivos de sua aposentadoria. Consoante a Lei nº 8.112/90, que dispõe sobre o regime jurídico dos servidores públicos civis da União, o retorno de Marcelo à atividade, por meio de provimento de cargo público derivado por reingresso, se dará pela",
+        "alternativas": {
+          "A": "reintegração, que se dará no cargo anteriormente ocupado ou no cargo resultante de sua transformação. Na hipótese de o cargo ter sido extinto, Marcelo ficará em disponibilidade.",
+          "B": "recondução, que ocorrerá no mesmo cargo de origem e, encontrando-se provido o cargo, Marcelo será aproveitado em outro.",
+          "C": "reversão, que se fará no mesmo cargo ou no cargo resultante de sua transformação e, encontrando-se provido o cargo, Marcelo exercerá suas atribuições como excedente, até a ocorrência de vaga.",
+          "D": "readaptação, que se realizará em cargo de atribuições afins ao cargo originário de Marcelo, respeitada a habilitação exigida, o nível de escolaridade e a equivalência de vencimento."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão aborda tema concernente às formas de provimento derivado de cargos públicos. A alternativa A está incorreta, uma vez que a hipótese descrita pela Banca não seria de reintegração, mas sim de reversão, conforme fundamentos esposados na letra C. A alternativa B está incorreta, tendo em conta que o enunciado não descreve hipótese de recondução, e sim de reversão, de acordo com as razões exibidas na letra C. A alternativa C está correta, porquanto afina-se com a regra contida no art. 25, I, da Lei 8.112/90, conforme o qual “Reversão é o retorno à atividade de servidor aposentado: por invalidez, quando junta médica oficial declarar insubsistentes os motivos da aposentadoria;” A alternativa D está incorreta, na medida em que o enunciado não narra hipótese de readaptação, mas sim de reversão, como acima fundamentado nos comentários à letra C."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_33",
+        "materia": "Direito Administrativo",
+        "assunto": "Concurso público - direito subjetivo à nomeação",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Diante do grande déficit de servidores, o Estado Alfa realizou concurso público para o cargo da polícia penal, com previsão de cinquenta vagas. O respectivo edital previu o prazo de um ano para o certame, prorrogável por igual período, bem como a realização de exame psicotécnico, de caráter eliminatório, com base em previsão constante da lei e do edital. Após a homologação do certame, ficou constando que Eulália fora aprovada em quadragésimo lugar. Durante o prazo de validade do concurso anterior, o Estado Alfa abriu novo concurso para o preenchimento de mais cinquenta vagas para o mesmo cargo, com as mesmas previsões editalícias mencionadas, no qual Carlos foi o primeiro colocado. Recentemente, Carlos foi convocado para nomeação para o cargo em questão, enquanto, até a presente data, Eulália ainda não havia sido chamada, apesar de o seu certame ainda estar no prazo de validade. Nesse contexto, Eulália buscou a sua assessoria jurídica para fins de esclarecer as suas dúvidas acerca da situação vivenciada, hipótese em que você informou corretamente o que se segue.",
+        "alternativas": {
+          "A": "Eulália não tem direito subjetivo de ser nomeada, considerando que a aprovação em concurso gera mera expectativa de direito.",
+          "B": "Os concursos em questão estão viciados, na medida em que é nula a previsão editalícia que exija exame psicotécnico de caráter eliminatório.",
+          "C": "A convocação de Carlos caracteriza a preterição do direito de Eulália, já que ela tem prioridade de ser chamada sobre novos concursados.",
+          "D": "O prazo de validade estabelecido para os mencionados concursos é inválido, pois a Constituição exige o período razoável de no mínimo dois anos, prorrogável por mais um ano."
+        },
+        "gabarito": "C",
+        "comentario": "A resposta correta é a letra C. A questão trata do direito subjetivo à nomeação. A alternativa A está incorreta, pois, conforme entendeu o STF quando do julgamento do RE 837.311, em 2015, a aprovação em concurso público dentro do número de vagas do edital gera direito subjetivo à nomeação do candidato. A alternativa B está incorreta, pois a Súmula Vinculante 44 estipula que o exame psicotécnico de caráter eliminatório é válido, desde que haja lei que a autorize. A alternativa C está correta, pois, conforme julgamento do RE 837.311/PI pelo STF, Eulália possui direito subjetivo à nomeação, tendo em vista que foi aprovada dentro das vagas do edital, e, portanto, a nomeação de Carlos implicaria na preterição do direito dela. A alternativa D está incorreta, pois o Art. 37, III da CF/88 prevê que o prazo de validade dos concursos públicos deve ser de até dois anos, e não de no mínimo dois anos, sendo prorrogável por igual período, e não por mais um ano como aduz a assertiva."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_32",
+        "materia": "Direito Administrativo",
+        "assunto": "Processo Administrativo Disciplinar",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Em decorrência de uma denúncia anônima, as autoridades competentes da União promoveram investigação e verificaram que Wagner, servidor público federal estável, cometeu infração disciplinar que também é capitulada como crime contra a Administração Pública. Em razão disso, de forma motivada, foi instaurado o respectivo processo administrativo disciplinar que, após exceder o prazo para a sua conclusão, sem prejuízo para a defesa, resultou na sua demissão. Wagner não se conforma com a mencionada penalidade, pois acredita na existência de vícios que fulminam o aludido processo administrativo disciplinar. Ainda, os fatos ocorreram seis anos antes da sua instauração, razão pela qual Wagner procurou você, como advogado(a). Você apurou que a Administração tomou conhecimento dos fatos três anos antes da instauração do processo administrativo disciplinar e que o respectivo crime estaria sujeito ao prazo prescricional de oito anos na esfera penal. Sobre a penalidade aplicada, assinale a opção que apresenta a orientação correta.",
+        "alternativas": {
+          "A": "Os prazos de prescrição da lei penal devem ser aplicados às infrações disciplinares capituladas como crime.",
+          "B": "O excesso de prazo para a conclusão do processo administrativo disciplinar, por si só, enseja a nulidade da penalidade, mesmo que não tenha havido prejuízo para a defesa.",
+          "C": "A penalidade aplicada é nula, na medida em que o processo administrativo disciplinar não poderia ser instaurado após a investigação levada a efeito em razão de denúncia anônima.",
+          "D": "O exercício da pretensão disciplinar está fulminado pela prescrição, pois transcorreram mais de cinco anos entre a ocorrência do fato e a instauração do respectivo processo administrativo disciplinar."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata do tema Processo Administrativo Disciplinar. A alternativa A está correta. De acordo com art. 142, § 2º, da Lei 8.112/90: “§ 2º Os prazos de prescrição previstos na lei penal aplicam-se às infrações disciplinares capituladas também como crime.” A alternativa B está incorreta. De acordo com enunciado da Súmula 592 do STJ: “O excesso de prazo para a conclusão do processo administrativo disciplinar só causa nulidade se houver demonstração de prejuízo à defesa.” A alternativa C está incorreta. De acordo com enunciado da Súmula 611 do STJ: “Desde que devidamente motivada e com amparo em investigação ou sindicância, é permitida a instauração de processo administrativo disciplinar com base em denúncia anônima, em face do poder-dever de autotutela imposto à Administração.” (STJ. 1ª Seção. Aprovada em 09/05/2018, DJe 14/05/2018). A alternativa D está incorreta. O prazo de prescrição não começa a correr da ocorrência do fato, mas sim da data em que se tornou conhecido. É o que determina art. 142, § 1º, da Lei 8.112/90: “§ 1º O prazo de prescrição começa a correr da data em que o fato se tornou conhecido.”"
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_33",
+        "materia": "Direito Administrativo",
+        "assunto": "Acumulação ilegal de cargos públicos",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Tertuliano vem acumulando ilicitamente dois cargos públicos em autarquias federais diferentes. Ao detectar tal situação, após os devidos trâmites, a autoridade competente notificou o servidor para que ele optasse pelo cargo em que pretendia permanecer. Em decorrência da omissão de Tertuliano em realizar a aludida escolha foi publicada a portaria atinente à instauração do processo administrativo disciplinar por acumulação ilegal de cargos. Tertuliano procurou você, como advogado(a), para saber das peculiaridades do andamento desse procedimento. Diante dessa situação hipotética, assinale a afirmativa que indica, corretamente, sua orientação.",
+        "alternativas": {
+          "A": "A análise do caso deverá ser feita por uma comissão processante, composta de três servidores estáveis, cujo presidente deverá ser ocupante de cargo superior ou de mesmo nível de Tertuliano.",
+          "B": "A comissão processante, caracterizada a acumulação ilegal e provada a má-fé de Tertuliano, deverá indicar o cargo que estará sujeito à pena de demissão.",
+          "C": "A notificação para que Tertuliano realize a opção por um dos cargos vai contra a lei, pois ele deve ser demitido de ambos os cargos ilicitamente acumulados, após o devido processo administrativo.",
+          "D": "A opção de Tertuliano por um dos cargos até o último dia do prazo para defesa configura sua boa-fé, hipótese que se converterá, automaticamente, em pedido de exoneração do outro cargo."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata do tema agentes públicos. A alternativa A está incorreta. A comissão será composta de 2 servidores estáveis. É o que determina art. 133, I, da Lei 8.112/90: “I - instauração, com a publicação do ato que constituir a comissão, a ser composta por dois servidores estáveis, e simultaneamente indicar a autoria e a materialidade da transgressão objeto da apuração.” A alternativa B está incorreta. Conforme art. 133, § 6º, da Lei 8.112/90: “§ 6º Caracterizada a acumulação ilegal e provada a má-fé, aplicar-se-á a pena de demissão, destituição ou cassação de aposentadoria ou disponibilidade em relação aos cargos, empregos ou funções públicas em regime de acumulação ilegal, hipótese em que os órgãos ou entidades de vinculação serão comunicados.” A alternativa C está incorreta. Antes de aplicada a penalidade de demissão, o servidor é notificado, por intermédio de sua chefia imediata, para apresentar opção no prazo improrrogável de 10 dias, contados da data da ciência e, na hipótese de omissão, a autoridade adotará procedimento sumário para a sua apuração e regularização imediata. É o que determina caput do art. 133 da Lei 8.112/90: “Art. 133. Detectada a qualquer tempo a acumulação ilegal de cargos, empregos ou funções públicas, a autoridade a que se refere o art. 143 notificará o servidor, por intermédio de sua chefia imediata, para apresentar opção no prazo improrrogável de dez dias, contados da data da ciência e, na hipótese de omissão, adotará procedimento sumário para a sua apuração e regularização imediata, cujo processo administrativo disciplinar se desenvolverá nas seguintes fases: (...)” A alternativa D está correta. Na forma do art. 133, § 5º, da Lei 8.112/90: “§ 5º A opção pelo servidor até o último dia de prazo para defesa configurará sua boa-fé, hipótese em que se converterá automaticamente em pedido de exoneração do outro cargo.”"
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_34",
+        "materia": "Direito Administrativo",
+        "assunto": "Servidor público federal investido em mandato eletivo",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Matheus, servidor público federal estável, ocupante de cargo público no Ministério do Meio Ambiente, externou o desejo de concorrer, nas próximas eleições, ao cargo de Prefeito do Município Alfa, cidade onde nasceu. Encorajado pelos amigos, Matheus, leigo na seara jurídica, entrou em contato com você para que, na qualidade de advogado(a), o orientasse sobre o exercício do mandato de prefeito e sua condição de servidor público federal. Nesse cenário, considerando as disposições da Lei nº 8.112/1990, que dispõe sobre o regime jurídico dos servidores civis da União, das autarquias e das funções públicas federais, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Investido no mandato de Prefeito do Município Alfa, Matheus ficará afastado do cargo público ocupado no Ministério do Meio Ambiente, sendo-lhe facultado optar pela sua remuneração.",
+          "B": "Como os servidores públicos federais não podem dispor de filiação político-partidária, Matheus deverá exonerar-se do cargo público ocupado no Ministério do Meio Ambiente para que possa concorrer nas eleições municipais.",
+          "C": "Havendo compatibilidade de horários e sendo investido no mandato de Prefeito do Município Alfa, Matheus perceberá as vantagens do cargo público ocupado no Ministério do Meio Ambiente, sem prejuízo da remuneração do cargo eletivo.",
+          "D": "Matheus, a partir do dia primeiro de janeiro do ano da eleição, terá direito, por se tratar de servidor público federal estável, à licença para o exercício de atividade política, que perdurará até o dia subsequente à data da eleição, assegurados os vencimentos do cargo efetivo."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata do tema Agentes Públicos. A alternativa A está correta. Conforme art. 94, II, da Lei 8.112/90, se investido no mandato de Prefeito do Município Alfa, Matheus ficará afastado do cargo público ocupado no Ministério do Meio Ambiente, sendo-lhe facultado optar pela sua remuneração. A alternativa B está incorreta. Não é necessário que Matheus peça exoneração do cargo, ficando apenas afastado, conforme art. 94, II, da Lei 8.112/90, acima transcrito. A alternativa C está incorreta. Matheus deve optar pela remuneração de um dos dois, conforme art. 94, II, da Lei 8.112/90, acima transcrito. A alternativa D está incorreta. Conforme art. 86, § 2º, da Lei 8.112/90: “Art. 86. O servidor terá direito a licença, sem remuneração, durante o período que mediar entre a sua escolha em convenção partidária, como candidato a cargo eletivo, e a véspera do registro de sua candidatura perante a Justiça Eleitoral. § 2º A partir do registro da candidatura e até o décimo dia seguinte ao da eleição, o servidor fará jus à licença, assegurados os vencimentos do cargo efetivo, somente pelo período de três meses.”"
+      }
+    ]
+  },
+  "Domínio Público E Bens Públicos": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Alienação de bens móveis públicos inservíveis na Lei 14.133/2021",
+        "ids_questoes": [
+          "oab_39_32"
+        ],
+        "peso_percentual": 100,
+        "armadilha_favorita": "A FGV costuma confundir a regra da alienação de bens móveis inservíveis com exigências típicas de outros bens públicos, como autorização legislativa, concorrência ou inexigibilidade. A pegadinha é lembrar que, havendo interesse público justificado e avaliação prévia, a alienação de bem móvel inservível, em regra, ocorre por licitação na modalidade leilão."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com situação administrativa concreta e foco na aplicação literal da Lei 14.133/2021 sobre bens públicos e licitação",
+      "palavras_gatilho": [
+        "em regra",
+        "alienação",
+        "interesse público devidamente justificado",
+        "avaliação prévia",
+        "modalidade leilão"
+      ]
+    },
+    "total_questoes_analisadas": 1,
+    "banco_questoes": [
+      {
+        "id": "oab_39_32",
+        "materia": "Direito Administrativo",
+        "assunto": "Alienação de Bens Móveis - Modalidade Leilão (Lei 14.133/21)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 76, II da Lei 14.133/2021.",
+        "enunciado": "A Secretaria de Fazenda do Estado Alfa acabou de adquirir novos computadores, que substituíram os antigos equipamentos que serviam aos agentes públicos lotados no órgão. Sendo assim, os antigos equipamentos, que ainda funcionam, estão sem qualquer utilidade na pasta, razão pela qual o Secretário de Fazenda instaurou processo administrativo, visando à sua alienação. No bojo do citado processo, ficou consignada a existência de interesse público devidamente justificado para a alienação dos equipamentos, assim como já foi realizada sua avaliação. A sociedade empresária Sigma possui interesse em adquirir os computadores e, em consulta a seu advogado, foi informada de que, consoante dispõe a Lei n° 14.133/21, a alienação desses bens da Secretaria de Fazenda do Estado Alfa, em regra,",
+        "alternativas": {
+          "A": "dependerá de licitação na modalidade leilão.",
+          "B": "exigirá autorização legislativa e dependerá de licitação na modalidade concorrência.",
+          "C": "será promovida mediante inexigibilidade de licitação, observados o interesse social e os critérios de oportunidade e conveniência.",
+          "D": "deverá ocorrer mediante prévia licitação, em modalidade compatível com o valor da avaliação dos equipamentos."
+        },
+        "gabarito": "A",
+        "comentario": "O art. 76, II da Lei 14.133/2021 estabelece que a alienação de bens móveis, subordinada à existência de interesse público e precedida de avaliação, dependerá de licitação na modalidade leilão. A autorização legislativa é exigida apenas para bens imóveis (inciso I)."
+      }
+    ]
+  },
+  "Intervenção Do Estado Na Propriedade": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Servidão administrativa: conceito, finalidade e indenização por dano efetivo",
+        "ids_questoes": [
+          "oab_38_34"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir servidão administrativa com desapropriação ou limitação administrativa, e errar a indenização: na servidão, só há indenização se houver prejuízo/dano comprovado."
+      },
+      {
+        "nome_microtema": "Desapropriação: desvio de finalidade e controle judicial do motivo",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_32"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A FGV tenta fazer parecer que o motivo declarado basta; a pegadinha é o desvio de finalidade (vingança pessoal), que contamina o ato expropriatório e pode ser arguido judicialmente."
+      },
+      {
+        "nome_microtema": "Compromisso urbanístico/solução consensual em conflito administrativo: proporcionalidade e equidade",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_34"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir compromisso administrativo com anistia automática ou convalidação irrestrita da irregularidade; a FGV cobra a ideia de solução proporcional, equânime e voltada ao interesse público, sem apagar automaticamente a ilicitude."
+      },
+      {
+        "nome_microtema": "Limitação administrativa: restrição geral e abstrata ao direito de propriedade",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_30"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Trocar limitação administrativa por servidão ou desapropriação indireta. A chave é a generalidade/abstração da norma e a ausência de individualização do bem."
+      },
+      {
+        "nome_microtema": "Tombamento: notificação, tombamento provisório e efeitos sobre bem público",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_30"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A FGV costuma confundir o momento de eficácia do tombamento com sua conclusão formal e também testar a falsa ideia de que bem público não pode ser tombado."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto; a FGV descreve um fato administrativo/urbanístico/patrimonial e pede a identificação da modalidade de intervenção estatal, seus efeitos e a consequência indenizatória ou processual correta.",
+      "palavras_gatilho": [
+        "é correto afirmar",
+        "diante dos fatos",
+        "assinale a opção que indica",
+        "à luz do disposto",
+        "considerando estritamente os fatos narrados"
+      ],
+      "padrão_distratores": "Alternativas juridicamente plausíveis, trocando institutos próximos entre si (servidão x limitação x desapropriação x tombamento), invertendo efeitos jurídicos (indenização, prazo, eficácia, possibilidade de impugnação) e explorando exceções clássicas como desvio de finalidade, tombamento de bem público e restrições gerais abstratas."
+    },
+    "total_questoes_analisadas": 5,
+    "banco_questoes": [
+      {
+        "id": "oab_38_34",
+        "materia": "Direito Administrativo",
+        "assunto": "Servidão Administrativa",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "O Município Alfa, observadas as cautelas legais, instituiu servidão administrativa sobre o imóvel de propriedade de Gabriel, com a finalidade de instalar postes e fios de energia elétrica, com escopo de regularizar o serviço de iluminação pública na localidade. Diante das circunstâncias do caso concreto, em especial pelo grande espaço cuja utilização é necessária para manutenção dos equipamentos instalados, verifica-se, de forma incontroversa, que Gabriel sofreu efetivo dano no direito de propriedade. Para melhor compreender o regime jurídico próprio dessa modalidade de intervenção do Estado na propriedade e ficar ciente de seus direitos e obrigações, em especial em matéria de indenização, Gabriel contratou você, como advogado(a). No caso em tela, atento às normas de regência, você orientou seu cliente no sentido de que a servidão administrativa instituída pelo Município Alfa,",
+        "alternativas": {
+          "A": "enseja o pagamento de indenização, se houver dano comprovado.",
+          "B": "ocorre com prazo determinado, pode ser prorrogado mediante prévia indenização.",
+          "C": "ostenta natureza de direito pessoal da Administração Pública, que prescinde de registro no Cartório de Registro de Imóveis, e ocorre mediante indenização títulos da dívida pública.",
+          "D": "tem por pressuposto a necessidade de utilizada pública, ou por interesse social, e deve ocorrer mediante justa e prévia indenização."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa A está correta. A servidão administrativa, sendo uma limitação ao direito de propriedade, enseja indenização quando causar dano comprovado, com base no art. 40 do Decreto-Lei 3.365/41."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_32",
+        "materia": "Direito Administrativo",
+        "assunto": "Desapropriação por utilidade pública e desvio de finalidade",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O Município Alfa fez editar um decreto expropriatório por utilidade pública do bem de propriedade de Constância, sob o fundamento de que o imóvel é necessário para a construção de uma escola. Constância recusou-se a formalizar acordo na via administrativa, na medida em que tem robustas provas de que, na realidade, o objetivo da desapropriação é uma vingança pessoal de seu ex-cônjuge, Rosalvo, que é o atual prefeito do município, que subscreve o mencionado decreto. Diante da ausência de acordo, o Município ajuizou a respectiva ação de desapropriação. Em razão disso, Constância procurou você, como advogado(a), a fim de elucidar questões atinentes ao problema por ela enfrentado. Considerando estritamente os fatos narrados, assinale a afirmativa que apresenta, corretamente, sua orientação.",
+        "alternativas": {
+          "A": "A desapropriação não apresenta qualquer vício, considerando que o motivo invocado no decreto é válido, independentemente de Rosalvo ter dela se utilizado para fins de vingança.",
+          "B": "Em sede de contestação na ação de desapropriação, Constância pode invocar qualquer matéria de fato ou de direito, mediante a produção de provas que viabilizem ao Poder Judiciário a verificação da existência ou não da situação de utilidade pública invocada no decreto.",
+          "C": "A utilização da desapropriação por Rosalvo para se vingar da ex-cônjuge constitui desvio de finalidade, vício insanável que deverá ser alegado em ação própria, na medida em que a contestação na ação de desapropriação só pode versar sobre vício processual ou impugnação do preço.",
+          "D": "O município não poderia ter ajuizado a ação de desapropriação, na medida em que esta depende da realização de acordo na via administrativa para a consumação da perda da propriedade."
+        },
+        "gabarito": "C",
+        "comentario": "A resposta correta apresentada pela banca é a letra C; contudo, defendemos a anulação desta questão. A questão trata do tema da desapropriação por utilidade pública. A alternativa A, apesar de ter sido considerada incorreta pela banca, não apresenta indícios suficientes para que se postule o vício na desapropriação, eis que não se sabe o destino dado ao bem, a posteriori; como a questão não deixa claro o que ocorreu com o terreno, uma vez desapropriado o imóvel, e, desde que seja utilizado para a destinação invocada no decreto (construção de uma escola), a desapropriação não terá apresentado vício, independentemente de quais motivações ocultas moveram o atual prefeito do município, já que, como explica a alternativa, o motivo apresentado é válido, por se tratar de caso de utilidade pública, conforme o art. 5º, alínea \"m\" do Decreto-Lei nº 3.365/41: \"Art. 5º Consideram-se casos de utilidade pública: (...) m) a construção de edifícios públicos, monumentos comemorativos e cemitérios;\". A alternativa B está incorreta, pois, conforme o artigo 20 do Decreto-Lei 3.365/41 a contestação somente pode versar sobre vício do processo ou impugnação do preço: \"Art. 20. A contestação só poderá versar sobre vício do processo judicial ou impugnação do preço; qualquer outra questão deverá ser decidida por ação direta.\". Ademais, erra também a assertiva ao prever que o Poder Judiciário poderá verificar se existe ou não a situação de utilidade pública no processo de desapropriação, pois vai de encontro com o previsto pelo art. 9º do referido Decreto-Lei: \"Art. 9º. Ao Poder Judiciário é vedado, no processo de desapropriação, decidir se se verificam ou não os casos de utilidade pública.\". A alternativa C está correta, pois, conforme define o art. 2º, parágrafo único, alínea \"e\" da Lei nº 4.717/65, a prática do ato visando fim diverso daquele previsto constitui desvio de finalidade, caso em que o ato será nulo, e, portanto, insanável (\"Art. 2º São nulos os atos lesivos ao patrimônio das entidades mencionadas no artigo anterior, nos casos de: (...) e) desvio de finalidade. Parágrafo único. Para a conceituação dos casos de nulidade observar-se-ão as seguintes normas: (...) e) o desvio de finalidade se verifica quando o agente pratica o ato visando a fim diverso daquele previsto, explícita ou implicitamente, na regra de competência.\"), devendo ser alegado em ação própria, tendo em vista que, conforme o artigo 20 do Decreto-Lei 3.365/41 a contestação somente pode versar sobre vício do processo ou impugnação do preço: \"Art. 20. A contestação só poderá versar sobre vício do processo judicial ou impugnação do preço; qualquer outra questão deverá ser decidida por ação direta.\". A alternativa D está incorreta, pois a desapropriação pode ocorrer na esfera administrativa ou judicial, conforme determina o art. 10º do Decreto-Lei 3.365/41: \"Art. 10. A desapropriação deverá efetivar-se mediante acordo ou intentar-se judicialmente, dentro de cinco anos, contados da data da expedição do respectivo decreto e findos os quais este caducará.\"."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_34",
+        "materia": "Direito Administrativo",
+        "assunto": "Lei de Introdução às Normas do Direito Brasileiro - Compromisso para eliminar irregularidade",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Há mais de dez anos o Município Delta trava uma batalha judicial com a sociedade empresária Ipsilone, em decorrência de uma construção irregular, que, apesar de não causar qualquer tipo de risco, não logrou obter a devida licença administrativa por violar formalmente as normas então vigentes, mas que trouxe diversos benefícios sociais e turísticos para a coletividade. Em decorrência do clamor público, o prefeito do Município Delta determinou a realização de uma consulta pública, para viabilizar a celebração de um compromisso que encerrasse a situação jurídica contenciosa, com vistas a melhor atender ao interesse geral. Em razão disso, os representantes da sociedade Ipsilone buscaram você, como advogado(a), com o objetivo de esclarecer se a conduta do prefeito está adequada ao ordenamento jurídico, notadamente no que concerne às normas de interpretação e aplicação do Direito Público. Diante dessa situação hipotética, com base no texto da Lei de Introdução às normas do Direito Brasileiro, assinale a opção que apresenta, corretamente, sua orientação sobre a mencionada consulta.",
+        "alternativas": {
+          "A": "É vedado ao Município Delta realizar o almejado compromisso com a sociedade Ipsilone em decorrência do princípio da indisponibilidade do interesse público.",
+          "B": "O referido compromisso poderá conferir à sociedade Ipsilone a desoneração permanente de dever reconhecido por orientação geral, diante do princípio da supremacia do interesse público.",
+          "C": "O compromisso pretendido deve produzir efeitos a partir da respectiva formalização, antes mesmo de sua publicação oficial, à luz do princípio da transparência.",
+          "D": "O compromisso em questão deverá buscar solução jurídica proporcional, equânime, eficiente e compatível com interesses gerais."
+        },
+        "gabarito": "D",
+        "comentario": "A resposta correta é a letra D. A questão trata da Lei de Introdução ao Direito Brasileiro, no tocante à possibilidade de realização de compromisso para eliminar irregularidade, incerteza jurídica ou situação contenciosa na aplicação do direito público. A alternativa A está incorreta, pois, conforme o Art. 26 da LINDB, a autoridade administrativa pode celebrar compromissos com os interessados visando eliminar irregularidade, incerteza jurídica ou situação contenciosa na aplicação do direito público, desde que haja razões de relevante interesse geral e seja observada a legislação aplicável, sem que isso fira algum princípio administrativo: \"Art. 26. Para eliminar irregularidade, incerteza jurídica ou situação contenciosa na aplicação do direito público, inclusive no caso de expedição de licença, a autoridade administrativa poderá, após oitiva do órgão jurídico e, quando for o caso, após realização de consulta pública, e presentes razões de relevante interesse geral, celebrar compromisso com os interessados, observada a legislação aplicável, o qual só produzirá efeitos a partir de sua publicação oficial.\". A alternativa B está incorreta, pois vai de encontro ao exposto pelo inciso III do §1º do Art. 26 da LINDB, vejamos: \"Art. 26. Para eliminar irregularidade, incerteza jurídica ou situação contenciosa na aplicação do direito público, inclusive no caso de expedição de licença, a autoridade administrativa poderá, após oitiva do órgão jurídico e, quando for o caso, após realização de consulta pública, e presentes razões de relevante interesse geral, celebrar compromisso com os interessados, observada a legislação aplicável, o qual só produzirá efeitos a partir de sua publicação oficial. § 1º O compromisso referido no caput deste artigo: (...) III - não poderá conferir desoneração permanente de dever ou condicionamento de direito reconhecidos por orientação geral;\". A alternativa C está incorreta, pois diverge do previsto pelo artigo 26 da LINDB, o qual estipula que os efeitos do compromisso só serão produzidos a partir de sua publicação oficial: \"Art. 26. Para eliminar irregularidade, incerteza jurídica ou situação contenciosa na aplicação do direito público, inclusive no caso de expedição de licença, a autoridade administrativa poderá, após oitiva do órgão jurídico e, quando for o caso, após realização de consulta pública, e presentes razões de relevante interesse geral, celebrar compromisso com os interessados, observada a legislação aplicável, o qual só produzirá efeitos a partir de sua publicação oficial.\". A alternativa D está correta, pois é o que determina o inciso I do §1º do art. 26 da LINDB. Vejamos: \"Art. 26. Para eliminar irregularidade, incerteza jurídica ou situação contenciosa na aplicação do direito público, inclusive no caso de expedição de licença, a autoridade administrativa poderá, após oitiva do órgão jurídico e, quando for o caso, após realização de consulta pública, e presentes razões de relevante interesse geral, celebrar compromisso com os interessados, observada a legislação aplicável, o qual só produzirá efeitos a partir de sua publicação oficial. § 1º O compromisso referido no caput deste artigo: I - buscará solução jurídica proporcional, equânime, eficiente e compatível com os interesses gerais;\"."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_30",
+        "materia": "Direito Administrativo",
+        "assunto": "Intervenção do Estado na Propriedade - Limitação Administrativa",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O Município Alfa editou lei, aplicável após sua entrada em vigor, sem caráter retroativo, devidamente regulamentada por decreto, dispondo sobre o número máximo de pavimentos em edificações situadas em determinadas ruas à beira-mar, em bairros da cidade especificados. Cuida-se, pois, de restrição geral, que atinge um número indeterminado de particulares proprietários de imóveis, nos termos indicados pelas normas municipais. Gustavo, em decorrência da aludida determinação ter afetado sua propriedade, procurou você, como advogado(a), para ser informado sobre a modalidade de intervenção praticada pelo Estado. Assinale a opção que indica, corretamente, sua resposta.",
+        "alternativas": {
+          "A": "Trata-se de servidão administrativa, embasada no regular emprego do poder hierárquico, diante da supremacia do interesse público sobre o privado.",
+          "B": "Trata-se de limitação administrativa, embasada no regular emprego do poder de polícia, haja vista que visa condicionar o exercício do direito de propriedade ao cumprimento de sua função social.",
+          "C": "Trata-se de requisição administrativa, embasada no regular emprego do poder disciplinar, haja vista que visa disciplinar e compatibilizar o direito de propriedade ao cumprimento de sua função social.",
+          "D": "Trata-se de desapropriação indireta, embasada no emprego do poder regulamentar, haja vista que reduziu parcialmente o direito de propriedade, diante da supremacia do interesse público sobre o privado."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tema Intervenção do Estado na Propriedade. De acordo com a doutrina, acerca da Limitação Administrativa: “A limitação administrativa é um ato genérico por meio do qual o poder público impõe a proprietários indeterminados obrigações com o objetivo de fazer com que aquela propriedade atenda à sua função social. Tratam-se, assim, de medidas de caráter geral direcionadas a todos os proprietários daquela determinada região, fundamentadas no poder de polícia do Estado, “gerando para os proprietários obrigações positivas ou negativas, com o fim de condicionar o exercício do direito de propriedade ao bem-estar social” (DI PIETRO). Podem ser instituídas em lei ou regulamento de qualquer ente da Administração e, por constituírem imposições gerais destinadas a propriedades indeterminadas, não ensejam nenhuma indenização por parte do Poder Público em favor dos proprietários. Na generalidade dos casos, a limitação administrativa é gratuita, surgindo o dever de indenizar tão somente em casos de redução do valor econômico do bem. Todavia, o proprietário do bem não fará jus a qualquer direito indenizatório se tiver adquirido o bem após a limitação administrativa já ter sido imposta.” (Direito Administrativo para a 1ª Fase do Exame de Ordem (OAB) - Estratégia OAB, 2024; Cap. 7. Intervenção do Estado na Propriedade - Livro Digital Interativo). Portanto, no caso hipotético narrado pelo enunciado, percebe-se que se configura uma limitação administrativa, pois há uma restrição geral, que atinge um número indeterminado de particulares proprietários de imóveis, nos termos indicados pelas normas municipais. Tal restrição está embasada no regular emprego do poder de polícia, haja vista que visa condicionar o exercício do direito de propriedade ao cumprimento de sua função social. Logo, a alternativa correta é a letra B. As alternativas A, C e D ficam automaticamente incorretas."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_30",
+        "materia": "Direito Administrativo",
+        "assunto": "Tombamento",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "Decreto-Lei nº 25/1937",
+        "enunciado": "Com o intuito de promover o tombamento de dois imóveis vizinhos de inequívoco valor histórico e cultural, o Instituto do Patrimônio Histórico Nacional (Iphan), autarquia federal, no exercício de suas atribuições, promoveu a notificação dos respectivos proprietários: o Município Alfa e a senhora Maria Silva. Maria Silva acredita que terá graves prejuízos financeiros com a materialização do tombamento de ambos os imóveis, razão pela qual, logo após a notificação, procurou você, como advogado(a), para dirimir dúvidas acerca da matéria. À luz do disposto no Decreto-Lei nº 25/1937, assinale a opção que apresenta, corretamente, o esclarecimento que você deu a Maria Silva.",
+        "alternativas": {
+          "A": "Com a notificação, considera-se que ocorreu o tombamento provisório do imóvel de Maria.",
+          "B": "A conclusão do tombamento do imóvel do Município Alfa não gera qualquer efeito sobre o imóvel de Maria.",
+          "C": "Caso Maria realize tempestivamente a impugnação relacionada ao imóvel de sua propriedade, não será cabível o tombamento compulsório.",
+          "D": "Não é possível o tombamento do imóvel vizinho à propriedade de Maria, por se tratar de bem público que integra o patrimônio do Município Alfa."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata do tema tombamento. A alternativa A está correta. O tombamento provisório é iniciado pela notificação, e o tombamento definitivo é concluído pela inscrição dos bens no livro do tombo, conforme art. 10 do DL 25/37: “Art. 10. O tombamento dos bens, a que se refere o art. 6º desta lei, será considerado provisório ou definitivo, conforme esteja o respectivo processo iniciado pela notificação ou concluído pela inscrição dos referidos bens no competente Livro do Tombo.” A alternativa B está incorreta. Conforme art. 18 do DL 25/37: “Art. 18. Sem prévia autorização do Serviço do Patrimônio Histórico e Artístico Nacional, não se poderá, na vizinhança da coisa tombada, fazer construção que lhe impeça ou reduza a visibilidade, nem nela colocar anúncios ou cartazes, sob pena de ser mandada destruir a obra ou retirar o objeto, impondo-se neste caso a multa de cinquenta por cento do valor do mesmo objeto.” A alternativa C está incorreta. Ainda que haja impugnação, o tombamento compulsório ainda pode ocorrer. É o que dispõe art. 9º do DL 25/37: “Art. 9º O tombamento compulsório se fará de acordo com o seguinte processo: (...) 3) se a impugnação for oferecida dentro do prazo assinado, far-se-á vista da mesma, dentro de outros quinze dias fatais, ao órgão de que houver emanado a iniciativa do tombamento, afim de sustentá-la. Em seguida, independentemente de custas, será o processo remetido ao Conselho Consultivo do Serviço do Patrimônio Histórico e Artístico Nacional, que proferirá decisão a respeito, dentro do prazo de sessenta dias, a contar do seu recebimento. Dessa decisão não caberá recurso.” A alternativa D está incorreta. É possível, sim, o tombamento de imóvel pertencente ao poder público, conforme dispõe artigo 2º do DL 25/37: “Art. 2º A presente lei se aplica às coisas pertencentes às pessoas naturais, bem como às pessoas jurídicas de direito privado e de direito público interno.”"
+      }
+    ]
+  },
+  "Intervenção No Domínio Econômico": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Fundamentos constitucionais da intervenção estatal no domínio econômico",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir intervenção no domínio econômico com prestação direta de serviço público ou com simples poder de polícia."
+      },
+      {
+        "nome_microtema": "Atuação direta do Estado como agente econômico: exploração de atividade econômica",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Achar que o Estado pode explorar atividade econômica livremente, sem observar os requisitos constitucionais de segurança nacional ou relevante interesse coletivo."
+      },
+      {
+        "nome_microtema": "Atuação indireta do Estado: regulação, fiscalização, incentivo e planejamento",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Tratar planejamento como imposição absoluta, quando em regra ele é indicativo para o setor privado e vinculante apenas para o setor público nos termos constitucionais."
+      },
+      {
+        "nome_microtema": "Monopólios estatais e hipóteses constitucionais de exclusividade",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Misturar monopólio constitucional com mera reserva de mercado ou com atividade econômica em regime concorrencial."
+      },
+      {
+        "nome_microtema": "Agências reguladoras e poder normativo técnico",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Supor que agência reguladora pode inovar livremente na ordem jurídica, criando obrigações sem base legal."
+      },
+      {
+        "nome_microtema": "Instrumentos de intervenção: tabelamento, controle de preços, incentivos fiscais e subsídios",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir incentivo econômico legítimo com renúncia fiscal automática ou com intervenção abusiva sem fundamento legal."
+      },
+      {
+        "nome_microtema": "Repressão ao abuso do poder econômico e defesa da concorrência",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Misturar intervenção estatal na economia com sanções concorrenciais aplicadas pelo CADE e com ilícitos de cartel ou dominação de mercado."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo atuação estatal na economia, exigindo distinguir intervenção direta e indireta, identificar o fundamento constitucional correto e reconhecer os limites da atuação administrativa, especialmente em temas de regulação, monopólio, incentivo e defesa da concorrência.",
+      "palavras_gatilho": [
+        "relevante interesse coletivo",
+        "segurança nacional",
+        "planejamento",
+        "regulação",
+        "fiscalização",
+        "incentivo",
+        "monopólio",
+        "CADE",
+        "abuso do poder econômico",
+        "controle de preços",
+        "atividade econômica"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Controle Da Administração Pública": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Convalidação de ato administrativo com vício sanável e ausência de lesão ao interesse público/terceiros",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_31"
+        ],
+        "peso_percentual": 50,
+        "armadilha_favorita": "A FGV mistura anulação com revogação e tenta levar o candidato a achar que todo vício gera invalidação automática. O ponto correto é a possibilidade de convalidação dos atos com defeito sanável, especialmente vício de forma, quando não houver lesão ao interesse público nem prejuízo a terceiros."
+      },
+      {
+        "nome_microtema": "LINDB: invalidação de ato administrativo, dever de considerar consequências práticas e proteção da confiança",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_31"
+        ],
+        "peso_percentual": 50,
+        "armadilha_favorita": "A pegadinha é afirmar que qualquer vício impõe anulação imediata. A LINDB exige decisão motivada, com consideração das consequências práticas, e admite modular efeitos/condicionar a invalidação quando necessário para preservar segurança jurídica, estabilidade e confiança legítima."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, normalmente envolvendo servidor, controle interno, ato administrativo com vício e dúvida sobre anulação, convalidação ou preservação dos efeitos",
+      "palavras_gatilho": [
+        "é correto afirmar",
+        "diante dos fatos",
+        "à luz da lei",
+        "necessidade de invalidar",
+        "efeitos favoráveis",
+        "boa-fé",
+        "segurança jurídica",
+        "consequências práticas"
+      ],
+      "padrão_distratores": "alternativas que confundem anulação com revogação, tratam vício sanável como insanável, ignoram boa-fé e proteção da confiança, ou afirmam invalidação automática sem motivação e sem análise das consequências"
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-42_31",
+        "materia": "Direito Administrativo",
+        "assunto": "Processo Administrativo Federal - Lei 9.784/99",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "João Silva, servidor público federal estável, ao assumir cargo efetivo com atribuições atinentes ao controle interno da Administração, constatou que, nos últimos dez anos, foram proferidos numerosos atos administrativos que ensejaram efeitos favoráveis a destinatários de boa-fé. Esses atos continham vícios de legalidade, sendo certo que, em muitos deles, o vício era de forma. Você foi contratado(a) como advogado(a) de Pedro, particular que figura como interessado em um determinado processo administrativo analisado por João Silva. À luz do disposto na Lei n° 9.784/99, assinale a opção que, corretamente, materializa a essência da consultoria jurídica que você, como advogado(a), apresentou a seu cliente Pedro.",
+        "alternativas": {
+          "A": "A eventual anulação dos atos administrativos viciados não precisa de motivação diante dos vícios verificados.",
+          "B": "Os atos administrativos viciados podem ser revogados, desde que respeitados os direitos adquiridos dos respectivos beneficiários.",
+          "C": "Os vícios de forma, caso se evidencie que não irão acarretar lesão ao interesse público nem prejuízo a terceiros, são passíveis de convalidação.",
+          "D": "Nos processos analisados por João Silva, os atos administrativos viciados poderão ser invalidados a qualquer tempo, pois não há prazo para o exercício do direito da Administração de anulá-los."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema Processo Administrativo (Lei 9.784/99). A alternativa A está incorreta. De acordo com o art. 50, VIII, da Lei 9.784/99: “Art. 50. Os atos administrativos deverão ser motivados, com indicação dos fatos e dos fundamentos jurídicos, quando: VIII - importem anulação, revogação, suspensão ou convalidação de ato administrativo.” A alternativa B está incorreta. De acordo com art. 53 da Lei 9.784/99, os atos viciados devem ser anulados: “Art. 53. A Administração deve anular seus próprios atos, quando eivados de vício de legalidade, e pode revogá-los por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos.” A alternativa C está correta. A convalidação é trazida pelo art. 55 da Lei 9.784/99: “Art. 55. Em decisão na qual se evidencie não acarretarem lesão ao interesse público nem prejuízo a terceiros, os atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração.” A alternativa D está incorreta. O prazo é decadencial de 5 anos, conforme art. 54 da Lei 9.784/99: “Art. 54. O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé.”"
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_31",
+        "materia": "Direito Administrativo",
+        "assunto": "LINDB - Invalidação de atos administrativos",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Decreto-Lei nº 4.657/1942 (LINDB), com a redação conferida pela Lei n° 13.655/2018",
+        "enunciado": "José é servidor público estadual lotado em um cargo que exerce o controle interno de determinado órgão administrativo. No exercício de suas atribuições, ele se deparou com um processo administrativo, no qual foi questionada a validade de certo ato administrativo que beneficia a sociedade empresária Calêndula, o qual apresentou vício na sua constituição, mas que está produzindo seus efeitos. Em razão disso, ele tem fundadas dúvidas acerca da necessidade de invalidar o ato administrativo e sobre as providências necessárias para tanto, dúvidas essas que levaram José a consultar a sua assessoria jurídica. À luz do disposto no Decreto-Lei nº 4.657/1942 (LINDB), com a redação conferida pela Lei n° 13.655/2018, que introduziu as disposições sobre segurança jurídica e eficiência na criação e na aplicação do direito público no ordenamento pátrio, assinale a opção que indica o esclarecimento correto prestado pela assessoria jurídica.",
+        "alternativas": {
+          "A": "A existência de vício exige que a Administração decrete a invalidação do ato administrativo, com efeitos retroativos, ainda que tal decisão imponha aos sujeitos atingidos ônus e perdas que, em função das peculiaridades do caso, sejam anormais ou excessivos.",
+          "B": "Constatado que o vício é insanável, a decisão na esfera administrativa que venha a decretar a invalidação de tal ato administrativo, que ainda não exauriu os seus efeitos, deverá indicar de modo expresso as suas consequências jurídicas e administrativas.",
+          "C": "A verificação de qualquer vício em ato administrativo deve ensejar necessariamente a sua invalidação, independentemente do momento em que for verificado e de possíveis alternativas para melhor atender ao interesse público, ainda que tais alternativas possam justificar a sua convalidação.",
+          "D": "No âmbito da esfera controladora, observado o vício, é imperiosa a anulação do ato, a ser prontamente realizada de ofício pela Administração, o que prescinde da observância da ampla defesa e do contraditório, bem como da justificação acerca da necessidade e adequação de tal invalidação."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tema LINDB. A alternativa A está incorreta. Conforme art. 21 da LINDB, introduzido pela Lei 13.655/2018: “Art. 21. A decisão que, nas esferas administrativa, controladora ou judicial, decretar a invalidação de ato, contrato, ajuste, processo ou norma administrativa deverá indicar de modo expresso suas consequências jurídicas e administrativas.” A alternativa B está correta. A alternativa está totalmente conforme art. 21 da LINDB, acima transcrito. As alternativas C e D estão incorretas. Não necessariamente haverá anulação/invalidação. Em muitos casos, é possível também a regularização, conforme art. 21, parágrafo único, da LINDB: “Parágrafo único. A decisão a que se refere o caput deste artigo deverá, quando for o caso, indicar as condições para que a regularização ocorra de modo proporcional e equânime e sem prejuízo aos interesses gerais, não se podendo impor aos sujeitos atingidos ônus ou perdas que, em função das peculiaridades do caso, sejam anormais ou excessivos.”"
+      }
+    ]
+  },
+  "Improbidade Administrativa": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Atos de improbidade por violação a princípios: publicidade e nepotismo após a Lei 14.230/2021",
+        "ids_questoes": [
+          "oab_38_31"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "A FGV mistura condutas que antes pareciam improbidade automática com a exigência atual de tipicidade mais estrita, especialmente a necessidade de dolo e a leitura correta do nepotismo como hipótese que não se confunde com mera nomeação de parente sem análise do contexto legal."
+      },
+      {
+        "nome_microtema": "Lei Anticorrupção: inexistência de dissolução compulsória como sanção e distinção entre sanções administrativas/judiciais",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_34"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A banca induz o candidato a acreditar que a pessoa jurídica pode sofrer dissolução compulsória por ato lesivo à Administração Pública, quando a lei não prevê essa sanção nesse regime, confundindo responsabilização da empresa com punições típicas de outros ramos."
+      },
+      {
+        "nome_microtema": "Improbidade por dano ao erário: irrelevância da culpa após a reforma da Lei 8.429/1992",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_31"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A FGV explora a mudança legislativa para fazer o candidato aplicar a lógica antiga da improbidade culposa. A pegadinha é achar que a culpa ainda basta para responsabilização por dano ao erário, quando hoje a regra é a exigência de dolo."
+      },
+      {
+        "nome_microtema": "Indisponibilidade de bens e acordo de não persecução cível na ação de improbidade",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_33"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A banca costuma confundir os requisitos da indisponibilidade patrimonial com a extensão automática sobre bem de família e também testar se o candidato sabe que o acordo de não persecução cível é possível mesmo em ação já em curso, desde que observados os requisitos legais."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo leitura fina da lei reformada e identificação do requisito decisivo para a responsabilização ou para a medida cautelar",
+      "palavras_gatilho": [
+        "diante da situação hipotética",
+        "à luz da Lei 8.429/1992 com a redação da Lei 14.230/2021",
+        "assinale a opção correta",
+        "considerando as circunstâncias do caso concreto",
+        "é correto afirmar"
+      ]
+    },
+    "total_questoes_analisadas": 4,
+    "banco_questoes": [
+      {
+        "id": "oab_38_31",
+        "materia": "Direito Administrativo",
+        "assunto": "Lei de Improbidade Administrativa (Lei 8.429/92) - Dolo",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "No ano corrente, o Ministério Público ajuizou duas ações por improbidade administrativa distintas, uma em desfavor de Carlos, prefeito do Município Alfa, e, outra, em desfavor de Bruno, servidor do Município Beta. Ambas as ações buscavam a aplicação de penalidade pela prática de atos de improbidade que violam princípios da Administração Pública, com a descrição objetiva dos fatos exigida em lei e apontando a lesividade relevante ao bem jurídico tutelado. A primeira tem fundamento na negativa, pelo próprio prefeito, de publicidade aos atos oficiais, que não estavam protegidos por sigilo. A segunda ação foi proposta porque Bruno nomeou sua esposa para cargo administrativo em comissão a ele subordinado, no qual ela vinha laborando com afinco. Diante dessa situação hipotética, considerando a atual redação da Lei n° 8.429/92, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Revela-se pertinente o ajuizamento de ambas as ações, sendo imprescindível, em cada caso, a demonstração de dolo, bem como de que a conduta funcional de cada agente público tinha o fim de obter proveito ou benefício indevido para si ou para outra pessoa ou entidade.",
+          "B": "A ação ajuizada em desfavor de Carlos é pertinente, mas aquela em desfavor de Bruno não, considerando que, apesar de o nepotismo ser vedado pelo ordenamento, não há previsão no sentido de que sua prática caracteriza ato de improbidade administrativa.",
+          "C": "Apenas é pertinente a ação ajuizada em desfavor de Bruno, na medida em que a negativa de publicidade aos atos oficiais por Carlos não constitui uma ilegalidade passível de caracterizar ato de improbidade administrativa.",
+          "D": "Ambas as ações são despropositadas, pois, além da lesividade relevante ao bem jurídico tutelado, é imprescindível o reconhecimento de danos ao erário para a caracterização da improbidade administrativa, o que não ocorreu em nenhum dos casos."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa A está correta. Os atos do art. 11 (princípios) exigem dolo e lesividade relevante. A negativa de publicidade (art. 11, IV) e o nepotismo (art. 11, XI) são tipos previstos na Lei 8.429/92."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_34",
+        "materia": "Direito Administrativo",
+        "assunto": "Lei Anticorrupção - Dissolução Compulsória",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O Ministério Público Federal ajuizou ação buscando responsabilização judicial da Sociedade Empresária Delta pela prática de atos lesivos à Administração Pública que atentaram contra o patrimônio público nacional. Na inicial, imputa-se à citada pessoa jurídica a prática de atos que dificultaram atividade de fiscalização de órgãos públicos federais e intervieram na atuação desses órgãos, inclusive no âmbito de órgãos de fiscalização do sistema financeiro nacional. A diretoria da Sociedade Empresária Delta, preocupada com eventual possibilidade de sanção judicial de dissolução compulsória da pessoa jurídica, contratou você como advogado(a) especializado na matéria. Diante das circunstâncias do caso concreto e com base na Lei Anticorrupção (Lei nº 12.846/2013), sobre a dissolução compulsória da pessoa jurídica assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Não é sanção prevista pela prática de atos lesivos à Administração Pública, mas pode ser aplicada em eventual ação de improbidade administrativa.",
+          "B": "É medida extrema que somente pode ser decretada pelo Supremo Tribunal Federal, quando houver risco concreto de comprometimento do sistema financeiro nacional ou da soberania nacional.",
+          "C": "Não existe no ordenamento jurídico brasileiro, em razão da função social da sociedade empresária e da livre concorrência, e a sanção máxima aplicável seria a suspensão ou interdição parcial de suas atividades.",
+          "D": "É determinada quando for comprovado que a personalidade jurídica foi utilizada de forma habitual para facilitar ou promover a prática de atos ilícitos, ou foi constituída para ocultar ou dissimular interesses ilícitos ou a identidade dos beneficiários dos atos praticados."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão exigiu conhecimentos acerca da Lei Anticorrupção. A alternativa A está incorreta, tendo em conta que a Lei Anticorrupção prevê, sim, dentre as sanções ali cominadas, aquela consistente na dissolução compulsória da pessoa jurídica, o que se extrai da leitura do art. 19, III, de tal diploma: \"Art. 19. Em razão da prática de atos previstos no art. 5º desta Lei, a União, os Estados, o Distrito Federal e os Municípios, por meio das respectivas Advocacias Públicas ou órgãos de representação judicial, ou equivalentes, e o Ministério Público, poderão ajuizar ação com vistas à aplicação das seguintes sanções às pessoas jurídicas infratoras: (...) III - dissolução compulsória da pessoa jurídica;\" A alternativa B está incorreta, uma vez que: i) a aplicação da pena de dissolução compulsória da pessoa jurídica não é de competência originária e exclusiva do STF; e ii) para sua imposição, não se exige que haja o alegado risco concreto de comprometimento do sistema financeiro nacional ou da soberania nacional. A alternativa C está incorreta, pois, conforme exposto nos comentários à alternativa A, a Lei Anticorrupção é explícita ao prever, sim, dentre suas sanções, aquela consistente na dissolução compulsória da pessoa jurídica. A alternativa D está correta, tendo em vista que devidamente embasada na norma do art. 19, §1º, I e II, da Lei Anticorrupção, litteris: \"A dissolução compulsória da pessoa jurídica será determinada quando comprovado: ter sido a personalidade jurídica utilizada de forma habitual para facilitar ou promover a prática de atos ilícitos; ou ter sido constituída para ocultar ou dissimular interesses ilícitos ou a identidade dos beneficiários dos atos praticados.\""
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_31",
+        "materia": "Direito Administrativo",
+        "assunto": "Improbidade Administrativa - Modalidade Culposa",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "Lei nº 8.429/1992, com a redação conferida pela Lei nº 14.230/2021",
+        "enunciado": "Januário, ex-prefeito do Município Imaginário, teve conhecimento de um inquérito civil que tem por objeto avaliar condutas praticadas no exercício de seu mandato que se enquadram como atos de improbidade e que causaram prejuízo ao erário. Em razão disso, ele procurou você, na qualidade de advogada(o), para definir uma estratégia de defesa, destacando que tem provas de que atuou de forma culposa. Considerando o fato de a conduta ter sido culposa, à luz do disposto na Lei nº 8.429/1992, com a redação conferida pela Lei nº 14.230/2021, assinale a opção que apresenta, corretamente, a orientação jurídica prestada.",
+        "alternativas": {
+          "A": "O fato é determinante para a estratégia de defesa, na medida em que os atos de improbidade não mais podem ser caracterizados na modalidade culposa.",
+          "B": "O fato é importante para a estratégia de defesa, para fins de redução da pena, pois os atos de improbidade que ocasionam prejuízo ao erário admitem a modalidade culposa.",
+          "C": "O fato é desinfluente para a respectiva estratégia de defesa, em um primeiro momento, pois os atos de improbidade admitem tanto a modalidade culposa quanto a dolosa.",
+          "D": "O fato não tem muita relevância para a estratégia de defesa, na medida em que a responsabilização por improbidade administrativa é objetiva."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata do tema improbidade administrativa. De fato, desde as alterações realizadas na Lei 8.429/92 (Lei de Improbidade Administrativa) pela Lei 14.230/2021, não se admite mais a modalidade culposa em atos de improbidade administrativa. Agora, o dolo é necessário. Conforme art. 1º, § 1º, da Lei 8.429/92: “§ 1º Consideram-se atos de improbidade administrativa as condutas dolosas tipificadas nos arts. 9º, 10 e 11 desta Lei, ressalvados tipos previstos em leis especiais. (Incluído pela Lei nº 14.230, de 2021)”. Ressalte-se que o dolo é definido pela própria lei 8.429/92, em seu artigo 1º, § 2º, como “a vontade livre e consciente de alcançar o resultado ilícito tipificado nos arts. 9º, 10 e 11 desta Lei, não bastando a voluntariedade do agente”. Portanto, a alternativa correta é a letra A. Automaticamente, as alternativas B e C ficam incorretas, pois falam em admissão da modalidade culposa. A alternativa D também está incorreta, pois a configuração da culpa tem, sim, relevância, já que a responsabilização por improbidade administrativa depende da caracterização do dolo, conforme explicitado acima."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_33",
+        "materia": "Direito Administrativo",
+        "assunto": "Improbidade Administrativa",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Caio, político em primeira legislatura, responde, em Juízo, por ato doloso de improbidade administrativa que teria causado prejuízo ao erário. Registre-se que os fatos apurados remontam a fevereiro de 2024. No curso da demanda, após apresentar contestação, suscitando questões preliminares, Caio foi informado de que o Ministério Público requereu a decretação de indisponibilidade de todos os seus bens, englobando, inclusive, o imóvel onde reside, tido como bem de família e adquirido licitamente. Nesse contexto, preocupado com as consequências que um potencial resultado desfavorável na ação judicial geraria na sua carreira política, Caio procurou você, como advogado(a), afirmando que estaria disposto a celebrar um acordo de não persecução cível com o Ministério Público e que possui condições financeiras de ressarcir até 80% do dano causado ao erário. Buscou, ainda, a sua orientação jurídica sobre o processo em curso. Nesse cenário, considerando as disposições da Lei nº 8.429/1992 (Lei de Improbidade Administrativa), assinale a opção que apresenta, corretamente, sua orientação.",
+        "alternativas": {
+          "A": "A defesa técnica poderá interpor agravo de instrumento, caso o Juiz afaste as questões preliminares suscitadas por Caio em sua contestação.",
+          "B": "O Juiz poderá, convencido da probabilidade da ocorrência do ato de improbidade administrativa descrito na petição inicial, decretar a indisponibilidade dos bens de Caio, inclusive o bem de família.",
+          "C": "Caio sendo condenado em sentença transitada em julgado, além da perda dos valores acrescidos ilicitamente ao patrimônio, estará sujeito à perda da função pública desempenhada e à cassação dos direitos políticos.",
+          "D": "O Ministério Público e Caio poderão celebrar acordo de não persecução cível, desde que, além do ressarcimento de 80% do dano causado ao erário, o acusado confesse, formalmente, a prática do ato ímprobo."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata do tema Improbidade Administrativa. A alternativa A está correta. Conforme art. 16, § 9º, da Lei 8.429/92: “§ 9º Da decisão que deferir ou indeferir a medida relativa à indisponibilidade de bens caberá agravo de instrumento, nos termos da Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil).” A alternativa B está incorreta. Conforme art. 16, § 14, da Lei 8.429/92: “§ 14. É vedada a decretação de indisponibilidade do bem de família do réu, salvo se comprovado que o imóvel seja fruto de vantagem patrimonial indevida, conforme descrito no art. 9º desta Lei.” A alternativa C está incorreta. Não há cassação de direitos políticos, há apenas suspensão. Conforme art. 12, II, da Lei 8.429/92: “Art. 12. Independentemente do ressarcimento integral do dano patrimonial, se efetivo, e das sanções penais comuns e de responsabilidade, civis e administrativas previstas na legislação específica, está o responsável pelo ato de improbidade sujeito às seguintes cominações, que podem ser aplicadas isolada ou cumulativamente, de acordo com a gravidade do fato: II - na hipótese do art. 10 desta Lei, perda dos bens ou valores acrescidos ilicitamente ao patrimônio, se concorrer esta circunstância, perda da função pública, suspensão dos direitos políticos até 12 (doze) anos, pagamento de multa civil equivalente ao valor do dano e proibição de contratar com o poder público ou de receber benefícios ou incentivos fiscais ou creditícios, direta ou indiretamente, ainda que por intermédio de pessoa jurídica da qual seja sócio majoritário, pelo prazo não superior a 12 (doze) anos;”. A alternativa D está incorreta. Não basta ressarcir 80% do dano. É necessário que o ressarcimento seja integral, conforme art. 17-B da Lei 8.429/92: “Art. 17-B. O Ministério Público poderá, conforme as circunstâncias do caso concreto, celebrar acordo de não persecução civil, desde que dele advenham, ao menos, os seguintes resultados: I - o integral ressarcimento do dano; II - a reversão à pessoa jurídica lesada da vantagem indevida obtida, ainda que oriunda de agentes privados.”"
+      }
+    ]
+  },
+  "Responsabilidade Civil Do Estado": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Responsabilidade civil do Estado por ato de agente público e ação regressiva",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_32"
+        ],
+        "peso_percentual": 40,
+        "armadilha_favorita": "Confundir a responsabilidade objetiva do Estado perante a vítima com a responsabilidade subjetiva do agente na ação regressiva, além de trocar risco administrativo por risco integral."
+      },
+      {
+        "nome_microtema": "Bens públicos, bens de autarquia e impenhorabilidade/penhora de bens de sociedade de economia mista",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_30"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "Tratar toda entidade da Administração Indireta como se tivesse bens públicos impenhoráveis, sem distinguir autarquia de sociedade de economia mista exploradora de atividade econômica em regime concorrencial."
+      },
+      {
+        "nome_microtema": "Lei de Improbidade Administrativa: sujeito ativo e abrangência sobre agente público celetista de empresa pública",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_34"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "Achar que empregado público celetista de empresa pública está fora da LIA ou que só responde se houver dolo, quando a questão testa a sujeição ao regime de improbidade e a distinção entre culpa e dolo conforme o tipo de ato."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com situações concretas envolvendo agente público, entidades da Administração Indireta e consequências patrimoniais; a FGV costuma exigir a distinção fina entre responsabilidade objetiva do Estado, responsabilidade subjetiva do agente, regime de bens públicos e alcance subjetivo da LIA.",
+      "palavras_gatilho": [
+        "responsabilidade civil do Estado",
+        "ação regressiva",
+        "bens públicos",
+        "penhora",
+        "sociedade de economia mista",
+        "empresa pública",
+        "ato de improbidade",
+        "servidor celetista"
+      ]
+    },
+    "total_questoes_analisadas": 3,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-43_32",
+        "materia": "Direito Administrativo",
+        "assunto": "Responsabilidade civil do Estado e ação regressiva",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Rodrigo agrediu fisicamente seu desafeto Afonso, quando estava no exercício de suas atribuições como servidor público do Estado Alja, em decorrência de uma desavença entre eles, no momento em que realizava atendimento ao público. Em razão dos danos sofridos, Afonso ajuizou ação de responsabilidade civil em face do mencionado ente federativo. Depois do trânsito em julgado da sentença condenatória ao pagamento da quantia indenizatória de R$ 20.000 (vinte mil reais), o Estado Alfa ajuizou ação de regresso em desfavor de Rodrigo, com vistas a obter o ressarcimento do erário. O então agente público foi citado na última segunda-feira, motivo pelo qual ele procurou você, como advogado(a), para a realização da sua defesa no respectivo processo. Assinale a opção que indica, corretamente, a orientação jurídica que você prestou e que deve constar da contestação na ação de regresso em que Rodrigo é o demandado.",
+        "alternativas": {
+          "A": "A responsabilidade civil do Estado é objetiva, com base na teoria do risco integral, enquanto a de Rodrigo, apesar de objetiva, com base na teoria do risco administrativo, admite a discussão acerca do elemento subjetivo.",
+          "B": "A responsabilidade civil é objetiva, com base na teoria do risco administrativo, tanto para Rodrigo quanto para o Estado Alfa, motivo pelo qual a peça de defesa deve se restringir a indicar eventuais causas excludentes do nexo de causalidade.",
+          "C": "A responsabilidade civil é subjetiva na situação de Rodrigo, sendo necessária a demonstração de dolo ou culpa na ação de regresso em questão, a qual foi ajuizada em decorrência da condenação do Estado fundada em sua responsabilização objetiva, com base na teoria do risco administrativo.",
+          "D": "A responsabilidade civil é subjetiva tanto para Rodrigo quanto para o Estado, com base na teoria do risco administrativo, admitindo, contudo, a discussão do elemento subjetivo em ambas as hipóteses, que é imprescindível para fins de romper o nexo de causalidade."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema responsabilidade civil do estado. A alternativa A está incorreta. A responsabilidade civil do estado, em regra, se fundamenta na Teoria do Risco Administrativo, sendo necessário haver, para sua caracterização, uma conduta (seja de ação ou omissão), um dano, e nexo causal entre eles. É o que se depreende da leitura do art. 37, § 6º, da CF: “§ 6º As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.” A responsabilidade civil do estado baseada na teoria do risco integral somente ocorre em casos bastante específicos (por exemplo, danos nucleares); nela, o Estado figura como um segurador universal e, independente de caso fortuito ou força maior, responde integralmente pelo dano causado ao particular. As alternativas B e D estão incorretas, pois falam, respectivamente, em responsabilidade objetiva do agente público, e em responsabilidade subjetiva do Estado. A alternativa C está correta. De fato, a responsabilidade civil é subjetiva para o agente público (sendo necessária a demonstração de dolo ou culpa na ação de regresso), e objetiva para o Estado (com base na teoria do risco administrativo). De acordo com tese fixada pelo STF em sede de repercussão geral: “A teor do disposto no art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para a ação o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa. STF. Plenário. RE 1027633/SP, Rel. Min. Marco Aurélio, julgado em 14/8/2019 (repercussão geral).”"
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_30",
+        "materia": "Direito Administrativo",
+        "assunto": "Bens públicos e penhora de bens de autarquias e sociedades de economia mista",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "CC: \"Art. 98. São públicos os bens do domínio nacional pertencentes às pessoas jurídicas de direito público interno; todos os outros são particulares, seja qual for a pessoa a que pertencerem. Art. 102. Os bens públicos não estão sujeitos a usucapião\".",
+        "enunciado": "Juliana ajuizou duas ações indenizatórias que resultaram na condenação dos réus, obrigando-os a pagar vultosa quantia em dinheiro. A primeira foi ajuizada em face de uma autarquia e, a segunda, em face de uma sociedade de economia mista que realiza atividade econômica em regime concorrencial, cujos bens não estão afetados ao serviço público. Considerando que ambas as condenações transitaram em julgado e estão em fase de cumprimento de sentença, Juliana questionou você, como advogada(o), acerca da viabilidade de penhora dos bens das mencionadas entidades administrativas. Considerando a definição legal de bens públicos, assinale a opção que indica a informação correta que você prestou.",
+        "alternativas": {
+          "A": "A penhora dos bens das referidas entidades administrativas integrantes da Administração Indireta é possível, considerando que os bens de ambas são privados.",
+          "B": "A penhora dos bens das citadas entidades administrativas não é admissível, na medida em que os bens de ambas são públicos.",
+          "C": "A penhora dos bens da autarquia é possível, na medida em que seus bens são privados, mas os da sociedade de economia mista não é viável, considerando que seus bens são públicos.",
+          "D": "A penhora dos bens da sociedade de economia mista é possível, porque seus bens são privados, mas os da autarquia não podem ser penhorados, uma vez que seus bens são públicos."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão versa sobre bens públicos. A alternativa A está incorreta. Nem todos os bens das entidades da Administração Indireta são privados. As autarquias, por serem pessoas jurídicas de direito público, possuem bens públicos (art. 98 do Código Civil), insuscetíveis de penhora (STF, Súmula 556; STJ, Súmula 249). Já as sociedades de economia mista que atuam em regime concorrencial têm bens privados, quando não afetados à prestação de serviço público, admitindo-se a penhora nesses casos. A alternativa B está incorreta. Ela generalizou muito. De fato, os bens da autarquia são públicos e impenhoráveis. Contudo, os bens de sociedade de economia mista que atua em regime concorrencial não são considerados bens públicos, podendo ser penhorados, salvo se afetados ao serviço público essencial. A alternativa C está incorreta. Essa alternativa inverte a natureza dos bens. A autarquia possui bens públicos, por ser pessoa jurídica de direito público, portanto insuscetíveis de penhora. Já a sociedade de economia mista, como mencionado, pode ter bens penhoráveis, desde que não afetados à prestação de serviço público. A alternativa D está correta. A autarquia é ente da Administração Indireta de direito público, com privilégios processuais e bens públicos (como impenhorabilidade e sujeição ao regime de precatórios — CF, art. 100). Já a sociedade de economia mista que atua sob regime privado e concorrencial, sem prestar serviço público, não goza dessa proteção, podendo seus bens ser penhorados. CC: \"Art. 98. São públicos os bens do domínio nacional pertencentes às pessoas jurídicas de direito público interno; todos os outros são particulares, seja qual for a pessoa a que pertencerem. Art. 102. Os bens públicos não estão sujeitos a usucapião\". Portanto, os bens de autarquia (PJ de direito público) são bens públicos; bens de sociedade de economia mista (PJ de direito privado) são bens privados. Se a sociedade de economia mista prestasse serviço público e seus bens estivessem afetados a essa prestação, a jurisprudência reconhece a concessão do privilégio da impenhorabilidade, mas o próprio enunciado afasta essa hipótese ao dizer que a atividade é econômica concorrencial e os bens não estão afetados ao serviço. O STF, no RE 594.015/MG, fez essa diferença de tratamento entre empresas estatais prestadoras de serviço público e as que exploram atividade econômica."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_34",
+        "materia": "Direito Administrativo",
+        "assunto": "Improbidade Administrativa - Elemento Subjetivo",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Em dezembro de 2024, Lucas, servidor público celetista no âmbito da empresa pública XYZ, permitiu, culposamente, que Matheus da Silva utilizasse veículos automotores da estatal para a execução de serviços particulares, sem qualquer relação com a empresa pública. Nesse contexto, após tomar ciência de que o Ministério Público deflagrou inquérito civil para apurar os fatos, Lucas procurou você para, na qualidade de advogado(a), lhe prestar a adequada orientação jurídica. Sobre a posição de Lucas, considerando a Lei nº 8.429/1992 (Lei de Improbidade Administrativa), assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Ele responderá por ato de improbidade administrativa, desde que se comprove a perda patrimonial efetiva em detrimento da empresa pública XYZ.",
+          "B": "Ele não está sujeito aos regramentos da Lei de Improbidade Administrativa, por não se enquadrar como um servidor público estatutário.",
+          "C": "Ele não poderá ser responsabilizado por ato de improbidade administrativa, já que não agiu de forma dolosa.",
+          "D": "Ele será responsabilizado pela prática de ato de improbidade administrativa que importa enriquecimento ilícito."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão versa sobre Improbidade Administrativa. A alternativa A está incorreta. Mesmo que haja dano ao erário, a responsabilização por improbidade depende de conduta dolosa (com intenção deliberada de lesar). A simples perda patrimonial causada por culpa (negligência, imprudência ou imperícia) não caracteriza improbidade. O novo §2º do art.1º da LIA exige dolo específico. A alternativa B está incorreta. A LIA alcança também empregados públicos celetistas, como os que trabalham em empresas públicas, conforme previsto no próprio caput do art. 1º. O regime jurídico (celetista ou estatutário) não é critério excludente para fins de responsabilização por improbidade. A alternativa C está correta. A conduta de Lucas foi culposa (ele não teve a intenção de favorecer Matheus nem de causar prejuízo à empresa). A Lei nº 14.230/2021, que alterou a LIA, passou a exigir dolo para qualquer ato ímprobo, inclusive os previstos nos artigos 10 e 11. Não se admite mais improbidade culposa. A alternativa D está incorreta, pois a conduta de Lucas, além de não ser dolosa, não resultou em enriquecimento ilícito próprio, mas sim em proveito de terceiro (Matheus). Além disso, mesmo que houvesse benefício próprio, o elemento subjetivo do dolo é imprescindível para configurar a infração."
+      }
+    ]
+  },
+  "Processo Administrativo": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Lei 9.784/1999: âmbito de aplicação, princípios e regras gerais do processo administrativo federal",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir a incidência da Lei 9.784/1999 com processos estaduais/municipais e tratar princípios expressos como se fossem meramente programáticos."
+      },
+      {
+        "nome_microtema": "Competência, impedimento, suspeição e delegação/avocação de competência",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Misturar impedimento com suspeição e admitir avocação fora das hipóteses legais ou delegação de competência indelegável."
+      },
+      {
+        "nome_microtema": "Direitos do administrado, dever de instrução, motivação e verdade material",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Achar que a Administração pode decidir sem motivação suficiente ou sem oportunizar a produção de prova quando o caso exigir instrução adequada."
+      },
+      {
+        "nome_microtema": "Atos de comunicação processual: intimação, ciência, prazos e contagem",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir intimação com notificação e errar o termo inicial dos prazos administrativos, especialmente em dias corridos e úteis."
+      },
+      {
+        "nome_microtema": "Fases do processo administrativo: instauração, instrução, defesa, relatório e decisão",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Tratar a defesa como facultativa em hipóteses em que o contraditório é obrigatório ou inverter a ordem lógica das fases procedimentais."
+      },
+      {
+        "nome_microtema": "Recursos administrativos: cabimento, efeitos, revisão e preclusão administrativa",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir recurso hierárquico próprio e impróprio, além de presumir efeito suspensivo automático quando a regra é a ausência dele."
+      },
+      {
+        "nome_microtema": "Anulação, revogação, convalidação e decadência administrativa",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Misturar controle de legalidade com mérito administrativo e aplicar revogação a atos ilegais ou anulação a atos válidos por conveniência."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo um administrado que protocola pedido, sofre indeferimento, é intimado de forma questionável ou interpõe recurso fora do prazo, exigindo a identificação da fase processual correta, do vício procedimental e do efeito jurídico aplicável. A pegadinha geralmente está na distinção entre legalidade e mérito, na observância do contraditório e da motivação, e na aplicação literal da Lei 9.784/1999 com detalhes de prazo, competência e recurso.",
+      "palavras_gatilho": [
+        "intimação",
+        "notificação",
+        "motivação",
+        "contraditório",
+        "ampla defesa",
+        "recurso administrativo",
+        "efeito suspensivo",
+        "delegação",
+        "avocação",
+        "impedimento",
+        "suspeição",
+        "anulação",
+        "revogação",
+        "convalidação",
+        "decadência",
+        "Lei 9.784/1999"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Ações Constitucionais E Remédios Heróicos": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Mandado de Segurança individual e coletivo contra ato administrativo",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir direito líquido e certo com necessidade de dilação probatória, ou usar MS quando o ato já estiver coberto por recurso com efeito suspensivo."
+      },
+      {
+        "nome_microtema": "Mandado de Segurança: prazo decadencial, legitimidade e autoridade coatora",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Errar o prazo de 120 dias, indicar autoridade coatora equivocada ou confundir legitimidade ativa do impetrante com representação processual."
+      },
+      {
+        "nome_microtema": "Mandado de Injunção e omissão normativa da Administração",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Trocar mandado de injunção por ação direta de inconstitucionalidade por omissão, ou achar que o MI sempre gera norma geral e abstrata."
+      },
+      {
+        "nome_microtema": "Habeas Data e acesso/retificação de dados em bancos públicos",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Confundir habeas data com pedido genérico de certidão, acesso à informação via LAI ou retificação sem prévio requerimento administrativo."
+      },
+      {
+        "nome_microtema": "Ação Popular e tutela do patrimônio público, moralidade administrativa e meio ambiente",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Achar que qualquer cidadão pode propor sem prova da cidadania, ou confundir ação popular com ação civil pública quanto à legitimidade e objeto."
+      },
+      {
+        "nome_microtema": "Mandado de Segurança em licitações, concursos públicos e atos de autoridade",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Aplicar MS em situações com prova complexa, perder a distinção entre fase interna e externa da licitação, ou errar a impugnação de edital e a ordem de classificação em concurso."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma narrar um caso concreto envolvendo ato administrativo específico, com aparente violação a direito fundamental ou a prerrogativa do administrado, e exigir a identificação do remédio constitucional adequado, observando legitimidade, prazo, prova pré-constituída, autoridade coatora e cabimento residual. A pegadinha normalmente está na substituição indevida entre mandado de segurança, mandado de injunção, habeas data e ação popular, além da confusão com ação civil pública e recursos administrativos.",
+      "palavras_gatilho": [
+        "direito líquido e certo",
+        "prova pré-constituída",
+        "autoridade coatora",
+        "prazo de 120 dias",
+        "omissão normativa",
+        "dados pessoais",
+        "patrimônio público",
+        "moralidade administrativa",
+        "cidadão",
+        "licitação",
+        "concurso público",
+        "recurso com efeito suspensivo"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  }
+}

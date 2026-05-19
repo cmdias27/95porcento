@@ -1,0 +1,2615 @@
+{
+  "Química Geral E Propriedades Da Matéria": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Identificação de substâncias e propriedades físico-químicas em contextos de segurança, materiais e análise qualitativa",
+        "ids_questoes": [
+          "enem_enem2018_2dia_94_3",
+          "enem_enem2019_2dia_94_3",
+          "enem_enem2020_digital_2dia_123_32",
+          "enem_enem2020_digital_2dia_128_37",
+          "enem_enem2021_2dia_119_28",
+          "enem_enem2022-2_2dia_96_5",
+          "enem_enem2022-2_2dia_116_25",
+          "enem_enem2016-2_1dia_64_63",
+          "enem_enem2016-2_1dia_78_77"
+        ],
+        "peso_percentual": 41,
+        "armadilha_favorita": "O INEP mistura identificação direta com interpretação de contexto: o candidato tende a procurar memorização de fórmulas, cores ou nomes, quando a resposta depende de reconhecer propriedades, reatividade, solubilidade, caráter ácido-base, liga metálica ou técnica de separação adequada ao material descrito."
+      },
+      {
+        "nome_microtema": "Misturas, separação de misturas e processos de purificação/recuperação",
+        "ids_questoes": [
+          "enem_enem2020_digital_2dia_110_19",
+          "enem_enem2022-2_2dia_99_8",
+          "enem_enem2015_1dia_89_88",
+          "enem_enem2017_2dia_130_39",
+          "enem_enem2016-2_1dia_64_63",
+          "enem_enem2016-2_1dia_78_77"
+        ],
+        "peso_percentual": 23,
+        "armadilha_favorita": "A banca costuma oferecer alternativas com nomes de processos parecidos, mas inadequados ao mecanismo real. O distrator explora confusão entre separação por densidade, solubilidade, miscibilidade, magnetismo, floculação, cromatografia e dissolução seletiva, exigindo leitura fina do fenômeno e não só do rótulo do método."
+      },
+      {
+        "nome_microtema": "Interações intermoleculares, capilaridade, molhabilidade, osmose e propriedades de líquidos",
+        "ids_questoes": [
+          "enem_enem2019_2dia_131_40",
+          "enem_enem2021_2dia_93_2",
+          "enem_enem2022-2_2dia_128_37",
+          "enem_enem2017_2dia_102_11",
+          "enem_enem2017_2dia_120_29",
+          "enem_enem2016-2_1dia_52_51"
+        ],
+        "peso_percentual": 22,
+        "armadilha_favorita": "O INEP frequentemente troca o efeito observado pela causa microscópica: o aluno vê movimento, espalhamento, flutuação ou passagem por membrana e responde com o fenômeno macroscópico mais óbvio, quando a habilidade cobrada é relacionar o comportamento à intensidade das interações intermoleculares, à tensão superficial, à capilaridade ou às pressões osmótica e mecânica."
+      },
+      {
+        "nome_microtema": "Transformações químicas, reatividade e interpretação de testes/indicadores",
+        "ids_questoes": [
+          "enem_enem2023-2_2dia_129_38",
+          "enem_enem2015_1dia_50_49",
+          "enem_enem2015_1dia_90_89"
+        ],
+        "peso_percentual": 14,
+        "armadilha_favorita": "A banca induz o candidato a confundir mudança de cor, liberação de gás, aquecimento ou 'derretimento' com fenômenos físicos simples. Na verdade, cobra inferência sobre reação química, formação de óxidos ácidos, absorção de umidade, alteração de pH ou identificação de substância por teste indireto."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio, situações do cotidiano, laboratório, indústria, saúde e meio ambiente; privilegia interpretação de fenômenos e relação entre propriedades macroscópicas e modelos microscópicos",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "conclui-se que",
+        "considerando",
+        "qual processo",
+        "qual propriedade",
+        "a que se deve",
+        "permite identificar",
+        "explica o comportamento"
+      ]
+    },
+    "total_questoes_analisadas": 22,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2018_2dia_94_3",
+        "materia": "Química",
+        "assunto": "Identificação de substâncias perigosas no transporte rodoviário",
+        "banca": "INEP",
+        "ano": 2018,
+        "texto_auxiliar": "A identificação de riscos de produtos perigosos para o transporte rodoviário é obrigatória e realizada por meio da sinalização composta por um painel de segurança, de cor alaranjada, e um rótulo de risco. As informações inseridas no painel de segurança e no rótulo de risco, conforme determina a legislação, permitem que se identifique o produto transportado e os perigos a ele associados. A sinalização mostrada identifica uma substância que está sendo transportada em um caminhão. Os três algarismos da parte superior do painel indicam o “Número de risco”. O número 268 indica tratar-se de um gás (2), tóxico (6) e corrosivo (8). Os quatro dígitos da parte inferior correspondem ao “Número ONU”, que identifica o produto transportado. BRASIL. Resolução n. 420, de 12/02/2004, da Agência Nacional de Transportes Terrestres (ANTT)/Ministério dos Transportes (adaptado). ABNT. NBR 7500: identificação para o transporte terrestre, manuseio, movimentação e armazenamento de produtos. Rio de Janeiro, 2004 (adaptado).",
+        "enunciado": "Considerando a identificação apresentada no caminhão, o código 1005 corresponde à substância",
+        "alternativas": {
+          "A": "eteno (C2H4).",
+          "B": "nitrogênio (N2).",
+          "C": "amônia (NH3).",
+          "D": "propano (C3H8).",
+          "E": "dióxido de carbono (CO2)."
+        },
+        "gabarito": "C",
+        "comentario": "As substâncias citadas nas alternativas são todas gasosas, mas a única que é tóxica e corrosiva é a amônia (NH3). A inalação pode causar dificuldades respiratórias, queimadura da mucosa nasal, faringe e laringe."
+      },
+      {
+        "id": "enem_enem2019_2dia_94_3",
+        "materia": "Química",
+        "assunto": "Eletroquímica",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "Para realizar o desentupimento de tubulações de esgotos residenciais, é utilizada uma mistura sólida comercial que contém hidróxido de sódio (NaOH) e outra espécie química pulverizada. Quando é adicionada água a essa mistura, ocorre uma reação que libera gás hidrogênio e energia na forma de calor, aumentando a eficiência do processo de desentupimento. Considere os potenciais padrão de redução (E0) da água e de outras espécies em meio básico, expresso no quadro.",
+        "enunciado": "Qual é a outra espécie que está presente na composição da mistura sólida comercial para aumentar sua eficiência?",
+        "alternativas": {
+          "A": "Al",
+          "B": "Co",
+          "C": "Cu(OH)2",
+          "D": "Fe(OH)2",
+          "E": "Pb"
+        },
+        "gabarito": "A",
+        "comentario": "Para aumentar a eficiência, deve-se utilizar uma espécie que sofra oxidação facilmente, ou seja, o íon que apresenta menor potencial de redução. Neste caso, deve ser utilizado o Al. 2Al + 4OH– → Al(OH)4– + 3e– +2,33V; 3(2H2O + 2e– → H2 + 2OH–) –0,83V; ΔE0 = +1,50V. Resposta: A."
+      },
+      {
+        "id": "enem_enem2019_2dia_131_40",
+        "materia": "Química",
+        "assunto": "Separação de misturas",
+        "banca": "INEP",
+        "ano": 2019,
+        "texto_auxiliar": "Um experimento simples, que pode ser realizado com materiais encontrados em casa, é realizado da seguinte forma: adiciona-se um volume de etanol em um copo de vidro e, em seguida, uma folha de papel. Com o passar do tempo, observa-se um comportamento peculiar: o etanol se desloca sobre a superfície do papel, superando a gravidade que o atrai no sentido oposto, como mostra a imagem. Para parte dos estudantes, isso ocorre por causa da absorção do líquido pelo papel.",
+        "enunciado": "Do ponto de vista científico, o que explica o movimento do líquido é a",
+        "alternativas": {
+          "A": "evaporação do líquido.",
+          "B": "diferença de densidades.",
+          "C": "reação química com o papel.",
+          "D": "capilaridade nos poros do papel.",
+          "E": "resistência ao escoamento do líquido."
+        },
+        "gabarito": "D",
+        "comentario": "A figura retrata uma técnica de separação de misturas conhecida como cromatografia em papel. Nesta técnica, o líquido (fase móvel) desloca-se em sentido contrário da gravidade em função da capilaridade nos poros do papel."
+      },
+      {
+        "id": "enem_enem2020_digital_2dia_110_19",
+        "materia": "Química",
+        "assunto": "Reciclagem de pilhas",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "As populares pilhas zinco-carbono (alcalinas e de Leclanché) são compostas por um invólucro externo de aço (liga de ferro-carbono), um ânodo (zinco metálico), um cátodo (grafita) e um eletrólito (MnO2 mais NH4Cl ou KOH), contido em uma massa úmida com carbono chamada pasta eletrolítica. Os processos de reciclagem, geralmente propostos para essas pilhas usadas, têm como ponto de partida a moagem (trituração). Na sequência, uma das etapas é a separação do aço, presente no invólucro externo, dos demais componentes.",
+        "enunciado": "Que processo aplicado à pilha moída permite obter essa separação?",
+        "alternativas": {
+          "A": "Catação manual",
+          "B": "Ação de um eletroímã",
+          "C": "Calcinação em um forno",
+          "D": "Fracionamento por densidade",
+          "E": "Dissolução do eletrólito em água"
+        },
+        "gabarito": "B",
+        "comentario": "Para separar o aço, presente no invólucro externo, dos demais componentes, o processo aplicado à pilha moída é ação de um eletroímã, pois o ferro contido no aço tem propriedades magnéticas (atraído por ímã)."
+      },
+      {
+        "id": "enem_enem2020_digital_2dia_123_32",
+        "materia": "Química",
+        "assunto": "Indicadores ácido-base",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "É possível identificar adulterantes do leite de vaca por meio da adição do indicador azul de bromofenol. A presença de agentes oxidantes provoca a descoloração do indicador, mantendo a cor branca na amostra, característica do leite. Substâncias redutoras presentes no leite reagem com o azul de bromofenol, gerando a cor verde. A diminuição do valor de pH do leite torna o indicador amarelo. Em pH mais elevado, o indicador adquire a cor violeta e, em meio neutro, a cor azul. Considere que um lote industrial de leite em embalagem longa vida foi adulterado com excesso de soda cáustica.",
+        "enunciado": "Em uma inspeção sanitária do lote adulterado, qual será a cor apresentada pelo leite após adição do indicador azul de bromofenol?",
+        "alternativas": {
+          "A": "Azul",
+          "B": "Verde",
+          "C": "Violeta",
+          "D": "Branco",
+          "E": "Amarelo"
+        },
+        "gabarito": "C",
+        "comentario": "A soda cáustica (NaOH) é uma base forte que aumenta o pH do meio. Quando adicionamos o indicador azul de bromofenol nesse lote industrial de leite que foi adulterado com excesso de soda cáustica, o sistema irá adquirir cor violeta (meio básico)."
+      },
+      {
+        "id": "enem_enem2020_digital_2dia_128_37",
+        "materia": "Química",
+        "assunto": "Reações químicas e indicadores",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "O reagente conhecido como Kastle-Meyer é muito utilizado por investigadores criminais para detectar a presença de sangue. Trata-se de uma solução aquosa incolor, preparada com zinco metálico, hidróxido de sódio (Reação 1) e indicador (Reação 2). Essa solução, quando em contato com a hemoglobina contida no sangue e na presença de água oxigenada (Reação 3), passa de incolor para vermelha, indicando a presença de sangue no local, conforme as reações descritas.\nReação 1:\nΔZn(s) + 2 NaOH (aq) + 2H2O (l)  ⎯→\n→Na2[Zn(OH)4] (s) + H2(g)\nReação 2:\nReação 3:\nHemoglobina\n2H2O2(aq)  ⎯⎯⎯⎯⎯⎯→  2 H2O (l) + O2(g)\nDIAS FILHO, C. R.; ANTEDOMENICO, E. A perícia criminal e a interdisciplinaridade no ensino de ciências naturais. Química Nova na Escola, n. 2, maio 2010 (adaptado).",
+        "enunciado": "A mudança de coloração que indica a presença de sangue ocorre por causa da reação do indicador com o(a)",
+        "alternativas": {
+          "A": "sal de Na2[Zn(OH)4] na presença de hemoglobina.",
+          "B": "água produzida pela decomposição da água oxigenada.",
+          "C": "hemoglobina presente na reação com a água oxigenada.",
+          "D": "gás oxigênio produzido pela decomposição da água oxigenada.",
+          "E": "gás hidrogênio produzido na reação do zinco com hidróxido de sódio."
+        },
+        "gabarito": "D",
+        "comentario": "Verificando-se a reação 2, para deslocar o equilíbrio no sentido da forma oxidada (vermelha), deve-se adicionar O2. O gás oxigênio é produzido na decomposição da água oxigenada (reação 3)."
+      },
+      {
+        "id": "enem_enem2021_2dia_93_2",
+        "materia": "Química",
+        "assunto": "Propriedades das soluções e densimetria",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "O alcoolômetro Gay Lussac é um instrumento destinado a medir o teor de álcool, em porcentagem de volume (v/v), de soluções de água e álcool na faixa de 0°GL a 100°GL com divisões de 0,1°GL. A concepção do alcoolômetro se baseia no princípio de flutuabilidade de Arquimedes, semelhante ao funcionamento de um densímetro. A escala do instrumento é aferida a 20°C, sendo necessária a correção da medida, caso a temperatura da solução não esteja na temperatura de aferição. É apresentada parte da tabela de correção de um alcoolômetro, com a temperatura.\n\nManual alcoolômetro Gay Lussac. Disponível em: www.incoterm.com.br. Acesso em: 4 dez. 2018 (adaptado).",
+        "enunciado": "É necessária a correção da medida do instrumento, pois um aumento na temperatura promove o(a)",
+        "alternativas": {
+          "A": "aumento da dissociação da água.",
+          "B": "aumento da densidade da água e do álcool.",
+          "C": "mudança do volume dos materiais por dilatação.",
+          "D": "aumento da concentração de álcool durante a medida.",
+          "E": "alteração das propriedades químicas da mistura álcool e água."
+        },
+        "gabarito": "C",
+        "comentario": "O aumento de temperatura provoca dilatação dos materiais e, portanto, aumento do volume das substâncias presentes na mistura. O aumento do volume dos componentes da mistura provoca aumento do volume da mistura e, portanto, diminuição da concentração (% em V/V) de álcool na mistura, como mostrado na tabela fornecida."
+      },
+      {
+        "id": "enem_enem2021_2dia_119_28",
+        "materia": "Química",
+        "assunto": "Titulação ácido-base",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "Um técnico analisou um lote de analgésicos que supostamente estava fora das especificações. A composição prevista era 100 mg de ácido acetilsalicílico por comprimido (princípio ativo, cuja estrutura está apresentada na figura), além do amido e da celulose (componentes inertes). O técnico realizou os seguintes testes: 1) obtenção da massa do comprimido; 2) medição da densidade do comprimido; 3) verificação do pH com papel indicador; 4) determinação da temperatura de fusão do comprimido; 5) titulação com solução aquosa de NaOH. Após a realização dos testes, o lote do medicamento foi reprovado porque a quantidade de ácido acetilsalicílico por comprimido foi de apenas 40% da esperada.",
+        "enunciado": "O teste que permitiu reprovar o lote de analgésicos foi o de número",
+        "alternativas": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4",
+          "E": "5"
+        },
+        "gabarito": "E",
+        "comentario": "O teste 5 permitiu reprovar o lote de analgésicos, uma vez que o ácido acetilsalicílico possui caráter ácido e, quando é realizada a titulação do ácido com solução aquosa de NaOH, é determinada sua quantidade no lote, mostrando que era 40% da esperada."
+      },
+      {
+        "id": "enem_enem2022-2_2dia_96_5",
+        "materia": "Química",
+        "assunto": "Poluição atmosférica e reações químicas",
+        "banca": "INEP",
+        "ano": 2022,
+        "texto_auxiliar": "A troposfera consiste basicamente em N2 e O2 que, juntos, compreendem 99% da atmosfera da Terra. Outros gases, compreendidos como constituintes atmosféricos secundários, apesar de estarem presentes em concentrações muito baixas, podem ter efeitos importantes ou danosos no meio ambiente. O quadro apresenta as principais fontes e concentrações típicas de alguns desses gases secundários.\n\nConstituinte secundário | Principais fontes\nOzônio (O3) | Descargas elétricas; difusão da estratosfera; névoa fotoquímica\nMetano (CH4) | Decomposição de matéria orgânica; vazamento de gás natural\nDióxido de enxofre (SO2) | Gases vulcânicos; incêndios florestais; ação de bactérias; queima de combustíveis fósseis; processos industriais\nMonóxido de carbono (CO) | Decomposição de matéria orgânica; processos industriais; queima de combustíveis fósseis\nMonóxido de nitrogênio (NO) | Descargas elétricas; combustão interna de motores; combustão de matéria orgânica nitrogenada",
+        "enunciado": "Entre os constituintes secundários apresentados, qual pode ser removido pela ação desse purificador químico?",
+        "alternativas": {
+          "A": "Ozônio.",
+          "B": "Metano.",
+          "C": "Dióxido de enxofre.",
+          "D": "Monóxido de carbono.",
+          "E": "Monóxido de nitrogênio."
+        },
+        "gabarito": "C",
+        "comentario": "A pasta de calcário (CaCO3) é aquecida produzindo CaO (óxido básico) e CO2 (óxido ácido). O SO2 pode ser removido, pois reage com CaO produzindo um sólido iônico, de acordo com a equação: CaO + SO2 → CaSO3."
+      },
+      {
+        "id": "enem_enem2022-2_2dia_99_8",
+        "materia": "Química",
+        "assunto": "Propriedades dos líquidos e soluções",
+        "banca": "INEP",
+        "ano": "2022",
+        "texto_auxiliar": "As figuras mostram dois experimentos. No primeiro, foram colocados em um frasco e agitados com uma colher volumes iguais de mel, água, óleo e álcool etílico. Após alguns minutos, podia-se verificar que o sistema tinha duas fases (1). No segundo experimento, foram colocados, lentamente e sem agitação, os mesmos volumes de mel, água, óleo e álcool etílico. Pôde-se observar que, dependendo da ordem de adição de cada componente, o sistema permaneceu com quatro fases (2).",
+        "enunciado": "As propriedades de líquidos e soluções que justificam os resultados obtidos nos experimentos 1 e 2 são",
+        "alternativas": {
+          "A": "solubilidade e densidade.",
+          "B": "densidade e viscosidade.",
+          "C": "viscosidade e solubilidade.",
+          "D": "miscibilidade e viscosidade.",
+          "E": "solubilidade e miscibilidade."
+        },
+        "gabarito": "A",
+        "comentario": "As propriedades de líquidos e soluções que justificam os resultados obtidos nos experimentos 1 e 2 são solubilidade (o álcool etílico é solúvel na água e o óleo não) e densidade (a fase menos densa fica acima da fase mais densa)."
+      },
+      {
+        "id": "enem_enem2022-2_2dia_116_25",
+        "materia": "Química",
+        "assunto": "Ligas metálicas",
+        "banca": "INEP",
+        "ano": 2022,
+        "texto_auxiliar": "Um dos materiais mais antigos e ainda utilizados na restauração dos dentes são as amálgamas, um produto da combinação de mercúrio (Hg) com prata (Ag) e estanho (Sn), como apresenta a equação química:\n24 Ag(s) + 8 Sn(s) + 37 Hg( l) →12 Ag2Hg3(s) + Sn8Hg(s)",
+        "enunciado": "Os materiais formados pelos elementos citados são caracterizados como",
+        "alternativas": {
+          "A": "precipitados.",
+          "B": "ligas metálicas.",
+          "C": "compostos iônicos.",
+          "D": "produtos de oxidação.",
+          "E": "compostos covalentes."
+        },
+        "gabarito": "B",
+        "comentario": "Amálgamas dentários são ligas metálicas, isto é, mistura de metais (Hg, Ag, Sn)."
+      },
+      {
+        "id": "enem_enem2022-2_2dia_128_37",
+        "materia": "Química",
+        "assunto": "Interações intermoleculares",
+        "banca": "INEP",
+        "ano": "2022",
+        "texto_auxiliar": "Bebidas alcoólicas, algumas soluções desinfetantes ou até álcool combustível são exemplos de misturas constituídas por etanol (CH3CH2OH) e água. A “afinidade” entre esses líquidos é suficiente para possibilitar que a mistura formada por 500 mL de água e 500 mL de etanol origine uma solução de 970 mL, em um processo que envolve liberação de pequena quantidade de energia. De certa forma, isso constitui um problema para os fabricantes, uma vez que, para obterem um litro dessa mistura, necessitariam misturar mais do que 500 mL de cada um dos líquidos.",
+        "enunciado": "Do ponto de vista da química, a que se deve essa variação de volume?",
+        "alternativas": {
+          "A": "À redução do volume das moléculas.",
+          "B": "Ao abaixamento da massa molecular.",
+          "C": "À formação de ligações covalentes mais fortes.",
+          "D": "À diminuição do grau de agitação das moléculas.",
+          "E": "Ao estabelecimento de interações intermoleculares mais intensas."
+        },
+        "gabarito": "E",
+        "comentario": "CH3CH2OH : ligação de hidrogênio H2O : ligação de hidrogênio água (500 mL) + 500 mL (etanol) = 970 mL (contração) Essa contração de volume é devida às fortes interações intermoleculares (ligações de hidrogênio) entre as moléculas da água e do álcool."
+      },
+      {
+        "id": "enem_enem2023-2_2dia_129_38",
+        "materia": "Química",
+        "assunto": "Calorimetria e combustão",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "Com o objetivo de demonstrar a transferência de energia de um sistema para outro, um professor solicitou a seus alunos que determinassem o calor de combustão de alguns alimentos e, para auxiliar nessa tarefa, forneceu um quadro que apresenta cinco alimentos identificados por números e seus respectivos calores de combustão.\n\nAlimento Calor de combustão (cal/g)\nI 1 5\nII 120\nIII 160\nIV 240\nV 400",
+        "enunciado": "Qual alimento do quadro o estudante recebeu do professor?",
+        "alternativas": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
+        },
+        "gabarito": "D",
+        "comentario": "Cálculo da quantidade de calor absorvida pela água: Q = m c Δθ = d V c Δθ = 1,0 * 4,0 * 1,0 * (50 – 20) = 120 cal. Cálculo do calor específico de combustão do alimento: Q = M Lc → 120 = 0,5 Lc → Lc = 240 cal/g. Portanto, o alimento é o IV."
+      },
+      {
+        "id": "enem_enem2017_2dia_102_11",
+        "materia": "Química",
+        "assunto": "Interações intermoleculares",
+        "banca": "INEP",
+        "ano": "2017",
+        "texto_auxiliar": "Partículas microscópicas existentes na atmosfera funcionam como núcleos de condensação de vapor de água que, sob condições adequadas de temperatura e pressão, propiciam a formação das nuvens e consequentemente das chuvas. No ar atmosférico, tais partículas são formadas pela reação de ácidos (HX) com a base NH3, de forma natural ou antropogênica, dando origem a sais de amônio (NH4X), de acordo com a equação química genérica: HX(g) + NH3(g) → NH4X(s). FELIX. E. P.; CARDOSO, A. A. Fatores ambientais que afetam a precipitação úmida. Química Nova na Escola, n. 21, maio 2005 (adaptado).",
+        "enunciado": "A fixação de moléculas de vapor de água pelos núcleos de condensação ocorre por",
+        "alternativas": {
+          "A": "ligações iônicas.",
+          "B": "interações dipolo-dipolo.",
+          "C": "interações dipolo-dipolo induzido.",
+          "D": "interações íon-dipolo.",
+          "E": "ligações covalentes."
+        },
+        "gabarito": "D",
+        "comentario": "A reação da base NH3(g) com ácidos HX(g) forma compostos iônicos de fórmula NH4X(s). Ocorrerá a fixação de moléculas de água (polares) com íons NH4+ e X- por forças de interação íon-dipolo."
+      },
+      {
+        "id": "enem_enem2017_2dia_120_29",
+        "materia": "Química",
+        "assunto": "Osmose reversa",
+        "banca": "INEP",
+        "ano": "2017",
+        "texto_auxiliar": "Alguns tipos de dessalinizadores usam o processo de osmose reversa para obtenção de água potavel a partir da água salgada. Nesse método, utiliza-se um recipiente contendo dois compartimentos separados por uma membrana semipermeável: em um deles coloca-se água salgada e no outro recolhe-se a água potável. A aplicação de pressão mecânica no sistema faz a água fluir de um compartimento para o outro. O movimento das moléculas de água através da membrana é controlado pela pressão osmótica e pela pressão mecânica aplicada.",
+        "enunciado": "Para que ocorra esse processo é necessário que as resultantes das pressões osmótica e mecânica apresentem",
+        "alternativas": {
+          "A": "mesmo sentido e mesma intensidade.",
+          "B": "sentidos opostos e mesma intensidade.",
+          "C": "sentidos opostos e maior intensidade da pressão osmótica.",
+          "D": "mesmo sentido e maior intensidade da pressão osmótica.",
+          "E": "sentidos opostos e maior intensidade da pressão mecânica."
+        },
+        "gabarito": "E",
+        "comentario": "Para ocorrer osmose reversa, a pressão mecânica aplicada na solução é maior que a pressão osmótica da água salgada, portanto, haverá maior passagem de água da água salgada para a água potável, isto é, no sentido contrário ao da osmose normal. Conclusão: Para ocorrer o processo é necessário que as resultantes das pressões osmótica e mecânica apresentem sentidos opostos e maior intensidade da pressão mecânica."
+      },
+      {
+        "id": "enem_enem2017_2dia_130_39",
+        "materia": "Química",
+        "assunto": "Cromatografia em papel",
+        "banca": "INEP",
+        "ano": 2017,
+        "texto_auxiliar": "A cromatografia em papel é um método de separação que se baseia na migração diferencial dos componentes de uma mistura entre duas fases imiscíveis. Os componentes da amostra são separados entre a fase estacionária e a fase móvel em movimento no papel. A fase estacionária consiste de celulose praticamente pura, que pode absorver até 22% de água. É a água absorvida que funciona como fase estacionária líquida e que interage com a fase móvel, também líquida (partição líquido-liquido). Os componentes capazes de formar interações intermoleculares mais fortes com a fase estacionária migram mais lentamente. Uma mistura de hexano com 5% (V/V) de acetona foi utilizada como fase móvel na separação dos componentes de um extrato vegetal obtido a partir de pimentões. Considere que esse extrato contém as substâncias representadas.",
+        "enunciado": "A substância presente na mistura que migra mais lentamente é o(a)",
+        "alternativas": {
+          "A": "licopeno.",
+          "B": "α-caroteno.",
+          "C": "γ-caroteno.",
+          "D": "capsorubina.",
+          "E": "α-criptoxantina."
+        },
+        "gabarito": "D",
+        "comentario": "Os componentes capazes de formar interações intermoleculares mais fortes com a fase estacionária migram mais lentamente. É a água absorvida que funciona como fase estacionária líquida. A substância capsorubina, que possui grupos hidroxila (—OH) e carbonila (C=O), é a mais solúvel em água, pois esses grupos estabelecem ligações de hidrogênio com as moléculas de água. É, portanto, a substância que migra mais lentamente."
+      },
+      {
+        "id": "enem_enem2016-2_1dia_52_51",
+        "materia": "Química",
+        "assunto": "Tensão superficial e tensoativos",
+        "banca": "INEP",
+        "ano": "2016",
+        "texto_auxiliar": "Para lavar e refrescar o ambiente, que estava a 40°C, uma pessoa resolveu jogar água sobre um piso de granito. Ela observou que o líquido se concentrou em algumas regiões, molhando parcialmente a superfície. Ao adicionar detergente sobre essa água, a pessoa verificou que o líquido se espalhou e deixou o piso totalmente molhado.",
+        "enunciado": "A molhabilidade da superfície foi melhorada em função da",
+        "alternativas": {
+          "A": "solubilidade do detergente em água ser alta.",
+          "B": "tensão superficial da água ter sido reduzida.",
+          "C": "pressão de vapor da água ter sido diminuída.",
+          "D": "densidade da solução ser maior que a da água.",
+          "E": "viscosidade da solução ser menor que a da água."
+        },
+        "gabarito": "B",
+        "comentario": "A molhabilidade da superfície foi melhorada em função da tensão superficial da água ter sido reduzida pela adição de detergente que é um agente tensoativo, isto é, diminui a tensão superficial da água."
+      },
+      {
+        "id": "enem_enem2016-2_1dia_64_63",
+        "materia": "Química",
+        "assunto": "Separação de misturas",
+        "banca": "INEP",
+        "ano": 2016,
+        "texto_auxiliar": "O principal componente do sal de cozinha é o cloreto de sódio, mas o produto pode ter aluminossilicato de sódio em pequenas concentrações. Esse sal, que é insolúvel em água, age como antiumectante, evitando que o sal de cozinha tenha um aspecto empedrado.",
+        "enunciado": "O procedimento de laboratório adequado para verificar a presença do antiumectante em uma amostra de sal de cozinha é o(a)",
+        "alternativas": {
+          "A": "realização do teste de chama.",
+          "B": "medida do pH de uma solução aquosa.",
+          "C": "medida da turbidez de uma solução aquosa.",
+          "D": "ensaio da presença de substâncias orgânicas.",
+          "E": "verificação da presença de cátions monovalentes."
+        },
+        "gabarito": "C",
+        "comentario": "O procedimento de laboratório adequado para verificar a presença do antiumectante em uma amostra de sal de cozinha é a medida da turbidez de uma solução aquosa, pois esse antiumectante é insolúvel em água formando uma suspensão."
+      },
+      {
+        "id": "enem_enem2016-2_1dia_78_77",
+        "materia": "Química",
+        "assunto": "Processos de obtenção de alumínio",
+        "banca": "INEP",
+        "ano": 2016,
+        "texto_auxiliar": "A bauxita é o minério utilizado na fabricação do alumínio, a qual apresenta Al2O3 (alumina) em sua composição. Após o trituramento e lavagem para reduzir o teor de impurezas, o minério é misturado a uma solução aquosa de NaOH (etapa A). A parte sólida dessa mistura é rejeitada e a solução resultante recebe pequenos cristais de alumina, de onde sedimenta um sólido (etapa B). Esse sólido é aquecido até a obtenção de um pó branco, isento de água e constituído unicamente por alumina. Finalmente, esse pó é aquecido até sua fusão e submetido a uma eletrólise, cujos produtos são o metal puro fundido (Al) e o gás carbônico (CO2).",
+        "enunciado": "Nesse processo, as funções das etapas A e B são, respectivamente,",
+        "alternativas": {
+          "A": "oxidar a alumina e outras substâncias e reduzir seletivamente a alumina.",
+          "B": "solubilizar a alumina e outras substâncias e induzir a precipitação da alumina.",
+          "C": "solidificar as impurezas alcalinas e deslocar o equilíbrio no sentido da alumina.",
+          "D": "neutralizar o solo ácido do minério e catalisar a reação de produção da alumina.",
+          "E": "romper as ligações químicas da alumina e diminuir o calor de formação do alumínio."
+        },
+        "gabarito": "B",
+        "comentario": "Na etapa A ocorre a solubilização do Al2O3 usando solução aquosa de NaOH, pois o Al2O3 é um óxido anfótero. Este reage com NaOH formando um produto solúvel. Na etapa B, a solução resultante recebe pequenos cristais de alumina que induzem a precipitação da alumina."
+      },
+      {
+        "id": "enem_enem2015_1dia_50_49",
+        "materia": "Química",
+        "assunto": "Reações ácido-base e indicadores",
+        "banca": "INEP",
+        "ano": "2015",
+        "texto_auxiliar": "Em um experimento, colocou-se água até a metade da capacidade de um frasco de vidro e, em seguida, adicionaram-se três gotas de solução alcoólica de fenolftaleína. Adicionou-se bicarbonato de sódio comercial, em pequenas quantidades, até que a solução se tornasse rosa. Dentro do frasco, acendeu-se um palito de fósforo, o qual foi apagado assim que a cabeça terminou de queimar. Imediatamente, o frasco foi tampado. Em seguida, agitou-se o frasco tampado e observou-se o desaparecimento da cor rosa.",
+        "enunciado": "A explicação para o desaparecimento da cor rosa é que, com a combustão do palito de fósforo, ocorreu o(a)",
+        "alternativas": {
+          "A": "formação de óxidos de caráter ácido.",
+          "B": "evaporação do indicador fenolftaleína.",
+          "C": "vaporização de parte da água do frasco.",
+          "D": "vaporização dos gases de caráter alcalino.",
+          "E": "aumento do pH da solução no interior do frasco."
+        },
+        "gabarito": "A",
+        "comentario": "Ao adicionar fenolftaleína na solução aquosa de bicarbonato de sódio, a cor ficou rosa devido à hidrólise do NaHCO3 que produz meio básico. A combustão do palito de fósforo produz óxidos ácidos como CO2 e SO2. A reação química que ocorre entre o CO2 e a água presente no meio pode ser representada da seguinte forma: CO2(g) + H2O(l) →← H2CO3(aq) →← H+(aq) + HCO3–(aq). Desta forma, ocorre a formação de íons H+(aq), o que resulta em um meio ácido, condição em que a fenolftaleína se torna incolor em solução aquosa."
+      },
+      {
+        "id": "enem_enem2015_1dia_89_88",
+        "materia": "Química",
+        "assunto": "Separação de misturas",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "Um grupo de pesquisadores desenvolveu um método simples, barato e eficaz de remoção de petróleo contaminante na água, que utiliza um plástico produzido a partir do líquido da castanha-de-caju (LCC). A composição química do LCC é muito parecida com a do petróleo e suas moléculas, por suas características, interagem formando agregados com o petróleo. Para retirar os agregados da água, os pesquisadores misturam ao LCC nanopartículas magnéticas. \nKIFFER, D. Novo método para remoção de petróleo usa óleo de mamona e castanha-de-caju. Disponível em: www.faperj.br. Acesso em: 31 jul. 2012 (adaptado).",
+        "enunciado": "Essa técnica considera dois processos de separação de misturas, sendo eles, respectivamente,",
+        "alternativas": {
+          "A": "flotação e decantação.",
+          "B": "decomposição e centrifugação.",
+          "C": "floculação e separação magnética.",
+          "D": "destilação fracionada e peneiração.",
+          "E": "dissolução fracionada e magnetização."
+        },
+        "gabarito": "C",
+        "comentario": "A adição do plástico gera a floculação com o petróleo. Esse agregado (plástico + petróleo) é retirado por separação magnética, em função da interação do campo magnético externo com as nanopartículas magnéticas presentes no plástico."
+      },
+      {
+        "id": "enem_enem2015_1dia_90_89",
+        "materia": "Química",
+        "assunto": "Propriedades dos compostos inorgânicos",
+        "banca": "INEP",
+        "ano": "2015",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A soda cáustica pode ser usada no desentupimento de encanamentos domésticos e tem, em sua composição, o hidróxido de sódio como principal componente, além de algumas impurezas. A soda normalmente é comercializada na forma sólida, mas que apresenta aspecto \"derretido\" quando exposta ao ar por certo período. O fenômeno de “derretimento” decorre da",
+        "alternativas": {
+          "A": "absorção da umidade presente no ar atmosférico.",
+          "B": "fusão do hidróxido pela troca de calor com o ambiente.",
+          "C": "reação das impurezas do produto com o oxigênio do ar.",
+          "D": "adsorção de gases atmosféricos na superfície do sólido.",
+          "E": "reação do hidróxido de sódio com o gás nitrogênio presente no ar."
+        },
+        "gabarito": "A",
+        "comentario": "O hidróxido de sódio (NaOH) é um composto higroscópico, ou seja, possui a capacidade de reter vapor d’água da atmosfera. A intensidade de absorção é tamanha, que se forma água líquida, a qual dissolve parcialmente o composto, gerando o aspecto derretido, mencionado no enunciado."
+      }
+    ]
+  },
+  "Físico-Química: Soluções E Estequiometria": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Cálculo de concentração, diluição e preparo de soluções",
+        "ids_questoes": [
+          "enem_enem2022-2_2dia_113_22",
+          "enem_enem2016-2_1dia_58_57",
+          "enem_enem2015_1dia_69_68",
+          "enem_enem2021_2dia_133_42"
+        ],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Mistura unidades de massa, volume e porcentagem em massa; o candidato erra ao tomar a concentração como massa/volume sem converter densidade ou ao ignorar que a solução final é o total do frasco/tanque. Em hidroponia, o INEP costuma esconder a necessidade de regra de três simples atrás de contexto agrícola."
+      },
+      {
+        "nome_microtema": "Estequiometria aplicada a processos industriais e biológicos",
+        "ids_questoes": [
+          "enem_enem2018_2dia_100_9",
+          "enem_enem2021_2dia_113_22",
+          "enem_enem2022-2_2dia_105_14",
+          "enem_enem2023-2_2dia_121_30",
+          "enem_enem2017_2dia_122_31",
+          "enem_enem2015_1dia_56_55",
+          "enem_enem2023-2_2dia_135_44"
+        ],
+        "peso_percentual": 39,
+        "armadilha_favorita": "O INEP troca a atenção do candidato para o contexto (carro flex, airbags, etanol, AAS, metalurgia) e cobra a leitura correta da equação, da razão molar e do rendimento. Distratores comuns exploram erro de massa molar, conversão kg/g, rendimento percentual e interpretação de reagente limitante ou produto formado."
+      },
+      {
+        "nome_microtema": "Separação de misturas e técnicas de purificação",
+        "ids_questoes": [
+          "enem_enem2019_2dia_108_17",
+          "enem_enem2022-2_2dia_126_35",
+          "enem_enem2023-2_2dia_106_15",
+          "enem_enem2017_2dia_113_22"
+        ],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confunde o estudante ao exigir que ele relacione propriedade física à técnica correta, mas com nomes de frações e compostos muito parecidos. Os distratores costumam trocar destilação simples por fracionada, extração por cristalização e ignorar diferenças de ponto de ebulição, polaridade e estado físico."
+      },
+      {
+        "nome_microtema": "Propriedades das soluções e comportamento ácido-base/condutividade",
+        "ids_questoes": [
+          "enem_enem2019_2dia_133_42",
+          "enem_enem2021_2dia_133_42"
+        ],
+        "peso_percentual": 11,
+        "armadilha_favorita": "A banca induz o candidato a escolher substâncias pelo nome familiar, mas a resposta depende de identificar acidez/basicidade, ionização e efeito no pH. Em geral, os distratores exploram confusão entre sal, ácido, base e substância molecular não eletrólita."
+      },
+      {
+        "nome_microtema": "Mudanças de estado físico e interpretação de curvas de aquecimento",
+        "ids_questoes": [
+          "enem_enem2020_digital_2dia_105_14"
+        ],
+        "peso_percentual": 6,
+        "armadilha_favorita": "O erro típico é aplicar a lógica de substância pura a material que não apresenta patamares ou vice-versa. O INEP cobra leitura do gráfico e associação entre fusão/ebulição e temperatura constante, com distratores baseados em patamares trocados ou ausência indevida de platôs."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio, tabelas, gráficos e situações do cotidiano/indústria",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "qual processo",
+        "mais próximo",
+        "após a purificação",
+        "para corrigir",
+        "em solução aquosa",
+        "qual foi o gráfico obtido",
+        "conforme a equação química"
+      ]
+    },
+    "total_questoes_analisadas": 18,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2018_2dia_100_9",
+        "materia": "Química",
+        "assunto": "Estequiometria e combustíveis",
+        "banca": "INEP",
+        "ano": 2018,
+        "texto_auxiliar": "O carro flex é uma realidade no Brasil. Estes veículos estão equipados com motor que tem a capacidade de funcionar com mais de um tipo de combustível. No entanto, as pessoas que têm esse tipo de veículo, na hora do abastecimento, têm sempre a dúvida: álcool ou gasolina? Para avaliar o consumo desses combustíveis, realizou-se um percurso com um veículo flex, consumindo 40 litros de gasolina e no percurso de volta utilizou-se etanol. Foi considerado o mesmo consumo de energia tanto no percurso de ida quanto no de volta. O quadro resume alguns dados aproximados sobre esses combustíveis.",
+        "enunciado": "O volume de etanol combustível, em litro, consumido no percurso de volta é mais próximo de",
+        "alternativas": {
+          "A": "27",
+          "B": "32",
+          "C": "37",
+          "D": "58",
+          "E": "67"
+        },
+        "gabarito": "D",
+        "comentario": "I) mgasolina = (d . V)gasolina = 0,7 . 40000 = 28000g de gasolina. II) 1 g de gasolina – 10 kcal, 28000g – x kcal => x = 280000 kcal. III) 1 g de etanol – 6 kcal, y g – 280000 kcal => y = 46666,67 g. IV) V = m/d = 46666,67/0,8 = 58333,33 mL ≈ 58 L."
+      },
+      {
+        "id": "enem_enem2019_2dia_108_17",
+        "materia": "Química",
+        "assunto": "Destilação fracionada do petróleo",
+        "banca": "INEP",
+        "ano": 2019,
+        "texto_auxiliar": "Os hidrocarbonetos são moléculas orgânicas com uma série de aplicações industriais. Por exemplo, eles estão presentes em grande quantidade nas diversas frações do petróleo e normalmente são separados por destilação fracionada, com base em suas temperaturas de ebulição. O quadro apresenta as principais frações obtidas na destilação do petróleo em diferentes faixas de temperaturas.\n\nFração | Faixa de temperatura (°C) | Exemplos de produtos(s) | Número de átomos de carbono (hidrocarboneto de fórmula geral CnH2n+2)\n1 | Até 20 | Gás natural e gás de cozinha (GLP) | C1 a C4\n2 | 30 a 180 | Gasolina | C6 a C12\n3 | 170 a 290 | Querosene | C11 a C16\n4 | 260 a 350 | Óleo diesel | C14 a C18",
+        "enunciado": "Na fração 4, a separação dos compostos ocorre em temperaturas mais elevadas porque",
+        "alternativas": {
+          "A": "suas densidades são maiores.",
+          "B": "o número de ramificações é maior.",
+          "C": "sua solubilidade no petróleo é maior.",
+          "D": "as forças intermoleculares são mais intensas.",
+          "E": "a cadeia carbônica é mais difícil de ser quebrada."
+        },
+        "gabarito": "D",
+        "comentario": "Na destilação fracionada do petróleo, quanto maior o tamanho da cadeia carbônica dos compostos obtidos, maior a intensidade das forças intermoleculares (forças do tipo dipolo instantâneo-dipolo induzido) e maior o ponto de ebulição."
+      },
+      {
+        "id": "enem_enem2019_2dia_133_42",
+        "materia": "Química",
+        "assunto": "Titulação ácido-base e estequiometria",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "Um dos parâmetros de controle de qualidade de polpas de frutas destinadas ao consumo como bebida é a acidez total expressa em ácido cítrico, que corresponde à massa dessa substância em 100 gramas de polpa de fruta. O ácido cítrico é uma molécula orgânica que apresenta três hidrogênios ionizáveis (ácido triprótico) e massa molar 192 g mol–1. O quadro indica o valor mínimo desse parâmetro de qualidade para polpas comerciais de algumas frutas.\n\nPolpa de fruta | Valor mínimo da acidez total expressa em ácido cítrico (g/100 g)\nAcerola 0,8\nCaju 0,3\nCupuaçu 1,5\nGraviola 0,6\nMaracujá 2,5",
+        "enunciado": "Entre as listadas, a amostra analisada pode ser de qual polpa de fruta?",
+        "alternativas": {
+          "A": "Apenas caju.",
+          "B": "Apenas maracujá.",
+          "C": "Caju ou graviola.",
+          "D": "Acerola ou cupuaçu.",
+          "E": "Cupuaçu ou graviola."
+        },
+        "gabarito": "C",
+        "comentario": "Cálculo da quantidade em mols de base (NaOH 0,01 mol L–1) gasta na titulação: (1000 mL) ––––––––– 0,01 mol de NaOH; 24 mL ––––––––– x; x = 24 . 10–5 mol de NaOH. Cálculo da quantidade em mols de ácido cítrico presente em 2,2g da amostra da polpa de fruta. 3NaOH + 1 ácido cítrico (3H+) → sal + água. Para neutralizar 1 mol de ácido, são necessários 3 mol de NaOH. 3 mol de NaOH –––––– 1 mol de ácido cítrico; 24 . 10–5 mol de NaOH –––––– y; y = 8 . 10–5 mol de ácido cítrico. Massa de ácido cítrico (existentes em 2,2g de polpa) que reagiu: 1 mol ––––––– 192g; 8 . 10–5 mol ––––– z; z = 0,01536g. Cálculo da massa de ácido cítrico em 100g de polpa: 2,2g de polpa –––––––– 0,01536g; 100g de polpa ––––––– w; w = 0,69g (valor da acidez total em 100g de polpa). Exceções feitas a caju e graviola, todas as demais polpas apresentam valor mínimo de acidez maior que 0,69."
+      },
+      {
+        "id": "enem_enem2020_digital_2dia_105_14",
+        "materia": "Química",
+        "assunto": "Propriedades das substâncias puras",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "Para assegurar a boa qualidade de seu produto, uma indústria de vidro analisou um lote de óxido de silício (SiO2), principal componente do vidro. Para isso, submeteu uma amostra desse óxido ao aquecimento até sua completa fusão e ebulição, obtendo ao final um gráfico de temperatura T (°C) versus tempo t (min). Após a obtenção do gráfico, o analista concluiu que a amostra encontrava-se pura. Dados do SiO2: Tfusão = 1 600 °C; Tebulição = 2 230 °C.",
+        "enunciado": "Qual foi o gráfico obtido pelo analista?",
+        "alternativas": {
+          "A": "Gráfico com patamares em 1600°C e 2230°C",
+          "B": "Gráfico com patamar apenas em 1600°C",
+          "C": "Gráfico com patamar apenas em 2230°C",
+          "D": "Gráfico sem patamares, curva crescente",
+          "E": "Gráfico com patamares em temperaturas diferentes das fornecidas"
+        },
+        "gabarito": "A",
+        "comentario": "Uma amostra de óxido de silício puro foi submetida a um aquecimento. Substância pura possui ponto de fusão e ponto de ebulição constantes. O gráfico correto apresenta dois patamares: um em 1600°C (fusão) e outro em 2230°C (ebulição)."
+      },
+      {
+        "id": "enem_enem2021_2dia_113_22",
+        "materia": "Química",
+        "assunto": "Estequiometria",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "A obtenção de etanol utilizando a cana-de-açúcar envolve a fermentação dos monossacarídeos formadores da sacarose contida no melaço. Um desses formadores é a glicose (C6H12O6), cuja fermentação produz cerca de 50 g de etanol a partir de 100 g de glicose, conforme a equação química descrita.\nFermentação alcoólica\nC6H12O6 → 2 CH3CH2OH + 2 CO2",
+        "enunciado": "Em uma condição especifica de fermentação, obtém-se 80% de conversão em etanol que, após sua purificação, apresenta densidade igual a 0,80 g/mL. O melaço utilizado apresentou 50 kg de monossacarídeos na forma de glicose. O volume de etanol, em litro, obtido nesse processo é mais próximo de",
+        "alternativas": {
+          "A": "16",
+          "B": "20",
+          "C": "25",
+          "D": "64",
+          "E": "100"
+        },
+        "gabarito": "C",
+        "comentario": "Cálculo da quantidade de etanol produzido, considerando rendimento de 80%: 100g de glicose → 50g de etanol; 50 000g → 0,8 . x; x = 20 000g de etanol. Cálculo do volume de etanol, considerando a densidade (0,80g/mL): 0,80g de etanol → 1 mL; 20 000g de etanol → y; y = 25 000 mL ou 25 L."
+      },
+      {
+        "id": "enem_enem2021_2dia_133_42",
+        "materia": "Química",
+        "assunto": "pH e soluções nutritivas",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "No cultivo por hidroponia, são utilizadas soluções nutritivas contendo macronutrientes e micronutrientes essenciais. Além dos nutrientes, o pH é um parâmetro de extrema importância, uma vez que ele afeta a preparação da solução nutritiva e a absorção dos nutrientes pelas plantas. Para o cultivo de alface, valores de pH entre 5,5 e 6,5 são ideais para o seu desenvolvimento. As correções de pH são feitas pela adição de compostos ácidos ou básicos, mas não devem introduzir elementos nocivos às plantas. Na tabela, são apresentados alguns dados da composição da solução nutritiva de referência para esse cultivo. Também é apresentada a composição de uma solução preparada por um produtor de cultivo hidropônico.\n\nLENZI, E.; FAVERO, L. O. B.; LUCHESE. E. B. Introdução à química da água: ciência, vida e sobrevivência. Rio da Janeiro: LTC. 2012 (adaptado).",
+        "enunciado": "Para correção do pH da solução nutritiva preparada, esse produtor pode empregar uma solução de",
+        "alternativas": {
+          "A": "ácido fosfórico, H3PO4.",
+          "B": "sulfato de cálcio, CaSO4.",
+          "C": "óxido de alumínio, Al2O3.",
+          "D": "cloreto de ferro(II), FeCl2.",
+          "E": "hidróxido de potássio, KOH."
+        },
+        "gabarito": "E",
+        "comentario": "Para correção do pH da solução nutritiva preparada, deve-se empregar uma solução que provoque aumento do pH, sem introduzir elementos químicos nocivos às plantas. Entre as soluções apresentadas nas alternativas, a solução de hidróxido de potássio pode ser utilizada, pois haverá neutralização dos íons H+ (por conta dos íons OH- do KOH) presentes no solo, provocando aumento do pH e da concentração de íons K+ que não são nocivos."
+      },
+      {
+        "id": "enem_enem2022-2_2dia_105_14",
+        "materia": "Química",
+        "assunto": "Estequiometria e gases",
+        "banca": "INEP",
+        "ano": "2022",
+        "texto_auxiliar": "Os airbags de segurança dos automóveis são acionados com o impacto, que envia um sinal elétrico para o dispositivo e inicia a reação explosiva do trinitreto de sódio (NaN3), produzindo sódio metálico e nitrogênio molecular, conforme a equação: 2 NaN3(s) → 2 Na(s) + 3 N2(g). O gás produzido tem função de inflar o airbag. Esse tipo de dispositivo contém, aproximadamente, 100 g de NaN3. Considere: PV = nRT; P = 1 atm; T = 25 °C; R = 0,0821 L·atm/(K·mol); 0 °C = 273 K. Massas molares: NaN3 = 65 g/mol; N2 = 28 g/mol; Na = 23 g/mol.",
+        "enunciado": "Nesse dispositivo, o volume de gás produzido, em litro, é",
+        "alternativas": {
+          "A": "4,7",
+          "B": "9,4",
+          "C": "18,8",
+          "D": "56,5",
+          "E": "113,0"
+        },
+        "gabarito": "D",
+        "comentario": "NaN3: M = 65 g/mol. 2 NaN3(s) → 2 Na(s) + 3 N2(g). 2·65 g ––––––– 3 mol; 100 g ––––––– n; n ≈ 2,31 mol. PV = nRT; 1 atm·V = 2,31 mol·0,0821 L·atm/(K·mol)·298 K; V ≈ 56,5 L. Resposta: D."
+      },
+      {
+        "id": "enem_enem2022-2_2dia_113_22",
+        "materia": "Química",
+        "assunto": "Concentração de soluções e condutividade elétrica",
+        "banca": "INEP",
+        "ano": 2022,
+        "texto_auxiliar": "A bula de um determinado medicamento traz as seguintes informações: Volume do frasco = 500 mL de solução Composição: Cloreto de potássio = 75 mg Cloreto de sódio = 0,07 g Glicose = 0,00008 kg",
+        "enunciado": "De acordo com as informações apresentadas na bula, a substância que se encontra em maior concentração e a não condutora de corrente elétrica, quando em solução aquosa, são, respectivamente,",
+        "alternativas": {
+          "A": "glicose e glicose.",
+          "B": "glicose e cloreto de sódio.",
+          "C": "cloreto de sódio e glicose.",
+          "D": "cloreto de potássio e glicose.",
+          "E": "cloreto de sódio e cloreto de potássio."
+        },
+        "gabarito": "A",
+        "comentario": "C6H12O6 (glicose): composto molecular que não se dissocia em água (não produz íons), portanto, não é condutor de corrente elétrica. KCl: m = 75 mg = 0,075 g, V = 500 mL = 0,5 L, C = 0,075/0,5 = 0,15 g/L. NaCl: m = 0,07 g, V = 0,5 L, C = 0,07/0,5 = 0,14 g/L. C6H12O6: m = 0,00008 kg = 0,08 g, V = 0,5 L, C = 0,08/0,5 = 0,16 g/L (maior). Resposta: AA"
+      },
+      {
+        "id": "enem_enem2022-2_2dia_126_35",
+        "materia": "Química",
+        "assunto": "Separação de misturas e reações ácido-base",
+        "banca": "INEP",
+        "ano": "2022",
+        "texto_auxiliar": "A fim de reaproveitar o resíduo de um processo industrial, cuja composição está indicada, foi proposto um tratamento seguindo o esquema de separações apresentado. ENGEL, R. G. et al. Química orgânica experimental. São Paulo: Cengage Learning, 2012.",
+        "enunciado": "Os componentes do resíduo que estão presentes nas frações aquosas II e III são, respectivamente,",
+        "alternativas": {
+          "A": "fenol e anilina.",
+          "B": "fenol e acetona.",
+          "C": "anilina e acetona.",
+          "D": "ácido acético e anilina.",
+          "E": "ácido acético e acetona."
+        },
+        "gabarito": "A",
+        "comentario": "Somente o ácido acético reage com NaHCO3, formando a fração aquosa I. O fenol reage com NaOH, formando a fração aquosa II. A anilina reage com HCl, formando a fração aquosa III. Portanto, as frações aquosas II e III contêm, respectivamente, fenol e anilina."
+      },
+      {
+        "id": "enem_enem2023-2_2dia_106_15",
+        "materia": "Química",
+        "assunto": "Separação de misturas",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "Na produção do politereftalato de etileno, o PET, utiliza-se como reagente o para-dimetilbenzeno, também chamado de para-xileno, que deve ter alta pureza. No entanto, o para-xileno obtido do petróleo possui contaminação dos seus isômeros orto-xileno e meta-xileno, cujas estruturas são apresentadas na figura. No quadro, são listadas as temperaturas de fusão e ebulição desses três isômeros.",
+        "enunciado": "Qual processo de separação permite a purificação desse reagente?",
+        "alternativas": {
+          "A": "Destilação simples.",
+          "B": "Cristalização simples.",
+          "C": "Destilação fracionada.",
+          "D": "Extração líquido-líquido.",
+          "E": "Solidificação fracionada."
+        },
+        "gabarito": "E",
+        "comentario": "Os três isômeros são líquidos na temperatura ambiente. O processo que permite a purificação do para-xileno é a solidificação fracionada ocorrendo a sua solidificação antes dos dois isômeros, pois apresenta maior ponto de fusão."
+      },
+      {
+        "id": "enem_enem2023-2_2dia_121_30",
+        "materia": "Química",
+        "assunto": "Estequiometria",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "Um carro sedã apresenta tipicamente 200 kg de alumínio distribuídos pelo chassi, motor e cabine. Uma amostra de bauxita, principal fonte natural do metal, é composta por 50% em massa de óxido de alumínio (Al2O3). Considere a massa molar do alumínio (Al) igual a 27 g mol–1 e a do oxigênio (O) igual a 16 g mol–1.",
+        "enunciado": "A massa de bauxita que deve ser empregada para produzir o alumínio usado na fabricação de um carro desse modelo é mais próxima de",
+        "alternativas": {
+          "A": "378 kg.",
+          "B": "400 kg.",
+          "C": "637 kg.",
+          "D": "756 kg.",
+          "E": "1 512 kg."
+        },
+        "gabarito": "D",
+        "comentario": "Resolução: Al: M = 27 g/mol; Al2O3: M = 102 g/mol. 2 Al → Al2O3. 54 g Al – 102 g Al2O3. 200 kg Al – x kg Al2O3 → x = 378 kg. Al2O3 na bauxita: 50% → 378 kg Al2O3 – y kg bauxita → y = 756 kg."
+      },
+      {
+        "id": "enem_enem2023-2_2dia_135_44",
+        "materia": "Química",
+        "assunto": "Fermentação alcoólica",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "O etanol de segunda geração envolve o reaproveitamento dos resíduos do bagaço da cana e sua produção ocorre em um sistema fechado contínuo, que evita a evaporação. A figura ilustra esse processo.\n\nCORONA CARVALHO, J. A. et al. Bagaço de cana-de-açúcar como fonte de glicose: pré-tratamento. Revista Virtual de Química, n. 9, nov. 2016 (adaptado).",
+        "enunciado": "Para evitar o rompimento da dorna por pressão, qual substância, além do combustível, deverá ser continuamente removida do sistema?",
+        "alternativas": {
+          "A": "Etanol.",
+          "B": "Glicose.",
+          "C": "Ácido lático.",
+          "D": "Ácido pirúvico.",
+          "E": "Dióxido de carbono."
+        },
+        "gabarito": "E",
+        "comentario": "Na dorna de fermentação alcoólica devemos retirar o etanol (combustível) e o dióxido de carbono, que é um gás, o que faz aumentar a pressão e, eventualmente, romper a dorna por conta dessa pressão adicional."
+      },
+      {
+        "id": "enem_enem2017_2dia_113_22",
+        "materia": "Química",
+        "assunto": "Separação de misturas",
+        "banca": "INEP",
+        "ano": "2017",
+        "texto_auxiliar": "A farinha de linhaça dourada é um produto natural que oferece grandes benefícios para o nosso organismo. A maior parte dos nutrientes da linhaça encontra-se no óleo desta semente, rico em substâncias lipossolúveis com massas moleculares elevadas. A farinha também apresenta altos teores de fibras proteicas insolúveis em água, celulose, vitaminas lipossolúveis e sais minerais hidrossolúveis. Considere o esquema, que resume um processo de separação dos componentes principais da farinha de linhaça dourada.",
+        "enunciado": "O óleo de linhaça será obtido na fração",
+        "alternativas": {
+          "A": "Destilado 1.",
+          "B": "Destilado 2.",
+          "C": "Resíduo 2.",
+          "D": "Resíduo 3.",
+          "E": "Resíduo 4."
+        },
+        "gabarito": "E",
+        "comentario": "Ao adicionar éter etílico à farinha de linhaça dourada, ocorrerá dissolução de substâncias apolares (lipossolúveis) como os óleos presentes na semente da linhaça e vitaminas lipossolúveis, formando um extrato etéreo. Por destilação, o éter, mais volátil que o óleo, será destilado (destilado 1) e o óleo de linhaça e as vitaminas lipossolúveis irão constituir o resíduo 4. O resíduo 1 deve conter fibras proteicas, celulose e sais minerais. Ao adicionar água, solubilizará os sais minerais e o resíduo 2 conterá fibras proteicas e celulose. Por destilação, teremos água no destilado 2 e os sais minerais no resíduo 3."
+      },
+      {
+        "id": "enem_enem2017_2dia_122_31",
+        "materia": "Química",
+        "assunto": "Estequiometria e Rendimento",
+        "banca": "INEP",
+        "ano": "2017",
+        "texto_auxiliar": "O ácido acetilsalicílico, AAS (massa molar igual a 180 g/mol), é sintetizado a partir da reação do ácido salicílico (massa molar igual a 138 g/mol) com anidrido acético, usando-se ácido sulfúrico como catalisador, conforme a equação química:\n\nApós a síntese, o AAS é purificado e o rendimento final é de aproximadamente 50%. Devido às suas propriedades farmacológicas (antitérmico, analgésico, anti-inflamatório, antitrombótico), o AAS é utilizado como medicamento na forma de comprimidos, nos quais se emprega tipicamente uma massa de 500 mg dessa substância.",
+        "enunciado": "Uma indústria farmacêutica pretende fabricar um lote de 900 mil comprimidos, de acordo com as especificações do texto. Qual é a massa de ácido salicílico, em kg, que deve ser empregada para esse fim?",
+        "alternativas": {
+          "A": "293",
+          "B": "345",
+          "C": "414",
+          "D": "690",
+          "E": "828"
+        },
+        "gabarito": "D",
+        "comentario": "I) Cálculo da massa de ácido acetilsalicílico (AAS) no lote (900 mil comprimidos): 1 comprimido – 500 mg, 900.000 comprimidos – x ⇒ x = 45·10^4 g de AAS. II) Cálculo da massa de ácido salicílico necessário, considerando rendimento de 50%: 1 mol de ácido salicílico (138 g) produz 0,5 mol de AAS (90 g). Então, 138 g de ácido salicílico – 90 g de AAS, x – 45·10^4 g de AAS ⇒ x = 690·10^3 g = 690 kg."
+      },
+      {
+        "id": "enem_enem2016-2_1dia_58_57",
+        "materia": "Química",
+        "assunto": "Soluções",
+        "banca": "INEP",
+        "ano": 2016,
+        "texto_auxiliar": "O soro fisiológico é uma solução aquosa de cloreto de sódio (NaCl) comumente utilizada para higienização ocular, nasal, de ferimentos e de lentes de contato. Sua concentração é 0,90% em massa e densidade igual a 1,00 g/mL.",
+        "enunciado": "Qual massa de NaCl, em grama, deverá ser adicionada à água para preparar 500 mL desse soro?",
+        "alternativas": {
+          "A": "0,45",
+          "B": "0,90",
+          "C": "4,50",
+          "D": "9,00",
+          "E": "45,00"
+        },
+        "gabarito": "C",
+        "comentario": "0,90% em massa significa que, em 100 g de solução, temos 0,90 g de NaCl. Como a densidade da solução é 1 g/mL, teremos 100 mL de solução: 100 mL – 0,90 g; 500 mL – x; x = 4,50 g."
+      },
+      {
+        "id": "enem_enem2016-2_1dia_83_82",
+        "materia": "Química",
+        "assunto": "Análise química e precipitação",
+        "banca": "INEP",
+        "ano": 2016,
+        "texto_auxiliar": "Os métodos empregados nas análises químicas são ferramentas importantes para se conhecer a composição dos diversos materiais presentes no meio ambiente. É comum, na análise de metais presentes em amostras ambientais, como água de rio ou de mar, a adição de um ácido mineral forte, normalmente o ácido nítrico (HNO3), com a finalidade de impedir a precipitação de compostos pouco solúveis desses metais ao longo do tempo.",
+        "enunciado": "Na ocorrência de precipitação, o resultado da análise pode ser subestimado, porque",
+        "alternativas": {
+          "A": "ocorreu passagem de parte dos metais para uma fase sólida.",
+          "B": "houve volatilização de compostos dos metais para a atmosfera.",
+          "C": "os metais passaram a apresentar comportamento de não metais.",
+          "D": "formou-se uma nova fase líquida, imiscível com a solução original.",
+          "E": "os metais reagiram com as paredes do recipiente que contém a amostra."
+        },
+        "gabarito": "A",
+        "comentario": "Na ocorrência de precipitação, o resultado da análise pode ser subestimado, porque ocorreu a passagem de parte dos metais para uma fase sólida (precipitado). Com o tratamento por ácido nítrico, formam-se sais (nitratos) solúveis. A análise determina a quantidade que está dissolvida. Se não realizar esse tratamento com ácido nítrico e ocorrer precipitação, a quantidade dissolvida será menor."
+      },
+      {
+        "id": "enem_enem2015_1dia_56_55",
+        "materia": "Química",
+        "assunto": "Estequiometria",
+        "banca": "INEP",
+        "ano": "2015",
+        "texto_auxiliar": "Para proteger estruturas de aço da corrosão, a indústria utiliza uma técnica chamada galvanização. Um metal bastante utilizado nesse processo é o zinco, que pode ser obtido a partir de um minério denominado esfalerita (ZnS), de pureza 75%. Considere que a conversão do minério em zinco metálico tem rendimento de 80% nesta sequência de equações químicas: \n2 ZnS + 3 O2 → 2 ZnO + 2 SO2\nZnO + CO → Zn + CO2\nConsidere as massas molares: ZnS (97 g/mol); O2 (32 g/mol); ZnO (81 g/mol); SO2 (64 g/mol); CO (28 g/mol); CO2 (44 g/mol); e Zn (65 g/mol).",
+        "enunciado": "Que valor mais próximo de massa de zinco metálico, em quilogramas, será produzido a partir de 100 kg de esfalerita?",
+        "alternativas": {
+          "A": "25",
+          "B": "33",
+          "C": "40",
+          "D": "50",
+          "E": "54"
+        },
+        "gabarito": "C",
+        "comentario": "Cálculo da massa de ZnS na amostra: 100 kg * 75% = 75 kg. Cálculo da massa de Zn com rendimento de 80%: 2 ZnS + 3 O2 → 2 ZnO + 2 SO2; 2 ZnO + 2 CO → 2 Zn + 2 CO2; global: 2 ZnS + 3 O2 + 2 CO → 2 Zn + 2 SO2 + 2 CO2. 2 mol ZnS (2*97 g) produzem 2 mol Zn (2*65 g) com rendimento 100%. Com rendimento 80%, produzem 0,8*2*65 g. Regra de três: 2*97 g ZnS → 0,8*2*65 g Zn; 75 kg ZnS → x; x = (75 * 0,8*2*65) / (2*97) = (75 * 0,8 * 65) / 97 ≈ 40,2 kg. Valor mais próximo: 40 kg."
+      },
+      {
+        "id": "enem_enem2015_1dia_69_68",
+        "materia": "Química",
+        "assunto": "Cálculo estequiométrico e concentração de soluções",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "A hidroponia pode ser definida como uma técnica de produção de vegetais sem necessariamente a presença de solo. Uma das formas de implementação é manter as plantas com suas raízes suspensas em meio líquido, de onde retiram os nutrientes essenciais. Suponha que um produtor de rúcula hidropônica precise ajustar a concentração de íon nitrato (NO3–) para 0,009 mol/L em um tanque de 5000 litros e, para tanto, tem em mãos uma solução comercial nutritiva de nitrato de cálcio 90 g/L. As massas molares dos elementos N, O e Ca são iguais a 14 g/mol, 16 g/mol e 40 g/mol, respectivamente.",
+        "enunciado": "Qual o valor mais próximo do volume da solução nutritiva, em litros, que o produtor deve adicionar ao tanque?",
+        "alternativas": {
+          "A": "26",
+          "B": "41",
+          "C": "45",
+          "D": "51",
+          "E": "82"
+        },
+        "gabarito": "B",
+        "comentario": "Dissolução do nitrato de cálcio em água: 1 Ca(NO3)2 → Ca2+ + 2 NO3–. Cálculo da massa de nitrato de cálcio para produzir 0,009 mol de íons nitrato em 1 L do tanque: Massa molar do Ca(NO3)2 = (40 + 2×14 + 6×16) g/mol = 164 g/mol. 1 mol de Ca(NO3)2 produz 2 mol de NO3–, então 164 g produzem 2 mol, logo para 0,009 mol são necessários 0,738 g de Ca(NO3)2. Massa para 5000 L: 0,738 g/L × 5000 L = 3690 g. Como cada litro da solução nutritiva contém 90 g de Ca(NO3)2, volume necessário = 3690 g / 90 g/L = 41 L."
+      }
+    ]
+  },
+  "Físico-Química: Termoquímica": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Cálculo de energia liberada em combustão e conversão entre massa, calor e energia útil",
+        "ids_questoes": [
+          "enem_enem2018_2dia_108_17",
+          "enem_enem2019_2dia_113_22"
+        ],
+        "peso_percentual": 50,
+        "armadilha_favorita": "O INEP costuma misturar dado nutricional, massa do combustível e rendimento energético para induzir o candidato a usar apenas a energia total da combustão ou a fazer conversão incorreta de unidades. Outra armadilha é ignorar a fração efetivamente aproveitada (por exemplo, 40%) ou confundir calor liberado com aumento de temperatura da água sem aplicar a relação Q = m.c.ΔT."
+      },
+      {
+        "nome_microtema": "Aplicação da Lei de Hess e manipulação de equações termoquímicas",
+        "ids_questoes": [
+          "enem_enem2017_2dia_124_33",
+          "enem_enem2015_1dia_57_56"
+        ],
+        "peso_percentual": 50,
+        "armadilha_favorita": "A banca confunde ao apresentar reações intermediárias, espécies em estados físicos diferentes e coeficientes estequiométricos que exigem ajuste proporcional da entalpia. O distrator típico aparece quando o candidato soma entalpias sem inverter sinais ao reverter reações ou sem multiplicar corretamente a variação de entalpia pelo fator estequiométrico."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio, tabelas, figuras e situações do cotidiano/indústria; cobra interpretação de dados, proporcionalidade, balanço energético e aplicação de conceitos termoquímicos em vez de memorização direta.",
+      "palavras_gatilho": [
+        "energia liberada",
+        "variação de entalpia",
+        "calorimetria",
+        "combustão",
+        "Lei de Hess",
+        "temperatura final",
+        "de acordo com a tabela",
+        "considerando as perdas"
+      ]
+    },
+    "total_questoes_analisadas": 4,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2018_2dia_108_17",
+        "materia": "Química",
+        "assunto": "Termoquímica",
+        "banca": "INEP",
+        "ano": "2018",
+        "texto_auxiliar": "Por meio de reações químicas que envolvem carboidratos, lipídeos e proteínas, nossas células obtêm energia e produzem gás carbônico e água. A oxidação da glicose no organismo humano libera energia, conforme ilustra a equação química, sendo que aproximadamente 40% dela é disponibilizada para atividade muscular.\nC6H12O6(s) + 6O2(g) → 6CO2(g) + 6H2O(l) ΔcH = – 2 800 kJ\nConsidere as massas molares (em g mol–1): H = 1; C = 12; O = 16.",
+        "enunciado": "Na oxidação de 1,0 grama de glicose, a energia obtida para atividade muscular, em quilojoule, é mais próxima de",
+        "alternativas": {
+          "A": "6,2.",
+          "B": "15,6.",
+          "C": "70,0.",
+          "D": "622,2.",
+          "E": "1 120,0."
+        },
+        "gabarito": "A",
+        "comentario": "Cálculo: massa molar da glicose = 180 g/mol. 1 mol libera 2800 kJ, então 1 g libera 2800/180 ≈ 15,56 kJ. 40% disso é 15,56 × 0,4 ≈ 6,22 kJ, mais próximo de 6,2."
+      },
+      {
+        "id": "enem_enem2019_2dia_113_22",
+        "materia": "Química",
+        "assunto": "Calorimetria",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "Em uma aula experimental de calorimetria, uma professora queimou 2,5 g de castanha-de-caju crua para aquecer 350 g de água, em um recipiente apropriado para diminuir as perdas de calor. Com base na leitura da tabela nutricional a seguir e da medida da temperatura da água, após a queima total do combustível, ela concluiu que 50% da energia disponível foi aproveitada. O calor específico da água é 1 cal g–1 °C–1, e sua temperatura inicial era de 20 ºC. Tabela nutricional: Quantidade por porção de 10g (2 castanhas): Valor energético 70 kcal, Carboidratos 0,8 g, Proteínas 3,5 g, Gorduras totais 3,5 g.",
+        "enunciado": "Qual foi a temperatura da água, em grau Celsius, medida ao final do experimento?",
+        "alternativas": {
+          "A": "25",
+          "B": "27",
+          "C": "45",
+          "D": "50",
+          "E": "70"
+        },
+        "gabarito": "C",
+        "comentario": "Cálculo do calor de combustão da castanha-de-caju: C = 70 kcal / 10 g = 7 kcal/g = 7000 cal/g. Calor total produzido pela queima de 2,5 g: QT = 2,5 g * 7000 cal/g = 17500 cal. Calor útil com 50% de aproveitamento: Q = 0,50 * 17500 = 8750 cal. Usando Q = m c ΔT, temos ΔT = Q/(m c) = 8750/(350*1) = 25 °C. Temperatura final = 20 + 25 = 45 °C."
+      },
+      {
+        "id": "enem_enem2017_2dia_124_33",
+        "materia": "Química",
+        "assunto": "Termoquímica",
+        "banca": "INEP",
+        "ano": 2017,
+        "texto_auxiliar": "O ferro é encontrado na natureza na forma de seus minérios, tais como a hematita (α-Fe2O3), a magnetita (Fe3O4) e a wustita (FeO). Na siderurgia, o ferro-gusa é obtido pela fusão de minérios de ferro em altos fornos em condições adequadas. Uma das etapas nesse processo é a formação de monóxido de carbono. O CO (gasoso) é utilizado para reduzir o FeO (sólido), conforme a equação química: FeO (s) + CO (g) → Fe (s) + CO2 (g). Considere as seguintes equações termoquímicas: Fe2O3(s) + 3 CO (g) → 2 Fe (s) + 3 CO2(g) ΔrH = –25 kJ/mol de Fe2O3; 3 FeO (s) + CO2(g) → Fe3O4(s) + CO (g) ΔrH = –36 kJ/mol de CO2; 2 Fe3O4(s) + CO2(g) → 3 Fe2O3(s) + CO (g) ΔrH = +47 kJ/mol de CO2.",
+        "enunciado": "O valor mais próximo de ΔrH, em kJ/mol de FeO, para a reação indicada do FeO (sólido) com o CO (gasoso) é",
+        "alternativas": {
+          "A": "–14.",
+          "B": "–17.",
+          "C": "–50.",
+          "D": "–64.",
+          "E": "–100."
+        },
+        "gabarito": "B",
+        "comentario": "A primeira equação fornecida é multiplicada por 1/2, a segunda equação fornecida é multiplicada por 1/3 e a terceira equação fornecida é multiplicada por 1/6. Somando as três equações alteradas obtém-se a equação desejada e o ΔH = –16,7 kJ/mol, aproximadamente –17 kJ/mol."
+      },
+      {
+        "id": "enem_enem2015_1dia_57_56",
+        "materia": "Química",
+        "assunto": "Termoquímica",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "O aproveitamento de resíduos florestais vem se tornando cada dia mais atrativo, pois eles são uma fonte renovável de energia. A figura representa a queima de um bio-óleo extraído do resíduo de madeira, sendo ΔH1 a variação de entalpia devido à queima de 1 g desse bio-óleo, resultando em gás carbônico e água líquida, e ΔH2, a variação de entalpia envolvida na conversão de 1 g de água no estado gasoso para o estado líquido. [IMAGEM OMITIDA]",
+        "enunciado": "A variação de entalpia, em kJ, para a queima de 5 g desse bio-óleo resultando em CO2 (gasoso) e H2O (gasoso) é:",
+        "alternativas": {
+          "A": "–106.",
+          "B": "–94,0.",
+          "C": "–82,0.",
+          "D": "–21,2.",
+          "E": "–16,4."
+        },
+        "gabarito": "C",
+        "comentario": "Pelo gráfico: ΔH3 = –18,8 kJ/g + 2,4 kJ/g = –16,4 kJ/g. Para 1 g de bio-óleo, ΔH = –16,4 kJ. Para 5 g: 5 × (–16,4) = –82 kJ."
+      }
+    ]
+  },
+  "Cinética E Equilíbrio Químico": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Aplicação do princípio de Le Chatelier em processo industrial exotérmico",
+        "ids_questoes": [
+          "enem_enem2023-2_2dia_96_5"
+        ],
+        "peso_percentual": 55,
+        "armadilha_favorita": "Induzir o candidato a escolher uma variável qualquer do processo (pressão, concentração ou quantidade de reagente) sem perceber que a questão pede a redução do subproduto NO e que, por ser uma etapa exotérmica, o aumento de temperatura desloca o equilíbrio no sentido indesejado. O distrator explora confusão entre aumentar reagente e aumentar produto, além de misturar etapas diferentes da síntese."
+      },
+      {
+        "nome_microtema": "Manipulação algébrica de constantes de equilíbrio em reações encadeadas",
+        "ids_questoes": [
+          "enem_enem2015_1dia_60_59"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "Fazer o estudante errar ao inverter ou multiplicar incorretamente as constantes ao somar, subtrair ou inverter equações químicas. O INEP costuma esconder a habilidade matemática por trás de um contexto ambiental, levando o candidato a focar no tema da neutralização e esquecer que a tarefa central é combinar reações e ajustar expoentes da constante de equilíbrio."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio, com foco em interpretação de processos químicos e manipulação de relações de equilíbrio",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "com base nos valores das constantes",
+        "qual procedimento permite",
+        "diminuir a quantidade formada"
+      ]
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2023-2_2dia_96_5",
+        "materia": "Química",
+        "assunto": "Equilíbrio Químico",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "Ácido nítrico é um importante reagente usado no preparo de nitrato de amônio, NH4NO3, um fertilizante nitrogenado. Industrialmente, o ácido nítrico é obtido a partir da reação da amônia com gás oxigênio, um processo que ocorre em três etapas, todas exotérmicas. Etapa l: 4 NH3 (g) + 5 O2 (g) → 4 NO (g) + 6 H2O (l) Etapa 2: 2 NO (g) + O2 (g) → 2 NO2 (g) Etapa 3: 3 NO2 (g) + H2O (l) → 2 HNO3 (aq) + NO (g) Na primeira etapa, forma-se NO, o qual reage com mais oxigênio formando NO2, um óxido ácido, que reage com a água formando HNO3 e NO. O composto NO é, portanto, um subproduto da reação. É importante o seu reaproveitamento, senão ele pode ser liberado para o ambiente, onde reagirá com o oxigênio, formando NO2. ATKINS, P.: JONES, L. Princípios de química : questionando a vida moderna e o meio ambiente. Porto Alegre: Bookman. 2006 (adaptado).",
+        "enunciado": "O procedimento que permite diminuir a quantidade formada do subproduto NO é aumentar a",
+        "alternativas": {
+          "A": "pressão de oxigênio, na etapa 1.",
+          "B": "concentração de NO2, na etapa 3.",
+          "C": "quantidade de amônia, na etapa 1.",
+          "D": "quantidade de oxigênio, na etapa 2.",
+          "E": "temperatura dos reagentes, na etapa 1."
+        },
+        "gabarito": "D",
+        "comentario": "O procedimento que permite diminuir a quantidade formada do subproduto NO é aumentar a quantidade de oxigênio, na etapa 2, pois desloca o equilíbrio no sentido do NO2 diminuindo a quantidade de NO. 2 NO(g) + O2(g) →← 2 NO2(g) diminui ↑ −→ Resposta: D"
+      },
+      {
+        "id": "enem_enem2015_1dia_60_59",
+        "materia": "Química",
+        "assunto": "Equilíbrio Químico",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "Vários ácidos são utilizados em indústrias que descartam seus efluentes nos corpos d'água, como rios e lagos, podendo afetar o equilíbrio ambiental. Para neutralizar a acidez, o sal carbonato de cálcio pode ser adicionado ao efluente, em quantidades apropriadas, pois produz bicarbonato, que neutraliza a água. As equações envolvidas no processo são apresentadas: \n(I) CaCO3(s) + CO2(g) + H2O(l) ⇌ Ca2+(aq) + 2 HCO3–(aq) \n(II) HCO3–(aq) ⇌ H+(aq) + CO32–(aq) K1 = 3,0 x 10–11 \n(III) CaCO3(s) ⇌ Ca2+(aq) + CO32–(aq) K2 = 6,0 x 10–9 \n(IV) CO2(g) + H2O(l) ⇌ H+(aq) + HCO3–(aq) K3 = 2,5 x 10–7",
+        "enunciado": "Com base nos valores das constantes de equilíbrio das reações II, III e IV a 25°C, qual é o valor numérico da constante de equilíbrio da reação I?",
+        "alternativas": {
+          "A": "4,5 x 10–26",
+          "B": "5,0 x 10–5",
+          "C": "0,8 x 10–9",
+          "D": "0,2 x 105",
+          "E": "2,2 x 1026"
+        },
+        "gabarito": "B",
+        "comentario": "Para obter a equação I, inverte-se a equação II e mantêm-se as equações III e IV, somando-as. A constante de equilíbrio da equação I é o produto das constantes: K = (1/K1) * K2 * K3 = (1/(3,0 x 10^-11)) * (6,0 x 10^-9) * (2,5 x 10^-7) = 5,0 x 10^-5."
+      }
+    ]
+  },
+  "Eletroquímica: Pilhas E Eletrólise": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Identificação de ânodo/cátodo e sentido do fluxo de elétrons em pilhas e células eletroquímicas",
+        "ids_questoes": [
+          "enem_enem2018_2dia_125_34",
+          "enem_enem2019_2dia_114_23",
+          "enem_enem2021_2dia_124_33",
+          "enem_enem2016-2_1dia_82_81"
+        ],
+        "peso_percentual": 33,
+        "armadilha_favorita": "O INEP troca o nome do eletrodo pelo local onde ocorre a espécie mais visível (metal, tubo, barra, depósito) e induz o candidato a confundir oxidação/redução com ganho/perda de massa ou com o material estrutural da célula."
+      },
+      {
+        "nome_microtema": "Eletrólise industrial e produtos formados em processos não espontâneos",
+        "ids_questoes": [
+          "enem_enem2017_2dia_95_4",
+          "enem_enem2016-2_1dia_82_81"
+        ],
+        "peso_percentual": 17,
+        "armadilha_favorita": "A banca costuma explorar a diferença entre produto principal e secundário, além de inverter o papel dos eletrodos na eletrólise. Distratores frequentes trazem espécies plausíveis do meio aquoso, mas que não correspondem ao balanço global do processo."
+      },
+      {
+        "nome_microtema": "Corrosão, proteção de metais e processos de redução/oxidação em contextos cotidianos",
+        "ids_questoes": [
+          "enem_enem2020_digital_2dia_119_28",
+          "enem_enem2016-2_1dia_74_73"
+        ],
+        "peso_percentual": 17,
+        "armadilha_favorita": "O INEP contextualiza com objetos do cotidiano e faz o aluno confundir limpeza, isolamento térmico ou esterilização com proteção anticorrosiva. Também pode induzir a pensar que a restauração ocorre por ação do metal corroído, quando na verdade há um agente redutor externo."
+      },
+      {
+        "nome_microtema": "Cálculo e comparação de diferença de potencial em pilhas, baterias e associação em série",
+        "ids_questoes": [
+          "enem_enem2020_digital_2dia_121_30",
+          "enem_enem2021_2dia_92_1",
+          "enem_enem2017_2dia_121_30"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A banca mistura valores de tensão nominal, condições-padrão e necessidade mínima de funcionamento do dispositivo. O distrator típico é somar ou comparar tensões sem considerar a associação em série, a faixa exigida pelo aparelho ou a diferença entre pilha e bateria recarregável."
+      },
+      {
+        "nome_microtema": "Interpretação de sistemas redox em tecnologias energéticas e células de combustível",
+        "ids_questoes": [
+          "enem_enem2018_2dia_113_22",
+          "enem_enem2021_2dia_106_15"
+        ],
+        "peso_percentual": 8,
+        "armadilha_favorita": "O INEP usa tecnologias modernas para cobrar leitura de esquema e função de cada etapa, confundindo transferência de elétrons, regeneração do reagente e escolha da tecnologia mais adequada ao uso real. O candidato pode marcar a alternativa que parece mais 'tecnológica', mas não a mais compatível com a condição operacional."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio, esquemas de células, tabelas de potenciais e situações do cotidiano/indústria",
+      "habilidades_cobradas": [
+        "identificar oxidação e redução em sistemas reais",
+        "relacionar função dos eletrodos ao fluxo de elétrons",
+        "interpretar processos de eletrólise e pilhas",
+        "comparar diferenças de potencial e adequação tecnológica",
+        "aplicar eletroquímica a corrosão, proteção e restauração de metais"
+      ],
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "no funcionamento",
+        "a etapa fundamental",
+        "qual componente atuaria",
+        "produto secundário",
+        "diferença de potencial mínima",
+        "tecnologia mais adequada",
+        "ocorre por causa do"
+      ],
+      "padrão_distratores": [
+        "inversão de ânodo e cátodo",
+        "confusão entre agente oxidante e redutor",
+        "leitura literal do texto sem inferência química",
+        "escolha de espécie intermediária em vez do produto final",
+        "erro em soma/associação de tensões"
+      ]
+    },
+    "total_questoes_analisadas": 12,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2018_2dia_113_22",
+        "materia": "Química",
+        "assunto": "Eletroquímica",
+        "banca": "INEP",
+        "ano": "2018",
+        "texto_auxiliar": "Células solares à base de TiO2 sensibilizadas por corantes (S) são promissoras e poderão vir a substituir as células de silício. Nessas células, o corante adsorvido sobre o TiO2 é responsável por absorver a energia luminosa (hv), e o corante excitado (S*) é capaz de transferir elétrons para o TiO2. Um esquema dessa célula e os processos envolvidos estão ilustrados na figura. A conversão de energia solar em elétrica ocorre por meio da sequência de reações apresentadas.\nTiO2/H2O|S + hv → TiO2/H2O|S* (1)\nTiO2/H2O|S* → TiO2/H2O|S+ + e– (2)\nTiO2/H2O|S+ + I– → TiO2/H2O|S + I3– (3)\nI3– + e– → I– (4)\nLONGO. C.; DE PAOLI, M. A. Dye-Sensitized Solar Cells: A Successful Combination of Materials. Journal of the Brazilian Chemical Society, n. 6, 2003 (adaptado).",
+        "enunciado": "A reação 3 é fundamental para o contínuo funcionamento da célula solar, pois",
+        "alternativas": {
+          "A": "reduz íons I– a I3–.",
+          "B": "regenera o corante.",
+          "C": "garante que a reação 4 ocorra.",
+          "D": "promove a oxidação do corante.",
+          "E": "transfere elétrons para o eletrodo de TiO2."
+        },
+        "gabarito": "B",
+        "comentario": "No eletrodo de TiO2 com corante, ocorre oxidação de acordo com a semirreação: TiO2/S* → TiO2/S+ + e– (2). No eletrodo de Pt, ocorre redução de acordo com a semirreação: I3– + e– → I– (4). A reação 3 é fundamental para o contínuo funcionamento da célula solar, pois garante a regeneração do corante: TiO2/S+ + I– → TiO2/S + I3– (reação 3)."
+      },
+      {
+        "id": "enem_enem2018_2dia_125_34",
+        "materia": "Química",
+        "assunto": "Eletroquímica",
+        "banca": "INEP",
+        "ano": "2018",
+        "texto_auxiliar": "Em 1938 o arqueólogo alemão Wilhelm König, diretor do Museu Nacional do Iraque, encontrou um objeto estranho na coleção da instituição, que poderia ter sido usado como uma pilha, similar às utilizadas em nossos dias. A suposta pilha, datada de cerca de 200 a.C., é constituída de um pequeno vaso de barro (argila) no qual foram instalados um tubo de cobre, uma barra de ferro (aparentemente corroída por ácido) e uma tampa de betume (asfalto), conforme ilustrado. Considere os potenciais-padrão de redução: E°(Fe2+/Fe) = –0,44 V; E°(H+/H2) = 0,00 V; e E°(Cu2+/Cu) = +0,34 V.",
+        "enunciado": "Nessa suposta pilha, qual dos componentes atuaria como cátodo?",
+        "alternativas": {
+          "A": "A tampa de betume.",
+          "B": "O vestígio de ácido.",
+          "C": "A barra de ferro.",
+          "D": "O tubo de cobre.",
+          "E": "O vaso de barro."
+        },
+        "gabarito": "D",
+        "comentario": "O ácido atuaria como solução eletrolítica e a barra de ferro como anodo, pois o ferro foi corroído sofrendo oxidação. No eletrodo de cobre ocorre a redução do íon H+. 2 H+ + 2 e– → H2. No tubo de cobre ocorre redução, sendo portanto o catodo."
+      },
+      {
+        "id": "enem_enem2019_2dia_114_23",
+        "materia": "Química",
+        "assunto": "Eletroquímica",
+        "banca": "INEP",
+        "ano": 2019,
+        "texto_auxiliar": "Grupos de pesquisa em todo o mundo vêm buscando soluções inovadoras, visando à produção de dispositivos para a geração de energia elétrica. Dentre eles, pode-se destacar as baterias de zinco-ar, que combinam o oxigênio atmosférico e o metal zinco em um eletrólito aquoso de caráter alcalino. O esquema de funcionamento da bateria zinco-ar está apresentado na figura.\nLI, Y.; DAI, H. Recent Advances in Zinc-Air Batteries. Chemical Society Reviews, v. 43, n. 15, 2014 (adaptado).",
+        "enunciado": "No funcionamento da bateria, a espécie química formada no ânodo é",
+        "alternativas": {
+          "A": "H2(g)",
+          "B": "O2(g)",
+          "C": "H2O(l)",
+          "D": "OH–(aq)",
+          "E": "Zn(OH)42–(aq)"
+        },
+        "gabarito": "E",
+        "comentario": "No funcionamento da bateria, a espécie química formada no anodo é Zn(OH)42–(aq). anodo: Zn → Zn2+ + 2e– (oxidação); catodo: 1/2O2 + H2O + 2e– → 2OH– (redução). Os íons OH– atravessam a membrana separadora ocorrendo a seguinte reação: Zn2+(aq) + 4OH–(aq) → Zn(OH)42–(aq)."
+      },
+      {
+        "id": "enem_enem2020_digital_2dia_119_28",
+        "materia": "Química",
+        "assunto": "Reações de oxirredução",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "Os objetos de prata tendem a escurecer com o tempo, em contato com compostos de enxofre, por causa da formação de uma película superficial de sulfeto de prata (Ag2S), que é escuro. Um método muito simples para restaurar a superfície original desses objetos é mergulhá-los em uma solução diluída aquecida de hidróxido de sódio (NaOH), contida em uma panela comum de alumínio. A equação química que ilustra esse processo é:\n3 Ag2S (s) + 2 Al(s) + 8 NaOH (aq) → 6 Ag (s) + 3 Na2S (aq) + 2 NaAlO2(aq) + 4 H2O (l)",
+        "enunciado": "A restauração do objeto de prata ocorre por causa do(a)",
+        "alternativas": {
+          "A": "prata, que reduz o enxofre.",
+          "B": "íon sulfeto, que sofre oxidação.",
+          "C": "íon hidróxido, que atua como agente oxidante.",
+          "D": "alumínio, que atua como agente redutor no processo.",
+          "E": "variação do pH do meio reacional, que aumenta durante a reação."
+        },
+        "gabarito": "D",
+        "comentario": "Ag2S: agente oxidante; Al: agente redutor. A restauração do objeto de prata ocorre por causa do alumínio, que atua como agente redutor no processo."
+      },
+      {
+        "id": "enem_enem2020_digital_2dia_121_30",
+        "materia": "Química",
+        "assunto": "Eletroquímica",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "As pilhas recarregáveis, bastante utilizadas atualmente, são formadas por sistemas que atuam como uma célula galvânica, enquanto estão sendo descarregadas, e como célula eletrolítica, quando estão sendo recarregadas. Uma pilha é formada pelos elementos níquel e cádmio e seu carregador deve fornecer uma diferença de potencial mínima para promover a recarga. Quanto maior a diferença de potencial gerada pelo carregador, maior será o seu custo. Considere os valores de potencial padrão de redução dessas espécies: Ni2+(aq) + 2 e− →← Ni (s) E0 = −0,230 V; Cd2+(aq) + 2 e− →← Cd (s) E0 = −0,402 V.",
+        "enunciado": "Teoricamente, para que um carregador seja ao mesmo tempo eficiente e tenha o menor preço, a diferença de potencial mínima, em volt, que ele deve superar é de",
+        "alternativas": {
+          "A": "0,086.",
+          "B": "0,172.",
+          "C": "0,316.",
+          "D": "0,632.",
+          "E": "1,264."
+        },
+        "gabarito": "B",
+        "comentario": "O íon Ni2+(aq) apresenta maior potencial padrão de redução que o íon Cd2+(aq), portanto, na célula galvânica, o eletrodo de Ni será o cátodo e o eletrodo de cádmio será o ânodo. O potencial padrão da pilha formada será: ΔE0 = E0cátodo – E0ânodo = –0,230 V – (–0,402 V) = 0,172 V. Teoricamente, para que um carregador seja ao mesmo tempo eficiente e tenha o menor preço, a diferença de potencial mínima que ele deve superar é de 0,172 V."
+      },
+      {
+        "id": "enem_enem2021_2dia_92_1",
+        "materia": "Química",
+        "assunto": "Eletroquímica",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "O quadro lista alguns dispositivos eletrônicos que estão presentes no dia a dia, bem como a faixa de força eletromotriz necessária ao seu funcionamento.\n\nDispositivo eletrônico | Faixa de força eletromotriz (V)\nI Relógio de parede | 1,2 a 1,5\nII Celular | 3,5 a 3,8\nIII Câmera digital | 7,5 a 7,8\nIV Carrinho de controle remoto | 10,5 a 10,9\nV Notebook/Laptop | 19,5 a 20,0\n\nConsidere que uma bateria é construída pela associação em série de três pilhas de lítio-iodo, nas condições-padrão, conforme as semiequações de redução apresentadas.\nI2 + 2e– → 2I– E0 = +0,54V\nLi+ + e– → Li E0 = –3,05V",
+        "enunciado": "Essa bateria é adequada para o funcionamento de qual dispositivo eletrônico?",
+        "alternativas": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
+        },
+        "gabarito": "D",
+        "comentario": "Cálculo da diferença de potencial da pilha de lítio-iodo: ΔE0 = E0red catodo – E0red anodo = +0,54V – (–3,05V) = 3,59V. Como as pilhas estão em série, a tensão é dada pela soma das tensões das três pilhas: ΔE0 = 3,59V × 3 = 10,77V. Portanto, elas permitem o funcionamento adequado do carrinho de controle remoto (faixa 10,5 a 10,9 V)."
+      },
+      {
+        "id": "enem_enem2021_2dia_106_15",
+        "materia": "Química",
+        "assunto": "Células de combustível",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "O emprego de células de combustível a hidrogênio pode ser uma tecnologia adequada ao transporte automotivo. O quadro apresenta características de cinco tecnologias mais proeminentes de células de combustível. Testes operacionais com esses tipos de células têm indicado que as melhores alternativas para veículos são as que operam em baixos níveis de energia térmica, são formadas por membranas de eletrólitos poliméricos e ocorrem em meio ácido. THOMAS, S; ZALBOWITZ. M. Full cells : green power. Los Alamos National Laboratory, Los Alamos, NM. 1999 (adaptado).",
+        "enunciado": "A tecnologia testada mais adequada para o emprego em veículos automotivos é a célula de combustível",
+        "alternativas": {
+          "A": "AFC.",
+          "B": "MSFC.",
+          "C": "PEM.",
+          "D": "PAFC.",
+          "E": "SOFC."
+        },
+        "gabarito": "C",
+        "comentario": "Nas células de combustível a hidrogênio, ocorre a seguinte reação: H2 + 1/2 O2 → H2O. Na célula AFC a reação se dá em meio básico (OH–) na presença de hidróxido de potássio aquoso. Na célula MSFC a reação ocorre na presença de carbonatos com produção e posterior consumo de CO2. Nas células PEM, PAFC, SOFC, a reação se dá em meio ácido (H+). A que opera em baixa temperatura (60°C-100°C) e na presença de membrana de eletrólito polimérico (ácido poliperfluorossulfônico) é a PEM."
+      },
+      {
+        "id": "enem_enem2021_2dia_124_33",
+        "materia": "Química",
+        "assunto": "Reações de oxirredução",
+        "banca": "INEP",
+        "ano": 2021,
+        "texto_auxiliar": "O ciclo do cobre é um experimento didático em que o cobre metálico é utilizado como reagente de partida. Após uma sequência de reações (I, II, III, IV e V), o cobre retorna ao seu estado inicial ao final do ciclo.",
+        "enunciado": "A reação de redução do cobre ocorre na etapa",
+        "alternativas": {
+          "A": "I.",
+          "B": "II.",
+          "C": "III.",
+          "D": "IV.",
+          "E": "V."
+        },
+        "gabarito": "E",
+        "comentario": "Etapa I: Cobre sofre oxidação. Etapas II, III e IV: Não ocorre oxidação e redução do cobre (não ocorre variação do número de oxidação do cobre). Etapa V: Cobre sofre redução."
+      },
+      {
+        "id": "enem_enem2017_2dia_95_4",
+        "materia": "Química",
+        "assunto": "Eletrólise",
+        "banca": "INEP",
+        "ano": 2017,
+        "texto_auxiliar": "A eletrólise é um processo não espontâneo de grande importância para a indústria química. Uma de suas aplicações é a obtenção do gás cloro e do hidróxido de sódio, a partir de uma solução aquosa de cloreto de sódio. Nesse procedimento, utiliza-se uma célula eletroquímica, como ilustrado. [IMAGEM OMITIDA]",
+        "enunciado": "No processo eletrolítico ilustrado, o produto secundário obtido é o",
+        "alternativas": {
+          "A": "vapor de água.",
+          "B": "oxigênio molecular.",
+          "C": "hipoclorito de sódio.",
+          "D": "hidrogênio molecular.",
+          "E": "cloreto de hidrogênio."
+        },
+        "gabarito": "D",
+        "comentario": "Na eletrólise de solução aquosa de NaCl, ocorre redução da água no cátodo, formando hidrogênio molecular (H2) e íons OH-. O hidrogênio é o produto secundário, enquanto o cloro é o principal."
+      },
+      {
+        "id": "enem_enem2017_2dia_121_30",
+        "materia": "Química",
+        "assunto": "Eletroquímica",
+        "banca": "INEP",
+        "ano": 2017,
+        "texto_auxiliar": "A invenção do LED azul, que permite a geração de outras cores para compor a luz branca, permitiu a construção de lâmpadas energeticamente mais eficientes e mais duráveis do que as incandescentes e fluorescentes. Em um experimento de laboratório, pretende-se associar duas pilhas em série para acender um LED azul que requer 3,6 volts para o seu funcionamento. Considere as semirreações de redução e seus respectivos potenciais mostrados no quadro.\nSemirreação de redução E0 (V)\nCe4+(aq) + e– → Ce3+(aq) +1,61\nCr2O72– + 14 H+(aq) + 6 e– → 2 Cr3+(aq) + 7 H2O (l) +1,33\nNi2+(aq) + 2 e– → Ni (s) –0,25\nZn2+(aq) + 2 e– → Zn (s) –0,76",
+        "enunciado": "Qual associação em série de pilhas fornece diferença de potencial, nas condições-padrão, suficiente para acender o LED azul?",
+        "alternativas": {
+          "A": "LED Grafite KCl Ni Ce4+ e Ce3+ Ni2+ Zn KCl Zn2+ Ni2+ Grafite",
+          "B": "LED Grafite KCl Zn Ce4+ e Ce3+ Zn2+ N KCl Ni2+ Cr2O72- H+ e Cr3+ Grafite",
+          "C": "LED Grafite KCl Zn Ce4+ e Ce3+ Zn2+ KCl Ni2+ Cr2O72- H+ e Cr3+ Ni Grafite",
+          "D": "LED Grafite KCl Ce4+ e Ce3+ Ni KCl Zn2+ Ni2+ Zn Grafite Cr2O72- H+ e Cr3+",
+          "E": "LED Grafite Ce4+ e Ce3+ Zn KCl Zn2+ Ni2+ Ni Grafite Cr2O72- H+ e Cr3+ KCl"
+        },
+        "gabarito": "C",
+        "comentario": "A pilha 1 (Zn/Zn2+ // Ce4+/Ce3+) tem ΔE0 = +1,61 - (-0,76) = +2,37 V. A pilha 2 (Ni/Ni2+ // Cr2O72-/Cr3+) tem ΔE0 = +1,33 - (-0,25) = +1,58 V. A associação em série fornece ΔE0 total = 2,37 + 1,58 = 3,95 V, suficiente para acender o LED (3,6 V). A alternativa C mostra corretamente as pilhas em série: Zn com Ce4+/Ce3+ e Ni com Cr2O72-/Cr3+."
+      },
+      {
+        "id": "enem_enem2016-2_1dia_74_73",
+        "materia": "Química",
+        "assunto": "Eletroquímica - Corrosão",
+        "banca": "INEP",
+        "ano": "2016",
+        "texto_auxiliar": "Utensílios de uso cotidiano e ferramentas que contêm ferro em sua liga metálica tendem a sofrer processo corrosivo e enferrujar. A corrosão é um processo eletroquímico e, no caso do ferro, ocorre a precipitação do óxido de ferro(III) hidratado, substância marrom pouco solúvel, conhecida como ferrugem. Esse processo corrosivo é, de maneira geral, representado pela equação química:\n4 Fe (s) + 3 O2(g) + 2 H2O (l) → 2 Fe2O3.H2O (s) (Ferrugem)",
+        "enunciado": "Uma forma de impedir o processo corrosivo nesses utensílios é",
+        "alternativas": {
+          "A": "renovar sua superfície, polindo-a semanalmente.",
+          "B": "evitar o contato do utensílio com o calor, isolando-o termicamente.",
+          "C": "impermeabilizar a superfície, isolando-a de seu contato com o ar úmido.",
+          "D": "esterilizar frequentemente os utensílios, impedindo a proliferação de bactérias.",
+          "E": "guardar os utensílios em embalagens, isolando-os do contato com outros objetos."
+        },
+        "gabarito": "C",
+        "comentario": "Uma forma de impedir o processo corrosivo nesses utensílios é impermeabilizar a superfície (tinta ou graxa), isolando-a de seu contato com o ar úmido."
+      },
+      {
+        "id": "enem_enem2016-2_1dia_82_81",
+        "materia": "Química",
+        "assunto": "Eletrólise",
+        "banca": "INEP",
+        "ano": "2016",
+        "texto_auxiliar": "A obtenção do alumínio dá-se a partir da bauxita (Al2O3. 3 H2O), que é purificada e eletrolisada numa temperatura de 1 000°C. Na célula eletrolítica, o ânodo é formado por barras de grafita ou carvão, que são consumidas no processo de eletrólise, com formação de gás carbônico, e o cátodo é uma caixa de aço coberta de grafita.",
+        "enunciado": "A etapa de obtenção do alumínio ocorre no",
+        "alternativas": {
+          "A": "ânodo, com formação de gás carbônico.",
+          "B": "cátodo, com redução do carvão na caixa de aço.",
+          "C": "cátodo, com oxidação do alumínio na caixa de aço.",
+          "D": "ânodo com depósito de alumínio nas barras de grafita.",
+          "E": "cátodo, com fluxo de elétrons das barras de grafita para a caixa de aço."
+        },
+        "gabarito": "E",
+        "comentario": "A etapa de obtenção do alumínio ocorre no catodo, com fluxo de elétrons das barras de grafita (anodo) para a caixa de aço (catodo). Al3+(l) + 3 e– → Al(l) (catodo); anodo: 2 O2–(l) → O2(g) + 4 e–; C + O2 → CO2."
+      }
+    ]
+  },
+  "Química Orgânica: Funções E Reações": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Estrutura molecular, hibridação e isomeria estrutural",
+        "ids_questoes": [
+          "enem_enem2018_2dia_97_6",
+          "enem_enem2018_2dia_101_10",
+          "enem_enem2019_2dia_119_28",
+          "enem_enem2021_2dia_103_12",
+          "enem_enem2023-2_2dia_131_40"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Trocar a leitura da estrutura pela memorização do nome da substância; confundir isomeria de posição/cadeia/funcional; associar cor ou forma apenas ao nome do composto sem analisar a conectividade e a hibridação."
+      },
+      {
+        "nome_microtema": "Reconhecimento de grupos funcionais e propriedades físico-químicas",
+        "ids_questoes": [
+          "enem_enem2018_2dia_129_38",
+          "enem_enem2019_2dia_101_10",
+          "enem_enem2021_2dia_98_7",
+          "enem_enem2022-2_2dia_110_19",
+          "enem_enem2023-2_2dia_120_29",
+          "enem_enem2023-2_2dia_133_42",
+          "enem_enem2015_1dia_85_84",
+          "enem_enem2015_1dia_68_67"
+        ],
+        "peso_percentual": 24,
+        "armadilha_favorita": "Induzir o candidato a olhar só para a função principal e ignorar a parte hidrofóbica/hidrofílica, ou confundir função orgânica com propriedade macroscópica (solubilidade, odor, persistência ambiental, anfifilia)."
+      },
+      {
+        "nome_microtema": "Reações orgânicas de transformação: oxirredução, substituição, adição, eliminação e transesterificação",
+        "ids_questoes": [
+          "enem_enem2018_2dia_111_20",
+          "enem_enem2019_2dia_123_32",
+          "enem_enem2020_digital_2dia_95_4",
+          "enem_enem2020_digital_2dia_135_44",
+          "enem_enem2021_2dia_131_40",
+          "enem_enem2022-2_2dia_108_17",
+          "enem_enem2017_2dia_134_43",
+          "enem_enem2015_1dia_65_64",
+          "enem_enem2015_1dia_86_85",
+          "enem_enem2016-2_1dia_69_68"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "Fazer o aluno confundir o tipo de reação pelo reagente usado, e não pelo que acontece com as ligações e com o estado de oxidação; também explora a tendência de chamar qualquer transformação de 'substituição' ou 'oxidação' sem analisar o mecanismo."
+      },
+      {
+        "nome_microtema": "Aplicações tecnológicas e ambientais de compostos orgânicos",
+        "ids_questoes": [
+          "enem_enem2018_2dia_135_44",
+          "enem_enem2019_2dia_127_36",
+          "enem_enem2023-2_2dia_99_8",
+          "enem_enem2021_2dia_108_17",
+          "enem_enem2017_2dia_119_28",
+          "enem_enem2015_1dia_62_61"
+        ],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Misturar o objetivo prático da situação com a reação correta; o INEP costuma oferecer alternativas plausíveis do cotidiano, mas erradas quimicamente, exigindo que o candidato relacione aplicação, estrutura e mecanismo."
+      },
+      {
+        "nome_microtema": "Biomoléculas, bioprocessos e química de sistemas biológicos",
+        "ids_questoes": [
+          "enem_enem2019_2dia_123_32",
+          "enem_enem2020_digital_2dia_95_4",
+          "enem_enem2021_2dia_103_12",
+          "enem_enem2023-2_2dia_99_8",
+          "enem_enem2016-2_1dia_69_68",
+          "enem_enem2015_1dia_85_84"
+        ],
+        "peso_percentual": 13,
+        "armadilha_favorita": "Usar contexto biológico para esconder a química central: o candidato pode focar em saúde, alimentação ou ecologia e esquecer de identificar a transformação química, o grupo funcional ou a função metabólica envolvida."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio, estruturas químicas e situações do cotidiano/tecnologia/ambiente",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "com base na estrutura",
+        "qual substância",
+        "qual reação",
+        "o que ocorre",
+        "conclui-se que",
+        "exemplifica",
+        "apresenta",
+        "favorecido",
+        "reaproveitamento"
+      ]
+    },
+    "total_questoes_analisadas": 33,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2018_2dia_97_6",
+        "materia": "Química",
+        "assunto": "Hibridação do carbono",
+        "banca": "INEP",
+        "ano": 2018,
+        "texto_auxiliar": "O grafeno é uma forma alotrópica do carbono constituído por uma folha planar (arranjo bidimensional) de átomos de carbono compactados e com a espessura de apenas um átomo. Sua estrutura é hexagonal, conforme a figura.",
+        "enunciado": "Nesse arranjo, os átomos de carbono possuem hibridação",
+        "alternativas": {
+          "A": "sp de geometria linear.",
+          "B": "sp2 de geometria trigonal planar.",
+          "C": "sp3 alternados com carbonos com hibridação sp de geometria linear.",
+          "D": "sp3d de geometria planar.",
+          "E": "sp3d2 com geometria hexagonal planar."
+        },
+        "gabarito": "B",
+        "comentario": "No arranjo fornecido, cada átomo de carbono está rodeado por três grupos de elétrons, indicando que os átomos de carbono possuem hibridação sp2 de geometria trigonal planar. Observe que, na figura, cada átomo de carbono está no centro de um triângulo e em cada vértice há outro átomo de carbono."
+      },
+      {
+        "id": "enem_enem2018_2dia_101_10",
+        "materia": "Química",
+        "assunto": "Isomeria",
+        "banca": "INEP",
+        "ano": 2018,
+        "texto_auxiliar": "As abelhas utilizam a sinalização química para distinguir a abelha-rainha de uma operária, sendo capazes de reconhecer diferenças entre moléculas. A rainha produz o sinalizador químico conhecido como ácido 9-hidroxidec-2-enoico, enquanto as abelhas-operárias produzem ácido 10-hidroxidec-2-enoico. Nós podemos distinguir as abelhas-operárias e rainhas por sua aparência, mas, entre si, elas usam essa sinalização química para perceber a diferença. Pode-se dizer que veem por meio da química. \nLE COUTEUR, P.; BURRESON, J. Os botões de Napoleão : as 17 moléculas que mudaram a história. Rio de Janeiro: Jorge Zahar, 2006 (adaptado).",
+        "enunciado": "As moléculas dos sinalizadores químicos produzidas pelas abelhas rainha e operária possuem diferença na",
+        "alternativas": {
+          "A": "fórmula estrutural.",
+          "B": "fórmula molecular.",
+          "C": "identificação dos tipos de ligação.",
+          "D": "contagem do número de carbonos.",
+          "E": "identificação dos grupos funcionais."
+        },
+        "gabarito": "A",
+        "comentario": "As duas substâncias são isômeros de posição, portanto, possuem diferentes fórmulas estruturais."
+      },
+      {
+        "id": "enem_enem2018_2dia_111_20",
+        "materia": "Química",
+        "assunto": "Reações de substituição nucleofílica",
+        "banca": "INEP",
+        "ano": 2018,
+        "texto_auxiliar": "A hidroxilamina (NH2OH) é extremamente reativa em reações de substituição nucleofílica, justificando sua utilização em diversos processos. A reação de substituição nucleofílica entre o anidrido acético e a hidroxilamina está representada. O produto A é favorecido em relação ao B, por um fator de 10^5. Em um estudo de possível substituição do uso de hidroxilamina, foram testadas as moléculas numeradas de 1 a 5.",
+        "enunciado": "Dentre as moléculas testadas, qual delas apresentou menor reatividade?",
+        "alternativas": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4",
+          "E": "5"
+        },
+        "gabarito": "D",
+        "comentario": "De acordo com a reação fornecida, o anidrido acético reage com a hidroxilamina (NH2OH) formando ácido acético. A hidroxilamina fornece o átomo de H para a formação do ácido. As substâncias 1, 2, 3 e 5 possuem átomo de hidrogênio disponível para a formação do ácido acético. A substância 4 é a única que não possui átomo de hidrogênio ligado a átomo de O ou N, e não formará ácido acético. Portanto, é a substância de menor reatividade."
+      },
+      {
+        "id": "enem_enem2018_2dia_129_38",
+        "materia": "Química",
+        "assunto": "Tensoativos e degradação ambiental",
+        "banca": "INEP",
+        "ano": "2018",
+        "texto_auxiliar": "Tensoativos são compostos orgânicos que possuem comportamento anfifílico, isto é, possuem duas regiões, uma hidrofóbica e outra hidrofílica. O principal tensoativo aniônico sintético surgiu na década de 1940 e teve grande aceitação no mercado de detergentes em razão do melhor desempenho comparado ao do sabão. No entanto, o uso desse produto provocou grandes problemas ambientais, dentre eles a resistência à degradação biológica, por causa dos diversos carbonos terciários na cadeia que compõe a porção hidrofóbica desse tensoativo aniônico. As ramificações na cadeia dificultam sua degradação, levando à persistência no meio ambiente por longos períodos. Isso levou a sua substituição na maioria dos países por tensoativos biodegradáveis, ou seja, com cadeias alquílicas lineares. (PENTEADO, J. C. P.; EL SEOUD, O. A.; CARVALHO, L. R. F. [...]: uma abordagem ambiental e analítica. Química Nova, n. 5, 2006 (adaptado).)",
+        "enunciado": "Qual a fórmula estrutural do tensoativo persistente no ambiente mencionado no texto?",
+        "alternativas": {
+          "A": "[IMAGEM OMITIDA]",
+          "B": "[IMAGEM OMITIDA]",
+          "C": "[IMAGEM OMITIDA]",
+          "D": "[IMAGEM OMITIDA]",
+          "E": "[IMAGEM OMITIDA]"
+        },
+        "gabarito": "B",
+        "comentario": "A molécula de um agente tensoativo deve possuir uma cadeia hidrocarbônica apolar e uma extremidade (cauda) polar. O tensoativo persistente possui cadeia ramificada (carbonos terciários), dificultando a biodegradação. A alternativa B apresenta a estrutura com cadeia ramificada e grupo sulfonato (polar)."
+      },
+      {
+        "id": "enem_enem2018_2dia_135_44",
+        "materia": "Química",
+        "assunto": "Petróleo e Craqueamento",
+        "banca": "INEP",
+        "ano": 2018,
+        "texto_auxiliar": "O petróleo é uma fonte de energia de baixo custo e de larga utilização como matéria-prima para uma grande variedade de produtos. É um óleo formado de várias substâncias de origem orgânica, em sua maioria hidrocarbonetos de diferentes massas molares. São utilizadas técnicas de separação para obtenção dos componentes comercializáveis do petróleo. Além disso, para aumentar a quantidade de frações comercializáveis, otimizando o produto de origem fóssil, utiliza-se o processo de craqueamento.",
+        "enunciado": "O que ocorre nesse processo?",
+        "alternativas": {
+          "A": "Transformação das frações do petróleo em outras moléculas menores.",
+          "B": "Reação de óxido-redução com transferência de elétrons entre as moléculas.",
+          "C": "Solubilização das frações do petróleo com a utilização de diferentes solventes.",
+          "D": "Decantação das moléculas com diferentes massas molares pelo uso de centrífugas.",
+          "E": "Separação dos diferentes componentes do petróleo em função de suas temperaturas de ebulição."
+        },
+        "gabarito": "A",
+        "comentario": "A destilação fracionada do petróleo separa os hidrocarbonetos em frações gasosas, frações líquidas (gasolina, querosene, óleos) e frações sólidas (parafina), além dos resíduos sólidos. As frações de maior utilização são os gases (como o GLP) e a gasolina, frações essas que apresentam cadeias carbônicas pequenas. Para aumentar o rendimento no sentido de se obter moléculas com massas moleculares menores, faz-se o craqueamento. (Craqueamento é a quebra por aquecimento com catalisador de moléculas grandes para obter moléculas menores)."
+      },
+      {
+        "id": "enem_enem2019_2dia_98_7",
+        "materia": "Química",
+        "assunto": "Catálise",
+        "banca": "INEP",
+        "ano": 2019,
+        "texto_auxiliar": "O odor que permanece nas mãos após o contato com alho pode ser eliminado pela utilização de um “sabonete de aço inoxidável”, constituído de aço inox (74%), cromo e níquel. A principal vantagem desse “sabonete” é que ele não se desgasta com o uso. Considere que a principal substância responsável pelo odor de alho é a alicina (estrutura I) e que, para que o odor seja eliminado, ela seja transformada na estrutura II.",
+        "enunciado": "Na conversão de I em II, o “sabonete” atuará como um",
+        "alternativas": {
+          "A": "ácido.",
+          "B": "redutor.",
+          "C": "eletrólito.",
+          "D": "tensoativo.",
+          "E": "catalisador."
+        },
+        "gabarito": "E",
+        "comentario": "Na conversão de I em II, o “sabonete” atuará como catalisador, pois ele não se desgasta com o uso, conforme é relatado na questão. Na transformação da estrutura I para a estrutura II, é necessário reagir a estrutura I com um redutor. Este não é o sabonete."
+      },
+      {
+        "id": "enem_enem2019_2dia_101_10",
+        "materia": "Química",
+        "assunto": "Corantes naturais e conjugação",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "A utilização de corantes na indústria de alimentos é bastante difundida e a escolha por corantes naturais vem sendo mais explorada por diversas razões. A seguir são mostradas três estruturas de corantes naturais. [IMAGEM OMITIDA]",
+        "enunciado": "A propriedade comum às estruturas que confere cor a esses compostos é a presença de",
+        "alternativas": {
+          "A": "cadeia conjugada.",
+          "B": "cadeia ramificada.",
+          "C": "átomos de carbonos terciários.",
+          "D": "ligações duplas de configuração cis.",
+          "E": "átomos de carbonos de hibridação sp3."
+        },
+        "gabarito": "A",
+        "comentario": "A propriedade que confere a capacidade de absorver a luz visível em diferentes comprimentos de onda, portanto, conferir cor aos compostos é a presença de duplas-ligações conjugadas."
+      },
+      {
+        "id": "enem_enem2019_2dia_119_28",
+        "materia": "Química",
+        "assunto": "Ligações Químicas",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "Por terem camada de valência completa, alta energia de ionização e afinidade eletrônica praticamente nula, considerou-se por muito tempo que os gases nobres não formariam compostos químicos. Porém, em 1962, foi realizada com sucesso a reação entre o xenônio (camada de valência 5s²5p⁶) e o hexafluoreto de platina e, desde então, mais compostos novos de gases nobres vêm sendo sintetizados. Tais compostos demonstram que não se pode aceitar acriticamente a regra do octeto, na qual se considera que, numa ligação química, os átomos tendem a adquirir estabilidade assumindo a configuração eletrônica de gás nobre. Dentre os compostos conhecidos, um dos mais estáveis é o difluoreto de xenônio, no qual dois átomos do halogênio flúor (camada de valência 2s²2p⁵) se ligam covalentemente ao átomo de gás nobre para ficarem com oito elétrons de valência.",
+        "enunciado": "Ao se escrever a fórmula de Lewis do composto de xenônio citado, quantos elétrons na camada de valência haverá no átomo do gás nobre?",
+        "alternativas": {
+          "A": "6",
+          "B": "8",
+          "C": "10",
+          "D": "12",
+          "E": "14"
+        },
+        "gabarito": "C",
+        "comentario": "Notação de Lewis: Difluoreto de xenônio: XeF2. Cada átomo de flúor deve ficar com oito elétrons na camada de valência. Xe ficará com dez elétrons na camada de valência."
+      },
+      {
+        "id": "enem_enem2019_2dia_123_32",
+        "materia": "Química",
+        "assunto": "Reações de oxirredução",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "Estudos mostram o desenvolvimento de biochips utilizados para auxiliar o diagnóstico de diabetes melito, doença evidenciada pelo excesso de glicose no organismo. O teste é simples e consiste em duas reações sequenciais na superfície do biochip, entre a amostra de soro sanguíneo do paciente, enzimas específicas e reagente (iodeto de potássio, KI), conforme mostrado na imagem. Após a adição de soro sanguíneo, o fluxo desloca-se espontaneamente da esquerda para a direita (ii) promovendo reações sequenciais, conforme as equações 1 e 2. Na primeira, há conversão de glicose do sangue em ácido glucônico, gerando peróxido de hidrogênio. Equação 1: C6H12O6(aq) + O2(g) + H2O(l) → C6H12O7(aq) + H2O2(aq). Na segunda, o peróxido de hidrogênio reage com íons iodeto gerando o íon tri-iodeto, água e oxigênio. Equação 2: 2H2O2(aq) + 3I–(aq) → I3–(aq) + 2H2O(l) + O2(g).",
+        "enunciado": "O tipo de reação que ocorre na superfície do biochip, nas duas reações do processo, é",
+        "alternativas": {
+          "A": "análise.",
+          "B": "síntese.",
+          "C": "oxirredução.",
+          "D": "complexação.",
+          "E": "ácido-base."
+        },
+        "gabarito": "C",
+        "comentario": "As duas reações são de oxidorredução, ou seja, ocorrem com variação de número de oxidação (Nox)."
+      },
+      {
+        "id": "enem_enem2019_2dia_127_36",
+        "materia": "Química",
+        "assunto": "Reações orgânicas - transesterificação",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "Uma das técnicas de reciclagem química do polímero PET [poli(tereftalato de etileno)] gera o tereftalato de metila e o etanodiol, conforme o esquema de reação, e ocorre por meio de uma reação de transesterificação.",
+        "enunciado": "O composto A, representado no esquema de reação, é o",
+        "alternativas": {
+          "A": "metano.",
+          "B": "metanol.",
+          "C": "éter metílico.",
+          "D": "ácido etanoico.",
+          "E": "anidrido etanoico."
+        },
+        "gabarito": "B",
+        "comentario": "Na reação de transesterificação, éster reage com álcool formando outro éster e outro álcool."
+      },
+      {
+        "id": "enem_enem2020_digital_2dia_95_4",
+        "materia": "Química",
+        "assunto": "Reações de oxirredução",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "O elemento ferro é essencial em nossa alimentação, pois ajuda a prevenir doenças como a anemia. Normalmente, na alimentação é ingerido na forma de Fe3+, sendo necessário o uso de agentes auxiliares de absorção, como o ácido ascórbico (vitamina C), cuja ação pode ser representada pelo esquema reacional a seguir.",
+        "enunciado": "A ação do ácido ascórbico ocorre por meio de uma reação de",
+        "alternativas": {
+          "A": "eliminação.",
+          "B": "substituição.",
+          "C": "oxirredução.",
+          "D": "neutralização.",
+          "E": "hidrogenação."
+        },
+        "gabarito": "C",
+        "comentario": "O Fe3+ é reduzido a Fe2+ e o ácido ascórbico é oxidado. É uma reação de oxidorredução."
+      },
+      {
+        "id": "enem_enem2020_digital_2dia_125_34",
+        "materia": "Química",
+        "assunto": "Ácidos e bases",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "A composição de um dos refrigerantes mais ácidos mundialmente consumido é mantida em segredo pelos seus produtores. Existe uma grande especulação em torno da “fórmula” dessa bebida, a qual envolve algumas das seguintes substâncias: [IMAGEM OMITIDA]",
+        "enunciado": "A substância presente nesse refrigerante, responsável pelo seu acentuado caráter ácido, é a",
+        "alternativas": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
+        },
+        "gabarito": "D",
+        "comentario": "A substância presente nesse refrigerante, responsável pelo seu acentuado caráter ácido, é o composto IV, o ácido fosfórico, de fórmula H3PO4. O composto I possui a função fenol, que possui caráter ácido, mas é um ácido muito fraco."
+      },
+      {
+        "id": "enem_enem2020_digital_2dia_135_44",
+        "materia": "Química",
+        "assunto": "Isomeria tautomérica",
+        "banca": "INEP",
+        "ano": 2020,
+        "texto_auxiliar": "Os feromônios de insetos são substâncias responsáveis pela comunicação química entre esses indivíduos. A extração de feromônios para uso agronômico no lugar de pesticidas convencionais geralmente é inviável, pois são encontrados em baixa concentração nas glândulas de armazenamento. Uma das formas de solucionar essa limitação é a síntese em laboratório dos próprios feromônios ou de isômeros que apresentem a mesma atividade. Suponha que o composto apresentado seja um feromônio natural e que seu tautômero seja um potencial substituto.",
+        "enunciado": "Com base na estrutura química desse feromônio, seu potencial substituto é representado pela substância:",
+        "alternativas": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": "E"
+        },
+        "gabarito": "C",
+        "comentario": "O isômero de um feromônio natural, que pode ser utilizado como seu potencial substituto é o seu tautômero."
+      },
+      {
+        "id": "enem_enem2021_2dia_94_3",
+        "materia": "Química",
+        "assunto": "Polímeros condutores",
+        "banca": "INEP",
+        "ano": 2021,
+        "texto_auxiliar": "O Prêmio Nobel de Química de 2000 deveu-se à descoberta e ao desenvolvimento de polímeros condutores. Esses materiais têm ampla aplicação em novos dispositivos eletroluminescentes (LEDs), células fotovoltaicas etc. Uma propriedade-chave de um polímero condutor é a presença de ligações duplas conjugadas ao longo da cadeia principal do polímero.\nROCHA FILHO. R C. Polímeros condutores: descoberta e aplicações. Química Nova na Escola. n. 12, 2000 (adaptado).",
+        "enunciado": "Um exemplo desse polímero é representado pela estrutura",
+        "alternativas": {
+          "A": "[IMAGEM OMITIDA]",
+          "B": "[IMAGEM OMITIDA]",
+          "C": "[IMAGEM OMITIDA]",
+          "D": "[IMAGEM OMITIDA]",
+          "E": "[IMAGEM OMITIDA]"
+        },
+        "gabarito": "D",
+        "comentario": "O polímero que possui duplas conjugadas (ligações duplas separadas por ligação simples) é o composto com a fórmula abaixo: Utilizando duas unidades, podemos observar as duplas conjugadas: Resposta: D"
+      },
+      {
+        "id": "enem_enem2021_2dia_98_7",
+        "materia": "Química",
+        "assunto": "Funções orgânicas: ésteres",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "Com o objetivo de proporcionar aroma e sabor a diversos alimentos, a indústria alimentícia se utiliza de flavorizantes. Em geral, essas substâncias são ésteres, como as apresentadas no quadro.",
+        "enunciado": "O aroma do flavorizante derivado do ácido etanoico e que apresenta cadeia carbônica saturada é de",
+        "alternativas": {
+          "A": "kiwi",
+          "B": "banana",
+          "C": "pêssego",
+          "D": "rum",
+          "E": "uva"
+        },
+        "gabarito": "B",
+        "comentario": "O aroma do flavorizante derivado do ácido etanoico (acético) e que apresenta cadeia carbônica saturada é o acetato de isoamila, que tem aroma de banana."
+      },
+      {
+        "id": "enem_enem2021_2dia_103_12",
+        "materia": "Química",
+        "assunto": "Isomeria",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "A icterícia, popularmente conhecida por amarelão, é uma patologia frequente em recém-nascidos. Um bebê com icterícia não consegue metabolizar e excretar de forma eficiente a bilirrubina. Com isso, o acúmulo dessa substância deixa-o com a pele amarelada. A fototerapia é um tratamento da icterícia neonatal, que consiste na irradiação de luz no bebê. Na presença de luz, a bilirrubina é convertida no seu isômero lumirrubina que, por ser mais solúvel em água, é excretada pela bile ou pela urina. A imagem ilustra o que ocorre nesse tratamento.\nMOREIRA. M. et al. O recém-nascido de alto risco : teoria e prática do cuidar [on-line]. Rio de Janeiro: Fiocruz, 2004 (adaptado).\nWANG. J. et al. Challenges of phototherapy for neonatal hyperbilirubinemia (Review). Experimental and Therapeutic Medicine . n. 21, 2021 (adaptado).",
+        "enunciado": "Na fototerapia, a luz provoca a conversão da bilirrubina no seu isômero",
+        "alternativas": {
+          "A": "ótico.",
+          "B": "funcional.",
+          "C": "de cadeia.",
+          "D": "de posição.",
+          "E": "geométrico."
+        },
+        "gabarito": "C",
+        "comentario": "A transformação da bilirrubina em lumirrubina (também chamada de ciclobilirrubina) é um caso de isomeria de cadeia. Observe que do lado esquerdo da fórmula ocorre fechamento da cadeia carbônica."
+      },
+      {
+        "id": "enem_enem2021_2dia_108_17",
+        "materia": "Química",
+        "assunto": "Reações ácido-base de Brönsted-Lowry",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "As águas subterrâneas têm sido contaminadas pelo uso de pesticidas na agricultura. Entre as várias substâncias usualmente encontradas, algumas são apresentadas na figura. A distinção dessas substâncias pode ser feita por meio de uma análise química qualitativa, ou seja, determinando sua presença mediante a adição de um reagente específico. O hidróxido de sódio é capaz de identificar a presença de um desses pesticidas pela reação ácido-base de Brönsted-Lowry.",
+        "enunciado": "O teste positivo será observado com o pesticida",
+        "alternativas": {
+          "A": "I.",
+          "B": "II.",
+          "C": "III.",
+          "D": "IV.",
+          "E": "V."
+        },
+        "gabarito": "C",
+        "comentario": "Identifica-se o pesticida usando NaOH por meio da reação ácido-base de Brönsted-Lowry. Logo, o pesticida deve apresentar caráter ácido. O pesticida III apresenta a função fenol, com caráter ácido."
+      },
+      {
+        "id": "enem_enem2021_2dia_131_40",
+        "materia": "Química",
+        "assunto": "Reações orgânicas - Saponificação",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "A simples atitude de não jogar direto no lixo ou no ralo da pia o óleo de cozinha usado pode contribuir para a redução da poluição ambiental. Mas o que fazer com o óleo vegetal que não será mais usado? Não existe um modelo ideal de descarte, mas uma alternativa simples tem sido reaproveitá-lo para fazer sabão. Para isso, são necessários, além do próprio óleo, água e soda cáustica. \nLOBO, I. Sabão feito com óleo de cozinha. Disponível em: http://pga.pgr.mpf.gov.br. Acesso em: 29 fev. 2012 (adaptado).",
+        "enunciado": "Com base no texto, a reação química que permite o reaproveitamento do óleo vegetal é denominada",
+        "alternativas": {
+          "A": "redução.",
+          "B": "epoxidação.",
+          "C": "substituição.",
+          "D": "esterificação.",
+          "E": "saponificação."
+        },
+        "gabarito": "E",
+        "comentario": "A reação entre um óleo (um triéster derivado de ácido graxo insaturado) com base forte é denominada de saponificação."
+      },
+      {
+        "id": "enem_enem2022-2_2dia_108_17",
+        "materia": "Química",
+        "assunto": "Reações Orgânicas",
+        "banca": "INEP",
+        "ano": 2022,
+        "texto_auxiliar": "A primeira relação entre câncer e produtos de combustão data de 1775, realizada na Inglaterra, na qual foi descrita a elevada incidência de câncer em jovens limpadores de chaminés, os quais tinham contato diário com fumaça e alcatrão. O benzopireno (I) foi o primeiro composto carcinogênico isolado do alcatrão. Esse hidrocarboneto aromático policíclico é convertido, por meio de uma biotransformação, no composto (II), que é o real causador do câncer.\nBARBOSA, L. C. A. Introdução à química orgânica. São Paulo: Pearson, 2010 (adaptado).",
+        "enunciado": "A biotransformação do composto (I) em (II) corresponde a uma reação de",
+        "alternativas": {
+          "A": "adição.",
+          "B": "oxidação.",
+          "C": "eliminação.",
+          "D": "substituição.",
+          "E": "hidrogenação."
+        },
+        "gabarito": "B",
+        "comentario": "A biotransformação do composto I em II corresponde a uma reação de oxidação (Nox do C aumentou)."
+      },
+      {
+        "id": "enem_enem2022-2_2dia_110_19",
+        "materia": "Química",
+        "assunto": "Reações orgânicas: fenol e base",
+        "banca": "INEP",
+        "ano": "2022",
+        "texto_auxiliar": "O timol é encontrado em óleos essenciais de ervas aromáticas, como o tomilho e o orégano. Apesar de pouco solúvel em água, o timol é solúvel em uma solução de hidróxido de sódio.",
+        "enunciado": "A dissolução desse composto em uma solução de hidróxido de sódio se deve ao(à)",
+        "alternativas": {
+          "A": "formação de um sal orgânico.",
+          "B": "ataque dos íons hidróxido ao anel aromático.",
+          "C": "complexação dos elétrons pi do anel aromático com o íon sódio.",
+          "D": "formação de ligações de hidrogênio entre a hidroxila fenólica do timol e os íons hidróxido.",
+          "E": "aumento da polaridade do solvente mediante a dissolução do hidróxido de sódio na água."
+        },
+        "gabarito": "A",
+        "comentario": "O timol é um fenol (OH ligado no núcleo benzênico) possuindo caráter ácido, portanto, reage com uma base (NaOH), formando um sal orgânico (fenolato de sódio)."
+      },
+      {
+        "id": "enem_enem2023-2_2dia_99_8",
+        "materia": "Química",
+        "assunto": "Ácidos e Bases",
+        "banca": "INEP",
+        "ano": 2023,
+        "texto_auxiliar": "O odor desagradável de peixe deve-se principalmente a compostos orgânicos que contêm um grupo amino (R—NH2), em que R representa um grupo alquil. Um chefe de cozinha experimental dispõe, em seu laboratório, de cinco soluções aquosas, dentre as quais deve escolher uma para eliminar o odor de peixe, por meio da neutralização do grupo amino. Suponha que a molécula responsável pelo odor é a metilamina (CH3NH2, Kb = 5,5 x 10–4). O quadro apresenta dados de acidez/basicidade de algumas espécies químicas. Considere: Ka = [H+][B–]/[HB] e Kb = [HB+][OH–]/[B].",
+        "enunciado": "Qual substância deve ser escolhida pelo chefe de cozinha?",
+        "alternativas": {
+          "A": "NaClO",
+          "B": "NaHCO3",
+          "C": "CH3COOH",
+          "D": "NaCl",
+          "E": "CH3CH2OH"
+        },
+        "gabarito": "C",
+        "comentario": "As aminas têm caráter básico, pois o nitrogênio tem um par de elétrons isolados capaz de receber um próton (H+), portanto, a substância escolhida para eliminar o odor desagradável deve ter caráter ácido. Na tabela fornecida o ácido etanoico tem maior acidez (maior Ka)."
+      },
+      {
+        "id": "enem_enem2023-2_2dia_120_29",
+        "materia": "Química",
+        "assunto": "Tensoativos e detergentes",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "Na formulação de detergentes sintéticos, são encontradas diversas substâncias que possuem ação específica. Entre essas substâncias, estão os tensoativos aniônicos, dos quais o dodecilbenzenossulfonato de sódio é o mais comum em detergentes para cozinha.",
+        "enunciado": "O dodecilbenzenossulfonato de sódio é um tensoativo em razão da presença",
+        "alternativas": {
+          "A": "do íon Na+ hidrofílico e pela porção sulfonato lipofílica.",
+          "B": "das porções sulfonato hidrofílica e dodecilbenzeno lipofílica.",
+          "C": "da porção benzenossulfonato, que possui característica lipofílica.",
+          "D": "do íon Na+, que possui tanto característica hidrofílica quanto lipofílica.",
+          "E": "do dodecilbenzeno, que possui tanto característica hidrofílica quanto lipofílica."
+        },
+        "gabarito": "B",
+        "comentario": "A fórmula do dodecilbenzenossulfonato de sódio é: ... Resposta: B"
+      },
+      {
+        "id": "enem_enem2023-2_2dia_131_40",
+        "materia": "Química",
+        "assunto": "Reações orgânicas",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "Lentes fotocrômicas escurecem em ambientes externos com alta incidência de luz ultravioleta (UV A), conforme ilustrado. Uma vez na sombra, as lentes se tomam claras novamente. Em lentes fotocrômicas de plástico, são utilizados corantes orgânicos pertencentes à família dos indeno-naftopiranos. Quando o corante fotocrômico (Estrutura 1) é exposto à alta incidência de radiação UV A, uma ligação química é quebrada. A molécula então se rearranja, transformando-se em uma espécie que absorve radiação de comprimento de onda maior (Estrutura 2), fazendo com que a lente escureça.",
+        "enunciado": "O escurecimento desse tipo de lente ocorre porque as moléculas de indenonaftopirano",
+        "alternativas": {
+          "A": "polimerizam, pela alta incidência de radicais.",
+          "B": "tautomerizam, pela reação no grupo enol.",
+          "C": "polarizam a luz, pela alta energia da luz UV A absorvida.",
+          "D": "oxidam, pela conversão do grupo éter em uma carbonila.",
+          "E": "dispersam a luz, pela ampliação do tamanho da molécula."
+        },
+        "gabarito": "D",
+        "comentario": "O escurecimento desse tipo de lente ocorre porque as moléculas de indenonaftopirano oxidam-se pela conversão do grupo éter em uma carbonila devido à quebra de uma ligação."
+      },
+      {
+        "id": "enem_enem2023-2_2dia_133_42",
+        "materia": "Química",
+        "assunto": "Hidrocarbonetos e organoclorados",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "Lavar a seco significa lavar por meio de fluido ou solvente não aquoso, isto é, trata-se de um processo que limpa sem utilizar a água. Dessa forma, apesar de o nome ser lavagem a seco, o processo deixa o que está sendo lavado molhado pelo solvente utilizado, o qual poderá ser facilmente evaporado ao final do processo. Entre 1850 e 1940, foram empregados na lavagem a seco alguns hidrocarbonetos e organoclorados líquidos, como os que estão representados a seguir, entre os quais apenas um se mostrou seguro por não ser inflamável, em função da sua menor quantidade de ligações C—H.",
+        "enunciado": "Pela análise das estruturas químicas, o solvente que se mostrou seguro é o",
+        "alternativas": {
+          "A": "hexano.",
+          "B": "canfeno.",
+          "C": "benzeno.",
+          "D": "iso-octano.",
+          "E": "tricloroetileno."
+        },
+        "gabarito": "E",
+        "comentario": "O solvente que apresenta menor quantidade de ligações C—H é o tricloroetileno."
+      },
+      {
+        "id": "enem_enem2017_2dia_114_23",
+        "materia": "Química",
+        "assunto": "Funções orgânicas",
+        "banca": "INEP",
+        "ano": "2017",
+        "texto_auxiliar": "O biodiesel é um biocombustível obtido a partir de fontes renováveis, que surgiu como alternativa ao uso do diesel de petróleo para motores de combustão interna. Ele pode ser obtido pela reação entre triglicerídeos, presentes em óleos vegetais e gorduras animais, entre outros, e álcoois de baixa massa molar, como o metanol ou etanol, na presença de um catalisador, de acordo com a equação química: [IMAGEM OMITIDA]",
+        "enunciado": "A função química presente no produto que representa o biodiesel é",
+        "alternativas": {
+          "A": "éter.",
+          "B": "éster.",
+          "C": "álcool.",
+          "D": "cetona.",
+          "E": "ácido carboxílico."
+        },
+        "gabarito": "B",
+        "comentario": "O biodiesel é obtido a partir da reação de triglicerídeos e álcoois. A função química presente no biodiesel é éster."
+      },
+      {
+        "id": "enem_enem2017_2dia_119_28",
+        "materia": "Química",
+        "assunto": "Equilíbrio ácido-base e extração",
+        "banca": "INEP",
+        "ano": 2017,
+        "texto_auxiliar": "Diversos produtos naturais podem ser obtidos de plantas por processo de extração. O lapachol é da classe das naftoquinonas. Sua estrutura apresenta uma hidroxila enólica (pKa = 6,0) que permite que este composto seja isolado da serragem dos ipês por extração com solução adequada, seguida de filtração simples. Considere que pKa = –log Ka, em que Ka é a constante ácida da reação de ionização do lapachol.\nCOSTA. P. R. R. et al. Ácidos e bases em química orgânica. Porto Alegre: Bookman, 2005 (adaptado).",
+        "enunciado": "Qual solução deve ser usada para extração do lapachol da serragem do ipê com maior eficiência?",
+        "alternativas": {
+          "A": "Solução de Na2CO3 para formar um sal de lapachol.",
+          "B": "Solução-tampão ácido acético/acetato de sódio (pH = 4,5).",
+          "C": "Solução de NaCl a fim de aumentar a força iônica do meio.",
+          "D": "Solução de Na2SO4 para formar um par iônico com lapachol.",
+          "E": "Solução de HCl a fim de extraí-lo por meio de reação ácido-base."
+        },
+        "gabarito": "A",
+        "comentario": "Devido ao caráter ácido do lapachol, pode-se utilizar uma solução de Na2CO3, que possui caráter básico, gerando a forma desprotonada do lapachol, mais solúvel em água. Assim, aumenta-se a eficiência da extração. A hidrólise do carbonato de sódio produz meio básico. CO3^2- + HOH → HCO3- + OH-; o íon OH- retira H+ do enol."
+      },
+      {
+        "id": "enem_enem2017_2dia_134_43",
+        "materia": "Química",
+        "assunto": "Ozonólise de alcenos",
+        "banca": "INEP",
+        "ano": "2017",
+        "texto_auxiliar": "A ozonólise, reação utilizada na indústria madeireira para a produção de papel, é também utilizada em escala de laboratório na síntese de aldeídos e cetonas. As duplas ligações dos alcenos são clivadas pela oxidação com o ozônio (O3), em presença de água e zinco metálico, e a reação produz aldeídos e/ou cetonas, dependendo do grau de substituição da ligação dupla. Ligações duplas dissubstituídas geram cetonas, enquanto as ligações duplas terminais ou monossubstituídas dão origem a aldeídos, como mostra o esquema. Considere a ozonólise do composto 1-fenil-2-metilprop-1-eno:",
+        "enunciado": "Quais são os produtos formados nessa reação?",
+        "alternativas": {
+          "A": "Benzaldeído e propanona.",
+          "B": "Propanal e benzaldeído.",
+          "C": "2-fenil-etanal e metanal.",
+          "D": "Benzeno e propanona.",
+          "E": "Benzaldeído e etanal."
+        },
+        "gabarito": "A",
+        "comentario": "A ozonólise do composto 1-fenil-2-metilprop-1-eno produz benzaldeído e propanona, segundo a equação: 1-fenil-2-metilprop-1-eno + O3, H2O, Zn → Benzaldeído + Propanona."
+      },
+      {
+        "id": "enem_enem2016-2_1dia_69_68",
+        "materia": "Química",
+        "assunto": "Transformações Químicas e Físicas",
+        "banca": "INEP",
+        "ano": "2016",
+        "texto_auxiliar": "Algumas práticas agrícolas fazem uso de queimadas, apesar de produzirem grandes efeitos negativos. Por exemplo, quando ocorre a queima da palha de cana-de-açúcar, utilizada na produção de etanol, há emissão de poluentes como CO2, SOX, NOX e materiais particulados (MP) para a atmosfera. Assim, a produção de biocombustíveis pode, muitas vezes, ser acompanhada da emissão de vários poluentes.",
+        "enunciado": "Considerando a obtenção e o consumo desse biocombustível, há transformação química quando",
+        "alternativas": {
+          "A": "o etanol é armazenado em tanques de aço inoxidável.",
+          "B": "a palha de cana-de-açúcar é exposta ao sol para secagem.",
+          "C": "a palha da cana e o etanol são usados como fonte de energia.",
+          "D": "os poluentes SOX, NOX e MP são mantidos intactos e dispersos na atmosfera.",
+          "E": "os materiais particulados (MP) são espalhados no ar e sofrem deposição seca."
+        },
+        "gabarito": "C",
+        "comentario": "A combustão da palha da cana e do etanol libera calor (reação exotérmica), portanto, é uma transformação química produzindo gás carbônico e água. As demais alternativas representam transformações físicas, pois não ocorrem formações de novos tipos de materiais."
+      },
+      {
+        "id": "enem_enem2015_1dia_62_61",
+        "materia": "Química",
+        "assunto": "Eletroquímica",
+        "banca": "INEP",
+        "ano": "2015",
+        "texto_auxiliar": "A calda bordalesa é uma alternativa empregada no combate a doenças que afetam folhas de plantas. Sua produção consiste na mistura de uma solução aquosa de sulfato de cobre(II), CuSO4, com óxido de cálcio, CaO, e sua aplicação só deve ser realizada se estiver levemente básica. A avaliação rudimentar da basicidade dessa solução é realizada pela adição de três gotas sobre uma faca de ferro limpa. Após três minutos, caso surja uma mancha avermelhada no local da aplicação, afirma-se que a calda bordalesa ainda não está com a basicidade necessária. O quadro apresenta os valores de potenciais padrão de redução (E0) para algumas semirreações de redução.",
+        "enunciado": "A equação química que representa a reação de formação da mancha avermelhada é:",
+        "alternativas": {
+          "A": "Ca2+(aq) + 2 Cu+(aq) → Ca(s) + 2 Cu2+(aq).",
+          "B": "Ca2+(aq) + 2 Fe2+(aq) → Ca(s) + 2 Fe3+(aq).",
+          "C": "Cu2+(aq) + 2 Fe2+(aq) → Cu(s) + 2 Fe3+(aq).",
+          "D": "3 Ca2+(aq) + 2 Fe(s) → 3 Ca(s) + 2 Fe3+(aq).",
+          "E": "3 Cu2+(aq) + 2 Fe(s) → 3 Cu(s) + 2 Fe3+(aq)."
+        },
+        "gabarito": "E",
+        "comentario": "A calda bordalesa é uma mistura aquosa de sulfato de cobre (II) com óxido de cálcio. O óxido de cálcio é um óxido básico produzindo hidróxido de cálcio em meio aquoso. CaO + H2O → Ca(OH)2. Para avaliar a basicidade dessa solução adicionam-se três gotas sobre uma faca de ferro limpa. O aparecimento de uma mancha avermelhada no local de aplicação na faca indica que a calda bordalesa ainda não está com a basicidade necessária. A equação química que representa a reação de formação da mancha avermelhada é: 3 Cu2+(aq) + 2 Fe(s) → 3 Cu(s) + 2 Fe3+(aq). É a única reação espontânea fornecida nas alternativas, pois a diferença de potencial é maior que zero. ΔE0 = E0maior – E0menor. ΔE0 = +0,34 V – (–0,04 V) = +0,38 V."
+      },
+      {
+        "id": "enem_enem2015_1dia_65_64",
+        "materia": "Química",
+        "assunto": "Eletrólise e Reações Orgânicas",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "Hidrocarbonetos podem ser obtidos em laboratório por descarboxilação oxidativa anódica, processo conhecido como eletrossíntese de Kolbe. Essa reação é utilizada na síntese de hidrocarbonetos diversos, a partir de óleos vegetais, os quais podem ser empregados como fontes alternativas de energia, em substituição aos hidrocarbonetos fósseis. O esquema ilustra simplificadamente esse processo. [IMAGEM OMITIDA]",
+        "enunciado": "Com base nesse processo, o hidrocarboneto produzido na eletrólise do ácido 3,3-dimetil-butanoico é o",
+        "alternativas": {
+          "A": "2,2,7,7-tetrametil-octano.",
+          "B": "3,3,4,4-tetrametil-hexano.",
+          "C": "2,2,5,5-tetrametil-hexano.",
+          "D": "3,3,6,6-tetrametil-octano.",
+          "E": "2,2,4,4-tetrametil-hexano."
+        },
+        "gabarito": "C",
+        "comentario": "Hidrocarbonetos podem ser obtidos por descarboxilação oxidativa anódica, segundo a reação: Com base nesse processo, o hidrocarboneto produzido na eletrólise do ácido 3,3 – dimetilbutanoico é: Resposta: CC"
+      },
+      {
+        "id": "enem_enem2015_1dia_68_67",
+        "materia": "Química",
+        "assunto": "Solubilidade e polaridade",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "Pesticidas são substâncias utilizadas para promover o controle de pragas. No entanto, após sua aplicação em ambientes abertos, alguns pesticidas organoclorados são arrastados pela água até lagos e rios e, ao passar pelas guelras dos peixes, podem difundir-se para seus tecidos lipídicos e lá se acumularem.",
+        "enunciado": "A característica desses compostos, responsável pelo processo descrito no texto, é o(a)",
+        "alternativas": {
+          "A": "baixa polaridade.",
+          "B": "baixa massa molecular.",
+          "C": "ocorrência de halogênios.",
+          "D": "tamanho pequeno das moléculas.",
+          "E": "presença de hidroxilas nas cadeias."
+        },
+        "gabarito": "A",
+        "comentario": "A característica desses compostos, responsável pelo processo descrito no texto, é a baixa polaridade, por isso esses compostos se dissolvem nos tecidos lipídicos (apolares) dos peixes."
+      },
+      {
+        "id": "enem_enem2015_1dia_85_84",
+        "materia": "Química",
+        "assunto": "Funções orgânicas",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "Uma forma de organização de um sistema biológico é a presença de sinais diversos utilizados pelos indivíduos para se comunicarem. No caso das abelhas da espécie Apis mellifera, os sinais utilizados podem ser feromônios. Para saírem e voltarem de suas colmeias, usam um feromônio que indica a trilha percorrida por elas (Composto A). Quando pressentem o perigo, expelem um feromônio de alarme (Composto B), que serve de sinal para um combate coletivo. O que diferencia cada um desses sinais utilizados pelas abelhas são as estruturas e funções orgânicas dos feromônios. QUADROS, A. L. Os feromônios e o ensino de química. Química Nova na Escola, n. 7, maio 1998 (adaptado).",
+        "enunciado": "As funções orgânicas que caracterizam os feromônios de trilha e de alarme são, respectivamente,",
+        "alternativas": {
+          "A": "álcool e éster.",
+          "B": "aldeído e cetona.",
+          "C": "éter e hidrocarboneto.",
+          "D": "enol e ácido carboxílico.",
+          "E": "ácido carboxílico e amida."
+        },
+        "gabarito": "A",
+        "comentario": "A função orgânica que caracteriza o feromônio que indica a trilha percorrida pelas abelhas (composto A) é álcool (CH2OH). A função orgânica que caracteriza o feromônio de alarme (composto B) é éster (CH3COOCH2CH(CH3)2). Portanto, as funções são álcool e éster."
+      },
+      {
+        "id": "enem_enem2015_1dia_86_85",
+        "materia": "Química",
+        "assunto": "Oxidação de alcenos",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "O permanganato de potássio (KMnO4) é um agente oxidante forte muito empregado tanto em nível laboratorial quanto industrial. Na oxidação de alcenos de cadeia normal, como o 1-fenil-1-propeno, ilustrado na figura, o KMnO4 é utilizado para a produção de ácidos carboxílicos.",
+        "enunciado": "Os produtos obtidos na oxidação do alceno representado, em solução aquosa de KMnO4, são:",
+        "alternativas": {
+          "A": "Ácido benzoico e ácido etanoico.",
+          "B": "Ácido benzoico e ácido propanoico.",
+          "C": "Ácido etanoico e ácido 2-feniletanoico.",
+          "D": "Ácido 2-feniletanoico e ácido metanoico.",
+          "E": "Ácido 2-feniletanoico e ácido propanoico."
+        },
+        "gabarito": "A",
+        "comentario": "A oxidação do 1-fenil-1-propeno com KMnO4 produz ácido benzoico e ácido etanoico."
+      }
+    ]
+  },
+  "Meio Ambiente E Química Verde": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Ciclos biogeoquímicos, fertilidade do solo e balanço de nutrientes",
+        "ids_questoes": [
+          "enem_enem2018_2dia_104_13",
+          "enem_enem2018_2dia_132_41",
+          "enem_enem2022-2_2dia_132_41",
+          "enem_enem2023-2_2dia_128_37",
+          "enem_enem2023-2_2dia_134_43",
+          "enem_enem2016-2_1dia_48_47"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "O INEP mistura química do solo com linguagem ambiental ampla para induzir resposta literal. O candidato costuma errar ao confundir correção de pH com adubação, neutralização com diluição, ou ao não perceber que a questão pede efeito químico indireto no solo/água (alcalinização, redução de acidez, disponibilidade de nutrientes), e não apenas o nome da substância."
+      },
+      {
+        "nome_microtema": "Estequiometria ambiental e comparação de emissões/impacto por unidade de energia",
+        "ids_questoes": [
+          "enem_enem2020_digital_2dia_102_11",
+          "enem_enem2022-2_2dia_121_30"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "A banca costuma esconder a comparação em dados numéricos e exigir leitura proporcional: o erro típico é comparar valores absolutos sem relacionar emissão, energia liberada e unidade pedida. Distratores exploram cálculo apressado, regra de três mal aplicada e confusão entre maior energia total e melhor desempenho ambiental."
+      },
+      {
+        "nome_microtema": "Reciclagem, tratamento de resíduos e separação de processos físicos/químicos",
+        "ids_questoes": [
+          "enem_enem2020_digital_2dia_124_33",
+          "enem_enem2016-2_1dia_55_54",
+          "enem_enem2015_2dia_150_59"
+        ],
+        "peso_percentual": 16,
+        "armadilha_favorita": "O INEP mistura etapas industriais e de tratamento ambiental para testar classificação de processos. A armadilha é confundir operação mecânica/física com transformação química, ou interpretar gráficos e fluxos de reciclagem sem identificar a etapa realmente cobrada. Também é comum o distrator explorar soluções aparentemente 'simples' como fervura, evaporação ou lavagem, que não removem o contaminante ou não correspondem ao processo industrial pedido."
+      },
+      {
+        "nome_microtema": "Química de ácidos, bases e neutralização aplicada ao ambiente",
+        "ids_questoes": [
+          "enem_enem2020_digital_2dia_127_36",
+          "enem_enem2022-2_2dia_132_41",
+          "enem_enem2023-2_2dia_128_37",
+          "enem_enem2023-2_2dia_134_43",
+          "enem_enem2018_2dia_132_41",
+          "enem_enem2016-2_1dia_48_47"
+        ],
+        "peso_percentual": 22,
+        "armadilha_favorita": "A banca explora o reconhecimento de espécies ácidas, básicas e sais sem exigir memorização isolada, mas sim inferência sobre o efeito no meio. O candidato pode cair em distratores que parecem 'químicos corretos' porém não resolvem o problema ambiental, como sais neutros, bases fortes demais, ou substâncias que não liberam OH−/não neutralizam H3O+."
+      },
+      {
+        "nome_microtema": "Toxicologia ambiental, persistência e bioacumulação de poluentes",
+        "ids_questoes": [
+          "enem_enem2021_2dia_129_38",
+          "enem_enem2016-2_1dia_49_48",
+          "enem_enem2022-2_2dia_91_0",
+          "enem_enem2015_1dia_72_71"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "O INEP costuma associar toxicidade à persistência e ao risco de exposição, mas troca o foco entre efeito químico, físico e biológico. O erro frequente é achar que o problema é apenas 'presença de lixo' ou 'alteração visual', quando a questão cobra dano cumulativo, radiação, corrosão ou contaminação por compostos tóxicos. Distratores apelam para soluções inadequadas como aquecimento, evaporação ou simples armazenamento."
+      },
+      {
+        "nome_microtema": "Química verde e escolha de rotas/processos menos impactantes",
+        "ids_questoes": [
+          "enem_enem2015_1dia_79_78"
+        ],
+        "peso_percentual": 0,
+        "armadilha_favorita": "A banca cobra leitura de rota sintética e identificação de princípio de química verde, mas o candidato pode focar apenas no produto final e ignorar o processo. A armadilha é confundir 'verde' com rendimento, pureza ou ausência de metais sem considerar redução de etapas, menor consumo de reagentes e menor geração de resíduos."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio, gráficos, tabelas e situações socioambientais; privilegia interpretação de fenômenos químicos em problemas reais, com leitura de dados e tomada de decisão ambiental",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "conclui-se que",
+        "qual fator contribui",
+        "qual substância deve ser adicionada",
+        "a solução recomendável",
+        "visando a redução do impacto ambiental"
+      ]
+    },
+    "total_questoes_analisadas": 17,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2018_2dia_104_13",
+        "materia": "Química",
+        "assunto": "Ciclo do nitrogênio e síntese de amônia",
+        "banca": "INEP",
+        "ano": 2018,
+        "texto_auxiliar": "O alemão Fritz Haber recebeu o Prêmio Nobel de química de 1918 pelo desenvolvimento de um processo viável para a síntese da amônia (NH3). Em seu discurso de premiação, Haber justificou a importância do feito dizendo que: “Desde a metade do século passado, tornou-se conhecido que um suprimento de nitrogênio é uma necessidade básica para o aumento das safras de alimentos; entretanto, também se sabia que as plantas não podem absorver o nitrogênio em sua forma simples, que é o principal constituinte da atmosfera. Elas precisam que o nitrogênio seja combinado [...] para poderem assimilá-lo. Economias agrícolas basicamente mantêm o balanço do nitrogênio ligado. No entanto, com o advento da era industrial, os produtos do solo são levados de onde cresce a colheita para lugares distantes, onde são consumidos, fazendo com que o nitrogênio ligado não retorne à terra da qual foi retirado. Isso tem gerado a necessidade econômica mundial de abastecer o solo com nitrogênio ligado. [...] A demanda por nitrogênio, tal como a do carvão, indica quão diferente nosso modo de vida se tornou com relação ao das pessoas que, com seus próprios corpos, fertilizam o solo que cultivam. Desde a metade do último século, nós vínhamos aproveitando o suprimento de nitrogênio do salitre que a natureza tinha depositado nos desertos montanhosos do Chile. Comparando o rápido crescimento da demanda com a extensão calculada desses depósitos, ficou claro que em meados do século atual uma emergência seríssima seria inevitável, a menos que a química encontrasse uma saída.” HABER, F. The Synthesis of Ammonia from its Elements. Disponível em: www.nobelprize.org. Acesso em: 13 jul. 2013 (adaptado).",
+        "enunciado": "De acordo com os argumentos de Haber, qual fenômeno teria provocado o desequilíbrio no “balanço do nitrogênio ligado”?",
+        "alternativas": {
+          "A": "O esgotamento das reservas de salitre no Chile.",
+          "B": "O aumento da exploração de carvão vegetal e carvão mineral.",
+          "C": "A redução da fertilidade do solo nas economias agrícolas.",
+          "D": "A intensificação no fluxo de pessoas do campo para as cidades.",
+          "E": "A necessidade das plantas de absorverem sais de nitrogênio disponíveis no solo."
+        },
+        "gabarito": "D",
+        "comentario": "Segundo os argumentos apresentados pelo autor, o fato de os produtos do solo serem levados do local de plantio para o consumo em locais distantes causa o desequilíbrio do nitrogênio ligado; isto porque o fluxo de pessoas do campo para a cidade leva a um consumo maior de produtos campestres nas cidades, interferindo na ciclagem do nitrogênio na zona rural."
+      },
+      {
+        "id": "enem_enem2018_2dia_132_41",
+        "materia": "Química",
+        "assunto": "Química do solo, pH e alcalinidade",
+        "banca": "INEP",
+        "ano": 2018,
+        "texto_auxiliar": "O manejo adequado do solo possibilita a manutenção de sua fertilidade à medida que as trocas de nutrientes entre matéria orgânica, água, solo e o ar são mantidas para garantir a produção. Algumas espécies iônicas de alumínio são tóxicas, não só para a planta, mas para muitos organismos como as bactérias responsáveis pelas transformações no ciclo do nitrogênio. O alumínio danifica as membranas das células das raízes e restringe a expansão de suas paredes, com isso, a planta não cresce adequadamente. Para promover benefícios para a produção agrícola, é recomendada a remediação do solo utilizando calcário (CaCO3). BRADY , N. C.; WEIL, R. R. Elementos da natureza e propriedades dos solos . Porto alegre: Bookman, 2013 (adaptado).",
+        "enunciado": "Essa remediação promove no solo o(a)",
+        "alternativas": {
+          "A": "diminuição do pH, deixando-o fértil.",
+          "B": "solubilização do alumínio, ocorrendo sua lixiviação pela chuva.",
+          "C": "interação do íon cálcio com o íon alumínio, produzindo uma liga metálica.",
+          "D": "reação do carbonato de cálcio com os íons alumínio, formando alumínio metálico.",
+          "E": "aumento da sua alcalinidade, tornando os íons alumínio menos disponíveis."
+        },
+        "gabarito": "E",
+        "comentario": "O uso do CaCO3 no solo é para neutralizar os íons H+ provenientes da hidrólise do cátion alumínio. Haverá aumento do pH do solo, ocorrendo formação do precipitado Al(OH)3, e não teremos interação do íon cálcio com o íon alumínio."
+      },
+      {
+        "id": "enem_enem2020_digital_2dia_102_11",
+        "materia": "Química",
+        "assunto": "Estequiometria",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "A combustão completa de combustíveis fósseis produz água e dióxido de carbono (CO2, massa molar 44 g mol−1). A União Europeia estabeleceu, desde 2012, limite de emissão veicular de 130 g de CO2 por quilômetro rodado (valor aplicável a uma média de veículos de um mesmo fabricante), tendo como penalidade multa, caso o fabricante ultrapasse a meta. A gasolina é uma mistura de hidrocarbonetos com cerca de oito carbonos em sua composição, incluindo isômeros do octano (C8H18). Considere que em uma cidade o consumo médio diário dos carros de um fabricante seja de 10 km L−1 de gasolina, formada apenas por octano (massa molar 114 g mol−1) e que sua densidade seja 0,70 kg L−1.",
+        "enunciado": "A diferença de emissão de CO2 dos carros desse fabricante em relação ao limite estabelecido na União Europeia é",
+        "alternativas": {
+          "A": "80% menor.",
+          "B": "60% menor.",
+          "C": "46% menor.",
+          "D": "108% maior.",
+          "E": "66% maior."
+        },
+        "gabarito": "E",
+        "comentario": "Consumo médio diário: 10 km . L–1. Densidade: 0,70 kg . L–1. 10 km –––––– 0,70kg; 1 km –––––– x = 0,07 kg ∴ 70g. Para rodar 1 km, são necessários 70 g de gasolina: C8H18 + 25/2 O2 → 8 CO2 + 9 H2O. 1 mol (114g) ––––––– 8 mol (8.44g); 70g ––––––– x → x = 216,14g de CO2. Limite dado pela União Europeia = 130g de CO2 para rodar 1 km: 130g de CO2 –––– 100%; (216,14 – 130)g de CO2 –––– z → z = 66%. A emissão de CO2 é 66% maior."
+      },
+      {
+        "id": "enem_enem2020_digital_2dia_124_33",
+        "materia": "Química",
+        "assunto": "Polímeros e Reciclagem",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "Entre os materiais mais usados no nosso dia a dia destacam-se os plásticos, constituídos por polímeros. A consequência de seu amplo uso é a geração de resíduos, que necessitam de um destino final adequado em termos ambientais. Uma das alternativas tem sido a reciclagem, que deve respeitar as características dos polímeros que compõem o material. Esse processo envolve algumas etapas, como: separação do resíduo (catação), moagem, hidrólise, lavagem, secagem, pirólise e aquecimento (fusão).\nSPINACÉ, M. A. S., PAOLI, M. A. D. Tecnologia de reciclagem de polímeros. Química Nova, n.1, 2005 (adaptado).",
+        "enunciado": "Quais das etapas citadas do processo de reciclagem são classificadas como métodos químicos?",
+        "alternativas": {
+          "A": "Hidrólise e pirólise",
+          "B": "Secagem e pirólise",
+          "C": "Moagem e lavagem",
+          "D": "Separação e hidrólise",
+          "E": "Secagem e aquecimento"
+        },
+        "gabarito": "A",
+        "comentario": "Num processo físico, não ocorre alteração da natureza do material (exemplos: catação, moagem, lavagem, secagem e fusão). Num processo químico, ocorre transformação do material em outras substâncias. São processos químicos: 1) hidrólise (quebra de moléculas pela ação da água). 2) pirólise (quebra de moléculas por aquecimento)."
+      },
+      {
+        "id": "enem_enem2020_digital_2dia_127_36",
+        "materia": "Química",
+        "assunto": "Hidrólise de sais e pH",
+        "banca": "INEP",
+        "ano": 2020,
+        "texto_auxiliar": "Reflorestamento é uma ação ambiental que visa repovoar áreas que tiveram a vegetação removida. Uma empresa deseja fazer um replantio de árvores e dispõe de cinco produtos que podem ser utilizados para corrigir o pH do solo que se encontra básico. As substâncias presentes nos produtos disponíveis são: CH3COONa, NH4Cl, NaBr, NaOH e KCl.",
+        "enunciado": "A substância a ser adicionada ao solo para neutralizá-lo é",
+        "alternativas": {
+          "A": "CH3COONa",
+          "B": "NH4Cl",
+          "C": "NaBr",
+          "D": "NaOH",
+          "E": "KCl"
+        },
+        "gabarito": "B",
+        "comentario": "Se o pH do solo é básico, para neutralizá-lo, devemos adicionar uma substância de caráter ácido. CH3COONa é sal de ácido fraco e base forte (sofre hidrólise provocando um meio básico). NH4Cl é sal de ácido forte e base fraca (sofre hidrólise produzindo um meio ácido). NaBr e KCl são sais de caráter neutro que não sofrem hidrólise. NaOH é uma base forte."
+      },
+      {
+        "id": "enem_enem2021_2dia_129_38",
+        "materia": "Química",
+        "assunto": "Radioatividade / Meia-vida",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Os pesticidas organoclorados foram amplamente empregados na agricultura, contudo, em razão das suas elevadas toxicidades e persistências no meio ambiente, eles foram banidos. Considere a aplicação de 500 g de um pesticida organoclorado em uma cultura e que, em certas condições, o tempo de meia-vida do pesticida no solo seja de 5 anos. A massa do pesticida no decorrer de 35 anos será mais próxima de",
+        "alternativas": {
+          "A": "3,9 g.",
+          "B": "31,2 g.",
+          "C": "62,5 g.",
+          "D": "125,0 g.",
+          "E": "250,0 g."
+        },
+        "gabarito": "A",
+        "comentario": "Meia-vida é o tempo necessário para que metade da amostra do pesticida seja transformada. Partindo de 500 g do pesticida de meia-vida de 5 anos, após 35 anos, terão ocorrido 7 meias-vidas. 500 g → 250 g → 125 g → 62,5 g → 31,25 g → 15,625 g → 7,8125 g → 3,90625 g. Após 35 anos a massa do pesticida está mais próxima de 3,9 g."
+      },
+      {
+        "id": "enem_enem2022-2_2dia_91_0",
+        "materia": "Química",
+        "assunto": "Poluição e tratamento de efluentes",
+        "banca": "INEP",
+        "ano": 2022,
+        "texto_auxiliar": "O fenol (hidroxi-benzeno) e vários de seus derivados são compostos tóxicos presentes na lista de poluentes prioritários da Agência de Proteção Ambiental norte-americana, totalizando 11 fenóis das 129 substâncias presentes na lista. No Brasil, a Resolução Federal (Conama) n. 20, de 1986, limitava o teor máximo de fenóis, para lançamento em corpos de água doce, em 0,5 ppm. Resolução Conama n. 20, de 18 de junho de 1986. Diário Oficial da União, de 30 jul. 1986 (adaptado).",
+        "enunciado": "A solução recomendável para o descarte de efluentes industriais contendo fenol é",
+        "alternativas": {
+          "A": "incinerar o efluente.",
+          "B": "aquecer a mistura para evaporar o fenol.",
+          "C": "armazenar o rejeito em piscinas de contenção.",
+          "D": "extrair e reinserir o produto na linha de produção.",
+          "E": "adicionar água suficiente para permitir o despejo nos rios."
+        },
+        "gabarito": "D",
+        "comentario": "O fenol é um composto tóxico, deve ser extraído antes de ser lançado em corpos de água doce e depois introduzido na linha de produção."
+      },
+      {
+        "id": "enem_enem2022-2_2dia_121_30",
+        "materia": "Química",
+        "assunto": "Termoquímica",
+        "banca": "INEP",
+        "ano": "2022",
+        "texto_auxiliar": "Os combustíveis são materiais utilizados na produção de energia que, dependendo da sua composição, podem produzir diferentes substâncias. Por exemplo, numa queima completa, o hidrogênio se transforma em H2O; e o carbono, em CO2. O quadro apresenta as entalpias de combustão de alguns combustíveis nas condições padrão. ATKINS, P.; JONES, L.; LA VERMAN, L. Princípios de química : questionando a vida moderna e o meio ambiente. São Paulo: Bookman, 2018 (adaptado).",
+        "enunciado": "Visando a redução do impacto ambiental, qual dos combustíveis listados libera maior quantidade de energia com menor produção de CO2?",
+        "alternativas": {
+          "A": "Carbono.",
+          "B": "Etino.",
+          "C": "Propano.",
+          "D": "Butano.",
+          "E": "Octano."
+        },
+        "gabarito": "C",
+        "comentario": "1 mol de CO2, a menor produção. C → CO2 (1 mol) – 394 kJ; C2H2 → 2 CO2 (2 mol) – 1300 kJ, 1 CO2 – 650 kJ; C3H8 → 3 CO2 (3 mol) – 2200 kJ, 1 CO2 – 733,3 kJ (maior energia); C4H10 → 4 CO2 (4 mol) – 2878 kJ, 1 CO2 – 719,5 kJ; C8H18 → 8 CO2 (8 mol) – 5471 kJ, 1 CO2 – 683,9 kJ. O propano libera a maior quantidade de energia por mol de CO2 produzido."
+      },
+      {
+        "id": "enem_enem2022-2_2dia_132_41",
+        "materia": "Química",
+        "assunto": "Reações de neutralização e pH do solo",
+        "banca": "INEP",
+        "ano": "2022",
+        "texto_auxiliar": "Solos ácidos apresentam baixo valor de pH, e o plantio de culturas nesse meio acarreta baixa produção agrícola. Entretanto, esse problema pode ser contornado adicionando-se substâncias que, ao entrarem em contato com a água, liberam íons OH−, que neutralizam os íons H3O+ presentes no solo e elevam o seu pH. Para esse objetivo, um agricultor tem comercialmente à disposição as espécies químicas enumeradas: I – KCl II – MgO III – NH4Br IV – AlCl3 V – P2O5",
+        "enunciado": "Para a correção do pH desse solo, o agricultor deverá utilizar a espécie química indicada pelo número",
+        "alternativas": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
+        },
+        "gabarito": "B",
+        "comentario": "Para aumentar o pH do solo, devemos utilizar uma substância de caráter básico (MgO, óxido básico): MgO + H2O → Mg(OH)2."
+      },
+      {
+        "id": "enem_enem2023-2_2dia_128_37",
+        "materia": "Química",
+        "assunto": "Equilíbrio Químico, pH e Hidrólise de Sais",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "A disponibilidade de nutrientes do solo (fertilidade) está associada à capacidade de ceder nutrientes essenciais às plantas, a qual é dependente do pH do solo. O cultivo agrícola para grande parte das espécies vegetais desenvolve-se de forma adequada no pH próximo a 6. Para isso, os produtores rurais realizam práticas agrícolas e manejo do solo de forma a minimizar os efeitos deletérios do alumínio, manganês e excesso de ferro, além de potencializar a disponibilidade de outros nutrientes, como cálcio, potássio, magnésio e fósforo. Considere um solo alcalino no qual se deseja realizar o manejo a fim de ajustar o pH e aumentar sua fertilidade. CARDOSO, E. J. B N; ANDREOTE, F. D. Microbiologia do solo. Piracicaba: Esalq, 2016 (adaptado).",
+        "enunciado": "O composto que pode ser adicionado ao solo para atender a essa necessidade é",
+        "alternativas": {
+          "A": "KNO3.",
+          "B": "CaCO3.",
+          "C": "Na3PO4.",
+          "D": "Al2(SO4)3.",
+          "E": "(NH4)2SO4."
+        },
+        "gabarito": "E",
+        "comentario": "As espécies vegetais desenvolvem-se de forma adequada no pH próximo a 6 (meio ácido). Para diminuir o pH de um solo alcalino, devemos adicionar um sal de base fraca e ácido forte, pois na sua hidrólise libera íons H3O+ diminuindo o pH do solo. (NH4)2SO4 é um sal de base fraca (NH4OH) e ácido forte (H2SO4), sofrendo hidrólise ácida: NH4+ + H2O ⇌ NH3 + H3O+."
+      },
+      {
+        "id": "enem_enem2023-2_2dia_134_43",
+        "materia": "Química",
+        "assunto": "Reações químicas e descontaminação",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "Os agentes lacrimogêneos são espécies químicas capazes de provocar forte irritação das vias aéreas superiores e dos olhos. Até o final da década de 1960, a cloroacetofenona (CA) foi a substância mais utilizada com essa finalidade. Uma forma de descontaminar a pele exposta à CA consiste em lavá-la com uma solução aquosa de determinado sal, o qual reagirá com a CA, conforme a reação representada.",
+        "enunciado": "Qual destes compostos pode ser usado para fazer essa descontaminação?",
+        "alternativas": {
+          "A": "NaCH3COO",
+          "B": "NaHCO3",
+          "C": "NaHSO3",
+          "D": "Na2SO4",
+          "E": "NaOH"
+        },
+        "gabarito": "B",
+        "comentario": "O sal contém sódio (Na) devido à formação do NaCl. O sal contém o grupo (HCO3), pois substitui o Cl. Sal: NaHCO3."
+      },
+      {
+        "id": "enem_enem2016-2_1dia_48_47",
+        "materia": "Química",
+        "assunto": "Reações de neutralização e equilíbrio ácido-base",
+        "banca": "INEP",
+        "ano": "2016",
+        "texto_auxiliar": "Nos anos 1990, verificou-se que o rio Potomac situado no estado norte-americano de Maryland, tinha em parte de seu curso, águas extremamente ácidas por receber um efluente de uma mina de carvão desativada, o qual continha ácido sulfúrico (H2SO4). Essa água, embora límpida, era desprovida de vida. Alguns quilômetros adiante, instalou-se uma fábrica de papel e celulose que emprega hidróxido de sódio (NaOH) e carbonato de sódio (Na2CO3) em seus processos. Em pouco tempo observou-se que, a partir do ponto em que a fábrica lança seus rejeitos no rio, a vida aquática voltou a florescer.",
+        "enunciado": "A explicação para o retorno da vida aquática nesse rio é a",
+        "alternativas": {
+          "A": "diluição das águas do rio pelo novo efluente lançado nele.",
+          "B": "precipitação do íon sulfato na presença do efluente da nova fábrica.",
+          "C": "biodegradação do ácido sulfúrico em contato com o novo efluente descartado.",
+          "D": "diminuição da acidez das águas do rio pelo efluente da fábrica de papel e celulose.",
+          "E": "volatilização do ácido sulfúrico após contato com o novo efluente introduzido no rio."
+        },
+        "gabarito": "D",
+        "comentario": "A explicação para o retorno da vida aquática nesse rio é a diminuição da acidez das águas do rio pelo efluente da fábrica de papel e celulose. Efluente da mina de carvão: H2SO4(aq) → 2 H+(aq) + SO42–(aq). Efluente da fábrica de papel e celulose: NaOH(aq) → Na+(aq) + OH–(aq); Na2CO3(aq) → 2 Na+(aq) + CO32–(aq); CO32–(aq) + H2O → HCO3–(aq) + OH–(aq). Os íons H+ são neutralizados pelos íons OH– diminuindo a acidez, permitindo a vida aquática a florescer. H+(aq) + OH–(aq) → H2O(l)."
+      },
+      {
+        "id": "enem_enem2016-2_1dia_49_48",
+        "materia": "Química",
+        "assunto": "Radioatividade e lixo atômico",
+        "banca": "INEP",
+        "ano": 2016,
+        "texto_auxiliar": "A energia nuclear é uma alternativa aos combustíveis fósseis que, se não gerenciada de forma correta, pode causar impactos ambientais graves. O princípio da geração dessa energia pode se basear na reação de fissão controlada do urânio por bombardeio de nêutrons, como ilustrado: 235U + n → 95Sr + 139Xe + 2 n + energia. Um grande risco decorre da geração do chamado lixo atômico, que exige condições muito rígidas de tratamento e armazenamento para evitar vazamentos para o meio ambiente.",
+        "enunciado": "Esse lixo é prejudicial, pois",
+        "alternativas": {
+          "A": "favorece a proliferação de microrganismos termófilos.",
+          "B": "produz nêutrons livres que ionizam o ar, tornando-o condutor.",
+          "C": "libera gases que alteram a composição da atmosfera terrestre.",
+          "D": "acentua o efeito estufa decorrente do calor produzido na fissão.",
+          "E": "emite radiação capaz de provocar danos à saúde dos seres vivos."
+        },
+        "gabarito": "E",
+        "comentario": "Esse lixo é prejudicial, pois emite radiação capaz de provocar danos à saúde dos seres vivos. Nos produtos da fissão do urânio-235 já foram identificados mais de duzentos isótopos pertencentes a 35 elementos diferentes. Muitos deles emitem α, β e γ representando um risco à população. Entre os radioisótopos presentes no lixo nuclear, os mais perigosos para o ser humano são: Sr-90, I-131, Cs-137."
+      },
+      {
+        "id": "enem_enem2016-2_1dia_55_54",
+        "materia": "Química",
+        "assunto": "Separação de misturas",
+        "banca": "INEP",
+        "ano": 2016,
+        "texto_auxiliar": "Em Bangladesh, mais da metade dos poços artesianos cuja água serve à população local está contaminada com arsênio proveniente de minerais naturais e de pesticidas. O arsênio apresenta efeitos tóxicos cumulativos. A ONU desenvolveu um kit para tratamento dessa água a fim de torná-la segura para o consumo humano. O princípio desse kit é a remoção do arsênio por meio de uma reação de precipitação com sais de ferro(III) que origina um sólido volumoso de textura gelatinosa.",
+        "enunciado": "Com o uso desse kit, a população local pode remover o elemento tóxico por meio de",
+        "alternativas": {
+          "A": "fervura.",
+          "B": "filtração.",
+          "C": "destilação.",
+          "D": "calcinação.",
+          "E": "evaporação."
+        },
+        "gabarito": "B",
+        "comentario": "Com o uso desse kit, a população local pode remover o elemento tóxico por meio de filtração: A filtração é um método de separação que é usado em mistura heterogênea sólido com líquido. O sal de Fe3+ sofre hidrólise produzindo um precipitado gelatinoso de Fe(OH)3. As partículas de arsênio suspensas na água aderem à superfície do precipitado gelatinoso formando flocos que se sedimentam. Por filtração, os flocos são retirados da água."
+      },
+      {
+        "id": "enem_enem2015_1dia_72_71",
+        "materia": "Química",
+        "assunto": "Eletroquímica e corrosão",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "Alimentos em conserva são frequentemente armazenados em latas metálicas seladas, fabricadas com um material chamado folha de flandres, que consiste de uma chapa de aço revestida com uma fina camada de estanho, metal brilhante e de difícil oxidação. É comum que a superfície interna seja ainda revestida por uma camada de verniz à base de epóxi, embora também existam latas sem esse revestimento, apresentando uma camada de estanho mais espessa. \nSANTANA. V . M. S. A leitura e a quimica das substâncias. Cadernos PDE . Ivaiporã Secretaria de Estado da Educação do Paraná (SEED); Universidade Estadual de Londrina, 2010 (adaptado).",
+        "enunciado": "Comprar uma lata de conserva amassada no supermercado é desaconselhável porque o amassado pode",
+        "alternativas": {
+          "A": "alterar a pressão no interior da lata, promovendo a degradação acelerada do alimento.",
+          "B": "romper a camada de estanho, permitindo a corrosão do ferro e alterações do alimento.",
+          "C": "prejudicar o apelo visual da embalagem, apesar de não afetar as propriedades do alimento.",
+          "D": "romper a camada de verniz, fazendo com que o metal tóxico estanho contamine o alimento.",
+          "E": "desprender camadas de verniz, que se dissolverão no meio aquoso, contaminando o alimento."
+        },
+        "gabarito": "B",
+        "comentario": "Comprar uma lata de conserva amassada no supermercado é desaconselhável porque o amassado pode romper a camada de estanho permitindo a corrosão do ferro e alterações do alimento. Fe (s) → Fe2+(aq) + 2 e–"
+      },
+      {
+        "id": "enem_enem2015_1dia_79_78",
+        "materia": "Química",
+        "assunto": "Química Verde",
+        "banca": "INEP",
+        "ano": "2015",
+        "texto_auxiliar": "A química verde permite o desenvolvimento tecnológico com danos reduzidos ao meio ambiente, e encontrar rotas limpas tem sido um grande desafio. Considere duas rotas diferentes utilizadas para a obtenção de ácido adípico, um insumo muito importante para a indústria têxtil e de plastificantes. [IMAGEM OMITIDA]",
+        "enunciado": "Que fator contribui positivamente para que a segunda rota de síntese seja verde em comparação à primeira?",
+        "alternativas": {
+          "A": "Etapa única na síntese.",
+          "B": "Obtenção do produto puro.",
+          "C": "Ausência de reagentes oxidantes.",
+          "D": "Ausência de elementos metálicos no processo.",
+          "E": "Gasto de energia nulo na separação do produto."
+        },
+        "gabarito": "A",
+        "comentario": "A química verde permite o desenvolvimento tecnológico com danos reduzidos ao meio ambiente. Três fatores muito importantes a serem considerados são: uso de fontes renováveis ou recicláveis; aumento da eficiência de energia ou utilização de menos energia para produzir a mesma ou maior quantidade de produto; evitar o uso de substâncias persistentes, bioacumulativas e tóxicas. O fator que contribui positivamente para que a segunda rota de síntese seja verde em comparação à primeira é ocorrer em uma única etapa. A temperatura necessária para a ocorrência da segunda reação é inferior, não gera subproduto tóxico e não utiliza substância corrosiva no processo. A redução do tempo total da reação, ocorrência de uma única etapa, é um fator importante que diferencia o primeiro processo (marrom) do segundo (verde)."
+      },
+      {
+        "id": "enem_enem2015_2dia_150_59",
+        "materia": "Química",
+        "assunto": "Polímeros e reciclagem",
+        "banca": "INEP",
+        "ano": "2015",
+        "texto_auxiliar": "O polímero de PET (Politereftalato de Etileno) é um dos plásticos mais reciclados em todo o mundo devido à sua extensa gama de aplicações, entre elas, fibras têxteis, tapetes, embalagens, filmes e cordas. Os gráficos mostram o destino do PET reciclado no Brasil, sendo que, no ano de 2010, o total de PET reciclado foi de 282 kton (quilotoneladas). [IMAGEM OMITIDA]",
+        "enunciado": "De acordo com os gráficos, a quantidade de embalagens PET recicladas destinadas à produção de tecidos e malhas, em kton, é mais aproximada de",
+        "alternativas": {
+          "A": "16,0.",
+          "B": "22,9.",
+          "C": "32,0.",
+          "D": "84,6.",
+          "E": "106,6."
+        },
+        "gabarito": "C",
+        "comentario": "De acordo com os gráficos, a quantidade de embalagens PET recicladas destinadas à produção de tecidos e malhas, em kt (e não kton, como está no enunciado), é 37,8% . 30% . 282 = 31,9788 ≈ 32,00."
+      }
+    ]
+  },
+  "Atomística E Tabela Periódica": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Estrutura atômica e transições eletrônicas em emissão de luz",
+        "ids_questoes": [
+          "enem_enem2019_2dia_116_25",
+          "enem_enem2017_2dia_97_6",
+          "enem_enem2020_digital_2dia_132_41"
+        ],
+        "peso_percentual": 38,
+        "armadilha_favorita": "O INEP costuma trocar emissão por combustão, fusão ou reação química, induzindo o candidato a explicar a cor pela substância em si e não pela transição eletrônica. Também explora a confusão entre absorção e emissão de energia, além de associar luz visível a aquecimento ou mudança de fase.",
+        "fingerprint_banca": "Contextualiza fenômenos ópticos em testes de chama, raios catódicos e observações históricas da estrutura da matéria. Cobra leitura de evidências experimentais, identificação de partículas subatômicas e compreensão de que cores e radiações decorrem de transições eletrônicas e não de transformações macroscópicas."
+      },
+      {
+        "nome_microtema": "Modelos atômicos e evolução histórica da teoria da matéria",
+        "ids_questoes": [
+          "enem_enem2019_2dia_93_2"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "A banca apresenta os postulados de Dalton em formato numerado para induzir resposta por chute ou por associação vaga com o modelo atual. O erro comum é confundir um postulado ainda válido com ideias superadas, como indivisibilidade absoluta do átomo.",
+        "fingerprint_banca": "Costuma cobrar comparação entre modelo clássico e modelo atual, exigindo reconhecer o que permanece válido na teoria atômica. O foco é interpretação conceitual da evolução científica, não memorização literal de todos os postulados."
+      },
+      {
+        "nome_microtema": "Tabela periódica: grupos, propriedades periódicas e similaridade química",
+        "ids_questoes": [
+          "enem_enem2018_2dia_119_28",
+          "enem_enem2017_2dia_126_35"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "O INEP mistura semelhança de propriedades com posição na tabela, levando o candidato a olhar apenas número atômico ou massa. Também pode induzir a confundir tendência periódica com propriedade isolada, como estabilidade nuclear ou densidade, quando a justificativa correta está na configuração eletrônica e no grupo.",
+        "fingerprint_banca": "Explora relações entre configuração eletrônica, família química e comportamento semelhante entre elementos. A contextualização costuma vir por nomes históricos, aplicações tecnológicas ou gases nobres, cobrando leitura da tabela periódica como ferramenta de previsão de propriedades."
+      },
+      {
+        "nome_microtema": "Nanomateriais e isomeria/conformação molecular induzida por luz",
+        "ids_questoes": [
+          "enem_enem2018_2dia_99_8"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A banca usa linguagem de nanotecnologia para esconder uma ideia de química orgânica/estrutural, confundindo isomerização com tautomerização, ressonância ou simples vibração atômica. O candidato pode ser levado a escolher uma explicação genérica de movimento molecular em vez da mudança estrutural específica induzida pela luz.",
+        "fingerprint_banca": "Costuma contextualizar avanços tecnológicos e pedir a identificação do fenômeno químico responsável por mudança de forma, cor ou movimento em escala molecular. Cobra interpretação de estruturas e relação entre arranjo molecular e propriedade macroscópica."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "conclui-se que",
+        "exemplifica"
+      ]
+    },
+    "total_questoes_analisadas": 8,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2018_2dia_99_8",
+        "materia": "Química",
+        "assunto": "Isomerização",
+        "banca": "INEP",
+        "ano": "2018",
+        "texto_auxiliar": "Pesquisas demonstram que nanodispositivos baseados em movimentos de dimensões atômicas, induzidos por luz, poderão ter aplicações em tecnologias futuras, substituindo micromotores, sem a necessidade de componentes mecânicos. Exemplo de movimento molecular induzido pela luz pode ser observado pela flexão de uma lâmina delgada de silício, ligado a um polímero de azobenzeno e a um material suporte, em dois comprimentos de onda, conforme ilustrado na figura. Com a aplicação de luz ocorrem reações reversíveis da cadeia do polímero, que promovem o movimento observado.",
+        "enunciado": "O fenômeno de movimento molecular, promovido pela incidência de luz, decorre do(a)",
+        "alternativas": {
+          "A": "movimento vibracional dos átomos, que leva ao encurtamento e à relaxação das ligações.",
+          "B": "isomerização das ligações N = N, sendo a forma cis do polímero mais compacta que a trans.",
+          "C": "tautomerização das unidades monoméricas do polímero, que leva a um composto mais compacto.",
+          "D": "ressonância entre os elétrons π do grupo azo e os do anel aromático que encurta as ligações duplas.",
+          "E": "variação conformacional das ligações N = N, que resulta em estruturas com diferentes áreas de superfície."
+        },
+        "gabarito": "B",
+        "comentario": "O fenômeno de movimento molecular, promovido pela incidência de luz, decorre de isomerização das ligações N = N, sendo a forma cis do polímero mais compacta que a trans, pois os grupos dos anéis aromáticos estão mais próximos."
+      },
+      {
+        "id": "enem_enem2018_2dia_116_25",
+        "materia": "Química",
+        "assunto": "Catálise e energia de ativação",
+        "banca": "INEP",
+        "ano": "2018",
+        "texto_auxiliar": "O sulfeto de mercúrio (II) foi usado como pigmento vermelho para pinturas de quadros e murais. Esse pigmento, conhecido como vermilion, escurece com o passar dos anos, fenômeno cuja origem é alvo de pesquisas. Aventou-se a hipótese de que o vermilion seja decomposto sob a ação da luz, produzindo uma fina camada de mercúrio metálico na superfície. Essa reação seria catalisada por íon cloreto presente na umidade do ar. WOGAN, T. Mercury's Dark Influence on Art. Disponível em: www.chemistryworld.com. Acesso em: 26 abr. 2018 (adaptado).",
+        "enunciado": "Segundo a hipótese proposta, o íon cloreto atua na decomposição fotoquímica do vermilion",
+        "alternativas": {
+          "A": "reagindo como agente oxidante.",
+          "B": "deslocando o equilíbrio químico.",
+          "C": "diminuindo a energia de ativação.",
+          "D": "precipitando cloreto de mercúrio.",
+          "E": "absorvendo a energia da luz visível."
+        },
+        "gabarito": "C",
+        "comentario": "Catalisador é uma substância que aumenta a velocidade da reação oferecendo um outro caminho com menor energia de ativação, sem ser consumido."
+      },
+      {
+        "id": "enem_enem2018_2dia_119_28",
+        "materia": "Química",
+        "assunto": "Tabela Periódica",
+        "banca": "INEP",
+        "ano": 2018,
+        "texto_auxiliar": "Na mitologia grega, Nióbia era a filha de Tântalo, dois personagens conhecidos pelo sofrimento. O elemento químico de número atômico (Z) igual a 41 tem propriedades químicas e físicas tão parecidas com as do elemento de número atômico 73 que chegaram a ser confundidos. Por isso, em homenagem a esses dois personagens da mitologia grega, foi conferido a esses elementos os nomes de nióbio (Z = 41) e tântalo (Z = 73). Esses dois elementos químicos adquiriram grande importância econômica na metalurgia, na produção de supercondutores e em outras aplicações na indústria de ponta, exatamente pelas propriedades químicas e físicas comuns aos dois.",
+        "enunciado": "A importância econômica e tecnológica desses elementos, pela similaridade de suas propriedades químicas e físicas, deve-se a",
+        "alternativas": {
+          "A": "terem elétrons no subnível f.",
+          "B": "serem elementos de transição interna.",
+          "C": "pertencerem ao mesmo grupo na tabela periódica.",
+          "D": "terem seus elétrons mais externos nos níveis 4 e 5, respectivamente.",
+          "E": "estarem localizados na família dos alcalinos terrosos e alcalinos, respectivamente."
+        },
+        "gabarito": "C",
+        "comentario": "41Nb : 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d3\n73Ta : 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d3\nAmbos são metais de transição, localizados no grupo VB ou 5 da tabela periódica. Os elétrons mais externos estão nos níveis 5 e 6, respectivamente."
+      },
+      {
+        "id": "enem_enem2019_2dia_93_2",
+        "materia": "Química",
+        "assunto": "Modelos atômicos",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "Em 1808, Dalton publicou o seu famoso livro intitulado Um novo sistema de filosofia química (do original A New System of Chemical Philosophy), no qual continha os cinco postulados que serviam como alicerce da primeira teoria atômica da matéria fundamentada no método científico. Esses postulados são numerados a seguir:\n1. A matéria é constituída de átomos indivisíveis.\n2. Todos os átomos de um dado elemento químico são idênticos em massa e em todas as outras propriedades.\n3. Diferentes elementos químicos têm diferentes tipos de átomos; em particular, seus átomos têm diferentes massas.\n4. Os átomos são indestrutíveis e nas reações químicas mantêm suas identidades.\n5. Átomos de elementos combinam com átomos de outros elementos em proporções de números inteiros pequenos para formar compostos.\nApós o modelo de Dalton, outros modelos baseados em outros dados experimentais evidenciaram, entre outras coisas, a natureza elétrica da matéria, a composição e organização do átomo e a quantização da energia no modelo atômico.",
+        "enunciado": "Com base no modelo atual que descreve o átomo, qual dos postulados de Dalton ainda é considerado correto?",
+        "alternativas": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4",
+          "E": "5"
+        },
+        "gabarito": "E",
+        "comentario": "Dalton enunciou 5 postulados que serviam como alicerces da primeira teoria atômica da matéria fundamentada no método científico. Com base no modelo atual que descreve o átomo, o postulado que é considerado correto é o 5. 1. Atualmente os átomos são divisíveis e não indivisíveis como na teoria de Dalton. 2. Atualmente existe o conceito de isótopos. 3. Diferentes elementos podem ser isóbaros. 4. Os átomos podem ser divididos e numa reação química os átomos se transformam em íons (cátions, ânions) e podem formar moléculas. 5. Átomos de elementos combinam com átomos de outros elementos em proporção de números inteiros pequenos para formar compostos. Esse postulado ainda é válido."
+      },
+      {
+        "id": "enem_enem2019_2dia_116_25",
+        "materia": "Química",
+        "assunto": "Modelo atômico de Bohr e emissão de luz",
+        "banca": "INEP",
+        "ano": 2019,
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Um teste de laboratório permite identificar alguns cátions metálicos ao introduzir uma pequena quantidade do material de interesse em uma chama de bico de Bunsen para, em seguida, observar a cor da luz emitida. A cor observada é proveniente da emissão de radiação eletromagnética ao ocorrer a",
+        "alternativas": {
+          "A": "mudança da fase sólida para a fase líquida do elemento metálico.",
+          "B": "combustão dos cátions metálicos provocada pelas moléculas de oxigênio da atmosfera.",
+          "C": "diminuição da energia cinética dos elétrons em uma mesma órbita na eletrosfera atômica.",
+          "D": "transição eletrônica de um nível mais externo para outro mais interno na eletrosfera atômica.",
+          "E": "promoção dos elétrons que se encontram no estado fundamental de energia para níveis mais energéticos."
+        },
+        "gabarito": "D",
+        "comentario": "Segundo o modelo de Böhr, quando o átomo recebe energia, os elétrons são promovidos para níveis mais externos. Quando os elétrons retornam para níveis mais internos, ocorre emissão de radiação eletromagnética (luz)."
+      },
+      {
+        "id": "enem_enem2020_digital_2dia_132_41",
+        "materia": "Química",
+        "assunto": "Raios catódicos e natureza dos elétrons",
+        "banca": "INEP",
+        "ano": "2020",
+        "texto_auxiliar": "No final do século XIX, muitos cientistas estavam interessados nos intrigantes fenômenos observados nas ampolas de raios catódicos, que são tubos sob vácuo em que se ligam duas placas a uma fonte de alta tensão. Os raios catódicos passam através de um orifício no ânodo e continuam o percurso até a outra extremidade do tubo, onde são detectados pela fluorescência produzida ao chocarem-se com um revestimento especial, como pode ser observado na figura. Medições da razão entre a carga e a massa dos constituintes dos raios catódicos mostram que a sua identidade independe do material do cátodo ou do gás dentro das ampolas.",
+        "enunciado": "Essa radiação invisível detectada nas ampolas é constituída por",
+        "alternativas": {
+          "A": "ânions.",
+          "B": "cátions.",
+          "C": "prótons.",
+          "D": "elétrons.",
+          "E": "partículas alfa."
+        },
+        "gabarito": "D",
+        "comentario": "Essa radiação invisível é emitida pelo catodo (polo negativo) e é atraído por uma placa positiva (anodo). Os raios catódicos são elétrons."
+      },
+      {
+        "id": "enem_enem2017_2dia_97_6",
+        "materia": "Química",
+        "assunto": "Modelo atômico de Bohr e emissão de luz",
+        "banca": "INEP",
+        "ano": 2017,
+        "texto_auxiliar": "Um fato corriqueiro ao se cozinhar arroz é o derramamento de parte da água de cozimento sobre a chama azul do fogo, mudando-a para uma chama amarela. Essa mudança de cor pode suscitar interpretações diversas, relacionadas às substâncias presentes na água de cozimento. Além do sal de cozinha (NaCl), nela se encontram carboidratos, proteínas e sais minerais.",
+        "enunciado": "Cientificamente, sabe-se que essa mudança de cor da chama ocorre pela",
+        "alternativas": {
+          "A": "reação do gás de cozinha com o sal, volatilizando gás cloro.",
+          "B": "emissão de fótons pelo sódio, excitado por causa da chama.",
+          "C": "produção de derivado amarelo, pela reação com o carboidrato.",
+          "D": "reação do gás de cozinha com a água, formando gás hidrogênio.",
+          "E": "excitação das moléculas de proteínas, com formação de luz amarela."
+        },
+        "gabarito": "B",
+        "comentario": "A mudança de cor da chama de azul para amarela é devida à transição eletrônica de um nível de energia maior para um nível de energia menor que ocorre na eletrosfera do sódio (teoria de Bohr). Conclusão: A emissão de fótons pelo sódio excitado por causa da chama."
+      },
+      {
+        "id": "enem_enem2017_2dia_126_35",
+        "materia": "Química",
+        "assunto": "Tabela Periódica e Eletronegatividade",
+        "banca": "INEP",
+        "ano": "2017",
+        "texto_auxiliar": "No ar que respiramos existem os chamados “gases inertes\". Trazem curiosos nomes gregos, que significam “o Novo”, “o Oculto”, “o Inativo”. E de fato são de tal modo inertes, tão satisfeitos em sua condição, que não interferem em nenhuma reação química, não se combinam com nenhum outro elemento e justamente por esse motivo ficaram sem ser observados durante séculos: só em 1962 um químico, depois de longos e engenhosos esforços, conseguiu forçar “o Estrangeiro” (o xenônio) a combinar-se fugazmente com o flúor ávido e vivaz, e a façanha pareceu tão extraordinária que lhe foi conferido o Prêmio Nobel.\nLEVI, P. A tabela periódica. Rio de Janeiro: Reliume-Dumará. 1994 (adaptado).",
+        "enunciado": "Qual propriedade do flúor justifica sua escolha como reagente para o processo mencionado?",
+        "alternativas": {
+          "A": "Densidade.",
+          "B": "Condutância.",
+          "C": "Eletronegatividade.",
+          "D": "Estabilidade nuclear.",
+          "E": "Temperatura de ebulição."
+        },
+        "gabarito": "C",
+        "comentario": "O elemento flúor é citado como ÁVIDO e VIVAZ, pois é o elemento mais eletronegativo da tabela periódica. É o elemento com maior tendência a receber elétrons. Ele combinou-se fugazmente com o xenônio, formando, por exemplo, o XeF4. Neil Bartlett, destacado químico inglês, sintetizou os primeiros compostos de xenônio com flúor. Foi indicado 20 vezes para o prêmio Nobel de Química, mas nunca recebeu o prêmio."
+      }
+    ]
+  }
+}

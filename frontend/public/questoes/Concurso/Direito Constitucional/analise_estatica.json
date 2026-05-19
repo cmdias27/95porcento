@@ -1,0 +1,1049 @@
+{
+  "Organização dos Poderes": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução aos Três Poderes: Independência e Harmonia",
+      "2. Sistema de Freios e Contrapesos: Limitações da Independência",
+      "3. Fiscalização do Poder Executivo pelo Congresso Nacional (Art. 49, X, CF/88)",
+      "4. Controle de Constitucionalidade pelo Poder Judiciário",
+      "5. Mecanismos de Controle Recíprocos nas Constituições Estaduais",
+      "6. Criação de CPIs: Requisitos e Jurisprudência do STF",
+      "7. Responsabilidade do Presidente da República: Imunidade e Crimes de Responsabilidade",
+      "8. Competências do Tribunal de Contas da União e sua Fiscalização",
+      "9. Estrutura e Competências do Conselho Nacional de Justiça (CNJ)",
+      "10. Regime Jurídico dos Militares e suas Especificidades",
+      "11. Nomeação e Afastamento de Ministros do STF",
+      "12. Funções do Ministério Público e sua Estrutura",
+      "13. Importância da Autonomia do Poder Judiciário",
+      "14. Jurisprudência Relevante sobre os Poderes e suas Interações",
+      "15. Conclusão: A Importância da Organização dos Poderes na Democracia"
+    ],
+    "assuntos_maior_incidencia": [
+      "Fiscalização do Poder Executivo (10%)",
+      "Responsabilidade do Presidente da República (12%)",
+      "Conselho Nacional de Justiça (CNJ) (12%)",
+      "Criação de CPIs (8%)",
+      "Regime Jurídico dos Militares (10%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que confundem conceitos de responsabilidade e imunidade, levando o candidato a errar por falta de atenção aos detalhes.",
+      "Questões sobre a criação de CPIs podem incluir informações desatualizadas ou jurisprudências que não são amplamente conhecidas, testando o conhecimento específico do candidato.",
+      "A banca pode apresentar alternativas que parecem corretas, mas que contêm nuances que alteram seu significado, exigindo uma leitura atenta e crítica."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Independência dos Poderes: ausência de subordinação entre os poderes do Estado.",
+      "Harmonia entre os Poderes: colaboração mútua para o funcionamento do Estado.",
+      "Freios e Contrapesos: mecanismos que limitam o poder de cada um dos poderes.",
+      "Crimes de responsabilidade: atos que podem levar à destituição de autoridades, definidos pela União.",
+      "Competência do CNJ: controle administrativo e disciplinar do Poder Judiciário."
+    ],
+    "alertas_e_excecoes": [
+      "A criação de CPIs não pode ser condicionada a deliberação do Plenário, conforme ADI 3.619.",
+      "A responsabilidade do Presidente da República é relativa ao exercício da função, conforme jurisprudência do STF.",
+      "Os militares não podem se sindicalizar ou fazer greve, conforme a legislação específica."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 40 questões reais)",
+    "qtd_questoes_base": 40
+  },
+  "Princípios Fundamentais da República": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução aos Princípios Fundamentais da República: Definição e Importância.",
+      "2. Os cinco fundamentos da República: Soberania, Cidadania, Dignidade da pessoa humana, Valores sociais do trabalho e da livre iniciativa, Pluralismo político.",
+      "3. A dignidade da pessoa humana: Natureza jurídica e efeitos no ordenamento jurídico.",
+      "4. A diferença entre fundamentos e objetivos fundamentais da República: Art. 1º e Art. 3º da CF/88.",
+      "5. A aplicabilidade dos princípios fundamentais: Eficácia jurídica e controle de constitucionalidade.",
+      "6. O papel da cidadania na democracia: Direitos políticos e participação popular.",
+      "7. Soberania e suas dimensões: Interna e externa, e sua relação com os direitos humanos.",
+      "8. Pluralismo político: Significado e importância na proteção da diversidade de ideias.",
+      "9. A promoção do bem de todos: Objetivos fundamentais e erradicação da pobreza.",
+      "10. A relação entre direitos humanos e a política externa brasileira.",
+      "11. A solução pacífica de conflitos nas relações internacionais: Art. 4º da CF/88.",
+      "12. A jurisprudência do STF sobre os princípios fundamentais: Casos relevantes.",
+      "13. Exceções e alertas sobre a interpretação dos princípios fundamentais.",
+      "14. Conclusão: A importância dos princípios fundamentais na construção do Estado Democrático de Direito."
+    ],
+    "assuntos_maior_incidencia": [
+      "Dignidade da pessoa humana (45%)",
+      "Cidadania (36%)",
+      "Soberania (36%)",
+      "Pluralismo político (36%)",
+      "Objetivos fundamentais da República (36%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente confunde os conceitos de fundamentos e objetivos da República, levando o candidato a acreditar que ambos possuem a mesma natureza jurídica.",
+      "Questões que apresentam a dignidade da pessoa humana como mera diretriz, quando na verdade é um princípio com força normativa.",
+      "Alternativas que tentam desvirtuar a aplicabilidade dos princípios fundamentais, sugerindo que são meras diretrizes sem eficácia imediata."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Princípio da dignidade da pessoa humana: Fundamento da República que orienta a interpretação de todo o ordenamento jurídico.",
+      "Soberania: Princípio que assegura a autonomia do Estado brasileiro nas relações internacionais.",
+      "Cidadania: Elemento estruturante do Estado Democrático de Direito, envolvendo direitos civis, políticos e sociais.",
+      "Pluralismo político: Garantia da diversidade de ideias e participação democrática na vida pública."
+    ],
+    "alertas_e_excecoes": [
+      "A dignidade da pessoa humana é cláusula pétrea, não podendo ser abolida ou reduzida por emendas constitucionais.",
+      "A erradicação da pobreza é um objetivo fundamental, não apenas a sua diminuição, conforme o art. 3º da CF/88.",
+      "A jurisprudência do STF reconhece a eficácia imediata dos princípios fundamentais, podendo ser utilizados como parâmetros de controle de constitucionalidade."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 11 questões reais)",
+    "qtd_questoes_base": 11
+  },
+  "Processo Legislativo": {
+    "roteiro_exposicao_30min": [
+      "1. Definição de Processo Legislativo: Conjunto de regras que disciplinam a produção de normas do poder público.",
+      "2. Classificação do Processo Legislativo: Quanto às formas de organização política e sequência das fases procedimentais.",
+      "3. Fases do Procedimento Legislativo Ordinário: Introdutória, constitutiva e complementar.",
+      "4. Iniciativa de Lei: Tipos de iniciativa (privativa, geral, popular) e legitimados para apresentar projetos.",
+      "5. Quóruns de Votação: Diferença entre maioria simples e maioria absoluta, e suas implicações.",
+      "6. Emendas ao Projeto de Lei Orçamentária: Regras e limitações, especialmente em relação a despesas com pessoal e serviço da dívida.",
+      "7. Bicameralismo: Revisão de projetos entre as duas casas do Congresso e suas implicações.",
+      "8. Controle de Constitucionalidade: Repressivo e preventivo, e suas diferenças.",
+      "9. Vícios de Iniciativa: Consequências e jurisprudência relacionada.",
+      "10. Estado de Sítio e Calamidade: Competências do Congresso e do Presidente da República.",
+      "11. CPI: Requisitos para sua instalação e funcionamento.",
+      "12. Lei Complementar vs. Lei Ordinária: Hierarquia e reserva de matéria.",
+      "13. Processo Legislativo Municipal: Diferenças e semelhanças com o processo federal.",
+      "14. Medidas Provisórias: Regras de tramitação e limites de apreciação.",
+      "15. Jurisprudência do STF: Casos relevantes sobre o processo legislativo."
+    ],
+    "assuntos_maior_incidencia": [
+      "Iniciativa de Lei (8%)",
+      "Quóruns de Votação (11%)",
+      "Emendas ao Projeto de Lei Orçamentária (8%)",
+      "Bicameralismo (5%)",
+      "Controle de Constitucionalidade (5%)",
+      "CPI (5%)",
+      "Vícios de Iniciativa (3%)",
+      "Medidas Provisórias (5%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que parecem corretas à primeira vista, mas que contêm nuances sutis que podem levar à confusão, especialmente em relação a quóruns e tipos de iniciativa.",
+      "Questões que abordam a legislação orçamentária podem ser formuladas de maneira a induzir o candidato a pensar que certas emendas são sempre permitidas, quando na verdade existem restrições específicas.",
+      "A banca pode explorar a diferença entre lei complementar e lei ordinária, criando alternativas que parecem corretas, mas que não consideram a reserva de matéria."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Processo Legislativo: Conjunto de normas que regulam a elaboração de leis.",
+      "Iniciativa de Lei: Poder de propor projetos de lei, que pode ser privativa, geral ou popular.",
+      "Quórum: Número mínimo de votos necessários para a aprovação de uma matéria.",
+      "Bicameralismo: Sistema legislativo em que duas casas (Câmara e Senado) revisam as propostas.",
+      "Emenda: Modificação proposta a um projeto de lei, com regras específicas para sua aceitação."
+    ],
+    "alertas_e_excecoes": [
+      "A matéria rejeitada não pode ser reapresentada na mesma sessão legislativa, salvo proposta da maioria absoluta.",
+      "Emendas ao projeto de lei orçamentária não podem indicar como fonte de custeio a anulação de dotações destinadas ao serviço da dívida pública ou a gastos com pessoal.",
+      "A sanção tácita ocorre após 15 dias sem manifestação do presidente, tornando o veto impossível."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 37 questões reais)",
+    "qtd_questoes_base": 37
+  },
+  "Teoria da Constituição": {
+    "roteiro_exposicao_30min": [
+      "1. Conceito de Constituição: Definição e importância da Constituição como ordem jurídica fundamental.",
+      "2. Classificação das Constituições: Rigidez, extensão, função e ideologia.",
+      "3. Poder Constituinte: Originário e derivado, suas características e limites.",
+      "4. Controle de Constitucionalidade: Conceito, tipos e importância na proteção da Constituição.",
+      "5. Normas Constitucionais: Diferença entre normas materialmente e formalmente constitucionais.",
+      "6. Eficácia das Normas: Classificação em eficácia plena, contida e limitada.",
+      "7. Mutação Constitucional: Conceito e distinção em relação à reforma constitucional.",
+      "8. Supremacia da Constituição: Princípios e implicações no sistema jurídico.",
+      "9. Direitos Fundamentais: Importância e proteção na Constituição de 1988.",
+      "10. Processo Legislativo: Emendas constitucionais e suas limitações.",
+      "11. Interpretação Constitucional: Métodos e princípios aplicáveis.",
+      "12. Cláusulas Pétreas: Conceito e proteção dos direitos fundamentais.",
+      "13. Jurisprudência do STF: Importância e impacto nas normas constitucionais.",
+      "14. Princípios Fundamentais: Estrutura e função na Constituição de 1988.",
+      "15. Relações Internacionais: Princípios constitucionais e direitos humanos."
+    ],
+    "assuntos_maior_incidencia": [
+      "Poder Constituinte (12%)",
+      "Controle de Constitucionalidade (9%)",
+      "Classificação das Constituições (8%)",
+      "Normas Constitucionais (6%)",
+      "Supremacia da Constituição (6%)",
+      "Direitos Fundamentais (6%)",
+      "Eficácia das Normas (6%)",
+      "Mutação Constitucional (5%)",
+      "Processo Legislativo (5%)",
+      "Princípios Fundamentais (5%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente confunde conceitos técnicos, como a diferença entre forma e origem da Constituição, levando o candidato a erros.",
+      "Explora a terminologia jurídica de forma ambígua, como 'super-rígida', que não é amplamente aceita, induzindo o candidato a acreditar que é uma classificação comum.",
+      "Utiliza questões que misturam diferentes classificações de normas, dificultando a identificação do que está sendo perguntado.",
+      "Apresenta questões que exigem conhecimento de jurisprudência específica, mas não fornece contexto suficiente, tornando-as desafiadoras."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Constituição: norma fundamental que organiza o Estado e limita o poder.",
+      "Poder Constituinte Originário: poder de criar uma nova Constituição, ilimitado e autônomo.",
+      "Poder Constituinte Derivado: poder de modificar a Constituição existente, limitado por cláusulas pétreas.",
+      "Controle de Constitucionalidade: mecanismo que assegura a conformidade das normas com a Constituição.",
+      "Normas de Eficácia Plena: aplicáveis imediatamente; Normas de Eficácia Contida: aplicáveis, mas com restrições; Normas de Eficácia Limitada: dependem de regulamentação.",
+      "Mutação Constitucional: alteração do sentido das normas sem modificação formal do texto.",
+      "Supremacia da Constituição: princípio que garante a primazia da Constituição sobre todas as normas."
+    ],
+    "alertas_e_excecoes": [
+      "Cláusulas Pétreas: não podem ser alteradas por emenda constitucional, protegendo direitos fundamentais.",
+      "O princípio da irrepetibilidade absoluta impede a reapresentação da mesma proposta de emenda na mesma legislatura.",
+      "A jurisprudência do STF estabelece que normas constitucionais implícitas podem existir, como a Supremacia do Interesse Público.",
+      "A Constituição de 1988 é considerada rígida, exigindo um processo legislativo especial para sua alteração."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 64 questões reais)",
+    "qtd_questoes_base": 64
+  },
+  "Direitos Individuais": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução aos Direitos Individuais: Definição e Importância",
+      "2. Direitos Fundamentais: Conceito e Classificação",
+      "3. Aplicabilidade dos Direitos Fundamentais: Brasileiros e Estrangeiros",
+      "4. Limitações e Restrições aos Direitos Fundamentais: O que é permitido?",
+      "5. O Direito à Liberdade de Expressão: Limites e Responsabilidades",
+      "6. Direito à Propriedade: Função Social e Limitações",
+      "7. Direitos de Reunião e Associação: Requisitos e Limitações",
+      "8. A Imunidade Parlamentar: Conceito e Limitações",
+      "9. Direitos à Privacidade e Inviolabilidade Domiciliar: Exceções e Jurisprudência",
+      "10. O Direito ao Habeas Corpus: Conceito e Aplicações",
+      "11. A Responsabilidade Civil do Estado: O que diz a Constituição?",
+      "12. Direitos dos Presos: Garantias e Restrições",
+      "13. O Direito ao Acesso à Informação: Princípios e Limitações",
+      "14. A Proteção dos Direitos Individuais em Situações de Vulnerabilidade",
+      "15. Conclusão: A Importância da Defesa dos Direitos Individuais"
+    ],
+    "assuntos_maior_incidencia": [
+      "Liberdade de Expressão (9%)",
+      "Direito à Propriedade (7%)",
+      "Imunidade Parlamentar (6%)",
+      "Direitos de Reunião e Associação (6%)",
+      "Direitos dos Presos (7%)",
+      "Direito ao Acesso à Informação (6%)",
+      "Responsabilidade Civil do Estado (6%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que misturam conceitos corretos com detalhes sutis que podem levar a erros, como a inclusão de exceções que não são amplamente conhecidas.",
+      "Questões que parecem simples, mas que exigem conhecimento profundo de jurisprudência específica, são comuns, levando candidatos a subestimar a complexidade do tema.",
+      "A banca pode apresentar alternativas que parecem corretas à primeira vista, mas que contêm nuances que alteram seu significado, exigindo atenção redobrada."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Direitos Fundamentais: Direitos que garantem a dignidade da pessoa humana e são protegidos pela Constituição.",
+      "Imunidade Parlamentar: Proteção conferida a parlamentares para garantir a liberdade de expressão no exercício de suas funções.",
+      "Direito à Propriedade: Direito que garante a posse e uso de bens, condicionado à função social.",
+      "Liberdade de Expressão: Direito de manifestar opiniões, respeitando os limites da honra e da privacidade dos outros.",
+      "Direito ao Acesso à Informação: Garantia de que cidadãos possam acessar informações públicas, promovendo transparência."
+    ],
+    "alertas_e_excecoes": [
+      "A imunidade parlamentar não se aplica a declarações feitas fora do exercício da função legislativa.",
+      "O direito à propriedade pode ser restringido em situações de interesse público, como em casos de requisição administrativa.",
+      "A liberdade de expressão não é absoluta e pode ser limitada em casos de discurso de ódio ou que incitem violência."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 54 questões reais)",
+    "qtd_questoes_base": 54
+  },
+  "Ordem Econômica e Financeira": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução à Ordem Econômica e Financeira: Definições e Importância",
+      "2. Ciclo Orçamentário Ampliado: PPA, LDO e LOA",
+      "3. Créditos Adicionais: Tipos e Reabertura",
+      "4. Princípios Constitucionais da Ordem Econômica e Financeira",
+      "5. Competência Tributária: Repartição entre Entes Federativos",
+      "6. Impostos e Contribuições: Definições e Exemplos",
+      "7. Empréstimos Compulsórios e sua Regulação",
+      "8. Imunidades e Isenções Tributárias: Conceitos e Aplicações",
+      "9. Responsabilidade Fiscal e Controle Externo",
+      "10. Jurisprudência Relevante: Casos e Decisões do STF",
+      "11. Análise de Questões Práticas: Estratégias e Dicas",
+      "12. Erros Comuns e Pegadinhas em Provas",
+      "13. Exceções e Alertas Importantes na Legislação",
+      "14. Conclusão: Integração entre Teoria e Prática",
+      "15. Sessão de Perguntas e Respostas"
+    ],
+    "assuntos_maior_incidencia": [
+      "Ciclo Orçamentário Ampliado (5%)",
+      "Créditos Adicionais (4%)",
+      "Princípios Constitucionais da Ordem Econômica (4%)",
+      "Competência Tributária (5%)",
+      "Imunidades e Isenções (3%)",
+      "Empréstimos Compulsórios (3%)",
+      "Responsabilidade Fiscal (4%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza a literalidade da Constituição para criar questões que parecem simples, mas que exigem interpretação detalhada.",
+      "Questões que misturam conceitos de diferentes áreas, como tributação e orçamento, podem confundir o candidato.",
+      "A inclusão de exceções e jurisprudências em questões pode levar a erros se o candidato não estiver atento às nuances.",
+      "A banca pode apresentar afirmações corretas em um contexto, mas erradas em outro, exigindo que o candidato compreenda a aplicação prática da teoria."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Ciclo Orçamentário Ampliado: Integra PPA, LDO e LOA.",
+      "Créditos Adicionais: Suplementares, Especiais e Extraordinários.",
+      "Princípios da Ordem Econômica: Livre concorrência, função social da propriedade.",
+      "Competência Tributária: Repartição entre União, Estados e Municípios.",
+      "Imunidades: Templos religiosos, instituições filantrópicas e partidos políticos.",
+      "Empréstimos Compulsórios: Condições e limites estabelecidos pela Constituição."
+    ],
+    "alertas_e_excecoes": [
+      "A reabertura de créditos especiais e extraordinários é permitida apenas se autorizados nos últimos quatro meses do exercício.",
+      "A imunidade de templos religiosos se estende a atividades assistenciais, conforme a EC n. 132/2023.",
+      "O princípio da anterioridade se aplica a empréstimos compulsórios, exigindo um prazo mínimo antes da cobrança."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 74 questões reais)",
+    "qtd_questoes_base": 74
+  },
+  "Direitos da Nacionalidade": {
+    "roteiro_exposicao_30min": [
+      "1. Conceito de Nacionalidade: Definição e Importância.",
+      "2. Tipos de Nacionalidade: Natos e Naturalizados.",
+      "3. Critérios de Nacionalidade: Jus Soli e Jus Sanguinis.",
+      "4. Naturalização: Ordinária e Extraordinária.",
+      "5. Efeitos da Naturalização: Direitos e Deveres.",
+      "6. Perda da Nacionalidade: Causas e Procedimentos.",
+      "7. Exceções à Perda da Nacionalidade: Apatridia e Renúncia.",
+      "8. Cargos Privativos: Distinções entre Natos e Naturalizados.",
+      "9. Jurisprudência do STF sobre Nacionalidade.",
+      "10. Direitos dos Estrangeiros e Equiparação com Nacionais.",
+      "11. Extradição: Regras para Natos e Naturalizados.",
+      "12. Quase Nacionalidade: O Caso dos Portugueses.",
+      "13. Registro e Opção pela Nacionalidade.",
+      "14. Direitos Políticos e Cidadania.",
+      "15. Análise de Questões Práticas sobre Nacionalidade."
+    ],
+    "assuntos_maior_incidencia": [
+      "Perda da Nacionalidade (23%)",
+      "Cargos Privativos de Brasileiros Natos (20%)",
+      "Naturalização (17%)",
+      "Nacionalidade Originária (14%)",
+      "Direitos dos Naturalizados (11%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que misturam conceitos de nacionalidade, como a distinção entre natos e naturalizados, levando o candidato a confundir os direitos e deveres de cada um.",
+      "Questões que abordam a perda da nacionalidade podem incluir pegadinhas sobre a necessidade de pedido expresso ou a possibilidade de apatridia, exigindo atenção redobrada.",
+      "A banca pode apresentar alternativas que parecem corretas, mas que falham em detalhes técnicos, como a exigência de registro ou residência para a nacionalidade originária."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Nacionalidade Primária: Adquirida por nascimento (jus soli e jus sanguinis).",
+      "Nacionalidade Secundária: Resultante de naturalização.",
+      "Naturalização Ordinária: Requer residência de um ano e idoneidade moral.",
+      "Naturalização Extraordinária: Requer residência de quinze anos e ausência de condenação penal.",
+      "Perda da Nacionalidade: Pode ocorrer por pedido expresso ou cancelamento de naturalização."
+    ],
+    "alertas_e_excecoes": [
+      "A perda da nacionalidade não se aplica a brasileiros natos, exceto em casos de renúncia expressa.",
+      "A aquisição de outra nacionalidade não implica perda automática da nacionalidade brasileira, conforme a EC n. 131/2023.",
+      "Cargos como Presidente e Vice-Presidente da República são privativos de brasileiros natos, não podendo ser ocupados por naturalizados."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 35 questões reais)",
+    "qtd_questoes_base": 35
+  },
+  "Direitos Sociais": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução aos Direitos Sociais: Definição e Importância",
+      "2. Eficácia das Normas Constitucionais: Diferença entre Eficácia Plena, Limitada e Contida",
+      "3. Direitos Sociais na Constituição Federal de 1988: Artigos 6º ao 11",
+      "4. A Evolução dos Direitos Sociais: Da Constituição de 1988 até Hoje",
+      "5. A Jurisprudência do STF sobre Direitos Sociais: Casos Relevantes",
+      "6. O Papel do Estado na Garantia dos Direitos Sociais: Obrigações e Limitações",
+      "7. A Judicialização dos Direitos Sociais: Quando e Como Ocorre",
+      "8. Exceções e Alertas: Cláusula da Reserva do Possível e Mínimo Existencial",
+      "9. Direitos Sociais e a Proteção ao Trabalho: Normas e Princípios",
+      "10. A Negociação Coletiva e seus Limites: Direitos Indisponíveis",
+      "11. A Inclusão de Novos Direitos Sociais: Emendas e Legislação",
+      "12. A Proteção à Maternidade e à Infância: Direitos Específicos",
+      "13. A Proteção em Face da Automação: Desafios e Omissões Legislativas",
+      "14. A Importância da Assistência Social: Direitos e Deveres do Estado",
+      "15. Conclusão: A Relevância dos Direitos Sociais na Construção de uma Sociedade Justa"
+    ],
+    "assuntos_maior_incidencia": [
+      "Direitos Sociais na CF/88 (14%)",
+      "Eficácia das Normas (11%)",
+      "Jurisprudência do STF (10%)",
+      "Proteção ao Trabalho (8%)",
+      "Negociação Coletiva (7%)",
+      "Assistência Social (5%)",
+      "Cláusula da Reserva do Possível (4%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca costuma confundir os candidatos ao misturar conceitos de eficácia das normas, levando a erros em questões sobre a aplicabilidade imediata dos direitos sociais.",
+      "Questões que abordam a jurisprudência do STF podem apresentar alternativas que parecem corretas, mas que na verdade distorcem o entendimento do que foi decidido, exigindo atenção aos detalhes.",
+      "As questões frequentemente utilizam linguagem técnica que pode confundir, especialmente em relação a direitos que dependem de regulamentação, como a proteção em face da automação."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Direitos Sociais: Direitos fundamentais de 2ª geração que garantem condições mínimas de vida.",
+      "Eficácia Limitada: Normas que dependem de regulamentação para produzir efeitos.",
+      "Cláusula da Reserva do Possível: Limitação da implementação de direitos sociais em função da disponibilidade orçamentária.",
+      "Mínimo Existencial: Conjunto de condições necessárias para a manutenção da dignidade humana.",
+      "Negociação Coletiva: Processo que permite a negociação de direitos trabalhistas, respeitando limites constitucionais."
+    ],
+    "alertas_e_excecoes": [
+      "A proteção à maternidade e à infância é considerada cláusula pétrea, não podendo ser alterada por emenda constitucional.",
+      "A cláusula da reserva do possível não pode ser utilizada para descumprir direitos sociais que garantam o mínimo existencial.",
+      "O STF reconheceu a omissão inconstitucional do Congresso Nacional em relação à regulamentação de direitos sociais, fixando prazos para a edição de leis."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 73 questões reais)",
+    "qtd_questoes_base": 73
+  },
+  "Poder Executivo": {
+    "roteiro_exposicao_30min": [
+      "1. Competências do Presidente da República: Sancionar, promulgar e publicar leis.",
+      "2. Delegação de atribuições: Ministros de Estado, Procurador-Geral e Advogado-Geral.",
+      "3. Indulto e comutação de penas: Competência privativa e possibilidade de delegação.",
+      "4. Processo de impeachment: Admissão pela Câmara e julgamento pelo Senado.",
+      "5. Crimes de responsabilidade: Definição e consequências para o Presidente.",
+      "6. Imunidade do Presidente: Infrações penais comuns durante o mandato.",
+      "7. Sucessão no Poder Executivo: Linha sucessória e procedimentos em caso de vacância.",
+      "8. Medidas Provisórias: Limitações e proibições na edição.",
+      "9. Veto presidencial: Procedimentos e limites constitucionais.",
+      "10. Controle social e promoção pessoal: Limitações na publicidade do Executivo.",
+      "11. Atribuições dos Ministros de Estado: Autonomia e limites de atuação.",
+      "12. A importância do Conselho da República e do Conselho de Defesa Nacional.",
+      "13. A relação entre o Poder Executivo e o Legislativo: Propostas e aprovações.",
+      "14. A responsabilidade do Governador em relação à apresentação de contas.",
+      "15. Jurisprudência do STF sobre a autonomia dos estados em questões de sucessão."
+    ],
+    "assuntos_maior_incidencia": [
+      "Delegação de atribuições do Presidente (16%)",
+      "Processo de impeachment (12%)",
+      "Medidas Provisórias (16%)",
+      "Sucessão no Poder Executivo (12%)",
+      "Crimes de responsabilidade (12%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que misturam atribuições do Presidente com as dos Ministros, levando o candidato a confundir as competências delegáveis.",
+      "Questões sobre medidas provisórias são elaboradas de forma a incluir temas proibidos, testando o conhecimento do candidato sobre as limitações constitucionais.",
+      "A banca pode apresentar situações hipotéticas que parecem plausíveis, mas que na verdade violam a Constituição, exigindo atenção redobrada do candidato."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Art. 84 da CF/88: Competências privativas do Presidente da República.",
+      "Art. 86 da CF/88: Processo de impeachment e suas etapas.",
+      "Art. 62 da CF/88: Limitações na edição de Medidas Provisórias.",
+      "Art. 85 da CF/88: Crimes de responsabilidade do Presidente.",
+      "Art. 80 da CF/88: Linha sucessória no Poder Executivo."
+    ],
+    "alertas_e_excecoes": [
+      "A Constituição proíbe a edição de Medidas Provisórias sobre direito penal, processual penal e processual civil.",
+      "O Supremo Tribunal Federal entende que os estados têm autonomia para definir suas regras de sucessão, não sendo obrigados a seguir o modelo federal."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 25 questões reais)",
+    "qtd_questoes_base": 25
+  },
+  "Teoria dos Direitos Fundamentais": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução aos Direitos Fundamentais: Definição e Importância",
+      "2. Gerações de Direitos: Primeira, Segunda e Terceira Geração",
+      "3. Teoria dos Status de Jellinek: Relação do Indivíduo com o Estado",
+      "4. Características dos Direitos Fundamentais: Universalidade, Historicidade, Indivisibilidade",
+      "5. Eficácia Horizontal e Vertical dos Direitos Fundamentais",
+      "6. Colisão entre Direitos Fundamentais: Ponderação e Proporcionalidade",
+      "7. Direitos Fundamentais e a Constituição de 1988: Cláusulas Pétreas",
+      "8. Exceções e Limitações aos Direitos Fundamentais: Proibição do Retrocesso",
+      "9. Direitos Fundamentais e a Eficácia das Normas: Eficácia Contida e Plena",
+      "10. Direitos Fundamentais e a Jurisprudência do STF: Casos Relevantes",
+      "11. Direitos Fundamentais e a Proteção Internacional: Tratados e Convenções",
+      "12. Acesso à Justiça e Direitos Fundamentais: Acesso Material vs. Formal",
+      "13. Direitos Fundamentais e a Responsabilidade do Estado",
+      "14. Conclusão: A Relevância dos Direitos Fundamentais na Sociedade Contemporânea"
+    ],
+    "assuntos_maior_incidencia": [
+      "Direitos e garantias fundamentais (23%)",
+      "Eficácia horizontal dos direitos fundamentais (12%)",
+      "Colisão entre direitos fundamentais (10%)",
+      "Direitos fundamentais e a jurisprudência do STF (15%)",
+      "Direitos fundamentais e tratados internacionais (8%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza termos técnicos e jargões jurídicos que podem confundir o candidato, levando-o a interpretar questões de forma errada.",
+      "Questões que parecem diretas podem ter pegadinhas sutis, como a inclusão de exceções ou jurisprudências que não são amplamente conhecidas.",
+      "A banca pode apresentar enunciados que misturam conceitos de diferentes gerações de direitos, exigindo que o candidato tenha uma compreensão clara das distinções.",
+      "Alternativas que parecem corretas podem ser formuladas de maneira a induzir o candidato a escolher a resposta errada, especialmente em questões sobre eficácia e limitações dos direitos."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Direitos de primeira geração: Liberdade e direitos civis.",
+      "Direitos de segunda geração: Igualdade e direitos sociais.",
+      "Direitos de terceira geração: Solidariedade e direitos coletivos.",
+      "Eficácia horizontal: Aplicação dos direitos fundamentais nas relações privadas.",
+      "Ponderação de interesses: Técnica para resolver colisões entre direitos fundamentais.",
+      "Cláusula de reserva do possível: Limitação da implementação de direitos sociais.",
+      "Proibição do retrocesso: Os direitos fundamentais não podem ser diminuídos ou revogados."
+    ],
+    "alertas_e_excecoes": [
+      "A proibição da tortura e a proteção à dignidade humana são consideradas direitos absolutos, não admitindo restrições.",
+      "A jurisprudência do STF reconhece a eficácia horizontal dos direitos fundamentais, permitindo sua aplicação em relações entre particulares.",
+      "A cláusula de abertura da Constituição permite a inclusão de novos direitos fundamentais decorrentes de tratados internacionais."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 52 questões reais)",
+    "qtd_questoes_base": 52
+  },
+  "Administração Pública – Disposições Gerais e Servidores Públicos": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução à Administração Pública: conceitos e princípios fundamentais.",
+      "2. Disposições gerais sobre servidores públicos: acesso e requisitos.",
+      "3. Teto constitucional de remuneração: limites e exceções.",
+      "4. Incorporação de vantagens: regras e proibições.",
+      "5. Acumulação de cargos: permissões e restrições.",
+      "6. Estabilidade do servidor público: aquisição e perda.",
+      "7. Aposentadoria: regras gerais e específicas para categorias.",
+      "8. Responsabilidade civil do Estado: fundamentos e implicações.",
+      "9. Controle interno e externo na Administração Pública.",
+      "10. Processo legislativo e emendas: limites e competências.",
+      "11. Improbidade administrativa: tipos e consequências.",
+      "12. Contratos administrativos: licitação e exceções.",
+      "13. Regime jurídico dos servidores: estatutário vs. celetista.",
+      "14. Mandato eletivo e suas implicações para servidores públicos.",
+      "15. Jurisprudência relevante: decisões do STF e suas implicações."
+    ],
+    "assuntos_maior_incidencia": [
+      "Incorporação de vantagens (3%)",
+      "Teto constitucional de remuneração (4%)",
+      "Acumulação de cargos (3%)",
+      "Estabilidade do servidor público (4%)",
+      "Improbidade administrativa (3%)",
+      "Processo legislativo e emendas (3%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que parecem corretas, mas que contêm sutilezas que podem levar à confusão, como a incorporação de vantagens temporárias.",
+      "Questões que misturam conceitos de diferentes artigos da Constituição, exigindo que o candidato tenha um conhecimento profundo e contextualizado.",
+      "Uso de jurisprudência recente para testar o conhecimento atualizado do candidato, o que pode pegar desprevenidos aqueles que estudam apenas a teoria."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Art. 37 da CF/88: princípios da Administração Pública.",
+      "Art. 39 da CF/88: regime jurídico único para servidores públicos.",
+      "Art. 40 da CF/88: regras de aposentadoria e previdência dos servidores.",
+      "Art. 41 da CF/88: estabilidade do servidor público e suas condições.",
+      "Art. 37, § 9º: vedação à incorporação de vantagens temporárias.",
+      "Art. 37, XI: teto constitucional de remuneração."
+    ],
+    "alertas_e_excecoes": [
+      "A Súmula Vinculante nº 42 do STF proíbe a vinculação de reajustes a índices federais.",
+      "Exceções à proibição de acumulação de cargos estão previstas no art. 37, XVI da CF/88.",
+      "A jurisprudência do STF estabelece que a inconstitucionalidade de normas deve ser arguida por vias judiciais, não podendo o Executivo suspender leis."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 91 questões reais)",
+    "qtd_questoes_base": 91
+  },
+  "Disposições Constitucionais Gerais": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução às Disposições Constitucionais Gerais: Definição e Importância",
+      "2. Estrutura da Constituição: Princípios Fundamentais e Organização do Estado",
+      "3. Poder Legislativo: Composição, Funções e Competências",
+      "4. Processo Legislativo: Emendas à Constituição e Quórum Necessário",
+      "5. Aplicabilidade das Normas Constitucionais: Eficácia e Efeitos",
+      "6. Efeitos das Normas de Eficácia Limitada: Efeito Revogador e Efeito Paralisante",
+      "7. Imunidades Parlamentares: Conceito e Limitações",
+      "8. Patrimônio Histórico e Artístico Nacional: Definição e Proteção",
+      "9. Teoria da Supremacia Constitucional: Hierarquia das Normas",
+      "10. Interpretação das Normas Constitucionais: Métodos e Abordagens",
+      "11. Jurisprudência e Normas Constitucionais: Papel dos Tribunais",
+      "12. Exceções e Alertas: Casos Especiais na Aplicação das Normas",
+      "13. Conclusão: A Importância do Conhecimento das Disposições Constitucionais Gerais"
+    ],
+    "assuntos_maior_incidencia": [
+      "Poder Legislativo (38%)",
+      "Processo Legislativo (23%)",
+      "Aplicabilidade das Normas Constitucionais (8%)",
+      "Imunidades Parlamentares (8%)",
+      "Patrimônio Histórico e Artístico Nacional (15%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que misturam conceitos semelhantes, levando o candidato a confundir as respostas corretas com as incorretas.",
+      "As alternativas são elaboradas de forma a incluir detalhes técnicos que podem ser facilmente esquecidos, como a redação de artigos ou parágrafos específicos da Constituição.",
+      "Questões que abordam a aplicabilidade das normas constitucionais podem incluir pegadinhas sobre a eficácia das normas, levando o candidato a errar ao não considerar os efeitos mínimos das normas de eficácia limitada."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Princípio da Supremacia Constitucional: A Constituição é a norma máxima do ordenamento jurídico.",
+      "Eficácia das Normas Constitucionais: As normas podem ser de eficácia plena, contida ou limitada, dependendo de sua aplicabilidade.",
+      "Imunidade Parlamentar: Proteção dos parlamentares em relação a opiniões e votos, com exceções específicas."
+    ],
+    "alertas_e_excecoes": [
+      "As imunidades dos parlamentares podem ser suspensas em casos específicos, como durante o estado de sítio, conforme o § 8º do Art. 53.",
+      "Normas de eficácia limitada não são totalmente ineficazes; elas podem ter efeitos mínimos desde sua promulgação, como o efeito revogador sobre normas infraconstitucionais."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 13 questões reais)",
+    "qtd_questoes_base": 13
+  },
+  "Funções Essenciais à Justiça": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução às Funções Essenciais à Justiça: Definição e Importância.",
+      "2. Estrutura do Ministério Público: Hierarquia e Funções.",
+      "3. Advocacia Pública: Papel e Responsabilidades.",
+      "4. Defensoria Pública: Funções e Legitimidade.",
+      "5. Advocacia Privada: Diferenças e Interações com as Funções Essenciais.",
+      "6. Autonomia das Funções Essenciais à Justiça: Aspectos Constitucionais.",
+      "7. Controle Externo e a Atuação do Tribunal de Contas.",
+      "8. Súmulas Vinculantes do STF: Efeitos e Aplicações.",
+      "9. Princípios Institucionais do Ministério Público e Defensoria Pública.",
+      "10. A Nomeação e Destituição do Procurador-Geral da República.",
+      "11. Competências do Ministério Público e Advocacia Pública.",
+      "12. Jurisprudência Relevante sobre Funções Essenciais à Justiça.",
+      "13. Exceções e Alertas na Aplicação das Funções Essenciais.",
+      "14. Interação entre as Funções Essenciais e o Poder Judiciário.",
+      "15. Conclusão: A Importância das Funções Essenciais à Justiça na Democracia."
+    ],
+    "assuntos_maior_incidencia": [
+      "Ministério Público (38%)",
+      "Defensoria Pública (25%)",
+      "Advocacia Pública (19%)",
+      "Súmulas Vinculantes do STF (25%)",
+      "Autonomia das Funções Essenciais (19%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que misturam conceitos, levando o candidato a confundir as atribuições do Ministério Público com as da Defensoria Pública.",
+      "Questões que parecem corretas à primeira vista, mas que contêm exceções ou detalhes sutis que alteram seu sentido, como a aplicação das súmulas vinculantes.",
+      "A inclusão de jurisprudências que não são amplamente conhecidas, exigindo do candidato um conhecimento mais profundo e específico."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Funções Essenciais à Justiça: Ministério Público, Advocacia Pública, Defensoria Pública e Advocacia Privada.",
+      "Autonomia Funcional: Garantia constitucional que assegura a independência das funções essenciais.",
+      "Súmulas Vinculantes: Efeitos vinculantes em relação à administração pública e ao Judiciário.",
+      "Princípios Institucionais: Unidade, indivisibilidade e independência funcional do Ministério Público e Defensoria Pública."
+    ],
+    "alertas_e_excecoes": [
+      "A vedação ao exercício da advocacia para membros do Ministério Público é absoluta, enquanto para a Defensoria Pública é restrita às suas atribuições.",
+      "Exceções nas competências do Tribunal de Contas, que não se aplicam a todos os atos administrativos.",
+      "Jurisprudência do STF que declara inconstitucional normas que permitem a ocupantes de cargos em comissão exercerem funções de procurador estadual."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 16 questões reais)",
+    "qtd_questoes_base": 16
+  },
+  "Poder Legislativo": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução ao Poder Legislativo: Estrutura e Funções",
+      "2. Composição do Congresso Nacional: Câmara dos Deputados e Senado Federal",
+      "3. Processo Legislativo: Etapas e Regras",
+      "4. Veto Presidencial: Procedimentos e Consequências",
+      "5. Emendas Parlamentares: Limites e Jurisprudência",
+      "6. Comissões Parlamentares de Inquérito: Poderes e Limitações",
+      "7. Iniciativa Legislativa: Competências e Vícios",
+      "8. Reeleição na Mesa Diretora: Regras e Jurisprudência",
+      "9. Controle Externo: Papel dos Tribunais de Contas",
+      "10. Direitos e Garantias Fundamentais no Processo Legislativo",
+      "11. Autonomia dos Estados e Municípios: Limites e Competências",
+      "12. Jurisprudência do STF sobre o Poder Legislativo",
+      "13. Intervenção Federal e Controle Legislativo",
+      "14. Importância da LDO e PPA no Planejamento Orçamentário",
+      "15. Conclusão: Desafios e Perspectivas do Poder Legislativo"
+    ],
+    "assuntos_maior_incidencia": [
+      "Veto Presidencial (4%)",
+      "Comissões Parlamentares de Inquérito (6%)",
+      "Reeleição na Mesa Diretora (4%)",
+      "Iniciativa Legislativa (6%)",
+      "Processo Legislativo (7%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente confunde os papéis da Câmara e do Senado em processos de impeachment, levando a erros comuns sobre quem julga e quem autoriza.",
+      "Questões sobre a convocação de governadores por CPIs são armadilhas, pois a banca pode afirmar que a convocação é obrigatória, quando na verdade é apenas um convite.",
+      "A banca pode explorar a diferença entre normas de iniciativa privativa e concorrente, levando o candidato a confundir as competências legislativas."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "O Congresso Nacional é composto por duas casas: a Câmara dos Deputados e o Senado Federal, cada uma com funções e competências específicas.",
+      "O veto presidencial deve ser apreciado pelo Congresso Nacional, e o prazo para essa apreciação não gera caducidade da prerrogativa legislativa.",
+      "As Comissões Parlamentares de Inquérito têm poderes de investigação, mas não podem convocar governadores, apenas convidá-los.",
+      "A reeleição para a Mesa Diretora é limitada a uma única vez, conforme jurisprudência do STF.",
+      "A iniciativa legislativa pode ser privativa ou concorrente, e a falta de observância das regras pode levar à inconstitucionalidade da norma."
+    ],
+    "alertas_e_excecoes": [
+      "A jurisprudência do STF estabelece que a falta de aprovação da LDO não impede a interrupção da sessão legislativa.",
+      "O vício de iniciativa não é convalidado pela sanção presidencial, conforme entendimento do STF.",
+      "As normas sobre reeleição na Mesa Diretora não são de reprodução obrigatória pelos estados, mas devem respeitar limites constitucionais."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 70 questões reais)",
+    "qtd_questoes_base": 70
+  },
+  "Direitos Políticos": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução aos Direitos Políticos: Definição e Importância",
+      "2. Classificação dos Direitos Políticos: Positivos e Negativos",
+      "3. Condições de Elegibilidade: Requisitos para Candidatura",
+      "4. Capacidade Eleitoral: Ativa e Passiva",
+      "5. Sufrágio: Conceito e Tipos",
+      "6. Voto: Características e Regras",
+      "7. Inelegibilidade: Tipos e Implicações",
+      "8. Suspensão e Perda dos Direitos Políticos: Diferenças e Consequências",
+      "9. Imunidade Parlamentar: Limites e Aplicações",
+      "10. Consultas Populares: Plebiscito e Referendo",
+      "11. Jurisprudência Relevante: Casos e Decisões do STF",
+      "12. Exceções e Alertas: Situações Especiais nos Direitos Políticos",
+      "13. Papel dos Partidos Políticos: Filiação e Autonomia",
+      "14. Ação Popular: Legitimidade e Procedimentos",
+      "15. Conclusão: A Importância da Participação Cidadã"
+    ],
+    "assuntos_maior_incidencia": [
+      "Condições de Elegibilidade (21%)",
+      "Inelegibilidade (18%)",
+      "Suspensão e Perda dos Direitos Políticos (15%)",
+      "Imunidade Parlamentar (8%)",
+      "Sufrágio e Voto (13%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza termos técnicos e jargões jurídicos que podem confundir o candidato, levando-o a interpretar incorretamente as questões.",
+      "Questões que parecem simples podem esconder nuances legais, como a diferença entre suspensão e perda de direitos políticos, levando a erros comuns.",
+      "A inclusão de jurisprudência recente pode desviar a atenção do candidato, que pode não estar atualizado sobre as últimas decisões do STF.",
+      "Alternativas que parecem corretas à primeira vista podem conter erros sutis, como a omissão de requisitos específicos para elegibilidade ou inelegibilidade."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Direitos Políticos: Conjunto de normas que garantem a participação do cidadão na vida política.",
+      "Condições de Elegibilidade: Requisitos que um candidato deve atender para se candidatar a um cargo eletivo.",
+      "Inelegibilidade: Situações que impedem um cidadão de se candidatar a cargos públicos.",
+      "Suspensão dos Direitos Políticos: Interrupção temporária do exercício dos direitos políticos, sem perda definitiva.",
+      "Perda dos Direitos Políticos: Extinção definitiva dos direitos políticos, geralmente em decorrência de condenação criminal."
+    ],
+    "alertas_e_excecoes": [
+      "A inelegibilidade reflexa se aplica a cônjuges e parentes de chefes do Executivo, mas não impede a candidatura se o cônjuge já possui mandato.",
+      "A suspensão dos direitos políticos não é automática em caso de prisão cautelar, apenas em condenação transitada em julgado.",
+      "A obrigatoriedade do voto é a única característica do sufrágio que não é cláusula pétrea, podendo ser alterada por emenda constitucional."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 39 questões reais)",
+    "qtd_questoes_base": 39
+  },
+  "Controle de Constitucionalidade": {
+    "roteiro_exposicao_30min": [
+      "1. Conceito de Controle de Constitucionalidade: Definição e Importância.",
+      "2. Tipos de Controle de Constitucionalidade: Difuso e Concentrado.",
+      "3. Legitimidade para Propor Ação Direta de Inconstitucionalidade (ADI) e Ação Declaratória de Constitucionalidade (ADC).",
+      "4. Efeitos das Decisões do STF: Eficácia Erga Omnes e Efeito Vinculante.",
+      "5. Procedimento das Ações Diretas de Inconstitucionalidade e Declaratórias de Constitucionalidade.",
+      "6. Controle de Emendas Constitucionais: Limites e Possibilidade de Controle.",
+      "7. Cláusula de Reserva de Plenário: Aplicação e Exceções.",
+      "8. Ação Direta de Inconstitucionalidade por Omissão (ADO) e Arguição de Descumprimento de Preceito Fundamental (ADPF).",
+      "9. Efeito Repristinatório e Modulação de Efeitos das Decisões do STF.",
+      "10. Jurisprudência do STF sobre Controle de Constitucionalidade: Casos Relevantes.",
+      "11. Competência dos Tribunais de Contas e Controle Externo da Administração Pública.",
+      "12. Interpretação Constitucional e suas Implicações no Controle de Constitucionalidade.",
+      "13. A Importância da Segurança Jurídica no Controle de Constitucionalidade.",
+      "14. O Papel do Ministério Público no Controle de Constitucionalidade.",
+      "15. Conclusão: A Relevância do Controle de Constitucionalidade para a Democracia."
+    ],
+    "assuntos_maior_incidencia": [
+      "Controle Difuso e Concentrado (11%)",
+      "Legitimidade para Propor ADI e ADC (9%)",
+      "Efeitos das Decisões do STF (7%)",
+      "Cláusula de Reserva de Plenário (5%)",
+      "Controle de Emendas Constitucionais (4%)",
+      "Ação Direta de Inconstitucionalidade por Omissão (4%)",
+      "Modulação de Efeitos (4%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que misturam conceitos de controle difuso e concentrado, levando o candidato a confundir as características de cada um.",
+      "Questões que abordam a legitimidade para propor ADI e ADC podem incluir detalhes sutis que exigem atenção ao texto da Constituição, podendo levar a erros se o candidato não estiver atento.",
+      "A banca pode apresentar alternativas que parecem corretas, mas que contêm erros sutis, como a interpretação errada de cláusulas ou a aplicação de normas em contextos inadequados."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Controle de Constitucionalidade: Mecanismo que assegura que as normas infraconstitucionais estejam em conformidade com a Constituição.",
+      "Efeito Erga Omnes: As decisões do STF em ADI e ADC têm efeito vinculante e são aplicáveis a todos.",
+      "Cláusula de Reserva de Plenário: Exige que a declaração de inconstitucionalidade seja feita por maioria absoluta do tribunal.",
+      "Efeito Repristinatório: A restauração automática de normas revogadas quando uma norma revogadora é declarada inconstitucional.",
+      "Legitimidade: Apenas certos órgãos e entidades têm o direito de propor ações diretas de inconstitucionalidade."
+    ],
+    "alertas_e_excecoes": [
+      "A ADPF pode ser utilizada para atacar omissões do poder público que violem preceitos fundamentais.",
+      "As emendas constitucionais podem ser objeto de controle de constitucionalidade, especialmente em relação a cláusulas pétreas.",
+      "A jurisprudência do STF tem reconhecido a possibilidade de modulação de efeitos das decisões, o que deve ser considerado em casos de inconstitucionalidade."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 56 questões reais)",
+    "qtd_questoes_base": 56
+  },
+  "Ordem Social": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução à Ordem Social: Definição e Importância",
+      "2. Princípios da Seguridade Social: Universalidade, Equidade e Diversidade de Financiamento",
+      "3. Estrutura da Seguridade Social: Saúde, Previdência e Assistência Social",
+      "4. Competências Legislativas: União, Estados e Municípios",
+      "5. Proteção do Meio Ambiente: Princípios e Normas Constitucionais",
+      "6. Patrimônio Cultural e Histórico: Importância e Proteção Legal",
+      "7. Ação Popular e Ação Civil Pública: Instrumentos de Proteção Coletiva",
+      "8. Precatórios e a Nova Disciplina Constitucional: Emenda 136/2025",
+      "9. Função Social da Propriedade: Conceito e Aplicações",
+      "10. Licenciamento Ambiental: Competência e Jurisprudência",
+      "11. Direitos Transindividuais: Meio Ambiente e Patrimônio Cultural",
+      "12. Interpretação Jurídica: Métodos e Aplicações Práticas",
+      "13. Conflitos Fundiários: Abordagens e Soluções Constitucionais",
+      "14. Responsabilidade por Dano Ambiental: Normas e Competências",
+      "15. Conclusão: A Ordem Social na Prática e Desafios Futuros"
+    ],
+    "assuntos_maior_incidencia": [
+      "Seguridade Social (18%)",
+      "Meio Ambiente (21%)",
+      "Patrimônio Cultural (9%)",
+      "Ação Popular (6%)",
+      "Precatórios (6%)",
+      "Função Social da Propriedade (6%)",
+      "Licenciamento Ambiental (6%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que misturam conceitos semelhantes, levando o candidato a confundir termos técnicos.",
+      "As alternativas são elaboradas de forma a incluir informações corretas, mas que não respondem diretamente à pergunta, criando distrações.",
+      "Questões que exigem conhecimento de jurisprudência são apresentadas sem o devido contexto, dificultando a resposta correta.",
+      "A banca pode incluir enunciados longos e complexos que escondem a verdadeira essência da pergunta, exigindo atenção redobrada."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Seguridade Social: Sistema integrado que abrange saúde, previdência e assistência social, financiado por toda a sociedade.",
+      "Função Social da Propriedade: A propriedade deve atender a sua função social, respeitando normas ambientais e trabalhistas.",
+      "Meio Ambiente: Direito fundamental que deve ser protegido pelo Estado e pela sociedade, com ênfase na prevenção e na responsabilidade.",
+      "Ação Popular: Instrumento jurídico que permite a qualquer cidadão questionar atos lesivos ao patrimônio público e ao meio ambiente."
+    ],
+    "alertas_e_excecoes": [
+      "A vacinação compulsória é constitucional, mas deve respeitar a liberdade individual, conforme jurisprudência do STF.",
+      "A dispensa de licenciamento ambiental para atividades potencialmente degradadoras é inconstitucional, conforme decisões do STF.",
+      "A função social da propriedade pode levar à desapropriação em casos de descumprimento das normas ambientais e trabalhistas."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 34 questões reais)",
+    "qtd_questoes_base": 34
+  },
+  "Partidos Políticos": {
+    "roteiro_exposicao_30min": [
+      "1. Importância dos partidos políticos no Estado democrático de direito.",
+      "2. Definição e características dos partidos políticos segundo a CF/88.",
+      "3. Autonomia dos partidos políticos e suas implicações.",
+      "4. Requisitos para acesso ao fundo partidário e à propaganda gratuita.",
+      "5. Cláusula de barreira e suas consequências para os partidos.",
+      "6. Fusão, incorporação e extinção de partidos políticos.",
+      "7. Proibições e restrições aos partidos políticos.",
+      "8. Direitos e deveres dos partidos políticos na prestação de contas.",
+      "9. Jurisprudência do STF sobre partidos políticos e suas implicações.",
+      "10. A importância da fidelidade partidária e suas consequências.",
+      "11. O papel dos partidos na formação de maiorias e minorias no legislativo.",
+      "12. A relação entre partidos políticos e a sociedade civil.",
+      "13. A influência das emendas constitucionais sobre os partidos políticos.",
+      "14. A questão da representação política e a legitimidade dos partidos.",
+      "15. O impacto das novas emendas constitucionais sobre a participação política."
+    ],
+    "assuntos_maior_incidencia": [
+      "Autonomia dos partidos políticos (31%)",
+      "Cláusula de barreira (25%)",
+      "Fidelidade partidária (19%)",
+      "Requisitos para acesso ao fundo partidário (25%)",
+      "Criação e fusão de partidos (19%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que misturam conceitos básicos com detalhes específicos da legislação, levando o candidato a confundir regras gerais com exceções.",
+      "As questões podem apresentar enunciados complexos que exigem atenção redobrada, fazendo com que o candidato se perca em informações irrelevantes.",
+      "A banca pode incluir jurisprudências recentes que não são amplamente conhecidas, testando o conhecimento atualizado do candidato sobre decisões do STF."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Os partidos políticos são entidades de direito privado essenciais para a democracia.",
+      "A autonomia dos partidos é garantida pela CF, permitindo que definam sua estrutura interna.",
+      "A cláusula de barreira estabelece requisitos para que partidos tenham acesso a recursos públicos.",
+      "A fidelidade partidária implica que representantes eleitos não podem se desfiliar sem consequências.",
+      "A criação e fusão de partidos devem respeitar a legislação vigente e os princípios constitucionais."
+    ],
+    "alertas_e_excecoes": [
+      "A EC nº 111/2021 estabelece que sanções aplicadas a partidos incorporados não se aplicam ao partido incorporador.",
+      "A jurisprudência do STF pode alterar a interpretação de normas, como a cláusula de barreira, que foi considerada inconstitucional em sua forma anterior.",
+      "A proibição de recebimento de recursos de entidades estrangeiras é uma proteção à soberania nacional, mas deve ser compreendida em seu contexto."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 16 questões reais)",
+    "qtd_questoes_base": 16
+  },
+  "Organização Político-Administrativa do Estado": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução ao Federalismo Brasileiro: Definição e Estrutura",
+      "2. Entes Federativos: União, Estados, Municípios e Distrito Federal",
+      "3. Autonomia dos Entes Federativos: Conceito e Exercício",
+      "4. Competências dos Entes Federativos: Repartição e Hierarquia",
+      "5. Princípios do Estado Democrático de Direito: Importância e Aplicação",
+      "6. Intervenção Federal e Estadual: Requisitos e Procedimentos",
+      "7. Criação e Organização dos Municípios: Regras e Limitações",
+      "8. Regiões Metropolitanas: Definição e Criação",
+      "9. Controle Externo e Fiscalização: Papel dos Tribunais de Contas",
+      "10. Jurisprudência do STF: Casos Relevantes sobre Competências",
+      "11. Desafios e Conflitos na Repartição de Competências",
+      "12. A Laicidade do Estado e a Proibição de Cultos Religiosos",
+      "13. A Evolução Histórica do Federalismo no Brasil",
+      "14. Conclusão: A Importância da Organização Político-Administrativa"
+    ],
+    "assuntos_maior_incidencia": [
+      "Autonomia dos Entes Federativos (15%)",
+      "Competências dos Entes Federativos (24%)",
+      "Intervenção Federal e Estadual (12%)",
+      "Criação e Organização dos Municípios (18%)",
+      "Regiões Metropolitanas (9%)",
+      "Controle Externo e Fiscalização (9%)",
+      "Laicidade do Estado (6%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que misturam conceitos de competência legislativa, induzindo o candidato a confundir competências privativas e concorrentes.",
+      "Questões que abordam a criação de municípios e regiões metropolitanas podem apresentar alternativas que parecem corretas, mas que desconsideram a necessidade de plebiscito ou lei complementar, levando a erros.",
+      "A banca pode apresentar enunciados que parecem simples, mas que contêm nuances sobre a autonomia dos entes federativos que podem ser facilmente ignoradas."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Autonomia: Capacidade dos entes federativos de se auto-organizarem, autolegislação, autoadministração e autogoverno.",
+      "Competência Privativa: Atribuições que somente a União pode legislar, como defesa nacional e relações internacionais.",
+      "Competência Concorrente: União estabelece normas gerais, enquanto os Estados podem suplementar essas normas.",
+      "Intervenção: Mecanismo de controle que pode ser federal ou estadual, utilizado em situações de crise ou desrespeito a princípios constitucionais."
+    ],
+    "alertas_e_excecoes": [
+      "A criação, fusão e desmembramento de Municípios requerem lei complementar federal e plebiscito, conforme o art. 18, § 4º da CF/88.",
+      "A União não pode estabelecer cultos religiosos, conforme o art. 19 da CF/88, mas pode colaborar com interesses públicos.",
+      "A jurisprudência do STF tem reafirmado a inconstitucionalidade de normas que invadem competências dos Municípios, especialmente em matéria de interesse local."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 33 questões reais)",
+    "qtd_questoes_base": 33
+  },
+  "Direitos Individuais - Remédios Constitucionais e Garantias Processuais": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução aos Direitos Individuais e Remédios Constitucionais: Definições e Importância.",
+      "2. Garantias Processuais: Ampla Defesa e Contraditório.",
+      "3. Remédios Constitucionais: Conceito e Classificação.",
+      "4. Habeas Corpus: Cabimento e Procedimento.",
+      "5. Mandado de Segurança: Características e Legitimidade.",
+      "6. Mandado de Injunção: Finalidade e Aplicação.",
+      "7. Ação Popular: Legitimidade e Procedimento.",
+      "8. Habeas Data: Acesso e Retificação de Dados Pessoais.",
+      "9. Princípios Constitucionais Relacionados aos Remédios: Publicidade, Moralidade e Eficiência.",
+      "10. Jurisprudência do STF sobre Remédios Constitucionais: Casos Relevantes.",
+      "11. Responsabilidade Civil do Estado: Erro Judiciário e Indenização.",
+      "12. Exceções e Limitações aos Direitos Individuais: Análise Crítica.",
+      "13. Interpretação e Aplicação dos Remédios Constitucionais na Prática.",
+      "14. Conclusão: A Importância dos Remédios Constitucionais na Proteção dos Direitos Individuais."
+    ],
+    "assuntos_maior_incidencia": [
+      "Habeas Corpus (14%)",
+      "Mandado de Segurança (19%)",
+      "Ação Popular (10%)",
+      "Mandado de Injunção (7%)",
+      "Habeas Data (7%)",
+      "Responsabilidade Civil do Estado (10%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que misturam conceitos, levando o candidato a confundir remédios constitucionais com outros instrumentos jurídicos.",
+      "Questões que apresentam situações hipotéticas complexas, exigindo do candidato uma análise detalhada e interpretação cuidadosa das normas.",
+      "Uso de pegadinhas em alternativas que parecem corretas, mas que contêm sutilezas que as tornam erradas, como a inclusão de requisitos não previstos na legislação."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Habeas Corpus: Protege a liberdade de locomoção contra ilegalidade ou abuso de poder.",
+      "Mandado de Segurança: Protege direito líquido e certo não amparado por habeas corpus ou habeas data.",
+      "Ação Popular: Qualquer cidadão pode propor para anular ato lesivo ao patrimônio público.",
+      "Mandado de Injunção: Utilizado quando a falta de norma regulamentadora inviabiliza o exercício de direitos constitucionais.",
+      "Habeas Data: Assegura o conhecimento e a retificação de dados pessoais em registros públicos."
+    ],
+    "alertas_e_excecoes": [
+      "A responsabilidade civil do Estado é objetiva, mas pode haver direito de regresso em casos de dolo ou culpa.",
+      "O mandado de segurança não cabe contra atos de natureza legislativa ou que envolvam discricionariedade administrativa.",
+      "A jurisprudência do STF tem reafirmado a necessidade de prévia recusa administrativa para a impetração de habeas data."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 42 questões reais)",
+    "qtd_questoes_base": 42
+  },
+  "Poder Judiciário": {
+    "roteiro_exposicao_30min": [
+      "1. Estrutura do Poder Judiciário: Composição e órgãos principais.",
+      "2. Funções do Poder Judiciário: Julgamento de litígios e controle de constitucionalidade.",
+      "3. Supremo Tribunal Federal (STF): Competências e atribuições.",
+      "4. Conselho Nacional de Justiça (CNJ): Funções e limitações.",
+      "5. Prerrogativas dos magistrados: Vitaliciedade e perda de cargo.",
+      "6. Ação Direta de Inconstitucionalidade (ADI): Procedimentos e requisitos.",
+      "7. Jurisprudência do STF: Importância e aplicação.",
+      "8. Competências do Senado Federal: Aprovação de autoridades e suspensão de leis.",
+      "9. Controle externo e interno no Judiciário: Funções dos Tribunais de Contas.",
+      "10. Princípios constitucionais do Ministério Público: Autonomia e independência.",
+      "11. Acesso à justiça: Direitos dos cidadãos e atuação do Judiciário.",
+      "12. Impedimentos e vedações no exercício da função jurisdicional.",
+      "13. A importância da fundamentação das decisões judiciais.",
+      "14. A relação entre o Judiciário e os demais Poderes: Limites e interações.",
+      "15. Casos práticos e jurisprudência: Análise de situações concretas."
+    ],
+    "assuntos_maior_incidencia": [
+      "Supremo Tribunal Federal (STF) (23%)",
+      "Conselho Nacional de Justiça (CNJ) (13%)",
+      "Competências do Senado Federal (10%)",
+      "Princípios do Ministério Público (10%)",
+      "Controle externo e interno no Judiciário (10%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que misturam conceitos e jurisprudência, levando o candidato a confundir as competências de diferentes órgãos do Judiciário.",
+      "As alternativas incorretas muitas vezes contêm informações parcialmente corretas, exigindo atenção redobrada para identificar a pegadinha.",
+      "Questões que abordam exceções a regras gerais são comuns, testando o conhecimento do candidato sobre nuances da legislação."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "O STF é o guardião da Constituição e possui competências originárias para julgar ações diretas de inconstitucionalidade.",
+      "O CNJ atua no controle administrativo e financeiro do Judiciário, mas não exerce função jurisdicional.",
+      "A vitaliciedade dos juízes não é absoluta, podendo haver perda de cargo em casos específicos.",
+      "A fundamentação das decisões judiciais é um requisito essencial para a validade dos atos do Judiciário."
+    ],
+    "alertas_e_excecoes": [
+      "A jurisprudência do STF estabelece que a ausência de fundamentação em decisões judiciais pode levar à nulidade do ato.",
+      "O CNJ não pode apreciar a constitucionalidade de atos administrativos, apenas sua legalidade.",
+      "A Súmula Vinculante 45 do STF determina que o foro por prerrogativa criado exclusivamente por Constituição Estadual não prevalece sobre a competência do Tribunal do Júri."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 31 questões reais)",
+    "qtd_questoes_base": 31
+  },
+  "Defesa do Estado e das Instituições Democráticas": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução à Defesa do Estado e das Instituições Democráticas: Conceitos e Importância.",
+      "2. O Conselho de Defesa Nacional: Funções e Competências.",
+      "3. Estado de Defesa: Definição, Decretação e Limitações.",
+      "4. Estado de Sítio: Diferenças em Relação ao Estado de Defesa.",
+      "5. Intervenção Federal: Hipóteses e Procedimentos.",
+      "6. Papel das Forças Armadas na Defesa do Estado.",
+      "7. Responsabilidade Civil do Estado em Ações Policiais.",
+      "8. Direitos e Garantias Fundamentais em Situações de Exceção.",
+      "9. Jurisprudência do STF sobre Segurança Pública e Direitos Humanos.",
+      "10. Análise Crítica das Medidas Excepcionais e seus Limites.",
+      "11. A Importância da Proporcionalidade nas Ações Estatais.",
+      "12. O Papel do Ministério Público nas Ações de Segurança.",
+      "13. A Relação entre Calamidade Pública e Medidas de Defesa.",
+      "14. A Necessidade de Controle Judicial nas Ações Policiais.",
+      "15. Conclusão: Desafios e Perspectivas para a Defesa do Estado."
+    ],
+    "assuntos_maior_incidencia": [
+      "Estado de Defesa (32%)",
+      "Intervenção Federal (21%)",
+      "Responsabilidade Civil do Estado (11%)",
+      "Direitos e Garantias Fundamentais (16%)",
+      "Forças Armadas (11%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza enunciados que misturam conceitos corretos e incorretos, levando o candidato a confundir as regras de decretação do estado de defesa e do estado de sítio.",
+      "Questões que afirmam a possibilidade de atuação autônoma das Forças Armadas em situações de instabilidade, quando na verdade, sua atuação depende de provocação dos Poderes constitucionais.",
+      "A inclusão de termos vagos como 'calamidade pública' sem a devida contextualização legal, confundindo o candidato sobre as medidas cabíveis."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Estado de Defesa: Medida excepcional que pode ser decretada pelo Presidente da República, com duração máxima de 30 dias, prorrogável uma vez.",
+      "Estado de Sítio: Medida mais grave que requer autorização do Congresso Nacional e é aplicada em situações de comoção grave.",
+      "Intervenção Federal: A União pode intervir nos Estados para garantir a execução de ordens judiciais ou proteger a ordem pública.",
+      "Responsabilidade Civil do Estado: O Estado é responsável objetivamente por danos causados por seus agentes durante operações policiais."
+    ],
+    "alertas_e_excecoes": [
+      "A proibição de emenda constitucional durante a vigência do estado de defesa e do estado de sítio, conforme art. 60, § 1º, da CF.",
+      "A jurisprudência do STF que estabelece que a responsabilidade do Estado não pode ser afastada pela participação da vítima em manifestações."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 19 questões reais)",
+    "qtd_questoes_base": 19
+  },
+  "Constituições Estaduais": {
+    "roteiro_exposicao_30min": [
+      "1. Introdução às Constituições Estaduais: Definição e Importância.",
+      "2. Princípios Gerais das Constituições Estaduais: Simetria com a Constituição Federal.",
+      "3. Poder Constituinte Decorrente: Conceito e Limitações.",
+      "4. Iniciativa Legislativa nas Constituições Estaduais: Regras e Exceções.",
+      "5. Controle Externo e Fiscalização: Papel das Assembleias Legislativas.",
+      "6. Emendas Constitucionais Estaduais: Processo e Efeitos.",
+      "7. Normas de Competência Legislativa: Concorrência entre Leis Estaduais e Federais.",
+      "8. Princípios da Administração Pública nas Constituições Estaduais.",
+      "9. A Importância da Lei Orgânica Municipal: Relação com a Constituição Estadual.",
+      "10. Jurisprudência do Supremo Tribunal Federal sobre Normas Estaduais.",
+      "11. Casos Práticos: Análise de Questões de Concursos sobre Constituições Estaduais.",
+      "12. Erros Comuns em Questões sobre Constituições Estaduais: Como Evitar.",
+      "13. Conclusão: A Relevância do Estudo das Constituições Estaduais para a Prática Jurídica."
+    ],
+    "assuntos_maior_incidencia": [
+      "Poder Constituinte Decorrente (23%)",
+      "Emendas Constitucionais Estaduais (15%)",
+      "Fiscalização Contábil e Orçamentária (23%)",
+      "Princípios da Administração Pública (8%)",
+      "Normas de Competência Legislativa (15%)"
+    ],
+    "anatomia_da_banca": [
+      "A banca frequentemente utiliza questões que misturam conceitos de direito federal e estadual, levando o candidato a confundir as competências e limitações de cada um.",
+      "As alternativas são elaboradas de forma a incluir detalhes que podem parecer corretos, mas que na verdade distorcem a interpretação das normas constitucionais.",
+      "Questões que exigem conhecimento específico de jurisprudência são apresentadas sem aviso prévio, pegando candidatos despreparados."
+    ],
+    "conceitos_tecnicos_vitais": [
+      "Poder Constituinte Decorrente: Capacidade dos Estados de elaborar suas próprias constituições, respeitando os princípios da Constituição Federal.",
+      "Emenda Constitucional: Modificação da Constituição Estadual que deve seguir o processo legislativo específico.",
+      "Fiscalização Contábil: Controle exercido pela Assembleia Legislativa sobre as contas do Governador e dos demais poderes."
+    ],
+    "alertas_e_excecoes": [
+      "A reserva de iniciativa legislativa não se aplica automaticamente ao poder constituinte decorrente, exceto em casos de burla ou fraude.",
+      "As normas estaduais devem respeitar os princípios da Constituição Federal, mas podem estabelecer regras mais rigorosas em determinadas áreas."
+    ],
+    "confianca_estatistica": "Média/Alta (Baseada em 13 questões reais)",
+    "qtd_questoes_base": 13
+  }
+}

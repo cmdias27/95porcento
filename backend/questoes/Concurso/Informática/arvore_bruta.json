@@ -1,0 +1,4482 @@
+[
+  {
+    "id": 419743,
+    "nome": "Conceitos básicos em Informática |"
+  },
+  {
+    "id": 405051,
+    "nome": "História e Evolução dos Computadores |"
+  },
+  {
+    "id": 419744,
+    "nome": "Conceitos sobre Processamento de Dados |"
+  },
+  {
+    "id": 419745,
+    "nome": "Unidades de Medida de Dados |"
+  },
+  {
+    "id": 419746,
+    "nome": "Unidades de Armazenamento |"
+  },
+  {
+    "id": 419747,
+    "nome": "Bit e Byte |"
+  },
+  {
+    "id": 419748,
+    "nome": "Unidades de Processamento |"
+  },
+  {
+    "id": 419749,
+    "nome": "Hertz (Hz) |"
+  },
+  {
+    "id": 419750,
+    "nome": "Unidades de Transferência |"
+  },
+  {
+    "id": 419751,
+    "nome": "Bit por Segundo (bps) |"
+  },
+  {
+    "id": 419752,
+    "nome": "Códigos |"
+  },
+  {
+    "id": 419753,
+    "nome": "ASCII (Microcomputadores) |"
+  },
+  {
+    "id": 419754,
+    "nome": "EBCDIC (Mainframes) |"
+  },
+  {
+    "id": 419755,
+    "nome": "Unicode (Idiomas Ocidentais e Orientais) |"
+  },
+  {
+    "id": 405035,
+    "nome": "Hardware |"
+  },
+  {
+    "id": 405036,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 405039,
+    "nome": "Unidades, Periféricos, Dispositivos de Entrada e Saída e Acessórios |"
+  },
+  {
+    "id": 419764,
+    "nome": "Unidades, Periféricos, Dispositivos Somente de Entrada |"
+  },
+  {
+    "id": 419765,
+    "nome": "Teclado |"
+  },
+  {
+    "id": 419766,
+    "nome": "Mouse, Trackball e Touchpad |"
+  },
+  {
+    "id": 419767,
+    "nome": "Scanner ou Escâner |"
+  },
+  {
+    "id": 419768,
+    "nome": "Mesa digitalizadora |"
+  },
+  {
+    "id": 419769,
+    "nome": "Microfone |"
+  },
+  {
+    "id": 419770,
+    "nome": "Leitor Ótico |"
+  },
+  {
+    "id": 419771,
+    "nome": "Webcam |"
+  },
+  {
+    "id": 419773,
+    "nome": "Unidades, Periféricos, Dispositivos somente de saída |"
+  },
+  {
+    "id": 419774,
+    "nome": "Caixa de som |"
+  },
+  {
+    "id": 419775,
+    "nome": "Monitor |"
+  },
+  {
+    "id": 419776,
+    "nome": "Impressora |"
+  },
+  {
+    "id": 419777,
+    "nome": "Placa de vídeo |"
+  },
+  {
+    "id": 419778,
+    "nome": "Placa de som |"
+  },
+  {
+    "id": 419779,
+    "nome": "Projetores ou Datashow |"
+  },
+  {
+    "id": 419780,
+    "nome": "Plotter |"
+  },
+  {
+    "id": 419781,
+    "nome": "Unidades, Periféricos, Dispositivos de Entrada e saída (híbridos / mistos) |"
+  },
+  {
+    "id": 419782,
+    "nome": "Monitor touch screen |"
+  },
+  {
+    "id": 419783,
+    "nome": "Unidade CD / DVD / Blu ray |"
+  },
+  {
+    "id": 419784,
+    "nome": "Disco rígido |"
+  },
+  {
+    "id": 419785,
+    "nome": "Pen drive |"
+  },
+  {
+    "id": 432752,
+    "nome": "Fax Modem |"
+  },
+  {
+    "id": 405038,
+    "nome": "Placa Mãe |"
+  },
+  {
+    "id": 419786,
+    "nome": "Chipset |"
+  },
+  {
+    "id": 419787,
+    "nome": "On-Board x Off-Board |"
+  },
+  {
+    "id": 419788,
+    "nome": "Slots |"
+  },
+  {
+    "id": 405037,
+    "nome": "UCP - Unidade Central de Processamento |"
+  },
+  {
+    "id": 419789,
+    "nome": "Unidade de Controle (UC) |"
+  },
+  {
+    "id": 419790,
+    "nome": "Unidade Lógica e Aritmética (ULA ou UAL) |"
+  },
+  {
+    "id": 419791,
+    "nome": "Registradores |"
+  },
+  {
+    "id": 419792,
+    "nome": "Fabricantes e Modelos de Processadores |"
+  },
+  {
+    "id": 419793,
+    "nome": "Multitarefa |"
+  },
+  {
+    "id": 405043,
+    "nome": "Memória Cache |"
+  },
+  {
+    "id": 419794,
+    "nome": "32bits x 64bits |"
+  },
+  {
+    "id": 405040,
+    "nome": "Registradores |"
+  },
+  {
+    "id": 419795,
+    "nome": "Tipos de Memórias |"
+  },
+  {
+    "id": 419796,
+    "nome": "Memórias Primárias ou Principais |"
+  },
+  {
+    "id": 419797,
+    "nome": "Memória RAM (Random Access Memory) |"
+  },
+  {
+    "id": 419798,
+    "nome": "Memória ROM (Read Only Memory) |"
+  },
+  {
+    "id": 419799,
+    "nome": "BIOS |"
+  },
+  {
+    "id": 419800,
+    "nome": "Setup |"
+  },
+  {
+    "id": 419801,
+    "nome": "POST |"
+  },
+  {
+    "id": 419802,
+    "nome": "Memória Cache |"
+  },
+  {
+    "id": 419803,
+    "nome": "Registradores |"
+  },
+  {
+    "id": 419804,
+    "nome": "Memórias Secundárias ou Memórias de Massa |"
+  },
+  {
+    "id": 419805,
+    "nome": "Magnética |"
+  },
+  {
+    "id": 419806,
+    "nome": "Fita Magnética |"
+  },
+  {
+    "id": 419807,
+    "nome": "Disquete |"
+  },
+  {
+    "id": 419808,
+    "nome": "Disco Rígido ou HD (hard disk) |"
+  },
+  {
+    "id": 419809,
+    "nome": "Ótica |"
+  },
+  {
+    "id": 419810,
+    "nome": "CD |"
+  },
+  {
+    "id": 419811,
+    "nome": "DVD |"
+  },
+  {
+    "id": 419812,
+    "nome": "BLU-RAY |"
+  },
+  {
+    "id": 419813,
+    "nome": "Eletrônica |"
+  },
+  {
+    "id": 419814,
+    "nome": "Cartão de Memória (SD-Secure Digital) |"
+  },
+  {
+    "id": 419815,
+    "nome": "Pen drive |"
+  },
+  {
+    "id": 419816,
+    "nome": "Disco de Estado Sólido (SSD) |"
+  },
+  {
+    "id": 419817,
+    "nome": "Memória Virtual |"
+  },
+  {
+    "id": 419818,
+    "nome": "Tipos de Transmissão |"
+  },
+  {
+    "id": 419819,
+    "nome": "Transmissão Serial |"
+  },
+  {
+    "id": 419820,
+    "nome": "Transmissão Paralela |"
+  },
+  {
+    "id": 419821,
+    "nome": "Barramentos ou Interfaces de Conexão |"
+  },
+  {
+    "id": 419822,
+    "nome": "PCI (Peripheral Component Interconnect)/ PCI Express |"
+  },
+  {
+    "id": 419823,
+    "nome": "AGP (Accelerated Graphics Port - Porta Gráfica Acelerada) |"
+  },
+  {
+    "id": 419824,
+    "nome": "USB (Universal Serial Bus) |"
+  },
+  {
+    "id": 419825,
+    "nome": "IDE ou ATA |"
+  },
+  {
+    "id": 419826,
+    "nome": "SATA (Serial ATA) |"
+  },
+  {
+    "id": 419827,
+    "nome": "SCSI (Small Computer System Interface) |"
+  },
+  {
+    "id": 419829,
+    "nome": "SAS PnP (Plug and Play) |"
+  },
+  {
+    "id": 419830,
+    "nome": "Montagem e Manutenção |"
+  },
+  {
+    "id": 419831,
+    "nome": "Dispositivos Móveis |"
+  },
+  {
+    "id": 419832,
+    "nome": "Computadores |"
+  },
+  {
+    "id": 405044,
+    "nome": "Software |"
+  },
+  {
+    "id": 405045,
+    "nome": "Tipos de Software |"
+  },
+  {
+    "id": 405046,
+    "nome": "Sistemas Operacionais |"
+  },
+  {
+    "id": 405047,
+    "nome": "Suítes de Escritório |"
+  },
+  {
+    "id": 405049,
+    "nome": "Navegadores ou Browsers |"
+  },
+  {
+    "id": 419833,
+    "nome": "Correio Eletrônico |"
+  },
+  {
+    "id": 419834,
+    "nome": "Gerenciadores de E-mail ou Clientes de E-mail |"
+  },
+  {
+    "id": 419835,
+    "nome": "Webmail |"
+  },
+  {
+    "id": 419836,
+    "nome": "Softwares Utilitários |"
+  },
+  {
+    "id": 419837,
+    "nome": "Compactadores e Descompactadores de Arquivos |"
+  },
+  {
+    "id": 419838,
+    "nome": "WinZip |"
+  },
+  {
+    "id": 419839,
+    "nome": "WinRAR |"
+  },
+  {
+    "id": 419840,
+    "nome": "Firmware |"
+  },
+  {
+    "id": 419841,
+    "nome": "Drivers |"
+  },
+  {
+    "id": 419842,
+    "nome": "Plugins |"
+  },
+  {
+    "id": 419843,
+    "nome": "Outros Softwares Aplicativos |"
+  },
+  {
+    "id": 405048,
+    "nome": "Licença de Softwares |"
+  },
+  {
+    "id": 419844,
+    "nome": "Freeware |"
+  },
+  {
+    "id": 419845,
+    "nome": "Shareware |"
+  },
+  {
+    "id": 419846,
+    "nome": "Comercial |"
+  },
+  {
+    "id": 419847,
+    "nome": "Software Livre |"
+  },
+  {
+    "id": 419848,
+    "nome": "Licença Pública Geral (GPL) |"
+  },
+  {
+    "id": 419849,
+    "nome": "Software proprietário |"
+  },
+  {
+    "id": 419850,
+    "nome": "Trial |"
+  },
+  {
+    "id": 419852,
+    "nome": "Open Source |"
+  },
+  {
+    "id": 419854,
+    "nome": "Softwares específicos de Informática |"
+  },
+  {
+    "id": 419859,
+    "nome": "Microsoft Visio |"
+  },
+  {
+    "id": 419860,
+    "nome": "Extensões de arquivos |"
+  },
+  {
+    "id": 405134,
+    "nome": "Redes de Computadores |"
+  },
+  {
+    "id": 405135,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 405136,
+    "nome": "Noções Básicas de Transmissão de Dados. |"
+  },
+  {
+    "id": 419861,
+    "nome": "Comutação de Pacotes e Comutação de Circuitos |"
+  },
+  {
+    "id": 419862,
+    "nome": "Direção de Comunicação |"
+  },
+  {
+    "id": 419863,
+    "nome": "Simplex |"
+  },
+  {
+    "id": 419864,
+    "nome": "Half-Duplex |"
+  },
+  {
+    "id": 419865,
+    "nome": "Full-Duplex |"
+  },
+  {
+    "id": 419866,
+    "nome": "Unicast |"
+  },
+  {
+    "id": 419867,
+    "nome": "Multicast |"
+  },
+  {
+    "id": 419868,
+    "nome": "Broadcast |"
+  },
+  {
+    "id": 405138,
+    "nome": "Meios de Transmissão |"
+  },
+  {
+    "id": 419869,
+    "nome": "Meios de Transmissão Guiados |"
+  },
+  {
+    "id": 419870,
+    "nome": "Cabo Coaxial |"
+  },
+  {
+    "id": 419871,
+    "nome": "Cabo Par Trançado |"
+  },
+  {
+    "id": 419872,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 419873,
+    "nome": "Cabo UTP (Unshielded Twisted Pair) |"
+  },
+  {
+    "id": 419874,
+    "nome": "Cabo STP (Shielded Twisted Pair) |"
+  },
+  {
+    "id": 419875,
+    "nome": "Padrões de Cabo de Par Trançado |"
+  },
+  {
+    "id": 419876,
+    "nome": "Fibra Óptica |"
+  },
+  {
+    "id": 419877,
+    "nome": "Conectores |"
+  },
+  {
+    "id": 405139,
+    "nome": "Meios de Transmissão Não Guiados |"
+  },
+  {
+    "id": 419878,
+    "nome": "Raios Infravermelhos |"
+  },
+  {
+    "id": 419880,
+    "nome": "Ondas de Rádio |"
+  },
+  {
+    "id": 419881,
+    "nome": "Ondas de Satélite |"
+  },
+  {
+    "id": 419882,
+    "nome": "Classificação de Redes |"
+  },
+  {
+    "id": 405162,
+    "nome": "Quanto à Dimensão, Tamanho ou Área Geográfica |"
+  },
+  {
+    "id": 419883,
+    "nome": "TAN (Tiny Area Network) |"
+  },
+  {
+    "id": 405167,
+    "nome": "PAN (Personal Area Network) |"
+  },
+  {
+    "id": 405163,
+    "nome": "LAN (Local Area Network) |"
+  },
+  {
+    "id": 419884,
+    "nome": "CAN (Campus Area Network) |"
+  },
+  {
+    "id": 405166,
+    "nome": "MAN (Metropolitan Area Network) |"
+  },
+  {
+    "id": 405164,
+    "nome": "WAN (Wide Area Network) |"
+  },
+  {
+    "id": 419886,
+    "nome": "IAN (Interplanetary Area Network) |"
+  },
+  {
+    "id": 405157,
+    "nome": "Classificação de Redes |"
+  },
+  {
+    "id": 419887,
+    "nome": "Internet |"
+  },
+  {
+    "id": 405161,
+    "nome": "Intranet |"
+  },
+  {
+    "id": 419888,
+    "nome": "Extranet |"
+  },
+  {
+    "id": 419889,
+    "nome": "VPN |"
+  },
+  {
+    "id": 419890,
+    "nome": "Backbone |"
+  },
+  {
+    "id": 405149,
+    "nome": "Classificação de Redes |"
+  },
+  {
+    "id": 405150,
+    "nome": "Ponto a ponto |"
+  },
+  {
+    "id": 405151,
+    "nome": "Barramento |"
+  },
+  {
+    "id": 405152,
+    "nome": "Anel |"
+  },
+  {
+    "id": 405153,
+    "nome": "Estrela |"
+  },
+  {
+    "id": 405154,
+    "nome": "Árvore |"
+  },
+  {
+    "id": 405155,
+    "nome": "Híbrida |"
+  },
+  {
+    "id": 405156,
+    "nome": "Mesh |"
+  },
+  {
+    "id": 419892,
+    "nome": "Equipamentos de Redes |"
+  },
+  {
+    "id": 419893,
+    "nome": "Network Interface Card (NIC ou Placa de Rede) |"
+  },
+  {
+    "id": 405160,
+    "nome": "Hub (Concentrador) |"
+  },
+  {
+    "id": 419894,
+    "nome": "Bridge (Ponte) |"
+  },
+  {
+    "id": 405158,
+    "nome": "Switch (Comutador) |"
+  },
+  {
+    "id": 419895,
+    "nome": "Switch L2 (comutador / concentrador) |"
+  },
+  {
+    "id": 419896,
+    "nome": "Switch L3 (comutador / concentrador) |"
+  },
+  {
+    "id": 419897,
+    "nome": "Router (Roteador) |"
+  },
+  {
+    "id": 405159,
+    "nome": "Access Point (Ponto de Acesso) |"
+  },
+  {
+    "id": 405148,
+    "nome": "Modem |"
+  },
+  {
+    "id": 405147,
+    "nome": "Gateway |"
+  },
+  {
+    "id": 419898,
+    "nome": "Proxy |"
+  },
+  {
+    "id": 419899,
+    "nome": "Firewall |"
+  },
+  {
+    "id": 419900,
+    "nome": "Tecnologias de Acesso à Internet |"
+  },
+  {
+    "id": 419901,
+    "nome": "Acesso Discado (Dial-Up) |"
+  },
+  {
+    "id": 419903,
+    "nome": "ADSL (Asymmetric Digital Subscriber Line) |"
+  },
+  {
+    "id": 419905,
+    "nome": "PLC (Power Line Communication)/ BPL (Broadband on Power Line) |"
+  },
+  {
+    "id": 419906,
+    "nome": "Telefonia Móvel (3G; 4G/LTE; 4,5G/LTE-Advanced-Pro; 5G) |"
+  },
+  {
+    "id": 419907,
+    "nome": "Modelo OSI/ISO |"
+  },
+  {
+    "id": 419908,
+    "nome": "Camadas e Protocolos |"
+  },
+  {
+    "id": 419909,
+    "nome": "Camada Física |"
+  },
+  {
+    "id": 419910,
+    "nome": "Padrão Ethernet (IEEE 802 3) |"
+  },
+  {
+    "id": 419911,
+    "nome": "Padrão Token Ring (IEEE 802 5) |"
+  },
+  {
+    "id": 419912,
+    "nome": "Padrão Wireless LAN (IEEE 802 11) |"
+  },
+  {
+    "id": 419913,
+    "nome": "Padrão Bluetooth (IEEE 802 15) |"
+  },
+  {
+    "id": 419914,
+    "nome": "Padrão WiMAX (IEEE 802 16) |"
+  },
+  {
+    "id": 419915,
+    "nome": "Camada de Enlace |"
+  },
+  {
+    "id": 419916,
+    "nome": "STP (SPANNING TREE PROTOCOL) |"
+  },
+  {
+    "id": 419917,
+    "nome": "Protocolo ATM |"
+  },
+  {
+    "id": 419918,
+    "nome": "X.25 e Frame Relay |"
+  },
+  {
+    "id": 419919,
+    "nome": "PPP (Point To Point Protocol) |"
+  },
+  {
+    "id": 419920,
+    "nome": "Protocolo Token Ring - 802.5 |"
+  },
+  {
+    "id": 419921,
+    "nome": "FDDI |"
+  },
+  {
+    "id": 419922,
+    "nome": "Camada de Rede |"
+  },
+  {
+    "id": 419923,
+    "nome": "IP (INTERNET PROTOCOL) |"
+  },
+  {
+    "id": 419924,
+    "nome": "IPv4 |"
+  },
+  {
+    "id": 419925,
+    "nome": "IPv6 |"
+  },
+  {
+    "id": 419926,
+    "nome": "ICMP (INTERNET CONTROL MESSAGE PROTOCOL) |"
+  },
+  {
+    "id": 419927,
+    "nome": "ARP (ADDRESS RESOLUTION PROTOCOL) |"
+  },
+  {
+    "id": 419928,
+    "nome": "IGMP (INTERNET GROUP MANAGEMENT PROTOCOL) |"
+  },
+  {
+    "id": 419929,
+    "nome": "RARP (REVERSE ADDRESS RESOLUTION PROTOCOL) |"
+  },
+  {
+    "id": 419930,
+    "nome": "NAT (NETWORK ADDRESS TRANSLATION) |"
+  },
+  {
+    "id": 419931,
+    "nome": "Camada de Transporte |"
+  },
+  {
+    "id": 405141,
+    "nome": "TCP (TRANSMISSION CONTROL PROTOCOL) |"
+  },
+  {
+    "id": 419932,
+    "nome": "UDP (USER DATAGRAM PROTOCOL) |"
+  },
+  {
+    "id": 419933,
+    "nome": "Camada de Sessão |"
+  },
+  {
+    "id": 419934,
+    "nome": "TLS (TRANSPORT LAYER SECURITY) |"
+  },
+  {
+    "id": 419935,
+    "nome": "SSL (SECURE SOCKET LAYER) |"
+  },
+  {
+    "id": 419936,
+    "nome": "NETBIOS (NETWORK BASIC INPUT/OUTPUT SYSTEM) |"
+  },
+  {
+    "id": 419937,
+    "nome": "Camada de Apresentação |"
+  },
+  {
+    "id": 419938,
+    "nome": "MIME (MULTIPURPOSE INTERNET MAIL EXTENSIONS) |"
+  },
+  {
+    "id": 419939,
+    "nome": "Camada de Aplicação |"
+  },
+  {
+    "id": 405034,
+    "nome": "SMTP (SIMPLE MAIL TRANSFER PROTOCOL) |"
+  },
+  {
+    "id": 419940,
+    "nome": "POP3 (POST OFFICE PROTOCOL, VERSÃO 3) |"
+  },
+  {
+    "id": 419941,
+    "nome": "IMAP (INTERNET MESSAGE ACCESS PROTOCOL) |"
+  },
+  {
+    "id": 419942,
+    "nome": "DHCP (DYNAMIC HOST CONFIGURATION PROTOCOL) |"
+  },
+  {
+    "id": 419943,
+    "nome": "DNS (DOMAIN NAME SYSTEM) |"
+  },
+  {
+    "id": 405144,
+    "nome": "HTTP (HYPER TEXT TRANSFER PROTOCOL) |"
+  },
+  {
+    "id": 419944,
+    "nome": "HTTPS (HYPER TEXT TRANSFER PROTOCOL SECURE) |"
+  },
+  {
+    "id": 405146,
+    "nome": "FTP (FILE TRANSFER PROTOCOL) |"
+  },
+  {
+    "id": 419945,
+    "nome": "TELNET (TELECOMMUNICATIONS NETWORKS) |"
+  },
+  {
+    "id": 419946,
+    "nome": "SSH (SECURE SHELL) |"
+  },
+  {
+    "id": 419947,
+    "nome": "RC (INTERNET RELAY CHAT) |"
+  },
+  {
+    "id": 419948,
+    "nome": "SNMP (SIMPLE NETWORK MANAGEMENT PROTOCOL) |"
+  },
+  {
+    "id": 419950,
+    "nome": "Arquitetura TCP/IP |"
+  },
+  {
+    "id": 419951,
+    "nome": "Camadas e Protocolos |"
+  },
+  {
+    "id": 419952,
+    "nome": "Camada de Interface/Acesso à Rede |"
+  },
+  {
+    "id": 419953,
+    "nome": "Padrão Ethernet (IEEE 802 3) |"
+  },
+  {
+    "id": 419955,
+    "nome": "Padrão Wireless LAN (IEEE 802 11) |"
+  },
+  {
+    "id": 419956,
+    "nome": "Padrão Bluetooth (IEEE 802 15) |"
+  },
+  {
+    "id": 419957,
+    "nome": "Padrão WiMAX (IEEE 802 16) |"
+  },
+  {
+    "id": 419958,
+    "nome": "STP (SPANNING TREE PROTOCOL) |"
+  },
+  {
+    "id": 419959,
+    "nome": "Protocolos e Tecnologias da Camada de Acesso à Rede |"
+  },
+  {
+    "id": 419960,
+    "nome": "Protocolo ATM |"
+  },
+  {
+    "id": 419961,
+    "nome": "X.25 e Frame Relay |"
+  },
+  {
+    "id": 419962,
+    "nome": "PPP (Point To Point Protocol) |"
+  },
+  {
+    "id": 419965,
+    "nome": "Camada de Internet |"
+  },
+  {
+    "id": 419966,
+    "nome": "IP (INTERNET PROTOCOL) |"
+  },
+  {
+    "id": 419967,
+    "nome": "IPv4 |"
+  },
+  {
+    "id": 419968,
+    "nome": "IPv6 |"
+  },
+  {
+    "id": 419969,
+    "nome": "ICMP (INTERNET CONTROL MESSAGE PROTOCOL) |"
+  },
+  {
+    "id": 419970,
+    "nome": "ARP (ADDRESS RESOLUTION PROTOCOL) |"
+  },
+  {
+    "id": 419971,
+    "nome": "IGMP (INTERNET GROUP MANAGEMENT PROTOCOL) |"
+  },
+  {
+    "id": 419972,
+    "nome": "RARP (REVERSE ADDRESS RESOLUTION PROTOCOL) |"
+  },
+  {
+    "id": 419973,
+    "nome": "NAT (NETWORK ADDRESS TRANSLATION) |"
+  },
+  {
+    "id": 419974,
+    "nome": "Camada de Transporte |"
+  },
+  {
+    "id": 419975,
+    "nome": "TCP (TRANSMISSION CONTROL PROTOCOL) |"
+  },
+  {
+    "id": 419976,
+    "nome": "UDP (USER DATAGRAM PROTOCOL) |"
+  },
+  {
+    "id": 419977,
+    "nome": "Camada de Aplicação |"
+  },
+  {
+    "id": 419978,
+    "nome": "SMTP (SIMPLE MAIL TRANSFER PROTOCOL) |"
+  },
+  {
+    "id": 419979,
+    "nome": "POP3 (POST OFFICE PROTOCOL, VERSÃO 3) |"
+  },
+  {
+    "id": 419980,
+    "nome": "IMAP (INTERNET MESSAGE ACCESS PROTOCOL) |"
+  },
+  {
+    "id": 419981,
+    "nome": "DHCP (DYNAMIC HOST CONFIGURATION PROTOCOL) |"
+  },
+  {
+    "id": 419982,
+    "nome": "DNS (DOMAIN NAME SYSTEM) |"
+  },
+  {
+    "id": 419983,
+    "nome": "HTTP (HYPER TEXT TRANSFER PROTOCOL) |"
+  },
+  {
+    "id": 419984,
+    "nome": "HTTPS (HYPER TEXT TRANSFER PROTOCOL SECURE) |"
+  },
+  {
+    "id": 419985,
+    "nome": "FTP (FILE TRANSFER PROTOCOL) |"
+  },
+  {
+    "id": 419986,
+    "nome": "TELNET (TELECOMMUNICATIONS NETWORKS) |"
+  },
+  {
+    "id": 419987,
+    "nome": "SSH (SECURE SHELL) |"
+  },
+  {
+    "id": 419988,
+    "nome": "IRC (INTERNET RELAY CHAT) |"
+  },
+  {
+    "id": 419989,
+    "nome": "SNMP (SIMPLE NETWORK MANAGEMENT PROTOCOL) |"
+  },
+  {
+    "id": 419990,
+    "nome": "RTSP (REAL TIME STREAMING PROTOCOL) |"
+  },
+  {
+    "id": 419991,
+    "nome": "Cabeamento Estruturado |"
+  },
+  {
+    "id": 419992,
+    "nome": "Definições e Conceitos |"
+  },
+  {
+    "id": 419993,
+    "nome": "Subsistemas de Cabeamento Estruturado |"
+  },
+  {
+    "id": 419994,
+    "nome": "Cabeamento Horizontal |"
+  },
+  {
+    "id": 419995,
+    "nome": "Cabeamento Backbone |"
+  },
+  {
+    "id": 419998,
+    "nome": "Sala de Equipamentos |"
+  },
+  {
+    "id": 419999,
+    "nome": "Entrada do Edifício |"
+  },
+  {
+    "id": 420000,
+    "nome": "Fibre Channel |"
+  },
+  {
+    "id": 405050,
+    "nome": "Internet |"
+  },
+  {
+    "id": 405052,
+    "nome": "Conceitos Gerais e Funcionamento |"
+  },
+  {
+    "id": 406740,
+    "nome": "World Wide Web (WWW) |"
+  },
+  {
+    "id": 420001,
+    "nome": "Surface Web |"
+  },
+  {
+    "id": 420002,
+    "nome": "Deep Web |"
+  },
+  {
+    "id": 420003,
+    "nome": "Dark Web |"
+  },
+  {
+    "id": 420004,
+    "nome": "Uniform Resource Locator (URL) |"
+  },
+  {
+    "id": 420006,
+    "nome": "Provedor e Servidor |"
+  },
+  {
+    "id": 420007,
+    "nome": "Etiqueta na Rede (Netiqueta) |"
+  },
+  {
+    "id": 420008,
+    "nome": "Criptomoedas |"
+  },
+  {
+    "id": 420005,
+    "nome": "Download e Upload |"
+  },
+  {
+    "id": 405053,
+    "nome": "Navegadores (Browsers) |"
+  },
+  {
+    "id": 420009,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420018,
+    "nome": "Funcionalidades Comuns |"
+  },
+  {
+    "id": 420019,
+    "nome": "Página Inicial |"
+  },
+  {
+    "id": 420020,
+    "nome": "Downloads |"
+  },
+  {
+    "id": 420021,
+    "nome": "Histórico |"
+  },
+  {
+    "id": 420022,
+    "nome": "Navegação Privativa ou Anônima ou Inprivate |"
+  },
+  {
+    "id": 420023,
+    "nome": "Imprimir |"
+  },
+  {
+    "id": 420024,
+    "nome": "Tela Cheia |"
+  },
+  {
+    "id": 420025,
+    "nome": "Bloqueador de Pop-ups |"
+  },
+  {
+    "id": 420026,
+    "nome": "Proteção Contra Rastreamento (e Do Not Track) |"
+  },
+  {
+    "id": 420027,
+    "nome": "Cookies |"
+  },
+  {
+    "id": 420028,
+    "nome": "Cache |"
+  },
+  {
+    "id": 420029,
+    "nome": "Plugins, Extensões e Complementos |"
+  },
+  {
+    "id": 420031,
+    "nome": "Localizar na Página |"
+  },
+  {
+    "id": 420032,
+    "nome": "Barra de Endereços |"
+  },
+  {
+    "id": 420033,
+    "nome": "Barra de Favoritos |"
+  },
+  {
+    "id": 405057,
+    "nome": "Internet Explorer |"
+  },
+  {
+    "id": 420037,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420038,
+    "nome": "Menu Arquivo |"
+  },
+  {
+    "id": 420040,
+    "nome": "Menu Exibir |"
+  },
+  {
+    "id": 420041,
+    "nome": "Menu Favoritos |"
+  },
+  {
+    "id": 420042,
+    "nome": "Menu Ferramentas |"
+  },
+  {
+    "id": 420044,
+    "nome": "Filtragem ActiveX |"
+  },
+  {
+    "id": 420045,
+    "nome": "Realce de Domínio |"
+  },
+  {
+    "id": 420046,
+    "nome": "Filtro SmartScreen |"
+  },
+  {
+    "id": 405054,
+    "nome": "Mozilla Firefox |"
+  },
+  {
+    "id": 420047,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420051,
+    "nome": "Menu Histórico |"
+  },
+  {
+    "id": 420052,
+    "nome": "Menu Favoritos |"
+  },
+  {
+    "id": 420053,
+    "nome": "Menu Ferramentas |"
+  },
+  {
+    "id": 420054,
+    "nome": "Menu Ajuda |"
+  },
+  {
+    "id": 420055,
+    "nome": "Firefox Sync |"
+  },
+  {
+    "id": 420056,
+    "nome": "Menu do Firefox |"
+  },
+  {
+    "id": 420057,
+    "nome": "Biblioteca |"
+  },
+  {
+    "id": 420058,
+    "nome": "Contas e Senhas |"
+  },
+  {
+    "id": 420059,
+    "nome": "Opções |"
+  },
+  {
+    "id": 420060,
+    "nome": "Ferramentas de Desenvolvimento Web |"
+  },
+  {
+    "id": 420061,
+    "nome": "Restaurar Sessão Anterior |"
+  },
+  {
+    "id": 420062,
+    "nome": "Senha Mestra |"
+  },
+  {
+    "id": 420063,
+    "nome": "Gerenciador de Tarefas |"
+  },
+  {
+    "id": 420064,
+    "nome": "Teclas de Atalho |"
+  },
+  {
+    "id": 405056,
+    "nome": "Google Chrome |"
+  },
+  {
+    "id": 420065,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420066,
+    "nome": "Sandbox |"
+  },
+  {
+    "id": 420067,
+    "nome": "SmartLock |"
+  },
+  {
+    "id": 420068,
+    "nome": "Personalizar e Controlar |"
+  },
+  {
+    "id": 420069,
+    "nome": "Gerenciador de Tarefas |"
+  },
+  {
+    "id": 420071,
+    "nome": "Configurações |"
+  },
+  {
+    "id": 420072,
+    "nome": "Senhas Salvas |"
+  },
+  {
+    "id": 420073,
+    "nome": "Sincronizar |"
+  },
+  {
+    "id": 420074,
+    "nome": "Teclas de Atalho |"
+  },
+  {
+    "id": 406727,
+    "nome": "Microsoft Edge |"
+  },
+  {
+    "id": 420075,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420076,
+    "nome": "Configurações |"
+  },
+  {
+    "id": 420077,
+    "nome": "Gerenciador de Tarefas |"
+  },
+  {
+    "id": 420079,
+    "nome": "InPrivate |"
+  },
+  {
+    "id": 420080,
+    "nome": "SmartScreen |"
+  },
+  {
+    "id": 420081,
+    "nome": "Coleções |"
+  },
+  {
+    "id": 405055,
+    "nome": "Opera |"
+  },
+  {
+    "id": 420087,
+    "nome": "Menu |"
+  },
+  {
+    "id": 420092,
+    "nome": "Teclas de Atalho |"
+  },
+  {
+    "id": 420093,
+    "nome": "Safari |"
+  },
+  {
+    "id": 420097,
+    "nome": "Preferências |"
+  },
+  {
+    "id": 420098,
+    "nome": "Geral |"
+  },
+  {
+    "id": 420099,
+    "nome": "Abas |"
+  },
+  {
+    "id": 420101,
+    "nome": "Senhas |"
+  },
+  {
+    "id": 420102,
+    "nome": "Busca |"
+  },
+  {
+    "id": 420103,
+    "nome": "Segurança |"
+  },
+  {
+    "id": 420104,
+    "nome": "Privacidade |"
+  },
+  {
+    "id": 420105,
+    "nome": "Sites |"
+  },
+  {
+    "id": 420106,
+    "nome": "Extensões |"
+  },
+  {
+    "id": 405064,
+    "nome": "Redes Sociais e Grupos de discussão |"
+  },
+  {
+    "id": 420108,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420109,
+    "nome": "Redes Sociais Corporativas |"
+  },
+  {
+    "id": 420110,
+    "nome": "Principais Exemplos |"
+  },
+  {
+    "id": 420111,
+    "nome": "Facebook |"
+  },
+  {
+    "id": 420112,
+    "nome": "Instagram |"
+  },
+  {
+    "id": 420113,
+    "nome": "Twitter |"
+  },
+  {
+    "id": 420114,
+    "nome": "Youtube |"
+  },
+  {
+    "id": 420115,
+    "nome": "Whatsapp |"
+  },
+  {
+    "id": 420116,
+    "nome": "LinkedIn |"
+  },
+  {
+    "id": 420117,
+    "nome": "Ask fm |"
+  },
+  {
+    "id": 420118,
+    "nome": "Snapchat |"
+  },
+  {
+    "id": 420120,
+    "nome": "Telegram |"
+  },
+  {
+    "id": 420125,
+    "nome": "Skype |"
+  },
+  {
+    "id": 405065,
+    "nome": "Wiki |"
+  },
+  {
+    "id": 420126,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420127,
+    "nome": "Wikipedia |"
+  },
+  {
+    "id": 405173,
+    "nome": "Mecanismos de Busca na Internet |"
+  },
+  {
+    "id": 420128,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420129,
+    "nome": "Critérios de Busca |"
+  },
+  {
+    "id": 420130,
+    "nome": "Principais Ferramentas de Busca e Pesquisa |"
+  },
+  {
+    "id": 420131,
+    "nome": "Bing |"
+  },
+  {
+    "id": 420132,
+    "nome": "Google |"
+  },
+  {
+    "id": 420133,
+    "nome": "Google Maps |"
+  },
+  {
+    "id": 420134,
+    "nome": "Yahoo |"
+  },
+  {
+    "id": 420135,
+    "nome": "Ask.com |"
+  },
+  {
+    "id": 420136,
+    "nome": "AOL.com |"
+  },
+  {
+    "id": 406743,
+    "nome": "Portais e Comércio Eletrônico |"
+  },
+  {
+    "id": 405066,
+    "nome": "Computação em Nuvem (Cloud Computing) |"
+  },
+  {
+    "id": 420138,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420139,
+    "nome": "Características Essenciais |"
+  },
+  {
+    "id": 420141,
+    "nome": "Elasticidade Rápida (Rapid Elasticity) |"
+  },
+  {
+    "id": 420142,
+    "nome": "Amplo Acesso à Rede (Broad Network Access) |"
+  },
+  {
+    "id": 420143,
+    "nome": "Agrupamento de Recursos (Resource Pooling) |"
+  },
+  {
+    "id": 420145,
+    "nome": "Modelos de Serviço |"
+  },
+  {
+    "id": 420147,
+    "nome": "IaaS (Infrastructure as a Service) |"
+  },
+  {
+    "id": 420148,
+    "nome": "PaaS (Platform as a Service) |"
+  },
+  {
+    "id": 420149,
+    "nome": "SaaS (Software as a Service) |"
+  },
+  {
+    "id": 420150,
+    "nome": "Tipos de Nuvem |"
+  },
+  {
+    "id": 420151,
+    "nome": "Nuvem Pública (Public Cloud) |"
+  },
+  {
+    "id": 420152,
+    "nome": "Nuvem Privada (Private Cloud) |"
+  },
+  {
+    "id": 420153,
+    "nome": "Nuvem Híbrida (Hybrid Cloud) |"
+  },
+  {
+    "id": 420154,
+    "nome": "Nuvem Comunitária (Community Cloud) |"
+  },
+  {
+    "id": 420157,
+    "nome": "Armazenamento em Nuvem (Cloud Storage) |"
+  },
+  {
+    "id": 420158,
+    "nome": "Google Drive |"
+  },
+  {
+    "id": 420159,
+    "nome": "Dropbox |"
+  },
+  {
+    "id": 420160,
+    "nome": "OneDrive |"
+  },
+  {
+    "id": 420161,
+    "nome": "iCloud |"
+  },
+  {
+    "id": 420162,
+    "nome": "Azure |"
+  },
+  {
+    "id": 420163,
+    "nome": "Aplicativos em Nuvem |"
+  },
+  {
+    "id": 420164,
+    "nome": "MS Office Online |"
+  },
+  {
+    "id": 420165,
+    "nome": "Google G Suíte (Google Docs) |"
+  },
+  {
+    "id": 406744,
+    "nome": "VOIP (Voice Over IP - Voz Sobre IP) |"
+  },
+  {
+    "id": 406732,
+    "nome": "Big Data |"
+  },
+  {
+    "id": 406728,
+    "nome": "Acesso a Distância a Computadores |"
+  },
+  {
+    "id": 406745,
+    "nome": "Transferência de Arquivos e Informações |"
+  },
+  {
+    "id": 420166,
+    "nome": "Videoconferência |"
+  },
+  {
+    "id": 420167,
+    "nome": "Segurança na Internet |"
+  },
+  {
+    "id": 420168,
+    "nome": "Malwares ou pragas e ameaças virtuais |"
+  },
+  {
+    "id": 420169,
+    "nome": "Infecção |"
+  },
+  {
+    "id": 420170,
+    "nome": "Prevenção |"
+  },
+  {
+    "id": 420171,
+    "nome": "Terminologia |"
+  },
+  {
+    "id": 420172,
+    "nome": "Hacker |"
+  },
+  {
+    "id": 420173,
+    "nome": "Cracker |"
+  },
+  {
+    "id": 420178,
+    "nome": "Spam |"
+  },
+  {
+    "id": 420179,
+    "nome": "Tipos de ameaças ou pragas virtuais |"
+  },
+  {
+    "id": 420180,
+    "nome": "Vírus |"
+  },
+  {
+    "id": 420181,
+    "nome": "Vírus de Script |"
+  },
+  {
+    "id": 420182,
+    "nome": "Vírus de Macro |"
+  },
+  {
+    "id": 420183,
+    "nome": "Vírus de Boot |"
+  },
+  {
+    "id": 420185,
+    "nome": "Vírus de Polimórfico |"
+  },
+  {
+    "id": 420186,
+    "nome": "Vírus Metamórfico |"
+  },
+  {
+    "id": 420187,
+    "nome": "Vírus Stealth |"
+  },
+  {
+    "id": 420192,
+    "nome": "Worm |"
+  },
+  {
+    "id": 420193,
+    "nome": "Bot e Botnet |"
+  },
+  {
+    "id": 420194,
+    "nome": "Trojan Horse |"
+  },
+  {
+    "id": 420195,
+    "nome": "Ransomware |"
+  },
+  {
+    "id": 420196,
+    "nome": "Programas espiões |"
+  },
+  {
+    "id": 420197,
+    "nome": "Sniffers |"
+  },
+  {
+    "id": 420198,
+    "nome": "Adwares |"
+  },
+  {
+    "id": 420199,
+    "nome": "Keyloggers |"
+  },
+  {
+    "id": 420200,
+    "nome": "Screenloggers |"
+  },
+  {
+    "id": 420201,
+    "nome": "Backdoor |"
+  },
+  {
+    "id": 420202,
+    "nome": "Rootkit |"
+  },
+  {
+    "id": 420203,
+    "nome": "Bombas Lógicas |"
+  },
+  {
+    "id": 420204,
+    "nome": "Exploits |"
+  },
+  {
+    "id": 420206,
+    "nome": "Hijacker |"
+  },
+  {
+    "id": 420207,
+    "nome": "Ataques e Golpes |"
+  },
+  {
+    "id": 420208,
+    "nome": "Engenharia Social |"
+  },
+  {
+    "id": 420209,
+    "nome": "Força Bruta |"
+  },
+  {
+    "id": 420210,
+    "nome": "Denial of Service (DoS) |"
+  },
+  {
+    "id": 420211,
+    "nome": "IP Spoofing |"
+  },
+  {
+    "id": 420212,
+    "nome": "E-mail Spoofing |"
+  },
+  {
+    "id": 420214,
+    "nome": "Phishing Scam |"
+  },
+  {
+    "id": 420215,
+    "nome": "Pharming |"
+  },
+  {
+    "id": 420216,
+    "nome": "Hoax |"
+  },
+  {
+    "id": 420217,
+    "nome": "Man in the Middle |"
+  },
+  {
+    "id": 420218,
+    "nome": "Defacement |"
+  },
+  {
+    "id": 420219,
+    "nome": "Sniffing |"
+  },
+  {
+    "id": 420220,
+    "nome": "Fraude de antecipação de recursos (Advance Fee Fraud) |"
+  },
+  {
+    "id": 430413,
+    "nome": "Ferramentas de Reuniões e Comunicações On-line |"
+  },
+  {
+    "id": 442653,
+    "nome": "Microsoft Teams |"
+  },
+  {
+    "id": 405059,
+    "nome": "Correio Eletrônico (E-mail) |"
+  },
+  {
+    "id": 420221,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420222,
+    "nome": "Requisitos Fundamentais |"
+  },
+  {
+    "id": 420223,
+    "nome": "Sintaxe de Endereços |"
+  },
+  {
+    "id": 420224,
+    "nome": "Assinatura de E-Mail |"
+  },
+  {
+    "id": 420225,
+    "nome": "Listas de E-Mail |"
+  },
+  {
+    "id": 420226,
+    "nome": "Protocolos de E-Mail |"
+  },
+  {
+    "id": 420227,
+    "nome": "SMTP (SIMPLE MAIL TRANSFER PROTOCOL) |"
+  },
+  {
+    "id": 420228,
+    "nome": "POP3 (POST OFFICE PROTOCOL, VERSÃO 3) |"
+  },
+  {
+    "id": 420229,
+    "nome": "IMAP (INTERNET MESSAGE ACCESS PROTOCOL) |"
+  },
+  {
+    "id": 420230,
+    "nome": "Pastas de E-Mail |"
+  },
+  {
+    "id": 420231,
+    "nome": "Caixa de Entrada |"
+  },
+  {
+    "id": 420232,
+    "nome": "Caixa de Saída |"
+  },
+  {
+    "id": 420233,
+    "nome": "Itens Enviados |"
+  },
+  {
+    "id": 420234,
+    "nome": "Lixo Eletrônico |"
+  },
+  {
+    "id": 420235,
+    "nome": "Itens Excluídos (Lixeira) |"
+  },
+  {
+    "id": 420236,
+    "nome": "Rascunho |"
+  },
+  {
+    "id": 420237,
+    "nome": "Mensagem de e-Mail: Componentes e Ações |"
+  },
+  {
+    "id": 420239,
+    "nome": "Componentes da Mensagem |"
+  },
+  {
+    "id": 420241,
+    "nome": "Campo Para |"
+  },
+  {
+    "id": 420242,
+    "nome": "Campo Com Cópia (Cc) |"
+  },
+  {
+    "id": 420243,
+    "nome": "Campo Com Cópia Oculta (Cco) |"
+  },
+  {
+    "id": 420244,
+    "nome": "Campo Assunto |"
+  },
+  {
+    "id": 420246,
+    "nome": "Anexo |"
+  },
+  {
+    "id": 420247,
+    "nome": "Ações da Mensagem |"
+  },
+  {
+    "id": 420249,
+    "nome": "Responder |"
+  },
+  {
+    "id": 420250,
+    "nome": "Responder a Todos |"
+  },
+  {
+    "id": 420251,
+    "nome": "Encaminhar |"
+  },
+  {
+    "id": 420254,
+    "nome": "Listas de E-Mail |"
+  },
+  {
+    "id": 420255,
+    "nome": "Lista de distribuição |"
+  },
+  {
+    "id": 420256,
+    "nome": "Lista de discussão |"
+  },
+  {
+    "id": 420257,
+    "nome": "Webmail |"
+  },
+  {
+    "id": 420258,
+    "nome": "Programas Gerenciadores de E-mail (Clientes de E-mail) |"
+  },
+  {
+    "id": 405060,
+    "nome": "Microsoft Outlook |"
+  },
+  {
+    "id": 420259,
+    "nome": "Microsoft Outlook - Conceitos Básicos |"
+  },
+  {
+    "id": 420260,
+    "nome": "Microsoft Outlook - Guia Arquivo |"
+  },
+  {
+    "id": 420261,
+    "nome": "Microsoft Outlook - Guia Página Inicial |"
+  },
+  {
+    "id": 420262,
+    "nome": "Microsoft Outlook - Guia Enviar/Receber |"
+  },
+  {
+    "id": 420263,
+    "nome": "Microsoft Outlook - Guia Pasta |"
+  },
+  {
+    "id": 420265,
+    "nome": "Microsoft Outlook - Guia Ajuda |"
+  },
+  {
+    "id": 420266,
+    "nome": "Microsoft Outlook - Teclas de Atalhos |"
+  },
+  {
+    "id": 405061,
+    "nome": "Mozilla Thunderbird |"
+  },
+  {
+    "id": 420267,
+    "nome": "Mozilla Thunderbird - Conceitos Básicos |"
+  },
+  {
+    "id": 420269,
+    "nome": "Mozilla Thunderbird - Principais Pastas |"
+  },
+  {
+    "id": 420270,
+    "nome": "Mozilla Thunderbird - Envio de E-Mail |"
+  },
+  {
+    "id": 420271,
+    "nome": "Mozilla Thunderbird - Organização por Filtros |"
+  },
+  {
+    "id": 420272,
+    "nome": "Mozilla Thunderbird - Recursos de Segurança |"
+  },
+  {
+    "id": 420274,
+    "nome": "Mozilla Thunderbird - Teclas de Atalhos |"
+  },
+  {
+    "id": 405063,
+    "nome": "Gmail |"
+  },
+  {
+    "id": 405067,
+    "nome": "Segurança da Informação |"
+  },
+  {
+    "id": 405068,
+    "nome": "Conceitos Básicos de Segurança da Informação (Princípios/Requisitos/Pilares) |"
+  },
+  {
+    "id": 420276,
+    "nome": "Confidencialidade |"
+  },
+  {
+    "id": 420277,
+    "nome": "Integridade |"
+  },
+  {
+    "id": 420278,
+    "nome": "Disponibilidade |"
+  },
+  {
+    "id": 420279,
+    "nome": "Autenticidade |"
+  },
+  {
+    "id": 420280,
+    "nome": "Irretratabilidade (Não Repúdio) |"
+  },
+  {
+    "id": 420281,
+    "nome": "Identificação |"
+  },
+  {
+    "id": 420282,
+    "nome": "Autenticação |"
+  },
+  {
+    "id": 420283,
+    "nome": "Autorização |"
+  },
+  {
+    "id": 405069,
+    "nome": "Terminologia |"
+  },
+  {
+    "id": 406729,
+    "nome": "Ativo |"
+  },
+  {
+    "id": 420284,
+    "nome": "Informação |"
+  },
+  {
+    "id": 420285,
+    "nome": "Vulnerabilidade |"
+  },
+  {
+    "id": 420286,
+    "nome": "Ameaça |"
+  },
+  {
+    "id": 420287,
+    "nome": "Ataque |"
+  },
+  {
+    "id": 420288,
+    "nome": "Evento |"
+  },
+  {
+    "id": 420289,
+    "nome": "Incidente |"
+  },
+  {
+    "id": 420290,
+    "nome": "Impacto |"
+  },
+  {
+    "id": 420291,
+    "nome": "Risco |"
+  },
+  {
+    "id": 405078,
+    "nome": "Malwares (ameaças e pragas virtuais) |"
+  },
+  {
+    "id": 405073,
+    "nome": "Infecção |"
+  },
+  {
+    "id": 405074,
+    "nome": "Prevenção |"
+  },
+  {
+    "id": 405075,
+    "nome": "Terminologia |"
+  },
+  {
+    "id": 405076,
+    "nome": "Hacker |"
+  },
+  {
+    "id": 405077,
+    "nome": "Script Kiddies (Newbies) |"
+  },
+  {
+    "id": 420296,
+    "nome": "Spam |"
+  },
+  {
+    "id": 420297,
+    "nome": "Tipos de Malwares (ameaças e pragas virtuais) |"
+  },
+  {
+    "id": 420603,
+    "nome": "Vírus |"
+  },
+  {
+    "id": 420604,
+    "nome": "Vírus de Script |"
+  },
+  {
+    "id": 420605,
+    "nome": "Vírus de Macro |"
+  },
+  {
+    "id": 420606,
+    "nome": "Vírus de Boot |"
+  },
+  {
+    "id": 420608,
+    "nome": "Vírus de Polimórfico |"
+  },
+  {
+    "id": 420609,
+    "nome": "Vírus Metamórfico |"
+  },
+  {
+    "id": 420610,
+    "nome": "Vírus Stealth |"
+  },
+  {
+    "id": 420612,
+    "nome": "Worm |"
+  },
+  {
+    "id": 420613,
+    "nome": "Bot e Botnet |"
+  },
+  {
+    "id": 420614,
+    "nome": "Trojan Horse (cavalo de tróia) |"
+  },
+  {
+    "id": 420615,
+    "nome": "Ransomware |"
+  },
+  {
+    "id": 420616,
+    "nome": "Spyware |"
+  },
+  {
+    "id": 420617,
+    "nome": "Sniffers |"
+  },
+  {
+    "id": 420618,
+    "nome": "Adwares |"
+  },
+  {
+    "id": 420619,
+    "nome": "Keyloggers |"
+  },
+  {
+    "id": 420620,
+    "nome": "Screenloggers |"
+  },
+  {
+    "id": 420621,
+    "nome": "Backdoor |"
+  },
+  {
+    "id": 420622,
+    "nome": "Rootkit |"
+  },
+  {
+    "id": 420623,
+    "nome": "Bombas Lógicas |"
+  },
+  {
+    "id": 420624,
+    "nome": "Exploits |"
+  },
+  {
+    "id": 420626,
+    "nome": "Hijacker |"
+  },
+  {
+    "id": 405070,
+    "nome": "Ataques e Golpes |"
+  },
+  {
+    "id": 420627,
+    "nome": "Engenharia Social |"
+  },
+  {
+    "id": 420628,
+    "nome": "Força Bruta |"
+  },
+  {
+    "id": 420629,
+    "nome": "Denial of Service (DoS) - Ataque de negação de serviço |"
+  },
+  {
+    "id": 420630,
+    "nome": "Distributed Denial of Service (DoS) - ataque de negação de serviço distribuído |"
+  },
+  {
+    "id": 420631,
+    "nome": "IP Spoofing |"
+  },
+  {
+    "id": 420632,
+    "nome": "E-mail Spoofing |"
+  },
+  {
+    "id": 420634,
+    "nome": "Phishing Scam |"
+  },
+  {
+    "id": 420635,
+    "nome": "Pharming |"
+  },
+  {
+    "id": 420636,
+    "nome": "Hoax |"
+  },
+  {
+    "id": 420637,
+    "nome": "Man in the Middle |"
+  },
+  {
+    "id": 420638,
+    "nome": "Defacement |"
+  },
+  {
+    "id": 420639,
+    "nome": "Sniffing |"
+  },
+  {
+    "id": 420640,
+    "nome": "Fraude de antecipação de recursos (Advance Fee Fraud) |"
+  },
+  {
+    "id": 420641,
+    "nome": "Furto de identidade (Identity theft) |"
+  },
+  {
+    "id": 405072,
+    "nome": "Ferramentas de Proteção |"
+  },
+  {
+    "id": 420642,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420643,
+    "nome": "Antivírus |"
+  },
+  {
+    "id": 420644,
+    "nome": "Antispam |"
+  },
+  {
+    "id": 420645,
+    "nome": "Antispyware |"
+  },
+  {
+    "id": 420646,
+    "nome": "Firewall |"
+  },
+  {
+    "id": 420647,
+    "nome": "Biometria |"
+  },
+  {
+    "id": 420648,
+    "nome": "Criptologia |"
+  },
+  {
+    "id": 420649,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420650,
+    "nome": "Esteganografia |"
+  },
+  {
+    "id": 420651,
+    "nome": "Criptografia e Criptoanálise |"
+  },
+  {
+    "id": 420652,
+    "nome": "Criptografia Simétrica |"
+  },
+  {
+    "id": 420653,
+    "nome": "Criptografia Assimétrica |"
+  },
+  {
+    "id": 420654,
+    "nome": "Método de Autenticação |"
+  },
+  {
+    "id": 420655,
+    "nome": "Autenticação Forte |"
+  },
+  {
+    "id": 420656,
+    "nome": "Verificação em Duas Etapas |"
+  },
+  {
+    "id": 420657,
+    "nome": "Token |"
+  },
+  {
+    "id": 420658,
+    "nome": "Biometria |"
+  },
+  {
+    "id": 406730,
+    "nome": "Assinatura Digital |"
+  },
+  {
+    "id": 420659,
+    "nome": "Certificado Digital |"
+  },
+  {
+    "id": 420661,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420662,
+    "nome": "Infraestrutura de Chave Pública (ICP-Brasil) |"
+  },
+  {
+    "id": 420663,
+    "nome": "Autoridade Certificadora Raiz (ITI - Instituto Nacional de Tecnologia da Informação) |"
+  },
+  {
+    "id": 420664,
+    "nome": "Autoridades Certificadoras |"
+  },
+  {
+    "id": 420665,
+    "nome": "Autoridades de Registro |"
+  },
+  {
+    "id": 420666,
+    "nome": "Tipos de Certificado Digital |"
+  },
+  {
+    "id": 405071,
+    "nome": "Procedimentos de Backup (becape ou cópia de segurança) |"
+  },
+  {
+    "id": 420667,
+    "nome": "Backup Completo ou Normal ou Full |"
+  },
+  {
+    "id": 420668,
+    "nome": "Backup Incremental |"
+  },
+  {
+    "id": 420669,
+    "nome": "Backup Diferencial |"
+  },
+  {
+    "id": 420670,
+    "nome": "Backup de Cópia |"
+  },
+  {
+    "id": 420671,
+    "nome": "Backup Diário |"
+  },
+  {
+    "id": 420674,
+    "nome": "Backup Quente |"
+  },
+  {
+    "id": 420675,
+    "nome": "Backup Frio |"
+  },
+  {
+    "id": 405079,
+    "nome": "Nobreak |"
+  },
+  {
+    "id": 420676,
+    "nome": "CERT.BR |"
+  },
+  {
+    "id": 420677,
+    "nome": "Segurança Física, Lógica e Controle de Acesso |"
+  },
+  {
+    "id": 420678,
+    "nome": "Segurança Física |"
+  },
+  {
+    "id": 420679,
+    "nome": "Segurança Lógica |"
+  },
+  {
+    "id": 420680,
+    "nome": "Controle de Acesso |"
+  },
+  {
+    "id": 405107,
+    "nome": "Suítes ou Pacotes de Escritório |"
+  },
+  {
+    "id": 405111,
+    "nome": "Microsoft Office |"
+  },
+  {
+    "id": 420298,
+    "nome": "Editor de Planilhas Eletrônicas |"
+  },
+  {
+    "id": 405118,
+    "nome": "Microsoft Excel |"
+  },
+  {
+    "id": 420299,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420300,
+    "nome": "Versões do Excel |"
+  },
+  {
+    "id": 405119,
+    "nome": "EXCEL Versões até 2003 |"
+  },
+  {
+    "id": 405120,
+    "nome": "EXCEL 2007 |"
+  },
+  {
+    "id": 405121,
+    "nome": "EXCEL 2010 |"
+  },
+  {
+    "id": 405122,
+    "nome": "EXCEL 2013 |"
+  },
+  {
+    "id": 405123,
+    "nome": "EXCEL 2016 |"
+  },
+  {
+    "id": 406725,
+    "nome": "EXCEL 2019 |"
+  },
+  {
+    "id": 406721,
+    "nome": "EXCEL 365 |"
+  },
+  {
+    "id": 420301,
+    "nome": "Interface Gráfica |"
+  },
+  {
+    "id": 420305,
+    "nome": "Barra de Títulos |"
+  },
+  {
+    "id": 420306,
+    "nome": "Barra de Ferramentas de Acesso Rápido |"
+  },
+  {
+    "id": 420307,
+    "nome": "Faixa de Opções (Ribbon) |"
+  },
+  {
+    "id": 420308,
+    "nome": "Barra de Fórmulas |"
+  },
+  {
+    "id": 420309,
+    "nome": "Planilha Eletrônica |"
+  },
+  {
+    "id": 420310,
+    "nome": "Guia de Planilhas |"
+  },
+  {
+    "id": 420312,
+    "nome": "Barra de Status |"
+  },
+  {
+    "id": 420302,
+    "nome": "Guias |"
+  },
+  {
+    "id": 420313,
+    "nome": "Guia Arquivo |"
+  },
+  {
+    "id": 420314,
+    "nome": "Guia Página Inicial |"
+  },
+  {
+    "id": 420315,
+    "nome": "Guia Inserir |"
+  },
+  {
+    "id": 420316,
+    "nome": "Guia Layout (da Página) |"
+  },
+  {
+    "id": 420317,
+    "nome": "Guia Fórmulas |"
+  },
+  {
+    "id": 420318,
+    "nome": "Guia Dados |"
+  },
+  {
+    "id": 420319,
+    "nome": "Guia Revisão |"
+  },
+  {
+    "id": 420320,
+    "nome": "Guia Exibir |"
+  },
+  {
+    "id": 420303,
+    "nome": "Fórmulas e Funções |"
+  },
+  {
+    "id": 420321,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420322,
+    "nome": "Operadores |"
+  },
+  {
+    "id": 420324,
+    "nome": "Referências |"
+  },
+  {
+    "id": 420325,
+    "nome": "Funções Matemáticas e Trigonométricas |"
+  },
+  {
+    "id": 420326,
+    "nome": "Funções Estatísticas |"
+  },
+  {
+    "id": 420327,
+    "nome": "Funções de Pesquisa e Referência |"
+  },
+  {
+    "id": 420328,
+    "nome": "Funções de Informação |"
+  },
+  {
+    "id": 420329,
+    "nome": "Funções Lógicas |"
+  },
+  {
+    "id": 420330,
+    "nome": "Funções de Texto |"
+  },
+  {
+    "id": 420331,
+    "nome": "Funções de Data/Hora |"
+  },
+  {
+    "id": 420332,
+    "nome": "Propagação de Fórmulas |"
+  },
+  {
+    "id": 420333,
+    "nome": "Principais Recursos |"
+  },
+  {
+    "id": 420336,
+    "nome": "Alça de Preenchimento |"
+  },
+  {
+    "id": 420337,
+    "nome": "Caixa Formatar Célula |"
+  },
+  {
+    "id": 420338,
+    "nome": "Formatação Condicional |"
+  },
+  {
+    "id": 420339,
+    "nome": "Mesclar Células |"
+  },
+  {
+    "id": 420340,
+    "nome": "Quebrar Texto Automaticamente |"
+  },
+  {
+    "id": 420341,
+    "nome": "Alinhamento da Célula |"
+  },
+  {
+    "id": 420334,
+    "nome": "Conceitos Avançados |"
+  },
+  {
+    "id": 420342,
+    "nome": "Gráficos |"
+  },
+  {
+    "id": 420343,
+    "nome": "Classificação e Filtros |"
+  },
+  {
+    "id": 420345,
+    "nome": "Rastrear Dependentes e Precedentes |"
+  },
+  {
+    "id": 420347,
+    "nome": "Validação de Dados |"
+  },
+  {
+    "id": 420348,
+    "nome": "Teste de Hipóteses |"
+  },
+  {
+    "id": 420350,
+    "nome": "Atingir Metas |"
+  },
+  {
+    "id": 420351,
+    "nome": "Tabela de Dados |"
+  },
+  {
+    "id": 420352,
+    "nome": "Macros |"
+  },
+  {
+    "id": 420353,
+    "nome": "Visual Basic Application |"
+  },
+  {
+    "id": 420335,
+    "nome": "Teclas de Atalhos |"
+  },
+  {
+    "id": 420355,
+    "nome": "Editor de Texto |"
+  },
+  {
+    "id": 405112,
+    "nome": "Microsoft Word |"
+  },
+  {
+    "id": 405113,
+    "nome": "WORD versões até 2003 |"
+  },
+  {
+    "id": 405114,
+    "nome": "Microsoft Word 2007 |"
+  },
+  {
+    "id": 405115,
+    "nome": "Microsoft Word 2010 |"
+  },
+  {
+    "id": 405116,
+    "nome": "Microsoft Word 2013 |"
+  },
+  {
+    "id": 405117,
+    "nome": "Microsoft Word 2016 |"
+  },
+  {
+    "id": 406724,
+    "nome": "Microsoft Word 2019 |"
+  },
+  {
+    "id": 406720,
+    "nome": "Microsoft Word 365 |"
+  },
+  {
+    "id": 420356,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420357,
+    "nome": "Microsoft Word - Interface Gráfica |"
+  },
+  {
+    "id": 420359,
+    "nome": "Barra de Títulos |"
+  },
+  {
+    "id": 420360,
+    "nome": "Barra de Ferramentas de Acesso Rápido |"
+  },
+  {
+    "id": 420361,
+    "nome": "Faixa de Opções (Ribbon) |"
+  },
+  {
+    "id": 420362,
+    "nome": "Barra de Status |"
+  },
+  {
+    "id": 420363,
+    "nome": "Microsoft Word - Guias |"
+  },
+  {
+    "id": 420364,
+    "nome": "Guia Arquivo |"
+  },
+  {
+    "id": 420365,
+    "nome": "Guia Página Inicial |"
+  },
+  {
+    "id": 420366,
+    "nome": "Guia Inserir |"
+  },
+  {
+    "id": 420367,
+    "nome": "Guia Design |"
+  },
+  {
+    "id": 420368,
+    "nome": "Guia Layout |"
+  },
+  {
+    "id": 420369,
+    "nome": "Guia Referências |"
+  },
+  {
+    "id": 420370,
+    "nome": "Guia Correspondências |"
+  },
+  {
+    "id": 420371,
+    "nome": "Guia Revisão |"
+  },
+  {
+    "id": 420372,
+    "nome": "Guia Exibir/Exibição |"
+  },
+  {
+    "id": 420373,
+    "nome": "Guia Desenvolvedor |"
+  },
+  {
+    "id": 420374,
+    "nome": "Microsoft Word - Principais Recursos |"
+  },
+  {
+    "id": 420375,
+    "nome": "Formatação de Fonte |"
+  },
+  {
+    "id": 420377,
+    "nome": "Formatação de Parágrafo |"
+  },
+  {
+    "id": 420378,
+    "nome": "Área de Transferência |"
+  },
+  {
+    "id": 420379,
+    "nome": "Estilos de Formatação |"
+  },
+  {
+    "id": 420380,
+    "nome": "Localizar e Substituir |"
+  },
+  {
+    "id": 420381,
+    "nome": "Tabelas |"
+  },
+  {
+    "id": 420382,
+    "nome": "Cabeçalho e Rodapé |"
+  },
+  {
+    "id": 420383,
+    "nome": "SmartArt |"
+  },
+  {
+    "id": 420384,
+    "nome": "WordArt |"
+  },
+  {
+    "id": 420385,
+    "nome": "Partes Rápidas |"
+  },
+  {
+    "id": 420386,
+    "nome": "Número de Página |"
+  },
+  {
+    "id": 420387,
+    "nome": "Equação e Símbolo |"
+  },
+  {
+    "id": 420388,
+    "nome": "Microsoft Word - Conceitos Avançados |"
+  },
+  {
+    "id": 420391,
+    "nome": "Guia de Design de Imagens |"
+  },
+  {
+    "id": 420392,
+    "nome": "Teclas Especiais do Word |"
+  },
+  {
+    "id": 420393,
+    "nome": "Seleção de Texto |"
+  },
+  {
+    "id": 420394,
+    "nome": "Sumário |"
+  },
+  {
+    "id": 420395,
+    "nome": "Mala Direta |"
+  },
+  {
+    "id": 420396,
+    "nome": "Marca d&#39;Água |"
+  },
+  {
+    "id": 420397,
+    "nome": "Colunas |"
+  },
+  {
+    "id": 420398,
+    "nome": "Quebras |"
+  },
+  {
+    "id": 420399,
+    "nome": "Quebra de Página |"
+  },
+  {
+    "id": 420400,
+    "nome": "Quebra de Seção |"
+  },
+  {
+    "id": 420401,
+    "nome": "Quebra de Coluna |"
+  },
+  {
+    "id": 420402,
+    "nome": "Contagem de Palavras |"
+  },
+  {
+    "id": 420403,
+    "nome": "Dicionário de Sinônimos |"
+  },
+  {
+    "id": 420404,
+    "nome": "Controlar Alterações |"
+  },
+  {
+    "id": 420389,
+    "nome": "Microsoft Word - Teclas de Atalhos |"
+  },
+  {
+    "id": 420405,
+    "nome": "Editor de Apresentações e Conteúdo Multimídia |"
+  },
+  {
+    "id": 405124,
+    "nome": "Microsoft PowerPoint |"
+  },
+  {
+    "id": 406723,
+    "nome": "Microsoft PowerPoint versões até 2003 |"
+  },
+  {
+    "id": 405125,
+    "nome": "Microsoft PowerPoint 2007 |"
+  },
+  {
+    "id": 405126,
+    "nome": "Microsoft PowerPoint 2010 |"
+  },
+  {
+    "id": 405127,
+    "nome": "Microsoft PowerPoint 2013 |"
+  },
+  {
+    "id": 405128,
+    "nome": "Microsoft PowerPoint 2016 |"
+  },
+  {
+    "id": 406726,
+    "nome": "Microsoft PowerPoint 2019 |"
+  },
+  {
+    "id": 406722,
+    "nome": "Microsoft PowerPoint 365 |"
+  },
+  {
+    "id": 420406,
+    "nome": "Microsoft PowerPoint - Interface Gráfica |"
+  },
+  {
+    "id": 420413,
+    "nome": "Barra de Ferramentas de Acesso Rápido |"
+  },
+  {
+    "id": 420414,
+    "nome": "Faixa de Opções (Ribbon) |"
+  },
+  {
+    "id": 420415,
+    "nome": "Painel de Anotações |"
+  },
+  {
+    "id": 420416,
+    "nome": "Guia de Slides |"
+  },
+  {
+    "id": 420417,
+    "nome": "Barra de Status |"
+  },
+  {
+    "id": 420407,
+    "nome": "Microsoft PowerPoint - Guias |"
+  },
+  {
+    "id": 420418,
+    "nome": "Guia Arquivo |"
+  },
+  {
+    "id": 420419,
+    "nome": "Guia Página Inicial |"
+  },
+  {
+    "id": 420420,
+    "nome": "Guia Inserir |"
+  },
+  {
+    "id": 420421,
+    "nome": "Guia Design |"
+  },
+  {
+    "id": 420422,
+    "nome": "Guia Transições |"
+  },
+  {
+    "id": 420423,
+    "nome": "Guia Animações |"
+  },
+  {
+    "id": 420424,
+    "nome": "Guia Apresentação de Slides |"
+  },
+  {
+    "id": 420425,
+    "nome": "Guia Revisão |"
+  },
+  {
+    "id": 420426,
+    "nome": "Guia Exibir |"
+  },
+  {
+    "id": 420408,
+    "nome": "Microsoft PowerPoint - Principais Recursos |"
+  },
+  {
+    "id": 420427,
+    "nome": "Inserir Novo Slide |"
+  },
+  {
+    "id": 420428,
+    "nome": "Layout do Slide |"
+  },
+  {
+    "id": 420429,
+    "nome": "Caixa de Texto |"
+  },
+  {
+    "id": 420430,
+    "nome": "Formas |"
+  },
+  {
+    "id": 420431,
+    "nome": "SmartArt |"
+  },
+  {
+    "id": 420432,
+    "nome": "Inserir Áudio |"
+  },
+  {
+    "id": 420433,
+    "nome": "Inserir Vídeo |"
+  },
+  {
+    "id": 420434,
+    "nome": "Transições de Slide |"
+  },
+  {
+    "id": 420435,
+    "nome": "Animações de Slide |"
+  },
+  {
+    "id": 420436,
+    "nome": "Ocultar Slide |"
+  },
+  {
+    "id": 420437,
+    "nome": "Modos de Exibição |"
+  },
+  {
+    "id": 420409,
+    "nome": "Microsoft PowerPoint - Conceitos Avançados |"
+  },
+  {
+    "id": 420438,
+    "nome": "Apresentar Online |"
+  },
+  {
+    "id": 420439,
+    "nome": "Apresentação de Slides Personalizada |"
+  },
+  {
+    "id": 420440,
+    "nome": "Configurar Apresentação de Slides |"
+  },
+  {
+    "id": 420441,
+    "nome": "Testar Intervalos |"
+  },
+  {
+    "id": 420443,
+    "nome": "Modo de Exibição do Apresentador |"
+  },
+  {
+    "id": 420446,
+    "nome": "Criar PDF |"
+  },
+  {
+    "id": 420447,
+    "nome": "Slide Mestre |"
+  },
+  {
+    "id": 420410,
+    "nome": "Microsoft PowerPoint - Teclas de Atalhos |"
+  },
+  {
+    "id": 420448,
+    "nome": "Banco de Dados |"
+  },
+  {
+    "id": 405110,
+    "nome": "Microsoft Access |"
+  },
+  {
+    "id": 420449,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420452,
+    "nome": "Guias |"
+  },
+  {
+    "id": 420453,
+    "nome": "Guia Página Inicial |"
+  },
+  {
+    "id": 420456,
+    "nome": "Guia Ferramentas de Banco de Dados |"
+  },
+  {
+    "id": 420457,
+    "nome": "Conceitos Avançados |"
+  },
+  {
+    "id": 420458,
+    "nome": "Tabelas |"
+  },
+  {
+    "id": 420459,
+    "nome": "Consultas |"
+  },
+  {
+    "id": 420460,
+    "nome": "Formulário |"
+  },
+  {
+    "id": 420462,
+    "nome": "Teclas de Atalhos |"
+  },
+  {
+    "id": 405108,
+    "nome": "Microsoft Project |"
+  },
+  {
+    "id": 420463,
+    "nome": "Microsoft Outlook |"
+  },
+  {
+    "id": 420464,
+    "nome": "Microsoft Publisher |"
+  },
+  {
+    "id": 420465,
+    "nome": "Microsoft Power BI |"
+  },
+  {
+    "id": 405109,
+    "nome": "Microsoft OneNote |"
+  },
+  {
+    "id": 405129,
+    "nome": "OpenOffice/ BrOffice / LibreOffice |"
+  },
+  {
+    "id": 420466,
+    "nome": "Histórico e Conceitos Básicos |"
+  },
+  {
+    "id": 420467,
+    "nome": "Editor de Texto |"
+  },
+  {
+    "id": 405131,
+    "nome": "Writer |"
+  },
+  {
+    "id": 406734,
+    "nome": "Interface Gráfica |"
+  },
+  {
+    "id": 420479,
+    "nome": "Barra de Menus |"
+  },
+  {
+    "id": 420480,
+    "nome": "Barra de Status |"
+  },
+  {
+    "id": 420481,
+    "nome": "Barra de Ferramentas Padrão |"
+  },
+  {
+    "id": 420482,
+    "nome": "Barra de Ferramentas de Formatação |"
+  },
+  {
+    "id": 420468,
+    "nome": "Menu |"
+  },
+  {
+    "id": 420485,
+    "nome": "Arquivo |"
+  },
+  {
+    "id": 420486,
+    "nome": "Editar |"
+  },
+  {
+    "id": 420487,
+    "nome": "Exibir |"
+  },
+  {
+    "id": 420488,
+    "nome": "Inserir |"
+  },
+  {
+    "id": 420489,
+    "nome": "Formatar |"
+  },
+  {
+    "id": 420490,
+    "nome": "Estilos |"
+  },
+  {
+    "id": 420491,
+    "nome": "Tabela |"
+  },
+  {
+    "id": 420493,
+    "nome": "Ferramentas |"
+  },
+  {
+    "id": 420494,
+    "nome": "Janelas |"
+  },
+  {
+    "id": 420495,
+    "nome": "Ajuda |"
+  },
+  {
+    "id": 420469,
+    "nome": "Principais Recursos |"
+  },
+  {
+    "id": 420496,
+    "nome": "Formatação de Fonte |"
+  },
+  {
+    "id": 420497,
+    "nome": "Formatação de Parágrafo |"
+  },
+  {
+    "id": 420498,
+    "nome": "Estilos de Formatação |"
+  },
+  {
+    "id": 420499,
+    "nome": "Localizar e Substituir |"
+  },
+  {
+    "id": 420500,
+    "nome": "Tabelas |"
+  },
+  {
+    "id": 420501,
+    "nome": "Cabeçalho e Rodapé |"
+  },
+  {
+    "id": 420502,
+    "nome": "Número de Página |"
+  },
+  {
+    "id": 420503,
+    "nome": "Registro de Alterações |"
+  },
+  {
+    "id": 420504,
+    "nome": "Seleção de Texto |"
+  },
+  {
+    "id": 420505,
+    "nome": "Sumário e Índice |"
+  },
+  {
+    "id": 420506,
+    "nome": "Mala Direta |"
+  },
+  {
+    "id": 420508,
+    "nome": "Quebra de Página |"
+  },
+  {
+    "id": 420511,
+    "nome": "Quebra Manual |"
+  },
+  {
+    "id": 420512,
+    "nome": "Contagem de Palavras |"
+  },
+  {
+    "id": 420513,
+    "nome": "Ortografia |"
+  },
+  {
+    "id": 420514,
+    "nome": "Verificação Ortográfica Automática |"
+  },
+  {
+    "id": 420515,
+    "nome": "Navegador |"
+  },
+  {
+    "id": 420516,
+    "nome": "Seção |"
+  },
+  {
+    "id": 420470,
+    "nome": "Teclas de Atalho |"
+  },
+  {
+    "id": 405130,
+    "nome": "Editor de Planilhas Eletrônicas |"
+  },
+  {
+    "id": 405132,
+    "nome": "Calc |"
+  },
+  {
+    "id": 406736,
+    "nome": "Interface Gráfica |"
+  },
+  {
+    "id": 420518,
+    "nome": "Barra de Menus |"
+  },
+  {
+    "id": 420519,
+    "nome": "Barra de Status |"
+  },
+  {
+    "id": 420521,
+    "nome": "Barra de Fórmulas |"
+  },
+  {
+    "id": 420523,
+    "nome": "Barras de Rolagem |"
+  },
+  {
+    "id": 406737,
+    "nome": "Menus |"
+  },
+  {
+    "id": 420524,
+    "nome": "Arquivo |"
+  },
+  {
+    "id": 420525,
+    "nome": "Editar |"
+  },
+  {
+    "id": 420526,
+    "nome": "Exibir |"
+  },
+  {
+    "id": 420527,
+    "nome": "Inserir |"
+  },
+  {
+    "id": 420530,
+    "nome": "Planilha |"
+  },
+  {
+    "id": 420531,
+    "nome": "Dados |"
+  },
+  {
+    "id": 420532,
+    "nome": "Ferramentas |"
+  },
+  {
+    "id": 420472,
+    "nome": "Fórmulas e Funções |"
+  },
+  {
+    "id": 420535,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420536,
+    "nome": "Operadores |"
+  },
+  {
+    "id": 420538,
+    "nome": "Referências |"
+  },
+  {
+    "id": 420539,
+    "nome": "Funções Matemáticas e Trigonométricas |"
+  },
+  {
+    "id": 420540,
+    "nome": "Funções Estatísticas |"
+  },
+  {
+    "id": 420541,
+    "nome": "Funções de Pesquisa e Referência |"
+  },
+  {
+    "id": 420543,
+    "nome": "Funções Lógicas |"
+  },
+  {
+    "id": 420473,
+    "nome": "Principais Recursos |"
+  },
+  {
+    "id": 420547,
+    "nome": "Alça de Preenchimento |"
+  },
+  {
+    "id": 420548,
+    "nome": "Caixa Formatar Célula |"
+  },
+  {
+    "id": 420549,
+    "nome": "Formatação Condicional |"
+  },
+  {
+    "id": 420550,
+    "nome": "Mesclar Células |"
+  },
+  {
+    "id": 420552,
+    "nome": "Alinhamento da Célula |"
+  },
+  {
+    "id": 420553,
+    "nome": "Gráficos |"
+  },
+  {
+    "id": 420554,
+    "nome": "Classificação e Filtros |"
+  },
+  {
+    "id": 420556,
+    "nome": "Rastrear Dependentes e Precedentes |"
+  },
+  {
+    "id": 420558,
+    "nome": "Validação de Dados |"
+  },
+  {
+    "id": 420560,
+    "nome": "Macros |"
+  },
+  {
+    "id": 420474,
+    "nome": "Teclas de Atalho |"
+  },
+  {
+    "id": 420471,
+    "nome": "Editor de Apresentações e Conteúdos Multimídia |"
+  },
+  {
+    "id": 405133,
+    "nome": "Impress |"
+  },
+  {
+    "id": 406738,
+    "nome": "Interface Gráfica |"
+  },
+  {
+    "id": 420562,
+    "nome": "Barra de Menus |"
+  },
+  {
+    "id": 420563,
+    "nome": "Barra de Status |"
+  },
+  {
+    "id": 406739,
+    "nome": "Menus |"
+  },
+  {
+    "id": 420568,
+    "nome": "Arquivo |"
+  },
+  {
+    "id": 420571,
+    "nome": "Inserir |"
+  },
+  {
+    "id": 420573,
+    "nome": "Slide |"
+  },
+  {
+    "id": 420574,
+    "nome": "Apresentação de Slides |"
+  },
+  {
+    "id": 420575,
+    "nome": "Ferramentas |"
+  },
+  {
+    "id": 406733,
+    "nome": "Principais Recursos |"
+  },
+  {
+    "id": 420579,
+    "nome": "Layout do Slide |"
+  },
+  {
+    "id": 420580,
+    "nome": "Caixa de Texto |"
+  },
+  {
+    "id": 420581,
+    "nome": "Formas |"
+  },
+  {
+    "id": 420583,
+    "nome": "Transições de Slide |"
+  },
+  {
+    "id": 420584,
+    "nome": "Animações de Slide |"
+  },
+  {
+    "id": 420587,
+    "nome": "Configurar Apresentação de Slides |"
+  },
+  {
+    "id": 420588,
+    "nome": "Cronometrar |"
+  },
+  {
+    "id": 420589,
+    "nome": "Slide Mestre |"
+  },
+  {
+    "id": 420475,
+    "nome": "Teclas de Atalho |"
+  },
+  {
+    "id": 420476,
+    "nome": "Banco de Dados |"
+  },
+  {
+    "id": 420590,
+    "nome": "Base |"
+  },
+  {
+    "id": 420592,
+    "nome": "Consultas |"
+  },
+  {
+    "id": 420477,
+    "nome": "Editores de Imagem |"
+  },
+  {
+    "id": 420595,
+    "nome": "Draw |"
+  },
+  {
+    "id": 420478,
+    "nome": "Editores de Fórmulas |"
+  },
+  {
+    "id": 420596,
+    "nome": "Math |"
+  },
+  {
+    "id": 420597,
+    "nome": "OpenOffice.org |"
+  },
+  {
+    "id": 420598,
+    "nome": "Apache OpenOffice |"
+  },
+  {
+    "id": 420599,
+    "nome": "Google Workspace (antigo Google G Suíte) |"
+  },
+  {
+    "id": 420600,
+    "nome": "Google Documentos (Docs) |"
+  },
+  {
+    "id": 420601,
+    "nome": "Google Planilhas (Sheets) |"
+  },
+  {
+    "id": 420602,
+    "nome": "Google Apresentações (Slides) |"
+  },
+  {
+    "id": 405080,
+    "nome": "Sistemas Operacionais |"
+  },
+  {
+    "id": 405081,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 420681,
+    "nome": "Deadlock |"
+  },
+  {
+    "id": 420682,
+    "nome": "Sistema preemptivo (preempção) |"
+  },
+  {
+    "id": 420683,
+    "nome": "Multitarefa |"
+  },
+  {
+    "id": 420684,
+    "nome": "Multisessão |"
+  },
+  {
+    "id": 420685,
+    "nome": "Multiusuário |"
+  },
+  {
+    "id": 420686,
+    "nome": "Multiplataforma |"
+  },
+  {
+    "id": 420687,
+    "nome": "Boot |"
+  },
+  {
+    "id": 420688,
+    "nome": "Dual boot |"
+  },
+  {
+    "id": 420689,
+    "nome": "Extensão de arquivo |"
+  },
+  {
+    "id": 405082,
+    "nome": "Windows |"
+  },
+  {
+    "id": 405083,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 405084,
+    "nome": "Versões do Windows |"
+  },
+  {
+    "id": 420690,
+    "nome": "Windows ME |"
+  },
+  {
+    "id": 420691,
+    "nome": "Windows NT |"
+  },
+  {
+    "id": 405094,
+    "nome": "Windows 2000 |"
+  },
+  {
+    "id": 405096,
+    "nome": "Windows XP |"
+  },
+  {
+    "id": 405098,
+    "nome": "Windows 7 |"
+  },
+  {
+    "id": 405099,
+    "nome": "Windows 8 |"
+  },
+  {
+    "id": 421228,
+    "nome": "Windows 8.1 |"
+  },
+  {
+    "id": 405101,
+    "nome": "Windows 10 |"
+  },
+  {
+    "id": 430398,
+    "nome": "Windows 11 |"
+  },
+  {
+    "id": 405085,
+    "nome": "Principais Funcionalidades |"
+  },
+  {
+    "id": 405086,
+    "nome": "Área de Trabalho |"
+  },
+  {
+    "id": 405087,
+    "nome": "Papel de Parede |"
+  },
+  {
+    "id": 405088,
+    "nome": "Ícones |"
+  },
+  {
+    "id": 405090,
+    "nome": "Barra de Tarefas |"
+  },
+  {
+    "id": 420695,
+    "nome": "Botão Iniciar |"
+  },
+  {
+    "id": 420696,
+    "nome": "Caixa de Pesquisa |"
+  },
+  {
+    "id": 420697,
+    "nome": "Visão de Tarefa |"
+  },
+  {
+    "id": 420698,
+    "nome": "Área de Notificação |"
+  },
+  {
+    "id": 420699,
+    "nome": "Janelas |"
+  },
+  {
+    "id": 420700,
+    "nome": "Barra de Título |"
+  },
+  {
+    "id": 420702,
+    "nome": "Barra de Endereço |"
+  },
+  {
+    "id": 420703,
+    "nome": "Caixa de Pesquisa |"
+  },
+  {
+    "id": 420704,
+    "nome": "Painel de Navegação |"
+  },
+  {
+    "id": 420705,
+    "nome": "Painel de Visualização |"
+  },
+  {
+    "id": 420706,
+    "nome": "Painel de Detalhes |"
+  },
+  {
+    "id": 420707,
+    "nome": "Alternância entre Janelas |"
+  },
+  {
+    "id": 420708,
+    "nome": "Ajustar (Snap) |"
+  },
+  {
+    "id": 420709,
+    "nome": "Peek |"
+  },
+  {
+    "id": 420710,
+    "nome": "Shake |"
+  },
+  {
+    "id": 405089,
+    "nome": "Painel de Controle |"
+  },
+  {
+    "id": 420711,
+    "nome": "Sistema e Segurança |"
+  },
+  {
+    "id": 420712,
+    "nome": "Rede e Internet |"
+  },
+  {
+    "id": 420713,
+    "nome": "Hardware e Sons |"
+  },
+  {
+    "id": 420714,
+    "nome": "Programas |"
+  },
+  {
+    "id": 420715,
+    "nome": "Contas de Usuário |"
+  },
+  {
+    "id": 420716,
+    "nome": "Aparência e Personalização |"
+  },
+  {
+    "id": 420717,
+    "nome": "Relógio e Região |"
+  },
+  {
+    "id": 420718,
+    "nome": "Facilidade de Acesso |"
+  },
+  {
+    "id": 420719,
+    "nome": "Gerenciamento de Arquivos e Pastas |"
+  },
+  {
+    "id": 420723,
+    "nome": "Arquivos |"
+  },
+  {
+    "id": 420724,
+    "nome": "Pastas e Diretórios |"
+  },
+  {
+    "id": 420725,
+    "nome": "Limite para Nomes de Arquivos |"
+  },
+  {
+    "id": 420726,
+    "nome": "Caracteres Inválidos |"
+  },
+  {
+    "id": 420727,
+    "nome": "Manipulação de Arquivos por Comandos |"
+  },
+  {
+    "id": 420729,
+    "nome": "Explorador de Arquivos |"
+  },
+  {
+    "id": 420730,
+    "nome": "Seleção de Arquivos |"
+  },
+  {
+    "id": 420732,
+    "nome": "Lixeira |"
+  },
+  {
+    "id": 420733,
+    "nome": "Copiar, Mover, Arrastar, Criar, Renomear e Excluir |"
+  },
+  {
+    "id": 420735,
+    "nome": "Área de Transferência |"
+  },
+  {
+    "id": 420720,
+    "nome": "Ferramentas Administrativas |"
+  },
+  {
+    "id": 420736,
+    "nome": "Desfragmentador de Disco |"
+  },
+  {
+    "id": 420737,
+    "nome": "Limpeza de Disco |"
+  },
+  {
+    "id": 420738,
+    "nome": "Agendador de Tarefas |"
+  },
+  {
+    "id": 420739,
+    "nome": "Windows Defender |"
+  },
+  {
+    "id": 420740,
+    "nome": "Gerenciador de Tarefas |"
+  },
+  {
+    "id": 420721,
+    "nome": "Programas Utilitários |"
+  },
+  {
+    "id": 420741,
+    "nome": "Bloco de Notas |"
+  },
+  {
+    "id": 420742,
+    "nome": "Paint |"
+  },
+  {
+    "id": 420743,
+    "nome": "Wordpad |"
+  },
+  {
+    "id": 420744,
+    "nome": "Calculadora |"
+  },
+  {
+    "id": 420745,
+    "nome": "Ferramenta da Captura |"
+  },
+  {
+    "id": 420747,
+    "nome": "Windows Media Player |"
+  },
+  {
+    "id": 420722,
+    "nome": "Conceitos Avançados |"
+  },
+  {
+    "id": 405091,
+    "nome": "Formatação de Disco Rígido |"
+  },
+  {
+    "id": 405095,
+    "nome": "Particionamento |"
+  },
+  {
+    "id": 405097,
+    "nome": "Sistema de Arquivos |"
+  },
+  {
+    "id": 406731,
+    "nome": "Backup |"
+  },
+  {
+    "id": 420748,
+    "nome": "Área de Acesso Remoto |"
+  },
+  {
+    "id": 420749,
+    "nome": "Modo de Segurança |"
+  },
+  {
+    "id": 420750,
+    "nome": "Teclas de Atalhos |"
+  },
+  {
+    "id": 420752,
+    "nome": "Ctrl + A |"
+  },
+  {
+    "id": 405031,
+    "nome": "Ctrl + X |"
+  },
+  {
+    "id": 405032,
+    "nome": "Ctrl + C |"
+  },
+  {
+    "id": 405033,
+    "nome": "Ctrl + V |"
+  },
+  {
+    "id": 406719,
+    "nome": "Ctrl + Z |"
+  },
+  {
+    "id": 420753,
+    "nome": "Ctrl + F4 |"
+  },
+  {
+    "id": 420754,
+    "nome": "Ctrl + D (ou Delete) |"
+  },
+  {
+    "id": 420755,
+    "nome": "Ctrl + F5 |"
+  },
+  {
+    "id": 420756,
+    "nome": "Ctrl + R |"
+  },
+  {
+    "id": 420758,
+    "nome": "Ctrl + Esc |"
+  },
+  {
+    "id": 420759,
+    "nome": "Ctrl + Shift + Esc |"
+  },
+  {
+    "id": 420760,
+    "nome": "Ctrl + Shift |"
+  },
+  {
+    "id": 420762,
+    "nome": "F2 |"
+  },
+  {
+    "id": 420765,
+    "nome": "F5 |"
+  },
+  {
+    "id": 420766,
+    "nome": "F6 |"
+  },
+  {
+    "id": 420767,
+    "nome": "F10 |"
+  },
+  {
+    "id": 420768,
+    "nome": "Ctrl + Alt + Tab |"
+  },
+  {
+    "id": 420769,
+    "nome": "Alt+F4 |"
+  },
+  {
+    "id": 420770,
+    "nome": "Alt + F8 |"
+  },
+  {
+    "id": 420771,
+    "nome": "Alt + Esc |"
+  },
+  {
+    "id": 420772,
+    "nome": "Alt + _ |"
+  },
+  {
+    "id": 420773,
+    "nome": "Alt + Enter |"
+  },
+  {
+    "id": 420775,
+    "nome": "Alt + Seta para a esquerda |"
+  },
+  {
+    "id": 420779,
+    "nome": "Shift+F10 |"
+  },
+  {
+    "id": 420780,
+    "nome": "WINKEY + L |"
+  },
+  {
+    "id": 420781,
+    "nome": "WINKEY + D |"
+  },
+  {
+    "id": 420782,
+    "nome": "WINKEY + A |"
+  },
+  {
+    "id": 420785,
+    "nome": "WINKEY + Shift + C |"
+  },
+  {
+    "id": 420787,
+    "nome": "WINKEY + E |"
+  },
+  {
+    "id": 420788,
+    "nome": "WINKEY + F |"
+  },
+  {
+    "id": 420791,
+    "nome": "WINKEY + I |"
+  },
+  {
+    "id": 420793,
+    "nome": "WINKEY + K |"
+  },
+  {
+    "id": 420794,
+    "nome": "WINKEY + L |"
+  },
+  {
+    "id": 420795,
+    "nome": "WINKEY + M |"
+  },
+  {
+    "id": 420796,
+    "nome": "WINKEY + O |"
+  },
+  {
+    "id": 420797,
+    "nome": "WINKEY + P |"
+  },
+  {
+    "id": 420798,
+    "nome": "WINKEY + R |"
+  },
+  {
+    "id": 420799,
+    "nome": "WINKEY + S |"
+  },
+  {
+    "id": 420800,
+    "nome": "WINKEY + T |"
+  },
+  {
+    "id": 420801,
+    "nome": "WINKEY + U |"
+  },
+  {
+    "id": 420802,
+    "nome": "WINKEY + V |"
+  },
+  {
+    "id": 420804,
+    "nome": "WINKEY + X |"
+  },
+  {
+    "id": 420813,
+    "nome": "WINKEY + Ctrl + número |"
+  },
+  {
+    "id": 420815,
+    "nome": "WINKEY + Ctrl + Shift + número |"
+  },
+  {
+    "id": 420816,
+    "nome": "WINKEY + Tab |"
+  },
+  {
+    "id": 420817,
+    "nome": "WINKEY + seta para cima |"
+  },
+  {
+    "id": 420821,
+    "nome": "WINKEY + Home |"
+  },
+  {
+    "id": 420824,
+    "nome": "WINKEY + Shift + Seta para a esquerda ou seta para a direita |"
+  },
+  {
+    "id": 420825,
+    "nome": "WINKEY + Barra de espaço |"
+  },
+  {
+    "id": 420831,
+    "nome": "Restauração do Sistema |"
+  },
+  {
+    "id": 420832,
+    "nome": "Prompt de Comando |"
+  },
+  {
+    "id": 420833,
+    "nome": "Windows Powershell |"
+  },
+  {
+    "id": 420834,
+    "nome": "Sistemas de Arquivo |"
+  },
+  {
+    "id": 420836,
+    "nome": "FAT32 |"
+  },
+  {
+    "id": 420837,
+    "nome": "NTFS |"
+  },
+  {
+    "id": 420835,
+    "nome": "Tipo de Sistema |"
+  },
+  {
+    "id": 420838,
+    "nome": "32 bits |"
+  },
+  {
+    "id": 420839,
+    "nome": "64 bits |"
+  },
+  {
+    "id": 421229,
+    "nome": "Cortana |"
+  },
+  {
+    "id": 405102,
+    "nome": "Linux |"
+  },
+  {
+    "id": 405103,
+    "nome": "Conceitos básicos |"
+  },
+  {
+    "id": 405104,
+    "nome": "Interface Gráfica |"
+  },
+  {
+    "id": 405105,
+    "nome": "GNOME |"
+  },
+  {
+    "id": 405106,
+    "nome": "KDE |"
+  },
+  {
+    "id": 420840,
+    "nome": "XFCE |"
+  },
+  {
+    "id": 420841,
+    "nome": "Unity |"
+  },
+  {
+    "id": 420842,
+    "nome": "Rotinas de Inicialização |"
+  },
+  {
+    "id": 420843,
+    "nome": "LILO |"
+  },
+  {
+    "id": 420844,
+    "nome": "GRUB |"
+  },
+  {
+    "id": 420845,
+    "nome": "Tipo de Usuário |"
+  },
+  {
+    "id": 420846,
+    "nome": "Usuário Comum |"
+  },
+  {
+    "id": 420847,
+    "nome": "Usuário Administrador (Root ou superusuário) |"
+  },
+  {
+    "id": 420849,
+    "nome": "Distribuições Linux |"
+  },
+  {
+    "id": 420850,
+    "nome": "Ubuntu |"
+  },
+  {
+    "id": 420851,
+    "nome": "Debian |"
+  },
+  {
+    "id": 420852,
+    "nome": "Fedora |"
+  },
+  {
+    "id": 420853,
+    "nome": "Suse |"
+  },
+  {
+    "id": 420855,
+    "nome": "CentOS |"
+  },
+  {
+    "id": 420859,
+    "nome": "Red Hat |"
+  },
+  {
+    "id": 420861,
+    "nome": "Sistemas de Arquivos |"
+  },
+  {
+    "id": 420865,
+    "nome": "EXT2 |"
+  },
+  {
+    "id": 420866,
+    "nome": "EXT3 |"
+  },
+  {
+    "id": 420867,
+    "nome": "EXT4 |"
+  },
+  {
+    "id": 420868,
+    "nome": "ReiserFS |"
+  },
+  {
+    "id": 420869,
+    "nome": "Estrutura de Diretórios |"
+  },
+  {
+    "id": 420870,
+    "nome": "/ (diretório raiz) |"
+  },
+  {
+    "id": 420871,
+    "nome": "/bin |"
+  },
+  {
+    "id": 420872,
+    "nome": "/boot |"
+  },
+  {
+    "id": 420873,
+    "nome": "/dev |"
+  },
+  {
+    "id": 420874,
+    "nome": "/var |"
+  },
+  {
+    "id": 420875,
+    "nome": "/etc |"
+  },
+  {
+    "id": 420876,
+    "nome": "/home |"
+  },
+  {
+    "id": 420877,
+    "nome": "/lib |"
+  },
+  {
+    "id": 420878,
+    "nome": "/usr |"
+  },
+  {
+    "id": 420879,
+    "nome": "/root |"
+  },
+  {
+    "id": 420880,
+    "nome": "/sbin |"
+  },
+  {
+    "id": 420881,
+    "nome": "Gerenciamento de Privilégios |"
+  },
+  {
+    "id": 420862,
+    "nome": "Principais Comandos |"
+  },
+  {
+    "id": 420882,
+    "nome": "Comando reboot |"
+  },
+  {
+    "id": 420883,
+    "nome": "Comando vi |"
+  },
+  {
+    "id": 420884,
+    "nome": "Comando ls |"
+  },
+  {
+    "id": 420885,
+    "nome": "Comando cd |"
+  },
+  {
+    "id": 420886,
+    "nome": "Comando cp |"
+  },
+  {
+    "id": 420887,
+    "nome": "Comando rm |"
+  },
+  {
+    "id": 420888,
+    "nome": "Comando rmdir |"
+  },
+  {
+    "id": 420889,
+    "nome": "Comando mv |"
+  },
+  {
+    "id": 420890,
+    "nome": "Comando man |"
+  },
+  {
+    "id": 420891,
+    "nome": "Comando df |"
+  },
+  {
+    "id": 420892,
+    "nome": "Comando sudo |"
+  },
+  {
+    "id": 420893,
+    "nome": "Comando grep |"
+  },
+  {
+    "id": 420894,
+    "nome": "Comando cat |"
+  },
+  {
+    "id": 420895,
+    "nome": "Comando apt-get |"
+  },
+  {
+    "id": 420896,
+    "nome": "Comando chmod |"
+  },
+  {
+    "id": 420898,
+    "nome": "Comando mkdir |"
+  },
+  {
+    "id": 420899,
+    "nome": "Comando ps |"
+  },
+  {
+    "id": 420900,
+    "nome": "Comando top |"
+  },
+  {
+    "id": 420901,
+    "nome": "Comando tac |"
+  },
+  {
+    "id": 420902,
+    "nome": "Comando chown |"
+  },
+  {
+    "id": 420903,
+    "nome": "Comando pwd |"
+  },
+  {
+    "id": 420904,
+    "nome": "Comando su |"
+  },
+  {
+    "id": 420905,
+    "nome": "Comando lp |"
+  },
+  {
+    "id": 420907,
+    "nome": "Comando shutdown |"
+  },
+  {
+    "id": 420909,
+    "nome": "Comando touch |"
+  },
+  {
+    "id": 420910,
+    "nome": "Comando whoami |"
+  },
+  {
+    "id": 420911,
+    "nome": "Outros comandos |"
+  },
+  {
+    "id": 420912,
+    "nome": "Operadores de Comandos |"
+  },
+  {
+    "id": 420914,
+    "nome": "Operador | (pipe) |"
+  },
+  {
+    "id": 420863,
+    "nome": "Teclas de Atalhos |"
+  },
+  {
+    "id": 420917,
+    "nome": "MS-DOS |"
+  },
+  {
+    "id": 420918,
+    "nome": "OS/400 |"
+  },
+  {
+    "id": 420919,
+    "nome": "Netware |"
+  },
+  {
+    "id": 405171,
+    "nome": "Sistemas de Áudio, Vídeo e Multimídia |"
+  },
+  {
+    "id": 423196,
+    "nome": "Programação |"
+  },
+  {
+    "id": 423197,
+    "nome": "Linguagens |"
+  },
+  {
+    "id": 423198,
+    "nome": "Python |"
+  },
+  {
+    "id": 430368,
+    "nome": "Programas Específicos |"
+  },
+  {
+    "id": 430524,
+    "nome": "Ferramentas de produtividade e trabalho a distância |"
+  }
+]

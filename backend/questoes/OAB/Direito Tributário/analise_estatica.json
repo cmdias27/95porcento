@@ -1,0 +1,1268 @@
+{
+  "Fontes Do Direito Tributário E Legislação": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Atualização monetária do IPTU por decreto e limites do art. 97 do CTN",
+        "ids_questoes": [
+          "oab_38_25"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "A FGV mistura atualização monetária do valor venal/base do IPTU com majoração tributária. A pegadinha é fazer o candidato achar que qualquer alteração por decreto exige lei, quando a mera atualização por índice oficial pode ser feita por ato infralegal."
+      },
+      {
+        "nome_microtema": "Isenção tributária por decreto e reserva legal",
+        "ids_questoes": [
+          "oab_38_25"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "Confunde-se isenção com política pública ou com fundamento na função social da propriedade. A FGV explora a ideia de que, mesmo com finalidade extrafiscal e estimativa de impacto, isenção de IPTU depende de lei específica, não de decreto do prefeito."
+      },
+      {
+        "nome_microtema": "Empréstimo compulsório: lei complementar, hipótese constitucional e calamidade pública",
+        "ids_questoes": [
+          "oab_39_29"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A banca tenta deslocar o foco para legalidade, anterioridade ou urgência sanitária, mas o vício central é formal: empréstimo compulsório só pode ser instituído por lei complementar. A calamidade não dispensa essa exigência."
+      },
+      {
+        "nome_microtema": "Vacatio legis da lei tributária omissa e regra geral de vigência",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_26"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "A FGV costuma confundir vigência com eficácia e jogar o candidato para regras de anterioridade ou prazo de 45 dias. Aqui, a pegadinha é lembrar que, sendo lei federal omissa, aplica-se a LINDB: entra em vigor 45 dias após a publicação."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com decreto, lei e situação concreta para testar limites de competência, reserva legal e vigência das normas tributárias",
+      "palavras_gatilho": [
+        "diante deste cenário",
+        "assinale a afirmativa correta",
+        "em razão da omissão",
+        "poderia ser usado",
+        "instituição e cobrança"
+      ],
+      "padrão_distratores": "alternativas juridicamente plausíveis que misturam ato infralegal com lei, confundem atualização monetária com majoração, trocam lei complementar por lei ordinária e embaralham vigência com anterioridade"
+    },
+    "total_questoes_analisadas": 3,
+    "banco_questoes": [
+      {
+        "id": "oab_38_25",
+        "materia": "Direito Tributário",
+        "assunto": "Atualização do IPTU por Decreto e Isenção",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Em dezembro de 2022, um decreto do prefeito do Município Alfa atualizou o valor do Imposto Predial e Territorial Urbano (IPTU), a contar de 1° de janeiro de 2023, atendo-se à aplicação de índice oficial de atualização monetária. Além disso, neste mesmo decreto, acompanhado da estimativa de impacto orçamentário e financeiro, estabeleceu-se, também a contar de 1° de janeiro de 2023, a isenção do IPTU para os imóveis localizados no Centro da cidade que fossem destinados exclusivamente para moradia, visando a diversificar a ocupação naquele local e dar efetividade ao princípio da função social da propriedade. Diante deste cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Tal decreto poderia ser usado apenas para atualizar o valor do IPTU.",
+          "B": "A concessão de tal isenção, por ter base na função social da propriedade, poderia ser feita por meio de decreto.",
+          "C": "Embora possa ser usado tanto para a atualização deste valor do IPTU como para a concessão deste tipo de isenção, tal decreto violou o princípio da anterioridade tributária nonagesimal.",
+          "D": "Este decreto não é instrumento normativo hábil seja para a atualização deste valor do IPTU, seja para a concessão deste tipo de isenção."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa A está correta. O decreto é instrumento hábil para atualizar o valor do IPTU por índice oficial (art. 97, §2°, CTN; Súmula 160 STJ), mas não para conceder isenção, que exige lei específica (art. 150, §6°, CF)."
+      },
+      {
+        "id": "oab_39_29",
+        "materia": "Direito Tributário",
+        "assunto": "Empréstimo Compulsório - Lei Complementar",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 148 da CF/88.",
+        "enunciado": "Diante da calamidade pública decretada pela União, por força da pandemia da 'Gripe-22XY', foi editada a Lei Ordinária Federal nº XX/2022, de 01/05/2022, estabelecendo sua vigência e eficácia imediata, instituindo empréstimo compulsório para atender a despesas extraordinárias na área sanitária para enfrentamento da pandemia. Diante desse cenário, a instituição e a cobrança do empréstimo compulsório",
+        "alternativas": {
+          "A": "podem ser feitas, por cumprir o requisito constitucional de ser voltada a 'atender a despesas extraordinárias, decorrentes de calamidade pública'.",
+          "B": "são válidas, por atenderem ao princípio da legalidade tributária.",
+          "C": "desrespeitam o princípio da anterioridade tributária nonagesimal.",
+          "D": "violou a exigência de ser veiculada mediante Lei Complementar."
+        },
+        "gabarito": "D",
+        "comentario": "O art. 148 da CF/88 estabelece que a União, mediante lei complementar, poderá instituir empréstimos compulsórios. A edição de lei ordinária viola a exigência constitucional, tornando a instituição inválida, independentemente da finalidade (calamidade pública)."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_26",
+        "materia": "Direito Tributário",
+        "assunto": "Vigência de lei tributária",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Nova lei federal, ampliando o prazo de pagamento de certo tributo federal, foi publicada em 15/06/2023. Contudo, seu texto foi omisso quanto ao momento em que entraria em vigor. Diante desse cenário de omissão, assinale a opção que indica, corretamente, o momento em que tal lei tributária entrará em vigor, em todo o país.",
+        "alternativas": {
+          "A": "30 dias depois de oficialmente publicada.",
+          "B": "45 dias depois de oficialmente publicada.",
+          "C": "90 dias depois de oficialmente publicada.",
+          "D": "no 1º dia do exercício seguinte àquele em que foi oficialmente publicada."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata sobre a vigência da norma tributária. A alternativa A está incorreta. A vigência da lei seguirá o que é disciplinado pela LINDB. Segundo o art. 1º da LINDB: “Salvo disposição contrária, a lei começa a vigorar em todo o país quarenta e cinco dias depois de oficialmente publicada”. Lembrando que vigência é diferente de eficácia da norma. A alternativa B está correta. Segundo o art. 1º da LINDB: “Salvo disposição contrária, a lei começa a vigorar em todo o país quarenta e cinco dias depois de oficialmente publicada”. Dessa forma, diante da omissão legislativa, pode-se considerar que a lei entrará em vigor 45 dias depois de sua publicação. A alternativa C está incorreta. A vigência da lei seguirá o que é disciplinado pela LINDB. Segundo o art. 1º da LINDB: “Salvo disposição contrária, a lei começa a vigorar em todo o país quarenta e cinco dias depois de oficialmente publicada”. Lembrando que vigência é diferente de eficácia da norma. A alternativa D está incorreta. A vigência da lei seguirá o que é disciplinado pela LINDB. Segundo o art. 1º da LINDB: “Salvo disposição contrária, a lei começa a vigorar em todo o país quarenta e cinco dias depois de oficialmente publicada”. Lembrando que vigência é diferente de eficácia da norma."
+      }
+    ]
+  },
+  "Princípios Constitucionais Tributários": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Natureza jurídica da verba e irrelevância da nomenclatura privada para incidência tributária",
+        "ids_questoes": [
+          "oab_39_27"
+        ],
+        "peso_percentual": 100,
+        "armadilha_favorita": "A FGV troca a substância pela forma: tenta fazer o candidato acreditar que a simples mudança de nome da verba em convenção coletiva ('indenização de plantões') altera sua natureza jurídica e afasta o IRPF. A pegadinha é ignorar o art. 43, §1º, do CTN, que exige analisar a disponibilidade econômica/jurídica da renda, e não a etiqueta dada pelas partes."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com caso concreto envolvendo relação de trabalho, folha de pagamento e tentativa de reclassificação de verba para reduzir ou afastar tributo",
+      "palavras_gatilho": [
+        "à luz do Código Tributário Nacional",
+        "diante desse cenário",
+        "assinale a afirmativa correta",
+        "não seria mais necessária a retenção na fonte",
+        "nova denominação",
+        "natureza indenizatória"
+      ]
+    },
+    "total_questoes_analisadas": 1,
+    "banco_questoes": [
+      {
+        "id": "oab_39_27",
+        "materia": "Direito Tributário",
+        "assunto": "Incidência do IRPF - Independência da Denominação da Verba",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 43, §1º do CTN.",
+        "enunciado": "No ano de 2022, os sindicatos de enfermeiros e de médicos do Estado Alfa firmaram convenção coletiva de trabalho (CCT) com os hospitais daquele estado para que a remuneração paga pelo trabalho realizado nos plantões em final de semana passasse a ter a nomenclatura de 'indenização de plantões'. Assim, não seria mais necessária a retenção na fonte do respectivo imposto sobre a Renda de Pessoa Física (IRPF) quanto a esta parcela, aumentando, como consequência, o valor líquido de salário que os médicos e enfermeiros receberiam mensalmente. O médico João, que sempre cumpriu corretamente suas obrigações tributárias, preocupado com o decidido naquela CCT, procura o seu advogado para emitir um parecer sobre aquela situação. Diante desse cenário, à luz do Código Tributário Nacional, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Em razão da natureza indenizatória que esta verba passou a ter, o IRPF não incide sobre tal parcela.",
+          "B": "Embora não tenha caráter indenizatório, sobre tal parcela não haverá incidência de IRPF por se tratar de uma decisão tomada em convenção coletiva de trabalho (CCT).",
+          "C": "Uma vez que se trata de classificação de verbas estabelecida por convenção coletiva de trabalho (CCT), que tem força de lei, haverá hipótese de isenção tributária de IRPF, a qual não se confunde com a não incidência.",
+          "D": "Deverá ser retido na fonte o IRPF sobre as verbas com a nova denominação 'indenização de plantões', pois a incidência do imposto sobre a renda independe da denominação do rendimento."
+        },
+        "gabarito": "D",
+        "comentario": "O art. 43, §1º do CTN estabelece que a incidência do imposto sobre a renda independe da denominação da receita ou do rendimento. A mera alteração da nomenclatura da verba para 'indenização' não descaracteriza sua natureza remuneratória, sujeitando-a à incidência do IRPF. Isenção depende de lei específica."
+      }
+    ]
+  },
+  "Limitações Ao Poder De Tributar (Imunidades)": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Imunidade dos sindicatos de trabalhadores e alcance subjetivo do art. 150, VI, c",
+        "ids_questoes": [
+          "oab_39_28"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir sindicato de empregadores com sindicato de trabalhadores e, ainda, achar que a imunidade depende de a entidade exercer atividade econômica ou de haver previsão apenas para associações."
+      },
+      {
+        "nome_microtema": "Imunidade recíproca e extensão a sociedade empresária privada na integralização de capital com imóvel",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_26"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Tratar a imunidade como se alcançasse qualquer pessoa jurídica ou confundir imunidade com isenção; a FGV costuma explorar a transmissão do imóvel para empresa privada e a incidência do ITBI."
+      },
+      {
+        "nome_microtema": "Imunidade do livro, inclusive livro eletrônico e seus leitores dedicados",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_27"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "A banca mistura livro físico com e-book e aparelho leitor, tentando levar o candidato a restringir a imunidade ao papel ou a ampliar indevidamente para qualquer equipamento eletrônico."
+      },
+      {
+        "nome_microtema": "Imunidade tributária religiosa do IPTU e prova da destinação do bem alugado",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_25",
+          "oab_Prova-comentada-OAB-44_26"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "Confundir o requisito da vinculação às finalidades essenciais com a necessidade de uso direto no culto; a FGV adora testar imóveis alugados, moradia de ministros e a irrelevância de matrículas distintas quando há unidade patrimonial e destinação compatível."
+      },
+      {
+        "nome_microtema": "IPVA e conceito de veículo automotor: embarcações, plataformas e unidades flutuantes",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_27"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "A pegadinha é chamar de veículo automotor algo que se locomove, mas que não se enquadra no conceito constitucional/tributário de veículo sujeito ao IPVA, especialmente quando opera sobre águas."
+      },
+      {
+        "nome_microtema": "Imunidade de entidades beneficentes e responsabilidade tributária por retenção de ISS",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-45_29"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir imunidade da entidade com blindagem absoluta contra responsabilidade tributária; a FGV costuma explorar a diferença entre contribuinte e responsável e a possibilidade de cobrança quando a lei atribui retenção ao tomador."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando a aplicação literal da imunidade ao fato gerador, ao sujeito passivo e à destinação do bem/receita",
+      "palavras_gatilho": [
+        "diante desse cenário",
+        "assinale a afirmativa correta",
+        "procure você, como advogado(a)",
+        "imunidade tributária",
+        "fato gerador",
+        "destinação",
+        "finalidades essenciais",
+        "retenção"
+      ]
+    },
+    "total_questoes_analisadas": 8,
+    "banco_questoes": [
+      {
+        "id": "oab_39_28",
+        "materia": "Direito Tributário",
+        "assunto": "Imunidade Tributária de Sindicato de Empregadores",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 150, VI, 'c' da CF/88.",
+        "enunciado": "Um grupo de empresários da área têxtil decidiu criar um sindicato dos empregadores daquele setor, para fins de representação e defesa dos interesses da categoria econômica. Na assembleia geral ordinária constitutiva da instituição e para elaboração do estatuto social, surgiu a dúvida a respeito da possibilidade de obtenção da imunidade tributária sobre o patrimônio, renda ou serviços das entidades sindicais. Presente uma equipe de advogados, estes são incitados a se manifestarem a respeito. Diante desse cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Não há previsão constitucional para imunidade tributária de impostos de sindicato de empregadores.",
+          "B": "O setor têxtil se trata de categoria econômica que não permite o enquadramento na imunidade tributária de impostos dos sindicatos.",
+          "C": "Tal sindicato faz jus à imunidade tributária de impostos, desde que exerça suas atividades sem finalidade lucrativa e atenda ao requisito de não distribuição de qualquer parcela do seu patrimônio ou renda.",
+          "D": "Desde que os recursos provenientes das contribuições associativas sejam aplicados exclusivamente na sua área de atuação e vinculados a suas finalidades essenciais, tal sindicato poderá gozar da imunidade tributária de impostos."
+        },
+        "gabarito": "A",
+        "comentario": "O art. 150, VI, 'c' da CF/88 concede imunidade de impostos sobre patrimônio, renda ou serviços das 'entidades sindicais dos trabalhadores'. A imunidade não alcança os sindicatos de empregadores (categoria econômica), apenas os sindicatos profissionais (categoria profissional)."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_26",
+        "materia": "Direito Tributário",
+        "assunto": "Imunidade do ITBI na integralização de capital",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "João e José decidem constituir uma sociedade empresária, denominada Informática ABC Ltda., especializada na prestação de serviços na área de informática. João integralizou 50% do capital social da sociedade com dinheiro, e José integralizou os seus 50% com um imóvel de sua propriedade localizado no Município Alfa, a ser utilizado como sede da empresa. Dois anos depois do início das atividades da sociedade empresária, José recebe uma notificação da Secretaria de Fazenda do Município Alfa, por falta de pagamento do Imposto sobre a Transmissão de Bens Imóveis (ITBI), devido no ato da integralização do capital social da empresa, por ser ele, segundo a legislação local, o contribuinte deste imposto. Diante desse cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "José é responsável solidário pelo recolhimento do ITBI incidente sobre essa transmissão.",
+          "B": "As empresas do setor de informática, por expressa disposição de lei complementar nacional, estão isentas do pagamento de ITBI.",
+          "C": "É devida a cobrança do ITBI, uma vez que houve a transmissão da propriedade do imóvel de José para a empresa Informática ABC Ltda. no ato da integralização do capital social.",
+          "D": "O ITBI não incide sobre a transmissão de bens incorporados ao patrimônio de Informática ABC Ltda., em realização de capital."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão aborda o tema imunidade tributária. A alternativa A está incorreta, pois a operação transmissão de bens ou direitos incorporados ao patrimônio de pessoa jurídica para integralização de capital é imune à incidência de ITBI, conforme comentários à alternativa D. A alternativa B está incorreta, pois: (i) lei complementar nacional não pode conceder isenção de tributos municipais, conforme art. 151, III, da CF: “É vedado à União instituir isenções de tributos da competência dos Estados, do Distrito Federal ou dos Municípios”; e (ii) a operação referida no enunciado é imune à incidência de ITBI, conforme comentários à alternativa D. A alternativa C está incorreta, pois a operação transmissão de bens ou direitos incorporados ao patrimônio de pessoa jurídica para integralização de capital é imune à incidência de ITBI, conforme comentários à alternativa D. A alternativa D está correta, pois revela o teor do art. 156, §2º, I, da CF: “O imposto previsto no inciso II [ITBI] não incide sobre a transmissão de bens ou direitos incorporados ao patrimônio de pessoa jurídica em realização de capital, nem sobre a transmissão de bens ou direitos decorrente de fusão, incorporação, cisão ou extinção de pessoa jurídica, salvo se, nesses casos, a atividade preponderante do adquirente for a compra e venda desses bens ou direitos, locação de bens imóveis ou arrendamento mercantil”."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_27",
+        "materia": "Direito Tributário",
+        "assunto": "Imunidade tributária dos livros eletrônicos",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária Books & Books Ltda., verificando a queda na receita de venda de livros impressos e o fechamento de inúmeras outras livrarias locais, decide alterar seu negócio para importação e comercialização no mercado interno de livros eletrônicos acompanhados dos respectivos aparelhos exclusivamente leitores. Diante desse cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A importação de tais livros eletrônicos e seus respectivos aparelhos leitores por Books & Books Ltda. fica imune da incidência do Imposto de Importação.",
+          "B": "A comercialização no mercado interno de tais livros eletrônicos por Books & Books Ltda. é imune da incidência de Imposto sobre Circulação de Mercadorias, mas não é imune da incidência deste tributo estadual na comercialização de seus respectivos aparelhos leitores.",
+          "C": "Embora tais livros eletrônicos e seus respectivos aparelhos leitores importados e comercializados no mercado interno por Books & Books Ltda. sejam equiparados a livros, o Imposto de Importação e o Imposto sobre Circulação de Mercadorias, por serem tributos indiretos, não podem ser alcançados por essa imunidade.",
+          "D": "Os livros eletrônicos e seus respectivos aparelhos leitores importados e comercializados por Books & Books Ltda. não podem ser equiparados a livros, razão pela qual não incide qualquer imunidade sobre a importação ou a comercialização deles no mercado interno."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A, pois revela o teor da Súmula Vinculante 57: “A imunidade tributária constante do art. 150, VI, d, da CF/88 aplica-se à importação e comercialização, no mercado interno, do livro eletrônico (e-book) e dos suportes exclusivamente utilizados para fixá-los, como leitores de livros eletrônicos (e-readers), ainda que possuam funcionalidades acessórias.” A questão aborda o tema imunidade tributária. As alternativas B, C e D contrariam o enunciado da Súmula Vinculante 57, logo são incorretas."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_25",
+        "materia": "Direito Tributário",
+        "assunto": "Ação Declaratória para reconhecimento de imunidade tributária",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Em 2022, a Organização Religiosa ABC recebeu em doação lojas que pretende alugar para destinar a renda obtida com os aluguéis ao pagamento de auxílio ministerial para a subsistência de seus ministros religiosos e suas famílias. Temendo que o Fisco municipal, já em janeiro de 2023, venha a fazer o lançamento dos IPTUs referentes a tais lojas, a Organização Religiosa ABC procurou você, como advogado(a), nesse mesmo mês de janeiro de 2023, para que seja promovida medida judicial a fim de que o Fisco se abstenha de fazer tal lançamento, sabendo que terá de ser produzida prova nos autos – por perito contábil indicado pelo Juízo – acerca da destinação que se pretende dar a esses aluguéis. Diante desse cenário, assinale a opção que indica a ação a ser proposta.",
+        "alternativas": {
+          "A": "Mandado de Segurança Preventivo.",
+          "B": "Medida Cautelar Fiscal.",
+          "C": "Ação Anulatória.",
+          "D": "Ação Declaratória."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão aborda o tema processo judicial tributário. A alternativa A está incorreta, embora o Mandado de Segurança Preventivo seja uma medida judicial que visa proteger direito líquido e certo ameaçado por ilegalidade ou abuso de poder, ele não é o instrumento mais adequado neste caso. O principal motivo é que a questão menciona a necessidade de produção de prova pericial contábil, o que não é compatível com o rito do Mandado de Segurança, que exige prova pré-constituída. Nesse sentido é a jurisprudência pacífica do STJ: “(...) 1. O mandado de segurança somente é cabível quando plenamente aferível o direito líquido e certo no momento da impetração, cuja existência e delimitação devem ser comprovadas de plano, sem a necessidade de dilação probatória. 2. A petição inicial do mandado de segurança deve ser instruída com prova pré-constituída, requisito esse que não pode ser suprido por fato posterior à impetração. (...) (STJ - AgInt no RMS: 65504 SC 2021/0014561-5, Relator: Ministra NANCY ANDRIGHI, Data de Julgamento: 21/02/2022, T3 - TERCEIRA TURMA, Data de Publicação: DJe 24/02/2022). A alternativa B está incorreta, pois a Medida Cautelar Fiscal é um instrumento processual utilizado pela Fazenda Pública para assegurar a eficácia da cobrança do crédito tributário, e não pelo contribuinte para evitar lançamentos. Portanto, esta opção não se aplica ao caso em questão, no qual a Organização Religiosa busca evitar o lançamento do IPTU. Nesse sentido é o teor da Lei nº 8.397/1992: “Art. 2º A medida cautelar fiscal poderá ser requerida contra o sujeito passivo de crédito tributário ou não tributário, quando o devedor: (...)”. A alternativa C está incorreta, pois a Ação Anulatória é utilizada para anular um ato administrativo já praticado, como um lançamento tributário já efetuado. No caso em questão, o lançamento do IPTU ainda não ocorreu, sendo apenas uma possibilidade futura. Portanto, não há ato a ser anulado, tornando esta opção inadequada. A alternativa D está correta, pois a Ação Declaratória é a medida judicial mais adequada para este caso. Ela permite que a Organização Religiosa busque uma declaração judicial sobre seu direito à imunidade tributária prevista no art. 150, VI, \"b\" da Constituição Federal, que abrange os templos de qualquer culto. Esta ação possibilita a produção de provas, incluindo a perícia contábil mencionada na questão, para demonstrar que os imóveis e a renda dos aluguéis serão destinados às finalidades essenciais da entidade religiosa. Além disso, a Ação Declaratória pode ter efeitos preventivos, impedindo futuros lançamentos do IPTU caso seja julgada procedente. A Ação Declaratória é a opção mais adequada porque: permite a discussão do direito à imunidade tributária antes do lançamento; possibilita a produção de provas, incluindo a perícia contábil; tem efeitos preventivos, podendo impedir futuros lançamentos; é compatível com a situação em que ainda não houve o lançamento tributário, mas há uma ameaça concreta de que ocorra. A ação declaratória é prevista no CPC: “Art. 19. O interesse do autor pode limitar-se à declaração: I - da existência, da inexistência ou do modo de ser de uma relação jurídica”."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_26",
+        "materia": "Direito Tributário",
+        "assunto": "Interpretação literal da legislação isentiva",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "João, pessoa com deficiência física, com base na Lei no XXX do Estado Alfa que isenta as pessoas com tal deficiência do pagamento do Imposto sobre Propriedade de Veículo Automotor (IPVA), requereu à Secretaria da Fazenda do Estado Alfa a extensão da aplicação da norma isentiva para a Taxa Anual de Licenciamento Veicular do seu automóvel. Ele usou como argumento o fato de que aquela isenção visa resguardar o mínimo existencial e a capacidade contributiva das pessoas com deficiência. Entretanto, o pedido foi indeferido administrativamente. Irresignado, consultou você, como advogado(a), sobre a conduta a ser adotada. Diante desse cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "João, somente após realizar o depósito prévio em dinheiro, terá seu recurso admitido e poderá recorrer para a segunda instância administrativa.",
+          "B": "Tal taxa, como espécie de tributo contraprestacional, não pode ser objeto de isenção, sob pena de prejudicar a realização dos serviços específicos e divisíveis que ela financia.",
+          "C": "A legislação tributária que outorga isenção deve ser interpretada literalmente, não sendo extensível a isenção prevista em lei para o IPVA à Taxa Anual de Licenciamento Veicular não prevista na referida lei.",
+          "D": "João poderá ajuizar ação declaratória de inexistência de relação jurídico-tributária, uma vez que as isenções podem ser interpretadas extensivamente e sua condição de pessoa com deficiência é comprovável por laudo médico e perícia judicial."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata sobre interpretação da legislação e isenção tributária. A alternativa A está incorreta. O recurso administrativo que João pode interpor não exige depósito prévio, já que se trata de uma questão interpretativa da legislação tributária e da aplicação de isenções. A alternativa B está incorreta. A isenção de taxas é legalmente possível, mesmo para tributos contraprestacionais, desde que haja fundamento legítimo, o que não é o caso da questão já que não houve previsão legal sobre tal isenção. A alternativa C está correta. A alternativa está em consonância com o art. 111 do CTN: “interpreta-se literalmente a legislação tributária que disponha sobre [...] II - outorga de isenção”. A alternativa D está incorreta. As isenções não devem ser interpretadas extensivamente e, sim, literalmente conforme previsão do art. 111 do CTN. No mais, o art. 177 prevê: “salvo disposição de lei em contrário, a isenção não é extensiva: I - às taxas”."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_26",
+        "materia": "Direito Tributário",
+        "assunto": "Imunidade tributária religiosa (IPTU)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A entidade religiosa ABC requereu o reconhecimento da imunidade de IPTU do imóvel em que realizava seus cultos, bem como do edifício ao lado, que servia de moradia para seus ministros religiosos e suas famílias. O Município Alfa negou parcialmente tal reconhecimento, afirmando que, embora ambos os imóveis fossem registrados em nome da entidade religiosa ABC, possuíam matrículas distintas no Registro de Imóveis. Desta forma, reconheceu que apenas o imóvel em que realizava seus cultos seria contemplado com a imunidade tributária reconhecida pela Constituição Federal. Surpreendida, a entidade religiosa ABC procurou você, como advogado(a), para questionar essa decisão. Assinale a opção que apresenta, corretamente, sua orientação para o caso.",
+        "alternativas": {
+          "A": "A entidade deve escolher sobre qual imóvel deve recair a imunidade do IPTU, uma vez que os imóveis têm matrículas distintas.",
+          "B": "O imóvel que tem como função precípua a realização dos cultos fará jus à imunidade do IPTU, já que os imóveis apresentam duplicidade de matrículas.",
+          "C": "A imunidade tributária religiosa do IPTU beneficia o imóvel em que se realiza o culto e todos os imóveis afetados à sua finalidade essencial, ainda que os imóveis tenham matrículas distintas.",
+          "D": "Para que os imóveis pudessem gozar da imunidade tributária religiosa do IPTU, seria necessário que suas matrículas fossem unificadas."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão aborda o tema Imunidade Religiosa. A alternativa A está incorreta, pois não há necessidade de que a imunidade religiosa recaia sobre apenas um imóvel da entidade, conforme art. 150, VI, b, da CF: “Art. 150. Sem prejuízo de outras garantias asseguradas ao contribuinte, é vedado à União, aos Estados, ao Distrito Federal e aos Municípios: VI - instituir impostos sobre: b) entidades religiosas e templos de qualquer culto, inclusive suas organizações assistenciais e beneficentes”. A alternativa B está incorreta, pois não há necessidade de que a imunidade religiosa recaia sobre apenas um imóvel da entidade, conforme comentários à alternativa A. A alternativa C está correta, pois não há necessidade de que a imunidade religiosa recaia sobre apenas um imóvel da entidade, conforme comentários à alternativa A. Em acréscimo, o STF já decidiu que o local de residência de Ministros Religiosos é alcançado pela imunidade: “DIREITO TRIBUTÁRIO. IPTU. IMUNIDADE. INSTITUIÇÕES RELIGIOSAS. IMÓVEIS. TEMPLO E RESIDÊNCIA DE MEMBROS. CONSTITUCIONALIDADE. PRECEDENTES. 1. O fato de os imóveis estarem sendo utilizados como escritório e residência de membros da entidade não afasta a imunidade prevista no art. 150, VI, c, § 4º da Constituição Federal. 2. Agravo regimental a que se nega provimento. (STF - AgR ARE: 895972 RJ - RIO DE JANEIRO 0399108-09.2009.8.19.0001, Relator.: Min. ROBERTO BARROSO, Data de Julgamento: 02/02/2016, Primeira Turma, Data de Publicação: DJe -034 24-02-2016)”. A alternativa D está incorreta, pois não há necessidade de que a imunidade religiosa recaia sobre apenas um imóvel da entidade, conforme comentários à alternativa A."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_27",
+        "materia": "Direito Tributário",
+        "assunto": "IPVA - Incidência sobre veículos aquáticos e imunidade",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Uma sociedade empresária do setor petrolífero adquiriu uma Unidade Flutuante de Produção, Armazenamento e Transferência de Petróleo, a fim de produzir petróleo nas águas territoriais brasileiras. Esta Unidade tem capacidade de se locomover pelas águas por meio de motores próprios, razão pela qual o Estado Alfa, onde fica o domicílio da sociedade empresária, publicou, em 10/02/2024, lei estadual ordinária estabelecendo que a propriedade de tais Unidades configura fato gerador de IPVA. Diante desse cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Embora se trate de veículo automotor, a Constituição Federal proíbe a incidência de IPVA sobre quaisquer veículos aquáticos.",
+          "B": "O IPVA não pode incidir sobre veículo que é utilizado nas águas territoriais brasileiras, mas apenas se fosse utilizado em terra.",
+          "C": "Somente por lei complementar se poderia delimitar a incidência de IPVA sobre este tipo de Unidade.",
+          "D": "Apesar de poder ser classificada como veículo automotor, o IPVA não incidirá por exceção constitucional."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão aborda o tema Imposto Sobre a Propriedade de Veículo Automotor (IPVA). A alternativa A está incorreta, pois, desde a reforma tributária (EC 132/2023), é permitida a tributação de veículos terrestres, aéreos e aquáticos, conforme art. 155, III, c/c § 6º, III, da CF: “Art. 155. Compete aos Estados e ao Distrito Federal instituir impostos sobre: III - propriedade de veículos automotores. (...) § 6º O imposto previsto no inciso III: III - incidirá sobre a propriedade de veículos automotores terrestres, aquáticos e aéreos, excetuados”. A alternativa B está incorreta, pois, desde a reforma tributária (EC 132/2023), é permitida a tributação de veículos terrestres, aéreos e aquáticos, conforme comentários à alternativa A. A alternativa C está incorreta, pois a Constituição não estabeleceu necessidade de lei complementar para instituição do IPVA pelos Estados. Ademais, o STF já pacificou que, na ausência de lei complementar nacional sobre normas gerais do IPVA, os Estados podem exercer a competência plena: “(...) IMPOSTO SOBRE PROPRIEDADE DE VEÍCULOS AUTOMOTORES - DISCIPLINA. Mostra-se constitucional a disciplina do Imposto sobre Propriedade de Veículos Automotores mediante norma local. Deixando a União de editar normas gerais, exerce a unidade da federação a competência legislativa plena - § 3º do artigo 24, do corpo permanente da Carta de 1988 -, sendo que, com a entrada em vigor do sistema tributário nacional, abriu-se à União, aos Estados, ao Distrito Federal e aos Municípios, a via da edição de leis necessárias à respectiva aplicação - § 3º do artigo 34 do Ato das Disposições Constitucionais Transitórias da Carta de 1988. (AI 167777 AgR, Relator(a): MARCO AURÉLIO, Segunda Turma, julgado em 04-03-1997, DJ 09-05-1997 PP -18134 EMENT VOL -01868 -04 PP-00796)”. A alternativa D está correta, pois, apesar de ser permitida a tributação de veículos terrestres, aéreos e aquáticos, conforme comentários à alternativa A, existe imunidade específica prevista no art. 155, § 6º, III, c, da CF: “§ 6º O imposto previsto no inciso III: III - incidirá sobre a propriedade de veículos automotores terrestres, aquáticos e aéreos, excetuados: c) plataformas suscetíveis de se locomoverem na água por meios próprios, inclusive aquelas cuja finalidade principal seja a exploração de atividades econômicas em águas territoriais e na zona econômica exclusiva e embarcações que tenham essa mesma finalidade principal”."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_29",
+        "materia": "Direito Tributário",
+        "assunto": "Imunidade tributária e responsabilidade tributária",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Educando 100%, associação civil sem fins lucrativos, portadora de Certificado de Entidade Beneficente de Assistência Social (CEBAS), contratou a Construtora ABC Ltda. a fim de que esta realizasse a construção de um novo edifício para a entidade beneficente. Sobre o serviço de realização de obras incide o Imposto sobre Serviços (ISS), e a lei local, instituidora do tributo, estabeleceu que é obrigação da tomadora do serviço a retenção do ISS devido. Contudo, Educando 100% não reteve o ISS devido sobre a obra. A construtora prestadora do serviço também não efetuou o pagamento do ISS devido. Sobre a pretensão do Fisco de fazer a cobrança da dívida tributária, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A imunidade de Educando 100% impede que incida o ISS nessa prestação de serviços de obras.",
+          "B": "Como responsável tributária pela retenção do ISS devido, Educando 100% pode ser cobrada pelo Fisco municipal.",
+          "C": "Educando 100%, na condição de contribuinte, pode ser cobrada pelo Fisco municipal quanto a tais débitos de ISS.",
+          "D": "Educando 100% é uma entidade imune, de modo que não se aplica a ela a lei local que estabelece a obrigação de o tomador do serviço reter o ISS."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata sobre imunidade tributária. A alternativa A está incorreta. A imunidade é da Associação Educando 100% e não da construtora. Sendo assim, a Construtora ABC será, sim, contribuinte do referido tributo. A alternativa B está correta. A associação em questão encontra-se na condição de responsável tributário e pode ser cobrada pelo fisco. Observe o que determina o art. 9º, §1º do CTN, que faz referência, também, às imunidades das instituições sem fins lucrativos: “O disposto no inciso IV não exclui a atribuição, por lei, às entidades nele referidas, da condição de responsáveis pelos tributos que lhes caiba reter na fonte, e não a dispensa da prática de atos, previstos em lei, assecuratórios do cumprimento de obrigações tributárias por terceiros”. Portanto, alternativa correta. A alternativa C está incorreta. Educando 100% não é o contribuinte, mas sim o responsável tributário. Para melhor visualizar, observe o art. 128 do CTN: “Sem prejuízo do disposto neste capítulo, a lei pode atribuir de modo expresso a responsabilidade pelo crédito tributário a terceira pessoa, vinculada ao fato gerador da respectiva obrigação, excluindo a responsabilidade do contribuinte ou atribuindo-a a este em caráter supletivo do cumprimento total ou parcial da referida obrigação”. A alternativa D está incorreta. Não há nenhum impedimento nesse sentido. Pelo contrário, conforme visto acima, o art. 9º do CTN prevê que a imunidade não exclui a obrigação do tomador de serviços de reter o tributo. Observe, novamente, a literalidade do art. 9º do CTN: “§1º - O disposto no inciso IV não exclui a atribuição, por lei, às entidades nele referidas, da condição de responsáveis pelos tributos que lhes caiba reter na fonte, e não as dispensa da prática de atos, previstos em lei, assecuratórios do cumprimento de obrigações tributárias por terceiros”."
+      }
+    ]
+  },
+  "Competência Tributária E Repartição De Receitas": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Progressividade de contribuição previdenciária de servidores e inativos",
+        "ids_questoes": [
+          "oab_38_26"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Confundir a vedação geral de progressividade com a exceção constitucional específica das contribuições para o regime próprio de previdência social, que podem ter alíquotas progressivas conforme o valor da remuneração/proventos."
+      },
+      {
+        "nome_microtema": "Vedação à analogia para instituir ou ampliar tributo",
+        "ids_questoes": [
+          "oab_38_27"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Tratar bicicleta elétrica como se fosse veículo automotor por semelhança econômica ou funcional, aceitando analogia para criar hipótese de incidência de IPVA, o que é proibido em matéria tributária."
+      },
+      {
+        "nome_microtema": "Delegação de capacidade tributária ativa e convênio para fiscalização/arrecadação do ITR",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_25"
+        ],
+        "peso_percentual": 11,
+        "armadilha_favorita": "Confundir transferência de competência tributária com delegação de capacidade tributária ativa; o Município pode fiscalizar e arrecadar por convênio, sem que isso altere a titularidade do tributo."
+      },
+      {
+        "nome_microtema": "Imposto extraordinário de guerra e bitributação constitucionalmente admitida",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_29"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Achar que a identidade de fato gerador com imposto já existente torna o tributo automaticamente inconstitucional, ignorando a autorização constitucional para imposto extraordinário de guerra, ainda que haja sobreposição temporária."
+      },
+      {
+        "nome_microtema": "Repartição de receitas tributárias em Território Federal com municípios",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_27"
+        ],
+        "peso_percentual": 11,
+        "armadilha_favorita": "Supor que, por existir município no Território Federal, os impostos estaduais e municipais pertencem ao próprio território ou aos entes locais, quando a CF define a titularidade e a destinação das receitas de forma específica."
+      },
+      {
+        "nome_microtema": "Benefício fiscal de ICMS e necessidade de convênio no âmbito do CONFAZ",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_29"
+        ],
+        "peso_percentual": 11,
+        "armadilha_favorita": "Confundir a competência legislativa estadual com a exigência de convênio interestadual para concessão de isenção, crédito presumido ou outro incentivo de ICMS, além de errar a iniciativa e o quórum."
+      },
+      {
+        "nome_microtema": "Isenção heterônoma e limites da União para conceder isenção de tributo municipal",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_29"
+        ],
+        "peso_percentual": 11,
+        "armadilha_favorita": "Aceitar que a União, por lei federal, possa isentar IPTU municipal em razão de calamidade, confundindo cooperação federativa com vedação constitucional à isenção heterônoma."
+      },
+      {
+        "nome_microtema": "Competência residual dos Municípios para instituir novos impostos",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_25"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Acreditar que o Município pode criar qualquer imposto novo por lei ordinária, sem observar que a competência municipal é taxativa e não há competência residual municipal para instituir tributo fora do rol constitucional."
+      },
+      {
+        "nome_microtema": "Anterioridade anual e nonagesimal na cobrança de IPVA sobre novas hipóteses",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_27"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir a data de publicação da lei com o início da cobrança e esquecer que, em regra, a exigência só pode ocorrer após o prazo de 90 dias e, conforme o caso, também após a anterioridade anual."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto; a FGV testa competência tributária, limitações constitucionais ao poder de tributar, repartição de receitas e regras de anterioridade por meio de situações administrativas reais, leis locais e atos de fiscalização/arrecadação.",
+      "palavras_gatilho": [
+        "diante desse cenário",
+        "assinale a afirmativa correta",
+        "é correto afirmar",
+        "a respeito da pretensão",
+        "à luz da Constituição",
+        "pode ser cobrado",
+        "por analogia",
+        "convênio",
+        "isenção",
+        "anterioridade"
+      ]
+    },
+    "total_questoes_analisadas": 9,
+    "banco_questoes": [
+      {
+        "id": "oab_38_26",
+        "materia": "Direito Tributário",
+        "assunto": "Contribuição Previdenciária dos Servidores - Alíquotas Progressivas",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "O Estado Alfa alterou, por meio de lei, a contribuição social para custeio do regime próprio de previdência social, cobrada dos seus servidores ativos, dos aposentados e dos pensionistas. José e Márcio são servidores públicos do mesmo órgão estadual, ganhando cada um, respectivamente, a remuneração mensal de 15 mil reais e 10 mil reais. José, ao notar que a alíquota incidente sobre sua remuneração era de 16,5%, ao passo que para Márcio a alíquota era de 14,5%, ficou indignado e, em relação a essa situação diferenciada, resolve contratar você, como advogado(a), para um eventual questionamento judicial. A respeito da posição de José, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Nenhum tributo incidente sobre a renda ou proventos poderá ter alíquotas progressivas, sob pena de violar a capacidade contributiva.",
+          "B": "É vedada a adoção de alíquotas progressivas para esta espécie de contribuição social, em respeito ao princípio da capacidade contributiva.",
+          "C": "A progressividade tributária deve ser obrigatoriamente adotada para todos os tributos estaduais, nos termos da CRFB/88, garantindo-se efetividade ao princípio da capacidade contributiva.",
+          "D": "Esta espécie de contribuição social poderá ter alíquotas progressivas de acordo com o valor da base de contribuição."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa D está correta. O art. 149, §1° da CF autoriza expressamente que Estados e Municípios instituam contribuições para custeio do RPPS com alíquotas progressivas de acordo com o valor da base de contribuição."
+      },
+      {
+        "id": "oab_38_27",
+        "materia": "Direito Tributário",
+        "assunto": "IPVA sobre Bicicleta Elétrica - Analogia",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "O Governador do Estado Alfa, diante da grande quantidade de bicicletas elétricas circulando em seu território, e visando aumentar a arrecadação, oficiou à sua Secretaria da Fazenda para adotar alguma forma de cobrança quanto a tais veículos. Esta, por sua vez, orientou seus fiscais a cobrar o imposto sobre Propriedade de Veículos Automotores (IPVA), aplicando a incidência deste imposto, por analogia, às bicicletas elétricas, ainda que não classificadas como veículos automotores propriamente ditos pela legislação de trânsito pertinente. O sindicato dos lojistas do setor o(a) consulta, como advogado(a), a respeito desta incidência. Diante desse cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "É válida a exigência deste imposto, uma vez que as bicicletas elétricas se enquadram no conceito de veículo automotor por analogia.",
+          "B": "Está dentro da competência estadual a tributação sobre a propriedade de bicicletas elétricas.",
+          "C": "Tal tributação por analogia envolvendo bicicletas elétricas é vedada no ordenamento jurídico nacional.",
+          "D": "A exigência deste imposto sobre bicicletas elétricas dependeria da edição de um decreto, cuja competência é privativa do Governador."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa C está correta. O art. 108, §1°, do CTN veda o emprego da analogia que resulte na exigência de tributo não previsto em lei. Além disso, a competência estadual para criar impostos é taxativa (ITCMD, IPVA, ICMS), não havendo autorização para tributar bicicletas elétricas."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_25",
+        "materia": "Direito Tributário",
+        "assunto": "ITR - Convênio entre Município e União",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O Município Alfa pretende firmar convênio com a União para fiscalizar e arrecadar diretamente o Imposto sobre a Propriedade Territorial Rural (ITR) dos imóveis rurais situados em seu território. Acerca dessa pretensão municipal, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Tal convênio, caso firmado, configura um exemplo de transferência de competência tributária plena da União para o Município.",
+          "B": "Caso firme tal convênio, o Município Alfa terá direito a ficar com 100% do ITR arrecadado referente aos imóveis rurais situados em seu território.",
+          "C": "Tal convênio é legalmente vedado por configurar delegação de capacidade tributária ativa.",
+          "D": "O Município Alfa pode receber delegação para arrecadar o tributo, mas sua fiscalização é privativa de agentes da Administração Tributária Federal."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão aborda os temas competência tributária e repartição de receitas tributárias. A alternativa A está incorreta, pois não existe a figura da transferência de competência tributária plena no direito tributário brasileiro, conforme art. 7º, caput, do CTN: “A competência tributária é indelegável, salvo atribuição das funções de arrecadar ou fiscalizar tributos, ou de executar leis, serviços, atos ou decisões administrativas em matéria tributária, conferida por uma pessoa jurídica de direito público a outra, nos termos do § 3º do art. 18 da Constituição”. A alternativa B está correta, pois revela o teor do art. 158, II, da CF: “Pertencem aos Municípios: cinquenta por cento do produto da arrecadação do imposto da União sobre a propriedade territorial rural, relativamente aos imóveis neles situados, cabendo a totalidade na hipótese da opção a que se refere o art. 153, § 4º, III”. Por sua vez, o art. 153, § 4º, III, da CF revela que: “O imposto previsto no inciso VI do caput [ITR] será fiscalizado e cobrado pelos Municípios que assim optarem, na forma da lei, desde que não implique redução do imposto ou qualquer outra forma de renúncia fiscal”. A alternativa C está incorreta, pois (i) é possível a delegação da capacidade tributária ativa, conforme art. 7º, caput, do CTN e (ii) o convênio é previsto no art. 153, §4º, III, da CF. A alternativa D está incorreta, pois haverá delegação das atribuições de cobrança e fiscalização aos Municípios, conforme art. 153, §4º, III, da CF."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_29",
+        "materia": "Direito Tributário",
+        "assunto": "Imposto Extraordinário de Guerra",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Determinado país declarou guerra ao Brasil. Para fazer frente aos gastos com o esforço de guerra, a União resolveu criar, por lei federal ordinária, um imposto extraordinário de guerra, com a mesma hipótese de incidência do Imposto sobre a Transmissão Causa Mortis e Doações. A alíquota fixada pela lei federal era de 1% sobre o valor da doação ou do montante transmitido causa mortis. Sobre esse imposto extraordinário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Não pode ser criado, pois viola a competência tributária dos Estados e do Distrito Federal.",
+          "B": "Como apresenta hipótese de incidência idêntica à do imposto estadual, somente poderia ser criado por lei complementar.",
+          "C": "Configura hipótese de bitributação ilegal, razão pela qual não poderia ser admitido.",
+          "D": "É válido, mas deve ser suprimido, gradativamente, cessadas as causas de sua criação."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão aborda o tema tributos em espécie. A alternativa A está incorreta, pois se trata de competência expressamente prevista à União no art. 154, II, da CF: “A União poderá instituir na iminência ou no caso de guerra externa, impostos extraordinários, compreendidos ou não em sua competência tributária, os quais serão suprimidos, gradativamente, cessadas as causas de sua criação”. A alternativa B está incorreta, pois o imposto em questão poderá ser criado por Lei Ordinária, conforme art. 154, II, da CF. Resta salientar que as matérias reservadas a Lei Complementar são expressamente enumeradas na Constituição e, não havendo a utilização da nomenclatura “Lei Complementar”, mas apenas “Lei”, o instrumento normativo a ser utilizado será a Lei Ordinária. A alternativa C está incorreta, pois é hipótese de bitributação permitida pela própria Constituição Federal, no inciso II do art. 154. A alternativa D está correta, pois o imposto deverá ser suprimido gradativamente quando cessadas as causas de sua criação, conforme art. 154, II, da CF: “A União poderá instituir na iminência ou no caso de guerra externa, impostos extraordinários, compreendidos ou não em sua competência tributária, os quais serão suprimidos, gradativamente, cessadas as causas de sua criação”."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_27",
+        "materia": "Direito Tributário",
+        "assunto": "Competência tributária em Territórios Federais",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Foi criado o Território Federal Alfa no Brasil, com a determinação de que, por sua extensão, deveria ser dividido em municípios. À luz do texto da Constituição Federal de 1988, sobre a cobrança de impostos nesse novo Território Federal, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Os impostos federais e municipais devem ser cobrados, mas os estaduais não, porque o Território não é Estado-membro.",
+          "B": "Os impostos federais e estaduais cobrados pertencerão à União, enquanto os impostos municipais pertencerão a cada um dos Municípios em que está dividido o Território.",
+          "C": "Os impostos federais cobrados pertencerão à União, mas os impostos estaduais e municipais pertencerão a cada um dos Municípios em que está dividido o Território.",
+          "D": "Os impostos cobrados, seja os federais, seja os estaduais, seja os municipais, pertencerão à União."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão aborda o tema cobrança de impostos estaduais. A alternativa A está incorreta, pois esta alternativa afirma que os impostos estaduais não devem ser cobrados no Território Federal. No entanto, conforme o art. 147 da Constituição Federal, os impostos estaduais são sim cobrados em Territórios Federais, mas pertencem à União, conforme comentários à alternativa B. A alternativa B está correta, pois está em conformidade com o art. 147 da Constituição Federal, que estabelece: 'Competem à União, em Território Federal, os impostos estaduais e, se o Território não for dividido em Municípios, cumulativamente, os impostos municipais; ao Distrito Federal cabem os impostos municipais.' A alternativa C está incorreta, pois esta alternativa erra ao afirmar que os impostos estaduais pertencerão aos Municípios. De acordo com o art. 147 da CF, os impostos estaduais em Territórios Federais pertencem à União, conforme comentários à alternativa B. A alternativa D está incorreta, pois apesar de afirmar que os impostos federais e estaduais pertencem à União, mas erra ao incluir os impostos municipais. Conforme o art. 147 da CF, em Territórios Federais divididos em Municípios, os impostos municipais pertencem aos respectivos Municípios, conforme comentários à alternativa B."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_29",
+        "materia": "Direito Tributário",
+        "assunto": "Benefício fiscal de ICMS e convênio CONFAZ",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Um deputado estadual desejava conceder benefício fiscal na modalidade de crédito presumido de ICMS em favor de bares e restaurantes situados no Estado Alfa, de modo a fomentar esse setor comercial. Por isso, propôs projeto de lei com esse fim, o qual foi aprovado por maioria simples na Assembleia Legislativa e sancionado pelo governador. Acerca desse cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Tal projeto de lei deveria ter sido aprovado por maioria absoluta, e não por maioria simples, na Assembleia Legislativa.",
+          "B": "A iniciativa desse projeto de lei era privativa do governador.",
+          "C": "A concessão de tal benefício fiscal na modalidade de crédito presumido dependeria de prévia autorização, por meio de convênio celebrado no âmbito do Conselho Nacional de Política Fazendária.",
+          "D": "O governador poderia ter concedido tal benefício fiscal na modalidade de crédito presumido por decreto, não sendo necessária a aprovação de lei estadual nesse sentido."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata da competência para concessão de benefício fiscal. A alternativa A está incorreta, pois a Constituição Federal não exige maioria absoluta para a aprovação de leis que concedam benefícios fiscais. O quórum para aprovação de leis ordinárias é de maioria simples, conforme o art. 47 da CF: \"Salvo disposição constitucional em contrário, as deliberações de cada Casa e de suas Comissões serão tomadas por maioria dos votos, presente a maioria absoluta de seus membros.\" A alternativa B está incorreta, pois a Constituição Federal não estabelece iniciativa privativa do governador para projetos de lei sobre benefícios fiscais. O art. 61 da CF, que trata das leis de iniciativa privativa do Presidente da República (aplicável por simetria aos governadores), não inclui matéria tributária. A alternativa C está correta, pois está de acordo com o art. 155, § 2º, XII, 'g', da Constituição Federal, que estabelece: \"Cabe à lei complementar regular a forma como, mediante deliberação dos Estados e do Distrito Federal, isenções, incentivos e benefícios fiscais serão concedidos e revogados.\" A Lei Complementar nº 24/1975, recepcionada pela CF/88, determina que a concessão de benefícios fiscais de ICMS depende de prévia celebração de convênio no âmbito do CONFAZ. A alternativa D está incorreta, pois esta alternativa viola o princípio da legalidade tributária. A concessão de benefícios fiscais também deve ser feita por lei, não podendo ser realizada por mero decreto do governador."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_29",
+        "materia": "Direito Tributário",
+        "assunto": "Isenção de tributo municipal pela União",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Tendo ocorrido uma situação de calamidade pública no Município Alfa, no final do ano de 2022, a União enviou vultosos recursos federais para enfrentar tal situação. De modo a também diminuir a carga tributária sobre a população municipal nesse período, a União, por lei federal, aprovou uma isenção de Imposto sobre a Propriedade Predial e Territorial Urbana (IPTU) no Município, por todo o ano de 2023. O Prefeito municipal estava de acordo e editou um decreto para regulamentar a forma como se daria o gozo dessa isenção. Diante desse cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A referida isenção, para ser válida, deveria ter sido veiculada por lei municipal.",
+          "B": "A União, em situação de calamidade pública, excepcionalmente, fica autorizada por lei federal a conceder isenção de qualquer imposto municipal.",
+          "C": "A União, como ente central, pode condicionar a entrega de tais recursos ao Município à aceitação de que lei federal conceda isenção de imposto municipal.",
+          "D": "A edição de decreto por parte do Prefeito configura a concordância do ente municipal com a concessão de tal isenção, tornando-a válida por ratificação expressa do Município."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão aborda o tema Exclusão do Crédito Tributário. A alternativa A está correta, pois a Constituição Federal veda à União instituir isenção de tributo de Competência dos Municípios, conforme art. 151, III: “Art. 151. É vedado à União: III - instituir isenções de tributos da competência dos Estados, do Distrito Federal ou dos Municípios”. A alternativa B está incorreta, pois a Constituição Federal veda à União instituir isenção de tributo de Competência dos Municípios, conforme comentário à alternativa A. A alternativa C está incorreta, pois a Constituição Federal veda à União instituir isenção de tributo de Competência dos Municípios, conforme comentário à alternativa A. A alternativa D está incorreta, pois a Constituição Federal veda à União instituir isenção de tributo de Competência dos Municípios, conforme comentário à alternativa A."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_25",
+        "materia": "Direito Tributário",
+        "assunto": "Competência tributária municipal",
+        "banca": "FGV",
+        "ano": "2025",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O Município Alfa, desejando aumentar sua arrecadação tributária, instituiu por lei ordinária municipal, publicada em 10/07/2025, um novo imposto sobre a concessão de autorizações para localização e funcionamento de estabelecimentos comerciais. A lei estabelece que produziria efeitos a partir de 01/01/2026. A sociedade empresária ABC Ltda., com estabelecimento comercial no Município Alfa, irresignada com a nova exação, contratou você, como advogado(a), para ajuizar ação declaratória tributária antes do início da vigência da nova lei, visando garantir que não seja cobrada quanto ao novo imposto municipal. Diante desse cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A ação correta a ser manejada seria a ação anulatória tributária.",
+          "B": "O novo imposto só pode ser criado por meio de uma lei complementar municipal, e não por mera lei ordinária.",
+          "C": "A anterioridade nonagesimal não foi obedecida, pois a lei apenas entraria em vigor 90 dias após 01/01/2026.",
+          "D": "O Município Alfa não pode criar esse novo imposto, por não estar compreendido em sua competência tributária constitucional."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata sobre competência tributária. A alternativa A está incorreta. Art. 142. Compete privativamente à autoridade administrativa constituir o crédito tributário pelo lançamento, (...). Veja literalidade da lei (...) / jurisprudência “X”: “Transcrição da jurisprudência ou texto de lei”. A alternativa B está incorreta. A Constituição, em seu art. 150, estabelece a vedação aos entes federados, de instituir tributos sem lei que o estabeleça. Observe a literalidade do art. 150 da CF: “Sem prejuízo de outras garantias asseguradas ao contribuinte, é vedado à União, aos Estados, ao Distrito Federal e aos Municípios: I - exigir ou aumentar tributo sem lei que o estabeleça”. Observe que a CF não faz reserva de lei complementar. No mais, o art 3º do CTN prevê que “tributo é toda prestação pecuniária compulsória, em moeda ou cujo valor nela se possa exprimir, que não constitua sanção de ato ilícito, instituída em lei e cobrada mediante atividade administrativa plenamente vinculada”. Observe que a regra geral no sistema tributário brasileiro é que tributos são instituídos por lei ordinária. A alternativa C está incorreta. A anterioridade nonagesimal, na verdade, foi sim obedecida. A contagem do prazo inicia-se a partir da publicação da lei que instituiu o tributo. É o que prevê o art. 150, III, b, da CF: “antes de decorridos noventa dias da data em que haja sido publicada a lei que os instituiu ou aumentou, observado o disposto na alínea b”. A alternativa D está correta. Os municípios não possuem autorização para criar impostos novos fora de sua competência constitucional, a qual é taxativa. Dessa forma, o art. 156 da CF prevê que os municípios podem instituir impostos sobre: “I - propriedade predial e territorial urbana; II - transmissão 'inter vivos', a qualquer título, por ato oneroso, de bens imóveis, por natureza ou acessão física, e de direitos reais sobre imóveis, exceto os de garantia, bem como cessão de direitos a sua aquisição; III - serviços de qualquer natureza, não compreendidos no art. 155, II, definidos em lei complementar”. Observe que a hipótese apresentada não se enquadra na competência tributária municipal."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_27",
+        "materia": "Direito Tributário",
+        "assunto": "Anterioridade nonagesimal (IPVA)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O Estado Alfa publicou, em 29/12/2024, uma nova lei ordinária, instituindo a incidência de IPVA sobre a propriedade de veículos automotores aéreos e aquáticos, com fato gerador ocorrendo no dia 1° de janeiro de cada ano. A partir do mês de janeiro de 2025, o Fisco Estadual começou a enviar aos contribuintes carnês de pagamento de IPVA incidente sobre tais veículos aéreos e aquáticos, com data de pagamento até o final de fevereiro de 2025. Acerca deste cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A cobrança poderia ser feita a partir de 01/01/2025.",
+          "B": "As novas hipóteses de incidência de IPVA são inconstitucionais.",
+          "C": "A cobrança poderia ser feita apenas decorridos 90 dias da data em que foi publicada a nova lei.",
+          "D": "A lei somente poderia instituir a incidência de IPVA sobre a propriedade de veículos automotores aquáticos."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata sobre anterioridade nonagesimal. A alternativa A está incorreta. Em 01/01/2025 a anterioridade anual teria sido observada. No entanto, não poderia ser cobrada nessa data, ainda, pois violaria o princípio da anterioridade nonagesimal. A alternativa B está incorreta. A instituição do imposto mencionado não é inconstitucional, pois preserva a competência estadual em instituir tal tributo. Observe a literalidade do art. 155, III da CF: “Compete aos Estados e ao Distrito Federal instituir impostos sobre: [...] III - propriedade de veículos automotores”. A alternativa C está correta. A cobrança, realmente, só poderia ser cobrada após transcorrido o prazo de noventa dias, em respeito ao art. 150, III, “b” da CF. Observe a literalidade da lei: “Sem prejuízo de outras garantias asseguradas ao contribuinte, é vedado à União, aos Estados, ao Distrito Federal e aos Municípios: [...] III - cobrar tributos: [...] c) antes de decorridos noventa dias da data em que haja sido publicada a lei que os instituiu ou aumentou, observado o disposto na alínea b”. A alternativa D está incorreta. Conforme visto acima, a incidência recai sobre a propriedade de veículos automotores. Observe, novamente, a literalidade do art. 155, III da CF: “Compete aos Estados e ao Distrito Federal instituir impostos sobre: [...] III - propriedade de veículos automotores”."
+      }
+    ]
+  },
+  "Tributo: Conceito E Espécies (Impostos, Taxas, Contribuições, Empréstimo Compulsório)": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Taxa de polícia: base de cálculo própria e vedação de cálculo sobre capital social/faturamento",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_28"
+        ],
+        "peso_percentual": 55,
+        "armadilha_favorita": "A FGV tenta fazer a taxa parecer legítima porque há poder de polícia e finalidade fiscalizatória, mas a pegadinha está em usar critério típico de imposto (capital social/porte econômico) como base de cálculo, o que desnatura a taxa."
+      },
+      {
+        "nome_microtema": "Contribuição para custeio da iluminação pública (CIP/COSIP) e limites materiais da vinculação",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_29"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "A banca mistura finalidades constitucionalmente admitidas com finalidades vedadas: a contribuição pode custear iluminação pública, mas não pode ser alargada para segurança pública genérica ou monitoramento de logradouros como se fosse uma contribuição ampla para qualquer despesa municipal."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando a classificação correta da espécie tributária e a identificação de vícios materiais na instituição do tributo",
+      "palavras_gatilho": [
+        "é correto afirmar",
+        "diante dos fatos",
+        "pode ser instituída",
+        "é constitucional",
+        "é inconstitucional",
+        "a cobrança"
+      ]
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-41_28",
+        "materia": "Direito Tributário",
+        "assunto": "Taxas - Base de cálculo - Capital social",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Lei Ordinária do Município Alfa, publicada no Diário Oficial Municipal em 30/09/2020, instituiu uma Taxa de Fiscalização de Estabelecimentos Comerciais – TFEC, incidente sobre o setor de materiais de construção. Sua produção de efeitos se deu a partir de 01/01/2021, com a finalidade de aferir o cumprimento das normas de segurança e urbanização local e a taxa passou a ser cobrada por meio de alíquotas específicas, fixadas no valor de R$ 150,00 para empresas com capital social de até R$ 100.000,00, de R$ 300,00 para empresas com capital social de até R$ 500.000,00 e de R$ 1.500,00 para empresas com capital social superior a R$ 500.000,00. A associação dos empresários daquele setor empresarial pretende questionar essa cobrança. Diante desse cenário, a cobrança da referida taxa",
+        "alternativas": {
+          "A": "é legal e constitucional, por estar dentro da competência tributária do respectivo município, fundada no seu regular poder de polícia.",
+          "B": "não respeita o princípio da anterioridade, sendo inconstitucional nesse aspecto.",
+          "C": "é devida por atender aos princípios da progressividade e da capacidade contributiva, ao cobrar maior valor sobre a empresa com maior capital social e cobrar menor valor sobre a empresa com menor capital social.",
+          "D": "é ilegal por ser calculada com base no capital social das empresas."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão aborda o tema taxas. A alternativa A está incorreta, pois, embora o município tenha competência para instituir taxas de poder de polícia, conforme o art. 145, II, da Constituição Federal, a base de cálculo utilizada (capital social) não é adequada para uma taxa, conforme comentários à alternativa D. A alternativa B está incorreta, pois a questão não apresenta problemas quanto ao princípio da anterioridade, uma vez que a lei foi publicada em 30/09/2020 e seus efeitos iniciaram em 01/01/2021, respeitando tanto a anterioridade anual quanto a nonagesimal (art. 150, III, 'b' e 'c' da CF), veja-se: “Art. 150. Sem prejuízo de outras garantias asseguradas ao contribuinte, é vedado à União, aos Estados, ao Distrito Federal e aos Municípios: (...) III - cobrar tributos: (...) b) no mesmo exercício financeiro em que haja sido publicada a lei que os instituiu ou aumentou; c) antes de decorridos noventa dias da data em que haja sido publicada a lei que os instituiu ou aumentou, observado o disposto na alínea b;” A alternativa C está incorreta, pois, embora a cobrança pareça progressiva, as taxas devem guardar proporcionalidade com o custo da atividade estatal. Nesse sentido: “Fixação da seguinte tese: Viola o princípio da capacidade contributiva, na dimensão do custo/benefício, a instituição de taxa de polícia ambiental que exceda flagrante e desproporcionalmente os custos da atividade estatal de fiscalização. (STF - ADI: 5489 RJ, Relator: ROBERTO BARROSO, Data de Julgamento: 24/02/2021, Tribunal Pleno, Data de Publicação: 12/03/2021)” A alternativa D está correta, conforme art. 77, parágrafo único do CTN: “A taxa não pode ter base de cálculo ou fato gerador idênticos aos que correspondam a imposto nem ser calculada em função do capital das empresas”."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_29",
+        "materia": "Direito Tributário",
+        "assunto": "Contribuição de Iluminação Pública (CIP)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Visando à melhoria do serviço de iluminação pública e da segurança no Município Alfa, foi publicada lei municipal, em 20/02/2024, instituindo uma contribuição cuja arrecadação estaria vinculada ao custeio, à expansão e à melhoria do serviço de iluminação pública e de sistemas de monitoramento para a segurança e a preservação de logradouros públicos. Acerca desta lei, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A contribuição poderia ser instituída e vinculada a todas essas finalidades, por expressa previsão constitucional.",
+          "B": "É inconstitucional a tentativa de custear a iluminação pública por espécie tributária distinta de impostos.",
+          "C": "A implantação de sistemas de monitoramento para a segurança e a preservação de logradouros públicos somente poderia ser custeada com recursos advindos de taxas, e não de uma contribuição.",
+          "D": "A implantação de sistemas de monitoramento para a segurança e a preservação de logradouros públicos somente poderia ser custeada com recursos advindos de impostos, e não de uma contribuição."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata sobre a Contribuição à expansão e ao melhoramento do serviço de iluminação pública e de sistemas de monitoramento para segurança e preservação de logradouros públicos. A alternativa A está correta. Essa contribuição está disciplinada no art. 149-A da CF/88: \"Os Municípios e o Distrito Federal poderão instituir contribuição, na forma das respectivas leis, para o custeio, a expansão e a melhoria do serviço de iluminação pública e de sistemas de monitoramento para segurança e preservação de logradouros públicos, observado o disposto no art. 150, I e III\". A alternativa B está incorreta. Porque o tributo aplicável é a contribuição prevista no art. 149-A da CF/88 e não impostos. A alternativa C está incorreta. O custeio de iluminação pública não pode ser cobrado mediante taxa (Súmula 670 do STF) e sim, contribuição, disciplinada no art. 149-A da CF/88). A alternativa D está incorreta. A contribuição do art. 149-A da CF/88 após a reforma tributária de 2023 (EC nº 132/22), atribuiu aplicabilidade também sobre o custeio dos sistemas de monitoramento para segurança e preservação de logradouros públicos. Portanto o custeio não se dá mediante impostos e sim, contribuição."
+      }
+    ]
+  },
+  "Obrigação Tributária Principal E Acessória": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Hipótese de incidência, fato gerador e nascimento da obrigação tributária principal",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir fato gerador com lançamento ou com a constituição definitiva do crédito tributário."
+      },
+      {
+        "nome_microtema": "Obrigação tributária principal: objeto, conteúdo e extinção pelo pagamento",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Tratar obrigação principal como dever instrumental ou achar que ela sempre nasce com a inscrição em dívida ativa."
+      },
+      {
+        "nome_microtema": "Obrigação tributária acessória: deveres instrumentais, prestações positivas e negativas",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Misturar obrigação acessória com obrigação principal, esquecendo que a acessória não tem conteúdo pecuniário direto."
+      },
+      {
+        "nome_microtema": "Conversão da obrigação acessória em principal pela penalidade pecuniária",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Achar que o descumprimento da acessória extingue o dever ou gera apenas multa administrativa sem natureza tributária."
+      },
+      {
+        "nome_microtema": "Sujeito ativo e sujeito passivo da obrigação tributária",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir contribuinte com responsável tributário ou presumir que o sujeito passivo é sempre quem pratica o fato gerador."
+      },
+      {
+        "nome_microtema": "Responsabilidade tributária e substituição tributária na dinâmica da obrigação",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Misturar responsabilidade por transferência com substituição tributária e atribuir a obrigação a quem não realizou o fato gerador sem base legal."
+      },
+      {
+        "nome_microtema": "Deveres acessórios em situações concretas: escrituração, emissão de documentos e prestação de informações",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Ignorar que a obrigação acessória pode ser exigida mesmo sem tributo devido, desde que prevista em lei."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com um contribuinte, um terceiro ou um responsável tributário, exigindo a distinção entre obrigação principal e acessória, o momento de surgimento do dever, e os efeitos do descumprimento. A pegadinha geralmente está em trocar fato gerador por lançamento, obrigação acessória por principal, ou responsabilidade tributária por substituição.",
+      "palavras_gatilho": [
+        "fato gerador",
+        "lançamento",
+        "obrigação principal",
+        "obrigação acessória",
+        "dever instrumental",
+        "penalidade pecuniária",
+        "contribuinte",
+        "responsável tributário",
+        "substituição tributária",
+        "escrituração",
+        "emissão de nota fiscal",
+        "prestação de informações"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Fato Gerador, Sujeito Ativo E Passivo": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Imposto de Importação: fato gerador no desembaraço aduaneiro e vigência imediata da majoração por decreto",
+        "ids_questoes": [
+          "oab_38_29"
+        ],
+        "peso_percentual": 34,
+        "armadilha_favorita": "Confundir o momento da publicação do decreto com o momento do fato gerador. A FGV explora a ideia de que a majoração só poderia valer depois da chegada da mercadoria, mas no II a alteração de alíquota por ato do Executivo pode produzir efeitos imediatos, incidindo conforme o desembaraço aduaneiro."
+      },
+      {
+        "nome_microtema": "IPTU: sujeição passiva, convenção entre particulares e irrelevância da cláusula contratual perante o Fisco",
+        "ids_questoes": [
+          "oab_39_26"
+        ],
+        "peso_percentual": 33,
+        "armadilha_favorita": "Induzir o candidato a achar que o locatário, por ter assumido contratualmente o pagamento dos tributos, passa a ser o sujeito passivo perante o Município. A pegadinha é que a convenção particular não altera a definição legal do contribuinte nem afasta a responsabilidade dos proprietários."
+      },
+      {
+        "nome_microtema": "ITCMD: competência estadual na transmissão causa mortis de bem móvel e critério do domicílio do falecido",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_25"
+        ],
+        "peso_percentual": 33,
+        "armadilha_favorita": "Trocar o critério constitucional aplicável ao bem móvel por critérios aparentemente intuitivos, como local do inventário, domicílio do herdeiro ou local de situação física do bem. A FGV costuma testar a leitura literal da regra de competência do ITCMD na sucessão causa mortis."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo a identificação do fato gerador, do sujeito ativo e do sujeito passivo a partir de detalhes do enunciado",
+      "palavras_gatilho": [
+        "é correto afirmar",
+        "diante dos fatos",
+        "assinale a opção correta",
+        "à luz do CTN",
+        "de acordo com a Constituição Federal"
+      ],
+      "padrão_distratores": "alternativas juridicamente plausíveis que misturam critério temporal, competência tributária, convenção privada e definição legal do contribuinte, forçando o candidato a separar regra tributária de pacto entre particulares"
+    },
+    "total_questoes_analisadas": 3,
+    "banco_questoes": [
+      {
+        "id": "oab_38_29",
+        "materia": "Direito Tributário",
+        "assunto": "Imposto de Importação - Princípios da Legalidade e Anterioridade",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "A Sociedade Empresária ABC Ltda. adquiriu no exterior um lote de dez mil unidades de um determinado perfume francês. Antes da chegada das mercadorias ao porto, foi publicado no Diário Oficial da União, em 20/04/2023, um decreto editado pelo Poder Executivo Federal majorando imediatamente a alíquota do Imposto sobre a Importação de perfumes de 20% para 30%, prevendo expressamente sua vigência e produção de efeitos a partir da data de sua publicação. Em 30/04/2023, as mercadorias finalmente chegam ao porto no Brasil, devendo agora a empresa realizar o desembaraço aduaneiro. Preocupada com possível prejuízo decorrente do aumento inesperado do custo da mercadoria devido à elevação do imposto de Importação, a sociedade empresária procura você, como advogado(a), indagando sobre a validade daquele decreto. Diante deste cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A elevação desta alíquota por decreto violou o princípio da legalidade tributária.",
+          "B": "O prazo previsto para produção de efeitos da elevação de alíquota violou princípio da anterioridade tributária nonagesimal.",
+          "C": "Embora tal imposto seja classificado como extrafiscal, deve obediência ao princípio da anterioridade tributária anual.",
+          "D": "A majoração dessa alíquota e a sua produção de efeitos imediata são válidas."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa D está correta. O Imposto de Importação (II) é um dos impostos que o Poder Executivo pode alterar as alíquotas por decreto (art. 153, §1°, CF). Além disso, não se sujeita aos princípios da anterioridade anual e nonagesimal (art. 150, §1°, CF)."
+      },
+      {
+        "id": "oab_39_26",
+        "materia": "Direito Tributário",
+        "assunto": "Responsabilidade Tributária - Solidariedade e Convenções Particulares",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Arts. 123, 124 e 126 do CTN.",
+        "enunciado": "João e José receberam um imóvel residencial situado no Município Alfa por herança de seus pais. Em janeiro de, 2017, com autorização de José (menor de idade), seu irmão e tutor João (maior de idade), assina como único locador um contrato de aluguel do referido imóvel com Joaquim, com prazo determinado de 3 (três) anos, constando cláusula expressa de que o locatário será o único responsável pelo pagamento de todos os impostos e taxas do imóvel locado, exonerando o locador de tal obrigação. Em dezembro de 2021, João e José são surpreendidos com uma ação de execução fiscal movida em face de ambos pelo Município Alfa para cobrança do IPTU do imóvel locado referente a todo o exercício fiscal de 2018. Diante desse cenário e à luz do Código Tributário Nacional, a ação de execução fiscal",
+        "alternativas": {
+          "A": "somente poderia ter sido ajuizada em face de Joaquim, único devedor do IPTU, conforme cláusula expressa contratual.",
+          "B": "somente poderia ter sido ajuizada em face de João, único que figurou no contrato como locador e dotado de capacidade tributária e processual.",
+          "C": "foi corretamente ajuizada, uma vez que João e José respondem pelo tributo devido, ainda que este último seja menor de idade.",
+          "D": "não podia ter sido ajuizada por já estar o crédito tributário prescrito."
+        },
+        "gabarito": "C",
+        "comentario": "O art. 123 do CTN dispõe que convenções particulares não podem ser opostas à Fazenda Pública para modificar a definição legal do sujeito passivo. Os proprietários (João e José) são contribuintes do IPTU. O art. 126 estabelece que a capacidade tributária passiva independe da capacidade civil. A prescrição (art. 174) não ocorreu."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_25",
+        "materia": "Direito Tributário",
+        "assunto": "ITCMD - Competência para cobrança",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Paulo, domiciliado em Ubatuba (SP), era proprietário de uma única embarcação automotora, que ficava ancorada em Paraty (RJ). Ele veio a falecer no início do ano de 2024, em Belo Horizonte (MG), durante visita à filha e única herdeira, Joana, domiciliada nesta mesma cidade. A filha, maior de idade e capaz, realizou o inventário extrajudicial de seu pai perante tabelião de Belo Horizonte (MG). De acordo com o texto da Constituição Federal de 1988, assinale a opção que indica, corretamente, o Estado em que o Imposto sobre Transmissão Causa Mortis e Doação (ITCMD) incidente sobre essa transmissão causa mortis é devido.",
+        "alternativas": {
+          "A": "Minas Gerais, por ser o local onde se processou o inventário extrajudicial.",
+          "B": "Minas Gerais, por ser o local de domicílio da única herdeira.",
+          "C": "São Paulo, por ser o local de domicílio do falecido.",
+          "D": "Rio de Janeiro, por ser o local onde ancorada a embarcação automotora."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão aborda o tema Imposto Sobre a Transmissão Causa Mortis e Doação (ITCMD). A alternativa A está incorreta, pois o ITCMD referente à transmissão de bens móveis será devido ao local onde domiciliado o de cujus, conforme art. 155, I, c/c § 1º, II, da CF: “Art. 155. Compete aos Estados e ao Distrito Federal instituir impostos sobre: I - transmissão causa mortis e doação, de quaisquer bens ou direitos; (...) § 1º O imposto previsto no inciso I: II - relativamente a bens móveis, títulos e créditos, compete ao Estado onde era domiciliado o de cujus, ou tiver domicílio o doador, ou ao Distrito Federal”. A alternativa B está incorreta, pois o ITCMD referente à transmissão de bens móveis será devido ao local onde domiciliado o de cujus, conforme comentários à alternativa A. A alternativa C está correta, pois o ITCMD referente à transmissão de bens móveis será devido ao local onde domiciliado o de cujus, conforme comentários à alternativa A. A alternativa D está incorreta, pois o ITCMD referente à transmissão de bens móveis será devido ao local onde domiciliado o de cujus, conforme comentários à alternativa A."
+      }
+    ]
+  },
+  "Responsabilidade Tributária": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Responsabilidade tributária por transferência contratual do IPTU ao locatário",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_28"
+        ],
+        "peso_percentual": 100,
+        "armadilha_favorita": "Confundir cláusula contratual de repasse do encargo econômico do IPTU com alteração do sujeito passivo tributário: a FGV explora a ideia de que o locatário passa a ser contribuinte ou responsável tributário, quando na verdade o contrato entre particulares não modifica a sujeição passiva perante o Fisco."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com contrato ou relação privada tentando deslocar o ônus do tributo; a banca testa se o candidato distingue obrigação civil de responsabilidade tributária perante o ente público.",
+      "palavras_gatilho": [
+        "cláusula expressa",
+        "encargo",
+        "locatário",
+        "IPTU",
+        "à luz do CTN",
+        "assinale a afirmativa correta"
+      ],
+      "padrao_distratores": "Alternativas plausíveis que misturam contribuinte, responsável por substituição, sucessão e mera obrigação contratual de reembolso, induzindo o candidato a aceitar efeitos tributários de um pacto privado."
+    },
+    "total_questoes_analisadas": 1,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-43_28",
+        "materia": "Direito Tributário",
+        "assunto": "Responsabilidade Tributária e Convenções Particulares",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Um contrato de locação residencial traz cláusula expressa de que ao locatário caberá o encargo de pagar diretamente, para o Município ou a rede bancária, o IPTU incidente sobre o imóvel locado, enquanto durar o contrato de locação, devendo remeter, posteriormente, o comprovante de pagamento ao locador. Sobre a posição do locatário, à luz do Código Tributário Nacional, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O locatário pode ser considerado contribuinte de direito quanto a este IPTU.",
+          "B": "Em caso de inadimplemento deste IPTU, o locatário não poderá ser executado pelo Município.",
+          "C": "Quanto a este IPTU, o locatário tem responsabilidade tributária por substituição ao locador.",
+          "D": "O locatário é responsável tributário por sucessão do locador quanto a este IPTU."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata sobre Responsabilidade Tributária. A alternativa A está incorreta. O locatário não é contribuinte nem responsável tributário do IPTU. Mesmo que prevista em contrato, pois as convenções particulares relativas ao dever de pagar tributos não são opostas à Fazenda Pública nos termos do art. 123 do CTN. A alternativa B está correta. O inadimplemento do IPTU por parte do locatário não deriva de uma obrigação legal tributária. Assim, ele não pode ser executado pelo município conforme dispõe o art. 123 do CTN, vejamos: \"Salvo disposições de lei em contrário, as convenções particulares, relativas à responsabilidade pelo pagamento de tributos, não podem ser opostas à Fazenda Pública, para modificar a definição legal do sujeito passivo das obrigações tributárias correspondentes\". A alternativa C está incorreta. O locatário não possui nenhuma responsabilidade tributária quanto ao IPTU nos termos do art. 123 do CTN. A alternativa D está incorreta. O locatário também não é responsável tributário por sucessão pelos motivos expostos já no comentário da alternativa B. Não sendo sujeito passivo do IPTU."
+      }
+    ]
+  },
+  "Crédito Tributário: Constituição (Lançamento)": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Lançamento por homologação em tributo declarado e pago via sistema eletrônico",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_26",
+          "oab_Prova-comentada-OAB-45_28"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "A FGV confunde o candidato fazendo parecer que, por haver preenchimento de declaração pelo contribuinte e geração de guia pela internet, o lançamento seria por declaração ou de ofício. A chave é perceber que, se o sujeito passivo apura, informa e antecipa o pagamento, trata-se de lançamento por homologação, ainda que o sistema seja eletrônico."
+      },
+      {
+        "nome_microtema": "Decadência e novo lançamento após anulação por vício formal",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_27"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "A pegadinha clássica é misturar anulação por vício formal com extinção definitiva do direito de lançar. A FGV explora o art. 173, II, do CTN: anulado o lançamento por vício formal, a Fazenda pode refazê-lo no prazo de cinco anos contados da data em que se tornar definitiva a decisão que anulou o lançamento."
+      },
+      {
+        "nome_microtema": "Prescrição da cobrança do crédito tributário constituído por lançamento de ofício e não impugnado",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_26"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A FGV costuma trocar a via adequada de cobrança e o marco inicial da prescrição. O distrator tenta levar o candidato a discutir decadência ou ação de cobrança comum, quando o correto é execução fiscal, com prescrição contada da constituição definitiva do crédito tributário."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando a identificação da modalidade de lançamento, o marco inicial de decadência/prescrição e a via processual correta para cobrança do crédito tributário.",
+      "palavras_gatilho": [
+        "assinale a opção correta",
+        "diante desse cenário",
+        "à luz do texto expresso do CTN",
+        "prazo decadencial",
+        "prazo prescricional",
+        "lançamento por homologação",
+        "auto de infração",
+        "execução fiscal"
+      ]
+    },
+    "total_questoes_analisadas": 4,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-41_26",
+        "materia": "Direito Tributário",
+        "assunto": "Modalidades de lançamento tributário",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O Estado Alfa acabou de implantar um novo sistema on-line para o lançamento do Imposto sobre a Transmissão Causa Mortis e Doação – ITCMD, veiculando também em lei estadual o modo como o preenchimento da declaração deve ser feito e entregue pelo sujeito passivo tributário por meio da Internet. Segundo essa lei, caberia ao sujeito passivo preencher a declaração, indicando os fatos geradores, as bases de cálculo e as alíquotas aplicáveis, resultando, ao final, no valor a ser pago, devendo também o sujeito passivo gerar a guia de pagamento pela internet e pagá-la. O Fisco estadual teria prazo decadencial para analisar a declaração entregue e o respectivo pagamento por parte do sujeito passivo. Assinale a opção que indica, corretamente, a modalidade de lançamento do ITCMD nesse Estado.",
+        "alternativas": {
+          "A": "Lançamento por declaração.",
+          "B": "Lançamento por arbitramento.",
+          "C": "Lançamento por homologação.",
+          "D": "Lançamento de ofício."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão aborda o tema modalidades de lançamento. A alternativa A está incorreta, pois no lançamento por declaração, a autoridade administrativa efetua o lançamento com base nas informações prestadas pelo contribuinte, o que não ocorre na situação apresentada. Nesse sentido é o art. 147 do CTN: “O lançamento é efetuado com base na declaração do sujeito passivo ou de terceiro, quando um ou outro, na forma da legislação tributária, presta à autoridade administrativa informações sôbre matéria de fato, indispensáveis à sua efetivação”. A alternativa B está incorreta, pois o arbitramento é uma técnica dentro do lançamento de ofício, conforme previsto no art. 148 do CTN: \"Quando o cálculo do tributo tenha por base, ou tome em consideração, o valor ou o preço de bens, direitos, serviços ou atos jurídicos, a autoridade lançadora, mediante processo regular, arbitrará aquele valor ou preço, sempre que sejam omissos ou não mereçam fé as declarações ou os esclarecimentos prestados, ou os documentos expedidos pelo sujeito passivo ou pelo terceiro legalmente obrigado, ressalvada, em caso de contestação, avaliação contraditória, administrativa ou judicial.\" A alternativa C está correta, pois as características descritas na questão correspondem exatamente a esta modalidade, na qual o sujeito passivo antecipa o pagamento sem prévio exame da autoridade administrativa, conforme art. 150 do CTN: “O lançamento por homologação, que ocorre quanto aos tributos cuja legislação atribua ao sujeito passivo o dever de antecipar o pagamento sem prévio exame da autoridade administrativa, opera-se pelo ato em que a referida autoridade, tomando conhecimento da atividade assim exercida pelo obrigado, expressamente a homologa”. A alternativa D está incorreta, nos termos do art. 149 do CTN. Este artigo lista várias situações em que a autoridade administrativa pode efetuar ou rever o lançamento de ofício, no entanto, esta não é a modalidade aplicável ao caso descrito na questão, na qual o contribuinte tem papel ativo no processo de declaração e pagamento do imposto. Veja-se o teor do dispositivo: “Art. 149. O lançamento é efetuado e revisto de ofício pela autoridade administrativa nos seguintes casos: I - quando a lei assim o determine; II - quando a declaração não seja prestada, por quem de direito, no prazo e na forma da legislação tributária; III - quando a pessoa legalmente obrigada, embora tenha prestado declaração nos termos do inciso anterior, deixe de atender, no prazo e na forma da legislação tributária, a pedido de esclarecimento formulado pela autoridade administrativa, recuse-se a prestá-lo ou não o preste satisfatoriamente, a juízo daquela autoridade; IV - quando se comprove falsidade, erro ou omissão quanto a qualquer elemento definido na legislação tributária como sendo de declaração obrigatória; V - quando se comprove omissão ou inexatidão, por parte da pessoa legalmente obrigada, no exercício da atividade a que se refere o artigo seguinte; VI - quando se comprove ação ou omissão do sujeito passivo, ou de terceiro legalmente obrigado, que dê lugar à aplicação de penalidade pecuniária; VII - quando se comprove que o sujeito passivo, ou terceiro em benefício daquele, agiu com dolo, fraude ou simulação; VIII - quando deva ser apreciado fato não conhecido ou não provado por ocasião do lançamento anterior; IX - quando se comprove que, no lançamento anterior, ocorreu fraude ou falta funcional da autoridade que o efetuou, ou omissão, pela mesma autoridade, de ato ou formalidade essencial”."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_27",
+        "materia": "Direito Tributário",
+        "assunto": "Decadência no lançamento tributário por vício formal",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária ABC Ltda. teve um auto de infração lavrado contra si pelo Fisco federal, em junho de 2021, lançando de ofício valores de tributo federal não declarados, nem pagos, referentes a fatos geradores ocorridos em junho de 2017. A sociedade empresária impugnou o auto dentro do prazo, apontando a existência de vício formal, o que foi reconhecido pelo Fisco federal, que anulou tal lançamento em junho de 2022. Diante desse cenário e à luz do texto expresso do Código Tributário Nacional, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O Fisco poderá efetuar novo lançamento, contando-se o prazo decadencial de 5 anos da data em que se tornou definitiva a decisão que anulou, por vício formal, o lançamento anteriormente efetuado.",
+          "B": "O Fisco poderá efetuar novo lançamento, contando-se o prazo decadencial de 5 anos a partir de 19/1/2023, primeiro dia do exercício seguinte àquele em que o novo lançamento poderia ter sido efetuado.",
+          "C": "O Fisco não poderá efetuar novo lançamento, pois o prazo decadencial de 5 anos se consumou em 19/1/2023, 5 anos após o primeiro dia do exercício seguinte àquele em que o lançamento original poderia ter sido efetuado.",
+          "D": "O Fisco não poderá efetuar novo lançamento, pois o prazo decadencial de 5 anos se consumou em junho de 2022, 5 anos após a ocorrência dos fatos geradores objetos do lançamento original que foi anulado."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata sobre as demais modalidades de extinção do crédito tributário. A alternativa A está correta. A anulação do ato administrativo diante de vício formal, tem efeito ex tunc (retroage), abrindo-se novo prazo decadencial. No mais, o art. 173 do CTN prevê: “O direito de a Fazenda Pública constituir o crédito tributário extingue-se após 5 (cinco) anos, contados: [...] II - da data em que se tornar definitiva a decisão que houver anulado, por vício formal, o lançamento anteriormente efetuado. A alternativa B está incorreta, pois o começo para a contagem do prazo decadencial será a partir de junho de 2022, ou seja, da data em que tornar definitiva a decisão de anulação de ato por vício formal, conforme previsão do art. 173 do CTN. As alternativas C e D estão incorretas, pois, conforme vimos acima, o fisco poderá efetuar novo lançamento."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_26",
+        "materia": "Direito Tributário",
+        "assunto": "Execução Fiscal e Lançamento Tributário",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária prestadora de serviços ABC Ltda., sediada no Município Alfa, deixou de declarar ao Fisco Municipal vários serviços que prestou no território desse município. Em razão disso, um agente fiscal do ISS municipal lavrou auto de infração com multa e encargos em face da referida sociedade empresária, por não ter prestado as declarações no prazo e na forma da legislação tributária. Notificada do auto de infração para o pagamento, a sociedade empresária nem pagou nem impugnou o lançamento. Em razão do não pagamento, a Procuradoria do Município ingressou com uma ação de cobrança pelo rito comum contra a sociedade ABC Ltda., fundamentada no Código de Processo Civil. Sobre a ação de cobrança ajuizada pela Procuradoria do Município, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A via judicial adequada para a cobrança seria a ação de execução fiscal, e não uma ação de cobrança regida pelo Código de Processo Civil.",
+          "B": "O prazo prescricional do Fisco Municipal para a constituição do crédito tributário era de cinco anos, contados do primeiro dia do exercício seguinte àquele em que o lançamento poderia ter sido efetuado.",
+          "C": "O prazo decadencial do Fisco Municipal para a constituição do crédito tributário era de cinco anos contados da data do fato gerador da obrigação tributária.",
+          "D": "A modalidade de lançamento efetivamente utilizada pelo agente fiscal do ISS foi o lançamento por declaração."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata sobre crédito tributário e Execução Fiscal. A alternativa A está correta. A ação pertinente seria a de Execução Fiscal, regida pela lei nº 6830/80, pois os valores não pagos constituem dívida ativa perante o município e não ação de cobrança regida pelo CPC. A alternativa B está incorreta. Porque o prazo para constituição do crédito tributário é decadencial (e não prescricional), sendo de 5 anos contados a partir do exercício financeiro seguinte àquele em que o lançamento poderia ser efetuado, nos termos do art. 173, I do CTN. A alternativa C está incorreta. O erro da alternativa é mencionar que se inicia a contagem do prazo decadencial a partir da data do fato gerador da obrigação tributária, quando na verdade, é a partir do exercício financeiro seguinte àquele em que o lançamento poderia ser efetuado, nos termos do art. 173, I do CTN. A alternativa D está incorreta. O lançamento realizado pelo agente fiscal do ISS é o lançamento de ofício e não por declaração."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_28",
+        "materia": "Direito Tributário",
+        "assunto": "Prescrição da cobrança do crédito tributário",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "No Estado Alfa, a lei estadual do Imposto sobre a Transmissão Causa Mortis e Doações (ITCMD) determina que o lançamento deste tributo se faz por homologação via Internet. Por isso, dentro do prazo previsto em lei para comunicar o óbito à Secretaria Estadual de Fazenda, Júlia, filha e única herdeira de Maria, apresentou ao Fisco estadual a declaração correta de todos os bens que recebera a título de transmissão causa mortis de sua mãe, sendo o tributo integralmente devido ao Estado Alfa. O sistema on-line da Secretaria de Fazenda Estadual gerou a guia de pagamento do ITCMD, com vencimento em 07/03/2024. Contudo, o pagamento dessa guia não foi efetuado. Diante deste inadimplemento, assinale a opção que indica a partir de quando é contado o prazo prescricional para cobrança deste tributo.",
+        "alternativas": {
+          "A": "Da data do óbito da mãe de Júlia, seu fato gerador.",
+          "B": "Do dia seguinte ao vencimento previsto na guia de pagamento.",
+          "C": "Do primeiro dia do exercício seguinte àquele do óbito da autora da herança.",
+          "D": "Da data em que Júlia entrega a declaração ao Fisco estadual, seu fato gerador."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata de prazo prescricional para cobrança de tributo. A alternativa A está incorreta. A prescrição não começa do fato gerador, mas sim da constituição definitiva do crédito tributário. É o que prevê o art. 174, do CTN: “A ação para a cobrança do crédito tributário prescreve em cinco anos, contados da data da sua constituição definitiva.”. A alternativa B está correta. O enunciado trata de ITCMD sujeito a lançamento por homologação, com declaração correta e valor apurado, portanto, o crédito já se encontrava constituído. Em razão disso, aplica-se o prazo prescricional do art. 174 do CTN, que se inicia no dia seguinte ao vencimento da obrigação não paga. Observe a literalidade da lei: “A ação para a cobrança do crédito tributário prescreve em cinco anos, contados da data da sua constituição definitiva”. A alternativa C está incorreta. Conforme dito acima, o art. 174 do CTN prevê que: “a ação para a cobrança do crédito tributário prescreve em cinco anos, contados da data da sua constituição definitiva”. A alternativa D está incorreta. Conforme visto acima, o prazo inicia-se no dia seguinte ao vencimento da obrigação não paga, conforme previsão do art. 174, I do CTN."
+      }
+    ]
+  },
+  "Suspensão, Extinção E Exclusão Do Crédito Tributário": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Consulta tributária e suspensão da exigibilidade / efeitos sobre juros, multa e penalidades",
+        "ids_questoes": [
+          "oab_38_28"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir a consulta formulada dentro do prazo com causa de exclusão do crédito ou com suspensão ampla de todos os efeitos; a FGV costuma testar que a consulta suspende a exigibilidade e afasta penalidades/mora nos termos legais, mas não transforma a obrigação em inexistente."
+      },
+      {
+        "nome_microtema": "Protesto extrajudicial da CDA e inscrição em cadastros de inadimplentes",
+        "ids_questoes": [
+          "oab_39_25",
+          "oab_Prova-comentada-OAB-44_28"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "Misturar protesto da CDA com sanção política ou com violação automática de sigilo fiscal; a FGV adora explorar a diferença entre protesto legítimo, inscrição em dívida ativa e eventual inclusão em Serasa/SPC, além do momento em que isso pode ocorrer."
+      },
+      {
+        "nome_microtema": "Isenção tributária: revogação, anterioridade e limites constitucionais",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_28",
+          "oab_Prova-comenta-OAB-42_29"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "Confundir revogação de isenção com criação de tributo novo e aplicar indevidamente anterioridade/nonagesimal; a pegadinha clássica é achar que benefício fiscal não pode ser revogado ou que sua revogação exige lei complementar, quando a FGV cobra a regra de revogabilidade e a eficácia temporal da nova lei."
+      },
+      {
+        "nome_microtema": "Parcelamento de contribuições previdenciárias e reserva constitucional de lei complementar",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_25"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Supor que qualquer parcelamento de contribuição previdenciária depende de lei complementar ou que a Constituição fixa um teto absoluto de parcelas; a FGV costuma testar a leitura literal do art. 195, §11, e a distinção entre parcelamento e moratória/anistia."
+      },
+      {
+        "nome_microtema": "Arrematação de mercadorias abandonadas em leilão da Receita Federal e sujeição passiva no II",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_28"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir arrematante com contribuinte originário do imposto de importação ou com responsável tributário pelo fato gerador anterior; a FGV explora a ideia de que o adquirente em leilão não responde pelo tributo como se tivesse importado a mercadoria."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo enquadramento preciso do instituto tributário e leitura fina do momento processual ou temporal do fato",
+      "palavras_gatilho": [
+        "diante desse cenário",
+        "à luz do CTN",
+        "assinale a afirmativa correta",
+        "é correto afirmar",
+        "poderá",
+        "não poderá",
+        "em razão disso"
+      ],
+      "padrão_distratores": "alternativas juridicamente plausíveis, com troca sutil entre institutos próximos (suspensão x exclusão x extinção; protesto x sanção política; revogação x criação de tributo; contribuinte x responsável; lei complementar x ordinária), frequentemente deslocando o foco para o momento do ato administrativo ou para efeitos acessórios como multa, juros e cadastros restritivos."
+    },
+    "total_questoes_analisadas": 7,
+    "banco_questoes": [
+      {
+        "id": "oab_38_28",
+        "materia": "Direito Tributário",
+        "assunto": "Efeitos da Consulta Tributária Tempestiva",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "A Sociedade Empresária Aguardente 100% Ltda., fabricante de bebidas destiladas, por meio de sua advogada Sophia, protocolou perante a Secretaria Especial da Receita Federal do Brasil, ainda dentro do prazo legal para pagamento, consulta referente à necessidade de recolhimento de Imposto sobre Produtos Industrializados (IPI) acerca de operação específica por ela desempenhada. Escoado o prazo original para pagamento e ainda não decidida a consulta, à luz do Código Tributário Nacional (CTN) assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Aguardente 100% Ltda. poderá ter cobrados contra si juros de mora que correm mesmo na pendência da consulta tributária.",
+          "B": "Por ocasão da decisão final da consulta, o Fisco federal poderá impor multa tributária caso a solução de consulta seja contrária aos interesses de Aguardente 100% Ltda.",
+          "C": "A obrigação tributária a ser cumprida por Aguardente 100% Ltda., por ter sido objeto de consulta, não poderá ser acrescida de juros de mora e nem poderá ser imposta multa tributária à empresa.",
+          "D": "Podem ser aplicadas contra Aguardente 100% Ltda. medidas de garantia previstas no CTN ou em lei tributária na pendência da consulta tributária."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa C está correta. O art. 161, §2°, do CTN estabelece que a pendência de consulta formulada dentro do prazo legal para pagamento do crédito afasta a incidência de juros de mora e a imposição de penalidades."
+      },
+      {
+        "id": "oab_39_25",
+        "materia": "Direito Tributário",
+        "assunto": "Protesto da Certidão de Dívida Ativa (CDA)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 1º, parágrafo único e art. 29 da Lei 9.492/97.",
+        "enunciado": "O Estado Alfa notificou João em 05/05/2022 para, no prazo legal de 30 dias, pagar ou impugnar sua dívida de IPVA referente aos anos de 2020 e 2021. Este, por sua vez, quedou-se inerte e deixou transcorrer o referido prazo sem nada fazer. Logo em seguida, em 15/06/2022, a Secretaria de Fazenda do Estado Alfa, nos termos da legislação, encaminhou a Certidão de Dívida Ativa (CDA) devidamente inscrita em seus registros para o Cartório de Protesto de Títulos local, que expediu intimação ao devedor para pagamento da obrigação tributária, com os acréscimos legais e emolumentos cartorários. João, preocupado com as repercussões decorrentes do protesto extrajudicial da CDA em seu nome, sobretudo em relação aos órgãos de proteção ao crédito, como o Serasa e o Serviço de Proteção ao Crédito - SPC, consulta você, como advogado(a). Diante desse cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Tal protesto viola o sigilo fiscal do contribuinte e cria um dano ao seu nome, honra e imagem.",
+          "B": "Por não se tratar de um ato de natureza tributária, tal protesto será admissível apenas para a cobrança da dívida não tributária.",
+          "C": "Ao possuir previsão legal expressa, não se consubstanciando em uma sanção ilegítima, o ato de protesto é válido.",
+          "D": "Embora se admita tal protesto, não se autoriza a inserção do nome de João nos cadastros de órgãos de proteção ao crédito."
+        },
+        "gabarito": "C",
+        "comentario": "O art. 1º, parágrafo único, da Lei 9.492/97 inclui expressamente as certidões de dívida ativa da União, Estados, DF e Municípios entre os títulos sujeitos a protesto. O art. 29 autoriza o fornecimento de certidão diária dos protestos às entidades de proteção ao crédito. O ato é válido e tem previsão legal expressa."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_28",
+        "materia": "Direito Tributário",
+        "assunto": "Isenção heterônoma",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Para conter a escalada de preços dos combustíveis que vem afetando a economia nacional, a equipe econômica do governo federal estuda a possibilidade de conceder, mediante lei complementar editada exclusivamente para tal fim, uma isenção temporária de um ano sobre todos os tributos federais e estaduais incidentes sobre os combustíveis (petróleo e derivados), atendendo aos requisitos das leis orçamentárias. Diante desse cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A concessão de tal isenção, mediante lei complementar, de caráter nacional, exclusivamente para este fim é admitida pela Constituição Federal.",
+          "B": "Sendo tal benefício fiscal apenas temporário, pode ser excepcionalmente admitido por ter, como causa, uma situação extraordinária de interesse nacional.",
+          "C": "Tal lei afronta a Constituição Federal ao atingir tributos de competência estadual.",
+          "D": "A competência tributária é privativa da Agência Nacional de Petróleo (ANP) quanto à tributação de combustíveis, e tal lei acaba por violá-la."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão aborda o tema vedação à concessão de isenção heterônoma. A alternativa A está incorreta, pois o inciso III do artigo 151 da CF veda a concessão de isenção heterônoma, conforme comentários à alternativa C. A alternativa B está incorreta, pois, ainda que se trate de situação extraordinária de interesse nacional, o inciso III do artigo 151 da CF veda a concessão de isenção heterônoma, conforme comentários à alternativa C. A alternativa C está correta, pois revela o teor do art. 151, III, da CF: “É vedado à União instituir isenções de tributos da competência dos Estados, do Distrito Federal ou dos Municípios.” A alternativa D está incorreta, pois a competência tributária pertence aos entes federados e não à ANP, conforme dispõe a CF: “Art. 145. A União, os Estados, o Distrito Federal e os Municípios poderão instituir os seguintes tributos: I - impostos; II - taxas, em razão do exercício do poder de polícia ou pela utilização, efetiva ou potencial, de serviços públicos específicos e divisíveis, prestados ao contribuinte ou postos a sua disposição; III - contribuição de melhoria, decorrente de obras públicas.”"
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_28",
+        "materia": "Direito Tributário",
+        "assunto": "Imposto de Importação - Contribuinte na arrematação de mercadorias abandonadas",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Certa carga foi abandonada no Porto de Santos (SP) pela sociedade empresária Importação 100% Ltda. Em razão disso, passado o prazo previsto e obedecidas as formalidades da legislação tributária, foi aplicada pela Secretaria Especial da Receita Federal do Brasil (SERFB) a pena de perdimento de mercadoria importada por abandono. José, participando de leilão da SERFB, logra êxito em arrematar a carga abandonada. Sobre a arrematação de mercadorias abandonadas em leilão promovido pela SERFB, à luz do Código Tributário Nacional, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "José é considerado contribuinte do Imposto de Importação em relação às mercadorias abandonadas que arrematou.",
+          "B": "José será considerado responsável tributário pelo Imposto de Importação devido, juntamente com a Importação 100% Ltda.",
+          "C": "A base de cálculo do Imposto de Importação em leilão promovido pela SERFB será o valor de mercado que tais bens alcançariam.",
+          "D": "José, por ser pessoa física, não poderia arrematar bens oriundos da aplicação de pena de perdimento de mercadoria importada por abandono."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata sobre impostos e responsabilidade tributária. A alternativa A está correta, pois, nos termos do art. 22 do CTN: “contribuinte do imposto é: [...] II - o arrematante de produtos apreendidos ou abandonados”. Dessa forma, José, por ser o arrematante dos produtos abandonados, será contribuinte do respectivo imposto incidente sobre os produtos. A alternativa B está incorreta. O arrematante assume a responsabilidade pelo pagamento do imposto sobre a mercadoria que arrematou. Ele é contribuinte do imposto relativo à arrematação, não havendo de se falar em responsabilidade solidária. A alternativa C está incorreta. A base de cálculo do Imposto de Importação em leilões de mercadorias abandonadas é o valor da arrematação, conforme prevê o art. 19, inciso III do CTN. A alternativa D está incorreta. Não há qualquer restrição legal para a arrematação de mercadorias abandonadas por pessoas físicas em leilão promovido pela Receita Federal."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_29",
+        "materia": "Direito Tributário",
+        "assunto": "Revogação de isenção e princípios da anterioridade",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Uma lei municipal do Município Alfa concedia isenção do IPTU a determinado segmento econômico. Contudo, em razão de dificuldades financeiras municipais, tal isenção foi revogada por nova lei, publicada em 20/2/2024, que estabelecia a produção de seus efeitos a partir de 19/6/2024. A sociedade empresária ABC Ltda., que deixaria de ser beneficiada, questionou você, como advogado(a), para saber se tal lei revogadora não feriria as garantias tributárias constitucionais desse segmento. Diante desse cenário, assinale a opção que apresenta, corretamente, sua orientação.",
+        "alternativas": {
+          "A": "Seria necessária a alteração na Lei Orgânica do Município para revogar a isenção que favorecia a sociedade ABC Ltda.",
+          "B": "Por configurar cláusula pétrea, a isenção que favorecia a sociedade ABC Ltda. não poderia ser revogada, nem mesmo por emenda constitucional.",
+          "C": "A isenção que favorecia a sociedade ABC Ltda. poderia ser revogada, mas os efeitos da lei revogadora somente poderiam ser produzidos a partir de 19/1/2025.",
+          "D": "A isenção que favorecia a sociedade ABC Ltda. não poderia ser revogada por mera lei municipal, mas apenas por Emenda Constitucional, por ser prevista como garantia tributária constitucional."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata sobre anterioridade anual e nonagesimal. A alternativa A está incorreta, pois a revogação da isenção poderia ser feita por lei municipal ordinária, não sendo necessária uma alteração na Lei Orgânica do Município. A Lei Orgânica trata de normas estruturais do município, mas a revogação da isenção de IPTU pode ser feita por uma lei infraconstitucional. A alternativa B está incorreta. A isenção concedida pelo município não configura uma cláusula pétrea. A alternativa C está correta, pois, de fato, a revogação da isenção é possível, mas deve ocorrer com efeitos a partir de um momento futuro (19/01/2025), respeitando os princípios da anterioridade anual e nonagesimal, que devem ser obedecidos. Nesse sentido, o art. 104 do CTN prevê que: “entram em vigor no primeiro dia do exercício seguinte àquele em que ocorra a sua publicação os dispositivos de lei, referentes a impostos sobre o patrimônio ou a renda: I – que instituem ou majoram tais impostos”. Se houve uma isenção, o imposto deixou de existir para os contribuintes determinados, e sua revogação, traz para estes uma nova obrigação, um novo imposto, e, portanto, deve atender o disposto no art. 104 do CTN. A alternativa D está incorreta, pois a revogação de uma isenção concedida por lei municipal pode ser feita por outra lei municipal, não se exigindo uma emenda constitucional. Vale mencionar que a revogação não depende de alteração na Constituição, mas deve-se respeitar o direito adquirido do contribuinte."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_25",
+        "materia": "Direito Tributário",
+        "assunto": "Parcelamento de contribuições previdenciárias",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Nova lei federal ordinária, pretendendo oferecer uma oportunidade para que os empregadores possam quitar suas dívidas de contribuição previdenciária patronal criou um programa de parcelamento de dívidas desse tributo em até 90 (noventa) meses. Diante desse cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A nova lei, por não ser complementar, não poderia prever o parcelamento dessas dívidas de contribuições de seguridade social.",
+          "B": "O número máximo de meses de tal parcelamento extrapola o permitido pela Constituição Federal/88.",
+          "C": "O parcelamento das contribuições de seguridade social, por determinação da Constituição Federal/88, precisa ser acompanhado do pagamento de uma parcela inicial que represente 20% do valor total da dívida.",
+          "D": "A Constituição Federal, dada a relevância da seguridade social, veda a concessão de qualquer tipo de parcelamento de dívidas de contribuição previdenciária patronal."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata da Suspensão do Crédito Tributário - Parcelamento. A alternativa A está incorreta. Porque a lei ordinária pode disciplinar o parcelamento de dívida tributária nos termos do art. 155-A do CTN. O art. 146, III CF/88, não determina a obrigatoriedade de lei complementar para a concessão do parcelamento de crédito tributário. A alternativa B está correta. Pois é vedado o parcelamento superior a 60 meses nos termos do art. 195, V, § 11 da CF/88. A alternativa C está incorreta. A CF/88 não estipula valor mínimo a ser pago em parcela inicial das contribuições de seguridade social (art. 195 da CF). Somente a quantidade máxima de parcelas (60 meses), conforme disposto no art. 195, V, § 11 da CF/88. A alternativa D está incorreta. Porque o parcelamento de dívidas de contribuição previdenciária é permitido até 60 meses nos termos do art. 195, V § 11 da CF/88."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_28",
+        "materia": "Direito Tributário",
+        "assunto": "Inscrição em Dívida Ativa",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "José recebeu notificação para pagar ou impugnar o lançamento referente a determinado crédito tributário estadual dentro do prazo de 30 dias corridos. No 20º dia do recebimento da notificação, quando pretendia protocolizar impugnação administrativa contra a cobrança, verificou, por meio da Internet, que seu nome já constava do cadastro da Dívida Ativa Estadual, em razão da dívida que lhe fora notificada. Diante desse cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Como já ocorrera previamente o lançamento tributário, a inserção do nome de José no cadastro da Dívida Ativa Estadual era devida.",
+          "B": "Foi indevida a inserção do nome de José no cadastro da Dívida Ativa Estadual antes do vencimento do prazo para pagamento ou impugnação.",
+          "C": "É possível a inserção do nome de José no cadastro da Dívida Ativa Estadual, sob condição resolutiva vinculada ao prazo de 30 dias ofertado para que pagasse ou impugnasse o lançamento.",
+          "D": "O lançamento da dívida tributária se faz por meio do Termo de Inscrição em Dívida Ativa, razão pela qual não seria possível fazer o lançamento sem que o nome de José fosse inscrito em Dívida Ativa."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão aborda o tema Dívida Ativa. A alternativa A está incorreta, pois a inscrição em dívida ativa é possível apenas após esgotado o prazo fixado para pagamento, conforme art. 201 do CTN: “Constitui dívida ativa tributária a proveniente de crédito dessa natureza, regularmente inscrita na repartição administrativa competente, depois de esgotado o prazo fixado, para pagamento, pela lei ou por decisão final proferida em processo regular”. A alternativa B está correta, pois revela a correta interpretação do art. 201 do CTN, conforme comentários à alternativa A. A alternativa C está incorreta, pois a inscrição em dívida ativa é possível apenas após esgotado o prazo fixado para pagamento, conforme comentários à alternativa A. A alternativa D está incorreta, pois a inscrição em dívida ativa é possível apenas após esgotado o prazo fixado para pagamento, conforme comentários à alternativa A. Ademais, a alternativa parece confundir conceitos de direito tributário, como lançamento tributário (constitui o crédito tributário) e inscrição em dívida ativa (quando já há crédito tributário constituído e não adimplido)."
+      }
+    ]
+  },
+  "Administração Tributária, Dívida Ativa E Certidões": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Sigilo bancário e acesso do Fisco a dados financeiros para fiscalização",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_27"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "Confundir quebra de sigilo bancário para fins fiscais com violação automática de sigilo/privacidade, quando a questão trata de autorização legal para acesso administrativo aos dados."
+      },
+      {
+        "nome_microtema": "Irretroatividade da norma tributária e aplicação a fatos geradores pretéritos",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_27"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "A FGV induz o candidato a achar que a lei nova não pode ser usada porque os rendimentos são de 2019, embora a norma esteja sendo aplicada ao procedimento de fiscalização/lançamento posterior."
+      },
+      {
+        "nome_microtema": "Anterioridade tributária e normas de fiscalização/procedimento",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_27"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "Misturar regra de anterioridade com norma meramente instrumental/procedimental, como se toda lei tributária nova exigisse noventena para produzir efeitos."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com caso concreto envolvendo atuação do Fisco, datas específicas e confronto entre direitos do contribuinte e poderes de fiscalização",
+      "palavras_gatilho": [
+        "notificado",
+        "fatos ocorridos vários anos atrás",
+        "acesso aos dados financeiros bancários",
+        "fins de fiscalização",
+        "lançamento tributário",
+        "anterioridade nonagesimal",
+        "irretroatividade"
+      ]
+    },
+    "total_questoes_analisadas": 1,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-43_27",
+        "materia": "Direito Tributário",
+        "assunto": "Lançamento tributário e retroatividade de normas procedimentais",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "João da Silva, profissional liberal, foi notificado pela Administração Tributária Federal, em 20 de janeiro de 2023, para prestar esclarecimentos sobre possíveis rendimentos declarados recebidos no ano de 2019. Tais rendimentos foram identificados por meio de movimentação financeira de sua conta bancária, a partir da Lei Complementar Federal nº XXX/2022, publicada em 15 de dezembro de 2022, que alterou os critérios de fiscalização, ampliando os poderes de investigação do Fisco Federal, permitindo a este acesso aos dados financeiros bancários dos contribuintes (apenas créditos e débitos) para fins de fiscalização, lançamento tributário e cobrança de Imposto sobre a Renda. Irresignado com a notificação relativa aos fatos ocorridos vários anos atrás, João consulta seu(sua) advogado(a), que emite um sucinto parecer e uma orientação jurídica. Diante desse cenário e de acordo com o Código Tributário Nacional (CTN), assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A notificação é inconstitucional por violar o princípio da irretroatividade tributária, uma vez que a referida nova lei só poderia produzir efeitos a partir da sua publicação.",
+          "B": "Por não ter respeitado a anterioridade nonagesimal, que imporia a vigência e eficácia daquela nova lei somente a partir do meio do mês de março de 2023, a notificação é indevida.",
+          "C": "A notificação é regular e atende às regras constitucionais e às do CTN, devendo João da Silva prestar os esclarecimentos quanto aos rendimentos recebidos e, se for o caso, recolher o imposto devido com os acréscimos devidos.",
+          "D": "Não poderá ocorrer lançamento tributário fundado em dados obtidos a partir de fiscalização com base na Lei Complementar nº XXX/2022, já que ela instituiu novos critérios de apuração ou processos de fiscalização depois da ocorrência do fato gerador da obrigação."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do lançamento tributário. A alternativa A está incorreta. A notificação em apreço não é inconstitucional. Por se tratar de norma procedimental de fiscalização e de critérios de apuração, não se sujeita ao princípio da irretroatividade tributária (art. 150, III da CF/88), podendo o lançamento ocorrer posteriormente à ocorrência do fato gerador, nos termos do art. 144 § 1º do CTN. A alternativa B está incorreta. Pois a eficácia da Lei XXX/22, não se submete ao princípio da anterioridade nonagesimal por se tratar apenas de critérios de apuração fiscalizatória do lançamento, portanto tem efeitos imediatos conforme art. 144 § 1º do CTN. A alternativa C está correta. A notificação é regular, para apuração de possível irregularidade fiscal praticada por João da Silva e os novos critérios de apuração usados pelo fisco podem ser aplicáveis inclusive ao lançamento posterior à ocorrência do fato gerador. Assim, ele deve prestar esclarecimentos ou recolher o imposto devido. A alternativa D está incorreta. Porque o art. 144 § 1º do CTN autoriza a instituição de novos critérios de apuração ou processo de fiscalização mesmo após a ocorrência do fato gerador da obrigação."
+      }
+    ]
+  },
+  "Processo Judicial Tributário (Execução Fiscal, Ações Tributárias)": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Exceção de pré-executividade na execução fiscal para prova documental de pagamento/extinção do crédito",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_25"
+        ],
+        "peso_percentual": 70,
+        "armadilha_favorita": "Confundir a via adequada de defesa: a FGV costuma trocar embargos à execução por exceção de pré-executividade quando a matéria é cognoscível de plano e comprovável documentalmente, sem necessidade de garantia do juízo."
+      },
+      {
+        "nome_microtema": "Impugnação da penhora e recurso cabível contra decisão interlocutória na execução",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_25"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "Induzir o candidato a achar que toda constrição patrimonial gera recurso imediato, quando a discussão correta é a defesa incidental nos próprios autos, e não um recurso autônomo contra a penhora."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com execução fiscal e escolha da medida processual adequada diante de prova documental já existente nos autos ou facilmente demonstrável.",
+      "palavras_gatilho": [
+        "medida processual cabível",
+        "nos autos",
+        "prova documental",
+        "matéria de ordem pública",
+        "penhora",
+        "execução fiscal"
+      ]
+    },
+    "total_questoes_analisadas": 1,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-42_25",
+        "materia": "Direito Tributário",
+        "assunto": "Execução Fiscal - Exceção de Pré-Executividade",
+        "banca": "FGV",
+        "ano": "2022",
+        "texto_auxiliar": "Art. 1.015 do CPC - Parágrafo único. Também caberá agravo de instrumento contra decisões interlocutórias proferidas na fase de liquidação de sentença ou de cumprimento de sentença, no processo de execução e no processo de inventário.",
+        "enunciado": "José foi citado, em janeiro de 2022, em uma ação de execução fiscal movida pela Fazenda Nacional para cobrança de Imposto sobre a Renda de Pessoa Física (IRPF), cujo débito tributário foi por ele próprio apurado na sua Declaração de Ajuste Anual entregue à Secretaria da Receita Federal do Brasil, em março de 2017 (referente ao ano base de 2016). Sem nada fazer, em março daquele ano, foi intimado da penhora de sua conta bancária. Três meses após a intimação da penhora, José finalmente encontrou a guia DARF do IRPF integralmente paga dentro do prazo, no exato valor apurado como devido naquela declaração de ajuste anual. José, então, o(a) procura para, como advogado(a), adotar a medida processual cabível nos autos daquela ação de cobrança considerada indevida. Diante desse cenário, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "José deverá oferecer embargos à execução, oportunidade em que poderá alegar a quitação da dívida tributária.",
+          "B": "Por ser matéria de ordem pública, será possível alegar apenas a prescrição daquela ação de execução fiscal, que teria ocorrido em dezembro de 2021.",
+          "C": "José poderá apresentar uma exceção de pré-executividade, demonstrando documentalmente, por meio da guia DARF, que o imposto havia sido pago tempestivamente.",
+          "D": "Caberá a José recorrer da decisão que determinou a penhora de sua conta bancária por meio de agravo de instrumento, sob fundamento de quitação da dívida tributária."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa considerada correta pela banca é a letra D. No entanto, entendemos que a alternativa correta é a letra C. A questão trata sobre recursos cabíveis em direito tributário. A alternativa A está incorreta. Em tributário só pode ser proposto os embargos em 30 dias se houver garantia em juízo. Passou três meses, não pode mais. A alternativa B está incorreta. A prescrição é uma questão de ordem pública e pode ser alegada em qualquer fase do processo. No entanto, a prescrição não é o melhor caminho para este caso, pois o que José quer contestar é a cobrança indevida, baseada no pagamento já realizado, e não o prazo para a execução. A alternativa C está incorreta. A exceção de pré-executividade é um meio utilizado para arguir matérias que podem ser analisadas de plano, sem a necessidade de penhoras ou outros atos processuais. Como José já tem a guia de pagamento do imposto, ele pode demonstrar documentalmente que a dívida foi quitada, evitando a continuação da execução fiscal. A alternativa D está correta. O agravo de instrumento é utilizado para impugnar decisões interlocutórias, mas no caso de José, a contestação da cobrança indevida pode ser feita por meio da exceção de pré-executividade, e não por agravo de instrumento. Art. 1.015 do CPC - Parágrafo único. Também caberá agravo de instrumento contra decisões interlocutórias proferidas na fase de liquidação de sentença ou de cumprimento de sentença, no processo de execução e no processo de inventário."
+      }
+    ]
+  }
+}

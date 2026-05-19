@@ -1,0 +1,1518 @@
+[
+  {
+    "id": 417547,
+    "nome": "Introdução ao Direito Tributário |"
+  },
+  {
+    "id": 417573,
+    "nome": "Conceitos básicos sobre Direito Tributário |"
+  },
+  {
+    "id": 415862,
+    "nome": "Receitas Públicas |"
+  },
+  {
+    "id": 407145,
+    "nome": "Conceito de Tributo |"
+  },
+  {
+    "id": 415863,
+    "nome": "Natureza Jurídica dos Tributos |"
+  },
+  {
+    "id": 415864,
+    "nome": "Classificações Doutrinárias de Tributos |"
+  },
+  {
+    "id": 417590,
+    "nome": "Quanto à Hipótese de Incidência (Tributos Vinculados / Tributos Não Vinculados) |"
+  },
+  {
+    "id": 417591,
+    "nome": "Quanto ao Destino da Arrecadação (Arrecadação Vinculada / Arrecadação Não Vinculada) |"
+  },
+  {
+    "id": 417592,
+    "nome": "Quanto à Finalidade (Tributos Fiscais / Tributos Extrafiscais / Tributos Parafiscais) |"
+  },
+  {
+    "id": 417593,
+    "nome": "Quanto à Possibilidade de Transferência do Encargo (Tributos Diretos / Tributos Indiretos) |"
+  },
+  {
+    "id": 417594,
+    "nome": "Quanto à Variação de Alíquotas (Fixos / Proporcionais / Progressivos / Regressivos) |"
+  },
+  {
+    "id": 407146,
+    "nome": "Limitações Constitucionais ao Poder de Tributar |"
+  },
+  {
+    "id": 415865,
+    "nome": "Princípios Constitucionais Tributários |"
+  },
+  {
+    "id": 415867,
+    "nome": "Princípio da Legalidade (Reserva Legal / Tipicidade Tributária) |"
+  },
+  {
+    "id": 417595,
+    "nome": "Lei Complementar |"
+  },
+  {
+    "id": 417596,
+    "nome": "Medida Provisória |"
+  },
+  {
+    "id": 417597,
+    "nome": "Lei Delegada |"
+  },
+  {
+    "id": 417598,
+    "nome": "Tipicidade |"
+  },
+  {
+    "id": 417599,
+    "nome": "Exceções |"
+  },
+  {
+    "id": 415868,
+    "nome": "Princípio da Anterioridade Anual (Anterioridade Comum / Anterioridade Geral / Anterioridade do Exercício Financeiro / Princípio da Segurança Jurídica) |"
+  },
+  {
+    "id": 417600,
+    "nome": "Exceções |"
+  },
+  {
+    "id": 415869,
+    "nome": "Princípio da Noventena (Princípio da Anterioridade Nonagesimal / Princípio da Segurança Jurídica) |"
+  },
+  {
+    "id": 417601,
+    "nome": "Exceções |"
+  },
+  {
+    "id": 415870,
+    "nome": "Princípio da Irretroatividade (Princípio da Segurança Jurídica) |"
+  },
+  {
+    "id": 417602,
+    "nome": "Princípio da Capacidade Contributiva |"
+  },
+  {
+    "id": 415871,
+    "nome": "Princípio da Isonomia Tributária |"
+  },
+  {
+    "id": 415877,
+    "nome": "Princípio da Vedação ao Confisco |"
+  },
+  {
+    "id": 415878,
+    "nome": "Princípio da Liberdade de Tráfego |"
+  },
+  {
+    "id": 415879,
+    "nome": "Princípio da Uniformidade Geográfica da Tributação |"
+  },
+  {
+    "id": 415881,
+    "nome": "Princípio da Uniformidade da Tributação da Renda |"
+  },
+  {
+    "id": 415882,
+    "nome": "Princípio da Vedação às Isenções Heterônomas |"
+  },
+  {
+    "id": 415883,
+    "nome": "Princípio da Não Discriminação Baseada em Procedência ou Destino |"
+  },
+  {
+    "id": 415884,
+    "nome": "Princípio da Transparência Tributária |"
+  },
+  {
+    "id": 415886,
+    "nome": "Princípio da Essencialidade ou da Seletividade |"
+  },
+  {
+    "id": 415887,
+    "nome": "Princípio da Progressividade |"
+  },
+  {
+    "id": 415866,
+    "nome": "Imunidades Tributárias |"
+  },
+  {
+    "id": 415888,
+    "nome": "Parte Geral |"
+  },
+  {
+    "id": 417603,
+    "nome": "Imunidades e Obrigações Acessórias |"
+  },
+  {
+    "id": 417604,
+    "nome": "Imunidade, Isenção e Não Incidência |"
+  },
+  {
+    "id": 415889,
+    "nome": "Classificação das Imunidades Segundo a Doutrina |"
+  },
+  {
+    "id": 417605,
+    "nome": "Quanto ao Parâmetro para Concessão (Imunidades Subjetivas / Imunidades Objetivas / Imunidades Mistas) |"
+  },
+  {
+    "id": 417606,
+    "nome": "Quanto à Origem (Imunidades Ontológicas / Imunidades Políticas) |"
+  },
+  {
+    "id": 417607,
+    "nome": "Quanto à Forma de Previsão (Imunidades Explícitas / Imunidades Implícitas) |"
+  },
+  {
+    "id": 417608,
+    "nome": "Quanto à Necessidade de Regulamentação (Imunidades Incondicionadas / Imunidades Condicionadas) |"
+  },
+  {
+    "id": 415890,
+    "nome": "Espécies de Imunidades Tributárias |"
+  },
+  {
+    "id": 417609,
+    "nome": "Imunidade Recíproca |"
+  },
+  {
+    "id": 417610,
+    "nome": "Imunidade Religiosa |"
+  },
+  {
+    "id": 417611,
+    "nome": "Imunidade dos Partidos Políticos, Entidades Sindicais dos Trabalhadores, Instituições de Educação e de Assistência Social |"
+  },
+  {
+    "id": 417612,
+    "nome": "Imunidade Cultural |"
+  },
+  {
+    "id": 417613,
+    "nome": "Imunidade Musical |"
+  },
+  {
+    "id": 417614,
+    "nome": "Outras Imunidades Tributárias |"
+  },
+  {
+    "id": 417615,
+    "nome": "Taxas |"
+  },
+  {
+    "id": 417616,
+    "nome": "Ação Popular, Habeas-Corpus e Habeas-Data |"
+  },
+  {
+    "id": 417617,
+    "nome": "Contribuições Sociais e CIDE sobre as Receitas de Exportação |"
+  },
+  {
+    "id": 417618,
+    "nome": "IPI na Exportação |"
+  },
+  {
+    "id": 417619,
+    "nome": "Registro Civil de Nascimento e Certidão de Òbito |"
+  },
+  {
+    "id": 417620,
+    "nome": "ITR pequenas Glebas |"
+  },
+  {
+    "id": 417621,
+    "nome": "Ouro Ativo Financeiro |"
+  },
+  {
+    "id": 417622,
+    "nome": "ICMS |"
+  },
+  {
+    "id": 417623,
+    "nome": "Operações relativas a energia elétrica, serviços de telecomunicações, derivados de petróleo, combustíveis e minerais do País |"
+  },
+  {
+    "id": 417624,
+    "nome": "ITBI |"
+  },
+  {
+    "id": 417625,
+    "nome": "Contribuições Sociais |"
+  },
+  {
+    "id": 417626,
+    "nome": "Operações de Transferência de Imóveis Desapropriados para Fins de reforma Agrária |"
+  },
+  {
+    "id": 417627,
+    "nome": "Imunidade das Entidades Assistenciais, Relativas a Contribuição para a Seguridade Social |"
+  },
+  {
+    "id": 407147,
+    "nome": "Competência Tributária |"
+  },
+  {
+    "id": 415892,
+    "nome": "Características da Competência Tributária |"
+  },
+  {
+    "id": 424053,
+    "nome": "Indelegabilidade |"
+  },
+  {
+    "id": 424054,
+    "nome": "Imprescritibilidade |"
+  },
+  {
+    "id": 424055,
+    "nome": "Inalterabilidade |"
+  },
+  {
+    "id": 424056,
+    "nome": "Irrenunciabilidade |"
+  },
+  {
+    "id": 424057,
+    "nome": "Facultatividade |"
+  },
+  {
+    "id": 415905,
+    "nome": "Classificação da Competência |"
+  },
+  {
+    "id": 424048,
+    "nome": "Privativa |"
+  },
+  {
+    "id": 424049,
+    "nome": "Comum |"
+  },
+  {
+    "id": 424050,
+    "nome": "Cumulativa |"
+  },
+  {
+    "id": 424051,
+    "nome": "Residual |"
+  },
+  {
+    "id": 424052,
+    "nome": "Extraordinária |"
+  },
+  {
+    "id": 417631,
+    "nome": "Bitributação e Bis in idem |"
+  },
+  {
+    "id": 417637,
+    "nome": "Divisão da Competência Tributária na CF/88 |"
+  },
+  {
+    "id": 407160,
+    "nome": "Espécies Tributárias |"
+  },
+  {
+    "id": 407161,
+    "nome": "Impostos |"
+  },
+  {
+    "id": 407188,
+    "nome": "Impostos Federais |"
+  },
+  {
+    "id": 407198,
+    "nome": "Imposto de Importação - II |"
+  },
+  {
+    "id": 417658,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 417659,
+    "nome": "Base de Calculo e Alíquotas |"
+  },
+  {
+    "id": 417660,
+    "nome": "Contribuinte |"
+  },
+  {
+    "id": 417661,
+    "nome": "Lançamento |"
+  },
+  {
+    "id": 407199,
+    "nome": "Imposto de Exportação - IE |"
+  },
+  {
+    "id": 417663,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 417665,
+    "nome": "Base de Calculo e Alíquotas |"
+  },
+  {
+    "id": 417666,
+    "nome": "Contribuinte |"
+  },
+  {
+    "id": 417667,
+    "nome": "Lançamento |"
+  },
+  {
+    "id": 407202,
+    "nome": "Imposto sobre a Renda e Proventos (IR) |"
+  },
+  {
+    "id": 417670,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 417672,
+    "nome": "Base de Cálculo e Alíquotas |"
+  },
+  {
+    "id": 417673,
+    "nome": "Contribuinte |"
+  },
+  {
+    "id": 417674,
+    "nome": "Lançamento |"
+  },
+  {
+    "id": 407201,
+    "nome": "Imposto sobre Produtos Industrializados - IPI |"
+  },
+  {
+    "id": 417676,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 417677,
+    "nome": "Base de Cálculo e Alíquotas |"
+  },
+  {
+    "id": 417678,
+    "nome": "Contribuinte |"
+  },
+  {
+    "id": 417680,
+    "nome": "Lançamento |"
+  },
+  {
+    "id": 407200,
+    "nome": "Imposto sobre Operações Financeiras - IOF |"
+  },
+  {
+    "id": 417681,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 417682,
+    "nome": "Base de Cálculo e Alíquotas |"
+  },
+  {
+    "id": 417684,
+    "nome": "Contribuinte |"
+  },
+  {
+    "id": 407203,
+    "nome": "Imposto sobre a Propriedade Territorial Rural - ITR |"
+  },
+  {
+    "id": 417688,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 417689,
+    "nome": "Base de Cálculo e Alíquotas |"
+  },
+  {
+    "id": 417690,
+    "nome": "Contribuinte |"
+  },
+  {
+    "id": 407207,
+    "nome": "Imposto sobre Grandes Fortunas - IGF |"
+  },
+  {
+    "id": 407208,
+    "nome": "Imposto Extraordinário de Guerra - IEG |"
+  },
+  {
+    "id": 407206,
+    "nome": "Imposto Residual |"
+  },
+  {
+    "id": 407189,
+    "nome": "Impostos Estaduais e do DF |"
+  },
+  {
+    "id": 407210,
+    "nome": "Imposto de Transmissão Causa Mortis e Doação - ITCMD |"
+  },
+  {
+    "id": 417711,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 417713,
+    "nome": "Base de Cálculo e Alíquotas |"
+  },
+  {
+    "id": 417714,
+    "nome": "Contribuinte |"
+  },
+  {
+    "id": 417715,
+    "nome": "Lançamento |"
+  },
+  {
+    "id": 407211,
+    "nome": "Imposto sobre Circulação de Mercadorias e Serviços - ICMS |"
+  },
+  {
+    "id": 417717,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 417718,
+    "nome": "Base de Cálculo |"
+  },
+  {
+    "id": 417719,
+    "nome": "Alíquotas |"
+  },
+  {
+    "id": 417721,
+    "nome": "Tributação Conjunta de Mercadorias e Serviços |"
+  },
+  {
+    "id": 417723,
+    "nome": "Imunidades Relativas ao ICMS |"
+  },
+  {
+    "id": 417725,
+    "nome": "ICMS sobre Combustíveis e Lubrificantes |"
+  },
+  {
+    "id": 417727,
+    "nome": "Lei Complementar |"
+  },
+  {
+    "id": 417728,
+    "nome": "Contribuintes |"
+  },
+  {
+    "id": 417730,
+    "nome": "ICMS e as Operações de Leasing ou Arrendamento Mercantil |"
+  },
+  {
+    "id": 417731,
+    "nome": "Benefícios Fiscais (CONFAZ) |"
+  },
+  {
+    "id": 407209,
+    "nome": "Imposto sobre Propriedade de Veículos Automotores - IPVA |"
+  },
+  {
+    "id": 417742,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 417743,
+    "nome": "Base de Cálculo e Alíquotas |"
+  },
+  {
+    "id": 417744,
+    "nome": "Contribuinte |"
+  },
+  {
+    "id": 417745,
+    "nome": "Lançamento |"
+  },
+  {
+    "id": 407190,
+    "nome": "Impostos Municipais e do DF |"
+  },
+  {
+    "id": 407213,
+    "nome": "Imposto Predial e Territorial Urbano - IPTU |"
+  },
+  {
+    "id": 417746,
+    "nome": "Progressividade Fiscal e Progressividade Extrafiscal |"
+  },
+  {
+    "id": 417747,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 417748,
+    "nome": "Base de Cálculo e Alíquotas |"
+  },
+  {
+    "id": 417749,
+    "nome": "Contribuinte |"
+  },
+  {
+    "id": 417750,
+    "nome": "Lançamento |"
+  },
+  {
+    "id": 407212,
+    "nome": "Imposto sobre a Transmissão de Bens Imóveis - ITBI |"
+  },
+  {
+    "id": 417751,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 417752,
+    "nome": "Base de Cálculo e Alíquotas |"
+  },
+  {
+    "id": 417753,
+    "nome": "Contribuinte |"
+  },
+  {
+    "id": 417754,
+    "nome": "Lançamento |"
+  },
+  {
+    "id": 407214,
+    "nome": "Imposto sobre Serviços de Qualquer Natureza - ISSQN |"
+  },
+  {
+    "id": 417755,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 417756,
+    "nome": "Base de Cálculo |"
+  },
+  {
+    "id": 417757,
+    "nome": "Contribuinte |"
+  },
+  {
+    "id": 417758,
+    "nome": "Alíquotas Máximas e Mínimas |"
+  },
+  {
+    "id": 417759,
+    "nome": "Lançamento |"
+  },
+  {
+    "id": 417760,
+    "nome": "Impostos e Lei Complementar |"
+  },
+  {
+    "id": 417761,
+    "nome": "Princípio da não Afetação dos Impostos |"
+  },
+  {
+    "id": 407162,
+    "nome": "Taxas |"
+  },
+  {
+    "id": 417762,
+    "nome": "Competência |"
+  },
+  {
+    "id": 417763,
+    "nome": "Taxas de Serviço |"
+  },
+  {
+    "id": 417764,
+    "nome": "Taxas de Polícia |"
+  },
+  {
+    "id": 417765,
+    "nome": "Base de Cálculo |"
+  },
+  {
+    "id": 417766,
+    "nome": "Taxas e Preços Públicos |"
+  },
+  {
+    "id": 407165,
+    "nome": "Contribuições de melhoria |"
+  },
+  {
+    "id": 417767,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 417768,
+    "nome": "Requisitos |"
+  },
+  {
+    "id": 417769,
+    "nome": "Sujeito Passivo |"
+  },
+  {
+    "id": 417770,
+    "nome": "Limites da Contribuição de Melhoria (Limite Global / Limite Individual) |"
+  },
+  {
+    "id": 407163,
+    "nome": "Empréstimos compulsórios |"
+  },
+  {
+    "id": 417771,
+    "nome": "Considerações Gerais sobre os Empréstimos Compulsórios |"
+  },
+  {
+    "id": 417772,
+    "nome": "Pressupostos Constitucionais |"
+  },
+  {
+    "id": 417773,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 417774,
+    "nome": "Aplicação dos Recursos |"
+  },
+  {
+    "id": 417775,
+    "nome": "Disciplina no CTN |"
+  },
+  {
+    "id": 417776,
+    "nome": "Devolução dos Valores Pagos |"
+  },
+  {
+    "id": 407166,
+    "nome": "Contribuições especiais |"
+  },
+  {
+    "id": 417777,
+    "nome": "Classificação das Contribuições Especiais |"
+  },
+  {
+    "id": 407164,
+    "nome": "Contribuições Sociais |"
+  },
+  {
+    "id": 417778,
+    "nome": "Contribuições Sociais Gerais |"
+  },
+  {
+    "id": 417780,
+    "nome": "Contribuições para a Seguridade Social |"
+  },
+  {
+    "id": 417781,
+    "nome": "Contribuições Nominadas |"
+  },
+  {
+    "id": 417782,
+    "nome": "Do Empregador, da Empresa e da Entidade Equiparada (Regime Geral / Regime Próprio) |"
+  },
+  {
+    "id": 417784,
+    "nome": "Do Trabalhador e dos demais Segurados da Previdência Social |"
+  },
+  {
+    "id": 417788,
+    "nome": "Do Importador ou Equiparado |"
+  },
+  {
+    "id": 417793,
+    "nome": "Contribuições Residuais para a Seguridade Social |"
+  },
+  {
+    "id": 417794,
+    "nome": "Contribuições Corporativas |"
+  },
+  {
+    "id": 407192,
+    "nome": "Repartição das Receitas Tributárias (Discriminação de Rendas) |"
+  },
+  {
+    "id": 415972,
+    "nome": "Receitas Repartidas x Não repartidas |"
+  },
+  {
+    "id": 415974,
+    "nome": "Casos de Repartição na CF/88 |"
+  },
+  {
+    "id": 415976,
+    "nome": "Transferências Diretas |"
+  },
+  {
+    "id": 417798,
+    "nome": "Da União para os Estados e DF |"
+  },
+  {
+    "id": 417806,
+    "nome": "Da União para os Municípios |"
+  },
+  {
+    "id": 417808,
+    "nome": "Dos Estados para os Municípios |"
+  },
+  {
+    "id": 415977,
+    "nome": "Transferências Indiretas |"
+  },
+  {
+    "id": 417809,
+    "nome": "Fundos de Participação |"
+  },
+  {
+    "id": 417811,
+    "nome": "Outras transferências indiretas |"
+  },
+  {
+    "id": 415970,
+    "nome": "Características Gerais |"
+  },
+  {
+    "id": 417818,
+    "nome": "Legislação Tributária |"
+  },
+  {
+    "id": 417826,
+    "nome": "Conceito de Legislação Tributária |"
+  },
+  {
+    "id": 417827,
+    "nome": "Fontes Formais Primárias |"
+  },
+  {
+    "id": 417828,
+    "nome": "Constituição Federal e Emendas à Constituição |"
+  },
+  {
+    "id": 417829,
+    "nome": "Leis Complementares |"
+  },
+  {
+    "id": 417830,
+    "nome": "Leis Ordinárias |"
+  },
+  {
+    "id": 417831,
+    "nome": "Medidas Provisórias |"
+  },
+  {
+    "id": 417835,
+    "nome": "Resoluções |"
+  },
+  {
+    "id": 417836,
+    "nome": "Decretos Legislativos |"
+  },
+  {
+    "id": 417837,
+    "nome": "Decretos-Leis |"
+  },
+  {
+    "id": 417838,
+    "nome": "Tratados e Convenções Internacionais |"
+  },
+  {
+    "id": 417839,
+    "nome": "Decretos Regulamentares |"
+  },
+  {
+    "id": 417840,
+    "nome": "Fontes Formais Secundárias (Normas Complementares) |"
+  },
+  {
+    "id": 417842,
+    "nome": "Atos Normativos Expedidos pelas Autoridades Administrativas |"
+  },
+  {
+    "id": 417843,
+    "nome": "Decisões com Eficácia Normativa |"
+  },
+  {
+    "id": 417844,
+    "nome": "Práticas Reiteradas das Autoridades Administrativas |"
+  },
+  {
+    "id": 417845,
+    "nome": "Convênios Celebrados pelas Entidades Impositoras |"
+  },
+  {
+    "id": 417846,
+    "nome": "Observância das Normas Complementares |"
+  },
+  {
+    "id": 417847,
+    "nome": "Fontes Informais do Direito Tributário |"
+  },
+  {
+    "id": 417848,
+    "nome": "Vigência, Aplicação, Interpretação e Integração da Legislação Tributária |"
+  },
+  {
+    "id": 417849,
+    "nome": "Vigência da Legislação Tributária |"
+  },
+  {
+    "id": 417850,
+    "nome": "Vigência Temporal |"
+  },
+  {
+    "id": 417851,
+    "nome": "Vigência Espacial |"
+  },
+  {
+    "id": 417852,
+    "nome": "Aplicação da Legislação Tributária (Retroatividade da Legislação Tributária) |"
+  },
+  {
+    "id": 417853,
+    "nome": "Lei Expressamente Interpretativa |"
+  },
+  {
+    "id": 417862,
+    "nome": "Lei mais Benigna sobre Penalidades |"
+  },
+  {
+    "id": 417863,
+    "nome": "Interpretação da Legislação Tributária |"
+  },
+  {
+    "id": 417865,
+    "nome": "Fontes |"
+  },
+  {
+    "id": 417867,
+    "nome": "Modos (Critérios / Técnicas) |"
+  },
+  {
+    "id": 417868,
+    "nome": "Efeitos |"
+  },
+  {
+    "id": 417869,
+    "nome": "Interpretação da Legislação Tributária no CTN |"
+  },
+  {
+    "id": 417870,
+    "nome": "Interpretação Literal |"
+  },
+  {
+    "id": 417871,
+    "nome": "Interpretação mais Benigna em Matéria de Infrações |"
+  },
+  {
+    "id": 417872,
+    "nome": "Princípio do Pecunia Non Olet |"
+  },
+  {
+    "id": 417873,
+    "nome": "Integração da Legislação Tributária |"
+  },
+  {
+    "id": 438078,
+    "nome": "Lei Complementar nº 214/2025 - Institui o Imposto sobre Bens e Serviços (IBS), a Contribuição Social sobre Bens e Serviços (CBS) e o Imposto Seletivo (IS); cria o Comitê Gestor do IBS e altera a legislação tributária. |"
+  },
+  {
+    "id": 441779,
+    "nome": "Lei Complementar nº 199/2023 - Institui o Estatuto Nacional de Simplificação de Obrigações Tributárias Acessórias; e dá outras providências. |"
+  },
+  {
+    "id": 407152,
+    "nome": "Obrigação tributária |"
+  },
+  {
+    "id": 407153,
+    "nome": "Objeto |"
+  },
+  {
+    "id": 416016,
+    "nome": "Obrigação Principal |"
+  },
+  {
+    "id": 416018,
+    "nome": "Obrigação Acessória |"
+  },
+  {
+    "id": 407154,
+    "nome": "Fato Gerador |"
+  },
+  {
+    "id": 416020,
+    "nome": "Hipótese de Incidência x Fato Gerador |"
+  },
+  {
+    "id": 416077,
+    "nome": "Fato Gerador da Obrigação Principal |"
+  },
+  {
+    "id": 416078,
+    "nome": "Fato Gerador da Obrigação Acessória |"
+  },
+  {
+    "id": 416079,
+    "nome": "Momento da Ocorrência |"
+  },
+  {
+    "id": 417874,
+    "nome": "As Situações Jurídicas Condicionadas |"
+  },
+  {
+    "id": 416080,
+    "nome": "Princípio do Pecunia non Olet |"
+  },
+  {
+    "id": 417875,
+    "nome": "Princípio do Pecunia non Olet |"
+  },
+  {
+    "id": 416081,
+    "nome": "Elisão, Elusão e Evasão |"
+  },
+  {
+    "id": 407155,
+    "nome": "Sujeito Ativo |"
+  },
+  {
+    "id": 417876,
+    "nome": "Sujeito Passivo (Contribuinte e Responsável) |"
+  },
+  {
+    "id": 417877,
+    "nome": "Domicílio Tributário |"
+  },
+  {
+    "id": 407156,
+    "nome": "Responsabilidade Tributária |"
+  },
+  {
+    "id": 416082,
+    "nome": "Responsabilidade por Substituição |"
+  },
+  {
+    "id": 417878,
+    "nome": "Substituição Tributária Regressiva |"
+  },
+  {
+    "id": 417879,
+    "nome": "Substituição Tributária Progressiva |"
+  },
+  {
+    "id": 417880,
+    "nome": "Substituição Tributária Concomitante |"
+  },
+  {
+    "id": 416083,
+    "nome": "Responsabilidade de Terceiros |"
+  },
+  {
+    "id": 417881,
+    "nome": "Responsabilidade por Infrações |"
+  },
+  {
+    "id": 417882,
+    "nome": "Responsabilidade Pessoal do Agente |"
+  },
+  {
+    "id": 417883,
+    "nome": "Denúncia Espontânea |"
+  },
+  {
+    "id": 417884,
+    "nome": "Direito Tributário Penal e Direito Penal Tributário |"
+  },
+  {
+    "id": 417885,
+    "nome": "Responsabilidade dos Sucessores |"
+  },
+  {
+    "id": 417886,
+    "nome": "Na Transmissão de Bens Imóveis |"
+  },
+  {
+    "id": 417887,
+    "nome": "Na Transmissão de Bens Móveis |"
+  },
+  {
+    "id": 417888,
+    "nome": "Na transmissão Causa Mortis |"
+  },
+  {
+    "id": 417889,
+    "nome": "Na Sucessão Empresarial |"
+  },
+  {
+    "id": 417890,
+    "nome": "Do Adquirente de Fundo de Comércio ou Estabelecimento Profissional |"
+  },
+  {
+    "id": 417891,
+    "nome": "Responsabilidade por Solidariedade |"
+  },
+  {
+    "id": 407168,
+    "nome": "Crédito tributário |"
+  },
+  {
+    "id": 407170,
+    "nome": "Lançamento |"
+  },
+  {
+    "id": 417894,
+    "nome": "Competência para Lançar |"
+  },
+  {
+    "id": 417895,
+    "nome": "Legislação Aplicável ao Lançamento |"
+  },
+  {
+    "id": 417896,
+    "nome": "Em Relação aos Aspectos Materiais |"
+  },
+  {
+    "id": 417898,
+    "nome": "Em Relação aos Aspectos Formais |"
+  },
+  {
+    "id": 416084,
+    "nome": "Taxa Cambial Aplicável |"
+  },
+  {
+    "id": 416085,
+    "nome": "Alteração do Lançamento |"
+  },
+  {
+    "id": 417900,
+    "nome": "Impugnação do Sujeito Passivo |"
+  },
+  {
+    "id": 417902,
+    "nome": "Recurso de Ofício |"
+  },
+  {
+    "id": 417903,
+    "nome": "Iniciativa de Ofício da Autoridade Administrativa |"
+  },
+  {
+    "id": 417905,
+    "nome": "Decorrente de erro de Direito e Erro de Fato |"
+  },
+  {
+    "id": 407171,
+    "nome": "Modalidades de lançamento |"
+  },
+  {
+    "id": 417907,
+    "nome": "Lançamento de Ofício |"
+  },
+  {
+    "id": 417909,
+    "nome": "Lançamento por Declaração |"
+  },
+  {
+    "id": 417910,
+    "nome": "Lançamento por Homologação |"
+  },
+  {
+    "id": 417911,
+    "nome": "Técnica do Arbitramento |"
+  },
+  {
+    "id": 407172,
+    "nome": "Suspensão do crédito tributário |"
+  },
+  {
+    "id": 407173,
+    "nome": "Moratória |"
+  },
+  {
+    "id": 417912,
+    "nome": "Depósito do Montante Integral |"
+  },
+  {
+    "id": 417913,
+    "nome": "Reclamações e Recursos Administrativos |"
+  },
+  {
+    "id": 417914,
+    "nome": "Concessão de medida Liminar |"
+  },
+  {
+    "id": 417915,
+    "nome": "Tutela |"
+  },
+  {
+    "id": 417916,
+    "nome": "Parcelamento |"
+  },
+  {
+    "id": 407174,
+    "nome": "Extinção do crédito tributário |"
+  },
+  {
+    "id": 407176,
+    "nome": "Pagamento |"
+  },
+  {
+    "id": 407175,
+    "nome": "Compensação |"
+  },
+  {
+    "id": 416086,
+    "nome": "Transação |"
+  },
+  {
+    "id": 416087,
+    "nome": "Remissão |"
+  },
+  {
+    "id": 416088,
+    "nome": "Decadência |"
+  },
+  {
+    "id": 416089,
+    "nome": "Prescrição |"
+  },
+  {
+    "id": 416090,
+    "nome": "Conversão do Depósito em Renda |"
+  },
+  {
+    "id": 416091,
+    "nome": "Pagamento Antecipado e Homologação do Lançamento |"
+  },
+  {
+    "id": 416092,
+    "nome": "Consignação em Pagamento |"
+  },
+  {
+    "id": 416093,
+    "nome": "Decisão Administrativa Irreformável e Decisão Judicial Passada em Julgado |"
+  },
+  {
+    "id": 416094,
+    "nome": "Dação em Pagamento de Bens Imóveis |"
+  },
+  {
+    "id": 407178,
+    "nome": "Exclusão do crédito tributário |"
+  },
+  {
+    "id": 407179,
+    "nome": "Isenção |"
+  },
+  {
+    "id": 416096,
+    "nome": "Principais Teorias sobre Isenções |"
+  },
+  {
+    "id": 416097,
+    "nome": "Classificação das Isenções |"
+  },
+  {
+    "id": 417917,
+    "nome": "Objetivas e Subjetivas |"
+  },
+  {
+    "id": 417918,
+    "nome": "Gerais e Específicas |"
+  },
+  {
+    "id": 417919,
+    "nome": "Condicionadas e não Condicionadas |"
+  },
+  {
+    "id": 416098,
+    "nome": "Disciplina no Código Tributário Nacional |"
+  },
+  {
+    "id": 407180,
+    "nome": "Anistia |"
+  },
+  {
+    "id": 407181,
+    "nome": "Garantias e privilégios do crédito tributário |"
+  },
+  {
+    "id": 407182,
+    "nome": "Garantias |"
+  },
+  {
+    "id": 417920,
+    "nome": "Universalidade da Cobrança |"
+  },
+  {
+    "id": 417921,
+    "nome": "Presunção de Fraude à Execução Fiscal |"
+  },
+  {
+    "id": 417922,
+    "nome": "Indisponibilidade de Bens na Execução Fiscal |"
+  },
+  {
+    "id": 417923,
+    "nome": "Prova de Quitação dos Tributos |"
+  },
+  {
+    "id": 407183,
+    "nome": "Privilégios |"
+  },
+  {
+    "id": 417925,
+    "nome": "Na Falência |"
+  },
+  {
+    "id": 417927,
+    "nome": "Nos Processos de Inventário e Arrolamento e na Liquidação Judicial ou Voluntária |"
+  },
+  {
+    "id": 417928,
+    "nome": "Concurso de Preferência entre as Fazendas Públicas |"
+  },
+  {
+    "id": 407187,
+    "nome": "Administração tributária |"
+  },
+  {
+    "id": 407195,
+    "nome": "Fiscalização |"
+  },
+  {
+    "id": 416100,
+    "nome": "Poderes das Autoridades Administrativas |"
+  },
+  {
+    "id": 416101,
+    "nome": "Deveres das Autoridades Administrativas |"
+  },
+  {
+    "id": 417929,
+    "nome": "Termo de início de Fiscalização |"
+  },
+  {
+    "id": 417930,
+    "nome": "Dever de Sigilo (Sigilo Bancário) |"
+  },
+  {
+    "id": 407196,
+    "nome": "Dívida ativa |"
+  },
+  {
+    "id": 407197,
+    "nome": "Certidões |"
+  },
+  {
+    "id": 417931,
+    "nome": "Certidão Positiva com Efeitos de Negativa |"
+  },
+  {
+    "id": 417932,
+    "nome": "Dispensa da Apresentação de Certidão Negativa |"
+  },
+  {
+    "id": 417933,
+    "nome": "Responsabilidade por Expedição de Certidão com Erro |"
+  },
+  {
+    "id": 417934,
+    "nome": "Disposições Finais e Transitórias (CTN) |"
+  },
+  {
+    "id": 407191,
+    "nome": "Simples Nacional |"
+  },
+  {
+    "id": 416102,
+    "nome": "Definição de Microempresa e Empresa de Pequeno Porte |"
+  },
+  {
+    "id": 416103,
+    "nome": "Enquadramento Diferenciado por Estado, DF ou Município |"
+  },
+  {
+    "id": 416104,
+    "nome": "Vedação à Opção |"
+  },
+  {
+    "id": 417935,
+    "nome": "Vedação Total |"
+  },
+  {
+    "id": 417936,
+    "nome": "Vedação Parcial |"
+  },
+  {
+    "id": 416105,
+    "nome": "Opção pelo Regime |"
+  },
+  {
+    "id": 416106,
+    "nome": "Exclusão do Regime |"
+  },
+  {
+    "id": 416107,
+    "nome": "Tributação |"
+  },
+  {
+    "id": 416108,
+    "nome": "Não Cumulatividade do ICMS e IPI no Regime |"
+  },
+  {
+    "id": 416109,
+    "nome": "Tratamento Diferenciado em Aquisições Públicas |"
+  },
+  {
+    "id": 416111,
+    "nome": "Microempreendedor Individual |"
+  },
+  {
+    "id": 416112,
+    "nome": "Obrigações Acessórias |"
+  },
+  {
+    "id": 416113,
+    "nome": "Responsabilidade Tributárias dos Sócios |"
+  },
+  {
+    "id": 416114,
+    "nome": "Processo Judicial |"
+  },
+  {
+    "id": 416115,
+    "nome": "Omissão de Receita |"
+  },
+  {
+    "id": 416116,
+    "nome": "Gestão do Simples |"
+  },
+  {
+    "id": 416117,
+    "nome": "Fiscalização do Simples |"
+  },
+  {
+    "id": 416118,
+    "nome": "Estímulo à Inovação e Inova Simples |"
+  },
+  {
+    "id": 416119,
+    "nome": "Parcelamento dos Débitos Tributários |"
+  },
+  {
+    "id": 416120,
+    "nome": "Restituição e Compensação |"
+  },
+  {
+    "id": 407194,
+    "nome": "Execução Fiscal e Processo Tributário |"
+  },
+  {
+    "id": 407216,
+    "nome": "Processo Administrativo |"
+  },
+  {
+    "id": 416125,
+    "nome": "Processo Administrativo não Contencioso |"
+  },
+  {
+    "id": 416126,
+    "nome": "Processo Administrativo Contencioso |"
+  },
+  {
+    "id": 416137,
+    "nome": "Processo Judicial |"
+  },
+  {
+    "id": 416138,
+    "nome": "Do contribuinte contra o fisco (ações antiexacionais) |"
+  },
+  {
+    "id": 417955,
+    "nome": "Ação declaratória de inexistência de relação jurídica |"
+  },
+  {
+    "id": 407220,
+    "nome": "Ação Anulatória de Débito Fiscal |"
+  },
+  {
+    "id": 407222,
+    "nome": "Ação de Repetição de Indébito |"
+  },
+  {
+    "id": 417956,
+    "nome": "Ação anulatória de decisão administrativa que denegou o pedido de restituição |"
+  },
+  {
+    "id": 407221,
+    "nome": "Ação de Consignação de Pagamento |"
+  },
+  {
+    "id": 416143,
+    "nome": "Ação de Embargos à Execução Fiscal |"
+  },
+  {
+    "id": 407223,
+    "nome": "Mandado de Segurança |"
+  },
+  {
+    "id": 416139,
+    "nome": "Do fisco contra o contribuinte (ações exacionais) |"
+  },
+  {
+    "id": 416141,
+    "nome": "Execução Fiscal |"
+  },
+  {
+    "id": 416142,
+    "nome": "Medida Cautelar Fiscal |"
+  },
+  {
+    "id": 407225,
+    "nome": "Exceção de Pré-Executividade |"
+  },
+  {
+    "id": 423521,
+    "nome": "Legislação Tributária |"
+  },
+  {
+    "id": 423522,
+    "nome": "Lei nº 9.532/1997 - Altera a legislação tributária federal e dá outras providências |"
+  },
+  {
+    "id": 430171,
+    "nome": "Lei nº 5.172/1966 - Dispõe sobre o Sistema Tributário Nacional e institui normas gerais de direito tributário aplicáveis à União, Estados e Municípios. |"
+  },
+  {
+    "id": 430172,
+    "nome": "Lei Complementar nº 104/2001 - Altera dispositivos da Lei no 5.172, de 25 de outubro de 1966 - Código Tributário Nacional. |"
+  },
+  {
+    "id": 430509,
+    "nome": "Lei Complementar nº 192/2022 - Define os combustíveis sobre os quais incidirá uma única vez o Imposto sobre Operações Relativas à Circulação de Mercadorias e sobre Prestações de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação (ICMS) |"
+  },
+  {
+    "id": 432545,
+    "nome": "Lei Complementar nº 116/2003 - Dispõe sobre o Imposto Sobre Serviços de Qualquer Natureza, de competência dos Municípios e do Distrito Federal, e dá outras providências. |"
+  },
+  {
+    "id": 432647,
+    "nome": "Lei Complementar nº 194/2022 - Altera a Lei nº 5.172, de 25 de outubro de 1966 (Código Tributário Nacional), e a Lei Complementar nº 87, de 13 de setembro de 1996 (Lei Kandir), para considerar bens e serviços essenciais os relativos aos combustíveis |"
+  },
+  {
+    "id": 432648,
+    "nome": "Lei Complementar nº 87/1996 - Dispõe Sobre o Imposto dos Estados e do Distrito Federal sobre Operações Relativas à Circulação de Mercadorias e Sobre Prestações de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação (Lei Kandir). |"
+  },
+  {
+    "id": 433778,
+    "nome": "Emenda Constitucional nº 132/2023 - Altera o Sistema Tributário Nacional. |"
+  }
+]

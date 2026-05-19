@@ -1,0 +1,976 @@
+{
+  "Princípios Penais E Interpretação Da Lei Penal": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Legalidade penal, reserva legal e taxatividade",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir legalidade com mera anterioridade da lei, ignorando a exigência de lei estrita e taxativa."
+      },
+      {
+        "nome_microtema": "Anterioridade da lei penal e vedação à retroatividade maléfica",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Aplicar lei posterior mais gravosa a fato pretérito ou esquecer que a lei mais benéfica retroage."
+      },
+      {
+        "nome_microtema": "Retroatividade da lei penal mais benéfica e abolitio criminis",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Tratar abolitio criminis como simples causa de diminuição de pena, quando extingue a punibilidade."
+      },
+      {
+        "nome_microtema": "Interpretação da lei penal: literal, teleológica, sistemática e extensiva",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Confundir interpretação extensiva com analogia, especialmente quando a solução amplia o alcance do tipo penal."
+      },
+      {
+        "nome_microtema": "Analogia no Direito Penal e analogia in malam partem",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Admitir analogia para prejudicar o réu, quando ela só é tolerada, em regra, para beneficiar o acusado."
+      },
+      {
+        "nome_microtema": "Princípio da intervenção mínima, fragmentariedade e subsidiariedade",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Achar que todo ilícito deve ser criminalizado, esquecendo que o Direito Penal é ultima ratio."
+      },
+      {
+        "nome_microtema": "Princípio da ofensividade/lesividade e insignificância",
+        "ids_questoes": [],
+        "peso_percentual": 13,
+        "armadilha_favorita": "Aplicar insignificância automaticamente, sem verificar mínima ofensividade, inexpressividade da lesão e ausência de periculosidade social."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com linha do tempo, mudança legislativa ou conduta aparentemente atípica, exigindo identificar se há lei mais benéfica, vedação de analogia in malam partem, incidência de interpretação extensiva ou reconhecimento de princípio limitador do poder punitivo. As alternativas geralmente misturam conceitos próximos, como legalidade, anterioridade, taxatividade, analogia e interpretação extensiva, além de inserir elementos de insignificância ou intervenção mínima para testar a leitura fina do caso.",
+      "palavras_gatilho": [
+        "lei posterior",
+        "retroatividade",
+        "abolitio criminis",
+        "analogia",
+        "interpretação extensiva",
+        "taxatividade",
+        "ultima ratio",
+        "insignificância",
+        "lesividade",
+        "anterioridade"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Aplicação Da Lei Penal No Tempo E No Espaço": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Lei penal no tempo: irretroatividade, retroatividade benéfica e ultratividade",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir a regra da irretroatividade da lei penal mais gravosa com a retroatividade da lei mais benéfica e com a ultratividade da lei temporária ou excepcional."
+      },
+      {
+        "nome_microtema": "Abolitio criminis e efeitos penais da descriminalização",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Tratar a abolitio criminis como simples causa de diminuição de pena, quando na verdade extingue a punibilidade e alcança fatos anteriores ainda sem trânsito em julgado."
+      },
+      {
+        "nome_microtema": "Lei penal intermediária e combinação de leis penais",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Misturar a aplicação da lei intermediária mais favorável com a vedação à combinação de dispositivos de leis distintas para criar uma terceira norma."
+      },
+      {
+        "nome_microtema": "Tempo do crime: teoria da atividade e repercussões práticas",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Confundir o momento da ação ou omissão com o resultado, especialmente em crimes permanentes, continuados e nos delitos com resultado tardio."
+      },
+      {
+        "nome_microtema": "Lei penal no espaço: territorialidade, extraterritorialidade e lugar do crime",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Trocar a regra da territorialidade temperada pela extraterritorialidade condicionada ou incondicionada, sobretudo em crimes praticados parcialmente no Brasil e no exterior."
+      },
+      {
+        "nome_microtema": "Lugar do crime: teoria da ubiquidade e crimes à distância",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Achar que o crime ocorreu apenas onde houve o resultado, ignorando que a lei brasileira adota a teoria da ubiquidade."
+      },
+      {
+        "nome_microtema": "Imunidades, exceções e hipóteses especiais de aplicação da lei penal brasileira",
+        "ids_questoes": [],
+        "peso_percentual": 6,
+        "armadilha_favorita": "Desconsiderar hipóteses especiais como imunidades diplomáticas, navios e aeronaves, ou aplicar automaticamente a lei brasileira sem verificar a exceção legal."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com linha do tempo e elementos de conexão territorial, exigindo identificar qual lei se aplica, em que momento o crime se considera praticado e se a norma posterior pode retroagir. As alternativas geralmente misturam conceitos próximos, como retroatividade, ultratividade, abolitio criminis, lei temporária, territorialidade e ubiquidade, para induzir erro por troca de institutos.",
+      "palavras_gatilho": [
+        "lei posterior mais benéfica",
+        "fato praticado antes da vigência",
+        "trânsito em julgado",
+        "abolitio criminis",
+        "lei temporária",
+        "crime permanente",
+        "resultado no exterior",
+        "ato executório no Brasil",
+        "teoria da ubiquidade",
+        "extraterritorialidade"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Teoria Geral Do Delito: Conduta, Tipicidade E Ilicitude": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Conduta: ação, omissão e omissão imprópria (comissivo por omissão)",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir mera ausência de ação com omissão penalmente relevante e com o dever jurídico de agir do garante."
+      },
+      {
+        "nome_microtema": "Tipicidade formal e material; tipicidade conglobante e adequação típica",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Tratar qualquer encaixe literal no tipo como crime, ignorando a análise material da lesão ou perigo relevante."
+      },
+      {
+        "nome_microtema": "Tipicidade conglobante e causas de exclusão da tipicidade",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Misturar ausência de tipicidade com excludentes de ilicitude, como se fossem a mesma etapa da análise."
+      },
+      {
+        "nome_microtema": "Dolo, culpa e elementos subjetivos do tipo",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir dolo eventual com culpa consciente e exigir resultado querido quando basta a assunção do risco."
+      },
+      {
+        "nome_microtema": "Erro de tipo essencial e erro de tipo acidental",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Trocar erro de tipo por erro de proibição e errar os efeitos sobre dolo, culpa e punibilidade."
+      },
+      {
+        "nome_microtema": "Ilicitude: antijuridicidade e causas de justificação",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Reconhecer a excludente de ilicitude sem verificar seus requisitos objetivos e subjetivos no caso concreto."
+      },
+      {
+        "nome_microtema": "Legítima defesa, estado de necessidade, estrito cumprimento do dever legal e exercício regular de direito",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir agressão injusta atual ou iminente com perigo atual, ou aplicar legítima defesa onde caberia estado de necessidade."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com sequência fática curta, exigindo a identificação da etapa correta da teoria do delito: conduta, tipicidade ou ilicitude. As alternativas geralmente misturam conceitos próximos, como dolo eventual e culpa consciente, erro de tipo e erro de proibição, legítima defesa e estado de necessidade, além de confundir tipicidade formal com material. A resposta correta depende de leitura técnica do fato e da ordem analítica do crime.",
+      "palavras_gatilho": [
+        "agiu para",
+        "assumiu o risco",
+        "não percebeu",
+        "erro sobre",
+        "agressão injusta",
+        "perigo atual",
+        "dever legal",
+        "garante",
+        "adequação típica",
+        "ausência de tipicidade",
+        "excludente de ilicitude"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Culpabilidade E Excludentes": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Potencial consciência da ilicitude e erro de proibição",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir erro de proibição inevitável com evitável e tratar ambos como exclusão total da culpabilidade."
+      },
+      {
+        "nome_microtema": "Inexigibilidade de conduta diversa e coação moral irresistível",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Misturar coação moral irresistível com coação física irresistível e com estado de necessidade exculpante."
+      },
+      {
+        "nome_microtema": "Obediência hierárquica e ordem manifestamente ilegal",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Achar que toda ordem superior afasta a culpabilidade, sem verificar se a ordem era legal ou manifestamente ilegal."
+      },
+      {
+        "nome_microtema": "Imputabilidade penal: doença mental, desenvolvimento mental incompleto ou retardado e embriaguez",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir inimputabilidade com semi-imputabilidade e ignorar os efeitos da embriaguez voluntária, culposa ou completa por caso fortuito/força maior."
+      },
+      {
+        "nome_microtema": "Menoridade penal e critérios de aferição da imputabilidade",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Tratar menor de 18 anos como inimputável por presunção relativa ou admitir prova em contrário para afastar a inimputabilidade."
+      },
+      {
+        "nome_microtema": "Culpabilidade como juízo de reprovação: elementos e estrutura",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir culpabilidade com dolo e culpa, ou com tipicidade e ilicitude, como se fossem o mesmo plano analítico."
+      },
+      {
+        "nome_microtema": "Excludentes supralegais de culpabilidade e casos concretos de inexigibilidade",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Aplicar excludente supralegal sem base fática suficiente, especialmente em situações de medo, pressão social ou conflito de deveres."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com forte carga fática, exigindo identificar se o problema está na imputabilidade, na potencial consciência da ilicitude ou na exigibilidade de conduta diversa. A pegadinha aparece na troca entre excludentes de culpabilidade e causas de exclusão da ilicitude, além da distinção entre erro de proibição, erro de tipo e coação moral irresistível. As alternativas geralmente são todas plausíveis, mas apenas uma respeita a classificação técnico-penal correta.",
+      "palavras_gatilho": [
+        "erro de proibição",
+        "inexigibilidade de conduta diversa",
+        "coação moral irresistível",
+        "ordem superior",
+        "manifestamente ilegal",
+        "semi-imputável",
+        "doença mental",
+        "embriaguez",
+        "menor de 18 anos",
+        "potencial consciência da ilicitude"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Iter Criminis: Consumação E Tentativa": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Fases do iter criminis: cogitação, preparação, execução e consumação",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir atos preparatórios impuníveis com início de execução punível."
+      },
+      {
+        "nome_microtema": "Consumação formal e consumação material nos crimes",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Tomar a produção do resultado como requisito universal de consumação, inclusive em crimes formais e de mera conduta."
+      },
+      {
+        "nome_microtema": "Tentativa punível: início de execução, não consumação por circunstâncias alheias à vontade do agente",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Trocar desistência voluntária ou arrependimento eficaz por tentativa punível."
+      },
+      {
+        "nome_microtema": "Desistência voluntária e arrependimento eficaz",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Achar que o agente responde por tentativa quando, na verdade, responde apenas pelos atos já praticados."
+      },
+      {
+        "nome_microtema": "Crime impossível e ineficácia absoluta do meio ou impropriedade absoluta do objeto",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir tentativa com crime impossível, especialmente quando o meio é inadequado ou o objeto é inexistente."
+      },
+      {
+        "nome_microtema": "Tentativa perfeita e imperfeita; tentativa branca e vermelha",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Misturar a classificação da tentativa com o grau de execução e com a efetiva produção de lesão."
+      },
+      {
+        "nome_microtema": "Pena da tentativa e critério de diminuição de 1/3 a 2/3",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Aplicar redução automática sem considerar o iter percorrido e a proximidade da consumação."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com sequência fática curta e precisa, exigindo identificar em que fase do iter criminis o agente parou, se houve consumação, tentativa, desistência voluntária, arrependimento eficaz ou crime impossível. A pegadinha geralmente está em um detalhe temporal ou causal: o agente já iniciou a execução? O resultado era exigido pelo tipo? A interrupção decorreu de vontade própria ou de fator externo? A banca explora a distinção entre crimes materiais, formais e de mera conduta, além da diferença entre tentativa punível e causas de exclusão da punibilidade da tentativa.",
+      "palavras_gatilho": [
+        "iniciou a execução",
+        "não consumou por circunstâncias alheias à sua vontade",
+        "desistiu voluntariamente",
+        "arrependimento eficaz",
+        "meio absolutamente ineficaz",
+        "objeto absolutamente impróprio",
+        "crime formal",
+        "resultado naturalístico",
+        "atos preparatórios",
+        "redução de pena"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Erro De Tipo E Erro De Proibição": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Erro de tipo essencial: escusável e inescusável",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir erro de tipo essencial com desconhecimento da ilicitude, quando o caso trata de falsa percepção sobre elemento do tipo penal."
+      },
+      {
+        "nome_microtema": "Erro de tipo acidental: erro sobre a pessoa, sobre o objeto, na execução e resultado diverso do pretendido",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Trocar erro de tipo acidental por excludente de culpabilidade, embora ele não afaste o dolo nem a tipicidade em regra."
+      },
+      {
+        "nome_microtema": "Erro de proibição direto e indireto",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir a falsa crença de licitude da conduta com erro sobre elemento fático do tipo penal."
+      },
+      {
+        "nome_microtema": "Erro de proibição inevitável e evitável: efeitos na culpabilidade e na pena",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Achar que todo erro de proibição exclui culpabilidade, quando o evitável apenas reduz a pena."
+      },
+      {
+        "nome_microtema": "Descriminante putativa por erro de tipo e por erro de proibição",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Não distinguir a falsa percepção da situação de fato justificante do erro sobre a existência ou alcance da norma permissiva."
+      },
+      {
+        "nome_microtema": "Consequências jurídicas: dolo, culpa, tentativa e responsabilidade penal",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Aplicar automaticamente exclusão do dolo ou da culpabilidade sem verificar se o erro era essencial, evitável ou incidia sobre a ilicitude."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com percepção equivocada do agente sobre fatos ou sobre a ilicitude, exigindo a classificação correta do erro e seus efeitos sobre dolo, culpa e culpabilidade. A pegadinha está em aproximar institutos vizinhos, especialmente erro de tipo essencial, erro de proibição e descriminante putativa.",
+      "palavras_gatilho": [
+        "acreditava que",
+        "pensou que",
+        "supôs que",
+        "imaginou estar autorizado",
+        "desconhecia a ilicitude",
+        "erro sobre elemento do tipo",
+        "situação de fato justificante",
+        "legítima defesa putativa",
+        "inevitável",
+        "evitável"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Concurso De Pessoas": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Teoria monista e pluralista do concurso de pessoas",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir a regra do concurso de pessoas no Brasil com a ideia de responsabilização penal totalmente autônoma de cada agente."
+      },
+      {
+        "nome_microtema": "Requisitos do concurso de pessoas: pluralidade de agentes, relevância causal e liame subjetivo",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Trocar mera presença no local do crime por participação penalmente relevante, sem vínculo subjetivo com o fato."
+      },
+      {
+        "nome_microtema": "Autoria, coautoria e participação",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir quem executa o núcleo do tipo com quem apenas auxilia, instiga ou determina a prática delitiva."
+      },
+      {
+        "nome_microtema": "Participação de menor importância e redução de pena",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Aplicar redução automática sem avaliar a efetiva contribuição do partícipe para o resultado criminoso."
+      },
+      {
+        "nome_microtema": "Cooperação dolosamente distinta",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Atribuir ao partícipe o resultado mais grave sem verificar se ele aderiu ao excesso praticado pelo autor."
+      },
+      {
+        "nome_microtema": "Circunstâncias e condições pessoais no concurso de pessoas",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Generalizar circunstâncias subjetivas para todos os agentes, ignorando a comunicabilidade restrita do art. 30 do CP."
+      },
+      {
+        "nome_microtema": "Participação impunível, autoria mediata e crimes de mão própria",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Tratar como coautoria hipóteses em que o agente atua por intermédio de terceiro ou em crime que exige atuação pessoal do sujeito ativo."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com divisão de tarefas entre os envolvidos, exigindo identificar se houve autoria, coautoria, participação ou mera presença. A pegadinha aparece na distinção entre adesão subjetiva ao fato e simples auxílio material, além da análise de excesso do executor e da comunicabilidade de circunstâncias pessoais.",
+      "palavras_gatilho": [
+        "instigou",
+        "auxiliou",
+        "determinou",
+        "aderiu ao plano",
+        "mera presença",
+        "excesso",
+        "resultado mais grave",
+        "circunstância pessoal",
+        "crime de mão própria",
+        "autoria mediata"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Penas: Espécies, Aplicação E Concurso De Crimes": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Espécies de pena e regime jurídico básico (privativa de liberdade, restritiva de direitos e multa)",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir a natureza e a autonomia da pena de multa com as penas restritivas de direitos e com a privativa de liberdade."
+      },
+      {
+        "nome_microtema": "Fixação da pena-base e circunstâncias judiciais do art. 59 do CP",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Misturar circunstâncias judiciais com agravantes/atenuantes e elevar a pena sem fundamentação concreta."
+      },
+      {
+        "nome_microtema": "Circunstâncias legais: agravantes, atenuantes e limites de incidência",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Aplicar agravante ou atenuante em fase errada da dosimetria ou reconhecer compensação indevida entre elas."
+      },
+      {
+        "nome_microtema": "Causas de aumento e diminuição de pena na terceira fase da dosimetria",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir majorantes/minorantes com agravantes/atenuantes e errar a ordem de aplicação na dosimetria."
+      },
+      {
+        "nome_microtema": "Concurso material, concurso formal e crime continuado",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Trocar soma de penas por exasperação e confundir unidade de desígnios com pluralidade de condutas."
+      },
+      {
+        "nome_microtema": "Substituição da pena privativa de liberdade por restritivas de direitos e sursis",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir requisitos da substituição da pena com os requisitos da suspensão condicional da pena."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com múltiplos delitos, antecedentes, reincidência, violência ou grave ameaça, e elementos de tempo, lugar e modo de execução para testar a dosimetria e a identificação correta do concurso de crimes. A pegadinha geralmente está na fase da aplicação da pena, na distinção entre circunstâncias judiciais, legais e causas de aumento/diminuição, e na escolha entre soma, exasperação ou continuidade delitiva.",
+      "palavras_gatilho": [
+        "reincidente",
+        "primário",
+        "circunstâncias judiciais",
+        "pena-base",
+        "agravante",
+        "atenuante",
+        "majorante",
+        "minorante",
+        "concurso material",
+        "concurso formal",
+        "crime continuado",
+        "exasperação",
+        "soma das penas",
+        "substituição",
+        "sursis",
+        "regime inicial"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Medidas De Segurança E Suspensão Condicional": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Medidas de segurança: pressupostos, espécies e finalidade",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir medida de segurança com pena, tratando-a como sanção retributiva em vez de medida preventiva fundada na periculosidade."
+      },
+      {
+        "nome_microtema": "Imputabilidade, inimputabilidade e semi-imputabilidade",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Trocar a consequência jurídica da inimputabilidade absoluta pela da semi-imputabilidade, especialmente quanto à redução de pena e possível medida de segurança."
+      },
+      {
+        "nome_microtema": "Espécies de medida de segurança: internação e tratamento ambulatorial",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Achar que a internação é sempre obrigatória ou que o tratamento ambulatorial depende apenas da gravidade abstrata do delito."
+      },
+      {
+        "nome_microtema": "Prazo, duração e cessação da medida de segurança",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Supor prazo fixo máximo automático, ignorando a lógica da cessação vinculada à perícia de cessação da periculosidade."
+      },
+      {
+        "nome_microtema": "Conversão, desinternação e revogação da medida de segurança",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir desinternação condicional com extinção da medida, ou revogação com simples alta médica."
+      },
+      {
+        "nome_microtema": "Suspensão condicional da pena (sursis): requisitos objetivos e subjetivos",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Misturar os requisitos do sursis com os da substituição da pena privativa de liberdade por restritivas de direitos."
+      },
+      {
+        "nome_microtema": "Condições, período de prova e revogação do sursis",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Confundir revogação obrigatória e facultativa, além de errar o efeito do descumprimento das condições durante o período de prova."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo réu com transtorno mental, dependência química ou baixa culpabilidade, exigindo a identificação da consequência penal correta: pena, medida de segurança, substituição ou sursis. A pegadinha aparece na escolha entre internação e tratamento ambulatorial, na distinção entre inimputabilidade e semi-imputabilidade, e na análise dos requisitos e da revogação do sursis. O enunciado geralmente traz detalhes sobre laudo pericial, reincidência, quantidade de pena aplicada e natureza do crime para induzir erro entre institutos próximos.",
+      "palavras_gatilho": [
+        "inimputável",
+        "semi-imputável",
+        "periculosidade",
+        "laudo pericial",
+        "internação",
+        "tratamento ambulatorial",
+        "cessação da periculosidade",
+        "período de prova",
+        "revogação",
+        "suspensão condicional da pena",
+        "substituição da pena"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Causas Extintivas Da Punibilidade E Prescrição": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Prescrição da pretensão punitiva: cálculo do prazo, termo inicial e marcos interruptivos",
+        "ids_questoes": [],
+        "peso_percentual": 28,
+        "armadilha_favorita": "Confundir o termo inicial da prescrição com a data do fato, a denúncia ou a sentença, sem observar a regra legal aplicável e os marcos interruptivos."
+      },
+      {
+        "nome_microtema": "Prescrição da pretensão executória: trânsito em julgado, início da contagem e efeitos da reincidência",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Misturar prescrição punitiva com executória e errar o momento em que começa a correr após o trânsito em julgado para a acusação."
+      },
+      {
+        "nome_microtema": "Causas interruptivas e suspensivas da prescrição",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Tratar suspensão como interrupção, ou vice-versa, especialmente em atos processuais como recebimento da denúncia, pronúncia e publicação da sentença."
+      },
+      {
+        "nome_microtema": "Prescrição retroativa e intercorrente: aplicação prática e limites após a Lei 12.234/2010",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Aplicar prescrição retroativa em período vedado pela reforma legal ou confundir a análise entre a pena em abstrato e a pena concreta."
+      },
+      {
+        "nome_microtema": "Causas extintivas da punibilidade: morte do agente, anistia, graça, indulto e abolitio criminis",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir anistia com indulto ou graça, e esquecer que a abolitio criminis extingue a punibilidade por desaparecimento da própria infração penal."
+      },
+      {
+        "nome_microtema": "Renúncia, perdão do ofendido e decadência nos crimes de ação penal privada",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Misturar decadência com prescrição e confundir renúncia ao direito de queixa com perdão do ofendido após o ajuizamento da ação."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com linha do tempo detalhada, exigindo a identificação do marco inicial, das causas de suspensão/interrupção e da espécie correta de prescrição ou causa extintiva da punibilidade. As alternativas são próximas entre si e exploram erros de contagem, confusão entre prescrição punitiva e executória, e distinção entre institutos extintivos.",
+      "palavras_gatilho": [
+        "trânsito em julgado",
+        "recebimento da denúncia",
+        "pronúncia",
+        "sentença condenatória",
+        "pena em abstrato",
+        "pena concreta",
+        "marco interruptivo",
+        "causa suspensiva",
+        "decadência",
+        "renúncia",
+        "perdão do ofendido",
+        "anistia",
+        "graça",
+        "indulto",
+        "abolitio criminis"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Crimes Contra A Pessoa": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Homicídio doloso, privilegiado, qualificado e feminicídio",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir privilégio com qualificadora e errar a incidência do feminicídio em razão da motivação de gênero."
+      },
+      {
+        "nome_microtema": "Homicídio culposo, aumento de pena e perdão judicial",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Trocar culpa consciente por dolo eventual e esquecer quando o perdão judicial afasta a pena."
+      },
+      {
+        "nome_microtema": "Induzimento, instigação ou auxílio ao suicídio e à automutilação",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Aplicar o tipo antigo sem observar a redação atual e a exigência de resultado lesivo ou morte."
+      },
+      {
+        "nome_microtema": "Infanticídio e estado puerperal",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Tratar qualquer mãe que mata o recém-nascido como infanticida, sem verificar o estado puerperal e o momento do crime."
+      },
+      {
+        "nome_microtema": "Aborto: consentido, provocado por terceiro, sem consentimento e hipóteses legais",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir as hipóteses de exclusão de ilicitude com as formas típicas e errar a distinção entre aborto consentido e sem consentimento."
+      },
+      {
+        "nome_microtema": "Lesão corporal dolosa, culposa, gravíssima, seguida de morte e violência doméstica",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Misturar lesão grave com gravíssima, ou enquadrar violência doméstica sem observar a natureza da ação penal e as majorantes aplicáveis."
+      },
+      {
+        "nome_microtema": "Periclitação da vida e da saúde: omissão de socorro, maus-tratos e exposição a perigo",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Confundir omissão de socorro com maus-tratos ou com crime de perigo concreto, exigindo resultado que o tipo não pede."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar casos concretos com sequência fática curta, mas cheia de detalhes decisivos sobre vínculo entre agente e vítima, momento da conduta, resultado produzido, elemento subjetivo e eventual causa de aumento ou privilégio. A cobrança é altamente casuística, exigindo distinguir tipos próximos, reconhecer hipóteses legais específicas e evitar leitura literal sem confronto com a jurisprudência e a redação atual do Código Penal.",
+      "palavras_gatilho": [
+        "estado puerperal",
+        "dolo eventual",
+        "culpa consciente",
+        "feminicídio",
+        "perdão judicial",
+        "consentimento da gestante",
+        "violência doméstica",
+        "resultado morte",
+        "lesão gravíssima",
+        "omissão de socorro"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Crimes Contra O Patrimônio": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Furto simples, furto qualificado e furto privilegiado",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir a qualificadora do furto com a incidência do privilégio do §2º, especialmente quando há pequeno valor e primariedade."
+      },
+      {
+        "nome_microtema": "Roubo próprio, roubo impróprio e majorantes do roubo",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Trocar furto com violência posterior por roubo impróprio e errar a análise das causas de aumento, sobretudo arma de fogo e concurso de pessoas."
+      },
+      {
+        "nome_microtema": "Extorsão, extorsão mediante sequestro e diferença para roubo",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Confundir constrangimento para entrega do bem com subtração direta, ou misturar extorsão com extorsão mediante sequestro pela presença de privação da liberdade."
+      },
+      {
+        "nome_microtema": "Apropriação indébita e apropriação indébita previdenciária",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Errar o momento da inversão da posse e confundir posse lícita inicial com subtração, tratando apropriação como furto ou estelionato."
+      },
+      {
+        "nome_microtema": "Estelionato, fraude eletrônica e fraude no pagamento por meio de cheque",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Misturar fraude antecedente com vantagem ilícita, especialmente quando há induzimento em erro, uso de meio eletrônico ou emissão de cheque sem provisão."
+      },
+      {
+        "nome_microtema": "Receptação, receptação qualificada e receptação culposa",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Confundir receptação com coautoria no crime antecedente e errar o elemento subjetivo, sobretudo quando o agente adquire coisa de origem suspeita."
+      },
+      {
+        "nome_microtema": "Dano, dano qualificado e introdução ou abandono de animais em propriedade alheia",
+        "ids_questoes": [],
+        "peso_percentual": 6,
+        "armadilha_favorita": "Tratar qualquer destruição patrimonial como dano qualificado, sem verificar violência, grave ameaça, motivo egoístico ou patrimônio público."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV cobra casos concretos com narrativa curta e precisa, exigindo identificação do tipo penal correto, do elemento subjetivo e da distinção entre crimes patrimoniais muito próximos. As alternativas costumam ser todas plausíveis, variando em detalhes como posse prévia, emprego de violência, momento da fraude, consumação, tentativa e incidência de majorantes ou privilegiadoras.",
+      "palavras_gatilho": [
+        "subtraiu",
+        "mediante grave ameaça",
+        "constrangeu",
+        "induziu em erro",
+        "posse lícita",
+        "inversão da posse",
+        "vantagem ilícita",
+        "coisa alheia móvel",
+        "concurso de pessoas",
+        "arma de fogo",
+        "pequeno valor",
+        "primário",
+        "receptou",
+        "fraude eletrônica"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Crimes Contra A Dignidade Sexual E A Fé Pública": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Estupro e estupro de vulnerável: violência, grave ameaça, vulnerabilidade e consentimento",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir ausência de resistência com consentimento válido, especialmente quando a vítima é menor de 14 anos, embriagada ou incapaz de oferecer resistência."
+      },
+      {
+        "nome_microtema": "Importunação sexual, ato obsceno e satisfação de lascívia mediante presença de criança ou adolescente",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Trocar o crime de importunação sexual por ato obsceno ou por estupro, ignorando a finalidade libidinosa e o contexto de constrangimento."
+      },
+      {
+        "nome_microtema": "Assédio sexual e relação de hierarquia, ascendência ou poder no ambiente de trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir assédio sexual com importunação sexual ou com mera cantada ofensiva, sem verificar a existência de superioridade hierárquica ou ascendência inerente ao cargo."
+      },
+      {
+        "nome_microtema": "Favorecimento da prostituição ou de outra forma de exploração sexual e rufianismo",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Misturar exploração sexual com exercício da prostituição por conta própria, ou confundir rufianismo com mero auxílio eventual sem proveito econômico."
+      },
+      {
+        "nome_microtema": "Registro não autorizado da intimidade sexual e divulgação de cena de nudez ou ato sexual",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Achar que só há crime com divulgação pública, quando o tipo pode se consumar já no registro, captação ou compartilhamento indevido da intimidade."
+      },
+      {
+        "nome_microtema": "Crimes contra a fé pública: falsificação de documento público e particular",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir falsificação material com ideológica, ou documento público com particular, alterando completamente o tipo penal e a pena."
+      },
+      {
+        "nome_microtema": "Uso de documento falso, falsidade ideológica e falsidade em certidões/atestados",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Misturar quem falsifica com quem apenas usa o documento falso, além de confundir omissão de informação relevante com falsidade material."
+      },
+      {
+        "nome_microtema": "Supressão de documento, petrechos de falsificação e consumação nos crimes de falsidade",
+        "ids_questoes": [],
+        "peso_percentual": 6,
+        "armadilha_favorita": "Tratar como mero exaurimento ou tentativa situações em que a lei já pune a simples posse, guarda ou destruição do documento/petrecho."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar casos concretos com forte carga fática, exigindo a identificação precisa do tipo penal, do elemento subjetivo e da consumação. Em crimes sexuais, explora a diferença entre violência, grave ameaça, vulnerabilidade, consentimento aparente e finalidade libidinosa. Em fé pública, a banca adora contrastar falsidade material versus ideológica, documento público versus particular e autoria da falsificação versus mero uso do documento. As alternativas costumam ser todas plausíveis, mas uma delas erra um detalhe técnico decisivo.",
+      "palavras_gatilho": [
+        "consentimento",
+        "menor de 14 anos",
+        "vulnerável",
+        "grave ameaça",
+        "ato libidinoso",
+        "hierarquia",
+        "ascendência",
+        "documento público",
+        "documento particular",
+        "falsidade ideológica",
+        "uso de documento falso",
+        "divulgação de cena íntima",
+        "registro não autorizado",
+        "exploração sexual"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Crimes Contra A Administração Pública": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Peculato, peculato-furto, peculato culposo e peculato mediante erro de outrem",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir a posse em razão do cargo com mera oportunidade de subtração, ou tratar peculato culposo como modalidade dolosa."
+      },
+      {
+        "nome_microtema": "Concussão, corrupção passiva e corrupção ativa",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Misturar exigência, solicitação e recebimento de vantagem indevida, além de inverter os polos ativo e passivo do delito."
+      },
+      {
+        "nome_microtema": "Prevaricação, condescendência criminosa e advocacia administrativa",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Trocar interesse ou sentimento pessoal por favorecimento indevido de terceiro, ou confundir omissão funcional com patrocínio de interesse privado."
+      },
+      {
+        "nome_microtema": "Resistência, desobediência e desacato",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir oposição à execução de ato legal com simples descumprimento de ordem ou com ofensa verbal ao funcionário público."
+      },
+      {
+        "nome_microtema": "Desobediência de decisão judicial e exploração de prestígio",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Misturar o descumprimento de ordem judicial com a falsa influência sobre autoridade, especialmente quando há promessa de intermediação."
+      },
+      {
+        "nome_microtema": "Crimes praticados por particular contra a Administração: usurpação de função pública, resistência e desobediência",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Tratar exercício indevido de função como mera irregularidade administrativa ou confundir com usurpação de cargo."
+      },
+      {
+        "nome_microtema": "Crimes em licitações e contratos administrativos e fraude correlata",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Achar que toda irregularidade em licitação é crime, sem identificar o dolo específico, o tipo penal aplicável e a efetiva lesão ao procedimento."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar casos curtos e muito concretos, com descrição de conduta funcional, pedido de vantagem, omissão deliberada, abuso de cargo ou interferência em procedimento administrativo. A cobrança privilegia a distinção fina entre tipos penais próximos, exigindo identificação do núcleo do verbo, do sujeito ativo, do elemento subjetivo e da consumação. As alternativas geralmente trazem crimes vizinhos e institutos que parecem equivalentes, mas diferem por detalhes como posse do bem, finalidade da conduta, qualidade do agente e natureza da vantagem.",
+      "palavras_gatilho": [
+        "funcionário público",
+        "vantagem indevida",
+        "exigiu",
+        "solicitou",
+        "recebeu",
+        "retardar",
+        "deixar de praticar",
+        "em razão da função",
+        "posse em razão do cargo",
+        "ato de ofício",
+        "ordem legal",
+        "resistiu",
+        "desacatou",
+        "patrocinar interesse privado",
+        "licitação",
+        "fraude",
+        "dispensa indevida",
+        "contrato administrativo"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Legislação Penal Especial (Drogas, Armas, Maria Da Penha, Trânsito)": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Lei de Drogas: porte para consumo pessoal x tráfico ilícito",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir a desclassificação para uso pessoal com tráfico a partir de quantidade, local, circunstâncias e antecedentes."
+      },
+      {
+        "nome_microtema": "Lei de Drogas: tráfico privilegiado, causas de diminuição e substituição da pena",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Achar que o tráfico privilegiado é crime hediondo ou que sempre impede substituição por pena restritiva de direitos."
+      },
+      {
+        "nome_microtema": "Lei de Drogas: associação para o tráfico, financiamento e majorantes",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Misturar associação estável e permanente com concurso eventual de agentes ou com mera coautoria no tráfico."
+      },
+      {
+        "nome_microtema": "Estatuto do Desarmamento: posse, porte, comércio e numeração suprimida",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir posse com porte e tratar como irrelevante a diferença entre arma de uso permitido, restrito e numeração raspada."
+      },
+      {
+        "nome_microtema": "Estatuto do Desarmamento: crimes de perigo abstrato, munição e acessórios",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Exigir prova de efetivo perigo ou disparo para configurar crime, quando a tipicidade é formal ou de perigo abstrato."
+      },
+      {
+        "nome_microtema": "Lei Maria da Penha: âmbito de incidência, medidas protetivas e descumprimento",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Achar que a lei só vale para violência física ou que depende de coabitação, casamento ou relação afetiva atual."
+      },
+      {
+        "nome_microtema": "Lei Maria da Penha: ação penal, representação e retratação",
+        "ids_questoes": [],
+        "peso_percentual": 5,
+        "armadilha_favorita": "Confundir crimes de ação pública incondicionada com hipóteses excepcionais de representação e retratação em audiência específica."
+      },
+      {
+        "nome_microtema": "Crimes de trânsito: embriaguez ao volante, lesão, homicídio e suspensão da habilitação",
+        "ids_questoes": [],
+        "peso_percentual": 5,
+        "armadilha_favorita": "Misturar infração administrativa com crime e errar a exigência de prova de alteração da capacidade psicomotora ou de resultado lesivo."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com narrativa curta e detalhes aparentemente secundários para testar a subsunção correta do fato ao tipo penal especial. As alternativas geralmente exploram distinções finas entre condutas próximas, causas de aumento/diminuição, natureza da ação penal, competência, medidas cautelares e efeitos da condenação. A pegadinha mais comum é trocar conceitos parecidos, como porte e posse, tráfico e uso, violência doméstica e conflito familiar sem incidência da lei, ou crime de trânsito e mera infração administrativa.",
+      "palavras_gatilho": [
+        "quantidade de droga",
+        "local da apreensão",
+        "circunstâncias da abordagem",
+        "uso pessoal",
+        "tráfico privilegiado",
+        "arma de uso restrito",
+        "numeração raspada",
+        "porte ilegal",
+        "medida protetiva",
+        "violência doméstica",
+        "relação íntima de afeto",
+        "descumprimento de ordem judicial",
+        "embriaguez ao volante",
+        "alteração da capacidade psicomotora",
+        "lesão corporal culposa",
+        "homicídio culposo na direção"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  }
+}

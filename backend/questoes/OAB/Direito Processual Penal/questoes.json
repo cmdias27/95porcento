@@ -1,0 +1,712 @@
+{
+  "Direito Processual Penal": [
+    {
+      "id": "oab_38_63",
+      "materia": "Direito Processual Penal",
+      "assunto": "Embargos de Terceiro ao Sequestro de Bens",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Margot adquiriu de César, de boa-fé e a título oneroso, um imóvel mas não levou o instrumento ao Registro de Imóveis competente. Por isso, quando César foi acusado de prática de crimes em uma ação penal, vindo a sofrer sequestro de todos os seus bens imóveis, foi incluído na ordem de sequestro o imóvel adquirido por Margot. Nessa situação hipotética, como advogado de Margot, assinale a opção que, de acordo com as disposições do Código de Processo Penal, melhor defenda os interesses de sua assistida.",
+      "alternativas": {
+        "A": "Por não ser parte no processo penal, Margot não pode opor embargos ao sequestro, devendo efetuar pedido de reconsideração",
+        "B": "Margot pode opor embargos ao sequestro, alegando que a aquisição ocorreu a título oneroso e de boa-fé",
+        "C": "Por não ser parte no processo penal originário, Margot deve impetrar mandado de segurança em face da decisão que determinou o sequestro.",
+        "D": "Margot pode opor embargos ao sequestro, alegando que os bens não foram adquiridos com os proventos da infração penal."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa B está correta. O art. 130, II, do CPP permite que o terceiro de boa-fé que adquiriu o bem a título oneroso oponha embargos ao sequestro."
+    },
+    {
+      "id": "oab_38_64",
+      "materia": "Direito Processual Penal",
+      "assunto": "Busca e Apreensão em Cumprimento de Mandado de Prisão - Prova Ilícita",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "A Policia civil ingressou na residência de Gustavo com o objetivo de cumprir mandado de prisão em desfavor de seu filho, Mariano, o qual era acusado de tráfico de drogas. A ordem de prisão foi expedida pelo Juiz de Direito da Comarca Durante o cumprimento do mandado de prisão, a Policia pegou o telefone celular de Gustavo, desbloqueado, que estava sobre uma mesa da residência e, sem sua autorização, passou a verificar seu conteúdo, constatando material de pornografia infantil, armazenado e compartilhado via aplicativo de troca de mensagens instantâneas, acessível pela internet a partir de qualquer país. Diante disso, a Policia imediatamente realizou a prisão em flagrante de Gustavo. Sobre o meio de obtenção da prova extraído do celular de Gustavo assinale a afirmativa correta",
+      "alternativas": {
+        "A": "nula, e a nulidade decorre de fato de ser a pornografia infantil na internet crime de competência federal, de forma que somente a Policia Federal poderia realizar a prisão em flagrante.",
+        "B": "É válida, pois foi um encontro fortuito de provas, uma vez que os policiais tinham autorização legal para ingresso no domicílio de Gustavo e Mariano",
+        "C": "É ilícita, pois cumprimento de mandado de prisão não compreende a autorização para busca em residência ou para o acesso a dados telemáticos, o que demandaria ordem judicial específica",
+        "D": "É anulável, porque somente com mandado de busca apreensão se poderia livremente acessar o conteúdo de comunicação telemática, ainda que diverso o destinatário do mandado, podendo a autoridade judiciária, entretanto, ratificar a diligência."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa C está correta. O STJ (HC 695.457) entende que o cumprimento de mandado de prisão não autoriza a realização de busca na residência ou a devassa em aparelho celular sem prévia autorização judicial, caracterizando prova ilícita."
+    },
+    {
+      "id": "oab_38_65",
+      "materia": "Direito Processual Penal",
+      "assunto": "Recurso contra Indeferimento de Abertura de Inquérito Policial",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Flávia foi acompanhada por você, na qualidade de advogado(a), à presença da Autoridade Policial, para noticiar a prática dos crimes de apropriação indébita e fraude processual supostamente praticados por seu ex-marido, descrevendo a prática do crime, fornecendo os dados qualificativos completos do suposto autor do fato, apresentando rol de testemunhas e anexando documentação pertinente à materialidade delitiva e de indícios de autoria. O Delegado de Polícia Civil, após cinco dias da confecção do registro da ocorrência, sem que tenha sido praticado nenhum ato para a verificação da procedência das informações, despachou nos autos do Inquérito Policial pelo indeferimento da instauração do Inquérito Policial e determinou a suspensão do procedimento. Nesse caso, você deve",
+      "alternativas": {
+        "A": "requerer a remessa dos autos ao Ministério Público para que se manifeste, uma vez que o Delegado de Polícia não possui poderes para arquivar o procedimento.",
+        "B": "requerer a remessa dos autos ao Juízo para que se manifeste, uma vez que o Delegado de Polícia não possui poderes para arquivar o procedimento.",
+        "C": "apresentar recurso para a Chefia de Polícia para que se manifeste sobre o indeferimento da instauração do Inquérito Policial.",
+        "D": "apresentar recurso ao Ministério Público para que se manifeste sobre o indeferimento da instauração do Inquérito Policial."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa C está correta. O art. 5°, §2°, do CPP determina que, do despacho que indeferir o requerimento de abertura de inquérito policial, caberá recurso para o chefe de Polícia."
+    },
+    {
+      "id": "oab_38_66",
+      "materia": "Direito Processual Penal",
+      "assunto": "Citação por Carta Precatória",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Luciane ajuizou na Vara Criminal da Comarca de Roma (ES) uma ação penal privada contra Jorge (guarda municipal daquele município) por crime de injúria (Art. 140, caput, do CP). Antes de oferecer a queixa-crime, Luciane propôs uma ação cível de indenização contra Jorge e não conseguiu citá-lo pessoalmente em sua residência, sita no próprio Município de Roma (ES), tendo em vista que o oficial de justiça certificou que esteve em duas oportunidades na casa de Jorge e não o localizou. Luciane foi informada por vizinhos que Jorge estava temporariamente residindo com sua mãe na cidade vizinha de Oeiras (ES), onde ela já havia passado um final de semana. Em se tratando de infração penal de menor potencial ofensivo, você, como advogado(a) da querelante, deverá, na ação penal privada, requerer a citação de Jorge",
+      "alternativas": {
+        "A": "por intermédio do seu chefe de serviço, em razão de Jorge ser guarda municipal, expedindo-se ofício ao comandante da Guarda Municipal.",
+        "B": "por hora certa, haja vista que Jorge estava se ocultando para não ser encontrado.",
+        "C": "por carta precatória, visto que Jorge está residindo temporariamente fora da jurisdição do juiz processante, considerando que a querelante tinha conhecimento do endereço da mãe do querelado na Comarca de Oeiras (ES).",
+        "D": "por correspondência com aviso de recebimento em mão própria, considerando que a querelante tinha conhecimento do endereço da mãe do querelado na Comarca de Oeiras (ES)."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa C está correta. O art. 353 do CPP determina que, quando o réu estiver fora da jurisdição do juiz processante, será citado mediante carta precatória."
+    },
+    {
+      "id": "oab_38_67",
+      "materia": "Direito Processual Penal",
+      "assunto": "Competência da Justiça Federal para crimes a bordo de navio",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Arthur e sua esposa Aline, residentes no Distrito Federal, decidem viajar em um cruzeiro, partindo de Fortaleza com destino à cidade do Rio de Janeiro e fazendo uma parada em Recife. Durante passagem pela costa pernambucana, em alto-mar, o casal tem uma discussão e Arthur agride Aline, vindo a ser contido por seguranças do navio e retirado logo na primeira parada. Aline sofreu lesão que a incapacitou para suas atividades habituais por mais de trinta dias, mas que não deixou sequela ou debilidade permanente. Assinale a opção que indica a autoridade judiciária competente para processar Arthur.",
+      "alternativas": {
+        "A": "O Juizado Especial Federal da cidade do Rio de Janeiro.",
+        "B": "O Juizado Especial de Violência Doméstica e Familiar contra a Mulher do Distrito Federal.",
+        "C": "O Juízo Federal de Recife.",
+        "D": "A Vara Criminal da Comarca de Fortaleza."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa C está correta. O crime foi cometido a bordo de navio nacional em alto-mar. A competência é da Justiça Federal (art. 109, IX, CF) e, por ser o primeiro porto brasileiro tocado após o crime (art. 89, CPP), a competência é do Juízo Federal de Recife."
+    },
+    {
+      "id": "oab_38_68",
+      "materia": "Direito Processual Penal",
+      "assunto": "Receptação - Indícios e Suspensão Condicional do Processo",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "João dirigia seu veículo, um Porsche Cayenne ano 2015, por uma rodovia quando, em abordagem de rotina, foi parado pela Policia Militar. João exibiu sua carteira nacional de habilitação e o certificado de registro e licenciamento de veículo (CRLV) do ano corrente. Após consulta ao sistema, o que é feito rotineiramente em abordagens na estrada, a Policia Militar constatou que o CRLV era falso e o veículo era produto de roubo. João admitiu que pagou cerca de R$ 35.000,00 (trinta e cinco mil reais) pelo veículo, avaliado em R$ 400.000,00, mas que não sabia que o veículo havia sido roubado, exibindo o respectivo recibo. Sabe-se que a pena do crime de receptação é de 1 a 4 anos e multa; e que a pena do crime de uso de documento público falso é de 2 a 6 anos e multa. Considerando a situação hipotética acima, assinale a opção que contém as regras processuais penais corretamente aplicáveis ao caso.",
+      "alternativas": {
+        "A": "A circunstância de o acusado ter adquirido o bem por preço muito inferior ao valor de mercado configura indício da prática de receptação.",
+        "B": "O delito de receptação, por expressa disposição legal, impõe a inversão do ônus da prova à defesa, cabendo a esta produzir a prova no sentido do desconhecimento da origem ilícita do bem.",
+        "C": "A comprovação da materialidade do delito de uso de documento materialmente falso prescinde de produção de prova pericial.",
+        "D": "O processo deve ser desmembrado, pois é cabível suspensão condicional do processo à receptação, devendo o feito prosseguir em relação ao uso de documento falso."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa A está correta (art. 180, §3°, CP). O comentário do material aponta que a alternativa C também está correta, pois a jurisprudência (HC 307.586/SE) admite a comprovação da materialidade do uso de documento falso por outros meios, prescindindo de perícia quando a defesa não a requereu."
+    },
+    {
+      "id": "oab_39_63",
+      "materia": "Direito Processual Penal",
+      "assunto": "Acordo de Não Persecução Penal (ANPP) - Requisitos (Art. 28-A, §2º)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 28-A, §2º do CPP.",
+      "enunciado": "Arthur, Bruno, Fernanda e Camille foram acusados de furto simples praticado em 2020. Arthur foi definitivamente condenado, Bruno foi condenado, porém, recorreu e ainda não houve decisão definitiva. Fernanda aceitou a suspensão condicional do processo, já cumprida, e Camille foi absolvida, tendo havido recurso do Ministério Público, ainda não julgado. Em julho de 2023, sobreveio acusação de uso de documento particular falso contra os quatro. Considerando preenchidos os demais requisitos, e considerando apenas os antecedentes criminais mencionados, assinale a opção que indica os que podem celebrar Acordo de Não Persecução Penal.",
+      "alternativas": {
+        "A": "Arthur e Bruno.",
+        "B": "Arthur e Fernanda.",
+        "C": "Bruno e Camille.",
+        "D": "Fernanda e Camille."
+      },
+      "gabarito": "C",
+      "comentario": "O art. 28-A, §2º do CPP veda o ANPP: (I) se for reincidente (Arthur condenado definitivamente); (II) se tiver sido beneficiado nos 5 anos anteriores por ANPP, transação penal ou suspensão condicional do processo (Fernanda); (III) se não for o caso, como Camille que foi absolvida, mesmo com recurso (presunção de inocência), e Bruno que tem condenação sem trânsito em julgado (não reincidente). Portanto, Bruno e Camille podem celebrar o ANPP."
+    },
+    {
+      "id": "oab_39_64",
+      "materia": "Direito Processual Penal",
+      "assunto": "Exceção da Verdade - Foro por Prerrogativa (Art. 85 do CPP)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 85 do CPP.",
+      "enunciado": "Adamastor, Juiz Federal em exercício na Seção Judiciária do Rio de Janeiro, vinculada ao Tribunal Regional Federal da Segunda Região, ajuizou queixa-crime contra o advogado Braulio, que foi distribuída a 20ª Vara Federal Criminal da Seção Judiciária do Rio de Janeiro. Nessa queixa-crime, Adamastor imputou a prática do crime de calúnia a Braulio, pois este teria dito em uma entrevista, dada na cidade de Porto Alegre/RS, que Adamastor recebeu vantagem econômica indevida para beneficiar determinada parte em sentença que prolatou. Após a citação pessoal de Bráulio, este ofereceu resposta à acusação opondo exceção da verdade. Assinale a opção que indica o órgão jurisdicional competente para qual deve ser direcionado essa exceção processual.",
+      "alternativas": {
+        "A": "20ª Vara Federal Criminal da Seção Judiciária do Rio de Janeiro.",
+        "B": "Tribunal Regional Federal da 4ª Região, com sede em Porto Alegre/RS.",
+        "C": "Tribunal Regional Federal da 2ª Região, com sede no Rio de Janeiro/RJ.",
+        "D": "Tribunal de Justiça do Estado do Rio de Janeiro."
+      },
+      "gabarito": "C",
+      "comentario": "O art. 85 do CPP estabelece que, nos processos por crime contra a honra em que forem querelantes as pessoas que a Constituição sujeita à jurisdição do STF ou dos Tribunais de Apelação (Tribunais Regionais Federais), a exceção da verdade será julgada por aquele tribunal. Adamastor é Juiz Federal, vinculado ao TRF da 2ª Região. A competência para julgar a exceção da verdade é do TRF da 2ª Região."
+    },
+    {
+      "id": "oab_39_65",
+      "materia": "Direito Processual Penal",
+      "assunto": "Remição da Pena (Art. 126 da LEP)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 126 da Lei 7.210/84 (LEP).",
+      "enunciado": "Júnior foi condenado pelo delito de latrocínio, na modalidade tentada, a uma pena de 8 (oito) anos e 6 (seis) meses de reclusão, a ser cumprida em regime inicial fechado, já tendo a sentença transitado em julgado, sem nulidade. Júnior inicia a execução das penas e procura você, na qualidade de advogado(a). Assinale a afirmativa que apresenta, corretamente, a orientação jurídica que possibilita reduzir o tempo de encarceramento de Júnior.",
+      "alternativas": {
+        "A": "Postular o perdão do ofendido e, assim, reduzir sua pena.",
+        "B": "Aguardar o decreto presidencial de comutação de pena.",
+        "C": "Requerer a classificação de Júnior para trabalho e estudo no sistema carcerário, a fim de viabilizar a remição de penas.",
+        "D": "Pleitear um decreto de anistia no âmbito da Assembleia Legislativa do seu Estado."
+      },
+      "gabarito": "C",
+      "comentario": "A remição da pena pelo trabalho ou estudo (art. 126 da LEP) é o principal meio de reduzir o tempo de encarceramento durante a execução penal. O perdão do ofendido é para ações penais privadas. Indulto/comutação são atos do Presidente da República, mas latrocínio é hediondo (Lei 8.072/90), vedada a concessão. Anistia é do Congresso Nacional, não de Assembleia Legislativa, e também é vedada para hediondos."
+    },
+    {
+      "id": "oab_39_66",
+      "materia": "Direito Processual Penal",
+      "assunto": "Princípio da Não Autoincriminação (nemo tenetur se detegere)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 229 do CPP; Pacto de São José da Costa Rica.",
+      "enunciado": "Osvaldo foi denunciado pela prática do crime de estelionato em coautoria com Flávio. Durante a instrução processual, o Juízo ouviu três testemunhas da acusação, e, uma delas, Fabiana, apresentou versão conflitante com as apresentadas pelas defesas. Por isso, o Ministério Público requereu a realização de acareação prevista no Art. 229 do CPP, entre Osvaldo, Flávio e Fabiana. A defesa de Osvaldo informou que o acusado não iria participar da acareação, mas o Ministério Público insistiu com o Juízo que determinasse que Osvaldo se submetesse ao ato, sob pena de incidir nas penas do crime de desobediência. Sobre o caso narrado, assinale a afirmativa que indica o princípio que você, como advogado(a) de Osvaldo, deve alegar em defesa do seu cliente.",
+      "alternativas": {
+        "A": "O da ampla defesa veda a realização de acareação entre testemunhas de defesa e de acusação, pois cada parte tem o ônus de provar os fatos que alega.",
+        "B": "O de fundamentação das decisões exige que, ao determinar a realização de uma prova, o Juízo indique concretamente as razões que a justifiquem, sob pena de nulidade.",
+        "C": "O de presunção de inocência impede a participação do réu em procedimento de acareação, ainda que a ele se apresente voluntariamente.",
+        "D": "O de não autoincriminação ampara a pretensão de Osvaldo de não se submeter à produção de provas que exigem participação ativa do denunciado, tal como a acareação."
+      },
+      "gabarito": "D",
+      "comentario": "O princípio da não autoincriminação (nemo tenetur se detegere), previsto no art. 8º, 2, 'g' do Pacto de São José da Costa Rica, garante ao acusado o direito de não produzir prova contra si mesmo. A acareação, se envolver participação ativa do réu (como confrontar declarações), viola esse princípio se for imposta coercitivamente. O réu não pode ser obrigado a participar."
+    },
+    {
+      "id": "oab_39_67",
+      "materia": "Direito Processual Penal",
+      "assunto": "Recurso Ordinário Constitucional - HC Denegado (Art. 105, II, 'a' da CF)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 105, II, 'a' da CF/88.",
+      "enunciado": "Fabrício foi preso em flagrante pela prática do crime de roubo, tendo havido a regular conversão do flagrante em prisão preventiva. Contudo, passados mais de dois anos, a instrução processual não logrou finalizar a oitiva das testemunhas de acusação, pois o Ministério Público insiste na oitiva de policiais que, constantemente, faltam à audiência por motivos pessoais, alegando férias e licença. Fabrício permanece preso preventivamente, o que ensejou a impetração de habeas corpus para o Tribunal de Justiça competente. O Tribunal de Justiça, em decisão colegiada, denegou a ordem de habeas corpus. Identifique, corretamente, a medida judicial a ser proposta para o caso narrado.",
+      "alternativas": {
+        "A": "Recurso ordinário constitucional, dirigido ao Superior Tribunal de Justiça.",
+        "B": "Recurso de apelação, dirigido ao Superior Tribunal de Justiça.",
+        "C": "Agravo interno, dirigido para o Tribunal de Justiça.",
+        "D": "Recurso extraordinário, dirigido ao Supremo Tribunal Federal."
+      },
+      "gabarito": "A",
+      "comentario": "O art. 105, II, 'a' da CF estabelece que compete ao STJ julgar, em recurso ordinário, os habeas corpus decididos em única ou última instância pelos TJs quando a decisão for denegatória. O recurso adequado é o recurso ordinário constitucional. Agravo interno é cabível no próprio tribunal. Recurso extraordinário é para questões constitucionais decididas em última instância (não é o caso)."
+    },
+    {
+      "id": "oab_39_68",
+      "materia": "Direito Processual Penal",
+      "assunto": "Prisão em Flagrante e Princípio da Consunção",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 302 do CPP.",
+      "enunciado": "André, primário, subtraiu o computador de Gustavo, enquanto este estava distraído em via pública, em uma sexta-feira. Na terça-feira da semana seguinte, após consultar as câmeras de vigilância, Gustavo identificou André como o responsável pela subtração, e acionou a Polícia Civil que, com base nas declarações de Gustavo, abordou André em via pública e com ele encontrou o computador subtraído dias antes. André foi, então, preso em flagrante pelo delito de receptação, na modalidade 'conduzir' produto de furto. As penas do furto e da receptação são de 1 a 4 anos. Como advogado(a) de André, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Deve ser postulado o relaxamento da prisão em flagrante, porque André praticou apenas o delito de furto, crime de natureza instantânea, inexistindo situação flagrancial.",
+        "B": "Deve ser postulada a liberdade provisória, pois, não obstante ter praticado dois delitos em concurso material, ainda assim é cabível a suspensão condicional do processo.",
+        "C": "André praticou delito de furto em concurso formal com receptação, o que autoriza a prisão em flagrante pelo delito de natureza permanente, mas é cabível a liberdade provisória, mediante fiança.",
+        "D": "André praticou apenas o delito de receptação, cuja pena máxima é igual a quatro anos, por isso, não é cabível a prisão preventiva, devendo ser postulada a liberdade provisória."
+      },
+      "gabarito": "A",
+      "comentario": "Pelo princípio da consunção (absorção), a receptação da coisa furtada pelo próprio autor do furto é considerada post factum impunível, pois o furto absorve a receptação (STJ, HC 179.927/RJ). Assim, André praticou apenas o furto. O furto é crime instantâneo, consumou-se na sexta-feira. Não há situação flagrancial (art. 302 do CPP) na terça-feira seguinte, pois o crime já se consumou há dias. A prisão em flagrante é ilegal e deve ser relaxada."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_63",
+      "materia": "Direito Processual Penal",
+      "assunto": "Interceptação Telefônica",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Depois do recebimento de denúncia anônima, a delegacia iniciou a verificação preliminar de informações e colheu indícios de que Juca desenvolvia atividades ilícitas de telecomunicações (pena: detenção, 2 a 4 anos). A fim de melhor apurar os fatos, foi instaurado inquérito policial e o delegado de polícia representou pela interceptação das comunicações telefônicas de Juca, o que foi deferido pelo Juiz. A fim de anular as provas colhidas a partir da interceptação telefônica, você, na condição de advogado(a) de defesa de Juca, deve alegar que",
+      "alternativas": {
+        "A": "não é cabível a interceptação quando o ilícito apurado for punível com pena de detenção.",
+        "B": "a pena mínima de 2 (dois) anos não autoriza o deferimento de interceptação.",
+        "C": "o delegado de polícia não é legitimado a representar pela interceptação telefônica.",
+        "D": "a ausência de contraditório, antes do deferimento da interceptação, é causa de nulidade."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre interceptação telefônica. A alternativa A está correta. Conforme o art. 2º, III, da lei n. 9.296/96, não será admitida a interceptação de comunicações telefônicas quando o fato investigado constituir infração penal punida, no máximo, com pena de detenção. A alternativa B está incorreta. A lei n. 9.296/96 não traz essa restrição para o deferimento da medida de interceptação telefônica. A alternativa C está incorreta. Conforme o art. 3º, I, da lei n. 9.296/96, a interceptação telefônica pode ser requerida pela autoridade policial, durante a investigação criminal. A alternativa D está incorreta. A interceptação telefônica é exemplo de prova cautelar, que é produzida antecipadamente à fase judicial por haver risco do desaparecimento do objeto da prova em razão do decurso do tempo. Por este motivo, o contraditório desta espécie de prova é diferido, ou seja, exercido posteriormente à produção da prova."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_64",
+      "materia": "Direito Processual Penal",
+      "assunto": "Recursos no Juizado Especial Criminal",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Suelen ajuizou queixa-crime contra Bolívar, pela prática do crime de exercício arbitrário das próprias razões praticado sem violência ou grave ameaça, previsto no Art. 345, caput e parágrafo único, do CP, cuja pena cominada é de detenção de quinze dias a um mês, ou multa. A queixa-crime foi ajuizada perante o Juízo competente, que, após todo o trâmite preliminar, sendo infrutífero qualquer tipo de solução negociada, já na audiência de instrução e julgamento, rejeitou a queixa. Diante do caso narrado, como advogado(a) de Suelen, assinale a opção que indica o recurso que deve ser interposto.",
+      "alternativas": {
+        "A": "Recurso em Sentido Estrito, interposto na Vara Criminal. As razões podem ser apresentadas diretamente no Tribunal.",
+        "B": "Apelação, a ser interposta no Juizado Especial Criminal, já acompanhada de razões recursais dirigidas à Turma Recursal.",
+        "C": "Apelação, a ser interposta na Vara Criminal. As razões podem ser apresentadas diretamente na Turma Recursal.",
+        "D": "Recurso em Sentido Estrito, interposto no Juizado Especial Criminal, acompanhado de razões recursais dirigidas à Turma Recursal."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre o Juizado Especial Criminal. A alternativa A está incorreta. Conforme comentários da alternativa B. A alternativa B está correta. Conforme o art. 82, caput, da lei 9.099/95, da decisão de rejeição da denúncia ou queixa caberá apelação, já o §1º estabelece que as razões deverão acompanhar o recurso, não havendo prazo posterior para sua interposição: “Art. 82 Da decisão de rejeição da denúncia ou queixa e da sentença caberá apelação, que poderá ser julgada por turma composta de três Juízes em exercício no primeiro grau de jurisdição, reunidos na sede do Juizado. § 1º A apelação será interposta no prazo de dez dias, contados da ciência da sentença pelo Ministério Público, pelo réu e seu defensor, por petição escrita, da qual constarão as razões e o pedido do recorrente.” A alternativa C está incorreta. Conforme comentários da alternativa B. A alternativa D está incorreta. Conforme comentários da alternativa B."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_65",
+      "materia": "Direito Processual Penal",
+      "assunto": "Nulidade no Tribunal do Júri - Uso de algemas",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Roberto Jorge, após regular pronúncia, foi levado a Júri, ocasião em que foi mantido algemado durante toda a sessão de julgamento, com a justificativa de ser pessoa de índole perigosa, já que responde à acusação por crime doloso contra a vida. A defesa técnica impugnou, sem sucesso, a determinação do Juízo. O Ministério Público, em plenário, postulou a condenação do acusado, asseverando que sua periculosidade fica comprovada pela necessidade do uso de algemas durante o julgamento. Roberto Jorge foi condenado pelo Conselho de Sentença, tendo sido aplicada pena privativa de liberdade de 15 (quinze) anos de reclusão. Você, como advogado(a) de Roberto Jorge, interpôs apelação criminal. Assinale a afirmativa que apresenta, corretamente, o objetivo da sua demanda.",
+      "alternativas": {
+        "A": "Postular a reforma da sentença, com a absolvição do acusado, pois este foi prejudicado no julgamento em razão do uso arbitrário de algemas.",
+        "B": "Arguir a nulidade posterior à pronúncia, em razão da manutenção do réu algemado, sem necessidade concreta, e da referência a este fato pelo órgão do Ministério Público.",
+        "C": "Arguir a nulidade da sessão de julgamento, em razão da manutenção do réu algemado; a manifestação do Ministério Público, contudo, não é vedada pela lei processual.",
+        "D": "Postular a redução das penas aplicadas pelo Juiz-Presidente, pois o uso de algemas e sua menção como argumento de autoridade não caracterizam nenhuma nulidade."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre Júri. A alternativa A está incorreta. Conforme comentários da alternativa B. A alternativa B está correta. O artigo 474,§3º, do CPP veda que o acuado permaneça algemado durante o júri salvo em casos de absoluta necessidade: “Não se permitirá o uso de algemas no acusado durante o período em que permanecer no plenário do júri, salvo se absolutamente necessário à ordem dos trabalhos, à segurança das testemunhas ou à garantia da integridade física dos presentes.”. Ademais, é vedado que o Ministério Público faça menção à tal fato durante os debates, nos termos do artigo 478, I, do CPP: Art. 478. Durante os debates as partes não poderão, sob pena de nulidade, fazer referências: I – à decisão de pronúncia, às decisões posteriores que julgaram admissível a acusação ou à determinação do uso de algemas como argumento de autoridade que beneficiem ou prejudiquem o acusado”. Destaca-se que o STJ já reconheceu a nulidade por conta do uso de algemas na sessão do júri: “3. O uso de algemas - de quem se apresenta ao Tribunal ou ao juiz, para ser interrogado ou para assistir a uma audiência ou julgamento como acusado - somente se justifica ante o concreto receio de que, com as mãos livres, fuja ou coloque em risco a segurança das pessoas que participam do ato processual. 4. Não se mostra aceitável que se obvie a presunção de inocência (como regra de tratamento) e se contorne o rigor da Súmula Vinculante n. 11 com motivação genérica e abstrata que, na prática, serviria para todos os casos de pessoas julgadas pelo Tribunal do Júri, visto que se cuida de órgão jurisdicional incumbido de julgar os crimes mais graves do Código Penal, definidos quase sempre como hediondos.(...) Recurso provido para reconhecer a nulidade absoluta do julgamento realizado em plenário pelo 4º Tribunal do Júri da Comarca da Capital/SP, nos autos do Processo n. 08334797-56.2013.8.260052, determinando seja o recorrente submetido a novo julgamento em plenário, a ser realizado sem o uso de algemas, salvo a ocorrência algum motivo concreto, devidamente relatado em suas circunstâncias pelo juízo, que justifique a imposição do gravame ao paciente.( RHC n. 76.591). A alternativa C está incorreta. Conforme comentários da alternativa B. A alternativa D está incorreta. Conforme comentários da alternativa B."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_66",
+      "materia": "Direito Processual Penal",
+      "assunto": "Incidente de Execução - Conversão de Pena em Medida de Segurança",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Juliano foi definitivamente condenado à pena de 8 (oito) anos de reclusão, em regime inicial fechado. Após 2 (dois) anos de cumprimento da pena, foi detectado que Juliano passou a ter uma doença mental grave, tornando-o inteiramente incapaz de compreender o caráter ilícito dos fatos pelos quais havia sido condenado. Neste caso, como advogado(a) de Juliano, você deverá",
+      "alternativas": {
+        "A": "postular ao Juiz da Execução Penal a conversão da pena em medida de segurança.",
+        "B": "ajuizar uma ação de revisão criminal, postulando a substituição da pena privativa de liberdade por medida de segurança.",
+        "C": "suscitar incidente de insanidade mental do acusado, a fim de apurar a integridade mental de Juliano ao tempo da ação criminosa.",
+        "D": "solicitar que Juliano seja colocado em prisão-albergue domiciliar, como medida substitutiva do encarceramento."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre Incidentes de Execução. A alternativa A está correta. Considerando que a doença mental do apenado ocorreu após o início do cumprimento da pena, deve-se utilizar o artigo 183 da LEP, a qual estabelece a possibilidade de converter a pena em medida de segurança: “Quando, no curso da execução da pena privativa de liberdade, sobrevier doença mental ou perturbação da saúde mental, o Juiz, de ofício, a requerimento do Ministério Público, da Defensoria Pública ou da autoridade administrativa, poderá determinar a substituição da pena por medida de segurança.” A alternativa B está incorreta. Conforme comentários da alternativa A. A alternativa C está incorreta. Conforme comentários da alternativa A. A alternativa D está incorreta. Conforme comentários da alternativa A."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_67",
+      "materia": "Direito Processual Penal",
+      "assunto": "Ação penal nos crimes contra a honra de servidor público",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Luís Vicente, secretário de fazenda do Município Alfa, foi ofendido por Iório, secretário de fazenda do Estado Beta, que, durante discurso na tribuna da Câmara dos Vereadores, afirmou que \"Luís Vicente comete peculato, desviando recursos do caixa municipal em proveito próprio e de seus familiares!\" Luís Vicente procurou você, como advogado(a), para que você o oriente sobre a medida cabível para responsabilizar Iório pela ofensa à sua honra. Nesse contexto, é correto afirmar que Luís Vicente",
+      "alternativas": {
+        "A": "só pode ajuizar uma queixa-crime em face de Iório, pois o delito contra a honra desafia ação penal privada.",
+        "B": "pode oferecer representação contra Iório ao Ministério Público, pois sua qualidade de servidor público impõe a ação penal pública na defesa de sua honra.",
+        "C": "pode optar entre ajuizar queixa-crime em face de Iório ou oferecer representação ao Ministério Público.",
+        "D": "não pode fazer nada a respeito, diante da imunidade material de Iório, pela sua qualidade de ocupante de cargo político."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre ação penal. A alternativa A está incorreta. Conforme comentários da alternativa C. A alternativa B está incorreta. Conforme comentários da alternativa C. A alternativa C está correta. De acordo com a súmula n. 714 do STF, é concorrente a legitimidade do ofendido, mediante queixa, e do Ministério Público, condicionada à representação do ofendido, para a ação penal por crime contra a honra de servidor público em razão do exercício de suas funções. A alternativa D está incorreta. A CF prevê imunidade material aos parlamentares, dispondo que estes são invioláveis, civil e penalmente, por quaisquer de suas opiniões, palavras e votos, desde que proferidos em razão de suas funções parlamentares, no exercício e relacionados ao mandato. Tal prerrogativa é restrita aos membros do poder Legislativo, motivo pelo qual esta não se estende ao agente da questão em análise."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_68",
+      "materia": "Direito Processual Penal",
+      "assunto": "Prisão domiciliar para gestantes",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Vanessa, primária e sem antecedentes, grávida de seis meses, foi presa em flagrante no aeroporto no momento em que embarcava com destino à Espanha de posse de 10kg de substância entorpecente (cocaína). Vanessa foi autuada pela prática do crime de internacional drogas (Art. 33, caput, c/c. Art. 40, inciso I, ambos da Lei no 11.343/06). Sobre a possibilidade de prisão domiciliar em favor de Vanessa, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A quantidade de drogas apreendida e a transnacionalidade do delito obstam a concessão de prisão domiciliar.",
+        "B": "O pedido de prisão domiciliar é injustificável, tendo em vista que Vanessa ainda está no sexto mês de gestação.",
+        "C": "A natureza não violenta do delito imputado e a gestação de Vanessa autorizam a concessão de prisão domiciliar.",
+        "D": "Apenas se houver comprovação de gravidez de risco haverá previsão legal que justifique a concessão de prisão domiciliar."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre prisão preventiva. A alternativa A está incorreta. Conforme comentários da alternativa A. A alternativa B está incorreta. Conforme comentários da alternativa A. A alternativa C está correta. O artigo 318-A do CPP estabelece uma obrigatoriedade de substituição da prisão preventiva pela domiciliar no caso de mulheres gestantes ou responsáveis por crianças ou pessoas com deficiência: “Art. 318-A. A prisão preventiva imposta à mulher gestante ou que for mãe ou responsável por crianças ou pessoas com deficiência será substituída por prisão domiciliar, desde que: I - não tenha cometido crime com violência ou grave ameaça a pessoa; II - não tenha cometido o crime contra seu filho ou dependente.”. Percebe-se, assim, que a lei traz apenas 2 requisitos para autorizar a substituição, quais sejam: 1- crime sem violência ou grave ameaça; e 2- que o crime não seja contra o filho ou dependente. Ou seja, a lei não exige gravidez de risco, tempo de gestação, ou qualquer análise sobre a condição da gestante. Portanto, considerando que o crime em questão não envolve violência ou grave ameaça, é possível a conversão da prisão preventiva em prisão domiciliar. Neste sentido, destaca-se decisão do STJ: “No caso concreto, embora a apenada cumpra pena no regime fechado e seja reincidente, não praticou crime de violência ou grave ameaça, nem contra crianças (tráfico de drogas), não registra infrações de natureza grave, nem há indicativo de que faça parte de organização criminosa, fatores que autorizam o deferimento do benefício da prisão domiciliar, tendo em vista a necessidade presumida dos cuidados maternos em relação aos infantes.\" (AgRg no HC n. 769.008/SP) A alternativa D está incorreta. Conforme comentários da alternativa A."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_63",
+      "materia": "Direito Processual Penal",
+      "assunto": "Prisão em flagrante",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Ricardo é policial civil e disparou seis vezes, com intenção de matar, contra Marilene, sua ex-amante, que veio a óbito. Diversos transeuntes testemunharam os fatos, inclusive o delegado de polícia que trabalha com Ricardo, que estava de plantão no momento e imediatamente realizou a prisão em flagrante do acusado e apreendeu sua pistola, lavrando o auto de prisão em flagrante pela prática do crime de feminicídio. Diante do caso narrado, sobre a lavratura do flagrante assinale a opção correta.",
+      "alternativas": {
+        "A": "É o caso de flagrante impróprio e facultativo e o delegado pode prender Ricardo, ou, por critério de conveniência e oportunidade, postergar o flagrante.",
+        "B": "É o caso de flagrante presumido, pois Ricardo estava com a arma na mão.",
+        "C": "É o caso de flagrante próprio e obrigatório, e o delegado deve prender Ricardo.",
+        "D": "O flagrante é ilegal e o delegado não poderia prender Ricardo por trabalharem juntos."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre flagrante próprio, flagrante impróprio, flagrante presumido e flagrante ilegal. A alternativa A está incorreta. Pois de acordo com o art. 302, inciso III do CPP, no caso de flagrante impróprio, o autor do fato é perseguido, logo após, pela autoridade, pelo ofendido ou por qualquer pessoa, em situação que faça presumir ser autor da infração, o que não foi o ocorrido. A alternativa B está incorreta. Pois no caso de flagrante presumido, o autor é encontrado logo depois, com instrumentos, armas, objetos ou papéis que façam presumir ser ele autor da infração, o que não foi o ocorrido, pois o delegado estava presente no momento do fato. A alternativa C está correta. Pois o delegado de polícia presenciou o fato que acabou de ser cometido. Portanto, trata-se de flagrante próprio ou perfeito. A alternativa D está incorreta. Pois não houve nenhum tipo de ilegalidade no flagrante, estando toda a ação de acordo com o estabelecido no art. 301 e demais do CPP."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_64",
+      "materia": "Direito Processual Penal",
+      "assunto": "Aplicação da lei penal mais benéfica após trânsito em julgado",
+      "banca": "FGV",
+      "ano": "Extraia do texto ou deduza pelo exame",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "A família de Luís procura você, como advogado(a), explicando que existe uma lei nova, mais benéfica, que se aplica ao caso do seu parente. Você, ao estudar o caso, descobriu que já havia trânsito em julgado da condenação e que a lei era realmente mais benéfica. Nessa hipótese, você deve",
+      "alternativas": {
+        "A": "propor ação de revisão criminal, para que possa ser aplicada a lei mais benéfica.",
+        "B": "informar à família que, como existiu trânsito em julgado, a nova lei, mais benéfica, não se aplica.",
+        "C": "peticionar ao Juiz da Vara de Execuções Penais, requerendo a aplicação da nova lei, mais benéfica.",
+        "D": "propor habeas corpus perante o Supremo Tribunal Federal para aplicação da nova lei, mais benéfica."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre aplicação da lei penal mais benéfica e competência para aplicação da lei penal mais benéfica após o trânsito em julgado. A alternativa A está incorreta. Pois a alternativa contraria o que está estabelecido no art. 66, inciso I da Lei de Execução Penal e na súmula 611 do STF. A alternativa B está incorreta. Pois a nova lei mais benéfica pode ser aplicada mesmo com o trânsito em julgado de sentença condenatória. A alternativa C está correta. Pois traz a literalidade do art. 66, inciso I da Lei de Execução Penal: “Compete ao Juiz da execução: I - aplicar aos casos julgados lei posterior que de qualquer modo favorecer o condenado” e da súmula 611 do STF: “Transitada em julgado a sentença condenatória, compete ao juízo das execuções a aplicação de lei mais benigna.” A alternativa D está incorreta. Pois a alternativa contraria o que está estabelecido no art. 66, inciso I da Lei de Execução Penal e na súmula 611 do STF."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_65",
+      "materia": "Direito Processual Penal",
+      "assunto": "Recursos no Juizado Especial Criminal",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Marilda, após ter sido regularmente processada, foi condenada, pelo Juízo originariamente competente, pela prática de desacato (pena: de seis meses a dois anos). Marilda procura você, como advogado(a), porque deseja recorrer da condenação. Sobre a hipótese, assinale a opção que apresenta, corretamente, o recurso cabível.",
+      "alternativas": {
+        "A": "Apelação, juntamente com as razões, no prazo de dez dias.",
+        "B": "Apelação, no prazo de cinco dias, e as razões poderão ser juntadas no prazo de oito dias.",
+        "C": "Recurso inominado, juntamente com as razões, no prazo de dez dias.",
+        "D": "Apelação, no prazo de cinco dias, e as razões poderão ser juntadas no prazo de três dias."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre recursos em processo penal, juizado especial criminal, prazos, recurso de apelação e recurso inominado. A alternativa A está correta, pois no sistema dos juizados especiais criminais, a legislação estabelece um só prazo para apelação, que é de dez dias, conforme o art. 82, §1º da Lei nº 9.099/95. A alternativa B está incorreta, pois está em desacordo com o estabelecido pelo art. 82, §1º da Lei nº 9.099/95. A alternativa C está incorreta, pois não há previsão de recurso inominado no juizado especial criminal. A alternativa D está incorreta, pois não é o que estabelece o art. 82, §1º da Lei nº 9.099/95."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_66",
+      "materia": "Direito Processual Penal",
+      "assunto": "Sistemas processuais penais",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "A República Federativa Alfa reconhece o Poder Judiciário como um dos poderes independentes da República. Em Alfa há um órgão de acusação independente e diferente do Judiciário, responsável por formular acusações criminais, tendo a iniciativa probatória. Em Alfa, um acusado seria um sujeito de direitos no âmbito do processo penal, e os princípios democráticos do processo penal, tais como o princípio do Juiz Natural e da presunção de inocência, são reconhecidos. A partir dos dados fornecidos, o país Alfa adota o sistema processual com traços mais marcantes do sistema",
+      "alternativas": {
+        "A": "acusatório.",
+        "B": "inquisitivo.",
+        "C": "misto.",
+        "D": "consensual."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre sistemas processuais, sistema acusatório, sistema inquisitivo, sistema misto e sistema consensual. A alternativa A está correta. Pois é exatamente o que descreve a questão, onde por esse sistema, tem separadas e bem delimitadas as funções de cada sujeito processual. As atividades de acusar, defender e julgar são atribuídas a pessoas ou agentes distintos. A alternativa B está incorreta. Pois no sistema inquisitório uma mesma pessoa ou agente do Estado acumula todas as funções essenciais do processo: defender, acusar e julgar – principalmente as duas últimas. A alternativa C está incorreta. Pois no sistema misto o processo se desdobra em duas fases; a primeira é tipicamente inquisitória e a outra é acusatória. Na primeira fase ocorre instrução escrita e secreta, sem acusação, e, por isso mesmo, sem contraditório. Apura-se o fato em sua materialidade e autoria, ou seja, a imputação física do fato ao agente. Na segunda etapa o acusador apresenta a acusação, o réu se defende e o juiz julga. A alternativa D está incorreta. Não existe sistema consensual."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_67",
+      "materia": "Direito Processual Penal",
+      "assunto": "Tribunal do Júri - Apelação e Soberania dos Veredictos",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Ana Rosa foi denunciada perante o Tribunal do Júri pela prática de homicídio duplamente qualificado, por ter sido praticado mediante tortura e em razão da idade da vítima, Inocêncio, criança de 8 anos de idade, ambas as qualificadoras devidamente sustentadas no plenário pela acusação. O Conselho de Sentença respondeu afirmativamente aos quesitos de autoria e materialidade, e negativamente ao quesito de clemência, reconhecendo, ainda, as duas qualificadoras. Na sentença, o Juiz Presidente utilizou a qualificadora sobejante como agravante genérica. Foi interposta apelação defensiva, com base na alegação de decisão contrária à decisão dos jurados e injustiça na aplicação da pena. Ao final da fundamentação, formulou os seguintes requerimentos: o afastamento da qualificadora da tortura, a inadmissibilidade de reconhecimento de agravantes, de ofício, pelo Juiz Presidente, e a absolvição da ré por ausência de provas. Como advogado(a) de Geminiana, mãe da vítima, prévia e regularmente admitida como assistente de acusação, intimada a se manifestar em contrarrazões, é pertinente alegar",
+      "alternativas": {
+        "A": "o não cabimento de apelação em face da sentença proferida pelo Juiz Presidente do Tribunal do Júri.",
+        "B": "a existência de prova suficiente de autoria.",
+        "C": "a inviabilidade de o Tribunal afastar a qualificadora quesitada ao Conselho de Sentença.",
+        "D": "a admissibilidade do reconhecimento de agravantes pelo Juiz Presidente, ainda que nenhuma delas tenha sido alegada em plenário."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre tribunal do júri e recursos. A alternativa A está incorreta. Pois é cabível apelação em face da sentença proferida pelo Juiz Presidente do Tribunal do Júri, conforme a literalidade do art. 593, inciso III, alínea “b” do CPP: “Caberá apelação no prazo de 5 (cinco) dias: III - das decisões do Tribunal do Júri, quando: b) for a sentença do juiz-presidente contrária à lei expressa ou à decisão dos jurados.” A alternativa B está incorreta. Pois a própria questão trouxe que os jurados já reconheceram a existência suficiente de provas de autoria e materialidade. A alternativa C está correta. Pois o Tribunal não pode afastar a qualificadora quesitada pelos jurados pela determinação constitucional da soberania dos veredictos, conforme art. 5º, inciso XXXVIII, alínea “c”, da CF. A alternativa D está incorreta. Pois conforme a jurisprudência do STJ, o juiz poderá reconhecer as agravantes de ofício, não havendo, neste caso, violação ao princípio da correlação. Assim, não ofende o princípio da congruência a condenação por agravantes não descritas na denúncia. Isso é autorizado pelo art. 385, do CPP, que foi recepcionado pela CF/88. (STJ. 5ª Turma. AgRg no REsp 1612551/RJ, Rel. Min. Reynaldo Soares da Fonseca, julgado em 02/02/2017. STJ. 6ª Turma. HC 381590/SC, Rel. Min. Antonio Saldanha Palheiro, julgado em 06/06/2017.)"
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_68",
+      "materia": "Direito Processual Penal",
+      "assunto": "Princípios da ação penal privada: indivisibilidade e disponibilidade",
+      "banca": "FGV",
+      "ano": "41º Exame de Ordem",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Francisco e seu filho Alfredo depredaram o carro de Terezinha, o que motivou o ajuizamento de queixa-crime em face de Francisco e Alfredo, dentro do prazo decadencial, pelo crime de dano qualificado por motivo egoístico, disposto no Art. 163, inciso IV, do CP. No curso da ação penal, Francisco e Terezinha começaram a ter um relacionamento amoroso. Terezinha perdoou expressamente Francisco nos autos da queixa-crime. Intimado, Francisco aceitou o perdão da ofendida, o Juízo declarou a extinção da punibilidade em face de Francisco, mas, determinou o seguimento da ação penal em relação a Alfredo. Diante do caso narrado, assinale a opção que apresenta, corretamente, os princípios que você, como advogado(a) de Alfredo, deve alegar no interesse de seu cliente.",
+      "alternativas": {
+        "A": "Da indivisibilidade e da disponibilidade.",
+        "B": "Da divisibilidade e da intranscendência das penas.",
+        "C": "Da legalidade e da presunção de inocência.",
+        "D": "Do ne bis in idem e da individualização das penas."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre princípios de ação penal privada. A alternativa A está correta. Pois nas ações penais de iniciativa privada vigora o princípio da indivisibilidade, decorrente de expressa previsão legal disposta no art. 48 do CPP: “A queixa contra qualquer dos autores do crime obrigará ao processo de todos, e o Ministério Público velará pela sua indivisibilidade.” Ainda, nas ações penais de iniciativa privada, é conferida a faculdade de prosseguir ou não até o final do processo após deflagrada a ação; ou seja, dela pode dispor a qualquer momento. A alternativa B está incorreta. As ações penais de iniciativa privada são indivisíveis. A alternativa C está incorreta. Os princípios da legalidade e da presunção de inocência são comuns a todas as ações, sejam públicas ou privadas, e não justificam a resposta da questão. A alternativa D está incorreta. O ne bis in idem e a individualização das penas não justificam a resposta da questão."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_63",
+      "materia": "Direito Processual Penal",
+      "assunto": "Efeitos dos recursos no processo penal",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Antônio e Rogério praticaram, em comunhão de ações e desígnios, um ilícito penal, e ambos foram condenados. Antônio e o Ministério Público interpuseram tempestivos recursos, ao passo que Rogério perdeu o prazo do recurso, porém constatou que havia prescrição da pretensão punitiva na modalidade retroativa, o que foi sustentado por sua defesa em contrarrazões recursais. Nesse caso, considerando os efeitos dos recursos, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O efeito devolutivo do recurso permite que o Juiz reconsidere a decisão recorrida.",
+        "B": "O efeito translativo do recurso permite a Rogério arguir a prescrição em suas contrarrazões.",
+        "C": "O efeito substitutivo do recurso permite que o Tribunal conheça toda a matéria impugnada.",
+        "D": "O efeito extensivo do recurso permite que Rogério aproveite qualquer decisão favorável a Antônio."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre efeitos dos recursos em processo penal. A alternativa A está incorreta. O efeito devolutivo determina que o tribunal analise os limites e os pontos da decisão impugnada que foram devolvidos pela parte recorrente. Embora possa levar à reconsideração da decisão pelo tribunal, ele não permite que Rogério argua diretamente a prescrição em contrarrazões, pois essa matéria decorre de ordem pública, tratada pelo efeito translativo. A alternativa B está correta. O efeito translativo permite que o tribunal conheça e analise questões de ordem pública, como a prescrição da pretensão punitiva, mesmo que não tenham sido objeto de recurso tempestivo. A prescrição retroativa é matéria de ordem pública e pode ser suscitada por Rogério em suas contrarrazões ou reconhecida de ofício pelo tribunal. Essa é a afirmativa correta, pois a questão trata diretamente do reconhecimento de prescrição em benefício de Rogério. A alternativa C está incorreta. O efeito substitutivo significa que a decisão do tribunal substitui integralmente a decisão recorrida no que foi impugnado. No entanto, esse efeito não confere a Rogério o direito de aproveitar diretamente questões de ordem pública em suas contrarrazões, pois a análise dessas questões decorre do efeito translativo, e não substitutivo. A alternativa D está incorreta. O efeito extensivo, previsto no art. 580 do Código de Processo Penal, permite que a decisão favorável a um dos réus seja estendida aos demais coautores ou partícipes, desde que baseada em fundamento comum. No caso, a prescrição é uma questão individual, ligada à pena de Rogério, e não a um fundamento comum com Antônio. Portanto, considerando as razões acima, a única alternativa correta é a letra B, estando incorretas as alternativas A, C e D."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_64",
+      "materia": "Direito Processual Penal",
+      "assunto": "Prisão preventiva de ofício e cabimento em crimes culposos",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em um inquérito policial, o Juiz decretou, de ofício, a prisão preventiva de Débora, sem que esta possuísse qualquer antecedente criminal, apontando como fundamento para a prisão a gravidade em abstrato do crime de homicídio culposo. Certo de que não houve a decretação anterior de medida cautelar diversa da prisão, assinale a opção que apresenta, corretamente, a alegação que você, como advogado(a) de Débora, deve apresentar.",
+      "alternativas": {
+        "A": "O magistrado não pode decretar prisão preventiva de ofício, bem como não é cabível a decretação de prisão preventiva em delitos culposos.",
+        "B": "O magistrado pode, de ofício, decretar prisão preventiva, e a gravidade em abstrato do crime é fundamento legítimo para a decretação de preventiva.",
+        "C": "O magistrado pode decretar prisão preventiva de ofício no inquérito e no processo, mas a gravidade em abstrato de um crime não é motivo legítimo para a decretação de preventiva.",
+        "D": "O magistrado não pode decretar prisão preventiva de ofício, mas a gravidade em abstrato de um crime é um motivo legítimo para a decretação da prisão preventiva mesmo quando o suspeito for primário."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre prisão preventiva. A alternativa A está correta. O magistrado não pode decretar prisão preventiva de ofício, especialmente em inquéritos policiais, conforme estabelecido no art. 282, § 2º, do Código de Processo Penal, que exige provocação pelo Ministério Público ou pela autoridade policial. Além disso, a prisão preventiva é cabível apenas em crimes dolosos com pena privativa de liberdade superior a 4 anos (art. 313, I, do CPP). Como o homicídio culposo não é doloso, a decretação da prisão preventiva é ilegal. A alternativa B está incorreta. O magistrado não pode decretar prisão preventiva de ofício no curso de inquérito policial, conforme o art. 282, § 2º, do CPP, que exige requerimento do Ministério Público, da autoridade policial ou representação da parte. Além disso, a gravidade em abstrato do crime não é fundamento legítimo para a decretação de prisão preventiva, conforme jurisprudência consolidada no STF e no STJ, que exige fundamentação concreta baseada nos elementos do caso. A alternativa C está incorreta. Embora a gravidade em abstrato não seja fundamento legítimo para a decretação de prisão preventiva, a afirmativa de que o magistrado pode decretá-la de ofício no inquérito está equivocada. Desde a entrada em vigor da Lei nº 13.964/2019 (Pacote Anticrime), o decreto de prisão preventiva exige provocação da autoridade policial ou do Ministério Público, mesmo durante a fase de inquérito. A alternativa D está incorreta. A gravidade em abstrato de um crime não pode fundamentar a prisão preventiva, conforme a jurisprudência do STF, que reforça a necessidade de fundamentação concreta para justificar a medida (art. 93, IX, da Constituição Federal). Além disso, o magistrado não pode decretar a prisão preventiva de ofício no inquérito, o que torna a alternativa incorreta em ambos os aspectos. Portanto, considerando as razões acima, a única alternativa correta é a letra A, estando incorretas as alternativas B, C e D."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_65",
+      "materia": "Direito Processual Penal",
+      "assunto": "Habeas Corpus de Ofício",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Amanda impetra habeas corpus em favor de Telma, que foi presa preventivamente por decisão do Juiz de Primeiro Grau, sendo acusada da prática de crime hediondo. O habeas corpus foi impetrado com o argumento de excesso de prazo. O Tribunal concedeu a ordem de habeas corpus de ofício, fundamentando na incompetência do juiz que decretou a prisão. Sobre a hipótese narrada, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O Tribunal equivocou-se, uma vez que a incompetência do julgador não é fundamento para a concessão de habeas corpus.",
+        "B": "O Tribunal agiu de modo correto, uma vez que é possível a concessão de habeas corpus de ofício sempre que houver constrangimento ilegal.",
+        "C": "O Tribunal agiu de modo correto, pois a incompetência do Juízo é o único fundamento que admite a concessão da ordem de habeas corpus de ofício.",
+        "D": "O Tribunal equivocou-se, pois fica vinculado aos argumentos apontados pelo impetrante do habeas corpus, sendo inadmissível a concessão de habeas corpus de ofício."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre habeas corpus. A alternativa A está incorreta. A incompetência do juiz que decretou a prisão preventiva é um fundamento legítimo para a concessão de habeas corpus, pois constitui um evidente constrangimento ilegal. Assim, o Tribunal não se equivocou ao conceder a ordem, já que a competência é uma condição essencial para a validade do ato processual. A alternativa B está correta. A concessão de habeas corpus de ofício é possível sempre que o Tribunal identificar um constrangimento ilegal manifesto, independentemente do fundamento apontado no pedido inicial. Conforme o art. 654, § 2º, do CPP, o habeas corpus pode ser concedido de ofício por autoridade judicial, visando garantir a liberdade de quem sofre ilegalidade. No caso, a incompetência do juiz é um motivo suficiente e legítimo para a concessão de ofício. A alternativa C está incorreta. Embora a incompetência do juízo seja um fundamento legítimo para a concessão de habeas corpus, ela não é o único. Constrangimentos ilegais decorrentes de outras situações, como excesso de prazo, ausência de justa causa, ou ausência de requisitos para prisão preventiva, também justificam a concessão de ofício. A alternativa D está incorreta. O Tribunal não está vinculado aos argumentos apresentados pelo impetrante no habeas corpus, podendo, inclusive, conceder a ordem de ofício ao constatar qualquer constrangimento ilegal evidente. Esse entendimento decorre da ampla proteção à liberdade individual, prevista no art. 654, § 2º, do CPP, e consolidada pela jurisprudência. Portanto, considerando as razões acima, a única alternativa correta é a letra B, estando incorretas as alternativas A, C e D."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_66",
+      "materia": "Direito Processual Penal",
+      "assunto": "Pronúncia e excesso de linguagem",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Daniel foi denunciado pela prática do crime de instigação ao suicídio. Após a fase de instrução, o Juiz pronunciou o réu, afirmando ser Daniel totalmente culpado da prática do crime e que qualquer jurado teria a obrigação moral de reconhecer provada a materialidade e a autoria. Nessa hipótese, de acordo com nosso ordenamento jurídico, você, como advogado(a) de Daniel, afirma que a decisão de pronúncia é:",
+      "alternativas": {
+        "A": "Ilegal, uma vez que houve excesso de linguagem.",
+        "B": "Legal, porque observa o livre convencimento motivado do julgador.",
+        "C": "Ilegal, uma vez que a pronúncia deveria ter sido decidida pelo Tribunal do Júri.",
+        "D": "Legal, porque a restrição legal de excesso de linguagem aplica-se apenas para o crime de homicídio."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre decisão de pronúncia no procedimento do Tribunal do Júri. A alternativa A está correta. A decisão de pronúncia, nos termos do art. 413 do Código de Processo Penal, deve limitar-se a indicar a materialidade do fato e os indícios de autoria ou participação, sem antecipar juízo de mérito ou afirmar a culpabilidade do réu. No caso, o juiz ultrapassou esses limites ao declarar Daniel totalmente culpado e ao sugerir uma obrigação moral dos jurados em condená-lo. Esse excesso de linguagem compromete a imparcialidade do julgamento, tornando a decisão ilegal. A alternativa B está incorreta. Embora o juiz deva fundamentar suas decisões, o livre convencimento motivado não autoriza antecipar juízo de culpabilidade na decisão de pronúncia. O juiz deve limitar-se aos requisitos legais de materialidade e indícios de autoria, sem influenciar o julgamento pelo júri. Ao afirmar a culpa do réu, o magistrado violou o princípio da imparcialidade, tornando a decisão irregular. A alternativa C está incorreta. A decisão de pronúncia deve ser proferida pelo juiz singular na fase de admissibilidade da acusação, conforme o art. 413 do CPP. A competência do Tribunal do Júri inicia-se apenas na fase de julgamento, após a pronúncia, cabendo aos jurados decidir sobre a culpabilidade. Não há erro no fato de o juiz ter proferido a decisão de pronúncia, mas sim no excesso de linguagem utilizado. A alternativa D está incorreta. A vedação ao excesso de linguagem aplica-se a qualquer crime sujeito à competência do Tribunal do Júri, não se restringindo ao homicídio. No caso, o crime de instigação ao suicídio é da competência do júri, e as mesmas regras procedimentais, incluindo a proibição de excesso de linguagem, são aplicáveis. Portanto, considerando as razões acima, a única alternativa correta é a letra A, estando incorretas as alternativas B, C e D."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_63",
+      "materia": "Direito Processual Penal",
+      "assunto": "Recursos no Tribunal do Júri",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Fábio foi submetido a julgamento pelo Tribunal do Júri e, ao final, condenado a uma pena de 15 anos de reclusão, em regime inicial fechado. Você, como advogado(a) de Fábio, interpôs tempestivo e cabível recurso. Assinale a opção que indica o recurso correto interposto e/ou suas características.",
+      "alternativas": {
+        "A": "O recurso cabível é de apelação e o efeito devolutivo é restrito aos fundamentos de interposição.",
+        "B": "A alegação de decisão manifestamente contrária à prova dos autos só pode ser repetida por, no máximo, três vezes.",
+        "C": "O recurso cabível é o recurso em sentido estrito e tem efeito regressivo que pode ser exercido pelos próprios jurados.",
+        "D": "O recurso cabível tem ampla devolutividade, podendo o Tribunal rever todos os aspectos da sentença penal condenatória, inclusive as teses atinentes à materialidade e à autoria."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A alternativa A está correta. O recurso de apelação, quando dirigido contra decisões do Tribunal do Júri, tem o efeito devolutivo restrito aos fundamentos da sua interposição. Isso significa que o tribunal superior só pode reexaminar a decisão do júri nos pontos específicos e fundamentais que foram questionados pela parte recorrente na apelação. No entanto, a Súmula 713 do Supremo Tribunal Federal (STF) estabelece que, em relação às decisões do Tribunal do Júri, o efeito devolutivo da apelação criminal é restrito aos fundamentos da sua interposição. A alternativa B está incorreta. A alegação de decisão manifestamente contrária à prova dos autos só pode ser repetida uma vez. Após a primeira apelação, o Tribunal do Júri não pode ser novamente levado a julgamento. A alternativa C está incorreta. O recurso cabível contra a decisão do Tribunal do Júri é a apelação, e não um recurso em sentido estrito. Além disso, o efeito da apelação não é regressivo, mas devolutivo. O recurso em sentido estrito tem efeito suspensivo e é utilizado para questionar decisões de natureza interlocutória. A alternativa D está incorreta. A questão não menciona qual o recurso cabível contra a decisão do Tribunal do Júri é a apelação, e ela tem efeito devolutivo, permitindo que o Tribunal reavalie todos os aspectos da decisão, incluindo a materialidade e a autoria do crime, além da pena aplicada."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_64",
+      "materia": "Direito Processual Penal",
+      "assunto": "Execução Penal - Falta Grave e Regressão de Regime",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Gabriela se dirigiu a uma agência da Caixa Econômica Federal, empresa pública federal, a fim de tentar sacar benefício assistencial pago pela União a pessoas em situação de vulnerabilidade financeira, munida de documentos falsos, em nome de terceira pessoa. Gabriela foi presa em flagrante, sendo constatado que ela estava cumprindo pena em regime aberto domiciliar por condenação relativa a outro fato. Em relação à execução penal, assinale a afirmativa que define as consequências do evento narrado.",
+      "alternativas": {
+        "A": "A responsabilização de Gabriela depende de representação da vítima, por se tratar de delito de estelionato.",
+        "B": "Ao tomar conhecimento do novo crime, o Juiz da execução pode reconhecer a falta grave e determinar a regressão de regime sem necessidade de contraditório.",
+        "C": "Em razão da prática de crime, em tese, no curso da execução, Gabriela perdeu em definitivo o direito de obter livramento condicional pela condenação em execução.",
+        "D": "A prática de novo crime cometido por Gabriela configura, em tese, falta disciplinar de natureza grave, autorizando, de forma fundamentada, a regressão de regime per saltum."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A alternativa A está incorreta. O crime de estelionato é de ação penal pública incondicionada, o que significa que a responsabilização de Gabriela não depende de representação da vítima. Portanto, o Ministério Público pode agir de ofício para processá-la, independentemente da vontade da vítima. A alternativa B está incorreta. Quando o juiz da execução toma conhecimento de um novo crime, pode reconhecer a falta grave, mas isso não dispensa o contraditório e a ampla defesa. A regressão de regime deve ser decidida com a devida garantia de defesa ao apenado. A alternativa C está incorreta. A prática de um novo crime não implica a perda definitiva do direito ao livramento condicional, mas pode, de fato, afetar negativamente a progressão de regime e o direito ao livramento. No entanto, Gabriela não perde automaticamente o direito ao livramento condicional, mas pode ter sua condição de elegibilidade revista pelo juiz, dependendo da análise do comportamento e da reincidência. A alternativa D está correta. Gabriela já está cumprindo pena em regime aberto domiciliar (uma modalidade de pena menos severa) e cometeu um novo crime (falsificação de documentos para obter vantagem ilícita). Neste contexto, a prática de um novo crime durante a execução penal pode ser considerada uma falta grave, que é prevista no art. 52 da Lei de Execução Penal (Lei nº 7.210/1984). Essa falta grave é uma violação significativa das condições do cumprimento da pena e pode resultar na regressão de regime."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_65",
+      "materia": "Direito Processual Penal",
+      "assunto": "Contradita de testemunha por impedimento profissional",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em uma audiência, o Ministério Público indicou como testemunha a psiquiatra do réu. Após a qualificação da testemunha, você, na condição de advogado(a) do réu, deve",
+      "alternativas": {
+        "A": "solicitar exceção de suspeição da testemunha, em razão de sua profissão.",
+        "B": "oferecer contradita, alegando ser a testemunha proibida de depor por ter conhecimento dos fatos em razão de sua profissão.",
+        "C": "oferecer exceção de litispendência, já que a testemunha tem conhecimento dos fatos em razão de sua profissão.",
+        "D": "aguardar para alegar a nulidade apenas em eventual recurso extraordinário, momento previsto na legislação como o único adequado para esse tipo de arguição."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A alternativa A está incorreta. Solicitar exceção de suspeição da testemunha, em razão de sua profissão: A exceção de suspeição (art. 254 do Código de Processo Penal) é um meio de impugnar o juiz ou as partes do processo, mas não é o meio adequado para contestar uma testemunha. Nesse caso, o instrumento correto é a contradita e não a suspeição. A alternativa B está correta. A questão envolve a situação de uma testemunha psiquiatra que foi indicada pelo Ministério Público. Quando um advogado percebe que a testemunha tem conhecimento dos fatos do processo devido à sua profissão (no caso, a psiquiatra pode ter acessado informações confidenciais do réu em virtude da relação médico-paciente), ele pode contraditar a testemunha. O art. 206 do Código de Processo Penal trata da possibilidade de contraditar a testemunha com base no fato de que ela pode ter um impedimento ou uma causa de suspeição. A alternativa C está incorreta. Oferecer exceção de litispendência, já que a testemunha tem conhecimento dos fatos em razão de sua profissão: A exceção de litispendência refere-se à situação em que há dois processos sobre a mesma causa, ou seja, quando a mesma ação é movida mais de uma vez. Isso não se aplica ao caso de uma testemunha que pode ter conhecimento de fatos devido à sua profissão. A alternativa D está incorreta. Aguardar para alegar a nulidade apenas em eventual recurso extraordinário: Nulidade de ato processual deve ser arguida no momento em que o ato é praticado ou o advogado toma conhecimento dele, e não deve ser postergada para eventual recurso extraordinário. Não há razão para esperar para alegar a nulidade em um recurso posterior, sendo o mais adequado contestar a testemunha na própria audiência."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_68",
+      "materia": "Direito Processual Penal",
+      "assunto": "Extinção da punibilidade e preclusão",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Marcos foi denunciado como incurso nas penas do delito de furto simples, que consiste em um a quatro anos de reclusão. Ao apresentar resposta à acusação, a defesa se resguardou o direito de se manifestar sobre o mérito em momento oportuno. Entretanto, antes da audiência de instrução e do julgamento, você foi nomeado(a), em substituição ao advogado anterior, e percebeu que, à época da citação, já havia sido concluída a prescrição da pretensão punitiva. Assinale a opção que apresenta, corretamente, sua conduta para o caso.",
+      "alternativas": {
+        "A": "Somente pela via do habeas corpus perante o Tribunal será possível alegar, pela primeira vez, a tese de extinção da punibilidade.",
+        "B": "Não há que se falar em preclusão, porque o requerimento de extinção da punibilidade pode ser formulado a qualquer tempo.",
+        "C": "Há preclusão temporal para alegar a matéria, porque a alegação de extinção da punibilidade somente pode ser feita por ocasião da resposta à acusação.",
+        "D": "Aguardar o momento das alegações finais para postular a extinção da punibilidade, sendo certo que a viabilidade de debater o tema depende do reconhecimento de deficiência da defesa anteriormente constituída."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A alternativa A está incorreta. Não é necessário que a alegação de extinção da punibilidade seja feita por habeas corpus perante o Tribunal. A questão da prescrição pode ser arguida em qualquer momento do processo, e não há necessidade de habeas corpus nesse contexto, que é uma via específica para a liberdade de locomoção, não para discutir a prescrição ou extinção da punibilidade. A alternativa B está correta. No direito processual penal, a extinção da punibilidade é uma questão que pode ser alegada a qualquer momento do processo, mesmo após o momento de apresentação da resposta à acusação. Isso inclui a prescrição da pretensão punitiva, que pode ser alegada em qualquer fase do processo, já que trata-se de uma questão relacionada à própria existência do direito de punir do Estado. Portanto, não há preclusão para a alegação de extinção da punibilidade, o que significa que não há limite temporal para apresentar essa argumentação, podendo ser feita em qualquer momento do processo, até mesmo após a fase de instrução, julgamento ou até mesmo nas alegações finais. A alternativa C está incorreta. A alegação de extinção da punibilidade não está limitada à resposta à acusação. Ela pode ser levantada a qualquer momento, e não há preclusão temporal para essa matéria. A alternativa D está incorreta. Não é necessário aguardar as alegações finais para postular a extinção da punibilidade, uma vez que, como já mencionado, essa alegação pode ser feita em qualquer fase do processo. Além disso, a deficiência da defesa anterior não impede que o novo advogado levante essa matéria."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_63",
+      "materia": "Direito Processual Penal",
+      "assunto": "Recursos nos Juizados Especiais Criminais",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "No dia 10 de agosto de 2023, foi publicada a decisão de rejeição da queixa-crime relativa ao crime de injúria (pena: um a seis meses de detenção), que teria sido praticado por Maria Aparecida contra Augusto. Augusto, inconformado com a sentença, procurou você, como advogado(a), para se insurgir contra a decisão de rejeição da exordial acusatória. Assinale a opção que indica, corretamente, o recurso cabível para o caso.",
+      "alternativas": {
+        "A": "Agravo.",
+        "B": "Apelação.",
+        "C": "Recurso Inominado.",
+        "D": "Recurso em Sentido Estrito."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa certa é a letra B. A questão trata sobre o tema recursos. A alternativa A está incorreta. Não cabe agravo, em sede de execução há o recurso de agravo em execução, todavia no caso concreto o processo sequer resultou em condenação, pois houve a rejeição da queixa crime; A alternativa B está correta. O crime cometido foi de menor potencial ofensivo, por esta razão será aplicada a Lei 9.099/1995, que dispõe em seu art. 82 que: “Da decisão de rejeição da denúncia ou queixa e da sentença caberá apelação, que poderá ser julgada por turma composta de três Juízes em exercício no primeiro grau de jurisdição, reunidos na sede do Juizado.”; A alternativa C está incorreta. Não se trata de hipótese de recurso inominado e sim do recurso de apelação, conforme prevê expressamente o art.82 da Lei n° 9.099/1995: “Da decisão de rejeição da denúncia ou queixa e da sentença caberá apelação, que poderá ser julgada por turma composta de três Juízes em exercício no primeiro grau de jurisdição, reunidos na sede do Juizado.”; A alternativa D está incorreta. Caso não fosse hipótese de crime de menor potencial ofensivo, sujeito portanto ao rito sumário ou ordinário, caberia o Recurso em Sentido Estrito, contudo, por se tratar de hipótese de competência dos Juizados Especiais Criminais, aplica-se o art.82 da Lei n° 9.099/1995: “Da decisão de rejeição da denúncia ou queixa e da sentença caberá apelação, que poderá ser julgada por turma composta de três Juízes em exercício no primeiro grau de jurisdição, reunidos na sede do Juizado.”."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_65",
+      "materia": "Direito Processual Penal",
+      "assunto": "Prisão temporária - cabimento",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Peterson teve sua prisão temporária decretada pelo prazo de trinta dias, ao ser investigado pela prática do crime de homicídio culposo na direção de veículo automotor, disposto no Art. 302 da Lei nº 9.503/1997 (Código de Trânsito Brasileiro), cuja pena cominada é de dois a quatro anos de detenção. A decisão foi fundamentada na necessidade da coleta de provas imprescindíveis durante a investigação policial. Você foi procurado(a), como advogado(a), para atuar no melhor interesse de Peterson, no primeiro dia da sua prisão. Assinale a opção que apresenta, corretamente, o pedido cabível tendo em vista os interesses de seu cliente.",
+      "alternativas": {
+        "A": "A liberdade provisória com arbitramento de fiança, pois a pena máxima do crime não ultrapassa quatro anos.",
+        "B": "A liberdade provisória com aplicação de medidas cautelares diversas da prisão, pois não demonstrada imprescindibilidade da medida.",
+        "C": "O relaxamento imediato da prisão ilegal, pois o crime de homicídio culposo na direção de veículo automotor não está no rol dos crimes que autorizam a prisão temporária.",
+        "D": "O relaxamento da prisão ilegal a partir do quinto dia de prisão, pois a prática do homicídio culposo na direção de veículo automotor não configura crime hediondo e o prazo da prisão temporária deveria ser de 5 dias, e não, de 30 dias."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa certa é a letra C. A questão trata sobre o tema prisão. A alternativa A está incorreta. No caso concreto se trata de uma prisão temporária irregular, pois não atendido ao rol taxativo da lei, razão pela qual o pedido correto é o de relaxamento; A alternativa B está incorreta. Não se trata de hipótese na qual caiba a prisão temporária, tampouco a sua substituição por medidas cautelares, pois em descompasso com o que prevê a legislação. A alternativa C está correta. O crime praticado por Peterson não se encontra no rol taxativo dos crimes que possibilitam a decretação da prisão temporária. Dispõe a Lei n° 7.960/1989 em seu art.1° que: \"Caberá prisão temporária III - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes: a) homicídio doloso (art. 121, caput, e seu § 2°); b) sequestro ou cárcere privado (art. 148, caput, e seus §§ 1° e 2°); c) roubo (art. 157, caput, e seus §§ 1°, 2° e 3°); d) extorsão (art. 158, caput, e seus §§ 1° e 2°); e) extorsão mediante sequestro (art. 159, caput, e seus §§ 1°, 2° e 3°); f) estupro (art. 213, caput, e sua combinação com o art. 223, caput, e parágrafo único); g) atentado violento ao pudor (art. 214, caput, e sua combinação com o art. 223, caput, e parágrafo único); h) rapto violento (art. 219, e sua combinação com o art. 223 caput, e parágrafo único); i) epidemia com resultado de morte (art. 267, § 1°); j) envenenamento de água potável ou substância alimentícia ou medicinal qualificado pela morte (art. 270, caput, combinado com art. 285); l) quadrilha ou bando (art. 288), todos do Código Penal; m) genocídio (arts. 1°, 2° e 3° da Lei n° 2.889, de 1° de outubro de 1956), em qualquer de sua formas típicas; n) tráfico de drogas (art. 12 da Lei n° 6.368, de 21 de outubro de 1976); o) crimes contra o sistema financeiro (Lei n° 7.492, de 16 de junho de 1986); p) crimes previstos na Lei de Terrorismo;\" A alternativa D está incorreta. O crime praticado, homicídio culposo na direção de veículo, não está presente no rol taxativo dos crimes que admitem a prisão temporária."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_66",
+      "materia": "Direito Processual Penal",
+      "assunto": "Prova pericial e qualificadora de furto",
+      "banca": "FGV",
+      "ano": "44º Exame de Ordem",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "André foi denunciado por ter subtraído a bolsa de Márcia, mediante rompimento de obstáculo. A subtração foi legitimamente comprovada no processo, porém, não obstante tenha o rompimento de obstáculo deixado vestígios, não foi realizada qualquer perícia, sem justificativa plausível. Finda a instrução, manifestou-se o Ministério Público pela condenação, conforme a denúncia, sem requerer qualquer diligência. Dada a palavra ao(à) advogado(a) de André, em alegações finais defensivas, este(a) deve requerer",
+      "alternativas": {
+        "A": "a absolvição sumária de André, por não constituir o fato infração penal.",
+        "B": "o afastamento da qualificadora do furto, desclassificando a conduta para furto simples.",
+        "C": "a nulidade do processo desde o recebimento da denúncia, a fim de que seja realizada a prova pericial.",
+        "D": "a conversão do julgamento em diligência, a fim de que se realize prova pericial para comprovar a existência do rompimento de obstáculo."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa certa é a letra B. A questão trata do tema provas. A alternativa A está incorreta. André cometeu o crime de furto, logo não pode ser alegada a atipicidade da conduta de modo a absolvê-lo sumariamente; A alternativa B está correta. Dispõe o Código de Processo Penal que: “Art. 158. Quando a infração deixar vestígios, será indispensável o exame de corpo de delito, direto ou indireto, não podendo supri-lo a confissão do acusado.” Assim, considerando que o crime deixou vestígios e que a prova não foi produzida por quem tem este ônus, o Ministério Público, deverá ser afastada a qualificadora; A alternativa C está incorreta. Não se pode decretar a nulidade desde a denúncia, pois houve a comprovação da autoria e materialidade do delito, apenas não sendo configurada a qualificadora do rompimento de obstáculo; A alternativa D está incorreta. A atuação como advogado demanda a atuação para defender os interesses do acusado André, requerer a conversão do julgamento em diligência a fim de provar uma qualificadora que seria prejudicial ao cliente não se mostra razoável."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_67",
+      "materia": "Direito Processual Penal",
+      "assunto": "Princípio da identidade física do juiz",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Foi oferecida denúncia em face de Samuel, pelo delito de furto, que foi distribuída ao Juízo competente, tendo havido regular instrução processual. Os autos foram conclusos para sentença, porém, o Juiz titular, que presidiu a instrução, afastou-se por dois dias para participar de um curso oficial. Por isso, a Corregedoria do Tribunal designou Juiz substituto para atuar naquele Juízo. O Magistrado substituto prolatou a sentença, condenando Samuel, com base na prova oral colhida, ainda que nenhuma urgência houvesse nesse processo. Com base nas informações do enunciado, assinale a opção que indica a alegação que você, como advogado(a) de Samuel, deve apresentar.",
+      "alternativas": {
+        "A": "Violação ao princípio da identidade física do Juiz, causa de nulidade relativa da sentença.",
+        "B": "Suspeição do Magistrado que prolatou a sentença, como preliminar de mérito na apelação.",
+        "C": "Impedimento do Magistrado que prolatou a sentença, causa de nulidade absoluta da decisão.",
+        "D": "Violação ao princípio do Juiz Natural, pois deveria ter havido sorteio entre os Juízes substitutos, e não, a designação por livre escolha da Corregedoria do Tribunal."
+      },
+      "gabarito": "A",
+      "comentario": "A banca apontou como alternativa certa a letra A, porém a nossa equipe entende que a letra D também está correta, razão pela qual caberá recurso para anulação da questão. A questão trata do princípio do juiz natural. A alternativa A está correta. Conforme prevê o Código de Processo Penal no art. 399 § 2o: “O juiz que presidiu a instrução deverá proferir a sentença.” No caso concreto, o afastamento do juiz por apenas dois dias para a realização do curso não é causa suficiente para o afastamento deste princípio; A alternativa B está incorreta. Não se trata de hipótese de suspeição do magistrado, prevista no Código de Processo Penal no Art. 254. O juiz dar-se-á por suspeito, e, se não o fizer, poderá ser recusado por qualquer das partes: I - se for amigo íntimo ou inimigo capital de qualquer deles; II - se ele, seu cônjuge, ascendente ou descendente, estiver respondendo a processo por fato análogo, sobre cujo caráter criminoso haja controvérsia; III - se ele, seu cônjuge, ou parente, consanguíneo, ou afim, até o terceiro grau, inclusive, sustentar demanda ou responder a processo que tenha de ser julgado por qualquer das partes; IV - se tiver aconselhado qualquer das partes; V - se for credor ou devedor, tutor ou curador, de qualquer das partes; VI - se for sócio, acionista ou administrador de sociedade interessada no processo.”; A alternativa C está incorreta. Também não se trata de hipótese de impedimento, conforme dispõe o Art. 252 do Código de Processo Penal: “O juiz não poderá exercer jurisdição no processo em que: I - tiver funcionado seu cônjuge ou parente, consanguíneo ou afim, em linha reta ou colateral até o terceiro grau, inclusive, como defensor ou advogado, órgão do Ministério Público, autoridade policial, auxiliar da justiça ou perito; II - ele próprio houver desempenhado qualquer dessas funções ou servido como testemunha; III - tiver funcionado como juiz de outra instância, pronunciando-se, de fato ou de direito, sobre a questão; IV - ele próprio ou seu cônjuge ou parente, consanguíneo ou afim em linha reta ou colateral até o terceiro grau, inclusive, for parte ou diretamente interessado no feito.”; A alternativa D está correta. Embora a banca não tenha apontado esta alternativa como a certa, caso existam outros juízes no Tribunal, em caso de afastamento do magistrado a substituição deverá ser realizada por sorteio, a fim de preservar o princípio do juiz natural."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_68",
+      "materia": "Direito Processual Penal",
+      "assunto": "Diligências complementares na audiência de instrução",
+      "banca": "FGV",
+      "ano": "44º Exame de Ordem",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Flávio foi preso em flagrante junto com outros três indivíduos, todos acusados pela prática do crime de roubo, disposto no Art. 157 do CP. Flávio permaneceu preso preventivamente durante o processo. Na audiência de instrução e julgamento, uma das testemunhas arroladas pela defesa afirmou que, no dia dos fatos, Flávio estava trabalhando na loja de material de construção que funcionava na frente do local onde os autores do fato estavam praticando o crime, e acabou sendo preso junto com os outros acusados. A testemunha também mencionou que a loja possui sistema de monitoramento de segurança, e que o dono da loja guardou imagens desse dia, para fornecê-las em sede policial se isso fosse demandado. O interrogatório dos réus foi regularmente realizado. Diante do fato narrado, assinale a opção que indica, corretamente, a medida jurídica que você, como advogado(a) de Flávio, deve adotar.",
+      "alternativas": {
+        "A": "Apresentar alegações finais por memoriais, requerendo as imagens da loja.",
+        "B": "Requerer diligências para oficiar à loja de material de construções para que forneça as imagens do dia dos fatos.",
+        "C": "Apresentar alegações finais orais em audiência, com pedido de absolvição sumária, diante do depoimento da testemunha.",
+        "D": "Requerer a nulidade da audiência de instrução e julgamento, pois as imagens da loja não foram apresentadas em sede policial."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa certa é a letra B. A questão trata do tema provas. A alternativa A está incorreta. As alegações finais são produzidas em fase posterior à instrução probatória, assim não seria o momento processual adequado, perder-se-ia a oportunidade de produzir prova benéfica ao acusado; A alternativa B está correta. Conforme dispõe o Código de Processo Penal no art. 402: 'Produzidas as provas, ao final da audiência, o Ministério Público, o querelante e o assistente e, a seguir, o acusado poderão requerer diligências cuja necessidade se origine de circunstâncias ou fatos apurados na instrução.'; A alternativa C está incorreta. A absolvição sumária não é cabível no caso concreto, pois não demonstrada nenhuma das hipóteses previstas no Código de Processo Penal que dispõe no art. 397 que: 'Após o cumprimento do disposto no art. 396-A, e parágrafos, deste Código, o juiz deverá absolver sumariamente o acusado quando verificar: I - a existência manifesta de causa excludente da ilicitude do fato; II - a existência manifesta de causa excludente da culpabilidade do agente, salvo inimputabilidade; III - que o fato narrado evidentemente não constitui crime; ou IV - extinta a punibilidade do agente.'; A alternativa D está incorreta. O pedido cabível é no sentido de produção da prova na fase de instrução processual, o fato de as imagens não terem sido apresentadas na delegacia não impede que, dentro do momento processual adequado, a prova seja produzida."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_63",
+      "materia": "Direito Processual Penal",
+      "assunto": "Desaforamento do Júri",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Flávia foi pronunciada pela suposta prática de crime de aborto. O processo estava tramitando na cidade de Salgados, PA, e teve grande repercussão no local, havendo, inclusive, várias ameaças de populares contra a ré. A sessão de julgamento pelo júri popular já foi designada, tendo a defesa sido intimada da referida designação. Sobre a hipótese, assinale a opção que indica o modo adequado de você, como advogado(a) da ré, requerer que o julgamento ocorra em outra Comarca.",
+      "alternativas": {
+        "A": "Suscitar incidente de deslocamento de competência para a Justiça Federal.",
+        "B": "Apresentar um pedido de Revisão Criminal.",
+        "C": "Oferecer exceção de incompetência territorial.",
+        "D": "Pedir o desaforamento do júri."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata sobre o desaforamento do júri. A alternativa A está incorreta, pois o incidente de deslocamento de competência para a Justiça Federal não é o instrumento cabível no caso apresentado. Este instituto está previsto no art. 109, V-A e §5º, da Constituição Federal que é utilizada nos casos de grave violação de direitos humanos. A alternativa B está incorreta, pois a revisão criminal não é o instrumento cabível, uma vez que o caso narrado trata do desaforamento do júri. A revisão criminal é cabível apenas nas hipóteses do art. 621 do Código de Processo Penal, além de ser possível seu requerimento a qualquer tempo. A alternativa C está incorreta, a exceção de incompetência, prevista no art. 108 do CPP trata das hipóteses em que há incompetência absoluta do juízo, que não se trata do caso narrado. A alternativa D está correta, pois trata-se da hipótese prevista no art. 427 do CPP para os casos em que a segurança pessoal do acusado estiver em risco."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_64",
+      "materia": "Direito Processual Penal",
+      "assunto": "Competência absoluta e nulidade no ECA",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Lucas era investigado por estupro de vulnerável, pois, de acordo com as investigações, teria mantido relações sexuais com pessoa menor de 14 anos. A partir de indícios concretos, a 1ª Vara Criminal da Comarca correspondente ao local dos fatos expediu mandado de busca e apreensão de aparelhos eletrônicos de Lucas, após regular requerimento do Ministério Público. Nos dispositivos eletrônicos apreendidos foram localizados diversos arquivos, cujo conteúdo apresentava abuso sexual infantil, armazenados e compartilhados nas redes sociais, acessíveis de qualquer lugar do país e do exterior, sem se confirmar, contudo, a hipótese inicial de estupro de vulnerável. Assim, Lucas foi denunciado como incurso nas penas do Art. 241-A e do Art. 241-B, ambos do ECA (divulgação e armazenamento de conteúdo pornográfico envolvendo criança ou adolescente). A sentença foi proferida pelo Juiz de Direito da 1ª Vara Criminal da Comarca, tendo sido confirmada pelo Tribunal de Justiça correspondente, e transitada em julgado, condenando Lucas a 5 anos de reclusão, em regime semiaberto. A respeito dos fatos, assinale a opção que apresenta, corretamente, a providência de Direito Processual Penal que o(a) advogado(a) deve adotar.",
+      "alternativas": {
+        "A": "A ocorrência do trânsito em julgado impede que sejam suscitadas questões processuais atinentes à nulidade ou à incompetência absoluta, admitindo-se a rediscussão dos fatos apenas se for baseada em prova nova, mediante revisão criminal.",
+        "B": "Pode ser alegada a nulidade da busca e apreensão e de todos os atos dela decorrentes, diante da incompetência absoluta do Juízo que determinou a diligência, impetrando-se habeas corpus.",
+        "C": "Pode ser impetrado habeas corpus, alegando a nulidade da sentença e de todos os atos decisórios posteriores à realização da busca e apreensão, diante da incompetência absoluta do Juízo.",
+        "D": "Tendo em vista que a busca e apreensão foi deferida apenas para a investigação de estupro de vulnerável, é incabível a utilização das provas na persecução penal relativa a fato diverso, o que pode ser alegado pela impetração de um mandado de segurança."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre competência. A alternativa A está incorreta, pois o caso narrado trata de uma nulidade absoluta, portanto, esta poderá ser levantada a qualquer momento, inclusive de ofício pelo juízo. Ainda, a revisão criminal não é o instituto cabível: CPP. “Art. 621. A revisão dos processos findos será admitida: I - quando a sentença condenatória for contrária ao texto expresso da lei penal ou à evidência dos autos; II - quando a sentença condenatória se fundar em depoimentos, exames ou documentos comprovadamente falsos; III - quando, após a sentença, se descobrirem novas provas de inocência do condenado ou de circunstância que determine ou autorize diminuição especial da pena. Art. 622. A revisão poderá ser requerida em qualquer tempo, antes da extinção da pena ou após. Parágrafo único. Não será admissível a reiteração do pedido, salvo se fundado em novas provas.”. A alternativa B está incorreta, pois a competência das infrações previstas no Estatuto da Criança e do Adolescente é absoluta e sua nulidade não abrange tão somente a busca e apreensão; mas todo o processo. ECA. “Art. 209. As ações previstas neste Capítulo serão propostas no foro do local onde ocorreu ou deva ocorrer a ação ou omissão, cujo juízo terá competência absoluta para processar a causa, ressalvadas a competência da Justiça Federal e a competência originária dos tribunais superiores.”. A alternativa C está correta, pois considerando que as ações em que se constatem infrações penais contra criança e adolescente, a competência será absoluta para o juízo da infância e juventude. ECA. “Art. 209. As ações previstas neste Capítulo serão propostas no foro do local onde ocorreu ou deva ocorrer a ação ou omissão, cujo juízo terá competência absoluta para processar a causa, ressalvadas a competência da Justiça Federal e a competência originária dos tribunais superiores.”. Além disso, é possível a utilização do habeas corpus por expressa previsão legal (art. 648, VI, do CPP): Art. 648. A coação considerar-se-á ilegal: [...] VI - quando o processo for manifestamente nulo;”. A alternativa D está incorreta, uma vez que as provas obtidas de forma lícita podem ser utilizadas quando é encontrada outra infração penal, de forma casual (fortuita) e espontânea. Doutrina. Norberto Avena: “É o que se chama de serendipidade, significando descoberta fortuita de crimes ou agentes diversos daqueles para os quais deferida a cautela. Nesse caso, é preciso diferenciar: tratando-se de serendipidade ou encontro fortuito de primeiro grau, assim considerada a hipótese em que os elementos casualmente descobertos guardam conexidade em relação ao delito para a qual autorizada a violação do sigilo telefônico, nada impede sejam eles utilizados como meios lícitos de prova. Agora, sendo a hipótese de serendipidade ou encontro fortuito de segundo grau, referindo-se aqui ao caso de não existir tal vinculação, vale dizer, à hipótese em que os novos dados apresentam absoluta autonomia e independência da apuração em andamento, neste caso poderão esses dados ser utilizados apenas como notitia criminis, autorizando o desencadeamento da competente investigação para a respectiva elucidação e, até mesmo, facultando o deferimento de outras interceptações e escutas em relação às pessoas ou aos crimes fortuitamente descobertos, mas não como fonte de convencimento do juiz para resolução de aspectos de mérito da ação penal.”."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_65",
+      "materia": "Direito Processual Penal",
+      "assunto": "Recursos na Execução Penal - Agravo em Execução",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Arthur está cumprindo pena privativa de liberdade pela prática do crime de furto qualificado. Durante o curso da execução penal sofreu uma queda e ficou tetraplégico, atestado em laudo médico oficial. No final do ano, o Presidente da República concedeu indulto natalino via Decreto, abrangendo os casos de tetraplegia superveniente à prática do delito, desde que o crime tivesse sido praticado sem violência ou grave ameaça. Sendo assim, você, como advogado(a) de Arthur, formulou o pedido de declaração da extinção da punibilidade ao Juízo da Execução, que indeferiu o pedido, sem apresentar fundamentação. Diante do caso narrado, na qualidade de advogado(a) de Arthur, você deve interpor",
+      "alternativas": {
+        "A": "agravo em execução, no prazo de cinco dias. Sem prejuízo, pode ser impetrado habeas corpus.",
+        "B": "recurso de apelação, no prazo de cinco dias. Sem prejuízo pode ser impetrado habeas corpus.",
+        "C": "agravo em execução, no prazo de cinco dias. Apenas em caso de não ser interposto recurso, pode-se optar pela via do habeas corpus.",
+        "D": "recurso em sentido estrito, no prazo de cinco dias. Diante da unirecorribilidade das decisões, de forma alternativa, pode-se optar pela via do habeas corpus."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre agravo em execução. A alternativa A está correta, o agravo em execução é um recurso típico que possui prazo de 5 (cinco) dias e poderá ser utilizado nos casos de indeferimento em execução penal. Art. 197 da Lei nº 7.210/1984: “Art. 197. Das decisões proferidas pelo Juiz caberá recurso de agravo, sem efeito suspensivo.”. O prazo está previsto na Súmula 700 do STF: “É de cinco dias o prazo para interposição de agravo contra decisão do juiz da execução penal.”. O habeas corpus também caberá, por expressa previsão no art. 648 do Código de Processo Penal: “Art. 648. A coação considerar-se-á ilegal: I - quando não houver justa causa; II - quando alguém estiver preso por mais tempo do que determina a lei; III - quando quem ordenar a coação não tiver competência para fazê-lo; IV - quando houver cessado o motivo que autorizou a coação; V - quando não for alguém admitido a prestar fiança, nos casos em que a lei a autoriza; VI - quando o processo for manifestamente nulo; VII - quando extinta a punibilidade.”. A alternativa B está incorreta, como trata-se de fase de execução penal não caberá apelação dessa decisão; caberá agravo em execução, conforme art. 197 da Lei nº 7.210/1984: “Art. 197. Das decisões proferidas pelo Juiz caberá recurso de agravo, sem efeito suspensivo.”. A alternativa C está incorreta, pois é possível a interposição simultânea de agravo em execução e habeas corpus, uma vez que este último remédio terá preferência, mas a utilização do agravo em execução é necessária para evitar a preclusão da decisão que indeferiu o pedido de declaração da extinção da punibilidade em virtude do indulto. A alternativa D está incorreta, pois como trata-se de fase de execução penal não caberá apelação dessa decisão; caberá agravo em execução, conforme art. 197 da Lei nº 7.210/1984: “Art. 197. Das decisões proferidas pelo Juiz caberá recurso de agravo, sem efeito suspensivo.”."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_66",
+      "materia": "Direito Processual Penal",
+      "assunto": "Ação penal nos crimes contra a honra",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Túlio abriu sua geladeira, retirou sua água com gás e, ao beber, sentiu um gosto estranho, posteriormente vindo a descobrir que se tratava de solvente. Em seguida, Túlio entrou no quarto e chamou sua esposa, Felícia, de “assassina”. Após esclarecimento de que o solvente tinha sido colocado por equívoco na geladeira por seu filho Thor, Túlio pediu desculpas à Felícia. Alguns dias depois, Felícia contou, em uma roda informal, para a sua amiga Promotora de Justiça, que o marido a havia chamado de “assassina”. Diante de tais fatos, o Ministério Público ofereceu a denúncia por crime de injúria em desfavor de Túlio. Sobre o caso narrado, como advogado(a) de Túlio, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Em razão de envolver violência doméstica, o crime é de ação penal pública incondicionada, cabendo apenas se defender quanto ao mérito da acusação.",
+        "B": "O crime é de ação penal privada, devendo ser alegada a ilegitimidade do Ministério Público para a propositura da ação.",
+        "C": "O crime é de ação penal pública condicionada à representação, e essa conversa informal já vale como representação, cabendo apenas se defender quanto ao mérito da acusação.",
+        "D": "O crime é de ação pública condicionada à representação, mas a conversa informal não pode ser aceita como exercício do direito de representar."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata de ação penal privada. A alternativa A está incorreta, pois a ação é privada e não pública incondicionada, conforme art. 519 do CPP: “No processo por crime de calúnia ou injúria, para o qual não haja outra forma estabelecida em lei especial, observar-se-á o disposto nos Capítulos I e III, Título I, deste Livro, com as modificações constantes dos artigos seguintes.”. A alternativa B está correta, pois o crime de honra é de ação penal privada (queixa), cabendo a própria parte ingressar com a ação penal, não ao Ministério Público. A questão de envolver violência doméstica não afasta esse rito, uma vez que o art. 41 da Lei nº 11.340/2006 (Lei Maria da Penha) excluiu a aplicação da Lei 9.099/1995 que trata dos juizados especiais criminais, mantendo-se o regime previsto nos arts. 519 a 523 do Código de Processo Penal. Legislação: Lei Maria da Penha: Art. 7º São formas de violência doméstica e familiar contra a mulher, entre outras: V - a violência moral, entendida como qualquer conduta que configure calúnia, difamação ou injúria. “Art. 41. Aos crimes praticados com violência doméstica e familiar contra a mulher, independentemente da pena prevista, não se aplica a Lei nº 9.099, de 26 de setembro de 1995.”. CPP: “Art. 519. No processo por crime de calúnia ou injúria, para o qual não haja outra forma estabelecida em lei especial, observar-se-á o disposto nos Capítulos I e III, Título I, deste Livro, com as modificações constantes dos artigos seguintes.”. A alternativa C está incorreta, pois a ação é privada e não pública incondicionada, conforme art. 519 do CPP. A alternativa D está incorreta, pois a ação é privada e não pública incondicionada, conforme art. 519 do CPP."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_68",
+      "materia": "Direito Processual Penal",
+      "assunto": "Cadeia de Custódia e Nulidade da Prova Pericial",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Caim, desejando matar Abel, lhe ofereceu um pastel de camarão durante uma festa, sabendo que esse alimento lhe causaria severa alergia. Abel consumiu o pastel oferecido por Caim, além de diversos outros salgados e, em sequência, teve uma violenta crise alérgica, vindo a falecer. Acionada a polícia, os investigadores recolheram, em um mesmo invólucro, todos os alimentos da festa, os quais foram submetidos à perícia, que concluiu que “todos os alimentos periciados contêm traços de camarão em quantidade suficiente para causar a morte da vítima, da forma como ocorreu, não se podendo precisar se a contaminação de tais alimentos ocorreu durante o preparo, na cozinha, ou durante o recolhimento pela Polícia.” A necropsia revelou que o consumo de substância alergênica causou a morte de Abel. Sabe-se, ainda, que não é mais possível repetir a colheita de vestígios e a perícia dos alimentos. Assim, Caim foi denunciado pelo homicídio doloso de Abel. Como advogado de Caim, é correto afirmar que a quebra de cadeia de custódia enseja",
+      "alternativas": {
+        "A": "a ausência de fiabilidade do laudo de necrópsia.",
+        "B": "a ausência de prova fiável do nexo de causalidade.",
+        "C": "a nulidade absoluta do processo, atingindo todas as provas produzidas.",
+        "D": "a nulidade da prova pericial, a qual deve ser desentranhada do processo."
+      },
+      "gabarito": "B",
+      "comentario": "O gabarito preliminar apontou como correta a Letra B. Todavia, nosso entendimento é que a alternativa correta também seria a letra D. A questão trata sobre cadeia de custódia. A alternativa A está incorreta, uma vez que houve quebra de cadeia de custódia com relação à colheita e perícia dos alimentos e não do laudo de necrópsia. A alternativa B está correta, o gabarito preliminar apontou como correta esta alternativa, porém, assim o fez uma vez que se atentou apenas para as consequências da declaração de nulidade e desentranhamento da perícia nos alimentos. Com a quebra de custódia e a contaminação de todos os alimentos, a prova tornou-se nula e deve ser desentranhada do processo. O efeito disso é a ausência da fiabilidade do nexo de causalidade. A alternativa não está errada, mas a Letra D prevê também uma resposta correta. A alternativa C está incorreta, pois não atingiu todas as provas produzidas no processo, apenas aquela prova pericial que teve quebra da cadeia de custódia (no caso concreto, a perícia realizada nos alimentos). A alternativa D está correta, pois trata-se de uma nulidade da prova pericial, em que houve quebra da cadeia de custódia, razão pela qual, poderá ser desentranhada dos autos. CPP. “Art. 563. Nenhum ato será declarado nulo, se da nulidade não resultar prejuízo para a acusação ou para a defesa.” Art. 564. A nulidade ocorrerá nos seguintes casos: III - por falta das fórmulas ou dos termos seguintes: b) o exame do corpo de delito nos crimes que deixam vestígios, ressalvado o disposto no Art. 167;”."
+    }
+  ]
+}

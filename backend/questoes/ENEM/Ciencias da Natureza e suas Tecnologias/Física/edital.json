@@ -1,0 +1,34 @@
+[
+  {
+    "id": 2009,
+    "nome": "Mecânica: Cinemática e Dinâmica"
+  },
+  {
+    "id": 2010,
+    "nome": "Energia, Trabalho e Potência"
+  },
+  {
+    "id": 2011,
+    "nome": "Termologia e Calorimetria"
+  },
+  {
+    "id": 2012,
+    "nome": "Óptica Geométrica e Fenômenos Luminosos"
+  },
+  {
+    "id": 2013,
+    "nome": "Ondulatória e Acústica"
+  },
+  {
+    "id": 2014,
+    "nome": "Eletrodinâmica e Circuitos"
+  },
+  {
+    "id": 2015,
+    "nome": "Eletrostática e Eletromagnetismo"
+  },
+  {
+    "id": 2016,
+    "nome": "Física Moderna"
+  }
+]

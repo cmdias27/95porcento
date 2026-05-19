@@ -1,0 +1,803 @@
+{
+  "Princípios, Fontes E Organização Da Justiça Do Trabalho": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Princípios específicos do Processo do Trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir princípios próprios do processo trabalhista com princípios gerais do processo civil, especialmente oralidade, simplicidade, celeridade e proteção."
+      },
+      {
+        "nome_microtema": "Fontes do Direito Processual do Trabalho e aplicação subsidiária do CPC",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Trocar a aplicação subsidiária pela supletiva do CPC ou admitir uso automático do CPC sem compatibilidade com as normas trabalhistas."
+      },
+      {
+        "nome_microtema": "Organização e estrutura da Justiça do Trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir a composição dos órgãos da Justiça do Trabalho e a competência funcional de Varas, TRTs e TST."
+      },
+      {
+        "nome_microtema": "Competência material da Justiça do Trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Achar que toda controvérsia envolvendo relação de trabalho é automaticamente da Justiça do Trabalho, sem observar os limites constitucionais e legais da competência."
+      },
+      {
+        "nome_microtema": "Composição, funcionamento e órgãos auxiliares da Justiça do Trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Misturar a atuação dos juízes do trabalho, desembargadores, ministros e órgãos de apoio com regras de composição e julgamento."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo conflito de competência, escolha da norma aplicável ou identificação do órgão competente para processar e julgar a demanda. As alternativas são próximas entre si e exploram distinções finas entre princípios, fontes e estrutura da Justiça do Trabalho.",
+      "palavras_gatilho": [
+        "subsidiariamente",
+        "supletivamente",
+        "compatibilidade",
+        "competência material",
+        "órgão jurisdicional",
+        "Justiça do Trabalho",
+        "princípios do processo do trabalho",
+        "estrutura da JT"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Competência Da Justiça Do Trabalho": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Competência material da Justiça do Trabalho após a EC 45/2004",
+        "ids_questoes": [],
+        "peso_percentual": 25,
+        "armadilha_favorita": "Confundir relação de trabalho com relação de consumo, estatutária ou civil, ampliando indevidamente a competência trabalhista."
+      },
+      {
+        "nome_microtema": "Ações oriundas da relação de trabalho: empregado, avulso, autônomo, eventual e prestador de serviços",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Tratar toda prestação de serviços como vínculo de emprego, quando a prova cobra a distinção entre relação de trabalho e relação de emprego."
+      },
+      {
+        "nome_microtema": "Competência para danos morais e patrimoniais decorrentes da relação de trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Achar que a indenização deve ser proposta na Justiça Comum por ter natureza civil, quando a origem do litígio é trabalhista."
+      },
+      {
+        "nome_microtema": "Competência para controvérsias sobre representação sindical, greve e direito de greve",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Misturar conflito coletivo sindical com dissídio individual, ou deslocar a matéria para a Justiça Comum por envolver associação ou liberdade sindical."
+      },
+      {
+        "nome_microtema": "Execução de contribuições previdenciárias e limites da competência executória trabalhista",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Supor que a Justiça do Trabalho executa qualquer débito previdenciário ou fiscal, quando sua atuação é limitada ao que decorre da sentença trabalhista."
+      },
+      {
+        "nome_microtema": "Competência territorial da Justiça do Trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir regra geral do local da prestação de serviços com exceções legais, como trabalho externo, agente ou empregado viajante."
+      },
+      {
+        "nome_microtema": "Competência funcional e hierárquica na Justiça do Trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Trocar competência originária dos TRTs e do TST com hipóteses de recurso, mandado de segurança, dissídio coletivo ou ação rescisória."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com discussão sobre a natureza da relação jurídica e o órgão competente para processar e julgar a demanda. A pegadinha central é deslocar a competência entre Justiça do Trabalho, Justiça Comum, Justiça Federal ou Justiça Eleitoral com base em detalhes do vínculo, do pedido ou da origem do dano. Também explora exceções territoriais e limites da execução trabalhista, exigindo leitura fina do fato narrado.",
+      "palavras_gatilho": [
+        "relação de trabalho",
+        "relação de emprego",
+        "dano moral decorrente do trabalho",
+        "contribuições previdenciárias",
+        "competência territorial",
+        "dissídio coletivo",
+        "representação sindical",
+        "Justiça Comum",
+        "Justiça Federal",
+        "execução trabalhista"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Atos, Termos E Prazos Processuais": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Forma, validade e classificação dos atos processuais trabalhistas",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir a regra da instrumentalidade das formas com nulidade automática por vício formal."
+      },
+      {
+        "nome_microtema": "Comunicação dos atos processuais: notificação, intimação e citação no processo do trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Trocar notificação postal presumida com citação pessoal ou exigir formalidade maior do que a CLT prevê."
+      },
+      {
+        "nome_microtema": "Contagem de prazos processuais trabalhistas e exclusão do dia do começo",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Aplicar regra do CPC sem observar a disciplina própria da CLT sobre contagem e início do prazo."
+      },
+      {
+        "nome_microtema": "Prazo em dias úteis, suspensão e interrupção de prazos no processo do trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir suspensão com interrupção e errar a incidência dos dias úteis na Justiça do Trabalho."
+      },
+      {
+        "nome_microtema": "Preclusão, intempestividade e prática do ato fora do prazo",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Achar que a juntada posterior ou a justificativa da parte convalida automaticamente o ato intempestivo."
+      },
+      {
+        "nome_microtema": "Prazos específicos das partes, do juiz e do Ministério Público do Trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Generalizar prazo comum para todos os sujeitos processuais e ignorar prazos diferenciados previstos em lei."
+      },
+      {
+        "nome_microtema": "Termos processuais, certidões e registro dos atos em audiência",
+        "ids_questoes": [],
+        "peso_percentual": 5,
+        "armadilha_favorita": "Tratar termo e ata como sinônimos absolutos e desconsiderar sua função probatória e documental."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com datas, audiência, publicação e protocolo de peça, exigindo a identificação do termo inicial e final do prazo, além da consequência da prática intempestiva. A pegadinha normalmente está na diferença entre notificação e intimação, na contagem do prazo trabalhista e na aplicação subsidiária do CPC apenas quando compatível.",
+      "palavras_gatilho": [
+        "notificação",
+        "intimação",
+        "citação",
+        "prazo recursal",
+        "contagem",
+        "dia útil",
+        "audiência",
+        "preclusão",
+        "intempestividade",
+        "juntada",
+        "publicação",
+        "CLT",
+        "CPC subsidiário"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Partes, Procuradores, Litisconsórcio E Honorários": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Capacidade postulatória, representação e regularização de mandato na JT",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir ausência de procuração com nulidade automática, quando a regra é a possibilidade de regularização da representação processual."
+      },
+      {
+        "nome_microtema": "Jus postulandi das partes e seus limites no Processo do Trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Achar que empregado e empregador podem atuar sem advogado em qualquer fase e em qualquer incidente do processo trabalhista."
+      },
+      {
+        "nome_microtema": "Substabelecimento, poderes do advogado e atos privativos na audiência",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Misturar poderes gerais com poderes especiais e presumir que qualquer advogado pode confessar, transigir ou receber valores sem autorização expressa."
+      },
+      {
+        "nome_microtema": "Litisconsórcio ativo e passivo no processo do trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir litisconsórcio facultativo com necessário e errar os efeitos processuais da presença de múltiplas partes na reclamação trabalhista."
+      },
+      {
+        "nome_microtema": "Substituição processual sindical e legitimidade extraordinária",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Tratar a atuação do sindicato como mera representação, quando em regra se trata de substituição processual com legitimação extraordinária."
+      },
+      {
+        "nome_microtema": "Honorários advocatícios sucumbenciais na Justiça do Trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Aplicar automaticamente a lógica civilista e esquecer os critérios próprios da CLT, especialmente sucumbência, percentual e exigibilidade."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com vício de representação, pluralidade de reclamantes ou reclamados, atuação sindical, ou discussão sobre honorários após a reforma trabalhista. A pegadinha geralmente está em trocar conceitos próximos, como representação versus substituição processual, litisconsórcio versus intervenção de terceiros, ou sucumbência parcial versus total. Também é comum explorar a regularização da procuração e os limites do jus postulandi em fases recursais e incidentais.",
+      "palavras_gatilho": [
+        "procuração",
+        "regularização da representação",
+        "jus postulandi",
+        "substabelecimento",
+        "poderes especiais",
+        "litisconsórcio",
+        "substituição processual",
+        "sindicato",
+        "honorários sucumbenciais",
+        "sucumbência recíproca",
+        "reforma trabalhista"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Audiência Trabalhista, Conciliação E Resposta Do Réu": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Abertura da audiência trabalhista e tentativa obrigatória de conciliação",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir a obrigatoriedade da proposta conciliatória com a necessidade de acordo efetivo ou com a ordem exata dos atos da audiência."
+      },
+      {
+        "nome_microtema": "Ausência do reclamante e do reclamado na audiência",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Misturar os efeitos da ausência do reclamante com os da ausência do reclamado, especialmente quanto à revelia, arquivamento e confissão."
+      },
+      {
+        "nome_microtema": "Resposta do réu: defesa oral, escrita e momento processual",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Trocar a regra da apresentação da contestação e documentos na audiência com a lógica do processo civil, como prazo posterior para defesa."
+      },
+      {
+        "nome_microtema": "Revelia e confissão ficta no processo do trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Tratar revelia e confissão como sinônimos absolutos, ignorando que produzem efeitos distintos e podem ser relativizados em hipóteses legais."
+      },
+      {
+        "nome_microtema": "Fracionamento da audiência: inicial, una e instrução",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Supor que toda audiência trabalhista é una, sem considerar a possibilidade de designação de audiência inicial e de instrução em atos separados."
+      },
+      {
+        "nome_microtema": "Conciliação em momentos específicos do procedimento trabalhista",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Esquecer que a conciliação pode ser renovada em mais de um momento processual, não apenas no início da audiência."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com atraso, ausência de parte, tentativa de acordo e apresentação da defesa na audiência, exigindo a identificação precisa dos efeitos processuais previstos na CLT. A pegadinha geralmente está em comparar o rito trabalhista com o processo civil, sobretudo quanto ao momento da contestação, à revelia e à confissão ficta.",
+      "palavras_gatilho": [
+        "audiência una",
+        "primeira audiência",
+        "tentativa de conciliação",
+        "ausência do reclamante",
+        "ausência do reclamado",
+        "revelia",
+        "confissão ficta",
+        "contestação",
+        "defesa oral",
+        "juntada de documentos",
+        "arquivamento",
+        "CLT"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Provas No Processo Do Trabalho": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Ônus da prova e distribuição dinâmica no processo do trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir a regra geral do art. 818 da CLT com hipóteses de inversão/distribuição dinâmica do ônus probatório."
+      },
+      {
+        "nome_microtema": "Meios de prova admitidos e prova emprestada",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Achar que a prova emprestada depende de identidade absoluta entre os processos ou de concordância de ambas as partes em qualquer caso."
+      },
+      {
+        "nome_microtema": "Depoimento pessoal, confissão e pena de confissão",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Misturar confissão ficta com confissão real e errar os efeitos da ausência da parte à audiência."
+      },
+      {
+        "nome_microtema": "Testemunhas: contradita, impedimento, suspeição e limites quantitativos",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir impedimento com suspeição e errar o número de testemunhas cabíveis no rito aplicável."
+      },
+      {
+        "nome_microtema": "Documentos, exibição de documentos e juntada posterior",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Perder o momento processual adequado para juntada documental e confundir documento novo com preclusão."
+      },
+      {
+        "nome_microtema": "Perícia e prova técnica no processo do trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Supor que a perícia é sempre obrigatória ou que o juiz fica vinculado ao laudo pericial."
+      },
+      {
+        "nome_microtema": "Inspeção judicial, presunções e valoração da prova pelo juiz",
+        "ids_questoes": [],
+        "peso_percentual": 5,
+        "armadilha_favorita": "Atribuir valor tarifado à prova em vez de reconhecer o livre convencimento motivado do magistrado."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com conflito probatório típico da relação de emprego, explorando audiência, ausência de parte, prova testemunhal, documentos e perícia. As alternativas geralmente misturam regra geral e exceções, exigindo leitura fina da CLT, do CPC aplicado subsidiariamente e da jurisprudência consolidada.",
+      "palavras_gatilho": [
+        "audiência",
+        "ônus da prova",
+        "confissão ficta",
+        "prova testemunhal",
+        "contradita",
+        "documento novo",
+        "prova emprestada",
+        "perícia",
+        "inversão do ônus",
+        "livre convencimento motivado"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Ritos Trabalhistas (Ordinário, Sumário E Sumaríssimo)": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Cabimento e critério de escolha do rito (ordinário, sumário e sumaríssimo)",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir o valor da causa e a natureza da demanda com o rito aplicável, especialmente no sumaríssimo."
+      },
+      {
+        "nome_microtema": "Rito sumaríssimo: limite de valor da causa e exclusões legais",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Achar que toda causa até 40 salários mínimos pode tramitar no sumaríssimo, ignorando as hipóteses legalmente excluídas."
+      },
+      {
+        "nome_microtema": "Citação/notificação e audiência no rito sumaríssimo",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Trocar a exigência de citação pessoal e a dinâmica de audiência una com as regras do rito ordinário."
+      },
+      {
+        "nome_microtema": "Número de testemunhas e concentração da prova no sumaríssimo",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Aplicar o limite de testemunhas do rito ordinário ao sumaríssimo ou vice-versa."
+      },
+      {
+        "nome_microtema": "Recursos e restrições recursais no rito sumaríssimo",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Esquecer as limitações específicas de fundamentação e admissibilidade recursal no procedimento sumaríssimo."
+      },
+      {
+        "nome_microtema": "Rito ordinário: aplicação subsidiária e estrutura procedimental",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Tratar o rito ordinário como se tivesse as mesmas restrições do sumaríssimo, especialmente quanto à prova e aos recursos."
+      },
+      {
+        "nome_microtema": "Rito sumário (Lei 5.584/70): hipóteses residuais e baixa incidência prática",
+        "ids_questoes": [],
+        "peso_percentual": 4,
+        "armadilha_favorita": "Confundir rito sumário com sumaríssimo, embora sejam institutos distintos e com aplicação muito diversa."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com valor da causa, pedidos cumulados, tipo de ação e fase processual, exigindo a identificação do rito correto e das consequências práticas sobre audiência, prova, notificação e recursos. A pegadinha central é misturar rito ordinário com sumaríssimo e, em menor medida, confundir sumaríssimo com sumário.",
+      "palavras_gatilho": [
+        "valor da causa",
+        "até 40 salários mínimos",
+        "rito sumaríssimo",
+        "rito ordinário",
+        "rito sumário",
+        "audiência una",
+        "número de testemunhas",
+        "citação",
+        "notificação",
+        "recurso",
+        "pedido líquido",
+        "exclusão legal"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Sentença E Coisa Julgada": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Requisitos, conteúdo e limites da sentença trabalhista",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir fundamentação sucinta com ausência de fundamentação, ou extrapolar os limites do pedido ao proferir sentença extra/ultra petita."
+      },
+      {
+        "nome_microtema": "Julgamento extra petita, ultra petita e citra petita no processo do trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Trocar vício de julgamento por nulidade total da sentença, quando muitas vezes a correção é apenas o decote do excesso ou a integração por embargos."
+      },
+      {
+        "nome_microtema": "Sentença líquida, ilíquida e fase de liquidação",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Achar que toda sentença trabalhista deve ser líquida, ou confundir liquidação com nova discussão do mérito já decidido."
+      },
+      {
+        "nome_microtema": "Coisa julgada material e formal na Justiça do Trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Misturar preclusão com coisa julgada material, especialmente quando a decisão ainda admite recurso ou apenas encerra a fase processual."
+      },
+      {
+        "nome_microtema": "Limites objetivos e subjetivos da coisa julgada trabalhista",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Supor que a coisa julgada alcança automaticamente terceiros, parcelas não pedidas ou fundamentos que não integraram o dispositivo."
+      },
+      {
+        "nome_microtema": "Ação rescisória e desconstituição da coisa julgada",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir ação rescisória com recurso tardio, ou esquecer que ela exige hipótese legal específica e prazo decadencial."
+      },
+      {
+        "nome_microtema": "Efeitos da sentença trabalhista em obrigações de trato sucessivo e parcelas vincendas",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Entender que a coisa julgada impede automaticamente a cobrança de parcelas futuras quando a relação jurídica continua produzindo efeitos."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo condenação trabalhista, pedido parcialmente acolhido, omissão sobre algum pedido acessório ou discussão posterior sobre execução, e cobra a identificação precisa do vício da sentença, dos limites da coisa julgada ou da via adequada para desconstituí-la. A pegadinha geralmente está em distinguir erro de julgamento, omissão sanável por embargos, excesso de condenação e impossibilidade de rediscussão do mérito na fase executiva.",
+      "palavras_gatilho": [
+        "pedido não apreciado",
+        "condenação além do pedido",
+        "sentença ilíquida",
+        "trânsito em julgado",
+        "coisa julgada material",
+        "ação rescisória",
+        "embargos de declaração",
+        "limites da condenação",
+        "parcelas vincendas",
+        "nulidade da sentença"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Recursos Trabalhistas": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Princípios recursais e pressupostos de admissibilidade",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir pressupostos extrínsecos e intrínsecos com requisitos específicos de cada recurso, especialmente preparo, tempestividade e representação."
+      },
+      {
+        "nome_microtema": "Recurso ordinário",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Trocar a hipótese de cabimento do recurso ordinário com a do agravo de petição ou do recurso de revista, sobretudo em decisões definitivas e terminativas."
+      },
+      {
+        "nome_microtema": "Recurso de revista e seus filtros de admissibilidade",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir violação literal de lei, divergência jurisprudencial e transcendência, além de errar o cabimento em fase de execução."
+      },
+      {
+        "nome_microtema": "Agravo de instrumento e destrancamento de recurso",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Achar que o agravo de instrumento reforma a decisão de inadmissão, quando sua função é apenas viabilizar o exame do recurso principal."
+      },
+      {
+        "nome_microtema": "Agravo de petição na execução trabalhista",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Esquecer a delimitação justificada de matérias e valores impugnados, requisito típico e muito cobrado na execução."
+      },
+      {
+        "nome_microtema": "Embargos de declaração no processo do trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Confundir omissão, contradição, obscuridade e erro material com mero inconformismo, além de errar seus efeitos interruptivos."
+      },
+      {
+        "nome_microtema": "Recursos internos e incidentais: agravo interno, embargos no TST e juízo de retratação",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Misturar recursos dirigidos ao colegiado com mecanismos de retratação do próprio órgão prolator, especialmente em decisões monocráticas."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV cobra recursos trabalhistas em casos concretos com sequência processual completa, exigindo identificação do recurso cabível, do prazo, do órgão competente, dos efeitos e dos pressupostos específicos. A pegadinha costuma estar na fase processual, na natureza da decisão recorrida e na distinção entre recurso principal, agravo de instrumento e medidas típicas da execução.",
+      "palavras_gatilho": [
+        "decisão terminativa",
+        "sentença",
+        "acórdão regional",
+        "execução",
+        "inadmissão",
+        "destrancar",
+        "delimitação de valores",
+        "transcendência",
+        "preparo",
+        "efeito interruptivo"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Execução Trabalhista": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Liquidação da sentença trabalhista",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir liquidação por cálculos, por artigos e por arbitramento, especialmente quanto ao momento e à necessidade de contraditório.",
+        "fingerprint_banca": "Cobrança sobre a fase que antecede a execução, com foco em delimitação do título executivo e na forma adequada de apuração do quantum debeatur."
+      },
+      {
+        "nome_microtema": "Início da execução e impulso oficial",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Misturar execução de ofício na Justiça do Trabalho com a necessidade de provocação da parte em hipóteses específicas.",
+        "fingerprint_banca": "Casos em que a sentença já está líquida ou depende de liquidação, exigindo identificar quando o juiz pode impulsionar a execução e quando há iniciativa da parte."
+      },
+      {
+        "nome_microtema": "Citação do executado e prazo para pagamento/garantia",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Trocar a citação para pagar ou garantir a execução com intimação para cumprir sentença, ou errar o prazo legal aplicável.",
+        "fingerprint_banca": "Enunciados com prazo curto, depósito, penhora e possibilidade de embargos, explorando a sequência procedimental da execução trabalhista."
+      },
+      {
+        "nome_microtema": "Garantia da execução, penhora e ordem de preferência",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir garantia do juízo com pagamento, e a ordem legal de penhora com a preferência prática de bens mais fáceis de constrição.",
+        "fingerprint_banca": "Situações com bloqueio de valores, penhora de bens móveis, imóveis, faturamento ou dinheiro em conta, cobrando a ordem legal e suas exceções."
+      },
+      {
+        "nome_microtema": "Embargos à execução e impugnação à sentença de liquidação",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Misturar o meio de defesa do executado com o momento processual correto e com a exigência de garantia do juízo.",
+        "fingerprint_banca": "Questões que contrapõem defesa do devedor, prazo, matéria arguível e pressupostos de admissibilidade, especialmente após a garantia da execução."
+      },
+      {
+        "nome_microtema": "Exceção de pré-executividade e matérias de ordem pública",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Achar que toda insurgência do executado exige embargos, quando algumas matérias podem ser alegadas sem garantia do juízo.",
+        "fingerprint_banca": "Cobrança de nulidades evidentes, ilegitimidade, prescrição e inexigibilidade do título, com destaque para a ausência de garantia e a via incidental adequada."
+      },
+      {
+        "nome_microtema": "Responsabilidade patrimonial, desconsideração e redirecionamento",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir a responsabilização do sócio, da empresa do grupo econômico e do sucessor, além do momento correto para redirecionar a execução.",
+        "fingerprint_banca": "Casos com frustração da execução, inclusão de terceiros, grupo econômico, sucessão empresarial e incidente de desconsideração da personalidade jurídica."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com inadimplemento do crédito trabalhista, exigindo identificar a medida executiva correta, o prazo aplicável, a necessidade de garantia do juízo e o meio de defesa cabível. As alternativas são próximas entre si e exploram a sequência procedimental da execução, a distinção entre liquidação e execução, e a admissibilidade de medidas incidentais sem garantia.",
+      "palavras_gatilho": [
+        "garantia do juízo",
+        "penhora",
+        "embargos à execução",
+        "impugnação à sentença de liquidação",
+        "exceção de pré-executividade",
+        "liquidação",
+        "citação para pagar ou garantir",
+        "redirecionamento",
+        "grupo econômico",
+        "sucessão empresarial",
+        "desconsideração da personalidade jurídica"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Procedimentos Especiais (Inquérito Para Apuração De Falta Grave, Mandado De Segurança)": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Inquérito judicial para apuração de falta grave do empregado estável",
+        "ids_questoes": [],
+        "peso_percentual": 30,
+        "armadilha_favorita": "Confundir a estabilidade protegida com dispensa imotivada comum, esquecendo que a falta grave exige apuração judicial prévia para certas hipóteses."
+      },
+      {
+        "nome_microtema": "Prazo decadencial para ajuizamento do inquérito e suspensão do contrato",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Trocar o prazo de ajuizamento do inquérito com prazo prescricional trabalhista ou ignorar os efeitos da suspensão contratual durante a apuração."
+      },
+      {
+        "nome_microtema": "Consequências processuais da improcedência ou procedência do inquérito",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Achar que a improcedência gera apenas reintegração sem efeitos financeiros, ou que a procedência dispensa análise de verbas rescisórias e efeitos da ruptura."
+      },
+      {
+        "nome_microtema": "Mandado de segurança no processo do trabalho: cabimento subsidiário e ato judicial impugnável",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Usar mandado de segurança como sucedâneo recursal, quando a prova cobra sua excepcionalidade diante de ato judicial ilegal ou abusivo sem recurso próprio eficaz."
+      },
+      {
+        "nome_microtema": "Mandado de segurança contra decisão interlocutória e tutela de urgência na JT",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir decisão interlocutória irrecorrível na JT com hipótese automática de mandado de segurança, sem verificar lesão grave e inexistência de recurso adequado."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo dispensa de empregado com estabilidade ou ato judicial urgente na Justiça do Trabalho, exigindo a identificação do remédio processual correto, do prazo aplicável e da consequência jurídica da medida. A pegadinha geralmente está na distinção entre inquérito para apuração de falta grave, ação trabalhista comum, recurso cabível e mandado de segurança como via excepcional.",
+      "palavras_gatilho": [
+        "estabilidade",
+        "falta grave",
+        "inquérito judicial",
+        "prazo decadencial",
+        "suspensão do contrato",
+        "reintegração",
+        "ato judicial",
+        "ilegalidade",
+        "abuso de poder",
+        "decisão interlocutória",
+        "sucedâneo recursal",
+        "mandado de segurança"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Ação Rescisória No Processo Do Trabalho": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Cabimento da ação rescisória na Justiça do Trabalho e decisão rescindível",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir sentença de mérito transitada em julgado com decisões interlocutórias, homologatórias ou acórdãos sem conteúdo rescindível."
+      },
+      {
+        "nome_microtema": "Hipóteses legais de rescindibilidade no processo do trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Trocar violação literal de norma jurídica com reexame de prova ou com erro de julgamento, que não autorizam rescisória."
+      },
+      {
+        "nome_microtema": "Prazo decadencial, termo inicial e contagem",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Errar o termo inicial do biênio decadencial, especialmente quando há trânsito em julgado parcial, recurso intempestivo ou vício de intimação."
+      },
+      {
+        "nome_microtema": "Competência e legitimidade ativa e passiva",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Achar que a rescisória sempre é proposta no mesmo juízo que proferiu a decisão, ignorando a competência funcional do tribunal e a legitimidade de sucessores, terceiros juridicamente interessados e Ministério Público."
+      },
+      {
+        "nome_microtema": "Depósito prévio e custas na ação rescisória trabalhista",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir a exigência de depósito prévio com preparo recursal comum, ou esquecer as hipóteses de dispensa legal."
+      },
+      {
+        "nome_microtema": "Tutela provisória, efeito suspensivo e execução da decisão rescindenda",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Supor que a simples propositura da rescisória suspende automaticamente a execução da decisão rescindenda."
+      },
+      {
+        "nome_microtema": "Procedimento, pedido rescindente e pedido rescisório, e juízo de rescindibilidade",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Misturar a fase de desconstituição do julgado com o novo julgamento da causa, ou formular pedido apenas rescindente sem observar a necessidade do pedido rescisório quando cabível."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo decisão trabalhista já transitada em julgado, com discussão sobre prazo, cabimento, competência e necessidade de depósito prévio. A pegadinha geralmente está em distinguir erro de julgamento de violação literal de norma, além de testar se o candidato sabe identificar quem pode propor a rescisória, em qual órgão e com quais efeitos sobre a execução.",
+      "palavras_gatilho": [
+        "trânsito em julgado",
+        "violação literal de norma jurídica",
+        "prazo decadencial de dois anos",
+        "depósito prévio",
+        "competência do tribunal",
+        "efeito suspensivo",
+        "pedido rescindente",
+        "pedido rescisório",
+        "erro de fato",
+        "reexame de prova"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Dissídio Coletivo": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Cabimento do dissídio coletivo e distinção entre dissídio econômico, jurídico e de greve",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir dissídio coletivo com ação individual, negociação coletiva frustrada ou com a simples interpretação de norma coletiva."
+      },
+      {
+        "nome_microtema": "Legitimidade ativa e representação sindical, patronal e do Ministério Público do Trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Achar que qualquer empregado, empresa isolada ou sindicato sem observância da base territorial pode propor o dissídio."
+      },
+      {
+        "nome_microtema": "Pressupostos processuais e tentativa prévia de negociação coletiva",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Esquecer que a instauração do dissídio coletivo exige, em regra, frustração da negociação e observância dos requisitos formais da categoria."
+      },
+      {
+        "nome_microtema": "Competência funcional e territorial da Justiça do Trabalho para julgamento",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Confundir a competência originária dos Tribunais com a competência das Varas do Trabalho ou com o local da prestação de serviços."
+      },
+      {
+        "nome_microtema": "Poder normativo da Justiça do Trabalho e limites da sentença normativa",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Tratar a sentença normativa como se fosse lei geral, ignorando seus limites temporais, materiais e a necessidade de respeito ao patamar mínimo legal."
+      },
+      {
+        "nome_microtema": "Dissídio coletivo de greve: requisitos, abusividade e tutela de urgência",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Misturar o julgamento da abusividade da greve com a fixação de cláusulas econômicas ou com a simples paralisação sem observância da Lei de Greve."
+      },
+      {
+        "nome_microtema": "Recursos, efeitos e cumprimento da sentença normativa",
+        "ids_questoes": [],
+        "peso_percentual": 5,
+        "armadilha_favorita": "Supor efeito suspensivo automático ou execução imediata sem observar a natureza da decisão e as regras específicas do processo coletivo."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um conflito coletivo concreto, com greve, impasse negocial ou cláusula de convenção/acordo coletivo, e perguntar quem pode ajuizar, qual o tribunal competente, se o dissídio é cabível e quais os limites da decisão normativa. A pegadinha geralmente está em trocar dissídio coletivo por ação de cumprimento, mandado de segurança, ação anulatória ou dissídio individual, exigindo leitura fina dos pressupostos e da legitimidade.",
+      "palavras_gatilho": [
+        "frustração da negociação coletiva",
+        "greve",
+        "sentença normativa",
+        "poder normativo",
+        "legitimidade sindical",
+        "base territorial",
+        "competência originária",
+        "cláusulas econômicas",
+        "cláusulas sociais",
+        "abusividade da greve",
+        "acordo coletivo",
+        "convenção coletiva"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  }
+}

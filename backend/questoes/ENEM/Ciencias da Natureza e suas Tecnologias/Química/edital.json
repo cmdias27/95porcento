@@ -1,0 +1,34 @@
+[
+  {
+    "id": 2017,
+    "nome": "Química Geral e Propriedades da Matéria"
+  },
+  {
+    "id": 2018,
+    "nome": "Físico-Química: Soluções e Estequiometria"
+  },
+  {
+    "id": 2019,
+    "nome": "Físico-Química: Termoquímica"
+  },
+  {
+    "id": 2020,
+    "nome": "Cinética e Equilíbrio Químico"
+  },
+  {
+    "id": 2021,
+    "nome": "Eletroquímica: Pilhas e Eletrólise"
+  },
+  {
+    "id": 2022,
+    "nome": "Química Orgânica: Funções e Reações"
+  },
+  {
+    "id": 2023,
+    "nome": "Meio Ambiente e Química Verde"
+  },
+  {
+    "id": 2024,
+    "nome": "Atomística e Tabela Periódica"
+  }
+]

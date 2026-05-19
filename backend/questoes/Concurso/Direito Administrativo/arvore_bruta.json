@@ -1,0 +1,5534 @@
+[
+  {
+    "id": 404336,
+    "nome": "Introdução ao Direito Administrativo |"
+  },
+  {
+    "id": 422127,
+    "nome": "Conceito e Natureza Jurídica do Direito Administrativo |"
+  },
+  {
+    "id": 404337,
+    "nome": "Estado, Governo e Administração Pública |"
+  },
+  {
+    "id": 404340,
+    "nome": "Conceitos e elementos |"
+  },
+  {
+    "id": 404339,
+    "nome": "Administração Pública |"
+  },
+  {
+    "id": 408545,
+    "nome": "Critério Subjetivo, Formal ou Orgânico |"
+  },
+  {
+    "id": 408546,
+    "nome": "Critério Objetivo, Material ou Funcional |"
+  },
+  {
+    "id": 408548,
+    "nome": "Administração em Sentido Amplo |"
+  },
+  {
+    "id": 408549,
+    "nome": "Administração em Sentido Estrito |"
+  },
+  {
+    "id": 408532,
+    "nome": "Administração Pública Extroversa e Introversa |"
+  },
+  {
+    "id": 422137,
+    "nome": "Objeto e Abrangência do Direito Administrativo |"
+  },
+  {
+    "id": 408547,
+    "nome": "Origem do Direito Administrativo |"
+  },
+  {
+    "id": 422138,
+    "nome": "Os diferentes critérios adotados para a conceituação do direito administrativo |"
+  },
+  {
+    "id": 408541,
+    "nome": "Critério da Administração Pública ou funcional |"
+  },
+  {
+    "id": 408540,
+    "nome": "Critério do Poder Executivo |"
+  },
+  {
+    "id": 408539,
+    "nome": "Critério dos serviços públicos |"
+  },
+  {
+    "id": 408536,
+    "nome": "Critério Legalista ou Exegética |"
+  },
+  {
+    "id": 423209,
+    "nome": "Critério das relações jurídicas |"
+  },
+  {
+    "id": 408535,
+    "nome": "Critério Teleológico ou finalístico |"
+  },
+  {
+    "id": 408534,
+    "nome": "Critério Residual ou Negativo |"
+  },
+  {
+    "id": 408533,
+    "nome": "Outros critérios |"
+  },
+  {
+    "id": 404341,
+    "nome": "Fontes do Direito Administrativo |"
+  },
+  {
+    "id": 407775,
+    "nome": "Fontes primárias, principais ou diretas |"
+  },
+  {
+    "id": 407776,
+    "nome": "Fontes secundárias, acessórias ou indiretas |"
+  },
+  {
+    "id": 422965,
+    "nome": "Fontes escritas e não escritas |"
+  },
+  {
+    "id": 407777,
+    "nome": "Lei |"
+  },
+  {
+    "id": 407778,
+    "nome": "Jurisprudência |"
+  },
+  {
+    "id": 422899,
+    "nome": "Doutrina |"
+  },
+  {
+    "id": 422900,
+    "nome": "Costumes e praxe administrativa |"
+  },
+  {
+    "id": 408543,
+    "nome": "Princípios Gerais do Direito |"
+  },
+  {
+    "id": 407779,
+    "nome": "Sistemas do Direito Administrativo |"
+  },
+  {
+    "id": 407780,
+    "nome": "Sistema Inglês ou Sistema da Unidade de Jurisdição |"
+  },
+  {
+    "id": 407781,
+    "nome": "Sistema Francês ou Sistema do Contencioso Administrativo |"
+  },
+  {
+    "id": 407782,
+    "nome": "Sistema Administrativo Brasileiro |"
+  },
+  {
+    "id": 408542,
+    "nome": "Taxonomia do Direito Administrativo |"
+  },
+  {
+    "id": 408538,
+    "nome": "Constitucionalização do Direito Administrativo |"
+  },
+  {
+    "id": 404358,
+    "nome": "Regime Jurídico Administrativo |"
+  },
+  {
+    "id": 404359,
+    "nome": "Regimes Jurídicos da Administração |"
+  },
+  {
+    "id": 407783,
+    "nome": "Conceito e espécies |"
+  },
+  {
+    "id": 407784,
+    "nome": "Regime Jurídico de Direito Público e de Direito Privado |"
+  },
+  {
+    "id": 407785,
+    "nome": "Noção, relevância e tipologia |"
+  },
+  {
+    "id": 407786,
+    "nome": "Regime Jurídico Aplicável à Administração Pública |"
+  },
+  {
+    "id": 404360,
+    "nome": "Princípios da Administração Pública |"
+  },
+  {
+    "id": 408531,
+    "nome": "Força normativa dos princípios |"
+  },
+  {
+    "id": 408530,
+    "nome": "Hierarquia dos princípios |"
+  },
+  {
+    "id": 408529,
+    "nome": "Princípios Expressos ou explícitos na Constituição |"
+  },
+  {
+    "id": 408528,
+    "nome": "Princípio da Legalidade |"
+  },
+  {
+    "id": 422139,
+    "nome": "Juridicidade |"
+  },
+  {
+    "id": 408527,
+    "nome": "Princípio da Impessoalidade |"
+  },
+  {
+    "id": 408526,
+    "nome": "Princípio da Moralidade |"
+  },
+  {
+    "id": 408525,
+    "nome": "Princípio da Publicidade |"
+  },
+  {
+    "id": 404338,
+    "nome": "Princípio da Eficiência |"
+  },
+  {
+    "id": 407787,
+    "nome": "Princípios Implícitos, Reconhecidos e Infraconstitucionais |"
+  },
+  {
+    "id": 404361,
+    "nome": "Princípio da Supremacia/Preponderância do Interesse Público |"
+  },
+  {
+    "id": 407788,
+    "nome": "Princípio da Indisponibilidade do Interesse Público |"
+  },
+  {
+    "id": 407789,
+    "nome": "Interesse Público Primário e Secundário |"
+  },
+  {
+    "id": 404362,
+    "nome": "Princípios da Razoabilidade e da Proporcionalidade |"
+  },
+  {
+    "id": 407790,
+    "nome": "Princípio do Controle ou da Tutela |"
+  },
+  {
+    "id": 407791,
+    "nome": "Princípio da Autotutela ou Sindicabilidade |"
+  },
+  {
+    "id": 407792,
+    "nome": "Princípio da Motivação |"
+  },
+  {
+    "id": 407793,
+    "nome": "Princípio da Continuidade do Serviço Público |"
+  },
+  {
+    "id": 407794,
+    "nome": "Princípio do Contraditório e da Ampla Defesa |"
+  },
+  {
+    "id": 407795,
+    "nome": "Princípio da Especialidade |"
+  },
+  {
+    "id": 407796,
+    "nome": "Princípio da Segurança Jurídica e Proteção à Confiança |"
+  },
+  {
+    "id": 407797,
+    "nome": "Princípio da Precaução |"
+  },
+  {
+    "id": 407798,
+    "nome": "Princípio da Participação |"
+  },
+  {
+    "id": 407799,
+    "nome": "Princípio da Subsidiariedade |"
+  },
+  {
+    "id": 407800,
+    "nome": "Princípio da Oficialidade ou do Impulso oficial |"
+  },
+  {
+    "id": 408524,
+    "nome": "Princípio da boa-fé |"
+  },
+  {
+    "id": 422141,
+    "nome": "Princípio da transcendência da pena |"
+  },
+  {
+    "id": 422142,
+    "nome": "Princípio da sancionabilidade |"
+  },
+  {
+    "id": 422143,
+    "nome": "Princípio da Gratuidade |"
+  },
+  {
+    "id": 422144,
+    "nome": "Outros princípios administrativos |"
+  },
+  {
+    "id": 404342,
+    "nome": "Organização Administrativa |"
+  },
+  {
+    "id": 422145,
+    "nome": "Centralização |"
+  },
+  {
+    "id": 404343,
+    "nome": "Descentralização |"
+  },
+  {
+    "id": 407801,
+    "nome": "Descentralização mediante outorga (descentralização por serviços) |"
+  },
+  {
+    "id": 407802,
+    "nome": "Descentralização mediante delegação (descentralização por colaboração) |"
+  },
+  {
+    "id": 422146,
+    "nome": "Descentralização Política |"
+  },
+  {
+    "id": 422147,
+    "nome": "Descentralização Territorial ou Geográfica |"
+  },
+  {
+    "id": 407803,
+    "nome": "Desconcentração |"
+  },
+  {
+    "id": 407804,
+    "nome": "Desconcentração em razão da matéria |"
+  },
+  {
+    "id": 407805,
+    "nome": "Desconcentração em razão do grau ou da hierarquia |"
+  },
+  {
+    "id": 407806,
+    "nome": "Desconcentração por critério territorial |"
+  },
+  {
+    "id": 422148,
+    "nome": "Concentração |"
+  },
+  {
+    "id": 404345,
+    "nome": "Administração Direta |"
+  },
+  {
+    "id": 422149,
+    "nome": "Conceito e características |"
+  },
+  {
+    "id": 404344,
+    "nome": "Órgãos Públicos |"
+  },
+  {
+    "id": 407807,
+    "nome": "Conceito de Órgãos Públicos |"
+  },
+  {
+    "id": 422150,
+    "nome": "Características |"
+  },
+  {
+    "id": 407808,
+    "nome": "Capacidade Processual ou personalidade judiciária |"
+  },
+  {
+    "id": 407809,
+    "nome": "Forma de Criação e extinção dos Órgãos Públicos |"
+  },
+  {
+    "id": 407838,
+    "nome": "Teoria da Imputação (ou do órgão) |"
+  },
+  {
+    "id": 407836,
+    "nome": "Teoria do Mandato |"
+  },
+  {
+    "id": 407837,
+    "nome": "Teoria da Representação |"
+  },
+  {
+    "id": 407810,
+    "nome": "Classificação dos Órgãos Públicos |"
+  },
+  {
+    "id": 407811,
+    "nome": "Quanto à Posição Estatal |"
+  },
+  {
+    "id": 407812,
+    "nome": "Independentes |"
+  },
+  {
+    "id": 407813,
+    "nome": "Autônomos |"
+  },
+  {
+    "id": 407814,
+    "nome": "Superiores |"
+  },
+  {
+    "id": 407815,
+    "nome": "Subalternos |"
+  },
+  {
+    "id": 407816,
+    "nome": "Quanto à Estrutura |"
+  },
+  {
+    "id": 407817,
+    "nome": "Simples ou Unitários |"
+  },
+  {
+    "id": 407818,
+    "nome": "Compostos |"
+  },
+  {
+    "id": 407819,
+    "nome": "Quanto à Atuação Funcional |"
+  },
+  {
+    "id": 407820,
+    "nome": "Singulares ou Unipessoais |"
+  },
+  {
+    "id": 407821,
+    "nome": "Colegiados ou Pluripessoais |"
+  },
+  {
+    "id": 407822,
+    "nome": "Quanto às Funções que Exercem |"
+  },
+  {
+    "id": 407823,
+    "nome": "Ativos |"
+  },
+  {
+    "id": 407824,
+    "nome": "De Controle |"
+  },
+  {
+    "id": 407825,
+    "nome": "Consultivos |"
+  },
+  {
+    "id": 407832,
+    "nome": "Quanto ao âmbito de atuação |"
+  },
+  {
+    "id": 407833,
+    "nome": "Centrais |"
+  },
+  {
+    "id": 407834,
+    "nome": "Locais |"
+  },
+  {
+    "id": 407835,
+    "nome": "Relações do Estado/órgão com os agentes públicos |"
+  },
+  {
+    "id": 422151,
+    "nome": "Teoria do mandato |"
+  },
+  {
+    "id": 422152,
+    "nome": "Teoria da representação |"
+  },
+  {
+    "id": 422153,
+    "nome": "Teoria do órgão ou da Imputação |"
+  },
+  {
+    "id": 404346,
+    "nome": "Administração Indireta |"
+  },
+  {
+    "id": 407851,
+    "nome": "Entidades integrantes da Administração Indireta |"
+  },
+  {
+    "id": 407848,
+    "nome": "Forma de criação e extinção |"
+  },
+  {
+    "id": 407847,
+    "nome": "Características comuns a todas as entidades da Administração Indireta |"
+  },
+  {
+    "id": 404347,
+    "nome": "Autarquias |"
+  },
+  {
+    "id": 407839,
+    "nome": "Conceito e Natureza Jurídica das Autarquias |"
+  },
+  {
+    "id": 407840,
+    "nome": "Criação e Extinção de Autarquias |"
+  },
+  {
+    "id": 407841,
+    "nome": "Atividades Desenvolvidas pelas Autarquias |"
+  },
+  {
+    "id": 407844,
+    "nome": "Prerrogativas e características |"
+  },
+  {
+    "id": 407854,
+    "nome": "Espécies de autarquias |"
+  },
+  {
+    "id": 404348,
+    "nome": "Agências Reguladoras |"
+  },
+  {
+    "id": 407946,
+    "nome": "Conselhos Profissionais |"
+  },
+  {
+    "id": 404349,
+    "nome": "Agências Executivas |"
+  },
+  {
+    "id": 404351,
+    "nome": "Empresas Públicas |"
+  },
+  {
+    "id": 407863,
+    "nome": "Conceito e Natureza Jurídica das Empresas Públicas |"
+  },
+  {
+    "id": 407864,
+    "nome": "Criação e Extinção das Empresas Públicas |"
+  },
+  {
+    "id": 407866,
+    "nome": "Atividades Desenvolvidas pelas Empresas Públicas |"
+  },
+  {
+    "id": 407897,
+    "nome": "Características |"
+  },
+  {
+    "id": 407896,
+    "nome": "Regime jurídico de direito privado |"
+  },
+  {
+    "id": 407894,
+    "nome": "Regime jurídico de direito público |"
+  },
+  {
+    "id": 407862,
+    "nome": "Sociedade de Economia Mista |"
+  },
+  {
+    "id": 407879,
+    "nome": "Conceito e Natureza Jurídica das Sociedades de Economia Mista |"
+  },
+  {
+    "id": 407880,
+    "nome": "Criação e Extinção das Sociedades de Economia Mista |"
+  },
+  {
+    "id": 407882,
+    "nome": "Atividades Desenvolvidas pelas Sociedades de Economia Mista |"
+  },
+  {
+    "id": 407869,
+    "nome": "Características |"
+  },
+  {
+    "id": 407870,
+    "nome": "Regime jurídico de direito privado |"
+  },
+  {
+    "id": 407871,
+    "nome": "Regime jurídico de direito público |"
+  },
+  {
+    "id": 407872,
+    "nome": "Casos especiais de direito público |"
+  },
+  {
+    "id": 407873,
+    "nome": "Imunidade Tributária das Empresas Estatais |"
+  },
+  {
+    "id": 407874,
+    "nome": "Prerrogativas Processuais das Empresas Estatais |"
+  },
+  {
+    "id": 407875,
+    "nome": "Autonomia e Patrimônio das Empresas Estatais |"
+  },
+  {
+    "id": 407876,
+    "nome": "Licitação e Contratos das Empresas Estatais |"
+  },
+  {
+    "id": 407877,
+    "nome": "Regime de Pessoal das Empresas Estatais |"
+  },
+  {
+    "id": 422901,
+    "nome": "Foro Competente das Empresas Estatais |"
+  },
+  {
+    "id": 407895,
+    "nome": "Distinções entre Empresas Públicas e Sociedades de Economia Mista |"
+  },
+  {
+    "id": 404350,
+    "nome": "Fundações Públicas (ou Governamentais) |"
+  },
+  {
+    "id": 407899,
+    "nome": "Conceito e Natureza Jurídica das Fundações Públicas |"
+  },
+  {
+    "id": 407902,
+    "nome": "Regime Jurídico das Fundações Públicas |"
+  },
+  {
+    "id": 407900,
+    "nome": "Criação e Extinção das Fundações Públicas |"
+  },
+  {
+    "id": 407901,
+    "nome": "Atividades Desenvolvidas pelas Fundações Públicas |"
+  },
+  {
+    "id": 407893,
+    "nome": "Características especiais |"
+  },
+  {
+    "id": 407903,
+    "nome": "Imunidade Tributária das Fundações Públicas |"
+  },
+  {
+    "id": 407904,
+    "nome": "Prerrogativas Processuais das Fundações Públicas |"
+  },
+  {
+    "id": 407905,
+    "nome": "Autonomia e Patrimônio das Fundações Públicas |"
+  },
+  {
+    "id": 407906,
+    "nome": "Licitação e Contratos das Fundações Públicas |"
+  },
+  {
+    "id": 407907,
+    "nome": "Regime de Pessoal das Fundações Públicas |"
+  },
+  {
+    "id": 404353,
+    "nome": "Consórcios Públicos (Lei 11.107/2005) |"
+  },
+  {
+    "id": 407892,
+    "nome": "Conceito e características |"
+  },
+  {
+    "id": 407909,
+    "nome": "Consórcios públicos de direito público (associação pública) |"
+  },
+  {
+    "id": 407910,
+    "nome": "Consórcios públicos de direito privado (associação civil) |"
+  },
+  {
+    "id": 407911,
+    "nome": "Protocolo de intenções |"
+  },
+  {
+    "id": 407912,
+    "nome": "Contrato de programa e contrato de rateio |"
+  },
+  {
+    "id": 407865,
+    "nome": "Entidades subsidiárias |"
+  },
+  {
+    "id": 407891,
+    "nome": "Forma de criação e extinção |"
+  },
+  {
+    "id": 407890,
+    "nome": "Empresas controladas |"
+  },
+  {
+    "id": 407889,
+    "nome": "Participação do Estado no capital de empresas privadas/Empresas de mera participação |"
+  },
+  {
+    "id": 404352,
+    "nome": "Entidades Paraestatais e o Terceiro Setor |"
+  },
+  {
+    "id": 407913,
+    "nome": "Conceito e características |"
+  },
+  {
+    "id": 407887,
+    "nome": "Serviços Sociais Autônomos (Sistema S) |"
+  },
+  {
+    "id": 407914,
+    "nome": "Organizações Sociais (OS - Lei 9637/98) |"
+  },
+  {
+    "id": 407915,
+    "nome": "Conceito e Características das Organizações Sociais (OS) |"
+  },
+  {
+    "id": 407916,
+    "nome": "Dever de licitar |"
+  },
+  {
+    "id": 407917,
+    "nome": "Áreas de Atuação das OS |"
+  },
+  {
+    "id": 407918,
+    "nome": "Contrato de Gestão das Organizações Sociais (OS) |"
+  },
+  {
+    "id": 407919,
+    "nome": "Qualificação e desqualificação da entidade como Organização Social (OS) |"
+  },
+  {
+    "id": 407920,
+    "nome": "Organizações da Sociedade Civil de Interesse Público (OSCIP - Lei 9790/98) |"
+  },
+  {
+    "id": 407921,
+    "nome": "Requisitos de Qualificação como OSCIP |"
+  },
+  {
+    "id": 407923,
+    "nome": "Áreas de Atuação das OSCIP |"
+  },
+  {
+    "id": 407924,
+    "nome": "Formalização da parceria |"
+  },
+  {
+    "id": 407925,
+    "nome": "Controle e prestação de contas |"
+  },
+  {
+    "id": 407926,
+    "nome": "Desqualificação da entidade como OSCIP |"
+  },
+  {
+    "id": 407927,
+    "nome": "Distinções entre OSCIP e OS |"
+  },
+  {
+    "id": 407928,
+    "nome": "Entidades de Apoio |"
+  },
+  {
+    "id": 407929,
+    "nome": "Regimes de Parceria |"
+  },
+  {
+    "id": 407930,
+    "nome": "Organizações da Sociedade Civil (OSC) - Lei n. 13.019/2014 |"
+  },
+  {
+    "id": 407931,
+    "nome": "Instrumentos de formalização de parceria |"
+  },
+  {
+    "id": 407932,
+    "nome": "Termo de colaboração |"
+  },
+  {
+    "id": 407933,
+    "nome": "Termo de fomento |"
+  },
+  {
+    "id": 407934,
+    "nome": "Acordo de cooperação |"
+  },
+  {
+    "id": 407935,
+    "nome": "Plano de trabalho |"
+  },
+  {
+    "id": 407938,
+    "nome": "Procedimento de manifestação de interesse social |"
+  },
+  {
+    "id": 407940,
+    "nome": "Chamamento público |"
+  },
+  {
+    "id": 407886,
+    "nome": "Dispensa e inexigibilidade do chamamento público |"
+  },
+  {
+    "id": 407943,
+    "nome": "Prestação de contas |"
+  },
+  {
+    "id": 404363,
+    "nome": "Poderes da Administração |"
+  },
+  {
+    "id": 407947,
+    "nome": "Deveres Administrativos |"
+  },
+  {
+    "id": 407948,
+    "nome": "Poder-dever de agir |"
+  },
+  {
+    "id": 407949,
+    "nome": "Dever de eficiência |"
+  },
+  {
+    "id": 407950,
+    "nome": "Dever de probidade |"
+  },
+  {
+    "id": 407951,
+    "nome": "Dever de prestar contas |"
+  },
+  {
+    "id": 407952,
+    "nome": "Poderes Administrativos |"
+  },
+  {
+    "id": 407885,
+    "nome": "Conceito e características |"
+  },
+  {
+    "id": 407884,
+    "nome": "Poder e função |"
+  },
+  {
+    "id": 404368,
+    "nome": "Poder de Polícia |"
+  },
+  {
+    "id": 407953,
+    "nome": "Objetos e Finalidade do Poder de Polícia |"
+  },
+  {
+    "id": 407957,
+    "nome": "Síntese evolutiva |"
+  },
+  {
+    "id": 407954,
+    "nome": "Polícia Administrativa e Polícia Judiciária |"
+  },
+  {
+    "id": 407959,
+    "nome": "Manifestações do Poder de Polícia |"
+  },
+  {
+    "id": 407962,
+    "nome": "Ciclo de Polícia (Fases do Poder de Polícia) |"
+  },
+  {
+    "id": 407881,
+    "nome": "Ordem de Polícia (Legislação) |"
+  },
+  {
+    "id": 407883,
+    "nome": "Atos concretos |"
+  },
+  {
+    "id": 407955,
+    "nome": "Atos normativos |"
+  },
+  {
+    "id": 407964,
+    "nome": "Consentimento de Polícia |"
+  },
+  {
+    "id": 407965,
+    "nome": "Fiscalização de Polícia |"
+  },
+  {
+    "id": 407966,
+    "nome": "Sanção de Polícia |"
+  },
+  {
+    "id": 407967,
+    "nome": "Sanções aplicáveis e limites |"
+  },
+  {
+    "id": 407968,
+    "nome": "Autoexecutoriedade das sanções de polícia |"
+  },
+  {
+    "id": 407969,
+    "nome": "Poder de Polícia Originário e Poder de Polícia Delegado |"
+  },
+  {
+    "id": 407972,
+    "nome": "Limites à Delegação do Poder de Polícia |"
+  },
+  {
+    "id": 407974,
+    "nome": "Atributos do Poder de Polícia |"
+  },
+  {
+    "id": 407975,
+    "nome": "Discricionariedade |"
+  },
+  {
+    "id": 407976,
+    "nome": "Autoexecutoriedade |"
+  },
+  {
+    "id": 407977,
+    "nome": "Coercibilidade |"
+  },
+  {
+    "id": 407978,
+    "nome": "Prescrição no Poder de Polícia |"
+  },
+  {
+    "id": 407971,
+    "nome": "Partilha constitucional da competência de polícia administrativa |"
+  },
+  {
+    "id": 407970,
+    "nome": "Espécie tributária |"
+  },
+  {
+    "id": 404366,
+    "nome": "Poder Disciplinar |"
+  },
+  {
+    "id": 407979,
+    "nome": "Conceito e características |"
+  },
+  {
+    "id": 407980,
+    "nome": "Discricionariedade no Poder Disciplinar |"
+  },
+  {
+    "id": 407868,
+    "nome": "Vinculação no Poder de Polícia |"
+  },
+  {
+    "id": 407867,
+    "nome": "Distinção com o Poder de Polícia |"
+  },
+  {
+    "id": 404365,
+    "nome": "Poder Hierárquico (ou decorrente da hierarquia) |"
+  },
+  {
+    "id": 407986,
+    "nome": "Conceito e características |"
+  },
+  {
+    "id": 407981,
+    "nome": "Prerrogativas decorrentes do Poder Hierárquico |"
+  },
+  {
+    "id": 407982,
+    "nome": "Ordens aos subordinados |"
+  },
+  {
+    "id": 407983,
+    "nome": "Fiscalização e controle dos subordinados |"
+  },
+  {
+    "id": 407984,
+    "nome": "Aplicação de sanções |"
+  },
+  {
+    "id": 407985,
+    "nome": "Delegação e avocação de competências |"
+  },
+  {
+    "id": 407853,
+    "nome": "Distinção com o Poder Disciplinar |"
+  },
+  {
+    "id": 404367,
+    "nome": "Poder Regulamentar |"
+  },
+  {
+    "id": 407987,
+    "nome": "Conceitos e características |"
+  },
+  {
+    "id": 407988,
+    "nome": "Decretos de Execução ou Decretos Regulamentares |"
+  },
+  {
+    "id": 407989,
+    "nome": "Decretos Autônomos |"
+  },
+  {
+    "id": 407990,
+    "nome": "Regulamentos Autorizados |"
+  },
+  {
+    "id": 407991,
+    "nome": "Limites do Poder Regulamentar |"
+  },
+  {
+    "id": 422165,
+    "nome": "Deslegalização (delegificação) |"
+  },
+  {
+    "id": 407852,
+    "nome": "Distinção com o Poder Normativo |"
+  },
+  {
+    "id": 404364,
+    "nome": "Poder Vinculado |"
+  },
+  {
+    "id": 407992,
+    "nome": "Conceito e características |"
+  },
+  {
+    "id": 407993,
+    "nome": "Limites ao Poder Vinculado |"
+  },
+  {
+    "id": 407842,
+    "nome": "Poder Discricionário |"
+  },
+  {
+    "id": 407843,
+    "nome": "Conceito e características |"
+  },
+  {
+    "id": 407845,
+    "nome": "Limites do Poder Discricionário |"
+  },
+  {
+    "id": 407846,
+    "nome": "Distinção com o Poder Vinculado |"
+  },
+  {
+    "id": 407861,
+    "nome": "Evolução conceitual |"
+  },
+  {
+    "id": 407857,
+    "nome": "Poder Normativo |"
+  },
+  {
+    "id": 407858,
+    "nome": "Conceitos |"
+  },
+  {
+    "id": 407860,
+    "nome": "Distinção com o Poder Regulamentar |"
+  },
+  {
+    "id": 404369,
+    "nome": "Abuso de Poder |"
+  },
+  {
+    "id": 407856,
+    "nome": "Conceito e características |"
+  },
+  {
+    "id": 404370,
+    "nome": "Excesso de Poder |"
+  },
+  {
+    "id": 404371,
+    "nome": "Desvio de Finalidade |"
+  },
+  {
+    "id": 404354,
+    "nome": "Agentes Públicos |"
+  },
+  {
+    "id": 404355,
+    "nome": "Conceito de Agentes Públicos |"
+  },
+  {
+    "id": 407855,
+    "nome": "Agentes de Fato ou Funcionário Aparente |"
+  },
+  {
+    "id": 404542,
+    "nome": "Agente Necessário |"
+  },
+  {
+    "id": 422166,
+    "nome": "Agente Putativo |"
+  },
+  {
+    "id": 422167,
+    "nome": "Usurpador de Função |"
+  },
+  {
+    "id": 404356,
+    "nome": "Classificação ou espécies de Agentes Públicos |"
+  },
+  {
+    "id": 407994,
+    "nome": "Agentes políticos |"
+  },
+  {
+    "id": 407995,
+    "nome": "Agentes administrativos |"
+  },
+  {
+    "id": 408007,
+    "nome": "Servidores em sentido amplo |"
+  },
+  {
+    "id": 408006,
+    "nome": "Militares |"
+  },
+  {
+    "id": 407996,
+    "nome": "Agentes honoríficos |"
+  },
+  {
+    "id": 407997,
+    "nome": "Agentes delegados |"
+  },
+  {
+    "id": 407998,
+    "nome": "Agentes credenciados |"
+  },
+  {
+    "id": 404357,
+    "nome": "Cargo, Emprego e Função Pública |"
+  },
+  {
+    "id": 407999,
+    "nome": "Cargos em comissão e funções de confiança |"
+  },
+  {
+    "id": 408000,
+    "nome": "Extinção de cargos e funções públicas |"
+  },
+  {
+    "id": 408001,
+    "nome": "Regime Jurídico dos Agentes Públicos |"
+  },
+  {
+    "id": 408002,
+    "nome": "Direito de associação sindical dos servidores públicos |"
+  },
+  {
+    "id": 408003,
+    "nome": "Direito de greve dos servidores públicos |"
+  },
+  {
+    "id": 408008,
+    "nome": "Contratação Temporária |"
+  },
+  {
+    "id": 408009,
+    "nome": "Efetividade, Estabilidade e Vitaliciedade dos Agentes Públicos |"
+  },
+  {
+    "id": 408010,
+    "nome": "Efetividade dos Agentes Públicos |"
+  },
+  {
+    "id": 408011,
+    "nome": "Estabilidade dos Agentes Públicos |"
+  },
+  {
+    "id": 408005,
+    "nome": "Perda da estabilidade |"
+  },
+  {
+    "id": 408012,
+    "nome": "Dispensa de empregados públicos |"
+  },
+  {
+    "id": 408013,
+    "nome": "Vitaliciedade dos Agentes Públicos |"
+  },
+  {
+    "id": 408004,
+    "nome": "Perda da vitaliciedade |"
+  },
+  {
+    "id": 408014,
+    "nome": "Acesso aos Cargos e Empregos Públicos |"
+  },
+  {
+    "id": 408015,
+    "nome": "Acessibilidade a brasileiros e estrangeiros |"
+  },
+  {
+    "id": 408016,
+    "nome": "Requisitos para o acesso |"
+  },
+  {
+    "id": 422171,
+    "nome": "Formas de provimento |"
+  },
+  {
+    "id": 422172,
+    "nome": "Nomeação |"
+  },
+  {
+    "id": 422173,
+    "nome": "Recondução |"
+  },
+  {
+    "id": 422174,
+    "nome": "Readaptação |"
+  },
+  {
+    "id": 422175,
+    "nome": "Reversão |"
+  },
+  {
+    "id": 422176,
+    "nome": "Reintegração |"
+  },
+  {
+    "id": 422177,
+    "nome": "Promoção |"
+  },
+  {
+    "id": 422178,
+    "nome": "Aproveitamento |"
+  },
+  {
+    "id": 422179,
+    "nome": "Disponibilidade |"
+  },
+  {
+    "id": 422180,
+    "nome": "Remoção e Redistribuição |"
+  },
+  {
+    "id": 408017,
+    "nome": "Acumulação de Cargos, Empregos e Funções Públicas |"
+  },
+  {
+    "id": 408018,
+    "nome": "Concurso Público |"
+  },
+  {
+    "id": 408019,
+    "nome": "Testes psicotécnicos em concursos públicos |"
+  },
+  {
+    "id": 408020,
+    "nome": "Vinculação ao edital |"
+  },
+  {
+    "id": 408021,
+    "nome": "Controle da legalidade dos concursos públicos |"
+  },
+  {
+    "id": 408022,
+    "nome": "Desrespeito à exigência de concurso público e desvio de função |"
+  },
+  {
+    "id": 408023,
+    "nome": "Prazo de validade dos concursos públicos |"
+  },
+  {
+    "id": 408024,
+    "nome": "Direito à nomeação |"
+  },
+  {
+    "id": 408025,
+    "nome": "Prioridade na nomeação e direito do candidato preterido |"
+  },
+  {
+    "id": 408026,
+    "nome": "Reserva de percentual de cargos para candidatos com deficiência |"
+  },
+  {
+    "id": 408027,
+    "nome": "Cotas raciais em concursos públicos |"
+  },
+  {
+    "id": 408028,
+    "nome": "Remuneração |"
+  },
+  {
+    "id": 408029,
+    "nome": "Fixação da remuneração e revisão geral anual |"
+  },
+  {
+    "id": 408030,
+    "nome": "Teto constitucional |"
+  },
+  {
+    "id": 408031,
+    "nome": "Limites aos vencimentos dos servidores do Poder Legislativo e Judiciário |"
+  },
+  {
+    "id": 408032,
+    "nome": "Vedação à vinculação e equiparação de remunerações |"
+  },
+  {
+    "id": 408033,
+    "nome": "Vedação à incidência cumulativa de acréscimos pecuniários |"
+  },
+  {
+    "id": 408034,
+    "nome": "Remuneração por subsídio |"
+  },
+  {
+    "id": 408035,
+    "nome": "Irredutibilidade dos vencimentos e subsídios |"
+  },
+  {
+    "id": 408036,
+    "nome": "Regime de Previdência dos Servidores Públicos |"
+  },
+  {
+    "id": 408039,
+    "nome": "Modalidades de aposentadoria |"
+  },
+  {
+    "id": 408040,
+    "nome": "Aposentadoria por invalidez permanente |"
+  },
+  {
+    "id": 408041,
+    "nome": "Aposentadoria compulsória |"
+  },
+  {
+    "id": 408042,
+    "nome": "Aposentadoria voluntária |"
+  },
+  {
+    "id": 422181,
+    "nome": "Aposentadoria especial |"
+  },
+  {
+    "id": 422182,
+    "nome": "Aposentadoria dos professores |"
+  },
+  {
+    "id": 408037,
+    "nome": "Sanções e penalidades |"
+  },
+  {
+    "id": 408043,
+    "nome": "Civis |"
+  },
+  {
+    "id": 408044,
+    "nome": "Penais |"
+  },
+  {
+    "id": 408045,
+    "nome": "Administrativas |"
+  },
+  {
+    "id": 408038,
+    "nome": "Responsabilidade Administrativa |"
+  },
+  {
+    "id": 404372,
+    "nome": "Atos Administrativos |"
+  },
+  {
+    "id": 404373,
+    "nome": "Conceito e características |"
+  },
+  {
+    "id": 408046,
+    "nome": "Atos da Administração |"
+  },
+  {
+    "id": 408047,
+    "nome": "Conceitos e modalidades de atos da administração |"
+  },
+  {
+    "id": 408048,
+    "nome": "Atos de direito privado |"
+  },
+  {
+    "id": 408049,
+    "nome": "Atos materiais |"
+  },
+  {
+    "id": 408050,
+    "nome": "Atos de conhecimento |"
+  },
+  {
+    "id": 408051,
+    "nome": "Atos políticos (atos de governo) |"
+  },
+  {
+    "id": 408052,
+    "nome": "Atos administrativos propriamente ditos |"
+  },
+  {
+    "id": 422193,
+    "nome": "Fatos Administrativos |"
+  },
+  {
+    "id": 422194,
+    "nome": "Conceito de fatos administrativos |"
+  },
+  {
+    "id": 422195,
+    "nome": "Silêncio administrativo (Não ato) |"
+  },
+  {
+    "id": 404376,
+    "nome": "Atributos, Características ou Prerrogativas dos Atos Administrativos |"
+  },
+  {
+    "id": 404377,
+    "nome": "Presunção de Legitimidade ou Veracidade |"
+  },
+  {
+    "id": 404378,
+    "nome": "Imperatividade |"
+  },
+  {
+    "id": 404379,
+    "nome": "Autoexecutoriedade |"
+  },
+  {
+    "id": 422183,
+    "nome": "Exigibilidade |"
+  },
+  {
+    "id": 404380,
+    "nome": "Tipicidade |"
+  },
+  {
+    "id": 404374,
+    "nome": "Elementos, Requisitos e Pressupostos dos Atos Administrativos |"
+  },
+  {
+    "id": 408053,
+    "nome": "Competência ou sujeito (agente competente) |"
+  },
+  {
+    "id": 408054,
+    "nome": "Delegação de competências |"
+  },
+  {
+    "id": 408055,
+    "nome": "Avocação de competências |"
+  },
+  {
+    "id": 422184,
+    "nome": "Excesso de poder, função de fato e usurpação de função |"
+  },
+  {
+    "id": 408056,
+    "nome": "Finalidade |"
+  },
+  {
+    "id": 408057,
+    "nome": "Desvio de finalidade |"
+  },
+  {
+    "id": 408058,
+    "nome": "Forma |"
+  },
+  {
+    "id": 408059,
+    "nome": "Vício de forma |"
+  },
+  {
+    "id": 408060,
+    "nome": "Motivo ou causa |"
+  },
+  {
+    "id": 408061,
+    "nome": "Vício de motivo |"
+  },
+  {
+    "id": 408062,
+    "nome": "Motivação e Teoria dos Motivos Determinantes |"
+  },
+  {
+    "id": 408063,
+    "nome": "Objeto ou conteúdo |"
+  },
+  {
+    "id": 408064,
+    "nome": "Vício de objeto |"
+  },
+  {
+    "id": 404381,
+    "nome": "Classificação dos atos administrativos |"
+  },
+  {
+    "id": 408065,
+    "nome": "Atos Gerais e Individuais |"
+  },
+  {
+    "id": 408066,
+    "nome": "Atos Gerais |"
+  },
+  {
+    "id": 408067,
+    "nome": "Atos Individuais |"
+  },
+  {
+    "id": 408068,
+    "nome": "Atos Internos e Externos |"
+  },
+  {
+    "id": 408069,
+    "nome": "Atos Internos |"
+  },
+  {
+    "id": 408070,
+    "nome": "Atos Externos |"
+  },
+  {
+    "id": 408071,
+    "nome": "Atos de Império, de Gestão e de Expediente |"
+  },
+  {
+    "id": 408072,
+    "nome": "Atos de Império |"
+  },
+  {
+    "id": 408073,
+    "nome": "Atos de Gestão |"
+  },
+  {
+    "id": 408074,
+    "nome": "Atos de Expediente |"
+  },
+  {
+    "id": 408075,
+    "nome": "Atos Vinculados e Discricionários |"
+  },
+  {
+    "id": 408076,
+    "nome": "Atos Vinculados |"
+  },
+  {
+    "id": 408077,
+    "nome": "Atos Discricionários |"
+  },
+  {
+    "id": 408078,
+    "nome": "Mérito Administrativo |"
+  },
+  {
+    "id": 408079,
+    "nome": "Atos Simples, Complexos e Compostos |"
+  },
+  {
+    "id": 408080,
+    "nome": "Atos Simples |"
+  },
+  {
+    "id": 408081,
+    "nome": "Atos Complexos (atos união ou atos multilaterais ou bilaterais) |"
+  },
+  {
+    "id": 408082,
+    "nome": "Atos Compostos |"
+  },
+  {
+    "id": 408083,
+    "nome": "Atos Concretos e Abstratos |"
+  },
+  {
+    "id": 408084,
+    "nome": "Atos Concretos |"
+  },
+  {
+    "id": 408085,
+    "nome": "Atos Abstratos |"
+  },
+  {
+    "id": 408086,
+    "nome": "Ato-regra, Ato-condição e Ato Subjetivo |"
+  },
+  {
+    "id": 408087,
+    "nome": "Ato-regra |"
+  },
+  {
+    "id": 408088,
+    "nome": "Ato-condição |"
+  },
+  {
+    "id": 408089,
+    "nome": "Ato Subjetivo |"
+  },
+  {
+    "id": 408090,
+    "nome": "Atos Constitutivos, Extintivos, Modificativos e Declaratórios |"
+  },
+  {
+    "id": 408091,
+    "nome": "Atos Constitutivos |"
+  },
+  {
+    "id": 408092,
+    "nome": "Atos Extintivos |"
+  },
+  {
+    "id": 408093,
+    "nome": "Atos Modificativos |"
+  },
+  {
+    "id": 408094,
+    "nome": "Atos Declaratórios |"
+  },
+  {
+    "id": 408095,
+    "nome": "Atos Perfeitos, Imperfeitos, Válidos, Eficazes, Pendentes e Consumados |"
+  },
+  {
+    "id": 408096,
+    "nome": "Ato Eficaz versus Ato Exequível |"
+  },
+  {
+    "id": 408097,
+    "nome": "Atos Perfeitos |"
+  },
+  {
+    "id": 408098,
+    "nome": "Atos Imperfeitos |"
+  },
+  {
+    "id": 408099,
+    "nome": "Atos Válidos |"
+  },
+  {
+    "id": 408100,
+    "nome": "Atos Eficazes |"
+  },
+  {
+    "id": 408101,
+    "nome": "Atos Pendentes |"
+  },
+  {
+    "id": 408102,
+    "nome": "Atos Consumados |"
+  },
+  {
+    "id": 422185,
+    "nome": "Atos de efeitos reflexos e prodrômicos |"
+  },
+  {
+    "id": 404382,
+    "nome": "Espécies dos Atos Administrativos (tipologia) |"
+  },
+  {
+    "id": 404385,
+    "nome": "Atos Negociais |"
+  },
+  {
+    "id": 408104,
+    "nome": "Licença |"
+  },
+  {
+    "id": 408105,
+    "nome": "Autorização |"
+  },
+  {
+    "id": 408106,
+    "nome": "Permissão |"
+  },
+  {
+    "id": 422186,
+    "nome": "Admissão |"
+  },
+  {
+    "id": 408107,
+    "nome": "Nomeação |"
+  },
+  {
+    "id": 408108,
+    "nome": "Exoneração a pedido |"
+  },
+  {
+    "id": 408109,
+    "nome": "Aprovação |"
+  },
+  {
+    "id": 408110,
+    "nome": "Apreciação |"
+  },
+  {
+    "id": 408111,
+    "nome": "Visto |"
+  },
+  {
+    "id": 408112,
+    "nome": "Homologação |"
+  },
+  {
+    "id": 408113,
+    "nome": "Dispensa |"
+  },
+  {
+    "id": 408114,
+    "nome": "Renúncia |"
+  },
+  {
+    "id": 408115,
+    "nome": "Alvará |"
+  },
+  {
+    "id": 404386,
+    "nome": "Atos Enunciativos |"
+  },
+  {
+    "id": 408116,
+    "nome": "Certidão |"
+  },
+  {
+    "id": 408117,
+    "nome": "Atestado |"
+  },
+  {
+    "id": 408118,
+    "nome": "Parecer |"
+  },
+  {
+    "id": 408119,
+    "nome": "Apostila |"
+  },
+  {
+    "id": 404387,
+    "nome": "Atos Punitivos |"
+  },
+  {
+    "id": 408120,
+    "nome": "Multas |"
+  },
+  {
+    "id": 408121,
+    "nome": "Interdição |"
+  },
+  {
+    "id": 408122,
+    "nome": "Advertência |"
+  },
+  {
+    "id": 408123,
+    "nome": "Suspensão |"
+  },
+  {
+    "id": 408124,
+    "nome": "Demissão |"
+  },
+  {
+    "id": 408125,
+    "nome": "Cassação |"
+  },
+  {
+    "id": 404383,
+    "nome": "Atos Normativos |"
+  },
+  {
+    "id": 408126,
+    "nome": "Regimentos |"
+  },
+  {
+    "id": 408127,
+    "nome": "Instruções ministeriais |"
+  },
+  {
+    "id": 408128,
+    "nome": "Decretos regulamentares |"
+  },
+  {
+    "id": 408129,
+    "nome": "Instruções normativas |"
+  },
+  {
+    "id": 408130,
+    "nome": "Resoluções |"
+  },
+  {
+    "id": 404384,
+    "nome": "Atos Ordinatórios |"
+  },
+  {
+    "id": 408131,
+    "nome": "Circulares |"
+  },
+  {
+    "id": 408132,
+    "nome": "Avisos |"
+  },
+  {
+    "id": 408133,
+    "nome": "Portarias |"
+  },
+  {
+    "id": 408134,
+    "nome": "Instruções |"
+  },
+  {
+    "id": 408135,
+    "nome": "Provimentos |"
+  },
+  {
+    "id": 408136,
+    "nome": "Ordens de serviço |"
+  },
+  {
+    "id": 408137,
+    "nome": "Ofícios |"
+  },
+  {
+    "id": 408138,
+    "nome": "Despachos |"
+  },
+  {
+    "id": 404389,
+    "nome": "Sanatória dos Atos |"
+  },
+  {
+    "id": 408139,
+    "nome": "Convalidação dos Atos Administrativos |"
+  },
+  {
+    "id": 408140,
+    "nome": "Ratificação |"
+  },
+  {
+    "id": 422187,
+    "nome": "Conversão dos Atos Administrativos |"
+  },
+  {
+    "id": 422188,
+    "nome": "Reversão |"
+  },
+  {
+    "id": 422189,
+    "nome": "Sanatória voluntária |"
+  },
+  {
+    "id": 422190,
+    "nome": "Atos meramente irregulares |"
+  },
+  {
+    "id": 404388,
+    "nome": "Extinção dos Atos Administrativos (ou desfazimento) |"
+  },
+  {
+    "id": 408141,
+    "nome": "Anulação dos Atos Administrativos |"
+  },
+  {
+    "id": 408142,
+    "nome": "Revogação dos Atos Administrativos |"
+  },
+  {
+    "id": 408143,
+    "nome": "Atos não passíveis de revogação |"
+  },
+  {
+    "id": 408144,
+    "nome": "Cassação dos atos Administrativos |"
+  },
+  {
+    "id": 408145,
+    "nome": "Caducidade dos Atos Administrativos |"
+  },
+  {
+    "id": 408146,
+    "nome": "Contraposição dos Atos Administrativos (ou derrubada) |"
+  },
+  {
+    "id": 408147,
+    "nome": "Decadência administrativa |"
+  },
+  {
+    "id": 422191,
+    "nome": "Efeitos da extinção dos atos |"
+  },
+  {
+    "id": 422192,
+    "nome": "Ex nunc e Ex tunc (irretroatividade e retroatividade) |"
+  },
+  {
+    "id": 404429,
+    "nome": "Contratos Administrativos |"
+  },
+  {
+    "id": 404489,
+    "nome": "Conceito de Contrato Administrativo |"
+  },
+  {
+    "id": 422196,
+    "nome": "Contratos da Administração e Contratos Administrativos |"
+  },
+  {
+    "id": 422197,
+    "nome": "Pactos bilaterais e multilaterais de natureza não contratual |"
+  },
+  {
+    "id": 404490,
+    "nome": "Cláusulas Necessárias dos Contratos |"
+  },
+  {
+    "id": 404491,
+    "nome": "Características dos Contratos Administrativos |"
+  },
+  {
+    "id": 404492,
+    "nome": "Sujeitos do contrato |"
+  },
+  {
+    "id": 408148,
+    "nome": "Objetivo e Finalidade |"
+  },
+  {
+    "id": 408149,
+    "nome": "Obediência à forma prescrita em lei (formalidade) |"
+  },
+  {
+    "id": 408150,
+    "nome": "Formalização obrigatória |"
+  },
+  {
+    "id": 408151,
+    "nome": "Formalização facultativa |"
+  },
+  {
+    "id": 408152,
+    "nome": "Contrato verbal |"
+  },
+  {
+    "id": 408153,
+    "nome": "Procedimento legal |"
+  },
+  {
+    "id": 408154,
+    "nome": "Natureza de contrato de adesão |"
+  },
+  {
+    "id": 408155,
+    "nome": "Natureza intuitu personae |"
+  },
+  {
+    "id": 422198,
+    "nome": "Cláusulas Exorbitantes |"
+  },
+  {
+    "id": 408156,
+    "nome": "Mutabilidade |"
+  },
+  {
+    "id": 408157,
+    "nome": "Bilateralidade |"
+  },
+  {
+    "id": 408158,
+    "nome": "Comutatividade |"
+  },
+  {
+    "id": 404494,
+    "nome": "Vigência dos Contratos |"
+  },
+  {
+    "id": 408159,
+    "nome": "Prazos contratuais |"
+  },
+  {
+    "id": 408160,
+    "nome": "Prorrogação do contrato |"
+  },
+  {
+    "id": 404493,
+    "nome": "Cláusulas Exorbitantes em espécie |"
+  },
+  {
+    "id": 408161,
+    "nome": "Exigência de garantia |"
+  },
+  {
+    "id": 408162,
+    "nome": "Aspectos Gerais |"
+  },
+  {
+    "id": 408163,
+    "nome": "Modalidades de garantia |"
+  },
+  {
+    "id": 408164,
+    "nome": "Caução em dinheiro |"
+  },
+  {
+    "id": 408165,
+    "nome": "Caução em títulos da dívida pública |"
+  },
+  {
+    "id": 408166,
+    "nome": "Seguro-garantia |"
+  },
+  {
+    "id": 408167,
+    "nome": "Fiança bancária |"
+  },
+  {
+    "id": 408168,
+    "nome": "Alteração Unilateral |"
+  },
+  {
+    "id": 408169,
+    "nome": "Rescisão unilateral |"
+  },
+  {
+    "id": 408170,
+    "nome": "Fiscalização |"
+  },
+  {
+    "id": 408171,
+    "nome": "Aplicação de Penalidades |"
+  },
+  {
+    "id": 408172,
+    "nome": "Anulação |"
+  },
+  {
+    "id": 408173,
+    "nome": "Retomada do objeto |"
+  },
+  {
+    "id": 408174,
+    "nome": "Restrições ao uso da \"exceptio non adimpleti contractus\" (Não invocação da exceção do contrato não cumprido) |"
+  },
+  {
+    "id": 422199,
+    "nome": "Cláusula rebus sic stantibus |"
+  },
+  {
+    "id": 404495,
+    "nome": "Da Alteração dos Contratos |"
+  },
+  {
+    "id": 408175,
+    "nome": "Alteração unilateral |"
+  },
+  {
+    "id": 408176,
+    "nome": "Alteração por acordo das partes |"
+  },
+  {
+    "id": 404496,
+    "nome": "Teoria da Imprevisão dos Contratos |"
+  },
+  {
+    "id": 408177,
+    "nome": "Caso fortuito e força maior |"
+  },
+  {
+    "id": 408178,
+    "nome": "Fato do príncipe |"
+  },
+  {
+    "id": 408179,
+    "nome": "Fato da Administração |"
+  },
+  {
+    "id": 408180,
+    "nome": "Interferências imprevistas |"
+  },
+  {
+    "id": 404498,
+    "nome": "Acompanhamento e Fiscalização da Execução dos Contratos |"
+  },
+  {
+    "id": 408181,
+    "nome": "Aspectos Gerais |"
+  },
+  {
+    "id": 408182,
+    "nome": "Atribuições do fiscal do contrato |"
+  },
+  {
+    "id": 404499,
+    "nome": "Recebimento do Objeto dos Contratos |"
+  },
+  {
+    "id": 404500,
+    "nome": "Subcontratação |"
+  },
+  {
+    "id": 408183,
+    "nome": "Espécies de Contratos (tipologia) (contratos clássicos) |"
+  },
+  {
+    "id": 408190,
+    "nome": "Contratos de concessão de serviços públicos |"
+  },
+  {
+    "id": 408191,
+    "nome": "Concessão de serviço público ordinária |"
+  },
+  {
+    "id": 408192,
+    "nome": "Concessão patrocinada |"
+  },
+  {
+    "id": 408193,
+    "nome": "Concessão administrativa |"
+  },
+  {
+    "id": 408194,
+    "nome": "Concessão de obra pública |"
+  },
+  {
+    "id": 408195,
+    "nome": "Concessão de uso de bem público |"
+  },
+  {
+    "id": 408196,
+    "nome": "Contrato de obra pública |"
+  },
+  {
+    "id": 408197,
+    "nome": "Conceitos |"
+  },
+  {
+    "id": 408198,
+    "nome": "Regimes de execução |"
+  },
+  {
+    "id": 408199,
+    "nome": "Empreitada por preço global |"
+  },
+  {
+    "id": 408200,
+    "nome": "Empreitada por preço unitário |"
+  },
+  {
+    "id": 408201,
+    "nome": "Tarefa |"
+  },
+  {
+    "id": 408202,
+    "nome": "Empreitada integral |"
+  },
+  {
+    "id": 408203,
+    "nome": "Contrato de serviço |"
+  },
+  {
+    "id": 408204,
+    "nome": "Contrato de fornecimento (ou compras) |"
+  },
+  {
+    "id": 408184,
+    "nome": "Recursos Administrativos dos Contratos |"
+  },
+  {
+    "id": 408205,
+    "nome": "Recurso (recurso em sentido estrito) |"
+  },
+  {
+    "id": 408206,
+    "nome": "Representação |"
+  },
+  {
+    "id": 408207,
+    "nome": "Pedido de reconsideração |"
+  },
+  {
+    "id": 408185,
+    "nome": "Convênios |"
+  },
+  {
+    "id": 408208,
+    "nome": "Conceito de Convênio |"
+  },
+  {
+    "id": 408209,
+    "nome": "Instrumentos de Repasse e Partícipes e dos Convênios |"
+  },
+  {
+    "id": 422954,
+    "nome": "Decreto nº. 6.170/07 - Transferência de Recursos da União mediante Convênios e Contratos de Repasse |"
+  },
+  {
+    "id": 408210,
+    "nome": "Proposição e Celebração dos Convênios |"
+  },
+  {
+    "id": 408211,
+    "nome": "Execução dos Convênios |"
+  },
+  {
+    "id": 408212,
+    "nome": "Prestação de Contas dos Convênios |"
+  },
+  {
+    "id": 408213,
+    "nome": "Conclusão, Denúncia ou Rescisão dos Convênios |"
+  },
+  {
+    "id": 408214,
+    "nome": "Termo de Execução Descentralizada dos Convênios |"
+  },
+  {
+    "id": 422200,
+    "nome": "Portaria n. 424/2016 (Revogou a Portaria Interministerial MP/MF/CGU nº 507/2011) |"
+  },
+  {
+    "id": 408186,
+    "nome": "Sanções |"
+  },
+  {
+    "id": 408215,
+    "nome": "Advertência |"
+  },
+  {
+    "id": 408216,
+    "nome": "Multa |"
+  },
+  {
+    "id": 408217,
+    "nome": "Suspensão temporária |"
+  },
+  {
+    "id": 408218,
+    "nome": "Declaração de inidoneidade |"
+  },
+  {
+    "id": 408187,
+    "nome": "Revisão / Reajuste / Repactuação |"
+  },
+  {
+    "id": 408188,
+    "nome": "Extinção dos Contratos |"
+  },
+  {
+    "id": 408219,
+    "nome": "Pelo término do prazo e entrega do objeto |"
+  },
+  {
+    "id": 408220,
+    "nome": "Pela impossibilidade material ou jurídica |"
+  },
+  {
+    "id": 408221,
+    "nome": "Falecimento do contratado |"
+  },
+  {
+    "id": 408222,
+    "nome": "Dissolução da sociedade |"
+  },
+  {
+    "id": 408223,
+    "nome": "Anulação |"
+  },
+  {
+    "id": 422903,
+    "nome": "Anulação |"
+  },
+  {
+    "id": 408224,
+    "nome": "Rescisão dos contratos administrativos |"
+  },
+  {
+    "id": 408225,
+    "nome": "Rescisão Amigável |"
+  },
+  {
+    "id": 408226,
+    "nome": "Rescisão Judicial |"
+  },
+  {
+    "id": 408227,
+    "nome": "Rescisão por Arbitragem |"
+  },
+  {
+    "id": 408228,
+    "nome": "Rescisão de Pleno Direito |"
+  },
+  {
+    "id": 408189,
+    "nome": "Responsabilidade em Contratos Administrativos |"
+  },
+  {
+    "id": 404428,
+    "nome": "Licitações |"
+  },
+  {
+    "id": 404452,
+    "nome": "Parte Geral |"
+  },
+  {
+    "id": 404453,
+    "nome": "Conceitos e normas de Licitações |"
+  },
+  {
+    "id": 422201,
+    "nome": "Definições |"
+  },
+  {
+    "id": 422202,
+    "nome": "Competência legislativa |"
+  },
+  {
+    "id": 404454,
+    "nome": "Destinatários das Licitações |"
+  },
+  {
+    "id": 404455,
+    "nome": "Finalidade das Licitações |"
+  },
+  {
+    "id": 404456,
+    "nome": "Princípios das Licitações |"
+  },
+  {
+    "id": 408229,
+    "nome": "Princípio do formalismo |"
+  },
+  {
+    "id": 408230,
+    "nome": "Princípio da publicidade dos atos |"
+  },
+  {
+    "id": 408231,
+    "nome": "Princípio da igualdade entre os licitantes |"
+  },
+  {
+    "id": 408232,
+    "nome": "Regras de preferência (desempate, margens de preferência, etc.) |"
+  },
+  {
+    "id": 408233,
+    "nome": "Princípio do sigilo na apresentação das propostas |"
+  },
+  {
+    "id": 408234,
+    "nome": "Princípio da vinculação ao instrumento convocatório |"
+  },
+  {
+    "id": 408235,
+    "nome": "Princípio do julgamento objetivo |"
+  },
+  {
+    "id": 408236,
+    "nome": "Princípio da probidade e moralidade administrativa |"
+  },
+  {
+    "id": 408237,
+    "nome": "Princípio da adjudicação obrigatória ao vencedor |"
+  },
+  {
+    "id": 408238,
+    "nome": "Princípio da competitividade |"
+  },
+  {
+    "id": 408239,
+    "nome": "Princípio da padronização |"
+  },
+  {
+    "id": 404458,
+    "nome": "Objeto das Licitações |"
+  },
+  {
+    "id": 404457,
+    "nome": "Obra |"
+  },
+  {
+    "id": 404459,
+    "nome": "Serviço |"
+  },
+  {
+    "id": 404460,
+    "nome": "Compra |"
+  },
+  {
+    "id": 404461,
+    "nome": "Alienação |"
+  },
+  {
+    "id": 404462,
+    "nome": "Modalidades de Licitação |"
+  },
+  {
+    "id": 404463,
+    "nome": "Concorrência |"
+  },
+  {
+    "id": 404464,
+    "nome": "Tomada de Preço |"
+  },
+  {
+    "id": 404465,
+    "nome": "Convite |"
+  },
+  {
+    "id": 404466,
+    "nome": "Concurso |"
+  },
+  {
+    "id": 404467,
+    "nome": "Leilão |"
+  },
+  {
+    "id": 404469,
+    "nome": "Consulta |"
+  },
+  {
+    "id": 431415,
+    "nome": "Diálogo Competitivo |"
+  },
+  {
+    "id": 408240,
+    "nome": "Obrigatoriedade de Licitação |"
+  },
+  {
+    "id": 408241,
+    "nome": "Inexigibilidade de Licitação |"
+  },
+  {
+    "id": 408243,
+    "nome": "Fornecedor exclusivo |"
+  },
+  {
+    "id": 408244,
+    "nome": "Serviços técnicos profissionais especializados |"
+  },
+  {
+    "id": 408245,
+    "nome": "Contratação de artistas |"
+  },
+  {
+    "id": 408242,
+    "nome": "Dispensa de Licitação |"
+  },
+  {
+    "id": 408246,
+    "nome": "Licitação dispensada |"
+  },
+  {
+    "id": 408247,
+    "nome": "Licitação dispensável |"
+  },
+  {
+    "id": 408248,
+    "nome": "Em razão do valor |"
+  },
+  {
+    "id": 408249,
+    "nome": "Em razão da situação |"
+  },
+  {
+    "id": 408250,
+    "nome": "Em razão do objeto |"
+  },
+  {
+    "id": 408251,
+    "nome": "Em razão da pessoa |"
+  },
+  {
+    "id": 404475,
+    "nome": "Procedimento de Licitação |"
+  },
+  {
+    "id": 408252,
+    "nome": "Fase interna |"
+  },
+  {
+    "id": 408253,
+    "nome": "Abertura de processo administrativo |"
+  },
+  {
+    "id": 408254,
+    "nome": "Autorização |"
+  },
+  {
+    "id": 408255,
+    "nome": "Indicação de seu objeto |"
+  },
+  {
+    "id": 408256,
+    "nome": "Indicação do recurso próprio para a despesa |"
+  },
+  {
+    "id": 408258,
+    "nome": "Audiência pública |"
+  },
+  {
+    "id": 422204,
+    "nome": "Projeto Básico |"
+  },
+  {
+    "id": 422205,
+    "nome": "Projeto Executivo |"
+  },
+  {
+    "id": 408257,
+    "nome": "Fase externa |"
+  },
+  {
+    "id": 408259,
+    "nome": "Instrumento convocatório |"
+  },
+  {
+    "id": 408260,
+    "nome": "Publicação do Aviso de Edital |"
+  },
+  {
+    "id": 408261,
+    "nome": "Carta-convite |"
+  },
+  {
+    "id": 422206,
+    "nome": "Cláusulas obrigatórias |"
+  },
+  {
+    "id": 422207,
+    "nome": "Cláusulas facultativas |"
+  },
+  {
+    "id": 408262,
+    "nome": "Recebimento da documentação |"
+  },
+  {
+    "id": 408263,
+    "nome": "Habilitação |"
+  },
+  {
+    "id": 408264,
+    "nome": "Julgamento das propostas |"
+  },
+  {
+    "id": 408265,
+    "nome": "Comissão de licitação |"
+  },
+  {
+    "id": 408266,
+    "nome": "Homologação |"
+  },
+  {
+    "id": 408267,
+    "nome": "Adjudicação |"
+  },
+  {
+    "id": 404470,
+    "nome": "Tipos de Licitação |"
+  },
+  {
+    "id": 404471,
+    "nome": "Menor Preço |"
+  },
+  {
+    "id": 404473,
+    "nome": "Melhor Técnica |"
+  },
+  {
+    "id": 404472,
+    "nome": "Técnica e Preço |"
+  },
+  {
+    "id": 404474,
+    "nome": "Maior Lance ou Oferta |"
+  },
+  {
+    "id": 404468,
+    "nome": "Maior desconto |"
+  },
+  {
+    "id": 404476,
+    "nome": "Sanções |"
+  },
+  {
+    "id": 404477,
+    "nome": "Advertência |"
+  },
+  {
+    "id": 404478,
+    "nome": "Multa |"
+  },
+  {
+    "id": 404479,
+    "nome": "Suspensão temporária |"
+  },
+  {
+    "id": 404480,
+    "nome": "Declaração de inidoneidade |"
+  },
+  {
+    "id": 408272,
+    "nome": "Sistema de Registro de Preços (SRP) - Decreto n. 7.892/2013 |"
+  },
+  {
+    "id": 408276,
+    "nome": "Disposições gerais |"
+  },
+  {
+    "id": 408277,
+    "nome": "Competências do órgão gerenciador |"
+  },
+  {
+    "id": 408278,
+    "nome": "Competências do órgão participante |"
+  },
+  {
+    "id": 408279,
+    "nome": "Compra nacional |"
+  },
+  {
+    "id": 408280,
+    "nome": "Licitação para registro de preços |"
+  },
+  {
+    "id": 408281,
+    "nome": "Registro de preços e validade da ata |"
+  },
+  {
+    "id": 408282,
+    "nome": "Assinatura da ata e contratação com fornecedores registrados |"
+  },
+  {
+    "id": 408283,
+    "nome": "Utilização da ata de registro de preços por órgão ou entidades não participantes |"
+  },
+  {
+    "id": 408284,
+    "nome": "Intenção para registro de preços |"
+  },
+  {
+    "id": 408273,
+    "nome": "Anulação e revogação das licitações |"
+  },
+  {
+    "id": 404481,
+    "nome": "Recursos Administrativos |"
+  },
+  {
+    "id": 408275,
+    "nome": "Sistema de Cadastramento Unificado de Fornecedores (SICAF) - Decreto n. 3.722/2001 |"
+  },
+  {
+    "id": 404485,
+    "nome": "Cadastramento |"
+  },
+  {
+    "id": 408285,
+    "nome": "Finalidade |"
+  },
+  {
+    "id": 408286,
+    "nome": "Validade dos registros |"
+  },
+  {
+    "id": 404483,
+    "nome": "Regime Diferenciado de Contratações públicas (RDC) - Lei n. 12.462/2011 |"
+  },
+  {
+    "id": 422955,
+    "nome": "Noções preliminares |"
+  },
+  {
+    "id": 422956,
+    "nome": "Regras aplicáveis às licitações no âmbito do RDC |"
+  },
+  {
+    "id": 422957,
+    "nome": "Procedimento licitatório e suas fases |"
+  },
+  {
+    "id": 422958,
+    "nome": "Procedimentos Auxiliares das Licitações no Âmbito do RDC |"
+  },
+  {
+    "id": 422960,
+    "nome": "Dispensa e inexigibilidade |"
+  },
+  {
+    "id": 422961,
+    "nome": "Condições específicas para a participação e contratação |"
+  },
+  {
+    "id": 422962,
+    "nome": "Regras específicas aplicáveis aos contratos celebrados |"
+  },
+  {
+    "id": 422963,
+    "nome": "Pedidos de esclarecimento, impugnações e recursos |"
+  },
+  {
+    "id": 422964,
+    "nome": "Sanções administrativas |"
+  },
+  {
+    "id": 408297,
+    "nome": "Tratamento diferenciado para Micro e Pequenas empresas |"
+  },
+  {
+    "id": 408298,
+    "nome": "Crimes de Licitações |"
+  },
+  {
+    "id": 404482,
+    "nome": "Pregão - Lei n. 10.520/2002 |"
+  },
+  {
+    "id": 408299,
+    "nome": "Conceito de Pregão |"
+  },
+  {
+    "id": 408300,
+    "nome": "Etapas do Pregão |"
+  },
+  {
+    "id": 408301,
+    "nome": "Fase preparatória |"
+  },
+  {
+    "id": 408302,
+    "nome": "Fase externa |"
+  },
+  {
+    "id": 408303,
+    "nome": "Vedações do Pregão |"
+  },
+  {
+    "id": 408304,
+    "nome": "Garantia de proposta |"
+  },
+  {
+    "id": 408305,
+    "nome": "Aquisição do edital |"
+  },
+  {
+    "id": 408306,
+    "nome": "Pagamento de taxas e emolumento |"
+  },
+  {
+    "id": 408307,
+    "nome": "Infrações |"
+  },
+  {
+    "id": 408308,
+    "nome": "Pregão Eletrônico - Decreto n. 10.024/2019 (Revogou Decreto n. 5450/05) |"
+  },
+  {
+    "id": 408309,
+    "nome": "Disposições Preliminares |"
+  },
+  {
+    "id": 408310,
+    "nome": "Dos Procedimentos |"
+  },
+  {
+    "id": 408311,
+    "nome": "Do Acesso ao Sistema Eletrônico |"
+  },
+  {
+    "id": 408312,
+    "nome": "Da Condução do Processo |"
+  },
+  {
+    "id": 408313,
+    "nome": "Do Planejamento da Contratação |"
+  },
+  {
+    "id": 408314,
+    "nome": "Da Publicação do Aviso do Edital |"
+  },
+  {
+    "id": 408315,
+    "nome": "Da Apresentação da Proposta e dos Documentos de Habilitação |"
+  },
+  {
+    "id": 422905,
+    "nome": "Da Abertura da Sessão Pública e do Envio de Lances |"
+  },
+  {
+    "id": 408316,
+    "nome": "Do Julgamento |"
+  },
+  {
+    "id": 408317,
+    "nome": "Da Habilitação |"
+  },
+  {
+    "id": 408318,
+    "nome": "Do Recurso |"
+  },
+  {
+    "id": 408319,
+    "nome": "Da Adjudicação e da Homologação |"
+  },
+  {
+    "id": 408320,
+    "nome": "Do Saneamento da Proposta e da Habilitação |"
+  },
+  {
+    "id": 408321,
+    "nome": "Da Contratação |"
+  },
+  {
+    "id": 408322,
+    "nome": "Da Sanção |"
+  },
+  {
+    "id": 408323,
+    "nome": "Da Revogação e da Anulação |"
+  },
+  {
+    "id": 408324,
+    "nome": "Do Sistema de Dispensa Eletrônica |"
+  },
+  {
+    "id": 408325,
+    "nome": "Disposições Finais |"
+  },
+  {
+    "id": 404390,
+    "nome": "Serviços Públicos |"
+  },
+  {
+    "id": 404391,
+    "nome": "Conceito de Serviços Públicos |"
+  },
+  {
+    "id": 422209,
+    "nome": "Formas/modos de Prestação de Serviços Públicos |"
+  },
+  {
+    "id": 404392,
+    "nome": "Princípios do Serviço Público |"
+  },
+  {
+    "id": 408327,
+    "nome": "Classificações dos Serviços Públicos |"
+  },
+  {
+    "id": 408328,
+    "nome": "Serviços coletivos (gerais ou uti universi) e singulares (individuais ou uti singuli) |"
+  },
+  {
+    "id": 408329,
+    "nome": "Serviços delegáveis e indelegáveis |"
+  },
+  {
+    "id": 408330,
+    "nome": "Serviços próprios e impróprios |"
+  },
+  {
+    "id": 408331,
+    "nome": "Serviços exclusivos e não exclusivos |"
+  },
+  {
+    "id": 404397,
+    "nome": "Delegação dos Serviços Públicos |"
+  },
+  {
+    "id": 408332,
+    "nome": "Modalidades de delegação de serviços públicos |"
+  },
+  {
+    "id": 404393,
+    "nome": "Concessão de serviços públicos |"
+  },
+  {
+    "id": 408333,
+    "nome": "Concessão de serviço público ordinária |"
+  },
+  {
+    "id": 408334,
+    "nome": "Concessão patrocinada |"
+  },
+  {
+    "id": 408335,
+    "nome": "Concessão administrativa |"
+  },
+  {
+    "id": 408336,
+    "nome": "Permissão de serviços públicos |"
+  },
+  {
+    "id": 408337,
+    "nome": "Autorização de serviços públicos |"
+  },
+  {
+    "id": 408338,
+    "nome": "Licitação e contrato dos serviços públicos |"
+  },
+  {
+    "id": 408339,
+    "nome": "Critérios de Julgamento |"
+  },
+  {
+    "id": 404394,
+    "nome": "Inversão de fases |"
+  },
+  {
+    "id": 404395,
+    "nome": "Contrato de Concessão |"
+  },
+  {
+    "id": 408340,
+    "nome": "Serviço Público Adequado |"
+  },
+  {
+    "id": 408341,
+    "nome": "Requisitos |"
+  },
+  {
+    "id": 408342,
+    "nome": "Hipóteses de interrupção |"
+  },
+  {
+    "id": 408343,
+    "nome": "Prerrogativas do Poder Concedente |"
+  },
+  {
+    "id": 408344,
+    "nome": "Intervenção |"
+  },
+  {
+    "id": 408345,
+    "nome": "Política Tarifária dos Serviços Públicos |"
+  },
+  {
+    "id": 408346,
+    "nome": "Intervenção e Extinção da Concessão de Serviços Públicos |"
+  },
+  {
+    "id": 408347,
+    "nome": "Direitos e deveres dos usuários - Lei n. 13.460/2017 |"
+  },
+  {
+    "id": 408348,
+    "nome": "Encargos do prestador |"
+  },
+  {
+    "id": 408349,
+    "nome": "Parcerias público-privadas (PPP) - Lei 11.079/2004 |"
+  },
+  {
+    "id": 408350,
+    "nome": "Modalidades de parcerias |"
+  },
+  {
+    "id": 408351,
+    "nome": "Vedações e diretrizes das PPP |"
+  },
+  {
+    "id": 408352,
+    "nome": "Contrato de parceria público-privada |"
+  },
+  {
+    "id": 408353,
+    "nome": "Sociedade de propósito específicos (SPE) |"
+  },
+  {
+    "id": 408354,
+    "nome": "Licitação prévia |"
+  },
+  {
+    "id": 404402,
+    "nome": "Responsabilidade Civil do Estado |"
+  },
+  {
+    "id": 404403,
+    "nome": "Aspectos Gerais |"
+  },
+  {
+    "id": 404399,
+    "nome": "Tratamento constitucional e infraconstitucional |"
+  },
+  {
+    "id": 404404,
+    "nome": "Responsabilidade Civil Objetiva |"
+  },
+  {
+    "id": 404405,
+    "nome": "Responsabilidade Civil Subjetiva |"
+  },
+  {
+    "id": 404400,
+    "nome": "Responsabilidade civil por Omissão |"
+  },
+  {
+    "id": 408364,
+    "nome": "O Estado como \"garante\" |"
+  },
+  {
+    "id": 404406,
+    "nome": "Causas excludentes e atenuantes da Responsabilidade |"
+  },
+  {
+    "id": 408365,
+    "nome": "Caso fortuito ou força maior |"
+  },
+  {
+    "id": 408366,
+    "nome": "Culpa da vítima |"
+  },
+  {
+    "id": 408367,
+    "nome": "Fato exclusivo de terceiro |"
+  },
+  {
+    "id": 404407,
+    "nome": "Ação de Reparação |"
+  },
+  {
+    "id": 404408,
+    "nome": "Ação de Regresso |"
+  },
+  {
+    "id": 404401,
+    "nome": "Litisconsórcio |"
+  },
+  {
+    "id": 404398,
+    "nome": "Denunciação da lide |"
+  },
+  {
+    "id": 408368,
+    "nome": "Casos Especiais de Responsabilidade Civil do Estado |"
+  },
+  {
+    "id": 408369,
+    "nome": "Responsabilidade civil por atos de notários (cartórios) |"
+  },
+  {
+    "id": 408370,
+    "nome": "Responsabilidade civil por danos causados ao meio ambiente |"
+  },
+  {
+    "id": 408363,
+    "nome": "Responsabilidade civil por danos nucleares |"
+  },
+  {
+    "id": 408371,
+    "nome": "Responsabilidade civil por danos a presidiários |"
+  },
+  {
+    "id": 408372,
+    "nome": "Responsabilidade por atos terroristas |"
+  },
+  {
+    "id": 408373,
+    "nome": "Evolução Histórica (Teorias) |"
+  },
+  {
+    "id": 408378,
+    "nome": "Teoria da irresponsabilidade do Estado |"
+  },
+  {
+    "id": 408379,
+    "nome": "Teoria (civilista) da responsabilidade por atos de gestão |"
+  },
+  {
+    "id": 408380,
+    "nome": "Teoria da culpa civil - teoria da responsabilidade subjetiva |"
+  },
+  {
+    "id": 408381,
+    "nome": "Teoria da culpa administrativa (culpa do serviço ou culpa anônima) |"
+  },
+  {
+    "id": 408382,
+    "nome": "Teoria do risco administrativo |"
+  },
+  {
+    "id": 408383,
+    "nome": "Teoria do risco integral |"
+  },
+  {
+    "id": 408374,
+    "nome": "Responsabilidade civil do Estado no direito brasileiro |"
+  },
+  {
+    "id": 408375,
+    "nome": "Requisitos para a responsabilização do Estado |"
+  },
+  {
+    "id": 408384,
+    "nome": "Dano |"
+  },
+  {
+    "id": 408385,
+    "nome": "Conduta |"
+  },
+  {
+    "id": 408386,
+    "nome": "Nexo de causalidade |"
+  },
+  {
+    "id": 408362,
+    "nome": "Teoria do Risco Integral |"
+  },
+  {
+    "id": 408361,
+    "nome": "Conceito e características |"
+  },
+  {
+    "id": 408376,
+    "nome": "Prescrição |"
+  },
+  {
+    "id": 408359,
+    "nome": "Imprescritibilidade |"
+  },
+  {
+    "id": 408377,
+    "nome": "Responsabilidade civil do Estado por atos não administrativos |"
+  },
+  {
+    "id": 408358,
+    "nome": "Responsabilidade civil por ato legislativo |"
+  },
+  {
+    "id": 408357,
+    "nome": "Responsabilidade civil por ato jurisdicional |"
+  },
+  {
+    "id": 408356,
+    "nome": "Responsabilidade por Fato do príncipe |"
+  },
+  {
+    "id": 404409,
+    "nome": "Controle da Administração |"
+  },
+  {
+    "id": 404410,
+    "nome": "Introdução e Classificação do Controle da Administração |"
+  },
+  {
+    "id": 404412,
+    "nome": "Conceito de Controle da Administração |"
+  },
+  {
+    "id": 404411,
+    "nome": "Classificação quanto ao alcance |"
+  },
+  {
+    "id": 404413,
+    "nome": "Controle Interno |"
+  },
+  {
+    "id": 408387,
+    "nome": "Controle Externo |"
+  },
+  {
+    "id": 404414,
+    "nome": "Classificação quanto ao órgão |"
+  },
+  {
+    "id": 408388,
+    "nome": "Controle Administrativo |"
+  },
+  {
+    "id": 408402,
+    "nome": "Controle Legislativo ou Parlamentar |"
+  },
+  {
+    "id": 404415,
+    "nome": "Controle Judicial |"
+  },
+  {
+    "id": 408406,
+    "nome": "Classificação quanto ao momento |"
+  },
+  {
+    "id": 408407,
+    "nome": "Controle Prévio (a priori) |"
+  },
+  {
+    "id": 408408,
+    "nome": "Controle Concomitante (pari passu) |"
+  },
+  {
+    "id": 408409,
+    "nome": "Controle Posterior (a posteriori) |"
+  },
+  {
+    "id": 408410,
+    "nome": "Classificação quanto à natureza |"
+  },
+  {
+    "id": 408411,
+    "nome": "Controle de Legalidade |"
+  },
+  {
+    "id": 408412,
+    "nome": "Controle de Mérito |"
+  },
+  {
+    "id": 408390,
+    "nome": "Controle Administrativo |"
+  },
+  {
+    "id": 408389,
+    "nome": "Controle Administrativo Hierárquico |"
+  },
+  {
+    "id": 408355,
+    "nome": "Poder de Autotutela |"
+  },
+  {
+    "id": 408391,
+    "nome": "Controle Administrativo Não Hierárquico |"
+  },
+  {
+    "id": 408392,
+    "nome": "Tutela Administrativa |"
+  },
+  {
+    "id": 408393,
+    "nome": "Órgãos especializados de controle |"
+  },
+  {
+    "id": 408394,
+    "nome": "Direito de petição |"
+  },
+  {
+    "id": 408395,
+    "nome": "Representação |"
+  },
+  {
+    "id": 408396,
+    "nome": "Reclamação Administrativa |"
+  },
+  {
+    "id": 408397,
+    "nome": "Pedido de reconsideração |"
+  },
+  {
+    "id": 408398,
+    "nome": "Recurso |"
+  },
+  {
+    "id": 408399,
+    "nome": "Recurso Hierárquico Próprio |"
+  },
+  {
+    "id": 408400,
+    "nome": "Recurso Hierárquico Impróprio |"
+  },
+  {
+    "id": 408401,
+    "nome": "Revisão Administrativa |"
+  },
+  {
+    "id": 408404,
+    "nome": "Reformatio in pejus |"
+  },
+  {
+    "id": 408403,
+    "nome": "Sistema de controle interno |"
+  },
+  {
+    "id": 408413,
+    "nome": "Coisa julgada administrativa |"
+  },
+  {
+    "id": 405174,
+    "nome": "Controle Legislativo ou Parlamentar |"
+  },
+  {
+    "id": 404484,
+    "nome": "Controle parlamentar direto |"
+  },
+  {
+    "id": 404486,
+    "nome": "Controle exercido pelo Tribunal de Contas |"
+  },
+  {
+    "id": 404487,
+    "nome": "Controle Judicial |"
+  },
+  {
+    "id": 404488,
+    "nome": "Características básicas do controle judicial |"
+  },
+  {
+    "id": 422211,
+    "nome": "Limites ao controle judicial |"
+  },
+  {
+    "id": 422212,
+    "nome": "Inafastabilidade do controle judicial |"
+  },
+  {
+    "id": 422213,
+    "nome": "Ações Judiciais |"
+  },
+  {
+    "id": 404416,
+    "nome": "Mandado de Segurança |"
+  },
+  {
+    "id": 408405,
+    "nome": "Mandado de Segurança Coletivo |"
+  },
+  {
+    "id": 404417,
+    "nome": "Ação Popular |"
+  },
+  {
+    "id": 404418,
+    "nome": "Ação Civil Pública |"
+  },
+  {
+    "id": 422214,
+    "nome": "Outras ações |"
+  },
+  {
+    "id": 422215,
+    "nome": "Controle Social |"
+  },
+  {
+    "id": 422216,
+    "nome": "Ombudsman |"
+  },
+  {
+    "id": 422217,
+    "nome": "Accountability |"
+  },
+  {
+    "id": 404431,
+    "nome": "Improbidade Administrativa - Lei 8.429/92 e suas alterações |"
+  },
+  {
+    "id": 404527,
+    "nome": "Conceito de Improbidade Administrativa |"
+  },
+  {
+    "id": 422218,
+    "nome": "Previsão Constitucional de Improbidade Administrativa |"
+  },
+  {
+    "id": 408431,
+    "nome": "Sujeitos da Improbidade |"
+  },
+  {
+    "id": 408434,
+    "nome": "Sujeito Ativo |"
+  },
+  {
+    "id": 408435,
+    "nome": "Sujeito Passivo |"
+  },
+  {
+    "id": 404528,
+    "nome": "Espécies de Atos de Improbidade Administrativa |"
+  },
+  {
+    "id": 408414,
+    "nome": "Atos de Improbidade Administrativa que Importam Enriquecimento Ilícito |"
+  },
+  {
+    "id": 404529,
+    "nome": "Atos Administrativos que Causam Prejuízo ao Erário |"
+  },
+  {
+    "id": 404530,
+    "nome": "Atos de Improbidade Administrativa Decorrentes de Concessão ou Aplicação Indevida de Benefício Financeiro ou Tributário |"
+  },
+  {
+    "id": 408415,
+    "nome": "Atos de Improbidade Administrativa que Atentam Contra os Princípios da Administração Pública |"
+  },
+  {
+    "id": 408426,
+    "nome": "Da indisponibilidade dos bens |"
+  },
+  {
+    "id": 408425,
+    "nome": "Morte do agente |"
+  },
+  {
+    "id": 404531,
+    "nome": "Sanções Cabíveis |"
+  },
+  {
+    "id": 404532,
+    "nome": "Declaração de Bens e Valores |"
+  },
+  {
+    "id": 408428,
+    "nome": "Procedimento Administrativo |"
+  },
+  {
+    "id": 408432,
+    "nome": "Representação |"
+  },
+  {
+    "id": 408427,
+    "nome": "Do Processo Judicial |"
+  },
+  {
+    "id": 408433,
+    "nome": "Ação de Improbidade (Rito) |"
+  },
+  {
+    "id": 408424,
+    "nome": "Legitimados para propor a Ação |"
+  },
+  {
+    "id": 408423,
+    "nome": "Acordo de não persecução cível (transação ou acordo) |"
+  },
+  {
+    "id": 408430,
+    "nome": "Das disposições Penais |"
+  },
+  {
+    "id": 408429,
+    "nome": "Prescrição |"
+  },
+  {
+    "id": 408422,
+    "nome": "Imprescritibilidade do ressarcimento ao erário |"
+  },
+  {
+    "id": 408421,
+    "nome": "Disposições Gerais |"
+  },
+  {
+    "id": 404427,
+    "nome": "Processo Administrativo - Lei 9.784/99 |"
+  },
+  {
+    "id": 404442,
+    "nome": "Conceito de Processo Administrativo |"
+  },
+  {
+    "id": 404443,
+    "nome": "Abrangência e Aplicação do Processo Administrativo |"
+  },
+  {
+    "id": 404444,
+    "nome": "Princípios do Processo Administrativo |"
+  },
+  {
+    "id": 408436,
+    "nome": "Princípio da oficialidade |"
+  },
+  {
+    "id": 408437,
+    "nome": "Princípio do formalismo moderado |"
+  },
+  {
+    "id": 408438,
+    "nome": "Princípio da Pluralidade de Instâncias |"
+  },
+  {
+    "id": 408439,
+    "nome": "Princípio da publicidade |"
+  },
+  {
+    "id": 408440,
+    "nome": "Princípio da verdade material |"
+  },
+  {
+    "id": 408441,
+    "nome": "Princípio da Igualdade |"
+  },
+  {
+    "id": 408442,
+    "nome": "Princípio da legalidade |"
+  },
+  {
+    "id": 408443,
+    "nome": "Princípio da Finalidade |"
+  },
+  {
+    "id": 408444,
+    "nome": "Princípio da Motivação |"
+  },
+  {
+    "id": 408445,
+    "nome": "Princípio da Razoabilidade e Proporcionalidade |"
+  },
+  {
+    "id": 408446,
+    "nome": "Princípio da Moralidade |"
+  },
+  {
+    "id": 408447,
+    "nome": "Princípio da Ampla Defesa e do Contraditório |"
+  },
+  {
+    "id": 408448,
+    "nome": "Princípio da Segurança Jurídica |"
+  },
+  {
+    "id": 408449,
+    "nome": "Princípio da Supremacia do Interesse Público |"
+  },
+  {
+    "id": 408450,
+    "nome": "Princípio da Eficiência |"
+  },
+  {
+    "id": 408420,
+    "nome": "Princípio da duração razoável |"
+  },
+  {
+    "id": 408419,
+    "nome": "Princípio da pluralidade de instâncias |"
+  },
+  {
+    "id": 408418,
+    "nome": "Princípio da participação popular |"
+  },
+  {
+    "id": 404445,
+    "nome": "Direitos e Deveres dos Administrados |"
+  },
+  {
+    "id": 408451,
+    "nome": "Direitos dos Administrados |"
+  },
+  {
+    "id": 408452,
+    "nome": "Deveres dos Administrados |"
+  },
+  {
+    "id": 404446,
+    "nome": "Trâmite Processual (fases do processo administrativo) |"
+  },
+  {
+    "id": 408453,
+    "nome": "Instauração do Processo Administrativo |"
+  },
+  {
+    "id": 408461,
+    "nome": "Dos interessados |"
+  },
+  {
+    "id": 408460,
+    "nome": "Da competência administrativa |"
+  },
+  {
+    "id": 408454,
+    "nome": "Impedimento e Suspeição do Processo Administrativo |"
+  },
+  {
+    "id": 408455,
+    "nome": "Impedimento do Processo Administrativo |"
+  },
+  {
+    "id": 408456,
+    "nome": "Suspeição do Processo Administrativo |"
+  },
+  {
+    "id": 404447,
+    "nome": "Forma, Tempo e Lugar dos Atos do Processo Administrativo |"
+  },
+  {
+    "id": 408457,
+    "nome": "Comunicação dos Atos do Processo Administrativo |"
+  },
+  {
+    "id": 408458,
+    "nome": "Instrução do Processo Administrativo |"
+  },
+  {
+    "id": 408417,
+    "nome": "Do dever de decidir do Processo Administrativo |"
+  },
+  {
+    "id": 430343,
+    "nome": "Da decisão coordenada do Processo Administrativo |"
+  },
+  {
+    "id": 404448,
+    "nome": "Motivação do Processo Administrativo |"
+  },
+  {
+    "id": 404449,
+    "nome": "Desistência e outros Casos de Extinção do Processo Administrativo |"
+  },
+  {
+    "id": 408416,
+    "nome": "Da Anulação e Revogação |"
+  },
+  {
+    "id": 422219,
+    "nome": "Decadência |"
+  },
+  {
+    "id": 422220,
+    "nome": "Da Convalidação |"
+  },
+  {
+    "id": 404450,
+    "nome": "Recursos do Processo Administrativo |"
+  },
+  {
+    "id": 422906,
+    "nome": "Reformatio in pejus |"
+  },
+  {
+    "id": 408459,
+    "nome": "Revisão do Processo Administrativo |"
+  },
+  {
+    "id": 404451,
+    "nome": "Prazos do Processo Administrativo |"
+  },
+  {
+    "id": 422221,
+    "nome": "Sanções do Processo Administrativo |"
+  },
+  {
+    "id": 422222,
+    "nome": "Da prioridade na tramitação |"
+  },
+  {
+    "id": 404419,
+    "nome": "Bens Públicos |"
+  },
+  {
+    "id": 404420,
+    "nome": "Conceito de Bens Públicos (terminologia) |"
+  },
+  {
+    "id": 422223,
+    "nome": "Síntese evolutiva |"
+  },
+  {
+    "id": 422224,
+    "nome": "Noção |"
+  },
+  {
+    "id": 422225,
+    "nome": "Domínio do Estado |"
+  },
+  {
+    "id": 422226,
+    "nome": "Domínio privado |"
+  },
+  {
+    "id": 422229,
+    "nome": "Domínio público do subsolo |"
+  },
+  {
+    "id": 404421,
+    "nome": "Classificação de Bens Públicos (tipologia) |"
+  },
+  {
+    "id": 408462,
+    "nome": "Quanto à Titularidade |"
+  },
+  {
+    "id": 408463,
+    "nome": "Bens Federais |"
+  },
+  {
+    "id": 408464,
+    "nome": "Bens Estaduais e Distritais |"
+  },
+  {
+    "id": 408465,
+    "nome": "Bens Municipais |"
+  },
+  {
+    "id": 408466,
+    "nome": "Quanto à Destinação |"
+  },
+  {
+    "id": 408467,
+    "nome": "Bens de Uso Comum do Povo |"
+  },
+  {
+    "id": 408468,
+    "nome": "Bens de Uso Especial |"
+  },
+  {
+    "id": 408469,
+    "nome": "Bens Dominicais |"
+  },
+  {
+    "id": 408470,
+    "nome": "Quanto à Disponibilidade |"
+  },
+  {
+    "id": 408471,
+    "nome": "Bens indisponíveis por natureza |"
+  },
+  {
+    "id": 408472,
+    "nome": "Bens patrimoniais indisponíveis |"
+  },
+  {
+    "id": 408473,
+    "nome": "Bens patrimoniais disponíveis |"
+  },
+  {
+    "id": 404422,
+    "nome": "Características de Bens Públicos (Regime jurídico geral) |"
+  },
+  {
+    "id": 408474,
+    "nome": "Inalienabilidade Relativa |"
+  },
+  {
+    "id": 408475,
+    "nome": "Impenhorabilidade |"
+  },
+  {
+    "id": 408476,
+    "nome": "Imprescritibilidade |"
+  },
+  {
+    "id": 408477,
+    "nome": "Não Onerabilidade |"
+  },
+  {
+    "id": 404423,
+    "nome": "Aquisição e Alienação de Bens Públicos (Formação do patrimônio público) |"
+  },
+  {
+    "id": 408478,
+    "nome": "Aquisição originária |"
+  },
+  {
+    "id": 408479,
+    "nome": "Aquisição derivada |"
+  },
+  {
+    "id": 408480,
+    "nome": "Formas de aquisição |"
+  },
+  {
+    "id": 408481,
+    "nome": "Contratos |"
+  },
+  {
+    "id": 408482,
+    "nome": "Usucapião |"
+  },
+  {
+    "id": 408483,
+    "nome": "Desapropriação |"
+  },
+  {
+    "id": 408484,
+    "nome": "Acessão |"
+  },
+  {
+    "id": 408485,
+    "nome": "Aquisição causa mortis |"
+  },
+  {
+    "id": 408487,
+    "nome": "Adjudicação |"
+  },
+  {
+    "id": 408488,
+    "nome": "Resgate na enfiteuse |"
+  },
+  {
+    "id": 422230,
+    "nome": "Incorporação ao capital de sociedade |"
+  },
+  {
+    "id": 422231,
+    "nome": "Dação em pagamento |"
+  },
+  {
+    "id": 422232,
+    "nome": "Investidura e concurso voluntário |"
+  },
+  {
+    "id": 408490,
+    "nome": "Alienação de Bens Públicos |"
+  },
+  {
+    "id": 404425,
+    "nome": "Principais espécies de bens públicos |"
+  },
+  {
+    "id": 408491,
+    "nome": "Terras devolutas |"
+  },
+  {
+    "id": 408492,
+    "nome": "Terrenos de marinha e seus acrescidos |"
+  },
+  {
+    "id": 408494,
+    "nome": "Terras ocupadas pelos índios |"
+  },
+  {
+    "id": 408495,
+    "nome": "Plataforma continental |"
+  },
+  {
+    "id": 408496,
+    "nome": "Mar territorial |"
+  },
+  {
+    "id": 408497,
+    "nome": "Ilhas |"
+  },
+  {
+    "id": 408498,
+    "nome": "Faixa de fronteira |"
+  },
+  {
+    "id": 408499,
+    "nome": "Águas públicas (Domínio hídrico. Regime das águas) |"
+  },
+  {
+    "id": 422233,
+    "nome": "Minas e jazidas |"
+  },
+  {
+    "id": 404424,
+    "nome": "Uso de Bens Públicos por Particulares |"
+  },
+  {
+    "id": 408500,
+    "nome": "Autorização de uso |"
+  },
+  {
+    "id": 408501,
+    "nome": "Permissão de uso |"
+  },
+  {
+    "id": 408502,
+    "nome": "Concessão de uso |"
+  },
+  {
+    "id": 408503,
+    "nome": "Concessão de direito real de uso |"
+  },
+  {
+    "id": 408504,
+    "nome": "Concessão de uso especial para fins de moradia |"
+  },
+  {
+    "id": 422234,
+    "nome": "Cessão de uso |"
+  },
+  {
+    "id": 408505,
+    "nome": "Afetação e Desafetação |"
+  },
+  {
+    "id": 404426,
+    "nome": "Intervenção do Estado na Propriedade e no Domínio Econômico |"
+  },
+  {
+    "id": 404432,
+    "nome": "Noções sobre Intervenção do Estado na Propriedade Privada |"
+  },
+  {
+    "id": 422235,
+    "nome": "Função social da propriedade |"
+  },
+  {
+    "id": 404434,
+    "nome": "Modalidades de Intervenção |"
+  },
+  {
+    "id": 404435,
+    "nome": "Servidão Administrativa |"
+  },
+  {
+    "id": 404436,
+    "nome": "Requisição Administrativa |"
+  },
+  {
+    "id": 404437,
+    "nome": "Ocupação Temporária |"
+  },
+  {
+    "id": 404438,
+    "nome": "Limitações Administrativas |"
+  },
+  {
+    "id": 404439,
+    "nome": "Tombamento |"
+  },
+  {
+    "id": 404440,
+    "nome": "Desapropriação |"
+  },
+  {
+    "id": 408506,
+    "nome": "Pressupostos da desapropriação |"
+  },
+  {
+    "id": 408507,
+    "nome": "Desapropriação por necessidade pública |"
+  },
+  {
+    "id": 408508,
+    "nome": "Desapropriação por utilidade pública |"
+  },
+  {
+    "id": 408509,
+    "nome": "Desapropriação por interesse social |"
+  },
+  {
+    "id": 408510,
+    "nome": "Bens desapropriáveis |"
+  },
+  {
+    "id": 408511,
+    "nome": "Procedimento de desapropriação |"
+  },
+  {
+    "id": 408512,
+    "nome": "Fase declaratória |"
+  },
+  {
+    "id": 408513,
+    "nome": "Fase executória |"
+  },
+  {
+    "id": 408514,
+    "nome": "Fase executória administrativa |"
+  },
+  {
+    "id": 408515,
+    "nome": "Fase executória judicial |"
+  },
+  {
+    "id": 408516,
+    "nome": "Indenização |"
+  },
+  {
+    "id": 408517,
+    "nome": "Imissão provisória na posse |"
+  },
+  {
+    "id": 408518,
+    "nome": "Destino dos bens desapropriados |"
+  },
+  {
+    "id": 408519,
+    "nome": "Desapropriação sancionatória |"
+  },
+  {
+    "id": 408520,
+    "nome": "Desapropriação indireta |"
+  },
+  {
+    "id": 408521,
+    "nome": "Direito de extensão |"
+  },
+  {
+    "id": 408522,
+    "nome": "Tredestinação |"
+  },
+  {
+    "id": 404433,
+    "nome": "Tredestinação lícita |"
+  },
+  {
+    "id": 404441,
+    "nome": "Tredestinação ilícita |"
+  },
+  {
+    "id": 408523,
+    "nome": "Retrocessão |"
+  },
+  {
+    "id": 422236,
+    "nome": "Intervenção sancionatória: multa, interdição, destruição de coisas e confisco |"
+  },
+  {
+    "id": 422237,
+    "nome": "Processo Administrativo Disciplinar |"
+  },
+  {
+    "id": 422238,
+    "nome": "Rito Sumário |"
+  },
+  {
+    "id": 422239,
+    "nome": "Verdade Sabida |"
+  },
+  {
+    "id": 422240,
+    "nome": "Sindicância |"
+  },
+  {
+    "id": 422241,
+    "nome": "Rito Ordinário |"
+  },
+  {
+    "id": 422242,
+    "nome": "Tópicos especiais |"
+  },
+  {
+    "id": 422243,
+    "nome": "Insurgência contra o exercício de competências |"
+  },
+  {
+    "id": 422244,
+    "nome": "Mérito do ato administrativo, discricionariedade técnica, controle da discricionariedade |"
+  },
+  {
+    "id": 422245,
+    "nome": "Regulamentos de complementação técnica; regulamentos impróprios |"
+  },
+  {
+    "id": 422246,
+    "nome": "Móvel do agente |"
+  },
+  {
+    "id": 422248,
+    "nome": "Advocacia Pública Consultiva |"
+  },
+  {
+    "id": 422250,
+    "nome": "Responsabilidade do parecerista |"
+  },
+  {
+    "id": 422251,
+    "nome": "Implementação das Políticas Públicas. |"
+  },
+  {
+    "id": 422252,
+    "nome": "Instrumentos e alternativas de implementação |"
+  },
+  {
+    "id": 422253,
+    "nome": "Análise do art. 84 da CF/1988 |"
+  },
+  {
+    "id": 422254,
+    "nome": "Limites do poder regulamentar |"
+  },
+  {
+    "id": 422255,
+    "nome": "Vias públicas; cemitérios públicos; portos. |"
+  },
+  {
+    "id": 422256,
+    "nome": "Função social do imóvel rural. |"
+  },
+  {
+    "id": 422257,
+    "nome": "Judicialização das Políticas Públicas |"
+  },
+  {
+    "id": 404533,
+    "nome": "Legislação Administrativa |"
+  },
+  {
+    "id": 422892,
+    "nome": "CF/88 - Da Administração Pública (Título III, Capítulo VII - Arts. 37 a 43) |"
+  },
+  {
+    "id": 422893,
+    "nome": "Capítulo VII - Da administração pública |"
+  },
+  {
+    "id": 422894,
+    "nome": "Seção I - Disposições gerais |"
+  },
+  {
+    "id": 422895,
+    "nome": "Seção II - Dos servidores públicos |"
+  },
+  {
+    "id": 422896,
+    "nome": "Seção III - Dos militares dos estados, do distrito federal e dos territórios |"
+  },
+  {
+    "id": 422258,
+    "nome": "Lei 1.079/50 - Crimes de Responsabilidade |"
+  },
+  {
+    "id": 422259,
+    "nome": "Parte Primeira - Do Presidente da República e Ministros de Estado |"
+  },
+  {
+    "id": 422260,
+    "nome": "Título I - Capítulo I - Dos Crimes contra a existência da União |"
+  },
+  {
+    "id": 422261,
+    "nome": "Capítulo II - Dos crimes contra o livre exercício dos poderes constitucionais |"
+  },
+  {
+    "id": 404543,
+    "nome": "Capítulo III - Dos crimes contra o exercício dos direitos políticos, individuais e sociais |"
+  },
+  {
+    "id": 422262,
+    "nome": "Capítulo IV - Dos crimes contra a segurança interna do país |"
+  },
+  {
+    "id": 422263,
+    "nome": "Capítulo V - Dos crimes contra a probidade na administração |"
+  },
+  {
+    "id": 422264,
+    "nome": "Capítulo VI - Dos crimes contra a lei orçamentária |"
+  },
+  {
+    "id": 422265,
+    "nome": "Capítulo VII - Dos crimes contra a guarda e legal emprego dos dinheiros públicos |"
+  },
+  {
+    "id": 422266,
+    "nome": "Capítulo VIII - Dos crimes contra o cumprimento das decisões judiciárias |"
+  },
+  {
+    "id": 422267,
+    "nome": "Título II - Dos Ministros de Estado |"
+  },
+  {
+    "id": 422268,
+    "nome": "Parte segunda - Processo e julgamento |"
+  },
+  {
+    "id": 422269,
+    "nome": "Título Único - Do Presidente da República e Ministros de Estado |"
+  },
+  {
+    "id": 422270,
+    "nome": "Capítulo I - Da denúncia |"
+  },
+  {
+    "id": 422271,
+    "nome": "Capítulo II - Da acusação e da defesa |"
+  },
+  {
+    "id": 422272,
+    "nome": "Capítulo III - Da sentença |"
+  },
+  {
+    "id": 422273,
+    "nome": "Título Único |"
+  },
+  {
+    "id": 422274,
+    "nome": "Capítulo I - Dos Governadores e Secretários dos Estados |"
+  },
+  {
+    "id": 422275,
+    "nome": "Capítulo II - Da denúncia, acusação e julgamento |"
+  },
+  {
+    "id": 422276,
+    "nome": "Disposições Gerais |"
+  },
+  {
+    "id": 404430,
+    "nome": "Lei nº 8.112/1990 |"
+  },
+  {
+    "id": 404501,
+    "nome": "Título I - Capítulo Único |"
+  },
+  {
+    "id": 404502,
+    "nome": "Título II - Do Provimento, Vacância, Remoção, Redistribuição e Substituição |"
+  },
+  {
+    "id": 404503,
+    "nome": "Capítulo I - Do Provimento |"
+  },
+  {
+    "id": 404512,
+    "nome": "Capítulo II - Da Vacância |"
+  },
+  {
+    "id": 404511,
+    "nome": "Capítulo III - Da Remoção e da Redistribuição |"
+  },
+  {
+    "id": 404510,
+    "nome": "Capítulo IV - Da Substituição |"
+  },
+  {
+    "id": 404504,
+    "nome": "Título III - Dos Direitos e Vantagens |"
+  },
+  {
+    "id": 404505,
+    "nome": "Capítulo I - Do Vencimento e da Remuneração |"
+  },
+  {
+    "id": 404506,
+    "nome": "Capítulo II - Das Vantagens |"
+  },
+  {
+    "id": 404507,
+    "nome": "Capítulo III - Das Férias |"
+  },
+  {
+    "id": 404508,
+    "nome": "Capítulo IV - Das Licenças |"
+  },
+  {
+    "id": 404509,
+    "nome": "Capítulo V - Dos Afastamentos |"
+  },
+  {
+    "id": 422907,
+    "nome": "Capítulo VI - Das Concessões |"
+  },
+  {
+    "id": 422908,
+    "nome": "Capítulo VII - Do Tempo de Serviço |"
+  },
+  {
+    "id": 422909,
+    "nome": "Capítulo VIII - Do Direito de Petição |"
+  },
+  {
+    "id": 404513,
+    "nome": "Título IV - Do Regime Disciplinar |"
+  },
+  {
+    "id": 404514,
+    "nome": "Capítulo I - Dos Deveres |"
+  },
+  {
+    "id": 404515,
+    "nome": "Capítulo II - Das Proibições |"
+  },
+  {
+    "id": 404516,
+    "nome": "Capítulo III - Da Acumulação |"
+  },
+  {
+    "id": 404517,
+    "nome": "Capítulo IV - Das Responsabilidades |"
+  },
+  {
+    "id": 404518,
+    "nome": "Capítulo V - Das Penalidades |"
+  },
+  {
+    "id": 404519,
+    "nome": "Título V - Do Processo Administrativo Disciplinar |"
+  },
+  {
+    "id": 404520,
+    "nome": "Capítulo I - Disposições Gerais |"
+  },
+  {
+    "id": 404521,
+    "nome": "Capítulo II - Do Afastamento Preventivo |"
+  },
+  {
+    "id": 404522,
+    "nome": "Capítulo III - Do Processo Disciplinar |"
+  },
+  {
+    "id": 404523,
+    "nome": "Título VI - Da Seguridade Social do Servidor |"
+  },
+  {
+    "id": 404524,
+    "nome": "Capítulo I - Disposições Gerais |"
+  },
+  {
+    "id": 404525,
+    "nome": "Capítulo II - Dos Benefícios |"
+  },
+  {
+    "id": 404526,
+    "nome": "Capítulo III - Da Assistência à Saúde |"
+  },
+  {
+    "id": 407956,
+    "nome": "Título VII - Capítulo Único |"
+  },
+  {
+    "id": 404375,
+    "nome": "Da Contratação Temporária de Excepcional Interesse Público |"
+  },
+  {
+    "id": 422910,
+    "nome": "Título VIII - Capítulo Único Das Disposições Gerais |"
+  },
+  {
+    "id": 422277,
+    "nome": "Lei nº 12.527/2011 - Lei de Acesso à Informação |"
+  },
+  {
+    "id": 422278,
+    "nome": "Capítulo I - Disposições Gerais |"
+  },
+  {
+    "id": 422279,
+    "nome": "Capítulo II - Do acesso a informações e da sua divulgação |"
+  },
+  {
+    "id": 422280,
+    "nome": "Capítulo III - Do procedimento de acesso à informação |"
+  },
+  {
+    "id": 422281,
+    "nome": "Seção I - Do pedido de acesso |"
+  },
+  {
+    "id": 422282,
+    "nome": "Seção II - Dos Recursos |"
+  },
+  {
+    "id": 422283,
+    "nome": "Capítulo IV - Das restrições de acesso à informação |"
+  },
+  {
+    "id": 422284,
+    "nome": "Seção I - Disposições Gerais |"
+  },
+  {
+    "id": 422285,
+    "nome": "Seção II - Da Classificação da Informação quanto ao Grau e Prazos de Sigilo |"
+  },
+  {
+    "id": 422286,
+    "nome": "Seção III - Da Proteção e do Controle de Informações Sigilosas |"
+  },
+  {
+    "id": 422287,
+    "nome": "Seção IV - Dos Procedimentos de Classificação, Reclassificação e Desclassificação |"
+  },
+  {
+    "id": 422288,
+    "nome": "Seção V - Das Informações Pessoais |"
+  },
+  {
+    "id": 422289,
+    "nome": "Capítulo V - Das responsabilidades |"
+  },
+  {
+    "id": 422290,
+    "nome": "Capítulo VI - Das disposições finais e transitórias |"
+  },
+  {
+    "id": 432655,
+    "nome": "Decreto Federal 7.724/12 - Regulamenta a Lei nº 12.527 |"
+  },
+  {
+    "id": 422291,
+    "nome": "Lei 8.666/93 |"
+  },
+  {
+    "id": 422292,
+    "nome": "Capítulo I - Das Disposições Gerais |"
+  },
+  {
+    "id": 422294,
+    "nome": "Seção I - Dos Princípios |"
+  },
+  {
+    "id": 422295,
+    "nome": "Seção II - Das Definições |"
+  },
+  {
+    "id": 422296,
+    "nome": "Seção III - Das Obras e Serviços |"
+  },
+  {
+    "id": 422297,
+    "nome": "Seção IV - Dos Serviços Técnicos Profissionais Especializados |"
+  },
+  {
+    "id": 422298,
+    "nome": "Seção V - Das Compras |"
+  },
+  {
+    "id": 422299,
+    "nome": "Seção VI - Das Alienações |"
+  },
+  {
+    "id": 422293,
+    "nome": "Capítulo II - Da Licitação |"
+  },
+  {
+    "id": 422300,
+    "nome": "Seção I - Das Modalidades, Limites e Dispensa |"
+  },
+  {
+    "id": 422301,
+    "nome": "Seção II - Da Habilitação |"
+  },
+  {
+    "id": 422302,
+    "nome": "Seção III - Dos Registros Cadastrais |"
+  },
+  {
+    "id": 422303,
+    "nome": "Seção IV - Do Procedimento e Julgamento |"
+  },
+  {
+    "id": 422304,
+    "nome": "Capítulo III - Dos contratos |"
+  },
+  {
+    "id": 422305,
+    "nome": "Seção I - Disposições Preliminares |"
+  },
+  {
+    "id": 422306,
+    "nome": "Seção II - Da Formalização dos Contratos |"
+  },
+  {
+    "id": 422307,
+    "nome": "Seção III - Da Alteração dos Contratos |"
+  },
+  {
+    "id": 422308,
+    "nome": "Seção IV - Da Execução dos Contratos |"
+  },
+  {
+    "id": 422309,
+    "nome": "Seção V - Da Inexecução e da Rescisão dos Contratos |"
+  },
+  {
+    "id": 422310,
+    "nome": "Capítulo IV - Das sanções administrativas e da tutela judicial |"
+  },
+  {
+    "id": 422311,
+    "nome": "Seção I - Disposições Gerais |"
+  },
+  {
+    "id": 422312,
+    "nome": "Seção II - Das Sanções Administrativas |"
+  },
+  {
+    "id": 422313,
+    "nome": "Seção III - Dos Crimes e das Penas |"
+  },
+  {
+    "id": 422314,
+    "nome": "Seção IV - Do Processo e do Procedimento Judicial |"
+  },
+  {
+    "id": 422315,
+    "nome": "Capítulo V - Dos Recursos Administrativos |"
+  },
+  {
+    "id": 422316,
+    "nome": "Capítulo VI - Das disposições finais e transitórias |"
+  },
+  {
+    "id": 422911,
+    "nome": "Lei 10.520/02 |"
+  },
+  {
+    "id": 422317,
+    "nome": "Lei nº 12.232/2010 |"
+  },
+  {
+    "id": 422318,
+    "nome": "Capítulo I - Disposições Gerais |"
+  },
+  {
+    "id": 422319,
+    "nome": "Capítulo II - Dos procedimentos licitatórios |"
+  },
+  {
+    "id": 422320,
+    "nome": "Capítulo III - Dos contratos de serviços e publicidade e da sua execução |"
+  },
+  {
+    "id": 422912,
+    "nome": "Lei 9.784/99 |"
+  },
+  {
+    "id": 422913,
+    "nome": "Capítulo I - Das Disposições Gerais |"
+  },
+  {
+    "id": 422914,
+    "nome": "Capítulo II - Dos Direitos dos Administrados |"
+  },
+  {
+    "id": 422915,
+    "nome": "Capítulo III - Dos Deveres do Administrado |"
+  },
+  {
+    "id": 422916,
+    "nome": "Capítulo IV - Do Início do Processo |"
+  },
+  {
+    "id": 422917,
+    "nome": "Capítulo V - Dos Interessados |"
+  },
+  {
+    "id": 422918,
+    "nome": "Capítulo VI - Da Competência |"
+  },
+  {
+    "id": 422919,
+    "nome": "Capítulo VII - Dos Impedimentos e da Suspeição |"
+  },
+  {
+    "id": 422920,
+    "nome": "Capítulo VIII - Da forma, tempo e lugar dos atos do processo |"
+  },
+  {
+    "id": 422921,
+    "nome": "Capítulo IX - Da Comunicação dos Atos |"
+  },
+  {
+    "id": 422922,
+    "nome": "Capítulo X - Da Instrução |"
+  },
+  {
+    "id": 422923,
+    "nome": "Capítulo XI - Do Dever de Decidir |"
+  },
+  {
+    "id": 422924,
+    "nome": "Capítulo XII - Da Motivação |"
+  },
+  {
+    "id": 422925,
+    "nome": "Capítulo XIII - Da desistência e outros casos de extinção do processo |"
+  },
+  {
+    "id": 422926,
+    "nome": "Capítulo XIV - Da anulação, revogação e convalidação |"
+  },
+  {
+    "id": 422927,
+    "nome": "Capítulo XV - Do recurso administrativo e da revisão |"
+  },
+  {
+    "id": 422928,
+    "nome": "Capítulo XVI - Dos Prazos |"
+  },
+  {
+    "id": 422929,
+    "nome": "Capítulo XVII - Das Sanções |"
+  },
+  {
+    "id": 422930,
+    "nome": "Capítulo XVIII - Das Disposições Finais |"
+  },
+  {
+    "id": 422322,
+    "nome": "Lei 9.873/99 - Prescrição |"
+  },
+  {
+    "id": 422931,
+    "nome": "Lei nº 13.460/2017 - Lei dos usuários dos serviços públicos |"
+  },
+  {
+    "id": 422323,
+    "nome": "Capítulo I - Disposições Preliminares |"
+  },
+  {
+    "id": 422324,
+    "nome": "Capítulo II - Dos direitos básicos e deveres dos usuários |"
+  },
+  {
+    "id": 422325,
+    "nome": "Capítulo III - Das manifestações dos usuários de serviços públicos |"
+  },
+  {
+    "id": 422326,
+    "nome": "Capítulo IV - Das ouvidorias |"
+  },
+  {
+    "id": 422327,
+    "nome": "Capítulo V - Dos conselhos de usuários |"
+  },
+  {
+    "id": 422328,
+    "nome": "Capítulo VI - Da avaliação continuada dos serviços públicos |"
+  },
+  {
+    "id": 433681,
+    "nome": "Decreto nº 9.094/2017 - Regulamenta dispositivos da Lei nº 13.460, de 26 de junho de 2017 , dispõe sobre a simplificação do atendimento prestado aos usuários dos serviços públicos, institui o Cadastro de Pessoas Físicas - CPF como instrumento suficiente e |"
+  },
+  {
+    "id": 433682,
+    "nome": "Decreto nº 9.492/2018 - Regulamenta a Lei nº 13.460, de 26 de junho de 2017 , que dispõe sobre participação, proteção e defesa dos direitos do usuário dos serviços públicos da administração pública federal, institui o Sistema de Ouvidoria |"
+  },
+  {
+    "id": 422939,
+    "nome": "Lei nº 8.429/92 - Lei de Improbidade Administrativa |"
+  },
+  {
+    "id": 422940,
+    "nome": "Capítulo I - Das Disposições Gerais |"
+  },
+  {
+    "id": 422941,
+    "nome": "Capítulo II - Dos Atos de Improbidade Administrativa |"
+  },
+  {
+    "id": 422942,
+    "nome": "Seção I - Dos Atos de Improbidade Administrativa que Importam Enriquecimento Ilícito |"
+  },
+  {
+    "id": 422943,
+    "nome": "Seção II - Dos Atos de Improbidade Administrativa que Causam Prejuízo ao Erário |"
+  },
+  {
+    "id": 422944,
+    "nome": "Seção II-A - Dos Atos de Improbidade Administrativa Decorrentes de Concessão ou Aplicação Indevida de Benefício Financeiro ou Tributário |"
+  },
+  {
+    "id": 422945,
+    "nome": "Seção III - Dos Atos de Improbidade Administrativa que Atentam Contra os Princípios da Administração Pública |"
+  },
+  {
+    "id": 422946,
+    "nome": "Capítulo III - Das Penas |"
+  },
+  {
+    "id": 422947,
+    "nome": "Capítulo IV - Da Declaração de Bens |"
+  },
+  {
+    "id": 422948,
+    "nome": "Capítulo V - Do Procedimento Administrativo e do Processo Judicial |"
+  },
+  {
+    "id": 422949,
+    "nome": "Capítulo VI - Das Disposições Penais |"
+  },
+  {
+    "id": 422950,
+    "nome": "Capítulo VII - Da Prescrição |"
+  },
+  {
+    "id": 422951,
+    "nome": "Capítulo VIII - Das Disposições Finais |"
+  },
+  {
+    "id": 422330,
+    "nome": "Lei nº 8.987/95 - Lei das Concessões e Permissões de Serviços Públicos |"
+  },
+  {
+    "id": 422331,
+    "nome": "Capítulo I - Disposições Preliminares |"
+  },
+  {
+    "id": 422332,
+    "nome": "Capítulo II - Do Serviço Adequado |"
+  },
+  {
+    "id": 422333,
+    "nome": "Capítulo III - Dos direitos e obrigações dos usuários |"
+  },
+  {
+    "id": 422334,
+    "nome": "Capítulo IV - Da Política Tarifária |"
+  },
+  {
+    "id": 422335,
+    "nome": "Capítulo V - Da licitação |"
+  },
+  {
+    "id": 422336,
+    "nome": "Capítulo VI - Do contrato de concessão |"
+  },
+  {
+    "id": 422337,
+    "nome": "Capítulo VII - Dos encargos do poder concedente |"
+  },
+  {
+    "id": 422338,
+    "nome": "Capítulo VIII - Dos encargos da concessionária |"
+  },
+  {
+    "id": 422339,
+    "nome": "Capítulo IX - Da intervenção |"
+  },
+  {
+    "id": 422340,
+    "nome": "Capítulo X - Da extinção da concessão |"
+  },
+  {
+    "id": 422341,
+    "nome": "Capítulo XI - Das permissões |"
+  },
+  {
+    "id": 422343,
+    "nome": "Lei nº 11.079/2004 - Institui normas gerais para licitação e contratação de parceria público-privada no âmbito da administração pública. |"
+  },
+  {
+    "id": 422344,
+    "nome": "Capítulo I - Disposições Preliminares |"
+  },
+  {
+    "id": 422345,
+    "nome": "Capítulo II - Dos contratos de parceria público-privada |"
+  },
+  {
+    "id": 422346,
+    "nome": "Capítulo III - Das garantias |"
+  },
+  {
+    "id": 422347,
+    "nome": "Capítulo IV - Da sociedade de propósito específico |"
+  },
+  {
+    "id": 422348,
+    "nome": "Capítulo V - Da licitação |"
+  },
+  {
+    "id": 422349,
+    "nome": "Capítulo VI - Disposições aplicáveis à União |"
+  },
+  {
+    "id": 422350,
+    "nome": "Capítulo VII - Disposições finais |"
+  },
+  {
+    "id": 422952,
+    "nome": "Lei nº 11.107/2005 - Dispõe sobre normas gerais de contratação de consórcios públicos e dá outras providências. |"
+  },
+  {
+    "id": 422351,
+    "nome": "LC 123/06 - Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte |"
+  },
+  {
+    "id": 422352,
+    "nome": "Capítulo V - Do acesso aos mercados |"
+  },
+  {
+    "id": 422353,
+    "nome": "Das aquisições públicas |"
+  },
+  {
+    "id": 422354,
+    "nome": "Lei 4.132/62 - Casos de desapropriação por interesse social |"
+  },
+  {
+    "id": 422355,
+    "nome": "Decreto-Lei 3.365/41 - Dispõe sobre desapropriações por utilidade pública. |"
+  },
+  {
+    "id": 422356,
+    "nome": "Disposições Preliminares |"
+  },
+  {
+    "id": 422357,
+    "nome": "Do Processo Judicial |"
+  },
+  {
+    "id": 422359,
+    "nome": "Decreto-Lei 25/37 - Tombamento |"
+  },
+  {
+    "id": 422360,
+    "nome": "Capítulo I - Do patrimônio histórico e artístico nacional |"
+  },
+  {
+    "id": 422361,
+    "nome": "Capítulo II - Do tombamento |"
+  },
+  {
+    "id": 422362,
+    "nome": "Capítulo III - Dos efeitos do tombamento |"
+  },
+  {
+    "id": 422363,
+    "nome": "Capítulo IV - Do direito de preferência - Revogado pela Lei nº 13.105/2015 |"
+  },
+  {
+    "id": 422365,
+    "nome": "Lei nº 13.303/2016 - Estatuto jurídico da empresa pública, da sociedade de economia mista e de suas subsidiárias |"
+  },
+  {
+    "id": 422366,
+    "nome": "Título I - Disposições aplicáveis às empresas públicas e às sociedades de economia mista |"
+  },
+  {
+    "id": 422367,
+    "nome": "Capítulo I - Disposições Preliminares |"
+  },
+  {
+    "id": 422368,
+    "nome": "Capítulo II - Do regime societário da empresa pública e da sociedade de economia mista |"
+  },
+  {
+    "id": 422369,
+    "nome": "Seção I - Das Normas Gerais |"
+  },
+  {
+    "id": 422370,
+    "nome": "Seção II - Do Acionista Controlador |"
+  },
+  {
+    "id": 422371,
+    "nome": "Seção III - Do Administrador |"
+  },
+  {
+    "id": 422372,
+    "nome": "Seção IV - Do Conselho de Administração |"
+  },
+  {
+    "id": 422373,
+    "nome": "Seção V - Do Membro Independente do Conselho de Administração |"
+  },
+  {
+    "id": 422374,
+    "nome": "Seção VI - Da Diretoria |"
+  },
+  {
+    "id": 422375,
+    "nome": "Seção VII - Do Comitê de Auditoria Estatutário |"
+  },
+  {
+    "id": 422376,
+    "nome": "Seção VIII - Do Conselho Fiscal |"
+  },
+  {
+    "id": 422377,
+    "nome": "Capítulo III - Da Função Social da Empresa Pública e da Sociedade de Economia Mista |"
+  },
+  {
+    "id": 422378,
+    "nome": "Título II - Disposições aplicáveis às Empresas Públicas, às Sociedades de Economia Mista e às suas subsidiárias que explorem atividade econômica de produção ou comercialização de bens ou de prestação de serviços, ainda que a atividade econômica esteja suj |"
+  },
+  {
+    "id": 422379,
+    "nome": "Capítulo I - Das licitações |"
+  },
+  {
+    "id": 422380,
+    "nome": "Seção I - Da Exigência de Licitação e dos Casos de Dispensa e de Inexigibilidade |"
+  },
+  {
+    "id": 422381,
+    "nome": "Seção II - Disposições de Caráter Geral sobre Licitações e Contratos |"
+  },
+  {
+    "id": 422382,
+    "nome": "Seção III - Das Normas Específicas para Obras e Serviços |"
+  },
+  {
+    "id": 422383,
+    "nome": "Seção IV - Das Normas Específicas para Aquisição de Bens |"
+  },
+  {
+    "id": 422384,
+    "nome": "Seção V - Das Normas Específicas para Alienação de Bens |"
+  },
+  {
+    "id": 422385,
+    "nome": "Seção VI - Do Procedimento de Licitação |"
+  },
+  {
+    "id": 422386,
+    "nome": "Seção VII - Dos Procedimentos Auxiliares das Licitações |"
+  },
+  {
+    "id": 422387,
+    "nome": "Capítulo II - Dos contratos |"
+  },
+  {
+    "id": 422388,
+    "nome": "Seção I - Da Formalização dos Contratos |"
+  },
+  {
+    "id": 422389,
+    "nome": "Seção II - Da Alteração dos Contratos |"
+  },
+  {
+    "id": 422390,
+    "nome": "Seção III - Das Sanções Administrativas |"
+  },
+  {
+    "id": 422391,
+    "nome": "Capítulo III - Da Fiscalização pelo Estado e pela sociedade |"
+  },
+  {
+    "id": 422392,
+    "nome": "Título III - Disposições Finais e Transitórias |"
+  },
+  {
+    "id": 422953,
+    "nome": "Lei nº 12.462/11 - Regime Diferenciado de Contratações - RDC |"
+  },
+  {
+    "id": 408287,
+    "nome": "Capítulo I - Do Regime Diferenciado de Contratações Públicas - RDC |"
+  },
+  {
+    "id": 408288,
+    "nome": "Seção I - Aspectos Gerais |"
+  },
+  {
+    "id": 408289,
+    "nome": "Seção II - Das Regras Aplicáveis às Licitações no Âmbito do RDC |"
+  },
+  {
+    "id": 408290,
+    "nome": "Subseção I - Do Objeto da Licitação |"
+  },
+  {
+    "id": 408291,
+    "nome": "Subseção II - Do Procedimento Licitatório |"
+  },
+  {
+    "id": 408292,
+    "nome": "Subseção III - Dos Procedimentos Auxiliares das Licitações no Âmbito do RDC |"
+  },
+  {
+    "id": 408293,
+    "nome": "Subseção IV - Da Comissão de Licitação |"
+  },
+  {
+    "id": 408294,
+    "nome": "Subseção V - Da Dispensa e Inexigibilidade de Licitação |"
+  },
+  {
+    "id": 408295,
+    "nome": "Subseção VI - Das Condições Específicas para a Participação nas Licitações e para a Contratação no RDC |"
+  },
+  {
+    "id": 408296,
+    "nome": "Seção III - Das Regras Específicas Aplicáveis aos Contratos Celebrados no Âmbito do RDC |"
+  },
+  {
+    "id": 422401,
+    "nome": "Seção IV - Dos Pedidos de Esclarecimento, Impugnações e Recursos |"
+  },
+  {
+    "id": 422403,
+    "nome": "Capítulo II - Outras Disposições |"
+  },
+  {
+    "id": 422404,
+    "nome": "Seção I - Alterações da Organização da Presidência da República e dos Ministérios |"
+  },
+  {
+    "id": 422405,
+    "nome": "Seção II - Das Adaptações da Legislação da Anac |"
+  },
+  {
+    "id": 422409,
+    "nome": "Seção VI - Do Pessoal Destinado ao Controle de Tráfego Aéreo |"
+  },
+  {
+    "id": 422412,
+    "nome": "Lei nº 12.846/2013 - Dispõe sobre a responsabilização administrativa e civil de pessoas jurídicas pela prática de atos contra a administração pública, nacional ou estrangeira |"
+  },
+  {
+    "id": 422413,
+    "nome": "Capítulo I - Disposições Gerais |"
+  },
+  {
+    "id": 422414,
+    "nome": "Capítulo II - Dos atos lesivos à Administração Pública nacional ou estrangeira |"
+  },
+  {
+    "id": 422415,
+    "nome": "Capítulo III - Da responsabilização administrativa |"
+  },
+  {
+    "id": 422416,
+    "nome": "Capítulo IV - Do processo administrativo de responsabilização |"
+  },
+  {
+    "id": 422417,
+    "nome": "Capítulo V - Do acordo de leniência |"
+  },
+  {
+    "id": 422418,
+    "nome": "Capítulo VI - Da responsabilização judicial |"
+  },
+  {
+    "id": 422419,
+    "nome": "Capítulo VII - Disposições Finais |"
+  },
+  {
+    "id": 432532,
+    "nome": "Decreto 11.129/2022 - Regulamenta a Lei nº 12.846, de 1º de agosto de 2013, que dispõe sobre a responsabilização administrativa e civil de pessoas jurídicas pela prática de atos contra a administração pública, nacional ou estrangeira. |"
+  },
+  {
+    "id": 422420,
+    "nome": "Decreto-Lei 200/67 |"
+  },
+  {
+    "id": 422421,
+    "nome": "Título I - Da Administração Federal |"
+  },
+  {
+    "id": 422422,
+    "nome": "Título II - Dos princípios fundamentais |"
+  },
+  {
+    "id": 422423,
+    "nome": "Capítulo I - Do planejamento |"
+  },
+  {
+    "id": 422424,
+    "nome": "Capítulo II - Da coordenação |"
+  },
+  {
+    "id": 422425,
+    "nome": "Capítulo III - Da descentralização |"
+  },
+  {
+    "id": 422426,
+    "nome": "Capítulo IV - Da delegação de competência |"
+  },
+  {
+    "id": 422427,
+    "nome": "Capítulo V - Do Controle |"
+  },
+  {
+    "id": 422428,
+    "nome": "Título III - Do planejamento, do orçamento-programa e da programação financeira |"
+  },
+  {
+    "id": 422429,
+    "nome": "Título IV - Da supervisão ministerial |"
+  },
+  {
+    "id": 422431,
+    "nome": "Título VI - Da Presidência da República |"
+  },
+  {
+    "id": 422432,
+    "nome": "Título VII - Dos Ministérios e das respectivas áreas de competência |"
+  },
+  {
+    "id": 422433,
+    "nome": "Título VIII - Da Segurança Nacional |"
+  },
+  {
+    "id": 422434,
+    "nome": "Capítulo I - Do Conselho de Segurança Nacional |"
+  },
+  {
+    "id": 422435,
+    "nome": "Capítulo II - Do serviço nacional de informações |"
+  },
+  {
+    "id": 422436,
+    "nome": "Título IX - Das Forças Armadas |"
+  },
+  {
+    "id": 422445,
+    "nome": "Capítulo II - Dos órgãos de assessoramento direto do Presidente da República |"
+  },
+  {
+    "id": 422447,
+    "nome": "Seção II - Do Estado-Maior das Forças Armadas |"
+  },
+  {
+    "id": 422448,
+    "nome": "Capítulo III - Dos Ministérios Militares |"
+  },
+  {
+    "id": 422451,
+    "nome": "Seção III - Do Ministério da Aeronáutica |"
+  },
+  {
+    "id": 422437,
+    "nome": "Título X - Das normas de administração financeira e de contabilidade |"
+  },
+  {
+    "id": 422438,
+    "nome": "Título XI - Das disposições referentes ao pessoal civil |"
+  },
+  {
+    "id": 422455,
+    "nome": "Capítulo III - Do Departamento Administrativo do Pessoal Civil |"
+  },
+  {
+    "id": 422439,
+    "nome": "Título XIII - Da reforma administrativa |"
+  },
+  {
+    "id": 422440,
+    "nome": "Título XIV - Das medidas especiais de coordenação |"
+  },
+  {
+    "id": 422457,
+    "nome": "Capítulo I - Da ciência e tecnologia |"
+  },
+  {
+    "id": 422458,
+    "nome": "Capítulo II - Da Política Nacional de Saúde |"
+  },
+  {
+    "id": 422459,
+    "nome": "Capítulo III - Do abastecimento nacional |"
+  },
+  {
+    "id": 422462,
+    "nome": "Capítulo VI - Da integração das Forças Armadas |"
+  },
+  {
+    "id": 422441,
+    "nome": "Título XV - Das disposições gerais |"
+  },
+  {
+    "id": 422464,
+    "nome": "Capítulo II - Dos Bancos Oficiais de Crédito |"
+  },
+  {
+    "id": 422465,
+    "nome": "Capítulo III - Da Pesquisa Econômico-social aplicada e do financiamento de projetos |"
+  },
+  {
+    "id": 422467,
+    "nome": "Capítulo V - Do Ministério das Relações Exteriores |"
+  },
+  {
+    "id": 404540,
+    "nome": "Decreto no 6.170/2007 - Dispõe sobre as normas relativas às transferências de recursos da União mediante convênios e contratos de repasse, e dá outras providências. (REVOGADO) |"
+  },
+  {
+    "id": 422469,
+    "nome": "Capítulo I - Das Disposições Gerais |"
+  },
+  {
+    "id": 422470,
+    "nome": "Capítulo II - Das normas de celebração, acompanhamento e prestação de contas |"
+  },
+  {
+    "id": 422471,
+    "nome": "Capítulo III - Do sistema de gestão de convênios e contratos de repasse - SICONV e do portal dos convênios |"
+  },
+  {
+    "id": 432770,
+    "nome": "Decreto nº 11.531/2023 - Dispõe sobre convênios e contratos de repasse relativos às transferências de recursos da União, e sobre parcerias sem transferências de recursos, por meio da celebração de acordos de cooperação técnica ou de acor |"
+  },
+  {
+    "id": 422474,
+    "nome": "Portaria nº 424/2016 - Estabelece normas para execução do estabelecido no Decreto nº 6.170/07 |"
+  },
+  {
+    "id": 422475,
+    "nome": "Título I - Das Disposições Gerais |"
+  },
+  {
+    "id": 422476,
+    "nome": "Capítulo I - Das definições de competências e responsabilidades no âmbito das transferências da União |"
+  },
+  {
+    "id": 422477,
+    "nome": "Capítulo II - Do chamamento público |"
+  },
+  {
+    "id": 422480,
+    "nome": "Capítulo V - Do Consórcio Público |"
+  },
+  {
+    "id": 422481,
+    "nome": "Título II - Do cadastramento, da proposta de trabalho, da contrapartida, do plano de trabalho e do projeto básico e termo de referência |"
+  },
+  {
+    "id": 422487,
+    "nome": "Capítulo III - Da Contrapartida |"
+  },
+  {
+    "id": 422489,
+    "nome": "Capítulo V - Do projeto básico e do termo de referência |"
+  },
+  {
+    "id": 422482,
+    "nome": "Título III - Da celebração |"
+  },
+  {
+    "id": 422492,
+    "nome": "Capítulo III - Da análise e assinatura do termo |"
+  },
+  {
+    "id": 422493,
+    "nome": "Capítulo IV - Da publicidade |"
+  },
+  {
+    "id": 404396,
+    "nome": "Capítulo V - Da alteração |"
+  },
+  {
+    "id": 422483,
+    "nome": "Título IV - Da Execução |"
+  },
+  {
+    "id": 422496,
+    "nome": "Capítulo II - Da contratação de terceiros |"
+  },
+  {
+    "id": 422497,
+    "nome": "Seção I - Da contratação por entidades privadas sem fins lucrativos |"
+  },
+  {
+    "id": 422498,
+    "nome": "Seção II - Da contratação por órgãos e entidades da Administração Pública |"
+  },
+  {
+    "id": 422499,
+    "nome": "Capítulo III - Dos pagamentos |"
+  },
+  {
+    "id": 422501,
+    "nome": "Capítulo V - Da prestação de contas |"
+  },
+  {
+    "id": 408268,
+    "nome": "Capítulo IV - Do acompanhamento |"
+  },
+  {
+    "id": 408269,
+    "nome": "Capítulo VI - Do regime simplificado |"
+  },
+  {
+    "id": 408270,
+    "nome": "Capítulo VII - Da denúncia e da rescisão |"
+  },
+  {
+    "id": 422504,
+    "nome": "Capítulo VIII - Da tomada de contas especial |"
+  },
+  {
+    "id": 408271,
+    "nome": "Título V - Das Disposições Finais |"
+  },
+  {
+    "id": 404534,
+    "nome": "Lei no 13.726/2018 - Racionaliza atos e procedimentos administrativos dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios e institui o Selo de Desburocratização e Simplificação. |"
+  },
+  {
+    "id": 404535,
+    "nome": "Lei no 8.745/1993 - Dispõe Sobre a Contratação por Tempo Determinado para Atender a Necessidade Temporária de excepcional Interesse Público, nos Termos do Inciso IX do art. 37 da Constituição Federal. |"
+  },
+  {
+    "id": 404536,
+    "nome": "Lei no 8.730 - Estabelece a obrigatoriedade da declaração de bens e rendas para o exercício de cargos, empregos e funções nos Poderes Executivo, Legislativo e Judiciário, e dá outras providências. |"
+  },
+  {
+    "id": 404537,
+    "nome": "Lei no 13.019/2014 - Estabelece o regime jurídico das parcerias entre a administração pública e as organizações da sociedade civil, em regime de mútua cooperação, para a consecução de finalidades de interesse público e recíproco, mediante a |"
+  },
+  {
+    "id": 435665,
+    "nome": "Lei nº 12.855/2013 - Institui a indenização devida a ocupante de cargo efetivo das Carreiras e Planos Especiais de Cargos |"
+  },
+  {
+    "id": 404538,
+    "nome": "Decreto no 7.746/2012 - Regulamenta o art. 3o da Lei no 8.666, de 21 de junho de 1993, para estabelecer critérios, práticas e diretrizes para a promoção do desenvolvimento nacional sustentável nas contratações realizadas pela administração públ |"
+  },
+  {
+    "id": 404539,
+    "nome": "Decreto no 7.203/2010 - Dispõe sobre a vedação do nepotismo no âmbito da administração pública federal. |"
+  },
+  {
+    "id": 404541,
+    "nome": "Lei no 10.191/2001 - Dispõe sobre a aquisição de produtos para a implementação de ações de saúde no âmbito do Ministério da Saúde. |"
+  },
+  {
+    "id": 404679,
+    "nome": "Decreto nº 5.450/2005 - Regulamenta o pregão, na forma eletrônica, para aquisição de bens e serviços comuns, e dá outras providências |"
+  },
+  {
+    "id": 417924,
+    "nome": "Decreto nº 9.373/2018 - Dispõe sobre a alienação, a cessão, a transferência, a destinação e a disposição final ambientalmente adequadas de bens móveis no âmbito da administração pública federal direta, autárquica e fundacional. |"
+  },
+  {
+    "id": 429796,
+    "nome": "Lei nº 14.133/2021 - Lei de Licitações e Contratos Administrativos. |"
+  },
+  {
+    "id": 433219,
+    "nome": "Disposições Preliminares |"
+  },
+  {
+    "id": 433220,
+    "nome": "Do Âmbito de Aplicação |"
+  },
+  {
+    "id": 433221,
+    "nome": "Dos Princípios |"
+  },
+  {
+    "id": 433222,
+    "nome": "Das Definições |"
+  },
+  {
+    "id": 433223,
+    "nome": "Dos Agentes Públicos |"
+  },
+  {
+    "id": 433224,
+    "nome": "Das Licitações |"
+  },
+  {
+    "id": 433225,
+    "nome": "Do Processo Licitatório |"
+  },
+  {
+    "id": 433226,
+    "nome": "Da Fase Preparatória |"
+  },
+  {
+    "id": 433227,
+    "nome": "Da Instrução do Processo Licitatório |"
+  },
+  {
+    "id": 433228,
+    "nome": "Das Modalidades de Licitação |"
+  },
+  {
+    "id": 433229,
+    "nome": "Dos Critérios de Julgamento |"
+  },
+  {
+    "id": 433230,
+    "nome": "Disposições Setoriais |"
+  },
+  {
+    "id": 433231,
+    "nome": "Das Compras |"
+  },
+  {
+    "id": 433232,
+    "nome": "Das Obras e Serviços de Engenharia |"
+  },
+  {
+    "id": 433233,
+    "nome": "Dos Serviços em Geral |"
+  },
+  {
+    "id": 433234,
+    "nome": "Da Locação de Imóveis |"
+  },
+  {
+    "id": 433235,
+    "nome": "Das Licitações Internacionais |"
+  },
+  {
+    "id": 433236,
+    "nome": "Da Divulgação Do Edital De Licitação |"
+  },
+  {
+    "id": 433237,
+    "nome": "Da Apresentação de Propostas e Lances |"
+  },
+  {
+    "id": 433238,
+    "nome": "Do Julgamento |"
+  },
+  {
+    "id": 433239,
+    "nome": "Da Habilitação |"
+  },
+  {
+    "id": 433240,
+    "nome": "Do Encerramento da Licitação |"
+  },
+  {
+    "id": 433241,
+    "nome": "Da Contratação Direta |"
+  },
+  {
+    "id": 433242,
+    "nome": "Do Processo de Contratação Direta |"
+  },
+  {
+    "id": 433243,
+    "nome": "Da Inexigibilidade de Licitação |"
+  },
+  {
+    "id": 433244,
+    "nome": "Da Dispensa de Licitação |"
+  },
+  {
+    "id": 433245,
+    "nome": "Das Alienações |"
+  },
+  {
+    "id": 433246,
+    "nome": "Dos Instrumentos Auxiliares |"
+  },
+  {
+    "id": 433247,
+    "nome": "Dos Procedimentos Auxiliares |"
+  },
+  {
+    "id": 433248,
+    "nome": "Do Credenciamento |"
+  },
+  {
+    "id": 433249,
+    "nome": "Da Pré-Qualificação |"
+  },
+  {
+    "id": 433250,
+    "nome": "Do Procedimento De Manifestação De Interesse |"
+  },
+  {
+    "id": 433251,
+    "nome": "Do Sistema de Registro de Preços |"
+  },
+  {
+    "id": 433252,
+    "nome": "Do Registro Cadastral |"
+  },
+  {
+    "id": 433253,
+    "nome": "Dos Contratos Administrativos |"
+  },
+  {
+    "id": 433254,
+    "nome": "Da Formalização Dos Contratos |"
+  },
+  {
+    "id": 433255,
+    "nome": "Das Garantias |"
+  },
+  {
+    "id": 433256,
+    "nome": "Da Alocação De Riscos |"
+  },
+  {
+    "id": 433257,
+    "nome": "Das Prerrogativas da Administração |"
+  },
+  {
+    "id": 433258,
+    "nome": "Da Duração dos Contratos |"
+  },
+  {
+    "id": 433259,
+    "nome": "Da Execução dos Contratos |"
+  },
+  {
+    "id": 433260,
+    "nome": "Da Alteração dos Contratos e Dos Preços |"
+  },
+  {
+    "id": 433261,
+    "nome": "Das Hipóteses de Extinção dos Contratos |"
+  },
+  {
+    "id": 433262,
+    "nome": "Do Recebimento do Objeto do Contrato |"
+  },
+  {
+    "id": 433263,
+    "nome": "Dos Pagamentos |"
+  },
+  {
+    "id": 433264,
+    "nome": "Da Nulidade dos Contratos |"
+  },
+  {
+    "id": 433265,
+    "nome": "Dos Meios Alternativos de Resolução de Controvérsias |"
+  },
+  {
+    "id": 433266,
+    "nome": "Das irregularidades |"
+  },
+  {
+    "id": 433267,
+    "nome": "Das Infrações e Sanções Administrativas |"
+  },
+  {
+    "id": 433268,
+    "nome": "Das Impugnações, dos Pedidos de Esclarecimento e dos Recursos |"
+  },
+  {
+    "id": 433269,
+    "nome": "Do Controle das Contratações |"
+  },
+  {
+    "id": 433270,
+    "nome": "Disposições Gerais |"
+  },
+  {
+    "id": 433271,
+    "nome": "Do Portal Nacional De Contratações Públicas (PNCP) |"
+  },
+  {
+    "id": 433272,
+    "nome": "Dos Crimes em Licitações e Contratos Administrativos |"
+  },
+  {
+    "id": 433273,
+    "nome": "Disposições Transitórias e Finais |"
+  },
+  {
+    "id": 430229,
+    "nome": "Lei nº 13.848/2019 - Dispõe sobre a gestão, a organização, o processo decisório e o controle social das agências reguladoras, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, a Lei nº 9.478, de 6 de agosto de 1997, |"
+  },
+  {
+    "id": 430306,
+    "nome": "Lei nº 13.934/2019 - Regulamenta o contrato referido no § 8º do art. 37 da Constituição Federal, denominado “contrato de desempenho”, no âmbito da administração pública federal direta de qualquer dos Poderes da União e das autarquias e fundações pública |"
+  },
+  {
+    "id": 432601,
+    "nome": "Decreto nº 11.246/2022 - Regulamenta o disposto no § 3º do art. 8º da Lei nº 14.133, de 1º de abril de 2021, para dispor sobre as regras para a atuação do agente de contratação e da equipe de apoio, o funcionamento da comissão de contra |"
+  },
+  {
+    "id": 433558,
+    "nome": "Decreto nº 11.462/2023 - Regulamenta os art. 82 a art. 86 da Lei nº 14.133/2021, para dispor sobre o sistema de registro de preços para a contratação de bens e serviços, inclusive obras e serviços de engenharia, no âmbito da Administração |"
+  },
+  {
+    "id": 433559,
+    "nome": "Decreto nº 11.461/2023 - Regulamenta o art. 31 da Lei nº 14.133, de 1º de abril de 2021, para dispor sobre os procedimentos operacionais da licitação na modalidade leilão, na forma eletrônica, para alienação de bens móveis inservíveis ou legalmente |"
+  },
+  {
+    "id": 433560,
+    "nome": "Decreto nº 10.947/2022 - Regulamenta o inciso VII do caput do art. 12 da Lei nº 14.133, de 1º de abril de 2021, para dispor sobre o plano de contratações anual e instituir o Sistema de Planejamento e Gerenciamento de Contratações no âmbito da administraçã |"
+  },
+  {
+    "id": 434187,
+    "nome": "Decreto Federal n 6.017/07 - Regulamenta a Lei no 11.107, de 6 de abril de 2005, que dispõe sobre normas gerais de contratação de consórcios públicos |"
+  },
+  {
+    "id": 434253,
+    "nome": "Decreto 9.507/2018 - Dispõe sobre a execução indireta, mediante contratação, de serviços da administração pública federal direta, autárquica e fundacional e das empresas públicas e das sociedades de economia mista controladas pela União |"
+  },
+  {
+    "id": 440065,
+    "nome": "Decreto nº 11.878/2024 - Regulamenta o art. 79 da Lei nº 14.133, de 1º de abril de 2021, para dispor sobre o procedimento auxiliar de credenciamento para a contratação de bens e serviços. |"
+  }
+]

@@ -1,0 +1,364 @@
+{
+  "Educação Física": [
+    {
+      "id": "enem_enem2019_1dia_8_12",
+      "materia": "Educação Física",
+      "assunto": "Mídia e esporte",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "No caso do esporte, a mediação efetuada pela câmara da TV construiu uma nova modalidade de consumo: o esporte telespetáculo, realidade textual relativamente autônoma face à prática “real” do esporte, construída pela codificação e mediação dos eventos esportivos efetuados pelo enquadramento, edição das imagens e comentários, interpretando para o espectador o que ele está vendo. Esse fenômeno tende a valorizar a forma em relação ao conteúdo, e para tal faz uso privilegiado da linguagem audiovisual com ênfase na imagem cujas possibilidades são levadas cada vez mais adiante, em decorrência dos avanços tecnológicos. Por outro lado, a narração esportiva propõe uma concepção hegemônica de esporte: esporte é esforço máximo, busca da vitória, dinheiro... O preço que se paga por sua espetacularização é a fragmentação do fenômeno esportivo. A experiência global do ser-atleta é modificada: a socialização no confronto e a ludicidade não são vivências privilegiadas no enfoque das mídias, mas as eventuais manifestações de violência, em partidas de futebol, por exemplo, são exibidas e reexibidas em todo o mundo.\nBETTI, M. Motriz, n. 2, jul.-dez. 2001 (adaptado).",
+      "enunciado": "A reflexão trazida pelo texto, que aborda o esporte telespetáculo, está fundamentada na",
+      "alternativas": {
+        "A": "distorção da experiência do ser-atleta para os espectadores.",
+        "B": "interpretação dos espectadores sobre o conteúdo transmitido.",
+        "C": "utilização de equipamentos audiovisuais de última geração.",
+        "D": "valorização de uma visão ampliada do esporte.",
+        "E": "equiparação entre a forma e o conteúdo."
+      },
+      "gabarito": "A",
+      "comentario": "As mídias, por meio da edição de imagens, dos comentários e afins, interpretam para os espectadores a experiência do ser-atleta, distorcendo-a ao enfocar com destaque questões como a violência em detrimento da própria prática esportiva."
+    },
+    {
+      "id": "enem_enem2019_1dia_18_22",
+      "materia": "Educação Física",
+      "assunto": "Jogos Indígenas",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "Esporte e cultura: análise acerca da esportivização de práticas corporais nos jogos indígenas\n\nNos Jogos dos Povos Indígenas, observa-se que as práticas corporais realizadas envolvem elementos tradicionais (como as pinturas e adornos corporais) e modernos (como a regulamentação, a fiscalização e a padronização). O arco e flecha e a lança, por exemplo, são instrumentos tradicionalmente utilizados para a caça e a defesa da comunidade na aldeia. Na ocasião do evento, esses artefatos foram produzidos pela própria etnia, porém sua estruturação como “modalidade esportiva” promoveu uma semelhança entre as técnicas apresentadas, com o sentido único da competição.\nALMEIDA, A. J. M.; SUASSUNA, D. M. F. A. Pensar a prática, n. 1, jan.-abr. 2010 (adaptado).",
+      "enunciado": "A relação entre os elementos tradicionais e modernos nos Jogos dos Povos Indígenas desencadeou a",
+      "alternativas": {
+        "A": "padronização de pinturas e adornos corporais.",
+        "B": "sobreposição de elementos tradicionais sobre os modernos.",
+        "C": "individuação das técnicas apresentadas em diferentes modalidades.",
+        "D": "legitimação das práticas corporais indígenas como modalidade esportiva.",
+        "E": "preservação dos significados próprios das práticas corporais em cada cultura."
+      },
+      "gabarito": "D",
+      "comentario": "Práticas tradicionais indígenas, como o arco e flecha, originalmente com objetivo de caça ou defesa, são adaptadas por elementos modernos, como regulação, fiscalização, para a criação dos Jogos dos Povos Indígenas, a fim de legitimá-los como modalidade esportiva."
+    },
+    {
+      "id": "enem_enem2019_1dia_40_44",
+      "materia": "Educação Física",
+      "assunto": "Educação para a saúde",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "Educação para a saúde mediante programas de educação física escolar \nA educação para a saúde deverá ser alcançada mediante interação de ações que possam envolver o próprio homem mediante suas atitudes frente às exigências ambientais representadas pelos hábitos alimentares, estado de estresse, opções de lazer, atividade física, agressões climáticas etc. Dessa forma, parece evidente que o estado de ser saudável não é algo estático. Pelo contrário, torna-se necessário adquiri-lo e construí-lo de forma individualizada constantemente ao longo de toda a vida, apontando para o fato de que saúde é educável e, portanto, deve ser tratada não apenas com base em referenciais de natureza biológica e higienista, mas sobretudo em um contexto didático-pedagógico. \nGUEDES, D. P. Motriz , n. 1, 1999.",
+      "enunciado": "A educação para a saúde pressupõe a adoção de comportamentos com base na interação de fatores relacionados à",
+      "alternativas": {
+        "A": "adesão a programas de lazer.",
+        "B": "opção por dietas balanceadas.",
+        "C": "constituição de hábitos saudáveis.",
+        "D": "evasão de ambientes estressores.",
+        "E": "realização de atividades físicas regulares."
+      },
+      "gabarito": "C",
+      "comentario": "O texto apresenta linguagem denotativa e trata de “programas de educação física escolar” para que crianças e jovens adquiram hábitos saudáveis."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_24_23",
+      "materia": "Educação Física",
+      "assunto": "Saúde e corpo",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "Nos dias atuais, para as crianças e os adolescentes, a alimentação adequada e balanceada está associada, na maioria das vezes, à busca da forma ideal, segundo padrões ditados pela mídia. Se antes essa preocupação era predominantemente feminina, hoje existem adolescentes tentando emagrecer a qualquer custo: entram e saem de dietas e regimes feitos por conta própria, automedicam-se ou praticam exercícios físicos sem orientação.\nMATTOS, L. O. N. Educação física e educação para a saúde. MultiRio, 2016 (adaptado).",
+      "enunciado": "Adolescentes associam que a conquista da “forma ideal” do corpo está relacionada à",
+      "alternativas": {
+        "A": "adoção de hábitos inadequados à saúde no cotidiano.",
+        "B": "busca de auxílio médico para o tratamento com fármacos.",
+        "C": "adesão a programas oferecidos por academias de ginástica.",
+        "D": "atuação da mídia na estética presente no imaginário feminino.",
+        "E": "procura de um nutricionista para a realização de dieta e regime."
+      },
+      "gabarito": "A",
+      "comentario": "Adolescentes associam que a conquista da “forma ideal” do corpo está relacionada à adoção de hábitos inadequados à saúde no cotidiano, como entrar e sair de dietas e regimes feitos por conta própria, automedicação e prática de exercícios físicos sem orientação."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_30_29",
+      "materia": "Educação Física",
+      "assunto": "Ginástica",
+      "banca": "INEP",
+      "ano": 2020,
+      "texto_auxiliar": "O universo infantil encanta por ser rico na diversidade de manifestações corporais. Crianças brincam de pega-pega, esconde-esconde, mãe de rua e experienciam diversas possibilidades de movimento na busca de novas descobertas, que podem ocorrer por meio de elementos gímnicos, como a estrelinha, a cambalhota, a bananeira (nomes populares dados à roda, ao rolamento e à parada de mãos).\nPIZANI, J.; BARBOSA-RINALDI, I. P. Cotidiano escolar: a presença de elementos gímnicos nas brincadeiras infantis. Revista de Educação Física da UEM, n. 1, 2010.",
+      "enunciado": "Os fundamentos gímnicos da roda e da parada de mãos requerem, respectivamente, a aplicação dos elementos de",
+      "alternativas": {
+        "A": "pose e força.",
+        "B": "giro e corrida.",
+        "C": "apoio e equilíbrio.",
+        "D": "saltito e suspensão.",
+        "E": "reversão e resistência."
+      },
+      "gabarito": "C",
+      "comentario": "Os movimentos corporais, como a roda ou a estrelinha e a parada de mãos ou a bananeira, exigem apoio e equilíbrio."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_43_42",
+      "materia": "Educação Física",
+      "assunto": "Corpo e cultura",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "O que dizer de um corpo flácido, gordo, considerado deselegante nos dias de hoje, mas que era, há não muito tempo, considerado sensual e inspirador por pintores clássicos? Como entender o conceito de saúde, associado antigamente a um corpo robusto, até mesmo gordo, e atualmente relacionado a um corpo magro? E o corpo já não tão jovem, sobre o qual é imposta uma série de “consertos” e “reparos” para parecer mais jovem? O que se pode dizer é que o corpo é uma síntese da cultura, pois, através do seu corpo, o ser humano vai assimilando e se apropriando dos valores, normas e costumes sociais, em um processo de incorporação.\nDAOLIO, J. Os significados do corpo na cultura e as implicações para a educação física. Movimento, n. 2, 1995 (adaptado).",
+      "enunciado": "As mudanças das representações sobre o corpo ao longo da história são provenientes da",
+      "alternativas": {
+        "A": "busca permanente pela saúde relacionada a um padrão corporal específico.",
+        "B": "interferência da História da Arte sobre padrões corporais valorizados no cotidiano.",
+        "C": "pesquisa por novos procedimentos estéticos voltados aos cuidados com a aparência corporal.",
+        "D": "diferença aparente entre a capacidade motora de um corpo jovem e aquele marcado pelo tempo.",
+        "E": "influência da sociedade na construção dos sentidos e significados sociais relacionados ao corpo."
+      },
+      "gabarito": "E",
+      "comentario": "O texto oferece exemplos que permitem verificar “a influência da sociedade na construção dos sentidos e significados sociais relacionados ao corpo”. Cita as modelos de pintores da Renascença cujos corpos das musas diferem do padrão delgado do corpo atual."
+    },
+    {
+      "id": "enem_enem2021_1dia_vs4_13_17",
+      "materia": "Educação Física",
+      "assunto": "Esportes e práticas corporais",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "O skate apareceu como forma de vivência no lazer em períodos de baixa nas ondas e ficou conhecido como “surfinho”. No início foram utilizados eixos e rodinhas de patins pregados numa madeira qualquer, para sua composição, sendo as rodas de borracha ou ferro. O grande marco na história do skate ocorreu em 1974, quando o engenheiro químico chamado Frank Nasworthy descobriu o uretano, material mais flexível, que oferecia mais aderência às rodas. A dependência dos skatistas em relação a esse novo material igualmente alavancou o surgimento de novas manobras e possibilitou a um maior número de pessoas inexperientes começar a prática dessa modalidade. O resultado foi a criação de campeonatos, marcas, fábricas e lojas especializadas.\nARMBRUST, I.; LAURO, F. A. A. O skate e suas possibilidades educacionais. Motriz, jul.-set. 2010 (adaptado).",
+      "enunciado": "De acordo com o texto, diversos fatores ao longo do tempo",
+      "alternativas": {
+        "A": "contribuíram para a democratização do skate.",
+        "B": "evidenciaram as demandas comerciais dos skatistas.",
+        "C": "definiram a carreira de skatista profissional.",
+        "D": "permitiram que a prática social do skate substituísse o surfe.",
+        "E": "indicaram a autonomia dos praticantes de skate."
+      },
+      "gabarito": "A",
+      "comentario": "De acordo com o texto, a descoberta do “uretano”, material mais flexível para a composição do skate, possibilitou o surgimento de “novas manobras” e o engajamento de “maior número de pessoas” nessa prática esportiva. Logo, houve uma “democratização” desse esporte."
+    },
+    {
+      "id": "enem_enem2021_2dia_141_50",
+      "materia": "Educação Física",
+      "assunto": "Frequência cardíaca e faixa aeróbica",
+      "banca": "INEP",
+      "ano": 2021,
+      "texto_auxiliar": "Um ciclista amador de 61 anos de idade utilizou um monitor cardíaco para medir suas frequências cardíacas em quatro diferentes tipos de trechos do percurso. Os resultados das frequências cardíacas máximas alcançadas nesses trechos foram:\n\nTrechos do percurso | Frequências cardíacas máximas (bpm)\nLeve no plano | 90\nForte no plano | 120\nSubida moderada | 130\nSubida forte | 140\n\nSabe-se que a faixa aeróbica ideal para o ganho de condicionamento físico é entre 65% e 85% da frequência cardíaca máxima (Fc máx.), que, por sua vez, é determinada pela fórmula: Fc máx. = 220 – idade, em que a idade é dada em ano e Fc máx. é dada em bpm (batimento por minuto).",
+      "enunciado": "Os trechos do percurso nos quais esse ciclista se mantém dentro de sua faixa aeróbica ideal, para o ganho de condicionamento físico, são",
+      "alternativas": {
+        "A": "leve no plano, forte no plano, subida moderada e subida forte.",
+        "B": "leve no plano, forte no plano e subida moderada.",
+        "C": "forte no plano, subida moderada e subida forte.",
+        "D": "forte no plano e subida moderada.",
+        "E": "leve no plano e subida forte."
+      },
+      "gabarito": "D",
+      "comentario": "Fc máx = 220 - 61 = 159 bpm. Faixa aeróbica ideal: entre 65% e 85% de 159, ou seja, entre 103,35 e 135,15 bpm. Os trechos com frequência dentro desse intervalo são: forte no plano (120 bpm) e subida moderada (130 bpm)."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_20_24",
+      "materia": "Educação Física",
+      "assunto": "Saúde e exercício físico",
+      "banca": "INEP",
+      "ano": 2022,
+      "texto_auxiliar": "Uma polêmica relacionada à covid-19 com clara relação com a Educação Física foi a discussão sobre a abertura ou não das academias de ginástica em plena pandemia. Entre os argumentos apresentados pelos que defendiam a abertura estava o de que o exercício teria um efeito protetor contra a covid-19, pelo fortalecimento do sistema imunológico. A realização dessas práticas pode ser importante para a saúde, inclusive com foco na melhoria/manutenção da saúde mental, mas em muitas recomendações há mais um sentido de “ter que fazer”, com caráter “obrigatório”. Outro ponto ignorado diz respeito ao aconselhamento para a realização de exercícios físicos em casa durante a pandemia, considerando aspectos como a habilidade das pessoas para realizarem essas atividades, suas preferências, as condições das residências etc. Entendemos que essas recomendações, algumas vezes de caráter persecutório e descontextualizadas da realidade de muitas pessoas, não favorecem um olhar mais ampliado sobre a saúde.\nLOCH, M. R. et al. A urgência da saúde coletiva na formação em Educação Física: lições com a covid-19. \nCiência & Saúde Coletiva , n. 25, 2020 (adaptado).",
+      "enunciado": "Segundo o texto, no contexto da pandemia, a relação entre exercício físico e saúde deveria considerar a",
+      "alternativas": {
+        "A": "necessidade de que as academias se mantivessem abertas para orientação das práticas corporais.",
+        "B": "recomendação de que as atividades físicas atendessem às preferências individuais.",
+        "C": "relevância de adaptar as atividades físicas à realidade social dos sujeitos.",
+        "D": "obrigatoriedade de adotar o hábito de praticar atividades físicas em casa.",
+        "E": "importância de melhorar as defesas orgânicas contra a doença."
+      },
+      "gabarito": "C",
+      "comentario": "De acordo com o texto, a recomendação, por vezes impositiva, da prática de exercício físico, em benefício à saúde, durante a pandemia, não considerou a realidade das pessoas: a habilidade para a realização dessas atividades, as preferências, as condições de moradia. Dessa forma, esse caráter impositivo e superficial diante de diversas realidades não favoreceu “um olhar mais ampliado sobre a saúde”."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_21_25",
+      "materia": "Educação Física",
+      "assunto": "Regras do voleibol",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "A partir da década de 1980, o voleibol começa a ser visto como um ótimo meio de comercialização de produtos esportivos. Esse fenômeno apresenta uma vertiginosa escalada na década de 1990, e a Federação Internacional de Voleibol, tendo o mexicano Rubem Acosta na presidência, vê-se com a obrigação de alterar algumas regras para a melhoria do voleibol como espetáculo, já que a alta performance alcançada pelas equipes vinha tornando enfadonhas as competições.\nSANTOS NETO, S. C. A evolução das regras visando ao espetáculo no voleibol. Disponível em: www.efdeportes.com. Acesso em: 3 ago. 2012 (adaptado).",
+      "enunciado": "Uma das principais mudanças nas regras do voleibol, decorrentes do processo identificado no texto, refere-se à",
+      "alternativas": {
+        "A": "restrição para que a bola possa ser tocada apenas pelas partes do corpo acima da cintura, imprimindo maior dinamicidade ao jogo.",
+        "B": "modificação na contagem de pontos, com o fim do sistema de vantagem, tornando as partidas mais interessantes para as transmissões televisivas.",
+        "C": "destinação de um espaço restrito e predefinido para a realização do saque, permitindo um maior índice de acertos nesse fundamento do jogo.",
+        "D": "indicação de que contatos simultâneos sejam considerados como toque apenas, permitindo maior permanência da bola em disputa.",
+        "E": "permissão ao chamado bloqueio ou ataque, ampliando a possibilidade de utilização de recursos técnicos e estratégicos no jogo."
+      },
+      "gabarito": "B",
+      "comentario": "Segundo o texto, as competições de voleibol estavam se tornando 'enfadonhas', por isso houve alteração na contagem de pontos, eliminando-se o sistema de vantagem. Dessa forma, as competições tornaram-se mais dinâmicas e 'mais interessantes para as transmissões televisivas'."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_27_31",
+      "materia": "Educação Física",
+      "assunto": "Saúde e Atividade Física",
+      "banca": "INEP",
+      "ano": 2022,
+      "texto_auxiliar": "Saúde aprova implantação de 82 academias em praças públicas na PB\nSetenta e oito municípios paraibanos deverão receber 82 unidades das Academias da Saúde, que são espaços apropriados para a prática de atividades físicas. Os equipamentos são montados ao ar livre, e a população tem orientação gratuita sobre o uso dos aparelhos para se exercitar. A implantação das academias faz parte de um plano de ações estratégicas para o enfrentamento das doenças crônicas não transmissíveis, cuja meta é reduzir as mortes prematuras em 2% ao ano. O objetivo é alcançar melhorias em indicadores relacionados ao tabagismo, ao álcool, ao sedentarismo, à alimentação inadequada e à obesidade.\nDisponível em: http://g1.globo.com. Acesso em: 11 nov. 2011 (adaptado).",
+      "enunciado": "No texto, a atividade física é associada à prevenção de doenças crônicas, à redução da mortalidade e à promoção da saúde. A partir de uma perspectiva ampliada e crítica sobre o conceito de saúde, interpretada como resultado de múltiplos fatores, o texto",
+      "alternativas": {
+        "A": "reforça a necessidade de a atividade física ser orientada por um professor de educação física.",
+        "B": "considera a saúde de forma multifatorial, ou seja, resultante da interferência de diversos fatores.",
+        "C": "estabelece relação de causa-efeito entre atividade física e saúde, desconsiderando os condicionantes sociais.",
+        "D": "destaca a importância da atividade física como lazer para a sociedade brasileira.",
+        "E": "estabelece relações entre a prática de atividade física e a prevenção de doenças como a aids e a hepatite."
+      },
+      "gabarito": "C",
+      "comentario": "De acordo com o autor, a prática de atividade física (causa) tem consequências (efeito) bastante positivas para a saúde. Porém, não há, no texto, um conceito amplo de saúde por não terem sido considerados aspectos sociais como alimentação, habitação, educação, renda e transporte."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_33_37",
+      "materia": "Educação Física",
+      "assunto": "Jogos e brincadeiras populares",
+      "banca": "INEP",
+      "ano": 2022,
+      "texto_auxiliar": "Muitas brincadeiras preservam sua estrutura inicial, outras modificam-se recebendo novos conteúdos. A força de tais brincadeiras explica-se pelo poder da expressão oral. Como manifestação livre e espontânea da cultura popular, a brincadeira tradicional tem a função de perpetuar a cultura infantil, desenvolver formas de convivência social e permitir o prazer de brincar.\nKISHIMOTO, T. M. Jogo, brinquedo, brincadeira e a educação. São Paulo: Cortez, 1999.",
+      "enunciado": "Dentre os jogos e as brincadeiras expressos na cultura popular, que se perpetuam e se transformam pela tradição oral, podemos reconhecer o(a)",
+      "alternativas": {
+        "A": "jogo popular do pião e do bilboquê.",
+        "B": "jogo popular do queimado e o voleibol.",
+        "C": "brincadeira da amarelinha e a esgrima.",
+        "D": "brincadeira de esconde-esconde e o balé.",
+        "E": "jogo popular do taco e a ginástica artística."
+      },
+      "gabarito": "A",
+      "comentario": "O jogo do pião e do bilboquê são exemplos de brincadeiras que ainda fazem parte da cultura popular 'pelo poder da expressão oral'. Nas demais alternativas, são tradicionais o queimado, a amarelinha, o esconde-esconde e o taco."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_34_38",
+      "materia": "Educação Física",
+      "assunto": "Esportes e gênero",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "Diante de uma fórmula consagrada, mas dando indícios de desgaste, a Federação Internacional de Vôlei quis mudar. No calendário há quase três décadas, a Liga Mundial e o Grand Prix deram origem à nova Liga das Nações. Mas, além das mudanças de formato, a competição promete revolucionar a forma com que o esporte chega ao público e também atende a um pedido antigo das mulheres: a igualdade na premiação. A competição dará US$ 1 milhão para o campeão de cada gênero. Há algumas temporadas, as mulheres contestavam a diferença na premiação. A nova Liga das Nações, no entanto, atende ao pedido e iguala o valor recebido nos dois naipes. “Estamos compreendendo antes dos demais o espaço das mulheres no esporte. Até então tínhamos a Liga Mundial masculina, que pagava 1 milhão de dólares para o campeão, e o Grand Prix, que distribuía para a campeã feminina US$ 350 mil. Já no ano passado, o prêmio do Grand Prix subiu para US$ 600 mil. Com a criação da Liga das Nações, igualamos as premiações. Ao dar a mesma premiação para os dois gêneros, estamos dizendo ao mundo inteiro que homens e mulheres devem ter os mesmos direitos” — disse o presidente da FIVB.\nDisponível em: https://globoesporte.globo.com. \nAcesso em: 9 jun. 2018 (adaptado).",
+      "enunciado": "A modalidade esportiva apresentada no texto caracteriza-se por ser",
+      "alternativas": {
+        "A": "inovadora, ao equiparar a premiação para ambos os sexos.",
+        "B": "obsoleta, ao premiar homens e mulheres de forma desigual.",
+        "C": "reconhecida, ao manter o formato de seus eventos por décadas.",
+        "D": "desgastada, ao não atender a uma demanda do público espectador.",
+        "E": "conservadora, ao resistir à mudança do formato de seus eventos."
+      },
+      "gabarito": "A",
+      "comentario": "O autor afirma que a Federação Internacional de Vôlei inovou ao equiparar a premiação em US$ 1 milhão para ambos os gêneros. Até então, o prêmio para as mulheres era inferior ao oferecido para os homens."
+    },
+    {
+      "id": "enem_enem2023-2_1dia_35_39",
+      "materia": "Educação Física",
+      "assunto": "Esporte Adaptado",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "O Esporte Adaptado ou Paradesporto é compreendido como prática que oportuniza às pessoas com deficiência (PcD) o alcance de novos horizontes e perspectivas de vida por meio de vivências motoras, psicológicas e sociais diversificadas. Esse tipo de atividade consiste na possibilidade de prática esportiva para PcD com modificações relacionadas às regras da modalidade ou à maneira como a modalidade se desenvolve. Adicionalmente, o esporte para PcD é geralmente dividido por grupos de deficiência específicos nos quais cada grupo tem história distinta, organização, programa de competição e abordagem diferentes. Registram-se atualmente movimentos esportivos específicos para pessoas surdas, para deficientes físicos, deficientes visuais e para pessoas com deficiência intelectual. Uma grande variedade de modalidades esportivas foram adaptadas para serem praticadas por pessoas com diferentes deficiências, assim como outras modalidades foram criadas exclusivamente para PcD.",
+      "enunciado": "De acordo com esse texto, as práticas esportivas para PcD são caracterizadas por",
+      "alternativas": {
+        "A": "terem regras flexíveis em função do desempenho dos atletas em cada modalidade.",
+        "B": "ampliarem perspectivas de vida ao considerarem o desenvolvimento integral das pessoas.",
+        "C": "estarem voltadas para o estímulo à competitividade dos atletas com deficiência.",
+        "D": "buscarem a adesão do público para garantir apoio financeiro às competições.",
+        "E": "serem organizadas sem distinção para grupos de diferentes deficiências."
+      },
+      "gabarito": "B",
+      "comentario": "Por mais que o Esporte Adaptado ou Paradesporto amplie perspectivas de vida ao considerar o desenvolvimento motor, psicológico e social do praticante, não pode ser descartada a alternativa A, também correta. Ela retoma o que o texto afirma sobre as “modificações relacionadas às regras da modalidade ou à maneira como a modalidade se desenvolve”. Cada tipo de esporte é dividido “por grupos de deficiência específicos nos quais cada grupo tem história distinta, organização, programa de competição e abordagem diferentes”. Nota-se, portanto, que as modalidades e a maneira de atuar são flexíveis, de acordo com a possibilidade de desempenho do praticante do paradesporto. Resposta: B"
+    },
+    {
+      "id": "enem_enem2023-2_1dia_44_48",
+      "materia": "Educação Física",
+      "assunto": "Práticas corporais e saúde mental",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "As práticas corporais representam uma possibilidade de promoção da educação, do lazer e da saúde. A identificação das preferências das práticas corporais pode ser um incentivo para a adesão dos usuários aos serviços de saúde mental. Desse modo, a interação social por meio delas contribui para o desenvolvimento da identidade dos usuários, uma vez que essas atividades permeiam as dimensões cognitiva, emocional, social e comportamental. Nesse contexto, realizar atividades físicas, com um viés lúdico, converte-se numa maneira de cuidado com o corpo, gerando avaliações positivas dos usuários.",
+      "enunciado": "As práticas corporais realizadas em serviços de saúde mental estimulam o(a)",
+      "alternativas": {
+        "A": "aprimoramento cognitivo na realização de tarefas.",
+        "B": "aquisição da linguagem para a interação social.",
+        "C": "inserção no mercado de trabalho.",
+        "D": "fortalecimento da identidade.",
+        "E": "expansão da expressão corporal."
+      },
+      "gabarito": "D",
+      "comentario": "As práticas corporais estimulam o desenvolvimento da identidade do indivíduo, já que elas englobam o elemento cognitivo, o emocional, o social e o comportamental."
+    },
+    {
+      "id": "enem_enem2017_1dia_31_35",
+      "materia": "Educação Física",
+      "assunto": "Esporte-participação",
+      "banca": "INEP",
+      "ano": 2017,
+      "texto_auxiliar": "No esporte-participação ou esporte popular, a manifestação ocorre no princípio do prazer lúdico, que tem como finalidade o bem-estar social dos seus praticantes. Está associado intimamente com o lazer e o tempo livre e ocorre em espaços não comprometidos com o tempo e fora das obrigações da vida diária. Tem como propósitos a descontração, a diversão, o desenvolvimento pessoal e o relacionamento com as pessoas. Pode-se afirmar que o esporte-participação, por ser a dimensão social do esporte mais inter-relacionada com os caminhos democráticos, equilibra o quadro de desigualdades de oportunidades esportivas encontrado na dimensão esporte-performance. Enquanto o esporte-performance só permite sucesso aos talentos ou àqueles que tiveram condições, o esporte-participação favorece o prazer a todos que dele desejarem tomar parte. GODTSFRIEDT, J. Esporte e sua relação com a sociedade: uma síntese bibliográfica. EFDeportes, n. 142, mar. 2010.",
+      "enunciado": "O sentido de esporte-participação construído no texto está fundamentalmente presente",
+      "alternativas": {
+        "A": "nos Jogos Olímpicos, uma vez que reúnem diversos países na disputa de diferentes modalidades esportivas.",
+        "B": "nas competições de esportes individuais, uma vez que o sucesso de um indivíduo incentiva a participação dos demais.",
+        "C": "nos campeonatos oficiais de futebol, regionais e nacionais, por se tratar de uma modalidade esportiva muito popular no país.",
+        "D": "nas competições promovidas pelas federações e confederações, cujo objetivo é a formação e a descoberta de talentos.",
+        "E": "nas modalidades esportivas adaptadas, cujo objetivo é o maior engajamento dos cidadãos."
+      },
+      "gabarito": "E",
+      "comentario": "O esporte-participação é construído no texto como uma modalidade esportiva de inclusão e engajamento através da atividade lúdica."
+    },
+    {
+      "id": "enem_enem2016-2_2dia_115_24",
+      "materia": "Educação Física",
+      "assunto": "Sarcopenia e exercícios físicos",
+      "banca": "INEP",
+      "ano": 2016,
+      "texto_auxiliar": "A perda de massa muscular é comum com a idade, porém, é na faixa dos 60 anos que ela se torna clinicamente perceptível e suas consequências começam a incomodar no dia a dia, quando simples atos de subir escadas ou ir à padaria se tornam sacrifícios. Esse processo tem nome: sarcopenia. Essa condição ocasiona a perda da força e qualidade dos músculos e tem um impacto significante na saúde.\nDisponível em: www.infoescola.com. \nAcesso em: 19 dez. 2012 (adaptado).",
+      "enunciado": "A sarcopenia é inerente ao envelhecimento, mas seu quadro e consequentes danos podem ser retardados com a prática de exercícios físicos, cujos resultados mais rápidos são alcançados com o(a)",
+      "alternativas": {
+        "A": "hidroginástica.",
+        "B": "alongamento.",
+        "C": "musculação.",
+        "D": "corrida.",
+        "E": "dança."
+      },
+      "gabarito": "C",
+      "comentario": "O exercício físico recomendado pelos especialistas para o retardamento dos danos corporais causados pela sarcopenia é a musculação, uma vez que essa prática esportiva fortalece a massa muscular."
+    },
+    {
+      "id": "enem_enem2016-2_2dia_119_28",
+      "materia": "Educação Física",
+      "assunto": "Práticas corporais e interação social",
+      "banca": "INEP",
+      "ano": 2016,
+      "texto_auxiliar": "A educação física ensinada a jovens do ensino médio deve garantir o acúmulo cultural no que tange à oportunização de vivência das práticas corporais; a compreensão do papel do corpo no mundo da produção, no que tange ao controle sobre o próprio esforço, e do direito ao repouso e ao lazer; a iniciativa pessoal nas articulações coletivas relativas às práticas corporais comunitárias; a iniciativa pessoal para criar, planejar ou buscar orientação para suas próprias práticas corporais; a intervenção política sobre as iniciativas públicas de esporte e de lazer.",
+      "enunciado": "Segundo o texto, a educação física visa propiciar ao indivíduo oportunidades de aprender a conhecer e a perceber, de forma permanente e contínua, o seu próprio corpo, concebendo as práticas corporais como meios para",
+      "alternativas": {
+        "A": "ampliar a interação social.",
+        "B": "atingir padrões de beleza.",
+        "C": "obter resultados de alta performance.",
+        "D": "reproduzir movimentos predeterminados.",
+        "E": "alcançar maior produtividade no trabalho."
+      },
+      "gabarito": "A",
+      "comentario": "A prática esportiva possibilita ampla interação social, entre outros benefícios."
+    },
+    {
+      "id": "enem_enem2016-2_2dia_123_32",
+      "materia": "Educação Física",
+      "assunto": "Brinquedos cantados e cultura corporal",
+      "banca": "INEP",
+      "ano": 2016,
+      "texto_auxiliar": "Brinquedos cantados\nOs brinquedos cantados são atividades diretamente relacionadas com o ato de cantar e ao conjunto dessas canções, a que chamamos de cancioneiro folclórico-infantil. É difícil determinar sua origem. Parece que essas canções sempre existiram, sempre encantaram o povo e embalaram as criancinhas. A maioria parece ter chegado com os colonizadores portugueses, sofrendo influência ameríndia e africana, devido à colonização e posteriormente ao tráfico de escravos para o Brasil.\nAnalisando as letras de alguns brinquedos cantados, podemos observar que elas desenvolvem várias habilidades motoras, como: motricidade ampla, ritmo, equilíbrio, direcionalidade, lateralidade, percepção espaço-temporal, tônus muscular, entre outras. E no cognitivo, as letras e coreografias ajudam a criança a desenvolver a atenção, a imaginação e a criatividade.\nZOBOLI, F.; FURTUOSO, M. S.; TELLES, C. O brinquedo cantado na escola: uma ferramenta no processo de aprendizagem. Disponível em: www.efdeportes.com. Acesso em: 14 dez. 2012 (adaptado).",
+      "enunciado": "O brinquedo cantado é um importante componente da cultura corporal brasileira, sendo vivenciado com frequência por muitas crianças. Identifica-se o seu valor para a tradição cultural no(a)",
+      "alternativas": {
+        "A": "ampliação dada à força motora das crianças devido ao uso da música e das danças.",
+        "B": "condição educativa fundamentada no uso de jogos sem regras previamente estabelecidas.",
+        "C": "histórico indeterminado dessa forma de brincadeira representativa do cancioneiro folclórico.",
+        "D": "uso de técnicas, facilmente adotadas por qualquer criança, que intensificam a motricidade esportiva.",
+        "E": "possibilidade de contribuição para o desenvolvimento integral do indivíduo."
+      },
+      "gabarito": "E",
+      "comentario": "A atividade infantil denominada “brinquedo cantado” desenvolve habilidades motoras e cognitivas, o que contribui para desenvolver integralmente a criança."
+    },
+    {
+      "id": "enem_enem2015_2dia_102_11",
+      "materia": "Educação Física",
+      "assunto": "Brincadeiras e jogos",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "Riscar o chão para sair pulando é uma brincadeira que vem dos tempos do Império Romano. A amarelinha original tinha mais de cem metros e era usada como treinamento militar. As crianças romanas, então, fizeram imitações reduzidas do campo utilizado pelos soldados e acrescentaram numeração nos quadrados que deveriam ser pulados. Hoje as amarelinhas variam nos formatos geométricos e na quantidade de casas. As palavras “céu” e “inferno” podem ser escritas no começo e no final do desenho, que é marcado no chão com giz, tinta ou graveto.",
+      "enunciado": "Com base em fatos históricos, o texto retrata o processo de adaptação pelo qual passou um tipo de brincadeira. Nesse sentido, conclui-se que as brincadeiras comportam o(a)",
+      "alternativas": {
+        "A": "caráter competitivo que se assemelha às suas origens.",
+        "B": "delimitação de regras que se perpetuam com o tempo.",
+        "C": "definição antecipada do número de grupos participantes.",
+        "D": "objetivo de aperfeiçoamento físico daqueles que a praticam.",
+        "E": "possibilidade de reinvenção no contexto em que é realizada."
+      },
+      "gabarito": "E",
+      "comentario": "O texto relata que a amarelinha, que, nascida para treinamento militar e dotada de mais de cem metros de extensão, teve seu tamanho reduzido e seus quadrados numerados quando passou a ser brincadeira de criança. Dessa forma, essa atividade física se mostrou aberta a reinvenções que se adaptam ao contexto em que é praticada."
+    }
+  ]
+}

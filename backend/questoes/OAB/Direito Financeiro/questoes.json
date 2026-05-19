@@ -1,0 +1,240 @@
+{
+  "Direito Financeiro": [
+    {
+      "id": "oab_38_23",
+      "materia": "Direito Financeiro",
+      "assunto": "Requisição de Pequeno Valor (RPV)",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "João ganhou uma ação movida em face do Estado Gama, na qual este foi condenado a pagar o equivalente a 30 salários mínimos a título de danos morais pelo uso indevido de sua imagem em uma publicidade institucional do governo estadual. A ação transitou em julgado em 15 de julho de 2022. Seu advogado verifica que não há legislação específica estadual acerca de prazos e limites de valores sobre pagamentos pela Fazenda Pública em caso de condenação judicial. Diante desse cenário, e à luz da Constituição Federal de 1988, João receberá o valor a que tem direito",
+      "alternativas": {
+        "A": "por meio de precatório alimentar, que tem prioridade em relação aos demais, dentro do próprio ano do trânsito em julgado.",
+        "B": "por meio de Requisição de Pequeno Valor (RPV).",
+        "C": "por meio de precatório comum, a ser pago no ano seguinte ao do trânsito em julgado da condenação judicial.",
+        "D": "em dinheiro, no prazo máximo de 15 (quinze) dias contados da intimação da Fazenda Pública do trânsito em julgado da ação, através de transferência bancária entre a instituição financeira que administra o tesouro estadual e o banco em que João tem sua conta."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa B está correta. Com base no art. 87, I, do ADCT, os débitos perante a Fazenda Estadual de valor igual ou inferior a 40 salários mínimos devem ser pagos por meio de Requisição de Pequeno Valor (RPV), não por precatório."
+    },
+    {
+      "id": "oab_38_24",
+      "materia": "Direito Financeiro",
+      "assunto": "Plano Plurianual (PPA)",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "O Presidente da República está elaborando projeto de lei que estabelece, de forma regionalizada, as diretrizes, objetivos e metas da Administração Pública federal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada. Diante desse cenário, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A matéria tratada em tal projeto de lei objetiva instituir a Lei de Diretrizes Orçamentárias, a qual deve ser aprovada por quorum de maioria simples no Congresso Nacional.",
+        "B": "Tal projeto versa sobre a Lei de Diretrizes Orçamentárias e se submete à reserva de lei complementar.",
+        "C": "Embora institua o Plano Plurianual, tal projeto de lei necessita ser aprovado por quorum de maioria absoluta no Congresso Nacional.",
+        "D": "Trata-se de projeto de lei que institui o Plano Plurianual, a ser veiculado por meio de lei ordinária."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa D está correta. O Plano Plurianual (PPA) é instituído por lei ordinária (art. 165, §1°, CF). Não é matéria reservada à lei complementar, sendo aprovado por maioria simples (art. 47 da CF)."
+    },
+    {
+      "id": "oab_39_23",
+      "materia": "Direito Financeiro",
+      "assunto": "Transferência Especial (Emenda Impositiva)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 166-A, §2º, I da CF/88.",
+      "enunciado": "O deputado federal José, por meio das emendas individuais impositivas constitucionalmente previstas que a ele competem, deseja destinar recursos para o Município Alfa. Contudo, deseja fazê-lo por meio de repasses diretos ao referido Município, independentemente de celebração de convênio ou de instrumento congênere. Assinale a opção que indica o instrumento constitucional que ele deve adotar.",
+      "alternativas": {
+        "A": "Transferência especial.",
+        "B": "Transferência com finalidade definida.",
+        "C": "Transferência individual.",
+        "D": "Transferência extraordinária."
+      },
+      "gabarito": "A",
+      "comentario": "O art. 166-A, §2º, I da CF (EC 105/2019) define que na 'transferência especial' os recursos serão repassados diretamente ao ente federado, independentemente de celebração de convênio ou instrumento congênere. É a modalidade adequada para emendas individuais impositivas."
+    },
+    {
+      "id": "oab_39_24",
+      "materia": "Direito Financeiro",
+      "assunto": "Vedações à Medida Provisória em matéria orçamentária",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 62, §1º, I, 'd' e art. 167, §3º da CF/88.",
+      "enunciado": "Em um determinado ano, diante de grave impasse entre o Poder Executivo federal e o Congresso Nacional, o que vem dificultando a aprovação das leis orçamentárias, e em face da relevância e urgência em autorizar a realização de uma série de despesas públicas, o chefe do Poder Executivo avalia a hipótese de adotar Medidas Provisórias para legislar sobre o tema, especialmente sobre o plano plurianual, diretrizes orçamentárias, orçamento anual, abertura de créditos suplementares, especiais e extraordinários. Diante desse cenário, à luz da CRFB/88, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A Medida Provisória pode ser usada apenas para abrir crédito suplementar ou especial voltado a atender a despesas de saúde e educação.",
+        "B": "A instituição da lei de diretrizes orçamentárias e da lei do orçamento anual, em caso de urgência e relevância, pode ser feita por Medida Provisória, mas não a instituição do Plurianual.",
+        "C": "A abertura de crédito extraordinário por meio de Medida Provisória somente será admitida para atender a despesas imprevisíveis e urgentes, como as decorrentes de guerra, comoção interna ou calamidade pública.",
+        "D": "A Medida Provisória para dispor sobre qualquer matéria orçamentária, pode ser editada, desde que haja relevância e urgência, e que seja aprovada pelo Congresso Nacional no prazo de 60 (sessenta) dias."
+      },
+      "gabarito": "C",
+      "comentario": "O art. 62, §1º, I, 'd' veda MP sobre matéria relativa a planos plurianuais, diretrizes orçamentárias, orçamento e créditos adicionais. A exceção está no art. 167, §3º, que admite MP para abertura de crédito extraordinário destinado a despesas imprevisíveis e urgentes (guerra, comoção interna, calamidade pública)."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_23",
+      "materia": "Direito Financeiro",
+      "assunto": "Lei de Diretrizes Orçamentárias - Tramitação",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "O Presidente da República deve enviar, todo ano, o Projeto da Lei de Diretrizes Orçamentárias (PLDO) da União ao Congresso Nacional para ser apreciado e votado. Como projeto de lei orçamentária que é, possui especificidades em seu regime de tramitação. A CRFB/88 estabelece que o PLDO, ao chegar ao Poder Legislativo, deve ser encaminhado ao(à)",
+      "alternativas": {
+        "A": "Plenário do Congresso Nacional, para apreciação e votação única do PLDO em sessão conjunta de ambas as casas.",
+        "B": "Plenário da Câmara dos Deputados, para apreciação e votação em turno único, e posterior remessa ao Plenário do Senado Federal para votação do PLDO.",
+        "C": "Comissão Mista de Planos, Orçamentos Públicos e Fiscalização – CMO, para examinar e emitir parecer sobre o PLDO.",
+        "D": "Comissão de Constituição e Justiça e de Cidadania – CCJ, para examinar e emitir parecer sobre o PLDO."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão aborda o tema leis orçamentárias. A alternativa A está incorreta, pois, embora o PLDO seja de fato apreciado e votado em sessão conjunta do Congresso Nacional, ele não é encaminhado diretamente ao Plenário. Conforme estabelecido no art. 166, § 1º, da Constituição Federal, o PLDO é inicialmente analisado por uma comissão mista permanente de Senadores e Deputados, conforme comentários à alternativa C. A alternativa B está incorreta, pois esta alternativa descreve o processo de tramitação de projetos de lei ordinários, não o processo específico do PLDO. O PLDO não segue este fluxo de tramitação separada entre Câmara e Senado, mas sim é apreciado em sessão conjunta do Congresso Nacional, após análise pela comissão mista, conforme comentários às alternativas A e C. A alternativa C está correta, pois está em conformidade com o art. 166, § 1º, da Constituição Federal, que estabelece: \"Caberá a uma Comissão mista permanente de Senadores e Deputados examinar e emitir parecer sobre os projetos referidos neste artigo e sobre as contas apresentadas anualmente pelo Presidente da República\". A CMO é a comissão mista responsável por esta função. A alternativa D está incorreta, pois, embora a CCJ seja uma comissão importante no processo legislativo, ela não é a responsável pela análise inicial do PLDO. Como mencionado anteriormente, esta função cabe à Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO)."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_24",
+      "materia": "Direito Financeiro",
+      "assunto": "Leis Orçamentárias (PPA, LDO, LOA)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "O prefeito do Município Alfa, em determinado exercício financeiro, na primeira semana do seu mandato, convocou todos os seus secretários, assessores e consultores para definir a política financeira da sua gestão. Na reunião, ele questionou alguns aspectos do orçamento público municipal. Diante desse cenário, considerando que a Lei Orgânica Municipal reproduz as mesmas normas do Direito Financeiro da Constituição Federal de 1988, inclusive quanto aos prazos, assinale a opção que indica a informação que você, na qualidade de consultor(a) jurídico(a), corretamente prestou.",
+      "alternativas": {
+        "A": "Ele deverá usar, no primeiro ano do mandato, a Lei Orçamentária Anual (LOA), cuja proposta foi elaborada pelo prefeito antecessor e por este encaminhada à Câmara de Vereadores que a aprovou.",
+        "B": "Ele deverá editar, antes do fim do primeiro biênio de seu mandato, um decreto contendo o Plano Plurianual (PPA), que vigerá ao longo dos quatro anos subsequentes, cujo conteúdo orienta e vincula a elaboração da Lei Orçamentária Anual (LOA) e da Lei de Diretrizes Orçamentárias (LDO).",
+        "C": "Ele terá que encaminhar para a Câmara de Vereadores, até 31 de outubro do mesmo ano, o projeto da Lei Orçamentária Anual (LOA) para o exercício financeiro seguinte.",
+        "D": "Ele deverá adotar a Lei de Diretrizes Orçamentárias (LDO), que vigerá por quatro anos, a fim de acompanhar a vigência do Plano Plurianual (PPA)."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão aborda o tema leis orçamentárias. A alternativa A está correta, pois de acordo com o princípio da anualidade orçamentária e o ciclo orçamentário brasileiro, a Lei Orçamentária Anual (LOA) para o primeiro ano de mandato de um novo prefeito é, de fato, elaborada e aprovada no ano anterior, durante a gestão do prefeito antecessor. Isso ocorre porque o processo de elaboração e aprovação da LOA acontece no ano anterior ao exercício financeiro a que se refere. Nesse sentido, o art. 35, § 2º, III, do ADCT estabelece o prazo para o envio do projeto de lei orçamentária ao Legislativo, veja-se: “o projeto de lei orçamentária da União será encaminhado até quatro meses antes do encerramento do exercício financeiro e devolvido para sanção até o encerramento da sessão legislativa”. A alternativa B está incorreta por dois motivos principais: o PPA não é editado por decreto, mas sim por lei; o prazo para envio do projeto de lei do PPA à Câmara Municipal é até 31 de agosto do primeiro ano de mandato, e não \"antes do fim do primeiro biênio\". Veja-se dispositivo constitucional pertinente: “Art. 165. Leis de iniciativa do Poder Executivo estabelecerão: I - o plano plurianual”. Agora veja-se dispositivo do ADCT: “Art. 35 (...) § 2º Até a entrada em vigor da lei complementar a que se refere o art. 165, § 9º, I e II, serão obedecidas as seguintes normas: I - o projeto do plano plurianual, para vigência até o final do primeiro exercício financeiro do mandato presidencial subsequente, será encaminhado até quatro meses antes do encerramento do primeiro exercício financeiro e devolvido para sanção até o encerramento da sessão legislativa;” A alternativa C está incorreta, pois o prazo para envio do projeto da LOA à Câmara Municipal é até 30 de setembro, não 31 de outubro. Veja-se o dispositivo pertinente do ADCT: “Art. 35 (...) § 2º Até a entrada em vigor da lei complementar a que se refere o art. 165, § 9º, I e II, serão obedecidas as seguintes normas: (...) III - o projeto de lei orçamentária da União será encaminhado até quatro meses antes do encerramento do exercício financeiro e devolvido para sanção até o encerramento da sessão legislativa”. A alternativa D está incorreta, pois a LDO tem vigência até o encerramento do exercício financeiro seguinte ao qual foi aprovada, não de quatro anos. Ela é elaborada anualmente para orientar a elaboração da LOA do ano seguinte, estabelecendo as metas e prioridades da administração pública. Veja-se dispositivo constitucional pertinente: “Art. 165. Leis de iniciativa do Poder Executivo estabelecerão: (...) II - as diretrizes orçamentárias; (...) § 2º A lei de diretrizes orçamentárias compreenderá as metas e prioridades da administração pública federal, estabelecerá as diretrizes de política fiscal e respectivas metas, em consonância com trajetória sustentável da dívida pública, orientará a elaboração da lei orçamentária anual, disporá sobre as alterações na legislação tributária e estabelecerá a política de aplicação das agências financeiras oficiais de fomento”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_23",
+      "materia": "Direito Financeiro",
+      "assunto": "Transparência fiscal na Lei de Responsabilidade Fiscal",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "O Prefeito e a Câmara de Vereadores de Alfa, município com cem mil habitantes, situado no interior do Estado Beta, pretendem modernizar a administração pública municipal. Assim, iniciaram um programa de ampliação da transparência da gestão fiscal, que prevê a implantação de mecanismos previstos na Constituição Federal de 1988 e na Lei de Responsabilidade Fiscal, objetivando dar maior efetividade ao princípio da transparência fiscal. Sobre a hipótese formulada, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "As contas apresentadas pelo Prefeito devem ficar disponíveis, durante todo o exercício, apenas no órgão técnico responsável pela sua elaboração, para consulta e apreciação pelos cidadãos e instituições da sociedade.",
+        "B": "A realização de audiências públicas durante os processos de elaboração e discussão dos planos, da lei de diretrizes orçamentárias e dos orçamentos não pode ser aplicada ao Município Alfa, mas tão somente às esferas estadual ou federal.",
+        "C": "o Município Alfa está obrigado a disponibilizar em meio eletrônico de amplo acesso público suas informações e seus dados contábeis, orçamentários e fiscais de acordo com uma periodicidade, um formato e um sistema estabelecidos pelo órgão central de contabilidade da União.",
+        "D": "A prestação de contas do Prefeito deve ter ampla divulgação, mas o respectivo parecer prévio do Tribunal de Contas do Estado Beta sobre tais contas é apenas enviado à Câmara de Vereadores para que estas possam ser julgadas, não podendo ser veiculado em meios eletrônicos de acesso público."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre o princípio da transparência no direito financeiro. A alternativa A está incorreta ao afirmar “apenas” no órgão técnico responsável. Dessa forma, as contas do Prefeito devem ser disponibilizadas publicamente em meios de comunicação amplos e não apenas no órgão técnico responsável pela sua elaboração. A transparência fiscal, prevista no art. 48 do CTN, exige que os cidadãos tenham fácil acesso às informações. A alternativa B está incorreta, pois a transparência aplica-se a todos os entes, conforme preceitua o art. 1º em seu §2º da LRF. A alternativa C está correta, pois está em conformidade com o art. 48, §2º da LRF que estipula que: “a União, os Estados, o Distrito Federal e os Municípios disponibilizarão suas informações e dados contábeis, orçamentários e fiscais conforme periodicidade, formato e sistema estabelecidos pelo órgão central de contabilidade da União, os quais deverão ser divulgados em meio eletrônico de amplo acesso público”. A alternativa D está incorreta. De fato, a prestação de contas do Prefeito deve ter ampla divulgação, no entanto, o respectivo parecer do Tribunal de Contas também deve ser de ampla divulgação. Ao afirmar que o parecer do TC não poderia ser veiculado em meios eletrônicos, a questão confronta o art. 48 da LRF."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_24",
+      "materia": "Direito Financeiro",
+      "assunto": "Limites de despesa com pessoal na LRF",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em certo período de apuração, a despesa total de pessoal da União alcançou o patamar de 60% da receita corrente líquida (RCL), de acordo com os critérios de cálculo estabelecidos na Lei Complementar no 101/2000 (Lei de Responsabilidade Fiscal - LRF). Sobre o patamar alcançado, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Viola o limite válido para a esfera federal estabelecido na LRF, que é expressamente previsto em 45% da RCL.",
+        "B": "Viola o limite válido para a esfera federal estabelecido na LRF, que é expressamente previsto em 50% da RCL.",
+        "C": "Situa-se abaixo do limite válido para a esfera federal estabelecido na LRF, que está expressamente previsto em 70% da RCL.",
+        "D": "Mantém-se dentro do limite válido para a esfera federal estabelecido na LRF, uma vez que configura o limite previsto naquela norma jurídica."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre os limites com despesa de pessoal previstos na LRF. A alternativa B está correta, pois, de fato, ao alcançar o patamar de 60% da Receita Corrente Líquida, o ente ultrapassou o limite expressamente estipulado pela LRF, em seu art. 19, inciso I, que é de 50% para a União. As demais alternativas, A, C e D, estão incorretas, pois estipulam valores distintos daquele expresso na LRF, que é de 50% da RCL para a União."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_23",
+      "materia": "Direito Financeiro",
+      "assunto": "Lei Orçamentária Anual (LOA) - Conteúdo",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "O projeto da Lei Orçamentária Anual (LOA) de determinado ente federativo, encaminhado ao Poder Legislativo pelo Poder Executivo, prevê apenas o orçamento fiscal do referido ente. Na mensagem de encaminhamento do projeto de LOA, está esclarecido que o orçamento de investimentos das empresas que o ente, direta ou indiretamente, detém a maioria do capital social com direito a voto, bem como o orçamento da seguridade social do ente, será encaminhado individualmente por meio de outros projetos. Diante desse cenário, sobre esse procedimento assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Viola a regra constitucional que exige o orçamento de seguridade social deve integrar a Lei de Diretrizes Orçamentárias.",
+        "B": "Não atende à regra constitucional de que a LOA compreenderá também o orçamento de investimentos e o orçamento da seguridade social.",
+        "C": "Está correto, pois apenas o orçamento fiscal compõe a LOA, devendo o orçamento de investimentos e o orçamento da seguridade social serem previstos em leis próprias para cada um desses tipos de orçamentos.",
+        "D": "É inadequado em relação ao orçamento de investimentos, que deveria compor a LOA, mas é admitido em relação ao orçamento de seguridade social, que pode ser previsto em outra lei, desde que seu valor global esteja previsto na LOA."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata da estrutura da Lei Orçamentária Anual (LOA) (art. 165, §5º, da CF/88). A alternativa A está incorreta. A LOA não integra o orçamento de seguridade social na Lei de Diretrizes Orçamentárias (Constituição Federal – Art. 165, §2º e §5º: Art. 165. § 2º A lei de diretrizes orçamentárias compreenderá as metas e prioridades da administração pública federal, incluindo as despesas de capital para o exercício financeiro subsequente, orientará a elaboração da lei orçamentária anual, disporá sobre as alterações na legislação tributária e estabelecerá a política de aplicação das agências financeiras oficiais de fomento. §5º A lei orçamentária anual compreenderá: I – o orçamento fiscal referente aos Poderes da União, seus fundos, órgãos e entidades da administração direta e indireta; II – o orçamento de investimento das empresas em que a União, direta ou indiretamente, detenha a maioria do capital social com direito a voto; III – o orçamento da seguridade social, abrangendo todas as entidades e órgãos a ela vinculados, da administração direta ou indireta, bem como os fundos e fundações instituídos e mantidos pelo Poder Público.) A alternativa B está correta. A LOA deve compreender o orçamento fiscal, da seguridade social e de investimentos das estatais (vide alternativa A). A alternativa C está incorreta. A LOA deve integrar todos os três orçamentos, e não somente o fiscal (vide alternativa A). A alternativa D está incorreta. Tanto o orçamento de investimentos quanto o da seguridade social devem integrar a LOA (vide alternativa A)."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_24",
+      "materia": "Direito Financeiro",
+      "assunto": "Limites de despesas com pessoal e sanções na LRF",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "O Estado Beta, no último ano, ultrapassou o limite de despesas total de pessoal, que, segundo a Lei de Responsabilidade Fiscal (LRF), é, no máximo, 60% da Receita Corrente Líquida (RCL). Por falta de gestão responsável, apesar de os demais Poderes e órgãos autônomos terem se enquadrado dentro dos respectivos percentuais fixados como limites individuais, o Poder Executivo estadual não conseguiu alcançar a redução determinada pela própria LRF, dentro do prazo por ela estipulado, para atender ao percentual máximo de 60% da RCL, fixado como limite individual de despesas com pessoal para o Poder Executivo estadual. Diante desse cenário, à luz da Lei de Responsabilidade Fiscal, o Poder Executivo estadual não poderá:",
+      "alternativas": {
+        "A": "Realizar qualquer operação de crédito, apenas.",
+        "B": "Receber transferências voluntárias (exceto nas áreas de educação, saúde e assistência social), mas poderá obter garantia de outro ente, bem como poderá contratar operações de crédito.",
+        "C": "Obter garantia de outro ente, nem contratar operações de crédito, reservadas as que visem à redução das despesas com pessoal; mas, poderá receber transferências voluntárias em quaisquer áreas.",
+        "D": "Receber transferências voluntárias (exceto nas áreas de educação, saúde e assistência social), nem obter garantia de outro ente, nem contratar operações de crédito, reservadas as destinadas ao pagamento da dívida mobiliária e as que visem à redução das despesas com pessoal."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata das sanções ao ente que ultrapassa o limite de despesa de pessoal (arts. 22 e 23 da LRF). A alternativa A está incorreta. A restrição é mais ampla do que apenas a realização de operações de crédito (Art. 23. [...] §3º Enquanto perdurar o excesso, o ente da Federação não poderá: I – receber transferências voluntárias; II – obter garantia, direta ou indireta, de outro ente; III – contratar operações de crédito, salvo as destinadas ao refinanciamento da dívida mobiliária que não aumentem o endividamento líquido.) A alternativa B está incorreta. Não poderá obter garantia de outro ente nem contratar operações de crédito, salvo exceções específicas. (Art. 23. [...] §3º Enquanto perdurar o excesso, o ente da Federação não poderá: I – receber transferências voluntárias; II – obter garantia, direta ou indireta, de outro ente; III – contratar operações de crédito, salvo as destinadas ao refinanciamento da dívida mobiliária que não aumentem o endividamento líquido.) A alternativa C está incorreta. Também haverá vedação à obtenção de transferências voluntárias, salvo para educação, saúde e assistência social. (Art. 23. [...] §3º Enquanto perdurar o excesso, o ente da Federação não poderá: I – receber transferências voluntárias; II – obter garantia, direta ou indireta, de outro ente; III – contratar operações de crédito, salvo as destinadas ao refinanciamento da dívida mobiliária que não aumentem o endividamento líquido.) A alternativa D está correta. O ente não poderá receber transferências voluntárias, nem obter garantias ou contratar operações de crédito, salvo exceções. (Art. 23. [...] §3º Enquanto perdurar o excesso, o ente da Federação não poderá: I – receber transferências voluntárias; II – obter garantia, direta ou indireta, de outro ente; III – contratar operações de crédito, salvo as destinadas ao refinanciamento da dívida mobiliária que não aumentem o endividamento líquido.)"
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_23",
+      "materia": "Direito Financeiro",
+      "assunto": "Lei Orçamentária Anual - Conteúdo permitido",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em um determinado exercício financeiro, o Projeto de Lei Orçamentária Anual (PLOA) enviado pelo Governador do Estado Alfa à Assembleia Legislativa dispunha sobre matérias relacionadas ao direito financeiro, entre as quais: I. autorização para abertura de créditos adicionais suplementares; II. autorização para abertura de créditos adicionais especiais; III. autorização para contratação de operações de crédito; IV. autorização para contratação de operações de crédito por antecipação de receita. Diante desse cenário, à luz do texto da Constituição Federal de 1988, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A autorização para abertura de créditos adicionais suplementares não poderia constar neste PLOA.",
+        "B": "A autorização para abertura de créditos adicionais especiais foi indevidamente inserida neste PLOA.",
+        "C": "A autorização para contratação de operações de crédito não poderia ser prevista neste PLOA.",
+        "D": "A Constituição Federal expressamente proíbe que se insira no PLOA autorização para contratação de operações de crédito por antecipação de receita."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão aborda o tema leis orçamentárias. A alternativa A está incorreta, pois a autorização para abertura de créditos adicionais suplementares é permitida pelo art. 165, § 8º, da CF: “A lei orçamentária anual não conterá dispositivo estranho à previsão da receita e à fixação da despesa, não se incluindo na proibição a autorização para abertura de créditos suplementares e contratação de operações de crédito, ainda que por antecipação de receita, nos termos da lei”. A alternativa B está correta, pois a autorização para abertura de créditos adicionais especiais é vedada pelo art. 165, § 8º, da CF, conforme comentários à alternativa A. A alternativa C está incorreta, pois a autorização para contratação de operações de crédito é permitida pelo art. 165, § 8º, da CF, conforme comentários à alternativa A. A alternativa D está incorreta, pois a autorização para contratação de operações de crédito, ainda que por antecipação de receita, é permitida pelo art. 165, § 8º, da CF, conforme comentários à alternativa A."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_24",
+      "materia": "Direito Financeiro",
+      "assunto": "Lei de Responsabilidade Fiscal - Instituição e arrecadação de tributos",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "O Município Alfa revogou a lei que instituía a cobrança do Imposto Predial e Territorial Urbano (IPTU) dos imóveis situados em seu território, há mais de 5 anos, deixando, desde então, de realizar sua cobrança e arrecadação. Notificado pelo respectivo Tribunal de Contas para retornar a cobrar o imposto por descumprir um dos requisitos essenciais de uma gestão fiscal responsável, o prefeito pergunta a você, como advogado(a), qual será a consequência para a municipalidade, caso mantenha a política da não instituição, previsão e efetiva arrecadação de todos os impostos de sua competência constitucionalmente atribuída. Nesse cenário, à luz da Lei de Responsabilidade Fiscal (LC nº 101/2000), você respondeu que o Município Alfa ficará impedido de",
+      "alternativas": {
+        "A": "realizar operações de crédito.",
+        "B": "realizar qualquer concurso público.",
+        "C": "receber transferências voluntárias.",
+        "D": "contratar com qualquer outro ente da Federação."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão aborda o tema responsabilidade na gestão fiscal. A alternativa A está incorreta, pois a sanção prevista para o ente que não institua, preveja e efetivamente arrecade todos os impostos de sua competência é a vedação à realização de transferências voluntárias em seu favor, conforme art. 11, parágrafo único, da LC 101/2000: “Art. 11. Constituem requisitos essenciais da responsabilidade na gestão fiscal a instituição, previsão e efetiva arrecadação de todos os tributos da competência constitucional do ente da Federação. Parágrafo único. É vedada a realização de transferências voluntárias para o ente que não observe o disposto no caput, no que se refere aos impostos”. A alternativa B está incorreta, pois a sanção prevista para o ente que não institua, preveja e efetivamente arrecade todos os impostos de sua competência é a vedação à realização de transferências voluntárias em seu favor, conforme comentários à alternativa A. A alternativa C está correta, pois a sanção prevista para o ente que não institua, preveja e efetivamente arrecade todos os impostos de sua competência é a vedação à realização de transferências voluntárias em seu favor, conforme comentários à alternativa A. A alternativa D está incorreta, pois a sanção prevista para o ente que não institua, preveja e efetivamente arrecade todos os impostos de sua competência é a vedação à realização de transferências voluntárias em seu favor, conforme comentários à alternativa A."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_23",
+      "materia": "Direito Financeiro",
+      "assunto": "Limitação de empenho e movimentação financeira (LRF)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "O Estado Alfa, ao final do segundo bimestre de um determinado exercício financeiro, percebeu que a realização da receita poderia não comportar o cumprimento das metas de resultado primário estabelecidas no Anexo de Metas Fiscais. Em razão disso, o Poder Executivo teve de realizar, nos trinta dias subsequentes, limitação de empenho e movimentação financeira. Diante desse cenário, assinale a opção que apresenta, corretamente, a despesa que poderia ser objeto de tal limitação de empenho.",
+      "alternativas": {
+        "A": "A despesa que constitua obrigação legal do ente estadual.",
+        "B": "A despesa com o pagamento do serviço da dívida estadual.",
+        "C": "A despesa com desenvolvimento científico custeada por fundo criado para tal finalidade.",
+        "D": "A despesa com aquisição de material de consumo para setores administrativos do Poder Executivo."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão versa sobre o tema de execução orçamentária. A alternativa A está incorreta. Segundo a Lei de Responsabilidade Fiscal (LRF), a despesa que constitua obrigação legal do ente estadual não será objeto de limitação. Veja a literalidade do art. 9º, §2º da LRF: “Não serão objeto de limitação as despesas que constituam obrigações constitucionais e legais do ente [...]”. A alternativa B está incorreta. Segundo a Lei de Responsabilidade Fiscal (LRF), a despesa com pagamento do serviço da dívida não será objeto de limitação. Veja a literalidade do art. 9º, §2º da LRF: “Não serão objeto de limitação as despesas que constituam obrigações constitucionais e legais do ente, inclusive aquelas destinadas ao pagamento do serviço da dívida [...]”. A alternativa C está incorreta. Segundo a Lei de Responsabilidade Fiscal (LRF), a despesa com desenvolvimento científico custeada por fundo criado para tal finalidade não será objeto de limitação. Veja a continuação da literalidade do art. 9º, §2º da LRF: “Não serão objeto de limitação as despesas que constituam obrigações constitucionais e legais do ente, inclusive aquelas destinadas ao pagamento do serviço da dívida, as relativas à inovação e ao desenvolvimento científico e tecnológico custeadas por fundo criado para tal finalidade [...]”. A alternativa D está correta. A despesa com aquisição de material de consumo para setores administrativos não está incluída nas hipóteses previstas no art. 9º, §2º da LRF. Portanto, trata-se de uma despesa que pode sofrer limitação."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_24",
+      "materia": "Direito Financeiro",
+      "assunto": "Execução da despesa pública",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Apesar de todas as despesas realizadas no primeiro semestre do ano pela Secretaria de Obras do Estado Alfa estarem devidamente previstas na sua lei orçamentária anual, o procedimento formal para sua realização não vinha atendendo integralmente as etapas e regras da legislação vigente, uma vez que todos os pagamentos aos fornecedores e empreiteiros estavam sendo realizados de maneira direta e antecipada ao vencedor da licitação, logo após a conclusão do edital de licitação. Diante desse cenário, à luz da Lei n° 4.320/1964, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Inicialmente deve ser feito o empenho da despesa contratada e, em seguida, salvo casos especiais previstos em legislação específica, a emissão da nota de empenho; após a verificação da entrega do material e da conclusão integral da obra deve haver a liquidação; por último, será emitida a ordem de pagamento para empresa credora.",
+        "B": "Após a entrega do material e a conclusão da obra certificada pelo servidor público responsável, será emitida a ordem de pagamento, a qual será utilizada pelo credor para sacar o valor devido na instituição bancária oficial, não sendo nos dias de hoje mais necessário o empenho e a liquidação.",
+        "C": "Tendo havido licitação regular para a contratação de uma empresa para a realização de obras, sendo esta de notória reputação, ficam dispensados empenho e a liquidação, bastando que seja assinado o contrato da obra e apresentada a planilha de custos para que o pagamento seja feito antecipadamente, ficando a contratada responsável pela imediata devolução caso a obra não seja concluída.",
+        "D": "Após a realização da licitação regular e contratação formal, mas antes do início da obra, deverá ser obtida autorização prévia do Tribunal de Contas para que este órgão fiscalizador realize o empenho e emita a nota de empenho; em seguida, o órgão contratante deverá acompanhar a entrega do material e a realização da obra, ficando a cargo deste apenas a liquidação e emissão da ordem de pagamento."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão versa sobre o tema de execução da despesa pública. A alternativa A está correta. A Lei nº 4.320/1964, em seu art. 60, veda a realização de despesa sem prévio empenho, havendo casos especiais em que será dispensada a emissão da nota de empenho. Veja a literalidade do art. 60: “É vedada a realização de despesa sem prévio empenho. §1º - Em casos especiais previstos na legislação específica será dispensada a emissão da nota de empenho”. Já o art. 62 prevê que: “o pagamento da despesa só será efetuado quando ordenado após sua regular liquidação” e o art. 64: “A ordem de pagamento é o despacho exarado por autoridade competente, determinando que a despesa seja paga”. Dessa forma, a letra A é a única que atende aos critérios estabelecidos em lei. A alternativa B está incorreta. Ao afirmar que as fases de empenho e liquidação são prescindíveis, a alternativa confronta com o que está previsto nos arts. 60 e 62 da Lei nº 4.320/1964. Observe a literalidade do art. 60: “É vedada a realização de despesa sem prévio empenho” e do art. 62: “O pagamento da despesa só será efetuado quando ordenado após sua regular liquidação”. A alternativa C está incorreta. Conforme visto acima, o empenho e a liquidação são fases necessárias para a realização da despesa. No mais, a Lei de Licitações, em seu art. 145 expressamente prevê que pagamentos antecipados não são permitidos. Observe a literalidade do texto: “Art. 145. Não será permitido pagamento antecipado, parcial ou total, relativo a parcelas contratuais vinculadas ao fornecimento de bens, à execução de obras ou à prestação de serviços”. A alternativa D está incorreta. O Tribunal de Contas é um órgão de controle externo e não de execução da despesa. No mais, o art. 58 da Lei nº 4.320/1964 prevê o seguinte: “o empenho de despesa é o ato emanado de autoridade competente que cria para o Estado obrigação de pagamento pendente ou não de implemento de condição”. Portanto, o empenho é feito pelo órgão contratante."
+    }
+  ]
+}

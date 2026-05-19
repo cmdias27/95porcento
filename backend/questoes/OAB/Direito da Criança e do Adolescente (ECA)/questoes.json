@@ -1,0 +1,291 @@
+{
+  "Direito da Criança e do Adolescente (ECA)": [
+    {
+      "id": "oab_38_43",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Internação Provisória em Repartição Policial",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Pedro, adolescente de quinze anos, foi apreendido pela prática de ato infracional análogo ao crime de roubo. Realizados todos os procedimentos legais cabíveis, o juízo determinou cautelarmente que fosse recolhido à internação em instituição dedicada ao cumprimento de medida socioeducativa dessa natureza. Ocorre que não havia vaga na entidade de internação da comarca, pelo que Pedro foi recolhido a uma repartição policial, em seção isolada dos adultos e com instalações apropriadas, lá restando internado cautelarmente há vinte dias, aguardando o surgimento de vaga no estabelecimento dedicado. Com base nos fatos acima, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A internação jamais poderá ser realizada em repartição policial, nem mesmo cautelarmente, mesmo que seja impossível a transferência imediata.",
+        "B": "É admissível a internação cautelar em estabelecimento policial ou prisional quando da situação exposta no enunciado, por prazo indeterminado, até que seja encontrada vaga em entidade apropriada.",
+        "C": "A manutenção de Pedro na repartição policial, por mais de cinco dias, é ilegal, comportando habeas corpus para fazer cessar tal estado de ilicitude.",
+        "D": "A internação em estabelecimento prisional é admissível quando neste local puderem ser desenvolvidas as atividades pedagógicas próprias dessa medida socioeducativa."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa C está correta. O art. 185, §2°, do ECA permite a permanência em repartição policial por no máximo 5 dias, enquanto se aguarda vaga em entidade adequada. Ultrapassado esse prazo, a medida é ilegal."
+    },
+    {
+      "id": "oab_38_44",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Atendimento Educacional Especializado - Reserva do Possível",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "A mãe de Joaquim, criança com necessidades especiais, requereu acompanhamento por professor especializado em atendimento de pessoas com deficiência à escola-creche pública municipal em que o filho estuda. A escola-creche, no entanto, alegou carência de tais profissionais, porque o custo muito alto impedia que a municipalidade os contratasse. Ao consultar você, como advogado(a), a genitora recebeu a seguinte orientação.",
+      "alternativas": {
+        "A": "A criança tem direito à educação, não se inserindo nesse plexo, porém, o direito individual e específico de acompanhamento especializado.",
+        "B": "Joaquim deve ter acesso à educação com metodologia especial, não significando, porém, que seja mandatória a presença de profissional especial.",
+        "C": "A atenção especial por profissional especializado é devida a Joaquim, não sendo oponível a dificuldade orçamentária declarada pela municipalidade.",
+        "D": "O ensino especializado é devido nas condições em que a entidade for capaz, não sendo obrigatória a presença de profissional especificamente capacitado, em razão da aplicabilidade da reserva do possível."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa C está correta. O atendimento educacional especializado é um direito fundamental (art. 208, III, CF e art. 54, III, ECA). A reserva do possível não pode ser oposta ao mínimo existencial e à efetivação de direitos fundamentais (STJ, AgRg no AREsp 790.767/MG)."
+    },
+    {
+      "id": "oab_39_43",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Adoção e Irrevogabilidade (Art. 49 do ECA)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 49 do ECA.",
+      "enunciado": "Eduardo adotou Bernardo, criança de dois anos, regularmente e de forma unilateral, tornando-se seu pai. Quando Bernardo completou três anos, Eduardo, infelizmente, faleceu vítima de um infarto. Eduardo não deixou parentes conhecidos. Maria, a mãe biológica de Bernardo, sempre se arrependeu de tê-lo enviado à adoção. Sabendo do ocorrido e ciente de que não há o restabelecimento do vínculo do poder familiar, pelo fato de ter ocorrido a morte do adotante, Maria o procura, como advogado(a), para buscar uma solução que permita que Bernardo volte a ser seu filho. Assinale a opção que apresenta a solução proposta.",
+      "alternativas": {
+        "A": "A mãe biológica, infelizmente, não tem ao seu alcance qualquer medida para restabelecer o vínculo de parentalidade com Bernardo.",
+        "B": "A mãe biológica deverá se candidatar à adoção de Bernardo, da mesma forma e pelos mesmos procedimentos que qualquer outro candidato.",
+        "C": "A mãe biológica não poderá se candidatar à readoção de seu filho biológico, pois a dissolução do vínculo familiar é perene.",
+        "D": "A inexistência de parentes do adotante falecido causa a excepcional restauração do vínculo familiar com a mãe biológica, fugindo à regra geral."
+      },
+      "gabarito": "B",
+      "comentario": "O art. 49 do ECA dispõe que a adoção é irrevogável e que a morte dos adotantes não restabelece o poder familiar dos pais naturais. Para que Maria volte a ter Bernardo como filho, ela deve se habilitar à adoção como qualquer outra pessoa, seguindo o procedimento legal (arts. 39 a 52 do ECA)."
+    },
+    {
+      "id": "oab_39_44",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Competência em Ação de Guarda - Princípio do Juízo Imediato e Melhor Interesse",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 147, I e II do ECA; Súmula 383 do STJ.",
+      "enunciado": "Carlos e Joana, pais da criança Paula, estão dissolvendo sua união estável, ainda sem judicialização, detendo Joana a guarda de fato de Paula enquanto não regularizados os regimes de visitação ou compartilhamento de guarda. Por razões profissionais, Carlos mudou-se para o município contíguo ao da residência de Joana e Paula. Ocorre que Carlos, estando insatisfeito com algumas decisões de Joana sobre a vida da criança, e não mais conseguindo ajustar amistosamente tais questões, precipitou o ajuizamento de processo para regulamentação da guarda e pensionamento, no Juízo da comarca que está residindo. Joana procura você, como advogado(a), para representá-la, reclamando ter que se defender em outra cidade. Com base no enunciado acima, sobre a questão da competência, assinale a orientação que você, corretamente, daria à Joana.",
+      "alternativas": {
+        "A": "O juízo da residência de Carlos é tão competente quanto ao da residência de Joana, eis que apenas quando da definição da guarda – que é o que está pretendendo – a competência passa a ser do foro do guardião judicialmente definido.",
+        "B": "A competência para este processo de regulação de guarda e pensão incumbe ao Juízo da comarca de residência de Paula, e não de Carlos, pois a guarda de fato já basta para tal fixação.",
+        "C": "A competência será sempre definida em razão daquele que primeiro postular judicialmente a regulação da guarda.",
+        "D": "A guarda é irrelevante para fins de determinação da competência, devendo ser processado o feito em razão do melhor interesse da criança, seja qual for o foro inicialmente escolhido."
+      },
+      "gabarito": "D",
+      "comentario": "O comentário do material indica que o gabarito deve ser a letra D. O princípio do melhor interesse da criança e do adolescente prevalece sobre as regras de competência territorial. O art. 147, I e II do ECA (juízo imediato) deve ser aplicado em conjunto com a Súmula 383 do STJ, mas a principiologia do ECA sobrepõe-se, permitindo a relativização da perpetuatio jurisdictionis em favor do foro que melhor atenda ao interesse da criança."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_43",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Adoção e guarda",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Rafael e Marta se casaram. Rafael tem dois filhos do relacionamento anterior, ambas crianças com idade inferior a 5 anos. A genitora das crianças teve decretada a perda do poder familiar em processo regular, com trânsito em julgado. Marta, então, em processo igualmente regular, adota os filhos de Rafael, passando em juízo também a decisão que lhe conferiu a maternidade. Marta e Rafael não conseguem manter um relacionamento saudável em razão do comportamento agressivo de Rafael, e por isso, depois de alguns nãos, eles se divorciam. No curso do processo, Marta demonstrou a impossibilidade da guarda compartilhada e obteve, judicialmente, a fixação da guarda unilateral das crianças, com direito a convívio semanal deferido a Rafael. Indignado, Rafael procura sua orientação como advogado(a), sob o argumento de que a adoção deve ser desfeita ou, ao menos, considerada sua paternidade biológica para fins de guarda.",
+      "alternativas": {
+        "A": "A guarda unilateral do adotante é inadmitida em casos de adoção, devendo ser pretendida a revisão da decisão para fixação da guarda compartilhada.",
+        "B": "A adoção deve ser anulada judicialmente em caso de divórcio, pois este significa a quebra do vínculo que deu origem à filiação por adoção retornando a guarda, bem como todo o poder familiar ao genitor biológico.",
+        "C": "Ainda que a adoção seja indissolúvel, o vínculo biológico deve, de fato, ter precedência sobre a filiação originada pela adoção para fins de definição da guarda.",
+        "D": "A adoção atribui a condição plena de filho ao adotado e em caso de adoção, sendo completamente irrelevante essa origem para o fato de determinante influenciador do modelo de guarda."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata do tema adoção. A alternativa A está incorreta. Esta afirmação é incorreta porque a lei não faz essa distinção em casos de adoção. A guarda, seja ela unilateral ou compartilhada, será determinada com base no melhor interesse da criança ou do adolescente, independentemente de eles serem filhos biológicos ou adotivos. A alternativa B está incorreta. Esta opção é incorreta porque a adoção, conforme o artigo 41, parágrafo 1º do ECA, é irrevogável, não podendo ser desfeita por motivo de divórcio dos pais adotivos. A adoção cria um vínculo permanente e indissolúvel de filiação, que não é afetado pela dissolução do casamento ou da união estável. A alternativa C está incorreta. Esta afirmação é incorreta porque a adoção confere ao adotado a condição plena de filho, sem distinções em relação aos filhos biológicos. Portanto, o vínculo biológico não tem precedência sobre a filiação adotiva para fins de definição da guarda, que deve ser baseada exclusivamente no que atenda ao melhor interesse da criança ou adolescente. A alternativa D está correta. O Estatuto da Criança e do Adolescente (ECA), no artigo 41, parágrafo 1º, estabelece que a adoção é irrevogável, atribuindo ao adotado a condição plena de filho. Isto significa que, uma vez consumada a adoção, não há distinção entre filhos biológicos e adotivos para nenhum efeito, incluindo a definição da guarda em caso de dissolução do casamento ou união estável dos pais. Assim, a origem biológica ou adotiva da filiação não influencia a decisão sobre a guarda, que deve ser determinada com base no melhor interesse da criança, independentemente do vínculo genético."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_44",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Medida socioeducativa de semiliberdade",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Rafael, de 16 anos, foi apreendido após invadir uma loja de cosméticos e, mediante o emprego de arma de fogo, subtrair os pertences da caixa. Devidamente processado, o juízo da infância aplicou a medida de semiliberdade ao adolescente, tendo ocorrido o trânsito em julgado. Depois de dois meses de cumprimento da medida, Laura, mãe de Rafael, procura você, como advogado(a), buscando sua orientação acerca da possibilidade de o adolescente realizar atividades externas, considerando que foi inaugurado estabelecimento que oferece diversos cursos profissionalizantes em local próximo à unidade socioeducativa. Sobre o caso narrado, levando em conta o Estatuto da Criança e do Adolescente, assinale a orientação que, corretamente, você deverá lhe retornar.",
+      "alternativas": {
+        "A": "No regime de semiliberdade é possível realizar atividades externas, desde que haja autorização do juízo competente para a execução da medida socioeducativa.",
+        "B": "A semiliberdade só admite atividades externas após um ano de cumprimento da medida. Dessa forma, por ora, Rafael não poderá se incluir no curso profissionalizante almejado.",
+        "C": "É possível que Rafael realize atividades externas, independentemente de autorização judicial.",
+        "D": "Durante a semiliberdade é inviável a realização de atividades externas, pois elas são cabíveis apenas nas medidas socioeducativas de liberdade assistida e de prestação de serviços à comunidade."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata do tema medidas socioeducativas. A alternativa A está incorreta. Esta opção é incorreta porque, conforme o artigo 120 do ECA, a realização de atividades externas por adolescentes em regime de semiliberdade não depende de autorização judicial. A possibilidade de realizar tais atividades faz parte da própria definição da medida de semiliberdade. A alternativa B está incorreta. Esta afirmação é incorreta porque o ECA não estabelece um período mínimo de cumprimento da medida de semiliberdade para que o adolescente possa realizar atividades externas. A reintegração do adolescente ao convívio social, por meio de atividades externas, é um dos objetivos desde o início do cumprimento da medida. A alternativa C está correta. De acordo com o Estatuto da Criança e do Adolescente (ECA), especificamente o artigo 120, a medida socioeducativa de semiliberdade permite a realização de atividades externas sem a necessidade de autorização judicial prévia. Essa disposição visa facilitar a reintegração do adolescente ao convívio social, permitindo-lhe participar de cursos, trabalhos e outras atividades que contribuam para seu desenvolvimento pessoal e profissional. Assim, o regime de semiliberdade é projetado para combinar a restrição de liberdade com a possibilidade de realização de atividades externas, como parte do processo socioeducativo. A alternativa D está incorreta. Esta opção é incorreta porque contradiz expressamente o disposto no artigo 120 do ECA. A medida de semiliberdade é justamente caracterizada pela possibilidade de realização de atividades externas como parte essencial do processo socioeducativo, diferentemente do que é afirmado nesta alternativa."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_43",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Internação provisória e liberdade imediata na sentença absolutória",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Márcio, adolescente com 16 anos, foi apreendido em flagrante na prática de ato infracional análogo ao roubo qualificado por emprego de arma de fogo. Foi, de plano, colocado em internação provisória, durante o curso do processo. Depois de todo o trâmite processual, que foi absolutamente regular e escorreito, a autoridade judiciária reconheceu na sentença que não havia prova da existência do ato infracional imputado originalmente, o que ocasionou a absolvição de Márcio, sendo certo que a decisão foi omissa em relação à soltura do adolescente. Entretanto, o fato de a sentença estar baseada na inexistência de provas e no reconhecimento da sua própria falibilidade, fundamento basilar da própria existência da recorribilidade das decisões judiciais, postergou para o trânsito em julgado a liberação do adolescente. Acerca da situação narrada, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A sentença mostra plena correção, adequada ao ordenamento jurídico processual e às disposições do Estatuto da Criança e do Adolescente.",
+        "B": "A manutenção da internação até o trânsito em julgado é medida irregular, devendo Márcio ser posto em liberdade, imediatamente, quando da prolação da sentença.",
+        "C": "A colocação do adolescente internado em liberdade deve ser imediata apenas no caso de a sentença reconhecer a inexistência do fato análogo ao crime, não havendo falha na decisão de manter sua internação.",
+        "D": "A colocação do adolescente internado em liberdade deve ser imediata somente na hipótese de a sentença reconhecer que o adolescente não praticou ou concorreu para a prática do fato análogo ao crime, estando correta a decisão."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão aborda o conhecimento sobre internação provisória. A alternativa A está incorreta, pois a sentença é inadequada ao ordenamento jurídico processual e às disposições do Estatuto da Criança e do Adolescente, tendo em vista que a absolvição por falta de prova da existência do ato infracional enseja a liberdade imediata de Márcio. De acordo com o art. 189, II e parágrafo único, do ECA: “Art. 189. A autoridade judiciária não aplicará qualquer medida, desde que reconheça na sentença: II - não haver prova da existência do fato; (...) Parágrafo único. Na hipótese deste artigo, estando o adolescente internado, será imediatamente colocado em liberdade”. A alternativa B está correta, pois Márcio deve ser posto em liberdade imediatamente. Depreende-se do enunciado que a autoridade judiciária reconheceu na sentença que não havia prova da existência do ato infracional imputado originalmente, o que ocasionou a absolvição de Márcio. Assim, de acordo com o art. 189, II e parágrafo único, do ECA: “Art. 189. A autoridade judiciária não aplicará qualquer medida, desde que reconheça na sentença: II - não haver prova da existência do fato; (...) Parágrafo único. Na hipótese deste artigo, estando o adolescente internado, será imediatamente colocado em liberdade”. A alternativa C está incorreta, pois, de acordo com o art. 189 do ECA, a colocação do adolescente internado em liberdade deve ser imediata nas seguintes hipóteses: “Art. 189. A autoridade judiciária não aplicará qualquer medida, desde que reconheça na sentença: I - estar provada a inexistência do fato; II - não haver prova da existência do fato; III - não constituir o fato ato infracional; IV - não existir prova de ter o adolescente concorrido para o ato infracional. Parágrafo único. Na hipótese deste artigo, estando o adolescente internado, será imediatamente colocado em liberdade”. A alternativa D está incorreta, pois, de acordo com o art. 189 do ECA, a colocação do adolescente internado em liberdade deve ser imediata nas seguintes hipóteses: “Art. 189. A autoridade judiciária não aplicará qualquer medida, desde que reconheça na sentença: I - estar provada a inexistência do fato; II - não haver prova da existência do fato; III - não constituir o fato ato infracional; IV - não existir prova de ter o adolescente concorrido para o ato infracional. Parágrafo único. Na hipótese deste artigo, estando o adolescente internado, será imediatamente colocado em liberdade”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_44",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Responsabilidade civil por divulgação de imagem de menor",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Pedro, com 12 anos, foi vítima de bullying na escola em que estuda. Durante o recreio, um grupo de colegas da mesma idade o jogou, à força, dentro da lixeira. Um dos adolescentes filmou o ato e o divulgou em redes sociais, em tom de escárnio. Um jornal com veiculação on-line, em tom de reprovação da conduta e para combater a prática de bullying, reprisou as imagens que circularam pelas redes sociais. O pai de Pedro, enfurecido, procura você, como advogado(a), para colher a orientação jurídica sobre as providências cíveis cabíveis, especialmente indenizatórias. Assinale a opção que apresenta, corretamente, a orientação recebida.",
+      "alternativas": {
+        "A": "O jornal que reprisou as imagens, mesmo não sendo autor da filmagem, poderá ser demandado na esfera cível para fins de compensação pelo dano moral que a divulgação do ato representou.",
+        "B": "O adolescente que realizou a filmagem deve ser o único demandado em caso de judicialização da questão, porque foi o autor da violação à imagem.",
+        "C": "Os adolescentes que efetuaram o ato de atirar Pedro na lixeira deverão ser demandados em eventual judicialização, pois foram os autores da única verdadeira infração existente no caso.",
+        "D": "Não há que se falar em responsabilização de qualquer sorte, pois sobre o ato em si, os praticantes e quem filmou são infensos à persecução cível e, o jornal, apenas cumpriu o papel relevante de divulgar e combater o bullying."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão aborda o conhecimento sobre responsabilidade civil por divulgação de imagem de menor. A alternativa A está correta. O art. 17 do ECA prevê o direito fundamental da criança e do adolescente ao respeito e à preservação da sua imagem, vejamos: “Art. 17. O direito ao respeito consiste na inviolabilidade da integridade física, psíquica e moral da criança e do adolescente, abrangendo a preservação da imagem, da identidade, da autonomia, dos valores, idéias e crenças, dos espaços e objetos pessoais”. De modo que há responsabilidade civil do jornal que reprisou as imagens constrangedoras de Pedro, tendo em vista que ocorreu a violação dos direitos à honra, à imagem, à privacidade e à intimidade do adolescente. Sobre o tema, destaca-se o seguinte trecho da ementa do AgInt no AREsp n. 312.647/SP: “1. Não obstante o caráter informativo do noticiário demandado e seu perceptível interesse público, verifica-se o abuso no direito de informar, decorrente do uso indevido de imagem de menores (mãe adolescente e seu filho), sem autorização dos responsáveis legais, para ilustrar matéria relativa à gravidez precoce. 2. A obrigação de reparação decorre do próprio uso indevido da imagem, não havendo que se cogitar da prova da existência concreta de prejuízo ou dano, nem se investigar as consequências reais do uso, sendo completamente desinfluente aferir se ofensivo ou não o conteúdo do ilícito”. Além disso, a veiculação sem autorização da imagem de menor de idade configura ato ilícito, por infração direta ao disposto no Estatuto da Criança e do Adolescente. Segundo a jurisprudência do STJ, \"O dever de indenização por dano à imagem de criança veiculada sem a autorização do representante legal é in re ipsa\" (REsp n. 1.628.700/MG). A alternativa B está incorreta, tendo em vista que o adolescente que realizou a filmagem, os colegas que jogaram Pedro, à força, dentro da lixeira e o jornal que veiculou as imagens devem ser demandados em caso de judicialização para reparação cível, especialmente indenizatória. A alternativa C está incorreta, pois o adolescente que realizou a filmagem também praticou ato infracional análogo ao crime de intimidação sistemática (bullying), da mesma forma que os adolescentes que jogaram Pedro, à força, dentro da lixeira. De acordo com o art. 146-A do Código Penal: “Art. 146-A. Intimidar sistematicamente, individualmente ou em grupo, mediante violência física ou psicológica, uma ou mais pessoas, de modo intencional e repetitivo, sem motivação evidente, por meio de atos de intimidação, de humilhação ou de discriminação ou de ações verbais, morais, sexuais, sociais, psicológicas, físicas, materiais ou virtuais: Pena - multa, se a conduta não constituir crime mais grave. (Incluído pela Lei nº 14.811, de 2024)”. A alternativa D está incorreta, pois o adolescente que realizou a filmagem, os colegas que jogaram Pedro, à força, dentro da lixeira e o jornal que veiculou as imagens devem ser demandados em caso de judicialização para reparação cível, especialmente indenizatória."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_43",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Responsabilidade de sites de apostas por acesso de adolescente",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "João, 14 anos, criou um perfil online para realizar apostas em sites de jogos de futebol, realizando-as sozinho e sem qualquer restrição. Sobre a possibilidade de responsabilização do site, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Não há ilícito por parte do site, pois a maioridade não é exigida para sua atividade.",
+        "B": "O site deve ser responsabilizado, pois cometeu infração administrativa prevista no Estatuto da Criança e Adolescente.",
+        "C": "O site não deve ser responsabilizado, pois não é exigível o controle além da autodeclaração de maioridade, demandada em seu acesso.",
+        "D": "A atividade de aposta desenvolvida no site não se identifica, para fins de reprovação normativa, com a restrição de acesso imposta a crianças e adolescentes às casas de apostas, de modo que não há infração por parte do site."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B, conforme gabarito preliminar divulgado pela banca. Porém, acreditamos que a alternativa D também está correta, com base nos fundamentos a seguir. A alternativa A está incorreta, já que a maioridade é exigida para sua atividade e ainda, caberá à empresa de apostas não permitir a entrega e permanência de crianças e adolescentes, nos termos do ECA: “Art. 80. Os responsáveis por estabelecimentos que explorem comercialmente bilhar, sinuca ou congênere ou por casas de jogos, assim entendidas as que realizem apostas, ainda que eventualmente, cuidarão para que não seja permitida a entrada e a permanência de crianças e adolescentes no local, afixando aviso para orientação do público”. A alternativa B está correta, pois o empresário deixou de observar o que dispõe no ECA e não cumpriu o disposto no art. 80. Por tanto, o site deve ser responsabilizado, pois cometeu infração administrativa prevista no Estatuto da Criança e Adolescente: “Art. 258. Deixar o responsável pelo estabelecimento ou o empresário de observar o que dispõe esta Lei sobre o acesso de criança ou adolescente aos locais de diversão, ou sobre sua participação no espetáculo: Pena - multa de três a vinte salários de referência; em caso de reincidência, a autoridade judiciária poderá determinar o fechamento do estabelecimento por até quinze dias”. A alternativa C está incorreta, já o ECA exige que os responsáveis por estabelecimentos que explorem comercialmente bilhar, sinuca ou congênere ou por casas de jogos, assim entendidas as que realizem apostas, cuidem para que não seja permitida a entrada e a permanência de crianças e adolescentes no local. A alternativa D está correta, já que a responsabilização trazida pelo artigo 80 do ECA, está falando sobre apostas em eventos presenciais e não em eventos online, por tanto, não haveria a perfeita subsunção do fato que está sendo narrado no enunciado com o artigo 80 do ECA. É uma interpretação que amplia a literalidade da lei e entendendo que essas regras sobre apostas em espaços físicos podem ser utilizadas para apostas em sítios virtuais, nos leva a assinalar a alternativa B. Por tanto, se fosse feita uma interpretação mais restritiva do ECA, se baseando na literalidade dos artigos, a alternativa correta seria a letra D."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_44",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Assistência psicológica à gestante e à mãe",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Roberta, 35 anos, descobriu que estava grávida e ficou muito preocupada, já que possui parcos recursos financeiros e acredita que não será uma boa mãe. Essa angústia desencadeou graves problemas que precisam ser tratados por meio de sessões com psicólogo(a). Diante da falta de recursos financeiros para custear o profissional, Roberta lhe procura para obter orientação jurídica. De acordo com o Estatuto da Criança e do Adolescente (ECA), assinale a orientação correta para o caso.",
+      "alternativas": {
+        "A": "Roberta não possui direito a assistência psicológica, por inexistir previsão legal.",
+        "B": "O ECA garante o direito de assistência psicológica apenas no período pós-natal, caso se verifique que o estado puerperal pode prejudicar o desenvolvimento da criança.",
+        "C": "Roberta tem direito a assistência psicológica durante a gestação, no período pré e pós-natal, inclusive como forma de prevenir ou minorar as consequências do estado puerperal, sendo essa incumbência do poder público.",
+        "D": "De acordo com o ECA, o poder público deve proporcionar assistência psicológica a Roberta enquanto estiver gestante. No período pós-natal, como a criança estará fora de qualquer risco, o poder público não terá a obrigação de prestar assistência psicológica."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre o direito das gestantes, nos termos do ECA. A alternativa C está correta, já que Roberta possui direito a assistência psicológica, nos termos do ECA: “Art. 8º É assegurado a todas as mulheres o acesso aos programas e às políticas de saúde da mulher e de planejamento reprodutivo e, às gestantes, nutrição adequada, atenção humanizada à gravidez, ao parto e ao puerpério e atendimento pré-natal, perinatal e pós-natal integral no âmbito do Sistema Único de Saúde. § 4º Incumbe ao poder público proporcionar assistência psicológica à gestante e à mãe, no período pré e pós-natal, inclusive como forma de prevenir ou minorar as consequências do estado puerperal”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_43",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Adoção conjunta por união estável homoafetiva",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Carlos e Mário possuem união estável homoafetiva há mais de 15 anos. Ambos trabalham como médicos em prestigiado hospital e contam com vida estável e harmônica. O casal, em comum acordo, deseja adotar uma criança, e lhe fornecer todos os direitos que uma pessoa deve ter, tais como educação, saúde e lazer. Para concretizar esse sonho, Carlos e Mário procuram você, como advogado(a), para que lhes preste a assessoria jurídica adequada envolvendo o processo de adoção. Diante desse contexto, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Carlos e Mário não poderão realizar a adoção conjunta, sendo-lhes assegurado, entretanto, que adotem individualmente.",
+        "B": "Carlos e Mário podem adotar. Entretanto, não terão preferência na lista de adotantes, pois um casal com relacionamento heteroafetivo terá prioridade.",
+        "C": "Carlos e Mário podem adotar, mas precisam definir previamente sobre a guarda da criança e eventual regime de visitas para a hipótese eventual de término da união.",
+        "D": "Carlos e Mário podem realizar a adoção conjunta, pois, de acordo com o ECA, é indispensável que sejam casados civilmente ou mantenham união estável, comprovada a estabilidade da família."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata de adoção. A alternativa A está incorreta, já que a adoção conjunta é permitida para casais em união estável, inclusive homoafetiva. A alternativa B está incorreta, pois não há distinção na lei entre casais heteroafetivos e homoafetivos para fins de preferência na lista de adotantes. A alternativa C está incorreta, pois não há exigência legal de definição prévia sobre guarda e visitas para hipótese de eventual término da união. A alternativa D está correta. Veja que o artigo 42, §2º, do ECA estabelece claramente que para adoção conjunta é indispensável que os adotantes sejam casados civilmente ou mantenham união estável, comprovada a estabilidade da família. Art. 42, §2º, do ECA: \"Para adoção conjunta, é indispensável que os adotantes sejam casados civilmente ou mantenham união estável, comprovada a estabilidade da família.\" O STF, nos julgamentos da ADI 4.277 e da ADPF 132, reconheceu a união homoafetiva como entidade familiar, equiparando-a à união estável. Portanto, Carlos e Mário podem realizar a adoção conjunta."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_44",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Medidas de proteção contra tratamento cruel ou degradante",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Herminda, de 50 anos, é tia materna de Júlia, de 16 anos. Após verificar que Júlia teve notas baixas no colégio, Herminda decidiu ir à porta da escola e, com o intuito de correção, ridicularizou e humilhou a adolescente na frente de seus colegas, dizendo que Júlia era desleixada, que nunca conseguiria acesso à universidade, sendo uma vergonha para a família. Os pais de Júlia tomaram conhecimento do fato e ficaram revoltados. Decidiram, então, procurar você, como advogado(a), para que indicasse a orientação jurídica adequada para sancionar o ato praticado por Herminda. Nesse caso, de acordo com o ECA, assinale a afirmativa que apresenta, corretamente, sua orientação.",
+      "alternativas": {
+        "A": "Herminda pode ser encaminhada a cursos ou programas de orientação, sendo que a aplicação dessa medida só pode ser feita pela autoridade judiciária.",
+        "B": "Herminda, em virtude de tal ato, pode receber sanções, como a advertência, a ser aplicada pelo Conselho Tutelar, sem prejuízo de outras providências legais.",
+        "C": "Herminda pode sofrer sanções, entre elas, a advertência. Para a aplicação da medida, é preciso representação do Ministério Público e decisão da autoridade judiciária.",
+        "D": "Herminda não tinha o direito de humilhar e ridicularizar Júlia, mesmo para fins corretivos, o que caberia aos pais por serem detentores do poder familiar, mas o ECA não prevê qualquer possibilidade de sanção à tia materna."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A alternativa A está incorreta, já que as medidas podem ser aplicadas pelo Conselho Tutelar, não apenas pela autoridade judiciária. A alternativa B está correta, porque o artigo 18-B, parágrafo único, do ECA estabelece que as medidas previstas no artigo serão aplicadas pelo Conselho Tutelar, sem prejuízo de outras providências legais. O artigo 18-A do ECA protege a criança e o adolescente contra tratamento cruel ou degradante, que inclui condutas que humilhem ou ridicularizem (art. 18-A, parágrafo único, II, 'a' e 'c'). Além disso, o artigo 18-B expressamente menciona 'os integrantes da família ampliada' como sujeitos às medidas previstas, o que inclui a tia Herminda. Veja literalidade da lei: Art. 18-A. A criança e o adolescente têm o direito de ser educados e cuidados sem o uso de castigo físico ou de tratamento cruel ou degradante, como formas de correção, disciplina, educação ou qualquer outro pretexto, pelos pais, pelos integrantes da família ampliada. Art. 18-B, § único. As medidas previstas neste artigo serão aplicadas pelo Conselho Tutelar, sem prejuízo de outras providências legais. A alternativa C está incorreta, pois não há previsão legal nesse sentido, portanto, não é necessária representação do Ministério Público para aplicação de advertência pelo Conselho Tutelar. Veja literalidade do ECA: 'Art. 18-B. Os pais, os integrantes da família ampliada, os responsáveis, os agentes públicos executores de medidas socioeducativas ou qualquer pessoa encarregada de cuidar de crianças e de adolescentes, tratá-los, educá-los ou protegê-los que utilizarem castigo físico ou tratamento cruel ou degradante como formas de correção, disciplina, educação ou qualquer outro pretexto estarão sujeitos, sem prejuízo de outras sanções cabíveis, às seguintes medidas, que serão aplicadas de acordo com a gravidade do caso: V - advertência'. A alternativa D está incorreta, pois o ECA prevê sanções para integrantes da família ampliada que pratiquem tratamento cruel ou degradante, nos termos do caput do art. 18 do ECA, acima transcrito."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_43",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Recursos no ECA - Apelação",
+      "banca": "FGV",
+      "ano": "44º Exame de Ordem",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "João, 17 anos, foi representado pelo Ministério Público pela prática de ato infracional análogo a roubo. Consta nos autos que o representado teria abordado dois transeuntes e, simulando estar armado, anunciou o roubo, tendo subtraído os celulares e as carteiras das vítimas. Ao final do procedimento, o Juízo da Infância considerou comprovadas a autoria e a materialidade, tendo julgado procedente o pedido e fixado a medida socioeducativa de internação. O(A) advogado(a) do adolescente deseja apresentar recurso de apelação. Sobre o recurso a ser interposto, com base no Estatuto da Criança e do Adolescente, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O sistema recursal adotado é o do Código de Processo Civil, sendo certo que o prazo será de 10 (dez) dias.",
+        "B": "O sistema recursal adotado é o do Código de Processo Penal, sendo certo que o prazo será de 10 (dez) dias.",
+        "C": "O sistema recursal adotado é o do Código de Processo Civil, sendo certo que o prazo será de 15 (quinze) dias.",
+        "D": "O sistema recursal adotado é o do Código de Processo Penal, sendo certo que o prazo será de 5 (cinco) dias e, após isso, haverá o prazo de 8 (oito) dias para oferecimento das razões."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre recursos, conforme o Estatuto da Criança e do Adolescente (Lei 8.069/90). A alternativa A está correta. A lei especial do ECA, no art. 198, inciso II, define um prazo de 10 dias para a maioria dos recursos, prevalecendo sobre a regra geral do CPC. Vejamos: “Art. 198. Nos procedimentos afetos à Justiça da Infância e da Juventude, inclusive os relativos à execução das medidas socioeducativas, adotar-se-á o sistema recursal da Lei n 5.869, de 11 de janeiro de 1973 (Código de Processo Civil), com as seguintes adaptações: II - em todos os recursos, salvo nos embargos de declaração, o prazo para o Ministério Público e para a defesa será sempre de 10 (dez) dias; (Redação dada pela Lei nº 12.594, de 2012)”. Por isso, essa alternativa está correta. A alternativa B está incorreta. A aplicação de medidas socioeducativas, embora análogas às sanções penais, segue o rito do ECA, que, por sua vez, remete ao CPC para questões recursais, e não ao Código de Processo Penal (CPP). A alternativa C está incorreta. Embora o sistema recursal seja o do CPC, o prazo de 15 dias está incorreto. O art. 198, inciso II, do ECA, estabelece um prazo especial de 10 dias, que deve ser aplicado em vez do prazo geral do CPC. A alternativa D está incorreta. Esta alternativa mistura o rito recursal do CPP (prazo de 5 dias para apelar e 8 para as razões) com o direito infantojuvenil. Como já explicado, o sistema utilizado pelo ECA é o do CPC, com o prazo de 10 dias, afastando as regras do CPP."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_44",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Adoção post mortem",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Ricardo, 13 anos, filho de Vanda, não foi registrado pelo pai biológico. Desde tenra idade, o adolescente foi criado por João, de 50 anos, marido de Vanda. João e Ricardo se viam como pai e filho e assim eram reconhecidos na vizinhança. João procura você, como advogado(a), e diz que tem inequívoca vontade de adotar Ricardo. Após a juntada de toda a documentação necessária, e com anuência de Vanda e Ricardo, é ajuizada a ação de adoção, sendo certo que, no curso da ação, João reitera a inequívoca vontade de adotar Ricardo. Ocorre que, dois meses após a distribuição, João sofre um ataque cardíaco e vem a falecer. Vanda e Ricardo, desesperados, o(a) procuram, como advogado(a), para que você indique o caminho jurídico viável para o caso. De acordo com o ECA, assinale a afirmativa que apresenta, corretamente, sua orientação.",
+      "alternativas": {
+        "A": "O processo de adoção deve prosseguir, mesmo com a morte de João. Nesse caso, se a sentença julgar procedente o pedido, seus efeitos retroagirão à data do óbito.",
+        "B": "A adoção é direito personalíssimo. Logo, falecendo o autor do pedido, o único caminho jurídico é a extinção do processo.",
+        "C": "A adoção só pode seguir se os herdeiros biológicos de João anuírem, já que possuem interesse direto na herança do finado.",
+        "D": "O processo de adoção pode seguir, mesmo com a morte de João. Nessa hipótese, caso julgado procedente o pedido, os efeitos se produzem a partir do trânsito em julgado da sentença constitutiva."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre adoção. A alternativa A está correta. O art. 42, § 6º, do ECA, permite expressamente que o processo de adoção prossiga mesmo após a morte do adotante, desde que ele tenha manifestado sua vontade de adotar de forma inequívoca antes de falecer. Além disso, o mesmo artigo e parágrafo determinam que, se a adoção for concedida, seus efeitos retroagirão à data do óbito do adotante. A saber: “§ 6º A adoção poderá ser deferida ao adotante que, após inequívoca manifestação de vontade, vier a falecer no curso do procedimento, antes de prolatada a sentença.” Isso garante que a criança ou adolescente tenha todos os direitos sucessórios e de filiação, como se a adoção já tivesse ocorrido no momento da morte. A alternativa B está incorreta. A adoção, de fato, tem um caráter personalíssimo, mas a legislação abriu uma exceção para casos como esse. O art. 42, § 6º, do ECA, prevê a continuidade do processo, justamente para proteger o melhor interesse da criança ou adolescente. A alternativa C está incorreta. A legislação não condiciona o prosseguimento do processo de adoção à anuência dos herdeiros do falecido. A filiação por adoção é um direito autônomo, e a vontade do adotante, já manifestada em vida, é o único requisito legal para que o processo continue. Os interesses sucessórios, embora importantes, não podem anular o processo de adoção. A alternativa D está incorreta. A primeira parte da afirmação está correta, mas a segunda, sobre a retroação dos efeitos, está errada. Conforme o art. 42, § 6º, do ECA, os efeitos da sentença de adoção, neste caso específico, retroagem à data do óbito do adotante, e não ao trânsito em julgado da sentença. Isso é crucial para garantir a segurança jurídica e os direitos do adotado, especialmente no que tange à herança."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_43",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Representação do adolescente em ato infracional - dispensa de procuração",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 207 do ECA: Nenhum adolescente a quem se atribua a prática de ato infracional, ainda que ausente ou foragido, será processado sem defensor. § 1º Se o adolescente não tiver defensor, ser-lhe-á nomeado pelo juiz, ressalvado o direito de, a todo tempo, constituir outro de sua preferência. § 2º A ausência do defensor não determinará o adiamento de nenhum ato do processo, devendo o juiz nomear substituto, ainda que provisoriamente, ou para o só efeito do ato. § 3º Será dispensada a outorga de mandato, quando se tratar de defensor nomeado ou, sido constituído, tiver sido indicado por ocasião de ato formal com a presença da autoridade judiciária.",
+      "enunciado": "Marcos, 17 anos, responde a processo de apuração de ato infracional. Segundo a representação, o adolescente foi apreendido quando estava subtraindo bens de um estabelecimento comercial. Assim, foi-lhe imputada a conduta análoga ao Art. 155 do Código Penal (furto). Mariana, 40 anos, mãe de Marcos, (o/a) procura, na condição de advogado(a), para fazer a defesa. Designada audiência de apresentação, estavam presentes Marcos, Mariana e as testemunhas de acusação. Tanto Marcos quanto Mariana confirmaram, perante a autoridade judiciária, que você fará a defesa técnica naquele processo. Entretanto, o Juízo verificou que não há procuração juntada aos autos. Por isso, o excluiu do feito e nomeou a Defensoria Pública para patrocinar os interesses do adolescente, contra a vontade deste e de sua genitora. Considerando o caso acima narrado, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O Magistrado errou ao nomear a Defensoria Pública, pois deveria ter adiado a audiência e dado um prazo razoável para a juntada da procuração.",
+        "B": "Considerando a ausência de procuração, o adolescente estava indefeso, de modo que o Juízo agiu corretamente ao nomear a Defensoria Pública.",
+        "C": "O Magistrado errou, uma vez que é dispensada a outorga de mandato quando o advogado(a) constituído(a) tiver sido indicado(a) por ocasião de ato formal com a presença da autoridade judiciária.",
+        "D": "O Juízo errou, pois deveria adiar o ato e oficiar à OAB para a apuração de eventual infração disciplinar, já que o advogado(a) não poderia se apresentar na audiência sem a juntada da respectiva procuração."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata da representação. A alternativa C está correta. A indicação do advogado em audiência, perante o juiz, é um ato que tem força para constituir o defensor no processo. A manifestação de vontade de Marcos, corroborada por sua mãe, é mais do que suficiente para formalizar a contratação para aquele ato, dispensando o instrumento de procuração. Essa prática é consolidada e visa garantir a efetividade da defesa, evitando que formalismos prejudiquem um direito fundamental do adolescente. Veja a literalidade do ECA: “Art. 207. Nenhum adolescente a quem se atribua a prática de ato infracional, ainda que ausente ou foragido, será processado sem defensor. § 1º Se o adolescente não tiver defensor, ser-lhe-á nomeado pelo juiz, ressalvado o direito de, a todo tempo, constituir outro de sua preferência. § 2º A ausência do defensor não determinará o adiamento de nenhum ato do processo, devendo o juiz nomear substituto, ainda que provisoriamente, ou para o só efeito do ato. § 3º Será dispensada a outorga de mandato, quando se tratar de defensor nomeado ou, sido constituído, tiver sido indicado por ocasião de ato formal com a presença da autoridade judiciária”. Devido ao fundamento da letra C, as demais alternativas ficam automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_44",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Autorização para viagem nacional de adolescente",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Maria e José, ambos com 45 anos, possuem um filho em comum, Paulo, que, hoje, tem 17 anos. Quando Paulo tinha 12 anos, Maria e José se divorciaram e foi estipulada judicialmente a guarda unilateral para Maria, sendo certo que José sempre usou o seu direito de convivência com o adolescente em finais de semanas alternados. Após muito esforço, Maria conseguiu angariar recursos para fazer uma viagem dentro do território nacional com Paulo. A viagem será de uma semana e não afetará o direito de visitação de José. Ocorre que o genitor se opõe à viagem, mesmo sem apresentar qualquer justificativa para isso. Preocupada, Maria procura você, como advogado(a), para que lhe preste a solução jurídica adequada. De acordo com o ECA, assinale a opção que, corretamente, indica a sua orientação.",
+      "alternativas": {
+        "A": "Maria deverá buscar o Juízo da Infância e Juventude e obter alvará para a autorização de viagem.",
+        "B": "José só pode se opor à viagem se tivesse sido estipulada a guarda compartilhada, o que não é a hipótese apresentada.",
+        "C": "Maria só pode fazer essa viagem com expressa autorização de José, já que ambos são detentores do poder familiar.",
+        "D": "Maria não precisa da anuência do genitor, nem de autorização judicial, uma vez que a viagem é dentro do território nacional."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata da necessidade de autorização para viajar. A alternativa D está correta, pois, para viagens dentro do Brasil, a lei não exige autorização judicial nem a anuência do outro genitor quando o adolescente está acompanhado por um de seus pais. A regra que exige autorização judicial se aplica apenas a crianças ou adolescentes menores de 16 anos que viajam desacompanhados. Como Paulo tem 17 anos e viajará com sua mãe (guardiã), não há qualquer impedimento legal. O fundamento é o art. 83, caput, do Estatuto da Criança e do Adolescente (ECA): “Art. 83. Nenhuma criança ou adolescente menor de 16 (dezesseis) anos poderá viajar para fora da comarca onde reside desacompanhado dos pais ou dos responsáveis sem expressa autorização judicial”. Devido ao fundamento da letra D, as demais alternativas ficam automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_67",
+      "materia": "Direito da Criança e do Adolescente (ECA)",
+      "assunto": "Lei Henry Borel - Medidas protetivas",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Joaquim, menor impúbere de 8 anos de idade, sofreu castigos físicos imoderados praticados por seu pai, Geraldo. Diante do fato, a mãe de Joaquim, representando-o, constituiu você como advogado(a) do menor. Assinale a opção que apresenta, corretamente, o requerimento que você, como advogado(a) de Joaquim, deve apresentar.",
+      "alternativas": {
+        "A": "A fixação de medida cautelar do Código de Processo Penal, pois ausente um regramento específico em favor de vítimas do sexo masculino.",
+        "B": "A destituição de guarda, no âmbito cível, e, somente então, haverá legitimidade de Joaquim para postular qualquer medida no âmbito criminal.",
+        "C": "A fixação de medida protetiva de urgência de proibição de contato e aproximação, com base na lei específica de prevenção e enfrentamento à violência doméstica e familiar contra a criança e o adolescente.",
+        "D": "A fixação de medida protetiva de urgência de alimentos provisórios, com base na lei de violência doméstica e familiar contra a mulher, por analogia, ante a ausência de lei específica que ampare a pretensão de Joaquim."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre a Lei Henry Borel (Lei nº 14.344/2022). A alternativa A está incorreta, pois se aplicará ao caso concreto as medidas protetivas específicas da Lei Henry Borel (art. 21) e não as previstas no Código de Processo Penal, uma vez que o art. 1º da Lei Henry Borel determina sua aplicação nos casos de violência doméstica e familiar contra a criança e o adolescente. A alternativa B está incorreta, pois há independência entre as instâncias, podendo o juiz competente determinar medidas protetivas de afastamento do agressor em casos de violência doméstica contra criança e adolescente (conforme o caso narrado), aplicando-se a Lei Henry Borel. A alternativa C está correta, pois é o que prevê o art. 21 da Lei Henry Borel, no inciso I, prevê a possibilidade de proibição do contato entre a criança e o agressor. A alternativa D está incorreta, pois se aplica a Lei Henry Borel que trata da prevenção e enfrentamento da violência doméstica e familiar contra a criança e o adolescente e não a Lei Maria da Penha que trata sobre a violência doméstica e familiar contra a mulher."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2086,
+    "nome": "Matemática Básica: Razão, Proporção e Regra de Três"
+  },
+  {
+    "id": 2087,
+    "nome": "Porcentagem e Matemática Financeira"
+  },
+  {
+    "id": 2088,
+    "nome": "Estatística (Média, Moda, Mediana) e Gráficos"
+  },
+  {
+    "id": 2089,
+    "nome": "Funções: Afim, Quadrática, Exponencial e Logarítmica"
+  },
+  {
+    "id": 2090,
+    "nome": "Geometria Plana (Áreas e Perímetros)"
+  },
+  {
+    "id": 2091,
+    "nome": "Geometria Espacial (Volumes e Superfícies)"
+  },
+  {
+    "id": 2092,
+    "nome": "Probabilidade"
+  },
+  {
+    "id": 2093,
+    "nome": "Análise Combinatória"
+  },
+  {
+    "id": 2094,
+    "nome": "Trigonometria e Geometria Analítica"
+  },
+  {
+    "id": 2095,
+    "nome": "Progressões (PA e PG)"
+  }
+]

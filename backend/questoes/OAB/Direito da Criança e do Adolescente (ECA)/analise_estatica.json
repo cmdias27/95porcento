@@ -1,0 +1,491 @@
+{
+  "Princípios E Direitos Fundamentais Da Criança E Do Adolescente": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Princípio da proteção integral e prioridade absoluta",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir prioridade absoluta com mera preferência administrativa, sem reconhecer sua força vinculante e imediata."
+      },
+      {
+        "nome_microtema": "Direito à vida, à saúde e à dignidade",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Misturar deveres da família, sociedade e Poder Público, especialmente em casos de atendimento médico e proteção à integridade física e moral."
+      },
+      {
+        "nome_microtema": "Direito à liberdade, ao respeito e à inviolabilidade da imagem, identidade, autonomia e crença",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir liberdade da criança e do adolescente com liberdade absoluta, ignorando os limites decorrentes da proteção integral e do melhor interesse."
+      },
+      {
+        "nome_microtema": "Direito à convivência familiar e comunitária",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Trocar acolhimento institucional por medida definitiva de afastamento familiar, sem observar a excepcionalidade e a provisoriedade da ruptura do vínculo."
+      },
+      {
+        "nome_microtema": "Direito à educação, cultura, esporte e lazer",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir dever de matrícula e permanência escolar com sanção automática aos pais, sem analisar a atuação articulada da rede de proteção."
+      },
+      {
+        "nome_microtema": "Direito à profissionalização e proteção no trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Misturar aprendizagem com trabalho infantil proibido, especialmente quanto à idade mínima, jornada e compatibilidade com a formação escolar."
+      },
+      {
+        "nome_microtema": "Dever de prevenção e vedação de tratamento discriminatório, violento, vexatório ou constrangedor",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Tratar medidas protetivas como punição, quando a lógica do ECA é preventiva, pedagógica e voltada à tutela integral."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar casos concretos envolvendo omissão familiar, conflito entre autonomia e proteção, recusa de atendimento, afastamento do lar, matrícula escolar, trabalho precoce ou situações de violência. A pegadinha está em distinguir direitos fundamentais da criança e do adolescente de regras gerais do direito civil ou trabalhista, exigindo a aplicação do princípio do melhor interesse, da proteção integral e da prioridade absoluta.",
+      "palavras_gatilho": [
+        "prioridade absoluta",
+        "proteção integral",
+        "melhor interesse",
+        "convivência familiar",
+        "acolhimento institucional",
+        "trabalho infantil",
+        "aprendizagem",
+        "dignidade",
+        "liberdade",
+        "rede de proteção"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Prevenção E Entidades De Atendimento": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Prevenção geral e prioridade absoluta na proteção integral",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir prevenção com repressão, esquecendo que o ECA trabalha com tutela antecipada e prioridade absoluta antes da ocorrência do dano."
+      },
+      {
+        "nome_microtema": "Deveres de prevenção da família, sociedade e Poder Público",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Atribuir a prevenção apenas ao Estado, quando o ECA distribui o dever entre família, sociedade e Poder Público."
+      },
+      {
+        "nome_microtema": "Classificação indicativa, acesso a diversões e espetáculos públicos",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Trocar a lógica da classificação etária por censura, ou confundir autorização judicial com mera indicação de faixa etária."
+      },
+      {
+        "nome_microtema": "Produtos, serviços e ambientes inadequados à criança e ao adolescente",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Misturar proibição de venda/fornecimento com simples restrição de acesso, especialmente em casos de bebidas, armas, fogos e locais impróprios."
+      },
+      {
+        "nome_microtema": "Entidades de atendimento: conceito, espécies e finalidade",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Confundir entidade de atendimento com órgão público de execução, esquecendo que pode haver entidades governamentais e não governamentais."
+      },
+      {
+        "nome_microtema": "Registro, fiscalização e requisitos de funcionamento das entidades de atendimento",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Achar que o funcionamento depende apenas de autorização administrativa, quando o ECA exige registro e fiscalização pelo Conselho e pelo Judiciário conforme o caso."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo exposição de criança ou adolescente a risco, evento público, propaganda, venda de produto proibido ou funcionamento irregular de abrigo/entidade. A cobrança é prática e comparativa, exigindo identificar quem tem o dever de agir, qual medida preventiva é cabível e qual requisito formal falta para a entidade funcionar regularmente.",
+      "palavras_gatilho": [
+        "classificação indicativa",
+        "acesso a espetáculo",
+        "diversão pública",
+        "produto impróprio",
+        "entidade de atendimento",
+        "registro",
+        "fiscalização",
+        "prioridade absoluta",
+        "prevenção",
+        "medida protetiva"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Medidas De Proteção E Adoção": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Medidas de proteção: hipóteses de cabimento e princípios de aplicação",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir situação de risco com ato infracional, aplicando medida socioeducativa quando o caso exige medida de proteção."
+      },
+      {
+        "nome_microtema": "Rol e gradação das medidas de proteção do art. 101 do ECA",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Tratar o rol como taxativo absoluto ou errar a ordem de preferência entre encaminhamento, orientação, matrícula, tratamento e acolhimento."
+      },
+      {
+        "nome_microtema": "Acolhimento institucional e acolhimento familiar",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Misturar acolhimento com abrigo definitivo, ou esquecer que é medida excepcional, provisória e revisável periodicamente."
+      },
+      {
+        "nome_microtema": "Guarda, tutela e destituição do poder familiar como medidas de proteção",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir guarda com adoção e tutela, especialmente quanto aos efeitos sobre poder familiar, representação e vínculo jurídico."
+      },
+      {
+        "nome_microtema": "Adoção: requisitos gerais, consentimento e estágio de convivência",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Trocar a necessidade de consentimento dos pais ou representante legal pela mera vontade do adotante, ou errar a lógica do estágio de convivência."
+      },
+      {
+        "nome_microtema": "Adoção unilateral, conjunta e adoção por casais/companheiros",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Achar que apenas casamento formal permite adoção conjunta, ignorando a possibilidade de união estável e a análise do melhor interesse."
+      },
+      {
+        "nome_microtema": "Cadastro de adoção, habilitação e ordem de preferência",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Inverter a prioridade entre pretendentes habilitados e hipóteses excepcionais de adoção intuitu personae ou por vínculo afetivo consolidado."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar casos concretos envolvendo criança em situação de abandono, violência, negligência ou ruptura familiar, exigindo a identificação da medida adequada e seus requisitos legais. A cobrança é casuística, com alternativas próximas entre si, explorando diferenças finas entre proteção, acolhimento, guarda, tutela e adoção, além de prazos, excepcionalidade e necessidade de consentimento.",
+      "palavras_gatilho": [
+        "situação de risco",
+        "medida de proteção",
+        "acolhimento institucional",
+        "acolhimento familiar",
+        "guarda",
+        "tutela",
+        "adoção",
+        "consentimento",
+        "estágio de convivência",
+        "cadastro de adotantes",
+        "melhor interesse",
+        "excepcional e provisória",
+        "destituição do poder familiar",
+        "união estável",
+        "vínculo afetivo"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Colocação Em Família Substituta": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Conceito e espécies de colocação em família substituta",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir colocação em família substituta com adoção, guarda ou tutela, como se fossem institutos equivalentes."
+      },
+      {
+        "nome_microtema": "Guarda: finalidade, efeitos e cabimento provisório",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Achar que a guarda sempre gera vínculo definitivo ou que depende necessariamente de destituição do poder familiar."
+      },
+      {
+        "nome_microtema": "Tutela: pressupostos, relação com o poder familiar e hipóteses de aplicação",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Trocar tutela por guarda quando há ausência dos pais, ignorando que a tutela pressupõe a destituição ou suspensão do poder familiar."
+      },
+      {
+        "nome_microtema": "Adoção: requisitos, estágio de convivência e irrevogabilidade",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Tratar a adoção como medida provisória ou dispensar seus requisitos formais, especialmente o estágio de convivência e a sentença constitutiva."
+      },
+      {
+        "nome_microtema": "Ordem de preferência e oitiva da criança/adolescente na colocação em família substituta",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Ignorar a prioridade da família extensa e a necessidade de considerar a opinião do menor conforme sua idade e grau de desenvolvimento."
+      },
+      {
+        "nome_microtema": "Procedimento judicial e intervenção do Ministério Público",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Supor que a colocação em família substituta pode ocorrer por simples acordo entre particulares, sem controle judicial e atuação do MP."
+      },
+      {
+        "nome_microtema": "Diferenças entre colocação nacional e internacional em família substituta",
+        "ids_questoes": [],
+        "peso_percentual": 5,
+        "armadilha_favorita": "Aplicar as mesmas regras da colocação interna à adoção internacional, esquecendo a excepcionalidade e a ordem de preferência legal."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo criança ou adolescente em situação de vulnerabilidade e perguntar qual medida jurídica é cabível, exigindo a distinção fina entre guarda, tutela e adoção, além da observância da prioridade da família natural/extensa, da necessidade de decisão judicial e da intervenção do Ministério Público.",
+      "palavras_gatilho": [
+        "família extensa",
+        "família substituta",
+        "guarda provisória",
+        "tutela",
+        "adoção",
+        "estágio de convivência",
+        "destituição do poder familiar",
+        "melhor interesse da criança",
+        "prioridade",
+        "Ministério Público",
+        "sentença constitutiva",
+        "adoção internacional"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Prática De Ato Infracional E Direitos Do Adolescente": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Conceito de ato infracional e tipicidade por remissão ao tipo penal",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir ato infracional com crime ou contravenção penal, esquecendo que a conduta é apurada sob a lógica do ECA e não do direito penal comum."
+      },
+      {
+        "nome_microtema": "Garantias processuais do adolescente na apuração do ato infracional",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Trocar garantias do devido processo legal, contraditório, ampla defesa e defesa técnica por regras mais flexíveis de procedimento administrativo."
+      },
+      {
+        "nome_microtema": "Flagrante, apreensão e comunicação imediata à autoridade e à família",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Achar que a apreensão do adolescente segue exatamente a lógica da prisão em flagrante do adulto, ignorando as comunicações obrigatórias e a proteção integral."
+      },
+      {
+        "nome_microtema": "Internação provisória e hipóteses legais de restrição de liberdade",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Admitir internação provisória como regra ou por mera gravidade abstrata do fato, quando ela é medida excepcional e vinculada a requisitos legais."
+      },
+      {
+        "nome_microtema": "Medidas socioeducativas aplicáveis e critérios de escolha da medida",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir a finalidade pedagógica da medida socioeducativa com punição penal, ou aplicar medida incompatível com a capacidade do adolescente e a gravidade concreta do ato."
+      },
+      {
+        "nome_microtema": "Direitos do adolescente privado de liberdade e execução da medida",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Esquecer que a privação de liberdade não suprime direitos fundamentais, especialmente integridade, escolarização, contato familiar e excepcionalidade da internação."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com adolescente apreendido em flagrante, família não comunicada, autoridade policial e Ministério Público atuando, e depois pergunta qual providência é correta, qual medida socioeducativa cabe ou quais direitos devem ser assegurados. A pegadinha central é misturar regras do processo penal do adulto com o regime protetivo e socioeducativo do ECA.",
+      "palavras_gatilho": [
+        "apreensão",
+        "flagrante",
+        "ato infracional",
+        "internação provisória",
+        "medida socioeducativa",
+        "defesa técnica",
+        "comunicação imediata",
+        "proteção integral",
+        "excepcionalidade",
+        "prazo",
+        "remissão"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Medidas Socioeducativas": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Espécies de medidas socioeducativas e ordem de aplicação",
+        "ids_questoes": [],
+        "peso_percentual": 25,
+        "armadilha_favorita": "Confundir a natureza taxativa das medidas do art. 112 com a ideia de livre escolha judicial sem observar adequação e proporcionalidade."
+      },
+      {
+        "nome_microtema": "Advertência, obrigação de reparar o dano e prestação de serviços à comunidade",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Trocar medida de caráter mais brando por sanção patrimonial ou presumir que toda infração gera reparação do dano."
+      },
+      {
+        "nome_microtema": "Liberdade assistida: finalidade, prazo e acompanhamento",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir liberdade assistida com semiliberdade ou achar que ela tem prazo fixo e automático de encerramento."
+      },
+      {
+        "nome_microtema": "Inserção em regime de semiliberdade",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Misturar semiliberdade com internação, especialmente quanto à possibilidade de atividades externas e ao grau de restrição da liberdade."
+      },
+      {
+        "nome_microtema": "Internação: hipóteses legais, excepcionalidade e prazo",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Aplicar internação fora das hipóteses taxativas do ECA ou esquecer que ela é medida excepcional, breve e sujeita à reavaliação periódica."
+      },
+      {
+        "nome_microtema": "Remissão, cumulação e substituição de medidas",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir remissão com absolvição e não perceber que ela pode vir acompanhada de medida socioeducativa ou ser usada para excluir o processo."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo ato infracional, histórico do adolescente, gravidade da conduta, reincidência e contexto familiar, exigindo a identificação da medida socioeducativa cabível com base na excepcionalidade, proporcionalidade e finalidade pedagógica. As alternativas geralmente misturam medidas brandas com restritivas, ou trazem internação e semiliberdade em hipóteses em que a lei não autoriza.",
+      "palavras_gatilho": [
+        "ato infracional",
+        "reincidência",
+        "grave ameaça",
+        "violência",
+        "internação",
+        "semiliberdade",
+        "liberdade assistida",
+        "remissão",
+        "excepcionalidade",
+        "prazo indeterminado",
+        "reavaliação",
+        "adequação",
+        "proporcionalidade"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Conselho Tutelar E Acesso À Justiça": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Natureza jurídica, composição e requisitos para atuação do Conselho Tutelar",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir Conselho Tutelar com órgão jurisdicional, administrativo ou assistencial, quando ele é órgão autônomo, permanente e não jurisdicional."
+      },
+      {
+        "nome_microtema": "Atribuições do Conselho Tutelar e distinção entre medida de proteção e providência administrativa",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Misturar a competência do Conselho Tutelar com a do Judiciário, especialmente ao aplicar medidas que dependem de provocação judicial ou de autoridade policial."
+      },
+      {
+        "nome_microtema": "Atuação do Conselho Tutelar no acesso à justiça e encaminhamento à rede de proteção",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Achar que o Conselho Tutelar resolve o conflito por si só, quando muitas vezes sua função é encaminhar, requisitar serviços e acionar o sistema de garantia de direitos."
+      },
+      {
+        "nome_microtema": "Requisição de serviços públicos e comunicação obrigatória ao Ministério Público e à autoridade judiciária",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir requisição administrativa com mera solicitação, ou esquecer que certas situações exigem comunicação imediata aos órgãos competentes."
+      },
+      {
+        "nome_microtema": "Hipóteses de intervenção em situação de ameaça ou violação de direitos da criança e do adolescente",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Aplicar medida inadequada ao caso concreto, trocando proteção por punição ou presumindo necessidade de judicialização em toda e qualquer violação."
+      },
+      {
+        "nome_microtema": "Controle, fiscalização e limites da atuação do Conselho Tutelar",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Ignorar que o Conselho Tutelar não substitui a família, a escola, a assistência social nem o Judiciário, atuando dentro de limites legais bem definidos."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar caso concreto envolvendo omissão familiar, evasão escolar, violência, negligência ou recusa de atendimento em serviço público, exigindo identificar se a providência correta é do Conselho Tutelar, do Ministério Público ou do Judiciário. A pegadinha central é a fronteira entre atuação administrativa de proteção e atuação jurisdicional, com alternativas que trocam requisição, encaminhamento, representação e medida judicial.",
+      "palavras_gatilho": [
+        "Conselho Tutelar",
+        "requisição",
+        "encaminhamento",
+        "medida de proteção",
+        "violação de direitos",
+        "omissão dos pais",
+        "evasão escolar",
+        "rede de proteção",
+        "Ministério Público",
+        "autoridade judiciária",
+        "acesso à justiça",
+        "atendimento obrigatório"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Crimes E Infrações Administrativas No Eca": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Crimes em espécie do ECA: venda, fornecimento, entrega e intermediação de criança/adolescente",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir a conduta penal do ECA com mera infração administrativa ou com hipótese de adoção irregular sem finalidade lucrativa."
+      },
+      {
+        "nome_microtema": "Crimes de exposição a risco e exploração: pornografia infantil, cena de sexo explícito e aliciamento",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Misturar produção, divulgação, armazenamento e compartilhamento de conteúdo sexual envolvendo criança ou adolescente, tratando tudo como a mesma figura típica."
+      },
+      {
+        "nome_microtema": "Crimes de discriminação, constrangimento e impedimento de acesso a direitos",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Confundir crime com infração administrativa quando a conduta viola direito de acesso, permanência ou atendimento de criança e adolescente."
+      },
+      {
+        "nome_microtema": "Infrações administrativas dos arts. 245 a 258-C do ECA: dever de comunicação, venda de produtos e serviços, e publicidade",
+        "ids_questoes": [],
+        "peso_percentual": 24,
+        "armadilha_favorita": "Trocar a sanção administrativa aplicável ao estabelecimento pela responsabilização penal da pessoa física ou presumir que toda infração gera crime."
+      },
+      {
+        "nome_microtema": "Infrações administrativas ligadas à hospedagem, transporte, espetáculo e acesso a locais impróprios",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir exigência de autorização, acompanhamento ou identificação com proibição absoluta, ignorando as exceções legais."
+      },
+      {
+        "nome_microtema": "Responsabilidade do dirigente, preposto e pessoa jurídica nas infrações do ECA",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Achar que apenas o autor material responde, desconsiderando a responsabilização do responsável pelo estabelecimento e as consequências administrativas cumuláveis."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo estabelecimento comercial, ambiente digital, hospedagem, mídia ou atendimento institucional, exigindo a distinção entre crime e infração administrativa, a identificação do sujeito responsável e a sanção correta. A pegadinha aparece na fronteira entre tutela penal e administrativa, com alternativas juridicamente próximas e uso de detalhes fáticos como idade da vítima, finalidade da conduta, habitualidade, consentimento aparente e dever de comunicação às autoridades.",
+      "palavras_gatilho": [
+        "estabelecimento",
+        "adolescente",
+        "criança",
+        "divulgação",
+        "armazenamento",
+        "hospedagem",
+        "autorização",
+        "comunicação obrigatória",
+        "exploração sexual",
+        "material pornográfico",
+        "sanção administrativa",
+        "responsável legal"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  }
+}

@@ -1,0 +1,3110 @@
+[
+  {
+    "id": 403949,
+    "nome": "Microeconomia |"
+  },
+  {
+    "id": 411764,
+    "nome": "Introdução à Microeconomia |"
+  },
+  {
+    "id": 411765,
+    "nome": "Conceitos Fundamentais |"
+  },
+  {
+    "id": 411766,
+    "nome": "Custo de Oportunidade |"
+  },
+  {
+    "id": 426719,
+    "nome": "Livre Comércio, Vantagens Absolutas e Comparativas |"
+  },
+  {
+    "id": 412880,
+    "nome": "Curvas de Possibilidades de Produção |"
+  },
+  {
+    "id": 412852,
+    "nome": "Fatores de Produção |"
+  },
+  {
+    "id": 426720,
+    "nome": "Fluxo Circular da Riqueza |"
+  },
+  {
+    "id": 403950,
+    "nome": "Modelo de Oferta e Demanda |"
+  },
+  {
+    "id": 412732,
+    "nome": "Curva da Demanda |"
+  },
+  {
+    "id": 412741,
+    "nome": "Curva de Oferta |"
+  },
+  {
+    "id": 412742,
+    "nome": "Equilíbrio |"
+  },
+  {
+    "id": 412743,
+    "nome": "Preço e Quantidade de Equilíbrio |"
+  },
+  {
+    "id": 412744,
+    "nome": "Dinâmica do Equilíbrio |"
+  },
+  {
+    "id": 412745,
+    "nome": "Preço Acima do Nível de Equilíbrio |"
+  },
+  {
+    "id": 412746,
+    "nome": "Preço Abaixo do Nível de Equilíbrio |"
+  },
+  {
+    "id": 412747,
+    "nome": "Determinantes da Oferta e Demanda |"
+  },
+  {
+    "id": 412733,
+    "nome": "Fatores que Afetam a Demanda |"
+  },
+  {
+    "id": 412734,
+    "nome": "Preço |"
+  },
+  {
+    "id": 412735,
+    "nome": "Renda |"
+  },
+  {
+    "id": 412736,
+    "nome": "Bens Inferiores e Bens de Giffen |"
+  },
+  {
+    "id": 412737,
+    "nome": "Preço de Bens Relacionados |"
+  },
+  {
+    "id": 412738,
+    "nome": "Gostos e Expectativas |"
+  },
+  {
+    "id": 412739,
+    "nome": "Tamanho do Mercado |"
+  },
+  {
+    "id": 412740,
+    "nome": "Outros Fatores |"
+  },
+  {
+    "id": 412748,
+    "nome": "Movendo a Curva da Demanda |"
+  },
+  {
+    "id": 412814,
+    "nome": "Fatores que Afetam a Oferta |"
+  },
+  {
+    "id": 412817,
+    "nome": "Preço |"
+  },
+  {
+    "id": 412815,
+    "nome": "Custos |"
+  },
+  {
+    "id": 412851,
+    "nome": "Tecnologia |"
+  },
+  {
+    "id": 412813,
+    "nome": "Preços de Outros Bens |"
+  },
+  {
+    "id": 426724,
+    "nome": "Expectativas |"
+  },
+  {
+    "id": 426725,
+    "nome": "Tamanho do Mercado |"
+  },
+  {
+    "id": 412756,
+    "nome": "Movendo a Curva da Oferta |"
+  },
+  {
+    "id": 403962,
+    "nome": "Equação de Slutsky (ou efeito preço, substituição e renda) |"
+  },
+  {
+    "id": 412751,
+    "nome": "Excedentes do Consumidor e do Produtor |"
+  },
+  {
+    "id": 412752,
+    "nome": "Controle de Preços e Quantidades |"
+  },
+  {
+    "id": 412865,
+    "nome": "Introdução de Impostos - Peso Morto |"
+  },
+  {
+    "id": 403951,
+    "nome": "Elasticidades |"
+  },
+  {
+    "id": 403953,
+    "nome": "Elasticidade Preço |"
+  },
+  {
+    "id": 403952,
+    "nome": "Variáveis que afetam a elasticidade |"
+  },
+  {
+    "id": 403954,
+    "nome": "Inclinação das curvas de oferta e demanda |"
+  },
+  {
+    "id": 403955,
+    "nome": "Elasticidade da Demanda linear |"
+  },
+  {
+    "id": 426726,
+    "nome": "Elasticidade Renda |"
+  },
+  {
+    "id": 426727,
+    "nome": "Elasticidade Preço-Cruzada |"
+  },
+  {
+    "id": 403956,
+    "nome": "Teoria do Consumidor |"
+  },
+  {
+    "id": 403961,
+    "nome": "Conceitos Iniciais |"
+  },
+  {
+    "id": 412771,
+    "nome": "Premissas das Preferências do Consumidor |"
+  },
+  {
+    "id": 412765,
+    "nome": "Cesta de Bens |"
+  },
+  {
+    "id": 412773,
+    "nome": "Utilidade |"
+  },
+  {
+    "id": 412789,
+    "nome": "Utilidade Total x Marginal |"
+  },
+  {
+    "id": 412785,
+    "nome": "Utilidade Ordinal X Utilidade Cardinal |"
+  },
+  {
+    "id": 412774,
+    "nome": "Função Utilidade |"
+  },
+  {
+    "id": 412772,
+    "nome": "Curvas de Indiferença |"
+  },
+  {
+    "id": 412777,
+    "nome": "Representação Gráfica das Cestas de Bens |"
+  },
+  {
+    "id": 412778,
+    "nome": "Formatos das Curvas da Indiferença |"
+  },
+  {
+    "id": 412779,
+    "nome": "Curvas de Indiferença “bem-comportadas” (Convexas) |"
+  },
+  {
+    "id": 412780,
+    "nome": "Taxa Marginal de Substituição |"
+  },
+  {
+    "id": 412781,
+    "nome": "Funções de Utilidade Cobb-Douglas |"
+  },
+  {
+    "id": 412782,
+    "nome": "Tipos Específicos de Curvas de Indiferença |"
+  },
+  {
+    "id": 412783,
+    "nome": "Substitutos Perfeitos |"
+  },
+  {
+    "id": 412784,
+    "nome": "Complementares Perfeitos |"
+  },
+  {
+    "id": 426730,
+    "nome": "Neutros |"
+  },
+  {
+    "id": 426731,
+    "nome": "Curvas de Indiferença Côncavas |"
+  },
+  {
+    "id": 412766,
+    "nome": "Restrição Orçamentária |"
+  },
+  {
+    "id": 412768,
+    "nome": "Representação Gráfica da Restrição Orçamentária |"
+  },
+  {
+    "id": 412769,
+    "nome": "Inclinação da Restrição Orçamentária |"
+  },
+  {
+    "id": 412770,
+    "nome": "Alterações da Reta Orçamentária |"
+  },
+  {
+    "id": 412790,
+    "nome": "Conjunto Orçamentário |"
+  },
+  {
+    "id": 403960,
+    "nome": "Equilíbrio do Consumidor |"
+  },
+  {
+    "id": 412791,
+    "nome": "Caso Geral (Curvas de Indiferença Convexas) |"
+  },
+  {
+    "id": 403957,
+    "nome": "Soluções de Canto / Preferência pelos Extremos |"
+  },
+  {
+    "id": 412764,
+    "nome": "Bens Neutros |"
+  },
+  {
+    "id": 412776,
+    "nome": "Bens Substitutos Perfeitos |"
+  },
+  {
+    "id": 412775,
+    "nome": "Curvas de Indiferença Côncavas |"
+  },
+  {
+    "id": 403958,
+    "nome": "Maximização da Utilidade com função Cobb-Douglas |"
+  },
+  {
+    "id": 412799,
+    "nome": "Curvas De indiferença em Círculos Concêntricos |"
+  },
+  {
+    "id": 412798,
+    "nome": "Curva de Engel |"
+  },
+  {
+    "id": 412797,
+    "nome": "Incerteza no Consumo |"
+  },
+  {
+    "id": 403963,
+    "nome": "Teoria da Firma (ou do produtor) |"
+  },
+  {
+    "id": 412800,
+    "nome": "Conceitos Iniciais |"
+  },
+  {
+    "id": 412801,
+    "nome": "Tecnologia de Produção |"
+  },
+  {
+    "id": 412802,
+    "nome": "Funções de Produção |"
+  },
+  {
+    "id": 412803,
+    "nome": "Longo e Curto Prazo |"
+  },
+  {
+    "id": 412812,
+    "nome": "Produção no Curto Prazo |"
+  },
+  {
+    "id": 426733,
+    "nome": "Produto Total, Médio e Marginal |"
+  },
+  {
+    "id": 426734,
+    "nome": "Curvas de Produção |"
+  },
+  {
+    "id": 426735,
+    "nome": "Função de Produção e Produtividade Marginal |"
+  },
+  {
+    "id": 426732,
+    "nome": "Produção no Longo Prazo |"
+  },
+  {
+    "id": 426736,
+    "nome": "Isoquantas |"
+  },
+  {
+    "id": 426737,
+    "nome": "Isoquantas Convexas (Caso Geral) |"
+  },
+  {
+    "id": 426738,
+    "nome": "Taxa Marginal de Substituição Técnica (TMST) |"
+  },
+  {
+    "id": 426739,
+    "nome": "Produção em Proporções Fixas |"
+  },
+  {
+    "id": 426740,
+    "nome": "Produção com Insumos Substitutos Perfeitos |"
+  },
+  {
+    "id": 426741,
+    "nome": "Rendimentos de Escala |"
+  },
+  {
+    "id": 426744,
+    "nome": "Economia de Escala x Economia de Escopo |"
+  },
+  {
+    "id": 426745,
+    "nome": "Rendimentos de Escala x Lei dos Rendimentos Decrescentes |"
+  },
+  {
+    "id": 426746,
+    "nome": "Distância entre as Isoquantas |"
+  },
+  {
+    "id": 426742,
+    "nome": "Grau das Funções de Produção |"
+  },
+  {
+    "id": 426743,
+    "nome": "Teorema de Euler |"
+  },
+  {
+    "id": 403964,
+    "nome": "Teoria dos Custos |"
+  },
+  {
+    "id": 412818,
+    "nome": "Custos Econômicos x Contábeis |"
+  },
+  {
+    "id": 412819,
+    "nome": "Custos Irreversíveis, Irrecuperáveis ou Afundados |"
+  },
+  {
+    "id": 412823,
+    "nome": "Custos no Curto Prazo |"
+  },
+  {
+    "id": 412824,
+    "nome": "Custos Fixos, Variáveis e Total |"
+  },
+  {
+    "id": 412825,
+    "nome": "Custos Médios e Custo Marginal |"
+  },
+  {
+    "id": 412826,
+    "nome": "Gráficos e Relação Entre as Curvas de Custo Médio e Marginal |"
+  },
+  {
+    "id": 426747,
+    "nome": "Ponto de Fechamento |"
+  },
+  {
+    "id": 412827,
+    "nome": "Custos no Longo Prazo |"
+  },
+  {
+    "id": 412828,
+    "nome": "Curva de Custo Total de Longo Prazo |"
+  },
+  {
+    "id": 412829,
+    "nome": "Curva de Custo Marginal de Longo Prazo |"
+  },
+  {
+    "id": 412831,
+    "nome": "Economias e Deseconomias de Escala |"
+  },
+  {
+    "id": 403965,
+    "nome": "Teoria dos Lucros |"
+  },
+  {
+    "id": 412833,
+    "nome": "Receita total, Receita Média e Receita Marginal |"
+  },
+  {
+    "id": 412834,
+    "nome": "Maximização de Lucros |"
+  },
+  {
+    "id": 412832,
+    "nome": "Condição geral de Maximização de Lucros |"
+  },
+  {
+    "id": 412847,
+    "nome": "Maximização de Lucros em Concorrência Perfeita |"
+  },
+  {
+    "id": 403966,
+    "nome": "Estruturas de Mercado |"
+  },
+  {
+    "id": 426748,
+    "nome": "Características Gerais de Estruturas de Mercado |"
+  },
+  {
+    "id": 426749,
+    "nome": "Vantagens Competitivas |"
+  },
+  {
+    "id": 412835,
+    "nome": "Concorrência Perfeita |"
+  },
+  {
+    "id": 412836,
+    "nome": "A Curva da Demanda da Firma Competitiva |"
+  },
+  {
+    "id": 412837,
+    "nome": "Equilíbrio da Firma no Curto Prazo |"
+  },
+  {
+    "id": 412838,
+    "nome": "Lucratividade da Firma no Curto Prazo |"
+  },
+  {
+    "id": 412839,
+    "nome": "Prejuízos no Curto Prazo e Regra de Encerramento das Atividades |"
+  },
+  {
+    "id": 412840,
+    "nome": "Curva de Oferta da Firma Competitiva no Curto Prazo |"
+  },
+  {
+    "id": 412841,
+    "nome": "Curva de Oferta do Mercado no Curto Prazo |"
+  },
+  {
+    "id": 412842,
+    "nome": "Equilíbrio da Firma no Longo Prazo |"
+  },
+  {
+    "id": 412843,
+    "nome": "Curva de Oferta de do Mercado no Longo Prazo |"
+  },
+  {
+    "id": 412848,
+    "nome": "Concorrência Monopolística |"
+  },
+  {
+    "id": 412853,
+    "nome": "Características Gerais |"
+  },
+  {
+    "id": 412854,
+    "nome": "Curvas e Formação de preços no curto prazo |"
+  },
+  {
+    "id": 412855,
+    "nome": "Gráficos de oferta, demanda, Rmg e Cmg no curto prazo |"
+  },
+  {
+    "id": 412849,
+    "nome": "Oligopólio |"
+  },
+  {
+    "id": 412875,
+    "nome": "Modelo de Sweezy (demanda quebrada e rigidez de preços) |"
+  },
+  {
+    "id": 412876,
+    "nome": "Cartel (conluio) |"
+  },
+  {
+    "id": 412877,
+    "nome": "Análise de concentração |"
+  },
+  {
+    "id": 412878,
+    "nome": "Concentração Horizontal e Vertical |"
+  },
+  {
+    "id": 412879,
+    "nome": "Índice de Herfindahl de Concentração |"
+  },
+  {
+    "id": 412871,
+    "nome": "Modelo de Cournot (quantidade em conjunto) |"
+  },
+  {
+    "id": 412872,
+    "nome": "Curvas de Reação e Quantidade de Equilíbrio de Cournot |"
+  },
+  {
+    "id": 412873,
+    "nome": "Modelo de Bertrand (preços em conjunto) |"
+  },
+  {
+    "id": 412874,
+    "nome": "Modelo de Stackelberg (liderança em quantidade) |"
+  },
+  {
+    "id": 412850,
+    "nome": "Monopólio |"
+  },
+  {
+    "id": 412870,
+    "nome": "Barreiras de Entrada |"
+  },
+  {
+    "id": 412868,
+    "nome": "Demanda, Receita Média e Marginal |"
+  },
+  {
+    "id": 412858,
+    "nome": "Equilíbrio e Maximização de Lucro do Monopolista |"
+  },
+  {
+    "id": 412862,
+    "nome": "Determinação de Preço do Monopolista |"
+  },
+  {
+    "id": 412861,
+    "nome": "Índice de Lerner |"
+  },
+  {
+    "id": 412863,
+    "nome": "Lucro do Monopolista |"
+  },
+  {
+    "id": 412867,
+    "nome": "Peso Morto do Monopólio |"
+  },
+  {
+    "id": 412866,
+    "nome": "Monopólio Natural |"
+  },
+  {
+    "id": 412864,
+    "nome": "Equilíbrio, Custos Sociais e Regulamentação |"
+  },
+  {
+    "id": 412860,
+    "nome": "Regulamentação do Monopólio Natural |"
+  },
+  {
+    "id": 412859,
+    "nome": "Discriminação de Preços |"
+  },
+  {
+    "id": 412857,
+    "nome": "Discriminação de Primeiro Grau (perfeita) |"
+  },
+  {
+    "id": 412856,
+    "nome": "Discriminação de Segundo Grau |"
+  },
+  {
+    "id": 426774,
+    "nome": "Discriminação de Terceiro Grau |"
+  },
+  {
+    "id": 403969,
+    "nome": "Outras Estruturas de Mercado |"
+  },
+  {
+    "id": 403970,
+    "nome": "Oligopsônio |"
+  },
+  {
+    "id": 426775,
+    "nome": "Monopsônio |"
+  },
+  {
+    "id": 412902,
+    "nome": "Análise de Concorrência |"
+  },
+  {
+    "id": 412755,
+    "nome": "Padrão de concorrência |"
+  },
+  {
+    "id": 412754,
+    "nome": "Análise de Competitividade |"
+  },
+  {
+    "id": 412753,
+    "nome": "Competitividade e estratégia empresarial |"
+  },
+  {
+    "id": 412750,
+    "nome": "Análise de indústrias e da concorrência |"
+  },
+  {
+    "id": 412749,
+    "nome": "Cadeias e redes produtivas. |"
+  },
+  {
+    "id": 412881,
+    "nome": "Eficiência Econômica |"
+  },
+  {
+    "id": 412882,
+    "nome": "Ótimo de Pareto (Eficiência de Pareto) |"
+  },
+  {
+    "id": 412885,
+    "nome": "Eficiência nas trocas |"
+  },
+  {
+    "id": 412886,
+    "nome": "Eficiência na produção |"
+  },
+  {
+    "id": 412883,
+    "nome": "Maximização dos Excedentes |"
+  },
+  {
+    "id": 412884,
+    "nome": "Mercado de Concorrência Perfeita |"
+  },
+  {
+    "id": 412903,
+    "nome": "Teoria dos Jogos |"
+  },
+  {
+    "id": 403967,
+    "nome": "Tipos de Jogos |"
+  },
+  {
+    "id": 426780,
+    "nome": "Equilíbrio de Nash |"
+  },
+  {
+    "id": 426781,
+    "nome": "Equilíbrio perfeito em subjogos. |"
+  },
+  {
+    "id": 403968,
+    "nome": "Falhas de Mercado |"
+  },
+  {
+    "id": 412889,
+    "nome": "Externalidades |"
+  },
+  {
+    "id": 412890,
+    "nome": "Externalidades e Ineficiência |"
+  },
+  {
+    "id": 412891,
+    "nome": "Causas |"
+  },
+  {
+    "id": 412892,
+    "nome": "Internalização de Externalidades |"
+  },
+  {
+    "id": 412888,
+    "nome": "Teorema de Coase |"
+  },
+  {
+    "id": 412901,
+    "nome": "Imposto/Subsídio de Pigou |"
+  },
+  {
+    "id": 412900,
+    "nome": "Problemas Ambientais |"
+  },
+  {
+    "id": 412899,
+    "nome": "Tragédia dos Comuns |"
+  },
+  {
+    "id": 412898,
+    "nome": "Permissões Negociáveis |"
+  },
+  {
+    "id": 412893,
+    "nome": "Bens Públicos |"
+  },
+  {
+    "id": 412897,
+    "nome": "Bens Públicos Puros |"
+  },
+  {
+    "id": 412895,
+    "nome": "Não Rivalidade e Não Exclusão no Consumo |"
+  },
+  {
+    "id": 412894,
+    "nome": "Bens Meritórios (semipúblicos) |"
+  },
+  {
+    "id": 412896,
+    "nome": "Assimetria de Informação |"
+  },
+  {
+    "id": 426782,
+    "nome": "Seleção Adversa |"
+  },
+  {
+    "id": 426783,
+    "nome": "Risco Moral |"
+  },
+  {
+    "id": 426784,
+    "nome": "Monopólios Naturais |"
+  },
+  {
+    "id": 426785,
+    "nome": "Mercados Incompletos |"
+  },
+  {
+    "id": 403919,
+    "nome": "Macroeconomia |"
+  },
+  {
+    "id": 403920,
+    "nome": "Introdução à Macroeconomia |"
+  },
+  {
+    "id": 412904,
+    "nome": "Objetivos |"
+  },
+  {
+    "id": 412905,
+    "nome": "Conceitos |"
+  },
+  {
+    "id": 403921,
+    "nome": "Agentes |"
+  },
+  {
+    "id": 403922,
+    "nome": "Contas Nacionais |"
+  },
+  {
+    "id": 412906,
+    "nome": "Produto |"
+  },
+  {
+    "id": 412907,
+    "nome": "PIB - Definição |"
+  },
+  {
+    "id": 412908,
+    "nome": "PIB Preços de Mercado X Custo de Fatores |"
+  },
+  {
+    "id": 412913,
+    "nome": "PIB Preços Básicos x Preços de Produtor x Preços de Consumidor |"
+  },
+  {
+    "id": 412912,
+    "nome": "PIB Nominal x Real |"
+  },
+  {
+    "id": 412911,
+    "nome": "Deflator (Implícito) do PIB |"
+  },
+  {
+    "id": 412910,
+    "nome": "PIB Potencial x Efetivo |"
+  },
+  {
+    "id": 412909,
+    "nome": "Hiato do Produto |"
+  },
+  {
+    "id": 412916,
+    "nome": "Produto Nacional Bruto |"
+  },
+  {
+    "id": 412926,
+    "nome": "Produto Interno X Nacional |"
+  },
+  {
+    "id": 412915,
+    "nome": "Bruto x Líquido |"
+  },
+  {
+    "id": 403923,
+    "nome": "Produto Interno Líquido |"
+  },
+  {
+    "id": 412933,
+    "nome": "Agregados Líquidos (Regra Geral) |"
+  },
+  {
+    "id": 412914,
+    "nome": "Agregados Líquidos (Exceções) |"
+  },
+  {
+    "id": 412917,
+    "nome": "Identidades Macroeconômicas Básicas |"
+  },
+  {
+    "id": 412918,
+    "nome": "Identidade Macroeconômica Fundamental |"
+  },
+  {
+    "id": 412923,
+    "nome": "Identidade Investimento = Poupança |"
+  },
+  {
+    "id": 412919,
+    "nome": "Óticas de Mensuração do PIB |"
+  },
+  {
+    "id": 412922,
+    "nome": "Ótica do Produto |"
+  },
+  {
+    "id": 412931,
+    "nome": "Ótica da Renda |"
+  },
+  {
+    "id": 412932,
+    "nome": "Ótica da Despesa |"
+  },
+  {
+    "id": 412921,
+    "nome": "Problemas de Mensuração do PIB |"
+  },
+  {
+    "id": 412930,
+    "nome": "Principais Agregados Econômicos |"
+  },
+  {
+    "id": 412934,
+    "nome": "Renda |"
+  },
+  {
+    "id": 412928,
+    "nome": "Consumo |"
+  },
+  {
+    "id": 412929,
+    "nome": "Poupança |"
+  },
+  {
+    "id": 412927,
+    "nome": "Privada |"
+  },
+  {
+    "id": 412925,
+    "nome": "Do Governo/Pública |"
+  },
+  {
+    "id": 412924,
+    "nome": "Externa |"
+  },
+  {
+    "id": 412920,
+    "nome": "Investimento |"
+  },
+  {
+    "id": 423222,
+    "nome": "Formação Bruta de Capital Fixo |"
+  },
+  {
+    "id": 423221,
+    "nome": "Variação de Estoques |"
+  },
+  {
+    "id": 426786,
+    "nome": "Absorção Interna |"
+  },
+  {
+    "id": 426787,
+    "nome": "Despesa (ou demanda) |"
+  },
+  {
+    "id": 426788,
+    "nome": "Gastos do Governo |"
+  },
+  {
+    "id": 403925,
+    "nome": "Balanço de Pagamentos |"
+  },
+  {
+    "id": 412935,
+    "nome": "Conceitos Iniciais |"
+  },
+  {
+    "id": 412940,
+    "nome": "BPM6 - Manual de Balanço de Pagamentos |"
+  },
+  {
+    "id": 412939,
+    "nome": "Residentes e não Residentes |"
+  },
+  {
+    "id": 412936,
+    "nome": "Estrutura do Balanço de Pagamentos |"
+  },
+  {
+    "id": 412942,
+    "nome": "Balança Comercial |"
+  },
+  {
+    "id": 412943,
+    "nome": "Balança de Serviços |"
+  },
+  {
+    "id": 412944,
+    "nome": "Renda Primária |"
+  },
+  {
+    "id": 412945,
+    "nome": "Renda Secundária |"
+  },
+  {
+    "id": 412946,
+    "nome": "Conta Capital |"
+  },
+  {
+    "id": 412947,
+    "nome": "Conta Financeira |"
+  },
+  {
+    "id": 412948,
+    "nome": "Erros e Omissões |"
+  },
+  {
+    "id": 412973,
+    "nome": "Relações Fundamentais do Balanço de Pagamentos |"
+  },
+  {
+    "id": 412974,
+    "nome": "Registros de Transações |"
+  },
+  {
+    "id": 412976,
+    "nome": "Principais Lançamentos no Balanço de Pagamentos |"
+  },
+  {
+    "id": 412975,
+    "nome": "Principais Mudanças do BPM6 |"
+  },
+  {
+    "id": 403973,
+    "nome": "Introdução Ao Papel do Estado na Economia |"
+  },
+  {
+    "id": 403927,
+    "nome": "Noções do Pensamento da Escola Clássica |"
+  },
+  {
+    "id": 403928,
+    "nome": "Noções do Pensamento Keynesiano |"
+  },
+  {
+    "id": 412984,
+    "nome": "Funções do Estado |"
+  },
+  {
+    "id": 426789,
+    "nome": "Função Alocativa |"
+  },
+  {
+    "id": 426790,
+    "nome": "Função Distributiva |"
+  },
+  {
+    "id": 426791,
+    "nome": "Função Estabilizadora |"
+  },
+  {
+    "id": 426792,
+    "nome": "Função Reguladora |"
+  },
+  {
+    "id": 426793,
+    "nome": "Estado Produtor x Regulador |"
+  },
+  {
+    "id": 426794,
+    "nome": "Justificativas Teóricas para a Intervenção do Estado |"
+  },
+  {
+    "id": 426795,
+    "nome": "Visão Ortodoxa |"
+  },
+  {
+    "id": 426796,
+    "nome": "Ótica Desenvolvimentista |"
+  },
+  {
+    "id": 403932,
+    "nome": "Moeda e Agregados Monetários |"
+  },
+  {
+    "id": 403933,
+    "nome": "Moeda |"
+  },
+  {
+    "id": 426798,
+    "nome": "Funções da Moeda e Motivos para Demandar Moeda |"
+  },
+  {
+    "id": 403934,
+    "nome": "Demanda por Moeda |"
+  },
+  {
+    "id": 403935,
+    "nome": "Oferta de Moeda |"
+  },
+  {
+    "id": 403936,
+    "nome": "Processo de Expansão da Moeda pelos Bancos Comerciais |"
+  },
+  {
+    "id": 426799,
+    "nome": "O Sistema de Reservas Fracionárias |"
+  },
+  {
+    "id": 403937,
+    "nome": "Agregados Monetários |"
+  },
+  {
+    "id": 412999,
+    "nome": "PME, PMC, PMPP |"
+  },
+  {
+    "id": 413002,
+    "nome": "Base Monetária e Desdobramentos |"
+  },
+  {
+    "id": 413001,
+    "nome": "Meios de Pagamento |"
+  },
+  {
+    "id": 413005,
+    "nome": "Agregados Monetários e Não Monetários (M1, M2, M3 e M4) |"
+  },
+  {
+    "id": 403938,
+    "nome": "Criação e Destruição de Moeda |"
+  },
+  {
+    "id": 403939,
+    "nome": "Senhoriagem |"
+  },
+  {
+    "id": 412995,
+    "nome": "Multiplicador Monetário |"
+  },
+  {
+    "id": 413006,
+    "nome": "Coeficientes de Comportamento Bancário |"
+  },
+  {
+    "id": 413007,
+    "nome": "Política Fiscal e Monetária |"
+  },
+  {
+    "id": 413008,
+    "nome": "Política Fiscal |"
+  },
+  {
+    "id": 403943,
+    "nome": "Objetivos da Política Fiscal |"
+  },
+  {
+    "id": 413046,
+    "nome": "Instrumentos de Política Fiscal |"
+  },
+  {
+    "id": 413053,
+    "nome": "Gastos do Governo |"
+  },
+  {
+    "id": 413054,
+    "nome": "Tributação |"
+  },
+  {
+    "id": 413015,
+    "nome": "Políticas Expansionistas X Contracionistas |"
+  },
+  {
+    "id": 412996,
+    "nome": "Política Monetária |"
+  },
+  {
+    "id": 413009,
+    "nome": "Objetivos da Política Monetária |"
+  },
+  {
+    "id": 413010,
+    "nome": "Instrumentos de Política Monetária |"
+  },
+  {
+    "id": 413013,
+    "nome": "Operações em Mercado Aberto (Open Market) |"
+  },
+  {
+    "id": 413011,
+    "nome": "Taxa de Redesconto |"
+  },
+  {
+    "id": 413012,
+    "nome": "Reservas Compulsórias |"
+  },
+  {
+    "id": 413014,
+    "nome": "Outros \"instrumentos\" de Política Monetária |"
+  },
+  {
+    "id": 413016,
+    "nome": "Políticas Expansionistas X Contracionistas |"
+  },
+  {
+    "id": 413017,
+    "nome": "Relação entre a Política Monetária, Renda, Inflação e Juros |"
+  },
+  {
+    "id": 413020,
+    "nome": "Taxa Real x Taxa Nominal de Juros |"
+  },
+  {
+    "id": 413022,
+    "nome": "Modelo Clássico |"
+  },
+  {
+    "id": 413027,
+    "nome": "Equilíbrio no Mercado Real (produto e emprego) |"
+  },
+  {
+    "id": 413030,
+    "nome": "Teoria Quantitativa da Moeda |"
+  },
+  {
+    "id": 413031,
+    "nome": "Juros |"
+  },
+  {
+    "id": 413032,
+    "nome": "Políticas Econômicas na Economia Clássica |"
+  },
+  {
+    "id": 413036,
+    "nome": "Política Fiscal |"
+  },
+  {
+    "id": 413029,
+    "nome": "Política Monetária |"
+  },
+  {
+    "id": 403924,
+    "nome": "Câmbio e Regimes Cambiais |"
+  },
+  {
+    "id": 412979,
+    "nome": "Conceito e Generalidades |"
+  },
+  {
+    "id": 412980,
+    "nome": "Oferta de Divisas |"
+  },
+  {
+    "id": 412981,
+    "nome": "A Demanda de Divisas |"
+  },
+  {
+    "id": 412982,
+    "nome": "Taxas de Câmbio |"
+  },
+  {
+    "id": 412987,
+    "nome": "Taxa de câmbio Nominal |"
+  },
+  {
+    "id": 412988,
+    "nome": "Taxa de Câmbio Real |"
+  },
+  {
+    "id": 426801,
+    "nome": "Paridade do Poder de compra |"
+  },
+  {
+    "id": 412989,
+    "nome": "Condição Marshall-Lerner e Curva J |"
+  },
+  {
+    "id": 412983,
+    "nome": "Regimes Cambiais |"
+  },
+  {
+    "id": 412990,
+    "nome": "Regime de Câmbio Fixo |"
+  },
+  {
+    "id": 412991,
+    "nome": "Regime de Taxas Flutuantes (ou flexíveis) |"
+  },
+  {
+    "id": 412992,
+    "nome": "Flutuação Suja (dirty floating) |"
+  },
+  {
+    "id": 412993,
+    "nome": "Sistema de Bandas Cambiais |"
+  },
+  {
+    "id": 412985,
+    "nome": "Relação entre Taxas de Juros e Câmbio |"
+  },
+  {
+    "id": 412986,
+    "nome": "Relação entre Inflação e Câmbio |"
+  },
+  {
+    "id": 426802,
+    "nome": "Indicadores Externos |"
+  },
+  {
+    "id": 426803,
+    "nome": "Política Cambial |"
+  },
+  {
+    "id": 426804,
+    "nome": "Crise Cambial |"
+  },
+  {
+    "id": 413023,
+    "nome": "Modelo Keynesiano |"
+  },
+  {
+    "id": 413038,
+    "nome": "Modelo Keynesiano Básico (Simplificado) |"
+  },
+  {
+    "id": 413039,
+    "nome": "Composição da Demanda Agregada |"
+  },
+  {
+    "id": 413050,
+    "nome": "Consumo (C) |"
+  },
+  {
+    "id": 413051,
+    "nome": "Poupança (S) |"
+  },
+  {
+    "id": 413052,
+    "nome": "Investimento (I) |"
+  },
+  {
+    "id": 426805,
+    "nome": "Gastos do Governo (G) |"
+  },
+  {
+    "id": 426806,
+    "nome": "Tributação (T) |"
+  },
+  {
+    "id": 413055,
+    "nome": "Exportação (X) |"
+  },
+  {
+    "id": 413056,
+    "nome": "Importação (M) |"
+  },
+  {
+    "id": 413040,
+    "nome": "Determinação da Renda de Equilíbrio |"
+  },
+  {
+    "id": 413041,
+    "nome": "Multiplicador Keynesiano |"
+  },
+  {
+    "id": 413057,
+    "nome": "Fórmula do Multiplicador (K) |"
+  },
+  {
+    "id": 413058,
+    "nome": "Observações Teóricas sobre o Multiplicador |"
+  },
+  {
+    "id": 413043,
+    "nome": "Equilíbrio Alternativo |"
+  },
+  {
+    "id": 413044,
+    "nome": "Proposta de Keynes |"
+  },
+  {
+    "id": 413045,
+    "nome": "Teorema do Orçamento Equilibrado (Teorema de Haavelmo) |"
+  },
+  {
+    "id": 413047,
+    "nome": "Intensidade dos Instrumentos de Política Fiscal |"
+  },
+  {
+    "id": 413048,
+    "nome": "Paradoxo da Parcimônia |"
+  },
+  {
+    "id": 413049,
+    "nome": "Modelo Keynesiano Generalizado (IS-LM) em economia fechada |"
+  },
+  {
+    "id": 413061,
+    "nome": "Curva IS - O Equilíbrio no Mercado de Bens |"
+  },
+  {
+    "id": 413067,
+    "nome": "Deslocamento da curva IS |"
+  },
+  {
+    "id": 413068,
+    "nome": "Inclinação da curva IS |"
+  },
+  {
+    "id": 413062,
+    "nome": "Curva LM - Equilíbrio no Mercado de Ativos |"
+  },
+  {
+    "id": 413069,
+    "nome": "Deslocamento da Curva LM |"
+  },
+  {
+    "id": 413070,
+    "nome": "Inclinação da Curva LM |"
+  },
+  {
+    "id": 413063,
+    "nome": "O Equilíbrio: as Curvas IS e LM Combinadas |"
+  },
+  {
+    "id": 413071,
+    "nome": "Alteração do Equilíbrio por meio das Políticas Fiscal e Monetária |"
+  },
+  {
+    "id": 413064,
+    "nome": "O efeito Deslocamento ou Expulsão (crowding out) |"
+  },
+  {
+    "id": 413065,
+    "nome": "Eficácias das Políticas Monetária e Fiscal e as Inclinações das Curvas IS e LM |"
+  },
+  {
+    "id": 413066,
+    "nome": "Casos Especiais |"
+  },
+  {
+    "id": 413059,
+    "nome": "Modelo IS-LM-BP (ou de Mundell-Fleming) |"
+  },
+  {
+    "id": 413060,
+    "nome": "O Modelo IS-LM-BP |"
+  },
+  {
+    "id": 413073,
+    "nome": "A curva BP: Equilíbrio no Balanço de Pagamentos |"
+  },
+  {
+    "id": 413075,
+    "nome": "Políticas Econômicas com Livre Mobilidade de Capital |"
+  },
+  {
+    "id": 413077,
+    "nome": "Livre Mobilidade de Capital com Câmbio Fixo |"
+  },
+  {
+    "id": 413078,
+    "nome": "Política Monetária com Câmbio Fixo e Livre Mobilidade de Capital |"
+  },
+  {
+    "id": 413074,
+    "nome": "Política Fiscal com Câmbio Fixo e Livre Mobilidade de Capital |"
+  },
+  {
+    "id": 413076,
+    "nome": "Livre Mobilidade de Capital com Câmbio Flexível |"
+  },
+  {
+    "id": 413079,
+    "nome": "Política Monetária com Câmbio Flexível e Perfeita Mobilidade de Capital |"
+  },
+  {
+    "id": 413080,
+    "nome": "Política Fiscal com Câmbio Flexível e Perfeita Mobilidade de Capital |"
+  },
+  {
+    "id": 403926,
+    "nome": "Políticas Econômicas sem Mobilidade de Capital |"
+  },
+  {
+    "id": 403929,
+    "nome": "Economia sem Mobilidade de Capital com Câmbio Fixo |"
+  },
+  {
+    "id": 403930,
+    "nome": "Política Monetária com Câmbio Fixo e sem Mobilidade de Capital |"
+  },
+  {
+    "id": 403931,
+    "nome": "Política Fiscal com Câmbio Fixo e sem Mobilidade de Capital |"
+  },
+  {
+    "id": 403940,
+    "nome": "Economia sem Mobilidade de Capital com Câmbio Flexível |"
+  },
+  {
+    "id": 413004,
+    "nome": "Política Monetária com Câmbio Flexível e sem Mobilidade de Capital |"
+  },
+  {
+    "id": 413003,
+    "nome": "Política Fiscal com Câmbio Flexível e sem Mobilidade de Capital |"
+  },
+  {
+    "id": 403948,
+    "nome": "Políticas Econômicas com Mobilidade Imperfeita de Capital |"
+  },
+  {
+    "id": 412994,
+    "nome": "A Inclinação da Curva BP |"
+  },
+  {
+    "id": 412998,
+    "nome": "A Elasticidade dos Capitais Internacionais à Taxa de Juros Interna |"
+  },
+  {
+    "id": 413000,
+    "nome": "Economia com Mobilidade Imperfeita de Capital com Câmbio Fixo |"
+  },
+  {
+    "id": 413103,
+    "nome": "Política Monetária com Câmbio Fixo e Mobilidade Imperfeita de Capital |"
+  },
+  {
+    "id": 413104,
+    "nome": "Política Fiscal com câmbio Fixo e Mobilidade Imperfeita de Capital |"
+  },
+  {
+    "id": 413101,
+    "nome": "Economia com Mobilidade Imperfeita de Capital com Câmbio Flexível |"
+  },
+  {
+    "id": 413105,
+    "nome": "Política Monetária com Câmbio Flexível e Mobilidade Imperfeita de Capital |"
+  },
+  {
+    "id": 413106,
+    "nome": "Política Fiscal com Câmbio Flexível e Mobilidade Imperfeita de Capital |"
+  },
+  {
+    "id": 413025,
+    "nome": "Modelo Oferta e Demanda Agregada (OA-DA) |"
+  },
+  {
+    "id": 413107,
+    "nome": "Curva de Demanda Agregada (DA) |"
+  },
+  {
+    "id": 413117,
+    "nome": "Deslocamento da Curva |"
+  },
+  {
+    "id": 413108,
+    "nome": "Curva de Oferta Agregada (OA) |"
+  },
+  {
+    "id": 413118,
+    "nome": "Oferta Agregada a Longo Prazo |"
+  },
+  {
+    "id": 413119,
+    "nome": "Oferta agregada a curto prazo |"
+  },
+  {
+    "id": 413109,
+    "nome": "Respostas a Mudança de Demanda Agregada |"
+  },
+  {
+    "id": 413110,
+    "nome": "Equilíbrio entre OA e DA |"
+  },
+  {
+    "id": 413111,
+    "nome": "Neutralidade da Moeda |"
+  },
+  {
+    "id": 413112,
+    "nome": "Choques de Oferta |"
+  },
+  {
+    "id": 413113,
+    "nome": "Inflação |"
+  },
+  {
+    "id": 413120,
+    "nome": "Tipos |"
+  },
+  {
+    "id": 413121,
+    "nome": "Consequências |"
+  },
+  {
+    "id": 413122,
+    "nome": "Regimes de Metas de Inflação |"
+  },
+  {
+    "id": 403941,
+    "nome": "Curva de Phillips |"
+  },
+  {
+    "id": 403946,
+    "nome": "Expectativas Racionais |"
+  },
+  {
+    "id": 413114,
+    "nome": "Expectativas Adaptativas |"
+  },
+  {
+    "id": 403942,
+    "nome": "Conceitos Avançados de Teorias do Pensamento Econômico |"
+  },
+  {
+    "id": 403944,
+    "nome": "Teoria Keynesiana |"
+  },
+  {
+    "id": 414110,
+    "nome": "Monetarismo |"
+  },
+  {
+    "id": 403945,
+    "nome": "Novos Clássicos |"
+  },
+  {
+    "id": 416387,
+    "nome": "Ciclos Reais de Negócio |"
+  },
+  {
+    "id": 413115,
+    "nome": "Novos Keynesianos |"
+  },
+  {
+    "id": 403947,
+    "nome": "Crescimento Econômico |"
+  },
+  {
+    "id": 413116,
+    "nome": "Desenvolvimento Econômico x Crescimento Econômico |"
+  },
+  {
+    "id": 416390,
+    "nome": "Função de Produção Clássica |"
+  },
+  {
+    "id": 416389,
+    "nome": "Produto Marginal da Mão-De-Obra e do Capital |"
+  },
+  {
+    "id": 416388,
+    "nome": "Noções de Derivação |"
+  },
+  {
+    "id": 404172,
+    "nome": "Modelo de Harrod e Domar |"
+  },
+  {
+    "id": 413129,
+    "nome": "Efeito Demanda do Investimento e o Produto Efetivo |"
+  },
+  {
+    "id": 413130,
+    "nome": "Efeito Capacidade do Investimento e o Produto Potencial |"
+  },
+  {
+    "id": 413131,
+    "nome": "Equilíbrio no Fio da Navalha |"
+  },
+  {
+    "id": 404170,
+    "nome": "Modelo de Solow |"
+  },
+  {
+    "id": 413132,
+    "nome": "A Função de Produção por Trabalhador |"
+  },
+  {
+    "id": 413133,
+    "nome": "O Papel da Poupança na Acumulação de Capital |"
+  },
+  {
+    "id": 413134,
+    "nome": "Crescimento do Estoque de Capital e o Estado Estacionário |"
+  },
+  {
+    "id": 413135,
+    "nome": "A Poupança e o Crescimento |"
+  },
+  {
+    "id": 413136,
+    "nome": "Regra de Ouro |"
+  },
+  {
+    "id": 413137,
+    "nome": "Crescimento Populacional |"
+  },
+  {
+    "id": 413138,
+    "nome": "Progresso Tecnológico |"
+  },
+  {
+    "id": 413139,
+    "nome": "Resíduo de Solow |"
+  },
+  {
+    "id": 413140,
+    "nome": "Modelos de Crescimento Endógeno |"
+  },
+  {
+    "id": 413141,
+    "nome": "Modelo AK |"
+  },
+  {
+    "id": 413127,
+    "nome": "Modelo de Capital Humano (Lucas) |"
+  },
+  {
+    "id": 404167,
+    "nome": "Emprego e Renda |"
+  },
+  {
+    "id": 404168,
+    "nome": "Demanda por Trabalho |"
+  },
+  {
+    "id": 404175,
+    "nome": "Oferta de Trabalho |"
+  },
+  {
+    "id": 413142,
+    "nome": "Desemprego e Determinação do Nível de Emprego |"
+  },
+  {
+    "id": 413143,
+    "nome": "Conceito de Desemprego |"
+  },
+  {
+    "id": 413144,
+    "nome": "Tipos de Desemprego |"
+  },
+  {
+    "id": 413145,
+    "nome": "Desemprego Friccional |"
+  },
+  {
+    "id": 413146,
+    "nome": "Desemprego Estrutural |"
+  },
+  {
+    "id": 413147,
+    "nome": "Desemprego Conjuntural ou Cíclico |"
+  },
+  {
+    "id": 413148,
+    "nome": "Indicadores do Mercado de Trabalho |"
+  },
+  {
+    "id": 413149,
+    "nome": "Estrutura Conceitual |"
+  },
+  {
+    "id": 413156,
+    "nome": "Trabalho |"
+  },
+  {
+    "id": 413157,
+    "nome": "População e Idade Ativa (PIA) e População em Idade Não Ativa (PINA) |"
+  },
+  {
+    "id": 413158,
+    "nome": "População Economicamente Ativa (PEA) |"
+  },
+  {
+    "id": 413161,
+    "nome": "População Ocupada |"
+  },
+  {
+    "id": 413162,
+    "nome": "População Desocupada |"
+  },
+  {
+    "id": 413159,
+    "nome": "População Não Economicamente Ativa |"
+  },
+  {
+    "id": 413160,
+    "nome": "Subemprego |"
+  },
+  {
+    "id": 413150,
+    "nome": "Taxa de Atividade |"
+  },
+  {
+    "id": 413151,
+    "nome": "Nível de Ocupação |"
+  },
+  {
+    "id": 413152,
+    "nome": "Nível de Desocupação |"
+  },
+  {
+    "id": 413153,
+    "nome": "Taxa de Desocupação (Taxa de Desemprego) |"
+  },
+  {
+    "id": 413154,
+    "nome": "Taxa de Ocupação (Taxa de Emprego) |"
+  },
+  {
+    "id": 413155,
+    "nome": "Taxa de Rotatividade |"
+  },
+  {
+    "id": 413163,
+    "nome": "Emprego e Renda (Lei de Okun) |"
+  },
+  {
+    "id": 413165,
+    "nome": "Investimento e a Decisão de Investir |"
+  },
+  {
+    "id": 413169,
+    "nome": "Q de Tobin |"
+  },
+  {
+    "id": 413170,
+    "nome": "Custo do Aluguel e a Decisão de Investir |"
+  },
+  {
+    "id": 413166,
+    "nome": "Economia Intertemporal |"
+  },
+  {
+    "id": 413171,
+    "nome": "Função consumo Keynesiana |"
+  },
+  {
+    "id": 413172,
+    "nome": "Teoria do Ciclo de Vida |"
+  },
+  {
+    "id": 413173,
+    "nome": "Teoria da Renda Permanente |"
+  },
+  {
+    "id": 413174,
+    "nome": "Teoria da Escolha Intertemporal |"
+  },
+  {
+    "id": 413176,
+    "nome": "Restrição Orçamentária intertemporal das Famílias |"
+  },
+  {
+    "id": 413177,
+    "nome": "Preferências do Consumidor |"
+  },
+  {
+    "id": 413178,
+    "nome": "A Escolha Ótima do Consumidor |"
+  },
+  {
+    "id": 413179,
+    "nome": "Variações na Renda do Consumidor |"
+  },
+  {
+    "id": 413180,
+    "nome": "Variações nas Taxas de Juros |"
+  },
+  {
+    "id": 413181,
+    "nome": "Restrições de Crédito |"
+  },
+  {
+    "id": 413175,
+    "nome": "O Governo |"
+  },
+  {
+    "id": 413182,
+    "nome": "A Restrição Orçamentária Intertemporal do Governo |"
+  },
+  {
+    "id": 413183,
+    "nome": "A Equivalência Ricardiana |"
+  },
+  {
+    "id": 403972,
+    "nome": "Finanças Públicas |"
+  },
+  {
+    "id": 403974,
+    "nome": "Economia do Setor Público |"
+  },
+  {
+    "id": 403978,
+    "nome": "Definição de Finanças Públicas |"
+  },
+  {
+    "id": 403977,
+    "nome": "Objetivos Das Finanças Públicas |"
+  },
+  {
+    "id": 403976,
+    "nome": "Contabilidade Fiscal |"
+  },
+  {
+    "id": 414114,
+    "nome": "Variáveis Fluxo e Estoque (Déficit x Dívida) |"
+  },
+  {
+    "id": 414113,
+    "nome": "Resultado Nominal |"
+  },
+  {
+    "id": 414112,
+    "nome": "Resultado Operacional |"
+  },
+  {
+    "id": 414111,
+    "nome": "Resultado Primário |"
+  },
+  {
+    "id": 413126,
+    "nome": "CFSP e NFSP |"
+  },
+  {
+    "id": 413125,
+    "nome": "Cobertura Institucional - Gov Central, Geral e Setor Público |"
+  },
+  {
+    "id": 413124,
+    "nome": "NFSP, NFGC, NFEE |"
+  },
+  {
+    "id": 413123,
+    "nome": "Metodologias de Apuração |"
+  },
+  {
+    "id": 413026,
+    "nome": "Acima da linha |"
+  },
+  {
+    "id": 413102,
+    "nome": "Abaixo da Linha |"
+  },
+  {
+    "id": 413100,
+    "nome": "Regimes de Contabilização |"
+  },
+  {
+    "id": 413164,
+    "nome": "Dívida Pública |"
+  },
+  {
+    "id": 413167,
+    "nome": "Dívida Mobiliária e Contratual |"
+  },
+  {
+    "id": 413168,
+    "nome": "Comportamento das Contas Públicas e Financiamento do Déficit Público no Brasil |"
+  },
+  {
+    "id": 413098,
+    "nome": "Resultado Primário e Nominal x Sustentabilidade da Dívida |"
+  },
+  {
+    "id": 413084,
+    "nome": "Condição de Equilíbrio Dívida/PIB |"
+  },
+  {
+    "id": 413096,
+    "nome": "Panorama da Dívida Pública Brasileira |"
+  },
+  {
+    "id": 413093,
+    "nome": "Dívida Líquida do Setor Público |"
+  },
+  {
+    "id": 413094,
+    "nome": "Dívida Pública do Governo Geral |"
+  },
+  {
+    "id": 413092,
+    "nome": "Abordagem Ricardiana da Dívida Pública |"
+  },
+  {
+    "id": 413083,
+    "nome": "Relações entre Inflação e Desempenho Fiscal |"
+  },
+  {
+    "id": 413091,
+    "nome": "Efeito Tanzi (Oliveira-Tanzi) |"
+  },
+  {
+    "id": 413090,
+    "nome": "Efeito Patinkin (Bacha) |"
+  },
+  {
+    "id": 413087,
+    "nome": "Economia do Bem-Estar |"
+  },
+  {
+    "id": 413089,
+    "nome": "Teoremas do Bem-Estar |"
+  },
+  {
+    "id": 413088,
+    "nome": "1º Teorema do Bem-Estar |"
+  },
+  {
+    "id": 413086,
+    "nome": "2º Teorema do Bem-Estar |"
+  },
+  {
+    "id": 413082,
+    "nome": "Caixa de Edgeworth |"
+  },
+  {
+    "id": 403975,
+    "nome": "Tributação |"
+  },
+  {
+    "id": 413085,
+    "nome": "Princípios Teóricos da Tributação |"
+  },
+  {
+    "id": 413081,
+    "nome": "Princípio da Neutralidade |"
+  },
+  {
+    "id": 413024,
+    "nome": "Princípio da Equidade |"
+  },
+  {
+    "id": 413021,
+    "nome": "Princípio da Capacidade Contributiva |"
+  },
+  {
+    "id": 404174,
+    "nome": "Princípio do Benefício |"
+  },
+  {
+    "id": 412997,
+    "nome": "Tipos de Impostos |"
+  },
+  {
+    "id": 414115,
+    "nome": "Ingressos Públicos |"
+  },
+  {
+    "id": 404173,
+    "nome": "Receitas Originárias |"
+  },
+  {
+    "id": 413128,
+    "nome": "Receitas Derivadas |"
+  },
+  {
+    "id": 404169,
+    "nome": "Impostos Diretos e Indiretos |"
+  },
+  {
+    "id": 413246,
+    "nome": "Impostos específicos e ad valorem |"
+  },
+  {
+    "id": 413245,
+    "nome": "Impostos Proporcionais, Progressivos e Regressivos |"
+  },
+  {
+    "id": 413244,
+    "nome": "Impostos Proporcionais |"
+  },
+  {
+    "id": 413243,
+    "nome": "Impostos Progressivos |"
+  },
+  {
+    "id": 413242,
+    "nome": "Impostos Regressivos |"
+  },
+  {
+    "id": 413210,
+    "nome": "Imposto Lump-Sum |"
+  },
+  {
+    "id": 404146,
+    "nome": "Tributação do Consumo no Brasil |"
+  },
+  {
+    "id": 413208,
+    "nome": "Impostos sobre o Valor Agregado (não cumulativos) |"
+  },
+  {
+    "id": 413207,
+    "nome": "Tributação Ótima de Mercadorias |"
+  },
+  {
+    "id": 413206,
+    "nome": "Regra de Ramsey |"
+  },
+  {
+    "id": 413205,
+    "nome": "Implicação da Regra de Ramsey Sobre a Equidade |"
+  },
+  {
+    "id": 413211,
+    "nome": "Alíquota Marginal e Alíquota Média de Impostos |"
+  },
+  {
+    "id": 413204,
+    "nome": "Incidência Tributária |"
+  },
+  {
+    "id": 413203,
+    "nome": "Repartição do Ônus Tributário |"
+  },
+  {
+    "id": 413200,
+    "nome": "Cálculo da Repartição do Ônus Tributário |"
+  },
+  {
+    "id": 413199,
+    "nome": "Transferência para frente e para Trás |"
+  },
+  {
+    "id": 413202,
+    "nome": "Cobranças nos Produtores ou nos Consumidores |"
+  },
+  {
+    "id": 413201,
+    "nome": "Diferenças |"
+  },
+  {
+    "id": 416386,
+    "nome": "Curva de Laffer |"
+  },
+  {
+    "id": 403979,
+    "nome": "Sistema Federativo |"
+  },
+  {
+    "id": 403980,
+    "nome": "Federalismo x Federalismo Fiscal |"
+  },
+  {
+    "id": 403981,
+    "nome": "Federalismo Fiscal |"
+  },
+  {
+    "id": 403982,
+    "nome": "Distribuição de Receitas e Encargos |"
+  },
+  {
+    "id": 413196,
+    "nome": "Distribuição das Competências Tributárias |"
+  },
+  {
+    "id": 413195,
+    "nome": "Distribuição das Responsabilidades de Gastos |"
+  },
+  {
+    "id": 413194,
+    "nome": "Equalização Fiscal: Os Desequilíbrios Verticais e Horizontais; e as Transferências Intergovernamentais |"
+  },
+  {
+    "id": 403983,
+    "nome": "Modelo de Tiebout |"
+  },
+  {
+    "id": 403984,
+    "nome": "Federalismo Fiscal Ótimo |"
+  },
+  {
+    "id": 413198,
+    "nome": "Federalismo Fiscal no Brasil |"
+  },
+  {
+    "id": 413193,
+    "nome": "Equalização Fiscal e Novos Arranjos do Federalismo Fiscal no Brasil |"
+  },
+  {
+    "id": 404199,
+    "nome": "Problemas Recentes Enfrentados pelo Federalismo Fiscal Brasileiro |"
+  },
+  {
+    "id": 413197,
+    "nome": "Panorama das Finanças Públicas Brasileiras |"
+  },
+  {
+    "id": 413190,
+    "nome": "Situação Fiscal Brasileira |"
+  },
+  {
+    "id": 404203,
+    "nome": "Principais problemas fiscais brasileiros |"
+  },
+  {
+    "id": 413189,
+    "nome": "Relacionamento Tesouro x BACEN |"
+  },
+  {
+    "id": 404163,
+    "nome": "Avaliação do Gasto Público |"
+  },
+  {
+    "id": 404202,
+    "nome": "Panoramas específicos |"
+  },
+  {
+    "id": 413188,
+    "nome": "Reforma Administrativa no contexto das Finanças Públicas |"
+  },
+  {
+    "id": 413187,
+    "nome": "Previdência Social no contexto das Finanças Públicas |"
+  },
+  {
+    "id": 413185,
+    "nome": "Características Básicas da Legislação Tributária Brasileira |"
+  },
+  {
+    "id": 404160,
+    "nome": "Financiamento do déficit público a partir dos anos 80 do século XX. |"
+  },
+  {
+    "id": 404201,
+    "nome": "Lei de Responsabilidade Fiscal |"
+  },
+  {
+    "id": 404204,
+    "nome": "Limites Estabelecidos pela LRF |"
+  },
+  {
+    "id": 404205,
+    "nome": "Despesa |"
+  },
+  {
+    "id": 404206,
+    "nome": "Receita |"
+  },
+  {
+    "id": 404207,
+    "nome": "Alienação de Patrimônio |"
+  },
+  {
+    "id": 413184,
+    "nome": "Transferências Voluntária |"
+  },
+  {
+    "id": 404145,
+    "nome": "Destinação de Recursos ao Setor Privado |"
+  },
+  {
+    "id": 404144,
+    "nome": "Dívida Pública |"
+  },
+  {
+    "id": 404142,
+    "nome": "Operações de Crédito |"
+  },
+  {
+    "id": 404141,
+    "nome": "Operações de Crédito por Antecipação de Receita Orçamentária (ARO) |"
+  },
+  {
+    "id": 404140,
+    "nome": "Outras Formas de Crédito Público |"
+  },
+  {
+    "id": 404139,
+    "nome": "Restos a Pagar |"
+  },
+  {
+    "id": 404187,
+    "nome": "Economia da Regulação |"
+  },
+  {
+    "id": 404188,
+    "nome": "Conceitos de Regulação |"
+  },
+  {
+    "id": 404189,
+    "nome": "Regulação |"
+  },
+  {
+    "id": 404190,
+    "nome": "Desregulação |"
+  },
+  {
+    "id": 404186,
+    "nome": "Re-Regulação |"
+  },
+  {
+    "id": 404200,
+    "nome": "Teoria da Captura |"
+  },
+  {
+    "id": 404198,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 404197,
+    "nome": "Teoria da Captura x Risco Moral |"
+  },
+  {
+    "id": 404196,
+    "nome": "Teoria da Porta Giratória (Revolving Door Theory) |"
+  },
+  {
+    "id": 404195,
+    "nome": "Regulação em Diferentes Estruturas de Mercado |"
+  },
+  {
+    "id": 404194,
+    "nome": "Regulação em Concorrência Perfeita |"
+  },
+  {
+    "id": 404193,
+    "nome": "Regulação em Concorrência Monopolística |"
+  },
+  {
+    "id": 404192,
+    "nome": "Regulação em Oligopólios |"
+  },
+  {
+    "id": 404191,
+    "nome": "Regulação em Monopólios |"
+  },
+  {
+    "id": 413241,
+    "nome": "Regulação de Preços |"
+  },
+  {
+    "id": 413240,
+    "nome": "Reajuste Tarifário x Revisão Tarifária |"
+  },
+  {
+    "id": 413238,
+    "nome": "Regimes Tarifários |"
+  },
+  {
+    "id": 413235,
+    "nome": "Regulação por Custo do Serviço (Taxa Interna de Retorno) |"
+  },
+  {
+    "id": 404151,
+    "nome": "Regulação por Preço Teto (Price-cap) |"
+  },
+  {
+    "id": 404148,
+    "nome": "Regulação de Quantidades |"
+  },
+  {
+    "id": 413214,
+    "nome": "Regulação de quantidade de produtos (Cotas) |"
+  },
+  {
+    "id": 404149,
+    "nome": "Regulação Por Competição (Quantidade de Concorrentes) |"
+  },
+  {
+    "id": 404164,
+    "nome": "Regulação por Incentivos |"
+  },
+  {
+    "id": 404157,
+    "nome": "Escala Móvel (Sliding Scale) |"
+  },
+  {
+    "id": 404156,
+    "nome": "Por Comparação (Yardstick Regulation) |"
+  },
+  {
+    "id": 404153,
+    "nome": "Por Padrão de Qualidade |"
+  },
+  {
+    "id": 426807,
+    "nome": "Sistema Financeiro Nacional |"
+  },
+  {
+    "id": 426808,
+    "nome": "Normatizadores do SFN |"
+  },
+  {
+    "id": 426809,
+    "nome": "Conselho Monetário Nacional |"
+  },
+  {
+    "id": 426810,
+    "nome": "Conselho Nacional de Seguros Privados |"
+  },
+  {
+    "id": 426812,
+    "nome": "Supervisores do SFN |"
+  },
+  {
+    "id": 426813,
+    "nome": "Banco Central do Brasil |"
+  },
+  {
+    "id": 426814,
+    "nome": "COPOM |"
+  },
+  {
+    "id": 426815,
+    "nome": "Comissão de Valores Mobiliários |"
+  },
+  {
+    "id": 426819,
+    "nome": "Operadores do SFN |"
+  },
+  {
+    "id": 426820,
+    "nome": "Economia Internacional |"
+  },
+  {
+    "id": 426821,
+    "nome": "Teorias do Comércio Internacional |"
+  },
+  {
+    "id": 426822,
+    "nome": "Breve Histórico do Comércio Internacional |"
+  },
+  {
+    "id": 426823,
+    "nome": "Mercantilismo |"
+  },
+  {
+    "id": 426824,
+    "nome": "Teoria Clássicas |"
+  },
+  {
+    "id": 426825,
+    "nome": "Vantagens Absolutas |"
+  },
+  {
+    "id": 426826,
+    "nome": "Vantagens Comparativas (Teoria Ricardiana) |"
+  },
+  {
+    "id": 426827,
+    "nome": "Teorias Neoclássicas |"
+  },
+  {
+    "id": 426828,
+    "nome": "Teorema Hecksher-Ohlin (proporção de fatores) |"
+  },
+  {
+    "id": 426829,
+    "nome": "Teorema Hecksher-Ohlin-Samuelson |"
+  },
+  {
+    "id": 426830,
+    "nome": "Teorema Stolper-Samuelson |"
+  },
+  {
+    "id": 426832,
+    "nome": "Teorias Contemporâneas |"
+  },
+  {
+    "id": 426833,
+    "nome": "O Papel das Economias de Escala e da Concorrência Imperfeita |"
+  },
+  {
+    "id": 426834,
+    "nome": "Concorrência Monopolística |"
+  },
+  {
+    "id": 426836,
+    "nome": "A crítica de Prebisch e da Cepal |"
+  },
+  {
+    "id": 426837,
+    "nome": "Termos de Troca |"
+  },
+  {
+    "id": 426838,
+    "nome": "Termos Líquidos de troca (Poder de Compra das Exportações) |"
+  },
+  {
+    "id": 426840,
+    "nome": "Deterioração dos Termos de Troca |"
+  },
+  {
+    "id": 426841,
+    "nome": "Termos de Troca e a Elasticidade Renda da Demanda |"
+  },
+  {
+    "id": 426842,
+    "nome": "Efeitos de Tarifas, Quotas, Subsídios e Outros Instrumentos de Política Comercial |"
+  },
+  {
+    "id": 426843,
+    "nome": "Subsídios |"
+  },
+  {
+    "id": 426844,
+    "nome": "Peso Morto dos Subsídios |"
+  },
+  {
+    "id": 426845,
+    "nome": "Quotas e Tarifas de Importação |"
+  },
+  {
+    "id": 426846,
+    "nome": "Quota de importação |"
+  },
+  {
+    "id": 426847,
+    "nome": "Tarifas |"
+  },
+  {
+    "id": 426848,
+    "nome": "Preços Máximos |"
+  },
+  {
+    "id": 426849,
+    "nome": "Preços Mínimos |"
+  },
+  {
+    "id": 426850,
+    "nome": "Quotas de Produção |"
+  },
+  {
+    "id": 426851,
+    "nome": "Blocos Econômicos e Acordos Internacionais |"
+  },
+  {
+    "id": 426852,
+    "nome": "Organismos Multilaterais |"
+  },
+  {
+    "id": 426853,
+    "nome": "Fluxos Financeiros no Comércio Internacional |"
+  },
+  {
+    "id": 404147,
+    "nome": "Economia Brasileira |"
+  },
+  {
+    "id": 426854,
+    "nome": "Cenário Externo e o Brasil Colônia |"
+  },
+  {
+    "id": 426855,
+    "nome": "Economia Açucareira |"
+  },
+  {
+    "id": 426857,
+    "nome": "Economia Brasileira no Século XIX |"
+  },
+  {
+    "id": 426858,
+    "nome": "Economia Cafeeira em Expansão |"
+  },
+  {
+    "id": 413215,
+    "nome": "Primeira República (1889-1930) |"
+  },
+  {
+    "id": 426860,
+    "nome": "A Primeira Guerra Mundial (1914-1918) |"
+  },
+  {
+    "id": 413218,
+    "nome": "Pós Guerra e a Grande Depressão de 1929 (1918-1929) |"
+  },
+  {
+    "id": 413219,
+    "nome": "Políticas de Valorização do Café |"
+  },
+  {
+    "id": 404150,
+    "nome": "Efeitos da Crise de 1929 e o Governo Provisório (1930-1934) |"
+  },
+  {
+    "id": 413220,
+    "nome": "Políticas Econômicas |"
+  },
+  {
+    "id": 426861,
+    "nome": "Crescimento Econômico no Governo Constitucional (1934-1937) |"
+  },
+  {
+    "id": 404152,
+    "nome": "Estado Novo (1937-1946) |"
+  },
+  {
+    "id": 413221,
+    "nome": "O Processo de Substituição de Importações (PSI) |"
+  },
+  {
+    "id": 413222,
+    "nome": "A Crítica da Cepal e de Prebish |"
+  },
+  {
+    "id": 426862,
+    "nome": "Economia Brasileira da segunda metade do Século XX |"
+  },
+  {
+    "id": 426863,
+    "nome": "Governo Dutra (1946-51) |"
+  },
+  {
+    "id": 426864,
+    "nome": "Plano Salte |"
+  },
+  {
+    "id": 426865,
+    "nome": "2º Governo Vargas |"
+  },
+  {
+    "id": 404154,
+    "nome": "JK: O Estado Desenvolvimentista (1956-1960) |"
+  },
+  {
+    "id": 413223,
+    "nome": "O Plano de Metas |"
+  },
+  {
+    "id": 404155,
+    "nome": "Jânio Quadros e João Goulart (1961-1964) |"
+  },
+  {
+    "id": 413224,
+    "nome": "Plano Trienal |"
+  },
+  {
+    "id": 426866,
+    "nome": "Economia Brasileira a Partir do Regime Militar |"
+  },
+  {
+    "id": 426867,
+    "nome": "Governo Castello Branco |"
+  },
+  {
+    "id": 426868,
+    "nome": "Plano de Ação Econômica do Governo - PAEG (1964-1967) |"
+  },
+  {
+    "id": 426869,
+    "nome": "I PND - O \"Milagre Econômico\" (1968-1973) |"
+  },
+  {
+    "id": 404158,
+    "nome": "II PND (1974-1979) |"
+  },
+  {
+    "id": 413225,
+    "nome": "Ajuste de Curto Prazo |"
+  },
+  {
+    "id": 413226,
+    "nome": "Ajuste de Longo Prazo e Crescimento com Endividamento |"
+  },
+  {
+    "id": 404159,
+    "nome": "A Crise da Dívida (1980-1984) |"
+  },
+  {
+    "id": 413227,
+    "nome": "O FMI |"
+  },
+  {
+    "id": 426870,
+    "nome": "Principais Conclusões sobre o Período (1974-1984) |"
+  },
+  {
+    "id": 404161,
+    "nome": "Planos de Estabilização (1984-1993) |"
+  },
+  {
+    "id": 413228,
+    "nome": "Governo Sarney |"
+  },
+  {
+    "id": 413230,
+    "nome": "Plano Cruzado |"
+  },
+  {
+    "id": 413231,
+    "nome": "O Plano Bresser |"
+  },
+  {
+    "id": 413232,
+    "nome": "Plano Verão |"
+  },
+  {
+    "id": 413229,
+    "nome": "Governo Collor |"
+  },
+  {
+    "id": 413233,
+    "nome": "Planos Collor I |"
+  },
+  {
+    "id": 426871,
+    "nome": "Abertura Econômica (PICE) |"
+  },
+  {
+    "id": 426872,
+    "nome": "Plano Collor II |"
+  },
+  {
+    "id": 426873,
+    "nome": "Economia Pós Estabilização |"
+  },
+  {
+    "id": 404162,
+    "nome": "O Plano Real |"
+  },
+  {
+    "id": 413236,
+    "nome": "1a Fase: Ajuste Fiscal (PAI) |"
+  },
+  {
+    "id": 413237,
+    "nome": "2a Fase: URV - A Desindexação pela Indexação Total da Economia |"
+  },
+  {
+    "id": 426874,
+    "nome": "Reforma Monetária: O Real |"
+  },
+  {
+    "id": 426875,
+    "nome": "Governo FHC pós Estabilização |"
+  },
+  {
+    "id": 426876,
+    "nome": "Refinanciamento de Estados e Municípios |"
+  },
+  {
+    "id": 426877,
+    "nome": "Reforma Cambial de 1999 |"
+  },
+  {
+    "id": 426878,
+    "nome": "Lei de Responsabilidade Fiscal |"
+  },
+  {
+    "id": 404165,
+    "nome": "I Governo Lula |"
+  },
+  {
+    "id": 426879,
+    "nome": "II Governo Lula |"
+  },
+  {
+    "id": 404166,
+    "nome": "Crise do Subprime (2008/2009) |"
+  },
+  {
+    "id": 426880,
+    "nome": "Crise do Euro (PIIGS) |"
+  },
+  {
+    "id": 413239,
+    "nome": "Governo Dilma |"
+  },
+  {
+    "id": 426881,
+    "nome": "Crise Fiscal |"
+  },
+  {
+    "id": 426882,
+    "nome": "Governo Temer |"
+  },
+  {
+    "id": 426883,
+    "nome": "Governo Bolsonaro |"
+  },
+  {
+    "id": 426884,
+    "nome": "Indicadores Atuais da Economia Brasileira |"
+  },
+  {
+    "id": 426885,
+    "nome": "Crescimento Econômico Brasileiro (PIB) |"
+  },
+  {
+    "id": 426886,
+    "nome": "Desigualdades de Renda |"
+  },
+  {
+    "id": 426887,
+    "nome": "Programas Sociais |"
+  },
+  {
+    "id": 426888,
+    "nome": "Previdência Social |"
+  },
+  {
+    "id": 426889,
+    "nome": "Endividamento público |"
+  },
+  {
+    "id": 426890,
+    "nome": "Perfil Demográfico |"
+  },
+  {
+    "id": 426891,
+    "nome": "Dados de Comércio com o Exterior |"
+  },
+  {
+    "id": 426892,
+    "nome": "Mercado de Trabalho Brasileiro |"
+  },
+  {
+    "id": 426893,
+    "nome": "Economia do Trabalho |"
+  },
+  {
+    "id": 404176,
+    "nome": "Econometria |"
+  },
+  {
+    "id": 404177,
+    "nome": "Números Índices |"
+  },
+  {
+    "id": 404178,
+    "nome": "Índice de Laspeyres |"
+  },
+  {
+    "id": 404179,
+    "nome": "Índice de Paasche |"
+  },
+  {
+    "id": 404180,
+    "nome": "Índice de Fischer |"
+  },
+  {
+    "id": 404181,
+    "nome": "Regressão simples e múltipla. |"
+  },
+  {
+    "id": 404182,
+    "nome": "Modelos com variáveis defasadas. |"
+  },
+  {
+    "id": 404183,
+    "nome": "Séries temporais. |"
+  },
+  {
+    "id": 404184,
+    "nome": "Vetor auto regressivo. |"
+  },
+  {
+    "id": 404185,
+    "nome": "Processos estocásticos, estacionaridade. |"
+  },
+  {
+    "id": 426894,
+    "nome": "Cointegração e correlação de erros. |"
+  },
+  {
+    "id": 426895,
+    "nome": "Técnicas de previsão de séries temporais. |"
+  },
+  {
+    "id": 426896,
+    "nome": "Econometria de dados em painel. |"
+  },
+  {
+    "id": 426897,
+    "nome": "História da Economia Mundial |"
+  },
+  {
+    "id": 426898,
+    "nome": "Economia Doméstica |"
+  },
+  {
+    "id": 426899,
+    "nome": "Economia do Desenvolvimento |"
+  },
+  {
+    "id": 426900,
+    "nome": "Finanças Privadas |"
+  },
+  {
+    "id": 426901,
+    "nome": "Características de operações e instrumentos do mercado financeiro. |"
+  },
+  {
+    "id": 426902,
+    "nome": "Títulos emitidos pelo Tesouro Nacional. |"
+  },
+  {
+    "id": 426903,
+    "nome": "Títulos de dívida privada. |"
+  },
+  {
+    "id": 426904,
+    "nome": "Securitização. |"
+  },
+  {
+    "id": 426905,
+    "nome": "Operações compromissadas. |"
+  },
+  {
+    "id": 426906,
+    "nome": "Depósito a prazo e depósito interfinanceiro. |"
+  },
+  {
+    "id": 426907,
+    "nome": "Ações. |"
+  },
+  {
+    "id": 426908,
+    "nome": "Fundos de investimento. |"
+  },
+  {
+    "id": 426909,
+    "nome": "Contratos futuros, a termo, swaps e opções. |"
+  },
+  {
+    "id": 426910,
+    "nome": "Derivativos de crédito. |"
+  },
+  {
+    "id": 426911,
+    "nome": "Eficiência de Mercado. |"
+  },
+  {
+    "id": 426912,
+    "nome": "Tipos de eficiência. |"
+  },
+  {
+    "id": 426913,
+    "nome": "Propriedades dos mercados e dos agentes financeiros. |"
+  },
+  {
+    "id": 426914,
+    "nome": "Teoria de Carteiras. |"
+  },
+  {
+    "id": 426915,
+    "nome": "Retorno e risco. |"
+  },
+  {
+    "id": 426916,
+    "nome": "Seleção de investimentos por média-variância. |"
+  },
+  {
+    "id": 426917,
+    "nome": "Diversificação do risco. |"
+  },
+  {
+    "id": 426918,
+    "nome": "Fronteira eficiente. |"
+  },
+  {
+    "id": 426919,
+    "nome": "Funções de utilidade e aversão ao risco. |"
+  },
+  {
+    "id": 426920,
+    "nome": "Ativo livre de risco. |"
+  },
+  {
+    "id": 426921,
+    "nome": "Custos de transações. |"
+  },
+  {
+    "id": 426922,
+    "nome": "Apreçamentos de ativos. |"
+  },
+  {
+    "id": 426923,
+    "nome": "Modelo CAPM e suas extensões. |"
+  },
+  {
+    "id": 426924,
+    "nome": "Teoria de Apreçamento por Arbitragem (APT). |"
+  },
+  {
+    "id": 432690,
+    "nome": "Custo Médio Ponderado de Capital (CMPC ou WACC) |"
+  },
+  {
+    "id": 426925,
+    "nome": "Estrutura a termo das taxas de juros. |"
+  },
+  {
+    "id": 426926,
+    "nome": "Principais teorias. |"
+  },
+  {
+    "id": 426927,
+    "nome": "Taxas à vista e a termo. |"
+  },
+  {
+    "id": 426928,
+    "nome": "Movimentos nas curvas de juros. |"
+  },
+  {
+    "id": 426929,
+    "nome": "Renda Fixa. |"
+  },
+  {
+    "id": 426930,
+    "nome": "Apreçamento de instrumentos de renda fixa. |"
+  },
+  {
+    "id": 426931,
+    "nome": "Gestão de carteiras de renda fixa. |"
+  },
+  {
+    "id": 426932,
+    "nome": "Duration e convexidade. |"
+  },
+  {
+    "id": 426933,
+    "nome": "Opções. |"
+  },
+  {
+    "id": 426935,
+    "nome": "Estratégias de opções. |"
+  },
+  {
+    "id": 426936,
+    "nome": "Modelo de Black-Scholes Merton. |"
+  },
+  {
+    "id": 426934,
+    "nome": "Risco |"
+  },
+  {
+    "id": 426937,
+    "nome": "Medidas de volatilidade. |"
+  },
+  {
+    "id": 426938,
+    "nome": "VaR. |"
+  },
+  {
+    "id": 426939,
+    "nome": "Premissas do modelo VaR. |"
+  },
+  {
+    "id": 432700,
+    "nome": "Economia Comportamental |"
+  },
+  {
+    "id": 426941,
+    "nome": "Análise de Projetos |"
+  },
+  {
+    "id": 426942,
+    "nome": "Conceitos Básicos |"
+  },
+  {
+    "id": 426943,
+    "nome": "Conceito de projeto de investimento. |"
+  },
+  {
+    "id": 426944,
+    "nome": "Importância, características e limitações da elaboração e análise de projetos. |"
+  },
+  {
+    "id": 426945,
+    "nome": "Etapas na elaboração de projetos. |"
+  },
+  {
+    "id": 426946,
+    "nome": "Metodologias de avaliação e seleção de projetos. |"
+  },
+  {
+    "id": 426947,
+    "nome": "Taxa mínima de atratividade. |"
+  },
+  {
+    "id": 426948,
+    "nome": "Parâmetros para análise de projetos (vida econômica, depreciação, valor residual, capital de giro). |"
+  },
+  {
+    "id": 426949,
+    "nome": "Indicadores econômicos de projetos e sua utilização para tomada de decisão. |"
+  },
+  {
+    "id": 426950,
+    "nome": "Análise de sensibilidade e cenários. |"
+  },
+  {
+    "id": 426951,
+    "nome": "Incorporação da análise de risco e incerteza na avaliação e seleção de projetos. |"
+  },
+  {
+    "id": 426952,
+    "nome": "Análise de projetos sociais. |"
+  },
+  {
+    "id": 426953,
+    "nome": "Distinção entre as avaliações social e privada de projetos. |"
+  },
+  {
+    "id": 426954,
+    "nome": "Indicadores para a seleção de projetos: |"
+  },
+  {
+    "id": 426955,
+    "nome": "Métodos de payback |"
+  },
+  {
+    "id": 426956,
+    "nome": "Taxa interna de retorno |"
+  },
+  {
+    "id": 426957,
+    "nome": "Relação custo-benefício |"
+  },
+  {
+    "id": 426958,
+    "nome": "Análise incremental. |"
+  },
+  {
+    "id": 431243,
+    "nome": "Lei nº 1.411/1951 - Dispõe sobre a profissão de Economista |"
+  },
+  {
+    "id": 454703,
+    "nome": "Fundamentos de Economia / Princípios Básicos |"
+  }
+]

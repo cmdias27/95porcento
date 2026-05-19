@@ -1,0 +1,3538 @@
+[
+  {
+    "id": 403701,
+    "nome": "Interpretação de Texto |"
+  },
+  {
+    "id": 409511,
+    "nome": "Pressupostos e subentendidos |"
+  },
+  {
+    "id": 421058,
+    "nome": "Sentidos do texto |"
+  },
+  {
+    "id": 430370,
+    "nome": "Inferência Textual |"
+  },
+  {
+    "id": 419148,
+    "nome": "Temas e figuras |"
+  },
+  {
+    "id": 419149,
+    "nome": "Viés |"
+  },
+  {
+    "id": 419150,
+    "nome": "Linguagem verbal e não verbal |"
+  },
+  {
+    "id": 408995,
+    "nome": "Linguagem oral e linguagem escrita |"
+  },
+  {
+    "id": 403705,
+    "nome": "Variação Linguística |"
+  },
+  {
+    "id": 409010,
+    "nome": "Variação diatópica (geográfica) |"
+  },
+  {
+    "id": 409011,
+    "nome": "Variação diatrástica (classe social) |"
+  },
+  {
+    "id": 409012,
+    "nome": "Variação diamésica (falado versus escrito) |"
+  },
+  {
+    "id": 419151,
+    "nome": "Variação diafásica (grau de monitoramento) |"
+  },
+  {
+    "id": 419152,
+    "nome": "Variação diacrônica (variação temporal) |"
+  },
+  {
+    "id": 408983,
+    "nome": "Variedades linguísticas |"
+  },
+  {
+    "id": 408984,
+    "nome": "Dialeto |"
+  },
+  {
+    "id": 408985,
+    "nome": "Socioleto |"
+  },
+  {
+    "id": 419154,
+    "nome": "Idioleto |"
+  },
+  {
+    "id": 419155,
+    "nome": "Vernáculo |"
+  },
+  {
+    "id": 419156,
+    "nome": "Níveis de linguagem (níveis de registro) |"
+  },
+  {
+    "id": 419157,
+    "nome": "Linguagem formal |"
+  },
+  {
+    "id": 419158,
+    "nome": "Linguagem técnica e científica |"
+  },
+  {
+    "id": 419160,
+    "nome": "Linguagem profissional (jargão) |"
+  },
+  {
+    "id": 419161,
+    "nome": "Linguagem Informal, popular, coloquial e vulgar |"
+  },
+  {
+    "id": 419162,
+    "nome": "Norma |"
+  },
+  {
+    "id": 419163,
+    "nome": "Norma popular |"
+  },
+  {
+    "id": 408987,
+    "nome": "Norma culta ou norma padrão |"
+  },
+  {
+    "id": 403683,
+    "nome": "Dificuldades da língua portuguesa |"
+  },
+  {
+    "id": 403684,
+    "nome": "Por que/porque/porquê/por quê |"
+  },
+  {
+    "id": 403685,
+    "nome": "Onde/aonde |"
+  },
+  {
+    "id": 403686,
+    "nome": "Mas/mais |"
+  },
+  {
+    "id": 403687,
+    "nome": "Cessão/sessão/secção/seção |"
+  },
+  {
+    "id": 403688,
+    "nome": "Há/a |"
+  },
+  {
+    "id": 403689,
+    "nome": "Senão/se não |"
+  },
+  {
+    "id": 403690,
+    "nome": "Ao invés de/em vez de |"
+  },
+  {
+    "id": 403691,
+    "nome": "Ao encontro/de encontro |"
+  },
+  {
+    "id": 403692,
+    "nome": "Acerca de/Há cerca de/a cerca de |"
+  },
+  {
+    "id": 403693,
+    "nome": "A fim de/afim |"
+  },
+  {
+    "id": 403694,
+    "nome": "Demais/ de mais |"
+  },
+  {
+    "id": 403695,
+    "nome": "Dia-a-dia/dia a dia |"
+  },
+  {
+    "id": 403696,
+    "nome": "Tampouco/tão pouco |"
+  },
+  {
+    "id": 403697,
+    "nome": "Mal/Mau |"
+  },
+  {
+    "id": 403698,
+    "nome": "Em princípio/Ao princípio |"
+  },
+  {
+    "id": 403699,
+    "nome": "Tão pouco/Tampouco |"
+  },
+  {
+    "id": 408988,
+    "nome": "Cujo/cuja/cujos/cujas |"
+  },
+  {
+    "id": 408989,
+    "nome": "À medida que/na medida em que |"
+  },
+  {
+    "id": 408990,
+    "nome": "Sob/sobre |"
+  },
+  {
+    "id": 408991,
+    "nome": "Trás/traz |"
+  },
+  {
+    "id": 408992,
+    "nome": "Meio/meia |"
+  },
+  {
+    "id": 408993,
+    "nome": "Por hora/por ora |"
+  },
+  {
+    "id": 419164,
+    "nome": "Racionalidade e emotividade na comunicação |"
+  },
+  {
+    "id": 419165,
+    "nome": "Objetividade e subjetividade na comunicação |"
+  },
+  {
+    "id": 419166,
+    "nome": "Pessoalidade e impessoalidade na comunicação |"
+  },
+  {
+    "id": 419167,
+    "nome": "Texto literário e texto não literário |"
+  },
+  {
+    "id": 419168,
+    "nome": "Elementos da comunicação |"
+  },
+  {
+    "id": 419169,
+    "nome": "Remetente (emissor, destinador) |"
+  },
+  {
+    "id": 419170,
+    "nome": "Destinatário (receptor, ouvinte, leitor) |"
+  },
+  {
+    "id": 419171,
+    "nome": "Canal (meio) |"
+  },
+  {
+    "id": 419172,
+    "nome": "Código |"
+  },
+  {
+    "id": 419173,
+    "nome": "Contexto (referente) |"
+  },
+  {
+    "id": 419174,
+    "nome": "Mensagem |"
+  },
+  {
+    "id": 403707,
+    "nome": "Funções da Linguagem |"
+  },
+  {
+    "id": 408996,
+    "nome": "Função referencial, informativa ou denotativa |"
+  },
+  {
+    "id": 408997,
+    "nome": "Função emotiva ou expressiva |"
+  },
+  {
+    "id": 408998,
+    "nome": "Função conativa ou apelativa |"
+  },
+  {
+    "id": 408999,
+    "nome": "Função metalinguística |"
+  },
+  {
+    "id": 409000,
+    "nome": "Função fática |"
+  },
+  {
+    "id": 409001,
+    "nome": "Função poética |"
+  },
+  {
+    "id": 403706,
+    "nome": "Linguagem denotativa e linguagem conotativa (denotação e conotação) |"
+  },
+  {
+    "id": 409576,
+    "nome": "Sentido denotativo, próprio ou literal |"
+  },
+  {
+    "id": 409577,
+    "nome": "Sentido conotativo, figurado ou metafórico |"
+  },
+  {
+    "id": 409587,
+    "nome": "Análise das estruturas linguísticas do texto |"
+  },
+  {
+    "id": 419175,
+    "nome": "O texto em prosa |"
+  },
+  {
+    "id": 419176,
+    "nome": "Parágrafo padrão e tópico frasal |"
+  },
+  {
+    "id": 403708,
+    "nome": "Intertextualidade |"
+  },
+  {
+    "id": 409578,
+    "nome": "Paráfrase |"
+  },
+  {
+    "id": 409579,
+    "nome": "Paródia |"
+  },
+  {
+    "id": 409580,
+    "nome": "Citação |"
+  },
+  {
+    "id": 409581,
+    "nome": "Plágio |"
+  },
+  {
+    "id": 409582,
+    "nome": "Alusão |"
+  },
+  {
+    "id": 409583,
+    "nome": "Estilização |"
+  },
+  {
+    "id": 409584,
+    "nome": "Epígrafe |"
+  },
+  {
+    "id": 409585,
+    "nome": "Pastiche |"
+  },
+  {
+    "id": 409586,
+    "nome": "Síntese e Resumo |"
+  },
+  {
+    "id": 403703,
+    "nome": "Tipologias e Gêneros Textuais |"
+  },
+  {
+    "id": 403702,
+    "nome": "Tipologias Textuais |"
+  },
+  {
+    "id": 409512,
+    "nome": "Texto Narrativo |"
+  },
+  {
+    "id": 419177,
+    "nome": "Narrador |"
+  },
+  {
+    "id": 419178,
+    "nome": "Personagem |"
+  },
+  {
+    "id": 419179,
+    "nome": "Espaço |"
+  },
+  {
+    "id": 419180,
+    "nome": "Tipos de discurso narrativo |"
+  },
+  {
+    "id": 419181,
+    "nome": "Discurso direto |"
+  },
+  {
+    "id": 419182,
+    "nome": "Discurso indireto |"
+  },
+  {
+    "id": 419183,
+    "nome": "Discurso indireto livre (misto) |"
+  },
+  {
+    "id": 419184,
+    "nome": "Passagem do discurso direto para o discurso indireto ou vice-versa |"
+  },
+  {
+    "id": 409517,
+    "nome": "Texto descritivo |"
+  },
+  {
+    "id": 409519,
+    "nome": "Texto dialogal |"
+  },
+  {
+    "id": 409518,
+    "nome": "Tipo injuntivo ou instrucional |"
+  },
+  {
+    "id": 409524,
+    "nome": "Texto expositivo |"
+  },
+  {
+    "id": 409525,
+    "nome": "Texto Dissertativo-argumentativo |"
+  },
+  {
+    "id": 409526,
+    "nome": "Estratégias argumentativas |"
+  },
+  {
+    "id": 409527,
+    "nome": "Modalização |"
+  },
+  {
+    "id": 409528,
+    "nome": "Exemplificação |"
+  },
+  {
+    "id": 409529,
+    "nome": "Enumeração |"
+  },
+  {
+    "id": 409530,
+    "nome": "Fato histórico |"
+  },
+  {
+    "id": 409531,
+    "nome": "Comparação |"
+  },
+  {
+    "id": 409532,
+    "nome": "Contraposição |"
+  },
+  {
+    "id": 409533,
+    "nome": "Causa e efeito |"
+  },
+  {
+    "id": 409534,
+    "nome": "Dados estatísticos |"
+  },
+  {
+    "id": 409535,
+    "nome": "Definição |"
+  },
+  {
+    "id": 409536,
+    "nome": "Testemunho de autoridade |"
+  },
+  {
+    "id": 409537,
+    "nome": "Contra-argumentação |"
+  },
+  {
+    "id": 409538,
+    "nome": "Pergunta retórica |"
+  },
+  {
+    "id": 409510,
+    "nome": "Operadores argumentativos |"
+  },
+  {
+    "id": 409539,
+    "nome": "Métodos de raciocínio ou métodos argumentativos |"
+  },
+  {
+    "id": 409540,
+    "nome": "Silogismo |"
+  },
+  {
+    "id": 409541,
+    "nome": "Método de raciocínio dedutivo |"
+  },
+  {
+    "id": 419186,
+    "nome": "Método de raciocínio categórico-dedutivo |"
+  },
+  {
+    "id": 409542,
+    "nome": "Método de raciocínio indutivo |"
+  },
+  {
+    "id": 409543,
+    "nome": "Método de raciocínio dialético |"
+  },
+  {
+    "id": 409544,
+    "nome": "Falácia |"
+  },
+  {
+    "id": 419187,
+    "nome": "Vícios de raciocínio e de argumentação |"
+  },
+  {
+    "id": 419188,
+    "nome": "Tautologia |"
+  },
+  {
+    "id": 419189,
+    "nome": "Generalização falsa |"
+  },
+  {
+    "id": 419190,
+    "nome": "Conclusão não decorrente |"
+  },
+  {
+    "id": 419191,
+    "nome": "Analogia improcedente |"
+  },
+  {
+    "id": 419192,
+    "nome": "Ausência de conclusão |"
+  },
+  {
+    "id": 419193,
+    "nome": "Sofisma |"
+  },
+  {
+    "id": 419194,
+    "nome": "Erro indutivo |"
+  },
+  {
+    "id": 419195,
+    "nome": "Falácia |"
+  },
+  {
+    "id": 419196,
+    "nome": "Argumentação superficial |"
+  },
+  {
+    "id": 419197,
+    "nome": "Argumentação frágil |"
+  },
+  {
+    "id": 419198,
+    "nome": "Argumentação de apelo à paixão |"
+  },
+  {
+    "id": 419199,
+    "nome": "A pós-verdade |"
+  },
+  {
+    "id": 409520,
+    "nome": "Texto Dissertativo-expositivo |"
+  },
+  {
+    "id": 419200,
+    "nome": "Gêneros textuais |"
+  },
+  {
+    "id": 419201,
+    "nome": "Anúncio |"
+  },
+  {
+    "id": 419202,
+    "nome": "Artigo científico |"
+  },
+  {
+    "id": 419203,
+    "nome": "Artigo de opinião |"
+  },
+  {
+    "id": 419204,
+    "nome": "Autobiografia |"
+  },
+  {
+    "id": 419205,
+    "nome": "Biografia |"
+  },
+  {
+    "id": 419207,
+    "nome": "Bula |"
+  },
+  {
+    "id": 419208,
+    "nome": "Carta |"
+  },
+  {
+    "id": 419209,
+    "nome": "Cartaz |"
+  },
+  {
+    "id": 419210,
+    "nome": "Charge |"
+  },
+  {
+    "id": 419211,
+    "nome": "Conto |"
+  },
+  {
+    "id": 419212,
+    "nome": "Crônica |"
+  },
+  {
+    "id": 419213,
+    "nome": "Diário |"
+  },
+  {
+    "id": 419214,
+    "nome": "Editorial |"
+  },
+  {
+    "id": 419216,
+    "nome": "Entrevista |"
+  },
+  {
+    "id": 419218,
+    "nome": "Glossário |"
+  },
+  {
+    "id": 419219,
+    "nome": "Infográfico |"
+  },
+  {
+    "id": 436307,
+    "nome": "Informativo |"
+  },
+  {
+    "id": 419220,
+    "nome": "Lenda |"
+  },
+  {
+    "id": 419221,
+    "nome": "Lista |"
+  },
+  {
+    "id": 419222,
+    "nome": "Manual |"
+  },
+  {
+    "id": 419224,
+    "nome": "Nota |"
+  },
+  {
+    "id": 419225,
+    "nome": "Notícia |"
+  },
+  {
+    "id": 419227,
+    "nome": "Peça teatral |"
+  },
+  {
+    "id": 419228,
+    "nome": "Propaganda |"
+  },
+  {
+    "id": 419229,
+    "nome": "Quadrinho |"
+  },
+  {
+    "id": 419230,
+    "nome": "Receita |"
+  },
+  {
+    "id": 419231,
+    "nome": "Relato |"
+  },
+  {
+    "id": 419232,
+    "nome": "Reportagem |"
+  },
+  {
+    "id": 419233,
+    "nome": "Romance |"
+  },
+  {
+    "id": 419234,
+    "nome": "Roteiro |"
+  },
+  {
+    "id": 419235,
+    "nome": "Sinopse |"
+  },
+  {
+    "id": 419236,
+    "nome": "Tabela |"
+  },
+  {
+    "id": 419237,
+    "nome": "Verbete |"
+  },
+  {
+    "id": 403711,
+    "nome": "Coesão e coerência |"
+  },
+  {
+    "id": 409551,
+    "nome": "Mecanismos de coesão textual |"
+  },
+  {
+    "id": 409552,
+    "nome": "Emprego dos elementos de referenciação (coesão referencial) |"
+  },
+  {
+    "id": 419238,
+    "nome": "Catáfora |"
+  },
+  {
+    "id": 419239,
+    "nome": "Anáfora |"
+  },
+  {
+    "id": 431233,
+    "nome": "Dêitico |"
+  },
+  {
+    "id": 409553,
+    "nome": "Emprego dos elementos de sequenciação (uso de conectivos) |"
+  },
+  {
+    "id": 409554,
+    "nome": "Continuidade (ou progressão) textual |"
+  },
+  {
+    "id": 419240,
+    "nome": "Emprego dos elementos de repetição |"
+  },
+  {
+    "id": 409555,
+    "nome": "Coerência |"
+  },
+  {
+    "id": 409556,
+    "nome": "Fatores de coerência |"
+  },
+  {
+    "id": 409557,
+    "nome": "Coerência narrativa |"
+  },
+  {
+    "id": 409558,
+    "nome": "Coerência argumentativa |"
+  },
+  {
+    "id": 409559,
+    "nome": "Coerência figurativa |"
+  },
+  {
+    "id": 409560,
+    "nome": "Coerência temporal |"
+  },
+  {
+    "id": 409561,
+    "nome": "Coerência de registro |"
+  },
+  {
+    "id": 419241,
+    "nome": "Não contradição |"
+  },
+  {
+    "id": 409590,
+    "nome": "Leitura e escrita de textos |"
+  },
+  {
+    "id": 409591,
+    "nome": "A leitura do texto escrito |"
+  },
+  {
+    "id": 419242,
+    "nome": "Níveis de leitura |"
+  },
+  {
+    "id": 419247,
+    "nome": "Análise vocabular |"
+  },
+  {
+    "id": 419248,
+    "nome": "Técnicas de leitura |"
+  },
+  {
+    "id": 419249,
+    "nome": "Texto e Redação |"
+  },
+  {
+    "id": 419250,
+    "nome": "Qualidades do texto (escrito e oral) |"
+  },
+  {
+    "id": 419251,
+    "nome": "Adequação vocabular (propriedade vocabular) |"
+  },
+  {
+    "id": 419252,
+    "nome": "Relevância |"
+  },
+  {
+    "id": 419253,
+    "nome": "Harmonia |"
+  },
+  {
+    "id": 419254,
+    "nome": "Concisão |"
+  },
+  {
+    "id": 409563,
+    "nome": "Clareza |"
+  },
+  {
+    "id": 419255,
+    "nome": "Correção |"
+  },
+  {
+    "id": 419256,
+    "nome": "Objetividade |"
+  },
+  {
+    "id": 419257,
+    "nome": "Domínio do tema |"
+  },
+  {
+    "id": 419259,
+    "nome": "Defeitos do texto (escrito e oral) |"
+  },
+  {
+    "id": 419260,
+    "nome": "Linguagem rebuscada |"
+  },
+  {
+    "id": 419261,
+    "nome": "Verbosidade, verborragia, verborreia, logorreia |"
+  },
+  {
+    "id": 419263,
+    "nome": "Uso exagerado de clichês |"
+  },
+  {
+    "id": 419264,
+    "nome": "Pensamento superficial |"
+  },
+  {
+    "id": 403712,
+    "nome": "Reescrita de frases e parágrafos do texto |"
+  },
+  {
+    "id": 403713,
+    "nome": "Equivalência, substituição, reorganização e transformação de palavras ou trechos do texto |"
+  },
+  {
+    "id": 419265,
+    "nome": "Mudança de posição/ordem (deslocamento) |"
+  },
+  {
+    "id": 419266,
+    "nome": "Equivalência e substituição de palavras, locuções, expressões e trechos. |"
+  },
+  {
+    "id": 409567,
+    "nome": "Substituição de verbos por advérbios e vice-versa |"
+  },
+  {
+    "id": 409568,
+    "nome": "Uso de sinônimos |"
+  },
+  {
+    "id": 409569,
+    "nome": "Substituição de substantivos por pronomes |"
+  },
+  {
+    "id": 409570,
+    "nome": "Nominalização |"
+  },
+  {
+    "id": 409571,
+    "nome": "Transformação de oração reduzida em desenvolvida e vice-versa |"
+  },
+  {
+    "id": 409572,
+    "nome": "Substituição de pronome relativo por outro |"
+  },
+  {
+    "id": 409573,
+    "nome": "Substituição de pronome demonstrativo por outro |"
+  },
+  {
+    "id": 409574,
+    "nome": "Possibilidades de paralelismo |"
+  },
+  {
+    "id": 409575,
+    "nome": "Relação de causa e consequência |"
+  },
+  {
+    "id": 409564,
+    "nome": "Reorganização e reescrita de orações e períodos |"
+  },
+  {
+    "id": 419267,
+    "nome": "Reescrita e reorganização de textos de diferentes gêneros e níveis de formalidade |"
+  },
+  {
+    "id": 419268,
+    "nome": "Estilística |"
+  },
+  {
+    "id": 419269,
+    "nome": "A noção de estilo |"
+  },
+  {
+    "id": 419270,
+    "nome": "Estilo de época |"
+  },
+  {
+    "id": 419271,
+    "nome": "Estilo individual |"
+  },
+  {
+    "id": 419272,
+    "nome": "Estilística da expressão linguística |"
+  },
+  {
+    "id": 419273,
+    "nome": "Estilística literária |"
+  },
+  {
+    "id": 419274,
+    "nome": "Estilística funcional e estrutural |"
+  },
+  {
+    "id": 403709,
+    "nome": "Figuras e Vícios de Linguagem |"
+  },
+  {
+    "id": 409484,
+    "nome": "Figuras de linguagem |"
+  },
+  {
+    "id": 409485,
+    "nome": "Figuras de palavras |"
+  },
+  {
+    "id": 419275,
+    "nome": "Metáfora |"
+  },
+  {
+    "id": 419276,
+    "nome": "Comparação |"
+  },
+  {
+    "id": 419277,
+    "nome": "Metonímia |"
+  },
+  {
+    "id": 419278,
+    "nome": "Catacrese |"
+  },
+  {
+    "id": 419279,
+    "nome": "Perífrase |"
+  },
+  {
+    "id": 419280,
+    "nome": "Sinestesia |"
+  },
+  {
+    "id": 409486,
+    "nome": "Figuras de pensamento |"
+  },
+  {
+    "id": 419281,
+    "nome": "Antítese |"
+  },
+  {
+    "id": 419282,
+    "nome": "Oximoro |"
+  },
+  {
+    "id": 419283,
+    "nome": "Hipérbole |"
+  },
+  {
+    "id": 419284,
+    "nome": "Gradação |"
+  },
+  {
+    "id": 419285,
+    "nome": "Eufemismo |"
+  },
+  {
+    "id": 419286,
+    "nome": "Ironia |"
+  },
+  {
+    "id": 419287,
+    "nome": "Prosopopeia (personificação) |"
+  },
+  {
+    "id": 409487,
+    "nome": "Figuras de construção ou de sintaxe |"
+  },
+  {
+    "id": 419288,
+    "nome": "Hipérbato |"
+  },
+  {
+    "id": 419289,
+    "nome": "Pleonasmo |"
+  },
+  {
+    "id": 419290,
+    "nome": "Anacoluto |"
+  },
+  {
+    "id": 419291,
+    "nome": "Elipse |"
+  },
+  {
+    "id": 419292,
+    "nome": "Zeugma |"
+  },
+  {
+    "id": 419293,
+    "nome": "Assíndeto |"
+  },
+  {
+    "id": 419294,
+    "nome": "Polissíndeto |"
+  },
+  {
+    "id": 419295,
+    "nome": "Anáfora |"
+  },
+  {
+    "id": 419296,
+    "nome": "Figuras fônicas (de som) |"
+  },
+  {
+    "id": 419297,
+    "nome": "Aliteração |"
+  },
+  {
+    "id": 419298,
+    "nome": "Assonância |"
+  },
+  {
+    "id": 419299,
+    "nome": "Paranomásia |"
+  },
+  {
+    "id": 419300,
+    "nome": "Onomatopeia |"
+  },
+  {
+    "id": 419301,
+    "nome": "Paralelismo (figura fônica) |"
+  },
+  {
+    "id": 403710,
+    "nome": "Vícios da linguagem |"
+  },
+  {
+    "id": 409488,
+    "nome": "Ambiguidade |"
+  },
+  {
+    "id": 409489,
+    "nome": "Barbarismo |"
+  },
+  {
+    "id": 409490,
+    "nome": "Cacofonia |"
+  },
+  {
+    "id": 409491,
+    "nome": "Pleonasmo vicioso |"
+  },
+  {
+    "id": 409492,
+    "nome": "Estrangeirismo |"
+  },
+  {
+    "id": 409493,
+    "nome": "Solecismo |"
+  },
+  {
+    "id": 409494,
+    "nome": "Colisão |"
+  },
+  {
+    "id": 409495,
+    "nome": "Arcaísmo |"
+  },
+  {
+    "id": 409496,
+    "nome": "Paraquema |"
+  },
+  {
+    "id": 409497,
+    "nome": "Eco |"
+  },
+  {
+    "id": 409498,
+    "nome": "Hiato |"
+  },
+  {
+    "id": 409499,
+    "nome": "Preciosismo |"
+  },
+  {
+    "id": 409500,
+    "nome": "Plebeísmo |"
+  },
+  {
+    "id": 409501,
+    "nome": "Redundância |"
+  },
+  {
+    "id": 409502,
+    "nome": "Prolixidade |"
+  },
+  {
+    "id": 409314,
+    "nome": "Semântica (significação das palavras) |"
+  },
+  {
+    "id": 409315,
+    "nome": "Acepções de uma palavra |"
+  },
+  {
+    "id": 409316,
+    "nome": "Significado dos Morfemas (radicais, afixos, prefixos) |"
+  },
+  {
+    "id": 409317,
+    "nome": "Polissemia |"
+  },
+  {
+    "id": 409318,
+    "nome": "Relações de significação entre as palavras |"
+  },
+  {
+    "id": 403704,
+    "nome": "Relações de sinonímia e antonímia (sinônimos e antônimos) |"
+  },
+  {
+    "id": 419302,
+    "nome": "Sinônimos |"
+  },
+  {
+    "id": 419303,
+    "nome": "Antônimos |"
+  },
+  {
+    "id": 409319,
+    "nome": "Hiperônimos e Hipônimos |"
+  },
+  {
+    "id": 409320,
+    "nome": "Campo lexical e campo semântico |"
+  },
+  {
+    "id": 419304,
+    "nome": "Campo lexical |"
+  },
+  {
+    "id": 419305,
+    "nome": "Campo semântico |"
+  },
+  {
+    "id": 419306,
+    "nome": "Topônimos |"
+  },
+  {
+    "id": 409321,
+    "nome": "Antropônimos |"
+  },
+  {
+    "id": 409322,
+    "nome": "Relações gráficas e sonoras entre as palavras |"
+  },
+  {
+    "id": 403615,
+    "nome": "Homônimos |"
+  },
+  {
+    "id": 409323,
+    "nome": "Parônimos |"
+  },
+  {
+    "id": 409324,
+    "nome": "Homografia |"
+  },
+  {
+    "id": 409326,
+    "nome": "Homofonia |"
+  },
+  {
+    "id": 419307,
+    "nome": "Função textual dos vocábulos |"
+  },
+  {
+    "id": 431234,
+    "nome": "Dicionários |"
+  },
+  {
+    "id": 431236,
+    "nome": "Organização de verbetes |"
+  },
+  {
+    "id": 403613,
+    "nome": "Ortografia oficial e acentuação gráfica |"
+  },
+  {
+    "id": 403604,
+    "nome": "Fonologia |"
+  },
+  {
+    "id": 403605,
+    "nome": "Conceito e classificação dos fonemas |"
+  },
+  {
+    "id": 409019,
+    "nome": "Consoantes |"
+  },
+  {
+    "id": 409017,
+    "nome": "Vogais |"
+  },
+  {
+    "id": 409018,
+    "nome": "Semivogais |"
+  },
+  {
+    "id": 403609,
+    "nome": "Agrupamento fonológico |"
+  },
+  {
+    "id": 419309,
+    "nome": "Ditongo |"
+  },
+  {
+    "id": 419310,
+    "nome": "Tritongo |"
+  },
+  {
+    "id": 419311,
+    "nome": "Hiato |"
+  },
+  {
+    "id": 419312,
+    "nome": "Encontro consonantal e grupo consonantal |"
+  },
+  {
+    "id": 419313,
+    "nome": "Dígrafo |"
+  },
+  {
+    "id": 419314,
+    "nome": "Sílaba |"
+  },
+  {
+    "id": 403607,
+    "nome": "Divisão Silábica |"
+  },
+  {
+    "id": 409027,
+    "nome": "Monossílabos |"
+  },
+  {
+    "id": 409028,
+    "nome": "Dissílabos |"
+  },
+  {
+    "id": 419315,
+    "nome": "Trissílabos |"
+  },
+  {
+    "id": 419316,
+    "nome": "Polissílabo |"
+  },
+  {
+    "id": 419317,
+    "nome": "Separação silábica (translineação) |"
+  },
+  {
+    "id": 409022,
+    "nome": "Tonicidade |"
+  },
+  {
+    "id": 419318,
+    "nome": "Átono |"
+  },
+  {
+    "id": 409029,
+    "nome": "Tônico |"
+  },
+  {
+    "id": 403611,
+    "nome": "Classificação das palavras quanto à posição da sílaba tônica |"
+  },
+  {
+    "id": 409032,
+    "nome": "Oxítonas |"
+  },
+  {
+    "id": 409033,
+    "nome": "Paroxítonas |"
+  },
+  {
+    "id": 409034,
+    "nome": "Proparoxítonas |"
+  },
+  {
+    "id": 409036,
+    "nome": "Vocábulos rizotônicos e vocábulos arrizotônicos |"
+  },
+  {
+    "id": 409039,
+    "nome": "Ortoépia e Prosódia |"
+  },
+  {
+    "id": 409040,
+    "nome": "Ortoépia |"
+  },
+  {
+    "id": 419319,
+    "nome": "O timbre das vogais |"
+  },
+  {
+    "id": 419320,
+    "nome": "A pronúncia das consoantes |"
+  },
+  {
+    "id": 409041,
+    "nome": "Prosódia |"
+  },
+  {
+    "id": 419321,
+    "nome": "Ortografia |"
+  },
+  {
+    "id": 403614,
+    "nome": "Relação letra-fonema |"
+  },
+  {
+    "id": 409042,
+    "nome": "Alfabeto português |"
+  },
+  {
+    "id": 409043,
+    "nome": "Emprego das letras K, W e Y |"
+  },
+  {
+    "id": 409044,
+    "nome": "Emprego da letra H |"
+  },
+  {
+    "id": 409045,
+    "nome": "Emprego das letras E, I, O, U |"
+  },
+  {
+    "id": 409046,
+    "nome": "Emprego das letras G e J |"
+  },
+  {
+    "id": 409047,
+    "nome": "Representação do fonema /s/ |"
+  },
+  {
+    "id": 409048,
+    "nome": "Emprego de letra S com som de Z |"
+  },
+  {
+    "id": 409049,
+    "nome": "Emprego da letra Z |"
+  },
+  {
+    "id": 409050,
+    "nome": "Emprego das letras S ou Z |"
+  },
+  {
+    "id": 409051,
+    "nome": "Emprego da letra X |"
+  },
+  {
+    "id": 409052,
+    "nome": "Emprego do dígrafo CH |"
+  },
+  {
+    "id": 409053,
+    "nome": "Emprego do dígrafo SS |"
+  },
+  {
+    "id": 409054,
+    "nome": "Emprego do dígrafo SC |"
+  },
+  {
+    "id": 409055,
+    "nome": "Consoantes dobradas |"
+  },
+  {
+    "id": 409056,
+    "nome": "Emprego das iniciais maiúsculas e minúsculas |"
+  },
+  {
+    "id": 409057,
+    "nome": "Emprego da letra Ç |"
+  },
+  {
+    "id": 409058,
+    "nome": "Emprego das letras U e L |"
+  },
+  {
+    "id": 409059,
+    "nome": "Emprego da letra C |"
+  },
+  {
+    "id": 425393,
+    "nome": "Grafia correta das palavras |"
+  },
+  {
+    "id": 419322,
+    "nome": "Grafia dos nomes próprios |"
+  },
+  {
+    "id": 419323,
+    "nome": "Reduções gráficas |"
+  },
+  {
+    "id": 409071,
+    "nome": "Abreviações |"
+  },
+  {
+    "id": 409097,
+    "nome": "Abreviaturas |"
+  },
+  {
+    "id": 419324,
+    "nome": "Siglas |"
+  },
+  {
+    "id": 419325,
+    "nome": "Símbolos |"
+  },
+  {
+    "id": 409070,
+    "nome": "Sinais diacríticos (notações léxicas) |"
+  },
+  {
+    "id": 419326,
+    "nome": "Acentos |"
+  },
+  {
+    "id": 419327,
+    "nome": "Agudo |"
+  },
+  {
+    "id": 419328,
+    "nome": "Grave |"
+  },
+  {
+    "id": 419329,
+    "nome": "Trema |"
+  },
+  {
+    "id": 419330,
+    "nome": "Til |"
+  },
+  {
+    "id": 419331,
+    "nome": "Cedilha |"
+  },
+  {
+    "id": 419332,
+    "nome": "Apóstrofo |"
+  },
+  {
+    "id": 403616,
+    "nome": "Hífen |"
+  },
+  {
+    "id": 425389,
+    "nome": "O hífen na colocação pronominal |"
+  },
+  {
+    "id": 425390,
+    "nome": "O hífen na divisão silábica e na translineação |"
+  },
+  {
+    "id": 425391,
+    "nome": "O hífen em encadeamentos vocabulares |"
+  },
+  {
+    "id": 425392,
+    "nome": "O hífen nos processos de formação das palavras |"
+  },
+  {
+    "id": 403612,
+    "nome": "Acentuação gráfica |"
+  },
+  {
+    "id": 409060,
+    "nome": "Regras de acentuação |"
+  },
+  {
+    "id": 409061,
+    "nome": "Acentuação de vocábulos proparoxítonos |"
+  },
+  {
+    "id": 409062,
+    "nome": "Acentuação de vocábulos paroxítonos |"
+  },
+  {
+    "id": 409063,
+    "nome": "Acentuação de vocábulos oxítonos |"
+  },
+  {
+    "id": 409064,
+    "nome": "Acentuação dos monossílabos |"
+  },
+  {
+    "id": 409065,
+    "nome": "Acentuação dos ditongos |"
+  },
+  {
+    "id": 409066,
+    "nome": "Acentuação dos hiatos |"
+  },
+  {
+    "id": 409067,
+    "nome": "Os grupos GUE, GUI, QUE, QUI |"
+  },
+  {
+    "id": 409068,
+    "nome": "Acento diferencial |"
+  },
+  {
+    "id": 409069,
+    "nome": "Acento grave |"
+  },
+  {
+    "id": 403617,
+    "nome": "Morfologia |"
+  },
+  {
+    "id": 425383,
+    "nome": "Análise Morfológica |"
+  },
+  {
+    "id": 403618,
+    "nome": "Estrutura das Palavras |"
+  },
+  {
+    "id": 409072,
+    "nome": "Raiz |"
+  },
+  {
+    "id": 409073,
+    "nome": "Radical |"
+  },
+  {
+    "id": 409074,
+    "nome": "Radicais gregos e radicais latinos |"
+  },
+  {
+    "id": 409075,
+    "nome": "Tema |"
+  },
+  {
+    "id": 409076,
+    "nome": "Afixos |"
+  },
+  {
+    "id": 409107,
+    "nome": "Prefixos |"
+  },
+  {
+    "id": 419333,
+    "nome": "Valores semânticos dos prefixos |"
+  },
+  {
+    "id": 409106,
+    "nome": "Sufixos |"
+  },
+  {
+    "id": 419334,
+    "nome": "Valores semânticos dos sufixos |"
+  },
+  {
+    "id": 409077,
+    "nome": "Desinências |"
+  },
+  {
+    "id": 409078,
+    "nome": "Desinência nominal |"
+  },
+  {
+    "id": 409079,
+    "nome": "Desinência verbal |"
+  },
+  {
+    "id": 409080,
+    "nome": "Tema e Vogal temática |"
+  },
+  {
+    "id": 409081,
+    "nome": "Vogal temática nominal |"
+  },
+  {
+    "id": 409082,
+    "nome": "Vogal temática verbal |"
+  },
+  {
+    "id": 409083,
+    "nome": "Vogais e consoantes de ligação |"
+  },
+  {
+    "id": 409084,
+    "nome": "Cognatos |"
+  },
+  {
+    "id": 409085,
+    "nome": "Palavras primitivas e derivadas |"
+  },
+  {
+    "id": 409086,
+    "nome": "Palavras simples e compostas |"
+  },
+  {
+    "id": 403619,
+    "nome": "Formação das Palavras |"
+  },
+  {
+    "id": 409087,
+    "nome": "Derivação |"
+  },
+  {
+    "id": 409088,
+    "nome": "Derivação prefixal |"
+  },
+  {
+    "id": 409089,
+    "nome": "Derivação sufixal |"
+  },
+  {
+    "id": 409090,
+    "nome": "Derivação parassintética (circunfixação) |"
+  },
+  {
+    "id": 409091,
+    "nome": "Derivação regressiva (regressão) |"
+  },
+  {
+    "id": 409092,
+    "nome": "Derivação imprópria (conversão) |"
+  },
+  {
+    "id": 409093,
+    "nome": "Composição |"
+  },
+  {
+    "id": 409094,
+    "nome": "Composição por justaposição |"
+  },
+  {
+    "id": 409096,
+    "nome": "Composição por aglutinação |"
+  },
+  {
+    "id": 409098,
+    "nome": "Onomatopeias |"
+  },
+  {
+    "id": 409099,
+    "nome": "Hibridismos |"
+  },
+  {
+    "id": 409100,
+    "nome": "Neologismo |"
+  },
+  {
+    "id": 409101,
+    "nome": "Neologismo mórfico |"
+  },
+  {
+    "id": 409102,
+    "nome": "Neologismo semântico |"
+  },
+  {
+    "id": 409103,
+    "nome": "Estrangeirismos |"
+  },
+  {
+    "id": 419336,
+    "nome": "Classes de palavras (classes gramaticais) |"
+  },
+  {
+    "id": 425382,
+    "nome": "Características Gerais |"
+  },
+  {
+    "id": 403622,
+    "nome": "Substantivos |"
+  },
+  {
+    "id": 409108,
+    "nome": "Classificação dos substantivos |"
+  },
+  {
+    "id": 419345,
+    "nome": "Quanto à estrutura e formação |"
+  },
+  {
+    "id": 409111,
+    "nome": "Substantivo simples e composto |"
+  },
+  {
+    "id": 409112,
+    "nome": "Substantivo primitivo e derivado |"
+  },
+  {
+    "id": 419346,
+    "nome": "Quanto à extensão ou abrangência |"
+  },
+  {
+    "id": 409109,
+    "nome": "Substantivo próprio e comum |"
+  },
+  {
+    "id": 409110,
+    "nome": "Substantivo concreto e abstrato |"
+  },
+  {
+    "id": 409113,
+    "nome": "Substantivo coletivo |"
+  },
+  {
+    "id": 409117,
+    "nome": "Flexão do substantivo |"
+  },
+  {
+    "id": 409118,
+    "nome": "Flexão de gênero |"
+  },
+  {
+    "id": 409119,
+    "nome": "Substantivo masculino ou feminino |"
+  },
+  {
+    "id": 419347,
+    "nome": "Substantivo biforme |"
+  },
+  {
+    "id": 409120,
+    "nome": "Substantivo uniforme |"
+  },
+  {
+    "id": 409121,
+    "nome": "Gênero e significado |"
+  },
+  {
+    "id": 409122,
+    "nome": "Substantivos que oferecem dúvidas quanto ao gênero |"
+  },
+  {
+    "id": 409114,
+    "nome": "Substantivo epiceno |"
+  },
+  {
+    "id": 409115,
+    "nome": "Substantivo sobrecomum |"
+  },
+  {
+    "id": 409116,
+    "nome": "Substantivo comum de dois gêneros |"
+  },
+  {
+    "id": 409123,
+    "nome": "Flexão de número |"
+  },
+  {
+    "id": 409124,
+    "nome": "Formação do plural |"
+  },
+  {
+    "id": 409125,
+    "nome": "Plural dos substantivos compostos |"
+  },
+  {
+    "id": 409126,
+    "nome": "Plural de siglas |"
+  },
+  {
+    "id": 409127,
+    "nome": "Pluralia tantum (substantivos usados apenas no plural) |"
+  },
+  {
+    "id": 419358,
+    "nome": "Plural com metafonia (plural metafônico) |"
+  },
+  {
+    "id": 419359,
+    "nome": "Plural de nomes próprios |"
+  },
+  {
+    "id": 419360,
+    "nome": "Plural de etnônimos |"
+  },
+  {
+    "id": 409129,
+    "nome": "Grau do substantivo |"
+  },
+  {
+    "id": 409136,
+    "nome": "Grau aumentativo analítico |"
+  },
+  {
+    "id": 419361,
+    "nome": "Grau aumentativo sintético |"
+  },
+  {
+    "id": 425394,
+    "nome": "Grau diminutivo analítico |"
+  },
+  {
+    "id": 425395,
+    "nome": "Grau diminutivo sintético |"
+  },
+  {
+    "id": 403623,
+    "nome": "Adjetivos |"
+  },
+  {
+    "id": 409137,
+    "nome": "Classificação dos adjetivos |"
+  },
+  {
+    "id": 409138,
+    "nome": "Adjetivo primitivo e derivado |"
+  },
+  {
+    "id": 409139,
+    "nome": "Adjetivo simples e composto |"
+  },
+  {
+    "id": 409140,
+    "nome": "Adjetivo explicativo e restritivo |"
+  },
+  {
+    "id": 409141,
+    "nome": "Adjetivo pátrio |"
+  },
+  {
+    "id": 419362,
+    "nome": "Adjetivo gentílico |"
+  },
+  {
+    "id": 409142,
+    "nome": "Locução adjetiva |"
+  },
+  {
+    "id": 409143,
+    "nome": "Flexão do adjetivo |"
+  },
+  {
+    "id": 409144,
+    "nome": "Flexão de gênero |"
+  },
+  {
+    "id": 409145,
+    "nome": "Adjetivo uniforme |"
+  },
+  {
+    "id": 409146,
+    "nome": "Adjetivo biforme |"
+  },
+  {
+    "id": 409147,
+    "nome": "Flexão de número |"
+  },
+  {
+    "id": 409148,
+    "nome": "Adjetivo simples |"
+  },
+  {
+    "id": 409149,
+    "nome": "Adjetivo composto |"
+  },
+  {
+    "id": 409150,
+    "nome": "Grau do adjetivo |"
+  },
+  {
+    "id": 409151,
+    "nome": "Grau comparativo |"
+  },
+  {
+    "id": 409152,
+    "nome": "Grau superlativo |"
+  },
+  {
+    "id": 403620,
+    "nome": "Artigos |"
+  },
+  {
+    "id": 409154,
+    "nome": "Caracterização do artigo |"
+  },
+  {
+    "id": 409155,
+    "nome": "Artigo definido |"
+  },
+  {
+    "id": 409157,
+    "nome": "Artigo indefinido |"
+  },
+  {
+    "id": 419363,
+    "nome": "Valor semântico da ausência de artigo |"
+  },
+  {
+    "id": 403621,
+    "nome": "Numerais |"
+  },
+  {
+    "id": 409159,
+    "nome": "Classificação do numeral |"
+  },
+  {
+    "id": 419364,
+    "nome": "Cardinais |"
+  },
+  {
+    "id": 419365,
+    "nome": "Ordinais |"
+  },
+  {
+    "id": 419366,
+    "nome": "Fracionários |"
+  },
+  {
+    "id": 419367,
+    "nome": "Multiplicativos |"
+  },
+  {
+    "id": 409160,
+    "nome": "Flexão do numeral |"
+  },
+  {
+    "id": 409161,
+    "nome": "Emprego do numeral |"
+  },
+  {
+    "id": 403641,
+    "nome": "Pronomes |"
+  },
+  {
+    "id": 409166,
+    "nome": "Pronome pessoal |"
+  },
+  {
+    "id": 409170,
+    "nome": "Caracterização |"
+  },
+  {
+    "id": 403642,
+    "nome": "Pronomes pessoais retos |"
+  },
+  {
+    "id": 409171,
+    "nome": "Emprego do pronome pessoal |"
+  },
+  {
+    "id": 403643,
+    "nome": "Pronomes pessoais oblíquos |"
+  },
+  {
+    "id": 403644,
+    "nome": "Pronome pessoais de tratamento |"
+  },
+  {
+    "id": 403645,
+    "nome": "Pronomes possessivos |"
+  },
+  {
+    "id": 409173,
+    "nome": "Emprego do pronome possessivo |"
+  },
+  {
+    "id": 403646,
+    "nome": "Pronomes demonstrativos |"
+  },
+  {
+    "id": 409174,
+    "nome": "Caracterização |"
+  },
+  {
+    "id": 409175,
+    "nome": "Emprego do pronome demonstrativo |"
+  },
+  {
+    "id": 403647,
+    "nome": "Pronomes relativos |"
+  },
+  {
+    "id": 409182,
+    "nome": "Caracterização |"
+  },
+  {
+    "id": 409183,
+    "nome": "Emprego do pronome relativo |"
+  },
+  {
+    "id": 403648,
+    "nome": "Pronomes indefinidos |"
+  },
+  {
+    "id": 409178,
+    "nome": "Caracterização |"
+  },
+  {
+    "id": 409179,
+    "nome": "Emprego do pronome indefinido |"
+  },
+  {
+    "id": 403649,
+    "nome": "Pronomes interrogativos |"
+  },
+  {
+    "id": 409181,
+    "nome": "Emprego do pronome interrogativo |"
+  },
+  {
+    "id": 403628,
+    "nome": "Verbos |"
+  },
+  {
+    "id": 403629,
+    "nome": "Elementos estruturais do verbo |"
+  },
+  {
+    "id": 419368,
+    "nome": "Radical |"
+  },
+  {
+    "id": 419369,
+    "nome": "Vogal temática e conjugações |"
+  },
+  {
+    "id": 419370,
+    "nome": "Desinência modo-temporal |"
+  },
+  {
+    "id": 419371,
+    "nome": "Desinência número-pessoal |"
+  },
+  {
+    "id": 409189,
+    "nome": "Flexões verbais |"
+  },
+  {
+    "id": 403632,
+    "nome": "Flexão verbal de número (singular, plural) |"
+  },
+  {
+    "id": 403633,
+    "nome": "Flexão verbal de pessoa (1a, 2a, 3a pessoa) |"
+  },
+  {
+    "id": 403631,
+    "nome": "Flexão verbal de modo |"
+  },
+  {
+    "id": 419374,
+    "nome": "Emprego dos modos verbais |"
+  },
+  {
+    "id": 419375,
+    "nome": "Indicativo |"
+  },
+  {
+    "id": 419376,
+    "nome": "Subjuntivo |"
+  },
+  {
+    "id": 419377,
+    "nome": "Imperativo |"
+  },
+  {
+    "id": 403630,
+    "nome": "Flexão verbal de tempo |"
+  },
+  {
+    "id": 419378,
+    "nome": "Formação dos tempos verbais |"
+  },
+  {
+    "id": 419379,
+    "nome": "Formação dos tempos primitivos |"
+  },
+  {
+    "id": 419380,
+    "nome": "Formação dos tempos derivados |"
+  },
+  {
+    "id": 419381,
+    "nome": "Emprego dos tempos verbais |"
+  },
+  {
+    "id": 425388,
+    "nome": "Tempos compostos |"
+  },
+  {
+    "id": 403634,
+    "nome": "Flexão de voz (ativa, passiva, reflexiva) |"
+  },
+  {
+    "id": 409190,
+    "nome": "Voz ativa |"
+  },
+  {
+    "id": 409191,
+    "nome": "Voz passiva |"
+  },
+  {
+    "id": 409192,
+    "nome": "Voz passiva analítica |"
+  },
+  {
+    "id": 409193,
+    "nome": "Voz passiva sintética |"
+  },
+  {
+    "id": 409194,
+    "nome": "Voz reflexiva |"
+  },
+  {
+    "id": 409195,
+    "nome": "Conversão das vozes do verbo |"
+  },
+  {
+    "id": 409196,
+    "nome": "Passagem de voz ativa para voz passiva analítica |"
+  },
+  {
+    "id": 409197,
+    "nome": "Passagem de voz ativa para voz passiva sintética |"
+  },
+  {
+    "id": 409198,
+    "nome": "Passagem de voz passiva analítica para voz passiva sintética |"
+  },
+  {
+    "id": 409199,
+    "nome": "Passagem de voz passiva sintética para voz passiva analítica |"
+  },
+  {
+    "id": 403635,
+    "nome": "Formas nominais do verbo |"
+  },
+  {
+    "id": 419382,
+    "nome": "Infinitivo |"
+  },
+  {
+    "id": 419383,
+    "nome": "Gerúndio |"
+  },
+  {
+    "id": 419384,
+    "nome": "Particípio |"
+  },
+  {
+    "id": 403639,
+    "nome": "Locuções e perífrases verbais |"
+  },
+  {
+    "id": 409257,
+    "nome": "Correlação verbal (tempo e modo) |"
+  },
+  {
+    "id": 419395,
+    "nome": "Aspecto verbal |"
+  },
+  {
+    "id": 419396,
+    "nome": "Verbo vicário |"
+  },
+  {
+    "id": 419397,
+    "nome": "Verbo pronominal |"
+  },
+  {
+    "id": 425384,
+    "nome": "Verbos regulares |"
+  },
+  {
+    "id": 425385,
+    "nome": "Verbos irregulares |"
+  },
+  {
+    "id": 425386,
+    "nome": "Verbos anômalos |"
+  },
+  {
+    "id": 425387,
+    "nome": "Verbos defectivos |"
+  },
+  {
+    "id": 403624,
+    "nome": "Advérbios |"
+  },
+  {
+    "id": 409264,
+    "nome": "Classificação dos advérbios |"
+  },
+  {
+    "id": 409265,
+    "nome": "Advérbio de tempo |"
+  },
+  {
+    "id": 409266,
+    "nome": "Advérbio de modo |"
+  },
+  {
+    "id": 409267,
+    "nome": "Advérbio de negação |"
+  },
+  {
+    "id": 409268,
+    "nome": "Advérbio de afirmação |"
+  },
+  {
+    "id": 409269,
+    "nome": "Advérbio de dúvida |"
+  },
+  {
+    "id": 409270,
+    "nome": "Advérbio de lugar |"
+  },
+  {
+    "id": 409271,
+    "nome": "Advérbio de intensidade |"
+  },
+  {
+    "id": 409286,
+    "nome": "Advérbios interrogativos |"
+  },
+  {
+    "id": 419398,
+    "nome": "De lugar |"
+  },
+  {
+    "id": 419399,
+    "nome": "De tempo |"
+  },
+  {
+    "id": 419400,
+    "nome": "De modo |"
+  },
+  {
+    "id": 419401,
+    "nome": "De causa |"
+  },
+  {
+    "id": 409272,
+    "nome": "Demais classificações de advérbios |"
+  },
+  {
+    "id": 409273,
+    "nome": "Grau dos advérbios |"
+  },
+  {
+    "id": 409274,
+    "nome": "Comparativo |"
+  },
+  {
+    "id": 409287,
+    "nome": "Superlativo absoluto |"
+  },
+  {
+    "id": 409288,
+    "nome": "Diminutivo |"
+  },
+  {
+    "id": 409289,
+    "nome": "Locuções adverbiais |"
+  },
+  {
+    "id": 419402,
+    "nome": "Emprego dos advérbios |"
+  },
+  {
+    "id": 419403,
+    "nome": "Palavras e locuções denotativas |"
+  },
+  {
+    "id": 419404,
+    "nome": "Classificação das palavras denotativas |"
+  },
+  {
+    "id": 419405,
+    "nome": "Funções discursivas das palavras denotativas |"
+  },
+  {
+    "id": 403625,
+    "nome": "Preposição |"
+  },
+  {
+    "id": 409291,
+    "nome": "Classificação das preposições |"
+  },
+  {
+    "id": 409290,
+    "nome": "Valores semânticos das preposições |"
+  },
+  {
+    "id": 409292,
+    "nome": "Relações estabelecidas pelas preposições |"
+  },
+  {
+    "id": 409293,
+    "nome": "Locução prepositiva |"
+  },
+  {
+    "id": 409294,
+    "nome": "Combinação e contração |"
+  },
+  {
+    "id": 409295,
+    "nome": "Combinação |"
+  },
+  {
+    "id": 409296,
+    "nome": "Contração |"
+  },
+  {
+    "id": 403626,
+    "nome": "Conjunções |"
+  },
+  {
+    "id": 409303,
+    "nome": "Classificação das conjunções |"
+  },
+  {
+    "id": 409304,
+    "nome": "Conjunções coordenativas |"
+  },
+  {
+    "id": 409305,
+    "nome": "Conjunções coordenativas aditivas |"
+  },
+  {
+    "id": 409306,
+    "nome": "Conjunções coordenativas adversativas |"
+  },
+  {
+    "id": 409307,
+    "nome": "Conjunções coordenativas alternativas |"
+  },
+  {
+    "id": 409308,
+    "nome": "Conjunções coordenativas conclusivas |"
+  },
+  {
+    "id": 409309,
+    "nome": "Conjunções coordenativas explicativas |"
+  },
+  {
+    "id": 409310,
+    "nome": "Conjunções subordinativas |"
+  },
+  {
+    "id": 419406,
+    "nome": "Conjunções subordinativas integrantes |"
+  },
+  {
+    "id": 419407,
+    "nome": "Conjunções subordinativas causais |"
+  },
+  {
+    "id": 419408,
+    "nome": "Conjunções subordinativas comparativas |"
+  },
+  {
+    "id": 419409,
+    "nome": "Conjunções subordinativas concessivas |"
+  },
+  {
+    "id": 419410,
+    "nome": "Conjunções subordinativas condicionais |"
+  },
+  {
+    "id": 419411,
+    "nome": "Conjunções subordinativas consecutivas |"
+  },
+  {
+    "id": 419412,
+    "nome": "Conjunções subordinativas finais |"
+  },
+  {
+    "id": 419413,
+    "nome": "Conjunções subordinativas temporais |"
+  },
+  {
+    "id": 419414,
+    "nome": "Conjunções subordinativas proporcionais |"
+  },
+  {
+    "id": 419415,
+    "nome": "Conjunções subordinativas conformativas |"
+  },
+  {
+    "id": 409311,
+    "nome": "Locução conjuntiva |"
+  },
+  {
+    "id": 403627,
+    "nome": "Interjeições |"
+  },
+  {
+    "id": 409312,
+    "nome": "Classificação e emprego das interjeições |"
+  },
+  {
+    "id": 409313,
+    "nome": "Locução interjetiva |"
+  },
+  {
+    "id": 403651,
+    "nome": "Morfossintaxe do período |"
+  },
+  {
+    "id": 403652,
+    "nome": "Análise sintática |"
+  },
+  {
+    "id": 409333,
+    "nome": "Frase |"
+  },
+  {
+    "id": 409334,
+    "nome": "Frases nominais |"
+  },
+  {
+    "id": 409335,
+    "nome": "Frases verbais |"
+  },
+  {
+    "id": 409337,
+    "nome": "Oração |"
+  },
+  {
+    "id": 419416,
+    "nome": "Identificação do núcleo oracional |"
+  },
+  {
+    "id": 409398,
+    "nome": "Tipos de oração |"
+  },
+  {
+    "id": 409399,
+    "nome": "Oração absoluta |"
+  },
+  {
+    "id": 409400,
+    "nome": "Oração coordenada |"
+  },
+  {
+    "id": 409401,
+    "nome": "Oração subordinada |"
+  },
+  {
+    "id": 409402,
+    "nome": "Oração principal |"
+  },
+  {
+    "id": 419417,
+    "nome": "Oração intercalada |"
+  },
+  {
+    "id": 409339,
+    "nome": "Período |"
+  },
+  {
+    "id": 409395,
+    "nome": "Tipos de período |"
+  },
+  {
+    "id": 409396,
+    "nome": "Período simples |"
+  },
+  {
+    "id": 409397,
+    "nome": "Período composto |"
+  },
+  {
+    "id": 409340,
+    "nome": "Ordem dos termos da oração |"
+  },
+  {
+    "id": 409341,
+    "nome": "Ordem direta (canônica) |"
+  },
+  {
+    "id": 409342,
+    "nome": "Ordem indireta ou inversa |"
+  },
+  {
+    "id": 419418,
+    "nome": "Efeitos de sentidos decorrentes da mudança de ordem |"
+  },
+  {
+    "id": 403653,
+    "nome": "Termos essenciais da oração |"
+  },
+  {
+    "id": 409343,
+    "nome": "Sujeito |"
+  },
+  {
+    "id": 409344,
+    "nome": "Classificação do sujeito |"
+  },
+  {
+    "id": 409345,
+    "nome": "Sujeito simples |"
+  },
+  {
+    "id": 409346,
+    "nome": "Sujeito composto |"
+  },
+  {
+    "id": 409347,
+    "nome": "Sujeito oculto, elíptico ou desinencial |"
+  },
+  {
+    "id": 409348,
+    "nome": "Sujeito indeterminado |"
+  },
+  {
+    "id": 409349,
+    "nome": "Oração sem sujeito ou sujeito inexistente |"
+  },
+  {
+    "id": 409350,
+    "nome": "Sujeito oracional |"
+  },
+  {
+    "id": 409351,
+    "nome": "Sujeito acusativo |"
+  },
+  {
+    "id": 409352,
+    "nome": "Sujeito e agente da oração na voz passiva |"
+  },
+  {
+    "id": 409353,
+    "nome": "Predicado |"
+  },
+  {
+    "id": 409354,
+    "nome": "Classificação do predicado |"
+  },
+  {
+    "id": 409355,
+    "nome": "Predicado verbal |"
+  },
+  {
+    "id": 409356,
+    "nome": "Predicado nominal |"
+  },
+  {
+    "id": 409361,
+    "nome": "Verbos de ligação |"
+  },
+  {
+    "id": 409357,
+    "nome": "Predicado verbo-nominal |"
+  },
+  {
+    "id": 409358,
+    "nome": "Classificação dos verbos quanto à predicação (transitividade) |"
+  },
+  {
+    "id": 409359,
+    "nome": "Verbos intransitivos |"
+  },
+  {
+    "id": 409360,
+    "nome": "Verbos transitivos |"
+  },
+  {
+    "id": 409362,
+    "nome": "Verbo transitivo direto |"
+  },
+  {
+    "id": 419419,
+    "nome": "Verbo transitivo indireto |"
+  },
+  {
+    "id": 419420,
+    "nome": "Verbo transitivo direto e indireto |"
+  },
+  {
+    "id": 409363,
+    "nome": "Predicativo |"
+  },
+  {
+    "id": 409364,
+    "nome": "Predicativo do sujeito |"
+  },
+  {
+    "id": 409365,
+    "nome": "Predicativo do objeto |"
+  },
+  {
+    "id": 403654,
+    "nome": "Termos integrantes da oração |"
+  },
+  {
+    "id": 403655,
+    "nome": "Termos integrantes ligados ao verbo |"
+  },
+  {
+    "id": 409366,
+    "nome": "Complementos verbais |"
+  },
+  {
+    "id": 409367,
+    "nome": "Objeto direto |"
+  },
+  {
+    "id": 409368,
+    "nome": "Objeto direto preposicionado |"
+  },
+  {
+    "id": 409369,
+    "nome": "Objeto direto pleonástico |"
+  },
+  {
+    "id": 409370,
+    "nome": "Objeto indireto |"
+  },
+  {
+    "id": 409372,
+    "nome": "Agente da passiva |"
+  },
+  {
+    "id": 409373,
+    "nome": "Termo integrante ligado ao nome |"
+  },
+  {
+    "id": 409374,
+    "nome": "Complemento Nominal |"
+  },
+  {
+    "id": 409375,
+    "nome": "Complemento Nominal versus Objeto Indireto |"
+  },
+  {
+    "id": 419434,
+    "nome": "Complemento nominal versus adjunto adnominal |"
+  },
+  {
+    "id": 403656,
+    "nome": "Termos acessórios e independentes da oração |"
+  },
+  {
+    "id": 409376,
+    "nome": "Termos acessórios da oração |"
+  },
+  {
+    "id": 409377,
+    "nome": "Adjunto Adnominal |"
+  },
+  {
+    "id": 409378,
+    "nome": "Adjunto Adnominal versus Agente da passiva |"
+  },
+  {
+    "id": 409379,
+    "nome": "Adjunto Adnominal versus Complemento Nominal |"
+  },
+  {
+    "id": 409380,
+    "nome": "Adjunto Adnominal versus Predicativo do Sujeito e do Objeto |"
+  },
+  {
+    "id": 409381,
+    "nome": "Aposto |"
+  },
+  {
+    "id": 409382,
+    "nome": "Classificação do aposto |"
+  },
+  {
+    "id": 409383,
+    "nome": "Aposto explicativo |"
+  },
+  {
+    "id": 409384,
+    "nome": "Aposto especificador |"
+  },
+  {
+    "id": 409385,
+    "nome": "Aposto resumidor ou recapitulativo |"
+  },
+  {
+    "id": 409386,
+    "nome": "Aposto enumerativo |"
+  },
+  {
+    "id": 409387,
+    "nome": "Adjunto Adverbial |"
+  },
+  {
+    "id": 409389,
+    "nome": "Adjunto Adverbial versus Adjunto Adnominal |"
+  },
+  {
+    "id": 409390,
+    "nome": "Adjunto Adverbial versus Objeto Indireto |"
+  },
+  {
+    "id": 409391,
+    "nome": "Adjunto Adverbial versus Predicativo do Sujeito |"
+  },
+  {
+    "id": 419435,
+    "nome": "Adjunto adverbial versus agente da passiva |"
+  },
+  {
+    "id": 409392,
+    "nome": "Termo independente da oração |"
+  },
+  {
+    "id": 409393,
+    "nome": "Vocativo |"
+  },
+  {
+    "id": 419436,
+    "nome": "A sintaxe do período composto |"
+  },
+  {
+    "id": 409403,
+    "nome": "Período composto por coordenação |"
+  },
+  {
+    "id": 403659,
+    "nome": "Orações coordenadas assindéticas |"
+  },
+  {
+    "id": 409405,
+    "nome": "Orações coordenadas sindéticas |"
+  },
+  {
+    "id": 409406,
+    "nome": "Orações coordenadas aditivas |"
+  },
+  {
+    "id": 409407,
+    "nome": "Orações coordenadas adversativas |"
+  },
+  {
+    "id": 409408,
+    "nome": "Orações coordenadas alternativas |"
+  },
+  {
+    "id": 403661,
+    "nome": "Orações coordenadas conclusivas |"
+  },
+  {
+    "id": 409409,
+    "nome": "Orações coordenadas explicativas |"
+  },
+  {
+    "id": 409410,
+    "nome": "Período composto por subordinação |"
+  },
+  {
+    "id": 403662,
+    "nome": "Orações subordinadas adjetivas |"
+  },
+  {
+    "id": 409417,
+    "nome": "Orações subordinadas adjetivas restritivas |"
+  },
+  {
+    "id": 409418,
+    "nome": "Orações subordinadas adjetivas explicativas |"
+  },
+  {
+    "id": 403664,
+    "nome": "Orações subordinadas adverbiais |"
+  },
+  {
+    "id": 409419,
+    "nome": "Orações subordinadas adverbiais condicionais |"
+  },
+  {
+    "id": 409420,
+    "nome": "Orações subordinadas adverbiais causais |"
+  },
+  {
+    "id": 409421,
+    "nome": "Orações subordinadas adverbiais comparativas |"
+  },
+  {
+    "id": 409422,
+    "nome": "Orações subordinadas adverbiais conformativas |"
+  },
+  {
+    "id": 409423,
+    "nome": "Orações subordinadas adverbiais finais |"
+  },
+  {
+    "id": 409424,
+    "nome": "Orações subordinadas adverbiais consecutivas |"
+  },
+  {
+    "id": 409425,
+    "nome": "Orações subordinadas adverbiais proporcionais |"
+  },
+  {
+    "id": 409426,
+    "nome": "Orações subordinadas adverbiais temporais |"
+  },
+  {
+    "id": 409427,
+    "nome": "Orações subordinadas adverbiais concessivas |"
+  },
+  {
+    "id": 409428,
+    "nome": "Orações subordinadas adverbiais justapostas |"
+  },
+  {
+    "id": 419437,
+    "nome": "Orações subordinadas adverbiais modais |"
+  },
+  {
+    "id": 409416,
+    "nome": "Orações subordinadas substantivas |"
+  },
+  {
+    "id": 403663,
+    "nome": "Orações subordinadas substantivas subjetivas |"
+  },
+  {
+    "id": 409411,
+    "nome": "Orações subordinadas substantivas objetivas diretas |"
+  },
+  {
+    "id": 409412,
+    "nome": "Orações subordinadas substantivas objetivas indiretas |"
+  },
+  {
+    "id": 409413,
+    "nome": "Orações subordinadas substantivas completivas nominais |"
+  },
+  {
+    "id": 409414,
+    "nome": "Orações subordinadas substantivas predicativas |"
+  },
+  {
+    "id": 409415,
+    "nome": "Orações subordinadas substantivas apositivas |"
+  },
+  {
+    "id": 403665,
+    "nome": "Orações subordinadas reduzidas |"
+  },
+  {
+    "id": 419618,
+    "nome": "Orações reduzidas de infinitivo |"
+  },
+  {
+    "id": 419619,
+    "nome": "Orações reduzidas de gerúndio |"
+  },
+  {
+    "id": 419620,
+    "nome": "Orações reduzidas de particípio |"
+  },
+  {
+    "id": 409455,
+    "nome": "Concordância verbal e nominal (sintaxe de concordância) |"
+  },
+  {
+    "id": 403658,
+    "nome": "Concordância verbal |"
+  },
+  {
+    "id": 409467,
+    "nome": "Regras gerais |"
+  },
+  {
+    "id": 409470,
+    "nome": "Regras especiais |"
+  },
+  {
+    "id": 409478,
+    "nome": "Concordância ideológica (silepse) |"
+  },
+  {
+    "id": 409456,
+    "nome": "Concordância Nominal |"
+  },
+  {
+    "id": 409457,
+    "nome": "Regra geral |"
+  },
+  {
+    "id": 419438,
+    "nome": "Regras especiais |"
+  },
+  {
+    "id": 409479,
+    "nome": "Sintaxe de regência |"
+  },
+  {
+    "id": 403657,
+    "nome": "Regência verbal |"
+  },
+  {
+    "id": 409480,
+    "nome": "Casos especiais de regência verbal |"
+  },
+  {
+    "id": 409481,
+    "nome": "Verbos com mais de uma regência sem mudança de sentido |"
+  },
+  {
+    "id": 409482,
+    "nome": "Verbos com mais de uma regência com mudança de sentido |"
+  },
+  {
+    "id": 409483,
+    "nome": "Regência nominal |"
+  },
+  {
+    "id": 403682,
+    "nome": "Emprego do sinal indicativo de crase |"
+  },
+  {
+    "id": 409297,
+    "nome": "Definição de crase |"
+  },
+  {
+    "id": 409298,
+    "nome": "Regras práticas de ocorrência de crase |"
+  },
+  {
+    "id": 409299,
+    "nome": "Casos obrigatórios de crase |"
+  },
+  {
+    "id": 409300,
+    "nome": "Casos facultativos de crase |"
+  },
+  {
+    "id": 409301,
+    "nome": "Casos em que não há crase |"
+  },
+  {
+    "id": 409302,
+    "nome": "Casos especiais de crase |"
+  },
+  {
+    "id": 403650,
+    "nome": "Colocação Pronominal |"
+  },
+  {
+    "id": 409184,
+    "nome": "Colocação dos pronomes oblíquos átonos |"
+  },
+  {
+    "id": 409185,
+    "nome": "Fatores de próclise |"
+  },
+  {
+    "id": 409186,
+    "nome": "Fatores de mesóclise |"
+  },
+  {
+    "id": 419439,
+    "nome": "Fatores de ênclise |"
+  },
+  {
+    "id": 409187,
+    "nome": "Colocação dos pronomes oblíquos átonos em locuções verbais |"
+  },
+  {
+    "id": 409188,
+    "nome": "Colocação dos pronomes oblíquos átonos nos tempos compostos |"
+  },
+  {
+    "id": 403677,
+    "nome": "Funções morfossintáticas da palavra QUE |"
+  },
+  {
+    "id": 409449,
+    "nome": "Classes morfológicas da palavra \"que\" |"
+  },
+  {
+    "id": 409450,
+    "nome": "Funções sintáticas da palavra \"que\" |"
+  },
+  {
+    "id": 403676,
+    "nome": "Funções morfossintáticas da palavra SE |"
+  },
+  {
+    "id": 409451,
+    "nome": "Classes morfológicas da palavra \"se\" |"
+  },
+  {
+    "id": 409452,
+    "nome": "Funções sintáticas da palavra \"se\" |"
+  },
+  {
+    "id": 421062,
+    "nome": "Funções morfossintáticas da palavra COMO |"
+  },
+  {
+    "id": 421064,
+    "nome": "Classes morfológicas da palavra \"como\" |"
+  },
+  {
+    "id": 421065,
+    "nome": "Funções sintáticas da palavra \"como\" |"
+  },
+  {
+    "id": 421063,
+    "nome": "Funções morfossintáticas da palavra MESMO |"
+  },
+  {
+    "id": 421066,
+    "nome": "Classes morfológicas da palavra \"mesmo\" |"
+  },
+  {
+    "id": 421067,
+    "nome": "Funções sintáticas da palavra \"mesmo\" |"
+  },
+  {
+    "id": 403666,
+    "nome": "Pontuação |"
+  },
+  {
+    "id": 409442,
+    "nome": "Emprego dos sinais de pontuação |"
+  },
+  {
+    "id": 403668,
+    "nome": "Uso do ponto e vírgula |"
+  },
+  {
+    "id": 403667,
+    "nome": "Uso da Vírgula |"
+  },
+  {
+    "id": 403669,
+    "nome": "Ponto de interrogação |"
+  },
+  {
+    "id": 403670,
+    "nome": "Uso dos dois-pontos |"
+  },
+  {
+    "id": 409445,
+    "nome": "Ponto de exclamação |"
+  },
+  {
+    "id": 403672,
+    "nome": "Uso das aspas |"
+  },
+  {
+    "id": 403673,
+    "nome": "Parênteses |"
+  },
+  {
+    "id": 403674,
+    "nome": "Travessão |"
+  },
+  {
+    "id": 403671,
+    "nome": "Uso das reticências |"
+  },
+  {
+    "id": 409447,
+    "nome": "Colchetes |"
+  },
+  {
+    "id": 409448,
+    "nome": "Asterisco |"
+  },
+  {
+    "id": 419440,
+    "nome": "Ponto final |"
+  },
+  {
+    "id": 419441,
+    "nome": "Parágrafo |"
+  },
+  {
+    "id": 419442,
+    "nome": "Efeitos de sentido decorrentes da mudança na pontuação |"
+  },
+  {
+    "id": 419443,
+    "nome": "Paralelismo |"
+  },
+  {
+    "id": 403589,
+    "nome": "Literatura |"
+  },
+  {
+    "id": 419444,
+    "nome": "Conceito de literatura |"
+  },
+  {
+    "id": 419445,
+    "nome": "Teoria literária |"
+  },
+  {
+    "id": 419446,
+    "nome": "Lirismo e linguagem poética |"
+  },
+  {
+    "id": 419447,
+    "nome": "Prosa e poema |"
+  },
+  {
+    "id": 419448,
+    "nome": "O poema (poesia) |"
+  },
+  {
+    "id": 403590,
+    "nome": "Verso e versificação |"
+  },
+  {
+    "id": 409505,
+    "nome": "Estrofe |"
+  },
+  {
+    "id": 409508,
+    "nome": "Ritmo poético |"
+  },
+  {
+    "id": 409507,
+    "nome": "Metrificação |"
+  },
+  {
+    "id": 409509,
+    "nome": "Rima |"
+  },
+  {
+    "id": 409506,
+    "nome": "Poemas de forma fixa |"
+  },
+  {
+    "id": 419465,
+    "nome": "Ode |"
+  },
+  {
+    "id": 419467,
+    "nome": "Madrigal |"
+  },
+  {
+    "id": 419468,
+    "nome": "Haicai |"
+  },
+  {
+    "id": 419470,
+    "nome": "Soneto |"
+  },
+  {
+    "id": 419471,
+    "nome": "Poema de forma livre |"
+  },
+  {
+    "id": 419473,
+    "nome": "Poesia concreta |"
+  },
+  {
+    "id": 419474,
+    "nome": "Poesia marginal |"
+  },
+  {
+    "id": 419475,
+    "nome": "Prosa poética |"
+  },
+  {
+    "id": 419476,
+    "nome": "Gêneros literários |"
+  },
+  {
+    "id": 419477,
+    "nome": "Épico |"
+  },
+  {
+    "id": 419478,
+    "nome": "Lírico |"
+  },
+  {
+    "id": 419479,
+    "nome": "Dramático |"
+  },
+  {
+    "id": 419480,
+    "nome": "Estilos de época |"
+  },
+  {
+    "id": 419481,
+    "nome": "Estilo individual (pessoal) |"
+  },
+  {
+    "id": 419482,
+    "nome": "Movimentos literários (literatura brasileira) |"
+  },
+  {
+    "id": 419483,
+    "nome": "Literatura colonial |"
+  },
+  {
+    "id": 403592,
+    "nome": "Barroco |"
+  },
+  {
+    "id": 403593,
+    "nome": "Arcadismo |"
+  },
+  {
+    "id": 403594,
+    "nome": "Romantismo |"
+  },
+  {
+    "id": 403595,
+    "nome": "Realismo |"
+  },
+  {
+    "id": 403596,
+    "nome": "Naturalismo |"
+  },
+  {
+    "id": 403597,
+    "nome": "Parnasianismo |"
+  },
+  {
+    "id": 403598,
+    "nome": "Simbolismo |"
+  },
+  {
+    "id": 403600,
+    "nome": "Pré-Modernismo |"
+  },
+  {
+    "id": 403601,
+    "nome": "Modernismo |"
+  },
+  {
+    "id": 403602,
+    "nome": "Pós-Modernismo |"
+  },
+  {
+    "id": 403591,
+    "nome": "Regionalismo |"
+  },
+  {
+    "id": 403599,
+    "nome": "Tendências contemporâneas |"
+  },
+  {
+    "id": 419493,
+    "nome": "Literatura portuguesa |"
+  },
+  {
+    "id": 419496,
+    "nome": "Literaturas afro-brasileira e indígena |"
+  },
+  {
+    "id": 419497,
+    "nome": "Literatura infanto-juvenil |"
+  },
+  {
+    "id": 430456,
+    "nome": "Vanguardas Europeias |"
+  },
+  {
+    "id": 403588,
+    "nome": "Conhecimentos específicos de Língua Portuguesa |"
+  },
+  {
+    "id": 409592,
+    "nome": "Etimologia |"
+  },
+  {
+    "id": 409593,
+    "nome": "Onomástica |"
+  },
+  {
+    "id": 409594,
+    "nome": "Patronímico |"
+  },
+  {
+    "id": 409595,
+    "nome": "Expressões idiomáticas |"
+  },
+  {
+    "id": 409596,
+    "nome": "Empréstimo |"
+  },
+  {
+    "id": 409598,
+    "nome": "Substrato e superstrato |"
+  },
+  {
+    "id": 409599,
+    "nome": "Mudanças fonéticas |"
+  },
+  {
+    "id": 409600,
+    "nome": "Prótese |"
+  },
+  {
+    "id": 419500,
+    "nome": "Epêntese |"
+  },
+  {
+    "id": 419504,
+    "nome": "Síncope |"
+  },
+  {
+    "id": 419505,
+    "nome": "Crase |"
+  },
+  {
+    "id": 419508,
+    "nome": "Apócope |"
+  },
+  {
+    "id": 419509,
+    "nome": "Metátese |"
+  },
+  {
+    "id": 419511,
+    "nome": "Hiperbibasmo |"
+  },
+  {
+    "id": 419515,
+    "nome": "Sonorização |"
+  },
+  {
+    "id": 419516,
+    "nome": "Vocalização |"
+  },
+  {
+    "id": 419519,
+    "nome": "Nasalização |"
+  },
+  {
+    "id": 419520,
+    "nome": "Assimilação |"
+  },
+  {
+    "id": 419522,
+    "nome": "Origens e evolução da língua portuguesa (diacronia) |"
+  },
+  {
+    "id": 409004,
+    "nome": "As línguas românticas |"
+  },
+  {
+    "id": 409005,
+    "nome": "Oficialização da língua portuguesa |"
+  },
+  {
+    "id": 409006,
+    "nome": "Fases da língua portuguesa |"
+  },
+  {
+    "id": 409007,
+    "nome": "Reforma Ortográfica de 2009 (Novo Acordo Ortográfico) |"
+  },
+  {
+    "id": 409008,
+    "nome": "A língua portuguesa no mundo (lusofonia) |"
+  },
+  {
+    "id": 419529,
+    "nome": "Metodologia de ensino de língua portuguesa |"
+  },
+  {
+    "id": 419531,
+    "nome": "Base nacional comum curricular (BNCC) |"
+  },
+  {
+    "id": 419532,
+    "nome": "Parâmetros curriculares nacionais (PCN) |"
+  },
+  {
+    "id": 419534,
+    "nome": "Programa nacional do livro didático (PNLD) |"
+  },
+  {
+    "id": 419535,
+    "nome": "Currículo integrado |"
+  },
+  {
+    "id": 419536,
+    "nome": "Concepções de língua |"
+  },
+  {
+    "id": 419538,
+    "nome": "Concepções de gramática (tipos de gramática; metalinguagem) |"
+  },
+  {
+    "id": 419539,
+    "nome": "Aquisição de língua materna |"
+  },
+  {
+    "id": 419541,
+    "nome": "Aquisição de segunda língua |"
+  },
+  {
+    "id": 419543,
+    "nome": "Aquisição da escrita |"
+  },
+  {
+    "id": 419544,
+    "nome": "Alfabetização |"
+  },
+  {
+    "id": 419546,
+    "nome": "Letramento |"
+  },
+  {
+    "id": 419547,
+    "nome": "Prática de análise linguística (ensino) |"
+  },
+  {
+    "id": 419549,
+    "nome": "Prática de leitura e produção textual (ensino) |"
+  },
+  {
+    "id": 419551,
+    "nome": "Variação linguística e norma padrão (ensino) |"
+  },
+  {
+    "id": 419552,
+    "nome": "Ensino de língua portuguesa e novas tecnologias em sala de aula. |"
+  },
+  {
+    "id": 419553,
+    "nome": "Ensino de literatura |"
+  },
+  {
+    "id": 419554,
+    "nome": "Crítica literária |"
+  },
+  {
+    "id": 419555,
+    "nome": "Estudos linguísticos |"
+  },
+  {
+    "id": 419557,
+    "nome": "Linguística aplicada |"
+  },
+  {
+    "id": 419558,
+    "nome": "Revisão textual |"
+  },
+  {
+    "id": 419561,
+    "nome": "Técnicas de revisão |"
+  },
+  {
+    "id": 419563,
+    "nome": "Aspectos intrínsecos (conteúdo e essência) e extrínsecos (forma e estilo) do texto. |"
+  },
+  {
+    "id": 419565,
+    "nome": "Fatores de textualidade |"
+  },
+  {
+    "id": 419566,
+    "nome": "Intencionalidade |"
+  },
+  {
+    "id": 419567,
+    "nome": "Aceitabilidade |"
+  },
+  {
+    "id": 419568,
+    "nome": "Situacionalidade |"
+  },
+  {
+    "id": 419569,
+    "nome": "Informatividade |"
+  },
+  {
+    "id": 419570,
+    "nome": "Organização tópica |"
+  },
+  {
+    "id": 419574,
+    "nome": "Retórica |"
+  },
+  {
+    "id": 419575,
+    "nome": "Persuasão e eloquência |"
+  },
+  {
+    "id": 419576,
+    "nome": "Conhecimentos específicos de linguística |"
+  },
+  {
+    "id": 419601,
+    "nome": "Discurso |"
+  },
+  {
+    "id": 419603,
+    "nome": "Enunciação, enunciado, enunciador |"
+  },
+  {
+    "id": 419604,
+    "nome": "Dialogismo |"
+  },
+  {
+    "id": 419605,
+    "nome": "Polifonia |"
+  },
+  {
+    "id": 419606,
+    "nome": "Teoria da argumentação |"
+  },
+  {
+    "id": 419608,
+    "nome": "Pragmática |"
+  },
+  {
+    "id": 419610,
+    "nome": "Análise sintagmática (sintagmas) |"
+  },
+  {
+    "id": 419611,
+    "nome": "Papéis semânticos |"
+  },
+  {
+    "id": 419612,
+    "nome": "Resumo e resenha |"
+  }
+]

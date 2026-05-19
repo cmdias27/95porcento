@@ -1,0 +1,1211 @@
+{
+  "A Atividade De Advocacia": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Consultoria e assessoria jurídica: forma de prestação e liberdade de escolha entre escrito e verbal",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_1"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "A FGV costuma induzir o candidato a achar que a consultoria jurídica exige forma escrita ou autorização formal específica. A regra correta é que a consultoria/assessoria pode ser prestada verbalmente ou por escrito, conforme ajuste entre advogado e cliente."
+      },
+      {
+        "nome_microtema": "Atuação contra literal disposição de lei e responsabilidade disciplinar do advogado",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_1"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "A banca mistura a ideia de independência técnica do advogado com a vedação de patrocinar causa contra texto expresso de lei. A pegadinha é fazer parecer que a insistência do cliente ou a ausência de precedente favorável afastam a infração, quando isso não elimina a responsabilidade disciplinar."
+      },
+      {
+        "nome_microtema": "Atos privativos da advocacia, exercício ilegal e efeitos da suspensão disciplinar",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_3"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "A FGV confunde a nulidade dos atos praticados por quem não tem inscrição ou está suspenso com a mera irregularidade sanável. Também tenta levar o candidato a separar indevidamente consultoria de postulação em juízo, como se a ausência de inscrição permitisse algum núcleo de atuação privativa."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando a aplicação literal do Estatuto da Advocacia em situações do cotidiano profissional, com foco em consultoria, patrocínio de causa e capacidade para o exercício da advocacia.",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "com base nesse cenário",
+        "diante dos fatos narrados",
+        "de acordo com o Estatuto da Advocacia e da OAB",
+        "poderá contar com a prescrição",
+        "atos privativos da advocacia"
+      ]
+    },
+    "total_questoes_analisadas": 3,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-41_1",
+        "materia": "Ética Profissional",
+        "assunto": "Consultoria e assessoria jurídicas",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A advogada Marina prestou consultoria na área de Direito Tributário para uma sociedade empresária, analisando um tema importante para as funções da referida pessoa jurídica. Sobre a atividade da advogada, de acordo com o Estatuto da Advocacia e da OAB, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A mencionada consultoria deve ser prestada exclusivamente de modo escrito e pressupõe formalização de contrato de honorários.",
+          "B": "Se a pessoa jurídica e a advogada assim acordarem, independentemente de mandato ou mesmo da formalização do contrato de honorários, é possível a prestação da consultoria por escrito ou verbalmente.",
+          "C": "Caso a consultoria seja prestada verbalmente, a concordância com essa forma deve ser expressa por ambas as partes em contrato escrito de prestação de serviços advocatícios.",
+          "D": "A consultoria prestada por Marina pode ser realizada de modo escrito ou verbalmente e, assim, o contrato de prestação de serviços advocatícios pode ser verbal ou escrito, mas é necessária a outorga de mandato."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata sobre consultoria prestada pelo advogado, requerendo conhecimento do artigo 5º, §4, do EOAB. A alternativa A está errada. A consultoria também poderá ser prestada de maneira verbal, a qual independe de outorga de mandato ou de formalização por contrato de honorários, nos termos do art. 5º, §4, do EOAB. A saber: “§ 4º As atividades de consultoria e assessoria jurídicas podem ser exercidas de modo verbal ou por escrito, a critério do advogado e do cliente, e independem de outorga de mandato ou de formalização por contrato de honorários”. A alternativa B está correta. Nos termos do art. 5º, §4º do EOAB, a consultoria independe da disposição de contrato e sequer que seja outorgada a procuração, bastando, nesse sentido, que a consultoria aconteça. A consultoria pode ser feita de maneira escrita ou verbal, independente de mandato ou de contrato de honorários. Vejamos: “§ 4º As atividades de consultoria e assessoria jurídicas podem ser exercidas de modo verbal ou por escrito, a critério do advogado e do cliente, e independem de outorga de mandato ou de formalização por contrato de honorários”. A alternativa C está incorreta. A consultoria poderá ser prestada de modo verbal, contudo, independente de formalização de contrato escrito de prestação de serviços advocatícios, nos termos do art. 5º,§4, do EOAB. A saber: “§ 4º As atividades de consultoria e assessoria jurídicas podem ser exercidas de modo verbal ou por escrito, a critério do advogado e do cliente, e independem de outorga de mandato ou de formalização por contrato de honorários”. A alternativa D está incorreta. Ao contrário do que afirma a assertiva, é desnecessária a outorga de mandato, conforme prevê o art. art. 5º,§4, do EOAB: “§ 4º As atividades de consultoria e assessoria jurídicas podem ser exercidas de modo verbal ou por escrito, a critério do advogado e do cliente, e independem de outorga de mandato ou de formalização por contrato de honorários”."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_1",
+        "materia": "Ética Profissional",
+        "assunto": "Infrações e sanções disciplinares - advogar contra literal disposição de lei",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Antônia, advogada atuante na área previdenciária, foi consultada por Osvaldo sobre a possibilidade de propor ação judicial contra decisão do Instituto Nacional do Seguro Social (INSS), visando à obtenção de benefício previdenciário indeferido na via administrativa. Ao estudar o caso, Antônia verificou que o indeferimento do benefício havia se dado com base em dispositivo claro e expresso da lei que dispõe sobre o Plano de Benefícios da Previdência Social; e que não havia, até aquele momento, notícia de precedente judicial favorável à pretensão de Osvaldo. Essas informações, bem como os riscos de eventual ação judicial, foram prestadas de modo claro e inequívoco por Antônia ao cliente. No entanto, devido à insistência de Osvaldo, Antônia decidiu propor a demanda judicial. Com base nesse cenário, considerando o regime das infrações e sanções disciplinares da Advocacia, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Antônia advogou contra literal disposição de lei, o que, não obstante seja conduta irrelevante no regime das infrações disciplinares, poderá sujeitá-la a eventual sanção por litigância de má-fé aplicada pelo juiz da causa.",
+          "B": "Antônia advogou contra literal disposição de lei, conduta que poderá sujeitá-la, perante o órgão competente da OAB, à pena isolada de multa.",
+          "C": "Antônia advogou contra literal disposição de lei, porém poderá contar com a presunção de boa-fé em seu favor, caso tenha fundamentado seu pedido na inconstitucionalidade ou na injustiça da lei.",
+          "D": "Antônia advogou contra literal disposição de lei, conduta que não possui relevância jurídico-disciplinar, mesmo porque a atuação da advocacia deve ser a mais ampla possível na defesa dos interesses de seus clientes."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema das infrações e sanções disciplinares. A alternativa A está incorreta, pois advogar contra literal disposição de lei é conduta relevante no regime das infrações disciplinares, por expressa previsão no art. 34, VI, da Lei 8.906/1994. Veja a literalidade da lei: “Art. 34. Constitui infração disciplinar: [...] VI - advogar contra literal disposição de lei, presumindo-se a boa-fé quando fundamentado na inconstitucionalidade, na injustiça da lei ou em pronunciamento judicial anterior;”. A alternativa B está incorreta, pois no caso a pena de multa só poderá ser aplicada em conjunto com a pena de censura (que é a pena aplicável ao caso narrado no enunciado). Veja a literalidade da lei: “Art. 36. A censura é aplicável nos casos de: I - infrações definidas nos incisos I a XVI e XXIX do art. 34; [...] Art. 39. A multa, variável entre o mínimo correspondente ao valor de uma anuidade e o máximo de seu décuplo, é aplicável cumulativamente com a censura ou suspensão, em havendo circunstâncias agravantes.”. A alternativa C está correta, pois a conduta praticada por Antônia constitui uma infração disciplinar, prevista no art. 34, VI, da Lei 8.906/1994. Veja a literalidade da lei: “Art. 34. Constitui infração disciplinar: [...] VI - advogar contra literal disposição de lei, presumindo-se a boa-fé quando fundamentado na inconstitucionalidade, na injustiça da lei ou em pronunciamento judicial anterior;”. A alternativa D está incorreta, pois a conduta praticada por Antônia constitui uma infração disciplinar, prevista no art. 34, VI, da Lei 8.906/1994."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_3",
+        "materia": "Ética Profissional",
+        "assunto": "Atos nulos praticados por não inscritos ou suspensos",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Helena concluiu seu mestrado em Administração Pública e acumulou significativo conhecimento jurídico, mas não possui formação em Direito nem inscrição nos quadros da OAB. Apesar disso, ela passou a oferecer consultoria jurídica e a atuar em audiências representando clientes. André, por sua vez, era advogado regularmente inscrito na OAB, porém foi suspenso do exercício profissional por prática de infração disciplinar. Mesmo suspenso, ele continuou a realizar atos privativos da advocacia, tais como peticionar e participar de audiências. Com base nessas situações hipotéticas, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Os atos praticados por André, após a sua suspensão da OAB, são nulos, pois ele está impedido de exercer a advocacia enquanto durar a suspensão.",
+          "B": "Os atos privativos da advocacia praticados por Helena, que não possui inscrição na OAB, são válidos, desde que seus clientes a autorizem expressamente, ratificando os atos por ela praticados.",
+          "C": "Os atos praticados por Helena são válidos, desde que restritos à consultoria extrajudicial e relacionados à administração pública, uma vez que ela não representa clientes em processos judiciais.",
+          "D": "Tanto os atos praticados por Helena quanto os atos praticados por André são anuláveis, porém sujeitos à convalidação, pois a atuação em audiências e a prática de consultoria jurídica, embora preferencialmente exercidas por advogados, podem ser exercidas por pessoa com excepcional conhecimento jurídico."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa certa é a letra A. A questão trata do tema atos irregulares. A alternativa A está correta. Dispõe o Estatuto da OAB no Art. 4º: “São nulos os atos privativos de advogado praticados por pessoa não inscrita na OAB, sem prejuízo das sanções civis, penais e administrativas. Parágrafo único. São também nulos os atos praticados por advogado impedido - no âmbito do impedimento - suspenso, licenciado ou que passar a exercer atividade incompatível com a advocacia.”; A alternativa B está incorreta. Conforme já explicitado na alternativa anterior, serão nulos os atos praticados por Helena e estes não são passíveis de convalidação pelos clientes; A alternativa C está incorreta. De acordo com o Estatuto da OAB, os atos praticados por Helena são nulos; A alternativa D está incorreta. Se tratam ambos de atos nulos, e não são passíveis de convalidação, de acordo com o Estatuto da OAB no art. 4° já transcrito."
+      }
+    ]
+  },
+  "Direitos E Prerrogativas Do Advogado": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Prisão em flagrante de advogado por crime ligado ao exercício profissional e acompanhamento da OAB",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_7"
+        ],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir a prerrogativa específica do advogado preso em flagrante por motivo ligado à advocacia com prisão comum, negando indevidamente o direito ao acompanhamento de representante da OAB na lavratura do auto."
+      },
+      {
+        "nome_microtema": "Acesso aos autos de investigação e inquérito por advogado sem procuração, inclusive em caso de sigilo",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_6"
+        ],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Misturar sigilo do procedimento e ausência de mandato com negativa total de vista; a FGV costuma cobrar que o advogado pode examinar autos de flagrante e de investigação já documentados, ainda que sem procuração, ressalvadas diligências em andamento."
+      },
+      {
+        "nome_microtema": "Busca e apreensão em escritório/residência de advogado e inviolabilidade de instrumentos de trabalho e dados de clientes",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_1"
+        ],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Achar que a presença de representante da OAB ou o fato de a diligência ocorrer fora do escritório torna tudo automaticamente válido; a pegadinha é a proteção reforçada do local de trabalho e do conteúdo ligado a clientes, exigindo ordem específica e limites estritos de apreensão e uso das informações."
+      },
+      {
+        "nome_microtema": "Sigilo profissional do advogado e dever de recusa ao depoimento sobre fatos conhecidos no exercício da função",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_4"
+        ],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir dever de testemunhar com dever de sigilo: a FGV explora a ideia de que, mesmo intimado como testemunha, o advogado não deve revelar fatos cobertos por confidencialidade profissional, salvo hipóteses excepcionais legalmente admitidas."
+      },
+      {
+        "nome_microtema": "Carteira da OAB como documento de identidade civil",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_8"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Tratar a carteira da OAB como documento meramente profissional e não como prova de identidade civil, levando à falsa conclusão de que o órgão administrativo pode recusá-la por exigir apenas RG ou CNH."
+      },
+      {
+        "nome_microtema": "Postulação sem procuração, prazo para juntada e poderes da procuração ad judicia",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_52"
+        ],
+        "peso_percentual": 11,
+        "armadilha_favorita": "Misturar a regra da urgência no CPC com a exigência de mandato: a FGV costuma testar a possibilidade de atuação sem procuração em situação urgente e o prazo para regularização, além de confundir poderes gerais para o foro com poderes especiais."
+      },
+      {
+        "nome_microtema": "Direitos da advogada lactante: creche ou local adequado para atendimento das necessidades do bebê",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_5"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Trocar o direito específico da advogada lactante por prerrogativas genéricas da advocacia, como vaga de garagem, detector de metais ou suspensão de prazos, quando a questão cobra o benefício ligado à maternidade."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto; a FGV descreve uma situação realista envolvendo advogado em atuação, investigação, prisão, busca e apreensão, testemunho, identificação civil, urgência processual ou maternidade, e exige a aplicação literal e combinada do Estatuto da Advocacia, do CPC e de prerrogativas específicas.",
+      "palavras_gatilho": [
+        "é correto afirmar",
+        "diante dos fatos",
+        "assinale a afirmativa correta",
+        "com base no enunciado",
+        "considerando a situação hipotética",
+        "é admissível",
+        "pode/deve"
+      ]
+    },
+    "total_questoes_analisadas": 7,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_7",
+        "materia": "Ética Profissional",
+        "assunto": "Prerrogativas do advogado - prisão em flagrante",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Monique, advogada regularmente inscrita nos quadros da OAB, é investigada em inquérito policial por supostos crimes praticados por motivo ligado ao exercício da advocacia, tendo sido presa em flagrante, por crime da mesma espécie, em seu escritório, enquanto atendia a um de seus clientes. Considerando as disposições do Estatuto da Advocacia, é correto afirmar que:",
+        "alternativas": {
+          "A": "Monique tem direito ao acompanhamento de representante da OAB por ocasião da lavratura do auto de prisão em flagrante, visto que se trata de hipótese de crime por motivo ligado ao exercício da advocacia, sob pena de nulidade.",
+          "B": "Não há qualquer direito ou prerrogativa conferida pela legislação no caso em tela, devendo Monique receber tratamento idêntico ao padrão a todos indivíduos presos, de respeito ao princípio da igualdade.",
+          "C": "O auto de prisão em flagrante será devido ainda que não se trate de motivo ligado ao exercício da advocacia, visto que se cuida de direito conferido ao advogado em todo e qualquer crime por ele cometido.",
+          "D": "O representante da OAB para acompanhar a lavratura do auto de prisão em flagrante, pode ser substituído por representante da Defensoria Pública, visto que ambos podem figurar como defensores."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata do tema prisão em flagrante de advogados. A alternativa A está correta. De acordo com o Estatuto da Advocacia e a Ordem dos Advogados do Brasil (OAB) - Lei nº 8.906/1994, especificamente em seus artigos que tratam das prerrogativas profissionais, artigo 7º, IV a VI, o advogado que seja preso por motivo ligado ao exercício da advocacia tem o direito de ser acompanhado por representante da OAB no momento da lavratura do auto de prisão em flagrante. Esta disposição assegura que os direitos do advogado sejam respeitados durante o processo e visa proteger a função social da advocacia. A presença do representante da OAB serve para garantir que a prisão e os procedimentos subsequentes ocorram de forma legal e justa, considerando as particularidades do exercício profissional da advocacia. A alternativa B está incorreta. Esta afirmação é incorreta porque a legislação específica, no caso o Estatuto da OAB, artigo 7º, confere sim direitos e prerrogativas aos advogados, inclusive relacionadas à forma como devem ser conduzidos os procedimentos em casos de prisão por atos relacionados ao exercício profissional. A alternativa C está incorreta. Esta opção é incorreta porque o Estatuto da OAB, artigo 7º, especifica que as prerrogativas relativas à prisão de advogados se aplicam principalmente quando os crimes têm relação com o exercício da advocacia. Embora os advogados tenham certas proteções legais, não significa que todas as prerrogativas se apliquem indistintamente a qualquer situação de crime. A alternativa D está incorreta. Esta afirmativa é incorreta porque, no contexto das prerrogativas do advogado, a legislação prevê especificamente a presença de um representante da OAB, não da Defensoria Pública. A função da Defensoria Pública é distinta e, embora ambos se dediquem à defesa dos direitos dos cidadãos, as prerrogativas e obrigações de seus membros são regidas por normas diferentes. A presença de um representante da OAB no auto de prisão em flagrante de um advogado é uma prerrogativa que visa garantir o respeito às especificidades da profissão e aos direitos do advogado."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_6",
+        "materia": "Ética Profissional",
+        "assunto": "Prerrogativas do advogado - acesso a autos sigilosos",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O juízo criminal da Comarca de ABC expediu mandado de prisão preventiva em desfavor de Saulo, o qual, no momento do cumprimento da medida, telefonou para sua amiga, a advogada criminalista Janete, rogando-lhe verbalmente que verificasse as razões daquela prisão, bem como levantasse outras informações sobre a investigação contra si instaurada. Ao se dirigir à autoridade policial responsável, Janete foi informada de que não poderia ter acesso aos autos do flagrante e nem aos do respectivo caderno apuratório, uma vez que não apresentou prova do mandato e os autos estão integralmente submetidos a sigilo. Com base nessas informações, e considerados os direitos da advocacia, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A negativa de acesso aos autos, na hipótese, possui respaldo legal, uma vez que, estando os autos submetidos a sigilo, o acesso de Janete dependeria da apresentação de procuração.",
+          "B": "O Estatuto da Advocacia e da OAB assegura o direito de Janete de examinar os autos do flagrante e do respectivo caderno apuratório, mesmo sem procuração, ainda que submetidos a sigilo.",
+          "C": "Na hipótese de haver diligências em andamento, a negativa de acesso aos autos da investigação possui suporte legal, extensiva aos elementos de prova já documentados, oriundos de diligências finalizadas.",
+          "D": "É vedado o fornecimento incompleto de autos ou o fornecimento de autos em que houve a retirada de peças relacionadas a diligências sigilosas em andamento, sob pena de responsabilização criminal e funcional."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata sobre a prerrogativa do advogado a ter acesso amplo a tudo que já foi juntado aos autos. A alternativa A está correta. Atenção, pois essa questão contém uma pegadinha, exigindo o conhecimento do §10, do art. 7º, da EOAB. Caso os autos de investigação estiverem em sigilo, será exigido a procuração do advogado. Portanto, a negativa está correta nesse sentido. Ainda, a autoridade competente poderá delimitar o acesso do advogado aos elementos de prova relacionados a diligências em andamento e ainda não documentados nos autos, quando houver risco de comprometimento da eficiência, da eficácia ou da finalidade das diligências, nos termos do §11. O art. 7º, XIV da EOAB, são direitos do advogado examinar, em qualquer instituição responsável por conduzir investigação, mesmo sem procuração, autos de flagrante e de investigações de qualquer natureza, findos ou em andamento, ainda que conclusos à autoridade, podendo copiar peças e tomar apontamentos, em meio físico ou digital. Nesse sentido, a Súmula Vinculante 14 prevê que é direito do defensor, no interesse do representado, ter acesso amplo aos elementos de prova que, já documentados em procedimento investigatório realizado por órgão com competência de polícia judiciária, digam respeito ao exercício do direito de defesa. O examinando deveria estar atento ao sigilo dos autos nesse sentido. Dessa forma, as demais alternativas estão incorretas."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_1",
+        "materia": "Ética Profissional",
+        "assunto": "Inviolabilidade do escritório de advocacia",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Determinada operação de combate à corrupção conduzida pela Polícia Federal reuniu elementos indicativos de autoria e materialidade da prática de crime por parte de Cláudio, advogado regularmente inscrito na Ordem dos Advogados do Brasil. Com base nesses elementos, a Justiça Federal expediu mandado de busca e apreensão, específico e pormenorizado, o qual foi cumprido, na presença de representante da OAB, no endereço residencial de Cláudio, o qual também lhe servia como local de trabalho. Foram apreendidos e periciados um notebook e dois aparelhos de telefone celular, todos contendo informações sobre diversos processos de clientes patrocinados por Cláudio. A respeito da validade jurídica da diligência realizada e da utilização das informações encontradas nas mídias apreendidas, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A medida cautelar decretada é inválida, uma vez que o Estatuto da Advocacia assegura a inviolabilidade absoluta do escritório ou local de trabalho do advogado, e, portanto, as informações encontradas sobre os clientes de Cláudio não podem ser utilizadas.",
+          "B": "A medida cautelar decretada é válida, porque não foi cumprida no escritório de Cláudio, mas na sua residência, porém as informações encontradas sobre os clientes de Cláudio estão protegidas de modo insuperável pelo Estatuto da Advocacia e, portanto, não podem ser utilizadas.",
+          "C": "A medida cautelar decretada é inválida, tendo em vista a inviolabilidade do escritório ou local de trabalho do advogado, mas as informações encontradas sobre os clientes de Cláudio podem ser utilizadas, caso esses clientes também figurem formalmente como investigados.",
+          "D": "A medida cautelar decretada é válida, e as informações encontradas sobre os clientes de Cláudio poderão ser utilizadas se esses clientes forem formalmente investigados como partícipes ou coautores pela prática do mesmo crime que deu causa à decretação da medida."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A alternativa A está incorreta. A inviolabilidade do escritório ou local de trabalho do advogado não é absoluta. Existem exceções previstas na EOAB (art. 6º, §7º). A alternativa B está incorreta. A inviolabilidade não depende do local (escritório ou residência), mas sim do conteúdo relacionado à atividade profissional do advogado. Porém, existem exceções previstas no art. 6º, §7º EOAB. A alternativa C está incorreta. A medida cautelar não é inválida se cumprida com todas as garantias legais. Além disso, consoante o art. 6º, §7º EOAB, a inviolabilidade do advogado pode ser quebrada em determinadas situações, especialmente se os clientes forem partícipes ou coautores do mesmo crime. A alternativa D está correta. Trata-se de exceção à regra da inviolabilidade de domicílio, em razão dos clientes serem partícipes ou co-autores pela prática do mesmo crime, assim dispõe o art. 6º, §7º da EOAB: “§7º A ressalva constante do § 6º deste artigo não se estende a clientes do advogado averiguado que estejam sendo formalmente investigados como seus partícipes ou co-autores pela prática do mesmo crime que deu causa à quebra da inviolabilidade.”"
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_4",
+        "materia": "Ética Profissional",
+        "assunto": "Sigilo profissional do advogado em funções na OAB",
+        "banca": "FGV",
+        "ano": "42º Exame de Ordem",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A advogada Nina exerce função na diretoria do Conselho Federal da OAB. Em virtude exclusivamente das funções desempenhadas na OAB, Nina toma conhecimento de certos fatos envolvendo seus colegas advogados João e Maria. Nina acaba de receber uma intimação para depor como testemunha em audiência de instrução e julgamento, referente a uma ação indenizatória, de cunho meramente patrimonial, sem envolver grave ameaça ao direito à vida e à honra, ajuizada por Maria em face de João, cujo objeto tem relação com mencionados fatos de que tomou conhecimento no exercício da citada função no Conselho Federal da OAB. Considerando a situação hipotética, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Nina não deve depor sobre os fatos que soube, diante do sigilo profissional.",
+          "B": "Nina não poderá alegar sigilo profissional em razão da natureza das funções exercidas no Conselho Federal da OAB.",
+          "C": "Nina deverá relatar os fatos sobre os quais tomou conhecimento, pois se trata de ação indenizatória, de cunho meramente patrimonial.",
+          "D": "Nina tem o dever legal de permanecer em silêncio sobre os fatos indagados, salvo em circunstâncias excepcionais, tais como a defesa judicial de familiares e amigos íntimos."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata sobre o sigilo profissional imposto às funções que os advogados exerçam junto à OAB. A alternativa A está correta. Nina tem o dever de manter sigilo sobre os fatos que tomou conhecimento em razão do exercício da profissão, incluindo informações obtidas no desempenho de funções na OAB. Dessa forma, pode se recusar a depor sobre esses fatos, mesmo que se trate de uma ação de cunho patrimonial, para proteger o sigilo profissional, consoante o art. 7º, XIX, EOAB: “Art. 7º São direitos do advogado: XIX - recusar-se a depor como testemunha em processo no qual funcionou ou deva funcionar, ou sobre fato relacionado com pessoa de quem seja ou foi advogado, mesmo quando autorizado ou solicitado pelo constituinte, bem como sobre fato que constitua sigilo profissional;” A alternativa B está incorreta. O sigilo profissional se aplica tanto aos advogados no exercício de suas funções como nas atividades exercidas em órgãos da OAB. A alternativa C está incorreta. O sigilo profissional deve ser mantido independentemente da natureza da ação. A alternativa D está incorreta. Embora o advogado possa, em situações excepcionais, revelar informações protegidas pelo sigilo profissional, a questão não menciona tais circunstâncias excepcionais."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_8",
+        "materia": "Ética Profissional",
+        "assunto": "Documento de identidade profissional do advogado",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Rita, advogada regularmente inscrita na OAB, compareceu ao Detran para providenciar a transferência de um veículo que acabara de adquirir. Instada a apresentar seu documento de identificação civil, Rita apresentou sua carteira da OAB, a qual não foi aceita pelo funcionário da repartição, que afirmou ser imprescindível a apresentação da Carteira de identidade (Registro Geral) ou da Carteira Nacional de Habilitação (CNH). Com base no enunciado, a recusa do documento emitido pela OAB foi",
+        "alternativas": {
+          "A": "ilegítima, uma vez que o documento emitido pela OAB constitui prova de identidade civil para todos os fins legais.",
+          "B": "correta, pois, à míngua de previsão legal, não poderia o funcionário do Detran admitir a carteira da OAB como documento de identificação civil.",
+          "C": "inválida, pois, embora não haja expressa previsão legal, a carteira da OAB tem sido admitida como documento válido de identificação civil pela prática consuetudinária.",
+          "D": "inadequada, porém não ilegal, uma vez que os documentos de identidade profissional do advogado estão previstos somente no Regulamento Geral da Advocacia, não sendo exigível que o funcionário do Detran conheça as normas internas da OAB."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A alternativa A está correta. Conforme prevê o art. 13 da EOAB: “Art. 13. O documento de identidade profissional, na forma prevista no regulamento geral, é de uso obrigatório no exercício da atividade de advogado ou de estagiário e constitui prova de identidade civil para todos os fins legais.” Ou seja, estabelece que a carteira de identidade profissional emitida pela OAB tem fé pública e constitui prova de identidade civil para todos os fins legais. Desse modo, a recusa do documento pelo funcionário do Detran é ilegítima, pois o Estatuto da Advocacia e da OAB que confere à carteira da OAB o status de documento de identidade civil válido. As demais alternativas estão incorretas. As demais alternativas estão em desconformidade com o dispositivo e os comentários indicados acima."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_52",
+        "materia": "Ética Profissional",
+        "assunto": "Procuração e poderes do advogado",
+        "banca": "FGV",
+        "ano": "44º Exame de Ordem",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "João é advogado regularmente inscrito nos quadros da Ordem dos Advogados do Brasil. Em uma sexta-feira à noite, seu amigo Thiago o procurou e, bastante nervoso, indagou se João poderia ingressar com um requerimento de tutela antecipada antecedente perante o Plantão Judicial, porque sua irmã necessitava de uma cirurgia de emergência. João reuniu os documentos enviados por Thiago e protocolou o requerimento, porém deixou de fazer a juntada da procuração assinada pela irmã de Thiago, que também é advogada. A medida de urgência foi concedida e, ato contínuo, João foi intimado para efetuar a juntada da procuração, bem como para complementar a petição inicial, nos termos do Art. 303, § 1º, inciso I, do CPC. A irmã de Thiago outorgou procuração geral para o foro por meio de instrumento particular por ela assinado. Sobre o caso narrado, com base no ordenamento jurídico brasileiro, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A procuração deve ser exibida no prazo de 10 (dez) dias, prorrogável por igual período por despacho do Juiz.",
+          "B": "A irmã de Thiago, ainda que advogada, não poderá postular em causa própria, por expressa disposição do Código de Processo Civil.",
+          "C": "Não seria lícito a João, em nenhuma hipótese, postular em juízo sem procuração, motivo pelo qual o processo deverá ser extinto sem resolução do mérito.",
+          "D": "A procuração outorgada pela irmã de Thiago habilita João a praticar todos os atos do processo, exceto, entre outros poderes, receber citação, confessar e reconhecer a procedência do pedido."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão versa sobre procuração e poderes gerais de foro. A alternativa A está incorreta. O prazo correto para a juntada da procuração, conforme o art. 104, § 1º do CPC, é de 15 (quinze) dias, prorrogável por igual período, por despacho motivado do juiz. Portanto, o prazo de 10 dias indicado está equivocado. A alternativa B está incorreta. Não há qualquer impedimento legal para que advogada postule em causa própria. Pelo contrário, o art. 103 do CPC permite expressamente que o advogado atue em nome próprio, desde que esteja regularmente inscrito na OAB e seja parte no processo. Não há essa vedação que a alternativa trouxe. A alternativa C está incorreta. O art. 104 do CPC admite a atuação do advogado sem procuração no momento inicial, desde que a regularização ocorra dentro do prazo legal (15 dias, prorrogável). Além disso, o próprio CPC permite que o juiz intime o advogado para regularizar a representação processual. A extinção do processo sem resolução do mérito só ocorre se a parte não suprir o vício no prazo determinado. A alternativa D está correta. Ela está de acordo com o art. 105 do CPC, que diferencia entre poderes gerais para o foro (atos ordinários do processo) e poderes especiais, que devem constar expressamente na procuração para permitir, por exemplo, receber citação, confessar, reconhecer procedência, transigir, desistir, renunciar ao direito etc. Como a procuração mencionada é geral, sem menção expressa a esses poderes especiais, João não está autorizado a praticar esses atos específicos."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_5",
+        "materia": "Ética Profissional",
+        "assunto": "Direitos da advogada lactante",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Ana é advogada e acaba de dar à luz seu primeiro filho, a quem ainda amamenta. Ela foi cientificada de que a Sexta Câmara Cível deverá julgar um caso em que é uma das advogadas constituídas pelo recorrente. Sobre a hipótese, assinale a opção que indica o direito que Ana tem assegurado.",
+        "alternativas": {
+          "A": "Vaga reservada na garagem do Fórum.",
+          "B": "Suspensão de prazos processuais, desde que haja notificação por escrito ao cliente.",
+          "C": "Entrada em tribunais sem ser submetida a detectores de metais e aparelhos de raios X.",
+          "D": "Acesso a creche, onde houver, ou a local adequado para o atendimento das necessidades do bebê."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa certa é a letra D. A questão trata do tema direitos da advogada. A alternativa A está incorreta. Este é direito da gestante, conforme prevê o Estatuto da OAB I - gestante: a) entrada em tribunais sem ser submetida a detectores de metais e aparelhos de raios X; b) reserva de vaga em garagens dos fóruns dos tribunais; A alternativa B está incorreta. Este direito é previsto quando a advogada for a única patrona, conforme prevê o art. 7° IV: “adotante ou que der à luz, suspensão de prazos processuais quando for a única patrona da causa, desde que haja notificação por escrito ao cliente.”; A alternativa C está incorreta. Este é direito da gestante, conforme prevê o Estatuto da OAB I - gestante: a) entrada em tribunais sem ser submetida a detectores de metais e aparelhos de raios X; A alternativa D está correta. Prevê o Estatuto da OAB no art. 7° que é direito da advogada: “ II - lactante, adotante ou que der à luz, acesso a creche, onde houver, ou a local adequado ao atendimento das necessidades do bebê.”;"
+      }
+    ]
+  },
+  "Inscrição Na Oab E Impedimentos/Incompatibilidades": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Incompatibilidade por exercício de cargo/função pública policial",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_3"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "A FGV confunde o candidato ao sugerir que a atuação pro bono, eventual ou gratuita afastaria a vedação. Na prática, cargo policial gera incompatibilidade total com a advocacia, não apenas impedimento."
+      },
+      {
+        "nome_microtema": "Inscrição na OAB com diploma estrangeiro e revalidação/requisitos de inscrição",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_4"
+        ],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Mistura a ideia de diploma obtido no exterior com autorização automática para advogar no Brasil. A pegadinha é ignorar a necessidade de revalidação/regularidade do título e os requisitos próprios de inscrição, além de confundir situação penal pretérita com aptidão profissional atual."
+      },
+      {
+        "nome_microtema": "Publicidade na advocacia e vedação à captação conjunta com outra profissão",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_5"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "A FGV costuma colocar publicidade aparentemente 'moderna' ou econômica, mas que viola a sobriedade e a vedação de divulgação conjunta com outra atividade profissional, especialmente com destaque pessoal/familiar."
+      },
+      {
+        "nome_microtema": "Incompatibilidade do cargo eletivo de Prefeito e efeitos na sociedade de advogados",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_3"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Confunde-se incompatibilidade para advogar com exclusão automática da sociedade. A banca explora a diferença entre ficar impedido/incompatível para o exercício da advocacia e poder permanecer apenas como sócio sem atuação profissional."
+      },
+      {
+        "nome_microtema": "Impedimento do servidor público e alcance do patrocínio contra a Fazenda Pública",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_5"
+        ],
+        "peso_percentual": 12,
+        "armadilha_favorita": "A pegadinha é tratar o impedimento como se fosse total ou, ao contrário, achar que só há vedação quando a causa envolve o próprio órgão do servidor. A FGV explora a regra do impedimento para servidores e suas exceções/alcance objetivo."
+      },
+      {
+        "nome_microtema": "Mandato eletivo de Deputado Federal: impedimento específico e hipótese de Presidência da Câmara",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_1"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "A banca mistura a condição de parlamentar com a possibilidade de atuar contra ente da administração indireta, além de testar se o candidato sabe que certos cargos na Mesa Diretora agravam a vedação."
+      },
+      {
+        "nome_microtema": "Diretor jurídico de empresa pública/estatal em regime concorrencial e incompatibilidade",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_2"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "A FGV tenta induzir o candidato a achar que, por atuar em área específica ou em empresa pública concorrencial, haveria apenas impedimento parcial. O ponto central é identificar a natureza do cargo e a consequência para o exercício da advocacia."
+      },
+      {
+        "nome_microtema": "Sociedade de advogados: vedação à atividade estranha, sócio não advogado e mistura com comércio",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_3"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "A confusão clássica é admitir sociedade híbrida ou sócio não advogado por analogia com sociedades empresárias. A FGV cobra a separação rígida entre advocacia e atividade mercantil, além da impossibilidade de registro da sociedade irregular."
+      },
+      {
+        "nome_microtema": "Incompatibilidade do tabelião/notário e registrador com a advocacia",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_4"
+        ],
+        "peso_percentual": 10,
+        "armadilha_favorita": "A banca costuma explorar a falsa ideia de que, por não ser cargo político, haveria apenas impedimento ou possibilidade de advocacia em causa própria. Na verdade, a investidura em serventia extrajudicial gera incompatibilidade com a advocacia."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo identificação imediata entre incompatibilidade, impedimento, inscrição, sociedade de advogados e publicidade profissional",
+      "palavras_gatilho": [
+        "à luz das informações",
+        "assinale a afirmativa correta",
+        "considerando o Estatuto da Advocacia",
+        "poderá exercer",
+        "impedido",
+        "incompatível",
+        "causa própria",
+        "pro bono",
+        "publicidade",
+        "sociedade de advogados"
+      ]
+    },
+    "total_questoes_analisadas": 10,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_1",
+        "materia": "Ética Profissional",
+        "assunto": "Atividades incompatíveis e publicidade na advocacia",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Pedro, contador com vasta experiência e sólida carreira, decide fazer uma segunda graduação, tornando-se bacharel em Direito. Depois da aprovação no Exame de Ordem Unificado e da inscrição nos quadros da Ordem dos Advogados do Brasil, Pedro pretende continuar prestando serviços contábeis, sem prejuízo do exercício concomitante da nova atividade.",
+        "alternativas": {
+          "A": "Pedro não poderá exercer de modo concomitante as atividades de contador e advogado, pois, de acordo com o Estatuto da Advocacia da OAB, a prestação de serviços contábeis é incompatível com o exercício simultâneo da advocacia.",
+          "B": "Não há óbice ético para o duplo exercício das atividades de contador e advogado, podendo Pedro se valer da divulgação conjunta dos serviços oferecidos, desde que não seja por meio de inscrições em muros, paredes, veículos, elevadores ou em qualquer espaço público.",
+          "C": "Embora não haja incompatibilidade para o exercício concomitante das duas atividades, não será permitido a Pedro divulgar sua nova profissão de modo conjunto com a de contador.",
+          "D": "Pedro poderá fazer uso de mala direta, distribuição de panfletos ou formas assemelhadas de publicidade, visando a captação de clientela para a sua nova atividade, mas não poderá mencionar, nessa publicidade, os serviços de contabilidade."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema atividades incompatíveis com a advocacia. A alternativa A está incorreta. Não existe previsão expressa no Estatuto da OAB que torne a contabilidade atividade incompatível com a advocacia. A incompatibilidade está relacionada a funções ou atividades que, por sua natureza, comprometem a independência necessária ao exercício da advocacia ou implicam em conflito de interesse. A alternativa B está incorreta. O Código de Ética e Disciplina da OAB proíbe a divulgação de serviços que possam parecer como captação de clientela ou que misturem a advocacia com outras atividades, como a contabilidade. A divulgação conjunta pode confundir o público e comprometer a imagem da advocacia como uma profissão independente. A alternativa C está correta. O artigo 28 do Estatuto da Ordem dos Advogados do Brasil (OAB) prevê as atividades que são incompatíveis com o exercício da advocacia, primordialmente aquelas que implicam em conflito de interesse ou que comprometem a independência necessária ao exercício da profissão de advogado. O exercício da contabilidade, por si só, não está listado como uma atividade incompatível com a advocacia no Estatuto da OAB. No entanto, a normativa ética da advocacia proíbe a divulgação conjunta de atividades distintas, como a contabilidade e a advocacia, visando preservar a distinção e a independência entre as profissões. Portanto, enquanto Pedro pode exercer ambas as profissões, a divulgação dos serviços deve ser feita de forma separada, para evitar confusão ou mistura das atividades profissionais. A alternativa D está incorreta. O Código de Ética proíbe práticas que caracterizem mercantilização da profissão ou captação indevida de clientela. A publicidade na advocacia deve ser moderada e informativa, não sendo permitido o uso de mala direta e panfletos com a finalidade de captação direta de clientes, independentemente de mencionar ou não serviços contábeis."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_3",
+        "materia": "Ética Profissional",
+        "assunto": "Incompatibilidade para exercício da advocacia",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Valmir, bacharel em Direito, aprovado no Exame da Ordem dos Advogados do Brasil, ocupa o cargo público de agente de Polícia Civil do Estado Alfa. Movido por sentimento altruísta, Valmir requer sua inscrição na OAB, pois pretende, nos momentos de folga da atividade policial, exercer a advocacia de forma gratuita, eventual e voluntária, em favor de instituições sociais sem fins econômicos que não disponham de recursos para a contratação de profissional. À luz dessas informações, e considerada a legislação vigente, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Valmir poderá exercer regularmente a advocacia, inclusive pro bono.",
+          "B": "Valmir não poderá exercer a advocacia remunerada, pois ocupa cargo incompatível, mas poderá exercer a advocacia pro bono.",
+          "C": "Valmir não poderá exercer a advocacia, mesmo pro bono, uma vez que o cargo público que ocupa atrai o regime da incompatibilidade.",
+          "D": "A condição de servidor público atrai o regime do impedimento, razão pela qual Valmir não poderá exercer a advocacia contra a Fazenda Pública que o remunera. Observado esse impedimento, não haverá óbice para o exercício da advocacia."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema incompatibilidade na advocacia. A alternativa A está incorreta. Essa afirmação é falsa porque, conforme o artigo 28 do Estatuto da OAB, certos cargos, como o de agente de Polícia Civil, são incompatíveis com o exercício da advocacia em qualquer modalidade, incluindo a advocacia pro bono. A alternativa B está incorreta. A incompatibilidade para o exercício da advocacia não se limita à advocacia remunerada. A restrição se aplica igualmente ao exercício da advocacia pro bono, pois o Estatuto da OAB não diferencia os tipos de advocacia para fins de incompatibilidade. A alternativa C está correta. O Estatuto da Advocacia e da OAB (Lei nº 8.906/1994) estabelece, em seu artigo 28, que o exercício da advocacia é incompatível, mesmo em causa própria, com determinadas funções ou cargos, incluindo os membros da carreira policial. A razão para tal incompatibilidade é evitar conflitos de interesse e preservar a independência da advocacia. Portanto, ocupando Valmir o cargo de agente da Polícia Civil, ele se encontra em uma situação de incompatibilidade para o exercício da advocacia, inclusive de forma gratuita, eventual e voluntária (pro bono), pois a legislação não faz distinção quanto à natureza da atuação advocatícia. A alternativa D está incorreta. A situação de Valmir, como agente de Polícia Civil, não é de mero impedimento, que restringiria sua atuação contra a Fazenda Pública que o remunera. Em vez disso, ela configura uma incompatibilidade total com o exercício da advocacia, conforme determina o artigo 28 do Estatuto da OAB, proibindo-o de exercer a advocacia em qualquer contexto."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_4",
+        "materia": "Ética Profissional",
+        "assunto": "Inscrição na OAB - Revalidação de diploma estrangeiro",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Pedro Estrela, brasileiro, natural de Recife/PE, foi preso em flagrante por participar de esquema criminoso envolvendo pirâmides financeiras e por se apresentar como advogado, mesmo sem qualquer formação jurídica. Tendo obtido liberdade provisória, fugiu para o Equador, onde obteve graduação no curso de Direito, em faculdade local. Muitos anos depois, após ter extinta a punibilidade pelas infrações penais praticadas, decide voltar ao Brasil com a pretensão de exercer a advocacia. Quando da mudança para o Brasil, trouxe sua esposa equatoriana, Soraya, que já exercia a profissão de advogada no Equador. Considerando o enunciado acima, e a respeito da inscrição na Ordem dos Advogados do Brasil, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Pedro Estrela, desde que atendidos os demais requisitos para a inscrição como advogado, poderá exercer a advocacia no Brasil, independentemente de revalidação do seu diploma, diante do fato de ser brasileiro nato.",
+          "B": "Soraya não poderá exercer a profissão de advogada no Brasil, ainda que cumpra os demais requisitos para inscrição na Ordem, porque títulos de graduação obtidos em instituições estrangeiras não são aceitos para comprovação da aptidão por estrangeiros.",
+          "C": "O título de graduação obtido por Pedro em instituição estrangeira poderá ser aceito no Brasil, desde que devidamente revalidado, o que não lhe garantirá a inscrição na OAB, diante da necessidade de aprovação no Exame de Ordem, além do preenchimento dos demais requisitos legais, em especial a comprovação de idoneidade moral para a função.",
+          "D": "Pedro e Soraya poderão exercer livremente a função de advogado no Brasil, desde que sejam aprovados no Exame de Ordem, porque a aprovação nesse certame convalida os diplomas obtidos no exterior."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata sobre a revalidação de diploma de brasileiro e estrangeiro graduado em direito fora do Brasil. A alternativa A está incorreta. Pedro Estrela deverá realizar a revalidação do seu diploma, pois se graduou em Direito no Equador, nos termos do art. 8, §2º, da EOAB. Vejamos: “§ 2º O estrangeiro ou brasileiro, quando não graduado em direito no Brasil, deve fazer prova do título de graduação, obtido em instituição estrangeira, devidamente revalidado, além de atender aos demais requisitos previstos neste artigo.” A alternativa B está incorreta. O diploma em Direito obtido por graduação em instituição fora do Brasil é aceita, desde que o diploma seja revalidado, nos termos do art. 8, §2º, da EOAB: “§ 2º O estrangeiro ou brasileiro, quando não graduado em direito no Brasil, deve fazer prova do título de graduação, obtido em instituição estrangeira, devidamente revalidado, além de atender aos demais requisitos previstos neste artigo.” A alternativa C está correta. Tanto Pedro quanto Soraya, para requerer a inscrição, deverão requerer a revalidação do diploma, bem como, cumprirem os demais requisitos do art. 8º da EOAB: “§ 2º O estrangeiro ou brasileiro, quando não graduado em direito no Brasil, deve fazer prova do título de graduação, obtido em instituição estrangeira, devidamente revalidado, além de atender aos demais requisitos previstos neste artigo.” A alternativa D está incorreta. O art. 8º, §2º, da EOAB prevê o seguinte: “§ 2º O estrangeiro ou brasileiro, quando não graduado em direito no Brasil, deve fazer prova do título de graduação, obtido em instituição estrangeira, devidamente revalidado, além de atender aos demais requisitos previstos neste artigo.” Portanto, para o exercício da advocacia é necessária a aprovação do Exame da Ordem, contudo, não convalida diplomas obtidos no exterior. Para isso, será necessário requerer a revalidação do diploma, bem como, cumprirem os demais requisitos do art. 8º da EOAB."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_5",
+        "materia": "Ética Profissional",
+        "assunto": "Publicidade e exercício da advocacia em conjunto com outras atividades",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Atena, médica oftalmologista, e Dionísio, advogado atuante em Direito de Família, são casados há 5 anos e residem em casa alugada na cidade de Uberaba/MG. Sendo ambos iniciantes em suas respectivas profissões e visando evitar gastos, decidem instalar seus escritórios profissionais na própria casa em que residem. Assim, montaram um consultório médico e um escritório de advocacia na parte frontal da residência e anunciaram conjuntamente, em outdoor próximo, os serviços médicos e advocatícios, em publicidade que ressaltou o fato de serem casados. Acerca dos limites das atividades de advocacia e da publicidade do advogado, conforme o Código de Ética e Disciplina e o Estatuto da Ordem dos Advogados do Brasil, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Atena e Dionísio poderão constituir seus escritórios profissionais no mesmo imóvel, bem como divulgar seus respectivos trabalhos conjuntamente, desde que o outdoor em que incluírem a publicidade seja de pequeno porte.",
+          "B": "A divulgação dos serviços de advocacia em conjunto com serviços médicos não é vedada, desde que tenha caráter meramente informativo e zele pela discrição e sobriedade.",
+          "C": "Dionísio não poderá anunciar seus serviços advocatícios em conjunto com outras atividades, ainda que com sua esposa que exerce a medicina, pois o Estatuto da Ordem e o Código de Ética e Disciplina proíbem tal conduta de forma peremptória.",
+          "D": "A divulgação conjunta dos serviços médicos e advocatícios será permitida, excepcionalmente, neste caso, porque Atena e Dionísio são casados e moram na mesma residência, de modo que não lhes seria possível exigir conduta diversa."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata sobre o exercício da advocacia em conjunto com outras atividades estranhas. A alternativa A está incorreta. Atena e Dionísio não poderão divulgar seus trabalhos em conjunto, por ser atividade estranha à advocacia, pois o Estatuto de Ética da Ordem dos Advogados do Brasil veda tal prática, nos termos do art. 16 da EOAB. Bem como, a publicidade em outdoors é vedada pelo Código de Ética e Disciplina da OAB, em seu art. 40, inciso II. A alternativa B está incorreta. Eles não poderão divulgar seus trabalhos em conjunto, por ser atividade estranha à advocacia, sendo a prática vedada pelo Estatuto de Ética da Ordem dos Advogados do Brasil, nos termos do art. 16 da EOAB. A alternativa C está correta. Não é possível anunciar serviços advocatícios em conjunto com outras atividades estranhas à advocacia, nos termos do art. 16 da EOAB. Vejamos: “Art. 16. Não são admitidas a registro nem podem funcionar todas as espécies de sociedades de advogados que apresentem forma ou características de sociedade empresária, que adotem denominação de fantasia, que realizem atividades estranhas à advocacia, que incluam como sócio ou titular de sociedade unipessoal de advocacia pessoa não inscrita como advogado ou totalmente proibida de advogar. (Redação dada pela Lei nº 13.247, de 2016).” A alternativa D está incorreta. Atena e Dionísio não poderão divulgar seus trabalhos em conjunto, nos termos do art. 16, da EOAB, sendo irrelevante o fato de serem casados."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_3",
+        "materia": "Ética Profissional",
+        "assunto": "Incompatibilidade para exercício da advocacia",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Roberto Silva, advogado e sócio fundador da sociedade de advogados Silva e Souza Advogados Associados, foi eleito para o cargo de Prefeito do Município Ômega. Embora feliz e motivado com o mandato que lhe foi confiado pela população, Roberto Silva não gostaria de se retirar da sociedade de advogados por ele fundada. Considerando o Estatuto da Advocacia e da OAB, assinale a afirmativa que descreve corretamente a situação societária e a eventual atuação de Roberto Silva como advogado após assumir o cargo de Prefeito de Ômega:",
+        "alternativas": {
+          "A": "É impositiva a exclusão de Roberto Silva da sociedade de advogados Silva e Souza Advogados Associados, dada a incompatibilidade do cargo de Prefeito Municipal com a advocacia.",
+          "B": "O exercício do mandato de Prefeito de Ômega impede apenas que Roberto Silva advogue contra a Fazenda Pública que o remunera, no caso o Município Ômega, não havendo óbice para que continue integrando a sociedade de advogados e atuando em causas diversas.",
+          "C": "O exercício do mandato de Prefeito de Ômega é incompatível com a advocacia, mas, por si só, não excluirá Roberto Silva da sociedade de advogados Silva e Souza Advogados Associados, a qual poderá continuar explorando o nome e a imagem do seu fundador em benefício da sociedade.",
+          "D": "Embora incompatível com a advocacia, o exercício do cargo de Prefeito de Ômega, por si só, não excluirá Roberto Silva da sociedade de advogados Silva e Souza Advogados Associados. Contudo, deve o fato ser averbado no registro da sociedade, bem como observada a incompatibilidade temporária."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata sobre as incompatibilidades com a advocacia. A alternativa D está correta. O cargo de Prefeito está entre aqueles que são incompatíveis com o exercício da advocacia, conforme o artigo 28, inciso I, do Estatuto da Advocacia. Isso significa que Roberto Silva não pode exercer a advocacia enquanto estiver no mandato. A saber: “Art. 28. A advocacia é incompatível, mesmo em causa própria, com as seguintes atividades: I - chefe do Poder Executivo e membros da Mesa do Poder Legislativo e seus substitutos legais;” Por ausência de previsão legal nesse sentido, o Estatuto da Advocacia não obriga a exclusão de Roberto Silva da sociedade de advogados que ele fundou. A situação de incompatibilidade deve ser averbada no registro da sociedade para constar oficialmente, para não ser explorada a sua imagem nesse sentido. As demais alternativas estão incorretas. As demais alternativas estão em desconformidade com o dispositivo indicado acima."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_5",
+        "materia": "Ética Profissional",
+        "assunto": "Impedimentos e incompatibilidades para o exercício da advocacia",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Roberto Gil, professor de Direito Administrativo da Universidade Federal do Estado Alfa, é casado com Maria Amélia, servidora do Ministério da Saúde há 35 anos. Maria Amélia contou a seu esposo que várias colegas do Ministério da Saúde estão ajuizando ações contra a União, em que postulam o recebimento de gratificações de atividade de combate e controle de endemias, e indagou a Roberto Gil se poderia assumir o patrocínio dessas causas como advogado. Com base no caso narrado, sobre as incompatibilidades e impedimentos ao exercício da advocacia, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O exercício da advocacia é incompatível com a de professor de Universidade Federal, não sendo possível a Roberto que atue no patrocínio de qualquer causa como advogado no Poder Judiciário.",
+          "B": "Roberto Gil não poderá assumir o patrocínio dessas causas, porque, sendo servidor da administração federal indireta, está impedido de exercer a advocacia contra a União, diante da vinculação existente entre a Universidade Federal e a União.",
+          "C": "Roberto Gil poderá assumir o patrocínio da causa apenas de sua esposa, pois, apesar de existir a regra de impedimento de exercício da advocacia contra a União por servidores da administração indireta federal, os membros da família estão incluídos no conceito de causa própria, o que autoriza a atuação em defesa de entes queridos.",
+          "D": "Embora, em regra, os servidores da administração indireta estejam impedidos de exercer advocacia contra a Fazenda Pública que os remunera ou à qual seja vinculada a entidade empregadora, Roberto Gil poderá assumir o patrocínio de causas contra a União, pois os docentes de cursos jurídicos não estão sujeitos a essa vedação."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata sobre circunstância de impedimento (art.30, EAOB). A alternativa A está incorreta. Roberto pode atuar como advogado em causas diversas, desde que não haja conflito de interesses com a União (art. 30, EOAB). A alternativa B está incorreta. Roberto, como professor de uma universidade federal (entidade da administração pública indireta), está impedido de exercer a advocacia contra a União (art. 30, EOAB). A alternativa C está incorreta. Mesmo que a causa seja em benefício de sua esposa, o impedimento de exercer a advocacia contra a União se mantém (art. 30, EOAB). A alternativa D está correta. A regra de impedimento aplica-se aos servidores da administração pública indireta, incluindo os docentes de universidades federais, que não podem advogar contra a União. Docentes de cursos jurídicos não se incluem nas hipóteses de impedidos de exercer a advocacia, previsto no art. 30, I e II da EOAB."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_1",
+        "materia": "Ética Profissional",
+        "assunto": "Impedimentos e incompatibilidades para o exercício da advocacia",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Pedro, advogado regularmente inscrito na OAB, foi eleito Deputado Federal e deseja continuar exercendo a advocacia, patrocinando causas contra a Caixa Econômica Federal. Ele também cogita a possibilidade de concorrer ao cargo de Presidente da Câmara dos Deputados. Com base nas disposições do Estatuto da OAB, assinale a afirmativa correta sobre a possibilidade de Pedro continuar atuando nessas situações.",
+        "alternativas": {
+          "A": "Caso Pedro seja eleito Presidente da Câmara dos Deputados, ficará impedido de atuar em causas contra a Caixa Econômica Federal, mas poderá atuar em causas particulares.",
+          "B": "Pedro, na condição de Deputado Federal, poderá advogar contra a Caixa Econômica Federal, tendo em vista que o impedimento se aplica apenas a causas de interesse direto do ente estatal.",
+          "C": "Como Deputado Federal, Pedro está impedido de exercer a advocacia contra a Caixa Econômica Federal, mas poderá atuar em causas que não envolvam entes públicos ou concessionárias de serviço público.",
+          "D": "Pedro, como Deputado Federal, estará em situação de total incompatibilidade com o exercício da advocacia e não poderá atuar como advogado em nenhuma causa, mesmo em processos particulares."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do impedimento do exercício da advocacia por Deputado Federal (art. 30, II, da Lei 8.906/94 - Art. 30. São impedidos de exercer a advocacia:[...]II – os ocupantes de cargos ou funções vinculados direta ou indiretamente a atividade policial de qualquer natureza, bem como os que exerçam função de autoridade pública, mesmo que de modo temporário ou sem remuneração;). A alternativa A está incorreta. A função de Presidente da Câmara dos Deputados gera incompatibilidade total com o exercício da advocacia (art. 28, I, da Lei 8.906/94) Art. 28. A advocacia é incompatível, mesmo em causa própria, com as seguintes atividades: I – Chefes do Poder Executivo e membros da Mesa do Poder Legislativo e respectivos substitutos legais;). A alternativa B está incorreta. O Deputado Federal está completamente impedido contra ou a favor das pessoas jurídicas de direito público, empresas públicas, sociedades de economia mista, fundações públicas, entidades paraestatais ou empresas concessionárias ou permissionárias de serviço público. A alternativa C está correta. O cargo de Deputado Federal gera apenas o impedimento de exercer a advocacia contra ou a favor das pessoas jurídicas de direito público, empresas públicas, sociedades de economia mista, fundações públicas, entidades paraestatais ou empresas concessionárias ou permissionárias de serviço público, conforme o Estatuto da OAB. A alternativa D está incorreta. A questão confunde incompatibilidade com impedimento parcial, o que não se aplica."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_2",
+        "materia": "Ética Profissional",
+        "assunto": "Incompatibilidades e impedimentos para o exercício da advocacia",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Roberto, advogado autônomo com destacada atuação no Direito Criminal, foi investido no cargo de diretor jurídico da Nossa Estatal, empresa pública federal que atua no mercado financeiro em regime de competição com o setor privado. Acerca da nova condição profissional de Roberto, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A nova atividade exercida por Roberto caracteriza incompatibilidade para o exercício da advocacia, mesmo em causa própria.",
+          "B": "Durante o período da investidura, Roberto estará exclusivamente legitimado para o exercício da advocacia vinculada ao cargo de diretor jurídico.",
+          "C": "Roberto, durante o período da investidura, somente não poderá atuar como advogado autônomo contra a Fazenda Pública à qual está vinculada sua entidade empregadora.",
+          "D": "Uma vez que a atuação de Roberto é na área criminal, sem relação direta com o mercado financeiro, Roberto poderá continuar exercendo normalmente a advocacia autônoma."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tema das incompatibilidades e impedimentos. A alternativa A está incorreta, pois a situação narrada não trata de causa de incompatibilidade, uma vez que não está prevista no art. 28 da Lei 8.906/1994. Veja a literalidade da lei: “Art. 28. A advocacia é incompatível, mesmo em causa própria, com as seguintes atividades: I - chefe do Poder Executivo e membros da Mesa do Poder Legislativo e seus substitutos legais; II - membros de órgãos do Poder Judiciário, do Ministério Público, dos tribunais e conselhos de contas, dos juizados especiais, da justiça de paz, juízes classistas, bem como de todos os que exerçam função de julgamento em órgãos de deliberação coletiva da administração pública direta e indireta; III - ocupantes de cargos ou funções de direção em Órgãos da Administração Pública direta ou indireta, em suas fundações e em suas empresas controladas ou concessionárias de serviço público; IV - ocupantes de cargos ou funções vinculados direta ou indiretamente a qualquer órgão do Poder Judiciário e os que exercem serviços notariais e de registro; V - ocupantes de cargos ou funções vinculados direta ou indiretamente a atividade policial de qualquer natureza; VI - militares de qualquer natureza, na ativa; VII - ocupantes de cargos ou funções que tenham competência de lançamento, arrecadação ou fiscalização de tributos e contribuições parafiscais; VIII - ocupantes de funções de direção e gerência em instituições financeiras, inclusive privadas. A alternativa B está correta, pois Roberto atua como dirigente de órgão jurídico da Administração Pública indireta e pela disposição literal do art. 29 da Lei 8.906/1994 deverá exercer de forma exclusiva o exercício da advocacia vinculada à função que exerçam. Veja a literalidade da lei: “Art. 29. Os Procuradores Gerais, Advogados Gerais, Defensores Gerais e dirigentes de órgãos jurídicos da Administração Pública direta, indireta e fundacional são exclusivamente legitimados para o exercício da advocacia vinculada à função que exerçam, durante o período da investidura.”. A alternativa C está incorreta, pois esta é uma causa de impedimento, prevista no art. 30, I, da Lei 8.906/1994. No caso narrado, aplica-se à Roberto a hipótese do art. 29 da Lei 8.906/1994. Veja a literalidade da lei: “Art. 29. Os Procuradores Gerais, Advogados Gerais, Defensores Gerais e dirigentes de órgãos jurídicos da Administração Pública direta, indireta e fundacional são exclusivamente legitimados para o exercício da advocacia vinculada à função que exerçam, durante o período da investidura. [...] Art. 30. São impedidos de exercer a advocacia: I - os servidores da administração direta, indireta e fundacional, contra a Fazenda Pública que os remunere ou à qual seja vinculada a entidade empregadora;”. A alternativa D está incorreta, pois como visto acima, apenas poderá praticar a advocacia vinculada à função que exerça, durante o período da investidura. Veja a literalidade da lei: “Art. 29. Os Procuradores Gerais, Advogados Gerais, Defensores Gerais e dirigentes de órgãos jurídicos da Administração Pública direta, indireta e fundacional são exclusivamente legitimados para o exercício da advocacia vinculada à função que exerçam, durante o período da investidura.”."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_3",
+        "materia": "Ética Profissional",
+        "assunto": "Sociedade de advogados: requisitos e vedações",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Gustavo, conhecido comerciante de Brasília/DF, obteve graduação no curso de Direito. Em sequência, foi aprovado no Exame de Ordem, e, em razão disso, inscreveu-se como advogado na OAB. Desejando conciliar as atividades de comércio com o exercício da advocacia, decidiu reunir, em um mesmo estabelecimento, seu escritório de advocacia e sua loja comercial, adaptando a fachada do prédio para identificar que, naquele local, praticava-se, conjuntamente, o comércio e a advocacia. Para solucionar a parte contábil, decidiu elaborar aditivo ao contrato social da sua sociedade empresária de comércio, tendo incorporado, como finalidade adicional da pessoa jurídica, a atividade de advocacia. Em função da expansão do negócio, admitiu sócios sem formação jurídica na sociedade, para que esses últimos conduzissem a parte comercial, e ele, Gustavo, pudesse se dedicar à prestação de serviços jurídicos. Sobre a natureza e as características da sociedade de advogados e sobre sua constituição e registro, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "É possível a admissão de sócio não advogado nas sociedades advocatícias, sendo proibido apenas que a razão social contenha o nome daquele sócio não inscrito na OAB.",
+          "B": "A sociedade criada por Gustavo não pode ser admitida a registro, porque congrega serviços de advocacia com atividades estranhas à prática advocatícia, além de contar com sócios não inscritos como advogado.",
+          "C": "Apesar de ser admitida a realização de atividades estranhas à advocacia por parte da sociedade de advogados, a sociedade fundada por Gustavo não pode ser registrada por incluir como sócio pessoa não inscrita como advogado.",
+          "D": "A conduta adotada por Gustavo de incorporar serviços de comércio e advocatícios em uma mesma pessoa jurídica, a despeito de pouco usual, é válida, porque se admite o registro nas juntas comerciais de sociedade que inclua, entre suas finalidades, a atividade de advocacia."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tema das sociedades de advogados. A alternativa A está incorreta, pois não será admitida a registro por (1) realizar atividades estranhas à advocacia e (2) incluir sócio não inscrito como advogado, nos termos do art. 16 da Lei 8.906/1994. Veja a literalidade da lei: “Art. 16. Não são admitidas a registro nem podem funcionar todas as espécies de sociedades de advogados que apresentem forma ou características de sociedade empresária, que adotem denominação de fantasia, que realizem atividades estranhas à advocacia, que incluam como sócio ou titular de sociedade unipessoal de advocacia pessoa não inscrita como advogado ou totalmente proibida de advogar.”. A alternativa B está correta, pois de fato, a sociedade criada por Gustavo não poderá ser admitida a registro, nos termos do art. 16 da Lei 8.906/1994: Veja a literalidade da lei: “Art. 16. Não são admitidas a registro nem podem funcionar todas as espécies de sociedades de advogados que apresentem forma ou características de sociedade empresária, que adotem denominação de fantasia, que realizem atividades estranhas à advocacia, que incluam como sócio ou titular de sociedade unipessoal de advocacia pessoa não inscrita como advogado ou totalmente proibida de advogar.”. A alternativa C está incorreta, pois não é admitida a realização de atividade estranhas à advocacia. Veja a literalidade da lei: “Art. 16. Não são admitidas a registro nem podem funcionar todas as espécies de sociedades de advogados que apresentem forma ou características de sociedade empresária, que adotem denominação de fantasia, que realizem atividades estranhas à advocacia, que incluam como sócio ou titular de sociedade unipessoal de advocacia pessoa não inscrita como advogado ou totalmente proibida de advogar.”. A alternativa D está incorreta, pois não é válida a inclusão de atividades estranhas à advocacia. Veja a literalidade da lei: “Art. 16. Não são admitidas a registro nem podem funcionar todas as espécies de sociedades de advogados que apresentem forma ou características de sociedade empresária, que adotem denominação de fantasia, que realizem atividades estranhas à advocacia, que incluam como sócio ou titular de sociedade unipessoal de advocacia pessoa não inscrita como advogado ou totalmente proibida de advogar.”."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_4",
+        "materia": "Ética Profissional",
+        "assunto": "Incompatibilidade para exercício da advocacia",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Tarcísio, advogado trabalhista com mais de 20 anos de experiência, prestou concurso público para a Outorga de Delegações de Serventias Notariais e Registrais e, após aprovação, assumiu um Tabelionato de Notas e Ofício de Registro Civil em uma comarca do mesmo Estado. Ele deseja saber se poderá continuar exercendo a advocacia em causa própria e, além disso, pretende patrocinar uma ação contra a empresa pública estadual responsável pelo fornecimento de água. Sobre incompatibilidades e impedimentos, com base nas disposições do Estatuto da OAB, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Tarcísio poderá exercer a advocacia apenas em causa própria, conforme prevê o Estatuto da OAB, mas estará impedido de advogar contra a empresa pública estadual de fornecimento de água.",
+          "B": "Tarcísio poderá advogar livremente, inclusive contra a empresa pública estadual de fornecimento de água, uma vez que o exercício da atividade notarial não gera impedimento para o exercício da advocacia.",
+          "C": "Tarcísio está em situação de incompatibilidade total com o exercício da advocacia, sendo vedada a atuação em qualquer causa, inclusive em causa própria, em razão de seu cargo como titular de serventia notarial e registral.",
+          "D": "Tarcísio poderá continuar exercendo a advocacia, desde que em causas particulares que não envolvam empresas públicas ou concessionárias de serviço público, estando livre de impedimentos em ações de interesse pessoal."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa certa é a letra C. A questão trata do tema incompatibilidade. A alternativa A está incorreta. Há incompatibilidade, ainda que advogando em causa própria, conforme prevê o Estatuto da OAB no Art. 28. A advocacia é incompatível, mesmo em causa própria, com as seguintes atividades: IV - ocupantes de cargos ou funções vinculados direta ou indiretamente a qualquer órgão do Poder Judiciário e os que exercem serviços notariais e de registro; A alternativa B está incorreta. Conforme já demonstrado não há compatibilidade por conta do serviço notarial exercido por Tarcísio; A alternativa C está correta. É o que dispõe o Estatuto da OAB no Art. 28. A advocacia é incompatível, mesmo em causa própria, com as seguintes atividades: IV - ocupantes de cargos ou funções vinculados direta ou indiretamente a qualquer órgão do Poder Judiciário e os que exercem serviços notariais e de registro; A alternativa D está incorreta. Se trata de hipótese de impedimento, conforme já demonstrado."
+      }
+    ]
+  },
+  "Sociedade De Advogados E Advogado Empregado": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Contrato de associação entre advogado e sociedade de advogados",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_6"
+        ],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir contrato de associação com vínculo societário ou empregatício; a FGV costuma testar se o candidato sabe que a associação exige formalização própria e registro na OAB, sem transformar o associado em sócio ou empregado."
+      },
+      {
+        "nome_microtema": "Sociedade unipessoal de advocacia: constituição, personalidade jurídica e denominação",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_2"
+        ],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Misturar regras de sociedade unipessoal com sociedade de advogados tradicional, especialmente sobre nome empresarial, sede, registro e aquisição de personalidade jurídica após o registro na OAB."
+      },
+      {
+        "nome_microtema": "Vedação de cumulação de sociedade unipessoal com sociedade de advogados",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_1"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A FGV induz o candidato a achar que basta separar clientes, processos ou declarar ausência de conflito para acumular duas estruturas societárias; a regra cobrada é a incompatibilidade da dupla vinculação societária."
+      },
+      {
+        "nome_microtema": "Atividade privativa de advocacia e vedação de sociedade com não advogado",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_7"
+        ],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir parceria comercial ou consultoria empresarial com sociedade de advocacia; a banca explora a proibição de exercício conjunto com atividade estranha à advocacia e a vedação de publicidade que misture indevidamente serviços jurídicos com outros serviços."
+      },
+      {
+        "nome_microtema": "Advogado empregado: jornada de trabalho e horas extras",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_8"
+        ],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Trocar a regra especial do advogado empregado pela lógica geral da CLT; a FGV costuma cobrar limite diário/semanal, dedicação exclusiva e a validade ou não de cláusula contratual prevendo jornada excessiva e adicional de horas extras."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando a formalização do vínculo, a estrutura societária permitida e as regras especiais do advogado empregado",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "segundo a legislação aplicável",
+        "com base no Estatuto da Advocacia",
+        "diante dos fatos",
+        "é correto afirmar"
+      ],
+      "padrão_distratores": "alternativas juridicamente plausíveis que trocam conceitos próximos: associação versus sociedade, sociedade unipessoal versus sociedade de advogados, parceria lícita versus sociedade com não advogado, e jornada especial do advogado empregado versus regra geral trabalhista"
+    },
+    "total_questoes_analisadas": 6,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_6",
+        "materia": "Ética Profissional",
+        "assunto": "Advogado associado - contrato de associação",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Determinada sociedade de advogados deseja se associar a advogados que não a integram para prestação de serviços e participação nos resultados. Segundo a legislação aplicável à formalização desse vínculo jurídico, assinale a opção que indica, corretamente, a conclusão dos administradores da sociedade de advogados.",
+        "alternativas": {
+          "A": "O contrato de associação não pode ser pactuado em caráter geral, devendo restringir-se a causas ou trabalhos específicos, sob pena de se configurarem os requisitos legais de vínculo empregatício.",
+          "B": "O contrato de associação deverá ser registrado no Conselho Seccional da OAB em cuja base territorial tiver sede a sociedade de advogados.",
+          "C": "O contrato de associação poderá atribuir a totalidade dos riscos à sociedade de advogados, mas não exclusivamente a um advogado sócio ou associado.",
+          "D": "O advogado não pode, simultaneamente, celebrar contrato de associação com mais de uma sociedade de advogados com sede ou filial na mesma área territorial do respectivo Conselho Seccional."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tema advogado associado. A alternativa A está incorreta. Esta afirmação é incorreta porque, conforme o artigo 17-B do Estatuto da OAB, o contrato de associação pode, de fato, ser de caráter geral ou restringir-se a determinadas causas ou trabalhos. Não há uma proibição para que o contrato seja geral, nem a lei estabelece que tal pactuação caracterizaria um vínculo empregatício. A alternativa B está correta. Esta afirmação está correta e em conformidade com o artigo 17-B do Estatuto da Ordem dos Advogados do Brasil (OAB), conforme modificado pela Lei nº 14.365, de 2022. O Estatuto especifica que o contrato de associação entre advogados e sociedades de advogados deve ser registrado no Conselho Seccional da OAB na base territorial onde a sociedade de advogados tem sede. Esse registro é fundamental para a formalização do vínculo jurídico de associação e garante a transparência e a segurança jurídica das relações profissionais na advocacia. A alternativa C está incorreta. Esta opção é incorreta porque o parágrafo único do artigo 17-B veda expressamente a atribuição da totalidade dos riscos ou das receitas exclusivamente a uma das partes do contrato de associação, seja a sociedade de advogados, seja o advogado sócio ou associado. Isso visa a uma partilha equitativa dos riscos e receitas decorrentes da atividade advocatícia. A alternativa D está incorreta. Esta afirmação é incorreta porque o Estatuto da OAB e as normas regulamentadoras não proíbem expressamente que um advogado celebre contratos de associação com mais de uma sociedade de advogados, mesmo na mesma área territorial do respectivo Conselho Seccional. A regulamentação foca mais na transparência e nas condições da associação do que na limitação do número de associações que um advogado pode estabelecer."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_8",
+        "materia": "Ética Profissional",
+        "assunto": "Honorários de sucumbência do advogado empregado",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Gilson, advogado recém inscrito nos quadros da Ordem dos Advogados do Brasil, estava em dúvida entre constituir sociedade unipessoal de advocacia, o que, em seu entender, lhe traria maior autonomia e liberdade, ou aceitar a proposta recebida da sociedade empresária XYZ, para atuar como advogado empregado em regime de dedicação exclusiva. Após estudar a legislação correlata, Gilson aceitou a proposta de emprego da sociedade empresária XYZ. Acerca desse vínculo contratual, de acordo com o texto legal do Estatuto da Advocacia, assinale a afirmativa correta",
+        "alternativas": {
+          "A": "Nas causas em que Gilson atuar como advogado empregado da empresa XYZ, ou de pessoa por esta representada, os honorários de sucumbência lhe pertencerão.",
+          "B": "Gilson estará eticamente obrigado a prestar serviços profissionais de interesse pessoal dos diretores da sociedade empresária XYZ.",
+          "C": "A jornada de trabalho de Gilson não poderá exceder a duração diária de 4 (quatro) horas contínuas e a de 20 (vinte) horas semanais.",
+          "D": "Em virtude da dedicação exclusiva, Gilson não poderá ser remunerado pelas horas trabalhadas excedentes à jornada normal prevista na legislação."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata sobre os honorários de sucumbência. A alternativa A está correta. Em se tratando de honorários de sucumbência de advogado de empresa, estes pertencem integralmente ao advogado empregado. Ao passo que, quando seu empregador é a sociedade de advogados, há a partilha dos honorários, conforme disposto no art. 21 da EOAB: “Nas causas em que for parte o empregador, ou pessoa por este representada, os honorários de sucumbência são devidos aos advogados empregados.” A alternativa B está incorreta. A relação de emprego, na qualidade de advogado, não obriga Gilson à prestação de serviços profissionais de interesse pessoal dos empregadores, fora da relação de emprego, consoante o art. 18, §1º da EOAB. A alternativa C está incorreta. Nos termos do art. 20 da EOAB, a jornada de trabalho do advogado empregado, quando prestar serviço para empresas, não poderá exceder a duração diária de 8 (oito) horas contínuas e a de 40 (quarenta) horas semanais. A alternativa D está incorreta. O trabalho em dedicação exclusiva não exime o empregador ao pagamento das horas extras, as quais deverão ser remuneradas por um adicional não inferior a cem por cento sobre o valor da hora normal, mesmo havendo contrato escrito, conforme prevê o art. 20, §2º da EOAB: “§ 2º As horas trabalhadas que excederem a jornada normal são remuneradas por um adicional não inferior a cem por cento sobre o valor da hora normal, mesmo havendo contrato escrito.”"
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_2",
+        "materia": "Ética Profissional",
+        "assunto": "Sociedade Unipessoal de Advocacia",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "João Pedro, destacado aluno do último semestre do curso de Direito, logrou êxito no Exame da Ordem dos Advogados do Brasil, sendo então convidado a integrar, assim que formado, uma renomada sociedade de advogados da sua cidade. Apesar de ter ficado honrado com o convite, João Pedro está em dúvida, pois em seus estudos para o Exame da OAB verificou ser possível constituir sociedade unipessoal de advocacia, opção que lhe parece mais atrativa. Considerando o enunciado, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A sociedade unipessoal de advocacia de João Pedro poderá ter como sede, título ou local de trabalho, um espaço físico individual ou compartilhado com outros escritórios de advocacia, desde que respeitadas as hipóteses de sigilo previstas na legislação.",
+          "B": "João Pedro poderá integrar a sociedade de advogados e, simultaneamente, constituir sociedade unipessoal de advocacia, ambas com sede ou filial na mesma área territorial da Seccional.",
+          "C": "João Pedro poderá escolher livremente a denominação de sua sociedade unipessoal de advocacia, sendo vedada a utilização de nome com a expressão “Sociedade Individual de Advogados”.",
+          "D": "A sociedade unipessoal de advocacia de João Pedro adquirirá personalidade jurídica com o registro aprovado dos seus atos constitutivos no Conselho Federal da OAB."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata da constituição da sociedade unipessoal de advocacia (art. 15, §12º da Lei 8.906/94 - § 12. A sociedade de advogados e a sociedade unipessoal de advocacia podem ter como sede, filial ou local de trabalho espaço de uso individual ou compartilhado com outros escritórios de advocacia ou empresas, desde que respeitadas as hipóteses de sigilo previstas nesta Lei e no Código de Ética e Disciplina). A alternativa A está correta. A sociedade unipessoal pode ter sede individual ou compartilhada, preservado o sigilo. A alternativa B está incorreta. O advogado não pode integrar simultaneamente uma sociedade de advogados e uma sociedade unipessoal (Art. 15, § 8º da Lei 8.906/94: Art. 15. [...] § 8º É vedado ao advogado integrar mais de uma sociedade de advogados com sede ou filial na mesma área territorial do respectivo Conselho Seccional.). A alternativa C está incorreta. O nome da sociedade deve conter obrigatoriamente o nome do titular seguido da expressão “Sociedade Individual de Advocacia” (Art. 16 da Lei 8.906/94: Art. 16. O nome da sociedade deve ser formado obrigatoriamente com o nome de um ou mais de seus integrantes, com a expressão \"Sociedade de Advogados\" ou \"Sociedade Individual de Advocacia\"). A alternativa D está incorreta. O registro da sociedade unipessoal ocorre no Conselho Seccional da OAB, e não no Conselho Federal (Art. 15, § 3º da Lei 8.906/94: Art. 15. O advogado pode reunir-se em sociedade simples de prestação de serviços de advocacia, na forma disciplinada nesta Lei e no regulamento geral. § 3º A sociedade adquire personalidade jurídica com o registro aprovado de seus atos constitutivos no Conselho Seccional da OAB da base territorial da sede da sociedade.)."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_1",
+        "materia": "Ética Profissional",
+        "assunto": "Sociedade de advogados e sociedade unipessoal",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Pedro é advogado regularmente inscrito no Conselho Seccional da OAB do Estado Alfa e constituiu uma Sociedade Unipessoal de Advocacia registrada e ativa na mesma unidade federativa. Recentemente, ele foi convidado pelo renomado advogado Abraão para integrar uma Sociedade de Advogados, também com sede no Estado Alfa, na qualidade de sócio. Pedro considerou a proposta promissora e cogita aceitá-la, acreditando que pode participar de ambas as sociedades, desde que evite atuar nos mesmos processos ou contra os interesses de clientes de uma delas. Sobre a decisão de Pedro, com base no Estatuto da Advocacia e da OAB, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Pedro poderá integrar ambas as sociedades, desde que atue em processos distintos e jamais represente partes com interesses opostos.",
+          "B": "Pedro poderá aceitar o convite de Abraão apenas se encerrar formalmente a Sociedade Unipessoal de Advocacia que já possui no Estado Alfa.",
+          "C": "Pedro poderá participar das duas sociedades se firmar declaração formal de que manterá independência profissional e não haverá conflito de interesses.",
+          "D": "Pedro poderá manter a sua sociedade unipessoal e, ao mesmo tempo, integrar a sociedade de Abraão desde que a nova sociedade registre filial em outra área territorial, ainda que continue atuando no Estado Alfa."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa certa é a letra B. A questão trata do tema sociedade de advogados. A alternativa A está incorreta. Não seria possível tal hipótese, pois Pedro não pode integrar ambas as sociedades, ainda que não represente partes com interesses distintos, por expressa vedação legal do Estatuto da OAB Art. 15 § 4º: Nenhum advogado pode integrar mais de uma sociedade de advogados, constituir mais de uma sociedade unipessoal de advocacia, ou integrar, simultaneamente, uma sociedade de advogados e uma sociedade unipessoal de advocacia, com sede ou filial na mesma área territorial do respectivo Conselho Seccional. A alternativa B está correta. De acordo com o Estatuto da OAB Art. 15. Os advogados podem reunir-se em sociedade simples de prestação de serviços de advocacia ou constituir sociedade unipessoal de advocacia, na forma disciplinada nesta Lei e no regulamento geral. § 4º Nenhum advogado pode integrar mais de uma sociedade de advogados, constituir mais de uma sociedade unipessoal de advocacia, ou integrar, simultaneamente, uma sociedade de advogados e uma sociedade unipessoal de advocacia, com sede ou filial na mesma área territorial do respectivo Conselho Seccional. A alternativa C está incorreta. Conforme já demonstrado, não poderá Pedro participar de duas sociedades como na hipótese apresentada. A alternativa D está incorreta. Não há a possibilidade, conforme já explicado, de figurar como sócio em mais de uma sociedade na mesma área territorial. Na hipótese não poderia continuar atuando no Estado Alfa."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_7",
+        "materia": "Ética Profissional",
+        "assunto": "Publicidade e Sociedade de Advogados",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Os irmãos, Matilde, advogada, e Frederico, consultor de empresas, decidiram firmar sociedade para prestar serviços jurídicos e de consultoria empresarial na capital mineira. Para isso, montaram um escritório em conjunto na cidade de Belo Horizonte, MG, divulgando seus serviços por meio de panfletos e redes sociais (Instagram e LinkedIn), ressaltando a natureza jurídica e empresarial das atividades como um ponto de destaque do escritório. Em relação às regras sobre a atividade privativa de advocacia e à publicidade de serviços advocatícios, conforme o Estatuto da Advocacia e da Ordem dos Advogados do Brasil, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "É vedada a divulgação dos serviços advocatícios em conjunto com qualquer outra atividade, inclusive a de consultoria empresarial.",
+          "B": "A publicidade conjunta dos serviços advocatícios e empresariais é permitida apenas quando realizada por meio de plataformas digitais, como redes sociais.",
+          "C": "Matilde e Frederico podem atuar conjuntamente, já que as atividades jurídicas e de consultoria empresarial possuem afinidade e se complementam.",
+          "D": "A divulgação dos serviços advocatícios juntamente com atividades de consultoria empresarial é permitida, desde que os materiais de publicidade sejam sóbrios e não induzam ao erro."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa certa é a letra A. A questão trata do tema publicidade. A alternativa A está correta. Prevê o Estatuto da OAB no Art. 16 que: “Não são admitidas a registro nem podem funcionar todas as espécies de sociedades de advogados que apresentem forma ou características de sociedade empresária, que adotem denominação de fantasia, que realizem atividades estranhas à advocacia, que incluam como sócio ou titular de sociedade unipessoal de advocacia pessoa não inscrita como advogado ou totalmente proibida de advogar.”; A alternativa B está incorreta. Não é permitida a publicidade conjunta, conforme já demonstrado na explicação da alternativa A; A alternativa C está incorreta. Há vedação expressa no Estatuto da OAB, conforme já exposto; A alternativa D está incorreta. Não há exceção, a vedação se dá por expressa previsão legal do Estatuto da OAB."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_8",
+        "materia": "Ética Profissional",
+        "assunto": "Jornada de trabalho do advogado empregado",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 20 do Estatuto da Advocacia e da OAB",
+        "enunciado": "A advogada Jéssica foi contratada pela sociedade empresária de telefonia Alfa para trabalhar 10 horas contínuas por dia, de segunda a quinta-feira, totalizando 40 horas semanais. Além disso, o contrato escrito firmado entre Jéssica e a sociedade empresária prevê que, em situações excepcionais, ela deverá trabalhar horas extras, sendo remunerada com um adicional de 50% sobre o valor da hora normal. Jéssica questiona a validade dessas condições contratuais, especialmente em relação à duração da jornada de trabalho e à remuneração das horas extras. Com base no Art. 20 do Estatuto da Advocacia e da OAB, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O contrato de Jéssica é válido, pois a jornada semanal não ultrapassa 40 horas, e as horas extras podem ser remuneradas com um adicional de 50% conforme estipulado no contrato.",
+          "B": "A sociedade empresária está correta ao fixar 10 horas de trabalho por dia, desde que Jéssica cumpra apenas quatro dias de trabalho por semana, sem a necessidade de pagamento de horas extras.",
+          "C": "O contrato de Jéssica é inválido, pois a jornada diária não pode exceder 8 horas contínuas, e as horas extras devem ser remuneradas com um adicional de 100%, conforme previsto no Estatuto da OAB, independentemente do contrato firmado.",
+          "D": "A sociedade empresária está agindo corretamente, pois Jéssica pode trabalhar até 10 horas por dia desde que sua jornada semanal não ultrapasse 40 horas, mas a remuneração das horas extras deveria ser de 100% sobre o valor da hora normal, independentemente do contrato escrito."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa certa é a letra C. A questão trata do tema contrato de trabalho do advogado. A alternativa A está incorreta. Primeiramente a jornada não pode extrapolar as 8h diárias, e além disto, as horas extras serão remuneradas em cem por cento, e não cinquenta, pois é regra específica, não se aplica a CLT. Prevê o Estatuto da OAB no Art. 20 que: “A jornada de trabalho do advogado empregado, quando prestar serviço para empresas, não poderá exceder a duração diária de 8 (oito) horas contínuas e a de 40 (quarenta) horas semanais. § 2º As horas trabalhadas que excederem a jornada normal são remuneradas por um adicional não inferior a cem por cento sobre o valor da hora normal, mesmo havendo contrato escrito.”; A alternativa B está incorreta. Conforme já demonstrado, a jornada é de 8h, e o excedente será pago como hora extra; A alternativa C está correta. Conforme prevê o Estatuto da OAB no Art. 20 que: “A jornada de trabalho do advogado empregado, quando prestar serviço para empresas, não poderá exceder a duração diária de 8 (oito) horas contínuas e a de 40 (quarenta) horas semanais. § 2º As horas trabalhadas que excederem a jornada normal são remuneradas por um adicional não inferior a cem por cento sobre o valor da hora normal, mesmo havendo contrato escrito.”; A alternativa D está incorreta. A jornada prevista pelo Estatuto da OAB é de 8 horas diárias e não de 10 horas."
+      }
+    ]
+  },
+  "Honorários Advocatícios": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Advocacia pro bono: requisitos, finalidade assistencial e vedação de captação",
+        "ids_questoes": [
+          "oab_38_06"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A FGV costuma confundir advocacia pro bono com mera gratuidade informal ou com publicidade/captação de clientela. A pegadinha é achar que qualquer atuação gratuita é ilícita, quando a regra exige finalidade assistencial, ausência de intuito lucrativo e observância das normas éticas."
+      },
+      {
+        "nome_microtema": "Mandato judicial/extrajudicial: duração, prazo e extinção pelo decurso do tempo",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_4"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A banca explora a ideia de que o mandato sempre se extingue com o tempo. A confusão clássica é ignorar que, em atividades de trato sucessivo ou prolongadas por sua natureza, o mandato pode subsistir, salvo estipulação em contrário."
+      },
+      {
+        "nome_microtema": "Honorários advocatícios por serviços não formalizados: reconhecimento de atuação consultiva informal e efeitos prospectivos",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_7"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A FGV induz o candidato a negar remuneração por ausência de contrato específico ou de mandato formal para a consultoria. A pegadinha é desconsiderar que a prestação efetiva de serviços pode gerar direito a honorários, inclusive quando depois há formalização contratual com efeitos apenas prospectivos."
+      },
+      {
+        "nome_microtema": "Honorários convencionais e sucumbenciais: autonomia do crédito do advogado e ineficácia de acordo sem sua participação",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_5"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A banca costuma fazer o examinando acreditar que o cliente pode renunciar ou transacionar livremente para afastar os honorários do advogado. A confusão clássica é esquecer que os honorários pertencem ao advogado e que acordo entre cliente e parte contrária, sem participação do patrono, não elimina automaticamente esse direito."
+      },
+      {
+        "nome_microtema": "Sigilo profissional e recusa de depoimento testemunhal do ex-advogado",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_2"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A FGV tenta levar o candidato a concluir que, encerrado o vínculo, o advogado pode ser compelido a depor. A pegadinha é ignorar que o sigilo profissional subsiste e impede o depoimento sobre fatos cobertos pela confidencialidade, ainda que a relação tenha terminado."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo aplicação literal e combinada do Estatuto da Advocacia, Código de Ética e regras sobre honorários, mandato e sigilo",
+      "palavras_gatilho": [
+        "assinale a afirmativa correta",
+        "sobre a hipótese apresentada",
+        "no caso relatado",
+        "diante do contexto",
+        "é correto afirmar"
+      ],
+      "padrão_distratores": "alternativas juridicamente plausíveis, com troca sutil entre regra geral e exceção; a FGV explora formalismo excessivo, confusão entre contrato e mandato, entre direito do cliente e crédito do advogado, e entre extinção da relação profissional e persistência do sigilo ou do direito aos honorários"
+    },
+    "total_questoes_analisadas": 5,
+    "banco_questoes": [
+      {
+        "id": "oab_38_06",
+        "materia": "Ética Profissional",
+        "assunto": "Advocacia pro bono",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "O advogado Luís Santos, regularmente inscrito na OAB, está em início de carreira. Luís presta serviços jurídicos a determinada instituição social sem fins econômicos, consistentes em patrocinar seus interesses em demanda judicial em curso. Sobre a atuação de Luís, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Não poderá ser considerada advocacia pro bono a atuação gratuita de Luís como advogado das pessoas naturais, hipossuficientes econômicas, beneficiárias da instituição social.",
+          "B": "É ilícito que Luís preste gratuitamente tais serviços jurídicos, se o objetivo é valer-se de sua atuação como instrumento de publicidade da sua atividade profissional.",
+          "C": "A atuação gratuita de Luís, ainda que não seja eventual, na defesa em Juízo da mencionada instituição social, pode ser considerada advocacia pro bono.",
+          "D": "É admitida a prestação por Luís, sob a forma de advocacia pro bono voluntária, de serviços jurídicos para uma instituição social cobrando preços simbólicos, haja vista a ausência de fins econômicos."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa B está correta com base no art. 30, §3º, do Código de Ética e Disciplina, que veda o uso da advocacia pro bono como instrumento de publicidade para captação de clientela."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_4",
+        "materia": "Ética Profissional",
+        "assunto": "Mandato Judicial e Extrajudicial - Prazo de Vigência",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Sebastião, advogado, celebrou contrato de mandato com o cliente Amir, para representá-lo extrajudicialmente, tendo realizado diligências em prol da resolução do imbróglio. Desde a celebração do mandato, passaram-se mais de 20 (vinte) anos, mas as atividades para as quais Amir contratou Sebastião, por sua própria natureza, se protraíram no tempo, sendo ainda necessárias a Amir. Sobre a hipótese apresentada, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O mandato extinguiu-se pelo decurso do tempo, sendo vedada a previsão de prazo diverso no respectivo documento.",
+          "B": "O mandato extinguiu-se pelo decurso do tempo, sendo vedada a previsão de prazo diverso no respectivo instrumento.",
+          "C": "O mandato não se extinguiu pelo decurso do tempo, salvo se foi consignado prazo no respectivo instrumento.",
+          "D": "O mandato não se extinguiu pelo decurso do tempo, sendo vedada a estipulação de prazo no respectivo instrumento."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema mandato entre cliente e advogado. A alternativa A está incorreta. Esta afirmação é incorreta porque a lei não estabelece uma regra geral de extinção do mandato pelo simples decurso do tempo, nem proíbe a estipulação de prazos para a duração do mandato no respectivo instrumento. Vejamos o Código de Ética da OAB: \"Art. 16. O mandato judicial ou extrajudicial não se extingue pelo decurso de tempo, desde que permaneça a confiança recíproca entre o outorgante e o seu patrono no interesse da causa.\" A alternativa B está incorreta. O mandato, especialmente na advocacia, não se extingue automaticamente pelo decurso do tempo, e a lei permite que as partes estipulem prazos no contrato de mandato. A alternativa C está correta. Conforme o Estatuto da Advocacia e a Ordem dos Advogados do Brasil (OAB) e o Código Civil brasileiro, o mandato conferido a um advogado para representação extrajudicial de um cliente não possui prazo de validade fixo ou determinado pelo mero decurso do tempo. A relação de mandato entre advogado e cliente permanece válida e eficaz enquanto cumprir as finalidades para as quais foi estabelecida, a menos que um prazo específico tenha sido expressamente acordado no instrumento de mandato. Portanto, na ausência de um prazo estipulado no contrato de mandato, este não se extingue automaticamente pelo decurso do tempo, permanecendo vigente até que as partes decidam terminá-lo ou até a conclusão das atividades contratadas. Vejamos o Código Civil: \"Art. 682. Cessa o mandato: I - pela revogação ou pela renúncia; II - pela morte ou interdição de uma das partes; III - pela mudança de estado que inabilite o mandante a conferir os poderes, ou o mandatário para os exercer; IV - pelo término do prazo ou pela conclusão do negócio.\" Assim, entende-se que não havendo prazo, o mandado é dado por prazo indeterminado. A alternativa D está incorreta. Esta opção é incorreta porque, apesar de acertar ao dizer que o mandato não se extinguiu pelo decurso do tempo, erra ao afirmar que é vedada a estipulação de prazo no contrato de mandato. O Código Civil e o Estatuto da OAB permitem que as partes acordem sobre a duração do mandato, incluindo a possibilidade de definir um prazo para sua vigência."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_7",
+        "materia": "Ética Profissional",
+        "assunto": "Consultoria jurídica verbal e formalização de honorários",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária Alfa contratou o advogado João Carlos para propor ação de repetição de indébito tributário contra a Fazenda Nacional. Foi outorgado mandato específico para a referida demanda e celebrado o respectivo contrato de honorários. No decorrer da prestação dos serviços, devido ao grande conhecimento de João Carlos em outras áreas do direito, bem como à sua pronta disponibilidade, os responsáveis pela Alfa passaram a consultá-lo informalmente sobre diversos assuntos da empresa, inclusive adotando medidas e tomando decisões a partir das orientações verbais prestadas. Seis meses após o início dessas consultas, a empresa Alfa e João Carlos formalizaram outro contrato de honorários advocatícios, com efeitos prospectivos, desta feita para a prestação da atividade consultiva em curso. Acerca da atuação profissional de João Carlos durante o período anterior à formalização do contrato de honorários, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Não há como reconhecer as atividades prestadas por João Carlos no período anterior à formalização do contrato de honorários, pois a atuação do advogado, salvo em situações urgentes, exige a prova do mandato.",
+          "B": "A outorga de mandato para as atividades de consultoria jurídica é prescindível, porém a falta de formalização dos serviços prestados, por meio de contrato de honorários, torna o período anterior insuscetível de reconhecimento.",
+          "C": "As atividades prestadas por João Carlos no período podem ser reconhecidas, uma vez que a consultoria jurídica independe de outorga de mandato ou formalização por contrato de honorários, sendo desinfluente o modo pelo qual foram prestados os serviços.",
+          "D": "O não reconhecimento das atividades prestadas por João Carlos no período anterior à formalização do contrato de honorários decorre do fato de que a atuação se deu de forma verbal, de tal modo que, se a atuação tivesse se dado por escrito, as atividades prestadas poderiam ser reconhecidas."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata sobre a consultoria jurídica. A alternativa C está correta. A consultoria jurídica independe de outorga de mandato e pode ser reconhecida mesmo sem contrato de honorários formalizado, desde que haja evidências de que os serviços foram prestados. O reconhecimento das atividades pode ocorrer com base na relação de confiança e nos serviços efetivamente prestados, consoante o art. 4º, §4º da EOAB: “§ 4º As atividades de consultoria e assessoria jurídicas podem ser exercidas de modo verbal ou por escrito, a critério do advogado e do cliente, e independem de outorga de mandato ou de formalização por contrato de honorários. (Incluído pela Lei nº 14.365, de 2022)”. As demais alternativas estão incorretas. As demais alternativas estão em desconformidade com o dispositivo indicado acima."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_5",
+        "materia": "Ética Profissional",
+        "assunto": "Honorários advocatícios - acordo extrajudicial sem aquiescência do advogado",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 24 do Estatuto da Advocacia e da OAB (Lei 8.906/1994)",
+        "enunciado": "O advogado Gomes representou Dênis em uma ação de responsabilidade civil contra o Banco Alfa, tendo firmado contrato escrito com Dênis, no qual foi estipulado que Gomes receberia honorários convencionais de 20% sobre o proveito econômico obtido, além dos honorários sucumbenciais que fossem concedidos. No entanto, Dênis entrou em contato diretamente com o advogado do Banco Alfa e firmou um acordo extrajudicial para receber R$ 5.000,00 de indenização por danos morais, sem a participação de Gomes e renunciando aos direitos aos honorários advocatícios. Gomes foi informado do acordo posteriormente. Sobre o caso relatado, com base no Art. 24 do Estatuto da Advocacia e da OAB, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Dênis tem o direito de renunciar aos honorários advocatícios convencionados e sucumbenciais, desde que tenha feito isso expressamente no acordo com o Banco Alfa, e isso prejudica o direito de Gomes de receber qualquer valor.",
+          "B": "O acordo firmado por Dênis com o Banco Alfa retira o direito de Gomes aos honorários convencionados, mas Gomes ainda pode pleitear apenas os honorários sucumbenciais, desde que haja condenação judicial.",
+          "C": "Gomes mantém o direito aos honorários convencionados e sucumbenciais, independentemente do acordo realizado por Dênis com o Banco Alfa, uma vez que o acordo não prejudica o advogado sem sua aquiescência.",
+          "D": "Gomes somente poderá cobrar os honorários convencionados se houver uma decisão judicial declarando nulo o acordo firmado entre Dênis e o Banco Alfa."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata do tema dos honorários advocatícios. A alternativa A está incorreta, pois não prejudica o direito de Gomes de receber os honorários convencionados, nos termos do §4º do art. 24 da Lei 8.906/1994. Veja a literalidade da lei: “Art. 24. A decisão judicial que fixar ou arbitrar honorários e o contrato escrito que os estipular são títulos executivos e constituem crédito privilegiado na falência, concordata, concurso de credores, insolvência civil e liquidação extrajudicial. [...] § 4º O acordo feito pelo cliente do advogado e a parte contrária, salvo aquiescência do profissional, não lhe prejudica os honorários, quer os convencionados, quer os concedidos por sentença.” A alternativa B está incorreta, pois o acordo feito não retira o direito de Gomes de receber os honorários convencionados nos termos do §4º do art. 24 da Lei 8.906/1994. A alternativa C está correta, de fato, é o que estabelece o §4º do art. 24 da Lei 8.906/1994. A alternativa D está incorreta, pois não há essa previsão no §4º do art. 24 da Lei 8.906/1994."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_2",
+        "materia": "Ética Profissional",
+        "assunto": "Sigilo profissional e dever de não depor",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Durante muitos anos, João representou Pedro, na condição de seu advogado, em diversas causas. Recentemente, após encerrados todos os vínculos contratuais existentes entre si, Pedro passou a ser investigado pelo suposto cometimento de ilícitos tributários. Sobre esse contexto, de acordo com o Estatuto da Ordem e com o Código de Ética e Disciplina da Ordem dos Advogados do Brasil, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "João não poderá ser obrigado a depor como testemunha no curso de eventual processo judicial em face de Pedro, ainda que este expressamente o autorize ou solicite o depoimento do ex-advogado.",
+          "B": "João não poderá ser obrigado a depor como testemunha no curso de eventual processo judicial em face de Pedro, exceto se este expressamente o autorizar, ou no caso de solicitação do próprio ex-constituinte.",
+          "C": "João poderá ser obrigado a depor sobre fatos que constituam sigilo profissional caso seu depoimento seja considerado imprescindível para a instrução em processos criminais que apurem a prática de crimes dolosos contra a vida.",
+          "D": "Considerando que a investigação se iniciou após a extinção da relação profissional existente entre João e Pedro, não há qualquer prerrogativa em favor de João que o escuse da obrigação de depor como testemunha no curso de processo judicial sobre fato relacionado com pessoa de quem já foi advogado."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa certa é a letra A. A questão trata do tema sigilo profissional. A alternativa A está correta. É direito do advogado não depor, conforme dispõe o Estatuto da OAB no art. 7° XIX - recusar-se a depor como testemunha em processo no qual funcionou ou deva funcionar, ou sobre fato relacionado com pessoa de quem seja ou foi advogado, mesmo quando autorizado ou solicitado pelo constituinte, bem como sobre fato que constitua sigilo profissional; A alternativa B está incorreta. Conforme já explicado, constitui direito do advogado preservar o sigilo, mesmo quando solicitado pelo constituinte; A alternativa C está incorreta. O advogado não pode ser obrigado a depor, conforme já visto, o art. 7° do Estatuto da OAB prevê este direito; A alternativa D está incorreta. O fato de o contrato já ter sido encerrado não afasta o sigilo."
+      }
+    ]
+  },
+  "Deveres Éticos E Relação Com O Cliente": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Honorários e reembolso em caso de bloqueio universal de bens do cliente (crimes com restrição patrimonial)",
+        "ids_questoes": [
+          "oab_38_01"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "A FGV costuma misturar a regra de preservação dos honorários/reembolso com a ideia de liberação automática de percentual fixo dos bens bloqueados. A pegadinha é fazer o candidato achar que sempre cabe 20% ou que a advocacia pode escolher livremente qualquer bem, quando a disciplina depende da natureza do bloqueio e das hipóteses legais específicas."
+      },
+      {
+        "nome_microtema": "Deveres éticos do advogado: atuação com independência, urbanidade, conciliação e função social da advocacia",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_3"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "A FGV troca deveres gerais da profissão por enunciados sedutores e amplos, como 'pugnar pela cidadania' ou 'atuar como patrona da parte'. A confusão clássica é entre dever ético efetivo previsto no Estatuto/Código e formulações genéricas de missão social, que parecem corretas mas não correspondem ao comando normativo cobrado."
+      },
+      {
+        "nome_microtema": "Infração disciplinar por peça manifestamente incabível e uso de argumentos/dados deturpados para iludir o juízo",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_3"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "A banca explora a diferença entre erro técnico simples e conduta disciplinarmente punível. A pegadinha é minimizar a falta como mero equívoco sem dolo, quando o caso descreve recurso manifestamente incabível e uso de doutrina/jurisprudência deturpadas para confundir o adversário ou iludir o juiz, o que aponta para infração ética sancionável."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo a aplicação pontual do Estatuto da Advocacia e do Código de Ética; a FGV prefere situações-limite envolvendo deveres profissionais, sanções disciplinares e atuação do advogado diante do cliente, do juízo e da parte contrária.",
+      "palavras_gatilho": [
+        "é correto concluir",
+        "assinale a afirmativa correta",
+        "sobre esse contexto",
+        "diante dos fatos",
+        "poderá",
+        "deverá",
+        "é admissível",
+        "manifestamente incabível",
+        "deturpada",
+        "iludir o Juiz"
+      ]
+    },
+    "total_questoes_analisadas": 3,
+    "banco_questoes": [
+      {
+        "id": "oab_38_01",
+        "materia": "Ética Profissional",
+        "assunto": "Bloqueio de bens e honorários",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Teresa Silva, advogada atuante na área criminal, tem como clientes Luiz, acusado de tráfico ilícito de drogas, e Roberto, acusado de crimes contra o sistema financeiro nacional. Após serem proferidas decisões judiciais que determinam o bloqueio universal dos patrimônios de Luiz e Roberto, Teresa se indaga a respeito dos meios disponíveis para obter os valores necessários ao reembolso de gastos com a defesa e ao recebimento de honorários desses clientes. Sobre esse assunto, é correto concluir que",
+        "alternativas": {
+          "A": "garantir-se-á a Teresa a liberação de 20% (vinte por cento) dos bens bloqueados de Luiz para o fim de reembolso de gastos com a defesa, vedado o recebimento de honorários.",
+          "B": "garantir-se-á a Teresa a liberação de 20% (vinte por cento) dos bens bloqueados de Roberto para o fim de reembolso de gastos com a defesa e o recebimento de honorário.",
+          "C": "Teresa poderá optar pela venda de bens de Luiz em hasta pública para o reembolso de gastos com a defesa.",
+          "D": "Teresa não poderá realizar a adjudicação de bens de Roberto para a satisfação dos honorários devidos."
+        },
+        "gabarito": "B",
+        "comentario": "Conforme Art. 24-A da Lei n° 8.906/94, garante-se a liberação de até 20% dos bens bloqueados para honorários e reembolso de gastos, ressalvadas as causas relacionadas à Lei de Drogas (Lei n° 11.343/06). Portanto, a alternativa B está correta, pois o caso de Roberto não se enquadra na exceção."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-41_3",
+        "materia": "Ética Profissional",
+        "assunto": "Deveres éticos do advogado",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Ana Júlia, recentemente aprovada no Exame da Ordem dos Advogados do Brasil, aspira exercer sua nova atividade profissional de maneira comprometida com os deveres éticos e valores inerentes à elevada função pública da profissão. Nesse sentido, assinale a afirmativa que corretamente descreve a hipótese de cumprimento de dever ético por Ana Júlia.",
+        "alternativas": {
+          "A": "Ana Júlia deverá, sempre que possível, estimular a conciliação e a mediação entre os litigantes, entendendo-se diretamente com a parte adversa, cujo eventual patrono constituído, na hipótese de haver a solução do conflito, deverá ser ulteriormente comunicado.",
+          "B": "Nos pleitos administrativos ou judiciais em que ingressar, Ana Júlia deverá atuar com destemor e independência, especialmente perante aquelas autoridades com as quais tenha vínculos negociais ou familiares.",
+          "C": "Ana Júlia deverá pugnar pela solução dos problemas da cidadania e pela efetivação dos direitos individuais, coletivos e difusos, dever que pode ser cumprido, por exemplo, com a adoção de política permanente de contratação de honorários advocatícios em valores abaixo da tabela da OAB.",
+          "D": "No exercício do seu mandato, Ana Júlia deverá atuar como patrona da parte e, portanto, imprimir à causa orientação que lhe pareça mais adequada, procurando esclarecer a estratégia traçada ao cliente, mas sem se subordinar às suas intenções contrárias."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata sobre os deveres éticos e valores da advocacia. A alternativa A está incorreta. Ao contrário do que afirma a alternativa, Ana Júlia deverá estimular, a qualquer tempo, a conciliação e a mediação entre os litigantes, prevenindo que ocorra a instauração do litígio, nos termos do art. 2º, VI do Código de Ética e Disciplina da OAB. Portanto, a comunicação deve ser feita desde logo na hipótese de haver a solução do conflito. A alternativa B está incorreta. Ana Júlia não poderá atuar em causas em que figurar como parte autoridades com as quais tenha vínculos negociais ou familiares, conforme determina o art. 2º, VIII, alínea e, do Código de Ética e Disciplina da OAB. A alternativa C está incorreta. Ana Júlia poderá atuar em causas em que envolvam direitos individuais, coletivos e difusos, mas sem submeter seus serviços prestados mediante remuneração inferior ao mínimo fixado pela Tabela de Honorários que for aplicável, conforme prevê o art. 29 do Código de Ética e Disciplina da OAB. A alternativa D está correta. A alternativa expressa o que prevê a literalidade do art. 11 do Código de Ética e Disciplina da Ordem dos Advogados do Brasil, a saber: “O advogado, no exercício do mandato, atua como patrono da parte, cumprindo-lhe, por isso, imprimir à causa orientação que lhe pareça mais adequada, sem se subordinar a intenções contrárias do cliente, mas, antes, procurando esclarecê-lo quanto à estratégia traçada.”"
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_3",
+        "materia": "Ética Profissional",
+        "assunto": "Infrações e sanções disciplinares - pena de censura",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Antônio, advogado experiente e com extensa carteira de clientes, decidiu fazer uso de instrumentos de inteligência artificial, para auxílio na elaboração de peças processuais. Apesar da revisão posterior, com assessoramento de seu estagiário, dos textos produzidos pela nova tecnologia, determinado Magistrado notifica-o para prestar esclarecimentos acerca de recurso interposto de forma manifestamente incabível. No parecer da OAB, Antônio identificou que foram citadas doutrina e jurisprudência de forma deturpada, em situação que poderia confundir o adversário ou iludir o Juiz da causa. Sobre esse contexto, de acordo com o Estatuto da Ordem dos Advogados do Brasil, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Por não ter agido de forma dolosa, Antônio não poderá sofrer qualquer tipo de sanção disciplinar, uma vez que o advogado é responsável pelos atos praticados com culpa.",
+          "B": "Em razão da gravidade da situação, após o devido processo disciplinar, Antônio poderá ser apenado com a suspensão do exercício da advocacia por período que poderá variar de 30 dias a 12 meses.",
+          "C": "Antônio poderá ser aplicada a pena de censura, a qual pode ser convertida em advertência, com eficiência reservado, sem registro nos seus assentamentos, quando estiver presente circunstância atenuante.",
+          "D": "Caso se trate de situação reincidente, Antônio poderá ser apenado com a sanção de exclusão, devendo ser cancelada sua inscrição na Ordem dos Advogados do Brasil."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata da pena de censura e sua conversão em advertência (art. 36 da Lei 8.906/94). A alternativa A está incorreta. O advogado pode ser responsabilizado disciplinarmente mesmo sem dolo, havendo culpa (Art. 34, inciso XIV da Lei 8.906/94: Art. 34. Constitui infração disciplinar: [...] XIV – deturpar o teor de dispositivo de lei, de citação doutrinária ou de julgado, bem como de depoimentos, documentos e alegações da parte contrária, para confundir o adversário ou iludir o juiz da causa.). A alternativa B está incorreta. A pena de suspensão exige maior gravidade do ato, o que não se configurou no caso. A pena no caso é de censura. A alternativa C está correta. A pena de censura pode ser aplicada e convertida em advertência com eficácia reservada, conforme o Estatuto da OAB (Art. 36. A censura é aplicável nos casos de: I - infrações definidas nos incisos I a XVI e XXIX do art. 34; II - violação a preceito do Código de Ética e Disciplina; III - violação a preceito desta lei, quando para a infração não se tenha estabelecido sanção mais grave.). A alternativa D está incorreta. A exclusão é uma pena extrema que depende de reincidência grave, o que não se verificou (art. 38 da Lei 8.906/94: Art. 38. A exclusão é aplicável nos casos de: I - aplicação, por três vezes, de suspensão; II - infrações definidas nos incisos XXVI a XXVIII do art. 34)."
+      }
+    ]
+  },
+  "Publicidade Na Advocacia": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Publicidade profissional por sociedade de advogados em evento/congresso e vedação de captação de clientela",
+        "ids_questoes": [
+          "oab_38_04"
+        ],
+        "peso_percentual": 55,
+        "armadilha_favorita": "A FGV costuma misturar publicidade institucional lícita com promoção mercantilista: o candidato é levado a achar que, por ser congresso técnico, qualquer patrocínio ou divulgação seria permitido. A pegadinha está em identificar que o evento em resort, com finalidade explícita de publicidade, pode caracterizar captação indevida, e que a presença de clientes/público externo costuma ser o ponto de corte para a ilicitude."
+      },
+      {
+        "nome_microtema": "Publicidade em meio eletrônico: artigos jurídicos, comentários acadêmicos e limites de divulgação de contatos",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_4"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "A FGV confunde conteúdo informativo/jurídico permitido com publicidade ativa proibida. A armadilha clássica é fazer o examinando achar que, por ser site especializado e texto acadêmico, o advogado pode inserir telefone, e-mail, responder consultas ou transformar o espaço em canal de captação. O ponto decisivo é separar divulgação de conteúdo jurídico de oferta de serviços e de captação de clientela."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando a fronteira entre publicidade informativa e captação de clientela, com detalhes do meio utilizado (evento, site, congresso, artigo, contato direto) para induzir erro.",
+      "palavras_gatilho": [
+        "é correto afirmar",
+        "diante dos fatos",
+        "é admissível",
+        "publicidade",
+        "captação de clientela",
+        "meios de contato",
+        "site especializado",
+        "congresso",
+        "resort"
+      ]
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "oab_38_04",
+        "materia": "Ética Profissional",
+        "assunto": "Publicidade profissional e patrocínio de eventos",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Uma sociedade de advogados decidiu patrocinar a realização de um evento, sob o formato de um congresso, em certo hotel de lazer do tipo “resort”, que conta com área de conferências, com o explícito fim de publicidade de suas atividades profissionais. Considerando a forma de publicidade escolhida, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Não é autorizada, independentemente de quem seja o público convidado para o evento, tendo em vista o local escolhido. Todavia, se o congresso fosse realizado em local diverso do hotel selecionado, seria admitido o seu patrocínio como meio de publicidade.",
+          "B": "É admitida, desde que os participantes sejam apenas integrantes da sociedade de advogados, funcionários ou clientes.",
+          "C": "É autorizada, sendo admitida a participação de clientes da sociedade de advogados e de interessados do meio jurídico.",
+          "D": "Não é autorizada, independentemente de quem seja o público convidado para o evento, ou do local onde realizado."
+        },
+        "gabarito": "C",
+        "comentario": "O comentário do documento indica que o gabarito preliminar da banca foi a letra 'C', mas há um entendimento de que a 'D' seria a mais correta com base nos artigos 39 e 45 do CED, pois o patrocínio deve ser de eventos de caráter científico ou cultural e a publicidade deve ser meramente informativa e discreta."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_4",
+        "materia": "Ética Profissional",
+        "assunto": "Publicidade profissional e limites",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "O advogado Antônio comentou em matérias veiculadas em página da internet consistente em sítio eletrônico especializado em publicar artigos acadêmicos e jurídicos, novas teses que são sancionadas e faz explicações de fácil compreensão de conceitos e normas jurídicas. De acordo com o disposto no Código de Ética e Disciplina da OAB, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "É autorizado que Antônio responda às consultas jurídicas com habilitação na página mencionada para promoção pessoal.",
+          "B": "É vedado que Antônio mencione seu e-mail e telefone na mencionada página, assim como o nome do escritório onde trabalha.",
+          "C": "Antônio não poderá fornecer, nas matérias que publica, seus meios de contato, tais como endereço e telefone, mas é permitida a referência a e-mail.",
+          "D": "Não é vedado que Antônio, ao comentar a atuação de colegas advogados em tais feitos, cite casos emblemáticos para a explicação de tais normas e conceitos."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata da publicidade profissional e seus limites (art. 39 do Código de Ética e Disciplina da OAB). A alternativa A está incorreta. Não é permitido responder consultas jurídicas para promoção pessoal (art. 42, I do Código de Ética e Disciplina da OAB: Art. 42. É vedado ao advogado: I – responder com habitualidade a consulta sobre matéria jurídica, nos meios de comunicação social;). A alternativa B está incorreta. É permitido indicar e-mail e telefone, desde que não caracterize captação de clientela (art. 40, V do Código de Ética e Disciplina da OAB: V – o fornecimento de dados de contato, como endereço e telefone, em colunas ou artigos literários, culturais, acadêmicos ou jurídicos, publicados na imprensa, bem assim quando de eventual participação em programas de rádio ou televisão, ou em veiculação de matérias pela internet, sendo permitida a referência a e-mail;). A alternativa C está correta. O advogado pode divulgar seu e-mail em publicações, mas não endereço físico ou telefone (art. 40, V do Código de Ética e Disciplina da OAB: V – o fornecimento de dados de contato, como endereço e telefone, em colunas ou artigos literários, culturais, acadêmicos ou jurídicos, publicados na imprensa, bem assim quando de eventual participação em programas de rádio ou televisão, ou em veiculação de matérias pela internet, sendo permitida a referência a e-mail;). A alternativa D está incorreta. É vedado comentar casos concretos e atuação de colegas para fins de divulgação pública (art. 42, II do Código de Ética e Disciplina da OAB: II – debater, em qualquer meio de comunicação, causa sob o patrocínio de outro advogado;)."
+      }
+    ]
+  },
+  "Infrações E Sanções Disciplinares": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Infrações disciplinares por violação de deveres éticos e estatutários",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir mera irregularidade administrativa com infração disciplinar punível pela OAB."
+      },
+      {
+        "nome_microtema": "Sanções disciplinares: censura, suspensão, exclusão e multa",
+        "ids_questoes": [],
+        "peso_percentual": 25,
+        "armadilha_favorita": "Trocar a sanção cabível conforme a gravidade da conduta e a reincidência."
+      },
+      {
+        "nome_microtema": "Hipóteses de suspensão do exercício profissional",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir suspensão por infração disciplinar com suspensão por inadimplência de anuidades."
+      },
+      {
+        "nome_microtema": "Hipóteses de exclusão dos quadros da OAB",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Misturar exclusão com suspensão, especialmente quando há reincidência ou conduta gravíssima."
+      },
+      {
+        "nome_microtema": "Multa disciplinar e sua cumulação com outras sanções",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Achar que a multa é sanção autônoma sempre aplicável, quando em regra depende da infração e da previsão legal."
+      },
+      {
+        "nome_microtema": "Reincidência, atenuantes e agravantes na dosimetria disciplinar",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Ignorar que a reincidência pode elevar a sanção e alterar o enquadramento disciplinar."
+      },
+      {
+        "nome_microtema": "Prescrição da pretensão punitiva disciplinar",
+        "ids_questoes": [],
+        "peso_percentual": 5,
+        "armadilha_favorita": "Confundir prazo prescricional disciplinar com prazos processuais ou com prescrição civil."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto com conduta do advogado, destacando circunstâncias como reincidência, gravidade, dolo, prejuízo ao cliente, abandono, captação indevida ou inadimplência. A questão exige identificar a infração, a sanção cabível e a diferença entre institutos próximos, com alternativas todas plausíveis e uma única correta.",
+      "palavras_gatilho": [
+        "reincidência",
+        "suspensão",
+        "exclusão",
+        "censura",
+        "multa",
+        "infração disciplinar",
+        "inadimplência",
+        "dosimetria",
+        "prescrição",
+        "abandono de causa",
+        "captação de clientela",
+        "violação de sigilo",
+        "conduta incompatível"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "O Processo Disciplinar Na Oab": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Competência, instauração e legitimidade para representação disciplinar",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir quem pode provocar a apuração disciplinar com quem efetivamente instaura e conduz o processo."
+      },
+      {
+        "nome_microtema": "Fases do processo disciplinar e rito procedimental no TED",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Misturar a fase de admissibilidade/sindicância com a instrução e o julgamento no Tribunal de Ética e Disciplina."
+      },
+      {
+        "nome_microtema": "Citação, defesa prévia, instrução probatória e prazos",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Trocar prazo de defesa, forma de intimação e momento de produção de prova, especialmente em casos de revelia."
+      },
+      {
+        "nome_microtema": "Relator, julgamento, quórum e votação no órgão julgador",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir o papel do relator com o do julgador colegiado e errar o quórum exigido para condenação ou absolvição."
+      },
+      {
+        "nome_microtema": "Recursos no processo disciplinar e efeitos da interposição",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Misturar recurso cabível, prazo recursal e efeito suspensivo, sobretudo quando a sanção aplicada é de suspensão."
+      },
+      {
+        "nome_microtema": "Prescrição da pretensão punitiva e intercorrente",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir termo inicial da prescrição com causas de interrupção e suspensão do prazo disciplinar."
+      },
+      {
+        "nome_microtema": "Nulidades, sigilo, impedimentos e garantias do acusado",
+        "ids_questoes": [],
+        "peso_percentual": 6,
+        "armadilha_favorita": "Trocar nulidade absoluta por relativa e ignorar hipóteses de impedimento/suspeição dos julgadores."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma narrar um caso concreto envolvendo representação por infração ético-disciplinar, com detalhes sobre instauração, defesa, instrução, julgamento e recurso. A pegadinha está em pequenos desvios procedimentais: prazo contado de forma errada, órgão incompetente, recurso inadequado, ou confusão entre sindicância, processo disciplinar e execução da sanção.",
+      "palavras_gatilho": [
+        "representação",
+        "Tribunal de Ética e Disciplina",
+        "defesa prévia",
+        "citação",
+        "revelia",
+        "relator",
+        "quórum",
+        "recurso",
+        "efeito suspensivo",
+        "prescrição",
+        "sindicância",
+        "nulidade"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Órgãos Da Oab (Conselho Federal, Seccionais, Subseções, Caixa De Assistência)": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Conselho Federal da OAB: competência normativa, recursal e representação institucional",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir a competência do Conselho Federal com a das Seccionais, especialmente em matéria normativa e de recursos."
+      },
+      {
+        "nome_microtema": "Conselhos Seccionais: competência administrativa, disciplinar e organizacional",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Achar que a Seccional pode exercer funções privativas do Conselho Federal ou da Subseção."
+      },
+      {
+        "nome_microtema": "Subseções da OAB: natureza jurídica, limites de atuação e ausência de autonomia plena",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Tratar a Subseção como órgão com competência disciplinar ou normativa própria, quando sua atuação é descentralizada e limitada."
+      },
+      {
+        "nome_microtema": "Caixa de Assistência dos Advogados: finalidade assistencial, vinculação à Seccional e autonomia administrativa",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir a Caixa de Assistência com órgão disciplinar ou com entidade independente da Seccional."
+      },
+      {
+        "nome_microtema": "Estrutura federativa da OAB e distribuição de competências entre órgãos",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Misturar competências privativas, concorrentes e delegadas entre Conselho Federal, Seccionais, Subseções e Caixa de Assistência."
+      },
+      {
+        "nome_microtema": "Eleição, composição e funcionamento dos órgãos da OAB",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Trocar regras de composição, mandato e forma de escolha dos dirigentes de cada órgão."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo conflito de competência entre órgãos da OAB, exigindo identificar quem pode normatizar, fiscalizar, julgar, representar ou prestar assistência. A pegadinha geralmente está em atribuir a um órgão função típica de outro, com redação tecnicamente plausível e detalhes sobre hierarquia interna, autonomia e limites de atuação.",
+      "palavras_gatilho": [
+        "competência",
+        "atribuição",
+        "normatizar",
+        "julgar",
+        "representar",
+        "disciplina",
+        "Seccional",
+        "Subseção",
+        "Caixa de Assistência",
+        "Conselho Federal",
+        "autonomia",
+        "vinculação"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  }
+}

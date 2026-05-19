@@ -1,0 +1,122 @@
+[
+  {
+    "id": 7124,
+    "nome": "Conceitos Iniciais"
+  },
+  {
+    "id": 7129,
+    "nome": "Ramos da Estatística"
+  },
+  {
+    "id": 7130,
+    "nome": "Censo"
+  },
+  {
+    "id": 7131,
+    "nome": "Amostra"
+  },
+  {
+    "id": 7125,
+    "nome": "Proporção Amostral"
+  },
+  {
+    "id": 416497,
+    "nome": "Tipos de variáveis"
+  },
+  {
+    "id": 7142,
+    "nome": "Cálculo de Medidas Estatísticas"
+  },
+  {
+    "id": 7144,
+    "nome": "Séries Estatísticas"
+  },
+  {
+    "id": 426553,
+    "nome": "Distribuições de Frequências"
+  },
+  {
+    "id": 426562,
+    "nome": "Tipos de Frequências"
+  },
+  {
+    "id": 426554,
+    "nome": "Variáveis"
+  },
+  {
+    "id": 7176,
+    "nome": "Histograma"
+  },
+  {
+    "id": 7192,
+    "nome": "Medidas de Posição"
+  },
+  {
+    "id": 7202,
+    "nome": "Mediana"
+  },
+  {
+    "id": 7206,
+    "nome": "Moda"
+  },
+  {
+    "id": 7212,
+    "nome": "Medidas de Variabilidade"
+  },
+  {
+    "id": 7219,
+    "nome": "Variância"
+  },
+  {
+    "id": 7228,
+    "nome": "Desvio Padrão"
+  },
+  {
+    "id": 7227,
+    "nome": "Covariância e Correlação"
+  },
+  {
+    "id": 7254,
+    "nome": "Correlação Linear"
+  },
+  {
+    "id": 7255,
+    "nome": "Coeficiente de Correlação Linear"
+  },
+  {
+    "id": 7251,
+    "nome": "Assimetria"
+  },
+  {
+    "id": 7244,
+    "nome": "Curtose"
+  },
+  {
+    "id": 7132,
+    "nome": "Amostragem"
+  },
+  {
+    "id": 426608,
+    "nome": "Estatística Inferencial"
+  },
+  {
+    "id": 7233,
+    "nome": "Intervalos de Confiança"
+  },
+  {
+    "id": 416536,
+    "nome": "Testes de Hipóteses"
+  },
+  {
+    "id": 7298,
+    "nome": "Testes de Hipóteses para a Média"
+  },
+  {
+    "id": 7295,
+    "nome": "Usando a Distribuição Binomial"
+  },
+  {
+    "id": 7294,
+    "nome": "Teste Qui-Quadrado"
+  }
+]

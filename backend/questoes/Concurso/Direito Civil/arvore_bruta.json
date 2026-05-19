@@ -1,0 +1,4550 @@
+[
+  {
+    "id": 405866,
+    "nome": "Lei de Introdução às Normas do Direito Brasileiro - LINDB |"
+  },
+  {
+    "id": 415355,
+    "nome": "Vigência e Eficácia das Normas Jurídicas (Art. 1º) |"
+  },
+  {
+    "id": 424785,
+    "nome": "Conceitos (vigência, vigor, eficácia e outros) |"
+  },
+  {
+    "id": 424786,
+    "nome": "Princípio da Vigência Sincrônica (vacatio legis) |"
+  },
+  {
+    "id": 424787,
+    "nome": "Correções no Texto da Lei |"
+  },
+  {
+    "id": 424788,
+    "nome": "Princípio da obrigatoriedade |"
+  },
+  {
+    "id": 415356,
+    "nome": "Eficácia da Lei no Tempo (Art. 2º) |"
+  },
+  {
+    "id": 424789,
+    "nome": "Continuidade da Lei |"
+  },
+  {
+    "id": 424790,
+    "nome": "Revogação da Lei |"
+  },
+  {
+    "id": 424791,
+    "nome": "Ab-rogação |"
+  },
+  {
+    "id": 424792,
+    "nome": "Derrogação |"
+  },
+  {
+    "id": 424793,
+    "nome": "Repristinação da Lei ou Efeito Repristinatório |"
+  },
+  {
+    "id": 415357,
+    "nome": "Critérios de Interpretação (hermenêutica) e Integração da Lei (Art. 3º ao 5º) |"
+  },
+  {
+    "id": 424794,
+    "nome": "Interpretação e aplicação da Lei |"
+  },
+  {
+    "id": 424795,
+    "nome": "Definição e questões gerais |"
+  },
+  {
+    "id": 424796,
+    "nome": "Subsunção do fato à norma |"
+  },
+  {
+    "id": 424797,
+    "nome": "Conceito de interpretação |"
+  },
+  {
+    "id": 424798,
+    "nome": "Critérios de Interpretação da lei |"
+  },
+  {
+    "id": 424799,
+    "nome": "Interpretação Quanto à Fonte ou Origem |"
+  },
+  {
+    "id": 424800,
+    "nome": "Interpretação Autêntica |"
+  },
+  {
+    "id": 424801,
+    "nome": "Interpretação Jurisprudencial |"
+  },
+  {
+    "id": 424802,
+    "nome": "Interpretação Doutrinária |"
+  },
+  {
+    "id": 424803,
+    "nome": "Interpretação Quanto ao Meio ou Elemento Utilizado |"
+  },
+  {
+    "id": 424805,
+    "nome": "Interpretação Gramatical ou Literal |"
+  },
+  {
+    "id": 424806,
+    "nome": "Interpretação Histórica |"
+  },
+  {
+    "id": 424807,
+    "nome": "Interpretação Lógica ou Racional |"
+  },
+  {
+    "id": 424808,
+    "nome": "Interpretação Teleológica ou Sociológica |"
+  },
+  {
+    "id": 425052,
+    "nome": "Interpretação Sistemática |"
+  },
+  {
+    "id": 424804,
+    "nome": "Interpretação Quanto ao Resultado |"
+  },
+  {
+    "id": 424811,
+    "nome": "Interpretação Extensiva |"
+  },
+  {
+    "id": 424812,
+    "nome": "Integração (Art. 4º) |"
+  },
+  {
+    "id": 424813,
+    "nome": "Definição e questões gerais |"
+  },
+  {
+    "id": 424814,
+    "nome": "Analogia |"
+  },
+  {
+    "id": 424815,
+    "nome": "Costumes |"
+  },
+  {
+    "id": 424816,
+    "nome": "Princípios Gerais do Direito |"
+  },
+  {
+    "id": 424817,
+    "nome": "Equidade |"
+  },
+  {
+    "id": 415358,
+    "nome": "Conflitos de Leis no Tempo - Conflito Intertemporal (Art. 6º) |"
+  },
+  {
+    "id": 424818,
+    "nome": "Retroatividade e questões gerais |"
+  },
+  {
+    "id": 424819,
+    "nome": "Ato Jurídico Perfeito |"
+  },
+  {
+    "id": 424820,
+    "nome": "Direito Adquirido |"
+  },
+  {
+    "id": 424821,
+    "nome": "Coisa Julgada |"
+  },
+  {
+    "id": 424822,
+    "nome": "Antinomia Jurídica |"
+  },
+  {
+    "id": 424823,
+    "nome": "Antinomia Real |"
+  },
+  {
+    "id": 424824,
+    "nome": "Antinomia Aparente |"
+  },
+  {
+    "id": 415359,
+    "nome": "Eficácia, Aplicação e Conflito de Leis no Espaço - Conflito interespacial (Art. 7º ao 19, LINDB) |"
+  },
+  {
+    "id": 424826,
+    "nome": "Conceitos gerais |"
+  },
+  {
+    "id": 424828,
+    "nome": "Territorialidade |"
+  },
+  {
+    "id": 424829,
+    "nome": "Estatuto pessoal |"
+  },
+  {
+    "id": 424830,
+    "nome": "Outros conceitos |"
+  },
+  {
+    "id": 415360,
+    "nome": "Eficácia de personalidade, capacidade, nome e direito de família (Art. 7º) |"
+  },
+  {
+    "id": 415361,
+    "nome": "Eficácia de Bens (art. 8º) |"
+  },
+  {
+    "id": 415362,
+    "nome": "Eficácia das Obrigações (Art. 9º) |"
+  },
+  {
+    "id": 415363,
+    "nome": "Eficácia das Sucessões (Art. 10) |"
+  },
+  {
+    "id": 415364,
+    "nome": "Eficácia das Organizações de Interesse Social e Coletivo (Art. 11) |"
+  },
+  {
+    "id": 415365,
+    "nome": "Competência das Autoridades Brasileiras, normas Processuais e Concessão de Exequatur (Art. 12 ao 19) |"
+  },
+  {
+    "id": 424831,
+    "nome": "Segurança Jurídica e Eficiência na Criação e Aplicação do Direito Público (Art. 20 ao 30) |"
+  },
+  {
+    "id": 405865,
+    "nome": "Teoria Geral do Direito Civil |"
+  },
+  {
+    "id": 415301,
+    "nome": "Direito Positivo e Direito Natural |"
+  },
+  {
+    "id": 415305,
+    "nome": "Direito Objetivo e Direito Subjetivo |"
+  },
+  {
+    "id": 415309,
+    "nome": "Direito Potestativo |"
+  },
+  {
+    "id": 415310,
+    "nome": "Direito Público e Privado |"
+  },
+  {
+    "id": 415311,
+    "nome": "Conceito de Direito Civil |"
+  },
+  {
+    "id": 415313,
+    "nome": "Objeto do Direito Civil |"
+  },
+  {
+    "id": 415327,
+    "nome": "Histórico do Direito Civil |"
+  },
+  {
+    "id": 415328,
+    "nome": "Formação do Código Civil de 2002 |"
+  },
+  {
+    "id": 415329,
+    "nome": "Princípios, Diretrizes Teóricas ou Baldrames do Código Civil |"
+  },
+  {
+    "id": 415330,
+    "nome": "Princípio da Sociabilidade |"
+  },
+  {
+    "id": 415331,
+    "nome": "Princípio da Eticidade |"
+  },
+  {
+    "id": 415332,
+    "nome": "Princípio da Operabilidade |"
+  },
+  {
+    "id": 424832,
+    "nome": "Cláusula aberta e conceitos jurídicos indeterminados |"
+  },
+  {
+    "id": 424833,
+    "nome": "Constitucionalização do Direito Civil |"
+  },
+  {
+    "id": 415333,
+    "nome": "Fontes do Direito Civil |"
+  },
+  {
+    "id": 415334,
+    "nome": "Fontes Formais , Estatais ou Primárias |"
+  },
+  {
+    "id": 415335,
+    "nome": "Lei |"
+  },
+  {
+    "id": 415336,
+    "nome": "Jurisprudência |"
+  },
+  {
+    "id": 415337,
+    "nome": "Tratados e Convenções |"
+  },
+  {
+    "id": 415338,
+    "nome": "Fontes Materiais, Não-Estatais ou Secundárias |"
+  },
+  {
+    "id": 415339,
+    "nome": "Costumes |"
+  },
+  {
+    "id": 415341,
+    "nome": "Princípios Gerais do Direito |"
+  },
+  {
+    "id": 415342,
+    "nome": "Analogia |"
+  },
+  {
+    "id": 415343,
+    "nome": "Equidade |"
+  },
+  {
+    "id": 415344,
+    "nome": "Normas Jurídicas |"
+  },
+  {
+    "id": 415346,
+    "nome": "Classificação das Normas Jurídicas |"
+  },
+  {
+    "id": 415347,
+    "nome": "Quanto à Duração (normas temporárias e permanentes) |"
+  },
+  {
+    "id": 415348,
+    "nome": "Quanto à Amplitude (normas gerais, especiais, excepcionais e singulares) |"
+  },
+  {
+    "id": 415349,
+    "nome": "Quanto à Obrigatoriedade (normas cogentes e supletivas) |"
+  },
+  {
+    "id": 415350,
+    "nome": "Quanto à Intensidade da Sanção (normas perfeitas, mais que perfeitas, menos que perfeitas e imperfeitas) |"
+  },
+  {
+    "id": 415351,
+    "nome": "Quanto aos Efeitos (imperativas, proibitivas, facultativas, punitivas) |"
+  },
+  {
+    "id": 415353,
+    "nome": "Quanto à Hierarquia (normas constitucionais, leis complementares, leis ordinárias, etc) |"
+  },
+  {
+    "id": 405867,
+    "nome": "Pessoas (Art. 1º ao 78) |"
+  },
+  {
+    "id": 405868,
+    "nome": "Das Pessoas Naturais (Art. 1º ao 39) |"
+  },
+  {
+    "id": 405869,
+    "nome": "Personalidade (Art. 2º) |"
+  },
+  {
+    "id": 415378,
+    "nome": "Conceito e teorias sobre início da personalidade |"
+  },
+  {
+    "id": 424834,
+    "nome": "Sujeito de direito despersonalizado ou despersonificados |"
+  },
+  {
+    "id": 405870,
+    "nome": "Capacidade (Art. 1º, 3º e 4º) |"
+  },
+  {
+    "id": 415366,
+    "nome": "Capacidade de Direito e de Fato |"
+  },
+  {
+    "id": 424835,
+    "nome": "Definição |"
+  },
+  {
+    "id": 415367,
+    "nome": "Incapacidade Absoluta (Art. 3º) |"
+  },
+  {
+    "id": 415368,
+    "nome": "Incapacidade Relativa (Art. 4º) |"
+  },
+  {
+    "id": 415369,
+    "nome": "Capacidade Civil do Índio |"
+  },
+  {
+    "id": 415370,
+    "nome": "Cessação da Incapacidade (Art. 5º) |"
+  },
+  {
+    "id": 415372,
+    "nome": "Cessação da Menoridade (Art. 5º) |"
+  },
+  {
+    "id": 415373,
+    "nome": "Emancipação (Art. 5º) |"
+  },
+  {
+    "id": 424836,
+    "nome": "Emancipação Legal |"
+  },
+  {
+    "id": 424837,
+    "nome": "Emancipação Voluntária |"
+  },
+  {
+    "id": 424839,
+    "nome": "Emancipação Judicial |"
+  },
+  {
+    "id": 424840,
+    "nome": "Características e definição da Emancipação |"
+  },
+  {
+    "id": 424841,
+    "nome": "Legitimação |"
+  },
+  {
+    "id": 415371,
+    "nome": "Extinção da Personalidade |"
+  },
+  {
+    "id": 415374,
+    "nome": "Morte da Pessoa Natural |"
+  },
+  {
+    "id": 415375,
+    "nome": "Presunção de Morte (Art. 6º e 7º) |"
+  },
+  {
+    "id": 424842,
+    "nome": "Morte Presumida sem Declaração de Ausência |"
+  },
+  {
+    "id": 415376,
+    "nome": "Comoriência (Art. 8º) |"
+  },
+  {
+    "id": 415377,
+    "nome": "Registro e averbação no Registro Civil - (Art. 9º e 10) |"
+  },
+  {
+    "id": 424843,
+    "nome": "Dos Direitos da Personalidade |"
+  },
+  {
+    "id": 424844,
+    "nome": "Características dos Direitos da Personalidade (Art. 11) |"
+  },
+  {
+    "id": 424845,
+    "nome": "Distinções dos Direitos da Personalidade |"
+  },
+  {
+    "id": 424846,
+    "nome": "Disposições do CC/2002 sobre Direitos da Personalidade |"
+  },
+  {
+    "id": 424848,
+    "nome": "Ameaça ou Lesão a Direito da Personalidade |"
+  },
+  {
+    "id": 424849,
+    "nome": "Disposição do Próprio Corpo |"
+  },
+  {
+    "id": 424850,
+    "nome": "Nome civil e Pseudônimo |"
+  },
+  {
+    "id": 424851,
+    "nome": "Proteção à Imagem e à Transmissão da Palavra |"
+  },
+  {
+    "id": 424852,
+    "nome": "Proteção à Intimidade |"
+  },
+  {
+    "id": 424847,
+    "nome": "Outros direitos da personalidade |"
+  },
+  {
+    "id": 415379,
+    "nome": "Estado da Pessoa Natural (estado civil) |"
+  },
+  {
+    "id": 424853,
+    "nome": "Estado Individual ou Físico |"
+  },
+  {
+    "id": 424854,
+    "nome": "Estado Familiar |"
+  },
+  {
+    "id": 405871,
+    "nome": "Da Ausência (Art. 22 ao 39) |"
+  },
+  {
+    "id": 424856,
+    "nome": "Definição |"
+  },
+  {
+    "id": 405872,
+    "nome": "Curadoria dos Bens do Ausente (Art. 22 ao 25) |"
+  },
+  {
+    "id": 405873,
+    "nome": "Sucessão Provisória (Art. 26 ao 36) |"
+  },
+  {
+    "id": 405874,
+    "nome": "Sucessão Definitiva (Art. 37 ao 39) |"
+  },
+  {
+    "id": 405875,
+    "nome": "Das Pessoas Jurídicas (Art. 40 ao 69) |"
+  },
+  {
+    "id": 424857,
+    "nome": "Disposições Gerais - Pessoas Jurídicas (Art. 40 ao 52) |"
+  },
+  {
+    "id": 424858,
+    "nome": "Conceito, teorias, constituição e características |"
+  },
+  {
+    "id": 424859,
+    "nome": "Extinção |"
+  },
+  {
+    "id": 424860,
+    "nome": "Direitos da personalidade da pessoa jurídica |"
+  },
+  {
+    "id": 405876,
+    "nome": "Da Desconsideração da Personalidade Jurídica |"
+  },
+  {
+    "id": 424861,
+    "nome": "Classificação (espécies) das Pessoas Jurídicas (Art. 40 ao 44) |"
+  },
+  {
+    "id": 424862,
+    "nome": "Quanto à Nacionalidade |"
+  },
+  {
+    "id": 424865,
+    "nome": "Pessoa Jurídica Nacional ou Interna (Art. 41, 43 e 44) |"
+  },
+  {
+    "id": 424866,
+    "nome": "Pessoa Jurídica Internacional ou Externa (Art. 42) |"
+  },
+  {
+    "id": 424863,
+    "nome": "Quanto à Capacidade/Função |"
+  },
+  {
+    "id": 424867,
+    "nome": "Pessoa Jurídica de Direito Público (Art. 40 ao 43) |"
+  },
+  {
+    "id": 424868,
+    "nome": "Pessoa Jurídica de Direito Privado (Art. 40 e 44) |"
+  },
+  {
+    "id": 424864,
+    "nome": "Grupos Não-Personificados ou Despersonalizados |"
+  },
+  {
+    "id": 424869,
+    "nome": "Corporações Especiais |"
+  },
+  {
+    "id": 424870,
+    "nome": "Partidos políticos |"
+  },
+  {
+    "id": 424871,
+    "nome": "Organizações Religiosas |"
+  },
+  {
+    "id": 405877,
+    "nome": "Das Associações (Art. 53 ao 61) |"
+  },
+  {
+    "id": 424872,
+    "nome": "Conceito de Associação (Art. 53) |"
+  },
+  {
+    "id": 424873,
+    "nome": "Determinações do Estatuto das Associações (Art. 54) |"
+  },
+  {
+    "id": 424874,
+    "nome": "Direitos e Deveres do Associado (Art. 55 ao 58) |"
+  },
+  {
+    "id": 424875,
+    "nome": "Competências da Assembleia Geral das Associações (Art. 59 e 60) |"
+  },
+  {
+    "id": 424876,
+    "nome": "Dissolução das Associações (Art. 61) |"
+  },
+  {
+    "id": 405878,
+    "nome": "Das Fundações (Art. 62 ao 69) |"
+  },
+  {
+    "id": 424877,
+    "nome": "Constituição das Fundações (Art. 62) |"
+  },
+  {
+    "id": 424878,
+    "nome": "Objetivos das Fundações (Art. 63) |"
+  },
+  {
+    "id": 424879,
+    "nome": "Patrimônio das Fundações (Art. 64 ao 65) |"
+  },
+  {
+    "id": 424880,
+    "nome": "Velação das Fundações (Art. 66) |"
+  },
+  {
+    "id": 424881,
+    "nome": "Alteração do Estatuto das Fundações (Art. 67 ao 68) |"
+  },
+  {
+    "id": 424882,
+    "nome": "Extinção das Fundações (Art. 69) |"
+  },
+  {
+    "id": 405879,
+    "nome": "Do Domicílio (Art. 70 ao 78) |"
+  },
+  {
+    "id": 424883,
+    "nome": "Conceito de domicílio e residência |"
+  },
+  {
+    "id": 415381,
+    "nome": "Domicílio da Pessoa Natural (Art. 70 ao 74) |"
+  },
+  {
+    "id": 424884,
+    "nome": "Pluralidade de Domicílios da Pessoa Natural (Art. 71) |"
+  },
+  {
+    "id": 424885,
+    "nome": "Domicílio Profissional (Art. 72) |"
+  },
+  {
+    "id": 424886,
+    "nome": "Mudança de Domicílio (Art. 74) |"
+  },
+  {
+    "id": 415382,
+    "nome": "Domicílio da Pessoa Jurídica (Art. 75) |"
+  },
+  {
+    "id": 424887,
+    "nome": "Pluralidade de Domicílios da Pessoa Jurídica (Art. 75) |"
+  },
+  {
+    "id": 415383,
+    "nome": "Domicílio Necessário (Art. 76) |"
+  },
+  {
+    "id": 415384,
+    "nome": "Domicílio do Agente Diplomático (Art. 77) |"
+  },
+  {
+    "id": 415385,
+    "nome": "Domicílio Contratual (Art. 78) |"
+  },
+  {
+    "id": 405880,
+    "nome": "Bens (Art. 79 ao 103) |"
+  },
+  {
+    "id": 415388,
+    "nome": "Noções Gerais dos Bens |"
+  },
+  {
+    "id": 405881,
+    "nome": "Classificação ou classes dos Bens (Art. 79 ao 97) |"
+  },
+  {
+    "id": 415387,
+    "nome": "Dos Bens Considerados em Si Mesmos (Art. 79 ao Art. 91) |"
+  },
+  {
+    "id": 405883,
+    "nome": "Bens Imóveis (Art. 79 ao 81) |"
+  },
+  {
+    "id": 405884,
+    "nome": "Bens Móveis (Art. 82 ao 84) |"
+  },
+  {
+    "id": 405885,
+    "nome": "Bens Fungíveis e Infungíveis (Art. 85) |"
+  },
+  {
+    "id": 415391,
+    "nome": "Bens Consumíveis e Inconsumíveis (Art. 86) |"
+  },
+  {
+    "id": 405886,
+    "nome": "Bens Divisíveis e Indivisíveis (Art. 87 e 88) |"
+  },
+  {
+    "id": 405887,
+    "nome": "Bens Singulares e Coletivos (Art. 89 ao 91) |"
+  },
+  {
+    "id": 424888,
+    "nome": "Universalidade de Fato (Art. 90) |"
+  },
+  {
+    "id": 424889,
+    "nome": "Universalidade de Direito (Art. 91) |"
+  },
+  {
+    "id": 415393,
+    "nome": "Bens Corpóreos, Materiais ou Tangíveis |"
+  },
+  {
+    "id": 415394,
+    "nome": "Bens Incorpóreos, Imateriais ou Intangíveis |"
+  },
+  {
+    "id": 405888,
+    "nome": "Dos Bens Reciprocamente Considerados (Art. 92 ao 97) |"
+  },
+  {
+    "id": 415395,
+    "nome": "Bens Principais (Art. 92) |"
+  },
+  {
+    "id": 415396,
+    "nome": "Bens Acessórios (Art. 93, 95, 96 e 97) |"
+  },
+  {
+    "id": 424891,
+    "nome": "Partes Integrantes (Art. 95 e 96) |"
+  },
+  {
+    "id": 424892,
+    "nome": "Frutos (Art. 95) |"
+  },
+  {
+    "id": 424893,
+    "nome": "Produtos (Art. 95) |"
+  },
+  {
+    "id": 424894,
+    "nome": "Benfeitorias (Art. 96) |"
+  },
+  {
+    "id": 424895,
+    "nome": "Benfeitorias Voluptuárias |"
+  },
+  {
+    "id": 424896,
+    "nome": "Benfeitorias Úteis |"
+  },
+  {
+    "id": 424897,
+    "nome": "Benfeitorias Necessárias |"
+  },
+  {
+    "id": 424898,
+    "nome": "Pertenças (Art. 93) |"
+  },
+  {
+    "id": 405889,
+    "nome": "Dos Bens Públicos (Art. 98 ao 103) |"
+  },
+  {
+    "id": 415397,
+    "nome": "Definição de Bens Públicos (Art. 98) |"
+  },
+  {
+    "id": 415398,
+    "nome": "Classificação dos Bens Públicos (Art. 99 ao 103) |"
+  },
+  {
+    "id": 415399,
+    "nome": "Bens de Uso Comum do Povo |"
+  },
+  {
+    "id": 415400,
+    "nome": "Bens De Uso Especial |"
+  },
+  {
+    "id": 415401,
+    "nome": "Bens Dominicais |"
+  },
+  {
+    "id": 415402,
+    "nome": "Afetação, Desafetação e Alienação de Bens Públicos |"
+  },
+  {
+    "id": 415403,
+    "nome": "Prescrição Aquisitiva de Bens Públicos (Art. 102) |"
+  },
+  {
+    "id": 424900,
+    "nome": "Uso de bens públicos por particulares (Art. 103) |"
+  },
+  {
+    "id": 424901,
+    "nome": "Bem de família voluntário |"
+  },
+  {
+    "id": 424902,
+    "nome": "Bem de Família Legal |"
+  },
+  {
+    "id": 424903,
+    "nome": "Bem de Família Convencional ou Voluntário |"
+  },
+  {
+    "id": 405890,
+    "nome": "Fatos Jurídicos (Art. 104 a 232) |"
+  },
+  {
+    "id": 415512,
+    "nome": "Teoria do Fato Jurídico |"
+  },
+  {
+    "id": 415513,
+    "nome": "Noções Gerais do Fato Jurídico |"
+  },
+  {
+    "id": 415514,
+    "nome": "Estrutura do Suporte Fático |"
+  },
+  {
+    "id": 415516,
+    "nome": "Elemento Subjetivo do Suporte Fático |"
+  },
+  {
+    "id": 415517,
+    "nome": "Elemento Objetivo do Suporte Fático |"
+  },
+  {
+    "id": 415518,
+    "nome": "Elementos Complementares do Suporte Fático |"
+  },
+  {
+    "id": 415515,
+    "nome": "Classificação dos Fatos Jurídicos |"
+  },
+  {
+    "id": 415519,
+    "nome": "Espécies Lícitas de Fatos Jurídicos |"
+  },
+  {
+    "id": 415520,
+    "nome": "Fatos Jurídicos em Sentido Estrito (fatos naturais) |"
+  },
+  {
+    "id": 415521,
+    "nome": "Fato Jurídico Natural Ordinário |"
+  },
+  {
+    "id": 415522,
+    "nome": "Fato Jurídico Natural Extraordinário |"
+  },
+  {
+    "id": 415523,
+    "nome": "Atos-Fatos Jurídicos (atos reais/humanos) |"
+  },
+  {
+    "id": 415524,
+    "nome": "Atos Jurídicos em Sentido Amplo |"
+  },
+  {
+    "id": 415525,
+    "nome": "Atos Jurídicos em Sentido Estrito (ato não-negocial) |"
+  },
+  {
+    "id": 415526,
+    "nome": "Negócios Jurídicos (ato negocial) |"
+  },
+  {
+    "id": 415527,
+    "nome": "Espécies Ilícitas de Fatos Jurídicos |"
+  },
+  {
+    "id": 415528,
+    "nome": "Fato Ilícito em Sentido Estrito |"
+  },
+  {
+    "id": 415529,
+    "nome": "Ato-Fato Ilícito |"
+  },
+  {
+    "id": 415530,
+    "nome": "Ato ilícito em Sentido Amplo |"
+  },
+  {
+    "id": 424904,
+    "nome": "Excludentes de Ilicitude |"
+  },
+  {
+    "id": 424905,
+    "nome": "Legítima Defesa |"
+  },
+  {
+    "id": 424906,
+    "nome": "Exercício Regular de Direito |"
+  },
+  {
+    "id": 424907,
+    "nome": "Estado de Necessidade |"
+  },
+  {
+    "id": 405891,
+    "nome": "Dos Negócios Jurídicos (Art. 104 ao 184) |"
+  },
+  {
+    "id": 415532,
+    "nome": "Disposições Gerais – Negócios Jurídicos (Art. 104 ao 114) |"
+  },
+  {
+    "id": 415538,
+    "nome": "Validade do Negócio Jurídico (Art. 104 ao 109) |"
+  },
+  {
+    "id": 415539,
+    "nome": "Manifestação de Vontade no Negócio Jurídico (Art. 110 ao 111) |"
+  },
+  {
+    "id": 424909,
+    "nome": "Reserva mental (art. 110) |"
+  },
+  {
+    "id": 424910,
+    "nome": "Silêncio e princípio do silêncio conclusivo (art. 111) |"
+  },
+  {
+    "id": 415540,
+    "nome": "Interpretação dos Negócios Jurídicos (Art. 112 ao 114) |"
+  },
+  {
+    "id": 415541,
+    "nome": "Princípio da Prevalência da Intenção dos Agentes |"
+  },
+  {
+    "id": 415544,
+    "nome": "Princípio da Boa Fé |"
+  },
+  {
+    "id": 415546,
+    "nome": "Princípio da Interpretação Restritiva dos Negócios Benéficos |"
+  },
+  {
+    "id": 425057,
+    "nome": "Outras questões |"
+  },
+  {
+    "id": 405892,
+    "nome": "Da Representação (Art. 115 ao 120) |"
+  },
+  {
+    "id": 415549,
+    "nome": "Negócio Consigo Mesmo (Art. 117) |"
+  },
+  {
+    "id": 415559,
+    "nome": "Elementos Estruturais dos Negócios Jurídicos |"
+  },
+  {
+    "id": 415560,
+    "nome": "Plano da Existência |"
+  },
+  {
+    "id": 415561,
+    "nome": "Plano da Validade |"
+  },
+  {
+    "id": 415562,
+    "nome": "Plano da Eficácia |"
+  },
+  {
+    "id": 415563,
+    "nome": "Escada Ponteana e o Direito Intertemporal |"
+  },
+  {
+    "id": 415564,
+    "nome": "Elementos Acidentais do Negócio Jurídico |"
+  },
+  {
+    "id": 415565,
+    "nome": "Condição (Art. 121 ao 130) |"
+  },
+  {
+    "id": 415610,
+    "nome": "Condição Resolutiva |"
+  },
+  {
+    "id": 415611,
+    "nome": "Condição Suspensiva |"
+  },
+  {
+    "id": 415612,
+    "nome": "Condição Causal |"
+  },
+  {
+    "id": 415613,
+    "nome": "Condição Potestativa |"
+  },
+  {
+    "id": 415619,
+    "nome": "Condição Puramente Potestativa |"
+  },
+  {
+    "id": 415620,
+    "nome": "Condição Simplesmente ou Meramente Potestativa |"
+  },
+  {
+    "id": 415592,
+    "nome": "Termo (Art. 131 ao 135) |"
+  },
+  {
+    "id": 415615,
+    "nome": "Termo Inicial |"
+  },
+  {
+    "id": 415616,
+    "nome": "Termo Final |"
+  },
+  {
+    "id": 415617,
+    "nome": "Termo Certo |"
+  },
+  {
+    "id": 415618,
+    "nome": "Termo Incerto |"
+  },
+  {
+    "id": 415593,
+    "nome": "Encargo (Art. 136 e 137) |"
+  },
+  {
+    "id": 405894,
+    "nome": "Dos Defeitos ou Vícios do Negócio Jurídico (Art. 138 ao 165) |"
+  },
+  {
+    "id": 405895,
+    "nome": "Erro ou Ignorância (Art. 138 ao 144) |"
+  },
+  {
+    "id": 405896,
+    "nome": "Dolo (Art. 145 ao 150) |"
+  },
+  {
+    "id": 405897,
+    "nome": "Coação (Art. 151 ao 155) |"
+  },
+  {
+    "id": 405898,
+    "nome": "Estado de Perigo (Art. 156) |"
+  },
+  {
+    "id": 405899,
+    "nome": "Lesão (Art. 157) |"
+  },
+  {
+    "id": 405900,
+    "nome": "Fraude contra Credores (Art. 158 ao 165) |"
+  },
+  {
+    "id": 405901,
+    "nome": "Teoria da Invalidade dos Negócios Jurídicos (Art. 166 ao 184) |"
+  },
+  {
+    "id": 415566,
+    "nome": "Nulidades Absolutas do Negócio Jurídico (Art. 166 ao 170) |"
+  },
+  {
+    "id": 415567,
+    "nome": "Nulidades Quanto ao Sujeito |"
+  },
+  {
+    "id": 415568,
+    "nome": "Nulidades Quanto ao Objeto |"
+  },
+  {
+    "id": 415569,
+    "nome": "Nulidades Quanto à Forma |"
+  },
+  {
+    "id": 415570,
+    "nome": "Simulação do Negócio Jurídico (Art. 167) |"
+  },
+  {
+    "id": 415571,
+    "nome": "Anulabilidades ou Nulidade Relativa do Negócio Jurídico (Art. 172 ao 184) |"
+  },
+  {
+    "id": 415572,
+    "nome": "Anulabilidades Quanto ao Sujeito |"
+  },
+  {
+    "id": 415573,
+    "nome": "Anulabilidades Quanto ao Objeto |"
+  },
+  {
+    "id": 415574,
+    "nome": "Conservação do Negócio Jurídico |"
+  },
+  {
+    "id": 415575,
+    "nome": "Conversão Substancial do Negócio Jurídico Nulo (Art. 169 e 170) |"
+  },
+  {
+    "id": 415576,
+    "nome": "Convalescimento do Negócio Jurídico Anulável (convalidação, sanação, ratificação e confirmação – Art. 172 ao 176) |"
+  },
+  {
+    "id": 405902,
+    "nome": "Classificação dos negócios jurídicos |"
+  },
+  {
+    "id": 424911,
+    "nome": "Negócio gratuito, oneroso e neutro |"
+  },
+  {
+    "id": 424912,
+    "nome": "Negócio unilateral, bilateral e plurilateral |"
+  },
+  {
+    "id": 424913,
+    "nome": "Negócio de forma livre (informal ou não solene) e formal (ou solene) |"
+  },
+  {
+    "id": 415577,
+    "nome": "Dos Atos Jurídicos Lícitos e Ilícitos (Art. 185 ao 188) |"
+  },
+  {
+    "id": 424914,
+    "nome": "Atos Jurídicos Lícitos (Art. 185) |"
+  },
+  {
+    "id": 415578,
+    "nome": "Atos jurídicos Ilícitos (Art. 186 ao 188) |"
+  },
+  {
+    "id": 424915,
+    "nome": "Neminem laedere (art. 186) |"
+  },
+  {
+    "id": 424916,
+    "nome": "Abuso de Direito (art. 187) |"
+  },
+  {
+    "id": 424917,
+    "nome": "Excludentes de Ilicitude |"
+  },
+  {
+    "id": 424918,
+    "nome": "Legítima Defesa |"
+  },
+  {
+    "id": 424919,
+    "nome": "Exercício Regular de Direito |"
+  },
+  {
+    "id": 424920,
+    "nome": "Estado de Necessidade |"
+  },
+  {
+    "id": 405903,
+    "nome": "Da Prescrição e da Decadência (Art. 189 ao 211) |"
+  },
+  {
+    "id": 415584,
+    "nome": "Conceito e distinção |"
+  },
+  {
+    "id": 405904,
+    "nome": "Da Prescrição (Art. 189 ao 206) |"
+  },
+  {
+    "id": 405905,
+    "nome": "Disposições Gerais da Prescrição (Art. 189 ao 196) |"
+  },
+  {
+    "id": 405906,
+    "nome": "Impedimento ou Suspensão da Prescrição (Art. 197 ao 201) |"
+  },
+  {
+    "id": 405907,
+    "nome": "Interrupção da Prescrição (Art. 202 ao 204) |"
+  },
+  {
+    "id": 405908,
+    "nome": "Prazos da Prescrição (Art. 205 e 206) |"
+  },
+  {
+    "id": 415580,
+    "nome": "Regras Especiais de Prescrição |"
+  },
+  {
+    "id": 415581,
+    "nome": "Pretensões Imprescritíveis |"
+  },
+  {
+    "id": 405909,
+    "nome": "Da Decadência (Art. 207 ao 211) |"
+  },
+  {
+    "id": 415582,
+    "nome": "Disposições Gerais da Decadência (Art. 207 ao 211) |"
+  },
+  {
+    "id": 415583,
+    "nome": "Regras Especiais de Decadência |"
+  },
+  {
+    "id": 405910,
+    "nome": "Da Prova (Art. 212 ao 232) |"
+  },
+  {
+    "id": 415585,
+    "nome": "Espécies de Prova |"
+  },
+  {
+    "id": 415586,
+    "nome": "Confissão |"
+  },
+  {
+    "id": 415587,
+    "nome": "Documento |"
+  },
+  {
+    "id": 415588,
+    "nome": "Testemunha |"
+  },
+  {
+    "id": 415589,
+    "nome": "Presunção |"
+  },
+  {
+    "id": 415590,
+    "nome": "Perícia |"
+  },
+  {
+    "id": 405911,
+    "nome": "Direito das Obrigações (Art. 233 ao 420) |"
+  },
+  {
+    "id": 405914,
+    "nome": "Noções Gerais das Obrigações |"
+  },
+  {
+    "id": 415622,
+    "nome": "Conceito e característica |"
+  },
+  {
+    "id": 424921,
+    "nome": "Obrigação como Processo, Deveres Anexos e Violação positiva do contrato |"
+  },
+  {
+    "id": 415623,
+    "nome": "Elementos da Obrigação |"
+  },
+  {
+    "id": 415624,
+    "nome": "Elementos Subjetivos da Obrigação |"
+  },
+  {
+    "id": 415625,
+    "nome": "Elemento Objetivo ou Material da Obrigação |"
+  },
+  {
+    "id": 415626,
+    "nome": "Elemento Imaterial, Virtual ou Espiritual da Obrigação |"
+  },
+  {
+    "id": 415627,
+    "nome": "Diferenças entre Obrigação, Dever, Ônus e Direito Potestativo |"
+  },
+  {
+    "id": 415628,
+    "nome": "Fontes Obrigacionais |"
+  },
+  {
+    "id": 415629,
+    "nome": "Classificação (modalidades) das Obrigações |"
+  },
+  {
+    "id": 415630,
+    "nome": "Obrigações Quanto ao Vínculo |"
+  },
+  {
+    "id": 415632,
+    "nome": "Obrigações Naturais |"
+  },
+  {
+    "id": 415633,
+    "nome": "Obrigações Quanto ao Objeto |"
+  },
+  {
+    "id": 415634,
+    "nome": "Quanto à Reciprocidade do Objeto |"
+  },
+  {
+    "id": 415635,
+    "nome": "Obrigações Principais |"
+  },
+  {
+    "id": 415636,
+    "nome": "Obrigações Acessórias |"
+  },
+  {
+    "id": 415637,
+    "nome": "Quanto à Finalidade do Objeto |"
+  },
+  {
+    "id": 415638,
+    "nome": "Obrigações de Meio |"
+  },
+  {
+    "id": 415639,
+    "nome": "Obrigações de Resultado |"
+  },
+  {
+    "id": 415640,
+    "nome": "Obrigações de Garantia |"
+  },
+  {
+    "id": 415642,
+    "nome": "Quanto ao Conteúdo do Objeto |"
+  },
+  {
+    "id": 415643,
+    "nome": "Obrigações de Dar |"
+  },
+  {
+    "id": 415644,
+    "nome": "Obrigações de Fazer |"
+  },
+  {
+    "id": 415645,
+    "nome": "Obrigações de não Fazer |"
+  },
+  {
+    "id": 415646,
+    "nome": "Quanto à Alternatividade do Objeto |"
+  },
+  {
+    "id": 415647,
+    "nome": "Obrigações Cumulativas ou Conjuntivas |"
+  },
+  {
+    "id": 415648,
+    "nome": "Obrigações Alternativas ou Disjuntivas |"
+  },
+  {
+    "id": 415649,
+    "nome": "Obrigações Facultativas, Subsidiárias ou com faculdade de solução ou de substituição |"
+  },
+  {
+    "id": 415650,
+    "nome": "Quanto à Divisibilidade do Objeto |"
+  },
+  {
+    "id": 415651,
+    "nome": "Obrigações Divisíveis |"
+  },
+  {
+    "id": 415652,
+    "nome": "Obrigações Indivisíveis |"
+  },
+  {
+    "id": 415656,
+    "nome": "Obrigações Quanto ao Sujeito |"
+  },
+  {
+    "id": 415658,
+    "nome": "Obrigações Plurais ou Múltiplas |"
+  },
+  {
+    "id": 415659,
+    "nome": "Obrigações Quanto ao Momento de Execução |"
+  },
+  {
+    "id": 415661,
+    "nome": "Obrigações de Execução Diferida |"
+  },
+  {
+    "id": 415662,
+    "nome": "Obrigações de Execução Continuada ou Periódica |"
+  },
+  {
+    "id": 415663,
+    "nome": "Obrigações Propter Rem Lato Sensu |"
+  },
+  {
+    "id": 405915,
+    "nome": "Modalidades das Obrigações – Art. 233 ao 285 |"
+  },
+  {
+    "id": 405916,
+    "nome": "Das Obrigações de Dar (Art. 233 ao 246) |"
+  },
+  {
+    "id": 424922,
+    "nome": "Obrigações de Dar Coisa Certa (Art. 233 ao 242) |"
+  },
+  {
+    "id": 424923,
+    "nome": "Obrigações de Restituir Coisa Certa (Art. 238 ao 241) |"
+  },
+  {
+    "id": 424924,
+    "nome": "Obrigações de Dar Coisa Incerta (Art. 243 ao 246) |"
+  },
+  {
+    "id": 405917,
+    "nome": "Obrigações de Fazer (Art. 247 ao 249) |"
+  },
+  {
+    "id": 424925,
+    "nome": "Inexecução Involuntária da Obrigação |"
+  },
+  {
+    "id": 424926,
+    "nome": "Inexecução Voluntária da Obrigação |"
+  },
+  {
+    "id": 405918,
+    "nome": "Obrigações de Não Fazer (Art. 250 e 251) |"
+  },
+  {
+    "id": 405919,
+    "nome": "Obrigações Alternativas (Art. 252 ao 256) |"
+  },
+  {
+    "id": 405920,
+    "nome": "Obrigações Divisíveis e Indivisíveis (Art. 257 ao 263) |"
+  },
+  {
+    "id": 405921,
+    "nome": "Obrigações Solidárias (Art. 264 ao 285) |"
+  },
+  {
+    "id": 405922,
+    "nome": "Solidariedade Ativa (Art. 267 ao 274) |"
+  },
+  {
+    "id": 405923,
+    "nome": "Solidariedade Passiva (Art. 275 ao 285) |"
+  },
+  {
+    "id": 405924,
+    "nome": "Transmissão das Obrigações (Art. 286 ao 303) |"
+  },
+  {
+    "id": 405925,
+    "nome": "Cessão de Crédito (Art. 286 ao 298) |"
+  },
+  {
+    "id": 405926,
+    "nome": "Assunção de Dívida (Art. 299 ao 303) |"
+  },
+  {
+    "id": 415664,
+    "nome": "Cessão de Contrato |"
+  },
+  {
+    "id": 405927,
+    "nome": "Adimplemento e Extinção das Obrigações (Art. 304 a 388) |"
+  },
+  {
+    "id": 405928,
+    "nome": "Pagamento das Obrigações (Art. 307 ao 333) |"
+  },
+  {
+    "id": 424927,
+    "nome": "Elementos Subjetivos do Pagamento |"
+  },
+  {
+    "id": 405929,
+    "nome": "Quem Deve Pagar (Art. 307 ao 307) |"
+  },
+  {
+    "id": 405930,
+    "nome": "A Quem se Deve Pagar (Art. 308 ao 312) |"
+  },
+  {
+    "id": 405931,
+    "nome": "Objeto e Prova do Pagamento (Art. 313 ao 326) |"
+  },
+  {
+    "id": 405932,
+    "nome": "Lugar do Pagamento (Art. 327 ao 330) |"
+  },
+  {
+    "id": 405933,
+    "nome": "Tempo do Pagamento (Art. 331 ao 333) |"
+  },
+  {
+    "id": 424928,
+    "nome": "Meios Alternativos de Pagamento (Art. 334 ao 388) |"
+  },
+  {
+    "id": 405934,
+    "nome": "Pagamento em Consignação (Art. 334 ao 345) |"
+  },
+  {
+    "id": 424929,
+    "nome": "Consignação Extrajudicial |"
+  },
+  {
+    "id": 424930,
+    "nome": "Consignação Judicial |"
+  },
+  {
+    "id": 405935,
+    "nome": "Pagamento com Sub-Rogação (Art. 346 ao 351) |"
+  },
+  {
+    "id": 424931,
+    "nome": "Sub-Rogação Legal |"
+  },
+  {
+    "id": 424932,
+    "nome": "Sub-Rogação Convencional |"
+  },
+  {
+    "id": 405936,
+    "nome": "Imputação do Pagamento (Art. 352 ao 355) |"
+  },
+  {
+    "id": 405937,
+    "nome": "Dação em Pagamento (Art. 356 ao 359) |"
+  },
+  {
+    "id": 405938,
+    "nome": "Novação (Art. 360 ao 367) |"
+  },
+  {
+    "id": 424933,
+    "nome": "Novação Objetiva |"
+  },
+  {
+    "id": 424934,
+    "nome": "Novação Subjetiva |"
+  },
+  {
+    "id": 405939,
+    "nome": "Compensação (Art. 368 ao 380) |"
+  },
+  {
+    "id": 405940,
+    "nome": "Confusão (Art. 381 ao 384) |"
+  },
+  {
+    "id": 405941,
+    "nome": "Remissão das Dívidas (Art. 385 ao 388) |"
+  },
+  {
+    "id": 424935,
+    "nome": "Teoria do Adimplemento Substancial |"
+  },
+  {
+    "id": 405942,
+    "nome": "Inadimplemento das Obrigações (Art. 389 ao 420) |"
+  },
+  {
+    "id": 424936,
+    "nome": "Disposições Gerais (Art. 389 ao 393) |"
+  },
+  {
+    "id": 405943,
+    "nome": "Mora (Art. 394 ao 401) |"
+  },
+  {
+    "id": 424937,
+    "nome": "Mora do Devedor |"
+  },
+  {
+    "id": 424938,
+    "nome": "Mora do Credor |"
+  },
+  {
+    "id": 424939,
+    "nome": "Purgação ou Emenda da Mora |"
+  },
+  {
+    "id": 405944,
+    "nome": "Perdas e Danos (Art. 402 ao 405) |"
+  },
+  {
+    "id": 405945,
+    "nome": "Juros Legais (Art. 406 ao 407) |"
+  },
+  {
+    "id": 424940,
+    "nome": "Juros Moratórios |"
+  },
+  {
+    "id": 424941,
+    "nome": "Juros Compensatórios ou Remuneratórios |"
+  },
+  {
+    "id": 405946,
+    "nome": "Cláusula Penal (Art. 408 ao 416) |"
+  },
+  {
+    "id": 405947,
+    "nome": "Arras ou Sinal (Art. 417 ao 420) |"
+  },
+  {
+    "id": 424942,
+    "nome": "Arras confirmatórias |"
+  },
+  {
+    "id": 424943,
+    "nome": "Arras penitenciais |"
+  },
+  {
+    "id": 415674,
+    "nome": "Correção Monetária |"
+  },
+  {
+    "id": 415676,
+    "nome": "Prisão |"
+  },
+  {
+    "id": 405912,
+    "nome": "Contratos em Geral - Teoria Geral (Art. 421 ao 480) |"
+  },
+  {
+    "id": 405949,
+    "nome": "Princípios dos Contratos |"
+  },
+  {
+    "id": 415677,
+    "nome": "Autonomia Privada e Liberdade de Contratar |"
+  },
+  {
+    "id": 415678,
+    "nome": "Obrigatoriedade (pacta sunt servanda) |"
+  },
+  {
+    "id": 415679,
+    "nome": "Consensualismo |"
+  },
+  {
+    "id": 415680,
+    "nome": "Relatividade dos Efeitos |"
+  },
+  {
+    "id": 415681,
+    "nome": "Equilíbrio Contratual |"
+  },
+  {
+    "id": 415682,
+    "nome": "Boa-fé Objetiva e abuso de direito |"
+  },
+  {
+    "id": 424944,
+    "nome": "Definição |"
+  },
+  {
+    "id": 424945,
+    "nome": "Venire contra factum proprium |"
+  },
+  {
+    "id": 424946,
+    "nome": "Supressio |"
+  },
+  {
+    "id": 424947,
+    "nome": "Surrectio |"
+  },
+  {
+    "id": 424948,
+    "nome": "Tu quoque |"
+  },
+  {
+    "id": 424949,
+    "nome": "Duty to mitigate the loss |"
+  },
+  {
+    "id": 424950,
+    "nome": "Extensão do Prazo (nachfrist) |"
+  },
+  {
+    "id": 415683,
+    "nome": "Função Social do Contrato |"
+  },
+  {
+    "id": 405952,
+    "nome": "Classificação dos Contratos |"
+  },
+  {
+    "id": 415684,
+    "nome": "Quanto ao Sujeito |"
+  },
+  {
+    "id": 415687,
+    "nome": "Contratos Unilaterais e Bilaterais (sinalagmáticos) |"
+  },
+  {
+    "id": 415688,
+    "nome": "Contratos Individuais e Coletivos (normativos) |"
+  },
+  {
+    "id": 415689,
+    "nome": "Contratos Pessoais e Impessoais |"
+  },
+  {
+    "id": 415685,
+    "nome": "Quanto ao Objeto |"
+  },
+  {
+    "id": 415691,
+    "nome": "Contratos Gratuitos (benéficos) e Onerosos |"
+  },
+  {
+    "id": 415692,
+    "nome": "Contratos Comutativos e Aleatórios |"
+  },
+  {
+    "id": 415694,
+    "nome": "Contratos Principais e Acessórios |"
+  },
+  {
+    "id": 415695,
+    "nome": "Contratos Instantâneos e de Duração |"
+  },
+  {
+    "id": 415696,
+    "nome": "Contratos de Execução Imediata e Diferida |"
+  },
+  {
+    "id": 415697,
+    "nome": "Contratos por Tempo Determinado e por Tempo Indeterminado |"
+  },
+  {
+    "id": 415698,
+    "nome": "Quanto à Forma |"
+  },
+  {
+    "id": 415699,
+    "nome": "Contratos Formais (solenes) |"
+  },
+  {
+    "id": 415700,
+    "nome": "Contratos Reais |"
+  },
+  {
+    "id": 415701,
+    "nome": "Contratos Típicos (nominados) e Atípicos (inominados) |"
+  },
+  {
+    "id": 415702,
+    "nome": "Contratos Paritários e de Adesão |"
+  },
+  {
+    "id": 415703,
+    "nome": "Tratativas Preliminares dos Contratos (Art. 421 ao 426) |"
+  },
+  {
+    "id": 415708,
+    "nome": "Formação e Lugar dos Contratos (Art. 427 ao 435) |"
+  },
+  {
+    "id": 415709,
+    "nome": "Proposta |"
+  },
+  {
+    "id": 415710,
+    "nome": "Aceitação |"
+  },
+  {
+    "id": 415711,
+    "nome": "Contrato Preliminar (Art. 462 ao 466) |"
+  },
+  {
+    "id": 415712,
+    "nome": "Transmissão dos Contratos |"
+  },
+  {
+    "id": 415713,
+    "nome": "Cessão de Posição Contratual |"
+  },
+  {
+    "id": 405954,
+    "nome": "Estipulação em Favor de Terceiro (Art. 436 ao 438) |"
+  },
+  {
+    "id": 405959,
+    "nome": "Contrato com Pessoa a Declarar (Art. 467 ao 471) |"
+  },
+  {
+    "id": 415714,
+    "nome": "Promessa de Fato de Terceiro (Art. 439 ao 440) |"
+  },
+  {
+    "id": 405955,
+    "nome": "Vícios Redibitórios (Art. 441 ao 446) |"
+  },
+  {
+    "id": 405956,
+    "nome": "Evicção (Art. 447 ao 457) |"
+  },
+  {
+    "id": 405957,
+    "nome": "Contratos Aleatórios (Art. 458 ao 461) |"
+  },
+  {
+    "id": 405960,
+    "nome": "Da Extinção do Contrato |"
+  },
+  {
+    "id": 405961,
+    "nome": "Distrato (Art. 472 e 473) |"
+  },
+  {
+    "id": 415715,
+    "nome": "Cláusulas Resolutivas Expressas e Tácitas (Art. 474 e 475) |"
+  },
+  {
+    "id": 405962,
+    "nome": "Resolução |"
+  },
+  {
+    "id": 415716,
+    "nome": "Resolução por Onerosidade Excessiva (Art. 478 ao 480) |"
+  },
+  {
+    "id": 415717,
+    "nome": "Resolução por Inadimplemento Antecipado |"
+  },
+  {
+    "id": 405963,
+    "nome": "Exceção do Contrato não Cumprido (Art. 476 e 477) |"
+  },
+  {
+    "id": 415718,
+    "nome": "Resilição |"
+  },
+  {
+    "id": 424951,
+    "nome": "Resilição Bilateral |"
+  },
+  {
+    "id": 424952,
+    "nome": "Resilição Unilateral |"
+  },
+  {
+    "id": 415719,
+    "nome": "Rescisão |"
+  },
+  {
+    "id": 415720,
+    "nome": "Revisão ou resolução contratual |"
+  },
+  {
+    "id": 415721,
+    "nome": "Teoria da Imprevisão / Resolução por Onerosidade Excessiva |"
+  },
+  {
+    "id": 415722,
+    "nome": "Teoria da Quebra da Base Objetiva do Negócio |"
+  },
+  {
+    "id": 424953,
+    "nome": "Frustração do fim do contrato |"
+  },
+  {
+    "id": 424954,
+    "nome": "Quebra antecipada do contrato ou resolução antecipada |"
+  },
+  {
+    "id": 405913,
+    "nome": "Várias Espécies de Contrato (Art. 481 ao 853) |"
+  },
+  {
+    "id": 405965,
+    "nome": "Compra e Venda (Art. 481 ao 532) |"
+  },
+  {
+    "id": 405966,
+    "nome": "Disposições Gerais da Compra e Venda |"
+  },
+  {
+    "id": 415723,
+    "nome": "Restrições à Compra e Venda |"
+  },
+  {
+    "id": 415724,
+    "nome": "Da Venda de Ascendente a Descendente |"
+  },
+  {
+    "id": 415725,
+    "nome": "Da Venda entre Cônjuges |"
+  },
+  {
+    "id": 415726,
+    "nome": "Da Venda de Bens Sob Administração |"
+  },
+  {
+    "id": 415727,
+    "nome": "Da Venda de Bens em Condomínio ou Venda de Coisa Comum |"
+  },
+  {
+    "id": 415728,
+    "nome": "Regras Peculiares à Compra e Venda |"
+  },
+  {
+    "id": 415729,
+    "nome": "Venda por Amostra |"
+  },
+  {
+    "id": 415730,
+    "nome": "Venda Ad Corpus e venda Ad Mensuram |"
+  },
+  {
+    "id": 415732,
+    "nome": "Coisa Indivisa |"
+  },
+  {
+    "id": 405967,
+    "nome": "Das Cláusulas Especiais à Compra e Venda |"
+  },
+  {
+    "id": 405968,
+    "nome": "Retrovenda (Art. 505 ao 508) |"
+  },
+  {
+    "id": 405969,
+    "nome": "Venda a Contento e Venda Sujeita a Prova (art. 509 ao 512) |"
+  },
+  {
+    "id": 405970,
+    "nome": "Preempção ou Preferência (Art. 513 ao 520) |"
+  },
+  {
+    "id": 405971,
+    "nome": "Venda com Reserva de Domínio (Art. 521 ao 528) |"
+  },
+  {
+    "id": 405972,
+    "nome": "Venda Sobre Documentos (Art. 529 ao 532) |"
+  },
+  {
+    "id": 406002,
+    "nome": "Compromisso de Compra e Venda |"
+  },
+  {
+    "id": 405973,
+    "nome": "Troca ou Permuta (Art. 533) |"
+  },
+  {
+    "id": 415735,
+    "nome": "Objeto do Contrato e Relação com a Compra e Venda |"
+  },
+  {
+    "id": 415736,
+    "nome": "Troca entre Ascendentes e Descendentes |"
+  },
+  {
+    "id": 405974,
+    "nome": "Contrato Estimatório – Venda em consignação (Art. 534 ao 537) |"
+  },
+  {
+    "id": 415737,
+    "nome": "Conceito e Natureza Jurídica |"
+  },
+  {
+    "id": 415738,
+    "nome": "Efeitos e Regras do Contrato Estimatório |"
+  },
+  {
+    "id": 405975,
+    "nome": "Doação (Art. 538 ao 564) |"
+  },
+  {
+    "id": 424955,
+    "nome": "Disposições Gerais – Doação (Art. 538 ao 554) |"
+  },
+  {
+    "id": 424956,
+    "nome": "Restrições à Doação (Art. 548 ao 554) |"
+  },
+  {
+    "id": 424957,
+    "nome": "Efeitos e Regras Sob o Enfoque das Modalidades de Doação |"
+  },
+  {
+    "id": 424959,
+    "nome": "Doação Remuneratória |"
+  },
+  {
+    "id": 424960,
+    "nome": "Doação Contemplativa ou Meritória |"
+  },
+  {
+    "id": 424961,
+    "nome": "Doação a Nascituro |"
+  },
+  {
+    "id": 424962,
+    "nome": "Doação sob Forma de Subvenção Periódica |"
+  },
+  {
+    "id": 424963,
+    "nome": "Doação em Contemplação de Casamento Futuro |"
+  },
+  {
+    "id": 424964,
+    "nome": "Doação de Ascendentes a Descendentes e Doação entre Cônjuges |"
+  },
+  {
+    "id": 424965,
+    "nome": "Doação com Cláusula de Reversão |"
+  },
+  {
+    "id": 424966,
+    "nome": "Doação Conjuntiva |"
+  },
+  {
+    "id": 424968,
+    "nome": "Doação Inoficiosa |"
+  },
+  {
+    "id": 424969,
+    "nome": "Doação Universal |"
+  },
+  {
+    "id": 424970,
+    "nome": "Doação do Cônjuge Adúltero ao seu Cúmplice |"
+  },
+  {
+    "id": 424971,
+    "nome": "Doação a Entidade Futura |"
+  },
+  {
+    "id": 424958,
+    "nome": "Promessa de Doação |"
+  },
+  {
+    "id": 405977,
+    "nome": "Resolução e Revogação da Doação (Art. 555 ao 564) |"
+  },
+  {
+    "id": 405978,
+    "nome": "Locação de Coisas (Art. 565 ao 578) |"
+  },
+  {
+    "id": 415746,
+    "nome": "Obrigações do Locador |"
+  },
+  {
+    "id": 415747,
+    "nome": "Obrigações do Locatário |"
+  },
+  {
+    "id": 405979,
+    "nome": "Empréstimo (Art. 579 ao 592) |"
+  },
+  {
+    "id": 405980,
+    "nome": "Comodato (Art. 579 ao 585) |"
+  },
+  {
+    "id": 405981,
+    "nome": "Mútuo (Art. 586 ao 592) |"
+  },
+  {
+    "id": 405982,
+    "nome": "Prestação de Serviço (Art. 593 ao 609) |"
+  },
+  {
+    "id": 405983,
+    "nome": "Empreitada (Art. 610 ao 626) |"
+  },
+  {
+    "id": 424972,
+    "nome": "Disposições Gerais - Empreitada |"
+  },
+  {
+    "id": 424973,
+    "nome": "Obrigações do Empreiteiro |"
+  },
+  {
+    "id": 424974,
+    "nome": "Obrigações do Dono da Obra |"
+  },
+  {
+    "id": 405984,
+    "nome": "Depósito (Art. 627 ao 652) |"
+  },
+  {
+    "id": 405985,
+    "nome": "Depósito Voluntário (Art. 627 ao 646) |"
+  },
+  {
+    "id": 405986,
+    "nome": "Depósito Necessário (Art. 647 ao 652) |"
+  },
+  {
+    "id": 405987,
+    "nome": "Mandato (Art. 653 ao 692) |"
+  },
+  {
+    "id": 405988,
+    "nome": "Disposições Gerais – Mandato (Art. 653 ao 666) |"
+  },
+  {
+    "id": 405989,
+    "nome": "Obrigações do Mandatário (Art. 667 ao 674) |"
+  },
+  {
+    "id": 405990,
+    "nome": "Obrigações do Mandante (Art. 675 ao 681) |"
+  },
+  {
+    "id": 405991,
+    "nome": "Extinção do Mandato (Art. 682 ao 691) |"
+  },
+  {
+    "id": 405993,
+    "nome": "Comissão (Art. 693 ao 709) |"
+  },
+  {
+    "id": 405994,
+    "nome": "Agência e Distribuição (Art. 710 ao 721) |"
+  },
+  {
+    "id": 405995,
+    "nome": "Corretagem (Art. 722 ao 729) |"
+  },
+  {
+    "id": 405996,
+    "nome": "Transporte (Art. 730 ao 756) |"
+  },
+  {
+    "id": 406005,
+    "nome": "Disposições Gerais – Transporte (Art. 730 ao 733) |"
+  },
+  {
+    "id": 406006,
+    "nome": "Transporte de Pessoas (Art. 734 ao 742) |"
+  },
+  {
+    "id": 406007,
+    "nome": "Transporte de Coisas (Art. 743 ao 756) |"
+  },
+  {
+    "id": 405997,
+    "nome": "Seguro (Art. 757 ao 802) |"
+  },
+  {
+    "id": 406008,
+    "nome": "Disposições Gerais – Seguro (Art. 757 ao 777) |"
+  },
+  {
+    "id": 406009,
+    "nome": "Seguro de Dano (Art. 778 ao 788) |"
+  },
+  {
+    "id": 406010,
+    "nome": "Seguro de Pessoa (Art. 789 ao 802) |"
+  },
+  {
+    "id": 405998,
+    "nome": "Constituição de Renda (Art. 803 ao 813) |"
+  },
+  {
+    "id": 405999,
+    "nome": "Jogo e Aposta (Art. 814 ao 817) |"
+  },
+  {
+    "id": 406000,
+    "nome": "Da Fiança |"
+  },
+  {
+    "id": 406011,
+    "nome": "Disposições Gerais – Fiança (Art. 818 ao 826) |"
+  },
+  {
+    "id": 406012,
+    "nome": "Efeitos da Fiança (Art. 827 ao 836) |"
+  },
+  {
+    "id": 406013,
+    "nome": "Extinção da Fiança (Art. 837 ao 839) |"
+  },
+  {
+    "id": 406001,
+    "nome": "Transação (Art. 840 ao 850) |"
+  },
+  {
+    "id": 415755,
+    "nome": "Compromisso (Art. 851 ao 853) |"
+  },
+  {
+    "id": 442079,
+    "nome": "Contrato de Administração Fiduciária de Garantias (853-A) |"
+  },
+  {
+    "id": 406003,
+    "nome": "Atos Unilaterais (Art. 854 ao 886) |"
+  },
+  {
+    "id": 406014,
+    "nome": "Promessa de Recompensa (Art. 854 ao 860) |"
+  },
+  {
+    "id": 406015,
+    "nome": "Gestão de Negócios (Art. 861 ao 875) |"
+  },
+  {
+    "id": 406016,
+    "nome": "Pagamento Indevido (Art. 876 ao 883) |"
+  },
+  {
+    "id": 406017,
+    "nome": "Enriquecimento Sem Causa (Art. 884 ao 886) |"
+  },
+  {
+    "id": 406161,
+    "nome": "Responsabilidade Civil (Art. 927 ao 954) |"
+  },
+  {
+    "id": 406163,
+    "nome": "Noções Gerais da Responsabilidade Civil |"
+  },
+  {
+    "id": 415822,
+    "nome": "Conceito (definição) e funções da Responsabilidade Civil (ressarcitória, compensatória, preventiva, etc) |"
+  },
+  {
+    "id": 424975,
+    "nome": "Dano punitivo |"
+  },
+  {
+    "id": 424976,
+    "nome": "Responsabilidade pressuposta |"
+  },
+  {
+    "id": 415823,
+    "nome": "Pressupostos do Dever de Indenizar |"
+  },
+  {
+    "id": 415824,
+    "nome": "Ato Ilícito |"
+  },
+  {
+    "id": 415833,
+    "nome": "Classificação da Culpa |"
+  },
+  {
+    "id": 415834,
+    "nome": "Culpa in Committendo |"
+  },
+  {
+    "id": 415835,
+    "nome": "Culpa in Omittendo |"
+  },
+  {
+    "id": 415836,
+    "nome": "Culpa in Eligendo |"
+  },
+  {
+    "id": 415839,
+    "nome": "Graus da Culpa |"
+  },
+  {
+    "id": 415840,
+    "nome": "Culpa Grave ou Lata |"
+  },
+  {
+    "id": 415841,
+    "nome": "Culpa Leve ou Média |"
+  },
+  {
+    "id": 415843,
+    "nome": "Dano |"
+  },
+  {
+    "id": 415844,
+    "nome": "Dano Atual e Dano Futuro |"
+  },
+  {
+    "id": 415845,
+    "nome": "Dano Certo e Dano Eventual |"
+  },
+  {
+    "id": 415846,
+    "nome": "Dano Moral |"
+  },
+  {
+    "id": 415847,
+    "nome": "Dano In Re Ipsa |"
+  },
+  {
+    "id": 415848,
+    "nome": "Dano Estético |"
+  },
+  {
+    "id": 415849,
+    "nome": "Dano Material (dano patrimonial) |"
+  },
+  {
+    "id": 415850,
+    "nome": "Dano Direto e Dano Indireto |"
+  },
+  {
+    "id": 415851,
+    "nome": "Dano Reflexo ou por Ricochete |"
+  },
+  {
+    "id": 406164,
+    "nome": "Nexo de Causalidade |"
+  },
+  {
+    "id": 415852,
+    "nome": "Teoria do Dano Direto e Imediato |"
+  },
+  {
+    "id": 415853,
+    "nome": "Teoria da Causalidade Alternativa |"
+  },
+  {
+    "id": 415854,
+    "nome": "Teoria da Perda de uma Chance |"
+  },
+  {
+    "id": 424977,
+    "nome": "Outras teorias |"
+  },
+  {
+    "id": 406165,
+    "nome": "Classificações (Espécies) da Responsabilidade Civil |"
+  },
+  {
+    "id": 415855,
+    "nome": "Quanto ao Fundamento |"
+  },
+  {
+    "id": 415856,
+    "nome": "Responsabilidade Civil Subjetiva |"
+  },
+  {
+    "id": 415857,
+    "nome": "Responsabilidade Civil Objetiva |"
+  },
+  {
+    "id": 415858,
+    "nome": "Quanto ao Fato Gerador |"
+  },
+  {
+    "id": 415859,
+    "nome": "Responsabilidade Civil Contratual |"
+  },
+  {
+    "id": 415860,
+    "nome": "Responsabilidade Civil Extracontratual ou Aquiliana |"
+  },
+  {
+    "id": 415861,
+    "nome": "Responsabilidade Civil por Fato Impróprio |"
+  },
+  {
+    "id": 415872,
+    "nome": "Fato de Terceiro (Art. 932) |"
+  },
+  {
+    "id": 415873,
+    "nome": "Responsabilidade dos Pais |"
+  },
+  {
+    "id": 415874,
+    "nome": "Responsabilidade do Tutor/Curador |"
+  },
+  {
+    "id": 415875,
+    "nome": "Responsabilidade do Empregador/Comitente |"
+  },
+  {
+    "id": 415876,
+    "nome": "Responsabilidade dos Estabelecimentos de Albergue |"
+  },
+  {
+    "id": 415880,
+    "nome": "Responsabilidade pela Participação em Produto de Crime |"
+  },
+  {
+    "id": 424978,
+    "nome": "Outros casos |"
+  },
+  {
+    "id": 415893,
+    "nome": "Fato de Coisa Inanimada (Art. 937 e 938) |"
+  },
+  {
+    "id": 415894,
+    "nome": "Responsabilidade pela Ruína de Edifício |"
+  },
+  {
+    "id": 415895,
+    "nome": "Responsabilidade pela Queda ou Lançamento de Coisas de Edifícios |"
+  },
+  {
+    "id": 424979,
+    "nome": "Outros casos |"
+  },
+  {
+    "id": 415896,
+    "nome": "Fato de Animal (Art. 936) |"
+  },
+  {
+    "id": 415897,
+    "nome": "Responsabilidade Civil em Sentido Amplo |"
+  },
+  {
+    "id": 415898,
+    "nome": "Responsabilidade Civil vs Responsabilidade Penal |"
+  },
+  {
+    "id": 415899,
+    "nome": "Ilícito Civil e Ilícito Penal |"
+  },
+  {
+    "id": 415900,
+    "nome": "Influências da Sentença Criminal |"
+  },
+  {
+    "id": 415901,
+    "nome": "Responsabilidade Civil vs Responsabilidade Administrativa (ou de outras esferas) |"
+  },
+  {
+    "id": 415906,
+    "nome": "Abuso de Direito |"
+  },
+  {
+    "id": 415907,
+    "nome": "Vedação ao Comportamento contraditório (venire contra factum proprium) |"
+  },
+  {
+    "id": 415909,
+    "nome": "Supressio e Surrectio |"
+  },
+  {
+    "id": 415910,
+    "nome": "Tu Quoque |"
+  },
+  {
+    "id": 415912,
+    "nome": "Duty to Mitigate The Loss |"
+  },
+  {
+    "id": 415913,
+    "nome": "Extensão do Prazo (nachfrist) |"
+  },
+  {
+    "id": 406166,
+    "nome": "Excludentes da Responsabilidade Civil |"
+  },
+  {
+    "id": 415914,
+    "nome": "Legítima Defesa |"
+  },
+  {
+    "id": 415915,
+    "nome": "Estado de Necessidade |"
+  },
+  {
+    "id": 415916,
+    "nome": "Exercício Regular de Direito |"
+  },
+  {
+    "id": 415917,
+    "nome": "Estrito Cumprimento do Dever Legal |"
+  },
+  {
+    "id": 415918,
+    "nome": "Caso Fortuito ou Força Maior (Art. 393) |"
+  },
+  {
+    "id": 415919,
+    "nome": "Culpa Exclusiva da Vítima (Art. 945) |"
+  },
+  {
+    "id": 415920,
+    "nome": "Fato Exclusivo de Terceiro |"
+  },
+  {
+    "id": 415921,
+    "nome": "Cláusula de não Indenizar |"
+  },
+  {
+    "id": 415922,
+    "nome": "Outras excludentes |"
+  },
+  {
+    "id": 424980,
+    "nome": "Preferências e Privilégios Creditórios (Art. 955 ao 965) |"
+  },
+  {
+    "id": 424981,
+    "nome": "Declaração de Insolvência |"
+  },
+  {
+    "id": 424982,
+    "nome": "Preferência dos Direitos Reais |"
+  },
+  {
+    "id": 424983,
+    "nome": "Preferência dos Privilégios |"
+  },
+  {
+    "id": 406018,
+    "nome": "Direito das Coisas (Art. 1.196 ao 1.510) |"
+  },
+  {
+    "id": 406020,
+    "nome": "Teoria Geral das Coisas |"
+  },
+  {
+    "id": 415923,
+    "nome": "Direito das Coisas e Direitos Reais |"
+  },
+  {
+    "id": 406021,
+    "nome": "Posse (Art. 1196 ao 1.224) |"
+  },
+  {
+    "id": 406022,
+    "nome": "Definição e Conceito de Posse |"
+  },
+  {
+    "id": 415924,
+    "nome": "Diferença entre Posse e Detenção |"
+  },
+  {
+    "id": 415925,
+    "nome": "Teorias sobre a Posse |"
+  },
+  {
+    "id": 415926,
+    "nome": "Teoria Objetivista de Jhering |"
+  },
+  {
+    "id": 415928,
+    "nome": "Função Social da Posse |"
+  },
+  {
+    "id": 415929,
+    "nome": "Modalidades de Posse |"
+  },
+  {
+    "id": 415930,
+    "nome": "Composse |"
+  },
+  {
+    "id": 415931,
+    "nome": "Composse pro Indiviso |"
+  },
+  {
+    "id": 415932,
+    "nome": "Composse pro Diviso |"
+  },
+  {
+    "id": 415933,
+    "nome": "Classificação da Posse |"
+  },
+  {
+    "id": 415934,
+    "nome": "Quanto ao Vício Objetivo |"
+  },
+  {
+    "id": 415935,
+    "nome": "Posse Justa |"
+  },
+  {
+    "id": 415936,
+    "nome": "Posse injusta |"
+  },
+  {
+    "id": 415937,
+    "nome": "Quanto ao Vício Subjetivo |"
+  },
+  {
+    "id": 415938,
+    "nome": "Posse de Boa-Fé |"
+  },
+  {
+    "id": 415939,
+    "nome": "Posse de Má-Fé |"
+  },
+  {
+    "id": 415940,
+    "nome": "Quanto ao Título |"
+  },
+  {
+    "id": 415941,
+    "nome": "Posse com Título |"
+  },
+  {
+    "id": 415942,
+    "nome": "Posse sem Título |"
+  },
+  {
+    "id": 415943,
+    "nome": "Quanto ao Desdobramento da Posse |"
+  },
+  {
+    "id": 415944,
+    "nome": "Posse Direta |"
+  },
+  {
+    "id": 415945,
+    "nome": "Posse Indireta |"
+  },
+  {
+    "id": 415946,
+    "nome": "Quanto ao Tempo da Posse |"
+  },
+  {
+    "id": 415947,
+    "nome": "Posse Nova |"
+  },
+  {
+    "id": 415948,
+    "nome": "Posse Velha |"
+  },
+  {
+    "id": 415949,
+    "nome": "Aquisição da Posse (Art. 1.204 ao 1.209) |"
+  },
+  {
+    "id": 415951,
+    "nome": "Aquisição Derivada |"
+  },
+  {
+    "id": 406023,
+    "nome": "Transmissão da Posse |"
+  },
+  {
+    "id": 415952,
+    "nome": "Sucessão (sucessio possessionis) |"
+  },
+  {
+    "id": 415953,
+    "nome": "União (acessio possessionis) |"
+  },
+  {
+    "id": 415954,
+    "nome": "Perda da Posse (Art. 1.223 e 1.224) |"
+  },
+  {
+    "id": 415955,
+    "nome": "Perda do Corpus |"
+  },
+  {
+    "id": 415956,
+    "nome": "Perda da Coisa |"
+  },
+  {
+    "id": 415957,
+    "nome": "Destruição |"
+  },
+  {
+    "id": 415958,
+    "nome": "Posse de Outrem |"
+  },
+  {
+    "id": 415960,
+    "nome": "Perda do Animus |"
+  },
+  {
+    "id": 415961,
+    "nome": "Abandono |"
+  },
+  {
+    "id": 415962,
+    "nome": "Tradição |"
+  },
+  {
+    "id": 415963,
+    "nome": "Perda do Corpus e Animus |"
+  },
+  {
+    "id": 415964,
+    "nome": "Constituto Possessório |"
+  },
+  {
+    "id": 415965,
+    "nome": "Efeitos da Posse (Art. 1.210 ao 1.222) |"
+  },
+  {
+    "id": 415966,
+    "nome": "Direito aos Interditos Possessórios |"
+  },
+  {
+    "id": 415967,
+    "nome": "Direito à Percepção de Frutos |"
+  },
+  {
+    "id": 415968,
+    "nome": "Direito à Indenização por Benfeitorias |"
+  },
+  {
+    "id": 415971,
+    "nome": "Direito à Retenção Quanto a Benfeitorias |"
+  },
+  {
+    "id": 415973,
+    "nome": "Direito à Usucapião |"
+  },
+  {
+    "id": 415975,
+    "nome": "Direito à Indenização por Prejuízos |"
+  },
+  {
+    "id": 424984,
+    "nome": "Outros efeitos |"
+  },
+  {
+    "id": 415978,
+    "nome": "Ações Relacionadas à Posse |"
+  },
+  {
+    "id": 415979,
+    "nome": "Ações Possessórias |"
+  },
+  {
+    "id": 415980,
+    "nome": "Interdito Proibitório |"
+  },
+  {
+    "id": 415981,
+    "nome": "Manutenção de Posse |"
+  },
+  {
+    "id": 415982,
+    "nome": "Reintegração de Posse |"
+  },
+  {
+    "id": 415983,
+    "nome": "Ações Petitórias |"
+  },
+  {
+    "id": 415984,
+    "nome": "Imissão de Posse |"
+  },
+  {
+    "id": 415985,
+    "nome": "Exceção de Domínio |"
+  },
+  {
+    "id": 415990,
+    "nome": "Direitos Reais (Art. 1.225 ao 1.510) |"
+  },
+  {
+    "id": 416000,
+    "nome": "Teoria Geral dos Direitos Reais |"
+  },
+  {
+    "id": 415991,
+    "nome": "Direitos Reais e Direitos Pessoais |"
+  },
+  {
+    "id": 415992,
+    "nome": "Características dos Direitos Reais |"
+  },
+  {
+    "id": 415994,
+    "nome": "Sequela |"
+  },
+  {
+    "id": 415995,
+    "nome": "Renunciabilidade |"
+  },
+  {
+    "id": 415996,
+    "nome": "Incorporabilidade |"
+  },
+  {
+    "id": 415997,
+    "nome": "Taxatividade |"
+  },
+  {
+    "id": 415999,
+    "nome": "Elasticidade |"
+  },
+  {
+    "id": 424985,
+    "nome": "Outras características |"
+  },
+  {
+    "id": 416001,
+    "nome": "Classificações dos Direitos Reais |"
+  },
+  {
+    "id": 416002,
+    "nome": "Quanto ao Domínio da Coisa |"
+  },
+  {
+    "id": 416005,
+    "nome": "Quanto ao Objeto |"
+  },
+  {
+    "id": 416006,
+    "nome": "Direitos Reais Mobiliários |"
+  },
+  {
+    "id": 416007,
+    "nome": "Direitos Reais Imobiliários |"
+  },
+  {
+    "id": 416008,
+    "nome": "Categorias dos Direitos Reais |"
+  },
+  {
+    "id": 416010,
+    "nome": "Direitos Reais sobre Coisas Alheias |"
+  },
+  {
+    "id": 416011,
+    "nome": "Direitos de Gozo ou de Fruição |"
+  },
+  {
+    "id": 416012,
+    "nome": "Direitos de Garantia |"
+  },
+  {
+    "id": 416186,
+    "nome": "Disposições Gerais dos Direitos Reais (Art. 1.225 ao 1.227) |"
+  },
+  {
+    "id": 406024,
+    "nome": "Direito Real sobre Coisas Próprias - Propriedade (Art. 1.228 ao 1.276) |"
+  },
+  {
+    "id": 416017,
+    "nome": "Função Social e Socioambiental da Propriedade |"
+  },
+  {
+    "id": 416019,
+    "nome": "Propriedade Plena e Limitada |"
+  },
+  {
+    "id": 416021,
+    "nome": "Características do Direito de Propriedade |"
+  },
+  {
+    "id": 416022,
+    "nome": "Perpetuidade |"
+  },
+  {
+    "id": 416023,
+    "nome": "Exclusividade |"
+  },
+  {
+    "id": 416024,
+    "nome": "Elasticidade |"
+  },
+  {
+    "id": 416025,
+    "nome": "Abstralidade |"
+  },
+  {
+    "id": 416026,
+    "nome": "Individualidade |"
+  },
+  {
+    "id": 416027,
+    "nome": "Outros aspectos teóricos sobre Direito de Propriedade |"
+  },
+  {
+    "id": 416028,
+    "nome": "Autolimitação da Propriedade |"
+  },
+  {
+    "id": 416029,
+    "nome": "Ocupação Temporária |"
+  },
+  {
+    "id": 416031,
+    "nome": "Servidão Administrativa |"
+  },
+  {
+    "id": 416032,
+    "nome": "Tombamento |"
+  },
+  {
+    "id": 416034,
+    "nome": "Desapropriação Direta |"
+  },
+  {
+    "id": 416035,
+    "nome": "Heterolimitação da Propriedade |"
+  },
+  {
+    "id": 424987,
+    "nome": "Descoberta (Art. 1.233 ao 1.237) |"
+  },
+  {
+    "id": 406025,
+    "nome": "Aquisição da Propriedade |"
+  },
+  {
+    "id": 424988,
+    "nome": "Classificação dos Modos de Aquisição da Propriedade |"
+  },
+  {
+    "id": 424992,
+    "nome": "Quanto à Origem |"
+  },
+  {
+    "id": 424993,
+    "nome": "Aquisição Originária |"
+  },
+  {
+    "id": 424994,
+    "nome": "Aquisição Derivada |"
+  },
+  {
+    "id": 424998,
+    "nome": "Quanto ao Objeto |"
+  },
+  {
+    "id": 424999,
+    "nome": "Aquisição de Bens Móveis |"
+  },
+  {
+    "id": 425000,
+    "nome": "Aquisição de Bens Imóveis |"
+  },
+  {
+    "id": 425001,
+    "nome": "Modos de Aquisição da Propriedade Imóvel (Art. 1.238 ao 1.259) |"
+  },
+  {
+    "id": 406026,
+    "nome": "Da Usucapião |"
+  },
+  {
+    "id": 416037,
+    "nome": "Usucapião Extraordinária |"
+  },
+  {
+    "id": 416038,
+    "nome": "Usucapião Extraordinária Especial |"
+  },
+  {
+    "id": 416039,
+    "nome": "Usucapião Ordinária |"
+  },
+  {
+    "id": 416040,
+    "nome": "Usucapião Ordinária Tabular |"
+  },
+  {
+    "id": 416041,
+    "nome": "Usucapião Especial |"
+  },
+  {
+    "id": 416042,
+    "nome": "Usucapião Constitucional Urbana ou Pro Moradia |"
+  },
+  {
+    "id": 416043,
+    "nome": "Usucapião Constitucional Rural ou Pro Labore |"
+  },
+  {
+    "id": 416044,
+    "nome": "Usucapião Familiar |"
+  },
+  {
+    "id": 416045,
+    "nome": "Usucapião Coletiva |"
+  },
+  {
+    "id": 416046,
+    "nome": "Usucapião Indígena |"
+  },
+  {
+    "id": 416048,
+    "nome": "Usucapião Extrajudicial ou Administrativa |"
+  },
+  {
+    "id": 406027,
+    "nome": "Registro do Título |"
+  },
+  {
+    "id": 406028,
+    "nome": "Acessão |"
+  },
+  {
+    "id": 406029,
+    "nome": "Formação de Ilhas |"
+  },
+  {
+    "id": 406030,
+    "nome": "Aluvião |"
+  },
+  {
+    "id": 406031,
+    "nome": "Avulsão |"
+  },
+  {
+    "id": 406032,
+    "nome": "Álveo Abandonado |"
+  },
+  {
+    "id": 406033,
+    "nome": "Construções e Plantações |"
+  },
+  {
+    "id": 425002,
+    "nome": "Terreno Próprio com Material Alheio |"
+  },
+  {
+    "id": 425003,
+    "nome": "Material Próprio em Terreno Alheio |"
+  },
+  {
+    "id": 406035,
+    "nome": "Modos de Aquisição da Propriedade Móvel (Art. 1.260 ao 1.274) |"
+  },
+  {
+    "id": 406036,
+    "nome": "Usucapião |"
+  },
+  {
+    "id": 416049,
+    "nome": "Usucapião Móvel Ordinária |"
+  },
+  {
+    "id": 416050,
+    "nome": "Usucapião Móvel Extraordinária |"
+  },
+  {
+    "id": 425004,
+    "nome": "Coisas sem Dono |"
+  },
+  {
+    "id": 406037,
+    "nome": "Da Ocupação |"
+  },
+  {
+    "id": 406038,
+    "nome": "Do Achado do Tesouro |"
+  },
+  {
+    "id": 406039,
+    "nome": "Tradição |"
+  },
+  {
+    "id": 406041,
+    "nome": "Acessão |"
+  },
+  {
+    "id": 425005,
+    "nome": "Especificação |"
+  },
+  {
+    "id": 425006,
+    "nome": "União |"
+  },
+  {
+    "id": 425007,
+    "nome": "Confusão |"
+  },
+  {
+    "id": 425008,
+    "nome": "Comissão |"
+  },
+  {
+    "id": 425009,
+    "nome": "Adjunção |"
+  },
+  {
+    "id": 406042,
+    "nome": "Perda da Propriedade (Art. 1.275 ao 1.276) |"
+  },
+  {
+    "id": 416052,
+    "nome": "Modos Voluntários de Perda da Propriedade |"
+  },
+  {
+    "id": 416053,
+    "nome": "Alienação |"
+  },
+  {
+    "id": 416054,
+    "nome": "Renúncia |"
+  },
+  {
+    "id": 416055,
+    "nome": "Abandono |"
+  },
+  {
+    "id": 416056,
+    "nome": "Modos Involuntários de Perda da Propriedade |"
+  },
+  {
+    "id": 416057,
+    "nome": "Desapropriação |"
+  },
+  {
+    "id": 416058,
+    "nome": "Arrematação |"
+  },
+  {
+    "id": 416059,
+    "nome": "Adjudicação |"
+  },
+  {
+    "id": 416060,
+    "nome": "Implemento de Condição Resolutiva |"
+  },
+  {
+    "id": 406043,
+    "nome": "Direitos de Vizinhança (Art. 1.277 ao 1.313) |"
+  },
+  {
+    "id": 406044,
+    "nome": "Uso Anormal da Propriedade (Art. 1.227 ao 1.281) |"
+  },
+  {
+    "id": 406045,
+    "nome": "Árvores limítrofes (Art. 1.282 ao 1.284) |"
+  },
+  {
+    "id": 406046,
+    "nome": "Passagem Forçada (Art. 1.285) |"
+  },
+  {
+    "id": 406047,
+    "nome": "Passagem de Cabos e Tubulações (Art. 1.286 ao 1.287) |"
+  },
+  {
+    "id": 406048,
+    "nome": "Águas (Art. 1.288 ao 1.296) |"
+  },
+  {
+    "id": 406049,
+    "nome": "Tapagem e Limites entre Propriedades (Art. 1.297 e 1.298) |"
+  },
+  {
+    "id": 406050,
+    "nome": "Direito de Construir (Art. 1.299 ao 1.313) |"
+  },
+  {
+    "id": 416064,
+    "nome": "Medidas Judiciais Cabíveis aos Direitos de Vizinhança |"
+  },
+  {
+    "id": 416066,
+    "nome": "Ação Demolitória |"
+  },
+  {
+    "id": 416068,
+    "nome": "Ação Indenizatória |"
+  },
+  {
+    "id": 406051,
+    "nome": "Condomínio Geral (Art. 1.314 ao 1.330) |"
+  },
+  {
+    "id": 406054,
+    "nome": "Noções Gerais de Condomínio |"
+  },
+  {
+    "id": 416069,
+    "nome": "Conceito de Condomínio |"
+  },
+  {
+    "id": 425010,
+    "nome": "Classificação do Condomínio |"
+  },
+  {
+    "id": 425011,
+    "nome": "Quanto à Origem |"
+  },
+  {
+    "id": 406055,
+    "nome": "Condomínio Voluntário ou Convencional |"
+  },
+  {
+    "id": 425012,
+    "nome": "Quanto à Forma |"
+  },
+  {
+    "id": 425013,
+    "nome": "Condomínio Pro Diviso ou Divisível |"
+  },
+  {
+    "id": 425014,
+    "nome": "Condomínio pro indiviso ou indivisível |"
+  },
+  {
+    "id": 425015,
+    "nome": "Extinção do Condomínio |"
+  },
+  {
+    "id": 425016,
+    "nome": "Alienação |"
+  },
+  {
+    "id": 425017,
+    "nome": "Divisão |"
+  },
+  {
+    "id": 406057,
+    "nome": "Administração do Condomínio |"
+  },
+  {
+    "id": 425018,
+    "nome": "Condomínio Voluntário (Art. 1.314 ao 1.326) |"
+  },
+  {
+    "id": 425019,
+    "nome": "Direitos e Deveres dos Condôminos (Art. 1.314 ao 1.322) |"
+  },
+  {
+    "id": 425020,
+    "nome": "Administração do Condomínio Geral (Art. 1.323 ao 1.326) |"
+  },
+  {
+    "id": 406058,
+    "nome": "Condomínio Necessário (Art. 1.327 ao 1.330) |"
+  },
+  {
+    "id": 406059,
+    "nome": "Condomínio Edilício (Art. 1.331 ao 1.358-A) |"
+  },
+  {
+    "id": 406060,
+    "nome": "Disposições Gerais (Art. 1.331 ao 1.346) |"
+  },
+  {
+    "id": 406056,
+    "nome": "Dos Direitos e Deveres dos Condôminos |"
+  },
+  {
+    "id": 406061,
+    "nome": "Administração do Condomínio Edilício (Art. 1.347 ao 1.356) |"
+  },
+  {
+    "id": 406062,
+    "nome": "Extinção do Condomínio (Art. 1.357 ao 1.358) |"
+  },
+  {
+    "id": 416070,
+    "nome": "Condomínio de Lotes (Art. 1.358-A) |"
+  },
+  {
+    "id": 406063,
+    "nome": "Condomínio em Multipropriedade (Art. 1.358-B ao 1.358-U) |"
+  },
+  {
+    "id": 425021,
+    "nome": "Disposições Gerais (Art. 1.358-B ao 1.358-E) |"
+  },
+  {
+    "id": 406064,
+    "nome": "Instituição da Multipropriedade (Art. 1.358-F ao 1.358-H) |"
+  },
+  {
+    "id": 406065,
+    "nome": "Direitos e Obrigações do Multiproprietário (Art. 1.358-I ao 1.358-K) |"
+  },
+  {
+    "id": 406066,
+    "nome": "Transferência da Multipropriedade (Art. 1.358-L) |"
+  },
+  {
+    "id": 406067,
+    "nome": "Administração da Multipropriedade (Art. 1.358-M ao 1.358-N) |"
+  },
+  {
+    "id": 406068,
+    "nome": "Disposições Específicas Relativas às Unidades Autônomas de Condomínios Edilícios (Art. 1.358-O ao 1.358-U) |"
+  },
+  {
+    "id": 425022,
+    "nome": "Propriedade Limitada |"
+  },
+  {
+    "id": 406112,
+    "nome": "Propriedade Resolúvel (Art. 1.359 ao 1.360) |"
+  },
+  {
+    "id": 416071,
+    "nome": "Resolução pelo Advento do Termo ou Implemento de Condição (Art. 1.359) |"
+  },
+  {
+    "id": 416072,
+    "nome": "Resolução por Causa Superveniente (Art. 1.360) |"
+  },
+  {
+    "id": 416073,
+    "nome": "Propriedade Fiduciária (Art. 1.361 ao 1.368-B) |"
+  },
+  {
+    "id": 425026,
+    "nome": "Partes da Propriedade Fiduciária |"
+  },
+  {
+    "id": 416074,
+    "nome": "Fiduciante |"
+  },
+  {
+    "id": 416075,
+    "nome": "Fiduciário |"
+  },
+  {
+    "id": 416076,
+    "nome": "Fundo de Investimento |"
+  },
+  {
+    "id": 406052,
+    "nome": "Direitos Reais de Gozo ou Fruição |"
+  },
+  {
+    "id": 406070,
+    "nome": "Enfiteuse |"
+  },
+  {
+    "id": 416167,
+    "nome": "Disposições Gerais Sobre Enfiteuse |"
+  },
+  {
+    "id": 416168,
+    "nome": "Proibição à Constituição de novas Enfiteuses |"
+  },
+  {
+    "id": 406069,
+    "nome": "Superfície (Art. 1.369 ao 1.377) |"
+  },
+  {
+    "id": 416162,
+    "nome": "Conceito de Superfície |"
+  },
+  {
+    "id": 416163,
+    "nome": "Constituição da Superfície |"
+  },
+  {
+    "id": 416164,
+    "nome": "Responsabilidades do Concedente e do Superficiário |"
+  },
+  {
+    "id": 416165,
+    "nome": "Extinção da Superfície |"
+  },
+  {
+    "id": 416166,
+    "nome": "Direito de Superfície da Pessoa Jurídica de Direito Público |"
+  },
+  {
+    "id": 406071,
+    "nome": "Servidão (Art. 1.378 ao 1.389) |"
+  },
+  {
+    "id": 406072,
+    "nome": "Constituição das Servidões |"
+  },
+  {
+    "id": 416169,
+    "nome": "Classificação das Servidões |"
+  },
+  {
+    "id": 406073,
+    "nome": "Quanto ao Exercício |"
+  },
+  {
+    "id": 416173,
+    "nome": "Servidões Contínuas |"
+  },
+  {
+    "id": 416174,
+    "nome": "Servidões Descontínuas |"
+  },
+  {
+    "id": 416175,
+    "nome": "Quanto à Forma |"
+  },
+  {
+    "id": 416176,
+    "nome": "Servidões Aparentes ou não Naturais |"
+  },
+  {
+    "id": 416177,
+    "nome": "Servidões não Aparentes ou Naturais |"
+  },
+  {
+    "id": 416178,
+    "nome": "Quanto ao Lugar |"
+  },
+  {
+    "id": 416180,
+    "nome": "Servidões Urbanas |"
+  },
+  {
+    "id": 425027,
+    "nome": "Exercício das Servidões (Art. 1.380 ao 1.386) |"
+  },
+  {
+    "id": 406074,
+    "nome": "Extinção das Servidões (Art. 1.387 ao 1.389) |"
+  },
+  {
+    "id": 416181,
+    "nome": "Diferenças entre Servidão e Passagem Forçada |"
+  },
+  {
+    "id": 406077,
+    "nome": "Usufruto (Art. 1.390 ao 1.411) |"
+  },
+  {
+    "id": 406078,
+    "nome": "Disposições Gerais sobre Usufruto (Art. 1.390 ao 1.393) |"
+  },
+  {
+    "id": 406079,
+    "nome": "Direitos do Usufrutuário (Art. 1.394 ao 1.399) |"
+  },
+  {
+    "id": 406080,
+    "nome": "Deveres do Usufrutuário (Art. 1.400 ao 1.409) |"
+  },
+  {
+    "id": 406081,
+    "nome": "Extinção do Usufruto (Art. 1.410 ao 1.411) |"
+  },
+  {
+    "id": 406075,
+    "nome": "Uso (Art. 1.412 ao 1.413) |"
+  },
+  {
+    "id": 416182,
+    "nome": "Características do Direito de Uso |"
+  },
+  {
+    "id": 406076,
+    "nome": "Habitação (Art. 1.414 ao 1.416) |"
+  },
+  {
+    "id": 416183,
+    "nome": "Características do Direito de Habitação |"
+  },
+  {
+    "id": 416184,
+    "nome": "Concessão de Uso Especial para Fins de Moradia (Art. 1.225) |"
+  },
+  {
+    "id": 416185,
+    "nome": "Concessão de Direito Real de Uso (Art. 1.225) |"
+  },
+  {
+    "id": 425028,
+    "nome": "Direito do Promitente Comprador (Art. 1.417 e 1.418) |"
+  },
+  {
+    "id": 406090,
+    "nome": "Direitos Reais de Garantia |"
+  },
+  {
+    "id": 406091,
+    "nome": "Disposições gerais (Art. 1.419 ao 1.430) |"
+  },
+  {
+    "id": 416187,
+    "nome": "Características dos Direitos Reais de Garantia |"
+  },
+  {
+    "id": 416188,
+    "nome": "Eficácia Erga Omnes |"
+  },
+  {
+    "id": 416189,
+    "nome": "Indivisibilidade da Garantia |"
+  },
+  {
+    "id": 416191,
+    "nome": "Proibição do Pacto Comissório Real |"
+  },
+  {
+    "id": 416192,
+    "nome": "Diferenças Entre Pacto Comissório e Pacto Marciano |"
+  },
+  {
+    "id": 416193,
+    "nome": "Regras Gerais dos Direitos Reais de Garantia |"
+  },
+  {
+    "id": 416194,
+    "nome": "Terminologia dos Direitos Reais de Garantia |"
+  },
+  {
+    "id": 416195,
+    "nome": "Direito de Excussão |"
+  },
+  {
+    "id": 416196,
+    "nome": "Direito de Prelação |"
+  },
+  {
+    "id": 416198,
+    "nome": "Remição da Garantia |"
+  },
+  {
+    "id": 416199,
+    "nome": "Princípios dos Direitos Reais de Garantia |"
+  },
+  {
+    "id": 416201,
+    "nome": "Quanto ao Objeto |"
+  },
+  {
+    "id": 416203,
+    "nome": "Quanto à Extensão da Garantia |"
+  },
+  {
+    "id": 416205,
+    "nome": "Quanto à Forma do Exercício do Direito |"
+  },
+  {
+    "id": 416206,
+    "nome": "Quanto ao Vencimento Antecipado da Dívida |"
+  },
+  {
+    "id": 406092,
+    "nome": "Penhor (Art. 1.431 ao 1.472) |"
+  },
+  {
+    "id": 406093,
+    "nome": "Constituição do Penhor (Art. 1.431 e 1.432) |"
+  },
+  {
+    "id": 406094,
+    "nome": "Direitos do Credor Pignoratício (Art. 1.433 ao 1.434) |"
+  },
+  {
+    "id": 406095,
+    "nome": "Obrigações do Credor Pignoratício (Art. 1.435) |"
+  },
+  {
+    "id": 406096,
+    "nome": "Extinção do Penhor (Art. 1.436 e 1.437) |"
+  },
+  {
+    "id": 425029,
+    "nome": "Espécies de Penhor |"
+  },
+  {
+    "id": 406104,
+    "nome": "Penhor Legal (Art. 1.467 ao 1.472) |"
+  },
+  {
+    "id": 416207,
+    "nome": "Penhor Convencional Comum |"
+  },
+  {
+    "id": 416208,
+    "nome": "Penhor Convencional Especial |"
+  },
+  {
+    "id": 406097,
+    "nome": "Penhor Rural (Art. 1.438 ao 1.446) |"
+  },
+  {
+    "id": 406098,
+    "nome": "Disposições Gerais sobre Penhor Rural (Art. 1.438 ao 1.441) |"
+  },
+  {
+    "id": 406099,
+    "nome": "Penhor Agrícola (Art. 1.442 ao 1.443) |"
+  },
+  {
+    "id": 406100,
+    "nome": "Penhor Pecuário (Art. 1.444 ao 1.446) |"
+  },
+  {
+    "id": 406101,
+    "nome": "Penhor Industrial e Mercantil (Art. 1.447 ao 1.450) |"
+  },
+  {
+    "id": 406102,
+    "nome": "Penhor de Direitos e Títulos de Crédito (Art. 1.451 ao 1.460) |"
+  },
+  {
+    "id": 406103,
+    "nome": "Penhor de Veículos (Art. 1.461 ao 1.466) |"
+  },
+  {
+    "id": 406105,
+    "nome": "Hipoteca (Art. 1.473 ao 1.505) |"
+  },
+  {
+    "id": 406106,
+    "nome": "Disposições Gerais sobre Hipoteca (Art. 1.473 ao 1.488) |"
+  },
+  {
+    "id": 416209,
+    "nome": "Espécies de Hipoteca |"
+  },
+  {
+    "id": 416210,
+    "nome": "Hipoteca Convencional |"
+  },
+  {
+    "id": 406107,
+    "nome": "Hipoteca Legal |"
+  },
+  {
+    "id": 416211,
+    "nome": "Hipoteca Judicial |"
+  },
+  {
+    "id": 406110,
+    "nome": "Hipoteca de Vias Férreas |"
+  },
+  {
+    "id": 406108,
+    "nome": "Registro da Hipoteca (Art. 1.492 ao 1.498) |"
+  },
+  {
+    "id": 406109,
+    "nome": "Extinção da Hipoteca (Art. 1.499 ao 1.501) |"
+  },
+  {
+    "id": 406111,
+    "nome": "Anticrese (Art. 1.506 ao 1.510) |"
+  },
+  {
+    "id": 406082,
+    "nome": "Laje (Art. 1.510-A ao 1.510-E) |"
+  },
+  {
+    "id": 406019,
+    "nome": "Direito de Família (Art. 1.511 ao 1.783) |"
+  },
+  {
+    "id": 416212,
+    "nome": "Conceitos e modalidades de Família |"
+  },
+  {
+    "id": 416213,
+    "nome": "Família Matrimonial |"
+  },
+  {
+    "id": 416217,
+    "nome": "Família Extensa ou Ampliada |"
+  },
+  {
+    "id": 416218,
+    "nome": "Família Substituta |"
+  },
+  {
+    "id": 416219,
+    "nome": "Família Socioafetiva |"
+  },
+  {
+    "id": 416220,
+    "nome": "Família Anaparental ou Parental |"
+  },
+  {
+    "id": 416222,
+    "nome": "Família Homoafetiva |"
+  },
+  {
+    "id": 416225,
+    "nome": "Concepção Constitucional de Família |"
+  },
+  {
+    "id": 416226,
+    "nome": "Princípios Informadores do Direito de Família |"
+  },
+  {
+    "id": 416227,
+    "nome": "Princípio da Dignidade da Pessoa Humana |"
+  },
+  {
+    "id": 416228,
+    "nome": "Princípio da Solidariedade Familiar |"
+  },
+  {
+    "id": 416235,
+    "nome": "Princípio da Boa-Fé Objetiva |"
+  },
+  {
+    "id": 416236,
+    "nome": "Princípio do Maior Interesse da Criança e do Adolescente |"
+  },
+  {
+    "id": 406113,
+    "nome": "Direito Conjugal |"
+  },
+  {
+    "id": 425030,
+    "nome": "Direito Conjugal Existencial |"
+  },
+  {
+    "id": 406146,
+    "nome": "União Estável (Art. 1.723 ao 1.727) |"
+  },
+  {
+    "id": 416237,
+    "nome": "Requisitos da União Estável |"
+  },
+  {
+    "id": 416239,
+    "nome": "Publicidade |"
+  },
+  {
+    "id": 416242,
+    "nome": "Defeitos da União Estável |"
+  },
+  {
+    "id": 416243,
+    "nome": "Efeitos da União Estável |"
+  },
+  {
+    "id": 416245,
+    "nome": "Dissolução da União Estável |"
+  },
+  {
+    "id": 416244,
+    "nome": "União Homoafetiva e seu Enquadramento como União Estável |"
+  },
+  {
+    "id": 425035,
+    "nome": "Concubinato |"
+  },
+  {
+    "id": 406114,
+    "nome": "Casamento (Art. 1.511 ao 1.582) |"
+  },
+  {
+    "id": 416246,
+    "nome": "Teorias sobre o Casamento |"
+  },
+  {
+    "id": 416247,
+    "nome": "Teoria Contratualista |"
+  },
+  {
+    "id": 406116,
+    "nome": "Requisitos do Casamento |"
+  },
+  {
+    "id": 406119,
+    "nome": "Processo de Habilitação para o Casamento |"
+  },
+  {
+    "id": 406120,
+    "nome": "Requisitos da Celebração |"
+  },
+  {
+    "id": 416249,
+    "nome": "Casamento Religioso |"
+  },
+  {
+    "id": 416250,
+    "nome": "Casamento Sob Moléstia Grave e Casamento Nuncupativo |"
+  },
+  {
+    "id": 425036,
+    "nome": "Casamento Nuncupativo |"
+  },
+  {
+    "id": 406121,
+    "nome": "Das Provas Do Casamento |"
+  },
+  {
+    "id": 406117,
+    "nome": "Defeitos do Casamento |"
+  },
+  {
+    "id": 425037,
+    "nome": "Causas de Impedimentos matrimoniais |"
+  },
+  {
+    "id": 406118,
+    "nome": "Causas Suspensivas do Casamento |"
+  },
+  {
+    "id": 406122,
+    "nome": "Invalidades do Casamento |"
+  },
+  {
+    "id": 416251,
+    "nome": "Casamento Inexistente |"
+  },
+  {
+    "id": 416252,
+    "nome": "Casamento Nulo |"
+  },
+  {
+    "id": 416253,
+    "nome": "Casamento Anulável |"
+  },
+  {
+    "id": 416254,
+    "nome": "Casamento Putativo |"
+  },
+  {
+    "id": 406123,
+    "nome": "Efeitos do Casamento |"
+  },
+  {
+    "id": 406124,
+    "nome": "Dissolução do Casamento |"
+  },
+  {
+    "id": 416255,
+    "nome": "Noções Gerais de Dissolução do Casamento |"
+  },
+  {
+    "id": 416256,
+    "nome": "Separação Judicial |"
+  },
+  {
+    "id": 416257,
+    "nome": "Divórcio |"
+  },
+  {
+    "id": 425039,
+    "nome": "Direito Conjugal Patrimonial |"
+  },
+  {
+    "id": 416258,
+    "nome": "Noções Gerais do Direito Conjugal Patrimonial |"
+  },
+  {
+    "id": 425038,
+    "nome": "Pacto Antenupcial |"
+  },
+  {
+    "id": 406136,
+    "nome": "Regime de Bens |"
+  },
+  {
+    "id": 406139,
+    "nome": "Comunhão Parcial |"
+  },
+  {
+    "id": 406140,
+    "nome": "Comunhão Universal ou Total |"
+  },
+  {
+    "id": 416259,
+    "nome": "Separação Obrigatória ou Legal |"
+  },
+  {
+    "id": 416260,
+    "nome": "Separação Voluntária ou Convencional |"
+  },
+  {
+    "id": 406141,
+    "nome": "Participação Final nos Aquestos |"
+  },
+  {
+    "id": 406143,
+    "nome": "Do Usufruto E Da Administração Dos Bens De Filhos Menores |"
+  },
+  {
+    "id": 406126,
+    "nome": "Direito Parental |"
+  },
+  {
+    "id": 406127,
+    "nome": "Parentesco |"
+  },
+  {
+    "id": 416268,
+    "nome": "Contagem do Parentesco |"
+  },
+  {
+    "id": 416269,
+    "nome": "Parentesco em Linha Reta |"
+  },
+  {
+    "id": 416270,
+    "nome": "Parentesco em Linha Colateral |"
+  },
+  {
+    "id": 416272,
+    "nome": "Regras do Parentesco |"
+  },
+  {
+    "id": 416273,
+    "nome": "Efeitos do Parentesco |"
+  },
+  {
+    "id": 406128,
+    "nome": "Filiação (paternidade) |"
+  },
+  {
+    "id": 425041,
+    "nome": "Noções Gerais de Filiação |"
+  },
+  {
+    "id": 425042,
+    "nome": "Ações de Filiação |"
+  },
+  {
+    "id": 406129,
+    "nome": "Reconhecimento Voluntário de Paternidade |"
+  },
+  {
+    "id": 416274,
+    "nome": "Averiguação Oficiosa de Paternidade |"
+  },
+  {
+    "id": 416277,
+    "nome": "Ação de Oposição ao Reconhecimento de Filiação |"
+  },
+  {
+    "id": 416278,
+    "nome": "Ação de Anulação de Reconhecimento |"
+  },
+  {
+    "id": 416279,
+    "nome": "Ação de Investigação de Parentalidade |"
+  },
+  {
+    "id": 425043,
+    "nome": "Proteção da Pessoa dos Filhos |"
+  },
+  {
+    "id": 406131,
+    "nome": "Poder Familiar |"
+  },
+  {
+    "id": 406132,
+    "nome": "Disposições Gerais sobre o Poder Familiar |"
+  },
+  {
+    "id": 406133,
+    "nome": "Exercício do Poder Familiar |"
+  },
+  {
+    "id": 406134,
+    "nome": "Suspensão e Extinção do Poder Familiar |"
+  },
+  {
+    "id": 416281,
+    "nome": "Problemas da Alienação Parental |"
+  },
+  {
+    "id": 416282,
+    "nome": "Guarda |"
+  },
+  {
+    "id": 425044,
+    "nome": "Definição |"
+  },
+  {
+    "id": 416283,
+    "nome": "Guarda Unilateral |"
+  },
+  {
+    "id": 416284,
+    "nome": "Guarda Exclusiva |"
+  },
+  {
+    "id": 416285,
+    "nome": "Guarda Alternada |"
+  },
+  {
+    "id": 416286,
+    "nome": "Guarda Nidal ou Aninhamento |"
+  },
+  {
+    "id": 416287,
+    "nome": "Guarda Compartilhada |"
+  },
+  {
+    "id": 406130,
+    "nome": "Da Adoção |"
+  },
+  {
+    "id": 425045,
+    "nome": "Direito Assistencial |"
+  },
+  {
+    "id": 406144,
+    "nome": "Dos Alimentos |"
+  },
+  {
+    "id": 416288,
+    "nome": "Regras de Alimentos |"
+  },
+  {
+    "id": 416289,
+    "nome": "Reciprocidade |"
+  },
+  {
+    "id": 416290,
+    "nome": "Divisibilidade |"
+  },
+  {
+    "id": 416291,
+    "nome": "Subsidiariedade |"
+  },
+  {
+    "id": 416292,
+    "nome": "Complementariedade |"
+  },
+  {
+    "id": 416293,
+    "nome": "Classificação dos Alimentos |"
+  },
+  {
+    "id": 416294,
+    "nome": "Quanto à Extensão |"
+  },
+  {
+    "id": 416295,
+    "nome": "Alimentos Civis |"
+  },
+  {
+    "id": 416296,
+    "nome": "Alimentos Naturais |"
+  },
+  {
+    "id": 416297,
+    "nome": "Quanto à Duração |"
+  },
+  {
+    "id": 416298,
+    "nome": "Alimentos Definitivos |"
+  },
+  {
+    "id": 416299,
+    "nome": "Alimentos Provisórios |"
+  },
+  {
+    "id": 416300,
+    "nome": "Alimentos Provisionais |"
+  },
+  {
+    "id": 416301,
+    "nome": "Ações de Alimentos |"
+  },
+  {
+    "id": 416302,
+    "nome": "Ação de Fixação de Alimentos |"
+  },
+  {
+    "id": 416303,
+    "nome": "Ação de Revisão de Alimentos |"
+  },
+  {
+    "id": 416304,
+    "nome": "Ação de Alimentos Gravídicos |"
+  },
+  {
+    "id": 416305,
+    "nome": "Ação de Execução de Alimentos |"
+  },
+  {
+    "id": 416306,
+    "nome": "Ação de Exoneração de Alimentos |"
+  },
+  {
+    "id": 425046,
+    "nome": "Proteção |"
+  },
+  {
+    "id": 406147,
+    "nome": "Tutela |"
+  },
+  {
+    "id": 416307,
+    "nome": "Aspectos Gerais da Tutela |"
+  },
+  {
+    "id": 416308,
+    "nome": "Falta de Legitimação à Tutela |"
+  },
+  {
+    "id": 406151,
+    "nome": "Escusa da Tutela |"
+  },
+  {
+    "id": 406153,
+    "nome": "Bens da Tutela |"
+  },
+  {
+    "id": 406149,
+    "nome": "Competências do Tutor |"
+  },
+  {
+    "id": 406154,
+    "nome": "Prestação de Contas da Tutela |"
+  },
+  {
+    "id": 416310,
+    "nome": "Responsabilidade Civil do Tutor |"
+  },
+  {
+    "id": 406155,
+    "nome": "Da Cessação da Tutela |"
+  },
+  {
+    "id": 406156,
+    "nome": "Curatela |"
+  },
+  {
+    "id": 416311,
+    "nome": "Pessoas Submetidas à Curatela |"
+  },
+  {
+    "id": 416312,
+    "nome": "Curador Legal Legítimo e Curador Dativo |"
+  },
+  {
+    "id": 416313,
+    "nome": "Limitações da Curatela |"
+  },
+  {
+    "id": 416314,
+    "nome": "Tomada de Decisão Apoiada |"
+  },
+  {
+    "id": 406160,
+    "nome": "Direito das Sucessões (Art. 1.784 ao 2.027) |"
+  },
+  {
+    "id": 406168,
+    "nome": "Teoria Geral da Sucessão - Sucessão em geral (Art. 1.784 ao 1.828) |"
+  },
+  {
+    "id": 416315,
+    "nome": "Abertura da Sucessão |"
+  },
+  {
+    "id": 406170,
+    "nome": "Herança |"
+  },
+  {
+    "id": 425047,
+    "nome": "Disposições Gerais sobre Herança |"
+  },
+  {
+    "id": 425048,
+    "nome": "Administração da Herança |"
+  },
+  {
+    "id": 406172,
+    "nome": "Aceitação e Renúncia da Herança |"
+  },
+  {
+    "id": 406171,
+    "nome": "Legitimidade Sucessória |"
+  },
+  {
+    "id": 406174,
+    "nome": "Jacência e Vacância |"
+  },
+  {
+    "id": 416316,
+    "nome": "Herança Jacente |"
+  },
+  {
+    "id": 416317,
+    "nome": "Herança Vacante |"
+  },
+  {
+    "id": 406173,
+    "nome": "Exclusão da Sucessão |"
+  },
+  {
+    "id": 416318,
+    "nome": "Indignidade |"
+  },
+  {
+    "id": 406203,
+    "nome": "Deserdação |"
+  },
+  {
+    "id": 416319,
+    "nome": "Deserdação dos Descendentes pelos Ascendentes |"
+  },
+  {
+    "id": 416320,
+    "nome": "Deserdação dos Ascendentes pelos Descendentes |"
+  },
+  {
+    "id": 406175,
+    "nome": "Petição De Herança |"
+  },
+  {
+    "id": 406176,
+    "nome": "Sucessão Legítima (Art. 1.829 ao 1.856) |"
+  },
+  {
+    "id": 406177,
+    "nome": "Ordem Da Vocação Hereditária |"
+  },
+  {
+    "id": 416321,
+    "nome": "Sucessão do Companheiro e do Cônjuge |"
+  },
+  {
+    "id": 416322,
+    "nome": "Em Concorrência com os Descendentes |"
+  },
+  {
+    "id": 416323,
+    "nome": "Em Concorrência com os Ascendentes |"
+  },
+  {
+    "id": 416324,
+    "nome": "Isoladamente, sem Concorrência |"
+  },
+  {
+    "id": 416325,
+    "nome": "Sucessão dos Descendentes |"
+  },
+  {
+    "id": 416326,
+    "nome": "Sucessão dos Ascendentes |"
+  },
+  {
+    "id": 416327,
+    "nome": "Sucessão dos Colaterais |"
+  },
+  {
+    "id": 406179,
+    "nome": "Direito De Representação |"
+  },
+  {
+    "id": 406180,
+    "nome": "Sucessão Testamentária (Art. 1.857 ao 1.990) |"
+  },
+  {
+    "id": 406181,
+    "nome": "Noções Gerais de Sucessão Testamentária |"
+  },
+  {
+    "id": 425051,
+    "nome": "Características dos Testamentos |"
+  },
+  {
+    "id": 406182,
+    "nome": "Da Capacidade De Testar |"
+  },
+  {
+    "id": 406183,
+    "nome": "Formas Testamentárias |"
+  },
+  {
+    "id": 406184,
+    "nome": "Testamentos Ordinários |"
+  },
+  {
+    "id": 406185,
+    "nome": "Do Testamento Público |"
+  },
+  {
+    "id": 406186,
+    "nome": "Do Testamento Cerrado |"
+  },
+  {
+    "id": 406188,
+    "nome": "Do Testamento Particular |"
+  },
+  {
+    "id": 406190,
+    "nome": "Dos Testamentos Especiais |"
+  },
+  {
+    "id": 406192,
+    "nome": "Testamento Marítimo |"
+  },
+  {
+    "id": 406191,
+    "nome": "Testamento Aeronáutico |"
+  },
+  {
+    "id": 406189,
+    "nome": "Codicilo |"
+  },
+  {
+    "id": 406194,
+    "nome": "Disposições Testamentárias |"
+  },
+  {
+    "id": 416328,
+    "nome": "Interpretação das Disposições Testamentárias |"
+  },
+  {
+    "id": 416329,
+    "nome": "Validade das Disposições Testamentárias |"
+  },
+  {
+    "id": 416330,
+    "nome": "Nulidade das Disposições Testamentárias |"
+  },
+  {
+    "id": 416331,
+    "nome": "Anulabilidade das Disposições Testamentárias |"
+  },
+  {
+    "id": 406195,
+    "nome": "Legado |"
+  },
+  {
+    "id": 406196,
+    "nome": "Noções Gerais de legado |"
+  },
+  {
+    "id": 416332,
+    "nome": "Diferença entre Legado e Herança |"
+  },
+  {
+    "id": 416335,
+    "nome": "Espécies de Legado |"
+  },
+  {
+    "id": 416336,
+    "nome": "Legado de Coisa Alheia |"
+  },
+  {
+    "id": 416338,
+    "nome": "Legado de Coisa Incerta |"
+  },
+  {
+    "id": 416340,
+    "nome": "Legado de Coisa Incerta em Lugar Certo |"
+  },
+  {
+    "id": 416342,
+    "nome": "Legado de Alimentos |"
+  },
+  {
+    "id": 416343,
+    "nome": "Legado de Usufruto |"
+  },
+  {
+    "id": 406198,
+    "nome": "Caducidade dos Legados |"
+  },
+  {
+    "id": 406199,
+    "nome": "Direito de Acrescer entre Herdeiros e Legatários |"
+  },
+  {
+    "id": 416345,
+    "nome": "Conjunção Real (res tantum) |"
+  },
+  {
+    "id": 416346,
+    "nome": "Conjunção Verbal (verbis tantum) |"
+  },
+  {
+    "id": 406200,
+    "nome": "Substituições |"
+  },
+  {
+    "id": 406201,
+    "nome": "Substituição Ordinária ou Vulgar |"
+  },
+  {
+    "id": 416348,
+    "nome": "Substituição Recíproca |"
+  },
+  {
+    "id": 416352,
+    "nome": "Substituição Singular |"
+  },
+  {
+    "id": 406202,
+    "nome": "Da Substituição Fideicomissária |"
+  },
+  {
+    "id": 406204,
+    "nome": "Da Redução Das Disposições Testamentárias |"
+  },
+  {
+    "id": 416356,
+    "nome": "Reduções Simples |"
+  },
+  {
+    "id": 406205,
+    "nome": "Revogação Do Testamento |"
+  },
+  {
+    "id": 416358,
+    "nome": "Revogação Total |"
+  },
+  {
+    "id": 416359,
+    "nome": "Revogação Parcial |"
+  },
+  {
+    "id": 406206,
+    "nome": "Do Rompimento do Testamento |"
+  },
+  {
+    "id": 406207,
+    "nome": "Testamenteiro |"
+  },
+  {
+    "id": 406208,
+    "nome": "Inventário, Partilha e Arrolamento (Art. 1.991 ao 2.027) |"
+  },
+  {
+    "id": 416360,
+    "nome": "Disposições Gerais Sobre Inventário |"
+  },
+  {
+    "id": 416361,
+    "nome": "Dispensas Legais |"
+  },
+  {
+    "id": 406209,
+    "nome": "Do Inventário |"
+  },
+  {
+    "id": 416365,
+    "nome": "Inventário Extrajudicial |"
+  },
+  {
+    "id": 416366,
+    "nome": "Requisitos para o Inventário Extrajudicial |"
+  },
+  {
+    "id": 416367,
+    "nome": "Inventário Judicial |"
+  },
+  {
+    "id": 416368,
+    "nome": "Nomeação do Inventariante |"
+  },
+  {
+    "id": 416369,
+    "nome": "Legitimidade para Requerer a Abertura |"
+  },
+  {
+    "id": 416370,
+    "nome": "Ordem de Nomeação do Inventariante |"
+  },
+  {
+    "id": 416371,
+    "nome": "Responsabilidades do Inventariante |"
+  },
+  {
+    "id": 406210,
+    "nome": "Sonegação de Bens |"
+  },
+  {
+    "id": 416372,
+    "nome": "Remoção do Inventariante |"
+  },
+  {
+    "id": 416373,
+    "nome": "Hipóteses de Remoção do Inventariante |"
+  },
+  {
+    "id": 406211,
+    "nome": "Do Pagamento Das Dívidas |"
+  },
+  {
+    "id": 406212,
+    "nome": "Colações |"
+  },
+  {
+    "id": 406213,
+    "nome": "Partilha |"
+  },
+  {
+    "id": 416375,
+    "nome": "Noções Gerais de Partilha |"
+  },
+  {
+    "id": 416376,
+    "nome": "Ordem dos Pagamentos |"
+  },
+  {
+    "id": 416377,
+    "nome": "Partilha Amigável ou Extrajudicial |"
+  },
+  {
+    "id": 416378,
+    "nome": "Partilha Judicial |"
+  },
+  {
+    "id": 416379,
+    "nome": "Partilha em Vida |"
+  },
+  {
+    "id": 416380,
+    "nome": "Hipóteses de Sobrepartilha |"
+  },
+  {
+    "id": 416381,
+    "nome": "Sobrepartilha |"
+  },
+  {
+    "id": 406214,
+    "nome": "Garantia dos Quinhões |"
+  },
+  {
+    "id": 406215,
+    "nome": "Invalidação da Partilha |"
+  },
+  {
+    "id": 416382,
+    "nome": "Decadência da Ação Anulatória |"
+  },
+  {
+    "id": 416384,
+    "nome": "Nulidade da Partilha |"
+  },
+  {
+    "id": 416385,
+    "nome": "Disposições Finais e Transitórias do Código Civil de 2002 (Art. 2.028 ao 2.046) |"
+  }
+]

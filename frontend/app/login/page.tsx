@@ -1,106 +1,283 @@
 // frontend/app/login/page.tsx
 "use client";
 
-import React, { useState } from "react";
-import { motion } from "framer-motion";
-import { BrainCircuit, Mail, Lock, AlertCircle, ArrowRight } from "lucide-react";
-import Link from "next/link";
-import { auth } from "@/lib/firebase";
-import { signInWithEmailAndPassword } from "firebase/auth";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { auth, googleProvider } from "@/lib/firebase";
+import {
+  signInWithEmailAndPassword,
+  createUserWithEmailAndPassword,
+  signInWithPopup,
+  updateProfile,
+} from "firebase/auth";
+import { Mail, Lock, LogIn, ArrowLeft, User, Eye, EyeOff } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import { LogoMark } from "@/components/Logo";
 
-export default function Login() {
+// ─── Input com ícone ────────────────────────
+function Campo({
+  label, type, value, onChange, placeholder, icon: Icon, extra,
+}: {
+  label: string;
+  type: string;
+  value: string;
+  onChange: (v: string) => void;
+  placeholder: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  icon: any;
+  extra?: React.ReactNode;
+}) {
+  const [visivel, setVisivel] = useState(false);
+  const isPassword = type === "password";
+  return (
+    <div className="space-y-1">
+      <label className="text-[9px] font-black uppercase tracking-widest text-slate-500 ml-0.5">
+        {label}
+      </label>
+      <div className="relative">
+        <Icon className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={16} />
+        <input
+          type={isPassword && visivel ? "text" : type}
+          value={value}
+          onChange={e => onChange(e.target.value)}
+          placeholder={placeholder}
+          className="w-full bg-slate-50 border-2 border-slate-200 focus:border-black rounded-2xl py-3.5 pl-11 pr-10 outline-none font-bold text-sm text-slate-800 placeholder-slate-400 transition-colors"
+        />
+        {isPassword && (
+          <button type="button" onClick={() => setVisivel(v => !v)}
+            className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-black transition-colors">
+            {visivel ? <EyeOff size={15} /> : <Eye size={15} />}
+          </button>
+        )}
+      </div>
+      {extra}
+    </div>
+  );
+}
+
+// ─── Mensagem de erro do Firebase ───────────
+function erroFirebase(code: string): string {
+  switch (code) {
+    case "auth/user-not-found":
+    case "auth/wrong-password":
+    case "auth/invalid-credential":
+      return "E-mail ou senha incorretos.";
+    case "auth/email-already-in-use":
+      return "Este e-mail já está cadastrado.";
+    case "auth/weak-password":
+      return "A senha deve ter ao menos 6 caracteres.";
+    case "auth/invalid-email":
+      return "E-mail inválido.";
+    case "auth/too-many-requests":
+      return "Muitas tentativas. Aguarde alguns minutos.";
+    case "auth/popup-closed-by-user":
+      return "Login com Google cancelado.";
+    default:
+      return "Ocorreu um erro. Tente novamente.";
+  }
+}
+
+// ─── Página ─────────────────────────────────
+export default function LoginPage() {
   const router = useRouter();
-  const [email, setEmail] = useState("");
-  const [senha, setSenha] = useState("");
-  const [erro, setErro] = useState("");
-  const [loading, setLoading] = useState(false);
+  const [modo, setModo] = useState<"entrar" | "cadastrar">("entrar");
 
-  const handleLogin = async (e: React.FormEvent) => {
-    e.preventDefault();
+  // Campos compartilhados
+  const [email, setEmail]       = useState("");
+  const [senha, setSenha]       = useState("");
+
+  // Campos de cadastro
+  const [nome, setNome]                 = useState("");
+  const [confirmarSenha, setConfirmarSenha] = useState("");
+
+  const [carregando, setCarregando] = useState(false);
+  const [erro, setErro]             = useState("");
+
+  const limpar = () => {
     setErro("");
-    setLoading(true);
+    setEmail(""); setSenha(""); setNome(""); setConfirmarSenha("");
+  };
 
+  const trocarModo = (novo: "entrar" | "cadastrar") => {
+    limpar();
+    setModo(novo);
+  };
+
+  // ── Login com e-mail ──
+  const entrar = async () => {
+    setErro("");
+    if (!email || !senha) { setErro("Preencha todos os campos."); return; }
+    setCarregando(true);
     try {
       await signInWithEmailAndPassword(auth, email, senha);
-      router.push("/dashboard");
-    } catch (error: any) {
-      if (error.code === 'auth/invalid-credential' || error.code === 'auth/user-not-found' || error.code === 'auth/wrong-password') {
-        setErro("E-mail ou senha incorretos. Tente novamente.");
-      } else {
-        setErro("Ocorreu um erro ao tentar fazer login.");
-      }
+      router.push("/dashboard/modos");
+    } catch (err: any) {
+      setErro(erroFirebase(err.code));
     } finally {
-      setLoading(false);
+      setCarregando(false);
+    }
+  };
+
+  // ── Cadastro ──
+  const cadastrar = async () => {
+    setErro("");
+    if (!nome.trim())       { setErro("Informe seu nome."); return; }
+    if (!email)             { setErro("Informe seu e-mail."); return; }
+    if (senha.length < 6)   { setErro("A senha deve ter ao menos 6 caracteres."); return; }
+    if (senha !== confirmarSenha) { setErro("As senhas não coincidem."); return; }
+    setCarregando(true);
+    try {
+      const cred = await createUserWithEmailAndPassword(auth, email, senha);
+      await updateProfile(cred.user, { displayName: nome.trim() });
+      router.push("/dashboard/modos");
+    } catch (err: any) {
+      setErro(erroFirebase(err.code));
+    } finally {
+      setCarregando(false);
+    }
+  };
+
+  // ── Google ──
+  const entrarGoogle = async () => {
+    setErro("");
+    setCarregando(true);
+    try {
+      await signInWithPopup(auth, googleProvider);
+      router.push("/dashboard/modos");
+    } catch (err: any) {
+      setErro(erroFirebase(err.code));
+    } finally {
+      setCarregando(false);
     }
   };
 
   return (
-    <div className="min-h-screen flex bg-slate-950 text-slate-50 font-sans">
-      {/* Lado Esquerdo - Motivacional */}
-      <div className="hidden lg:flex w-1/2 bg-gradient-to-br from-indigo-900 to-slate-900 p-12 flex-col justify-between relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
-        <div className="absolute -top-24 -right-24 w-96 h-96 bg-indigo-500/30 rounded-full blur-[100px]"></div>
-        
-        <Link href="/" className="relative z-10 flex items-center gap-2 text-2xl font-bold text-white cursor-pointer w-fit">
-          <BrainCircuit className="text-indigo-400" size={32} /> Auditor IA
-        </Link>
+    <div className="min-h-[100dvh] bg-[#F8FAFC] font-sans flex flex-col items-center justify-center p-4"
+      style={{ backgroundImage: "radial-gradient(#E2E8F0 1px, transparent 1px)", backgroundSize: "28px 28px" }}>
 
-        <div className="relative z-10">
-          <h1 className="text-5xl font-extrabold mb-6 leading-tight">
-            Bem-vindo de volta ao <span className="text-indigo-400">topo</span>.
-          </h1>
-          <p className="text-lg text-slate-300 max-w-md">
-            O seu progresso está salvo. Faça login para continuar suas auditorias e não deixar nenhum assunto para trás.
-          </p>
+      {/* Voltar */}
+      <button onClick={() => router.push("/")}
+        className="absolute top-6 left-6 flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest text-slate-400 hover:text-black transition-colors">
+        <ArrowLeft size={13} /> Voltar
+      </button>
+
+      <div className="w-full max-w-md">
+
+        {/* Logo + título */}
+        <div className="flex flex-col items-center mb-8 gap-3">
+          <LogoMark size={40} />
+          <div className="text-center">
+            <span className="text-xl font-black tracking-tight text-slate-900">
+              <span className="text-blue-600">95</span>porcento
+            </span>
+            <p className="text-[9px] font-black uppercase tracking-[0.25em] text-slate-400 mt-0.5">
+              Protocolo de Aprendizagem
+            </p>
+          </div>
         </div>
-        <div className="relative z-10 text-sm text-slate-400">© {new Date().getFullYear()} Auditor IA.</div>
-      </div>
 
-      {/* Lado Direito - Formulário */}
-      <div className="w-full lg:w-1/2 flex items-center justify-center p-8">
-        <div className="w-full max-w-md">
-          <div className="text-center lg:text-left mb-8">
-            <h2 className="text-3xl font-bold mb-2">Acessar Conta</h2>
-            <p className="text-slate-400">Insira suas credenciais para entrar.</p>
+        {/* Card principal */}
+        <div className="bg-white border-2 border-black rounded-[2rem] shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] overflow-hidden">
+
+          {/* Tabs */}
+          <div className="flex border-b-2 border-black">
+            {(["entrar", "cadastrar"] as const).map(m => (
+              <button key={m} onClick={() => trocarModo(m)}
+                className={`flex-1 py-4 text-[9px] font-black uppercase tracking-widest transition-colors ${
+                  modo === m ? "bg-black text-white" : "text-slate-400 hover:text-black"
+                }`}>
+                {m === "entrar" ? "Entrar" : "Criar Conta"}
+              </button>
+            ))}
           </div>
 
-          {erro && (
-            <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="bg-red-500/10 border border-red-500/50 text-red-400 p-4 rounded-xl mb-6 flex items-center gap-3 text-sm">
-              <AlertCircle size={20} /> {erro}
-            </motion.div>
-          )}
+          <div className="p-8">
 
-          <form onSubmit={handleLogin} className="space-y-4">
-            <div className="relative">
-              <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500" size={20} />
-              <input type="email" required placeholder="E-mail" 
-                className="w-full bg-slate-900 border border-slate-800 rounded-xl py-3 pl-12 pr-4 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all"
-                value={email} onChange={(e) => setEmail(e.target.value)}
-              />
+            {/* Erro */}
+            <AnimatePresence>
+              {erro && (
+                <motion.div initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}
+                  className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-xl text-xs font-bold mb-5 text-center">
+                  {erro}
+                </motion.div>
+              )}
+            </AnimatePresence>
+
+            {/* Formulário */}
+            <AnimatePresence mode="wait">
+              {modo === "entrar" ? (
+                <motion.form key="entrar"
+                  initial={{ opacity: 0, x: -12 }} animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: 12 }} transition={{ duration: 0.18 }}
+                  onSubmit={e => { e.preventDefault(); entrar(); }} className="space-y-4">
+
+                  <Campo label="E-mail" type="email" value={email}
+                    onChange={setEmail} placeholder="seu@email.com" icon={Mail} />
+
+                  <Campo label="Senha" type="password" value={senha}
+                    onChange={setSenha} placeholder="••••••••" icon={Lock} />
+
+                  <button type="submit" disabled={carregando}
+                    className="w-full bg-black text-white py-3.5 rounded-2xl font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-2 hover:bg-blue-600 transition-all disabled:opacity-50 mt-2 shadow-[3px_3px_0px_0px_rgba(37,99,235,0.3)]">
+                    {carregando
+                      ? <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                      : <><LogIn size={14} /> Entrar</>}
+                  </button>
+                </motion.form>
+
+              ) : (
+                <motion.form key="cadastrar"
+                  initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.18 }}
+                  onSubmit={e => { e.preventDefault(); cadastrar(); }} className="space-y-4">
+
+                  <Campo label="Nome completo" type="text" value={nome}
+                    onChange={setNome} placeholder="Seu nome" icon={User} />
+
+                  <Campo label="E-mail" type="email" value={email}
+                    onChange={setEmail} placeholder="seu@email.com" icon={Mail} />
+
+                  <Campo label="Senha" type="password" value={senha}
+                    onChange={setSenha} placeholder="Mínimo 6 caracteres" icon={Lock} />
+
+                  <Campo label="Confirmar senha" type="password" value={confirmarSenha}
+                    onChange={setConfirmarSenha} placeholder="Repita a senha" icon={Lock} />
+
+                  <button type="submit" disabled={carregando}
+                    className="w-full bg-black text-white py-3.5 rounded-2xl font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-2 hover:bg-blue-600 transition-all disabled:opacity-50 mt-2 shadow-[3px_3px_0px_0px_rgba(37,99,235,0.3)]">
+                    {carregando
+                      ? <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                      : "Criar minha conta"}
+                  </button>
+                </motion.form>
+              )}
+            </AnimatePresence>
+
+            {/* Divisor */}
+            <div className="relative flex items-center py-6">
+              <div className="flex-1 border-t border-slate-200" />
+              <span className="px-4 text-[9px] font-black text-slate-400 uppercase tracking-widest">ou</span>
+              <div className="flex-1 border-t border-slate-200" />
             </div>
 
-            <div className="relative">
-              <Lock className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500" size={20} />
-              <input type="password" required placeholder="Senha" 
-                className="w-full bg-slate-900 border border-slate-800 rounded-xl py-3 pl-12 pr-4 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all"
-                value={senha} onChange={(e) => setSenha(e.target.value)}
-              />
-            </div>
-
-            <div className="flex justify-end">
-              <a href="#" className="text-sm text-indigo-400 hover:underline">Esqueceu a senha?</a>
-            </div>
-
-            <button disabled={loading} type="submit" className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3.5 rounded-xl transition-colors flex justify-center items-center gap-2 mt-4 cursor-pointer disabled:opacity-50">
-              {loading ? "Entrando..." : <>Entrar na Plataforma <ArrowRight size={20} /></>}
+            {/* Google */}
+            <button onClick={entrarGoogle} disabled={carregando}
+              className="w-full bg-white border-2 border-slate-200 hover:border-black py-3.5 rounded-2xl font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-2.5 transition-all disabled:opacity-50">
+              <svg width="16" height="16" viewBox="0 0 48 48">
+                <path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.3 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 7.9 3l5.7-5.7C34.1 6.4 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.6-.4-3.9z"/>
+                <path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.5 16.1 18.9 13 24 13c3.1 0 5.8 1.1 7.9 3l5.7-5.7C34.1 6.4 29.3 4 24 4 16.3 4 9.7 8.4 6.3 14.7z"/>
+                <path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.3 35.3 26.8 36 24 36c-5.3 0-9.7-3.3-11.3-8H6.3C9.7 35.5 16.3 44 24 44z"/>
+                <path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.1-4 5.5l6.2 5.2C37.1 39 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/>
+              </svg>
+              Continuar com Google
             </button>
-          </form>
 
-          <p className="text-center text-slate-400 mt-8">
-            Ainda não tem conta? <Link href="/cadastro" className="text-indigo-400 font-bold hover:underline cursor-pointer">Cadastre-se grátis</Link>
-          </p>
+          </div>
         </div>
+
+        <p className="text-center text-[9px] font-bold text-slate-400 mt-6 uppercase tracking-widest">
+          95porcento AI Protocol • 2026
+        </p>
       </div>
     </div>
   );

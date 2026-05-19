@@ -1,223 +1,326 @@
-// frontend/app/page.tsx
 "use client";
 
-import React, { useState, useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { motion, AnimatePresence } from "framer-motion";
-import { 
-  BrainCircuit, Mic, LogOut, Sparkles, ChevronRight, HelpCircle, 
-  Zap, Brain, Target, LineChart 
+import {
+  Calendar,
+  ChevronRight,
+  Download,
+  FileText,
+  Mic,
+  Play,
+  Settings,
+  Target,
 } from "lucide-react";
-import { auth, googleProvider } from "@/lib/firebase";
-import { onAuthStateChanged, signInWithPopup, signOut } from "firebase/auth";
-import { JORNADAS_ESTUDO } from "@/data/materias";
+import { onAuthStateChanged } from "firebase/auth";
+import { collection, doc, getDoc, getDocs, query, where } from "firebase/firestore";
+import { auth, db } from "@/lib/firebase";
+import { Logo } from "@/components/Logo";
 
-export default function HomePage() {
+type ModoSessao = "livre" | "guiado" | "simulado";
+
+type SessaoHistorico = {
+  id: string;
+  materia: string;
+  tema: string;
+  timestamp: string;
+  modo: ModoSessao;
+  url: string;
+  data: Record<string, any>;
+};
+
+const MODO_LABEL: Record<ModoSessao, string> = {
+  livre: "Livre",
+  guiado: "Guiado",
+  simulado: "Simulado",
+};
+
+const MODO_STYLE: Record<ModoSessao, string> = {
+  livre: "bg-blue-50 text-blue-700 border-blue-200",
+  guiado: "bg-emerald-50 text-emerald-700 border-emerald-200",
+  simulado: "bg-violet-50 text-violet-700 border-violet-200",
+};
+
+function formatDate(value?: string) {
+  if (!value) return "Sem data";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Sem data";
+  return date.toLocaleDateString("pt-BR", {
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+  });
+}
+
+function cleanFileName(value: string) {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9-_]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .toLowerCase();
+}
+
+function stringifySection(title: string, value: unknown) {
+  if (!value || (Array.isArray(value) && value.length === 0)) return "";
+  return `\n\n--- ${title} ---\n${typeof value === "string" ? value : JSON.stringify(value, null, 2)}`;
+}
+
+function buildReportText(sessao: SessaoHistorico) {
+  const data = sessao.data || {};
+  return [
+    "95porcento - Relatório de Explicação",
+    `Modo: ${MODO_LABEL[sessao.modo]}`,
+    `Matéria: ${sessao.materia}`,
+    `Tema: ${sessao.tema}`,
+    `Data: ${formatDate(sessao.timestamp)}`,
+    stringifySection("Diagnóstico", data.diagnostico_eficiencia || data.diagnostico_cognitivo),
+    stringifySection("Erros identificados", data.erros_cometidos || data.erros),
+    stringifySection("Omissões", data.temas_nao_abordados || data.omissoes),
+    stringifySection("Questões adaptadas", data.questoes_adaptadas || data.questoes),
+    stringifySection("Relatório completo", data),
+  ].filter(Boolean).join("\n");
+}
+
+export default function DashboardPage() {
   const router = useRouter();
   const [user, setUser] = useState<any>(null);
-  const [carregandoAuth, setCarregandoAuth] = useState(true);
-
-  // Estados de Seleção
-  const [jornadaAtiva, setJornadaAtiva] = useState<'concurso' | 'enem' | 'livre'>('concurso');
-  const [materiaSel, setMateriaSel] = useState("");
-  const [temaSel, setTemaSel] = useState("");
-  const [textoLivre, setTextoLivre] = useState("");
+  const [loading, setLoading] = useState(true);
+  const [sessoes, setSessoes] = useState<SessaoHistorico[]>([]);
 
   useEffect(() => {
-    const unsub = onAuthStateChanged(auth, (user) => {
-      setUser(user);
-      setCarregandoAuth(false);
+    const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
+      if (!currentUser) {
+        router.push("/");
+        return;
+      }
+
+      setUser(currentUser);
+
+      try {
+        const userSnap = await getDoc(doc(db, "usuarios", currentUser.uid));
+        if (!userSnap.exists()) {
+          router.replace("/onboarding");
+          return;
+        }
+
+        const userData = userSnap.data();
+        if (!userData.onboarding_completo) {
+          router.replace("/onboarding");
+          return;
+        }
+
+        const [livresSnap, guiadosSnap, simuladosSnap] = await Promise.all([
+          getDocs(query(collection(db, "relatorios"), where("user_id", "==", currentUser.uid))),
+          getDocs(query(collection(db, "relatorios_guiados"), where("user_id", "==", currentUser.uid))),
+          getDocs(query(collection(db, "relatorios_simulados"), where("user_id", "==", currentUser.uid))),
+        ]);
+
+        const toSessao = (
+          docs: typeof livresSnap.docs,
+          modo: ModoSessao,
+          baseUrl: string,
+        ): SessaoHistorico[] => docs.map((relatorioDoc) => {
+          const data = relatorioDoc.data();
+          return {
+            id: relatorioDoc.id,
+            materia: data.materia || "Matéria não informada",
+            tema: data.tema || "Tema não informado",
+            timestamp: data.timestamp || data.created_at || data.data || "",
+            modo,
+            url: `${baseUrl}/${relatorioDoc.id}`,
+            data,
+          };
+        });
+
+        const historico = [
+          ...toSessao(livresSnap.docs, "livre", "/dashboard/relatorio"),
+          ...toSessao(guiadosSnap.docs, "guiado", "/dashboard/relatorio-guiado"),
+          ...toSessao(simuladosSnap.docs, "simulado", "/dashboard/relatorio-simulado"),
+        ].sort((a, b) => new Date(b.timestamp || 0).getTime() - new Date(a.timestamp || 0).getTime());
+
+        setSessoes(historico);
+      } catch (error) {
+        console.error(error);
+      } finally {
+        setLoading(false);
+      }
     });
-    return () => unsub();
-  }, []);
 
-  const jornadaAtual = useMemo(() => JORNADAS_ESTUDO.find(j => j.id === jornadaAtiva), [jornadaAtiva]);
-  const materiaAtual = useMemo(() => jornadaAtual?.materias.find(m => m.nome === materiaSel), [jornadaAtual, materiaSel]);
+    return () => unsubscribe();
+  }, [router]);
 
-  const handleLoginGoogle = async () => {
-    try { await signInWithPopup(auth, googleProvider); } catch (error: any) { alert(`Erro: ${error.message}`); }
+  const totalSessoes = sessoes.length;
+  const ultimaSessao = useMemo(() => sessoes[0] || null, [sessoes]);
+
+  const downloadRelatorio = (sessao: SessaoHistorico) => {
+    const text = buildReportText(sessao);
+    const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `relatorio-${cleanFileName(sessao.materia)}-${cleanFileName(sessao.tema)}.txt`;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
   };
 
-  const iniciarAuditoria = () => {
-    const temaFinal = jornadaAtiva === 'livre' ? textoLivre : temaSel;
-    if (!temaFinal) return;
-    router.push(`/dashboard/auditorio?jornada=${jornadaAtiva}&materia=${encodeURIComponent(materiaSel || 'Livre')}&tema=${encodeURIComponent(temaFinal)}`);
-  };
-
-  if (carregandoAuth) return (
-    <div className="min-h-screen bg-slate-50 flex items-center justify-center">
-      <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 1, ease: "linear" }} className="w-6 h-6 border-2 border-slate-900 border-t-transparent rounded-full" />
-    </div>
-  );
+  if (loading) {
+    return (
+      <div className="h-[100dvh] bg-[#F8FAFC] flex items-center justify-center">
+        <div className="w-6 h-6 border-4 border-blue-600 border-t-transparent rounded-full animate-spin" />
+      </div>
+    );
+  }
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-100 flex flex-col overflow-hidden relative">
-      
-      {/* CAMADA DE ANIMAÇÃO DE FUNDO: MALHA DIGITAL */}
-      <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden opacity-50">
-        <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <pattern id="dotPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-              <circle cx="2" cy="2" r="1.5" fill="#CBD5E1" />
-            </pattern>
-          </defs>
-          <motion.rect 
-            width="100%" 
-            height="100%" 
-            fill="url(#dotPattern)"
-            animate={{ x: [0, 32, 0], y: [0, 16, 0] }}
-            transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
-          />
-        </svg>
-        <motion.div 
-          animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.5, 0.3] }}
-          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute -top-[10%] -left-[10%] w-[50%] h-[50%] bg-blue-200/40 rounded-full blur-[120px]" 
-        />
-      </div>
-
-      {/* NAVBAR */}
-      <nav className="w-full px-8 py-5 flex items-center justify-between bg-white/70 backdrop-blur-xl border-b border-slate-200 z-20">
-        <div className="flex items-center gap-2.5">
-          <div className="w-8 h-8 bg-slate-900 rounded-lg flex items-center justify-center shadow-lg shadow-slate-900/10">
-            <BrainCircuit className="text-white" size={18} />
-          </div>
-          <span className="text-base font-bold tracking-tight">Aprendizado Ativo</span>
-        </div>
-
-        <div className="flex items-center gap-6">
-          <button className="text-xs font-bold text-slate-500 hover:text-slate-900 transition-colors flex items-center gap-1.5 uppercase tracking-wider">
-            <HelpCircle size={14} /> Como funciona
-          </button>
-          {user && (
-            <button onClick={() => signOut(auth)} className="text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-red-500 transition-all">
-              Sair
-            </button>
-          )}
-        </div>
+    <div className="min-h-[100dvh] bg-[#F8FAFC] text-slate-900 font-sans pb-20">
+      <nav className="w-full px-6 py-4 flex items-center justify-between bg-white border-b border-slate-200 sticky top-0 z-50">
+        <Logo />
+        <Link href="/perfil" className="text-slate-400 hover:text-black transition-colors">
+          <Settings size={20} />
+        </Link>
       </nav>
 
-      <main className="flex-1 flex flex-col items-center justify-center px-6 z-10 py-12">
-        <AnimatePresence mode="wait">
-          {!user ? (
-            /* HERO (USUÁRIO DESLOGADO) */
-            <motion.div key="hero" initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="text-center space-y-12 max-w-5xl">
-              <div className="space-y-3">
-                <span className="text-[10px] font-black uppercase tracking-[0.3em] text-blue-600">Active Learning Protocol</span>
-                <h1 className="text-4xl md:text-5xl font-black tracking-tight text-slate-900 leading-tight">
-                  Ensine para <span className="text-blue-600">aprender.</span>
-                </h1>
-              </div>
+      <main className="max-w-3xl mx-auto px-4 pt-8 space-y-8">
+        <section className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="text-[10px] font-black uppercase tracking-widest text-blue-600 mb-2">
+              Histórico de explicações
+            </p>
+            <h1 className="text-2xl font-black text-black tracking-tight">
+              Olá, {user?.displayName?.split(" ")[0] || "Estudante"}.
+            </h1>
+            <p className="text-sm font-bold text-slate-500 mt-1">
+              {totalSessoes > 0
+                ? `${totalSessoes} ${totalSessoes === 1 ? "explicação registrada" : "explicações registradas"}.`
+                : "Suas explicações aparecerão aqui."}
+            </p>
+          </div>
 
-              <motion.div 
-                initial="hidden"
-                animate="visible"
-                variants={{ visible: { transition: { staggerChildren: 0.1 } } }}
-                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-4"
-              >
-                {[
-                  { icon: <Zap className="text-amber-500" size={18}/>, text: "95% da retenção acontece quando você explica o conteúdo — é o nível máximo de aprendizado." },
-                  { icon: <Brain className="text-blue-500" size={18}/>, text: "Ao ensinar, seu cérebro cria conexões neurais profundas e duradouras." },
-                  { icon: <Target className="text-red-500" size={18}/>, text: "Explique para uma IA treinada e receba um diagnóstico imediato do seu domínio." },
-                  { icon: <LineChart className="text-emerald-500" size={18}/>, text: "Estude, explique novamente e evolua até ficar à frente de 99% dos concorrentes." },
-                ].map((card, i) => (
-                  <motion.div
-                    key={i}
-                    variants={{
-                      hidden: { opacity: 0, y: 20, rotateX: 15 },
-                      visible: { opacity: 1, y: 0, rotateX: 0 }
-                    }}
-                    whileHover={{ scale: 1.04, rotateY: 4, rotateX: -4, z: 40, boxShadow: "0 20px 40px -10px rgba(0, 0, 0, 0.08)" }}
-                    className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl shadow-slate-300/30 flex flex-col items-center text-center space-y-3 cursor-default transition-all duration-300"
-                    style={{ transformStyle: "preserve-3d" }}
-                  >
-                    <div className="p-2.5 bg-slate-800 rounded-xl border border-slate-700">{card.icon}</div>
-                    <p className="text-[12px] font-medium leading-relaxed text-slate-300">{card.text}</p>
-                  </motion.div>
-                ))}
-              </motion.div>
-              
-              <button onClick={handleLoginGoogle} className="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-sm shadow-xl shadow-blue-600/20 hover:bg-blue-500 transition-all active:scale-95 flex items-center gap-3 mx-auto">
-                <img src="https://www.google.com/favicon.ico" className="w-4 h-4 brightness-200" alt="G" />
-                Fixar Conteúdo Agora
-              </button>
-            </motion.div>
-          ) : (
-            /* DASHBOARD LOGADO COM CARDS ESCUROS */
-            <motion.div key="app" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="w-full max-w-5xl grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-              
-              <div className="space-y-6">
-                <h2 className="text-4xl font-black text-slate-900 leading-snug">
-                  Olá, {user.displayName?.split(' ')[0]}. <br />
-                  O que vamos <span className="text-blue-600">fixar</span> hoje?
-                </h2>
-                <p className="text-sm text-slate-500 font-medium leading-relaxed max-w-sm">
-                  Selecione o tema e inicie sua aula. Nossa IA avaliará sua precisão técnica.
+          <button
+            onClick={() => router.push("/dashboard/modos")}
+            className="bg-black text-white px-5 py-3 rounded-xl font-black text-xs uppercase tracking-widest hover:bg-blue-600 transition-colors flex items-center justify-center gap-2"
+          >
+            Nova explicação <Mic size={15} />
+          </button>
+        </section>
+
+        {ultimaSessao && (
+          <section className="bg-white border-2 border-slate-200 rounded-[2rem] p-6 shadow-sm">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 bg-blue-50 rounded-2xl flex items-center justify-center">
+                <FileText size={19} className="text-blue-600" />
+              </div>
+              <div>
+                <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">
+                  Último relatório
                 </p>
-                <div className="flex gap-4 pt-4">
-                   <div className="bg-slate-900 px-5 py-4 rounded-2xl shadow-xl shadow-slate-300/40 border border-slate-800 flex-1">
-                      <span className="text-[10px] font-black text-slate-400 uppercase block mb-1.5 tracking-widest">Status</span>
-                      <span className="text-sm font-bold text-white flex items-center gap-2"><div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" /> IA Online</span>
-                   </div>
-                   <div className="bg-slate-900 px-5 py-4 rounded-2xl shadow-xl shadow-slate-300/40 border border-slate-800 flex-1">
-                      <span className="text-[10px] font-black text-slate-400 uppercase block mb-1.5 tracking-widest">Método</span>
-                      <span className="text-sm font-bold text-white">Ativo</span>
-                   </div>
-                </div>
+                <p className="font-black text-slate-900">{ultimaSessao.tema}</p>
               </div>
-
-              {/* Box de Seleção Dark Mode */}
-              <motion.div 
-                initial={{ x: 20, opacity: 0 }} 
-                animate={{ x: 0, opacity: 1 }}
-                className="bg-slate-900 border border-slate-800 rounded-[2.5rem] p-10 shadow-2xl shadow-slate-400/20 space-y-8 relative overflow-hidden"
+            </div>
+            <div className="grid grid-cols-1 gap-2 sm:grid-cols-3">
+              <button
+                onClick={() => router.push(ultimaSessao.url)}
+                className="bg-slate-950 text-white py-3 rounded-xl font-black text-xs uppercase tracking-widest hover:bg-blue-600 transition-colors flex items-center justify-center gap-2"
               >
-                {/* Aura interna sutil para dar volume ao card escuro */}
-                <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 rounded-full -mr-16 -mt-16 blur-3xl opacity-50" />
-                
-                <div className="flex p-1.5 bg-slate-950 rounded-xl border border-slate-800/60 relative z-10">
-                  {['concurso', 'enem', 'livre'].map((j) => (
-                    <button key={j} onClick={() => {setJornadaAtiva(j as any); setMateriaSel(""); setTemaSel("");}} className={`flex-1 py-2.5 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all ${jornadaAtiva === j ? 'bg-slate-800 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}>
-                      {j}
-                    </button>
-                  ))}
-                </div>
+                Abrir relatório <ChevronRight size={15} />
+              </button>
+              <button
+                onClick={() => downloadRelatorio(ultimaSessao)}
+                className="bg-white text-slate-800 border-2 border-slate-200 py-3 rounded-xl font-black text-xs uppercase tracking-widest hover:border-blue-300 hover:text-blue-700 transition-colors flex items-center justify-center gap-2"
+              >
+                Baixar <Download size={15} />
+              </button>
+              <button
+                onClick={() => router.push("/dashboard/modos")}
+                className="bg-blue-50 text-blue-700 border-2 border-blue-100 py-3 rounded-xl font-black text-xs uppercase tracking-widest hover:bg-blue-600 hover:text-white transition-colors flex items-center justify-center gap-2"
+              >
+                Reexplicar <Play size={15} />
+              </button>
+            </div>
+          </section>
+        )}
 
-                <div className="space-y-4 relative z-10">
-                  {jornadaAtiva === 'livre' ? (
-                    <textarea value={textoLivre} onChange={(e) => setTextoLivre(e.target.value)} placeholder="Sobre o que você quer falar?" className="w-full bg-slate-950 border border-slate-800 rounded-xl p-5 outline-none focus:border-blue-500 text-sm font-bold text-white placeholder-slate-600 h-32 resize-none" />
-                  ) : (
-                    <>
-                      <select value={materiaSel} onChange={(e) => {setMateriaSel(e.target.value); setTemaSel("");}} className="w-full bg-slate-950 border border-slate-800 rounded-xl p-5 text-white text-sm font-bold outline-none focus:border-blue-500 appearance-none cursor-pointer">
-                        <option value="" disabled className="text-slate-500">Escolha a Disciplina</option>
-                        {jornadaAtual?.materias.map(m => <option key={m.id} value={m.nome}>{m.nome}</option>)}
-                      </select>
-                      {materiaSel && (
-                        <motion.select initial={{ opacity: 0, y: -5 }} animate={{ opacity: 1, y: 0 }} value={temaSel} onChange={(e) => setTemaSel(e.target.value)} className="w-full bg-slate-950 border border-slate-800 rounded-xl p-5 text-white text-sm font-bold outline-none focus:border-blue-500 appearance-none cursor-pointer">
-                          <option value="" disabled className="text-slate-500">Escolha o Tema</option>
-                          {materiaAtual?.temas.map(t => <option key={t.id} value={t.nome}>{t.nome}</option>)}
-                        </motion.select>
-                      )}
-                    </>
-                  )}
-                </div>
+        <section className="space-y-3">
+          <div className="flex items-center justify-between">
+            <h2 className="text-sm font-black uppercase tracking-widest text-slate-500">
+              Todas as explicações
+            </h2>
+          </div>
 
-                <button 
-                  onClick={iniciarAuditoria}
-                  disabled={jornadaAtiva === 'livre' ? !textoLivre.trim() : (!materiaSel || !temaSel)}
-                  className="w-full bg-slate-950 text-white py-5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 hover:bg-blue-600 disabled:bg-slate-900 disabled:text-slate-600 disabled:border disabled:border-slate-800 transition-all shadow-xl active:scale-95 group relative z-10"
+          {sessoes.length === 0 ? (
+            <div className="bg-white border-2 border-dashed border-slate-200 rounded-[2rem] p-10 text-center">
+              <div className="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <Mic size={26} className="text-blue-600" />
+              </div>
+              <p className="text-sm font-black text-slate-700 mb-1">
+                Nenhuma explicação feita ainda.
+              </p>
+              <p className="text-xs font-bold text-slate-400 mb-6">
+                Explique um tema para gerar seu primeiro relatório.
+              </p>
+              <button
+                onClick={() => router.push("/dashboard/modos")}
+                className="inline-flex items-center gap-2 bg-black text-white px-6 py-3 rounded-xl font-black text-xs uppercase tracking-widest hover:bg-blue-600 transition-colors"
+              >
+                Começar agora <ChevronRight size={14} />
+              </button>
+            </div>
+          ) : (
+            <div className="space-y-3">
+              {sessoes.map((sessao) => (
+                <article
+                  key={`${sessao.modo}-${sessao.id}`}
+                  className="bg-white border-2 border-slate-200 rounded-2xl p-4 shadow-sm"
                 >
-                  <Mic size={16} /> Entrar no Auditório <ChevronRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                </button>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-      </main>
+                  <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                    <div className="min-w-0">
+                      <div className="flex flex-wrap items-center gap-2 mb-2">
+                        <span className={`text-[9px] font-black uppercase tracking-widest px-2 py-1 rounded-full border ${MODO_STYLE[sessao.modo]}`}>
+                          {MODO_LABEL[sessao.modo]}
+                        </span>
+                        <span className="text-[10px] font-bold text-slate-400 flex items-center gap-1">
+                          <Calendar size={11} /> {formatDate(sessao.timestamp)}
+                        </span>
+                      </div>
+                      <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 truncate">
+                        {sessao.materia}
+                      </p>
+                      <h3 className="font-black text-slate-900 text-base truncate">
+                        {sessao.tema}
+                      </h3>
+                    </div>
 
-      <footer className="w-full py-6 text-center text-[9px] font-bold text-slate-400 uppercase tracking-[0.3em] z-10">
-        High Fidelity AI Auditor • 2026
-      </footer>
+                    <div className="grid grid-cols-3 gap-2 sm:flex sm:items-center">
+                      <button
+                        onClick={() => router.push(sessao.url)}
+                        className="px-3 py-2 rounded-xl bg-slate-950 text-white font-black text-[10px] uppercase tracking-widest hover:bg-blue-600 transition-colors"
+                      >
+                        Abrir
+                      </button>
+                      <button
+                        onClick={() => downloadRelatorio(sessao)}
+                        className="px-3 py-2 rounded-xl border-2 border-slate-200 text-slate-600 font-black text-[10px] uppercase tracking-widest hover:border-blue-300 hover:text-blue-700 transition-colors flex items-center justify-center gap-1"
+                      >
+                        <Download size={13} /> Baixar
+                      </button>
+                      <button
+                        onClick={() => router.push("/dashboard/modos")}
+                        className="px-3 py-2 rounded-xl bg-blue-50 text-blue-700 font-black text-[10px] uppercase tracking-widest hover:bg-blue-600 hover:text-white transition-colors"
+                      >
+                        Reexplicar
+                      </button>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
+          )}
+        </section>
+      </main>
     </div>
   );
 }

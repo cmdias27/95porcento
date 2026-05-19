@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1097,
+    "nome": "Princípios Penais e Interpretação da Lei Penal"
+  },
+  {
+    "id": 1098,
+    "nome": "Aplicação da Lei Penal no Tempo e no Espaço"
+  },
+  {
+    "id": 1099,
+    "nome": "Teoria Geral do Delito: Conduta, Tipicidade e Ilicitude"
+  },
+  {
+    "id": 1100,
+    "nome": "Culpabilidade e Excludentes"
+  },
+  {
+    "id": 1101,
+    "nome": "Iter Criminis: Consumação e Tentativa"
+  },
+  {
+    "id": 1102,
+    "nome": "Erro de Tipo e Erro de Proibição"
+  },
+  {
+    "id": 1103,
+    "nome": "Concurso de Pessoas"
+  },
+  {
+    "id": 1104,
+    "nome": "Penas: Espécies, Aplicação e Concurso de Crimes"
+  },
+  {
+    "id": 1105,
+    "nome": "Medidas de Segurança e Suspensão Condicional"
+  },
+  {
+    "id": 1106,
+    "nome": "Causas Extintivas da Punibilidade e Prescrição"
+  },
+  {
+    "id": 1107,
+    "nome": "Crimes Contra a Pessoa"
+  },
+  {
+    "id": 1108,
+    "nome": "Crimes Contra o Patrimônio"
+  },
+  {
+    "id": 1109,
+    "nome": "Crimes Contra a Dignidade Sexual e a Fé Pública"
+  },
+  {
+    "id": 1110,
+    "nome": "Crimes Contra a Administração Pública"
+  },
+  {
+    "id": 1111,
+    "nome": "Legislação Penal Especial (Drogas, Armas, Maria da Penha, Trânsito)"
+  }
+]

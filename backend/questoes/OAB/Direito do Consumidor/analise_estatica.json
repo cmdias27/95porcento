@@ -1,0 +1,710 @@
+{
+  "Relação De Consumo: Consumidor, Fornecedor, Produto E Serviço": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Dever de informação e comunicação de risco do fornecedor (fato do produto / risco superveniente)",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_45"
+        ],
+        "peso_percentual": 34,
+        "armadilha_favorita": "Confundir a obrigação de informar imediatamente a autoridade e os consumidores sobre risco descoberto após a colocação do produto no mercado com a ideia errada de que o fornecedor deve cessar automaticamente a fabricação ou que o produto antigo fica isento por ter longa tradição de uso."
+      },
+      {
+        "nome_microtema": "Incidência da LGPD sobre tratamento de dados por pessoa natural para fins exclusivamente particulares e não econômicos",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_38"
+        ],
+        "peso_percentual": 33,
+        "armadilha_favorita": "A FGV costuma induzir o candidato a achar que a LGPD sempre se aplica a qualquer coleta de dados pessoais; a pegadinha é a exceção legal para tratamento realizado por pessoa natural para fins exclusivamente particulares e não econômicos."
+      },
+      {
+        "nome_microtema": "Tratamento e compartilhamento de dados pessoais sensíveis na relação de consumo e necessidade de base legal",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_38"
+        ],
+        "peso_percentual": 33,
+        "armadilha_favorita": "Confundir interesse comercial ou benefício ao consumidor com autorização para compartilhar dados sensíveis; a FGV explora a falsa ideia de que a finalidade de personalização de serviços dispensa consentimento ou outra base legal específica."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, exigindo enquadramento imediato da situação na regra legal correta; a banca prefere cenários do cotidiano empresarial e de consumo, com foco em deveres do fornecedor, proteção de dados e exceções legais.",
+      "palavras_gatilho": [
+        "diante da situação",
+        "assinale a afirmativa correta",
+        "com base na lei",
+        "sobre o caso narrado",
+        "é correto afirmar"
+      ],
+      "padrao_distratores": "Alternativas juridicamente plausíveis, mas que trocam a consequência legal exata: confundem dever de informar com dever de interromper atividade, regra geral com exceção, consentimento com outras bases legais e proteção do consumidor com permissões amplas ao fornecedor."
+    },
+    "total_questoes_analisadas": 3,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-42_45",
+        "materia": "Direito do Consumidor",
+        "assunto": "Comunicação de risco de produto",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária Óleo Essencial de Barreto Ltda. fabrica, há cinquenta anos, o produto que originou o nome empresarial, criado pelo fundador da indústria e amplamente utilizado pelo público como item pessoal para várias utilidades, sobretudo como pós-banho. Recentemente, ao concluir uma pesquisa científica, um químico da fábrica levou ao conhecimento da diretoria o fato de que o uso do produto Óleo Essencial de Barreto pode causar queimaduras graves em um certo grupo de pessoas, caso seja associado a um novo tipo de protetor solar, cujo uso vem crescendo no país. Sobre o caso narrado, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Cabe à Óleo Essencial de Barreto Ltda. cessar, imediatamente, a fabricação do produto.",
+          "B": "Deve a autoridade administrativa, de ofício, proibir, imediatamente, a fabricação do produto.",
+          "C": "Cabe à Óleo Essencial de Barreto Ltda. comunicar, imediatamente, o risco descoberto às autoridades competentes e aos consumidores.",
+          "D": "Por se tratar de um produto disponibilizado no mercado há mais de cinquenta anos, a Óleo Essencial de Barreto Ltda. Não precisa tomar qualquer providência quanto ao risco descoberto."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata sobre proteção à saúde e segurança. A alternativa C está correta, já que cabe a Óleo Essencial de Barreto Ltda. comunicar, imediatamente, o risco descoberto às autoridades competentes e aos consumidores, nos termos do CDC: “Art. 10. O fornecedor não poderá colocar no mercado de consumo produto ou serviço que sabe ou deveria saber apresentar alto grau de nocividade ou periculosidade à saúde ou segurança. § 1° O fornecedor de produtos e serviços que, posteriormente à sua introdução no mercado de consumo, tiver conhecimento da periculosidade que apresentem, deverá comunicar o fato imediatamente às autoridades competentes e aos consumidores, mediante anúncios publicitários”."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_38",
+        "materia": "Direito do Consumidor",
+        "assunto": "Aplicação da LGPD",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "André, pessoa física, faz a coleta de dados pessoais de seus conhecidos e os arquiva em seus cadernos pessoais. A coleta é feita para fins exclusivamente particulares e não econômicos. Sobre a aplicação da Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018) ao caso narrado, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Não é aplicável, porque se trata de pessoa natural e a referida lei somente se aplica às pessoas jurídicas, de direito público ou privado.",
+          "B": "Não é aplicável, porque o tratamento de dados pessoais, na hipótese em questão, é realizado por pessoa física com finalidade exclusivamente particular e não econômica.",
+          "C": "Não é aplicável, porque o tratamento de dados pessoais, na hipótese em questão, é realizado em meio físico e não digital.",
+          "D": "É aplicável, porque, mesmo sendo realizada por pessoa natural, em meio físico e sem finalidade lucrativa, a lei define \"tratamento\" de modo amplo."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tratamento de dados pessoais. Veja que a LGPD não será aplicável ao caso narrado na questão, uma vez que se trata de tratamento de dados pessoais realizado por pessoa física, para fins exclusivamente particulares e não econômicos. Veja a literalidade da LGPD: \"Art. 4º Esta Lei não se aplica ao tratamento de dados pessoais: I - realizado por pessoa natural para fins exclusivamente particulares e não econômicos;\"."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_38",
+        "materia": "Direito do Consumidor",
+        "assunto": "LGPD - Dados sensíveis de saúde",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A Farmácia Vida+, participante de um programa de descontos vinculado à operadora de planos de saúde MedSaúde S.A., compartilhou com a operadora informações detalhadas sobre as compras de seus clientes, incluindo medicamentos adquiridos, frequência das compras e histórico de uso de fármacos. Esse compartilhamento foi realizado sem o consentimento explícito dos clientes, sob a justificativa de que a MedSaúde S.A. poderia utilizar os dados para oferecer benefícios personalizados e otimizar seus serviços de saúde. Ao tomar conhecimento da prática, Cristina, uma das clientes da farmácia, procurou você, como advogado(a) para emitir parecer sobre o caso, especialmente sobre a configuração da violação de algum direito. Diante dessa situação e com base na Lei Geral de Proteção de Dados (LGPD), assinale a opção que apresenta, corretamente, o parecer emitido.",
+        "alternativas": {
+          "A": "O compartilhamento de dados foi legal, pois tanto a farmácia como a operadora de saúde são autorizadas a tratar os dados pessoais de saúde para a execução dos seus contratos.",
+          "B": "A Farmácia Vida+ violou a LGPD ao compartilhar dados pessoais sensíveis sem o consentimento dos titulares, estando sujeita a sanções e obrigada a eliminar os dados compartilhados.",
+          "C": "O compartilhamento de dados foi lícito, pois a operadora de saúde tem interesse legítimo na obtenção dessas informações para aprimorar os seus serviços e oferecer benefícios aos clientes.",
+          "D": "O compartilhamento de dados foi ilegal, mas a Farmácia Vida+ não pode ser responsabilizada, pois a operadora de planos de saúde é a responsável final pelo tratamento das informações, mas ambas são obrigadas a eliminar os dados."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata da LGPD (Lei nº 13.709/2018). A alternativa A está incorreta, porque a base legal da \"execução de contrato\" (prevista no art. 7º, V, da LGPD para dados comuns) é insuficiente para justificar o compartilhamento de dados pessoais sensíveis com outro controlador para uma finalidade distinta daquela para a qual foram originalmente coletados. Dados sobre saúde exigem uma base legal específica. O compartilhamento realizado pela farmácia com a operadora de saúde para obter vantagem econômica é expressamente vedado, nos termos da LGPD: “Art. 11. O tratamento de dados pessoais sensíveis somente poderá ocorrer nas seguintes hipóteses: § 4º É vedada a comunicação ou o uso compartilhado entre controladores de dados pessoais sensíveis referentes à saúde com objetivo de obter vantagem econômica, exceto nas hipóteses relativas a serviços de saúde, de assistência farmacêutica e de assistência à saúde, desde que em benefício dos interesses dos titulares de dados, e para permitir: I - a portabilidade de dados quando solicitada pelo titular; ou II - as transações financeiras e administrativas resultantes do uso e da prestação dos serviços de que trata este parágrafo”. A alternativa B está correta, porque os dados sobre medicamentos adquiridos são considerados dados pessoais sensíveis referentes à saúde, conforme o art. 5º, II, da LGPD. O compartilhamento desses dados para finalidades que não sejam estritamente necessárias à prestação do serviço farmacêutico exige o consentimento específico e destacado do titular. A violação dessa regra sujeita o infrator a sanções e à obrigação de eliminar os dados tratados ilicitamente, nos termos dos artigos 11, § 4º (vide transcrição na letra A), e 52 da LGPD: “Art. 52. Os agentes de tratamento de dados, em razão das infrações cometidas às normas previstas nesta Lei, ficam sujeitos às seguintes sanções administrativas aplicáveis pela autoridade nacional: VI - eliminação dos dados pessoais a que se refere a infração;”. A alternativa C está incorreta. O artigo 11, que regula especificamente os dados sensíveis, apresenta um rol taxativo de hipóteses para seu tratamento, no qual o legítimo interesse não se encontra. Portanto, a justificativa de \"aprimorar serviços\" não é válida para o compartilhamento de dados de saúde sem consentimento. Veja a literalidade da LGPD: “Art. 11. O tratamento de dados pessoais sensíveis somente poderá ocorrer nas seguintes hipóteses: I - quando o titular ou seu responsável legal consentir, de forma específica e destacada, para finalidades específicas; II - sem fornecimento de consentimento do titular, nas hipóteses em que for indispensável para: a) cumprimento de obrigação legal ou regulatória pelo controlador; b) tratamento compartilhado de dados necessários à execução, pela administração pública, de políticas públicas previstas em leis ou regulamentos; c) realização de estudos por órgão de pesquisa, garantida, sempre que possível, a anonimização dos dados pessoais sensíveis; d) exercício regular de direitos, inclusive em contrato e em processo judicial, administrativo e arbitral, este último nos termos da Lei nº 9.307, de 23 de setembro de 1996 (Lei de Arbitragem); e) proteção da vida ou da incolumidade física do titular ou de terceiro; f) tutela da saúde, exclusivamente, em procedimento realizado por profissionais de saúde, serviços de saúde ou autoridade sanitária; ou g) garantia da prevenção à fraude e à segurança do titular, nos processos de identificação e autenticação de cadastro em sistemas eletrônicos, resguardados os direitos mencionados no art. 9º desta Lei e exceto no caso de prevalecerem direitos e liberdades fundamentais do titular que exijam a proteção dos dados pessoais”. A alternativa D está incorreta, porque a LGPD estabelece a responsabilidade solidária entre os agentes de tratamento (controlador e operador) que, de alguma forma, participam da cadeia de tratamento de dados e causam dano ao titular. No caso, tanto a Farmácia Vida+ (que coletou e compartilhou os dados) quanto a MedSaúde S.A. (que os recebeu e utilizou) são consideradas controladoras e, portanto, ambas podem ser responsabilizadas pela violação. A responsabilidade não é exclusiva da operadora de planos de saúde, nos termos do artigo 42 da LGPD: “Art. 42. O controlador ou o operador que, em razão do exercício de atividade de tratamento de dados pessoais, causar a outrem dano patrimonial, moral, individual ou coletivo, em violação à legislação de proteção de dados pessoais, é obrigado a repará-lo”."
+      }
+    ]
+  },
+  "Princípios E Direitos Básicos Do Consumidor": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Cadastro positivo, bancos de dados e sistema de score de crédito",
+        "ids_questoes": [
+          "oab_39_45"
+        ],
+        "peso_percentual": 40,
+        "armadilha_favorita": "Confundir a licitude do score de crédito com necessidade de consentimento prévio do consumidor; a FGV costuma explorar também a falsa ideia de que o fornecedor pode ocultar as fontes dos dados e as informações pessoais valoradas."
+      },
+      {
+        "nome_microtema": "Serviço de Atendimento ao Consumidor (SAC) e dever de atendimento contínuo",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_46"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "Misturar regras de horário de funcionamento do SAC com mera liberalidade empresarial; a pegadinha é achar que pode haver interrupção sem canal alternativo e sem atendimento contínuo, além de tolerar mensagens publicitárias durante a espera."
+      },
+      {
+        "nome_microtema": "Tratamento de dados pessoais: eliminação após o término e conservação para fins estatísticos",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_38"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "Confundir a regra geral de eliminação dos dados ao fim do tratamento com a exceção de conservação para uso exclusivo do controlador em fins estatísticos, com anonimização sempre que possível."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com situações do cotidiano do consumidor, exigindo leitura fina de exceções legais e deveres regulatórios específicos",
+      "palavras_gatilho": [
+        "à luz das disposições do CDC",
+        "assinale a afirmativa correta",
+        "diante da situação narrada",
+        "é defeso",
+        "pode conservar",
+        "sem consentimento prévio"
+      ]
+    },
+    "total_questoes_analisadas": 3,
+    "banco_questoes": [
+      {
+        "id": "oab_39_45",
+        "materia": "Direito do Consumidor",
+        "assunto": "Sistema de Escore de Crédito (Súmula 550 do STJ)",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Súmula 550 do STJ.",
+        "enunciado": "Adônis procurou você, como advogado(a), queixando-se de lhe ter sido negado crédito. Informou que a recusa se baseou em uma pontuação baixa atribuída por meio do uso do método para avaliação do risco de concessão de crédito, conhecido como sistema 'escore de crédito'. Disse que o método foi aplicado sem o seu consentimento prévio, bem como explicou que não foram prestados esclarecimentos a respeito das fontes dos dados considerados e nem das informações pessoais valoradas. A respeito desse assunto, à luz das disposições do Código de Defesa do Consumidor sobre banco de dados e cadastro de consumidores, assinale a afirmativa correta;",
+        "alternativas": {
+          "A": "A realização de qualquer avaliação de risco para a concessão de crédito, com o objetivo de criar sistema de escore do consumidor, deve ser sempre precedida do consentimento do interessado no prazo de 5 (cinco) dias úteis.",
+          "B": "A indicação ao consumidor das fontes dos dados considerados pelo fornecedor para o cálculo do escore de crédito fica dispensada.",
+          "C": "O consentimento prévio do consumidor consultado é desnecessário, mas a ele deve ser garantido o acesso às informações pessoais valoradas e às fontes dos dados considerados no cálculo do escore de crédito.",
+          "D": "As informações pessoais valoradas são de autonomia do fornecedor e não precisam ser conhecidas pelo consumidor, pois são confidenciais."
+        },
+        "gabarito": "C",
+        "comentario": "A Súmula 550 do STJ estabelece: 'A utilização de escore de crédito, método estatístico de avaliação de risco que não constitui banco de dados, dispensa o consentimento do consumidor, que terá o direito de solicitar esclarecimentos sobre as informações pessoais valoradas e as fontes dos dados considerados no respectivo cálculo'."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_46",
+        "materia": "Direito do Consumidor",
+        "assunto": "Serviço de Atendimento ao Consumidor (SAC)",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Você, como advogado(a), foi procurado(a) pela senhora Magda para orientá-la quanto às dificuldades de atendimento de suas demandas no Serviço de Atendimento ao Consumidor (SAC) da operadora do plano de saúde a que ela aderiu a partir do mês de novembro de 2022. A consulente narrou a você que não consegue contato telefônico nos finais de semana, pois o atendimento se encerra às 22h de sexta-feira e só é retomado a partir de 6h de segunda-feira e não há outro canal de atendimento no período indicado para o registro de demandas. Por fim, durante o tempo de espera para atendimento, a operadora veicula várias mensagens de caráter informativo sobre os procedimentos para fruição de direitos dos clientes e acesso à rede referenciada e mensagens publicitárias de seus patrocinadores. Com base na narrativa e nas determinações legais para atendimento de demandas no SAC, assinale a afirmativa correta:",
+        "alternativas": {
+          "A": "Os fatos narrados pela consulente não constituem infração, podendo ser interrompido o atendimento em certos horários; é possível veicular mensagens informativas antes do atendimento, vedadas as mensagens publicitárias de seus patrocinadores.",
+          "B": "A operadora do plano de saúde pode interromper o atendimento ao consumidor em horários previamente determinados e divulgados, bem como apenas pode veicular mensagens de caráter informativo e publicitárias de seus próprios produtos e serviços.",
+          "C": "É defeso à operadora do plano de saúde interromper o atendimento ao consumidor, mas está autorizada a veicular mensagens informativas desde que tratem dos direitos e deveres dos consumidores.",
+          "D": "Os fatos narrados pela consulente revelam que a operadora do plano de saúde não cometeu infração administrativa, pois não é obrigatório disponibilizar outros canais de acesso ao SAC além do atendimento telefônico, sendo possível veicular mensagens antes do atendimento."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A alternativa A está incorreta, porque o serviço de atendimento ao consumidor é ininterrupto, na forma do art. 4º, caput, do Decreto 11.034/2022: \"O acesso ao SAC estará disponível, ininterruptamente, durante vinte e quatro horas por dia, sete dias por semana.\". A alternativa B está incorreta, porque o serviço de atendimento ao consumidor é ininterrupto; além do mais, é vedada a veiculação de mensagens publicitárias durante o tempo de espera do atendimento, conforme o previsto no §5º, do art. 4º, do Decreto 11.034/2022: \"É vedada a veiculação de mensagens publicitárias durante o tempo de espera para o atendimento, exceto se houver consentimento prévio do consumidor.\". A alternativa C está correta, porque o serviço de atendimento ao consumidor deve ser ininterrupto; por outro lado está autorizada a veicular mensagens informativas durante ao tempo de espera ao atendimento do consumidor, mas desde que referentes aos direitos e deveres dos consumidores, conforme §6º, do art. 4º, do Decreto 11.034/2022: \"Sem prejuízo do disposto no §5º, é admitida a veiculação de mensagens de caráter informativo durante o tempo de espera, desde que tratem dos direitos e deveres dos consumidores ou dos outros canais de atendimento disponíveis.\". A alternativa D está incorreta, porque a operadora do plano de saúde cometeu infração administrativa, já que é obrigatório disponibilizar outros canais de acesso ao SAC além do atendimento telefônico, sendo este o meio obrigatório, conforme art. 4º, §2º, do Decreto 11.034/2022: \"O acesso ao SAC prestado por atendimento telefônico será obrigatório, nos termos do disposto no art. 5º.\". No mesmo sentido, o art. 12, caput, do referido decreto: \"É direito do consumidor acompanhar, nos diversos canais de atendimento integrados, todas as suas demandas, por meio de registro numérico ou outro tipo de procedimento eletrônico.\". E, por fim, destacando o caráter de infração administrativa do descumprimento das regras do serviço de atendimento ao consumidor, veja-se o texto do art. 16 do referido decreto: \"A inobservância ao disposto neste Decreto acarretará a aplicação das sanções estabelecidas no art. 56 da Lei nº 8.078, de 1990 - Código de Defesa do Consumidor, sem prejuízo da aplicação das sanções constantes dos regulamentos específicos dos órgãos e das entidades reguladoras.\". Todavia, o Decreto 11.034/2022, que regulamenta a Lei nº 8.078, de 11 de setembro de 1990 - Código de Defesa do Consumidor, para estabelecer diretrizes e normas sobre o Serviço de Atendimento ao Consumidor não foi elencado entre os itens passíveis de cobrança no edital do Exame de Ordem. Sabe-se que o edital do Exame não dispõe expressamente o conteúdo programático que deve ser examinado na prova, constando apenas do item 3.4.1 que “a prova objetiva, sem consulta, será composta de 80 (oitenta) questões, no valor de 1,00 (um) ponto cada, e terá sua pontuação total variando do mínimo de 0,00 (zero) ao máximo de 80,00 (oitenta) pontos, compreendendo os conteúdos previstos nas disciplinas do Eixo de Formação Profissional, de Direitos Humanos, de Filosofia do Direito, do Estatuto da Advocacia e da OAB e seu Regulamento Geral e do Código de Ética e Disciplina, nos termos do § 3º do art. 11 no Provimento 144, de 13 de junho de 2011, e suas alterações posteriores constantes do Provimento 156, de 1º de novembro de 2013, do Conselho Federal da OAB, observando, sempre que possível, a interdisciplinariedade.” No entanto, quando se trata da segunda fase, na prova prático-profissional, os temas passíveis de cobrança são dispostos expressamente no edital. E, inserido no conteúdo de Direito Civil, há somente a disciplina da Lei 8.078/90 – Código de Defesa do Consumidor, no item 24. Desse modo, a banca examinadora, em nenhuma previsão editalícia expressa a possibilidade de cobrança do Decreto 11.034/2022, ou qualquer outro tema estranho ao conteúdo do CDC. Caso a FGV pretenda exigir conhecimento além do Código de Defesa do Consumidor, é evidente a necessidade de informar quais serão esses conhecimentos aos candidatos, assim como o faz nas provas de concurso público que elabora. A inclusão de temas não exigidos em edital afronta o princípio da publicidade, visto que a Administração, na formulação das questões de prova de concurso público, vincula-se às regras estabelecidas no instrumento convocatório. Por todo o exposto, tendo em vista que o conhecimento exigido para sua resolução não constava e nem poderia ser aferido do edital, a questão 46 deverá ser anulada."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_38",
+        "materia": "Direito do Consumidor",
+        "assunto": "Lei Geral de Proteção de Dados (LGPD) - Conservação de dados após término do tratamento",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária Calçados Novos Ltda. consultou você, como advogado(a), na qualidade de controladora dos dados pessoais de seus clientes. Isso porque há quantidade relevante de dados cujo término do tratamento já ocorreu, considerando o fim do período de tratamento. Contudo, a sociedade empresária tem a intenção de manter as informações históricas de seus clientes, para fins exclusivamente estatísticos, sem a necessidade de identificar pessoalmente os titulares de cada informação. Sobre a hipótese narrada, considerando o interesse do cliente, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A controladora é obrigada a eliminar os dados pessoais dos clientes cujo término do tratamento já ocorreu, em qualquer hipótese.",
+          "B": "A controladora pode conservar os dados cujo término do tratamento já ocorreu, desde que ainda seja possível tratar os dados conforme a finalidade específica.",
+          "C": "A controladora pode conservar os dados cujo término do tratamento já ocorreu, para seu uso exclusivo, vedado o acesso por terceiro, e desde que anonimizados os dados.",
+          "D": "A controladora é obrigada a eliminar os dados pessoais dos clientes cujo término do tratamento já ocorreu, desde que desnecessários ao alcance da finalidade específica almejada."
+        },
+        "gabarito": "C",
+        "comentario": "A alternativa correta é a letra C. A questão trata da Lei Geral de Proteção de Dados. A alternativa A está incorreta, já que a LGPD enumera as situações em que é permitido a conservação dos dados pessoais após o término do seu tratamento. Veja literalidade da lei: “Art. 16. Os dados pessoais serão eliminados após o término de seu tratamento, no âmbito e nos limites técnicos das atividades, autorizada a conservação para as seguintes finalidades: (...)”. A alternativa B está incorreta, já que a alternativa descreve uma situação na qual a LGPD não autoriza a conservação dos dados em caso de que o término do tratamento já ocorreu. No art. 16 da LGPD estão as finalidades para as quais é possível conservar esses dados: “Art. 16. Os dados pessoais serão eliminados após o término de seu tratamento, no âmbito e nos limites técnicos das atividades, autorizada a conservação para as seguintes finalidades: I - cumprimento de obrigação legal ou regulatória pelo controlador; II - estudo por órgão de pesquisa, garantida, sempre que possível, a anonimização dos dados pessoais; III - transferência a terceiro, desde que respeitados os requisitos de tratamento de dados dispostos nesta Lei; ou IV - uso exclusivo do controlador, vedado seu acesso por terceiro, e desde que anonimizados os dados”. A alternativa C está correta, já que a controladora pode conservar os dados cujo término do tratamento já ocorreu, para seu uso exclusivo, vedado o acesso por terceiro, e desde que anonimizados os dados, nos termos da LGPD: “Art. 16. Os dados pessoais serão eliminados após o término de seu tratamento, no âmbito e nos limites técnicos das atividades, autorizada a conservação para as seguintes finalidades: IV - uso exclusivo do controlador, vedado seu acesso por terceiro, e desde que anonimizados os dados”. A alternativa D está incorreta, já que a controladora, em regra, é obrigada a eliminar os dados pessoais dos clientes cujo término de tratamento já ocorreu, independentemente de que sejam desnecessários ao alcance da finalidade específica almejada. Veja literalidade da lei: “Art. 15. O término do tratamento de dados pessoais ocorrerá nas seguintes hipóteses: I - verificação de que a finalidade foi alcançada ou de que os dados deixaram de ser necessários ou pertinentes ao alcance da finalidade específica almejada; Art. 16. Os dados pessoais serão eliminados após o término de seu tratamento, no âmbito e nos limites técnicos das atividades, autorizada a conservação para as seguintes finalidades: I - cumprimento de obrigação legal ou regulatória pelo controlador; (...)”."
+      }
+    ]
+  },
+  "Qualidade De Produtos E Serviços, Da Prevenção E Da Reparação Dos Danos": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Fato do produto por produto impróprio ao consumo e responsabilidade solidária na cadeia de fornecimento",
+        "ids_questoes": [
+          "oab_38_46"
+        ],
+        "peso_percentual": 55,
+        "armadilha_favorita": "A FGV tenta fazer o candidato confundir vício do produto com fato do produto: aqui não é mero defeito de qualidade, mas produto vencido que gerou dano à saúde, atraindo responsabilidade objetiva do fabricante e, em regra, também do comerciante na cadeia, sem aceitar a tese de que o lojista se exime porque recebeu a mercadoria lacrada."
+      },
+      {
+        "nome_microtema": "Transporte aéreo internacional e limitação indenizatória por tratados internacionais versus CDC",
+        "ids_questoes": [
+          "oab_39_46"
+        ],
+        "peso_percentual": 45,
+        "armadilha_favorita": "A pegadinha clássica é opor CDC e convenções internacionais como se o CDC sempre prevalecesse: a FGV explora a jurisprudência do STF para testar se o candidato sabe que, em transporte aéreo internacional, as limitações indenizatórias dos tratados podem prevalecer sobre a disciplina consumerista quanto aos danos materiais por extravio de bagagem."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto; a FGV descreve um evento cotidiano (produto vencido, extravio de bagagem) e cobra a qualificação jurídica exata do instituto, com distratores plausíveis que misturam responsabilidade objetiva, excludentes e prevalência normativa.",
+      "palavras_gatilho": [
+        "é correto afirmar",
+        "diante dos fatos",
+        "assinale a afirmativa correta",
+        "responde objetivamente",
+        "limitação indenizatória",
+        "cadeia de fornecimento",
+        "produto impróprio ao consumo",
+        "transporte internacional"
+      ]
+    },
+    "total_questoes_analisadas": 2,
+    "banco_questoes": [
+      {
+        "id": "oab_38_46",
+        "materia": "Direito do Consumidor",
+        "assunto": "Responsabilidade pelo Fato do Produto (Produto Vencido)",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Diego ofereceu papinha industrializada para seu filho que apresentou sintomas de diarreia e vômito algumas horas depois. Ao observar a data de validade do produto, identificou que estava vencida. O produto havia sido adquirido naquela manhã na padaria vizinha e, ao retornar ao local, observou que os demais potinhos de papinha disponíveis na prateleira estavam com a data de validade adequada para o consumo. Indagando o comerciante, Diego foi informado de que os produtos estavam na mesma caixa lacrada enviada pelo fabricante naquela manhã e alegou que também foi vítima de tal erro do fabricante. Embora se conformasse e lamentasse a infelicidade de ter adquirido justamente o pote com data vencida, Diego procurou você como advogado (a) para saber se alguma providência jurídica poderia ser tomada. Diante desses fatos, assinale a opção correta.",
+        "alternativas": {
+          "A": "O comerciante não responde pelo evento danoso na medida em que também foi prejudicado ao receber do fabricante o produto com a data de validade expirada.",
+          "B": "Cuida-se de vício da segurança do produto, respondendo o comerciante objetivamente por ter disponibilizado o produto para venda, podendo ainda o fabricante ser responsabilizado, não podendo alegar culpa de terceiro.",
+          "C": "Incide excludente de responsabilidade do fabricante e do comerciante por culpa da vítima que não observou o prazo de validade antes de consumir o produto.",
+          "D": "Cuida-se de responsabilidade objetiva do fabricante de produto, recaindo sobre o comerciante a responsabilidade subsidiária."
+        },
+        "gabarito": "B",
+        "comentario": "O gabarito da banca é a letra B, mas o comentário do material aponta que a alternativa D também está correta (responsabilidade do fabricante e subsidiária do comerciante), com base nos arts. 12 e 13 do CDC e no REsp 980.860/SP (STJ)."
+      },
+      {
+        "id": "oab_39_46",
+        "materia": "Direito do Consumidor",
+        "assunto": "Responsabilidade em Transporte Aéreo Internacional - Convenção de Varsóvia/Montreal x CDC",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "Art. 178, CF/88; RE 636.331/STF (Repercussão Geral).",
+        "enunciado": "Em viagem realizada do Rio de Janeiro para os Estados Unidos, em Janeiro de 2023, Luan e Vanessa tiveram uma de suas malas extraviada, tendo sofrido um prejuízo quantificado em cerca de R$ 15.000,00 (quinze mil reais). Acionada, a empresa aérea alegou que sua responsabilidade estava limitada ao teto previsto na Convenção de Varsóvia e que o Código de Defesa do Consumidor (CDC) não era aplicável à hipótese, por se tratar de transporte internacional. Considerando a jurisprudência predominante no Supremo Tribunal Federal, no que toca ao tema das indenizações por danos materiais decorrentes de extravio de bagagens de viajantes no transporte aéreo, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O CDC é sempre aplicável, independentemente de se tratar de um voo internacional ou doméstico, não sendo possível que qualquer tratado ou convenção internacional limite o valor das indenizações cabíveis, pois tal fato configuraria violação à soberania nacional.",
+          "B": "Nos voos internacionais prevalecem integralmente as limitações contidas em normativas internacionais, como a Convenção de Varsóvia e a Convenção de Montreal, enquanto nos voos domésticos aplica-se unicamente o CDC, não sendo aplicáveis as limitações contidas naquelas convenções.",
+          "C": "Em se tratando de contrato de transporte aéreo, aplicam-se as limitações contidas nas convenções internacionais tanto aos voos domésticos quanto aos voos internacionais.",
+          "D": "As limitações contidas na Convenção de Varsóvia e na Convenção de Montreal somente são aplicáveis quando explicitadas no contrato assinado pelo consumidor, em obediência ao dever de informação exigido pelo CDC."
+        },
+        "gabarito": "B",
+        "comentario": "O STF, no RE 636.331 e ARE 766.618 (repercussão geral), fixou tese de que, com base no art. 178 da CF, as normas e tratados internacionais limitadores da responsabilidade (Convenções de Varsóvia e Montreal) têm prevalência em relação ao CDC no transporte internacional. Para voos domésticos, aplica-se o CDC."
+      }
+    ]
+  },
+  "Responsabilidade Pelo Vício E Fato Do Produto/Serviço": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Vício de qualidade do produto durável: prazo decadencial de 90 dias e reclamação ao fornecedor/SAC como causa obstativa",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_45"
+        ],
+        "peso_percentual": 35,
+        "armadilha_favorita": "Confundir vício aparente/oculto em produto durável com prazo de 30 dias, ou achar que a reclamação informal ao SAC não interrompe/obsta a decadência; a FGV explora a distinção entre prazo decadencial e prazo prescricional e o efeito da reclamação do consumidor."
+      },
+      {
+        "nome_microtema": "Fato do produto: acidente de consumo, responsabilidade objetiva do fabricante e irrelevância da culpa do consumidor como regra de exclusão automática",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_45"
+        ],
+        "peso_percentual": 40,
+        "armadilha_favorita": "Trocar vício do produto por fato do produto e exigir prova de culpa do fabricante ou do consumidor como condição de responsabilidade; a pegadinha é a tentativa do fornecedor de transferir o ônus para o consumidor, embora a responsabilidade seja objetiva e a excludente dependa de prova robusta de culpa exclusiva da vítima/terceiro."
+      },
+      {
+        "nome_microtema": "Cobrança indevida em serviço essencial e vedação de corte abusivo: contrato de adesão, informação prévia e limites do fornecedor",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-45_46"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "Aceitar como legítima a cobrança retroativa sem previsão contratual ou admitir corte imediato do serviço essencial como meio de coerção; a FGV costuma misturar contrato de adesão, dever de informação e proteção contra práticas abusivas para induzir a resposta pela autotutela do fornecedor."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando prazos do CDC, distinção entre vício e fato do produto/serviço, e abusividade de condutas do fornecedor em serviços essenciais",
+      "palavras_gatilho": [
+        "é correto afirmar",
+        "diante dos fatos",
+        "assinale a afirmativa correta",
+        "responsabilidade objetiva",
+        "prazo decadencial",
+        "serviço essencial",
+        "contrato de adesão"
+      ]
+    },
+    "total_questoes_analisadas": 3,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-41_45",
+        "materia": "Direito do Consumidor",
+        "assunto": "Prazo decadencial para reclamação de vício em produto durável",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Nísia adquiriu um fogão a gás de cinco bocas, sendo o produto entregue no dia 12 de setembro de 2023, lacrado e em perfeito estado quanto ao aspecto externo. O produto foi instalado no mesmo dia; contudo, o fogão só começou a ser utilizado a partir de 20 de setembro. No dia do primeiro uso, Nísia notou um superaquecimento do forno, pois mesmo que o botão fosse manejado para a temperatura mínima de 150 C° (cento e cinquenta graus Celsius), o forno continuava exalando calor correspondente à temperatura máxima de 300° (trezentos graus Celsius). No dia 22 de setembro de 2023, Nísia entrou em contato por telefone e por mensagens de correio eletrônico com o serviço de atendimento ao fabricante (SAC) pedindo a troca do produto em razão de vício de qualidade, detectado no primeiro uso e inquestionável. A reclamação foi recebida no mesmo dia, como consta no protocolo, mas a resposta só foi transmitida no dia 30 de setembro, sendo negativa, fato que motivou Nísia a apresentar, no dia 13 de outubro, reclamação perante o órgão estadual de defesa do consumidor. Segundo o Código de Defesa do Consumidor, sobre o prazo decadencial referente ao direito de reclamar por vício de produto durável, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "O prazo deve ser de 90 dias, sendo obstado pela reclamação formulada por Nísia ao fabricante do fogão até a resposta negativa correspondente.",
+          "B": "O prazo deve ser de 30 dias, não sendo obstado nem pela reclamação formulada perante o fabricante nem pelo órgão de defesa do consumidor.",
+          "C": "O prazo deve ser de 90 dias, sendo obstado pela reclamação formalizada por Nísia perante o órgão estadual de defesa do consumidor, devendo ser retomado 90 dias depois da data da reclamação, caso o problema persista.",
+          "D": "O prazo deve ser de 30 dias, não sendo obstado pela reclamação formulada perante o órgão de defesa do consumidor."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão tratou sobre vício do produto. A alternativa A está correta. Já que o fogão é um produto durável, o prazo deve ser de 90 dias, sendo obstado pela reclamação formulada por Nísia ao fabricante do fogão até a resposta negativa correspondente, nos termos do CDC: “Art. 26. O direito de reclamar pelos vícios aparentes ou de fácil constatação caduca em: II - noventa dias, tratando-se de fornecimento de serviço e de produtos duráveis. § 2° Obstam a decadência: I - a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca;”. A alternativa B está incorreta. O direito de reclamar os vícios será de 90 dias e não de 30, pois o fogão é um produto durável. Além disso, obsta a decadência a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca. Veja CDC: “Art. 26. O direito de reclamar pelos vícios aparentes ou de fácil constatação caduca em: I - trinta dias, tratando-se de fornecimento de serviço e de produtos não duráveis; § 2° Obstam a decadência: I - a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca;”. A alternativa C está incorreta. Veja que obsta a decadência a reclamação formulada perante o fornecedor de produtos e serviços e não perante os órgãos estaduais, conforme afirma a alternativa. Veja CDC: “Art. 26. O direito de reclamar pelos vícios aparentes ou de fácil constatação caduca em: § 2° Obstam a decadência: I - a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca; II - (Vetado). III - a instauração de inquérito civil, até seu encerramento”. A alternativa D está incorreta. Já que o fogão é um produto durável, o prazo deve ser de 90 dias, sendo obstado pela reclamação formulada por Nísia ao fabricante do fogão até a resposta negativa correspondente, nos termos do CDC: “Art. 26. O direito de reclamar pelos vícios aparentes ou de fácil constatação caduca em: II - noventa dias, tratando-se de fornecimento de serviço e de produtos duráveis. § 2° Obstam a decadência: I - a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca;”."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_45",
+        "materia": "Direito do Consumidor",
+        "assunto": "Responsabilidade pelo fato do produto",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Maria adquiriu um aquecedor elétrico de uma marca renomada. Após uma semana de uso, o aquecedor apresentou um curto-circuito, causando um incêndio que danificou parte de sua residência. Após investigações, constatou-se que o defeito era decorrente de uma falha de fabricação, já relatada por outros consumidores. Ao buscar uma solução com o fabricante, este alegou que o acidente foi causado pelo uso inadequado do produto e negou responsabilidade. Sobre o fato narrado, com base no Código de Defesa do Consumidor, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "No caso, não há que se falar em responsabilidade do fornecedor, pois o risco de curto-circuito é inerente a todos os produtos elétricos.",
+          "B": "O fabricante só será responsabilizado se Maria provar que o acidente não decorreu de uso inadequado, independentemente da constatação do defeito do produto.",
+          "C": "O fabricante poderá ser responsabilizado se Maria provar que utilizou o aquecedor conforme as instruções do manual de uso, bem como demonstrar a adequação de suas instalações elétricas.",
+          "D": "O fabricante é responsável pelos danos causados pelo aquecedor defeituoso, independentemente de culpa e, comprovado o nexo causal entre o defeito e os danos, responderá de forma objetiva."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata da responsabilidade pelo fato do produto. A alternativa A está incorreta, porque um produto que causa um incêndio devido a uma falha de fabricação não oferece a segurança que dele se espera, caracterizando-se como defeituoso e gerando responsabilidade para o fornecedor, nos termos do Código de Defesa do Consumidor: \"Art. 12, § 1º O produto é defeituoso quando não oferece a segurança que dele legitimamente se espera, levando-se em consideração as circunstâncias relevantes, entre as quais: II - o uso e os riscos que razoavelmente dele se esperam\". A alternativa B está incorreta, porque a responsabilidade do fabricante por fato do produto é objetiva, o que significa que o ônus de provar a culpa exclusiva do consumidor é do fabricante, e não o contrário, nos termos do Código de Defesa do Consumidor: \"Art. 12. § 3º O fabricante, o construtor, o produtor ou importador só não será responsabilizado quando provar: III - a culpa exclusiva do consumidor ou de terceiro\". A alternativa C está incorreta, porque, devido à responsabilidade objetiva, cabe ao fabricante provar que o dano foi causado por uso inadequado ou por instalações elétricas defeituosas para se eximir da responsabilidade, e não à consumidora provar o uso correto, nos termos do art. 12 do CDC, já transcrito acima. A alternativa D está correta, porque o CDC estabelece a responsabilidade objetiva do fabricante por acidentes de consumo (fato do produto), o que significa que ele responde pelos danos independentemente da existência de culpa, bastando a comprovação do defeito, do dano e do nexo de causalidade entre eles, nos termos do CDC: \"Art. 12. O fabricante, o produtor, o construtor, nacional ou estrangeiro, e o importador respondem, independentemente da existência de culpa, pela reparação dos danos causados aos consumidores por defeitos decorrentes de projeto, fabricação, construção, montagem, fórmulas, manipulação, apresentação ou acondicionamento de seus produtos, bem como por informações insuficientes ou inadequadas sobre sua utilização e riscos\"."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-45_46",
+        "materia": "Direito do Consumidor",
+        "assunto": "Contrato de adesão e interpretação favorável ao consumidor",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Augusto assinou um contrato de adesão com a sociedade empresária Aqua Limpa, fornecedora de água e esgoto em sua cidade, para o fornecimento de água em sua residência. Após meses de uso regular, Augusto foi surpreendido por uma cobrança inesperada no valor de R$ 2.500,00 (dois mil e quinhentos reais), sendo alegado um “ajuste de consumo retroativo”. A sociedade empresária Aqua Limpa informou que o valor deveria ser pago imediatamente para evitar o corte no fornecimento de água. No entanto, Augusto verificou que o contrato não mencionava essa possibilidade de ajuste retroativo, nem qualquer explicação prévia sobre o cálculo desse valor. Diante da situação hipotética narrada e com base no Código de Defesa do Consumidor, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Por ser um contrato escrito, Augusto não tem direito de contestar a cobrança, já que os termos do contrato foram previamente estipulados pela sociedade empresária e aceitos por ele.",
+          "B": "Augusto deve questionar judicialmente a cobrança, uma vez que o contrato de adesão deve ser interpretado da forma mais favorável ao consumidor quando houver cláusulas ambíguas, contraditórias ou omissas.",
+          "C": "Como o fornecimento de água é um serviço essencial, a sociedade empresária Aqua Limpa não pode cortar o fornecimento de água, embora possa realizar a cobrança dos valores retroativos nos termos pactuados.",
+          "D": "A sociedade empresária Aqua Limpa pode cortar o fornecimento de água imediatamente se Augusto não pagar a dívida, pois a imediata interrupção no fornecimento de serviços em razão de inadimplência, independentemente de notificação, é lícita."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do contrato de adesão. A alternativa A está incorreta, porque o fato de um contrato ser de adesão não o torna imune a questionamentos. Pelo contrário, o CDC protege o consumidor contra cláusulas abusivas, não transparentes ou que o coloquem em desvantagem exagerada, mesmo que ele tenha assinado o documento, conforme CDC: “Art. 51. São nulas de pleno direito, entre outras, as cláusulas contratuais relativas ao fornecimento de produtos e serviços que: IV - estabeleçam obrigações consideradas iníquas, abusivas, que coloquem o consumidor em desvantagem exagerada, ou sejam incompatíveis com a boa-fé ou a eqüidade; X - permitam ao fornecedor, direta ou indiretamente, variação do preço de maneira unilateral; XIII - autorizem o fornecedor a modificar unilateralmente o conteúdo ou a qualidade do contrato, após sua celebração;”. A alternativa B está correta, pois, em contratos de adesão, qualquer omissão ou ambiguidade deve ser interpretada a favor do consumidor. Como o contrato não previa a possibilidade de um \"ajuste de consumo retroativo\", essa cobrança surpresa é ilegal por violar o direito à informação e o princípio da transparência. Veja a literalidade do CDC: “Art. 47. As cláusulas contratuais serão interpretadas de maneira mais favorável ao consumidor”. A alternativa C está incorreta, porque a segunda parte da afirmação é falsa. Uma cobrança surpresa, unilateral e sem previsão contratual viola diretamente o direito básico do consumidor à informação e o princípio da transparência. Nos termos do art. 51, X, do CDC (vide transcrição na alternativa A) são nulas as cláusulas que permitam ao fornecedor, direta ou indiretamente, variação do preço de maneira unilateral. A alternativa D está incorreta, porque a interrupção do fornecimento de um serviço essencial, mesmo em caso de inadimplência, exige notificação prévia ao consumidor. O corte imediato e sem aviso é uma prática abusiva e ilegal, conforme o art. 22 do CDC: “Art. 22. Os órgãos públicos, por si ou suas empresas, concessionárias, permissionárias ou sob qualquer outra forma de empreendimento, são obrigados a fornecer serviços adequados, eficientes, seguros e, quanto aos essenciais, contínuos”."
+      }
+    ]
+  },
+  "Desconsideração Da Personalidade Jurídica No Cdc": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Hipóteses de desconsideração da personalidade jurídica no CDC (art. 28)",
+        "ids_questoes": [],
+        "peso_percentual": 30,
+        "armadilha_favorita": "Confundir a desconsideração do CDC com a teoria geral do Código Civil, exigindo prova de abuso em vez de bastar a insolvência, a má administração ou o prejuízo ao consumidor."
+      },
+      {
+        "nome_microtema": "Teoria menor da desconsideração e proteção do consumidor",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Achar que, no CDC, sempre se exige desvio de finalidade ou confusão patrimonial, quando a lógica protetiva é mais ampla e favorece a efetividade da reparação."
+      },
+      {
+        "nome_microtema": "Desconsideração inversa e alcance sobre sócios/administradores",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Trocar a responsabilização da pessoa jurídica pelos atos do sócio pela responsabilização do patrimônio do sócio por dívidas da empresa, sem identificar a via correta de superação da autonomia patrimonial."
+      },
+      {
+        "nome_microtema": "Responsabilidade subsidiária, solidária e extensão patrimonial no CDC",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Confundir desconsideração com mera responsabilidade solidária legal, como se toda inclusão de sócio ou administrador dependesse do mesmo fundamento jurídico."
+      },
+      {
+        "nome_microtema": "Incidente processual e contraditório na desconsideração",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Ignorar a necessidade de observância do contraditório e do procedimento adequado quando a questão cobra a forma de instauração da desconsideração no processo."
+      },
+      {
+        "nome_microtema": "Efeitos práticos da desconsideração na execução e satisfação do crédito do consumidor",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Supor que a desconsideração extingue a pessoa jurídica ou transfere automaticamente toda a dívida, quando o efeito é apenas afastar a autonomia patrimonial no caso concreto."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso de inadimplemento do fornecedor, insolvência da empresa, encerramento irregular das atividades ou frustração da execução, e pergunta se é possível atingir o patrimônio dos sócios/administradores. A pegadinha está em misturar a desconsideração do CDC com a teoria geral do abuso da personalidade, além de confundir desconsideração com responsabilidade solidária ou com mera sucessão empresarial.",
+      "palavras_gatilho": [
+        "insolvência",
+        "encerramento irregular",
+        "frustração da execução",
+        "prejuízo ao consumidor",
+        "desvio de finalidade",
+        "confusão patrimonial",
+        "sócios",
+        "administradores",
+        "autonomia patrimonial",
+        "teoria menor"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Práticas Comerciais: Oferta, Publicidade E Práticas Abusivas": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Oferta de crédito responsável e prevenção ao superendividamento",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-41_46"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "A FGV costuma confundir a mera liberdade de contratar crédito com o dever legal de análise da situação financeira do consumidor, especialmente idoso e vulnerável. A pegadinha é negar a responsabilidade do fornecedor ou tratar a oferta agressiva como lícita, quando o CDC impõe crédito responsável e proteção contra assédio ao consumo."
+      },
+      {
+        "nome_microtema": "Direito de arrependimento em contratação fora do estabelecimento e compra pela internet",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-42_46"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A banca tenta deslocar o foco para prazo de entrega, falta de estoque ou necessidade de aguardar solução do fornecedor, mas o ponto central é o direito de desistir em 7 dias nas contratações fora do estabelecimento, inclusive por internet, com devolução integral dos valores pagos."
+      },
+      {
+        "nome_microtema": "Dever de informação, ostensividade e rotulagem adequada em produto alimentício",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_46"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A FGV explora a diferença entre informação existente e informação adequada/ostensiva. A pegadinha é aceitar aviso escondido, genérico ou em canal secundário como suficiente, quando a redução quantitativa, composição e advertências devem ser claras, precisas e visíveis no rótulo."
+      },
+      {
+        "nome_microtema": "Consumidor por equiparação, publicidade enganosa e tutela coletiva",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_46"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A confusão clássica é restringir a proteção apenas aos compradores individualmente identificados, ignorando a coletividade exposta ao evento de consumo e a legitimidade da ação civil pública. A FGV também mistura publicidade enganosa com risco à saúde para testar o alcance coletivo da tutela."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, com caso concreto envolvendo vulnerabilidade do consumidor, contratação à distância, rotulagem de produto e tutela coletiva; a resposta correta depende de identificar o instituto específico do CDC aplicável aos fatos, e não de repetir conceitos genéricos.",
+      "palavras_gatilho": [
+        "oferta",
+        "crédito responsável",
+        "superendividamento",
+        "fora do estabelecimento",
+        "internet",
+        "direito de arrependimento",
+        "dever de informação",
+        "ostensividade",
+        "rotulagem",
+        "consumidor por equiparação",
+        "ação civil pública",
+        "publicidade enganosa"
+      ]
+    },
+    "total_questoes_analisadas": 4,
+    "banco_questoes": [
+      {
+        "id": "oab_Prova-comenta-OAB-41_46",
+        "materia": "Direito do Consumidor",
+        "assunto": "Superendividamento e crédito responsável",
+        "banca": "FGV",
+        "ano": "2023",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Jordana, aposentada, 89 anos, o(a) procurou como advogado(a) porque fora atraída por ligação telefônica de instituição financeira Banco Mútuo S.A., que anunciava oferta de crédito sem análise de situação financeira do consumidor. Jordana, que na época da oferta do crédito estava em situação financeira muito difícil, contratou a abertura de crédito. Diante do valor reduzido de sua aposentadoria e dos compromissos indispensáveis ao lar e à saúde, celebrados ao longo do ano, não tem mais como pagar todas as dívidas, que a cada mês ficam maiores. Diante da situação hipotética apresentada, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "É direito básico do consumidor a garantia de práticas de crédito responsável, bem como a proteção contra a publicidade enganosa.",
+          "B": "Para responsabilizar o Banco Mútuo S.A., impondo-lhe a obrigação de indenizar, é necessário comprovar o ato de negligência do preposto do banco.",
+          "C": "Tendo em vista que a contratação se deu fora do estabelecimento empresarial, Jordana tinha o prazo de dez dias para exercer o seu direito de arrependimento.",
+          "D": "As instituições financeiras não são obrigadas a analisar a situação financeira do consumidor, apenas consultar os serviços de proteção ao crédito antes de concedê-lo."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão tratou sobre superendividamento. A alternativa A está correta. São direitos básicos do consumidor a garantia de práticas de crédito responsável, bem como a proteção contra a publicidade enganosa, nos termos do CDC: “Art. 6º São direitos básicos do consumidor: IV - a proteção contra a publicidade enganosa e abusiva, métodos comerciais coercitivos ou desleais, bem como contra práticas e cláusulas abusivas ou impostas no fornecimento de produtos e serviços; XI - a garantia de práticas de crédito responsável, de educação financeira e de prevenção e tratamento de situações de superendividamento, preservado o mínimo existencial, nos termos da regulamentação, por meio da revisão e da repactuação da dívida, entre outras medidas;”. A alternativa B está incorreta, já que não é necessário comprovar a negligência do funcionário para responsabilizar o banco, pois se trata de responsabilidade objetiva do fornecedor do serviço, nos termos do CDC: “Art. 14. O fornecedor de serviços responde, independentemente da existência de culpa, pela reparação dos danos causados aos consumidores por defeitos relativos à prestação dos serviços, bem como por informações insuficientes ou inadequadas sobre sua fruição e riscos. § 1° O serviço é defeituoso quando não fornece a segurança que o consumidor dele pode esperar, levando-se em consideração as circunstâncias relevantes, entre as quais: I - o modo de seu fornecimento; II - o resultado e os riscos que razoavelmente dele se esperam;”. A alternativa C está incorreta, pois o prazo de desistência em caso de contratação fora do estabelecimento empresarial é de 7 dias, nos termos do CDC: “Art. 49. O consumidor pode desistir do contrato, no prazo de 7 dias a contar de sua assinatura ou do ato de recebimento do produto ou serviço, sempre que a contratação de fornecimento de produtos e serviços ocorrer fora do estabelecimento comercial, especialmente por telefone ou a domicílio”. A alternativa D está incorreta, pois as instituições financeiras são obrigadas a analisar a situação financeira do consumidor, nos termos do CDC: “Art. 54-C. É vedado, expressa ou implicitamente, na oferta de crédito ao consumidor, publicitária ou não: II - indicar que a operação de crédito poderá ser concluída sem consulta a serviços de proteção ao crédito ou sem avaliação da situação financeira do consumidor; Art. 54-D. Na oferta de crédito, previamente à contratação, o fornecedor ou o intermediário deverá, entre outras condutas: II - avaliar, de forma responsável, as condições de crédito do consumidor, mediante análise das informações disponíveis em bancos de dados de proteção ao crédito, observado o disposto neste Código e na legislação sobre proteção de dados;”."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-42_46",
+        "materia": "Direito do Consumidor",
+        "assunto": "Direito de arrependimento e prazo de entrega",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária XYZ Fábrica e Comercialização Digital S.A., por meio do site de um representante empresarial autônomo, vende os bens informáticos que fabrica. Gláucia, estudante universitária, em 23 de junho de 2024, realizou a compra na internet de um desktop e dois monitores. Os produtos seriam destinados aos seus estudos e ao estágio na modalidade home office, que começaria em 1º de julho. Até a presente data os produtos não chegaram. A sociedade empresária informou que não os possui em estoque, e a fábrica encontra-se com carência de matéria-prima. Sobre a hipótese apresentada, com base no Código de Defesa do Consumidor, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "Gláucia deve esperar 30 dias além do prazo inicial para, então, exigir a substituição ou a devolução do valor pago.",
+          "B": "Gláucia pode desistir da compra e solicitar a devolução integral do valor pago, uma vez que o produto não foi entregue dentro do prazo.",
+          "C": "Gláucia deve esperar até que a fábrica normalize o fornecimento de matéria-prima, uma vez que a falta de insumos é uma causa legítima para o atraso.",
+          "D": "Diante da situação e da ausência de matéria-prima, a sociedade empresária XYZ Fábrica e Comercialização Digital S.A. não responde solidariamente pelos atos do representante autônomo."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata sobre proteção contratual do consumidor. A alternativa B está correta, já que Gláucia pode desistir da compra e solicitar a devolução integral do valor pago, uma vez que o produto não foi entregue dentro do prazo, nos termos do CDC: “Art. 49. O consumidor pode desistir do contrato, no prazo de 7 dias a contar de sua assinatura ou do ato de recebimento do produto ou serviço, sempre que a contratação de fornecimento de produtos e serviços ocorrer fora do estabelecimento comercial, especialmente por telefone ou a domicílio. Parágrafo único. Se o consumidor exercitar o direito de arrependimento previsto neste artigo, os valores eventualmente pagos, a qualquer título, durante o prazo de reflexão, serão devolvidos, de imediato, monetariamente atualizados. Art. 7° Parágrafo único. Tendo mais de um autor a ofensa, todos responderão solidariamente pela reparação dos danos previstos nas normas de consumo”."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_46",
+        "materia": "Direito do Consumidor",
+        "assunto": "Dever de informação no CDC",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária Fábrica de Alimentos Épsilon Ltda. alterou a embalagem de seu principal biscoito, destinado ao público infantil. O produto foi comercializado com redução de peso sem a devida ostensividade da informação no rótulo do produto, sem diminuição proporcional no preço e inexistência de indicação acerca da quantidade de açúcar e de lactose. Uma associação de defesa do consumidor procurou você, como advogada(o), a respeito da conduta da sociedade empresária. A respeito do dever de informação previsto no Código de Defesa do Consumidor, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A informação acerca da redução quantitativa e dos ingredientes deve estar visível, sendo disponibilizada em mensagem clara e precisa.",
+          "B": "A falta e a deficiência material ou formal de informação só violam as normas de proteção do consumidor quando causam danos materiais ao consumidor.",
+          "C": "As informações a respeito da quantidade, da composição e do preço dos produtos podem constar em língua portuguesa ou estrangeira, desde que seja de fácil compreensão do consumidor.",
+          "D": "Caso o produto tenha na embalagem menção ao site da empresa, as informações a respeito da pesagem e dos ingredientes não precisam constar na embalagem, desde que estejam no endereço eletrônico."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão versa sobre o direito de informação previsto no Código de Defesa do Consumidor (CDC). No presente caso, a sociedade empresária Fábrica de Alimentos Épsilon Ltda. alterou a embalagem de seu principal biscoito destinado ao público infantil, reduzindo o peso do produto sem a devida informação ostensiva no rótulo. Além disso, não houve diminuição proporcional no preço e a embalagem não indicava a quantidade de açúcar e lactose. Essa situação levanta questões sobre o dever de informação previsto no Código de Defesa do Consumidor (CDC), especialmente nos artigos 6º, inciso III, que assegura o direito à informação adequada e clara, e 31, que exige que as informações essenciais estejam claramente dispostas na embalagem. A análise das alternativas apresentadas a seguir considera esses dispositivos legais, que visam proteger o consumidor de práticas enganosas e garantir a transparência nas relações de consumo. A alternativa A está correta. Os artigos 6º, inciso III e 31 do CDC estabelece que é direito básico do consumidor a informação adequada e clara sobre os diferentes produtos e serviços, com especificação correta de quantidade. Portanto, a redução quantitativa do biscoito e a composição, incluindo ingredientes como açúcar e lactose, devem ser apresentadas de forma visível e compreensível ao consumidor, garantindo que este possa tomar decisões informadas. Veja literalidade da lei: \"Art. 6º São direitos básicos do consumidor: III - a informação adequada e clara sobre os diferentes produtos e serviços, com especificação correta de quantidade, características, composição, qualidade, tributos incidentes e preço, bem como sobre os riscos que apresentem; Art. 31. A oferta e apresentação de produtos ou serviços devem assegurar informações corretas, claras, precisas, ostensivas e em língua portuguesa sobre suas características, qualidades, quantidade, composição, preço, garantia, prazos de validade e origem, entre outros dados, bem como sobre os riscos que apresentam à saúde e segurança dos consumidores\". A alternativa B está incorreta. A falta ou deficiência de informação, seja material ou formal, pode violar as normas de proteção ao consumidor, mesmo sem causar danos materiais diretos, nos termos do art. 31 do CDC, as informações sobre o produto devem ser claras e precisas. A alternativa C está incorreta. O artigo 31 do CDC exige que as informações essenciais sobre a pesagem e os ingredientes estejam claramente dispostas na embalagem. A apresentação dessas informações deve ser feita de forma clara e ostensiva, e não é suficiente que estejam disponíveis apenas em um site, pois o consumidor deve ter acesso imediato a esses dados. A alternativa D está incorreta. Assim como na alternativa anterior, o artigo 31 do CDC estabelece que as informações sobre a composição e a pesagem do produto devem estar visíveis na embalagem. A menção ao site da empresa não exime a obrigação de fornecer essas informações diretamente no rótulo, garantindo que o consumidor tenha acesso imediato e claro a dados relevantes para sua decisão de compra."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_46",
+        "materia": "Direito do Consumidor",
+        "assunto": "Consumidor por equiparação e Ação Civil Pública",
+        "banca": "FGV",
+        "ano": "44",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A sociedade empresária VittaBem Alimentos Ltda. lançou no mercado nacional uma nova linha de sucos naturais, supostamente livres de conservantes e aditivos químicos, amplamente divulgada em campanhas publicitárias nas principais redes de televisão e mídias digitais. Após quatro meses de intensa comercialização, o Ministério da Saúde, por meio de fiscalização e laudos laboratoriais, constatou que os produtos continham substâncias artificiais em níveis superiores aos permitidos pela Anvisa, representando risco potencial à saúde dos consumidores. Diante da repercussão nacional do caso, uma associação de defesa do consumidor ajuizou ação civil pública, pleiteando: a retirada imediata dos produtos do mercado; e a condenação da sociedade empresária ao pagamento de indenização por danos morais coletivos. A sociedade empresária contestou, sustentando, entre outros argumentos, a inaplicabilidade do Código de Defesa do Consumidor e a ausência de culpa e de dano individual comprovado. Sobre o caso apresentado, com base no ordenamento jurídico brasileiro, especialmente no Código de Defesa do Consumidor, assinale a afirmativa correta.",
+        "alternativas": {
+          "A": "A coletividade de pessoas, ainda que indetermináveis, equipara-se a consumidor, podendo ser tutelada judicialmente por meio de Ação Civil Pública.",
+          "B": "A Ação Civil Pública é incabível, pois somente o consumidor individual e identificado possui legitimidade para pleitear indenização por danos oriundos da relação de consumo.",
+          "C": "O conceito de consumidor por equiparação exige que a coletividade seja determinada e tenha comprovadamente adquirido o produto para ser considerada consumidora.",
+          "D": "Apenas os consumidores que efetivamente adquiriram e consumiram o produto possuem legitimidade para buscar reparação por danos, ainda que representados por associação."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa correta é a letra A. A questão trata do conceito de consumidor e legitimidade para a defesa coletiva no Código de Defesa do Consumidor. A alternativa A está correta. O Código de Defesa do Consumidor, em seu Art. 2º, Parágrafo único, amplia o conceito de consumidor para equiparar a ele a coletividade de pessoas, ainda que indetermináveis, que tenha sido atingida pela relação de consumo. Assim, uma associação de defesa do consumidor tem legitimidade para ajuizar uma Ação Civil Pública para tutelar os direitos dessa coletividade, conforme o Art. 82, IV, do CDC. Veja a literalidade da lei: Art. 82, IV, CDC: “Para os fins do art. 81, parágrafo único, são legitimados concorrentemente: (...) IV - as associações legalmente constituídas há pelo menos um ano e que incluam entre seus fins institucionais a defesa dos interesses e direitos protegidos por este código, dispensada a autorização assemblear.” A alternativa B está incorreta. A Ação Civil Pública é o instrumento processual adequado para a defesa dos direitos difusos e coletivos, como os pleiteados no caso. O CDC estabelece a possibilidade de ações coletivas para a defesa dos direitos dos consumidores, e não apenas ações individuais. Veja a literalidade da lei: Art. 91, CDC: “Os legitimados de que trata o art. 82 poderão propor, em nome próprio e no interesse das vítimas ou seus sucessores, ação civil coletiva de responsabilidade pelos danos individualmente sofridos, de acordo com o disposto nos artigos seguintes.” A alternativa C está incorreta. O conceito de consumidor por equiparação não exige que a coletividade seja determinada, pelo contrário. O Art. 2º, Parágrafo único, do CDC estabelece expressamente a possibilidade de tutela para a \"coletividade de pessoas, ainda que indetermináveis\". Veja a literalidade da lei: Art. 2º, Parágrafo único, CDC: “Equipara-se a consumidor a coletividade de pessoas, ainda que indetermináveis, que haja intervindo nas relações de consumo.” A alternativa D está incorreta. O conceito de consumidor por equiparação abrange pessoas que não necessariamente adquiriram ou consumiram o produto, mas que foram expostas ao dano ou à prática abusiva, como a publicidade enganosa. A lei protege toda a coletividade que tenha sido atingida pela relação de consumo, e não apenas os adquirentes diretos. Veja a literalidade da lei: Art. 2º, Parágrafo único, CDC: “Equipara-se a consumidor a coletividade de pessoas, ainda que indetermináveis, que haja intervindo nas relações de consumo.”"
+      }
+    ]
+  },
+  "Proteção Contratual E Cláusulas Abusivas": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Cláusula limitativa de internação hospitalar em contrato de plano/seguro-saúde",
+        "ids_questoes": [
+          "oab_38_45"
+        ],
+        "peso_percentual": 30,
+        "armadilha_favorita": "A FGV costuma misturar a validade formal da cláusula com sua abusividade material: a cláusula pode até existir no contrato, mas é nula de pleno direito por restringir direito essencial do consumidor em situação de internação hospitalar."
+      },
+      {
+        "nome_microtema": "Rol do art. 51 do CDC: taxatividade versus exemplificatividade das cláusulas abusivas",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-XL-40_45"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A banca induz o candidato a errar ao afirmar que o rol é taxativo. A pegadinha é lembrar que o art. 51 traz rol exemplificativo, permitindo reconhecer abusividade mesmo fora das hipóteses expressas."
+      },
+      {
+        "nome_microtema": "Direito de arrependimento em contratação fora do estabelecimento comercial e prazo de 7 dias",
+        "ids_questoes": [
+          "oab_Prova-comenta-OAB-43_45"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A FGV confunde o consumidor com cláusula de multa ou taxa de cancelamento, mas o ponto central é o exercício do arrependimento no prazo legal, com devolução integral dos valores pagos, sem retenção indevida."
+      },
+      {
+        "nome_microtema": "Superendividamento e repactuação judicial das dívidas do consumidor",
+        "ids_questoes": [
+          "oab_Prova-comentada-OAB-44_45"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A banca tenta levar o candidato a negar a tutela por entender que a dívida é mera inadimplência. A chave é identificar o superendividamento e a possibilidade de repactuação preservando o mínimo existencial."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "prático e casuístico, sempre com caso concreto, explorando contratos de adesão, serviços essenciais, turismo/consumo e situações de vulnerabilidade do consumidor",
+      "palavras_gatilho": [
+        "cláusula abusiva",
+        "contrato de adesão",
+        "direito de arrependimento",
+        "taxa de cancelamento",
+        "rol do art. 51",
+        "mínimo existencial",
+        "renegociação das dívidas",
+        "internação hospitalar"
+      ]
+    },
+    "total_questoes_analisadas": 4,
+    "banco_questoes": [
+      {
+        "id": "oab_38_45",
+        "materia": "Direito do Consumidor",
+        "assunto": "Cláusula de Limitação de Tempo de Internação (Planos de Saúde)",
+        "banca": "FGV",
+        "ano": "2023",
+        "enunciado": "Carlos foi internado para tratamento de saúde. Apresentava estado grave, sendo seus familiares informados sobre a limitação do tempo de internação. Junto à assinatura dos documentos de internação, o hospital exigiu dos familiares um depósito caução para assegurar a internação do paciente, caso extrapolado o dia-limite custeado pelo plano de saúde, o que fizeram prontamente. Os familiares de Carlos procuraram você, como advogado(a), informando o ocorrido e que, de fato, o contrato do seguro-saúde apresentava essa cláusula limitadora. Assinale a opção que apresenta a orientação correta dada para o caso.",
+        "alternativas": {
+          "A": "A cláusula contratual que limita, no tempo, a internação hospitalar do segurado, é abusiva.",
+          "B": "O fato de o hospital ter exigido a prestação da caução não configura conduta abusiva, apesar da evidente vulnerabilidade, por força do princípio do equilíbrio contratual.",
+          "C": "A cláusula contratual que limita o tempo de internação não se mostra abusiva, por ter sido redigida de forma clara e compreensível.",
+          "D": "A cláusula contratual que limita o tempo de internação, embora abusiva, não é nula e, sim, anulável, por se tratar de contrato de adesão celebrado em situação de lesão ao consumidor."
+        },
+        "gabarito": "A",
+        "comentario": "A alternativa A está correta. A Súmula 302 do STJ considera abusiva a cláusula contratual de plano de saúde que limita o tempo de internação hospitalar do segurado, sendo nula de pleno direito (art. 51, CDC)."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-XL-40_45",
+        "materia": "Direito do Consumidor",
+        "assunto": "Cláusulas abusivas no CDC",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Carlos, um consumidor, celebrou um contrato de adesão para aquisição de um pacote turístico. Ao ler atentamente o contrato, Carlos identificou uma cláusula que determinava que ele não poderia requerer indenização à empresa em caso de eventuais prejuízos decorrentes de cancelamentos por causas naturais. Preocupado, Carlos procura você, como advogado(a), para buscar amparo legal e entender a validade da cláusula em questão. Diante disso, assinale a afirmativa que apresenta, corretamente, sua orientação.",
+        "alternativas": {
+          "A": "A cláusula é válida, porque o Art. 51 do CDC possui um rol exemplificativo de cláusulas abusivas, e essa cláusula específica não está listada entre as proibidas.",
+          "B": "A cláusula é inválida, porque o Art. 51 do CDC possui um rol taxativo de cláusulas abusivas, e essa cláusula não está listada entre as permitidas.",
+          "C": "A cláusula é válida, porque o Art. 51 do CDC, que possui um rol de cláusulas abusivas, não se aplica aos contratos de adesão.",
+          "D": "A cláusula é inválida, porque o Art. 51 do CDC apresenta um rol exemplificativo de cláusulas abusivas, mesmo que não listadas."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A alternativa A está incorreta, porque, se o rol do art. 51 do CDC é exemplificativo, este importa em um conceito aberto, podendo ser incluídas outras não previstas originalmente pelo legislador, mas que ofendam os princípios e sistema de proteção dos direitos dos consumidores, já que em seu caput, utiliza da fórmula \"dentre outras\". Veja-se o texto legal: \"São nulas de pleno direito, entre outras, as cláusulas contratuais relativas ao fornecimento de produtos e serviços que: [...].\". A alternativa B está incorreta, porque afirma que o rol do art. 51 do CDC é taxativo, quando, na verdade, é exemplificativo. A alternativa C está incorreta, porque os contratos de adesão possuem proteção, inclusive, mais ampliada que os contratos de consumo comum, tendo essa classificação, tão somente, porque seu conteúdo substancial ou foi definido pela autoridade competente ou unilateralmente pelo fornecedor, a teor do previsto no art. 54, caput, do CDC: \"Contrato de adesão é aquele cujas cláusulas tenham sido aprovadas pela autoridade competente ou estabelecidas unilateralmente pelo fornecedor de produtos ou serviços, sem que o consumidor possa discutir ou modificar substancialmente seu conteúdo.\". A alternativa D está correta, pois, o art. 51 do CDC traz um rol meramente exemplificativo de cláusulas abusivas. Ademais, mesmo que se trate de causas naturais como, por exemplo, a ocorrência de chuvas, os ônus do cancelamento da viagem devem ser suportados integralmente pelo fornecedor, com a aplicação da teoria do risco do empreendimento, devendo ser integralmente devolvidos os valores já pagos ao consumidor, o qual não deu causa ao evento natural. Nesse sentido: \"o cancelamento de pacote turístico contratado constitui risco do empreendimento desenvolvido por qualquer agência de turismo, não podendo esta pretender a transferência integral do ônus decorrente de sua atividade empresarial a eventuais consumidores” (REsp 1.321.655, Terceira Turma)."
+      },
+      {
+        "id": "oab_Prova-comenta-OAB-43_45",
+        "materia": "Direito do Consumidor",
+        "assunto": "Direito de arrependimento (art. 49 CDC)",
+        "banca": "FGV",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Ângela Silva, com o propósito de celebrar os seus 20 anos de formada, adquiriu um pacote de viagens, na loja virtual de uma conhecida sociedade empresária de turismo. Ocorre que, seis dias após a aquisição, foi surpreendida por seus filhos com um pacote de viagens semelhante. Em razão disso, contactou, imediatamente, a sociedade empresária, por meio dos canais de comunicação disponibilizados no sítio eletrônico, informando a sua desistência pela aquisição do serviço, pleiteando, portanto, o cancelamento da contratação. Após quatro dias da efetiva comunicação, Ângela recebeu resposta da agência de turismo, informando que o cancelamento era possível, porém seria cobrada uma taxa de 10% do valor total do pacote, pois, conforme a política da sociedade empresária, a desistência gratuita deve ser informada em até cinco dias da contratação. Diante do fato, você, consultado(a) como advogado(a), ofereceu, corretamente, a seguinte orientação.",
+        "alternativas": {
+          "A": "A sociedade empresária não pode reter o percentual informado, pois Ângela tem justo e legítimo motivo para o cancelamento.",
+          "B": "A sociedade empresária pode reter o percentual informado, desde que comprove que teve custos operacionais com o serviço cancelado.",
+          "C": "A sociedade empresária pode reter o percentual informado, pois Ângela não exerceu o seu direito de arrependimento no prazo assegurado pelo CDC.",
+          "D": "A sociedade empresária não pode reter o percentual informado, pois Ângela desistiu da aquisição do serviço e informou dentro do prazo estabelecido pelo CDC."
+        },
+        "gabarito": "D",
+        "comentario": "A alternativa correta é a letra D. A questão trata do direito de arrependimento do consumidor. O presente caso envolve Ângela Silva, que, ao celebrar um contrato de compra de um pacote de viagens em uma loja virtual, manifestou sua intenção de desistir da aquisição após ser surpreendida por um presente semelhante de seus filhos. Ao contatar a sociedade empresária de turismo, Ângela foi informada de que o cancelamento seria possível, mas que uma taxa de 10% do valor total do pacote seria retida, em razão de sua política interna. Essa situação suscita a análise do artigo 49 do Código de Defesa do Consumidor (CDC), que garante o direito de arrependimento ao consumidor que compra ou contrata um serviço fora do estabelecimento comercial, como online ou por telefone. Portanto, é assegurado ao consumidor o direito de desistir da compra no prazo de sete dias, contados a partir da assinatura do contrato ou do recebimento do produto ou serviço, sem a necessidade de justificar sua decisão e sem penalidades, inclusive com direito a restituição dos valores pagos, devidamente atualizados. O direito de arrependimento é uma ferramenta essencial para garantir que o consumidor possa reconsiderar suas decisões de compra, garantindo um princípio fundamental do CDC. A alternativa A está incorreta. Embora Ângela tenha um motivo legítimo para o cancelamento, o artigo 49 do CDC estabelece que o consumidor tem o direito de desistir da compra no prazo de sete dias, contados a partir da assinatura do contrato ou do recebimento do produto ou serviço. A alternativa B está incorreta. Conforme o artigo 49 do CDC, se a desistência ocorrer dentro do prazo legal, o consumidor não deve arcar com qualquer penalidade. O direito de arrependimento é garantido sem custos adicionais, visando proteger o consumidor de decisões precipitadas. A alternativa C está incorreta. Embora Ângela não tenha exercido o direito de arrependimento dentro do prazo de cinco dias mencionado pela empresa, o CDC estabelece um prazo de sete dias para o exercício desse direito. A comunicação de desistência foi feita dentro do prazo legal, e a empresa não pode alegar que a consumidora não exerceu seu direito, pois a notificação foi realizada de forma adequada e tempestiva. A alternativa D está correta. De acordo com o artigo 49 do CDC, Ângela comunicou sua desistência dentro do prazo de sete dias, o que lhe confere o direito de cancelar a contratação sem qualquer penalidade. A legislação é clara ao assegurar que, em caso de desistência dentro desse prazo, o consumidor não deve ser penalizado, e a sociedade empresária deve proceder com o cancelamento sem a retenção do percentual informado."
+      },
+      {
+        "id": "oab_Prova-comentada-OAB-44_45",
+        "materia": "Direito do Consumidor",
+        "assunto": "Superendividamento e mínimo existencial",
+        "banca": "FGV",
+        "ano": "2024",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "Joana, aposentada, contratou diversos empréstimos ao longo dos anos para fazer frente a necessidades inesperadas, em razão de um grave problema de saúde que enfrentou, além de assumir dívidas com cartões de crédito, lojas e empréstimos consignados. Com o tempo, Joana não conseguiu mais pagar todas as parcelas, que agora superam o valor de sua aposentadoria, comprometendo suas despesas básicas, como alimentação e saúde. Buscando uma solução, Joana o(a) procurou, como advogado(a), para que você a assessorasse no caso. Com base no Código de Defesa do Consumidor, assinale a opção que apresenta seu parecer.",
+        "alternativas": {
+          "A": "Joana pode requerer judicialmente a renegociação das dívidas contraídas para consumo pessoal, mas não dos empréstimos financeiros.",
+          "B": "Joana pode requerer judicialmente a renegociação de suas dívidas, preservando o mínimo existencial, e buscar um plano de pagamento compatível com sua renda.",
+          "C": "O deferimento do pedido judicial de renegociação das dívidas dependerá de Joana provar que as obrigações foram contraídas em razão do seu grave problema de saúde.",
+          "D": "Joana é responsável por suas dívidas, inexistindo possibilidade de renegociação judicial, pois as obrigações contratuais devem ser cumpridas independentemente das dificuldades financeiras."
+        },
+        "gabarito": "B",
+        "comentario": "A alternativa correta é a letra B. A questão trata do tema superendividamento, com base nas alterações recentes do Código de Defesa do Consumidor. A alternativa A está incorreta. A nova lei do superendividamento, em seu Art. 54-A, § 2º, inclui explicitamente os empréstimos financeiros e outras operações de crédito na possibilidade de renegociação. A distinção entre dívidas de consumo e empréstimos financeiros não existe para fins de repactuação. Veja a literalidade da lei: Art. 54-A, § 2º: “As dívidas referidas no § 1º deste artigo englobam quaisquer compromissos financeiros assumidos decorrentes de relação de consumo, inclusive operações de crédito, compras a prazo e serviços de prestação continuada.” A alternativa B está correta. A legislação brasileira, por meio da Lei 14.181/2021, que alterou o CDC, criou um mecanismo judicial para que consumidores superendividados de boa-fé possam renegociar suas dívidas, apresentando um plano de pagamento que não comprometa seu mínimo existencial. Veja a literalidade da lei: Art. 54-A, § 1º: “Entende-se por superendividamento a impossibilidade manifesta de o consumidor pessoa natural, de boa-fé, pagar a totalidade de suas dívidas de consumo, exigíveis e vincendas, sem comprometer seu mínimo existencial, nos termos da regulamentação. § 2º: As dívidas referidas no § 1º deste artigo englobam quaisquer compromissos financeiros assumidos decorrentes de relação de consumo, inclusive operações de crédito, compras a prazo e serviços de prestação continuada. § 3º: O disposto neste Capítulo não se aplica ao consumidor cujas dívidas tenham sido contraídas mediante fraude ou má-fé, sejam oriundas de contratos celebrados dolosamente com o propósito de não realizar o pagamento ou decorram da aquisição ou contratação de produtos e serviços de luxo de alto valor.” e Art. 104-A: “A requerimento do consumidor superendividado pessoa natural, o juiz poderá instaurar processo de repactuação de dívidas, com vistas à realização de audiência conciliatória, presidida por ele ou por conciliador credenciado no juízo, com a presença de todos os credores de dívidas previstas no art. 54-A deste Código, na qual o consumidor apresentará proposta de plano de pagamento com prazo máximo de 5 (cinco) anos, preservados o mínimo existencial, nos termos da regulamentação, e as garantias e as formas de pagamento originalmente pactuadas.” A alternativa C está incorreta. Para renegociação, a lei exige que o consumidor seja pessoa natural, que esteja de boa-fé e que a totalidade das dívidas comprometa seu mínimo existencial. A causa das dívidas não é uma exigência legal para o deferimento do pedido. A lei, em seu Art. 54-A, § 3º, apenas traz exceções relacionadas à má-fé ou fraude. Veja a literalidade da lei: Art. 54-A, “§ 3º: O disposto neste Capítulo não se aplica ao consumidor cujas dívidas tenham sido contraídas mediante fraude ou má-fé, sejam oriundas de contratos celebrados dolosamente com o propósito de não realizar o pagamento ou decorram da aquisição ou contratação de produtos e serviços de luxo de alto valor.” A alternativa D está incorreta. A legislação do superendividamento foi criada justamente para mitigar o antigo entendimento de que a responsabilidade pelas dívidas era absoluta. A nova lei busca uma solução para consumidores que, de boa-fé, não conseguem mais cumprir suas obrigações sem comprometer sua subsistência, o que torna possível a renegociação judicial. Veja a literalidade da lei: Art. 54-A, § 1º: “Entende-se por superendividamento a impossibilidade manifesta de o consumidor pessoa natural, de boa-fé, pagar a totalidade de suas dívidas de consumo, exigíveis e vincendas, sem comprometer seu mínimo existencial, nos termos da regulamentação. § 2º: As dívidas referidas no § 1º deste artigo englobam quaisquer compromissos financeiros assumidos decorrentes de relação de consumo, inclusive operações de crédito, compras a prazo e serviços de prestação continuada.” e Art. 104-A: “A requerimento do consumidor superendividado pessoa natural, o juiz poderá instaurar processo de repactuação de dívidas, com vistas à realização de audiência conciliatória, presidida por ele ou por conciliador credenciado no juízo, com a presença de todos os credores de dívidas previstas no art. 54-A deste Código, na qual o consumidor apresentará proposta de plano de pagamento com prazo máximo de 5 (cinco) anos, preservados o mínimo existencial, nos termos da regulamentação, e as garantias e as formas de pagamento originalmente pactuadas."
+      }
+    ]
+  },
+  "Defesa Do Consumidor Em Juízo E Sanções Administrativas": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Legitimidade ativa e tutela coletiva do consumidor em juízo",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir a defesa individual do consumidor com a legitimação extraordinária de MP, Defensoria, entes públicos e associações na tutela coletiva."
+      },
+      {
+        "nome_microtema": "Competência, foro e facilitação da defesa em juízo",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Trocar o foro do domicílio do consumidor com regras gerais de competência ou esquecer que a facilitação da defesa pode repercutir na inversão do ônus da prova."
+      },
+      {
+        "nome_microtema": "Inversão do ônus da prova e distribuição dinâmica",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Tratar a inversão do ônus da prova como automática, quando depende de verossimilhança ou hipossuficiência, e confundi-la com regra absoluta de julgamento."
+      },
+      {
+        "nome_microtema": "Tutela específica, obrigação de fazer/não fazer e tutela inibitória",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Misturar tutela específica com perdas e danos, ou achar que a conversão em indenização é sempre livre e imediata."
+      },
+      {
+        "nome_microtema": "Ações coletivas: ação civil pública, ação coletiva e efeitos da coisa julgada",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Confundir os efeitos erga omnes e ultra partes, especialmente quanto aos limites territoriais e à extensão da coisa julgada nas ações coletivas."
+      },
+      {
+        "nome_microtema": "Sanções administrativas no CDC: multa, apreensão, inutilização, cassação e interdição",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Misturar sanção administrativa com sanção penal ou civil, e errar a autoridade competente ou a finalidade preventiva/punitiva da medida."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "A FGV costuma apresentar um caso concreto envolvendo fornecedor, consumidor ou órgão administrativo, exigindo identificar a medida judicial adequada, a legitimidade para agir, o foro competente, a prova e a consequência processual correta. Nas sanções administrativas, a banca explora a distinção entre poder de polícia, processo administrativo e medidas do CDC, com alternativas próximas e tecnicamente plausíveis.",
+      "palavras_gatilho": [
+        "inversão do ônus da prova",
+        "foro do domicílio do consumidor",
+        "legitimidade ativa",
+        "ação civil pública",
+        "coisa julgada coletiva",
+        "tutela específica",
+        "sanção administrativa",
+        "multa",
+        "apreensão",
+        "interdição",
+        "cassação",
+        "processo administrativo"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  }
+}

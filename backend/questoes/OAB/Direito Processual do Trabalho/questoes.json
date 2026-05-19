@@ -1,0 +1,594 @@
+{
+  "Direito Processual do Trabalho": [
+    {
+      "id": "oab_38_76",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Homologação de Acordo Extrajudicial (Art. 855-B, CLT)",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Leonardo Pereira e Panificação Pão Fresquinho Ltda decidiram, amigavelmente, encerrar a relação de emprego mantida entre eles. Porém, as verbas rescisórias não eram incontroversas, uma vez que discutiam diferenças de horas extras e reflexos; trabalho em feriados e reflexos; intervalo para alimentação e descanso; além de adicional de insalubridade. Sendo assim, após muito conversarem, chegaram a um bom termo. Contudo, para segurança jurídica de ambos, gostariam que a avença fosse chancelada pela Justiça do Trabalho. Para isso, de acordo com o texto da CLT em vigor, as partes deverão",
+      "alternativas": {
+        "A": "fazer uso do jus postulandi e ajuizar uma reclamação trabalhista do empregado em face do empregador com todos os pedidos, e, no dia designado para a audiência, deverão comparecer e celebrar o acordo.",
+        "B": "fazer uso do jus postulandi e dar entrada no processo de homologação de transação extrajudicial em petição conjunta e aguardar a homologação do juiz.",
+        "C": "estar representadas por advogados independentes que darão entrada em petição conjunta do processo de homologação de transação extrajudicial.",
+        "D": "estar representadas por advogado, que poderá ser comum a ambas, e darão entrada em petição conjunta do processo de homologação de transação extrajudicial."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa C está correta. O art. 855-B, caput e §1°, da CLT exige que as partes sejam representadas por advogados distintos (independentes) e a petição seja conjunta."
+    },
+    {
+      "id": "oab_38_77",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Recurso Ordinário em Dissídio Coletivo",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Depois de fracassar a tentativa pacífica de negociação para realizar uma convenção coletiva de âmbito municipal, o sindicato dos empregados ajuizou dissídio coletivo que, depois de regularmente processado nos moldes da Lei, recebeu sua sentença normativa. Ocorre que o sindicato dos empregadores não concorda com algumas das cláusulas fixadas, e pretende recorrer da decisão. Diante da situação retratada e dos termos da CLT, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Caberá recurso ordinário para o TST.",
+        "B": "Por se tratar de sentença normativa, é irrecorrível.",
+        "C": "Caberá recurso de revista para o TST.",
+        "D": "Caberá recurso ordinário para o TRT."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa A está correta. O art. 895, II, da CLT prevê o recurso ordinário para o TST das decisões definitivas dos TRTs em dissídios coletivos."
+    },
+    {
+      "id": "oab_38_78",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Litigância de Má-Fé (arts. 793-B e 793-C, CLT)",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Você advoga para um ex-empregado, em sede de reclamação trabalhista em face de uma sociedade empresária, e também em face dos sócios desta. O curso processual vem sendo bastante conturbado. A parte ré deduziu fatos manifesta e notoriamente inverídicos em juízo; ela vem utilizando meios e modos de retardar o desfecho processual, arrolando testemunhas que não são localizadas, requerendo a substituição de testemunhas e provocando adiamentos desnecessários de audiências, no intuito de suscitar eventual futura nulidade. Seu cliente perguntou se as condutas poderiam ensejar o requerimento e consequente condenação em litigância de má-fé, em razão de considerar que tais condutas representam procedimento contrário à boa ordem processual. Nesse sentido, de acordo com o texto da CLT, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Não é vedado a parte promover incidentes processuais sem fundamento, com intuito de retardar o andamento processual, já que o amplo direito de defesa é assegurado constitucionalmente.",
+        "B": "Os valores da multa de litigância de má-fé sempre incidem sobre o valor da causa, ainda que irrisório o valor, pois existem as demais reparações previstas na lei.",
+        "C": "Não constitui conduta passível de litigância de má-fé a parte formular alegações em sede de contestação contrárias a texto expresso de lei, pois cabe ao juiz rechaçar a alegação.",
+        "D": "As condutas ensejam litigância de má-fé e têm previsão legal, sendo passíveis de multa superior a 1% e inferior a 10% sobre o valor corrigido da causa, entre outras penalidades."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa D está correta. As condutas narradas configuram litigância de má-fé (art. 793-B, I, V, VI, CLT). A multa é de 1% a 10% sobre o valor corrigido da causa (art. 793-C, CLT)."
+    },
+    {
+      "id": "oab_38_79",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Cálculos de Liquidação - Preclusão (Art. 879, §2°, CLT)",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Tomás teve o pedido de sua reclamação trabalhista julgado procedente em parte. Com o trânsito em julgado, adveio a fase executória e o juiz lhe conferiu prazo para apresentar os cálculos atualizados, o que foi feito. Desse cálculo, a executada foi intimada a se manifestar, mas quedou-se inerte. Em seguida, após ratificação pelo calculista da Vara, o juiz homologou o cálculo de Tomás e citou o executado para pagamento. O executado apresentou guia de depósito do valor homologado e, 5 dias após, ajuizou embargos à execução, questionando os cálculos homologados, entendendo que estavam majorados. Diante da situação retratada e da previsão da CLT, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Os embargos não serão apreciados porque intempestivos, já que o prazo é de 3 dias úteis.",
+        "B": "Cabíveis embargos à execução no prazo de até 5 dias úteis após a garantia do juízo, daí, o mérito dele será apreciado.",
+        "C": "Há preclusão porque a empresa silenciou acerca dos cálculos, logo o mérito dos embargos não será apreciado.",
+        "D": "Os embargos são tempestivos, não há preclusão mas faltou realizar o preparo com acréscimo de 30%, daí o mérito não será apreciado."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa C está correta. O art. 879, §2°, da CLT estabelece que, aberto prazo comum para impugnação dos cálculos, o silêncio importa em preclusão. Assim, não se pode mais discutir os cálculos em sede de embargos à execução."
+    },
+    {
+      "id": "oab_38_80",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Ausência do Reclamante na Audiência Adiada",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Pedro Arnaldo ajuizou reclamação trabalhista em face da ex-empregadora. No dia da audiência, rejeitada a possibilidade de acordo, o feito foi contestado. A parte ré, porém, requereu o adiamento em razão da ausência de uma testemunha, que estava intimada regularmente. Na audiência seguinte Pedro Arnaldo, sem qualquer justificativa, não compareceu. Diante disso, nos termos da CLT e do entendimento jurisprudencial consolidado do TST, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A ausência do reclamante, quando adiada a instrução após contestada a ação em audiência, não importa arquivamento do processo.",
+        "B": "A ausência do reclamante importará no arquivamento do feito na hipótese.",
+        "C": "O feito deverá ser novamente adiado para o comparecimento do reclamante, que não deu causa ao adiamento anterior.",
+        "D": "Ausente o interesse de agir, o feito deverá ser extinto sem resolução do mérito."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa A está correta. A Súmula 9 do TST estabelece que a ausência do reclamante, quando a instrução foi adiada após a contestação em audiência, não importa em arquivamento do processo."
+    },
+    {
+      "id": "oab_39_76",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Poder diretivo do juiz na ordem de produção de provas (Art. 765 da CLT)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 765 da CLT.",
+      "enunciado": "Em uma reclamação trabalhista na qual o reclamante postula apenas o pagamento das verbas devidas pela extinção do contrato, a sociedade empresária alegou em sua defesa que nada seria devido porque o ex-empregado praticou uma falta grave e, por isso, foi dispensado por justa causa. Na audiência de instrução, cada parte conduziu duas testemunhas e, após ouvir os depoimentos pessoais, e considerando a tese da contestação, o juiz decidiu ouvir primeiramente as testemunhas do reclamado e após as do reclamante. Diante dos fatos e da previsão contida na CLT, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Errou o juiz, pois de acordo com a CLT as testemunhas do reclamante devem ser ouvidas antes daquelas conduzidas pelo reclamado, haja vista o direito de defesa.",
+        "B": "Uma vez que a CLT não dispõe sobre a ordem de produção das provas, fica a critério do magistrado a definição, inclusive a ordem de produção da prova oral e a quantidade de testemunhas admitidas.",
+        "C": "O juiz tem o poder de alterar a ordem de realização das provas, inclusive a oitiva das testemunhas, tendo em vista as alegações das partes e adequando-as às necessidades do conflito.",
+        "D": "A forma realizada pelo magistrado nulificou a produção das provas e a sentença, que poderá ser anulada para que a instrução seja refeita com renovação das provas na ordem correta."
+      },
+      "gabarito": "C",
+      "comentario": "O art. 765 da CLT confere aos juízos e tribunais do trabalho ampla liberdade na direção do processo, podendo determinar qualquer diligência necessária ao esclarecimento das causas. O juiz pode alterar a ordem de produção das provas para melhor elucidar os fatos. A quantidade de testemunhas é regulada pela CLT (art. 852-H para rito sumaríssimo, art. 821 para ordinário), não sendo discricionária. No caso, a alteração da ordem não invalida o ato."
+    },
+    {
+      "id": "oab_39_77",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Recurso Adesivo - Desistência do Recurso Principal (Art. 997, §2º, III do CPC c/c Súmula 283 do TST)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 997, §2º, III do CPC; Súmula 283 do TST.",
+      "enunciado": "De uma sentença trabalhista, que julgou o pedido procedente em parte, somente o reclamante recorreu. No prazo de 8 dias da intimação acerca do recurso, a sociedade empresária apresentou contrarrazões ao recurso ordinário e recurso ordinário adesivo. Do recurso adesivo, o juiz concedeu vista ao reclamante, que se manifestou desistindo do recurso principal. Diante do caso retratado e dos termos da legislação em vigor, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Não existe previsão de recurso adesivo na CLT e, por isso, ele não pode ser interposto na Justiça do Trabalho.",
+        "B": "O recurso adesivo pode ser manejado na seara trabalhista, e, com a desistência do recurso principal, o adesivo será admitido e apreciado pelo TRT.",
+        "C": "O recurso adesivo, com a desistência do recurso principal, não poderá ser conhecido, ocorrendo assim o trânsito em julgado da sentença.",
+        "D": "A desistência do recurso principal dependerá de concordância da parte contrária, porque isso pode gerar consequência ao recurso adesivo."
+      },
+      "gabarito": "C",
+      "comentario": "A Súmula 283 do TST admite o recurso adesivo no processo do trabalho. Contudo, o art. 997, §2º, III do CPC (aplicado subsidiariamente) estabelece que o recurso adesivo não será conhecido se houver desistência do recurso principal. Com a desistência do recurso principal do reclamante, o recurso adesivo da ré não é conhecido, e a sentença transita em julgado."
+    },
+    {
+      "id": "oab_39_78",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Embargos à Execução pela Fazenda Pública - Desnecessidade de Garantia do Juízo",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 884 da CLT; Art. 1º-B da Lei 9.494/97.",
+      "enunciado": "O Município de Sete Lagoas/MG foi condenado de forma subsidiária numa reclamação trabalhista envolvendo terceirização. Sendo infrutífera a execução contra o prestador dos serviços, a execução foi direcionada em desfavor do Município, que pretende ajuizar embargos à execução questionando os cálculos. Sobre o caso, de acordo com a Lei de Regência, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Será obrigatório garantir o juízo, porque não há privilégios na Justiça do Trabalho.",
+        "B": "É desnecessária a garantia do juízo diante da natureza jurídica do executado.",
+        "C": "Para serem admitidos os embargos, o Município deverá depositar metade do valor exequendo.",
+        "D": "O juízo precisa ser garantido com seguro fiança judicial para não abalar as finanças do ente público."
+      },
+      "gabarito": "B",
+      "comentario": "A Fazenda Pública (Município) não precisa garantir o juízo para interpor embargos à execução, pois seus bens são impenhoráveis (art. 100 da CF). O prazo para embargos da Fazenda é de 30 dias (art. 1º-B da Lei 9.494/97, que alterou o prazo do art. 884 da CLT). A garantia do juízo (depósito, fiança, seguro) é exigida para particulares, não para a Fazenda Pública."
+    },
+    {
+      "id": "oab_39_79",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Intérprete para testemunha estrangeira (Art. 819 da CLT)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 819 da CLT; Art. 98, §1º, VI do CPC.",
+      "enunciado": "John estava empregado em uma sociedade empresária de óleo e gás, mas foi injustamente dispensado por justa causa, com base em uma falsa acusação de consumo de álcool a bordo da plataforma, no dia 20/03/2023. Você, como advogado de John, ajuizou reclamação trabalhista e a única testemunha do seu cliente não fala ou entende português, apenas inglês. Você a arrolou como testemunha, e já requereu e obteve o benefício da gratuidade de justiça. Sobre seu requerimento para a produção da prova, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Você deverá requerer ao juiz um intérprete, que será custeado pela ré, se sucumbente no objeto da prova, ou pela União, se você for a parte sucumbente.",
+        "B": "Deverá ser requerido ao juiz um intérprete, que independentemente da gratuidade de justiça, deverá ser custeado pela parte a quem o depoimento interessar.",
+        "C": "Considerando que seu cliente fala inglês, ele poderá servir de intérprete pelo princípio da economia processual.",
+        "D": "A gratuidade de justiça não alcança o intérprete, sendo apenas para custas e perícias judiciais, logo a parte autora deverá custear a despesa processual."
+      },
+      "gabarito": "A",
+      "comentario": "O art. 819 da CLT determina que o depoimento de testemunha que não falar a língua nacional será feito por meio de intérprete nomeado pelo juiz. O §2º do mesmo artigo estabelece que as despesas correrão por conta da parte sucumbente, salvo se beneficiária de justiça gratuita. O art. 98, §1º, VI do CPC inclui o intérprete na gratuidade da justiça. Sendo John beneficiário da justiça gratuita, as despesas do intérprete não correm por sua conta, mas serão custeadas pela parte sucumbente (a ré, se perder) ou pela União (se o beneficiário for sucumbente)."
+    },
+    {
+      "id": "oab_39_80",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Mandado de Segurança contra ato de fiscalização do trabalho (Art. 114, IV e VII da CF)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 114, IV e VII da CF; Art. 20 da Lei 12.016/09.",
+      "enunciado": "Determinada sociedade empresária, sua cliente, recebeu a visita de fiscais do trabalho, os quais apontaram haver irregularidades quanto às condições de trabalho de alguns empregados, bem como entenderam irregular, no dia, estarem nas dependências da empresa pessoas prestadoras de serviço por intermédio de MEI - Micro Empreendedor Individual. Diante disso, foram lavrados dois autos de infração aplicando multas severas, sendo concedido prazo de 30 dias para pagamento, sob pena de fechamento do estabelecimento. Não foi facultado à sua cliente nenhum direito à ampla defesa, sendo certo que, de fato, nada foi verificado pelos fiscais. A sociedade empresária tem a documentação de todas as condições de trabalho e alega que os prestadores de serviço são autônomos. Assinale a opção que indica a medida juridicamente cabível que melhor atenda, com urgência, aos interesses da sua cliente de sustar os autos de infração.",
+      "alternativas": {
+        "A": "Mandado de Segurança na Justiça do Trabalho.",
+        "B": "Agravo de Petição na Justiça do Trabalho.",
+        "C": "Mandado de Segurança na Justiça Federal.",
+        "D": "Agravo de Instrumento na Justiça do Trabalho."
+      },
+      "gabarito": "A",
+      "comentario": "O art. 114, IV e VII da CF confere competência à Justiça do Trabalho para julgar mandados de segurança quando o ato questionado envolver matéria sujeita à sua jurisdição, e para julgar ações relativas a penalidades administrativas impostas pelos órgãos de fiscalização das relações de trabalho. O mandado de segurança é o remédio constitucional adequado para impugnar ato ilegal com violação a direito líquido e certo, e tem prioridade de tramitação (art. 20 da Lei 12.016/09), atendendo à urgência."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_76",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Custas processuais em acordo trabalhista",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em sede de reclamação trabalhista na qual você advoga para a empregado, foi celebrado acordo entre as partes ainda na fase de conhecimento, antes da prolação da sentença. Na petição de lavra conjunta entre os advogados das partes nada constou acerca das custas processuais. Seu cliente é beneficiário da gratuidade de justiça, conforme decisão constante do processo desde o início. Sobre as custas processuais, considerando o silêncio das partes e havendo acordo, segundo o texto da CLT, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "As custas deverão incidir em 2% sobre o valor do acordo e serão divididas em frações iguais pelas partes, sendo que, no caso de seu cliente, não haverá o pagamento por força da gratuidade de justiça.",
+        "B": "As custas deverão incidir em 10% sobre o valor do acordo e serão integralmente recolhidas pela parte ré.",
+        "C": "As custas deverão incidir em 2% sobre o valor do acordo e ficarão integralmente sob responsabilidade da parte autora que, na hipótese, está dispensada do recolhimento por força da gratuidade de justiça.",
+        "D": "As custas deverão incidir em 5% sobre o valor da causa, já que não houve prolação de sentença, e serão rateadas igualmente pelas partes, dispensado o autor do recolhimento pela gratuidade de justiça."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do tema reclamação trabalhista, mais precisamente sobre as custas processuais. De acordo com art. 789, caput, da CLT, as custas relativas ao processo de conhecimento incidirão à base de 2% (dois por cento). Como houve celebração de acordo, as custas deverão ser divididas em partes iguais aos litigantes, conforme determina art. 789, § 3º, da CLT. No entanto, no caso narrado pelo enunciado, como a parte é beneficiária da justiça gratuita, ficará isenta do pagamento das custas, conforme art. 790-A da CLT. Desta feita, a alternativa A está correta: as custas deverão incidir em 2% sobre o valor do acordo e serão divididas em frações iguais pelas partes, mas não haverá o pagamento pela parte beneficiária da gratuidade de justiça. Tomando por base os mesmos dispositivos legais acima transcritos, as alternativas B, C e D, ficam, pois, automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_77",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Impugnação à sentença de liquidação",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Você advoga para o empregado, credor em uma reclamação trabalhista cuja decisão transitou em julgado. A liquidação de sentença foi promovida e, após manifestações das partes, foi homologado o cálculo da parte ré. Você continua entendendo que há erro nos cálculos homologados e pretende continuar a discutir a matéria. Diante disso, assinale a opção que apresenta a medida a ser adotada no interesse do seu cliente.",
+      "alternativas": {
+        "A": "Deverá ser apresentado embargos à execução no prazo de cinco dias independentemente da garantia da execução ou da penhora.",
+        "B": "Não cabe qualquer medida, uma vez que se operou a preclusão, pois já houve manifestação sobre a conta de liquidação.",
+        "C": "Na sua manifestação, a ser feita em dez dias após a garantia de juízo, não há restrição de matéria, podendo ser discutido não só os cálculos, mas também a sentença de conhecimento.",
+        "D": "Após a garantia da execução ou penhorados os bens, você poderá apresentar impugnação à sentença de liquidação em cinco dias."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata do tema execução em processo do trabalho. De acordo com art. 884 da CLT, garantida a execução ou penhorados os bens, a medida cabível para questionar será embargos à execução, no caso do executado, e impugnação à sentença de liquidação, no caso do exequente. Vejamos: “Art. 884 - Garantida a execução ou penhorados os bens, terá o executado 5 (cinco) dias para apresentar embargos, cabendo igual prazo ao exequente para impugnação.” Como na situação narrada pelo enunciado, advoga-se para o exequente, a medida cabível será, portanto, impugnação à sentença de liquidação, a ser interposta no prazo de cinco dias. Logo, a alternativa D está correta. Analisemos as inconsistências das demais alternativas. A alternativa A está incorreta. De acordo com art. 884 da CLT, acima transcrito, os embargos à execução serão propostos pelo executado, e não pelo exequente. A alternativa B está incorreta. De acordo com art. 884 da CLT, acima transcrito, há o prazo de 5 dias para impugnar, não havendo de se falar em preclusão. A alternativa C está incorreta. De acordo com art. 884 da CLT, acima transcrito, o prazo será de 5 dias, e não de 10 dias."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_78",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Exceção de incompetência territorial",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Jeferson trabalhou em São Paulo de 2018 a 2023, quando foi dispensado sem justa causa e voltou para sua cidade de origem, Fortaleza/CE. Entendendo ter realizado sobrejornada sem receber, Jeferson contratou um advogado na sua cidade que ajuizou reclamação trabalhista distribuída a uma das Varas de Fortaleza/CE requerendo o pagamento de horas extras. A ex-empregadora foi citada para a audiência, que ocorrerá em quatro meses, mas pretende deslocar o feito para São Paulo, pois foi o único local da prestação de serviços e onde o autor foi contratado. Para tanto, a ex-empregadora o(a) contratou como advogado(a). Na qualidade de advogado(a) da sociedade empresária, considerando os fatos e o que dispõe a CLT, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A sociedade empresária poderá apresentar a exceção de incompetência territorial até a audiência.",
+        "B": "A sociedade empresária deve apresentar a exceção de incompetência territorial em até dez dias corridos, contados da citação.",
+        "C": "A sociedade empresária deverá apresentar a exceção de incompetência territorial em cinco dias úteis, contados da citação.",
+        "D": "Não se poderá apresentar exceção de incompetência territorial, porque a ação pode ser ajuizada no domicílio do autor, ainda que não coincida com o local da prestação dos serviços."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata do tema reclamação trabalhista, mais precisamente sobre a exceção de incompetência territorial. De acordo com art. 800 da CLT: “Art. 800. Apresentada exceção de incompetência territorial no prazo de cinco dias a contar da notificação, antes da audiência e em peça que sinalize a existência desta exceção, seguir-se-á o procedimento estabelecido neste artigo.” Portanto, a alternativa C está correta. Analisemos as inconsistências das demais alternativas. A alternativa A está incorreta. O prazo, conforme art. 800 da CLT, acima transcrito, é de 5 dias, e não “até a audiência”. A alternativa B está incorreta. O prazo, conforme art. 800 da CLT, acima transcrito, é de 5 dias, e não de 10 dias. A alternativa D está incorreta. Neste caso, é sim possível apresentar exceção de incompetência territorial, pois a ação deve ser ajuizada no local da prestação de serviços, conforme art. 651 da CLT: “Art. 651 - A competência das Juntas de Conciliação e Julgamento é determinada pela localidade onde o empregado, reclamante ou reclamado, prestar serviços ao empregador, ainda que tenha sido contratado noutro local ou no estrangeiro.”"
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_79",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Audiência de instrução - confissão por ausência",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em determinada reclamação trabalhista, com a presença das partes e dos advogados, ocorreu a 1ª audiência apenas para a tentativa de conciliação, que não teve sucesso. Então, o juiz recebeu a defesa e deferiu as provas testemunhais e os depoimentos pessoais recíprocos, sob pena de confissão, designando a data da instrução. Chegado o dia da audiência de instrução, as partes foram apregoadas e nenhuma delas estava presente, não havendo qualquer justificativa para as ausências. Assinale a opção que indica o que deve ocorrer com esse processo.",
+      "alternativas": {
+        "A": "O juiz deverá designar nova audiência.",
+        "B": "O juiz deve aplicar a confissão somente em desfavor do autor.",
+        "C": "O magistrado julgará de acordo com a distribuição do ônus da prova.",
+        "D": "O processo será arquivado."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata do tema reclamação trabalhista, mais precisamente sobre a audiência de instrução. De acordo com a Súmula 74, I, do TST, caso a parte não compareça, a ela é aplicada a confissão. Vejamos: “Súmula 74-TST: I - Aplica-se a confissão à parte que, expressamente intimada com aquela cominação, não comparecer à audiência em prosseguimento, na qual deveria depor.” Portanto, a alternativa C está correta: se ambas as partes não compareceram e não houve justificativa para as ausências, o juiz julgará conforme a distribuição do ônus da prova. A distribuição do ônus da prova está disposta no art. 818 da CLT: “Art. 818. O ônus da prova incumbe: I - ao reclamante, quanto ao fato constitutivo de seu direito; II - ao reclamado, quanto à existência de fato impeditivo, modificativo ou extintivo do direito do reclamante.” Analisemos as inconsistências das demais alternativas. A alternativa A está incorreta. Somente há designação de nova audiência caso haja motivo relevante para a ausência, conforme art. 844, § 1º, da CLT: “§ 1º Ocorrendo motivo relevante, poderá o juiz suspender o julgamento, designando nova audiência.” A alternativa B está incorreta. De acordo com a Súmula 74, I, do TST, acima transcrita, a confissão não será aplicada somente a uma das partes. A alternativa D está incorreta. O processo somente seria arquivado se apenas o reclamante não comparecesse à audiência. De acordo com art. 844, caput, da CLT: “Art. 844 - O não-comparecimento do reclamante à audiência importa o arquivamento da reclamação, e o não-comparecimento do reclamado importa revelia, além de confissão quanto à matéria de fato.”"
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_80",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Recursos Trabalhistas - Agravo de Instrumento",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Você é advogado de um trabalhador em sede de reclamação trabalhista. Em que pese o direito de seu cliente ser constitucionalmente assegurado, pois se trata de férias não gozadas um ano após o período aquisitivo, que tampouco foram indenizadas, a sentença de primeiro grau considerou o pedido improcedente. Do mesmo modo o recurso pertinente contra essa decisão também teve o provimento negado. Diante disso, considerando a decisão contrária ao dispositivo constitucional, você interpôs o recurso cabível, que não foi admitido sob a alegação de que não preenchia os pressupostos para tanto. Diante disso, assinale a afirmativa que apresenta, corretamente, a medida a ser adotada no interesse do seu cliente, sendo certo que as decisões não contêm nenhum vício de dúvida, omissão, obscuridade ou contradição.",
+      "alternativas": {
+        "A": "Recurso de Revista.",
+        "B": "Agravo de Instrumento.",
+        "C": "Recurso Extraordinário.",
+        "D": "Agravo de Petição."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata do tema recursos em processo do trabalho. Observe que, no caso narrado, o recurso cabível contra a decisão de primeiro grau é o recurso ordinário, o qual teve provimento negado. Contra tal negatória, foi interposto novo recurso, desta vez, cabível o recurso de revista, o qual não foi admitido sob a alegação de que não preenchia os pressupostos de admissibilidade. O recurso cabível contra a denegação da interposição de recursos é o agravo de instrumento, conforme art. 897, alínea ‘b’, da CLT. Vejamos: “Art. 897 - Cabe agravo, no prazo de 8 (oito) dias: b) de instrumento, dos despachos que denegarem a interposição de recursos.” Portanto, a alternativa B está correta. Analisemos as inconsistências das demais alternativas. A alternativa A está incorreta. O recurso de revista é cabível contra decisões proferidas em grau de recurso ordinário, conforme art. 896 da CLT: “Art. 896 - Cabe Recurso de Revista para Turma do Tribunal Superior do Trabalho das decisões proferidas em grau de recurso ordinário, em dissídio individual, pelos Tribunais Regionais do Trabalho, quando: (...)” A alternativa C está incorreta. O recurso extraordinário é cabível nos casos dispostos no art. 102, III, da CF: “Art. 102. Compete ao Supremo Tribunal Federal, precipuamente, a guarda da Constituição, cabendo-lhe: III - julgar, mediante recurso extraordinário, as causas decididas em única ou última instância, quando a decisão recorrida: a) contrariar dispositivo desta Constituição; b) declarar a inconstitucionalidade de tratado ou lei federal; c) julgar válida lei ou ato de governo local contestado em face desta Constituição. d) julgar válida lei local contestada em face de lei federal.” A alternativa D está incorreta. O agravo de petição é cabível em processo de execução trabalhista. De acordo com art. 897, alínea ‘a’, da CLT: “Art. 897 - Cabe agravo, no prazo de 8 (oito) dias: a) de petição, das decisões do Juiz ou Presidente, nas execuções;”"
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_76",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Execução provisória na Justiça do Trabalho",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em determinada reclamação trabalhista, o recurso ordinário interposto pela ex-empregadora encontra-se pendente de julgamento e alcança todo o objeto da condenação. Para agilizar o procedimento, o reclamante iniciou a execução provisória do julgado, apresentando os cálculos de liquidação pertinentes, que foram submetidos à análise do adversário, da contadoria do juízo e, depois, homologados por serem reputados corretos. O juiz concedeu 48 horas para que a sociedade empresária depositasse a quantia nos autos, o que foi cumprido. Logo depois o exequente peticionou a liberação do valor homologado a seu favor. Diante desses fatos e do disposto na CLT, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Inviável a pretensão, porque a execução provisória fica limitada ao bloqueio ou à penhora.",
+        "B": "É possível a liberação, desde que o trabalhador assine um termo de compromisso garantindo que devolverá a quantia caso a decisão seja revertida pelo Tribunal.",
+        "C": "Tendo o crédito trabalhista natureza alimentar, o juiz poderá liberar o valor sem qualquer condição.",
+        "D": "Na Justiça do Trabalho, como regra, os recursos têm efeito suspensivo, de modo que não é possível a execução provisória, havendo evidente falha do juiz."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do tema execução trabalhista. A alternativa A está correta. Conforme art. 899, caput, da CLT: “Art. 899 - Os recursos serão interpostos por simples petição e terão efeito meramente devolutivo, salvo as exceções previstas neste Título, permitida a execução provisória até a penhora.” As alternativas B e C estão incorretas. Não há tais disposições na CLT. A alternativa D está incorreta. Conforme art. 899 da CLT, acima colacionado, os recursos, em processo do trabalho, terão, em regra, efeito meramente devolutivo."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_77",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Audiências na Justiça do Trabalho",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Pedro é advogado e sua audiência está marcada para as 17 horas, mas ele está preocupado, porque já são 16h30, sua audiência não foi apregoada e ele viu, pela pauta, que ainda há três processos complexos de instrução para serem apreciados pelo magistrado que são anteriores ao seu, sendo certo que o início da pauta de audiências se deu às 14 horas. Considerando os fatos narrados e o que dispõe a CLT, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A audiência de Pedro ocorrerá independentemente do horário em que as anteriores terminarem.",
+        "B": "Cada juiz determina o horário de término de suas audiências.",
+        "C": "As audiências devem ocorrer até as 18 horas, salvo situação urgente.",
+        "D": "As audiências devem ser paralisadas às 17h30."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata do tema audiências em processo do trabalho. Conforme art. 813 da CLT: “Art. 813 - As audiências dos órgãos da Justiça do Trabalho serão públicas e realizar-se-ão na sede do Juízo ou Tribunal em dias úteis previamente fixados, entre 8 (oito) e 18 (dezoito) horas, não podendo ultrapassar 5 (cinco) horas seguidas, salvo quando houver matéria urgente.” Portanto, no caso narrado pelo enunciado, as audiências deverão ocorrer até as 18h, salvo situação urgente. Logo, a alternativa C está correta. Ressalte-se que, se até 30 minutos após a hora marcada, a audiência, injustificadamente, não tiver sido iniciada, as partes e os advogados poderão retirar-se e a audiência será remarcada para a data mais próxima possível. É o que determinam §§ 2º e 3º do art. 815 da CLT. Vejamos: “§ 2º Se, até 30 (trinta) minutos após a hora marcada, a audiência, injustificadamente, não houver sido iniciada, as partes e os advogados poderão retirar-se, consignando seus nomes, devendo o ocorrido constar do livro de registro das audiências. § 3º Na hipótese do § 2º deste artigo, a audiência deverá ser remarcada pelo juiz ou presidente para a data mais próxima possível, vedada a aplicação de qualquer penalidade às partes.” Assim sendo, as alternativas A, B e D ficam automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_78",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Erro material nos cálculos de liquidação e honorários advocatícios",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Tereza ajuizou reclamação trabalhista contra o seu ex-empregador, que foi julgada totalmente procedente, com a concessão de 10% de honorários advocatícios sucumbenciais. Transitado em julgado sem interposição de recurso, o juiz determinou que o calculista da Vara calculasse o valor da dívida. As partes verificaram as contas elaboradas, sem haver discordância. Ocorre que, dez dias depois, sem que o executado ainda tivesse sido citado para pagar a dívida, você, como advogado(a) de Tereza, revisitou os cálculos de liquidação da Contadoria e notou que, por falha involuntária, os honorários advocatícios sucumbenciais não haviam sido incluídos na conta, e que o prazo para impugnação da sentença de liquidação já havia transcorrido. Sobre os honorários advocatícios, considerando os fatos narrados e o que dispõe a CLT, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O advogado de Tereza perdeu o direito aos honorários.",
+        "B": "O causídico ainda poderá perseguir os honorários, mas deverá fazê-lo em ação própria.",
+        "C": "Os honorários poderão ser incluídos na conta, se houver concordância expressa do executado.",
+        "D": "Os honorários, por se tratar de erro material de cálculo, poderão ser incluídos na conta, mesmo após o prazo para impugnação."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata do tema execução. A alternativa D está correta. A fixação dos honorários em 10% foi corretamente realizada, na forma do art. 791-A da CLT. Vejamos: “Art. 791-A. Ao advogado, ainda que atue em causa própria, serão devidos honorários de sucumbência, fixados entre o mínimo de 5% (cinco por cento) e o máximo de 15% (quinze por cento) sobre o valor que resultar da liquidação da sentença, do proveito econômico obtido ou, não sendo possível mensurá-lo, sobre o valor atualizado da causa.” Dito isso, observe que, na situação narrada, houve apenas um erro material de cálculo. Neste caso, o CPC indica que o juiz poderá, sim, realizar alterações. Vejamos o que diz o artigo 494, I, do CPC: “Art. 494. Publicada a sentença, o juiz só poderá alterá-la: I - para corrigir-lhe, de ofício ou a requerimento da parte, inexatidões materiais ou erros de cálculo;” No mesmo sentido, é a jurisprudência dos Tribunais. Vejamos Agravo de Instrumento julgado pelo TJ-SP: “AGRAVO DE INSTRUMENTO - CUMPRIMENTO DE SENTENÇA INDIVIDUAL EM AÇÃO COLETIVA - OBRIGAÇÃO DE PAGAR - HOMOLOGAÇÃO DO VALOR OFERTADO - POSTERIOR ALEGAÇÃO DE ERRO MATERIAL NOS CÁLCULOS APRESENTADOS - Decisão que rejeitou a alegação de erro material na memória de cálculo pelo exequente - Reforma - Erro material caracterizado - Cálculo apresentado sem correção monetária, juros de mora etc. - Erro de fácil constatação - Renovação do prazo para impugnação - Respeito ao contraditório - Prejudicado o pedido de fixação de honorários advocatícios - Precedentes - Decisão reformada, em parte. - Recurso parcialmente provido. (Tribunal de Justiça de São Paulo TJ-SP - Agravo de Instrumento: XXXXX-27.2022.8.26.0000).” As alternativas A, B e C ficam automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_79",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Recursos - Agravo de Petição",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em sede de reclamação trabalhista, a decisão deferindo horas extras para o autor transitou em julgado. Após a liquidação de sentença e fixado o débito em R$ 10.000,00, a sociedade empresária que é ré foi intimada a pagar. Ocorre que, você, advogado(a) da sociedade empresária ré, entendeu que os valores estavam incorretos. Seu cliente teve um veículo penhorado para garantir a execução. Você apresentou embargos à execução tempestivamente, contestados pela parte contrária. O juiz julgou improcedente sua alegação e manteve o valor. Seu cliente lhe perguntou se haveria mais alguma medida para discutir o valor. Admitindo que você foi notificado da decisão na data de ontem e que ela não contém nenhum vício processual formal, assinale a opção que indica o recurso cabível.",
+      "alternativas": {
+        "A": "Agravo de Instrumento.",
+        "B": "Agravo de Petição.",
+        "C": "Ordinário.",
+        "D": "Recurso de Revista."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata do tema recursos em processo do trabalho. O recurso cabível contra a decisão que julga os embargos à execução é o agravo de petição, conforme art. 897, alínea “a”, da CLT. Vejamos: “Art. 897 - Cabe agravo, no prazo de 8 (oito) dias: a) de petição, das decisões do Juiz ou Presidente, nas execuções;”. Portanto, a alternativa B está correta. As alternativas A, C e D ficam, pois, automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_80",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Recursos em processo do trabalho - Recurso Ordinário",
+      "banca": "FGV",
+      "ano": 2024,
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Pietro está sendo executado na Justiça do Trabalho e, em seu processo, o juiz acionou todas as ferramentas tecnológicas disponíveis para tentar apreender dinheiro ou bens, mas não teve sucesso. Como última e radical tentativa de coerção, o exequente requereu a suspensão do passaporte de Pietro, o que foi deferido pelo magistrado e cumprido. Inconformado, Pietro o contratou como advogado(a) e você impetrou habeas corpus para garantir o direito de locomoção do seu cliente, comprovando que ele adquiriu passagem aérea para uma viagem ao exterior, mas que estava impossibilitado de deixar o território nacional. Em decisão colegiada, o TRT negou, no mérito, o salvo conduto a Pietro, e, em razão disso, você pretende recorrer da decisão. Assinale a opção que indica a medida judicial correta que você deverá apresentar e para que órgão.",
+      "alternativas": {
+        "A": "Recurso Ordinário para o TST.",
+        "B": "Agravo de Petição para o STJ.",
+        "C": "Recurso de Revista para o TST.",
+        "D": "Agravo de Instrumento para o TRT da Região."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do tema recursos em processo do trabalho. Observe que, no caso narrado, houve a impetração de habeas corpus no TRT, posto que esta é uma ação originária do tribunal. De acordo com a doutrina: “Logo, nas hipóteses de competência originária, perante o acordão proferido pelo TRT, caberá Recurso Ordinário, sendo que a propositura de Recurso de Revista considera-se erro grosseiro, conforme OJ n° 152 da SDI-II/TST.” (FERREIRA, Priscila. Direito Processual do Trabalho para a 1ª Fase do Exame de Ordem (OAB) - Exame 41. Estratégia OAB, 2024; Cap. 21.2 - Livro Digital Interativo). Portanto, havendo uma ação originária de TRT, o recurso cabível será o Recurso Ordinário para o TST, conforme art. 895, II, da CLT: “Art. 895 - Cabe recurso ordinário para a instância superior: (...) II - das decisões definitivas ou terminativas dos Tribunais Regionais, em processos de sua competência originária, no prazo de 8 (oito) dias, quer nos dissídios individuais, quer nos dissídios coletivos.” Logo, a alternativa A está correta. As alternativas B, C e D ficam, pois, automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_76",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Recurso adesivo no processo do trabalho",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em sede de reclamação trabalhista você advoga para a parte autora. Dos três pedidos formulados, você sagrou-se vitorioso em dois, horas extras e equiparação salarial, sucumbindo apenas no pedido de integração da habitação. Atendendo a um desejo de seu cliente, optou-se por não recorrer, tendo o prazo recursal transcorrido integralmente. A ré, por sua vez e no seu prazo, apresentou recurso pertinente e, agora, o processo encontra-se com prazo para você contrarrazoar o recurso da ré. Ocorre que seu cliente mudou de opinião, já que o processo irá se alongar por conta do recurso da ré. Diante disso, indagou-lhe se caberia alguma medida processual para que fosse reexaminada a questão relativa à integração da habitação. Com base no enunciado e no entendimento consolidado do TST, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Caberá recurso adesivo.",
+        "B": "Caberá recurso ordinário.",
+        "C": "Caberá agravo de instrumento.",
+        "D": "Não há medida a ser adotada, transitando em julgado a decisão do pedido de integração da habitação."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do tema recursos em processo do trabalho. Como o enunciado fala que o prazo recursal transcorreu integralmente para a parte autora, o único recurso cabível será o recurso adesivo, disposto no art. 997, § 2º, do CPC. Vejamos: “§ 2º O recurso adesivo fica subordinado ao recurso independente, sendo-lhe aplicáveis as mesmas regras deste quanto aos requisitos de admissibilidade e julgamento no tribunal, salvo disposição legal diversa, observado, ainda, o seguinte:” Mencione-se que o recurso adesivo, embora não previsto na CLT, é sim admissível em processo do trabalho, conforme enunciado da Súmula 283 do TST: “O recurso adesivo é compatível com o processo do trabalho e cabe, no prazo de 8 (oito) dias, nas hipóteses de interposição de recurso ordinário, de agravo de petição, de revista e de embargos, sendo desnecessário que a matéria nele veiculada esteja relacionada com a do recurso interposto pela parte contrária.” Portanto, a alternativa correta é a letra A. As alternativas B, C e D ficam, pois, automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_77",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Honorários periciais e de assistentes técnicos",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em uma reclamação trabalhista requerendo a responsabilidade civil do empregador em razão de uma alegada doença profissional, o Juiz deferiu a realização de perícia, sendo que ambas as partes quesitaram e indicaram assistentes técnicos. No laudo, foi detectado que realmente houve a doença ocupacional. Com base nele, o Juiz julgou procedente o pedido. Sobre os honorários do perito e dos assistentes, considerando o entendimento consolidado do TST, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A empresa deverá arcar com os honorários do perito e do assistente técnico do autor.",
+        "B": "A Justiça arcará com os honorários do perito, e cada parte será responsável pelos honorários do seu assistente técnico.",
+        "C": "Cada parte arcará com metade do valor dos honorários do perito e integralmente com os honorários de seu assistente técnico.",
+        "D": "O réu será condenado a pagar os honorários do perito, porque sucumbiu no objeto da prova, e arcará com os honorários do assistente técnico por ele indicado."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata do tema custas e emolumentos em processo do trabalho, mais especificamente sobre os honorários do perito e dos assistentes. Quanto aos honorários, o art. 790-B determina que “a responsabilidade pelo pagamento dos honorários periciais é da parte sucumbente na pretensão objeto da perícia”. Já em relação aos honorários do assistente técnico, o artigo 95 do CPC, determina que “cada parte adiantará a remuneração do assistente técnico que houver indicado”. Portanto, no caso narrado pelo enunciado, o réu será condenado a pagar os honorários do perito, porque sucumbiu no objeto da prova, e arcará com os honorários do assistente técnico por ele indicado. Logo, a alternativa D está correta. As alternativas A, B e C ficam, pois, automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_78",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Homologação de acordo extrajudicial",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Foi protocolizada petição de homologação de acordo extrajudicial à 200ª Vara do Trabalho de Florianópolis. As partes envolvidas são Luísa, empregada doméstica, e José Pedro, seu ex-empregador. O valor apresentado para o acordo é de R$ 27.000,00 (vinte e sete mil reais), pagos em duas parcelas iguais e sucessivas, sendo mantidas as anotações na CTPS de Luísa. Empregada e empregador estão representados pelo mesmo advogado. Sobre esses fatos, segundo os termos da CLT, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Não é possível a homologação, porque as partes não podem ser representadas pelo mesmo advogado.",
+        "B": "Na homologação de acordo extrajudicial, os empregados precisam ser assistidos pelo advogado do seu sindicato de classe.",
+        "C": "Contanto que ambas as partes ratifiquem perante o Juiz o desejo de realizar a transação, o acordo deve ser homologado pelo Magistrado.",
+        "D": "Tratando-se de um procedimento especial de jurisdição voluntária, o Juiz não pode negar a homologação de acordo alegando vício formal."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do tema homologação de acordo extrajudicial em processo do trabalho. Conforme determina o § 1º do art. 855-B, no processo de homologação de acordo extrajudicial, o advogado das partes não poderá ser o mesmo. Vejamos: “§ 1º As partes não poderão ser representadas por advogado comum.” Portanto, no caso narrado pelo enunciado, a homologação do acordo não é possível, pois as partes foram representadas pelo mesmo advogado, indo contra o disposto pelo art. 855-B, § 1º, da CLT. Logo, a alternativa correta é a letra A. As alternativas B, C e D ficam, pois, automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_79",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Liquidação de sentença e preclusão",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em 2024, o Juiz proferiu sentença ilíquida em reclamação trabalhista, na qual você advoga para o autor, que foi julgada procedente. O feito havia sido ajuizado no final do ano de 2022. O Juízo elaborou e tornou liquida a conta, tendo aberto um prazo para as partes se manifestarem. A parte ré silenciou-se e você apresentou sua impugnação, que não foi acolhida pelo Juiz. Ato contínuo, houve decisão homologatória da sentença de liquidação. As partes foram intimadas. A ré garantiu o juízo e apresentou embargos à execução. Você apresentou impugnação de credor e contraminuta aos embargos à execução apresentados pela ré. Diante desta circunstância, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Você deverá sustentar em contraminuta aos embargos à execução que a ré apenas poderia questionar a sentença de liquidação por meio dos embargos à penhora.",
+        "B": "Tendo em vista que sua impugnação à conta do juízo foi rejeitada, a matéria atinente à sua impugnação de credor deve ser diversa, não podendo ser renovada a discussão da impugnação à conta de liquidação.",
+        "C": "Na sua contraminuta, assim como na impugnação de credor, caberá apenas discutir a matéria relativa às razões pelas quais os valores apurados estariam incorretos, não havendo o que se arguir acerca da não impugnação da ré à conta de liquidação, por ser facultativa.",
+        "D": "Está preclusa a arguição de matérias que impugnam os cálculos homologados em sede de embargos à execução da ré, uma vez que a parte não apresentou impugnação aos cálculos no momento oportuno, cabendo ao advogado do autor formular essa alegação na contraminuta aos embargos da ré."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata do tema execução em processo do trabalho, mais precisamente sobre a liquidação. De acordo com art. 879, § 1º-B, da CLT, “as partes deverão ser previamente intimadas para a apresentação do cálculo de liquidação, inclusive da contribuição previdenciária incidente”. Neste caso, após elaborada a conta e tornada líquida, o juiz abrirá prazo de 8 dias para as partes impugnarem os valores de discordância. Não sendo feita tal impugnação, fica preclusa tal matéria, ou seja, a parte não pode mais argui-la. É o que determina art. 879, § 2º, da CLT: “§ 2º Elaborada a conta e tornada líquida, o juízo deverá abrir às partes prazo comum de oito dias para impugnação fundamentada com a indicação dos itens e valores objeto da discordância, sob pena de preclusão.” Portanto, a situação hipotética narrada, a ré não poderá mais arguir os cálculos de execução, pois no momento oportuno, antes da sentença de liquidação, ela não apresentou impugnação aos cálculos. Logo, a alternativa correta é a letra D. As alternativas A, B e C ficam, pois, automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_80",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Prioridade de tramitação para idosos",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "As irmãs Alessandra, Antônia, Alba e Aline foram dispensadas de seus empregos em 2024, e cada qual contratou uma advogada de sua confiança para ajuizar reclamação trabalhista visando postular horas extras. Alessandra tem 58 anos de idade; Antônia, 65 anos de idade; Alba, 50 anos de idade; e Aline, 61 anos de idade. Considerando a norma de regência, assinale a opção que indica o(s) processo(s) que terá(ão) prioridade na tramitação.",
+      "alternativas": {
+        "A": "O de Antônia, somente.",
+        "B": "Os de Antônia e Aline, somente.",
+        "C": "Os de Alessandra e Aline, somente.",
+        "D": "Os das quatro irmãs, em condições iguais."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata do tema tramitação prioritária do processo. Conforme art. 1.048, I, do CPC: “Art. 1.048. Terão prioridade de tramitação, em qualquer juízo ou tribunal, os procedimentos judiciais: I - em que figure como parte ou interessado pessoa com idade igual ou superior a 60 (sessenta) anos ou portadora de doença grave, assim compreendida qualquer das enumeradas no art. 6º, inciso XIV, da Lei nº 7.713, de 22 de dezembro de 1988;”. No caso narrado pelo enunciado, então, terão prioridade na tramitação somente os processos de Antônia (65 anos) e Aline (61 anos), pois elas contam com mais de 60 anos, conforme art. 1.048, I, do CPC. Portanto, a alternativa correta é a letra B. As alternativas A, C e D ficam automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_76",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Execução contra a Fazenda Pública - Embargos à Execução",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em execução que tramita perante a 120ª Vara da Trabalho de Salvador, o executado é um ente público condenado de forma subsidiária em virtude de uma terceirização na qual foi. Comprovado que não houve fiscalização adequada. Contudo, o valor homo logado pelo Juízo não obteve a concordância do executado, que entende estar majorado em relação à coisa julgada formada. Considerando a dinâmica da execução prevista na norma de regência, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "É desnecessária a garantia do Juízo e o ente público terá 30 (trinta) dias para embargar.",
+        "B": "Caberá ao ente público garantir o Juízo e ajuizar embargos à execução no prazo de oito dias.",
+        "C": "É desnecessária a garantia do Juízo e o ente público terá oito dias para embargar.",
+        "D": "Caberá ao ente público garantir o Juízo e ajuizar embargos à execução no prazo de 16 dias."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do tema execução trabalhista. Sobre embargos à execução, a previsão se encontra no art. 884 da CLT: “Art. 884 - Garantida a execução ou penhorados os bens, terá o executado 5 (cinco) dias para apresentar embargos, cabendo igual prazo ao exequente para impugnação”. Ocorre que, no caso de o ente público ser o executado, o prazo para embargar será de 30 dias, conforme determinação do art. 1º-B da Lei 9.494/97: “Art. 1º-B. O prazo a que se refere o caput dos arts. 730 do Código de Processo Civil, e 884 da Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei no 5.452, de 1o de maio de 1943, passa a ser de trinta dias.” Em relação à garantia do juízo, esta é dispensada para a Fazenda Pública, devido ao princípio da impenhorabilidade dos bens públicos e à forma específica de pagamento da Fazenda por meio de precatórios. Portanto, a alternativa correta é a letra A: É desnecessária a garantia do Juízo e o ente público terá 30 dias para embargar. As alternativas B, C e D ficam automaticamente incorretas, pois trazem prazos diversos."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_77",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Responsabilidade subsidiária da Administração Pública e rito ordinário",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Você, como advogado(a), foi procurado(a) por Orlando, ex-funcionário da sociedade empresária Limpeza Total Ltda., a qual prestava serviços para uma autarquia pública federal, aduzindo que foi dispensado sem receber as verbas rescisórias. Você deseja propor uma reclamação trabalhista em face da ex-empregadora, mas tem conhecimento de que esta não possui lastro financeiro algum, apesar do valor da causa da ação, que monta o equivalente a 30 salários-mínimos. Orlando, como trabalhava no Departamento de Recursos Humanos, forneceu dados e provas de que a tomadora dos serviços nunca fiscalizou o contrato, nem conferiu o adimplemento de quaisquer dos direitos trabalhistas dos empregados terceirizados. Na melhor defesa de seu cliente, assinale a afirmativa que apresenta, corretamente, o que você deverá propor.",
+      "alternativas": {
+        "A": "Uma ação apenas em face da ex-empregadora, pois não cabe responsabilidade subsidiária da autarquia pública federal.",
+        "B": "Uma ação exclusivamente em face da tomadora dos serviços, pelo rito sumaríssimo, pois já tem conhecimento do inadimplemento da ex-empregadora.",
+        "C": "Uma reclamação trabalhista em face da ex-empregadora e da tomadora dos serviços, que responderá subsidiariamente, sendo certo que a ação correrá pelo rito ordinário.",
+        "D": "Uma reclamação trabalhista em face da ex-empregadora e da tomadora dos serviços, que responderá subsidiariamente, sendo certo que a ação correrá pelo rito sumaríssimo."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata do tema reclamação trabalhista e ritos trabalhistas. No caso concreto narrado, a autarquia federal em questão responderá, sim, subsidiariamente pelos encargos trabalhistas, na forma do inciso V da Súmula 331 do TST, pois não fiscalizou o contrato nem conferiu o adimplemento de quaisquer dos direitos trabalhistas dos empregados terceirizados, o que configura sua culpa. Vejamos: “Súmula 331: (...) V - Os entes integrantes da Administração Pública direta e indireta respondem subsidiariamente, nas mesmas condições do item IV, caso evidenciada a sua conduta culposa no cumprimento das obrigações da Lei n.º 8.666, de 21.06.1993, especialmente na fiscalização do cumprimento das obrigações contratuais e legais da prestadora de serviço como empregadora. A aludida responsabilidade não decorre de mero inadimplemento das obrigações trabalhistas assumidas pela empresa regularmente contratada. (...)”. Portanto, de logo, a alternativa A fica incorreta, pois fala no não cabimento de responsabilidade subsidiária. Ademais, quanto ao rito trabalhista cabível, é importante mencionar que a Administração Pública direta, autárquica e fundacional fica excluída do procedimento sumaríssimo, independentemente do valor. É o que determina o art. 852-A, parágrafo único, da CLT: “Parágrafo único. Estão excluídas do procedimento sumaríssimo as demandas em que é parte a Administração Pública direta, autárquica e fundacional.”. Menciona-se, ainda, que tal exclusão se configura ainda que esteja sendo postulada a responsabilidade subsidiária desses entes. Assim, as alternativas B e D ficam incorretas, pois dizem ser cabível o rito sumaríssimo. Portanto, a alternativa correta é a letra C: a tomadora dos serviços responderá subsidiariamente e a ação correrá pelo rito ordinário, não sendo cabível o rito sumaríssimo, por se tratar de entidade autárquica."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_79",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Ônus da prova em reclamação trabalhista",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Você, na qualidade de advogado(a) de Pedro, ajuizou reclamação trabalhista em face da indústria de calçados Guanabara. Pedro trabalhou para a sociedade empresária ré, entre os anos de 2018 e 2022, e afirma que não recebeu o 13° salário de 2021 e que trabalhava cerca de 10 horas por dia. Você ajuizou reclamação trabalhista, pretendendo o pagamento do 13° salário de 2021 e as horas extras. A ex-empregadora apresentou defesa, aduzindo que pagou o 13° salário, que, conforme cartões de ponto juntados, Pedro não realizava horas extras e sua jornada estava prevista em norma coletiva da categoria. Na qualidade de advogado(a) de Pedro, você impugnou os cartões de ponto argumentando que não refletiam o real horário laborado, sendo certo que os documentos mostram horários variados de início e fim da jornada. Acerca do ônus da prova que incumbirá ao seu cliente, de acordo com a CLT, e o entendimento jurisprudencial consolidado do TST, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O ônus da prova do pagamento do 13° salário caberá à ré e, o das horas extras, ao autor.",
+        "B": "A ré deverá provar o pagamento do 13º salário, assim como a inexistência das horas extras, uma vez que os controles de ponto foram impugnados.",
+        "C": "Em razão da variação de horários registrada nos cartões de ponto, o ônus da prova recairá sobre a ré para as horas extras, bem como para o 13° salário, já que o pagamento é fato extintivo da obrigação.",
+        "D": "Dada a variação de horários, há presunção absoluta da validade da jornada indicada nos cartões de ponto, tendo a ré se desincumbido do ônus. Cabe à ré a prova do pagamento do 13° salário, por ser fato extintivo da obrigação."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do tema provas em processo do trabalho, mais precisamente sobre o ônus da prova. No tocante ao pagamento do 13º salário, o ônus de comprovar o regular pagamento será do empregador, pois se trata de direito extintivo do reclamante, conforme art. 818, II, da CLT: “Art. 818. O ônus da prova incumbe: II - ao reclamado, quanto à existência de fato impeditivo, modificativo ou extintivo do direito do reclamante.” Já no tocante às horas extras, o ônus será do reclamante Pedro, pois a reclamada (empresa Guanabara) apresentou os cartões de ponto, constituindo prova em contrário à alegação de Pedro. Conforme Súmula 338, item II, do TST: “Súmula 338: JORNADA DE TRABALHO. REGISTRO. ÔNUS DA PROVA. I - É ônus do empregador que conta com mais de 10 (dez) empregados o registro da jornada de trabalho na forma do art. 74, § 2º, da CLT. A não-apresentação injustificada dos controles de frequência gera presunção relativa de veracidade da jornada de trabalho, a qual pode ser elidida por prova em contrário. II - A presunção de veracidade da jornada de trabalho, ainda que prevista em instrumento normativo, pode ser elidida por prova em contrário. (...)” Portanto, a alternativa correta é a letra A. As demais alternativas ficam automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_80",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Prova testemunhal - Inquirição e protesto",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em sede de reclamação trabalhista, você é advogado(a) da parte autora, um ex-empregado de uma sociedade empresária. No curso da instrução, após ser ouvida uma testemunha da ré, o advogado da parte contrária requereu a oitiva da segunda testemunha, que estava sentada dentro da sala de audiência, tendo presenciado o curso da instrução até aquele momento. Apesar da sua manifestação em sentido contrário, o Juiz deferiu a produção da prova, prosseguindo com a instrução, sendo certo que permitiu que o advogado da parte ré interrogasse diretamente a testemunha, o que causava o risco de indução de respostas. A fim de assegurar o bom curso da instrução probatória, assinale a afirmativa que apresenta a ação que você, corretamente, assumiu na defesa do interesse de seu cliente.",
+      "alternativas": {
+        "A": "Interpor reclamação correicional imediatamente, o que acarretará na suspensão da audiência.",
+        "B": "Interpor agravo de instrumento contra a decisão de prosseguimento na instrução, acarretando a suspensão do processo.",
+        "C": "Lavrar protesto quanto à presença da testemunha na sala de audiência durante a instrução, mas não há irregularidade quanto à forma de inquirição.",
+        "D": "Consignar protestos pela contaminação do depoimento da segunda testemunha da ré, bem como pela inquirição direta da testemunha, na primeira oportunidade de se manifestar em audiência."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata do tema provas em processo do trabalho, mais precisamente sobre a prova testemunhal. No tocante à prova testemunhal em si, o artigo 820 determina que as testemunhas devem ser inquiridas pelo juiz, ou seja, não é possível que o advogado da parte ré interrogue a testemunha. Na verdade, o que é possível acontecer é o advogado da parte contrária requerer que o juiz reinquira a testemunha, mas nunca o fazer de modo direto. Vejamos: “Art. 820 - As partes e testemunhas serão inquiridas pelo juiz ou presidente, podendo ser reinquiridas, por seu intermédio, a requerimento dos vogais, das partes, seus representantes ou advogados.” Também é importante mencionar que as testemunhas que ainda não depuseram não podem ouvir o depoimento das demais, pois isso poderia contaminar seu próprio depoimento. É o que traz o artigo 824 da CLT: “Art. 824 - O juiz ou presidente providenciará para que o depoimento de uma testemunha não seja ouvido pelas demais que tenham de depor no processo.” Portanto, no caso narrado pelo enunciado, houve irregularidade tanto no depoimento da segunda testemunha da ré, como na inquirição da testemunha feita diretamente pelo advogado da parte contrária. Como no processo do trabalho as decisões interlocutórias são irrecorríveis, não seria possível interpor agravo de instrumento ou reclamação correcional, o que, de pronto, torna as alternativas A e B incorretas. Resta, pois, à parte, lavrar protesto. Assim, a alternativa correta é a letra D. A alternativa C fica incorreta porque fala em regularidade quanto à forma de inquirição."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_78",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Execução trabalhista - Parcelamento da dívida",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "No bojo de uma execução que tramita perante a 100ª Vara do Trabalho de Porto Velho/RO, o Juiz, após conceder vista ao executado, homologou o cálculo apresentado pelo exequente e fixou a dívida em R$ 20.000,00. O executado pretende se valer do parcelamento da dívida na forma do CPC, subsidiariamente aplicado ao Processo do Trabalho. Considerando esses fatos e de acordo com a legislação em vigor, sabendo-se que não há oposição do credor, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "executado poderá honrar a dívida em 5 parcelas iguais e Sucessivas e, após garantido o Juízo, apresentar embargos à execução.",
+        "B": "O executado depositará 30% da execução acrescido de custas e honorários advocatícios, e o restante, em até seis parcelas mensais, acrescidas de correção monetária e de juros de 1% ao mês.",
+        "C": "A pretensão não terá sucesso porque o parcelamento somente é possível quando o valor homologado for o cálculo apresentado pelo executado.",
+        "D": "Caberá à sociedade empresária apresentar metade do valor juntamente com uma petição onde irá requerer o parcelamento, devendo pagar o restante em três parcelas iguais e sucessivas."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre execução trabalhista. A alternativa A está incorreta. A Lei não prevê esse número de parcelas para o parcelamento na execução. A alternativa B está correta. Conforme Art. 916 do CPC, esta alternativa descreve exatamente o procedimento do CPC, os quais são aplicados de forma subsidiária e supletiva ao processo do trabalho. Vejamos: “Art. 916. No prazo para embargos, reconhecendo o crédito do exequente e comprovando o depósito de trinta por cento do valor em execução, acrescido de custas e de honorários de advogado, o executado poderá requerer que lhe seja permitido pagar o restante em até 6 (seis) parcelas mensais, acrescidas de correção monetária e de juros de um por cento ao mês.” O executado pode requerer o parcelamento da dívida, depositando 30% do valor (incluindo custas e honorários) e pagando o restante em até seis parcelas mensais, com juros e correção. A alternativa C está incorreta. O parcelamento é uma faculdade do devedor e pode ser aplicado sobre o valor homologado pelo juízo, independentemente de quem apresentou o cálculo. A alternativa D está incorreta. A lei não exige o depósito de 50% do valor nem o parcelamento em três parcelas."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_79",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Produção antecipada de provas e prevenção de competência",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Helena foi empregada de uma sociedade empresária de fevereiro de 2022 a janeiro de 2024, quando foi dispensada sob a alegação de justa causa. Ciente de que não fez absolutamente nada de errado, e considerando que sua única testemunha é uma outra ex-funcionária que se encontra enferma e terá pouco tempo de vida, Helena ajuizou, em março de 2024, uma ação para produção antecipada de provas, distribuída por sorteio para a 950ª Vara do Trabalho de São Paulo. Na referida ação foi colhido o depoimento da testemunha, que pouco depois veio a falecer. Arquivada a produção antecipada de provas, Helena pretende ajuizar reclamação trabalhista para anular a justa causa aplicada, valendo-se inclusive do testemunho da finada. Sobre o fato narrado, considerando o disposto na norma de regência, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A ação deverá ser distribuída ao Juízo da 950ª Vara do Trabalho de São Paulo, que é prevento para apreciar a lide.",
+        "B": "A reclamação trabalhista será livremente distribuída a uma das Varas do Trabalho de São Paulo.",
+        "C": "Qualquer Juízo do Trabalho poderá apreciar a demanda na localidade de São Paulo, exceto a 950ª Vara, que já realizou parte da instrução e formou juízo de valor.",
+        "D": "Far-se-á a distribuição por dependência à 950ª Vara do Trabalho de São Paulo, cabendo ao(à) advogado(a) do réu suscitar exceção de suspeição, caso o mesmo Magistrado que instruiu a produção antecipada da prova queira julgar a causa."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre provas, mais especificamente, produção antecipada. A alternativa A está incorreta. O procedimento de produção antecipada de provas não torna o juízo prevento para a ação principal. Vejamos o que diz o CPC em seu art. 381, §3º: § 3º A produção antecipada da prova não previne a competência do juízo para a ação que venha a ser proposta. A alternativa B está correta, segundo o art. 381, § 3º, do CPC, aplicado subsidiariamente ao processo do trabalho, a produção antecipada de prova não torna o juízo prevento para a ação futura. Vejamos: “Art. 381. A produção antecipada da prova será admitida nos casos em que: § 3º A produção antecipada da prova não previne a competência do juízo para a ação que venha a ser proposta. Assim, a reclamação trabalhista principal pode ser distribuída livremente para qualquer Vara do Trabalho. A alternativa C está incorreta. A ideia de que o juiz formou juízo de valor e, por isso, não poderia julgar a causa principal não é aplicável. A lei somente estabelece que a produção antecipada de prova não gera prevenção. A alternativa D está incorreta. A distribuição por dependência não é a regra. Como a produção antecipada de prova não gera prevenção, a distribuição da ação principal é livre."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_76",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Competência da Justiça do Trabalho para ações entre sindicatos",
+      "banca": "FGV",
+      "ano": "2025",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Você foi procurado(a) por um Sindicato de Empregados que deseja ajuizar uma ação em face de outro Sindicato de Empregados, com o objetivo de discutir a legitimidade para receber as contribuições sindicais oriundas de uma determinada sociedade empresária. Sobre a hipótese, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A ação deverá ser ajuizada na Justiça do Trabalho.",
+        "B": "A ação deverá ser ajuizada na Justiça Comum Federal.",
+        "C": "A ação deverá ser ajuizada na Justiça Comum Estadual.",
+        "D": "Não caberá ajuizamento de ação judicial, mas apenas procedimento administrativo no Ministério do Trabalho e Emprego."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do tema Competência em Processo do Trabalho. Sobre as ações movidas por Sindicato, a doutrina: “Ações envolvam representação sindical entre: Sindicato x Sindicato; Sindicato x Empregador; e Sindicato x Empregado. De toda sorte, podemos concluir por uma análise celetista e constitucional que a Justiça do Trabalho terá competência para julgar as ações que envolvam os sindicatos, intersindicais, bem como aspectos intrasindicais. A título de exemplo, podemos mencionar as seguintes situações hipotéticas: Ações que envolvam representação sindical; Ações entre sindicatos por não cumprimento de obrigações já assumidas de um frente ao outro; Ações entre sindicatos e empregadores, envolvendo contribuição sindical.” (Direito Processual do Trabalho para a 1ª Fase do Exame de Ordem (OAB) - Estratégia OAB, 2025; Cap. 4 Competência da Justiça do Trabalho - Livro Digital Interativo). A alternativa A está correta. Conforme art. 114, III, da CF, a competência para ações entre sindicatos é da Justiça do Trabalho. Vejamos: “Art. 114. Compete à Justiça do Trabalho processar e julgar: III - as ações sobre representação sindical, entre sindicatos, entre sindicatos e trabalhadores, e entre sindicatos e empregadores;”. As alternativas B, C e D estão automaticamente incorretas."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_77",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Exceção de incompetência territorial",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "João Paulo trabalhou como vendedor em uma loja de calçados de 20/02/2022 a 30/01/2023, situada próxima de sua residência, no município de Duque de Caxias, RJ. Pela proximidade, menos de 50 m de distância, João Paulo ia a pé para o serviço e não optou por receber vale-transporte. Ocorre que, ao ser dispensado, ajuizou ação trabalhista reclamando a concessão do benefício, ação que seu advogado distribuiu para o Município do Rio de Janeiro, indo para a 100ª Vara do Trabalho (VT) do Rio de Janeiro, que designou uma audiência presencial. A loja está localizada em Duque de Caxias e você, advogado(a) da loja, tem seu escritório na mesma cidade. Sobre a competência territorial e a medida processual a ser adotada, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A ação poderá transcorrer no Rio de Janeiro, tendo sido essa a opção do empregado, pelo que se prorrogou a competência.",
+        "B": "Deverá ser apresentada exceção de incompetência territorial em preliminar de contestação, podendo também ser suscitada oralmente no momento da audiência, antes da defesa.",
+        "C": "Deverá ser apresentada petição de exceção de incompetência territorial até cinco dias após o recebimento da notificação citatória, em peça autônoma e antes da audiência.",
+        "D": "Deverá ser apresentada exceção de incompetência territorial no ato da audiência em peça autônoma, mas junto com a apresentação da defesa, de modo a evitar eventual preclusão."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata do tema Exceções Rituais em Processo do Trabalho. A alternativa A está incorreta. A ação deveria ter sido movida em Duque de Caxias, pois é a localidade da prestação do serviço. Logo, não há de se falar em “opção do empregado” por outra localidade, tampouco em “prorrogação de competência”. Conforme art. 651 da CLT: “Art. 651 - A competência das Juntas de Conciliação e Julgamento é determinada pela localidade onde o empregado, reclamante ou reclamado, prestar serviços ao empregador, ainda que tenha sido contratado noutro local ou no estrangeiro.” A alternativa B está incorreta. A exceção de incompetência territorial não é apresentada em preliminar de contestação, nem no momento da audiência. O correto é ser apresentada 5 dias antes da audiência, conforme art. 800 da CLT: “Art. 800. Apresentada exceção de incompetência territorial no prazo de cinco dias a contar da notificação, antes da audiência e em peça que sinalize a existência desta exceção, seguir-se-á o procedimento estabelecido neste artigo.” A alternativa C está correta. Conforme explicado no comentário da letra A, a ação deveria ter sido movida em Duque de Caxias, pois é a localidade da prestação do serviço. Logo, realmente é cabível a exceção de incompetência territorial. Conforme art. 800 da CLT, transcrito acima, de fato, esta deverá ser apresentada petição de exceção de incompetência territorial até cinco dias após o recebimento da notificação citatória, em peça autônoma e antes da audiência. A alternativa D está incorreta. A exceção de incompetência territorial não é apresentada no momento da audiência. O correto é ser apresentada 5 dias antes da audiência, conforme art. 800 da CLT, acima transcrito."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_78",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Gratuidade de justiça na Justiça do Trabalho",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Lorena trabalha como tosadora de animais em um petshop desde 2022, recebendo um salário-mínimo nacional mensalmente. Ainda com o contrato de trabalho em vigor, Lorena pediu que você, como advogado(a), ajuizasse, em 2024, reclamação trabalhista postulando o pagamento de adicional noturno, pois ela trabalha até 22h30. Na petição inicial, você não requereu gratuidade de justiça, nem juntou declaração de miserabilidade ou necessidade jurídica. O pedido foi julgado totalmente improcedente, mas o Juiz concedeu, de ofício, a gratuidade de justiça. Considerando os fatos narrados, a previsão contida na CLT e o entendimento consolidado do TST, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A lei é omissa quanto aos critérios para deferir a gratuidade de justiça, podendo o Juiz concedê-la ou não.",
+        "B": "O Juiz está correto, porque o nível salarial de Lorena autoriza a concessão da gratuidade de justiça de ofício.",
+        "C": "A parte não requereu gratuidade de justiça, caracterizando, assim, julgamento extra petita, vedado na hipótese.",
+        "D": "A gratuidade de justiça na Justiça do Trabalho é um pedido implícito, devendo ser automaticamente concedida a qualquer trabalhador."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata do tema Custas Judiciais em Processo do Trabalho, mais precisamente sobre o Benefício da Justiça Gratuita. A alternativa A está incorreta. Conforme art. 790, § 4º, da CLT: “§ 4º O benefício da justiça gratuita será concedido à parte que comprovar insuficiência de recursos para o pagamento das custas do processo.” A alternativa B está correta. O juiz pode, sim, conceder a gratuidade de justiça de ofício. Ademais, o salário de Lorena (R$ 1.412,00 em 2024) autoriza tal concessão, sendo inferior a 40% do teto do RGPS (O teto do RGPS em 2024 foi de R$ 7.786,02; logo, 40% desse valor é R$ 3.114,40). Conforme art. 790, § 3º, da CLT: “§ 3º É facultado aos juízes, órgãos julgadores e presidentes dos tribunais do trabalho de qualquer instância conceder, a requerimento ou de ofício, o benefício da justiça gratuita, inclusive quanto a traslados e instrumentos, àqueles que perceberem salário igual ou inferior a 40% (quarenta por cento) do limite máximo dos benefícios do Regime Geral de Previdência Social.” A alternativa C está incorreta. Conforme já explicado no comentário da letra B, o juiz pode, sim, conceder a gratuidade de justiça de ofício, nos moldes do art. 790, § 3º, da CLT. A alternativa D está incorreta. Não é concedida a qualquer trabalhador, mas apenas àqueles que perceberem salário igual ou inferior a 40% do limite máximo dos benefícios do RGPS, nos moldes do art. 790, § 3º, da CLT."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_80",
+      "materia": "Direito Processual do Trabalho",
+      "assunto": "Recursos em dissídio coletivo",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Um sindicato de classe dos empregados ajuizou, perante o Tribunal Regional do Trabalho competente, dissídio coletivo de natureza econômica com alcance municipal. Após ser devidamente contestado, o processo foi extinto sem a resolução do mérito, não havendo margem para a oposição de embargos de declaração. Considerando esses fatos e que você é o(a) advogado(a) do sindicato autor, assinale a opção que indica o recurso cabível e o respectivo prazo.",
+      "alternativas": {
+        "A": "Recurso ordinário, no prazo de 8 dias.",
+        "B": "Recurso de revista, no prazo de 8 dias.",
+        "C": "Agravo de petição, no prazo de 15 dias.",
+        "D": "Recurso extraordinário, no prazo de 15 dias."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do tema Recursos em Processo do Trabalho. No tocante ao caso narrado pelo enunciado, observe que o Sindicato ajuizou o dissídio coletivo originariamente já no Tribunal Regional do Trabalho, e não em uma Vara do Trabalho. Isso porque a competência originária para julgar os dissídios coletivos é dos TRTs, conforme art. 678, I, alínea “a”, da CLT: “Art. 678 - Aos Tribunais Regionais, quando divididos em Turmas, compete: I - ao Tribunal Pleno, especialmente: a) processar, conciliar e julgar originariamente os dissídios coletivos;”. Dessa forma, o recurso cabível será o recurso ordinário, a ser interposto no prazo de 8 dias, para a instância superior, ou seja, o TST. Conforme o art. 895, II, da CLT: “Art. 895 - Cabe recurso ordinário para a instância superior: II - das decisões definitivas ou terminativas dos Tribunais Regionais, em processos de sua competência originária, no prazo de 8 (oito) dias, quer nos dissídios individuais, quer nos dissídios coletivos.” Portanto: A alternativa A está correta. Conforme art. 895, II, da CLT, o recurso cabível em processos de competência originária de TRT é o recurso ordinário, a ser interposto no prazo de 8 dias. As alternativas B, C e D ficam automaticamente incorretas."
+    }
+  ]
+}

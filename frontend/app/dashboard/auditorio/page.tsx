@@ -1,307 +1,539 @@
 // frontend/app/dashboard/auditorio/page.tsx
 "use client";
 
-import React, { useState, useEffect, useRef } from 'react';
-import { useSearchParams, useRouter } from 'next/navigation';
-import { Mic, Square, Loader2, ArrowLeft, Brain, Activity, Type, Edit3, Send, Pause, Play, Video, VideoOff, Check } from 'lucide-react';
+import React, { useState, useEffect, useRef } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { motion } from "framer-motion";
+import { ArrowLeft, Mic, Type, Camera, PenTool, Loader2, Play, CheckCircle2, Circle, ChevronRight, Zap, Info, MicOff } from "lucide-react";
+import { auth } from "@/lib/firebase";
+import { apiFetch } from "@/lib/apiFetch";
+import { onAuthStateChanged } from "firebase/auth";
+import {
+  verificarRenovacaoSemanal, podeIniciarSessao,
+  incrementarSessaoUsada, formatarDataRenovacao,
+  type PerfilUsuario,
+} from "@/lib/premium";
+import { ModalLimiteSessao } from "@/components/ModalLimiteSessao";
 
-export default function Auditorio() {
+export default function AuditorioPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  
-  const jornada = searchParams.get('jornada') || '';
-  const materia = searchParams.get('materia') || 'Tema Livre';
-  const tema = searchParams.get('tema') || '';
-  const subtema = searchParams.get('subtema') || '';
 
-  const [modoInput, setModoInput] = useState<'audio' | 'text'>('audio');
-  const [cameraOn, setCameraOn] = useState(false);
-  const [isRecording, setIsRecording] = useState(false);
-  const [isPaused, setIsPaused] = useState(false);
-  const [isProcessing, setIsProcessing] = useState(false);
-  const [recordingTime, setRecordingTime] = useState(0); 
-  
-  // ESTADOS DA BARRA DE PROGRESSO
-  const [progressoIA, setProgressoIA] = useState(0);
-  const [statusIA, setStatusIA] = useState("Iniciando auditoria...");
+  // Parâmetros da URL
+  const materia       = searchParams.get('materia')        || "Matéria Não Definida";
+  const tema          = searchParams.get('tema')           || "Tema Não Definido";
+  const jornada       = searchParams.get('jornada')        || "concurso";
+  const banca         = searchParams.get('banca')          || "Livre";
+  const faixaSalarial = searchParams.get('faixa_salarial') || "R$ 5.000 a R$ 15.000";
+  const personalizado = searchParams.get("personalizado")  === "1";
+  const prioridades   = searchParams.get("prioridades")?.split("|").filter(Boolean) ?? [];
 
-  const [syllabus, setSyllabus] = useState<string[]>([]);
-  const [loadingSyllabus, setLoadingSyllabus] = useState(true);
-  const [checkedTopics, setCheckedTopics] = useState<Record<number, boolean>>({});
-  const [textoAuditoria, setTextoAuditoria] = useState("");
-  const [notas, setNotas] = useState("");
-
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const mediaRecorderRef = useRef<MediaRecorder | null>(null);
-  const audioChunksRef = useRef<Blob[]>([]);
-  const audioStreamRef = useRef<MediaStream | null>(null);
-  const videoStreamRef = useRef<MediaStream | null>(null);
-
-  const MAX_TIME = 1800; // 30 min
+  // UID do usuário autenticado (resolvido de forma reativa)
+  const [uid, setUid] = useState<string>("");
+  const [perfilUsuario, setPerfilUsuario] = useState<PerfilUsuario | null>(null);
+  const [modalLimite, setModalLimite]     = useState(false);
 
   useEffect(() => {
-    const buscarSyllabus = async () => {
-      if (!tema) return;
+    const unsub = onAuthStateChanged(auth, u => setUid(u?.uid ?? ""));
+    return () => unsub();
+  }, []);
+
+  // Verifica limite semanal quando o uid estiver disponível
+  useEffect(() => {
+    if (!uid) return;
+    verificarRenovacaoSemanal(uid).then((perfil) => {
+      setPerfilUsuario(perfil);
+      if (!podeIniciarSessao(perfil)) setModalLimite(true);
+    });
+  }, [uid]);
+
+  // Estados de Interface
+  const [modo, setModo] = useState<'audio' | 'texto'>('audio');
+  const [espelhoAtivo, setEspelhoAtivo] = useState(false);
+  const [rascunho, setRascunho] = useState("");
+  const [textoExplicacao, setTextoExplicacao] = useState("");
+  const [transcricaoInterim, setTranscricaoInterim] = useState("");
+
+  // Estados Lógicos (Checklist de Tópicos)
+  const [extraindo, setExtraindo] = useState(true);
+  const [topicos, setTopicos] = useState<string[]>([]);
+  const [topicosMarcados, setTopicosMarcados] = useState<Record<number, boolean>>({});
+  const [nivelElite, setNivelElite] = useState(false);
+  const [gravando, setGravando] = useState(false);
+
+  // Estado que controla o ecrã de Loading central
+  const [processando, setProcessando] = useState(false);
+  const [progresso, setProgresso] = useState(0);
+
+  // Referências para Câmera e SpeechRecognition
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [mediaStream, setMediaStream] = useState<MediaStream | null>(null);
+  const recognitionRef = useRef<any>(null);
+  const gravandoRef = useRef(false);
+
+  // Detectar nível com base na faixa salarial
+  const faixaLower = faixaSalarial.toLowerCase();
+  const isNivelElite = faixaLower.includes("elite");
+  const isNivelIntermediario = !isNivelElite && faixaLower.includes("intermediar");
+
+  // ==========================================
+  // GERAÇÃO DE CHECKLIST VIA IA
+  // ==========================================
+  useEffect(() => {
+    const gerarChecklist = async () => {
+      if (!materia || !tema || materia === "Matéria Não Definida") {
+        setTopicos(["Selecione uma matéria e tema para gerar o roteiro."]);
+        setExtraindo(false);
+        return;
+      }
       try {
-        const response = await fetch('http://127.0.0.1:5000/api/gerar-guia', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ materia, tema, subtema })
+        const response = await apiFetch("http://127.0.0.1:5000/api/gerar-checklist", {
+          method: "POST",
+          body: JSON.stringify({
+            jornada,
+            materia,
+            tema,
+            faixa_salarial: faixaSalarial,
+            ...(personalizado && prioridades.length > 0 ? { contexto_personalizado: prioridades } : {}),
+          }),
         });
-        if (!response.ok) throw new Error("Erro na API.");
+        if (!response.ok) throw new Error("Falha ao gerar checklist.");
         const data = await response.json();
-        if (data.topicos) {
-          setSyllabus(data.topicos);
-          setCheckedTopics({});
-        }
-      } catch (err) {
-        setSyllabus(["⚠️ Não foi possível carregar o guia. Verifique o servidor."]);
+        if (data.nivel_elite) { setNivelElite(true); setTopicos([]); }
+        else { setNivelElite(false); setTopicos(data.topicos || []); }
+      } catch (error) {
+        console.warn("Checklist não gerado.", error);
+        setTopicos(["Erro ao gerar checklist. Verifique a conexão."]);
       } finally {
-        setLoadingSyllabus(false);
+        setExtraindo(false);
       }
     };
-    buscarSyllabus();
-  }, [materia, tema, subtema]);
+    gerarChecklist();
+  }, [jornada, materia, tema, faixaSalarial]);
 
-  const toggleTopic = (index: number) => setCheckedTopics(prev => ({ ...prev, [index]: !prev[index] }));
+  // Limpar câmera e reconhecimento ao desmontar
+  useEffect(() => {
+    return () => {
+      if (mediaStream) mediaStream.getTracks().forEach(t => t.stop());
+      if (recognitionRef.current) {
+        gravandoRef.current = false;
+        recognitionRef.current.stop();
+        recognitionRef.current = null;
+      }
+    };
+  }, [mediaStream]);
 
   useEffect(() => {
-    let interval: NodeJS.Timeout;
-    if (isRecording && !isPaused) {
-      interval = setInterval(() => {
-        setRecordingTime(prev => {
-          if (prev >= MAX_TIME) { stopRecording(); return MAX_TIME; }
-          return prev + 1;
+    if (espelhoAtivo && videoRef.current && mediaStream) {
+      videoRef.current.srcObject = mediaStream;
+    }
+  }, [espelhoAtivo, mediaStream]);
+
+  // ==========================================
+  // BARRA DE PROGRESSO NÃO-LINEAR
+  // ==========================================
+  useEffect(() => {
+    let intervalo: NodeJS.Timeout;
+    if (processando) {
+      setProgresso(0);
+      intervalo = setInterval(() => {
+        setProgresso((old) => {
+          if (old >= 95) return 95;
+          let incremento = old < 45 ? Math.floor(Math.random() * 4) + 2 : Math.floor(Math.random() * 2) + 1;
+          return old + incremento > 95 ? 95 : old + incremento;
         });
       }, 1000);
     }
-    return () => clearInterval(interval);
-  }, [isRecording, isPaused]);
+    return () => clearInterval(intervalo);
+  }, [processando]);
 
-  useEffect(() => { return () => pararTudo(); }, []);
+  const getLoadingText = () => {
+    if (progresso < 45) return "A organizar a sua exposição e a extrair conceitos-chave...";
+    if (progresso < 70) return "A calcular o Score de Teoria com base no Checklist...";
+    if (progresso < 85) return `A cruzar a sua precisão com o padrão estatístico da Banca ${banca}...`;
+    if (progresso < 95) return `A aplicar as métricas de rigor para a faixa de ${faixaSalarial}...`;
+    return "A consolidar as Notas e a definir o seu Quadrante de Eficiência...";
+  };
 
-  const toggleCamera = async () => {
-    if (cameraOn) {
-      if (videoStreamRef.current) { videoStreamRef.current.getTracks().forEach(track => track.stop()); videoStreamRef.current = null; }
-      setCameraOn(false);
+  const toggleTopico = (idx: number) => {
+    setTopicosMarcados(prev => ({ ...prev, [idx]: !prev[idx] }));
+  };
+
+  // ==========================================
+  // CÂMERA (ESPELHO)
+  // ==========================================
+  const toggleEspelho = async () => {
+    if (espelhoAtivo) {
+      if (mediaStream) { mediaStream.getTracks().forEach(t => t.stop()); setMediaStream(null); }
+      setEspelhoAtivo(false);
     } else {
       try {
         const stream = await navigator.mediaDevices.getUserMedia({ video: true });
-        videoStreamRef.current = stream;
-        if (videoRef.current) videoRef.current.srcObject = stream;
-        setCameraOn(true);
-      } catch (err) { alert("Não foi possível acessar a câmera."); }
-    }
-  };
-
-  const startRecording = async () => {
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      audioStreamRef.current = stream;
-      mediaRecorderRef.current = new MediaRecorder(stream);
-      audioChunksRef.current = [];
-      mediaRecorderRef.current.ondataavailable = (e) => { if (e.data.size > 0) audioChunksRef.current.push(e.data); };
-      mediaRecorderRef.current.onstop = async () => {
-        const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
-        enviarParaAuditoria(audioBlob, 'audio');
-      };
-      mediaRecorderRef.current.start();
-      setIsRecording(true); setIsPaused(false); setRecordingTime(0);
-    } catch (err) { alert("Permita o acesso ao microfone."); }
-  };
-
-  const pauseRecording = () => { if (mediaRecorderRef.current && isRecording) { mediaRecorderRef.current.pause(); setIsPaused(true); } };
-  const resumeRecording = () => { if (mediaRecorderRef.current && isRecording) { mediaRecorderRef.current.resume(); setIsPaused(false); } };
-  
-  const stopRecording = () => {
-    if (mediaRecorderRef.current && isRecording) {
-      mediaRecorderRef.current.stop();
-      setIsRecording(false); setIsPaused(false);
-      if (audioStreamRef.current) audioStreamRef.current.getTracks().forEach(track => track.stop());
-    }
-  };
-
-  const pararTudo = () => {
-    stopRecording();
-    if (cameraOn && videoStreamRef.current) videoStreamRef.current.getTracks().forEach(track => track.stop());
-  };
-
-  const enviarParaAuditoria = async (conteudo: Blob | string, tipo: 'audio' | 'text') => {
-    setIsProcessing(true);
-    setProgressoIA(0);
-    setStatusIA(tipo === 'audio' ? "Transcrevendo áudio..." : "Processando texto...");
-
-    // Lógica da Barra de Progresso Simulada (cresce até 90% enquanto espera a API)
-    const progInterval = setInterval(() => {
-      setProgressoIA(old => {
-        if (old < 30) { setStatusIA("Mapeando conceitos explicados..."); return old + 5; }
-        if (old < 60) { setStatusIA("Cruzando dados com o banco de questões e material específico..."); return old + 3; }
-        if (old < 90) { setStatusIA("Gerando predição de prova..."); return old + 1; }
-        return 90;
-      });
-    }, 800);
-
-    const formData = new FormData();
-    formData.append('jornada', jornada);
-    formData.append('materia', materia);
-    formData.append('tema', tema);
-    if (subtema) formData.append('subtema', subtema);
-    formData.append('anotacoes_manuais', notas);
-
-    if (tipo === 'audio') formData.append('audio', conteudo as Blob, 'gravacao.webm');
-    else formData.append('texto', conteudo as string);
-
-    try {
-      const endpoint = tipo === 'text' ? 'processar-texto' : 'processar-audio';
-      const response = await fetch(`http://127.0.0.1:5000/api/${endpoint}`, { method: 'POST', body: formData });
-      
-      clearInterval(progInterval);
-      setProgressoIA(100);
-      setStatusIA("Auditoria concluída!");
-
-      if (!response.ok) throw new Error("Erro na API.");
-      const data = await response.json();
-      if (data.relatorio_id) {
-        setTimeout(() => router.push(`/dashboard/relatorio/${data.relatorio_id}`), 500);
-      } else {
-        alert("Erro na auditoria."); setIsProcessing(false);
+        setMediaStream(stream);
+        setEspelhoAtivo(true);
+      } catch {
+        alert("Não foi possível aceder à câmara. Verifique as permissões do navegador.");
       }
-    } catch (error) {
-      clearInterval(progInterval);
-      alert(`Falha na comunicação com o backend.`);
-      setIsProcessing(false);
     }
   };
 
-  const formatTime = (s: number) => `${Math.floor(s/60).toString().padStart(2,'0')}:${(s%60).toString().padStart(2,'0')}`;
-  const progressPercentage = (recordingTime / MAX_TIME) * 100;
+  // ==========================================
+  // GRAVAÇÃO DE VOZ + TRANSCRIÇÃO
+  // ==========================================
+  const iniciarGravacao = () => {
+    const SR = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+    if (!SR) {
+      alert("Reconhecimento de voz não suportado. Use Google Chrome ou Microsoft Edge.");
+      return;
+    }
+    const recognition = new SR();
+    recognition.continuous = true;
+    recognition.interimResults = true;
+    recognition.lang = "pt-BR";
+
+    recognition.onresult = (e: any) => {
+      let interim = "";
+      for (let i = e.resultIndex; i < e.results.length; i++) {
+        const t = e.results[i][0].transcript;
+        if (e.results[i].isFinal) {
+          setTextoExplicacao(prev => prev + t + " ");
+          setTranscricaoInterim("");
+        } else {
+          interim += t;
+        }
+      }
+      setTranscricaoInterim(interim);
+    };
+
+    recognition.onerror = (e: any) => {
+      if (e.error !== "no-speech") pararGravacao();
+    };
+
+    // Auto-reinicia quando o browser encerra automaticamente
+    recognition.onend = () => {
+      if (gravandoRef.current && recognitionRef.current) {
+        try { recognitionRef.current.start(); } catch {}
+      }
+    };
+
+    recognition.start();
+    recognitionRef.current = recognition;
+    gravandoRef.current = true;
+    setGravando(true);
+    setTranscricaoInterim("");
+  };
+
+  const pararGravacao = () => {
+    gravandoRef.current = false;
+    if (recognitionRef.current) {
+      try { recognitionRef.current.stop(); } catch {}
+      recognitionRef.current = null;
+    }
+    setGravando(false);
+    setTranscricaoInterim("");
+  };
+
+  const handleAbandonar = () => {
+    if (confirm("Deseja realmente abandonar a sessão? O progresso não será guardado.")) {
+      pararGravacao();
+      if (mediaStream) mediaStream.getTracks().forEach(t => t.stop());
+      router.push('/dashboard');
+    }
+  };
+
+  // ==========================================
+  // ENVIO PARA AUDITORIA
+  // ==========================================
+  const enviarTextoParaAuditoria = async () => {
+    if (!textoExplicacao || textoExplicacao.trim().length < 10) {
+      alert("Por favor, grave ou digite um conteúdo para análise.");
+      return;
+    }
+    setProcessando(true);
+    try {
+      const payload = {
+        jornada: searchParams.get("jornada") || "Concurso",
+        materia: searchParams.get("materia") || "",
+        tema: searchParams.get("tema") || "",
+        banca: searchParams.get("banca") || "Livre",
+        faixa_salarial: searchParams.get("faixa_salarial") || "",
+        texto_aula: textoExplicacao,
+        anotacoes_manuais: rascunho,
+        ...(personalizado && prioridades.length > 0 ? { contexto_personalizado: prioridades } : {}),
+      };
+      const response = await apiFetch("http://127.0.0.1:5000/api/processar-texto", {
+        method: "POST",
+        body: JSON.stringify(payload),
+      });
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.erro || "Falha na auditoria.");
+      }
+      const data = await response.json();
+      // Incrementa contagem de sessão após sucesso
+      if (uid) await incrementarSessaoUsada(uid).catch(() => {});
+      router.push(`/dashboard/relatorio/${data.relatorio_id}`);
+    } catch (error: any) {
+      alert("Erro na Auditoria: " + error.message);
+      setProcessando(false);
+    }
+  };
+
+  // ==========================================
+  // RENDER DO CHECKLIST
+  // ==========================================
+  const renderChecklist = () => {
+    if (extraindo) {
+      return (
+        <div className="flex flex-col items-center justify-center h-full space-y-3 text-slate-400">
+          <Loader2 className="animate-spin" size={24} />
+          <span className="text-[9px] font-black uppercase tracking-widest text-center">A gerar checklist com IA...</span>
+        </div>
+      );
+    }
+    if (nivelElite || isNivelElite) {
+      return (
+        <div className="flex flex-col items-center justify-center h-full p-6">
+          <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.4 }}
+            className="w-full bg-black rounded-2xl border border-white/10 p-6 flex flex-col items-center text-center gap-4">
+            <div className="w-12 h-12 rounded-xl bg-amber-400/10 border border-amber-400/30 flex items-center justify-center">
+              <Zap size={22} className="text-amber-400" />
+            </div>
+            <div>
+              <p className="text-[9px] font-black uppercase tracking-[0.3em] text-amber-400 mb-2">Nível Elite</p>
+              <p className="text-xs font-bold text-slate-400 leading-relaxed">
+                Sem guia. Demonstre domínio completo do tema utilizando apenas seu conhecimento.
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      );
+    }
+    return (
+      <>
+        {personalizado && prioridades.length > 0 && (
+          <div className="mb-4 p-3 bg-blue-50 border-2 border-blue-200 rounded-xl">
+            <p className="text-[9px] font-black uppercase tracking-widest text-blue-700 mb-2 flex items-center gap-1.5">
+              <Zap size={11} /> Atenção Especial
+            </p>
+            <ul className="space-y-1.5">
+              {prioridades.map((t, i) => (
+                <li key={i} className="flex items-start gap-2">
+                  <ChevronRight size={12} className="text-blue-500 shrink-0 mt-0.5" />
+                  <span className="text-[10px] font-bold text-blue-800">{t}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        <ul className="space-y-2">
+          {topicos.map((topico, idx) => {
+            const isSubtopico = topico.startsWith("→ ");
+            const textoLimpo = isSubtopico ? topico.slice(2) : topico;
+            const isMarcado = topicosMarcados[idx];
+            return (
+              <motion.li initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: idx * 0.04 }}
+                key={idx} onClick={() => toggleTopico(idx)}
+                className={`flex gap-2 items-start cursor-pointer transition-all rounded-xl border-2 ${isSubtopico ? "ml-5 p-2" : "p-3"} ${isMarcado ? "bg-slate-50 border-slate-200 opacity-60" : "bg-white border-transparent hover:border-slate-100 hover:bg-slate-50"}`}>
+                <div className="shrink-0 mt-0.5">
+                  {isSubtopico
+                    ? (isMarcado ? <CheckCircle2 size={12} className="text-emerald-500" /> : <ChevronRight size={12} className="text-slate-300" />)
+                    : (isMarcado ? <CheckCircle2 size={16} className="text-emerald-500" /> : <Circle size={16} className="text-slate-300" />)}
+                </div>
+                <p className={`leading-relaxed transition-all ${isSubtopico ? "text-[10px] font-bold" : "text-[11px] font-bold"} ${isMarcado ? "text-slate-400 line-through" : "text-slate-700"}`}>
+                  {textoLimpo}
+                </p>
+              </motion.li>
+            );
+          })}
+        </ul>
+      </>
+    );
+  };
+
+  const checklistTitulo = isNivelElite || nivelElite ? "Modo Elite" : isNivelIntermediario ? "Tópicos-Guia" : "Checklist Detalhado";
+  const checklistSubtitulo = isNivelElite || nivelElite ? "Sem guia de tópicos" : "Marque o que já explicou";
+
+  // Lógica do botão principal no modo áudio
+  const temTranscricao = textoExplicacao.trim().length > 0;
+  const botaoAudioClick = gravando ? pararGravacao : temTranscricao ? enviarTextoParaAuditoria : iniciarGravacao;
+  const botaoAudioLabel = gravando ? "PARAR AULA" : temTranscricao ? "ENVIAR AULA" : "INICIAR AULA";
+  const botaoAudioCor   = gravando ? "bg-red-600 text-white" : "bg-black text-white";
 
   return (
-    <div className="h-screen w-screen bg-slate-50 text-black font-sans p-4 flex flex-col overflow-hidden relative">
-      <header className="h-14 shrink-0 w-full flex items-center justify-between mb-4 relative z-10">
-        <button onClick={() => { pararTudo(); router.push('/'); }} className="text-black flex items-center gap-2 text-xs font-black uppercase tracking-widest bg-white px-4 py-2 rounded-xl border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all">
-          <ArrowLeft size={14} /> Abandonar
+    <div className="min-h-[100dvh] w-full bg-[#F8FAFC] text-slate-900 font-sans flex flex-col overflow-x-hidden overflow-y-auto">
+
+      <ModalLimiteSessao
+        aberto={modalLimite}
+        onFechar={() => setModalLimite(false)}
+        renovacaoEm={perfilUsuario ? formatarDataRenovacao(perfilUsuario.ultima_renovacao_sessoes) : undefined}
+      />
+
+      <header className="w-full px-4 md:px-8 py-4 md:py-5 border-b-2 border-black bg-white flex flex-col md:flex-row items-center justify-between gap-4 shrink-0 z-20 sticky top-0">
+        <button onClick={handleAbandonar}
+          className="w-full md:w-auto bg-white border-2 border-black rounded-xl px-4 py-2.5 flex items-center justify-center gap-2 text-[10px] md:text-xs font-black uppercase tracking-widest shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[1px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:translate-y-[3px] active:shadow-none transition-all">
+          <ArrowLeft size={16} /> Abandonar
         </button>
-        <div className="text-center bg-white px-6 py-2 rounded-xl border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-          <h1 className="text-sm font-black truncate max-w-md">{tema}</h1>
-          <p className="text-[9px] font-black uppercase tracking-widest text-slate-500">{materia} {subtema && `• ${subtema}`}</p>
-        </div>
-        <div className="flex items-center gap-2 bg-slate-200 px-4 py-2 rounded-xl border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-          <Activity size={14} className="text-blue-600" />
-          <span className="text-[10px] font-black uppercase tracking-widest text-black">Cockpit Ativo</span>
+        <div className="text-center md:text-right w-full md:w-auto">
+          <h1 className="text-base md:text-xl font-black text-black truncate max-w-[90vw] md:max-w-lg mx-auto md:mx-0">{tema}</h1>
+          <h2 className="text-[9px] md:text-[10px] font-black text-slate-500 uppercase tracking-[0.2em] mt-1">
+            {materia} • Banca: <span className="text-blue-600">{banca}</span> • Alvo: <span className="text-purple-600">{faixaSalarial}</span>
+          </h2>
         </div>
       </header>
 
-      <main className="flex-1 flex gap-4 min-h-0 relative z-10">
-        <div className="w-1/4 bg-white rounded-2xl border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col overflow-hidden">
-          <div className="p-4 border-b-2 border-black bg-slate-100 flex items-center gap-2 shrink-0">
-            <Brain size={16} className="text-black" />
-            <h2 className="text-xs font-black uppercase tracking-widest text-black">Guia de Tópicos</h2>
+      {/* MAIN GRID - COCKPIT */}
+      <main className="flex-1 w-full max-w-[1400px] mx-auto p-4 md:p-6 lg:p-8 flex flex-col lg:grid lg:grid-cols-12 gap-6 lg:gap-8">
+
+        {/* COLUNA 1 (ESQUERDA): CHECKLIST */}
+        <div className="order-2 lg:order-1 lg:col-span-3 bg-white border-2 border-black rounded-[2rem] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col h-[350px] lg:h-[calc(100vh-140px)] overflow-hidden">
+          <div className="p-4 border-b-2 border-black bg-slate-50 text-center shrink-0">
+            <h3 className="font-black text-[10px] md:text-xs uppercase tracking-[0.2em] text-slate-800">{checklistTitulo}</h3>
+            <p className="text-[9px] font-bold text-slate-400 mt-1">{checklistSubtitulo}</p>
           </div>
-          <div className="flex-1 overflow-y-auto p-4 space-y-2 custom-scrollbar">
-            {loadingSyllabus ? (
-              <div className="flex flex-col items-center justify-center h-full text-slate-500 gap-3"><Loader2 className="animate-spin" size={20} /><span className="text-[10px] font-black uppercase tracking-widest">Extraindo...</span></div>
-            ) : syllabus.length > 0 ? (
-              syllabus.map((item, idx) => {
-                const isChecked = checkedTopics[idx] || false;
-                return (
-                  <div key={idx} onClick={() => toggleTopic(idx)} className={`flex gap-3 items-start group cursor-pointer p-2 -mx-2 rounded-lg transition-all ${isChecked ? 'bg-transparent' : 'hover:bg-slate-100'}`}>
-                    <div className={`mt-0.5 shrink-0 w-4 h-4 rounded-full border-2 flex items-center justify-center transition-all ${isChecked ? 'bg-emerald-500 border-emerald-500 shadow-sm' : 'border-black group-hover:border-blue-600 bg-white'}`}>
-                      {isChecked && <Check size={10} strokeWidth={4} className="text-white" />}
-                    </div>
-                    <p className={`text-xs font-bold leading-relaxed transition-all ${isChecked ? 'text-slate-400 line-through' : 'text-slate-700 group-hover:text-black'}`}>{item}</p>
-                  </div>
-                );
-              })
-            ) : (<p className="text-xs font-bold text-slate-400 text-center mt-10">Nenhum guia carregado.</p>)}
+          <div className={`p-4 flex-1 overflow-y-auto custom-scrollbar ${(nivelElite || isNivelElite) ? "bg-black" : "bg-white"}`}>
+            {renderChecklist()}
           </div>
         </div>
 
-        <div className="w-2/4 bg-slate-200 rounded-2xl border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col overflow-hidden relative">
-          <div className="flex p-2 border-b-2 border-black bg-slate-300 shrink-0 gap-2">
-            {[{ id: 'audio', icon: <Mic size={14}/>, label: 'Áudio (Fala)' }, { id: 'text', icon: <Type size={14}/>, label: 'Texto (Digitação)' }].map((modo) => (
-              <button key={modo.id} onClick={() => { if(!isRecording) setModoInput(modo.id as any); }} disabled={isRecording || isProcessing} className={`flex-1 py-2 flex items-center justify-center gap-2 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all border-2 ${modoInput === modo.id ? 'bg-black text-white border-black' : 'bg-white text-slate-500 border-transparent hover:border-black hover:text-black'} disabled:opacity-50`}>
-                {modo.icon} {modo.label}
-              </button>
-            ))}
-          </div>
-
-          <div className="flex-1 flex flex-col p-4 relative bg-white">
-            {isProcessing ? (
-               <div className="flex-1 flex flex-col items-center justify-center gap-6 p-8">
-                 <div className="w-24 h-24 bg-blue-50 rounded-full flex items-center justify-center border-4 border-blue-100 relative shadow-inner">
-                   <Loader2 size={40} className="animate-spin text-blue-600 absolute" />
-                   <span className="text-sm font-black text-blue-600 z-10">{progressoIA}%</span>
-                 </div>
-                 <div className="w-full max-w-sm space-y-3 text-center">
-                   <p className="font-black uppercase tracking-widest text-sm text-slate-800 animate-pulse">{statusIA}</p>
-                   <div className="w-full bg-slate-100 h-4 rounded-full border-2 border-black overflow-hidden p-0.5">
-                     <div className="bg-blue-600 h-full rounded-full transition-all duration-500 ease-out" style={{ width: `${progressoIA}%` }} />
-                   </div>
-                   <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Não feche esta tela</p>
-                 </div>
-               </div>
-            ) : modoInput === 'text' ? (
-              <textarea value={textoAuditoria} onChange={(e) => setTextoAuditoria(e.target.value)} placeholder="Digite sua explicação detalhada aqui..." className="w-full h-full bg-slate-50 border-2 border-black rounded-xl p-4 resize-none outline-none focus:ring-4 focus:ring-blue-600/30 text-sm font-bold shadow-inner custom-scrollbar" />
-            ) : (
-              <div className="relative flex-1 flex flex-col items-center justify-center w-full h-full bg-slate-100 rounded-xl border-2 border-black overflow-hidden">
-                <button onClick={toggleCamera} className="absolute top-4 right-4 z-20 bg-white border-2 border-black p-2 rounded-xl shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[2px] hover:shadow-none transition-all flex items-center gap-2">
-                  {cameraOn ? <VideoOff size={14} className="text-red-500" /> : <Video size={14} />}<span className="text-[10px] font-black uppercase">{cameraOn ? 'Desligar Espelho' : 'Ligar Espelho'}</span>
-                </button>
-                <video ref={videoRef} autoPlay muted playsInline className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 z-10 -scale-x-100 ${cameraOn ? 'opacity-100' : 'opacity-0 pointer-events-none'}`} />
-                <div className={`relative flex items-center justify-center transition-opacity duration-300 ${cameraOn ? 'opacity-0' : 'opacity-100'}`}>
-                  <div className="absolute w-48 h-48 border-2 border-black/10 rounded-full" />
-                  <Mic size={64} className="text-black/20 absolute" /><p className="absolute mt-32 text-xs font-bold text-slate-400 uppercase tracking-widest">Apenas Áudio</p>
+        {/* COLUNA 2 (CENTRO): AÇÃO PRINCIPAL */}
+        <div className="order-1 lg:order-2 lg:col-span-6 flex flex-col h-auto lg:h-[calc(100vh-140px)]">
+          <div className="bg-white border-2 border-black rounded-[2rem] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col overflow-hidden flex-1">
+            {processando ? (
+              <div className="flex-1 flex flex-col items-center justify-center p-10 bg-white">
+                <div className="w-full max-w-sm mb-8">
+                  <div className="flex justify-between items-end mb-2">
+                    <h2 className="text-sm font-black text-slate-800 uppercase tracking-widest">A Avaliar Desempenho</h2>
+                    <span className="text-xs font-bold text-blue-600">{progresso}%</span>
+                  </div>
+                  <div className="w-full h-4 bg-slate-100 rounded-full overflow-hidden border border-slate-200 shadow-inner">
+                    <motion.div className="h-full bg-blue-600 rounded-full relative"
+                      initial={{ width: "0%" }} animate={{ width: `${progresso}%` }}
+                      transition={{ ease: "easeInOut", duration: 1.2 }}>
+                      <div className="absolute top-0 right-0 bottom-0 left-0 bg-[linear-gradient(90deg,transparent_0%,rgba(255,255,255,0.3)_50%,transparent_100%)] animate-[shimmer_1.5s_infinite]" />
+                    </motion.div>
+                  </div>
                 </div>
-                {isRecording && (
-                  <div className="absolute top-4 left-4 z-20 flex items-center gap-2 bg-white px-3 py-1.5 rounded-lg border-2 border-black shadow-sm">
-                    <div className={`w-2.5 h-2.5 rounded-full ${isPaused ? 'bg-amber-400' : 'bg-red-500 animate-pulse'}`} />
-                    <span className="text-[10px] font-black uppercase">{isPaused ? 'Pausado' : 'Gravando'}</span>
-                  </div>
-                )}
+                <p className="text-xs font-bold text-slate-500 text-center max-w-sm leading-relaxed animate-pulse">{getLoadingText()}</p>
               </div>
-            )}
-          </div>
-
-          <div className="p-4 bg-slate-200 border-t-2 border-black shrink-0 flex flex-col gap-3">
-            {modoInput === 'audio' && isRecording && (
-              <div className="w-full space-y-1">
-                <div className="flex justify-between text-[10px] font-black tracking-widest text-black px-1"><span>{formatTime(recordingTime)}</span><span>30:00</span></div>
-                <div className="w-full bg-slate-300 h-2.5 rounded-full border border-black overflow-hidden"><div className="bg-blue-600 h-full transition-all duration-1000 ease-linear" style={{ width: `${progressPercentage}%` }} /></div>
-              </div>
-            )}
-            {modoInput === 'text' ? (
-              <button onClick={() => enviarParaAuditoria(textoAuditoria, 'text')} disabled={!textoAuditoria.trim() || isProcessing} className="w-full bg-blue-600 text-white py-4 rounded-xl font-black text-sm uppercase tracking-widest flex items-center justify-center gap-2 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] disabled:bg-slate-300 disabled:text-slate-500 disabled:shadow-none transition-all">
-                <Send size={16} /> Enviar Explicação
-              </button>
             ) : (
-              <div className="flex gap-2">
-                {!isRecording ? (
-                  <button onClick={startRecording} disabled={isProcessing} className="w-full bg-black text-white py-4 rounded-xl font-black text-sm uppercase tracking-widest flex items-center justify-center gap-2 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all">
-                    <Mic size={16} /> Iniciar Explicação
+              <>
+                {/* TABS — áudio em destaque */}
+                <div className="flex border-b-2 border-black shrink-0">
+                  <button onClick={() => setModo('audio')}
+                    className={`flex-[2] p-4 font-black text-[10px] md:text-xs uppercase tracking-widest flex items-center justify-center gap-2 transition-colors ${modo === 'audio' ? 'bg-black text-white' : 'bg-slate-50 text-slate-500 hover:bg-slate-100 hover:text-black'}`}>
+                    <Mic size={16}/> Voz — Análise Profunda
+                    {modo === 'audio' && <span className="ml-1 text-[8px] bg-blue-600 text-white px-1.5 py-0.5 rounded-full">Recomendado</span>}
                   </button>
-                ) : (
-                  <>
-                    <button onClick={isPaused ? resumeRecording : pauseRecording} className={`flex-1 flex items-center justify-center gap-2 py-4 rounded-xl font-black text-sm uppercase tracking-widest border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all ${isPaused ? 'bg-emerald-400 text-black' : 'bg-amber-400 text-black'}`}>
-                      {isPaused ? <Play size={16} /> : <Pause size={16} />}{isPaused ? "Retomar" : "Pausar"}
-                    </button>
-                    <button onClick={stopRecording} className="flex-1 bg-red-500 text-white flex items-center justify-center gap-2 py-4 rounded-xl font-black text-sm uppercase tracking-widest border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all">
-                      <Square size={16} /> Finalizar
-                    </button>
-                  </>
-                )}
-              </div>
+                  <button onClick={() => setModo('texto')}
+                    className={`flex-1 p-4 font-black text-[10px] md:text-xs uppercase tracking-widest flex items-center justify-center gap-2 transition-colors border-l-2 border-black ${modo === 'texto' ? 'bg-black text-white' : 'bg-slate-50 text-slate-400 hover:bg-slate-100 hover:text-black'}`}>
+                    <Type size={16}/> Texto
+                  </button>
+                </div>
+
+                <div className="flex-1 flex flex-col overflow-hidden">
+                  {modo === 'audio' ? (
+                    <div className="flex-1 flex flex-col items-center justify-start p-6 gap-4 overflow-y-auto custom-scrollbar">
+
+                      {/* CONTROLES DE CÂMERA */}
+                      <div className="flex flex-col items-center gap-2 w-full">
+                        <button onClick={toggleEspelho}
+                          className={`border-2 border-black rounded-xl px-5 py-2.5 font-black text-[10px] uppercase tracking-widest shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all active:translate-y-[2px] active:shadow-none flex items-center gap-2 ${espelhoAtivo ? 'bg-blue-100 text-blue-800' : 'bg-white text-slate-700'}`}>
+                          <Camera size={14}/> {espelhoAtivo ? 'Desligar Espelho' : 'Ligar Espelho'}
+                        </button>
+
+                        {/* AVISO: sem gravação de vídeo */}
+                        {espelhoAtivo && (
+                          <div className="flex items-center gap-1.5 bg-blue-50 border border-blue-200 rounded-xl px-3 py-1.5">
+                            <Info size={11} className="text-blue-500 shrink-0" />
+                            <p className="text-[9px] font-bold text-blue-700 leading-tight">
+                              Câmera usada apenas como espelho para apoiar sua explicação — nenhum vídeo é gravado.
+                            </p>
+                          </div>
+                        )}
+                      </div>
+
+                      {/* VIDEO / MIC */}
+                      <div className={`transition-all duration-500 rounded-full flex items-center justify-center overflow-hidden shrink-0 ${espelhoAtivo ? 'w-44 h-44 md:w-52 md:h-52 border-4 border-black shadow-lg bg-black' : 'w-20 h-20'} ${gravando && !espelhoAtivo ? 'bg-red-100 animate-pulse' : 'bg-slate-100'} ${gravando && espelhoAtivo ? 'border-red-500 animate-pulse' : ''}`}>
+                        {espelhoAtivo
+                          ? <video ref={videoRef} autoPlay playsInline muted className="w-full h-full object-cover transform -scale-x-100" />
+                          : <Mic size={36} className={gravando ? 'text-red-600' : 'text-slate-400'} />}
+                      </div>
+
+                      {/* STATUS DE GRAVAÇÃO */}
+                      <p className="text-[10px] font-black uppercase tracking-widest text-slate-500 text-center">
+                        {gravando ? 'Gravando — fale sua aula...' : temTranscricao ? 'Gravação concluída — revise ou envie' : 'Pronto para gravar'}
+                      </p>
+
+                      {/* TRANSCRIÇÃO ACUMULADA (se houver) */}
+                      {temTranscricao && (
+                        <div className="w-full bg-slate-50 border-2 border-slate-200 rounded-2xl p-4 max-h-40 overflow-y-auto custom-scrollbar">
+                          <p className="text-[9px] font-black uppercase tracking-widest text-slate-400 mb-2">Transcrição</p>
+                          <p className="text-xs font-medium text-slate-700 leading-relaxed whitespace-pre-wrap">{textoExplicacao}</p>
+                          {transcricaoInterim && (
+                            <p className="text-xs font-medium text-slate-400 italic mt-1">{transcricaoInterim}</p>
+                          )}
+                        </div>
+                      )}
+
+                      {/* TEXTO INTERIM (sem transcrição ainda) */}
+                      {!temTranscricao && transcricaoInterim && (
+                        <div className="w-full bg-slate-50 border border-dashed border-slate-300 rounded-2xl p-4">
+                          <p className="text-xs font-medium text-slate-400 italic leading-relaxed">{transcricaoInterim}</p>
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <div className="flex-1 p-4 md:p-6 flex flex-col gap-3">
+                      <div className="flex items-start gap-2 bg-amber-50 border border-amber-200 rounded-xl px-3 py-2.5">
+                        <Info size={13} className="text-amber-500 shrink-0 mt-0.5" />
+                        <p className="text-[10px] font-bold text-amber-800 leading-snug">
+                          A explicação por voz gera uma análise cognitiva mais profunda e personalizada.
+                        </p>
+                      </div>
+                      <textarea
+                        value={textoExplicacao}
+                        onChange={e => setTextoExplicacao(e.target.value)}
+                        placeholder="Cole ou edite a transcrição da sua aula aqui..."
+                        className="flex-1 bg-white border-2 border-slate-300 rounded-2xl p-6 outline-none focus:border-black focus:ring-4 focus:ring-blue-500/20 text-sm font-medium text-slate-700 placeholder-slate-400 resize-none transition-all custom-scrollbar"
+                      />
+                    </div>
+                  )}
+                </div>
+
+                {/* BOTÃO PRINCIPAL */}
+                <div className="p-4 md:p-6 border-t-2 border-black bg-white shrink-0">
+                  <button
+                    onClick={modo === 'texto' ? enviarTextoParaAuditoria : botaoAudioClick}
+                    className={`w-full py-5 rounded-xl font-black text-xs md:text-sm uppercase tracking-[0.2em] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:-translate-y-1 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] active:translate-y-[2px] active:shadow-none transition-all flex items-center justify-center gap-3 ${modo === 'audio' ? botaoAudioCor : 'bg-black text-white'}`}>
+                    {modo === 'texto'
+                      ? <><span>ENVIAR AULA</span> <Play size={16}/></>
+                      : <>{gravando ? <MicOff size={16}/> : <Play size={16}/>} <span>{botaoAudioLabel}</span></>}
+                  </button>
+                </div>
+              </>
             )}
           </div>
         </div>
 
-        <div className="w-1/4 bg-[#FFF9C4] rounded-2xl border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col overflow-hidden">
-           <div className="p-4 border-b-2 border-black bg-[#FFF59D] flex items-center justify-between shrink-0">
-             <div className="flex items-center gap-2"><Edit3 size={16} className="text-black" /><h2 className="text-xs font-black uppercase tracking-widest text-black">Rascunho</h2></div>
-           </div>
-           <textarea value={notas} onChange={(e) => setNotas(e.target.value)} placeholder="Use este espaço para fazer suas anotações..." className="flex-1 w-full bg-transparent p-4 resize-none outline-none text-sm font-bold text-slate-800 placeholder-slate-500/50 custom-scrollbar leading-relaxed" />
+        {/* COLUNA 3 (DIREITA): RASCUNHO */}
+        <div className="order-3 lg:col-span-3 bg-[#FEF08A] border-2 border-black rounded-[2rem] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col h-[250px] lg:h-[calc(100vh-140px)] overflow-hidden">
+          <div className="p-4 border-b-2 border-black bg-[#FDE047] flex items-center justify-center gap-2 shrink-0">
+            <PenTool size={16} className="text-yellow-900"/>
+            <span className="font-black text-[10px] md:text-xs uppercase tracking-[0.2em] text-yellow-900">Rascunho de Apoio</span>
+          </div>
+          <textarea value={rascunho} onChange={e => setRascunho(e.target.value)}
+            className="flex-1 p-5 bg-transparent outline-none resize-none font-bold text-[11px] md:text-xs text-yellow-900 placeholder-yellow-700/50 leading-relaxed custom-scrollbar"
+            placeholder="Anotações, atalhos e palavras-chave para guiar a sua explicação..." />
         </div>
+
       </main>
+
+      <style jsx global>{`
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background-color: rgba(0, 0, 0, 0.1); border-radius: 10px; }
+      `}</style>
     </div>
   );
 }

@@ -1,0 +1,521 @@
+{
+  "Mecânica: Cinemática E Dinâmica": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Movimento uniforme e movimento uniformemente variado",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir velocidade média com velocidade instantânea ou tratar aceleração nula como se houvesse variação de velocidade."
+      },
+      {
+        "nome_microtema": "Leitura e interpretação de gráficos e tabelas cinemáticas",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Tomar a inclinação do gráfico como posição em vez de velocidade, ou a área sob o gráfico como aceleração em vez de deslocamento."
+      },
+      {
+        "nome_microtema": "Queda livre e lançamento vertical",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Desconsiderar que, sem resistência do ar, subida e descida têm mesma aceleração em módulo e sentidos opostos."
+      },
+      {
+        "nome_microtema": "Leis de Newton e diagrama de forças",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Achar que força resultante é igual à velocidade ou que forças de ação e reação se anulam no mesmo corpo."
+      },
+      {
+        "nome_microtema": "Atrito, plano inclinado e equilíbrio dinâmico",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Usar o atrito sempre no valor máximo ou esquecer que sua direção depende da tendência de movimento relativo."
+      },
+      {
+        "nome_microtema": "Quantidade de movimento e impulso",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Confundir conservação da quantidade de movimento com conservação de energia mecânica."
+      },
+      {
+        "nome_microtema": "Movimento circular e aceleração centrípeta",
+        "ids_questoes": [],
+        "peso_percentual": 5,
+        "armadilha_favorita": "Supor que a força centrípeta é uma força nova, em vez de uma resultante radial das forças reais."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "O ENEM costuma contextualizar Cinemática e Dinâmica em situações do cotidiano, transporte, esportes, segurança viária, quedas, frenagem e máquinas simples, exigindo interpretação de texto, gráficos e relações causa-efeito. A cobrança privilegia análise qualitativa e semiquantitativa, com distratores plausíveis baseados em erros conceituais clássicos, especialmente confusão entre velocidade e aceleração, força e movimento, e leitura incorreta de gráficos.",
+      "palavras_gatilho": [
+        "velocidade média",
+        "aceleração",
+        "deslocamento",
+        "força resultante",
+        "atrito",
+        "plano inclinado",
+        "queda livre",
+        "gráfico posição-tempo",
+        "gráfico velocidade-tempo",
+        "impulso",
+        "quantidade de movimento",
+        "frenagem",
+        "equilíbrio",
+        "movimento circular"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Energia, Trabalho E Potência": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Trabalho de uma força constante e interpretação do sinal",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir trabalho positivo, negativo e nulo com direção do movimento sem analisar o ângulo entre força e deslocamento."
+      },
+      {
+        "nome_microtema": "Teorema da energia cinética e variação de velocidade",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Achar que força maior sempre implica maior velocidade, ignorando que o que determina a variação é o trabalho resultante."
+      },
+      {
+        "nome_microtema": "Energia potencial gravitacional e conservação da energia mecânica",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Tratar altura, massa e velocidade como independentes sem considerar transformação entre energia potencial e cinética."
+      },
+      {
+        "nome_microtema": "Potência média, potência instantânea e rendimento",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir potência com energia total e rendimento com eficiência absoluta, sem relacionar tempo de execução ao consumo."
+      },
+      {
+        "nome_microtema": "Máquinas simples, plano inclinado e vantagem mecânica",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Supor que reduzir a força necessária reduz também o trabalho total, desconsiderando o aumento do deslocamento."
+      },
+      {
+        "nome_microtema": "Energia dissipada por atrito e transformação em calor",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Interpretar atrito apenas como perda de energia, sem reconhecer que há conversão para energia térmica."
+      },
+      {
+        "nome_microtema": "Gráficos de força versus deslocamento e cálculo do trabalho",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Ler a área sob o gráfico como valor da força ou do deslocamento, em vez de associá-la ao trabalho."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "O ENEM costuma contextualizar energia, trabalho e potência em situações do cotidiano, transporte, esportes, máquinas, consumo elétrico e segurança. A cobrança privilegia interpretação de gráficos, comparação de processos e análise de eficiência, com forte presença de textos curtos e dados numéricos simples. A pegadinha geralmente explora causalidade aparente, como confundir força com trabalho, potência com energia, ou economia de esforço com economia de energia.",
+      "palavras_gatilho": [
+        "rendimento",
+        "consumo de energia",
+        "força resultante",
+        "deslocamento",
+        "altura",
+        "velocidade",
+        "atrito",
+        "área sob o gráfico",
+        "tempo de execução",
+        "transformação de energia"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Termologia E Calorimetria": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Temperatura, escalas termométricas e conversões",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir temperatura com quantidade de calor ou tratar conversão de escalas como proporcionalidade direta sem referência ao zero da escala."
+      },
+      {
+        "nome_microtema": "Dilatação térmica de sólidos e líquidos",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Achar que todo aumento de volume implica aumento de massa ou ignorar a dilatação aparente de líquidos em recipientes."
+      },
+      {
+        "nome_microtema": "Trocas de calor e calor sensível",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Trocar calor por temperatura e aplicar a fórmula sem considerar variação de temperatura, unidade ou sentido da transferência térmica."
+      },
+      {
+        "nome_microtema": "Calor latente e mudanças de estado físico",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Supor que durante a mudança de fase a temperatura varia continuamente, quando na verdade o calor recebido ou cedido altera o estado físico."
+      },
+      {
+        "nome_microtema": "Capacidade térmica e calor específico",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Confundir capacidade térmica com calor específico e não perceber que a mesma energia produz variações diferentes em materiais distintos."
+      },
+      {
+        "nome_microtema": "Equilíbrio térmico e princípio da conservação de energia em calorimetria",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Assumir que o corpo mais quente sempre ‘perde mais calor’ sem analisar massas, materiais e o balanço energético do sistema."
+      },
+      {
+        "nome_microtema": "Propagação do calor: condução, convecção e radiação",
+        "ids_questoes": [],
+        "peso_percentual": 8,
+        "armadilha_favorita": "Misturar os mecanismos de transferência térmica, especialmente atribuindo convecção a sólidos ou condução ao vácuo."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "O ENEM costuma cobrar Termologia e Calorimetria em contextos do cotidiano, saúde, clima, materiais, cozinha, isolamento térmico e fenômenos ambientais, exigindo interpretação de gráficos, tabelas e situações-problema. A banca privilegia raciocínio conceitual e análise de transferência de energia, com distratores que exploram confusão entre temperatura e calor, além de erros em mudança de fase e equilíbrio térmico.",
+      "palavras_gatilho": [
+        "equilíbrio térmico",
+        "mudança de estado",
+        "calor sensível",
+        "calor latente",
+        "dilatação térmica",
+        "isolamento térmico",
+        "transferência de calor",
+        "temperatura",
+        "capacidade térmica",
+        "calor específico"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Óptica Geométrica E Fenômenos Luminosos": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Propagação retilínea da luz, sombra e penumbra",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir a formação de sombra e penumbra com bloqueio total da luz em qualquer situação."
+      },
+      {
+        "nome_microtema": "Espelhos planos: imagem, simetria e campo visual",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Achar que a imagem no espelho plano é real ou que depende da distância do observador ao espelho."
+      },
+      {
+        "nome_microtema": "Espelhos esféricos: foco, vértice, centro de curvatura e formação de imagens",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Trocar imagem real por virtual e inverter o comportamento de convergência/divergência dos espelhos."
+      },
+      {
+        "nome_microtema": "Refração da luz e índice de refração",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Supor que a luz sempre aumenta sua velocidade ao entrar em qualquer meio mais denso."
+      },
+      {
+        "nome_microtema": "Lentes esféricas: convergentes, divergentes e formação de imagens",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Confundir o tipo de lente com o tipo de imagem formada e com a posição do objeto em relação ao foco."
+      },
+      {
+        "nome_microtema": "Fenômenos ópticos: reflexão, refração, absorção, dispersão e cor dos objetos",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Misturar cor percebida com cor emitida e atribuir a dispersão à absorção seletiva."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "O ENEM costuma contextualizar óptica em situações do cotidiano, como espelhos, câmeras, óculos, retrovisores, fibras ópticas, arco-íris e formação de sombras. A cobrança privilegia interpretação de fenômenos, leitura de esquemas e análise causal, com distratores plausíveis baseados em erros de imagem real/virtual, sentido da refração e relação entre posição do objeto e tipo de imagem.",
+      "palavras_gatilho": [
+        "imagem real",
+        "imagem virtual",
+        "foco",
+        "refração",
+        "índice de refração",
+        "espelho plano",
+        "espelho côncavo",
+        "espelho convexo",
+        "lente convergente",
+        "lente divergente",
+        "sombra",
+        "penumbra",
+        "dispersão",
+        "meio mais refringente",
+        "campo visual"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Ondulatória E Acústica": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Grandezas ondulatórias e relação v = λ·f",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir frequência com velocidade da onda, ou concluir que mudar o meio altera a frequência da fonte."
+      },
+      {
+        "nome_microtema": "Propagação de ondas mecânicas e eletromagnéticas",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Achar que toda onda precisa de meio material para se propagar, ignorando a diferença entre ondas mecânicas e eletromagnéticas."
+      },
+      {
+        "nome_microtema": "Fenômenos ondulatórios: reflexão, refração, difração e interferência",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Trocar os efeitos de cada fenômeno, especialmente interpretar difração como refração ou interferência como simples sobreposição sem resultado observável."
+      },
+      {
+        "nome_microtema": "Ondas estacionárias e ressonância",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Supor que a ressonância aumenta a frequência natural do sistema, quando na verdade amplifica a resposta por coincidência de frequências."
+      },
+      {
+        "nome_microtema": "Acústica: intensidade sonora, nível sonoro e escala em decibéis",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Tratar decibel como unidade linear comum e somar intensidades como se o aumento de dB fosse proporcional diretamente à potência."
+      },
+      {
+        "nome_microtema": "Qualidades fisiológicas do som: altura, intensidade e timbre",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir altura com intensidade, atribuindo som grave ou agudo ao volume em vez da frequência."
+      },
+      {
+        "nome_microtema": "Efeito Doppler e aplicações em contexto cotidiano",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Achar que a frequência emitida pela fonte muda com o movimento, quando o que muda para o observador é a frequência percebida."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "O ENEM costuma cobrar Ondulatória e Acústica em situações contextualizadas, com leitura de gráficos, comparação de meios de propagação, análise de fenômenos do cotidiano e interpretação de efeitos sonoros em tecnologia, saúde, comunicação e segurança. A banca privilegia relações causais corretas, evitando fórmulas isoladas e explorando distratores plausíveis que confundem grandezas físicas, percepção humana e fenômenos ondulatórios.",
+      "palavras_gatilho": [
+        "frequência",
+        "comprimento de onda",
+        "velocidade de propagação",
+        "meio material",
+        "intensidade sonora",
+        "decibel",
+        "ressonância",
+        "difração",
+        "interferência",
+        "efeito Doppler",
+        "altura do som",
+        "timbre"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Eletrodinâmica E Circuitos": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Lei de Ohm, resistência elétrica e associação de resistores",
+        "ids_questoes": [],
+        "peso_percentual": 22,
+        "armadilha_favorita": "Confundir resistência equivalente em série e em paralelo, ou tratar corrente e tensão como se variem do mesmo modo em qualquer associação."
+      },
+      {
+        "nome_microtema": "Potência elétrica, consumo de energia e efeito Joule",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Trocar potência por energia consumida ou ignorar que o aquecimento depende de potência dissipada e tempo de uso."
+      },
+      {
+        "nome_microtema": "Corrente elétrica, intensidade de corrente e sentido convencional",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Confundir sentido convencional da corrente com o movimento real dos elétrons ou interpretar corrente como quantidade de carga acumulada."
+      },
+      {
+        "nome_microtema": "Circuitos em série e em paralelo em aplicações cotidianas",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Achar que em paralelo a corrente é igual em todos os ramos ou que em série a tensão é igual em todos os componentes."
+      },
+      {
+        "nome_microtema": "Geradores, receptores e rendimento elétrico",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Tratar toda fonte de energia como ideal e ignorar perdas internas, queda de tensão e rendimento."
+      },
+      {
+        "nome_microtema": "Leitura de gráficos e interpretação de dados em circuitos",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Ler gráfico V x I ou P x t sem identificar a grandeza física correta e sem relacionar inclinação, área ou proporcionalidade."
+      },
+      {
+        "nome_microtema": "Segurança elétrica, curto-circuito e dispositivos de proteção",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir fusível, disjuntor e aterramento, ou achar que curto-circuito aumenta a resistência do circuito."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "O ENEM costuma contextualizar eletrodinâmica em situações do cotidiano, como contas de energia, chuveiro elétrico, lâmpadas, carregadores, eletrodomésticos e segurança residencial. A cobrança privilegia interpretação de relações entre grandezas, análise de gráficos e comparação de alternativas plausíveis, com distratores que misturam corrente, tensão, resistência, potência e energia.",
+      "palavras_gatilho": [
+        "consumo de energia",
+        "potência nominal",
+        "associação em série",
+        "associação em paralelo",
+        "efeito Joule",
+        "resistência equivalente",
+        "corrente elétrica",
+        "queda de tensão",
+        "rendimento",
+        "curto-circuito",
+        "disjuntor",
+        "fusível",
+        "gráfico V x I",
+        "conta de luz"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Eletrostática E Eletromagnetismo": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Carga elétrica, eletrização e conservação da carga",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Confundir eletrização por atrito, contato e indução, ou achar que a carga total do sistema não se conserva."
+      },
+      {
+        "nome_microtema": "Lei de Coulomb e interação entre cargas puntiformes",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Trocar dependência com a distância por dependência linear e ignorar que a força é vetorial e pode ser atrativa ou repulsiva."
+      },
+      {
+        "nome_microtema": "Campo elétrico e linhas de campo",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Confundir campo elétrico com força elétrica, ou interpretar linhas de campo como trajetórias reais das cargas."
+      },
+      {
+        "nome_microtema": "Potencial elétrico, diferença de potencial e energia potencial elétrica",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Misturar potencial com campo elétrico e concluir erroneamente que maior potencial significa maior força."
+      },
+      {
+        "nome_microtema": "Capacitores, associação e armazenamento de energia",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Achar que capacitor armazena carga infinita ou confundir o efeito de associação em série e em paralelo sobre capacitância, carga e ddp."
+      },
+      {
+        "nome_microtema": "Corrente elétrica, resistência e Lei de Ohm",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Tratar corrente como consumo de carga e não como fluxo de cargas, ou aplicar a Lei de Ohm fora do regime ôhmico sem cautela."
+      },
+      {
+        "nome_microtema": "Potência elétrica, efeito Joule e consumo de energia",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Confundir potência com energia total e errar a interpretação do gasto em kWh, especialmente em comparações de aparelhos."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "O ENEM costuma contextualizar eletrostática e eletromagnetismo em situações do cotidiano, tecnologia e segurança elétrica, exigindo interpretação de gráficos, esquemas e relações qualitativas entre grandezas. A banca privilegia raciocínio conceitual, proporcionalidade e análise de causa e efeito, com distratores plausíveis baseados em fórmulas aplicadas de forma mecânica ou em confusões entre campo, força, potencial, corrente e energia.",
+      "palavras_gatilho": [
+        "indução",
+        "campo elétrico",
+        "diferença de potencial",
+        "corrente elétrica",
+        "resistência",
+        "potência",
+        "consumo",
+        "capacitância",
+        "linhas de campo",
+        "efeito Joule",
+        "atração e repulsão",
+        "eletrização"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  },
+  "Física Moderna": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Efeito fotoelétrico e quantização da luz",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir intensidade da luz com energia dos fótons, quando a emissão depende da frequência acima da frequência de corte."
+      },
+      {
+        "nome_microtema": "Modelo atômico de Bohr e níveis de energia",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Achar que o elétron pode emitir energia continuamente, ignorando que as transições ocorrem entre níveis discretos."
+      },
+      {
+        "nome_microtema": "Espectros de emissão e absorção",
+        "ids_questoes": [],
+        "peso_percentual": 15,
+        "armadilha_favorita": "Trocar emissão por absorção e interpretar linhas espectrais como se fossem contínuas ou sem relação com transições eletrônicas."
+      },
+      {
+        "nome_microtema": "Radioatividade e decaimentos nucleares",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Confundir partículas alfa, beta e gama, especialmente seus poderes de penetração, ionização e alteração do número atômico e de massa."
+      },
+      {
+        "nome_microtema": "Meia-vida e lei do decaimento radioativo",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Tratar meia-vida como tempo para a amostra acabar ou como valor fixo independente da quantidade inicial."
+      },
+      {
+        "nome_microtema": "Fissão e fusão nuclear",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Supor que fusão e fissão liberam energia pelo mesmo mecanismo e ignorar a diferença entre núcleos leves e pesados."
+      },
+      {
+        "nome_microtema": "Dualidade onda-partícula e efeito Compton",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Reduzir a luz apenas a onda ou apenas a partícula, sem reconhecer que o comportamento depende do fenômeno observado."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "O ENEM costuma contextualizar Física Moderna em situações do cotidiano, tecnologia, medicina, energia e comunicação, exigindo interpretação de gráficos, textos e esquemas. A cobrança privilegia relações causais corretas, comparação entre modelos clássicos e quânticos, e leitura de consequências físicas sem exigir formalismo matemático pesado.",
+      "palavras_gatilho": [
+        "frequência de corte",
+        "fóton",
+        "níveis de energia",
+        "transição eletrônica",
+        "espectro",
+        "meia-vida",
+        "decaimento",
+        "radiação ionizante",
+        "fissão",
+        "fusão",
+        "dualidade",
+        "comprimento de onda",
+        "energia liberada",
+        "penetração"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  }
+}

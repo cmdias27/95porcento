@@ -1,0 +1,814 @@
+{
+  "Direito Processual Civil": [
+    {
+      "id": "oab_38_51",
+      "materia": "Direito Processual Civil",
+      "assunto": "Audiência de Conciliação ou Mediação (Art. 334, CPC)",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Luiza ajuizou ação de cobrança contra Ricardo. Em sua petição inicial, informou que não possui interesse na realização de audiência de conciliação ou mediação. Ricardo, por sua vez, apresentou manifestação informando que possui interesse na realização da audiência de conciliação ou mediação. Diante do interesse formalizado pelo réu, o juiz competente da causa designou data e local para a realização da audiência. Considerando o caso narrado, Luiza",
+      "alternativas": {
+        "A": "não precisa comparecer a audiencia de conciliação ou mediação, tendo em vista que ja manifestou desinteresse em sua realização na petição inicial.",
+        "B": "não deve comparecer a audiencia de conciliação ou mediação, sob pena de o seu comparecimento representar anuência tácita em compor, obrigando-a a firmar acordo com Ricardo.",
+        "C": "deve comparecer a audiencia de conciliação ou mediação, sob pena de ter seu processo extinto sem resolução do mérito, por falta de interesse processual.",
+        "D": "deve comparecer a audiencia de conciliação ou mediação, e, caso de forma injustificada não compareça, será sancionada com multa, tendo em vista que sua ausência será considerada ato atentatório à dignidade da justiça."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa D está correta. O art. 334, §4°, I, do CPC exige a manifestação de desinteresse de ambas as partes para a não realização da audiência. Como o réu manifestou interesse, a audiência deve ocorrer, e a ausência injustificada do autor configura ato atentatório à dignidade da justiça (art. 334, §8°)."
+    },
+    {
+      "id": "oab_38_52",
+      "materia": "Direito Processual Civil",
+      "assunto": "Depoimento Pessoal e Pena de Confesso",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Arthur e Felipe trabalham juntos na Transportadora Esporte S/A, que realiza campeonatos mensais de futebol entre suas diversas equipes. No último torneio, houve um grande desentendimento, durante o qual Felipe dirigiu numerosas ofensas contra Arthur. Indignado, Arthur ajuizou ação indenizatória em face de Felipe, por meio da qual busca a compensação pelos danos morais decorrentes das ofensas proferidas na presença dos demais colegas de trabalho. Para comprovar a sua versão dos fatos, Arthur requereu o depoimento pessoal de Felipe, que foi deferido pelo juízo de primeiro grau, que o intimou pessoalmente, advertindo-o das consequências legais. Comparecendo à audiência de instrução e julgamento, o réu se recusou a depor, embora intimado pessoalmente e advertido das eventuais consequências legais. Nesse contexto, considerando as normas processuais em vigor, o advogado de Arthur deve requerer",
+      "alternativas": {
+        "A": "a aplicação de multa de até 2% (dois por cento) da vantagem econômica pretendida ou do valor da causa ao réu, uma vez que a recusa caracteriza prática de ato atentatório à dignidade da justiça.",
+        "B": "o regular prosseguimento do feito, sem a imposição de penalidade específica ao réu, que só poderia ser penalizado caso não tivesse comparecido à audiência de instrução e julgamento.",
+        "C": "a condenação do réu por litigância de má-fé, com o pagamento de multa de até 10% (dez por cento) do valor corrigido da causa.",
+        "D": "a aplicação da pena de confesso ao réu, diante de sua recusa a depor."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa D está correta. O art. 385, §1°, do CPC determina que, se a parte, pessoalmente intimada e advertida, recusar-se a depor, o juiz lhe aplicará a pena de confesso."
+    },
+    {
+      "id": "oab_38_53",
+      "materia": "Direito Processual Civil",
+      "assunto": "Dissolução Parcial de Sociedade",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Humberto, em conjunto com seus amigos Paulo e Maria, eram os únicos sócios da Sociedade Incorporadora Ltda. Com o falecimento de Humberto e considerando que nenhum de seus sucessores integrava o quadro societário da Sociedade Incorporadora Ltda., seu espólio ajuizou ação de dissolução parcial da referida sociedade, requerendo a citação apenas de Paulo e Maria. Devidamente citados, Paulo e Maria concordaram com o pedido formulado na ação, pelo que o juiz proferiu sentença decretando a dissolução parcial da sociedade em relação ao espólio de Humberto e condenando Paulo e Maria ao pagamento de honorários advocatícios de sucumbência. Na sentença, o juiz relegou a apuração de haveres da sociedade para a fase subsequente e imediata de liquidação. Diante da situação hipotética acima descrita, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A sentença proferida pelo juiz está contaminada por vício de nulidade, tendo em vista que a Sociedade Incorporadora Ltda. não foi citada para integrar a lide, concordando com o pedido ou contestando a ação.",
+        "B": "Paulo e Maria poderão interpor recurso de apelação contra a sentença, sob o argumento de que, não tendo eles se oposto ao pedido de dissolução parcial da sociedade, descaberia ao juiz condená-los ao pagamento de honorários advocatícios de sucumbência.",
+        "C": "Ainda que não realizada a partilha dos bens de Humberto, seu espólio não possui legitimidade para ajuizar a ação, pois a legitimidade para requerer a dissolução parcial da Sociedade Incorporadora Ltda. é apenas dos sócios remanescentes, Paulo e Maria.",
+        "D": "O juiz não poderia ter determinado a apuração de haveres na fase subsequente e imediata de liquidação, visto ser necessário para a referida a apuração o ajuizamento de ação autônoma, distinta da ação de dissolução parcial de sociedade."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa B está correta. O art. 603, §1°, do CPC prevê que, havendo concordância unânime com a dissolução, não haverá condenação em honorários. A sentença que condenou Paulo e Maria viola esse dispositivo, cabendo apelação."
+    },
+    {
+      "id": "oab_38_54",
+      "materia": "Direito Processual Civil",
+      "assunto": "Gratuidade de Justiça e Honorários de Sucumbência",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Tatiana ingressou com ação de alimentos em face do seu ex-marido José, pleiteando pensão alimentícia no valor mensal de R$ 5.000,00 (cinco mil reais), e gratuidade de justiça que lhe foi concedida. No processo restou comprovado que José estava desempregado e com grave enfermidade, não tendo possibilidade de prestar alimentos. Dessa forma, o pedido de alimentos foi julgado improcedente, sendo Tatiana condenada em honorários de sucumbência equivalentes a 10% sobre o valor da causa. Contudo, por ser beneficiária da gratuidade de justiça, a exigibilidade dos honorários de sucumbência ficou suspensa. Dois anos após o trânsito em julgado da sentença, Tatiana ganhou sorteio lotérico e recebeu um prêmio milionário. Sabendo da atual situação de Tatiana, o advogado de José a procurou para cobrar os honorários de sucumbência fixados na ação de alimentos. Considerando o caso narrado, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O advogado de José poderá cobrar os honorários de sucumbência se, no prazo de 5 anos após o trânsito em julgado da sentença, demonstrar que deixou de existir a situação de insuficiência de recursos que justificou a concessão de gratuidade de justiça para Tatiana.",
+        "B": "Uma vez concedida a gratuidade de justiça, essa não poderá ser revista, razão pela qual o advogado de José não poderá cobrar os honorários de sucumbência.",
+        "C": "Após o trânsito em julgado da sentença não é possível cobrar honorários de sucumbência, ficando o advogado de José impedido de cobrar tal verba.",
+        "D": "O advogado de José poderá cobrar os honorários de sucumbência se, no prazo de 1 ano após o trânsito em julgado da sentença, demonstrar que deixou de existir a situação de insuficiência de recursos que justificou a concessão de gratuidade de justiça para Tatiana."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa A está correta. O art. 98, §3°, do CPC estabelece que as obrigações da sucumbência ficam sob condição suspensiva de exigibilidade por 5 anos, período em que o credor pode demonstrar a cessação da situação de insuficiência de recursos."
+    },
+    {
+      "id": "oab_38_55",
+      "materia": "Direito Processual Civil",
+      "assunto": "Execução para Entrega de Coisa Certa",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Joaquim celebrou com a concessionária Fast Cor Ltda. contrato de compra e venda de veículo, com força de título executivo, em que restou prevista a entrega do automóvel, com indicação de seu valor (R$ 50.000,00), trinta dias após a avença. Não cumprido o contrato, Joaquim ajuizou execução para a entrega de coisa certa em face da referida loja. Citada, a ré não satisfez a obrigação, tendo a ordem de busca e apreensão restado infrutífera, uma vez que o bem não foi encontrado. Na qualidade de advogado(a) de Joaquim indique a providência a ser adotada para que Joaquim seja ressarcido dos danos sofridos.",
+      "alternativas": {
+        "A": "Propor ação de conhecimento para que a ré seja condenada ao pagamento da indenização pelos danos sofridos, na medida em que a ação proposta foi unicamente de execução para entrega de coisa certa.",
+        "B": "Pleitear, no mesmo processo, o recebimento tanto do valor da coisa como de perdas e danos, apurando-se em liquidação os prejuízos.",
+        "C": "Pleitear, no mesmo processo, o recebimento apenas do valor da coisa, sujeitando-se ao arbitramento judicial.",
+        "D": "Ajuizar outra execução, agora por quantia certa, uma vez que possui título executivo extrajudicial."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa B está correta. O art. 809, caput e §2°, do CPC permite que, na própria execução para entrega de coisa, o exequente pleiteie o valor da coisa e perdas e danos, a serem apurados em liquidação."
+    },
+    {
+      "id": "oab_38_56",
+      "materia": "Direito Processual Civil",
+      "assunto": "Recurso Extraordinário sem Repercussão Geral - Agravo Interno",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Rafael ajuizou ação de despejo em face de Luiz, sob o fundamento de que Luiz não teria pago o aluguel do imóvel de sua propriedade nos últimos meses. Em primeira instância, foi proferida sentença que julgou improcedentes os pedidos formulados na petição inicial. Rafael, então, interpôs apelação, a qual foi desprovida pelo tribunal. Posteriormente, Rafael interpôs recurso extraordinário contra o acórdão, alegando violação a uma série de dispositivos constitucionais. Examinando o recurso extraordinário, a vice-presidência do tribunal negou-lhe seguimento, sob o fundamento de que o Supremo Tribunal Federal já havia reconhecido a inexistência de repercussão geral da questão constitucional discutida no referido recurso. Diante do caso narrado, assinale a opção que indica a medida judicial a ser adotada por Rafael.",
+      "alternativas": {
+        "A": "interposição de agravo em recurso extraordinário, para que o Supremo Tribunal Federal examine se o recurso extraordinário preenche ou não seus requisitos de admissibilidade.",
+        "B": "interposição de recurso extraordinário, para que o Supremo Tribunal Federal reexamine a existência de repercussão geral da questão constitucional discutida no recurso.",
+        "C": "interposição de agravo interno, no intuito de demonstrar a distinção entre a questão constitucional discutida no recurso extraordinário e a discutida no recurso no qual o Supremo Tribunal Federal não reconheceu a existência de repercussão geral.",
+        "D": "ajuizamento de reclamação constitucional, tendo em vista que apenas a presidência do tribunal de segunda instância tem competência para examinar o preenchimento dos requisitos de admissibilidade do recurso extraordinário."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa C está correta. O art. 1.030, I, 'a', c/c §2° do CPC prevê que, negado seguimento ao RE por ausência de repercussão geral, cabe agravo interno. O agravo pode demonstrar a existência de distinção (distinguishing) em relação ao precedente."
+    },
+    {
+      "id": "oab_39_51",
+      "materia": "Direito Processual Civil",
+      "assunto": "Parcelamento da Execução (Art. 916, §7º do CPC) - Inaplicabilidade ao Cumprimento de Sentença",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 916, §7º do CPC.",
+      "enunciado": "Stefano Carneiro, após ganhar indenização de R$ 60.000,00 em processo judicial movido em face de Estevão Braga, inicia o cumprimento definitivo de sentença requerendo ao juízo competente que intime o devedor para o pagamento da condenação. No prazo para pagar, Estevão Braga reconhece o débito e solicita ao seu advogado que realize o depósito de trinta por cento do valor da execução, acrescido de custas e de honorários do advogado, e que o restante seja parcelado em seis parcelas mensais, acrescidas de correção monetária e de juros de um por cento ao mês, pois soube que o Código de Processo Civil permite ao devedor o parcelamento nessas condições. Na condição de advogado(a) de Estevão Braga, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O parcelamento pretendido por Estevão é possível, independentemente da aceitação do exequente, pois é um direito do executado.",
+        "B": "O parcelamento pretendido por Estevão é possível, pois o reconhecimento do débito ocorreu dentro no prazo para pagar.",
+        "C": "O parcelamento pretendido por Estevão só é possível antes do início do cumprimento de sentença.",
+        "D": "O parcelamento pretendido por Estevão não se aplica ao cumprimento de sentença."
+      },
+      "gabarito": "D",
+      "comentario": "O art. 916, §7º do CPC é expresso ao afirmar que o parcelamento previsto no caput (depósito de 30% e parcelamento do restante) não se aplica ao cumprimento de sentença. O parcelamento é restrito ao processo de execução fundado em título executivo extrajudicial."
+    },
+    {
+      "id": "oab_39_52",
+      "materia": "Direito Processual Civil",
+      "assunto": "Incidente de Desconsideração da Personalidade Jurídica (Arts. 134, 135, 136)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Arts. 134, 135, 136 do CPC.",
+      "enunciado": "Em determinada demanda judicial cível é proferida sentença de procedência do pedido autoral, com a condenação da sociedade empresária ré ao pagamento de determinado valor a título de reparação por dano material. Com o trânsito em julgado, o autor inicia a fase de cumprimento de sentença e, após alguns meses e diversas tentativas, sem sucesso, de penhora de bens do réu, apresenta requerimento de instauração do incidente de desconsideração da personalidade jurídica. Você, na condição de advogado(a), é procurado(a) pelo réu, buscando saber sobre o incidente em questão. Assinale a opção que apresenta, corretamente, sua orientação.",
+      "alternativas": {
+        "A": "O referido incidente não é cabível no procedimento comum, sendo restrito ao âmbito da execução fiscal de débitos tributários.",
+        "B": "A instauração do mencionado incidente suspende o processo e sua resolução se dá por decisão interlocutória.",
+        "C": "O incidente apontado não é cabível na fase de cumprimento de sentença, por não haver título judicial formado em relação aos sócios cujo patrimônio se busca atingir.",
+        "D": "Instaurado o incidente no caso concreto, os sócios da sociedade ré devem ser intimados para exercício de seu direito de defesa."
+      },
+      "gabarito": "B",
+      "comentario": "O incidente de desconsideração é cabível em todas as fases do processo, incluindo cumprimento de sentença (art. 134, caput). Sua instauração suspende o processo (art. 134, §3º) e é resolvido por decisão interlocutória (art. 136). Os sócios são citados (não apenas intimados - art. 135). A alternativa B está correta."
+    },
+    {
+      "id": "oab_39_53",
+      "materia": "Direito Processual Civil",
+      "assunto": "Tutela de Urgência (Art. 300 do CPC)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 300 do CPC.",
+      "enunciado": "Ademir Leone, servidor público aposentado, atualmente obtém sua maior fonte de renda por meio da compra e venda de ações na bolsa de valores brasileira, tendo em vista a perda do poder econômico de sua aposentadoria. Certo dia, ao tentar comprar ações na bolsa de valores, recebe a notificação de que seu nome havia sido inscrito nos órgãos de proteção ao crédito em razão do inadimplemento das parcelas de um empréstimo firmado com o Banco Prata, e por isso a transação não poderia ser completada, bem como soube que suas ações foram bloqueadas. Incrédulo com tal situação, pois nunca contratou com tal banco, além de temer pelo sustento de sua família, Ademir procurou você, como advogado(a), para saber da possibilidade de limpar seu nome o quanto antes, ajuizando ação judicial, mas sem precisar esperar o fim do processo. Assinale a afirmativa que apresenta, corretamente, a orientação que atende à pretensão do seu cliente,",
+      "alternativas": {
+        "A": "Não existe essa possibilidade no direito brasileiro, o qual pauta-se no contraditório e na ampla defesa, respeitando o devido processo legal, seguindo todas as fases processuais, para que, somente ao final, seja dada uma decisão justa e equânime.",
+        "B": "É possível que seja concedida a tutela de urgência, sendo desnecessário a demonstração de elementos que evidenciem a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo.",
+        "C": "Existe a possibilidade de que seja concedida a tutela de evidência, desde que demonstrado o perigo de dano ou o risco ao resultado útil do processo.",
+        "D": "Há a possibilidade de que seja concedida a tutela de urgência, pois existem elementos que evidenciam a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo."
+      },
+      "gabarito": "D",
+      "comentario": "O art. 300 do CPC exige, para a tutela de urgência, a probabilidade do direito (fumus boni iuris) e o perigo de dano ou risco ao resultado útil do processo (periculum in mora). A inscrição indevida em cadastro de proteção ao crédito (dano iminente) e a inexistência de contrato (probabilidade do direito) autorizam a concessão da tutela de urgência para determinar o cancelamento da inscrição."
+    },
+    {
+      "id": "oab_39_54",
+      "materia": "Direito Processual Civil",
+      "assunto": "Termo inicial da contestação (Art. 335, II do CPC)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Arts. 334, §4º, I e 335, II do CPC.",
+      "enunciado": "Martina ajuizou ação pelo procedimento comum contra Marcela visando à indenização milionária, oportunidade na qual informou na petição inicial que não tinha interesse na audiência de conciliação. Após analisar a petição inicial, o MM. Juízo da 100ª Vara Cível da Comarca de Florianópolis/SC determinou a citação de Marcela para comparecer em audiência de conciliação, na forma do Art. 334 do Código de Processo Civil e, eventualmente, apresentar contestação na forma do Art. 35 do mesmo diploma legislativo. Após tomar conhecimento da ação indenizatória de Martina, Marcela apresentou petição concordando com o pedido de cancelamento da audiência de conciliação e se reservando o direito de apresentar contestação no prazo legal. Considerando que foram prestadas todas as informações e apresentados todos os documentos necessários para a elaboração da contestação, a ser apresentada no prazo de 15 dias, assinale a opção que indica o momento em que se inicia a contagem desse prazo.",
+      "alternativas": {
+        "A": "Da juntada nos autos do aviso de recebimento positivo do seu mandado de citação por correios",
+        "B": "Da publicação da decisão do MM. Juízo da 100ª Vara Cível da Comarca de Florianópolis/SC que cancelar a audiência de conciliação agendada no despacho citatório.",
+        "C": "Do ato de protocolar o pedido de cancelamento da audiência de conciliação formulado por Marcela.",
+        "D": "Da audiência de conciliação, uma vez que o Código de Processo Civil obriga a realização desse ato processual, o qual não poderá ser cancelado por despacho do MM. Juízo da 100ª Vara Cível da Comarca de Florianópolis/SC."
+      },
+      "gabarito": "C",
+      "comentario": "Nos termos do art. 335, II do CPC, o termo inicial do prazo para contestação será a data do protocolo do pedido de cancelamento da audiência de conciliação ou de mediação apresentado pelo réu, quando ocorrer a hipótese do art. 334, §4º, I (ambas as partes manifestarem desinteresse). Como o autor já havia manifestado desinteresse na inicial, o pedido de cancelamento do réu deflagra o prazo."
+    },
+    {
+      "id": "oab_39_55",
+      "materia": "Direito Processual Civil",
+      "assunto": "Ação de Exigir Contas (Arts. 550, 551, §6º)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Arts. 550, 551, §6º do CPC.",
+      "enunciado": "Samuel ajuizou ação de exigir contas contra Maria, requerendo sua citação para que as preste ou ofereça contestação, no prazo de 15 (quinze) dias úteis. Em sua petição inicial, Samuel alegou que, por força de contrato de mandato, teria confiado a administração de recursos próprios a Maria, que, no entanto, não prestou regularmente contas de forma extrajudicial, conforme entre si acordado. Em que pese Maria tenha oferecido contestação à ação, o juiz julgou procedente o pedido, condenando Maria a prestar as contas, no prazo de 15 (quinze) dias úteis. Sobre a situação hipotética descrita, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Caso Maria deixe de prestar as contas no prazo assinalado de 15 (quinze) dias úteis, Samuel será intimado a apresentá-las, não podendo o juiz determinar a realização de perícia para a sua certificação.",
+        "B": "Ainda que Maria deixe de prestar as contas no prazo assinalado de 15 (quinze) dias úteis, lhe será lícito impugnar as contas que venham a ser apresentadas por Samuel.",
+        "C": "Maria poderá interpor recurso de apelação contra a sentença, ao fundamento de que o prazo previsto em lei para a prestação de contas é de 30 (trinta), e não 15 (quinze) dias úteis, como assinalado pelo juiz.",
+        "D": "Caso Maria venha a prestar as contas, deverá fazê-lo no prazo de 15 (quinze) dias úteis assinalado pelo juiz e de forma adequada, especificando-se as receitas, a aplicação das despesas e os investimentos, se houver."
+      },
+      "gabarito": "D",
+      "comentario": "O art. 551 do CPC estabelece que as contas devem ser apresentadas de forma adequada, especificando receitas, despesas e investimentos. O prazo para apresentação das contas na ação de exigir contas, após condenação, é de 15 dias (art. 550, §5º). O não cumprimento acarreta preclusão para o réu (art. 550, §5º - 'sob pena de não lhe ser lícito impugnar as que o autor apresentar'). O juiz pode determinar perícia (art. 550, §6º)."
+    },
+    {
+      "id": "oab_39_56",
+      "materia": "Direito Processual Civil",
+      "assunto": "Homologação de Sentença Arbitral Estrangeira (Art. 960, §3º)",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 960, §3º do CPC.",
+      "enunciado": "A General Food é uma reconhecida sociedade empresária britânica do ramo de alimentos presidida, desde 2018, pelo brasileiro Rodrigo Bottas. Em 2021, o jornal 'Folha de Londres' publicou uma série de reportagens apontando irregularidades na gestão de Rodrigo Bottas, que foi imediatamente afastado da sociedade empresária. Ato contínuo, a General Food investigou as irregularidades suscitadas pelo jornal e, após confirmá-las, instaurou arbitragem na Inglaterra para obter indenização pelos prejuízos causados por seu antigo executivo. Após regular participação de Rodrigo Bottas no referido procedimento, o Tribunal Arbitral proferiu sentença julgando procedente o pedido indenizatório da General Food. Como Rodrigo Bottas não tinha bens na Inglaterra, a General Food procurou um(a) advogado(a) para buscar informações sobre a possibilidade de executar a sentença arbitral estrangeira no Brasil. Na qualidade de advogado(a) da General Food, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A General Food deverá ajuizar ação de execução contra Rodrigo Bottas, uma vez que a sentença arbitral estrangeira é título executivo judicial.",
+        "B": "A General Food deverá instaurar arbitragem contra Rodrigo Bottas, uma vez que não são admissíveis a homologação e a execução de sentença arbitral estrangeira no Brasil.",
+        "C": "A General Food deverá ajuizar ação indenizatória contra Rodrigo Bottas, uma vez que não são possíveis a homologação e a execução de sentença arbitral estrangeira no Brasil.",
+        "D": "A General Food deverá apresentar pedido de homologação da sentença arbitral estrangeira contra Rodrigo Bottas antes de executar a referida decisão no Brasil."
+      },
+      "gabarito": "D",
+      "comentario": "O art. 960, §3º do CPC dispõe que a homologação de decisão arbitral estrangeira obedecerá ao disposto em tratado e em lei, aplicando-se subsidiariamente as disposições do capítulo. A sentença arbitral estrangeira não produz efeitos no Brasil sem prévia homologação pelo STJ (art. 105, I, 'i', CF e art. 216-A do RISTJ), tornando-se então título executivo judicial (art. 515, VII, CPC)."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_38",
+      "materia": "Direito Processual Civil",
+      "assunto": "Impenhorabilidade do bem de família",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Joana trabalhou por 15 anos como empregada doméstica na residência de Alzira, um imóvel de 60 metros quadrados, herdado de seu falecido pai. Durante todo esse período, Joana percebeu salários mensais, tal como acordado, porém nunca recebeu as verbas referentes às férias e ao décimo terceiro salário, bem como nunca teve as contribuições previdenciárias devidamente recolhidas. Depois da rescisão contratual, Joana promoveu a ação trabalhista, visando receber as verbas devidas e não pagas, tendo seus direitos reconhecidos por sentença transitada em julgado. Não obstante, o pagamento das verbas não foi realizado e, fato seguinte, foi promovida a execução, momento em que Joana, representada por seu advogado, diante do não pagamento e da inexistência de outros bens, requereu a penhora do imóvel residencial de Alzira. Ante a hipótese narrada, considerando que o imóvel residencial de Alzira é o único que ela possui, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O imóvel é impenhorável, mas os bens móveis que o guarnecem são penhoráveis, independentemente do valor dos mesmos.",
+        "B": "O imóvel é impenhorável, bem como são impenhoráveis os móveis que guarnecem a casa, exceto as obras de arte e os adornos suntuosos.",
+        "C": "O imóvel na execução promovida por Joana é, em qualquer hipótese, penhorável.",
+        "D": "O imóvel, na execução promovida por Joana, é penhorável, desde que comprovada a má-fé da devedora."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A alternativa A está incorreta, pois, em regra, são impenhoráveis os móveis que guarnecem a casa, exceto as obras de arte e os adornos suntuosos. Dispõe o art. 2º da Lei nº 8.009/90: “Art. 2º Excluem-se da impenhorabilidade os veículos de transporte, obras de arte e adornos suntuosos”. A alternativa B está correta. Na situação hipotética narrada, o imóvel residencial de Alzira é impenhorável, nos termos do art. 1º, caput, da Lei nº 8.009/90: “Art. 1º O imóvel residencial próprio do casal, ou da entidade familiar, é impenhorável e não responderá por qualquer tipo de dívida civil, comercial, fiscal, previdenciária ou de outra natureza, contraída pelos cônjuges ou pelos pais ou filhos que sejam seus proprietários e nele residam, salvo nas hipóteses previstas nesta lei”. De acordo com o art. 1º, parágrafo único, da Lei nº 8.009/90 também são impenhoráveis os móveis que guarnecem a casa: “A impenhorabilidade compreende o imóvel sobre o qual se assentam a construção, as plantações, as benfeitorias de qualquer natureza e todos os equipamentos, inclusive os de uso profissional, ou móveis que guarnecem a casa, desde que quitados”. Contudo, não estão alcançados pelo regime de impenhorabilidade legal, nos termos do art. 2º da Lei nº 8.009/90, “os veículos de transporte, obras de arte e adornos suntuosos”, que poderão ser penhorados para o pagamento das dívidas do titular. As alternativas C e D estão incorretas, pois o imóvel residencial de Alzira é impenhorável, nos termos do art. 1º, caput, da Lei nº 8.009/90: “Art. 1º O imóvel residencial próprio do casal, ou da entidade familiar, é impenhorável e não responderá por qualquer tipo de dívida civil, comercial, fiscal, previdenciária ou de outra natureza, contraída pelos cônjuges ou pelos pais ou filhos que sejam seus proprietários e nele residam, salvo nas hipóteses previstas nesta lei”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_51",
+      "materia": "Direito Processual Civil",
+      "assunto": "Tutela Cautelar Antecedente",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Aline recebeu uma proposta de investimento de Gizé Ltda., instituição que atua no mercado financeiro, que lhe garantiria um retorno fixo mensal de 10% ao mês sobre o capital investido. Crendo tratar-se de um ótimo negócio, Aline transferiu R$ 500.000,00 (quinhentos mil reais) para a conta da Gizé Ltda., que passou a lhe apresentar extratos mensais, apontando um suposto crescimento do capital. Entretanto, alguns meses depois, foi divulgado em um importante veículo de comunicação que a Gizé Ltda. estava sendo investigada pela prática de pirâmide financeira. Muito nervosa, Aline tentou contato telefônico com a instituição, sem sucesso. Depois de inúmeros e-mails, Aline decidiu ir ao estabelecimento onde funcionava a Gizé Ltda., mas encontrou o imóvel abandonado. Constatando tratar-se de um golpe, Aline, por meio de advogado(a), decidiu ajuizar pedido de tutela cautelar em caráter antecedente, com o objetivo de efetivar o arresto de R$ 500.000,00 (quinhentos mil reais), antes de formular o pedido principal, de rescisão do contrato, com devolução do valor depositado, cobrança dos rendimentos contratados e indenização pelos danos morais sofridos. Sobre essa modalidade de tutela provisória, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Sendo deferida a tutela cautelar antecedente requerida por Aline, ela deverá ser efetivada no prazo de 60 (sessenta) dias, sob pena de perda da eficácia da tutela cautelar concedida.",
+        "B": "Sendo efetivada a tutela cautelar antecedente requerida por Aline, o pedido principal deverá ser formulado no prazo de 15 (quinze) dias, sob pena de perda da eficácia da tutela cautelar concedida.",
+        "C": "Se o pedido principal formulado por Aline for julgado improcedente, haverá a perda da eficácia da tutela cautelar concedida.",
+        "D": "Se houver a perda da eficácia da tutela cautelar antecedente, tal pedido poderá ser renovado posteriormente, com base nos mesmos fundamentos."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata das tutelas cautelares no processo civil. A alternativa A está incorreta, pois, na verdade, o prazo para a efetivação da tutela cautelar antecedente é de 30 dias. Isso está expresso no seguinte dispositivo do CPC: “Art. 309. Cessa a eficácia da tutela concedida em caráter antecedente, se: [...] II - não for efetivada dentro de 30 (trinta) dias”. A alternativa B está incorreta. Uma vez efetivada a tutela cautelar, a parte autora possui o prazo de 30 dias para realizar a formulação do pedido principal, sob pena de perda de eficácia da medida em questão. Isso pode ser encontrado no art. 308 do CPC: “Efetivada a tutela cautelar, o pedido principal terá de ser formulado pelo autor no prazo de 30 (trinta) dias, caso em que será apresentado nos mesmos autos em que deduzido o pedido de tutela cautelar, não dependendo do adiantamento de novas custas processuais”. A alternativa C está correta. A tutela cautelar, também denominada de “conservativa”, tem o intuito específico de garantir o resultado útil do processo. No caso específico do enunciado, ela foi utilizada para impedir que o devedor alienasse todos os seus bens e, assim, frustrasse a efetividade de um eventual e futuro cumprimento de sentença ajuizado pela parte autora. Em razão disso, é natural que a tutela cautelar concedida (nesse caso, o arresto) só perdure enquanto o pedido principal não seja julgado, e, se houver o seu julgamento de improcedência, a referida tutela irá perder a sua eficácia. Esse regramento está exposto no seguinte dispositivo do CPC: “Art. 309. Cessa a eficácia da tutela concedida em caráter antecedente, se: [...] III - o juiz julgar improcedente o pedido principal formulado pelo autor ou extinguir o processo sem resolução de mérito”. A alternativa D está incorreta. Ocorrendo a perda da eficácia da tutela cautelar antecedente, o pedido poderá vir a ser renovado pela própria parte, mas desde que isso seja feito com base em um fundamento novo, como prevê o parágrafo único do art. 309 do CPC: “Se por qualquer motivo cessar a eficácia da tutela cautelar, é vedado à parte renovar o pedido, salvo sob novo fundamento”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_52",
+      "materia": "Direito Processual Civil",
+      "assunto": "Procuração e atos urgentes",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Júlio, advogado ainda inexperiente, preocupado com a possibilidade de perder o prazo para oferecer contestação em favor de Roberta, sua cliente que está viajando, indaga a você se ele deve esperar o retorno de Roberta, que esqueceu de fornecer procuração. Diante desse cenário, assinale a afirmativa que, corretamente, apresenta sua orientação.",
+      "alternativas": {
+        "A": "Júlio pode oferecer contestação, independentemente de procuração, desde que junte o instrumento aos autos no prazo de 15 dias, a fim de evitar preclusão.",
+        "B": "Júlio pode oferecer contestação, independentemente de instrumento de mandato, apenas se a parte contrária concordar.",
+        "C": "Júlio deve aguardar o retorno de Roberta, tendo em vista que o advogado não será admitido a postular em juízo sem procuração.",
+        "D": "Júlio, caso os direitos tratados em juízo sejam disponíveis, pode oferecer contestação mesmo que desacompanhada de procuração e, caso os mencionados direitos estejam indisponíveis, ele deve aguardar o retorno de Roberta, tendo em vista que, nesse caso, o advogado não será admitido a postular em juízo sem procuração."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do instrumento de procuração no processo civil. A alternativa A está correta. Como regra, o advogado não poderá realizar postulação em juízo sem a apresentação do instrumento de procuração, pois, nesse caso, a sua capacidade postulatória não estará devidamente comprovada. Todavia, essa regra não é absoluta, tendo em vista que a própria legislação admite que o advogado, mesmo sem o instrumento de procuração, atue em juízo para evitar preclusão, decadência ou prescrição, ou, ainda, para praticar um ato considerado urgente. Nessas situações, ele deverá apresentar a procuração no prazo de 15 dias, o qual ainda poderá ser prorrogado pelo magistrado da causa. Todo esse regramento está inserido no próprio CPC, como se vê dos dispositivos a seguir: “Art. 104. O advogado não será admitido a postular em juízo sem procuração, salvo para evitar preclusão, decadência ou prescrição, ou para praticar ato considerado urgente. §1º Nas hipóteses previstas no caput, o advogado deverá, independentemente de caução, exibir a procuração no prazo de 15 (quinze) dias, prorrogável por igual período por despacho do juiz”. Portanto, considerando que, no caso concreto apresentado pelo enunciado, existia a possibilidade de ocorrência de preclusão, o advogado em questão estava autorizado a atuar em nome da sua cliente mesmo sem contar com um instrumento de procuração outorgado em seu favor. Nessa situação, ele deverá apresentar a procuração posteriormente, dentro do prazo de 15 dias, salvo prorrogação por igual período pelo juiz. A alternativa B está incorreta. Conforme comentários da alternativa A. A alternativa C está incorreta. Conforme comentários da alternativa A. A alternativa D está incorreta. Conforme comentários da alternativa A."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_53",
+      "materia": "Direito Processual Civil",
+      "assunto": "Prazos processuais e intimação eletrônica",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Na qualidade de servidor público estadual, Marcos ajuizou ação pelo procedimento comum contra o Estado de Minas Gerais, buscando obter o pagamento de determinada verba remuneratória que lhe teria sido suprimida de forma administrativa, em contrariedade ao que dispõe a lei. Depois da citação do Estado de Minas Gerais e do regular curso do feito, o juiz responsável pela tramitação da ação julgou procedente o pedido formulado por Marcos, condenando o ente estatal ao pagamento da verba remuneratória. Na sequência, o cartório da serventia do juízo procedeu à intimação eletrônica das partes acerca da sentença, visto tratar-se de processo eletrônico. Sobre a situação hipotética descrita, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "O prazo de que disporá o Estado de Minas Gerais para a interposição de eventual recurso de apelação será de 15 (quinze) dias úteis, contados do dia útil seguinte à consulta ao teor da intimação ou ao término do prazo para que a consulta se dê, dado que a intimação da sentença ocorreu de forma eletrônica, não devendo o prazo ser contado em dobro.",
+        "B": "O Estado de Minas Gerais poderá alegar a nulidade da intimação, visto não ser lícita a utilização de meio eletrônico para a comunicação de atos processuais, sendo imprescindível a intimação pessoal do ente estatal, que somente se pode dar por carga ou remessa dos autos.",
+        "C": "Caso o Estado de Minas Gerais tivesse interposto apelação antes de intimado eletronicamente da sentença, o recurso haveria de ser considerado intempestivo, por ter sido apresentado antes do termo inicial do prazo.",
+        "D": "Caso vislumbre omissão, contradição, obscuridade ou erro material na sentença, o Estado de Minas Gerais poderá opor embargos de declaração, no prazo de 10 (dez) dias úteis, considerando, como início do prazo, o dia útil seguinte à consulta ao teor da intimação ou ao término do prazo para que a consulta se dê, dado que gozará de prazo em dobro para todas as suas manifestações processuais."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata dos recursos no processo civil. A alternativa A está incorreta. Em regra, o prazo para a apresentação do recurso de apelação é de 15 dias úteis (art. 1.003, §5º, CPC), logo, o Estado de Minas Gerais fará jus ao prazo de 30 dias úteis, tendo em vista que, por disposição expressa da legislação processual civil, os entes federativos e as demais pessoas jurídicas de direito público possuem prazo em dobro para todas as suas manifestações processuais (art. 183, caput, CPC). Destaque-se que essa regra é aplicável de maneira indistinta ao processo físico e ao processo eletrônico, razão pela qual a alternativa em questão está incorreta. A alternativa B está incorreta. Os entes públicos possuem, de fato, a prerrogativa de intimação pessoal, mas essa intimação não precisa ser efetuada exclusivamente por carga ou remessa, pois o CPC também autoriza a utilização do meio eletrônico para tal finalidade (art. 183, §1º). A alternativa C está incorreta. Na época do CPC/73, havia um entendimento jurisprudencial afirmando que o ato praticado antes do termo inicial do prazo deveria ser considerado intempestivo. Todavia, esse entendimento já não mais se sustenta, tendo em vista que o atual CPC, em seu art. 218, §4º, estabeleceu expressamente que deve ser considerado tempestivo o ato praticado antes do termo inicial do prazo, de modo que a alternativa está incorreta. A alternativa D está correta. Considerando que o prazo geral para os embargos de declaração é de 5 dias úteis (art. 1.023, CPC) e que os entes públicos gozam de prazo em dobro para todas as suas manifestações processuais (art. 183, CPC), podemos concluir que, de fato, o Estado de Minas Gerais terá o prazo de 10 dias úteis para a apresentação dos seus embargos de declaração, o que, até este ponto, torna a alternativa correta. Quanto ao termo inicial do prazo, a alternativa também está correta, pois reproduz a literalidade do seguinte dispositivo do CPC: “Art. 231. Salvo disposição em sentido diverso, considera-se dia do começo do prazo: [...] V - o dia útil seguinte à consulta ao teor da citação ou da intimação ou ao término do prazo para que a consulta se dê, quando a citação ou a intimação for eletrônica”. Portanto, o Estado de Minas Gerais poderá, sim, apresentar seus embargos de declaração no prazo de 10 dias úteis, contados do dia útil seguinte à consulta ao teor da intimação ou ao término do prazo para que a consulta se dê."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_54",
+      "materia": "Direito Processual Civil",
+      "assunto": "Ato atentatório à dignidade da justiça na execução",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "O engenheiro civil José Carlos Silva trabalha em Aracaju/SE. Ele realizou a reforma da casa de Luzia, no valor de R$ 15.000,00 (quinze mil reais). O serviço foi devidamente prestado, sem qualquer reclamação por eventuais falhas por parte de Luzia. Contudo, Luzia não efetuou o pagamento no prazo estipulado. José Carlos procurou Luzia para resolver o pagamento da dívida sem buscar o Poder Judiciário e, após diversas tratativas, Luzia assinou um documento particular em que reconhece a dívida de R$ 15.000,00 (quinze mil reais). O referido instrumento também foi assinado por duas testemunhas. Porém, no prazo estipulado para cumprimento da obrigação, Luzia não efetuou o pagamento e José Carlos ajuizou uma execução de título extrajudicial em face de Luzia. Depois da citação e da ausência do pagamento de Luzia, José Carlos pede ao Juiz que Luzia indique bens sujeitos à penhora, sob pena de multa, pois caso não indique, sua conduta poderá ser considerada atentatória à dignidade da justiça. Sobre o requerimento de José Carlos, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "José Carlos não poderá efetuar esse requerimento, pois não é possível o arbitramento de multa caso Luzia não indique bens sujeitos à penhora.",
+        "B": "José Carlos poderá efetuar esse requerimento, sendo considerada atentatória à dignidade da justiça conduta comissiva ou omissiva da executada que intimada, não indica ao juiz quais são e onde estão os bens sujeitos à penhora e os respectivos valores, nem exibe prova de sua propriedade e, se for o caso, a certidão negativa de ônus.",
+        "C": "José Carlos poderá efetuar esse requerimento, sendo possível o arbitramento de multa superior a 30% do valor atualizado da execução, mas não poderá ocorrer nenhuma outra sanção de natureza processual ou material em face da executada.",
+        "D": "José Carlos não poderá efetuar esse requerimento, pois é sua obrigação indicar os bens possíveis de penhora de Luzia."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata do ato atentatório à dignidade da justiça no curso da execução de título extrajudicial. A alternativa A está incorreta. Como comentado na alternativa B, a aplicação de multa por ato atentatório à dignidade da justiça é possível caso Luzia, devidamente intimada para essa finalidade, não indique seus bens sujeitos à penhora, conforme prevê o art. 774 do CPC. A alternativa B está correta. No curso do processo de execução de título extrajudicial, a parte exequente pode requerer ao juiz que intime o executado para indicar os seus bens eventualmente sujeitos à penhora, bem como os seus respectivos valores. Caso essa obrigação não seja cumprida, o ato do executado será considerado atentatório à dignidade da justiça e, consequentemente, ficará sujeito a uma multa não superior a 20% do valor atualizado do débito em execução. Essa sistemática está no art. 774 do CPC: “Considera-se atentatória à dignidade da justiça a conduta comissiva ou omissiva do executado que: [...] V - intimado, não indica ao juiz quais são e onde estão os bens sujeitos à penhora e os respectivos valores, nem exibe prova de sua propriedade e, se for o caso, certidão negativa de ônus. Parágrafo único. Nos casos previstos neste artigo, o juiz fixará multa em montante não superior a vinte por cento do valor atualizado do débito em execução, a qual será revertida em proveito do exequente, exigível nos próprios autos do processo, sem prejuízo de outras sanções de natureza processual ou material”. Com base nisso, percebemos que o requerimento formulado por José Carlos encontra total amparo na legislação processual civil e que, se for desrespeitado por Luzia, irá resultar nas penas estabelecidas no parágrafo único acima citado. A alternativa C está incorreta. Como já mencionado na alternativa B, a configuração do ato atentatório à dignidade da justiça poderá resultar na aplicação de uma multa, mas o seu montante não poderá exceder 20% do valor atualizado do débito em execução (art. 774, parágrafo único, CPC). A alternativa D está incorreta. Conforme comentários da alternativa B."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_55",
+      "materia": "Direito Processual Civil",
+      "assunto": "Recursos: Apelação e Embargos de Declaração",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Felipe propôs ação de reparação de danos contra Gustavo fundada em responsabilidade extracontratual, em razão de Felipe ter sido atacado pelo cachorro de Gustavo, enquanto transitava pela rua perto de sua casa. Em primeira instância, os pedidos formulados por Felipe em sua petição inicial foram julgados totalmente procedentes. Depois da publicação da sentença de procedência, Gustavo interpôs apelação para buscar a reforma integral da sentença. Simultaneamente, Felipe opôs embargos de declaração contra a sentença para obter a majoração dos honorários de sucumbência, considerando que não foi fixado o percentual mínimo previsto no Art. 85, §2º, do Código de Processo Civil. Sobre essa situação hipotética, assinale a afirmativa que apresenta, corretamente, a conduta que você, como advogado(a) do embargado, deverá adotar.",
+      "alternativas": {
+        "A": "Apresentar nova apelação após o julgamento dos embargos de declaração opostos por Felipe, independentemente do resultado do julgamento dos embargos de declaração.",
+        "B": "Complementar ou alterar as razões de apelação, se houver o acolhimento dos embargos de declaração opostos por Felipe.",
+        "C": "Ratificar as razões de sua apelação após o julgamento dos embargos opostos por Felipe, sob pena de não conhecimento do recurso de apelação.",
+        "D": "Apresentar nova apelação após o julgamento dos embargos de declaração opostos por Felipe se os embargos de declaração forem acolhidos."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata dos recursos no processo civil. A alternativa A está incorreta. Conforme comentários da alternativa B. A alternativa B está correta. No caso concreto narrado pelo enunciado, percebemos que Felipe interpôs o seu recurso de apelação antes do julgamento dos embargos de declaração apresentados pela parte contrária. Nessa situação, é possível que a decisão recorrida (sentença de primeiro grau) venha a ser alterada pelos embargos de declaração, o que terá o condão de influenciar aquela apelação anteriormente apresentada, razão pela qual os §§4º e 5º do art. 1.024 do CPC estabelecem o seguinte: “§4º Caso o acolhimento dos embargos de declaração implique modificação da decisão embargada, o embargado que já tiver interposto outro recurso contra a decisão originária tem o direito de complementar ou alterar suas razões, nos exatos limites da modificação, no prazo de 15 (quinze) dias, contado da intimação da decisão dos embargos de declaração. §5º Se os embargos de declaração forem rejeitados ou não alterarem a conclusão do julgamento anterior, o recurso interposto pela outra parte antes da publicação do julgamento dos embargos de declaração será processado e julgado independentemente de ratificação”. Portanto, se os embargos de declaração forem acolhidos e resultarem na modificação da decisão recorrida, o advogado de Felipe terá a oportunidade de complementar ou alterar as razões do recurso de apelação já anteriormente apresentado, desde que nos exatos limites da modificação da decisão em questão. Por outro lado, se os embargos forem rejeitados ou não alterarem a decisão recorrida, a apelação já interposta será processada e julgada independentemente de qualquer ratificação. É necessário destacar que, em caso de modificação da decisão recorrida, não haverá o direito à apresentação de um novo recurso de apelação por parte do advogado de Felipe, mas, sim, de meras complementações ou alterações do recurso já anteriormente interposto, para que não seja violado o princípio da unirrecorribilidade. A alternativa C está incorreta. Conforme comentários da alternativa B. A alternativa D está incorreta. Conforme comentários da alternativa B."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_56",
+      "materia": "Direito Processual Civil",
+      "assunto": "Recursos Especiais Repetitivos - Agravo Interno",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Leonardo adquiriu uma televisão na Loja Francesa pelo valor de R$ 12.000,00 (doze mil reais), quantia que seria paga por meio de cartão de crédito em 12 (doze) parcelas de R$ 1.000,00. Ocorre que, após o pagamento da 6ª (sexta) parcela, a Loja Francesa passou a cobrar R$ 2.000,00 (dois mil reais) de Leonardo nas 6 (seis) parcelas restantes. Por ter constatado a cobrança indevida somente depois de realizar o pagamento integral, Leonardo ajuizou ação pelo procedimento comum em face da Loja Francesa para ser ressarcido em dobro pelo valor indevidamente cobrado na forma do Art. 42, parágrafo único, do Código de Defesa do Consumidor. Depois da contestação e regular instrução, o Juízo da Vara Cível competente proferiu sentença julgando procedente o pedido de Leonardo, com a consequente condenação da Loja Francesa ao pagamento de R$12.000,00, acrescido de correção monetária e juros legais. Ato contínuo, a Loja Francesa interpôs recurso de apelação, que foi desprovido pelo Tribunal de Justiça. Em seguida, a Loja Francesa interpôs recurso especial, porém intempestivamente. Como existiam inúmeros recursos sobre a admissibilidade da devolução em dobro em caso de cobrança indevida contra o consumidor, com fundamento no Art. 42, parágrafo único, do Código de Defesa do Consumidor, essa controvérsia jurídica foi afetada para o rito do julgamento dos recursos repetitivos e implicou o sobrestamento do recurso especial da Loja Francesa. Ato contínuo, Leonardo requereu que o recurso especial da Loja Francesa não fosse sobrestado, uma vez que era intempestivo. Embora intempestivo o recurso, o referido requerimento foi indeferido. Na condição de advogado(a) de Leonardo, assinale a opção que indica o recurso cabível para alterar essa decisão.",
+      "alternativas": {
+        "A": "Não será possível interpor qualquer recurso, pois é irrecorrível a decisão que indefere o requerimento de exclusão de sobrestamento do recurso especial impactado pelo procedimento dos recursos especiais repetitivos.",
+        "B": "Reclamação, pois é irrecorrível a decisão que indefere o requerimento de exclusão de sobrestamento do recurso especial impactado pelo procedimento dos recursos especiais repetitivos.",
+        "C": "Ação rescisória, pois é irrecorrível a decisão que indefere o requerimento de exclusão de sobrestamento do recurso especial impactado pelo procedimento dos recursos especiais repetitivos.",
+        "D": "Agravo interno, pois esse é o recurso cabível contra a decisão que indefere o requerimento de exclusão de sobrestamento do recurso especial impactado pelo procedimento dos recursos especiais repetitivos."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata dos recursos especiais repetitivos no âmbito do processo civil. A alternativa A está incorreta. Conforme comentários da alternativa D. A alternativa B está incorreta. Conforme comentários da alternativa D. A alternativa C está incorreta. Conforme comentários da alternativa D. A alternativa D está correta. Para encontrar a resposta da questão, é necessário ter conhecimento dos seguintes dispositivos do CPC: “Art. 1.036. Sempre que houver multiplicidade de recursos extraordinários ou especiais com fundamento em idêntica questão de direito, haverá afetação para julgamento de acordo com as disposições desta Subseção, observado o disposto no Regimento Interno do Supremo Tribunal Federal e no do Superior Tribunal de Justiça. [...] §2º O interessado pode requerer, ao presidente ou ao vice-presidente, que exclua da decisão de sobrestamento e inadmita o recurso especial ou o recurso extraordinário que tenha sido interposto intempestivamente, tendo o recorrente o prazo de 5 (cinco) dias para manifestar-se sobre esse requerimento. §3º Da decisão que indeferir o requerimento referido no § 2º caberá apenas agravo interno”. A partir da leitura do artigo acima transcrito, podemos verificar que, uma vez tendo sido sobrestado o recurso especial apresentado intempestivamente pela Loja Francesa, o advogado de Leonardo poderá requerer ao presidente ou ao vice-presidente do Tribunal que exclua o recurso em questão da decisão de sobrestamento e o inadmita em razão da sua intempestividade. Caso esse requerimento venha a ser indeferido, será possível a apresentação do agravo interno para o órgão colegiado, que poderá rever a decisão monocrática e, consequentemente, inadmitir o recurso especial apresentado de maneira intempestiva."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_51",
+      "materia": "Direito Processual Civil",
+      "assunto": "Competência dos Juizados Especiais Cíveis",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Maria Joana tem contrato de locação firmado com Mariana há muitos anos. A relação contratual entre elas é tranquila, e Maria Joana nunca atrasou o pagamento do aluguel. Além disso, mantém o imóvel de Mariana em perfeito estado de conservação. O contrato estipula os casos de rescisão. Certo dia, ocorreu um desastre natural na localidade em que Mariana morava e a Defesa Civil a orientou a não voltar para casa, pois o local não oferecia mais segurança. Diante dessa situação, Mariana não teve outra saída, senão pedir o imóvel que locou para Maria Joana, para seu uso próprio. Mariana respeitou a legislação e o contrato, mas Maria Joana recusou-se a desocupar e a entregar o imóvel. Mariana, sem ter onde morar, ajuizou ação de despejo em face de Maria Joana no Juizado Especial Cível. A advogada de Maria Joana alegou incompetência do Juizado por considerar a causa complexa. Sobre os Juizados, considerando o exposto acima, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A alegação da advogada de Maria Joana, com relação à competência do Juizado Especial Cível, está correta.",
+        "B": "As ações de maior complexidade não são de competência dos Juizados Cíveis, portanto as ações de despejo não podem ser ajuizadas perante tais órgãos jurisdicionais.",
+        "C": "O Juizado Especial Cível é competente para conciliar, processar e julgar as causas cíveis de menor complexidade, assim considerada a ação de despejo para uso próprio.",
+        "D": "As ações de despejo e as de natureza alimentar, quando não complexas, podem ser propostas nos Juizados Especiais Cíveis."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão aborda o conhecimento sobre a competência dos juizados especiais cíveis. A alternativa A está incorreta, pois está equivocada a alegação da advogada de Maria Joana de que há incompetência do Juizado por se tratar de causa complexa. Dispõe o art. 3º, III, da Lei nº 9.099/95 que: “Art. 3º O Juizado Especial Cível tem competência para conciliação, processo e julgamento das causas cíveis de menor complexidade, assim consideradas: III - a ação de despejo para uso próprio”. Portanto, no caso apresentado, o Juizado Especial Cível é competente para o julgamento da demanda, pois Mariana requereu a desocupação do imóvel para seu uso próprio, além disso, a ação de despejo para uso próprio é considerada causa de menor complexidade. A alternativa B está incorreta, pois não é correto afirmar genericamente que as ações de despejo não podem ser ajuizadas perante o Juizado Especial Cível. De acordo com o art. 3º, III, da Lei nº 9.099/95: “Art. 3º O Juizado Especial Cível tem competência para conciliação, processo e julgamento das causas cíveis de menor complexidade, assim consideradas: III - a ação de despejo para uso próprio”. Logo, as ações de despejo que sejam para uso próprio, por consistirem em causa de menor complexidade, podem ser ajuizadas perante os Juizados Cíveis. A alternativa C está correta, pois traz a previsão legal expressa no art. 3º, III, da Lei nº 9.099/95 que: “Art. 3º O Juizado Especial Cível tem competência para conciliação, processo e julgamento das causas cíveis de menor complexidade, assim consideradas: III - a ação de despejo para uso próprio”. A alternativa D está incorreta, pois as ações de natureza alimentar, mesmo que não complexas, não podem ser propostas nos Juizados Especiais Cíveis, nos termos do art. 3º, §2º, da Lei nº 9.099/95: “§ 2º Ficam excluídas da competência do Juizado Especial as causas de natureza alimentar, falimentar, fiscal e de interesse da Fazenda Pública, e também as relativas a acidentes de trabalho, a resíduos e ao estado e capacidade das pessoas, ainda que de cunho patrimonial”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_52",
+      "materia": "Direito Processual Civil",
+      "assunto": "Julgamento antecipado parcial do mérito e agravo de instrumento",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Silene ajuizou ação de divórcio, cumulada com pedido de fixação de alimentos, em face de Jonas. O juiz, em sede de decisão de saneamento e organização do processo, entendeu que o pedido de divórcio estava apto para julgamento e, no que se refere à pretensão de alimentos, determinou a produção de prova oral, consistente em depoimento pessoal e prova testemunhal, bem como de prova documental suplementar. Ato contínuo, por meio de decisão interlocutória, o juiz julgou procedente o pedido de divórcio, e determinou o prosseguimento do processo para a fase instrutória em relação ao pedido de fixação de alimentos. Tomando o caso concreto como premissa, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A decisão de julgamento do pedido de divórcio poderá ser impugnada por agravo de instrumento.",
+        "B": "O número de testemunhas arroladas não poderá ser superior a cinco, sendo duas, no máximo, para cada fato.",
+        "C": "Depois do saneamento, Silene e Jonas podem pedir esclarecimentos ou solicitar ajustes no prazo comum de dez dias, findo o qual a decisão se torna estável.",
+        "D": "Em razão da impossibilidade de fracionamento de julgamento do mérito, o juiz não poderia ter julgado, desde logo, o pedido de divórcio, o qual somente poderia ser feito conjuntamente com o pedido de fixação de alimentos."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão aborda o conhecimento sobre julgamento antecipado parcial do mérito e sobre a decisão do saneamento e da organização do processo. A alternativa A está correta. Depreende-se do enunciado que, no caso, ocorreu um julgamento antecipado parcial do mérito, nos termos do art. 356 do CPC: “Art. 356. O juiz decidirá parcialmente o mérito quando um ou mais dos pedidos formulados ou parcela deles: I - mostrar-se incontroverso; II - estiver em condições de imediato julgamento, nos termos do art. 355”. De acordo com o art. 355, I, do CPC: “Art. 355. O juiz julgará antecipadamente o pedido, proferindo sentença com resolução de mérito, quando: I - não houver necessidade de produção de outras provas”. Ademais, será cabível o recurso de agravo de instrumento da decisão que julgar antecipadamente parcela do mérito, conforme o disposto no art. 356, §5º, do CPC: “§ 5º A decisão proferida com base neste artigo é impugnável por agravo de instrumento”. No mesmo sentido, dispõe o art. 1.015, II e XIII, do CPC: “Art. 1.015. Cabe agravo de instrumento contra as decisões interlocutórias que versarem sobre: (...) II - mérito do processo; (...) XIII - outros casos expressamente referidos em lei”. A alternativa B está incorreta, pois o número de testemunhas arroladas não poderá ser superior a 10 (dez), sendo 3 (três), no máximo, para cada fato. De acordo com o art. 357, §6º, do CPC: “§ 6º O número de testemunhas arroladas não pode ser superior a 10 (dez), sendo 3 (três), no máximo, para a prova de cada fato”. A alternativa C está incorreta, pois o prazo comum é de 5 (cinco) dias, nos termos do art. 357, §1º, do CPC: “§ 1º Realizado o saneamento, as partes têm o direito de pedir esclarecimentos ou solicitar ajustes, no prazo comum de 5 (cinco) dias, findo o qual a decisão se torna estável”. A alternativa D está incorreta, pois o Código de Processo Civil de 2015 trouxe uma grande novidade ao prever expressamente a possibilidade de julgamento antecipado de parcela do mérito. Assim, é possível o fracionamento do julgamento do mérito, nos termos do art. 356 do CPC: “Art. 356. O juiz decidirá parcialmente o mérito quando um ou mais dos pedidos formulados ou parcela deles: I - mostrar-se incontroverso; II - estiver em condições de imediato julgamento, nos termos do art. 355”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_53",
+      "materia": "Direito Processual Civil",
+      "assunto": "Impedimento do juiz",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Antes de tomar posse como juiz, Bernardo atuou por 2 (dois) anos como membro do Ministério Público. Boa parte de sua atuação como promotor foi focada na Promotoria de Justiça de Tutela Coletiva de Defesa do Meio Ambiente. Um dos seus casos mais relevantes foi a atuação, como representante do Ministério Público, em uma ação coletiva movida contra os proprietários de um shopping center que estava sendo construído perto de zona protegida da Mata Atlântica. Mais de 10 anos depois, Bernardo, como juiz de direito, recebeu no seu gabinete a ação coletiva que ele havia proposto contra o shopping quando atuava como promotor. Segundo o contexto apresentado, sobre a atuação de Bernardo como juiz do caso, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Bernardo poderá proferir sentença na ação coletiva, pois sua atuação no caso como promotor do Ministério Público nesse mesmo processo ocorreu há mais de dez anos, de modo que não há qualquer impedimento do magistrado.",
+        "B": "Bernardo somente poderá proferir decisões interlocutórias na ação coletiva, mas não poderá proferir sentença, pois sua atuação no caso como promotor do Ministério Público nesse mesmo processo ocorreu há mais de dez anos, de modo que não há qualquer impedimento do magistrado para proferir decisões interlocutórias.",
+        "C": "Bernardo não poderá proferir sentença na ação coletiva, por se enquadrar em hipótese de impedimento do magistrado. Entretanto, Bernardo poderá proferir decisões interlocutórias, exceto as que versem sobre tutela provisória, porque não decidirá o mérito da ação.",
+        "D": "Bernardo não poderá proferir decisões interlocutórias e/ou sentença na ação coletiva, por se enquadrar em hipótese de impedimento do magistrado."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão aborda o conhecimento sobre os impedimentos do juiz. A alternativa A está incorreta, pois Bernardo não poderá proferir sentença na ação coletiva, tendo em vista que atuou como membro do Ministério Público na demanda, inclusive propondo a ação coletiva em julgamento. Trata-se de hipótese de impedimento do magistrado, nos termos do art. 144, I, do CPC: “Art. 144. Há impedimento do juiz, sendo-lhe vedado exercer suas funções no processo: I - em que interveio como mandatário da parte, oficiou como perito, funcionou como membro do Ministério Público ou prestou depoimento como testemunha”. A alternativa B está incorreta, pois Bernardo não poderá proferir decisão interlocutória na ação coletiva, tendo em vista que atuou como membro do Ministério Público na demanda, inclusive propondo a ação coletiva em julgamento. Trata-se de hipótese de impedimento do magistrado, nos termos do art. 144, I, do CPC. A alternativa C está incorreta, pois Bernardo não poderá proferir decisão interlocutória e/ou sentença na ação coletiva, tendo em vista que atuou como membro do Ministério Público na demanda, inclusive propondo a ação coletiva em julgamento. Trata-se de hipótese de impedimento do magistrado, nos termos do art. 144, I, do CPC. A alternativa D está correta, conforme o disposto no art. 144, I, do CPC: “Art. 144. Há impedimento do juiz, sendo-lhe vedado exercer suas funções no processo: I - em que interveio como mandatário da parte, oficiou como perito, funcionou como membro do Ministério Público ou prestou depoimento como testemunha”. Dessa forma, considerando que Bernardo atuou como membro do Ministério Público, inclusive propondo a ação coletiva em julgamento, não poderá proferir decisões interlocutórias e/ou sentença na ação coletiva, por se enquadrar em hipótese de impedimento do magistrado."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_54",
+      "materia": "Direito Processual Civil",
+      "assunto": "Intervenção de terceiros - Assistência",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "João residia em apartamento localizado na cidade do Rio de Janeiro. Ele era locatário do apartamento e Pedro figurava como locador, tendo ambos firmado um contrato de locação para reger essa relação jurídica. Decidindo se mudar para outro bairro, João deixou sua residência e sublocou o apartamento para Luiz por meio de um contrato de sublocação. Diante da ausência de pagamento dos aluguéis pela locação, Pedro ingressou com uma ação de despejo contra João. Depois de João apresentar sua contestação, Luiz decidiu ingressar no processo por ser sublocatário. Na qualidade de advogado(a) de Luiz, assinale a opção que apresenta a modalidade de intervenção no processo da qual Luiz poderá se valer.",
+      "alternativas": {
+        "A": "Assistente litisconsorcial, porque a tutela jurisdicional exercida por Luiz será indireta quanto à relação de direito material discutida em juízo entre João e Pedro, sendo que o interesse jurídico de Luiz na lide não equivale às exatas condições da relação do locador com o locatário.",
+        "B": "Assistente simples, porque a relação jurídica de direito material de Luiz é a mesma relação jurídica tratada na lide entre João e Pedro.",
+        "C": "Assistente litisconsorcial, porque a relação jurídica de direito material de Luiz é a mesma relação jurídica tratada na lide entre João e Pedro.",
+        "D": "Assistente simples, porque a tutela jurisdicional pretendida por Luiz será indireta quanto à relação de direito material discutida em juízo entre João e Pedro, sendo que o interesse jurídico de Luiz na lide não equivale às exatas condições da relação do locador com o locatário."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão aborda o conhecimento sobre intervenção de terceiros. A alternativa A está incorreta, pois a hipótese narrada não é de assistência litisconsorcial. Dispõe o art. 124 do CPC que: “Art. 124. Considera-se litisconsorte da parte principal o assistente sempre que a sentença influir na relação jurídica entre ele e o adversário do assistido”. Além disso, de acordo com Daniel Amorim Assumpção Neves: “Na assistência litisconsorcial o terceiro é titular da relação jurídica de direito material discutida no processo, sendo, portanto, diretamente atingido em sua esfera jurídica pela decisão a ser proferida. Dessa forma, o assistente litisconsorcial tem relação jurídica tanto com o assistido quanto com a parte contrária, afinal todos eles participam da mesma relação de direito material, diferente do que ocorre no litisconsórcio simples, no qual não há relação jurídica do assistente com o adversário do assistido”. No caso, Pedro ingressou com uma ação de despejo contra João, assim, verifica-se que Luiz (assistente) não possui qualquer relação jurídica com Pedro (adversário do assistido João), razão pela qual não se trata de assistência litisconsorcial. A alternativa B está incorreta, pois a relação jurídica de direito material de Luiz não é a mesma relação jurídica tratada na lide entre João e Pedro. A alternativa C está incorreta, pois a questão não traz hipótese de assistência litisconsorcial, além disso a relação jurídica de direito material de Luiz é diferente da relação jurídica tratada na lide entre João e Pedro. Dispõe o art. 124 do CPC que: “Art. 124. Considera-se litisconsorte da parte principal o assistente sempre que a sentença influir na relação jurídica entre ele e o adversário do assistido”. Além disso, de acordo com Daniel Amorim Assumpção Neves: “Na assistência litisconsorcial o terceiro é titular da relação jurídica de direito material discutida no processo, sendo, portanto, diretamente atingido em sua esfera jurídica pela decisão a ser proferida. Dessa forma, o assistente litisconsorcial tem relação jurídica tanto com o assistido quanto com a parte contrária, afinal todos eles participam da mesma relação de direito material, diferente do que ocorre no litisconsórcio simples, no qual não há relação jurídica do assistente com o adversário do assistido”. No caso, Pedro ingressou com uma ação de despejo contra João, assim, verifica-se que Luiz (assistente) não possui qualquer relação jurídica com Pedro (adversário do assistido João), razão pela qual não se trata de assistência litisconsorcial. A alternativa D está correta. De acordo com o art. 121, caput, do CPC: “Art. 121. O assistente simples atuará como auxiliar da parte principal, exercerá os mesmos poderes e sujeitar-se-á aos mesmos ônus processuais que o assistido”. No caso narrado, Luiz (assistente) não defende relação jurídica própria na demanda, mas apenas auxilia o assistido (João). Assim, verifica-se que não há relação jurídica do assistente com o adversário do assistido, sendo hipótese de assistência simples."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_55",
+      "materia": "Direito Processual Civil",
+      "assunto": "Tutela de urgência: requisitos e recursos",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Bruno, após sofrer um grave acidente de carro, foi levado para a urgência do Hospital Bom Sorriso. Ao chegar ao local em uma ambulância, mesmo sendo coberto pelo seu plano de saúde e não havendo nenhuma pendência financeira, a cirurgia de urgência de Bruno foi negada pelo plano. Desesperada, a mãe de Bruno ligou para a central de atendimento do plano e encaminhou por e-mail o laudo médico que mencionava que, se a cirurgia não fosse feita no prazo de 48 horas, Bruno poderia morrer. O plano de saúde, por sua vez, negou novamente a realização da cirurgia, sem qualquer motivação. Com o laudo médico que diz ser fundamental a cirurgia para a sobrevivência de Bruno, a carteira do plano de saúde, um documento que comprova que Bruno não está inadimplente com o plano e um comprovante da negativa do plano de saúde, a mãe de Bruno procura você, como advogado(a), para a defesa do direito e, especialmente, a indicação de pedido de tutela de urgência. Com base nos elementos apresentados e na possibilidade do pedido de tutela de urgência, assinale a afirmativa que apresenta, corretamente, sua orientação.",
+      "alternativas": {
+        "A": "Para a concessão da tutela de urgência, basta apenas a existência de elementos que evidenciem a probabilidade do direito, sendo dispensável a comprovação do perigo de dano ou o risco ao resultado útil do processo.",
+        "B": "Para a concessão da tutela de urgência, deverão existir elementos que evidenciem a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo.",
+        "C": "Caso a tutela de urgência seja concedida para a realização da cirurgia de Bruno, o juiz não precisará motivar seu convencimento, em razão da urgência.",
+        "D": "Caso a tutela de urgência não seja concedida, não é possível a interposição de recurso, pois a demanda se estabilizará."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão aborda o conhecimento sobre a tutela provisória de urgência antecipada requerida em caráter antecedente. A alternativa A está incorreta, pois a concessão da tutela de urgência exige a presença de 2 (dois) requisitos cumulativos: i) existência de elementos que evidenciem a probabilidade do direito e; ii) comprovação do perigo de dano ou o risco ao resultado útil do processo. De acordo com o art. 300, caput, do CPC: “Art. 300. A tutela de urgência será concedida quando houver elementos que evidenciem a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo”. A alternativa B está correta, pois a concessão da tutela de urgência exige a presença de 2 (dois) requisitos cumulativos: i) existência de elementos que evidenciem a probabilidade do direito e; ii) comprovação do perigo de dano ou o risco ao resultado útil do processo. De acordo com o art. 300, caput, do CPC: “Art. 300. A tutela de urgência será concedida quando houver elementos que evidenciem a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo”. A alternativa C está incorreta, pois a urgência do caso não dispensa a necessidade de o juiz motivar seu convencimento. Sobre o tema, o Código de Processo Civil prevê expressamente a obrigatoriedade de fundamentação da decisão de tutela provisória, subdividida em tutela provisória de urgência (antecipada e cautelar) e tutela provisória de evidência. Nos termos do art. 298 do CPC: “Art. 298. Na decisão que conceder, negar, modificar ou revogar a tutela provisória, o juiz motivará seu convencimento de modo claro e preciso”. Além disso, o princípio da fundamentação das decisões judiciais tem sede constitucional no art. 93, IX, da Constituição Federal: “IX todos os julgamentos dos órgãos do Poder Judiciário serão públicos, e fundamentadas todas as decisões, sob pena de nulidade, podendo a lei limitar a presença, em determinados atos, às próprias partes e a seus advogados, ou somente a estes, em casos nos quais a preservação do direito à intimidade do interessado no sigilo não prejudique o interesse público à informação”. A alternativa D está incorreta, pois, caso a tutela de urgência não seja concedida, é cabível a interposição do recurso de agravo de instrumento, nos termos do art. 1.015, I, do CPC: “Art. 1.015. Cabe agravo de instrumento contra as decisões interlocutórias que versarem sobre: I - tutelas provisórias”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_56",
+      "materia": "Direito Processual Civil",
+      "assunto": "Técnica de ampliação do colegiado (art. 942 CPC)",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Pedro propôs ação de dissolução parcial da sociedade Papel Cia. Ltda., em função de atos praticados pelo então administrador da sociedade, Paulo. No processo, restou comprovado que Paulo adulterava os balanços patrimoniais da sociedade. Diante desse fato, o juiz proferiu sentença decretando a dissolução parcial da sociedade. Em face da sentença, Paulo interpôs o respectivo recurso de apelação. Depois de proferidos os votos, o resultado do julgamento foi pela reforma da decisão, contudo de forma não unânime. Sobre a hipótese narrada, na qualidade de advogado de Pedro, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "São cabíveis embargos infringentes, pois o acórdão não unânime reformou a sentença de mérito proferida em primeiro grau.",
+        "B": "O julgamento terá prosseguimento em sessão a ser designada com a presença de outros julgadores, tendo em vista o resultado não unânime do julgamento, que serão convocados nos termos previamente definidos no regimento interno, em número suficiente para garantir a possibilidade de inversão do resultado inicial.",
+        "C": "Na hipótese de novo julgamento, é vedado às partes e aos eventuais terceiros o direito de sustentar oralmente suas razões perante os julgadores novamente.",
+        "D": "A técnica de julgamento nos casos de resultados não unânimes se aplica, igualmente, à ação rescisória, ao agravo de instrumento, ao incidente de resolução de demandas repetitivas, ao incidente de assunção de competência e à remessa necessária."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão aborda o conhecimento sobre a técnica de ampliação do colegiado, prevista no art. 942 do CPC/2015. A alternativa A está incorreta, pois não são cabíveis embargos infringentes. Sobre o tema, cumpre destacar que os embargos infringentes não estão previstos como uma espécie recursal no Código de Processo Civil de 2015. De acordo com o art. 994 do CPC: “Art. 994. São cabíveis os seguintes recursos: I - apelação; II - agravo de instrumento; III - agravo interno; IV - embargos de declaração; V - recurso ordinário; VI - recurso especial; VII - recurso extraordinário; VIII - agravo em recurso especial ou extraordinário; IX - embargos de divergência”. A alternativa B está correta, tendo em vista que o resultado do julgamento da apelação foi pela reforma da decisão, contudo de forma não unânime, ensejando, assim, a aplicação da técnica de ampliação do colegiado, prevista no art. 942 do CPC: “Art. 942. Quando o resultado da apelação for não unânime, o julgamento terá prosseguimento em sessão a ser designada com a presença de outros julgadores, que serão convocados nos termos previamente definidos no regimento interno, em número suficiente para garantir a possibilidade de inversão do resultado inicial, assegurado às partes e a eventuais terceiros o direito de sustentar oralmente suas razões perante os novos julgadores”. A alternativa C está incorreta, pois é assegurado às partes e a eventuais terceiros o direito de sustentar oralmente suas razões perante os novos julgadores, consoante o disposto no art. 942 do CPC: “Art. 942. Quando o resultado da apelação for não unânime, o julgamento terá prosseguimento em sessão a ser designada com a presença de outros julgadores, que serão convocados nos termos previamente definidos no regimento interno, em número suficiente para garantir a possibilidade de inversão do resultado inicial, assegurado às partes e a eventuais terceiros o direito de sustentar oralmente suas razões perante os novos julgadores”. A alternativa D está incorreta, pois, de fato, a técnica de julgamento nos casos de resultados não unânimes se aplica, igualmente, à ação rescisória e ao agravo de instrumento, nos termos do art. 942, §3º, do CPC: “§ 3º A técnica de julgamento prevista neste artigo aplica-se, igualmente, ao julgamento não unânime proferido em: I - ação rescisória, quando o resultado for a rescisão da sentença, devendo, nesse caso, seu prosseguimento ocorrer em órgão de maior composição previsto no regimento interno; II - agravo de instrumento, quando houver reforma da decisão que julgar parcialmente o mérito”. Contudo, a técnica não se aplica ao incidente de resolução de demandas repetitivas, ao incidente de assunção de competência e à remessa necessária, de acordo com o art. 942, §4º, do CPC: “§ 4º Não se aplica o disposto neste artigo ao julgamento: I - do incidente de assunção de competência e ao de resolução de demandas repetitivas; II - da remessa necessária; III - não unânime proferido, nos tribunais, pelo plenário ou pela corte especial”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_51",
+      "materia": "Direito Processual Civil",
+      "assunto": "Reconvenção no procedimento comum",
+      "banca": "FGV",
+      "ano": "42º Exame de Ordem",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Ana Carolina procurou você, como advogado(a), para elaborar sua defesa em demanda pelo procedimento comum movida por Eduardo perante Vara Cível com o objetivo de obter indenização em virtude de suposto inadimplemento de Ana Carolina, qual seja, ter entregado uma quantidade de soja menor do que a que fora acordada contratualmente. Nessa reunião, Ana Carolina relatou que a indenização não era devida, porque ela havia entregado a quantidade de soja prevista no contrato. Ana Carolina relatou ainda que, na realidade, Eduardo não tinha realizado o pagamento integral previsto em contrato. Sobre a demanda movida por Eduardo visando ao pagamento da quantia que lhe é devida, assinale a opção que apresenta a medida cabível que você, na condição de advogado(a) de Ana Carolina, indicou.",
+      "alternativas": {
+        "A": "Ana Carolina terá que ajuizar uma nova demanda autônoma visando ao pagamento da quantia devida por Eduardo.",
+        "B": "Ana Carolina poderá apresentar reconvenção para cobrar a quantia que lhe é devida por Eduardo, sendo que essa medida deverá ser formulada na contestação.",
+        "C": "Ana Carolina poderá apresentar reconvenção para cobrar a quantia que lhe é devida por Eduardo, sendo que essa medida deverá ser formulada em petição apartada da contestação.",
+        "D": "Ana Carolina poderá formular pedido contraposto para cobrar a quantia que lhe é devida por Eduardo, sendo que essa medida deverá ser formulada em petição apartada da contestação."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. Vamos analisar todas as alternativas. A alternativa A está incorreta. O Código de Processo Civil, em seu artigo 343, permite que o réu, na contestação, proponha reconvenção para manifestar pretensão própria, conexa com a ação principal ou com o fundamento da defesa. No caso, Ana Carolina possui uma pretensão (recebimento do valor devido) conexa com a ação principal (cobrança de indenização por suposto inadimplemento). Ajuizar uma nova demanda autônoma seria desnecessário e geraria um processo distinto, com custos e tempo adicionais. A alternativa B está correta. Exatamente como previsto no art. 343 do CPC, Ana Carolina pode apresentar reconvenção dentro da própria contestação. Isso significa que, no mesmo processo em que se defende da acusação de inadimplemento, ela pode formular um pedido contra Eduardo para receber o valor que ele supostamente lhe deve. Essa é a forma mais eficiente e econômica de resolver a questão, pois concentra as pretensões relacionadas em um único processo. A alternativa C está incorreta. Embora o CPC/15, em seu art. 343, §6º, permita a apresentação da reconvenção em petição separada, isso só é possível quando o réu não apresentar contestação. No caso de Ana Carolina, ela precisa contestar a ação de Eduardo, e a reconvenção deve ser incluída na própria contestação. A alternativa D está incorreta. O pedido contraposto é um instituto previsto no art. 31 da Lei nº 9.099/1995, aplicável aos Juizados Especiais Cíveis. Ele permite que o réu apresente um pedido em face do autor no corpo da contestação, sem necessidade de reconvenção. No entanto, o caso apresentado é de uma ação no procedimento comum, regido pelo CPC, e não de uma ação nos Juizados Especiais. Assim, o pedido contraposto não é aplicável. Além disso, não seria formulado em petição apartada, como sugere a alternativa, já que, nos Juizados Especiais, o pedido contraposto deve ser feito na própria contestação."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_52",
+      "materia": "Direito Processual Civil",
+      "assunto": "Prova testemunhal: impedimento e suspeição",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Neusa ajuizou ação condenatória em face de Marcelo. Em sua causa de pedir, a autora sustentou que o réu, conduzindo seu veículo de forma imprudente, avançou um sinal vermelho e colidiu contra o carro de Neusa, causando-lhe danos morais e materiais. Diante da necessidade de produção de prova oral, consistente em depoimento pessoal e prova testemunhal, o Juiz designou audiência de instrução e julgamento. As partes tempestivamente apresentaram suas testemunhas, que estavam nos respectivos veículos no momento da colisão. Neusa indicou Gabriel, seu filho de 17 anos. Por sua vez, Marcelo indicou João, seu amigo íntimo, e Regina, sua prima. Sobre o caso acima, segundo o ordenamento jurídico brasileiro, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Gabriel é incapaz de depor, por ser menor de 18 anos.",
+        "B": "João e Regina são testemunhas suspeitas, diante da amizade íntima e da relação de parentesco com Marcelo, respectivamente.",
+        "C": "Regina poderá depor como testemunha, não havendo impedimento referente à relação de parentesco que possui com Marcelo.",
+        "D": "O juiz poderá admitir o depoimento de João, ainda que amigo íntimo de Marcelo, caso em que será indispensável a prestação do compromisso de dizer a verdade."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. Vamos analisar todas as alternativas. A alternativa A está incorreta. A idade de Gabriel (17 anos) não o torna incapaz de depor como testemunha. O art. 447, § 1º, III, do CPC prevê que menores de 16 anos são considerados impedidos de depor, salvo como informantes. Como Gabriel tem 17 anos, está apto a testemunhar com pleno compromisso de dizer a verdade. A alternativa B está incorreta. O art. 447, § 3º, do CPC trata das causas de suspeição das testemunhas. Quanto a João, amigo íntimo, a amizade íntima configura suspeição, conforme o inciso I do § 3º do art. 447. Portanto, João será considerado suspeito para testemunhar em favor de Marcelo. Contudo, quanto a Regina, prima de Marcelo, o parentesco em linha colateral (como o de primos) não é considerado causa de suspeição, conforme o art. 447, § 3º, II, do CPC. Logo, Regina não pode ser considerada suspeita pelo vínculo de parentesco com Marcelo. A alternativa C está correta. O art. 447, § 2º, I, do CPC afirma que cônjuges, ascendentes, descendentes e colaterais até o terceiro grau são impedidos de testemunhar. No caso de primos, como Regina e Marcelo, o grau de parentesco não é suficiente para gerar o impedimento: primos são parentes colaterais de quarto grau. A alternativa D está incorreta. O art. 447, § 3º, I, do CPC determina que amizade íntima é causa de suspeição. João, sendo amigo íntimo de Marcelo, não pode depor como testemunha imparcial, mas pode ser ouvido como informante, conforme o art. 457, § 2º, do CPC. Nesse caso, o depoimento de João seria considerado sem o compromisso de dizer a verdade e teria valor relativo, cabendo ao juiz avaliar sua credibilidade."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_53",
+      "materia": "Direito Processual Civil",
+      "assunto": "Cumprimento provisório de sentença",
+      "banca": "FGV",
+      "ano": "42º Exame de Ordem",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Gabriela adquiriu um pacote de viagens com a sociedade empresária VoaMais, mas não conseguiu embarcar pois, na última hora, houve o cancelamento de seu bilhete aéreo. Em consequência, Gabriela ajuizou ação indenizatória por danos morais e materiais em face de VoaMais. Foi proferida sentença de procedência do pedido, com a concessão da tutela provisória na sentença, condenando a ré ao pagamento de R$ 30.000,00 (trinta mil reais). Inconformada, a ré interpôs recurso de apelação. Gabriela, então, procurou você, na qualidade de advogado(a), com o objetivo de receber imediatamente o valor previsto na condenação, independentemente do julgamento da apelação interposta pela ré. Assinale a opção que apresenta, corretamente, sua orientação sobre o tema.",
+      "alternativas": {
+        "A": "Ela não poderá iniciar o cumprimento da sentença antes do julgamento da apelação interposta, uma vez que o crédito não é de natureza alimentar, tampouco restou demonstrada situação de necessidade.",
+        "B": "Ela poderá iniciar o cumprimento da sentença, na modalidade definitiva, tendo em vista que a tutela provisória foi concedida na sentença.",
+        "C": "Ela poderá iniciar o cumprimento da sentença, na modalidade provisória, que correrá por sua iniciativa e responsabilidade, sendo certo que, no caso de reforma da sentença, o cumprimento fica sem efeito, liquidando-se eventuais prejuízos exclusivamente em ação autônoma.",
+        "D": "Ela poderá iniciar o cumprimento da sentença, na modalidade provisória, mas o levantamento de depósito em dinheiro dependerá, em regra, de caução idônea prestada nos próprios autos."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. Vamos analisar todas as alternativas. A alternativa A está incorreta. O Código de Processo Civil, no art. 520, permite o cumprimento provisório de sentença, independentemente da natureza do crédito ou da demonstração de necessidade, desde que a apelação interposta não tenha efeito suspensivo. No caso, como a sentença concedeu tutela provisória, a apelação não terá efeito suspensivo, conforme art. 1.012, § 1º, inciso V, do CPC. A alternativa B está incorreta. Apesar de a tutela provisória ter sido concedida na sentença, o cumprimento definitivo só é possível após o trânsito em julgado da decisão. Enquanto a apelação estiver pendente de julgamento, o cumprimento será provisório. O CPC diferencia entre o cumprimento provisório (art. 520) e o cumprimento definitivo (art. 523). No caso, Gabriela poderá iniciar o cumprimento provisório, mas não definitivo. A alternativa C está incorreta. Gabriela poderá iniciar o cumprimento provisório da sentença, conforme os arts. 520 e 522 do CPC, e este correrá por sua conta e risco. Contudo, no caso de reforma da sentença, a liquidação de prejuízos eventualmente causados pelo cumprimento provisório não exige a propositura de ação autônoma, pois o CPC permite a apuração de prejuízos no mesmo processo, como previsto no art. 520, II. A alternativa D está correta. Gabriela poderá iniciar o cumprimento provisório da sentença, conforme o art. 520 do CPC, que permite a execução provisória da decisão ainda pendente de recurso, desde que sem efeito suspensivo. Contudo, o inciso IV do art. 520 exige, como regra geral, a prestação de caução idônea para o levantamento de valores ou alienação de bens. O art. 521 do CPC dispensa a caução quando se tratar de crédito de natureza alimentar ou estado de necessidade. Como não há menção de que o crédito tenha natureza alimentar ou que Gabriela esteja em estado de necessidade, será necessário prestar caução idônea para levantar qualquer valor depositado."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_54",
+      "materia": "Direito Processual Civil",
+      "assunto": "Honorários advocatícios de sucumbência",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "João propôs ação indenizatória em face da sociedade empresária Campo Bom, em causa própria. Foi proferida sentença condenando a ré quanto ao principal e, considerando sua sucumbência mínima, ao pagamento integral de honorários advocatícios de sucumbência. Sobre os honorários advocatícios arbitrados no caso, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Os honorários não são devidos nos casos em que o advogado atue em causa própria.",
+        "B": "Se um litigante sucumbir em parte mínima do pedido, o outro responderá, por inteiro, pelos honorários.",
+        "C": "Como arbitrados os honorários na sentença, não serão devidos novos honorários advocatícios no cumprimento de sentença.",
+        "D": "Os honorários podem ser arbitrados por equidade, apesar de o valor da condenação ser líquido, por se tratar de ação indenizatória."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. Vamos analisar todas as alternativas. A alternativa A está incorreta. O Código de Processo Civil, em seu artigo 85, § 17º, assegura o direito aos honorários advocatícios de sucumbência ao advogado que atua em causa própria. Portanto, João, mesmo atuando em nome próprio, tem direito a receber honorários advocatícios da sociedade empresária Campo Bom, já que esta foi condenada na ação. A alternativa B está correta. O CPC, em seu artigo 86, parágrafo único, estabelece que, se um litigante sucumbir em parte mínima do pedido, o outro responderá, por inteiro, pelas despesas e pelos honorários advocatícios. A alternativa C está incorreta. O CPC, em seu artigo 85, § 1º, prevê a possibilidade de fixação de honorários advocatícios também na fase de cumprimento de sentença. Essa regra objetiva remunerar o trabalho do advogado em todas as etapas do processo. Assim, João, ao promover o cumprimento de sentença, poderá ter direito a novos honorários advocatícios. A alternativa D está incorreta. O CPC, em seu artigo 85, §2º, define os critérios para a fixação dos honorários advocatícios. Em regra, na condenação em quantia certa, os honorários serão fixados em percentual sobre o valor da condenação. O arbitramento por equidade, previsto no art. 85, § 8º, é uma exceção e só pode ocorrer quando não houver proveito econômico ou não for possível mensurar o proveito."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_55",
+      "materia": "Direito Processual Civil",
+      "assunto": "Adjudicação de bem penhorado",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Joana formulou requerimento de cumprimento de sentença em face de Regina. No curso de tal fase do processo, Joana obteve a penhora de um automóvel de propriedade de Regina, cujo valor de mercado é R$ 10.000,00 (dez mil reais) superior ao do montante exequendo, sendo nomeada depositária do bem. No atual momento processual, Joana deseja se tornar proprietária do automóvel de Regina. Por essa razão, requereu a adjudicação do bem ao juízo. Nesse caso, segundo o ordenamento jurídico brasileiro, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Assinado o auto de adjudicação pelo juiz, deverá ser expedida a carta de adjudicação e o mandado de imissão na posse.",
+        "B": "O pedido não poderá ser acolhido, diante da natureza residual da adjudicação em relação à alienação do bem, que é medida expropriatória preferencial.",
+        "C": "Desde que depositada a eventual diferença entre o valor do débito e o da avaliação do automóvel, que ficará à disposição de Regina, Joana poderá se tornar proprietária do automóvel.",
+        "D": "Como a alienação é a única forma de expropriação de bens admitida pelo Código de Processo Civil, caberá a Joana tentar a arrematação do bem em leilão eletrônico, tendo direito de preferência."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. Vamos analisar todas as alternativas. A alternativa A está incorreta. O Código de Processo Civil, em seu artigo 877, § 1º, I, exige a lavratura de carta de adjudicação quando se tratar de bem imóvel, dispensada para os bens móveis conforme inciso II. A alternativa B está incorreta. O art. 825 do CPC estabelece que a adjudicação é a primeira modalidade de expropriação prevista na ordem legal, antecedendo a alienação por iniciativa particular e a alienação em hasta pública (leilão). A adjudicação é preferencial em relação às demais modalidades de expropriação, não tendo natureza residual em relação à alienação. A alternativa C está correta. O CPC, em seu artigo 876, § 4º, permite que o exequente adquira, por meio da adjudicação, um bem com valor superior ao do crédito, desde que deposite em juízo a diferença, que ficará à disposição do executado. No caso, como o valor do automóvel é superior ao do montante exequendo, Joana poderá adjudicá-lo se depositar a diferença em favor de Regina. A alternativa D está incorreta. O CPC prevê várias formas de expropriação de bens, conforme o art. 825, e não apenas a alienação. O exequente tem preferência na arrematação em leilão (art. 892, § 1º, do CPC), mas Joana pode optar pela adjudicação (art. 876) antes mesmo de se proceder à alienação do bem."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_56",
+      "materia": "Direito Processual Civil",
+      "assunto": "Denunciação da lide e litisconsórcio",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em uma tarde de domingo, voltando do shopping com seu namorado, Marisa se distraiu e colidiu contra a traseira do automóvel de Leandro. Assustada com a reação de Leandro, que saiu do carro aos gritos, Marisa foge. Leandro anotou a placa do carro e ajuizou uma ação indenizatória por danos materiais em face de Marisa, em razão dos prejuízos causados a seu automóvel. Considerando que Marisa contratou o seguro do veículo, denunciou a seguradora à lide. Acerca de tais fatos, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Marisa deve pedir a citação da seguradora até a decisão saneadora.",
+        "B": "Se a empresa seguradora contestar o pedido de Leandro, o processo prosseguirá tendo, na ação principal, em litisconsórcio, Marisa e a seguradora.",
+        "C": "Sendo julgado procedente o pedido de indenização por danos materiais, Leandro deve pedir o cumprimento de sentença somente contra Marisa.",
+        "D": "Sendo julgado procedente o pedido de indenização por danos materiais, mesmo apresentando contestação quanto ao mérito, a seguradora não será condenada em honorários de sucumbência."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. Vamos analisar todas as alternativas. A alternativa A está incorreta. O Código de Processo Civil, em seu artigo 126, estabelece que a denunciação da lide à seguradora deve ser realizada na contestação. A decisão saneadora ocorre em momento posterior, após a apresentação da contestação. A alternativa B está correta. A denunciação da lide, prevista no artigo 125, inciso II, do CPC, forma um litisconsórcio passivo entre o denunciante (Marisa) e o denunciado (seguradora) em relação ao autor da ação principal (Leandro). Se a seguradora contestar o pedido, ela passará a integrar o polo passivo da ação juntamente com Marisa, conforme art. 128, I, do CPC. A alternativa C está incorreta. No caso de procedência do pedido de indenização e havendo condenação da seguradora na ação de denunciação da lide, Leandro poderá direcionar o cumprimento de sentença tanto contra Marisa quanto contra a seguradora, conforme o art. 128, parágrafo único, do CPC. A alternativa D está incorreta. O art. 85 do CPC prevê que a parte vencida deve arcar com honorários de sucumbência. Isso inclui a seguradora no caso de procedência do pedido na denunciação da lide. Se a seguradora contestar o pedido e for condenada na ação de denunciação da lide, ela será condenada ao pagamento de honorários advocatícios de sucumbência."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_22",
+      "materia": "Direito Processual Civil",
+      "assunto": "Jurisdição nacional - competência internacional",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Uma artista brasileira, que protagoniza filmes nos Estados Unidos, foi filmada em uma das festas no Brasil em estado de embriaguez e o vídeo postado por um portal de notícias americano. O vídeo “viralizou” e teve grande repercussão no Brasil. Com receio de prejudicar sua carreira com a exposição negativa da imagem, ela decidiu ajuizar uma ação no Brasil contra o portal de notícias, que tem sua sede nos Estados Unidos. Nesse cenário, com base nos limites da jurisdição nacional estabelecidos no Código de Processo Civil, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A autoridade judiciária brasileira não é competente para julgar a ação, porque o réu é pessoa jurídica estrangeira.",
+        "B": "A autoridade judiciária brasileira é competente para julgar a ação, por adotar a natureza nacionalidade brasileira.",
+        "C": "A autoridade judiciária brasileira tem competência para processar e julgar a ação, por danos à imagem ocorridos no Brasil.",
+        "D": "A autoridade judiciária brasileira deve remeter o caso, por carta rogatória, à justiça norte-americana, tendo em vista que o portal de notícias é sediado nos Estados Unidos."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata da jurisdição nacional nas ações de dano ocorridas no Brasil (art. 21, II, “a”, do CPC). A alternativa A está incorreta. O fato de o réu ser estrangeiro não impede a competência da autoridade judiciária brasileira (Art. 21. Compete à autoridade judiciária brasileira processar e julgar as ações em que: II – a obrigação tenha de ser cumprida no Brasil; a) ou o fato tenha ocorrido ou deva produzir efeitos no Brasil.). A alternativa B está incorreta. A nacionalidade da autora não fundamenta a competência, mas sim o local do dano. (Art. 21. Compete à autoridade judiciária brasileira processar e julgar as ações em que: II – a obrigação tenha de ser cumprida no Brasil; a) ou o fato tenha ocorrido ou deva produzir efeitos no Brasil.) A alternativa C está correta. A autoridade judiciária brasileira é competente quando o dano ocorre no Brasil. (Art. 21. Compete à autoridade judiciária brasileira processar e julgar as ações em que: II – a obrigação tenha de ser cumprida no Brasil; a) ou o fato tenha ocorrido ou deva produzir efeitos no Brasil.) A alternativa D está incorreta. Não se trata de competência exclusiva da Justiça estrangeira; há competência brasileira pelo local do dano. (Art. 21. Compete à autoridade judiciária brasileira processar e julgar as ações em que: II – a obrigação tenha de ser cumprida no Brasil; a) ou o fato tenha ocorrido ou deva produzir efeitos no Brasil.)."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_51",
+      "materia": "Direito Processual Civil",
+      "assunto": "Cumprimento provisório de sentença de alimentos",
+      "banca": "FGV",
+      "ano": "43º Exame de Ordem",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Henrique propôs ação condenatória de alimentos em face de Juliano, seu pai. A sentença julgou procedente o pedido, condenando o réu ao pagamento de R$ 5.000 (cinco mil reais) por mês. Inconformado, Juliano interpôs recurso de apelação, buscando a reforma da sentença. Após a intimação para apresentação de contrarrazões, você, como advogado(a) contratado por Henrique, deseja requerer o cumprimento provisório da sentença, com o intuito de, desde logo, receber os alimentos vincendos. Nessa hipótese, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Você poderá requerer o cumprimento provisório de sentença, com dispensa de caução para a execução da decisão.",
+        "B": "Eventual reforma parcial da sentença, em razão do recurso de apelação, levará à perda da eficácia total do cumprimento, em razão só da provisoriedade.",
+        "C": "Não incidirão multa e honorários no cumprimento provisório de sentença, pois o executado, em razão da pendência do recurso, não é obrigado a cumprir a decisão até o seu trânsito em julgado.",
+        "D": "Indicado o cumprimento provisório da sentença, caso Juliano deposite o valor executado para se exonerar da multa, tal depósito não implicará em desistência do recurso de apelação nem acarretará a preclusão lógica do direito de recorrer."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata do cumprimento provisório de sentença que reconhece obrigação de pagar alimentos (art. 520, II, do CPC). A alternativa A está correta. No cumprimento provisório de sentença que reconhece obrigação de prestar alimentos, a caução é dispensada (Art. 521. A caução prevista no inciso IV do art. 520 poderá ser dispensada nos casos em que: I - o crédito for de natureza alimentar, independentemente de sua origem;). A alternativa B está incorreta. O cumprimento provisório se baseia no efeito devolutivo do recurso (Art. 520. O cumprimento provisório da sentença impugnada por recurso desprovido de efeito suspensivo...). A alternativa C está incorreta. Multa e honorários são devidos no cumprimento provisório, mesmo com recurso pendente. (Art. 520, §1º: A multa e os honorários a que se refere o art. 523, §2º são devidos no cumprimento provisório de sentença condenatória ao pagamento de quantia certa.). A alternativa D está incorreta. O depósito voluntário não implica desistência do recurso nem preclusão lógica. (Art. 520, § 3º Se o executado comparecer tempestivamente e depositar o valor, com a finalidade de isentar-se da multa, o ato não será havido como incompatível com o recurso por ele interposto.)."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_52",
+      "materia": "Direito Processual Civil",
+      "assunto": "Liquidação de sentença antes do trânsito em julgado",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Anacleto ajuizou ação de indenização contra a sociedade empresária de telefonia Alô, tendo sido proferida sentença de procedência do pedido, com a condenação da ré ao pagamento de indenização por danos morais e materiais, mas sem especificação dos valores. A sociedade Alô interpôs recurso de apelação, ainda pendente de julgamento, mas Anacleto desejou logo obter a definição do montante correspondente aos danos sofridos. Acerca da situação apresentada, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A liquidação da sentença antes do trânsito em julgado só é cabível caso o autor ofereça caução.",
+        "B": "É possível a liquidação de sentença mesmo antes do trânsito em julgado, independentemente dos efeitos em que foi recebido o recurso de apelação.",
+        "C": "Anacleto poderá promover a liquidação de sentença antes do trânsito em julgado, caso a decisão tenha sido recebida unicamente no efeito devolutivo.",
+        "D": "Anacleto não poderá promover a liquidação de sentença antes do trânsito em julgado, uma vez que a decisão ainda pode ser modificada quando do julgamento de recurso de apelação."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata da liquidação de sentença antes do trânsito em julgado (art. 512 e art. 509, §2º, do CPC). A alternativa A está incorreta. Não se exige caução para promover a liquidação de sentença antes do trânsito em julgado (Art. 512. A liquidação poderá ser realizada na pendência de recurso, processando-se em autos apartados no juízo de origem, cumprindo ao liquidante instruir o pedido com cópias das peças processuais pertinentes.) A alternativa B está correta. A liquidação pode ocorrer mesmo antes do trânsito em julgado se o recurso foi recebido apenas no efeito devolutivo (Art. 512. A liquidação poderá ser realizada na pendência de recurso, processando-se em autos apartados no juízo de origem, cumprindo ao liquidante instruir o pedido com cópias das peças processuais pertinentes.) A alternativa C está incorreta. A liquidação antes do trânsito é possível somente se o recurso não tiver efeito suspensivo (Art. 512. A liquidação poderá ser realizada na pendência de recurso, processando-se em autos apartados no juízo de origem, cumprindo ao liquidante instruir o pedido com cópias das peças processuais pertinentes.) A alternativa D está incorreta. A possibilidade de liquidação antes do trânsito depende dos efeitos do recurso (Art. 512. A liquidação poderá ser realizada na pendência de recurso, processando-se em autos apartados no juízo de origem, cumprindo ao liquidante instruir o pedido com cópias das peças processuais pertinentes.)"
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_53",
+      "materia": "Direito Processual Civil",
+      "assunto": "Convenção de arbitragem e preclusão",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "João e Marina celebraram contrato de arrendamento com previsão de cláusula compromissória arbitral, na qual estipularam que qualquer disputa de natureza patrimonial decorrente do contrato seria submetida à arbitragem. Após desentendimentos acerca do cumprimento de uma das obrigações previstas no contrato, Marina resolveu ajuizar ação judicial contra João, na qual busca indenização pelos prejuízos que alega ter sofrido. Uma vez citado, João não apresentou contestação. Durante a fase instrutória, ao examinar o contrato celebrado entre as partes, o Magistrado do caso visualizou a existência de cláusula compromissória celebrada entre as partes. Considerando o caso narrado, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Caso João instaure procedimento arbitral contra Marina no bojo da ação judicial ajuizada por ela, ambos terão seu caso julgado exclusivamente pelo Tribunal Arbitral.",
+        "B": "As partes terão seu caso julgado pelo juízo estatal, tendo em vista que João não alegou convenção de arbitragem como preliminar de contestação, circunstância que gera renúncia à jurisdição arbitral.",
+        "C": "João deve arguir a existência da cláusula compromissória quando da contestação, sob pena de perder a faculdade de se beneficiar da arbitragem.",
+        "D": "João não precisa se manifestar nos autos acerca da existência de cláusula compromissória no contrato, pois cabe ao Magistrado conhecer de ofício da convenção de arbitragem e extinguir a ação sem resolução do mérito, uma vez que não tem competência para julgar o caso."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata da convenção de arbitragem e da sua arguição (art. 8º da Lei de Arbitragem). A alternativa A está incorreta. O simples início do procedimento arbitral não retira automaticamente a jurisdição estatal sobre o processo já instaurado. (Art. 337, inciso X: \"Incumbe ao réu, antes de discutir o mérito, alegar: [...]X – convenção de arbitragem.\") A alternativa B está correta. O réu deve alegar a existência da cláusula compromissória na contestação, sob pena de preclusão. (Art. 337, inciso X: \"Incumbe ao réu, antes de discutir o mérito, alegar: [...]X – convenção de arbitragem.\") A alternativa C está incorreta. A convenção de arbitragem deve ser alegada pelo réu e não pode ser conhecida de ofício pelo juiz. (Art. 337, §6º: A ausência de alegação da existência de convenção de arbitragem, na forma prevista neste artigo, implica aceitação da jurisdição estatal e renúncia ao juízo arbitral.) A alternativa D está incorreta. A omissão da parte quanto à cláusula compromissória enseja a continuidade do processo judicial. (Art. 337, §6º: A ausência de alegação da existência de convenção de arbitragem, na forma prevista neste artigo, implica aceitação da jurisdição estatal e renúncia ao juízo arbitral.)"
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_54",
+      "materia": "Direito Processual Civil",
+      "assunto": "Litisconsórcio facultativo e sua limitação pelo juiz",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Rodrigo e Thaís, após o início do namoro, assistiam a um show em uma arena lotada, com cerca de mil pessoas, promovido pela Alegria Produções Artísticas. Em um determinado momento, eles perceberam que o teto montado especialmente para o evento estava desabando e, em consequência, duas mil pessoas ficaram feridas, entre elas, Rodrigo e Thaís. Após a negativa da Alegria Produções Artísticas em reparar os danos causados, Rodrigo e Thaís convenceram todas as pessoas feridas no show a propor ação, em conjunto, em face da produtora. Sobre o caso concreto, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Duas ou mais pessoas não podem litigar no mesmo processo, haja vista que a ação judicial deverá ser proposta de forma individualizada.",
+        "B": "Duas ou mais pessoas podem litigar no mesmo processo, em conjunto, mas apenas no polo ativo, ficando vedado o litisconsórcio passivo.",
+        "C": "O Juiz poderá limitar o litisconsórcio facultativo quanto ao número de litigantes na fase de conhecimento, quando este comprometer a rápida solução do litígio ou dificultar a defesa ou o cumprimento de sentença.",
+        "D": "O Juiz não poderá limitar o litisconsórcio facultativo, por ausência de previsão legal, sendo direito de todos os envolvidos no acidente propor a ação em conjunto."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata da limitação do litisconsórcio facultativo (art. 113, §1º, do CPC). A alternativa A está incorreta. O litisconsórcio é permitido tanto no polo ativo quanto no polo passivo, se houver conexão entre as causas (Art. 113. Duas ou mais pessoas podem litigar, no mesmo processo, em conjunto, ativa ou passivamente:). A alternativa B está incorreta. O litisconsórcio pode ocorrer em qualquer dos polos processuais, inclusive passivo. (Art. 113. Duas ou mais pessoas podem litigar, no mesmo processo, em conjunto, ativa ou passivamente:). A alternativa C está correta. O juiz poderá limitar o número de litigantes no litisconsórcio para garantir a rápida solução do processo ou facilitar a defesa (Art. 113. § 1º O juiz poderá limitar o litisconsórcio facultativo quanto ao número de litigantes na fase de conhecimento, na liquidação de sentença ou na execução, quando este comprometer a rápida solução do litígio ou dificultar a defesa ou o cumprimento da sentença.). A alternativa D está incorreta. A limitação do litisconsórcio está expressamente prevista no CPC (Art. 113. § 1º O juiz poderá limitar o litisconsórcio facultativo quanto ao número de litigantes na fase de conhecimento, na liquidação de sentença ou na execução, quando este comprometer a rápida solução do litígio ou dificultar a defesa ou o cumprimento da sentença)."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_55",
+      "materia": "Direito Processual Civil",
+      "assunto": "Juizados Especiais Cíveis",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Você, como advogado(a), foi procurado(a) por Joana e por Regina, cada uma pretendendo propor ação reparatória perante os Juizados Especiais Cíveis. Joana deseja ajuizar ação para cobrar o equivalente a 100 salários mínimos, ao passo que Regina pretende cobrar o correspondente a 30 salários mínimos. Sobre as ações pretendidas por Joana e Regina, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Regina poderá propor ação sozinha, pois nas causas de até 30 salários mínimos não é obrigatória a assistência de advogado.",
+        "B": "Como a matéria imposta Joana poderá ingressar no Juizado Especial Cível, pois este não tem competência para processar causas cujo valor exceda 40 salários mínimos, independentemente da matéria.",
+        "C": "Para o deferimento da gratuidade de justiça, Joana e Regina deverão comprovar que têm renda inferior a 10 salários mínimos.",
+        "D": "Se as peças propostas por Joana e Regina forem recebidas e instruídas no mesmo procedimento e a audiência de instrução e julgamento, restar -se-ão verdadeiros os fatos alegados por elas, independentemente da sua veracidade."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata das ações nos Juizados Especiais Cíveis (Lei 9.099/95). A alternativa A está incorreta. Nas causas até 20 salários-mínimos é que não é obrigatória a presença de advogado (Lei nº 9.099/95 – Art. 9º: Nas causas de valor até vinte vezes o salário mínimo, as partes comparecerão pessoalmente, podendo ser assistidas por advogado.) A alternativa B está incorreta. O valor da causa de Joana excede o limite de 40 salários-mínimos para o Juizado Especial. (Art. 3º O Juizado Especial Cível tem competência para conciliação, processo e julgamento das causas cíveis de menor complexidade, assim consideradas: I - as causas cujo valor não exceda a quarenta vezes o salário mínimo;). A alternativa C está incorreta. A gratuidade de justiça depende da comprovação de insuficiência de recursos, e não de renda fixa de 10 salários-mínimos. (Art. 98 do CPC: A pessoa natural ou jurídica, brasileira ou estrangeira, com insuficiência de recursos para pagar as custas, as despesas processuais e os honorários advocatícios têm direito à gratuidade da justiça, na forma da lei.) A alternativa D está correta. No Juizado Especial, a ausência de contestação implica presunção de veracidade dos fatos alegados. (Lei nº 9.099/95 – Art. 20: Não comparecendo o demandado, reputar-se-ão verdadeiros os fatos alegados no pedido inicial, salvo se o contrário resultar da convicção do juiz.)"
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_56",
+      "materia": "Direito Processual Civil",
+      "assunto": "Remessa Necessária",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Maria ajuizou ação em face da União, com pedido de condenação desta à entrega de remédios, por ser portadora de grave doença cardíaca. Após regular processamento, o Juízo da Vara Federal competente proferiu sentença de procedência condenando a União à entrega do medicamento solicitado. A Fazenda Pública foi vencida e, na hipótese, foi aplicado pelo juízo o instituto da remessa necessária, com o envio do processo ao Tribunal Regional Federal, embora a União não tenha apelado da sentença. Acerca da remessa necessária, segundo o ordenamento jurídico brasileiro, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Aplica-se a remessa necessária quando a sentença estiver fundada em entendimento firmado em incidente de assunção de competência.",
+        "B": "Aplica-se a remessa necessária quando a condenação ou o proveito econômico obtido na causa for de valor certo e líquido inferior a mil salários mínimos para a União.",
+        "C": "Não se aplicará a remessa necessária aos casos de competência de Juizados Especiais da Fazenda Pública, mas pode ser aplicada às sentenças de ações ajuizadas em Varas Federais.",
+        "D": "Como a União não interpôs o recurso de apelação no prazo legal, o Juiz não poderá ordenar a remessa do processo para reexame necessário no Tribunal, independentemente do valor dos remédios."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata da remessa necessária (art. 496, §3º, do CPC). A alternativa A está incorreta. A sentença fundada em entendimento firmado em incidente de assunção de competência não exige remessa necessária (Código de Processo Civil – Art. 496. Está sujeita ao duplo grau de jurisdição, não produzindo efeito senão depois de confirmada pelo tribunal, a sentença: [...] §4º Não se aplica o disposto no caput aos casos de I - súmula de tribunal superior; II - acórdão proferido pelo Supremo Tribunal Federal ou pelo Superior Tribunal de Justiça em julgamento de recursos repetitivos; III - entendimento firmado em incidente de resolução de demandas repetitivas ou de assunção de competência; IV - entendimento coincidente com orientação vinculante firmada no âmbito administrativo do próprio ente público, consolidada em manifestação, parecer ou súmula administrativa.) A alternativa B está incorreta. A condenação inferior a mil salários-mínimos para a União dispensa a remessa necessária. (Código de Processo Civil – Art. 496, §3º, inciso I: §3º Não se aplica o disposto no caput: I – quando a condenação ou o proveito econômico obtido na causa for inferior a: a) 1.000 (mil) salários-mínimos para a União.) A alternativa C está correta. Não se aplica a remessa necessária nas sentenças de Juizado Especial da Fazenda Pública, mas se aplica nas Varas Federais comuns. (LEI No 10.259, DE 12 DE JULHO DE 2001. Art. 13. Nas causas de que trata esta Lei, não haverá reexame necessário.) A alternativa D está incorreta. Mesmo sem apelação da União, se presentes os requisitos legais, o juiz pode determinar a remessa necessária."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_51",
+      "materia": "Direito Processual Civil",
+      "assunto": "Recursos: Agravo Interno contra decisão monocrática do relator",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Ricardo propôs a execução de um título executivo extrajudicial contra Isabela. Diante da propositura da execução por Ricardo, Isabela apresentou embargos à execução. O Magistrado julgou improcedentes os embargos à execução de Isabela que, irresignada, interpôs recurso de apelação contra a sentença de improcedência dos embargos à execução. Ao receber a apelação interposta por Isabela, o Desembargador relator, integrante de Câmara Cível, julgou o recurso monocraticamente, negando provimento à apelação. Assinale a opção que apresenta o recurso cabível a ser interposto por Isabela.",
+      "alternativas": {
+        "A": "Recurso especial, para que seja analisada, pelo Superior Tribunal de Justiça, eventual violação de lei federal por ter sido negado provimento à apelação de forma monocrática pelo desembargador relator.",
+        "B": "Agravo interno, para que seja analisada, pelo Desembargador relator, eventual violação de lei federal decorrente de ter sido negado provimento à apelação de forma monocrática pelo próprio relator.",
+        "C": "Agravo interno, por se tratar de decisão proferida pelo Desembargador relator, a ser analisado pelo órgão colegiado da Câmara Cível.",
+        "D": "Recurso especial, por se tratar de decisão proferida pelo Desembargador relator, a ser analisado pelo órgão colegiado da Câmara Cível."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão versa sobre recursos. A alternativa A está incorreta. O recurso especial não é cabível contra decisão monocrática de relator em tribunal de segundo grau. Antes de recorrer ao STJ, a parte deve esgotar a instância ordinária, interpondo agravo interno, que será julgado pelo órgão colegiado. O recurso especial pressupõe decisão colegiada, sob pena de inadmissibilidade por supressão de instância. A alternativa B está incorreta. O agravo interno não é analisado pelo próprio relator, mas sim pelo órgão colegiado ao qual ele integra, como a câmara ou turma julgadora. Essa alternativa erra ao indicar que o relator voltaria a decidir a questão. O agravo interno tem justamente por finalidade submeter a matéria ao colegiado, contrariando a decisão monocrática. A alternativa C está correta. A decisão monocrática que nega provimento à apelação pode ser impugnada mediante agravo interno, conforme prevê o art. 1.021 do CPC. Trata-se de recurso próprio contra decisões unilaterais do relator, e será julgado pelo órgão colegiado ao qual pertence o relator, no caso, a Câmara Cível. A alternativa D está incorreta, pois a decisão do relator ainda não foi apreciada pelo colegiado, e o recurso especial só é cabível contra acórdão, ou seja, decisão colegiada. O recurso indicado (recurso especial) não se presta a levar o caso ao órgão colegiado local (Câmara Cível), mas sim ao STJ, após o esgotamento da instância ordinária."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_53",
+      "materia": "Direito Processual Civil",
+      "assunto": "Penhora de ativos financeiros (BacenJud)",
+      "banca": "FGV",
+      "ano": "44º Exame de Ordem",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Em execução fundada em título extrajudicial, movida por Murilo, seu ex-sócio, Marília foi executada. Após regular citação, Marília não ofertou defesa, não nomeou bens à penhora, nem pagou o débito exequendo. Por essa razão, Murilo requereu a realização de penhora em contas correntes de titularidade de Marília, com o intuito de satisfazer seu crédito. A indisponibilidade do valor foi determinada pelo Juízo. Tomando o caso acima como premissa, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A indisponibilidade de ativos financeiros pode ser realizada sem ciência prévia de Marília, pois é hipótese que dispensa o contraditório prévio.",
+        "B": "Eventual impenhorabilidade das quantias tornadas indisponíveis poderá ser comprovada por Marília no prazo de 10 dias, contados da intimação da penhora.",
+        "C": "Marília poderá requerer a substituição da penhora do dinheiro por fiança bancária, em valor não inferior ao do débito constante da petição inicial, acrescido de vinte por cento.",
+        "D": "Caso Marília efetue o pagamento da dívida por outro meio, o Juiz determinará a notificação da instituição financeira para que, em até 48 horas, cancele a indisponibilidade."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão versa sobre a penhora de bens no processo de execução. A alternativa A está correta. O art. 854, §2º, do CPC, prevê expressamente que o juiz pode determinar a indisponibilidade de ativos financeiros por meio eletrônico (via Bacenjud/SisbaJud) sem a oitiva prévia do executado, justamente para preservar a efetividade da penhora. O contraditório é postergado e será exercido após a constrição, quando o executado é intimado para eventualmente impugnar ou demonstrar impenhorabilidade dos valores. A alternativa B está incorreta. O prazo para o executado impugnar a penhora de dinheiro é de 5 dias, e não 10. Esse prazo está previsto no §3º, do art. 854, do CPC. O executado é intimado da indisponibilidade e pode demonstrar, nesse prazo, que os valores são impenhoráveis (como verbas salariais, por exemplo). A alternativa C está incorreta. Embora o artigo 835, §2º do CPC preveja que é possível a substituição da penhora por fiança bancária ou seguro garantia judicial, há uma condição expressa: o valor da garantia deve ser acrescido de 30% sobre o valor do débito exequendo. Portanto, a menção a um acréscimo de apenas 20% está equivocada. Além disso, o dispositivo citado indevidamente na alternativa — art. 827, §1º — trata da redução dos honorários advocatícios no caso de pagamento voluntário da dívida em três dias após a citação, e não possui qualquer relação com a substituição da penhora por fiança. A alternativa D está incorreta. O prazo de 24 horas é o correto para o cumprimento da ordem de desbloqueio, conforme o §5º do art. 854 do CPC. O prazo de 48 horas não está previsto na legislação. Assim, a alternativa está errada por indicar um prazo diverso do legalmente estabelecido."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_54",
+      "materia": "Direito Processual Civil",
+      "assunto": "Segredo de justiça em ações de família",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Juliana e André foram casados por anos, tiveram um filho que atualmente está com 6 anos, mas, por adversidades conjugais, resolveram pôr fim ao casamento. Após a separação, o filho ficou residindo com a mãe em cidade distinta do pai. Considerando que não tem mais volta a relação conjugal, Juliana, por meio do seu advogado, deseja propor ação de divórcio e guarda. Sobre o caso, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A ação de divórcio e guarda deve tramitar em segredo de justiça.",
+        "B": "A ação de divórcio e guarda deve ser proposta no domicílio de André.",
+        "C": "Se André, após a citação, não comparecer em audiência nem apresentar contestação, ele não poderá mais intervir no processo.",
+        "D": "Ainda que André apresente resistência à ação de divórcio e guarda, sendo vencido na ação, ele não poderá ser condenado em honorários de sucumbência."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão versa sobre sigilo processual (e, de certo modo, competência). A alternativa A está correta. As ações que envolvem direito de família, como divórcio, guarda, alimentos e investigação de paternidade, devem obrigatoriamente tramitar em segredo de justiça, nos termos do art. 189, II, do CPC. Isso visa proteger a intimidade das partes, especialmente quando há menores envolvidos. A alternativa B está incorreta. Em ações de família, havendo filho menor, a ação deve ser proposta no foro de domicílio do guardião do incapaz, conforme estabelece o art. 53, I, do CPC. Como o filho reside com a mãe, Juliana, é no foro dela que deve ser ajuizada a ação. A alternativa C está incorreta. O réu revel ainda pode intervir no processo em qualquer fase, recebendo-o no estado em que se encontrar, conforme prevê o parágrafo único do art. 346 do CPC, exceto para repetir atos que já tenham ocorrido. A alternativa D está incorreta. A condenação ao pagamento de honorários sucumbenciais é regra no CPC (art. 85, caput), inclusive em ações de família, desde que haja resistência. Embora, em algumas hipóteses específicas envolvendo alimentos ou reconciliação espontânea, a jurisprudência atue com maior flexibilidade, não há proibição legal para condenação ao pagamento de honorários em ação de divórcio e guarda."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_55",
+      "materia": "Direito Processual Civil",
+      "assunto": "Cumprimento de sentença contra a Fazenda Pública",
+      "banca": "FGV",
+      "ano": "44º Exame de Ordem",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Débora, servidora pública aposentada do Município de Fortaleza, procurou você, como advogado(a), para ajuizar uma ação pelo procedimento comum em face do Município, pleiteando o pagamento de verbas em atraso a título de auxílio alimentação. Proferida sentença de procedência do pedido, foi interposto recurso de apelação pelo réu, não provido, assim como foi mantida a sentença em remessa necessária na mesma oportunidade. Transitada em julgado a sentença, Débora pretende receber os valores que lhe são devidos. Sobre o caso, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A Fazenda Pública Municipal, caso não pague o valor devido à Débora de forma espontânea, diferentemente do que ocorre com as Fazendas Estadual e Federal, sujeita-se à penhora de seus bens.",
+        "B": "Débora deverá instruir sua petição de cumprimento de sentença com o demonstrativo discriminado e atualizado do crédito, devendo o Município ser intimado para apresentar impugnação nos mesmos autos.",
+        "C": "Não impugnada a execução, os valores devidos deverão ser depositados diretamente na conta corrente da autora, por se tratar de servidora pública.",
+        "D": "Débora deverá indicar o valor atualizado do crédito em sua petição de cumprimento de sentença, devendo o Município ser citado para apresentar embargos em autos apartados."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão versa sobre execução contra a Fazenda Pública. A alternativa A está incorreta. A Fazenda Pública, independentemente de ser municipal, estadual ou federal, não se submete à penhora tradicional, porque o pagamento de valores decorrentes de sentença deve ser feito por meio de precatório ou requisição de pequeno valor, conforme o art. 100 da CF/88 e o art. 534 do CPC. Assim, não há penhora de bens públicos em cumprimento de sentença. A alternativa B está correta. No cumprimento de sentença contra a Fazenda Pública (como no caso da servidora Débora), a petição deve vir instruída com demonstrativo discriminado e atualizado do crédito, nos termos do art. 534 do CPC. Após a intimação da Fazenda, o Município poderá apresentar impugnação, conforme prevê o art. 535 do CPC, nos próprios autos, no prazo de 30 dias. Trata-se, portanto, de procedimento distinto daquele aplicável à execução contra particulares, em que há citação para embargos em autos apartados. A alternativa C está incorreta. Mesmo sendo servidora pública, Débora só receberá o valor por meio de precatório ou RPV, conforme o valor da condenação e os limites legais, jamais por depósito direto em conta. O fato de ela ser servidora não afasta o regime constitucional de pagamento da Fazenda Pública. A alternativa D está incorreta. A Fazenda Pública não é citada nem apresenta embargos em autos apartados. A sistemática especial da Fazenda Pública prevê a intimação (e não citação) para apresentar impugnação nos próprios autos, conforme o art. 535 do CPC. Essa alternativa confunde os procedimentos aplicáveis à execução contra devedores privados com o regime aplicável à Fazenda."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_56",
+      "materia": "Direito Processual Civil",
+      "assunto": "Ação de consignação em pagamento - revelia",
+      "banca": "FGV",
+      "ano": "44º Exame de Ordem",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Pedro, locatário de um imóvel, ingressa com ação de consignação em pagamento após a locadora, Ana, recusar-se a receber o aluguel, o que foi comprovado pela juntada de documentos, nos quais Ana se recusa, expressamente, a receber a quantia. Atendendo a requerimento de Pedro, o Juiz determinou o depósito do valor em juízo, o que foi tempestivamente cumprido pelo autor. Ato contínuo, Ana é citada, mas não ofereceu contestação. Em tal hipótese, assinale a opção que apresenta, corretamente, a providência que o(a) advogado(a) deverá requerer ao Juízo.",
+      "alternativas": {
+        "A": "A intimação das partes para que especifiquem as provas que pretendem produzir.",
+        "B": "A decretação da revelia de Ana e a fixação de multa pela prática de ato atentatório à dignidade da justiça.",
+        "C": "A determinação de devolução do montante depositado e a extinção do processo sem resolução do mérito em razão de se tratar de pedido incontroverso.",
+        "D": "O julgamento pela procedência do pedido da ação de consignação em pagamento, declarando extinta a obrigação e condenando Ana ao pagamento de custas e honorários advocatícios."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão versa sobre a ação em consignação em pagamento. A alternativa A está incorreta. Não se trata de processo que demande instrução probatória. Como houve recusa comprovada do credor e o depósito foi realizado no prazo, e não houve contestação, o juiz deve julgar procedente o pedido, conforme o art. 546 do CPC. A intimação para provas é desnecessária. A alternativa B está incorreta. A ausência de contestação não gera, automaticamente, a aplicação de multa por ato atentatório à dignidade da justiça. Além disso, o processo é de consignação em pagamento, que possui regras específicas. O correto é julgar procedente o pedido e declarar extinta a obrigação. A alternativa C está incorreta. Não se trata de devolução. O depósito foi realizado para extinguir a obrigação do locatário, que comprovou a recusa da credora. A ausência de contestação da parte contrária implica aceitação tácita da quantia, o que leva ao julgamento com resolução do mérito, declarando extinta a obrigação (CPC, art. 546, parágrafo único). A alternativa D está correta. Ela está de acordo com o disposto no art. 546, parágrafo único, do Código de Processo Civil, que trata especificamente da ação de consignação em pagamento. Nesse tipo de ação, se o réu (credor) for citado e não apresentar contestação, presumem-se verdadeiros os fatos narrados pelo autor. Nesse caso, o juiz julgará procedente o pedido, declarando a extinção da obrigação e condenando o réu ao pagamento das custas processuais e honorários advocatícios. No caso apresentado, Pedro depositou tempestivamente o valor referente ao aluguel após a recusa da locadora, o que foi comprovado documentalmente. Como Ana foi citada e permaneceu inerte, o juiz deverá reconhecer a validade do depósito e declarar extinta a obrigação do autor."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_51",
+      "materia": "Direito Processual Civil",
+      "assunto": "Coisa Julgada",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Joana ajuizou ação em face de Pietra, cirurgiã plástica, requerendo a sua condenação ao pagamento de danos morais e estéticos, resultantes de procedimento estético malsucedido. Ocorre que, anteriormente, em decisão transitada em julgado, fundada na mesma causa de pedir e contra a mesma profissional, um pedido idêntico de Joana foi julgado improcedente em face de Pietra, sob o fundamento de que não restou comprovada conduta negligente de Pietra, a ensejar a sua condenação. Em tal hipótese, assinale a opção que indica o fenômeno processual cabível para extinguir a ação proposta por Joana.",
+      "alternativas": {
+        "A": "Conexão, por ser comum o pedido e a causa de pedir.",
+        "B": "Litispendência, por se repetir ação já proposta e em curso.",
+        "C": "Perempção, por ter havido extinção de ação anteriormente proposta por Joana.",
+        "D": "Coisa julgada, por haver decisão de mérito transitada em julgado com as mesmas partes, causa de pedir e pedido."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata sobre a coisa julgada. A alternativa A está incorreta. O objetivo da conexão (art. 55, CPC) é reunir os processos para evitar decisões conflitantes. Como o primeiro processo da Joana já acabou (transitou), não há o que reunir. Veja o comentário da alternativa D. A alternativa B está incorreta. No caso da questão, a ação anterior já foi encerrada, logo, não é litispendência (art. 337, §3º, CPC). Veja o comentário da alternativa D. A alternativa C está incorreta. Joana só propôs a ação uma vez antes, então não há que se falar em perempção. A alternativa D está correta. Segundo o Art. 337, §4º do CPC, há coisa julgada quando se repete ação que já foi decidida por decisão de que não caiba recurso. Joana está tentando rediscutir algo que o Estado-Juiz já bateu o martelo. Para proteger a segurança jurídica, o novo processo deve ser extinto sem resolução de mérito, consoante o disposto no art. 337, VII, CPC: “Art. 337. Incumbe ao réu, antes de discutir o mérito, alegar: VIII - conexão;”. Sendo conexão, há como elementos idênticos o pedido OU causa de pedir."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_52",
+      "materia": "Direito Processual Civil",
+      "assunto": "Recursos: Agravo de Instrumento contra decisão que defere tutela provisória",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "José ajuizou ação de indenização por danos materiais e morais contra Ana. Na petição inicial, José formulou requerimento de tutela provisória de urgência para que fosse determinado o bloqueio imediato de bens detidos por Ana, até o valor pleiteado por José no processo judicial, como forma de resguardar uma futura indenização para José, se forem julgados procedentes os seus pedidos de danos materiais e morais. Após realizar a admissibilidade da petição inicial, o magistrado concedeu a tutela provisória de urgência em favor de José. Nessa situação hipotética, assinale a opção que indica o recurso a ser interposto por Ana.",
+      "alternativas": {
+        "A": "Não cabe recurso imediato contra a decisão que defere a tutela provisória de urgência.",
+        "B": "Agravo de instrumento, uma vez que a decisão que defere a tutela provisória de urgência é decisão interlocutória impugnável por tal recurso.",
+        "C": "Apelação, tendo em vista que a decisão que defere a tutela provisória de urgência tem natureza de sentença, passível de impugnação por tal recurso.",
+        "D": "Apelação, tendo em vista que a decisão que defere a tutela provisória de urgência é decisão interlocutória passível de impugnação por tal recurso."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre tutela provisória. A alternativa A está incorreta. O sistema processual oferece o recurso imediato justamente para controlar a legalidade dessas urgências. Veja o comentário da alternativa B. A alternativa B está correta. A decisão que concede ou nega uma tutela (seja ela de urgência ou de evidência) tem natureza de decisão interlocutória, ao resolver uma questão incidente sem pôr fim ao processo. Vejamos o disposto no art. 1.015, I, CPC: “Art. 1.015. Cabe agravo de instrumento contra as decisões interlocutórias que versarem sobre: I - tutelas provisórias;” cabe Agravo de Instrumento contra decisões interlocutórias que versarem sobre tutelas provisórias. É uma das hipóteses de cabimento imediato mais comuns na prática jurídica. A alternativa C está incorreta. A decisão que apenas bloqueia bens liminarmente não encerra o processo (art. 203, §2º, CPC). Dessa forma, o processo continuará para discutir se José realmente tem direito à indenização. Nesse sentido, portanto, não se confunde com a sentença. A alternativa D está incorreta. As decisões sobre tutelas provisórias são agraváveis de imediato (art. 1.015, I, CPC). Veja o comentário da alternativa B."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_53",
+      "materia": "Direito Processual Civil",
+      "assunto": "Reconvenção",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Joana ajuizou ação declaratória de nulidade de negócio jurídico em face de João e Regina, alegando ter sido vítima de dolo de ambos na celebração de contrato de compra e venda de imóvel. Em sede de contestação, além de negarem os fatos alegados por Joana, João e Regina procuram você, como advogado(a), para propor reconvenção contra Joana e Marcelo, seu fiador, para cobrar valores alegadamente em atraso, referentes às parcelas do contrato de compra e venda firmado pelas partes. Sobre o caso acima, assinale a opção que apresenta, corretamente, a orientação jurídica prestada.",
+      "alternativas": {
+        "A": "Joana poderá desistir da ação para impedir o prosseguimento da reconvenção.",
+        "B": "Joana, com a propositura da reconvenção, será citada pessoalmente e deverá apresentar resposta no prazo de 15 dias.",
+        "C": "Não há óbice à propositura da reconvenção em face de Joana e de Marcelo, ainda que este não tenha sido o autor do processo originário.",
+        "D": "A reconvenção somente poderá ser admitida porque João e Regina contestaram o pedido, não sendo lícita a propositura de reconvenção sem que o réu ofereça contestação."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre reconvenção. A alternativa A está incorreta. Esta é uma pegadinha clássica. A reconvenção é independente da ação principal, conforme assim autoriza o art. 343, §2º, CPC: “§ 2º A desistência da ação ou a ocorrência de causa extintiva que impeça o exame de seu mérito não obsta ao prosseguimento do processo quanto à reconvenção.” A alternativa B está incorreta. Como Joana já é parte no processo e já tem advogado constituído, ela não precisa de uma nova \"citação pessoal\". Ela será intimada na pessoa de seu advogado para apresentar resposta, conforme assim estabelece o art. 343, §1º, CPC: “§ 1º Proposta a reconvenção, o autor será intimado, na pessoa de seu advogado, para apresentar resposta no prazo de 15 (quinze) dias”. A alternativa C está correta. O réu pode trazer um terceiro para o processo na reconvenção, caso haja conexão. No caso, Marcelo é fiador do contrato, então há total conexão. Vejamos o disposto no art. 343, §3º, CPC: “Art. 343. Na contestação, é lícito ao réu propor reconvenção para manifestar pretensão própria, conexa com a ação principal ou com o fundamento da defesa. § 3º A reconvenção pode ser proposta contra o autor e terceiro.” A alternativa D está incorreta. A reconvenção não é um acessório da contestação, mas um pedido autônomo, conforme o art. 343, §6º: “§ 6º O réu pode propor reconvenção independentemente de oferecer contestação.”"
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_54",
+      "materia": "Direito Processual Civil",
+      "assunto": "Cumprimento de sentença de alimentos",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Lucas requereu o cumprimento de sentença de obrigação de pagar alimentos, decorrente de sentença condenatória proferida em desfavor de Leonardo, seu pai, que é servidor público, condenado ao pagamento de alimentos, no percentual de 20% de seus rendimentos líquidos. Regularmente intimado, Leonardo não pagou o débito cobrado, porém apresentou petição alegando que enfrenta dificuldades financeiras que impossibilitam o cumprimento da obrigação, requerendo ao Juízo a concessão de maior prazo para pagar a dívida. Sobre o caso apresentado, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A comprovação de que Leonardo poderá cumprir parcialmente a obrigação alimentar justificará o inadimplemento em absoluto.",
+        "B": "Não acolhida a defesa de Leonardo, o Juiz decretará a sua prisão pelo prazo de dois a seis meses, que, se cumprida, o eximirá do pagamento das prestações vencidas.",
+        "C": "O Juiz poderá ordenar a prisão civil de Leonardo em razão do inadimplemento das obrigações referentes às cinco prestações anteriores ao ajuizamento da execução e as que vencerem no curso do processo.",
+        "D": "Lucas poderá requerer o desconto em folha de pagamento da importância da prestação alimentícia, buscando o pagamento dos alimentos vencidos e vincendos devidos por Leonardo, até o limite de 50% dos ganhos líquidos do executado."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata sobre cumprimento de sentença, especificamente, em ação de alimentos. A alternativa A está incorreta. No direito de família, a obrigação alimentar é rígida. Para reduzir o valor, Leonardo deveria ter ajuizado uma Ação Revisional de Alimentos, e não somente peticionado no cumprimento de sentença solicitando mais prazo. A alternativa B está incorreta. O prazo da prisão civil por alimentos é de 1 a 3 meses (Art. 528, §3º, CPC), e não de 2 a 6 meses. Vejamos: “§ 3º Se o executado não pagar ou se a justificativa apresentada não for aceita, o juiz, além de mandar protestar o pronunciamento judicial na forma do § 1º, decretar-lhe-á a prisão pelo prazo de 1 (um) a 3 (três) meses.” A alternativa C está incorreta. O art. 528, §7º do CPC estabelece que o débito alimentar que autoriza a prisão civil é o que compreende as 3 prestações anteriores ao ajuizamento e as que vencerem no curso do processo. Vejamos: “§ 7º O débito alimentar que autoriza a prisão civil do alimentante é o que compreende até as 3 (três) prestações anteriores ao ajuizamento da execução e as que se vencerem no curso do processo.” Ao falar em \"cinco\", a alternativa amplia o prazo legal. A alternativa D está correta. Vejamos o disposto no art. 529, CPC: “Art. 529. Quando o executado for funcionário público, militar, diretor ou gerente de empresa ou empregado sujeito à legislação do trabalho, o exequente poderá requerer o desconto em folha de pagamento da importância da prestação alimentícia. [...] art. 883, §3º, CPC - § 2º O disposto nos incisos IV e X do caput não se aplica à hipótese de penhora para pagamento de prestação alimentícia, independentemente de sua origem, bem como às importâncias excedentes a 50 (cinquenta) salários-mínimos mensais, devendo a constrição observar o disposto no art. 528, § 8º, e no art. 529, § 3º.” O desconto em folha é o meio mais efetivo de garantir o pagamento quando o devedor é servidor público, como é o caso de Leonardo, sendo 50% o limite máximo para desconto em folha em casos de alimentos (somando a pensão do mês + a parcela do que está devendo)."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_56",
+      "materia": "Direito Processual Civil",
+      "assunto": "Cumprimento de sentença - prazo para impugnação",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Glauco ingressou com uma ação contra Alex que, após o trânsito em julgado da sentença condenatória, deu início ao cumprimento de sentença. Alex foi devidamente intimado para pagar o débito no prazo legal, mas não realizou o pagamento. Seis dias após o término do prazo para o pagamento, ao ser questionado sobre a apresentação da impugnação ao cumprimento de sentença, Alex afirmou que ainda aguardava uma intimação específica para impugnar, pois acreditava que o prazo para se manifestar só começaria a contar após essa nova intimação. Diante dessa situação, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Alex está correto, pois o prazo para impugnação ao cumprimento de sentença só se inicia após uma nova intimação específica para esse fim.",
+        "B": "O prazo para impugnação ao cumprimento de sentença tem início após o transcurso do prazo para o pagamento voluntário, independentemente de nova intimação.",
+        "C": "Alex pode apresentar a impugnação a qualquer momento durante a execução, pois não há prazo específico para essa manifestação, em razão do princípio da ampla defesa, devendo ser apresentada em autos apartados.",
+        "D": "O prazo para a impugnação ao cumprimento de sentença tem início antes do prazo para o pagamento voluntário, isto é, primeiro Alex é intimado para impugnar e, caso a impugnação não seja acolhida, ele é intimado para efetuar o pagamento do débito."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre cumprimento de sentença. A alternativa A está incorreta. Isso não existe. O prazo para impugnação é consecutivo ao prazo de pagamento voluntário. Veja o comentário da alternativa B. A alternativa B está correta. O Art. 525 do CPC é claro, tendo transcorrido o prazo para pagamento voluntário, inicia-se o prazo para que o executado, independentemente de penhora ou nova intimação, apresente sua impugnação. Vejamos o disposto no art. 535, CPC: “Art. 535. A Fazenda Pública será intimada na pessoa de seu representante judicial, por carga, remessa ou meio eletrônico, para, querendo, no prazo de 30 (trinta) dias e nos próprios autos, impugnar a execução, podendo arguir: [...]” A alternativa C está incorreta. Não pode ser apresentada a 'qualquer momento'. Além disso, ela deve ser apresentada nos próprios autos e não em autos apartados. Veja o comentário da alternativa B. A alternativa D está incorreta. A alternativa inverte a lógica processual. Primeiro busca-se a satisfação do crédito (pagamento). A defesa vem depois do silêncio do devedor quanto ao pagamento. Veja o comentário da alternativa B."
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "Direito Eleitoral": [
+    {
+      "id": "oab_38_19",
+      "materia": "Direito Eleitoral",
+      "assunto": "Federação de Partidos",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "No ano anterior à realização de eleições para cargos eletivos federais e estaduais, os dirigentes dos partidos políticos Alfa e Gama iniciaram tratativas para se aliançarem, tanto nas eleições majoritárias como nas proporcionais, mas havia dúvida em relação ao modelo a ser utilizado. Após consultarem a legislação de regência, concluíram corretamente que deveriam formar",
+      "alternativas": {
+        "A": "coligação, que se extinguirá ao fim do prazo para o ajuizamento da ação de impugnação de mandato eletivo.",
+        "B": "gestão colegiada, somente utilizada nas eleições proporcionais, que deve perdurar até o fim do prazo do mandato eletivo obtido.",
+        "C": "ajuntamento partidário, que se extinguirá após a diplomação dos eleitos.",
+        "D": "federação, sendo que os partidos devem permanecer filiados por no mínimo quatro anos, contados da data do respectivo ingresso"
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa D está correta. A federação partidária (art. 11-A da Lei 9.096/95) atende à finalidade, pois permite aliança para majoritárias e proporcionais, com duração mínima de 4 anos. As coligações para proporcionais foram extintas pela EC 97/2017."
+    },
+    {
+      "id": "oab_38_20",
+      "materia": "Direito Eleitoral",
+      "assunto": "Gastos de Campanha - Honorários Advocatícios",
+      "banca": "FGV",
+      "ano": "2023",
+      "enunciado": "Helena, filiada ao partido político Beta e candidata ao cargo de governadora do Estado Alfa, consultou seu advogado a respeito da composição dos gastos de campanha, mais especificamente se o pagamento de honorários em razão da prestação de serviços advocatícios, no curso e em razão da campanha eleitoral, teria essa natureza jurídica. A assessoria respondeu, corretamente, que os referidos honorários",
+      "alternativas": {
+        "A": "estão incluídos no limite de gastos de campanha, sendo tidos como despesas eleitorais.",
+        "B": "são considerados gastos eleitorais e não estão incluídos no limite de gastos de campanha.",
+        "C": "pela sua essência alimentar, não têm correlação com os gastos eleitorais, o que afasta a possibilidade de serem enquadrados em qualquer limitador de despesas.",
+        "D": "podem ser considerados gastos eleitorais, caso o candidato assim os declare, e estão incluídos no limite de gastos de campanha."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa B está correta. Nos termos do art. 18-A, parágrafo único, da Lei 9.504/97, os gastos advocatícios relacionados à campanha são considerados gastos eleitorais, mas não estão sujeitos a limites de gastos para garantir o exercício da ampla defesa."
+    },
+    {
+      "id": "oab_39_19",
+      "materia": "Direito Eleitoral",
+      "assunto": "Escolha de Candidatos em Convenção Partidária",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 17, §1º, CF; Art. 3º, Lei 9.096/95.",
+      "enunciado": "Joana, deputada estadual no Estado Alfa, vinha recebendo inúmeras críticas de alguns correligionários do seu partido político. Apesar do amplo apoio popular que recebia, para sua surpresa, não foi escolhida, na convenção partidária, para concorrer à reeleição ao cargo de deputada estadual. A esse respeito, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Como Joana busca a reeleição, deve ser considerada candidata nata.",
+        "B": "A deliberação adotada na convenção partidária é lícita, caso tenha sido adotada por maioria absoluta.",
+        "C": "Os partidos políticos têm autonomia para a escolha dos seus candidatos, observados os balizamentos legais.",
+        "D": "Joana pode requerer pessoalmente o registro de sua candidatura, ainda que não tenha sido aprovada na convenção partidária."
+      },
+      "gabarito": "C",
+      "comentario": "O art. 17, §1º da CF assegura autonomia aos partidos para definir regras sobre escolha de candidatos. A 'candidatura nata' foi declarada inconstitucional pelo STF (ADI 2530). A Lei 9.504/97 exige aprovação em convenção e o registro é feito pelo partido, sendo vedada candidatura avulsa (art. 11, §14)."
+    },
+    {
+      "id": "oab_39_20",
+      "materia": "Direito Eleitoral",
+      "assunto": "Atuação isolada de partido coligado",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "Art. 6º, §4º, Lei 9.504/97.",
+      "enunciado": "Os partidos políticos Alfa, Beta e Gama decidiram celebrar uma coligação para a eleição municipal majoritária que se avizinha. Apesar do apoio recebido da maior parte dos correligionários dessas agremiações, alguns tinham dúvidas em relação aos efeitos dessa iniciativa quanto à autonomia de cada partido político durante o processo eleitoral, mais especificamente, se poderiam atuar isoladamente ou se apenas a coligação poderia fazê-lo. De acordo com a narrativa e a sistemática estabelecida na Lei n° 9.504/97, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Alfa, Beta e Gama somente podem atuar isoladamente no processo eleitoral para questionar a validade da própria coligação, isto no período delimitado em lei.",
+        "B": "Em qualquer fase do processo eleitoral, somente a coligação pode atuar, mas isto não afeta a autonomia de Alfa, Beta e Gama, que devem referendar cada ato praticado.",
+        "C": "Alfa, Beta e Gama podem atuar isoladamente em todas as fases do processo eleitoral, sempre que os seus interesses colidirem com os da coligação.",
+        "D": "As prerrogativas e obrigações da coligação são distintas daquelas afetas a Alfa, Beta e Gama, de modo que cada qual atua em sua própria esfera de atribuições."
+      },
+      "gabarito": "A",
+      "comentario": "O art. 6º, §4º da Lei 9.504/97 estabelece que o partido coligado só tem legitimidade para atuar de forma isolada quando questionar a validade da própria coligação, durante o período compreendido entre a convenção e o fim do prazo para impugnação do registro de candidatos."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_19",
+      "materia": "Direito Eleitoral",
+      "assunto": "Prestação de contas e diplomação",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "João, candidato ao cargo eletivo de prefeito municipal, logrou ser eleito. No entanto, por ser muito desorganizado, não conseguiu localizar os documentos necessários para a prestação de contas à Justiça Eleitoral, o que resultou na não apresentação dessas contas. Sobre as consequências da omissão de João, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A impossibilidade de ser diplomado.",
+        "B": "A sua diplomação com reservas.",
+        "C": "O pagamento de multa, não havendo óbice à diplomação, ato independente.",
+        "D": "A necessidade de firmar compromisso, previamente à diplomação, comprometendo-se a apresentar as contas."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A alternativa A está correta, pois a ausência de prestação de contas resulta na impossibilidade da diplomação, nos termos do art. 29, §2º, da Lei nº 9.504/97 (Lei das Eleições): “Art. 29. § 2º A inobservância do prazo para encaminhamento das prestações de contas impede a diplomação dos eleitos, enquanto perdurar”. As alternativas B, C e D estão incorretas, pelo fundamento exposto na alternativa A."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-XL-40_20",
+      "materia": "Direito Eleitoral",
+      "assunto": "Prévias partidárias e cobertura da mídia",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Entre os correligionários do partido político Alfa estavam dois dos pré-candidatos considerados favoritos na eleição para governador do Estado Beta. Como somente um deles poderia ser escolhido por Alfa para concorrer ao referido cargo eletivo, houve grande interesse dos meios de comunicação social na cobertura das prévias partidárias. Em relação às emissoras de rádio e televisão, à luz dos balizamentos legais existentes, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A lei obsta a cobertura das prévias partidárias.",
+        "B": "Elas podem realizar, ao vivo ou não, a plena cobertura das prévias partidárias, não sendo permitida qualquer censura.",
+        "C": "Somente é permitida a transmissão de imagens ao vivo, de modo a evitar o risco de trucagem.",
+        "D": "As transmissões por emissoras de rádio e televisão das prévias partidárias, ao vivo, são vedadas."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A alternativa A está incorreta, pois a lei não obsta a cobertura das prévias partidárias. No caso, há vedação apenas quanto à transmissão ao vivo por emissoras de rádio e de televisão das prévias partidárias. A alternativa B está incorreta, pois as emissoras de rádio e televisão somente podem realizar a cobertura das prévias partidárias, desde que não seja ao vivo. A alternativa C está incorreta, pois é vedada a transmissão ao vivo das prévias partidárias por emissoras de rádio e de televisão, nos termos do art. 3º, §1º, da Resolução nº 23.610/2019 do TSE. A alternativa D está correta, nos termos do art. 3º, §1º, da Resolução nº 23.610/2019 do TSE: “Art. 3º. § 1º É vedada a transmissão ao vivo por emissoras de rádio e de televisão das prévias partidárias, sem prejuízo da cobertura dos meios de comunicação social (Lei nº 9.504/1997, art. 36-A, § 1º)”. Cumpre destacar que é importante a leitura da íntegra da Resolução do Tribunal Superior Eleitoral (TSE) nº 23.610/2019, que trata da propaganda eleitoral, tendo em vista que passou a vigorar com novo texto, após a aprovação da Resolução nº 23.732/2024. A norma traz regras já conhecidas e novidades impostas pelo avanço tecnológico, como o uso de inteligência artificial (IA)."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_19",
+      "materia": "Direito Eleitoral",
+      "assunto": "Fundo Especial de Financiamento de Campanha (FEFC)",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Depois de ser convidado para concorrer a um cargo eletivo pelo partido político Alfa, Antônio expressou sua preocupação com os custos de uma campanha eleitoral. Afinal, embora popular, era pessoa humilde e não poderia arcar com esses custos. Para tranquilizá-lo, Maria, presidente de Alfa, informou que seriam utilizados recursos do Fundo Especial de Financiamento de Campanha (FEFC). A respeito do destinatário dos recursos a serem entregues pelo Tribunal Superior Eleitoral, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Os partidos políticos devem receber os recursos e os distribuir, de forma isonômica, entre os seus candidatos.",
+        "B": "Os recursos devem ser encaminhados diretamente aos candidatos, o que deve ser feito de maneira isonômica.",
+        "C": "Os partidos políticos devem receber os recursos e os distribuir entre os candidatos que os requereram, conforme critérios definidos previamente pelo órgão competente do partido.",
+        "D": "Os candidatos devem receber os recursos e priorizar aqueles que concorreram em eleição anterior."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão aborda o conhecimento sobre os partidos políticos e o fundo especial de financiamento de campanha. A alternativa A está incorreta, pois não é obrigatória a distribuição de forma isonômica entre os seus candidatos. De acordo com a Lei das Eleições, a distribuição dos recursos ocorrerá conforme prévia definição de critérios pelos partidos políticos, nos termos do disposto no art. 16-C, §7º, da Lei das Eleições (Lei nº 9.504/97): “§ 7º Os recursos de que trata este artigo ficarão à disposição do partido político somente após a definição de critérios para a sua distribuição, os quais, aprovados pela maioria absoluta dos membros do órgão de direção executiva nacional do partido, serão divulgados publicamente”. A alternativa B está incorreta, pois os recursos do Fundo Especial de Financiamento de Campanha (FEFC) não serão encaminhados diretamente aos candidatos. Dispõe o art. 16-C, §2º, da Lei das Eleições (Lei nº 9.504/97) que: “§ 2º O Tesouro Nacional depositará os recursos no Banco do Brasil, em conta especial à disposição do Tribunal Superior Eleitoral, até o primeiro dia útil do mês de junho do ano do pleito”. Além disso, não é obrigatória a distribuição dos recursos de forma isonômica entre os candidatos do partido político. De acordo com a Lei das Eleições, a distribuição dos recursos ocorrerá conforme prévia definição de critérios pelos partidos políticos, de acordo com o disposto no art. 16-C, §7º, da Lei das Eleições (Lei nº 9.504/97): “§ 7º Os recursos de que trata este artigo ficarão à disposição do partido político somente após a definição de critérios para a sua distribuição, os quais, aprovados pela maioria absoluta dos membros do órgão de direção executiva nacional do partido, serão divulgados publicamente”. A alternativa C está correta, pois é necessário o requerimento do candidato, nos termos do art. 16-D, §2º, da Lei das Eleições (Lei nº 9.504/97): “§ 2º Para que o candidato tenha acesso aos recursos do Fundo a que se refere este artigo, deverá fazer requerimento por escrito ao órgão partidário respectivo”. Além disso, a distribuição dos recursos ocorrerá conforme prévia definição de critérios pelos partidos políticos, de acordo com o disposto no art. 16-C, §7º, da Lei das Eleições (Lei nº 9.504/97): “§ 7º Os recursos de que trata este artigo ficarão à disposição do partido político somente após a definição de critérios para a sua distribuição, os quais, aprovados pela maioria absoluta dos membros do órgão de direção executiva nacional do partido, serão divulgados publicamente”. A alternativa D está incorreta, pois não há previsão legal de prioridade de recebimento de recursos por parte de candidatos que concorreram em eleição anterior."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-41_20",
+      "materia": "Direito Eleitoral",
+      "assunto": "Inelegibilidade reflexa e recurso contra expedição de diploma",
+      "banca": "FGV",
+      "ano": "2021",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Joana requereu o registro de sua candidatura para concorrer ao cargo eletivo de prefeita do Município Alfa, situado no Estado Beta. O registro não sofreu qualquer impugnação e foi deferido pela Justiça Eleitoral. Duas semanas após a proclamação do resultado da eleição, tendo sido Joana eleita prefeita municipal, Maria, que concorrera para o mesmo cargo e fora derrotada, descobriu que Joana era irmã da governadora do Estado Beta. Maria procurou você, como advogado(a), questionando se era possível discutir a inelegibilidade de Joana, mesmo após a proclamação do resultado. Sobre a hipótese apresentada, assinale a opção que indica, corretamente, sua resposta.",
+      "alternativas": {
+        "A": "O processo eleitoral não pode retroagir em suas fases, logo, ocorreu a preclusão.",
+        "B": "Pode ser interposto recurso contra a expedição de diploma.",
+        "C": "É possível ajuizar a ação de impugnação de mandato eletivo.",
+        "D": "A decisão de proclamação dos eleitos pode ser impugnada mediante recurso inominado."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão aborda o conhecimento sobre inelegibilidade. A alternativa A está incorreta, pois não ocorreu a preclusão. O caso trata de inelegibilidade constitucional, sendo cabível o recurso contra expedição de diploma (RCED) previsto no art. 262 do Código Eleitoral: “Art. 262. O recurso contra expedição de diploma caberá somente nos casos de inelegibilidade superveniente ou de natureza constitucional e de falta de condição de elegibilidade”. Além disso, o prazo para o RCED está disposto no art. 262, §3º, do Código Eleitoral: “§ 3º O recurso de que trata este artigo deverá ser interposto no prazo de 3 (três) dias após o último dia limite fixado para a diplomação e será suspenso no período compreendido entre os dias 20 de dezembro e 20 de janeiro, a partir do qual retomará seu cômputo”. A alternativa B está correta, pois o enunciado trata da hipótese de inelegibilidade reflexa prevista no art. 14, §7º, da Constituição Federal: “§ 7º São inelegíveis, no território de jurisdição do titular, o cônjuge e os parentes consangüíneos ou afins, até o segundo grau ou por adoção, do Presidente da República, de Governador de Estado ou Território, do Distrito Federal, de Prefeito ou de quem os haja substituído dentro dos seis meses anteriores ao pleito, salvo se já titular de mandato eletivo e candidato à reeleição”. Portanto, por consistir em inelegibilidade constitucional, será cabível o recurso contra expedição de diploma (RCED) no prazo de 3 (três) dias após o último dia limite fixado para a diplomação. Dispõe o art. 262, caput e §3º, do Código Eleitoral que: “Art. 262. O recurso contra expedição de diploma caberá somente nos casos de inelegibilidade superveniente ou de natureza constitucional e de falta de condição de elegibilidade. (...) § 3º O recurso de que trata este artigo deverá ser interposto no prazo de 3 (três) dias após o último dia limite fixado para a diplomação e será suspenso no período compreendido entre os dias 20 de dezembro e 20 de janeiro, a partir do qual retomará seu cômputo”. A alternativa C está incorreta, pois o caso não traz hipótese fundamentadora de ação de impugnação de mandato eletivo (AIME), cujos fundamentos possíveis são: abuso do poder econômico, corrupção ou fraude. Nos termos do art. 14, §10, da Constituição Federal: “§ 10 - O mandato eletivo poderá ser impugnado ante a Justiça Eleitoral no prazo de quinze dias contados da diplomação, instruída a ação com provas de abuso do poder econômico, corrupção ou fraude”. A alternativa D está incorreta, pois o caso trata de inelegibilidade constitucional, sendo cabível o recurso contra expedição de diploma (RCED) no prazo de 3 (três) dias após o último dia limite fixado para a diplomação. Dispõe o art. 262, caput e §3º, do Código Eleitoral que: “Art. 262. O recurso contra expedição de diploma caberá somente nos casos de inelegibilidade superveniente ou de natureza constitucional e de falta de condição de elegibilidade. (...) § 3º O recurso de que trata este artigo deverá ser interposto no prazo de 3 (três) dias após o último dia limite fixado para a diplomação e será suspenso no período compreendido entre os dias 20 de dezembro e 20 de janeiro, a partir do qual retomará seu cômputo”."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_19",
+      "materia": "Direito Eleitoral",
+      "assunto": "Propaganda eleitoral paga na imprensa escrita",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "O Partido Político Alfa tomou conhecimento de que Joana, candidata ao cargo de Deputada Estadual, estava veiculando propaganda eleitoral paga, na imprensa escrita, durante a sua campanha eleitoral. Como o desempenho de Joana nas pesquisas eleitorais aumentou consideravelmente, o Partido Político o consultou, na condição de advogado, em relação à licitude dessa conduta. Sobre a veiculação da propaganda realizada por Joana, assinale a opção que indica, corretamente, sua resposta.",
+      "alternativas": {
+        "A": "É admitida até o dia da eleição, desde que observados os balizamentos legais.",
+        "B": "É permitida, até a antevéspera da eleição, observados os balizamentos legais.",
+        "C": "É vedada, logo, Alfa pode ajuizar representação eleitoral almejando a aplicação de multa.",
+        "D": "Deve ser considerada ilícita se não tiver sido celebrado ajuste coletivo, pelos partidos políticos, autorizando-a, o que será apurado em investigação judicial eleitoral."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa correta é a letra B. A questão trata sobre a possibilidade de fazer propaganda na imprensa escrita de maneira paga. Nos termos do art. 43 da Lei das Eleições (Lei n.º 9.504/1997), propaganda eleitoral paga na imprensa escrita é permitida até a antevéspera das eleições, desde que observados os balizamentos legais estabelecidos pela legislação eleitoral. Vejamos: “Art. 43. São permitidas, até a antevéspera das eleições, a divulgação paga, na imprensa escrita, e a reprodução na internet do jornal impresso, de até 10 (dez) anúncios de propaganda eleitoral, por veículo, em datas diversas, para cada candidato, no espaço máximo, por edição, de 1/8 (um oitavo) de página de jornal padrão e de 1/4 (um quarto) de página de revista ou tabloide. (Redação dada pela Lei nº 12.034, de 2009)”. As demais alternativas estão incorretas, pois estão em desconformidade com o dispositivo indicado acima."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-42_20",
+      "materia": "Direito Eleitoral",
+      "assunto": "Cancelamento de inscrição eleitoral por ausência de voto",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Pedro, com 40 anos de idade, por razões ideológicas, decidiu não mais votar nas eleições para o provimento de cargos dos Poderes Executivo e Legislativo dos distintos níveis da Federação. Após repetir esse procedimento em três eleições consecutivas, compareceu ao cartório eleitoral e solicitou uma certidão de quitação eleitoral para que pudesse requerer a emissão do seu passaporte. Para sua surpresa, foi informado que sua inscrição fora cancelada, o que, ao seu ver, o impediria de obter o passaporte. Irresignado com a situação descrita, Pedro consultou você, como advogado(a), a respeito da juridicidade desse procedimento. Assinale a opção que apresenta a informação correta.",
+      "alternativas": {
+        "A": "A obtenção do passaporte instrumentaliza o direito de ir e vir, o que não é influenciado pelo exercício do direito de voto.",
+        "B": "O exercício da objeção de consciência, como a realizada por ele, é amparado pela legislação eleitoral, sendo uma forma de exercício dos direitos políticos, logo o cancelamento foi ilícito.",
+        "C": "A inscrição eleitoral instrumentaliza o direito de votar, que não pode ser obstado pela prática de ilícitos eleitorais, o que configuraria sanção política, logo não poderia ter sido cancelada.",
+        "D": "O cancelamento é correto, caso ele não tenha pagado a multa ou apresentado justificativa no prazo previsto na legislação, a contar da última eleição a que deveria ter comparecido."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata sobre objeção de consciência. A alternativa D está correta. Não votar e não justificar as ausências consecutivas configura descumprimento de obrigações eleitorais, podendo resultar no cancelamento da inscrição eleitoral e, consequentemente, na impossibilidade de obter a certidão de quitação eleitoral, consoante o estabelecido no art. 7º, §3º da Lei n.º 4.737/1965: “Art. 7º O eleitor que deixar de votar e não se justificar perante o juiz eleitoral até 30 (trinta) dias após a realização da eleição, incorrerá na multa de 3 (três) a 10 (dez) por cento sobre o salário-mínimo da região, imposta pelo juiz eleitoral e cobrada na forma prevista no art. 367.” Portanto, o procedimento de cancelamento é legal, conforme os dispositivos mencionados, uma vez que Pedro não justificou sua ausência nem pagou a multa no prazo estabelecido pela legislação eleitoral. Vale ainda ressaltar que, neste caso, não seria adequada a escusa de consciência, pois a maneira como Pedro adotou para eximir-se de obrigação a todos imposta, não é compatível com a Constituição da República de 1988. As demais alternativas estão incorretas, pois estão em desconformidade com o dispositivo e as fundamentações indicadas acima."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_19",
+      "materia": "Direito Eleitoral",
+      "assunto": "Investigação Judicial Eleitoral - Competência",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Maria estava concorrendo ao cargo de Governadora do Estado Alfa. No decorrer da campanha, obteve prova documental e testemunhal de que Joana, sua adversária direta na disputa, praticou abuso do poder econômico. Por essa razão, solicitou a você, como advogado(a), que a representasse à Justiça Eleitoral para a abertura de investigação judicial eleitoral. Assinale a opção que indica, corretamente, a quem deve ser encaminhada a petição.",
+      "alternativas": {
+        "A": "A um dos Juízes Eleitorais em atuação no Estado Alfa.",
+        "B": "Ao Presidente do Tribunal Regional Eleitoral.",
+        "C": "À livre distribuição do Tribunal Regional Eleitoral, que deve apreciar os fatos.",
+        "D": "Ao Corregedor Regional do Tribunal Regional Eleitoral, que deve apreciar os fatos."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata da competência do Corregedor Regional para a Investigação Judicial Eleitoral (art. 22 da LC 64/90). A alternativa A está incorreta. A competência para processar a ação é do Corregedor Regional, e não de qualquer Juiz Eleitoral (art. 22, caput, da LC 64/90). A alternativa B está incorreta. O Presidente do TRE não é o responsável direto pela condução da investigação judicial eleitoral (art. 22, caput, da LC 64/90). A alternativa C está incorreta. Não há livre distribuição no TRE; a competência para a ação é do Corregedor Regional (art. 22, caput, da LC 64/90). A alternativa D está correta. A ação de investigação judicial eleitoral é processada e julgada pelo Corregedor Regional Eleitoral (art. 22, caput, da LC 64/90)."
+    },
+    {
+      "id": "oab_Prova-comenta-OAB-43_20",
+      "materia": "Direito Eleitoral",
+      "assunto": "Captação ilícita de sufrágio (art. 41-A Lei 9.504/97)",
+      "banca": "FGV",
+      "ano": "2023",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "No curso da campanha eleitoral, João, candidato ao cargo de Prefeito Municipal, doou três sacos de cimento a Pedro, sob o compromisso de que este votaria nele. Ao tomar conhecimento dos fatos, Ana, candidata ao mesmo cargo, procurou você, como advogado(a), e solicitou que fosse ajuizada a ação cabível de modo que o registro ou o diploma de João fosse cassado. Assinale a opção que indica, corretamente, a ação cabível no caso.",
+      "alternativas": {
+        "A": "Ação de impugnação de registro, que pode ser ajuizada até a data da diplomação.",
+        "B": "Recurso contra a expedição de diploma, que pode ser ajuizado até três dias após a diplomação.",
+        "C": "Ação de investigação judicial eleitoral, que pode ser ajuizada até a data da diplomação.",
+        "D": "Representação por captação ilícita de sufrágio, que pode ser ajuizada até a data da diplomação."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata da representação por captação ilícita de sufrágio (art. 41-A da Lei 9.504/97: Art. 41-A. Ressalvado o disposto no art. 26 e seus incisos, constitui captação de sufrágio, vedada por esta Lei, o candidato doar, oferecer, prometer, ou entregar, ao eleitor, com o fim de obter-lhe o voto, bem ou vantagem pessoal de qualquer natureza, inclusive emprego ou função pública, desde o registro da candidatura até o dia da eleição, inclusive, sob pena de multa de mil a cinqüenta mil Ufir, e cassação do registro ou do diploma, observado o procedimento previsto no art. 22 da Lei Complementar no 64, de 18 de maio de 1990). A alternativa A está incorreta. A ação de impugnação de registro de candidatura deve ser proposta logo após a publicação do edital, e não até a data da diplomação. (Art. 3° da LC 64/90: Caberá a qualquer candidato, a partido político, coligação ou ao Ministério Público, no prazo de 5 (cinco) dias, contados da publicação do pedido de registro do candidato, impugná-lo em petição fundamentada.) A alternativa B está incorreta. O recurso contra expedição de diploma não é a medida cabível antes da diplomação. A alternativa C está incorreta. A ação de investigação judicial eleitoral visa apurar abuso de poder econômico, poder político ou uso indevido dos meios de comunicação. A alternativa D está correta. A representação por captação ilícita de sufrágio é o instrumento correto e pode ser proposta até a diplomação (art. 41-A da Lei 9.504/97)."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_19",
+      "materia": "Direito Eleitoral",
+      "assunto": "Ação de Impugnação de Mandato Eletivo",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Maria e João foram eleitos, respectivamente, prefeita e vice-prefeito do Município Alfa, com poucos votos de vantagem sobre Ana e Antônio, que formavam a outra chapa que disputou a eleição. Dez dias após a diplomação dos eleitos, os integrantes da chapa derrotada obtiveram provas cabais de que os integrantes da chapa vencedora teriam praticado uma fraude, o que comprometera a normalidade e a legitimidade do pleito. Sobre o caso apresentado, como advogado(a) dos integrantes da chapa derrotada, assinale a medida judicial que deve ser ajuizada em face dos integrantes da chapa vencedora.",
+      "alternativas": {
+        "A": "Investigação judicial eleitoral.",
+        "B": "Ação de captação ilícita de votos.",
+        "C": "Recurso contra expedição de diploma.",
+        "D": "Ação de impugnação de mandato eletivo."
+      },
+      "gabarito": "D",
+      "comentario": "A alternativa correta é a letra D. A questão trata sobre fraude em eleições, mais especificamente, investigação judicial eleitoral. A alternativa A está incorreta. A investigação judicial eleitoral (AIJE) é ajuizada para apurar o abuso de poder econômico, de poder político ou o uso indevido dos meios de comunicação. Ela deve ser proposta até a data da diplomação. Como o problema se passa após a diplomação, a AIJE não é a medida adequada. A alternativa B está incorreta. Embora a captação ilícita de votos seja uma modalidade de abuso de poder que pode ser apurada via AIJE, essa alternativa não é a mais precisa. Além disso, a ação deve ser ajuizada antes da diplomação, o que não se aplica ao caso. A alternativa C está incorreta. O recurso contra expedição de diploma (RCED) é cabível nos três dias seguintes à diplomação para questionar a inelegibilidade superveniente (surgida após o registro da candidatura) ou a falta de condição de elegibilidade. O caso da questão trata de uma fraude, não de inelegibilidade. A alternativa D está correta. Não pode ser AIJE e Ação por Captação Ilícita, por deverem ser ajuizadas durante o pleito. Além disso, a captação ilícita diz respeito a objeto específico. O RCED é ajuizável 3 dias após diplomação para inelegibilidade superveniente ou falta de condição de elegibilidade. A AIME é ação correta, pois a partir da diplomação os candidatos eleitos tem direito ao mandato. Fundamento no art. 14, CF."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-44_20",
+      "materia": "Direito Eleitoral",
+      "assunto": "Propaganda eleitoral paga na imprensa escrita",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "Pedro, que teve deferido o registro de candidatura para concorrer ao cargo eletivo de Prefeito Municipal de uma importante capital brasileira, deseja aumentar a capilaridade de seu projeto de governo junto à população, de modo que um número maior de eleitores tenha conhecimento de suas propostas. Com esse objetivo, consultou você, como advogado(a), a respeito da possibilidade de veicular propaganda eleitoral paga, na imprensa escrita, durante o período de propaganda eleitoral. Quanto à orientação a ser dada, assinale a afirmativa que apresenta, corretamente, sua resposta.",
+      "alternativas": {
+        "A": "A realização da propaganda eleitoral na forma pretendida é vedada, em qualquer hipótese.",
+        "B": "A propaganda eleitoral que ele deseja realizar é a única de natureza não gratuita permitida pela legislação eleitoral, podendo ser realizada até o dia da eleição.",
+        "C": "A veiculação de anúncios de propaganda eleitoral na imprensa escrita é permitida, observados limites quantitativos e de espaço, até a antevéspera das eleições.",
+        "D": "Somente os partidos políticos podem contratar a realização da propaganda eleitoral pretendida por Pedro, sendo os limites quantitativos distribuídos internamente entre os candidatos do respectivo partido."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre propaganda eleitoral, mais especificamente, imprensa escrita. A alternativa A está incorreta: a propaganda eleitoral paga na imprensa escrita é, sim, permitida. A Lei nº 9.504/97 (Lei das Eleições) e as resoluções do Tribunal Superior Eleitoral (TSE) a regulamentam, e não a proíbem. A vedação total se aplica a outros meios, como rádio e TV, que são, em regra, gratuitos. A alternativa B está incorreta: Embora a propaganda paga na imprensa escrita seja a única permitida entre os veículos de comunicação, a segunda parte da afirmação está errada. O prazo final para a veiculação não é o dia da eleição, mas sim a antevéspera (o sábado anterior ao domingo da votação), conforme o art. 43, caput, da Lei nº 9.504/97. Vejamos: “Art. 43. São permitidas, até a antevéspera das eleições, a divulgação paga, na imprensa escrita, e a reprodução na internet do jornal impresso, de até 10 (dez) anúncios de propaganda eleitoral, por veículo, em datas diversas, para cada candidato, no espaço máximo, por edição, de 1/8 (um oitavo) de página de jornal padrão e de 1/4 (um quarto) de página de revista ou tabloide.” A alternativa C está correta: A propaganda na imprensa escrita é paga, observa limitação de volume de veiculação e de tamanho e pode ser feita até a antevéspera das eleições. A alternativa D está incorreta: A Lei das Eleições permite que tanto os partidos políticos quanto os candidatos individualmente contratem a propaganda paga na imprensa escrita, sendo que, nos termos do art. 43, § 1º, da Lei nº 9.504/97, deverá constar do anúncio, de forma visível, o valor pago pela inserção."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_19",
+      "materia": "Direito Eleitoral",
+      "assunto": "Fundo Partidário e prestação de contas",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "João, que acabara de assumir a função de tesoureiro do partido político Alfa, solicitou explicações ao(à) advogado(a) do partido a respeito dos cuidados que deveria ter na aplicação dos recursos oriundos do Fundo Especial de Assistência Financeira aos Partidos Políticos (Fundo Partidário), mais especificamente em relação à existência de plena liberdade valorativa do partido político na aplicação desses recursos e à necessidade, ou não, de prestação de contas. Sobre a hipótese formulada, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "Os recursos devem ser aplicados por Alfa, nas finalidades autorizadas em lei, sendo objeto de prestação de contas à Justiça Eleitoral, embora o referido Fundo receba tanto valores de origem pública como privada.",
+        "B": "Os recursos recebidos por Alfa devem ser aplicados nas finalidades autorizadas em lei, sendo objeto de prestação de contas apenas ao seu órgão de direção nacional, embora o referido Fundo seja formado a partir das sobras da arrecadação da União.",
+        "C": "Como Alfa tem personalidade jurídica de direito privado, pode aplicar livremente os recursos recebidos nas finalidades previstas em seu estatuto e deve prestar contas à Justiça Eleitoral, quando se comprometer a realizar um projeto de interesse público.",
+        "D": "Os recursos devem ser aplicados por Alfa nas finalidades livremente autorizadas em seu estatuto, mas, como os valores remetidos ao referido Fundo são captados pela Justiça Eleitoral com as multas eleitorais e as dotações da União, deve haver prestação de contas ao Tribunal de Contas da União."
+      },
+      "gabarito": "A",
+      "comentario": "A alternativa correta é a letra A. A questão trata sobre Fundos Partidários. A alternativa A está correta, é a previsão do art. 34 da Lei nº 9.096/1995 que traz a necessidade de prestação de contas para a Justiça Eleitoral. “Art. 34. A Justiça Eleitoral exerce a fiscalização sobre a prestação de contas do partido e das despesas de campanha eleitoral, devendo atestar se elas refletem adequadamente a real movimentação financeira, os dispêndios e os recursos aplicados nas campanhas eleitorais, exigindo a observação das seguintes normas: I - obrigatoriedade de designação de dirigentes partidários específicos para movimentar recursos financeiros nas campanhas eleitorais; II - (revogado); III - relatório financeiro, com documentação que comprove a entrada e saída de dinheiro ou de bens recebidos e aplicados; IV - obrigatoriedade de ser conservada pelo partido, por prazo não inferior a cinco anos, a documentação comprobatória de suas prestações de contas; V - obrigatoriedade de prestação de contas pelo partido político e por seus candidatos no encerramento da campanha eleitoral, com o recolhimento imediato à tesouraria do partido dos saldos financeiros eventualmente apurados.” A alternativa B está incorreta, pois o art. 34 estabelece que a prestação de contas será para a Justiça Eleitoral e não ao órgão de direção nacional do partido. “Art. 34. A Justiça Eleitoral exerce a fiscalização sobre a prestação de contas do partido e das despesas de campanha eleitoral, devendo atestar se elas refletem adequadamente a real movimentação financeira, os dispêndios e os recursos aplicados nas campanhas eleitorais, exigindo a observação das seguintes normas:”. A alternativa C está incorreta, pois os recursos aplicados devem observar os critérios previstos na Lei nº 9.096/1995. O partido político não pode, portanto, aplicar livremente tais recursos. “Art. 34. A Justiça Eleitoral exerce a fiscalização sobre a prestação de contas do partido e das despesas de campanha eleitoral, devendo atestar se elas refletem adequadamente a real movimentação financeira, os dispêndios e os recursos aplicados nas campanhas eleitorais, exigindo a observação das seguintes normas:”. A alternativa D está incorreta, uma vez que o art. 34 determina que a prestação de contas será à Justiça Eleitoral e não ao Tribunal de Contas da União. “Art. 34. A Justiça Eleitoral exerce a fiscalização sobre a prestação de contas do partido e das despesas de campanha eleitoral, devendo atestar se elas refletem adequadamente a real movimentação financeira, os dispêndios e os recursos aplicados nas campanhas eleitorais, exigindo a observação das seguintes normas:”."
+    },
+    {
+      "id": "oab_Prova-comentada-OAB-45_20",
+      "materia": "Direito Eleitoral",
+      "assunto": "Condutas vedadas aos agentes públicos - cessão de imóvel público para convenção partidária",
+      "banca": "FGV",
+      "ano": "2024",
+      "texto_auxiliar": "sem texto auxiliar",
+      "enunciado": "João, prefeito do Município Alfa, no ano em que seriam realizadas eleições municipais, cedeu, de maneira gratuita, o uso de um prédio público, mais especificamente de uma escola pública, fora do horário de aulas, para que os partidos políticos pudessem promover as convenções partidárias nas quais seriam escolhidos os candidatos ao pleito. Ana, cidadã com elevado senso cívico, consultou você, como advogado(a), sobre a compatibilidade dessa medida com a legislação eleitoral. Em relação à atitude de João, assinale a afirmativa correta.",
+      "alternativas": {
+        "A": "A decisão proferida gera prejuízo ao erário, pois, embora o prédio público possa ser utilizado pelos partidos políticos para a finalidade indicada, deveria ser pago aluguel.",
+        "B": "João decidiu de maneira harmônica com a legislação eleitoral, pois o prédio público não pode ser utilizado para finalidades privadas, estando configurada uma conduta vedada aos agentes públicos em campanhas eleitorais.",
+        "C": "A decisão de João mostra-se correta, pois, embora exista a regra geral de que os agentes públicos não podem ceder imóveis públicos em benefício dos partidos políticos, é ressalvada a realização de convenção partidária.",
+        "D": "A decisão de João está ajustada à sistemática legal, pois, em prol do princípio democrático, os imóveis públicos devem ser cedidos, para fins exclusivamente eleitorais, aos candidatos, aos partidos e às coligações que os solicitem."
+      },
+      "gabarito": "C",
+      "comentario": "A alternativa correta é a letra C. A questão trata sobre as condutas vedadas aos agentes públicos em campanhas eleitorais. A alternativa A está incorreta, pois o inciso I do art. 73 da Lei das Eleições (Lei nº 9.504/1997) estabelece uma ressalva com relação às convenções partidárias. Permite-se, portanto, a cessão ou uso de bens móveis ou imóveis para tal finalidade, sem causar dano ao erário. “Art. 73. São proibidas aos agentes públicos, servidores ou não, as seguintes condutas tendentes a afetar a igualdade de oportunidades entre candidatos nos pleitos eleitorais: I - ceder ou usar, em benefício de candidato, partido político ou coligação, bens móveis ou imóveis pertencentes à administração direta ou indireta da União, dos Estados, do Distrito Federal, dos Territórios e dos Municípios, ressalvada a realização de convenção partidária;”. A alternativa B está incorreta, a conduta praticada por João não é vedada pela Lei das Eleições (Lei nº 9.504/1997), uma vez que o próprio art. 73, I, ressalva a realização das convenções partidárias. “Art. 73. São proibidas aos agentes públicos, servidores ou não, as seguintes condutas tendentes a afetar a igualdade de oportunidades entre candidatos nos pleitos eleitorais: I - ceder ou usar, em benefício de candidato, partido político ou coligação, bens móveis ou imóveis pertencentes à administração direta ou indireta da União, dos Estados, do Distrito Federal, dos Territórios e dos Municípios, ressalvada a realização de convenção partidária;”. A alternativa C está correta, pois a conduta de João está correta, com base no art. 73, I, da Lei das Eleições (Lei nº 9.504/1997): “Art. 73. São proibidas aos agentes públicos, servidores ou não, as seguintes condutas tendentes a afetar a igualdade de oportunidades entre candidatos nos pleitos eleitorais: I - ceder ou usar, em benefício de candidato, partido político ou coligação, bens móveis ou imóveis pertencentes à administração direta ou indireta da União, dos Estados, do Distrito Federal, dos Territórios e dos Municípios, ressalvada a realização de convenção partidária;”. A alternativa D está incorreta, uma vez que os imóveis públicos apenas poderão ser cedidos para fins de realização de convenção partidária, será vedado qualquer outra destinação em período de campanha. “Art. 73. São proibidas aos agentes públicos, servidores ou não, as seguintes condutas tendentes a afetar a igualdade de oportunidades entre candidatos nos pleitos eleitorais: I - ceder ou usar, em benefício de candidato, partido político ou coligação, bens móveis ou imóveis pertencentes à administração direta ou indireta da União, dos Estados, do Distrito Federal, dos Territórios e dos Municípios, ressalvada a realização de convenção partidária;”."
+    }
+  ]
+}

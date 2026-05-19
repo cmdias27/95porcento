@@ -1,0 +1,802 @@
+[
+  {
+    "id": 411561,
+    "nome": "Aspectos Gerais do Direito Financeiro |"
+  },
+  {
+    "id": 411562,
+    "nome": "A atividade Financeira do Estado |"
+  },
+  {
+    "id": 405674,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 411563,
+    "nome": "Princípios do Direito Financeiro |"
+  },
+  {
+    "id": 411564,
+    "nome": "Legalidade |"
+  },
+  {
+    "id": 411565,
+    "nome": "Economicidade |"
+  },
+  {
+    "id": 411566,
+    "nome": "Transparência |"
+  },
+  {
+    "id": 411567,
+    "nome": "Responsabilidade Fiscal |"
+  },
+  {
+    "id": 411568,
+    "nome": "Competência Legislativa |"
+  },
+  {
+    "id": 411569,
+    "nome": "Disciplina Normativa |"
+  },
+  {
+    "id": 411570,
+    "nome": "Fontes |"
+  },
+  {
+    "id": 405695,
+    "nome": "Orçamento público |"
+  },
+  {
+    "id": 411571,
+    "nome": "Introdução ao Orçamento Público |"
+  },
+  {
+    "id": 405696,
+    "nome": "Conceito de Orçamento Público |"
+  },
+  {
+    "id": 411572,
+    "nome": "Aspectos do Orçamento Público |"
+  },
+  {
+    "id": 411573,
+    "nome": "Tipos de Orçamento |"
+  },
+  {
+    "id": 411574,
+    "nome": "Orçamento de Desempenho |"
+  },
+  {
+    "id": 411575,
+    "nome": "Orçamento de Base-zero ou por Estratégia |"
+  },
+  {
+    "id": 411576,
+    "nome": "Orçamento Programa |"
+  },
+  {
+    "id": 411577,
+    "nome": "Orçamento Participativo |"
+  },
+  {
+    "id": 411578,
+    "nome": "Orçamento Clássico ou Tradicional |"
+  },
+  {
+    "id": 430099,
+    "nome": "Orçamento Incremental |"
+  },
+  {
+    "id": 411579,
+    "nome": "Natureza Jurídica do Orçamento Público |"
+  },
+  {
+    "id": 405697,
+    "nome": "Princípios Orçamentários |"
+  },
+  {
+    "id": 411580,
+    "nome": "Legalidade |"
+  },
+  {
+    "id": 411581,
+    "nome": "Exclusividade |"
+  },
+  {
+    "id": 411582,
+    "nome": "Universalidade |"
+  },
+  {
+    "id": 411583,
+    "nome": "Orçamento Bruto |"
+  },
+  {
+    "id": 411584,
+    "nome": "Unidade ou Totalidade |"
+  },
+  {
+    "id": 411585,
+    "nome": "Programação |"
+  },
+  {
+    "id": 411586,
+    "nome": "Especificação, Discriminação ou Especialização |"
+  },
+  {
+    "id": 411587,
+    "nome": "Precedência |"
+  },
+  {
+    "id": 411588,
+    "nome": "Equilíbrio |"
+  },
+  {
+    "id": 411589,
+    "nome": "Transparência |"
+  },
+  {
+    "id": 411590,
+    "nome": "Unidade de Tesouraria ou Unidade de Caixa |"
+  },
+  {
+    "id": 411591,
+    "nome": "Não Afetação da Receita |"
+  },
+  {
+    "id": 411592,
+    "nome": "Anualidade ou Periodicidade |"
+  },
+  {
+    "id": 411593,
+    "nome": "Quantificação dos créditos orçamentários |"
+  },
+  {
+    "id": 411594,
+    "nome": "Publicidade |"
+  },
+  {
+    "id": 411595,
+    "nome": "Uniformidade |"
+  },
+  {
+    "id": 411596,
+    "nome": "Clareza ou Objetividade |"
+  },
+  {
+    "id": 430100,
+    "nome": "Proibição do Estorno de Verbas |"
+  },
+  {
+    "id": 411597,
+    "nome": "Ciclo Orçamentário |"
+  },
+  {
+    "id": 411598,
+    "nome": "Elaboração |"
+  },
+  {
+    "id": 411599,
+    "nome": "Apreciação e Votação |"
+  },
+  {
+    "id": 411600,
+    "nome": "Execução Orçamentária |"
+  },
+  {
+    "id": 411601,
+    "nome": "Controle e Avaliação |"
+  },
+  {
+    "id": 411602,
+    "nome": "Leis Orçamentárias |"
+  },
+  {
+    "id": 411603,
+    "nome": "Plano Plurianual (PPA) |"
+  },
+  {
+    "id": 411604,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 411605,
+    "nome": "Vigência |"
+  },
+  {
+    "id": 411606,
+    "nome": "Prazo para Envio |"
+  },
+  {
+    "id": 411607,
+    "nome": "Lei de Diretrizes Orçamentárias (LDO) |"
+  },
+  {
+    "id": 411608,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 411609,
+    "nome": "Vigência |"
+  },
+  {
+    "id": 411610,
+    "nome": "Prazo para Envio |"
+  },
+  {
+    "id": 411611,
+    "nome": "A LDO e as Inovações da Lei de Responsabilidade Fiscal (LRF) |"
+  },
+  {
+    "id": 411612,
+    "nome": "Lei Orçamentária Anual (LOA) |"
+  },
+  {
+    "id": 411613,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 411614,
+    "nome": "Vigência |"
+  },
+  {
+    "id": 411615,
+    "nome": "Prazo para Envio |"
+  },
+  {
+    "id": 411616,
+    "nome": "A LOA e as inovações da Lei de Responsabilidade Fiscal (LRF) |"
+  },
+  {
+    "id": 411618,
+    "nome": "Processo Legislativo Orçamentário |"
+  },
+  {
+    "id": 411619,
+    "nome": "Iniciativa e Elaboração |"
+  },
+  {
+    "id": 411620,
+    "nome": "Apreciação e Votação |"
+  },
+  {
+    "id": 411621,
+    "nome": "Emendas |"
+  },
+  {
+    "id": 411622,
+    "nome": "Mensagem Retificadora do Executivo |"
+  },
+  {
+    "id": 411623,
+    "nome": "Sanção ou Veto |"
+  },
+  {
+    "id": 411624,
+    "nome": "Não Envio do Projeto de Lei Orçamentária pelo Executivo |"
+  },
+  {
+    "id": 411627,
+    "nome": "Execução |"
+  },
+  {
+    "id": 411628,
+    "nome": "Controle |"
+  },
+  {
+    "id": 411630,
+    "nome": "Créditos Adicionais |"
+  },
+  {
+    "id": 411631,
+    "nome": "Aspectos Gerais: Conceito, Iniciativa, Apreciação e Votação |"
+  },
+  {
+    "id": 411632,
+    "nome": "Espécies de Créditos Adicionais |"
+  },
+  {
+    "id": 411633,
+    "nome": "Créditos Suplementares |"
+  },
+  {
+    "id": 411634,
+    "nome": "Créditos Especiais |"
+  },
+  {
+    "id": 411635,
+    "nome": "Créditos Extraordinários |"
+  },
+  {
+    "id": 411636,
+    "nome": "Fontes de Recursos para Abertura de Créditos Adicionais |"
+  },
+  {
+    "id": 411637,
+    "nome": "Vedações Orçamentárias Constitucionais |"
+  },
+  {
+    "id": 411638,
+    "nome": "Não Afetação (vinculação) das Receitas de Impostos |"
+  },
+  {
+    "id": 411639,
+    "nome": "Proibição de Estorno |"
+  },
+  {
+    "id": 411640,
+    "nome": "Demais Vedações |"
+  },
+  {
+    "id": 411641,
+    "nome": "Recursos Orçamentários |"
+  },
+  {
+    "id": 405678,
+    "nome": "Despesa pública |"
+  },
+  {
+    "id": 405679,
+    "nome": "Definição e Classificações |"
+  },
+  {
+    "id": 411642,
+    "nome": "Classificação Quanto à Origem |"
+  },
+  {
+    "id": 411645,
+    "nome": "Classificação Quanto à Natureza Legal ou Categoria Econômica (Lei 4.320/64) |"
+  },
+  {
+    "id": 411646,
+    "nome": "Classificação Funcional |"
+  },
+  {
+    "id": 411647,
+    "nome": "Classificação Quanto à Afetação Patrimonial |"
+  },
+  {
+    "id": 411648,
+    "nome": "Classificação Institucional |"
+  },
+  {
+    "id": 430101,
+    "nome": "Classificação Programática |"
+  },
+  {
+    "id": 405680,
+    "nome": "Estágios da Despesa Pública |"
+  },
+  {
+    "id": 411653,
+    "nome": "Regime Contábil da Despesa Pública |"
+  },
+  {
+    "id": 411654,
+    "nome": "Restos a Pagar |"
+  },
+  {
+    "id": 411655,
+    "nome": "Adiantamentos ou Suprimento de Fundos |"
+  },
+  {
+    "id": 411656,
+    "nome": "Despesas de Exercícios Anteriores (DEA) |"
+  },
+  {
+    "id": 411657,
+    "nome": "Anulação de Despesas Orçamentárias |"
+  },
+  {
+    "id": 411658,
+    "nome": "Despesas Públicas e a Lei de Responsabilidade Fiscal (LRF) |"
+  },
+  {
+    "id": 411659,
+    "nome": "Limitação de Empenho |"
+  },
+  {
+    "id": 411660,
+    "nome": "Geração de Despesas |"
+  },
+  {
+    "id": 411661,
+    "nome": "Despesa Obrigatória de Caráter Continuado (DOCC) |"
+  },
+  {
+    "id": 411662,
+    "nome": "Despesa com Pessoal |"
+  },
+  {
+    "id": 411663,
+    "nome": "Limites de Gasto com Pessoal |"
+  },
+  {
+    "id": 411664,
+    "nome": "Controle dos Gastos com Pessoal |"
+  },
+  {
+    "id": 411665,
+    "nome": "Despesas Nulas |"
+  },
+  {
+    "id": 411666,
+    "nome": "Despesas com Seguridade Social |"
+  },
+  {
+    "id": 411667,
+    "nome": "Transferências Voluntárias |"
+  },
+  {
+    "id": 411668,
+    "nome": "Destinação de Recursos para o Setor Privado |"
+  },
+  {
+    "id": 411671,
+    "nome": "Despesas de Competência de Outros Entes |"
+  },
+  {
+    "id": 405683,
+    "nome": "Receita pública |"
+  },
+  {
+    "id": 430102,
+    "nome": "Conceito |"
+  },
+  {
+    "id": 405686,
+    "nome": "Classificações |"
+  },
+  {
+    "id": 411672,
+    "nome": "Classificação Quanto à Origem, Natureza ou Previsão Orçamentária |"
+  },
+  {
+    "id": 411673,
+    "nome": "Classificação Quanto à Regularidade ou Periodicidade |"
+  },
+  {
+    "id": 411675,
+    "nome": "Classificação Quanto à Natureza Legal ou Categoria Econômica (Lei 4.320/64) |"
+  },
+  {
+    "id": 411676,
+    "nome": "Classificação Quanto ao Sentido |"
+  },
+  {
+    "id": 411677,
+    "nome": "Classificação Quanto à Coercitividade |"
+  },
+  {
+    "id": 411678,
+    "nome": "Classificação Quanto à Afetação Patrimonial |"
+  },
+  {
+    "id": 411679,
+    "nome": "Estágios da Receita Pública |"
+  },
+  {
+    "id": 411680,
+    "nome": "Previsão |"
+  },
+  {
+    "id": 411681,
+    "nome": "Lançamento |"
+  },
+  {
+    "id": 411682,
+    "nome": "Arrecadação |"
+  },
+  {
+    "id": 411683,
+    "nome": "Recolhimento |"
+  },
+  {
+    "id": 411684,
+    "nome": "Regime Contábil da Receita Pública |"
+  },
+  {
+    "id": 411685,
+    "nome": "As Receitas Públicas e a Lei de Responsabilidade Fiscal (LRF) |"
+  },
+  {
+    "id": 411686,
+    "nome": "Receita Corrente Líquida |"
+  },
+  {
+    "id": 411687,
+    "nome": "Receita Corrente Líquida como Base de Cálculo |"
+  },
+  {
+    "id": 411688,
+    "nome": "Responsabilidade na Instituição, Previsão e Arrecadação de Receitas |"
+  },
+  {
+    "id": 405688,
+    "nome": "Renúncia de receita |"
+  },
+  {
+    "id": 411689,
+    "nome": "Duodécimos: Regras para a Entrega de Recursos aos Demais Poderes |"
+  },
+  {
+    "id": 411690,
+    "nome": "Destaque de Outros Artigos Importantes da LRF |"
+  },
+  {
+    "id": 411691,
+    "nome": "Fundos |"
+  },
+  {
+    "id": 411692,
+    "nome": "Dívida Ativa |"
+  },
+  {
+    "id": 411693,
+    "nome": "Definição |"
+  },
+  {
+    "id": 411694,
+    "nome": "Protesto da Certidão de Dívida Ativa (CDA) |"
+  },
+  {
+    "id": 411695,
+    "nome": "Repartição de Receitas - Transferências Constitucionais |"
+  },
+  {
+    "id": 411696,
+    "nome": "Objetivos e Formas de Repartição |"
+  },
+  {
+    "id": 411697,
+    "nome": "Transferências Constitucionais e as Isenções Concedidas pelos Entes |"
+  },
+  {
+    "id": 405698,
+    "nome": "Crédito público |"
+  },
+  {
+    "id": 405699,
+    "nome": "Conceito e Natureza Jurídica |"
+  },
+  {
+    "id": 411699,
+    "nome": "Disposições Constitucionais |"
+  },
+  {
+    "id": 411700,
+    "nome": "Classificação |"
+  },
+  {
+    "id": 405701,
+    "nome": "Controle, fiscalização e prestação de contas |"
+  },
+  {
+    "id": 411701,
+    "nome": "Dívida Pública |"
+  },
+  {
+    "id": 411702,
+    "nome": "Espécies |"
+  },
+  {
+    "id": 411703,
+    "nome": "Administração e Objetivos |"
+  },
+  {
+    "id": 411704,
+    "nome": "Formas de Extinção |"
+  },
+  {
+    "id": 411705,
+    "nome": "Títulos da Dívida Pública |"
+  },
+  {
+    "id": 411706,
+    "nome": "Crédito Público e a Lei de Responsabilidade Fiscal (LRF) |"
+  },
+  {
+    "id": 411707,
+    "nome": "Novas Definições da Dívida Pública |"
+  },
+  {
+    "id": 411708,
+    "nome": "Limites para o Endividamento Público |"
+  },
+  {
+    "id": 411709,
+    "nome": "Exigências para a Contratação de Operações de Crédito |"
+  },
+  {
+    "id": 411710,
+    "nome": "Vedações às Operações de Crédito |"
+  },
+  {
+    "id": 411711,
+    "nome": "Regras para Concessão de Garantias |"
+  },
+  {
+    "id": 411712,
+    "nome": "Operações de Crédito com o Banco Central do Brasil |"
+  },
+  {
+    "id": 411713,
+    "nome": "Operações de Crédito por Antecipação da Receita (ARO) |"
+  },
+  {
+    "id": 405702,
+    "nome": "Controle da Atividade Financeira do Estado |"
+  },
+  {
+    "id": 411714,
+    "nome": "Espécies de Controle |"
+  },
+  {
+    "id": 411715,
+    "nome": "Quanto ao Momento |"
+  },
+  {
+    "id": 411718,
+    "nome": "Quanto ao Agente Fiscalizador |"
+  },
+  {
+    "id": 411719,
+    "nome": "Os Tribunais de Contas |"
+  },
+  {
+    "id": 411720,
+    "nome": "Competências dos Tribunais de Contas e da Justiça Federal e Estadual |"
+  },
+  {
+    "id": 411721,
+    "nome": "Natureza Jurídica e Eficácias das Decisões |"
+  },
+  {
+    "id": 411722,
+    "nome": "Competências |"
+  },
+  {
+    "id": 411723,
+    "nome": "Demais Competências Previstas Fora do art. 71 |"
+  },
+  {
+    "id": 411724,
+    "nome": "Tribunais de Contas e a Lei de Responsabilidade Fiscal (LRF) |"
+  },
+  {
+    "id": 411725,
+    "nome": "Sigilo Bancário |"
+  },
+  {
+    "id": 411726,
+    "nome": "Precatórios |"
+  },
+  {
+    "id": 411727,
+    "nome": "Aspectos Gerais e Procedimento |"
+  },
+  {
+    "id": 411728,
+    "nome": "Alcance |"
+  },
+  {
+    "id": 411729,
+    "nome": "Regra Geral dos Precatórios |"
+  },
+  {
+    "id": 411730,
+    "nome": "Requisições de Pequeno Valor |"
+  },
+  {
+    "id": 411731,
+    "nome": "Complementação ou Suplementação de Precatórios |"
+  },
+  {
+    "id": 411733,
+    "nome": "Compensação de Precatórios |"
+  },
+  {
+    "id": 411734,
+    "nome": "Aquisição de Imóveis Públicos com Precatórios |"
+  },
+  {
+    "id": 411736,
+    "nome": "Cessão de Precatórios |"
+  },
+  {
+    "id": 405676,
+    "nome": "Sistema Financeiro Nacional |"
+  },
+  {
+    "id": 411739,
+    "nome": "Aspectos Gerais |"
+  },
+  {
+    "id": 411740,
+    "nome": "Mercado Financeiro |"
+  },
+  {
+    "id": 411741,
+    "nome": "Estrutura |"
+  },
+  {
+    "id": 411742,
+    "nome": "Órgãos Normativos |"
+  },
+  {
+    "id": 411743,
+    "nome": "Entidades Supervisoras |"
+  },
+  {
+    "id": 411744,
+    "nome": "Instituições Operadoras |"
+  },
+  {
+    "id": 411745,
+    "nome": "Outros Intermediários Financeiros |"
+  },
+  {
+    "id": 411746,
+    "nome": "Outros Participantes do SFN |"
+  },
+  {
+    "id": 405703,
+    "nome": "Novo Regime Fiscal (EC 95/2016) |"
+  },
+  {
+    "id": 411749,
+    "nome": "Alcance |"
+  },
+  {
+    "id": 411750,
+    "nome": "Exceções |"
+  },
+  {
+    "id": 411752,
+    "nome": "Saúde e Educação |"
+  },
+  {
+    "id": 405705,
+    "nome": "Regime de Recuperação Fiscal dos Estados e do DF (LC 159/2017) |"
+  },
+  {
+    "id": 411755,
+    "nome": "Princípios (art. 1) |"
+  },
+  {
+    "id": 411756,
+    "nome": "Plano de Recuperação: Conteúdo e Medidas (art. 2) |"
+  },
+  {
+    "id": 411757,
+    "nome": "Plano de Recuperação: Condições e Trâmite (art. 3 a 5) |"
+  },
+  {
+    "id": 411759,
+    "nome": "Vedações Durante o Regime de Recuperação Fiscal (art. 8) |"
+  },
+  {
+    "id": 411761,
+    "nome": "Encerramento e Extinção do Regime de Recuperação (art. 12) |"
+  },
+  {
+    "id": 405704,
+    "nome": "Lei 4.320/64 - Normas Gerais do Direito Financeiro |"
+  },
+  {
+    "id": 405677,
+    "nome": "Lei Complementar 101/00 - Lei de Responsabilidade Fiscal |"
+  },
+  {
+    "id": 411762,
+    "nome": "Lei 10.180/2001 - Sistemas de Planejamento e de Orçamento Federal, de Administração Financeira Federal, de Contabilidade Federal e de Controle Interno do Poder Executivo Federal |"
+  },
+  {
+    "id": 405685,
+    "nome": "Federalismo Fiscal |"
+  },
+  {
+    "id": 411763,
+    "nome": "Lei nº 10.028/00 - Infração Administrativa Contra as Leis de Finanças Públicas |"
+  }
+]

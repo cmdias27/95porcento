@@ -1,0 +1,813 @@
+{
+  "Compreensão De Textos Em Espanhol": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Inferência de sentido global e intenção comunicativa em textos curtos",
+        "ids_questoes": [
+          "enem_enem2019_1dia_1_5",
+          "enem_enem2019_1dia_2_6",
+          "enem_enem2021_1dia_vs4_4_8",
+          "enem_enem2022-2_1dia_2_6",
+          "enem_enem2022-2_1dia_4_8",
+          "enem_enem2022-2_1dia_5_9",
+          "enem_enem2023-2_1dia_5_4",
+          "enem_enem2023-2_1dia_5_9",
+          "enem_enem2017_1dia_5_4",
+          "enem_enem2017_1dia_4_8",
+          "enem_enem2016-2_2dia_91_0",
+          "enem_enem2016-2_2dia_93_2"
+        ],
+        "peso_percentual": 50,
+        "armadilha_favorita": "O INEP oferece textos com vocabulário acessível, mas a resposta correta depende de captar a ideia central, a finalidade ou a conclusão implícita. O distrator costuma repetir palavras do texto sem preservar a relação semântica global, levando o candidato à leitura literal e apressada."
+      },
+      {
+        "nome_microtema": "Interpretação de recursos expressivos, figuras de linguagem e efeitos de sentido",
+        "ids_questoes": [
+          "enem_enem2019_1dia_5_4",
+          "enem_enem2021_1dia_vs4_2_6",
+          "enem_enem2021_1dia_vs4_3_7",
+          "enem_enem2021_1dia_vs4_5_9",
+          "enem_enem2022-2_1dia_3_7",
+          "enem_enem2017_1dia_3_7"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A banca usa metáforas, analogias, ironia, tom emotivo ou marcas de subjetividade para testar se o candidato identifica o efeito produzido no texto, e não apenas o tema aparente. Os distratores costumam trocar efeito por assunto, ou emoção por informação objetiva."
+      },
+      {
+        "nome_microtema": "Leitura crítica de textos multimodais e campanhas de conscientização",
+        "ids_questoes": [
+          "enem_enem2019_1dia_4_8",
+          "enem_enem2022-2_1dia_1_5",
+          "enem_enem2023-2_1dia_3_7",
+          "enem_enem2023-2_1dia_5_4",
+          "enem_enem2017_1dia_2_6",
+          "enem_enem2016-2_2dia_92_1"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "O INEP combina imagem e texto verbal para exigir leitura integrada da mensagem persuasiva. A armadilha é focar só no elemento visual ou só no slogan, ignorando o objetivo social da campanha e o público-alvo implícito."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio curtos em espanhol, com forte exigência de inferência, identificação de finalidade, tema central e efeitos de sentido; cobra leitura global mais do que tradução palavra por palavra.",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "o trecho revela",
+        "a expressão destaca",
+        "tem por finalidade",
+        "objetiva",
+        "evidencia"
+      ]
+    },
+    "total_questoes_analisadas": 24,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2019_1dia_5_4",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de canção",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "In this life\nSitting on a park bench\nThinking about a friend of mine\nHe was only twenty-three\nGone before he had his time\nIt came without a warning\nDidn't want his friends to see him cry\nHe knew the day was dawning\nAnd I didn't have a chance to say goodbye.\n(MADONNA. Erotica. Estados Unidos: Maverick, 1992.)",
+        "enunciado": "A canção, muitas vezes, é uma forma de manifestar sentimentos e emoções da vida cotidiana. Por exemplo, o sofrimento retratado nessa canção foi causado",
+        "alternativas": {
+          "A": "pela morte precoce de um amigo jovem.",
+          "B": "pelo término de um relacionamento amoroso.",
+          "C": "pela mudança de um amigo para outro país.",
+          "D": "pelo fim de uma amizade de mais de vinte anos.",
+          "E": "pela traição por parte de uma pessoa próxima."
+        },
+        "gabarito": "A",
+        "comentario": "“Gone before he had his time” significa que o amigo se foi precocemente. Ela afirma no terceiro verso que ele tinha apenas 23 anos."
+      },
+      {
+        "id": "enem_enem2019_1dia_1_5",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "'Millennials': Así es la generación que ya no recuerda cómo era el mundo sin Internet\n\nAlgunos los llaman generación Y , otros 'Millennials', generación del milenio o incluso 'Echo Boomers'. Nacieron y crecieron en una era de rápido desarrollo de las nuevas tecnologías, y casi no recuerdan cómo era el mundo sin Internet.\n\nSon idealistas, impacientes y están bien preparados académicamente. Muchos de ellos han tenido oportunidad de viajar por el mundo a una edad temprana, de estudiar en las mejores universidades y de trabajar en empresas multinacionales y extranjeras.\n\nLa generación Y se compone de este tipo de personas que quieren todo a la vez. No están dispuestos a soportar un trabajo poco interesante y rutinario, no quieren dejar las cosas buenas para luego. Lo que sí quieren es dejar su huella en la historia, vivir una vida interesante, formar parte de algo grande, crecer y desarrollarse, cambiar el mundo que les rodea, y no solo ganar dinero.\n\n(Disponível em: https://actualidad.rt.com. Acesso em: 4 dez. 2018.)",
+        "enunciado": "O texto aponta características e interesses da “Geração Y”. Nele, a expressão dejar su huella refere-se a um dos desejos dessa geração, que é o de",
+        "alternativas": {
+          "A": "conhecer diferentes lugares.",
+          "B": "fazer a diferença no mundo.",
+          "C": "aproveitar todas as oportunidades.",
+          "D": "obter uma formação acadêmica de excelência.",
+          "E": "conquistar boas colocações no mundo do trabalho."
+        },
+        "gabarito": "B",
+        "comentario": "Lê-se a resposta correta na final do último parágrafo: “Lo que sí quieren es dejar su huella en la historia, vivir una vida interesante, formar parte de algo grande, crecer y desarrollarse, cambiar el mundo que les rodea, y no solo ganar dinero.”"
+      },
+      {
+        "id": "enem_enem2019_1dia_2_6",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "El Hombre Electrónico\n\n¿Cuántas veces ha cambiado de móvil? ¿Cuántos ordenadores ha tenido ya? ¿Tiene cámara digital, IPOD, Nintendo Wii y televisión de pantalla de plasma? Ordenadores, teléfonos móviles, GPS, walkmans, televisiones, lavadoras, tostadores, aspiradores y un larguísimo etcétera. Todos usamos aparatos eléctricos que tarde o temprano se convertirán en residuos. El Hombre Electrónico mide 7 metros de altura y pesa 3,3 toneladas. Es una escultura hecha con la cantidad de residuos eléctricos y electrónicos que un ciudadano medio (en el Reino Unido) tirará a la basura a lo largo de su vida, si se sigue consumiendo este tipo de productos al ritmo actual. El Hombre Electrónico ha sido diseñado por el escultor Paul Bomini con objetivo de aumentar la conciencia de los ciudadanos a la hora de consumir aparatos eléctricos. Esta campaña parte de la base de que todos compramos aparatos electrónicos como herramientas de trabajo u ocio, pero haciéndonos unas cuantas preguntas podemos inducir cambios en nuestro comportamiento que beneficiarán al medio ambiente, otras personas y a nosotros mismos: ¿Tienes algún aparato eléctrico o electrónico que no necesitas? ¿Podrías ser más responsable a la hora de comprar un nuevo producto electrónico? ¿Podrías reciclar o reparar estos productos una vez que se han quedado obsoletos o se han roto? ¿Intentas ahorrar energía en tu vida diaria?",
+        "enunciado": "Considerando a necessidade de assumir uma conduta mais responsável com o meio ambiente, Paul Bomini criou a escultura O homem eletrônico para",
+        "alternativas": {
+          "A": "incentivar inovações em reciclagem para a construção de máquinas.",
+          "B": "propor a criação de objetos a partir de aparelhos descartados.",
+          "C": "divulgar o lançamento de produtos eletrônicos sustentáveis.",
+          "D": "problematizar o descarte inconsequente de equipamentos.",
+          "E": "alertar sobre as escolhas tecnológica da população."
+        },
+        "gabarito": "D",
+        "comentario": "Lê-se a resposta correta no trecho: “El Hombre Electrónico ha sido diseñado por el escultor Paul Bomini con objetivo de aumentar la conciencia de los ciudadanos a la hora de consumir aparatos eléctricos.”"
+      },
+      {
+        "id": "enem_enem2019_1dia_3_7",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto poético",
+        "banca": "INEP",
+        "ano": 2019,
+        "texto_auxiliar": "Adelfos\n\nYo soy como las gentes que a mi tierra vinieron\n– soy de la raza mora, vieja amiga del sol –,\nque todo lo ganaron y todo lo perdieron.\nTengo el ama de nardo del árabe español.\n\n(MACHADO, M. Disponível em: www.poetasandaluces.com.\nAcesso em: 22 out. 2015.)",
+        "enunciado": "Nessa estrofe, o poeta e dramaturgo espanhol Manuel Machado reflete acerca",
+        "alternativas": {
+          "A": "de sua formação identitária plural.",
+          "B": "da condição nômade de seus antepassados.",
+          "C": "da perda sofrida com o processo de migração.",
+          "D": "da dívida do povo espanhol para com o povo árabe.",
+          "E": "de sua identificação com os elementos da natureza."
+        },
+        "gabarito": "A",
+        "comentario": "O autor faz uso da 1.ª pessoa do singular (yo, tengo) para dizer como é. Cita os povos “árabes” que chegaram à Espanha e diz que é igual a eles: “Yo soy como las gentes que a mi tierra vinieron – soy de la raza mora, vieja amiga del sol” e conclui afirmando que tem a alma de um árabe espanhol."
+      },
+      {
+        "id": "enem_enem2019_1dia_4_8",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "Que hay de cierto en la fábula de la cigarra y la hormiga\nCuenta una conocida fábula que, tras pasar todo un verano cantando y ociosa, una cigarra se encontró sin alimento y decidió pedir a su vecina la hormiga algo que llevarse a la boca. Ésta le ofreció granos de arroz acompañados de una moraleja: más vale prevenir que lamentar. ¿Merecen su fama de previsoras y afanosas las hormigas? Sin duda. las hormigas cortadoras de hojas (Atta cephalotes ), por ejemplo, son consideradas las primeras agricultoras del planeta, dedicadas a cortar, acarrear e integrar hojas en el jardín de hongos del que se alimentan. Otro dato curioso es que se ha comprobado que, prácticamente en todas las especies de hormigas, las más ancianas asumen trabajos de mayor riesgo. De acuerdo con Dawid Moron de la Universidad de Jagiellonian (Polonia), esto se debe a que es mejor para la colonia sacrificar una vida que está cerca de su fin que a un individuo joven.\nEn cuanto a las cigarras, no se les puede acusar de perezosas. Lo que sí es cierto es que los machos pasan el verano \"cantando\" – un sonido que producen con unas membranas llamadas timbales – y encaramados a un árbol, de cuya savia se alimentan.\n(Disponível em: www.muyinteresante.es. Acesso em: 31 out. 2012. Adaptado.)",
+        "enunciado": "A fábula é um gênero de ampla divulgação frequentemente revisitado com diversos objetivos. No texto, a fábula A cigarra e a formiga é retomada para",
+        "alternativas": {
+          "A": "apresentar ao leitor um ensinamento moral.",
+          "B": "reforçar o estereótipo associado às cigarras.",
+          "C": "descrever o comportamento dos insetos na natureza.",
+          "D": "expor a superioridade das formigas em relação às cigarras.",
+          "E": "descrever a relação social entre as formigas e cigarras na natureza."
+        },
+        "gabarito": "C",
+        "comentario": "O texto extraído da revista Muyinteresante utiliza a fábula para apresentar informações científicas sobre o comportamento dos insetos na natureza."
+      },
+      {
+        "id": "enem_enem2021_1dia_vs4_1_5",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "Hoy, en cuestión de segundos uno es capaz de conocer la vida de un individuo o las actividades que lleva a cabo sin necesidad de contacto personal; las RRSS tienen la poderosa virtud de convocar concentraciones de gentes con idearios comunes y generar movimientos como la Primavera Árabe, por ejemplo.\n\nBajo ese parámetro, cualquier incidente puede ser inmediatamente reportado por grabación o filmación, por lo que a los aparatos celulares, más allá de su utilidad en términos de conversación, habría que calificarlos como “la guillotina del siglo XXI”.\n\nAsí es. Son éstos los que han pasado a convertirse en artefactos con cuyo uso se han develado conversaciones, acuerdos, negociados, chantajes y un sin fin de hechos que han dado curso a procesos de naturaleza legal e investigativa que han tumbado gobiernos, empresas, empresarios, políticos y que, incluso, ha servido en un caso reciente, para que un inocente recupere su libertad tras cuatro años de injusto encierro.",
+        "enunciado": "O texto trata da evolução inerente às funcionalidades de recursos tecnológicos. A expressão ‘la guillotina del siglo XXI” destaca que os celulares de hoje podem",
+        "alternativas": {
+          "A": "oferecer recursos com funções múltiplas.",
+          "B": "reunir usuários com ideias semelhantes.",
+          "C": "divulgar informação instantânea.",
+          "D": "organizar movimentos sociais.",
+          "E": "assumir utilidade jurídica."
+        },
+        "gabarito": "C",
+        "comentario": "O texto aborda o fato de como estamos expostos às redes sociais nos dias atuais, e que todos podem saber sobre a vida de desconhecidos sem sequer conhecê-los pessoalmente. Porém, a ênfase é dada ao fato de que as comunicações podem trazer grandes problemas, derrubando governos, empresas, empresários, políticos, entre outros. A expressão “la guillotina del siglo XXI” aparece no segundo parágrafo e mostra tudo que se pode fazer com o celular e os resultados negativos que venham a ocorrer na sociedade, sendo essas ferramentas meios que trazem à tona qualquer informação."
+      },
+      {
+        "id": "enem_enem2021_1dia_vs4_2_6",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2021,
+        "texto_auxiliar": "En el suelo, apoyado en el mostrador, se acurrucaba, inmóvil como una cosa, un hombre muy viejo. Los muchos años lo habian reducido y pulido como las aguas a una piedra o las generaciones de los hombres a una sentencia. Era oscuro, chico y reseco, y estaba como fuera del tiempo, en una eternidad.\nBORGES, J. L. Artificios . Madri: Alianza Cien, 1995.",
+        "enunciado": "No âmbito literário, são mobilizados diferentes recursos que visam à expressividade. No texto, a analogia estabelecida pela expressão “como las aguas a una piedra” tem a função de",
+        "alternativas": {
+          "A": "enfatizar a ação do tempo sobre a personagem.",
+          "B": "descrever a objetificação do ambiente.",
+          "C": "expor a anacronia da personagem.",
+          "D": "caracterizar o espaço do conto.",
+          "E": "narrar a perenidade da velhice."
+        },
+        "gabarito": "A",
+        "comentario": "O texto relata como se encontra o protagonista em sua velhice, descrevendo o seu estado atual. Na frase “como las aguas a una piedra”, faz-se uma comparação, pois com o passar do tempo a água desfaz a pedra, sendo este o seu estado atual, pois o tempo o levou a tal circunstância de “incapacidade”."
+      },
+      {
+        "id": "enem_enem2021_1dia_vs4_3_7",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2021",
+        "texto_auxiliar": "sem texto auxiliar",
+        "enunciado": "A charge evoca uma situação de assombro frente a uma realidade que assola as sociedades contemporâneas. Seu efeito humorístico reside na crítica diante do(a)",
+        "alternativas": {
+          "A": "constatação do ser humano como o responsável pela condição caótica do mundo.",
+          "B": "apelo à religiosidade diante das dificuldades enfrentadas pela humanidade.",
+          "C": "indignação dos trabalhadores em face das injustiças sociais.",
+          "D": "veiculação de informações trágicas pelos telejornais.",
+          "E": "manipulação das notícias difundidas pelas mídias."
+        },
+        "gabarito": "A",
+        "comentario": "Na charge vemos o uso da expressão ¡Por Dios!, que mostra indignação ante aos fatos que transmite a notícia na televisão, e a frase ¿Qué le ha pasado al mundo? também afirma tal indignação. No entanto, a ironia está presente quando um dos homens diz: Nosotros. Neste momento ele encontra o culpado para tantos problemas, incluindo a si próprio e o seu amigo que está indignado com a situação."
+      },
+      {
+        "id": "enem_enem2021_1dia_vs4_4_8",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2021,
+        "texto_auxiliar": "Se reunieron en un volumen todas las entrevistas dadas por el poeta y dramaturgo Federico Garcia Lorca. Lorca concedió 133 entrevistas; leyéndolas se sabrá qué estaba por detrás de la poética del escritor andaluz. Sobre su obra declaró en una de ellas: “No he sido nunca poeta de minoría. He tratado de poner en mis poemas lo de todos los tiempos, lo permanente, lo humano. A mí me ataca lo humano, es el elemento fundamental en toda obra de arte”. Y en otra dijo: “Hoy no interesa más que una problemática: lo social. La obra que no siga esa dirección está condenada al fracaso, aunque sea muy buena”. En su última entrevista, de junio de 1936, Lorca se muestra profético: “Ni el poeta ni nadie tiene la clave y el secreto del mundo. Quiero ser bueno. Sé que la poesía eleva y creo firmemente que si hay un más allá tendré la agradable sorpresa de encontrarme con él. Pero el dolor del hombre y la injusticia constante que mana del mundo, y mi propio cuerpo y mi propio pensamiento, me evitan trasladar mi casa a las estrellas”.\nAYÉN, X Retrato del poeta como “muchachón gitanazo ”. Disponível em: www.clarin.com. Acesso em: 8 dez 2017 (adaptado).",
+        "enunciado": "Esse trecho da resenha de um livro de entrevistas concedidas por Federico Garcia Lorca tem por finalidade",
+        "alternativas": {
+          "A": "ressaltar a atração do entrevistado por questões místicas.",
+          "B": "divulgar a comoção das elites com as obras do entrevistado.",
+          "C": "salientar o compromisso do entrevistado com as questões sociais.",
+          "D": "mostrar a atualidade das obras poéticas e teatrais do entrevistado.",
+          "E": "criticar o interesse do entrevistado por particularidades da vida humana."
+        },
+        "gabarito": "C",
+        "comentario": "O texto traz a informação sobre um volume elaborado de todas as entrevistas do poeta Frederico Garcia Lorca; nestas entrevistas encontram-se frequentemente fragmentos de falas do poeta que demonstram a sua preocupação em retratar os problemas sociais."
+      },
+      {
+        "id": "enem_enem2021_1dia_vs4_5_9",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto literário",
+        "banca": "INEP",
+        "ano": 2021,
+        "texto_auxiliar": "Amuleto\n\nLo único cierto es que llegué a México en 1965 y me planté en casa de León Felipe y en casa de Pedro Garfias y les dije aquí estoy para lo que gusten mandar. Y les debí de caer simpática, porque antipática no soy, aunque a veces soy pesada, pero antipática nunca. Y lo primero que hice fue coger una escoba y ponerme a barrer el suelo de sus casas y luego a limpiar las ventanas y cada vez que podía les pedía dinero y les hacía compra. Y ellos me decían con ese tono español tan peculiar, esa musiquilla distinta que no los abandonó nunca, como si encircularan las zetas y las ces y como si dejaran a las eses más huérfanas y libidinosas que nunca, Auxilio, me decían, deja ya de trasegar por el piso, Auxilio, deja esos papeles tranquilos, mujer, que el polvo siempre se ha avenido con la literatura.\n\nBOLAÑO, R. A. Tres novelas. Barcelona: Círculo de Lectores. 2003.",
+        "enunciado": "No fragmento do romance, a uruguaia Auxilio narra a experiência que viveu no México ao trabalhar voluntariamente para dois escritores espanhóis. Com base na relação com os escritores, ela reflete sobre a(s)",
+        "alternativas": {
+          "A": "variação linguística do espanhol.",
+          "B": "sujeira dos livros de literatura.",
+          "C": "distintas maneiras de acolher do mexicano.",
+          "D": "orientações sobre a limpeza das casas dos espanhóis.",
+          "E": "dificuldades de comunicação entre patrão e empregada."
+        },
+        "gabarito": "A",
+        "comentario": "O texto literário mostra a experiência de uma mulher uruguaia em trabalhar na casa de dois escritores espanhóis. No fragmento lido ela conta sobre as tarefas que fazia, porém ressalta o sotaque dos espanhóis, podemos confirmá-lo na frase “esa musiquilla distinta que no los abandonó nunca, como si encircularan las zetas y las ces”, que se refere à pronúncia e ao uso das letras Z e C, as quais têm um som peculiar no sotaque andaluz, região do sul da Espanha."
+      },
+      {
+        "id": "enem_enem2022-2_1dia_2_6",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto publicitário",
+        "banca": "INEP",
+        "ano": "2022",
+        "texto_auxiliar": "Disponível em: www.informacionregional.com.ar. Acesso em: 5 dez. 2018 (adaptado).",
+        "enunciado": "Essa campanha publicitária evidencia um problema social a fim de",
+        "alternativas": {
+          "A": "promover palestras sobre a violência de gênero.",
+          "B": "justificar algumas causas da agressão doméstica.",
+          "C": "motivar as vítimas a buscarem ajuda especializada.",
+          "D": "criar um programa que investigue casos de brutalidade.",
+          "E": "orientar as mulheres a evitarem atitudes geradoras de conflitos."
+        },
+        "gabarito": "C",
+        "comentario": "Sem comentário"
+      },
+      {
+        "id": "enem_enem2022-2_1dia_3_7",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2022",
+        "texto_auxiliar": "Diego Rosales viste y habla como gaucho. Para poder sobrevivir, dice, sus antepasados resignaron la cultura mapuche. Hubo entonces mestizaje y se acriollaron. “Con la ayuda de la Confederación Mapuche de Neuquén retomamos la cultura y la lengua mapuche. Tomamos cursos para recuperar una identidad que habíamos perdido. También, para pelear por nuestros derechos ante los órganos públicos”, se sincera Rosales. A su lado, Inocencia, de 80 años, que conserva la lengua de su etnia, cuenta que cuando era joven todo era campo fértil. Vendían cuero, lana, pieles de zorro y nutrias que transportaban en burros, y subsistían con las cosechas de quinta y la venta de animales. “He visto mi vida arrinconarse; el campo se va terminando y los animales no tienen qué comer. La vida debería ser más pareja”, dice. Inocencia reclama personería jurídica para pedir tierras. Ella aspira a una fracción de 1 600 hectáreas; su nieto Rosales quiere un predio similar cerca del río. Adquirir personería les permitiría iniciar juicio contra los privados titulares de las tierras que ellos ocupan desde hace décadas a través del pastoreo. La provincia no se las da, dicen, porque los dueños especulan con las reservas de gas de estas tierras y con el monopolio del agua.",
+        "enunciado": "Segundo o texto, a reivindicação de membros do povo mapuche na Argentina tem o propósito de",
+        "alternativas": {
+          "A": "retomar a posse da terra.",
+          "B": "cuidar da fauna autóctone.",
+          "C": "empoderar as novas gerações.",
+          "D": "vetar a exploração de gás no território.",
+          "E": "ensinar a língua indígena aos gaúchos."
+        },
+        "gabarito": "A",
+        "comentario": "O texto menciona que Inocencia reclama personería jurídica para pedir tierras e que adquirir personería lhes permitiria iniciar juízo contra os privados titulares das terras que ocupam, indicando que o propósito é retomar a posse da terra."
+      },
+      {
+        "id": "enem_enem2022-2_1dia_4_8",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2022,
+        "texto_auxiliar": "Como en casa\n\nMe he estado bañando en playas del Caribe, con\n[ganas de volver\nhe andado por la Gran Manzana inclusive, a punto\n[de devolver\nyo he estado en todas partes\nhe visitado museos, he sentido el arte\nhe tenido empleos feos, y a veces he dormido\n[parques […]\nentre gente buena y gente mala...\nhe cambiado de gustos y de forma de ser\nhe perdido el contacto con todos para no perder mi fe\nhe tocado en Holanda, Alemania, México, Chile, ¡qué!\ny he tocado en las salas minúsculas, no te olvides,\n[man […]\nhe perdido muchas riendas y he cuidado muchos\n[detalles\nhe conocido muchos sitios y muchas cosas he probado\npero como se está en Sevilla no se está en ningún lado...\nEsta es mi casa...\neste es... mi sitio, mi calle, mi plaza\nmis bares, mi clima, mi centro... es mi casa...\nAño tras año con los mismos conceptos\nCreo, no necesito mucho más que esto\n\nTOTEKING. T.O.T.E. Madri: BOA Música, 2008 (fragmento).",
+        "enunciado": "A expressão “Como en casa”, que intitula o texto, evidencia seu tema central, que é a",
+        "alternativas": {
+          "A": "defesa da postura de rebeldia condizente com o universo do rap.",
+          "B": "valorização da cultura no processo de formação do compositor.",
+          "C": "expressão do sentimento de pertencimento ao lugar de origem.",
+          "D": "revelação das dificuldades enfrentadas para tornar-se músico.",
+          "E": "negação da ostentação própria do mundo do entretenimento."
+        },
+        "gabarito": "C",
+        "comentario": "Sem comentário"
+      },
+      {
+        "id": "enem_enem2022-2_1dia_5_9",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2022,
+        "texto_auxiliar": "Amistad\n\nLo que no tenemos lo encontramos en el amigo. Creo en este obsequio y lo cultivo desde la infancia. No soy en ello diferente de la mayor parte de los seres humanos. La amistad es la gran liga inicial entre el hogar y el mundo. El hogar, feliz o infeliz, es el aula de nuestra sabiduría original pero la amistad es su prueba. Recibimos de la familia, confirmamos en la amistad. Las variaciones, discrepancias o similitudes entre la familia y los amigos determinan las rutas contradictorias de nuestras vidas. Aunque amemos nuestro hogar, todos pasamos por el momento inquieto o inestable del abandono (aunque lo amemos, aunque en él permanezcamos). El abandono del hogar sólo tiene la recompensa de la amistad. Es más: sin la amistad externa, la morada interna se derrumbaría. La amistad no le disputa a la familia los inicios de la vida. Los confirma, los asegura, los prolonga. La amistad le abre el camino a los sentimientos que sólo pueden crecer fuera del hogar. Encerrados en la casa familiar, se secarían como plantas sin agua. Abiertas las puertas de la casa, descubrimos formas del amor que hermanan al hogar y al mundo. Estas formas se llaman amistades.\n\nFUENTES, C. En esto creo. Barcelona: Seix Barral, 2002 (adaptado).",
+        "enunciado": "Carlos Fuentes faz uma reflexão sobre o papel da amizade na vida das pessoas. Na sua concepção, a amizade",
+        "alternativas": {
+          "A": "desenvolve a afetividade não vivenciada no ambiente familiar.",
+          "B": "recompensa a experiência de crescer em um lar infeliz.",
+          "C": "reafirma valores adquiridos nas relações familiares.",
+          "D": "provoca disputa entre família e amigos.",
+          "E": "gera novos sentimentos no âmbito familiar."
+        },
+        "gabarito": "C",
+        "comentario": "Sem comentário"
+      },
+      {
+        "id": "enem_enem2023-2_1dia_5_4",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de cartaz de campanha",
+        "banca": "INEP",
+        "ano": 2023,
+        "texto_auxiliar": "Disponível em: https://imagesl.the-dots.com. Acesso em: 29 out. 2021.",
+        "enunciado": "Por meio de recursos verbais e não verbais, esse cartaz de campanha objetiva",
+        "alternativas": {
+          "A": "criticar os jovens por abandono do lar.",
+          "B": "apontar as causas da violência doméstica.",
+          "C": "relatar o drama da vulnerabilidade emocional.",
+          "D": "divulgar o fundo de ajuda a pessoas desabrigadas.",
+          "E": "destacar a fragilidade das construções para o inverno."
+        },
+        "gabarito": "D",
+        "comentario": "No texto: “Our housing fund can help end this.” * housing fund = fundo habitacional."
+      },
+      {
+        "id": "enem_enem2023-2_1dia_3_7",
+        "materia": "Espanhol",
+        "assunto": "Variação linguística",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "“Ni para cotufas, estoy en la lona”\n\nAsí se dice en Venezuela. En España diríamos: “Ni para palomitas, estoy sin blanca”. Los argentinos utilizarían otra forma, y los chilenos, y los mexicanos... Esta es una guía básica de entendimiento entre los hispanohablantes.\n\nMOLERO, A. El español de España y el español de América. Madri: Editorial SM 2003 (adaptado).",
+        "enunciado": "Esse texto reúne palavras e expressões para destacar a",
+        "alternativas": {
+          "A": "identificação do falante com uma variedade específica.",
+          "B": "interferência do estrangeirismo na língua espanhola.",
+          "C": "necessidade de expandir o vocabulário do leitor.",
+          "D": "presença do diminutivo em algumas variedades.",
+          "E": "diversidade linguística do espanhol."
+        },
+        "gabarito": "E",
+        "comentario": "Sem comentário"
+      },
+      {
+        "id": "enem_enem2023-2_1dia_5_9",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "Mujeres de la radio en la selva tropical\n\nTres valientes mujeres de Ecuador han emprendido una lucha digital. Con micrófono y grabadora atraviesan la selva tropical. Su pequeña emisora de radio se convierte en bastión contra la explotación de su tierra. Los pueblos indígenas de la selva amazónica están amenazados: las empresas petroleras están invadiendo cada vez más sus hábitats. Las reporteras radiales vuelven a sus raíces para darles voz a las mujeres indígenas.\nMariana Canelos, Jiyn Uyunkar y Rupay Sumak viven hoy en la ciudad, pero nacieron y se crearon en la selva. Además del español, también hablan sus lenguas tribales, lo que es indispensable para llegar a los oyentes en los remotos pueblos amazónicos. ‘Hasta ahora nadie ha dado voz a las mujeres de las aldeas. Pero nosotras lo hacemos”, dice Mariana Canelos, “queremos mostrar su vida cotidiana, grabar sus historias y canciones antes de que se olviden”. Para ello, las mujeres de la radio se trasladan en canoa por el Amazonas y sus afluentes, incluso en las zonas más remotas.\nDisponível em: www.dw.com. Acesso em: 28 out, 2021.",
+        "enunciado": "Nesse texto, o trecho “antes de que se olviden” revela o temor das três mulheres de que",
+        "alternativas": {
+          "A": "a emissora de rádio seja alvo de censura política",
+          "B": "os povos remotos percam o acesso ao rádio.",
+          "C": "as histórias do seu povo sejam esquecidas.",
+          "D": "a voz das mulheres indígenas seja calada.",
+          "E": "os povos indígenas sejam ameaçados."
+        },
+        "gabarito": "C",
+        "comentario": "Sem comentário"
+      },
+      {
+        "id": "enem_enem2017_1dia_5_4",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2017,
+        "texto_auxiliar": "Israel Travel Guide\n\nIsrael has always been a standout destination. From the days of prophets to the modern day nomad this tiny slice of land on the eastern Mediteranean has long attracted visitors. While some arrive in the ‘Holy Land’ on a spiritual quest, many others are on cultural tours, beach holidays and eco-tourism trips. Weeding through Israel’s convoluted history is both exhilarating and exhausting. There are crumbling temples, ruined cities, abandoned forts and hundreds of places associated with the Bible. And while a sense of adventure is required, most sites are safe and easily accessible. Most of all, Israel is about its incredible diverse population. Jews come from all over the world to live here, while about 20% of the population is Muslim. Politics are hard to get away from in Israel as everyone has an opinion on how to move the country forward – with a ready ear you’re sure to hear opinions from every side of the political spectrum.\nDisponível em: www.worldtravelguide.net. Acesso em: 15 jun. 2012.",
+        "enunciado": "Antes de viajar, turistas geralmente buscam informações sobre o local para onde pretendem ir. O trecho do guia de viagens de Israel",
+        "alternativas": {
+          "A": "descreve a história desse local para que turistas valorizem seus costumes milenares.",
+          "B": "informa hábitos religiosos para auxiliar turistas a entenderem as diferenças culturais.",
+          "C": "divulga os principais pontos turísticos para ajudar turistas a planejarem sua viagem.",
+          "D": "recomenda medidas de segurança para alertar turistas sobre possíveis riscos locais.",
+          "E": "apresenta aspectos gerais da cultura do país para continuar a atrair turistas estrangeiros."
+        },
+        "gabarito": "E",
+        "comentario": "O trecho do guia de viagens de Israel apresenta aspectos gerais da cultura do país para continuar a atrair turistas estrangeiros. Aspectos mencionados: Geografia do local; Busca por locais e monumentos religiosos; Eco-turismo e Diversidade de população."
+      },
+      {
+        "id": "enem_enem2017_1dia_2_6",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2017",
+        "texto_auxiliar": "El virus del papiloma humano (HPV) también es un problema de hombres\n\nPara algunos hombres, el virus del papiloma humano (HPV) es algo muy lejano. Se olvidan de que ellos también se infectan y de que, al contagiarnos, nos están regalando un pasaporte mágico para el cáncer cérvico-uterino – segunda causa de muerte entre las mujeres de México –; incluso me ha tocado escuchar en boca de algunos de ellos que “sólo se trata de una infeccioncita”. Pues bien, el HPV también es un problema de hombres, no sólo porque propaga la infección entre la población femenina, sino también porque este virus produce otros problemas de salud tanto en hombres como en mujeres, incluyendo verrugas genitales y cáncer de boca y garganta que, si bien no son tan conocidos o alarmantes por su cantidad, como otros tipos de cáncer, también constituyen un riesgo. Por lo anterior, la Academia Americana de Pediatría decidió enfrentarse al HPV mediante vacunas que se ponen tanto a mujeres como hombres. Los especialistas afirman que la vacuna es más efectiva si se administra antes de que el niño se vuelva sexualmente activo, y responde mejor en el organismo de varones entre 9 y 15 años.\nAlbiter, K. Disponível em: http://vivirmexico.com. Acesso em: 10 jul 1012 (adaptado).",
+        "enunciado": "O texto aborda a temática do HPV. Ao discorrer sobre o contágio e a prevenção do papiloma humano, a autora informa aos leitores que esse vírus é",
+        "alternativas": {
+          "A": "estudado pela Academia Americana de Pediatria por seus efeitos em crianças.",
+          "B": "responsável pelo aumento de casos de câncer na população jovem mexicana.",
+          "C": "ignorado pelos homens por se restringir à população feminina.",
+          "D": "combatido por vacinas que devem ser aplicadas tanto em mulheres quanto em homens.",
+          "E": "classificado como um problema superável pela facilidade com que se enfrenta a infecção."
+        },
+        "gabarito": "D",
+        "comentario": "Lê-se a resposta no trecho: “Los especialistas afirman que la vacuna es más efectiva si se administra antes de que el niño se vuelva sexualmente activo”."
+      },
+      {
+        "id": "enem_enem2017_1dia_3_7",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2017,
+        "texto_auxiliar": "Aquí estoy establecido,\nEn los Estados Unidos,\nDiez años pasaron ya,\nEn que crucé de mojado,\nPapeles no he arreglado\nSigo siendo un ilegal.\nTengo mi esposa y mis hijos,\nQue me los traje muy chicos,\nY se han olividado ya,\nDe mi México querido,\nDel que yo nunca me olvido,\nY no puedo regresar.\n[...]\nMis hijos no hablan conmigo,\nOtro idioma han aprendido,\nY olvidado el español,\nPiesan como americanos,\nNiegan que son mexicanos,\nAunque tengan mi color.\nLos Tigres del Norte. Jaula de oro. Woodland Hills, \nCalifórnia: Fonovisa, 1986 (fragmento).",
+        "enunciado": "A letra de canção coloca em cena um dilema por vezes vivenciado por imigrantes. Esse dilema se configura no sentimento do pai em relação ao(à)",
+        "alternativas": {
+          "A": "diluição de sua identidade latino-americana, advinda do contato cotidiano com o outro.",
+          "B": "distanciamento dos filhos, gerado pela apropriação da língua e da cultura do outro.",
+          "C": "preconceito étnico-racial sofrido pelos imigrantes mexicanos no novo país.",
+          "D": "desejo de se integrar à nova cultura e de se comunicar na outra língua.",
+          "E": "vergonha perante os filhos de viver ilegalmente em outro país."
+        },
+        "gabarito": "B",
+        "comentario": "Lê-se a resposta na última estrofe do poema: “mis hijos no hablan conmigo...”"
+      },
+      {
+        "id": "enem_enem2017_1dia_4_8",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2017",
+        "texto_auxiliar": "Emotivo encuentro en la universidad pública\n\nEl entonces mandatario uruguayo recibió el cariño de sus compatriotas residentes en Nueva York e informó sobre la evolución del país, las políticas de gobierno, los avances y cuentas pendientes. Como en ocasiones similares, se multiplicaron las muestras de respeto y emoción. “Una nación es un formidable sentimiento de un ‘nosotros’ ”, dijo.\n\nMujica comenzó su discurso relatando lo recogido de otras experiencias de comunidades en el exilio. “Muchos de ustedes echaron raíces, tienen hijos y no pueden cometer la agresión de descuajarle la vida. Tienen que cargar con esa nostalgia de ser de allá, pero estar acá”, dijo.\n\n“Estamos metidos en la lucha por mejorar las circunstancias, con el sueño de que las generaciones que vengan, puedan venir con más soltura, con más apoyo”, dijo el Presidente.\n\nMujica se refirió a algunas críticas que reciben algunas políticas sociales. “Nos acusan de que damos sin contrapartida. Nos dicen ‘a la gente no hay que darle pescado, sino enseñarle a pescar’. Sí – razonó el Presidente –, pero cuando le afanaste la caña, le afanaste el bote, ¿qué le vas pedir? Para atrás no arreglamos, arreglamos para adelante.”\n\nDisponível em: www.republica.com.uy. Acesso em: 26 set. 2013 (adaptado).",
+        "enunciado": "No discurso dirigido aos compatriotas radicados em Nova York, o então presidente Mujica expressa o desejo de que os cidadãos que vivem no Uruguai",
+        "alternativas": {
+          "A": "apoiem as políticas públicas afirmativas.",
+          "B": "integrem-se ao processo de globalização.",
+          "C": "cultivem o sentimento nacionalista.",
+          "D": "ofereçam uma contrapartida à nação.",
+          "E": "tenham melhores condições de vida."
+        },
+        "gabarito": "E",
+        "comentario": "Lê-se a resposta correta no 3.º parágrafo do texto: “estamos metidos en la lucha por mejorar las circunstancias...”"
+      },
+      {
+        "id": "enem_enem2016-2_2dia_91_0",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2016",
+        "texto_auxiliar": "Desde Nápoles hasta Johannesburgo, desde Buenos Aires hasta Barcelona, los actos de xenofobia y racismo indican que nos encontramos ante un fenômeno global. Definida por la Real Academia de la Lengua como el “odio, repugnancia y hostilidad a los extranjeros”, la xenofobia va de la mano con los flujos migratorios por razones económicas o ambientales, y el desplazamiento forzado provocado por los conflictos armados internos y las guerras. El otro, el que vista, habla y tiene otra cultura y una religión diferente es visto con sospecha, desconfianza y temor en los paises del llamado primer mundo. Los politicos de derecha y los grandes medios “ensalzan lo propio denigre lo ajeno” contribuyendo a crear un clima de miedo y odio hacia el extraño y desconocido.",
+        "enunciado": "No texto, a relação entre o fenômeno discriminatório e a postura dos políticos de direita e de grandes meios de comunicação tem a função de",
+        "alternativas": {
+          "A": "denunciar as práticas que encobrem as diferenças.",
+          "B": "tornar públicas as razões econômicas da xenofobia.",
+          "C": "criticar aqueles que favorecem a aparição do medo.",
+          "D": "reclamar das atitudes tomadas pelos países desenvolvidos.",
+          "E": "apontar as causas que determinam os fluxos migratórios."
+        },
+        "gabarito": "C",
+        "comentario": "O texto critica os políticos de direita e os grandes meios de comunicação que utilizam o medo que a população dos países de destino sentem em relação ao estrangeiro, ao diferente, ao que chega com outros hábitos e costumes, reforçando estereótipos e preconceitos."
+      },
+      {
+        "id": "enem_enem2016-2_2dia_92_1",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto publicitário",
+        "banca": "INEP",
+        "ano": "2016",
+        "texto_auxiliar": "Disponível em: www.saaia.org.ar. Acesso em 30 maio 2016.",
+        "enunciado": "Essa propaganda foi criada para uma campanha de conscientização sobre a violência contra a mulher. As palavras que compõem a imagem indicam que a",
+        "alternativas": {
+          "A": "violência contra a mulher está aumentando.",
+          "B": "agressão à mulher acontece de forma física e verbal.",
+          "C": "violência contra a mulher é praticada por homens.",
+          "D": "agressão à mulher é um fenômeno mundial.",
+          "E": "violência contra a mulher ocorre no ambiente doméstico."
+        },
+        "gabarito": "B",
+        "comentario": "A imagem apresenta palavras que indicam os diversos tipos de violência que as mulheres sofrem. A campanha busca destacar que essa violência não se resume à agressão física, mas também psicológica, social, etc."
+      },
+      {
+        "id": "enem_enem2016-2_2dia_93_2",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2016,
+        "texto_auxiliar": "Ante las situaciones adversas algunas personas sufren secuelas a lo largo de toda la vida. Otraas, la mayoria, sesobreponen y la intensidad de las emociones negativasvan decreciendo con el tiempo y se adaptan a la nuevasituación.\nHay un tercer grupo de personas a las cuales lavivencia del trauma las hace crecer personalmente y susvidas adquieren un nuevo sentido y salen fortalecidas.\nInvestigadores de la Unidad de Psicologia Básica de laUniversidad Autónoma de Barcelona (UAB) hananalizado las respuestas de 254 estudiantes de la Facultadde Psicología en diferentes cuestionarios para evaluar sunivel de satisfacción con la vida y encontrar relacionescon su resiliencia y com la capacidad de reparaciónemocional, uno de los componentes de la inteligenciaemocional, que consiste enla habilidad de controlar laspropias emociones y las de los demás.\n“Algunas de las caracteristicas de las personasresilientes pueden ser entrenadas y mejoradas, como laautoestima y la regulación de las propias emociones. Coneste aprendizaje se podría dotar de recursos a las personaspara facilitar su adaptación y mejorar su calidad de vida”,explica Joaquín T. Limonero, profesor del Grupo deInvestigación en Estrés y Salud de la UAB y coordinadordel estudio.\nDisponível em: www.tendencias21.net. Acesso em: 28 jul. 2012 (adaptado).",
+        "enunciado": "A reportagem cita uma pesquisa que tem como tema o comportamento das pessoas diante das adversidades. De acordo com o texto, um dos objetivos da investigação com os alunos da Faculdade de Psicologia é",
+        "alternativas": {
+          "A": "entender de que forma os traumas sofridos servem de suporte para a resolução dos problemas que surgirão ao longo da vida.",
+          "B": "compreender como a adaptação das emoções negativas contribui para o desenvolvimento da inteligência emocional.",
+          "C": "analisar os vínculos entre a satisfação existencial, a flexibilidade e a habilidade de recuperar-se emocionalmente.",
+          "D": "verificar de que forma as pessoas exercitam e melhoram a autoestima e o controle das emoções.",
+          "E": "sistematizar maneiras de dotar as pessoas de recursos para lidar com as emoções próprias e alheias."
+        },
+        "gabarito": "C",
+        "comentario": "Lê-se a resposta no fragmento: “para evaluar su nivel de satisfacción con la vida y encontrar relaciones con su resiliencia y con la capacidad de reparación emocional...”"
+      }
+    ]
+  },
+  "Falsos Cognatos E Vocabulário": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Inferência de sentido de falsos cognatos e expressões idiomáticas em contexto",
+        "ids_questoes": [
+          "enem_enem2023-2_1dia_1_5",
+          "enem_enem2017_1dia_1_5",
+          "enem_enem2016-2_2dia_94_3"
+        ],
+        "peso_percentual": 75,
+        "armadilha_favorita": "O INEP usa palavras ou expressões aparentemente transparentes para o falante de português, mas com sentido contextual diferente em espanhol (como 'coyotes', 'ni le va ni le viene', 'a pulso'). O candidato tende a traduzir literalmente ou a apoiar-se em semelhança lexical, ignorando o valor pragmático e discursivo no texto."
+      },
+      {
+        "nome_microtema": "Interpretação global de texto multimodal para dedução de vocabulário",
+        "ids_questoes": [
+          "enem_enem2023-2_1dia_4_8"
+        ],
+        "peso_percentual": 25,
+        "armadilha_favorita": "A banca apresenta tirinha/imagem com expressão-chave em espanhol e exige inferência do efeito de sentido, não tradução isolada. O distrator costuma explorar leitura superficial da cena, levando o candidato a concluir pelo tema geral errado sem relacionar a expressão ao desfecho interpretativo."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio, com foco em inferência lexical e pragmática em espanhol; cobra compreensão do sentido no enunciado e no co-texto, não tradução palavra por palavra",
+      "palavras_gatilho": [
+        "considerando-se a temática",
+        "no texto",
+        "a expressão",
+        "encerra uma opinião",
+        "ao utilizar",
+        "indica que",
+        "apesar da proximidade"
+      ]
+    },
+    "total_questoes_analisadas": 4,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2023-2_1dia_1_5",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "Pobre Juan\n\nJuan se lanzó marchándose al norte Iba en busca de una vida digna Cruzando México por valles y por montes Iba Juan lleno de fe\n\nLa historia es que Juan se iba a casar Con Maria embarazada Pero él no tenía ni un centavo Ni un clavo que darle\n\nPero este Juan iba muy decidido Y a la frontera él llegó con todo el filo Se conectó con el mero mayor de los coyotes Y la historia le contó\n\nMire usted que yo quiero cruzarme ya A San Diego o Chicago Digame usted lo que hago Qué precio le pago\n\nJuan ya nunca regresó En la línea se quedó Pobre Juan O la migra lo mató O el desierto lo enterró Pobre Juan\n\nMANÁ. In: Revolución de amor . México: Warner Music Spain, 2002 (fragmento).",
+        "enunciado": "Considerando-se a temática abordada nessa letra de canção, a palavra “coyotes”",
+        "alternativas": {
+          "A": "descreve o animal característico das regiões áridas percorridas pelos imigrantes.",
+          "B": "ressalta o conhecimento dos habitantes das regiões desérticas mexicanas.",
+          "C": "indica o preço a ser pago pelos viajantes para se casarem em outro país.",
+          "D": "personifica a rede de exploração a que estão submetidos os imigrantes.",
+          "E": "representa a necessidade de vencer o deserto escaldante."
+        },
+        "gabarito": "D",
+        "comentario": "Resposta: D"
+      },
+      {
+        "id": "enem_enem2023-2_1dia_4_8",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de tirinha",
+        "banca": "INEP",
+        "ano": "2023",
+        "texto_auxiliar": "LINIERS. R. S. Disponível em: https://muhimu.es. Acesso em: 15 out. 2021.",
+        "enunciado": "Nessa tirinha, ao utilizar a expressão “doble vacación”, a protagonista conclui que",
+        "alternativas": {
+          "A": "enredos muito extensos são desafiadores.",
+          "B": "obras com muitos personagens são instigantes",
+          "C": "narrativas sobre viagens são mais interessantes.",
+          "D": "livros de conteúdo mais denso estão presentes na vida dos jovens.",
+          "E": "leituras diversificadas são um convite a conhecer outras realidades."
+        },
+        "gabarito": "E",
+        "comentario": "Sem comentário"
+      },
+      {
+        "id": "enem_enem2017_1dia_1_5",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2017",
+        "texto_auxiliar": "El carpintero\n\nOrlando Goicoechea reconoce las maderas por el olor; de qué árboles vienen, qué edad tienen, y oliéndolas sabe si fueron cortadas a tiempo o a destiempo y les adivina los posibles contratiempos.\n\nAl cabo de tantos años de trabajo, Orlando se ha dado el lujo de comprarse un video, y ve una película tras otra.\n\nNo sabía que eras loco por cine le dice el vecino.\n\nY Orlando le explica que no, que a él ni le va ni le viene, pero gracias al video puede detener las películas para estudiar los muebles.\n\nGaleano, E. Disponível em: http://elcajondesastre.blogcindarrio.com. Acesso em: 18 abr. 2012.",
+        "enunciado": "No conto de Galeano, a expressão ni le va ni le viene encerra uma opinião a respeito de cinema que",
+        "alternativas": {
+          "A": "desconstrói a ideia central do conto sobre a importância das atividades de lazer.",
+          "B": "contradiz a percepção que o narrador tem em relação à profissão exercida por Orlando.",
+          "C": "revela o descaso do narrador com relação ao ofício desempenhado por Orlando.",
+          "D": "reforça a impressão do vizinho de que Orlando gostava de filmes.",
+          "E": "evidencia e extrema devoção do carpinteiro ao seu ofício."
+        },
+        "gabarito": "E",
+        "comentario": "Lê-se a resposta correta no último parágrafo: “gracias al video puede detener las películas para estudiar los muebles.”"
+      },
+      {
+        "id": "enem_enem2016-2_2dia_94_3",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2016,
+        "texto_auxiliar": "La excelente cosecha literaria latinoamericana de la segunda mitad del siglo XX puede resumirse en unos cuantos nombres: los del colombiano Gabriel García Márquez, el peruano Mario Vargas Llosa, los argentinos Jorge Luis Borges y Julio Cortázar, el cubano Alejo Carpentier, el chileno José Donosco, los mexicanos Octavio Paz y Carlos Fuentes... Hay más escritores dignos de figurar en ese cuadro de honor, por supuesto. Pero en él no podría faltar ninguno de los mencionados. Carlos Fuentes, fallecido ayer a los 83 años em Ciudad de México, se labró a pulso su puesto en él. Novelista, ensayista, dramaturgo, guionista de cine, profesor en las más destacadas universidades americanas y europeas, Fuentes supo reflejar en su obra el espíritu de México, forjado en el mestizaje y en la red de complejidades que comporta. Pero no sólo eso. En todo momento, Fuentes fue un paladín de la libertad, tanto en lo relativo a la imaginación y el talento creativo que impregna sus obras, como en lo referente al compromiso social.\nDisponível em: www.lavanguarda.com. Acesso em: 27 jul. 2012.",
+        "enunciado": "Apesar da proximidade entre as línguas portuguesa e espanhola, muitas expressões não são equivalentes. No texto, a expressão “a pulso” indica que Carlos Fuentes",
+        "alternativas": {
+          "A": "trabalhou em suas obras as questões relativas ao contexto social de seu país.",
+          "B": "escreveu suas principais obras com base no princípio da liberdade de criação.",
+          "C": "integrou o quadro dos escritores latino-americanos mais destacados do século XX.",
+          "D": "alcançou o devido reconhecimento literário dentro e fora de seu país por mérito próprio.",
+          "E": "tratou em suas obras dos principais assuntos da cultura mexicana do passado e do presente."
+        },
+        "gabarito": "D",
+        "comentario": "Lê-se a resposta correta nos trechos: “se labro (trabalhou) a pulso” e “profesor en las más destacadas universidades americanas e europeas”."
+      }
+    ]
+  },
+  "Aspectos Culturais Hispano-Americanos": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Interpretação de texto literário e valorização de manifestação cultural hispânica",
+        "ids_questoes": [
+          "enem_enem2019_1dia_5_9"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "O INEP induz o candidato a ler o poema de forma literal, focando em ingredientes ou etapas da receita, quando a habilidade exigida é perceber a personificação e o tom elogioso da culinária como expressão cultural.",
+        "fingerprint_banca": "Costuma usar poema, canção ou crônica curta para avaliar inferência de sentido, identificação de recurso expressivo e relação entre linguagem e identidade cultural. Distratores geralmente retomam elementos concretos do texto, mas ignoram a intenção estética."
+      },
+      {
+        "nome_microtema": "Relação entre linguagem, cultura e identidade social",
+        "ids_questoes": [
+          "enem_enem2022-2_1dia_1_5",
+          "enem_enem2015_2dia_95_4"
+        ],
+        "peso_percentual": 40,
+        "armadilha_favorita": "A banca mistura diversidade linguística com tema cultural amplo para levar o candidato a marcar uma leitura superficial sobre futebol ou sobre legendagem, quando o foco é a função social do espanhol e sua circulação em contextos de prestígio ou assimetria.",
+        "fingerprint_banca": "O ENEM contextualiza o espanhol em situações de contato linguístico, mídia e cultura popular, cobrando inferência sobre usos sociais da língua, prestígio, hibridismo e representação cultural. Os distratores costumam exagerar uma ideia óbvia do texto ou deslocar o foco para um detalhe temático secundário."
+      },
+      {
+        "nome_microtema": "Confronto de visões de mundo e leitura crítica da relação colonizador-colonizado",
+        "ids_questoes": [
+          "enem_enem2017_1dia_5_9"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "A armadilha é tratar a narrativa como simples aventura ou como elogio neutro ao encontro cultural, quando o texto exige reconhecer a ironia e a superioridade do saber indígena sobre o conhecimento ocidental do personagem europeu.",
+        "fingerprint_banca": "A banca costuma explorar narrativas latino-americanas para cobrar leitura crítica da colonização, choque cultural e revisão de eurocentrismo. Os distratores frequentemente invertem a hierarquia de saberes ou suavizam o conflito histórico presente no texto."
+      },
+      {
+        "nome_microtema": "Integração latino-americana e construção de identidade continental",
+        "ids_questoes": [
+          "enem_enem2016-2_2dia_95_4"
+        ],
+        "peso_percentual": 20,
+        "armadilha_favorita": "O INEP pode confundir o candidato ao destacar imagens de paisagem, recursos naturais ou regionalismos, levando-o a ignorar que o eixo central é a união simbólica dos povos latino-americanos.",
+        "fingerprint_banca": "É comum a banca usar canções, poemas e textos de forte carga identitária para avaliar compreensão de projetos de integração regional, solidariedade continental e pertencimento latino-americano. Os distratores tendem a reduzir o sentido a elementos descritivos do espaço geográfico."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "contextual e interdisciplinar, baseado em textos de apoio",
+      "palavras_gatilho": [
+        "de acordo com o texto",
+        "conclui-se que",
+        "exemplifica",
+        "nesse contexto",
+        "segundo a narrativa"
+      ]
+    },
+    "total_questoes_analisadas": 5,
+    "banco_questoes": [
+      {
+        "id": "enem_enem2019_1dia_5_9",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de poema",
+        "banca": "INEP",
+        "ano": "2019",
+        "texto_auxiliar": "Empanada\nOvera en bayo claro,\nvaquilla echada,\neres del vino tinto\nla camarada.\n[...]Vienes llena de pino,\ncebolla y carne,\ncon pasas, huevo duro,\ny aliño de hambre.\nCon el primer mordisco\npor una oreja,\nse abre tu boca ardiente\ncomo sorpresa.\nTe la lleno de pebre\nquedas picante\nsi te beso muy fuerte,\nno me reclames.\nBusco, loco, en tu vientre,\ndelicia oscura,\nla traición exquisita\nde tu aceituna.\n[...]Y repite el ataque\npor andanadas:\nNadie queda con hambre\nsi hay empanadas.\n(ANTRIX, J. Disponível em: http:versado-en-la-cocina.blogspot.com. Acesso em: 8 dez. 2018. Fragmento.)",
+        "enunciado": "A gastronomia é uma das formas de expressão cultural de um povo. Nesse poema, ao personificar as empanadas, o escritor chileno Antrix",
+        "alternativas": {
+          "A": "enaltece esse prato da culinária hispânica.",
+          "B": "descreve algumas etapas de preparação dessa receita.",
+          "C": "destaca a importância do vinho na alimentação hispânica.",
+          "D": "resgata o papel histórico desse alimento em tempos de fome.",
+          "E": "evidencia a relevância de alguns condimentos na cozinha hispânica."
+        },
+        "gabarito": "A",
+        "comentario": "O poeta enaltece o prato descrevendo suas sensações (positivas) ao degustá-lo. No mais, podemos deduzir que o empenho do autor em transportar o tema 'empanadas' para uma composição poética demonstra a importância do prato na cultura dos povos hispânicos."
+      },
+      {
+        "id": "enem_enem2022-2_1dia_1_5",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto poético",
+        "banca": "INEP",
+        "ano": 2022,
+        "texto_auxiliar": "Fútbol, pelota, gol, copa, recopa,\npartido, promoción, campeonato,\nequipo, portería, córner, falta,\nquiniela, liga, entrenador y árbitro...\nBastan sólo estos términos precisos,\njunto con otros pocos de igual rango,\npara hablar de política, de ciencia,\nde civismo y de paz con los hispánicos.\nOtras palabras hay, pero no constan\nmás que en algún rincón del diccionario.\n\nBADOSA, E. Dad este escrito a las llamas (1971-1973). \nBarcelona: Barral Editores, 1976.",
+        "enunciado": "O texto aproxima elementos culturais distintos na construção poética. Nesse contexto,",
+        "alternativas": {
+          "A": "explicita-se a necessidade de se admirar um pouco mais o futebol.",
+          "B": "critica-se o hábito dos espanhóis de nivelar temas como futebol e política.",
+          "C": "registra-se a quantidade insuficiente de palavras para se referir ao futebol.",
+          "D": "explora-se o grande interesse dos hispânicos pelo futebol na atualidade.",
+          "E": "mostra-se o fato de haver palavras sobre o futebol não incluídas no dicionário."
+        },
+        "gabarito": "B",
+        "comentario": "O poema critica a tendência de usar termos do futebol para falar de temas sérios como política e ciência, nivelando-os."
+      },
+      {
+        "id": "enem_enem2017_1dia_5_9",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto literário",
+        "banca": "INEP",
+        "ano": 2017,
+        "texto_auxiliar": "El eclipse\n\nCuando Fray Bartolomé Arrazola se sintió perdido aceptó que ya nada podría salvarlo. La selva poderosa de Guatemala lo había apresado, implacable y definitiva. Ante su ignorancia topográfica se sentó con tranquilidad a esperar la muerte. Al despertar se encontró rodeado por un grupo de indígenas de rostro impasible que se disponía a sacrificarlo ante un altar, un altar que a Bartolomé le pareció como el lecho en que descansaría, al fin, de sus temores, de su destino, de sí mismo. Tres años en el país le habían conferido un mediano dominio de las lenguas nativas. Intentó algo. Dijo algunas palabras que fueron comprendidas. Entonces floreció en él una idea que tuvo por digna de su talento y de su cultura universal y de su arduo conocimiento de Aristóteles. Recordó que para ese día se esperaba un eclipse total de sol. Y dispuso, en lo más íntimo, valerse de aquel conocimiento para engañar a sus opresores y salvar la vida. – Si me matáis – les dijo – puedo hacer que el sol se oscurezca en su altura. Los indígenas lo miraron fijamente y Bartolomé sorprendió la incredulidad en sus ojos. Vio que se produjo un pequeño consejo, y esperó confiado, no sin cierto desdén. Dos horas después el corazón de Fray Bartolomé Arrazola chorreaba su sangre vehemente sobre la piedra de los sacrifícios (brillante bajo la opaca luz de un sol eclipsado), mientras uno de los indígenas recitaba sin ninguna inflexión de voz, sin prisa, una por una las infinitas fechas en que se producirían eclipses solares y lunares, que los astrónomos de la comunidad maya habían previsto y anotado en sus códices sin la valiosa ayuda de Aristóteles.\n\nMonterroso, A. Obras completas y otros cuentos. Bogotá: Norma, 1994 (adaptado).",
+        "enunciado": "No texto, confrontam-se duas visões de mundo: a da cultura ocidental, representada por Frei Bartolomé Arrazola, e a da mítica pré-hispânica, representada pela comunidade indígena maia. Segundo a narrativa,",
+        "alternativas": {
+          "A": "os catequizadores espanhóis avalizam os saberes produzidos pelas comunidades indígenas hispano-americanas.",
+          "B": "os indígenas da comunidade maia, mostram-se perplexos diante da superioridade do conhecimento aristotélico do frei espanhol.",
+          "C": "o catequizador espanhol Arrazola apresenta-se adaptado às culturas autóctones, ao promover a interlocução entre os conhecimentos aristotélicos e indígena.",
+          "D": "o episódio representa, de forma neutra, o significado do conhecimento ancestral indígena, quando comparado ao conhecimento ocidental.",
+          "E": "os conhecimentos acadêmicos de Arrazola são insuficientes para salvá-lo da morte, ante a sabedoria astronômica da cultura maia."
+        },
+        "gabarito": "E",
+        "comentario": "Lê-se a resposta na seguinte afirmação do texto: “Dos horas después el corazón de Fray Bartolomé Arrazola chorreaba su sangre vehemente...”"
+      },
+      {
+        "id": "enem_enem2016-2_2dia_95_4",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": "2016",
+        "texto_auxiliar": "Canción con todos\n\nSalgo a caminar\nPor la cintura cósmica del sur\nPiso en la región\nMás vegetal del tiempo y de la luz\nSiento al caminar\nToda la piel de América en mi piel\nY anda en mi sangre un río\nQue libera en mi voz\nSu caudal.\n\nSol de alto Perú\nRostro Bolivia, estaño y soledad\nUn verde Brasil besa a mi Chile\nCobre y mineral\nSubo desde el sur\nHacia la entraña América y total\nPura raíz de un grito\nDestinado a crecer\nY a estallar.\n\nTodas las voces, todas\nTodas las manos, todas\nToda la sangre puede\nSer canción en el viento.\n\n¡Canta conmigo, canta\nHermano americano\nLibera tu esperanza\nCon un grito en la voz!\n\nGÓMEZ, A.T. Mercedes Sosa : 30 años. Buenos Aires: Polygran, 1994.",
+        "enunciado": "Canción con todos é uma canção latino-americana muito difundida e consagrada pela voz da cantora argentina Mercedes Sosa. Com relação à América Latina, seus versos expressam",
+        "alternativas": {
+          "A": "desejo de integração entre os povos.",
+          "B": "entusiasmo por caminhar pela região.",
+          "C": "valorização dos recursos naturais.",
+          "D": "esforço para libertar os oprimidos.",
+          "E": "vontade de cantar os tipos humanos."
+        },
+        "gabarito": "A",
+        "comentario": "Encontramos a resposta correta nas duas últimas estrofes da canção que chamam à união de todos os povos latino-americanos (vocês) a cantar a mesma canção."
+      },
+      {
+        "id": "enem_enem2015_2dia_95_4",
+        "materia": "Espanhol",
+        "assunto": "Interpretação de texto",
+        "banca": "INEP",
+        "ano": 2015,
+        "texto_auxiliar": "Los guionistas estadounidenses introducen cada vez más el español em sus diálogos\n\nEn los últimos años, la realidad cultural y la presencia creciente de migrantes de origen latinoamericano en EE UU ha propiciado que cada vez más estadounidenses alternen el inglés y el español en un mismo discurso.\nUn estudio publicado en la revista Vial-Vigo International Journal of Applied Linguistics se centra en las estrategias que usan los guionistas de la versión original para incluir el español en el guión o a personajes de origen latinoamericano.\nLos guionistas estadounidenses suelen usar subtítulos en inglés cuando el español que aparece en la serie o película es importante para el argumento. Si esto no ocurre, y sólo hay interjecciones, aparece sin subtítulos. En aquellas conversaciones que no tienen relevancia se añade en ocasiones el subtítulo Speaks Spanish (habla en español).\n“De esta forma, impiden al público conocer qué están diciendo los dos personajes que hablan español”, explica la autora del estudio y profesora e investigadora en la Universidad Pablo de Olavide (UPO) de Sevilla.\nDisponível em: www.agenciasinc.es. Acesso em: 23 ago. 2012 (adaptado).",
+        "enunciado": "De acordo com o texto, nos filmes norte-americanos, nem todas as falas em espanhol são legendadas em inglês. Esse fato revela a",
+        "alternativas": {
+          "A": "assimetria no tratamento do espanhol como elemento da diversidade linguística nos Estados Unidos.",
+          "B": "escassez de personagens de origem hispânica nas séries e filmes produzidos nos Estados Unidos.",
+          "C": "desconsideração com o público hispânico que frequenta as salas de cinema norte-americanas.",
+          "D": "falta de uma formação linguística específica para os roteiristas e tradutores norte-americanos.",
+          "E": "carência de pesquisas científicas sobre a influência do espanhol na cultura norte-americana."
+        },
+        "gabarito": "A",
+        "comentario": "O fato de nem todas as falas em espanhol serem legendadas em inglês revela a assimetria no tratamento do espanhol como elemento da diversidade linguística nos Estados Unidos."
+      }
+    ]
+  },
+  "Gramática Aplicada À Interpretação": {
+    "microtemas_mapeados": [
+      {
+        "nome_microtema": "Falsos cognatos e interferência lexical",
+        "ids_questoes": [],
+        "peso_percentual": 20,
+        "armadilha_favorita": "Interpretar uma palavra parecida com o português pelo sentido literal, ignorando o falso cognato no contexto."
+      },
+      {
+        "nome_microtema": "Valores semânticos de conectores e marcadores discursivos",
+        "ids_questoes": [],
+        "peso_percentual": 18,
+        "armadilha_favorita": "Tomar conectores como equivalentes automáticos do português sem considerar oposição, conclusão, causa ou concessão no texto."
+      },
+      {
+        "nome_microtema": "Tempos e modos verbais na construção de sentido",
+        "ids_questoes": [],
+        "peso_percentual": 16,
+        "armadilha_favorita": "Ler o tempo verbal apenas como regra gramatical e não como indicador de hipótese, certeza, hábito, passado narrativo ou polidez."
+      },
+      {
+        "nome_microtema": "Pronomes, clíticos e referência textual",
+        "ids_questoes": [],
+        "peso_percentual": 14,
+        "armadilha_favorita": "Atribuir o referente ao termo mais próximo sem observar coesão, retomada anafórica e função sintática."
+      },
+      {
+        "nome_microtema": "Negação, modalização e intensidade",
+        "ids_questoes": [],
+        "peso_percentual": 12,
+        "armadilha_favorita": "Ignorar partículas de negação, restrição ou reforço e concluir o oposto do que o enunciado realmente afirma."
+      },
+      {
+        "nome_microtema": "Voz passiva, impessoalidade e apagamento do agente",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Confundir quem pratica a ação com quem sofre a ação, especialmente em estruturas passivas e impessoais."
+      },
+      {
+        "nome_microtema": "Pontuação, segmentação e efeito interpretativo",
+        "ids_questoes": [],
+        "peso_percentual": 10,
+        "armadilha_favorita": "Desconsiderar vírgulas, dois-pontos e travessões que alteram foco, enumeração, explicação ou contraste."
+      }
+    ],
+    "fingerprint_banca": {
+      "estilo_cobranca": "O ENEM costuma cobrar gramática aplicada à interpretação em textos curtos ou trechos de gêneros diversos, exigindo inferência contextual e leitura global. A regra gramatical aparece subordinada ao efeito de sentido, à coesão e à intenção comunicativa, com distratores plausíveis baseados em tradução literal, equivalência superficial entre português e espanhol e leitura fragmentada.",
+      "palavras_gatilho": [
+        "sentido",
+        "inferência",
+        "cohesión",
+        "conector",
+        "referencia",
+        "negación",
+        "falso amigo",
+        "tono",
+        "intención",
+        "contexto"
+      ]
+    },
+    "total_questoes_analisadas": 0,
+    "banco_questoes": []
+  }
+}

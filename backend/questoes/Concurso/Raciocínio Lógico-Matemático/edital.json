@@ -1,0 +1,122 @@
+[
+  {
+    "id": 425261,
+    "nome": "Tabelas Verdade"
+  },
+  {
+    "id": 425262,
+    "nome": "Princípios Fundamentais da Lógica Proposicional ou Três Leis do Pensamento"
+  },
+  {
+    "id": 425266,
+    "nome": "Proposições"
+  },
+  {
+    "id": 411081,
+    "nome": "Operadores Lógicos"
+  },
+  {
+    "id": 411083,
+    "nome": "Conectivos Lógicos"
+  },
+  {
+    "id": 411073,
+    "nome": "Conjunção e"
+  },
+  {
+    "id": 411074,
+    "nome": "Disjunção Inclusiva ou"
+  },
+  {
+    "id": 411076,
+    "nome": "Condicional se então"
+  },
+  {
+    "id": 411077,
+    "nome": "Bicondicional se e somente se"
+  },
+  {
+    "id": 425269,
+    "nome": "Condição suficiente ou necessária"
+  },
+  {
+    "id": 404262,
+    "nome": "Leis de Morgan"
+  },
+  {
+    "id": 404263,
+    "nome": "Equivalências Lógicas"
+  },
+  {
+    "id": 404267,
+    "nome": "Tautologia"
+  },
+  {
+    "id": 425279,
+    "nome": "Contradição"
+  },
+  {
+    "id": 404264,
+    "nome": "Quantificadores Lógicos"
+  },
+  {
+    "id": 404266,
+    "nome": "Lógica de Argumentação"
+  },
+  {
+    "id": 411091,
+    "nome": "Regras de Inferência"
+  },
+  {
+    "id": 411092,
+    "nome": "Modus Ponens"
+  },
+  {
+    "id": 411093,
+    "nome": "Modus Tollens"
+  },
+  {
+    "id": 411094,
+    "nome": "Silogismo Hipotético"
+  },
+  {
+    "id": 411101,
+    "nome": "Sofismas e Falácias"
+  },
+  {
+    "id": 411102,
+    "nome": "Falácias Formais"
+  },
+  {
+    "id": 411088,
+    "nome": "Verdade e Validade"
+  },
+  {
+    "id": 404273,
+    "nome": "Análise Combinatória"
+  },
+  {
+    "id": 425314,
+    "nome": "PFC Princípio Fundamental da Contagem"
+  },
+  {
+    "id": 425316,
+    "nome": "Permutação simples"
+  },
+  {
+    "id": 425319,
+    "nome": "Arranjo Simples"
+  },
+  {
+    "id": 425320,
+    "nome": "Combinação Simples"
+  },
+  {
+    "id": 404275,
+    "nome": "Probabilidade"
+  },
+  {
+    "id": 425327,
+    "nome": "Probabilidade Condicional"
+  }
+]

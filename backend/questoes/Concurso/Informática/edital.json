@@ -1,0 +1,126 @@
+[
+  {
+    "id": 419743,
+    "nome": "Conceitos básicos em Informática"
+  },
+  {
+    "id": 419744,
+    "nome": "Conceitos sobre Processamento de Dados"
+  },
+  {
+    "id": 419747,
+    "nome": "Bit e Byte"
+  },
+  {
+    "id": 405035,
+    "nome": "Hardware"
+  },
+  {
+    "id": 405037,
+    "nome": "UCP - Unidade Central de Processamento"
+  },
+  {
+    "id": 419790,
+    "nome": "Unidade Lógica e Aritmética"
+  },
+  {
+    "id": 419795,
+    "nome": "Tipos de Memórias"
+  },
+  {
+    "id": 419797,
+    "nome": "Memória RAM"
+  },
+  {
+    "id": 419798,
+    "nome": "Memória ROM"
+  },
+  {
+    "id": 419804,
+    "nome": "Memórias Secundárias ou Memórias de Massa"
+  },
+  {
+    "id": 419808,
+    "nome": "Disco Rígido ou HD"
+  },
+  {
+    "id": 419816,
+    "nome": "Disco de Estado Sólido (SSD)"
+  },
+  {
+    "id": 405044,
+    "nome": "Software"
+  },
+  {
+    "id": 405046,
+    "nome": "Sistemas Operacionais"
+  },
+  {
+    "id": 405134,
+    "nome": "Redes de Computadores"
+  },
+  {
+    "id": 419887,
+    "nome": "Internet"
+  },
+  {
+    "id": 419907,
+    "nome": "Modelo OSI/ISO"
+  },
+  {
+    "id": 419950,
+    "nome": "Arquitetura TCP/IP"
+  },
+  {
+    "id": 419923,
+    "nome": "IP"
+  },
+  {
+    "id": 419925,
+    "nome": "IPv6"
+  },
+  {
+    "id": 419931,
+    "nome": "Camada de Transporte"
+  },
+  {
+    "id": 419975,
+    "nome": "TCP"
+  },
+  {
+    "id": 419932,
+    "nome": "UDP"
+  },
+  {
+    "id": 405034,
+    "nome": "SMTP"
+  },
+  {
+    "id": 419943,
+    "nome": "DNS"
+  },
+  {
+    "id": 405144,
+    "nome": "HTTP"
+  },
+  {
+    "id": 419944,
+    "nome": "HTTPS"
+  },
+  {
+    "id": 420167,
+    "nome": "Segurança na Internet"
+  },
+  {
+    "id": 420195,
+    "nome": "Ransomware"
+  },
+  {
+    "id": 420214,
+    "nome": "Phishing Scam"
+  },
+  {
+    "id": 420646,
+    "nome": "Firewall"
+  }
+]

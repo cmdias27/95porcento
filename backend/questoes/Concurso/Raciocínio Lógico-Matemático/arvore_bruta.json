@@ -1,0 +1,650 @@
+[
+  {
+    "id": 404280,
+    "nome": "Estruturas Lógicas - (Lógica de Primeira Ordem) |"
+  },
+  {
+    "id": 425260,
+    "nome": "Conceito de sentenças |"
+  },
+  {
+    "id": 411085,
+    "nome": "Sentenças abertas e Fechadas |"
+  },
+  {
+    "id": 425261,
+    "nome": "Conceito de Proposições |"
+  },
+  {
+    "id": 425262,
+    "nome": "Princípios Fundamentais da Lógica Proposicional ou (Três Leis do Pensamento) |"
+  },
+  {
+    "id": 425263,
+    "nome": "Princípio da identidade |"
+  },
+  {
+    "id": 425264,
+    "nome": "Princípio da Não Contradição |"
+  },
+  {
+    "id": 425265,
+    "nome": "Princípio do Terceiro Excluído |"
+  },
+  {
+    "id": 425266,
+    "nome": "Proposições |"
+  },
+  {
+    "id": 425267,
+    "nome": "Proposições Simples (básicas, primitivas ou atômicas ) |"
+  },
+  {
+    "id": 425268,
+    "nome": "Proposições Compostas (fórmulas proposicionais ou moleculares) |"
+  },
+  {
+    "id": 411081,
+    "nome": "Operadores Lógicos |"
+  },
+  {
+    "id": 411082,
+    "nome": "Modificador \"não\" (Negação de Proposição Simples) |"
+  },
+  {
+    "id": 411083,
+    "nome": "Conectivos Lógicos ( construção de proposições compostas) |"
+  },
+  {
+    "id": 404259,
+    "nome": "Lógica Proposicional - (Lógica de Primeira Ordem) |"
+  },
+  {
+    "id": 411071,
+    "nome": "Linguagem da Lógica Proposicional |"
+  },
+  {
+    "id": 404260,
+    "nome": "Operações Lógicas / Conectivos Lógicos |"
+  },
+  {
+    "id": 411073,
+    "nome": "Conjunção \"e\" |"
+  },
+  {
+    "id": 411074,
+    "nome": "Disjunção Inclusiva \"ou\" |"
+  },
+  {
+    "id": 411075,
+    "nome": "Disjunção Exclusiva \"ou...ou\" |"
+  },
+  {
+    "id": 411076,
+    "nome": "Condicional \"se....então\" |"
+  },
+  {
+    "id": 425269,
+    "nome": "Condição suficiente ou necessária |"
+  },
+  {
+    "id": 411077,
+    "nome": "Bicondicional \"se e somente se\" |"
+  },
+  {
+    "id": 425270,
+    "nome": "Condição suficiente e necessária |"
+  },
+  {
+    "id": 425271,
+    "nome": "Precedência dos Conectivos (Uso de Parênteses, colchetes e chaves) |"
+  },
+  {
+    "id": 404261,
+    "nome": "Tabelas Verdade |"
+  },
+  {
+    "id": 411078,
+    "nome": "Construção |"
+  },
+  {
+    "id": 425272,
+    "nome": "Número de Linhas de uma Tabela-Verdade ( número de valorações) |"
+  },
+  {
+    "id": 425273,
+    "nome": "Tabela-verdade da conjunção |"
+  },
+  {
+    "id": 425274,
+    "nome": "Tabela-verdade da Disjunção Inclusiva |"
+  },
+  {
+    "id": 425275,
+    "nome": "Tabela-verdade da Disjunção Exclusiva |"
+  },
+  {
+    "id": 425276,
+    "nome": "Tabela-verade da Condicional |"
+  },
+  {
+    "id": 425277,
+    "nome": "Tabela-verdade da Negação ( modificador lógico) |"
+  },
+  {
+    "id": 404267,
+    "nome": "Tautologia |"
+  },
+  {
+    "id": 425279,
+    "nome": "Contradição (Proposições Contraválidas) |"
+  },
+  {
+    "id": 425280,
+    "nome": "Contingência (Proposições Indeterminadas) |"
+  },
+  {
+    "id": 404263,
+    "nome": "Equivalências Lógicas - (Proposições Logicamente equivalentes) |"
+  },
+  {
+    "id": 425281,
+    "nome": "Lei Associativa |"
+  },
+  {
+    "id": 425282,
+    "nome": "Lei Distributiva |"
+  },
+  {
+    "id": 404262,
+    "nome": "Leis de Morgan |"
+  },
+  {
+    "id": 425284,
+    "nome": "Lei Dupla Negação |"
+  },
+  {
+    "id": 425285,
+    "nome": "Lei Condicional |"
+  },
+  {
+    "id": 425286,
+    "nome": "Lei Bicondicional |"
+  },
+  {
+    "id": 425287,
+    "nome": "Lei Comutativa |"
+  },
+  {
+    "id": 411072,
+    "nome": "Negação de Proposições compostas |"
+  },
+  {
+    "id": 425288,
+    "nome": "Negação da proposição conjuntiva |"
+  },
+  {
+    "id": 425289,
+    "nome": "Negação da proposição disjuntiva |"
+  },
+  {
+    "id": 411079,
+    "nome": "Negação da proposição disjuntiva exclusiva |"
+  },
+  {
+    "id": 425290,
+    "nome": "Negação da proposição condicional |"
+  },
+  {
+    "id": 425291,
+    "nome": "Negação da proposição Bicondicional |"
+  },
+  {
+    "id": 404264,
+    "nome": "Quantificadores Lógicos - Lógica dos predicados ( Lógica de Primeira Ordem) |"
+  },
+  {
+    "id": 425292,
+    "nome": "Simbologia dos quantificadores lógicos( Linguagem) |"
+  },
+  {
+    "id": 425293,
+    "nome": "Proposições Categóricas |"
+  },
+  {
+    "id": 425294,
+    "nome": "Proposições Universais Afirmativas |"
+  },
+  {
+    "id": 425295,
+    "nome": "Proposições Universais Negativas |"
+  },
+  {
+    "id": 404265,
+    "nome": "Proposições Particulares Afirmativas |"
+  },
+  {
+    "id": 425296,
+    "nome": "Proposições Particulares Negativas |"
+  },
+  {
+    "id": 406162,
+    "nome": "Diagramas lógicos |"
+  },
+  {
+    "id": 425297,
+    "nome": "Diagrama de Todo A é B |"
+  },
+  {
+    "id": 425298,
+    "nome": "Diagrama de Nenhum A é B |"
+  },
+  {
+    "id": 425299,
+    "nome": "Diagrama de Alguma A é B |"
+  },
+  {
+    "id": 425300,
+    "nome": "Diagrama de Alguma A não é B |"
+  },
+  {
+    "id": 411080,
+    "nome": "Negação de Proposições Categóricas ( Quadrado dos opostos) |"
+  },
+  {
+    "id": 425301,
+    "nome": "Negação do Todo A é B (A) |"
+  },
+  {
+    "id": 425302,
+    "nome": "Negação do Algum A não é B (O) |"
+  },
+  {
+    "id": 425303,
+    "nome": "Negação do Algum A é B ( I ) |"
+  },
+  {
+    "id": 425304,
+    "nome": "Negação do Nenhum A é B (E) |"
+  },
+  {
+    "id": 404266,
+    "nome": "Lógica de Argumentação |"
+  },
+  {
+    "id": 411086,
+    "nome": "Argumento Lógico (Introdução aos Argumentos) |"
+  },
+  {
+    "id": 404270,
+    "nome": "Diagramas Lógicos / Diagrama de Venn / Operações com conjuntos |"
+  },
+  {
+    "id": 411091,
+    "nome": "Regras de Inferência |"
+  },
+  {
+    "id": 411092,
+    "nome": "Modus Ponens |"
+  },
+  {
+    "id": 411093,
+    "nome": "Modus Tollens |"
+  },
+  {
+    "id": 411094,
+    "nome": "Silogismo Hipotético |"
+  },
+  {
+    "id": 411095,
+    "nome": "Adição Disjuntiva |"
+  },
+  {
+    "id": 411096,
+    "nome": "Simplificação Conjunta |"
+  },
+  {
+    "id": 411097,
+    "nome": "Silogismo Disjuntivo |"
+  },
+  {
+    "id": 411098,
+    "nome": "Dilema Construtivo |"
+  },
+  {
+    "id": 411099,
+    "nome": "Dilema Destrutivo |"
+  },
+  {
+    "id": 411100,
+    "nome": "Absorção |"
+  },
+  {
+    "id": 425305,
+    "nome": "Implicações Lógicas |"
+  },
+  {
+    "id": 411105,
+    "nome": "Analogias |"
+  },
+  {
+    "id": 411112,
+    "nome": "Dedução (Argumento Dedutivo) |"
+  },
+  {
+    "id": 425306,
+    "nome": "Representação dos Argumentos |"
+  },
+  {
+    "id": 425307,
+    "nome": "Silogismos |"
+  },
+  {
+    "id": 411090,
+    "nome": "Figuras e Modos do Silogismo Categórico |"
+  },
+  {
+    "id": 411107,
+    "nome": "Silogismo de primeira figura |"
+  },
+  {
+    "id": 411108,
+    "nome": "Silogismo de segunda figura |"
+  },
+  {
+    "id": 411109,
+    "nome": "Silogismo de terceira figura |"
+  },
+  {
+    "id": 411110,
+    "nome": "Silogismo de quarta figura |"
+  },
+  {
+    "id": 411087,
+    "nome": "Ambiguidade |"
+  },
+  {
+    "id": 411088,
+    "nome": "Verdade e Validade |"
+  },
+  {
+    "id": 411089,
+    "nome": "Argumentos Sólidos e Argumentos Bons |"
+  },
+  {
+    "id": 411101,
+    "nome": "Sofismas/Falácias |"
+  },
+  {
+    "id": 411102,
+    "nome": "Falácias Formais |"
+  },
+  {
+    "id": 411103,
+    "nome": "Falácia da Afirmação do Consequente |"
+  },
+  {
+    "id": 411104,
+    "nome": "Falácia da Negação do Antecedente |"
+  },
+  {
+    "id": 411111,
+    "nome": "Associação Lógica |"
+  },
+  {
+    "id": 425312,
+    "nome": "Conclusões |"
+  },
+  {
+    "id": 425313,
+    "nome": "Princípios de Contagem e Probabilidade |"
+  },
+  {
+    "id": 404273,
+    "nome": "Análise Combinatória |"
+  },
+  {
+    "id": 425314,
+    "nome": "P.F.C - Princípio Fundamental da Contagem |"
+  },
+  {
+    "id": 425315,
+    "nome": "Princípio Aditivo e Princípio Multiplicativo |"
+  },
+  {
+    "id": 448419,
+    "nome": "Princípio da Regressão ou Reversão |"
+  },
+  {
+    "id": 404274,
+    "nome": "Permutação |"
+  },
+  {
+    "id": 425316,
+    "nome": "Permutação simples |"
+  },
+  {
+    "id": 425317,
+    "nome": "Permutação com repetição |"
+  },
+  {
+    "id": 425318,
+    "nome": "Permutação circular |"
+  },
+  {
+    "id": 425319,
+    "nome": "Arranjo Simples |"
+  },
+  {
+    "id": 425320,
+    "nome": "Combinação Simples |"
+  },
+  {
+    "id": 425321,
+    "nome": "Combinação com Elementos Repetidos |"
+  },
+  {
+    "id": 404275,
+    "nome": "Probabilidade |"
+  },
+  {
+    "id": 425322,
+    "nome": "Propriedades |"
+  },
+  {
+    "id": 425323,
+    "nome": "Regra do \"e\" eventos independentes |"
+  },
+  {
+    "id": 425324,
+    "nome": "Regra do \"ou\". |"
+  },
+  {
+    "id": 425325,
+    "nome": "Complementar |"
+  },
+  {
+    "id": 425326,
+    "nome": "Teroma de Bayes |"
+  },
+  {
+    "id": 425327,
+    "nome": "Probabilidade Condicional |"
+  },
+  {
+    "id": 425328,
+    "nome": "Raciocínio lógico quantitativo ( Problemas lógicos) |"
+  },
+  {
+    "id": 404276,
+    "nome": "Raciocínio Sequencial |"
+  },
+  {
+    "id": 404277,
+    "nome": "Progressão aritmética -PA |"
+  },
+  {
+    "id": 404278,
+    "nome": "Progressão geométrica - PG |"
+  },
+  {
+    "id": 425329,
+    "nome": "Série de Fibonacci |"
+  },
+  {
+    "id": 404279,
+    "nome": "Sequências com números, letras, palavras e figuras |"
+  },
+  {
+    "id": 425330,
+    "nome": "Questões com páginas |"
+  },
+  {
+    "id": 411113,
+    "nome": "Orientação Temporal e Calendários |"
+  },
+  {
+    "id": 425331,
+    "nome": "Calendários ( questões com datas) |"
+  },
+  {
+    "id": 411114,
+    "nome": "Princípio da Casa dos pombos ( Princípio das Gavetas) |"
+  },
+  {
+    "id": 411084,
+    "nome": "Verdades e Mentiras |"
+  },
+  {
+    "id": 404258,
+    "nome": "Raciocínio Analítico e Raciocínio Crítico |"
+  },
+  {
+    "id": 425332,
+    "nome": "Raciocínio analítico e a argumentação |"
+  },
+  {
+    "id": 425333,
+    "nome": "O uso do senso crítico na argumentação |"
+  },
+  {
+    "id": 425334,
+    "nome": "Tipos de argumentos: argumentos falaciosos e apelativos |"
+  },
+  {
+    "id": 425335,
+    "nome": "Comunicação eficiente de argumentos |"
+  },
+  {
+    "id": 411115,
+    "nome": "Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais |"
+  },
+  {
+    "id": 425336,
+    "nome": "Raciocínio lógico envolvendo problemas aritméticos |"
+  },
+  {
+    "id": 425342,
+    "nome": "Matemática Básica ( questões envolvendo as quatro operações básicas) |"
+  },
+  {
+    "id": 425343,
+    "nome": "Conjuntos Numéricos |"
+  },
+  {
+    "id": 425344,
+    "nome": "Conjuntos dos números reais |"
+  },
+  {
+    "id": 425345,
+    "nome": "Conjuntos dos números complexos |"
+  },
+  {
+    "id": 425337,
+    "nome": "Razão e Proporção |"
+  },
+  {
+    "id": 425346,
+    "nome": "Questões com frações |"
+  },
+  {
+    "id": 425347,
+    "nome": "Regra de três simples |"
+  },
+  {
+    "id": 425348,
+    "nome": "Porcentagem |"
+  },
+  {
+    "id": 425338,
+    "nome": "Raciocínio lógico envolvendo problemas geométricos |"
+  },
+  {
+    "id": 425349,
+    "nome": "Geometria Plana e espacial |"
+  },
+  {
+    "id": 425350,
+    "nome": "Perímetros, áreas e volumes |"
+  },
+  {
+    "id": 425351,
+    "nome": "Perímetros e áreas de triângulos , quadrilateos e círculo |"
+  },
+  {
+    "id": 425352,
+    "nome": "Volume dos paralelepípedos, cubo e cilindro |"
+  },
+  {
+    "id": 425339,
+    "nome": "Trigonometria |"
+  },
+  {
+    "id": 425353,
+    "nome": "Relações métricas no triângulo retângulo |"
+  },
+  {
+    "id": 425354,
+    "nome": "Trigonometria na Circunferência |"
+  },
+  {
+    "id": 425355,
+    "nome": "Funções Trigonométricas |"
+  },
+  {
+    "id": 425356,
+    "nome": "Funções seno, cosseno e tangente - ângulos notáveis |"
+  },
+  {
+    "id": 425340,
+    "nome": "Geometria Analítica |"
+  },
+  {
+    "id": 425357,
+    "nome": "Distância entre dois pontos |"
+  },
+  {
+    "id": 425358,
+    "nome": "Posição relativa das retas em um plano cartesiano |"
+  },
+  {
+    "id": 425359,
+    "nome": "Comprimento da circunferência |"
+  },
+  {
+    "id": 425341,
+    "nome": "Raciocínio lógico envolvendo problemas matriciais |"
+  },
+  {
+    "id": 425360,
+    "nome": "Operações com matrizes - igualdade , soma e subtração |"
+  },
+  {
+    "id": 425361,
+    "nome": "Operações com matrizes - multiplicação de uma matriz por uma constant |"
+  },
+  {
+    "id": 425362,
+    "nome": "Operações com matrizes - multiplicação de matrizes |"
+  }
+]

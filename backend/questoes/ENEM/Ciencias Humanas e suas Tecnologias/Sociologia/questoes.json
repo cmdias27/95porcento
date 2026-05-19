@@ -1,0 +1,868 @@
+{
+  "Sociologia": [
+    {
+      "id": "enem_enem2019_1dia_57_61",
+      "materia": "Sociologia",
+      "assunto": "Laicidade e liberdade religiosa",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "A maior parte das agressões e manifestações discriminatórias contra as religiões de matrizes africanas ocorrem em locais públicos (57%). É na rua, na via pública, que tiveram lugar mais de 2/3 das agressões, geralmente em locais próximos às casas de culto dessas religiões. O transporte público também é apontado como um local em que os adeptos das religiões de matrizes africanas são discriminados, geralmente quando se encontro para -men tados por conta dos preceitos religiosos. \nREGO, L. F.; FONSECA, D. P. R.; GIACOMINI, S. M. Cartografia social de terreiros no Rio de Janeiro. Rio de Janeiro: PUC-Rio, 2014.",
+      "enunciado": "As práticas descritas no texto são incompatíveis com a dinâmica de uma sociedade laica e democrática porque",
+      "alternativas": {
+        "A": "asseguram as expressões multiculturais.",
+        "B": "promovem a diversidade de etnias.",
+        "C": "falseiam os dogmas teológicos.",
+        "D": "estimulam os rituais sincréticos.",
+        "E": "restringem a liberdade de credo."
+      },
+      "gabarito": "E",
+      "comentario": "As manifestações e atos de hostilidade contra as religiões de matriz africana ferem o direito à liberdade de culto e, por extensão, o princípio da isonomia dos cidadãos, ambos assegurados pela Constituição Brasileira."
+    },
+    {
+      "id": "enem_enem2019_1dia_88_92",
+      "materia": "Sociologia",
+      "assunto": "Políticas Públicas e Cidadania",
+      "banca": "INEP",
+      "ano": "2019",
+      "texto_auxiliar": "A criação do Sistema Único de Saúde (SUS) como uma política para todos constitui-se uma das mais importantes conquistas da sociedade brasileira no século XX. O SUS deve ser valorizado e defendido como um marco para a cidadania e o avanço civilizatório. A democracia envolve um modelo de Estado no qual políticas protegem os cidadãos e reduzem as desigualdades. O SUS é uma diretriz que fortalece a cidadania e contribui para assegurar o exercício de direitos, o pluralismo político e o bem-estar como valores de uma sociedade fraterna, pluralista e sem preconceitos, conforme prevê a Constituição Federal de 1988. \nRIZZOTO, M. L. F. et at. Justiça social, democracia com direitos sociais e saúde: a luta do Cebes. Revista Saúde em Debate , n. 116, jan.-mar. 2018 (adaptado).",
+      "enunciado": "Segundo o texto, duas características da concepção da política pública analisada são:",
+      "alternativas": {
+        "A": "Paternalismo e filantropia.",
+        "B": "Liberalismo e meritocracia.",
+        "C": "Universalismo e igualitarismo.",
+        "D": "Nacionalismo e individualismo.",
+        "E": "Revolucionarismo e coparticipação."
+      },
+      "gabarito": "C",
+      "comentario": "Levando em conta que o Brasil tem uma estrutura democrática, entre cujas diretrizes principais está a igualdade de direitos entre os cidadãos, o direito à assistência da saúde, oferecido pelo Estado a todos os cidadãos por meio do SUS, cumpre os princípios do universalismo e do igualitarismo."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_7_6",
+      "materia": "Sociologia",
+      "assunto": "Corpo e sociedade",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "Os cuidados com o corpo vão se tornando uma exigência na modernidade e implicam a convergência de uma série de elementos: as tecnologias, para tanto, vão se desenvolvendo de maneira acelerada; o mercado dos produtos e serviços voltados para o corpo vai se expandindo; a higiene que fundamentava esses cuidados vai sendo substituída pelos prazeres do “corpo”, implicação lógica do processo de secularização, no qual há a identificação da personalidade dos indivíduos com sua aparência. Por todas essas circunstâncias, o cuidado com o corpo transforma-se numa ditadura do corpo, um corpo que corresponda à expectativa desse tempo, um corpo que seja trabalhado arduamente e do qual os vestígios de naturalidade sejam eliminados.\nSILVA, A. M. Corpo, ciência e mercado: reflexões acerca da gestação de um novo arquétipo da felicidade. Campinas: Autores Associados; Florianópolis: UFSC, 2001.",
+      "enunciado": "O fenômeno social identificado, em relação à presença do corpo na sociedade, indica que",
+      "alternativas": {
+        "A": "as tecnologias, o mercado dos produtos e serviços e a higiene criaram uma ditadura do corpo.",
+        "B": "os cuidados com o corpo na modernidade reforçam a naturalidade da personalidade do indivíduo.",
+        "C": "a expansão das tecnologias de cuidado reduz o impacto desempenhado pelos padrões estéticos na construção da imagem corporal.",
+        "D": "o enfraquecimento atual dos padrões de beleza favorece o crescimento do mercado de produtos e serviços voltados aos cuidados estéticos.",
+        "E": "os padrões estéticos desempenham uma importante função social à medida que induzem à melhoria dos indicadores de saúde na população."
+      },
+      "gabarito": "A",
+      "comentario": "O texto reforça como as tecnologias, os produtos e serviços voltados para o corpo desenvolvem um fenômeno social que cria o modelo de corpo ideal. Assim o cuidado com a aparência transforma-se numa ditadura da beleza."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_12_11",
+      "materia": "Sociologia",
+      "assunto": "Gênero e sexualidade",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "A masculinidade, assim como a feminilidade, é uma construção histórica e cultural. Em nossa cultura, a dança caracteriza-se, no sentido geral, como um universo predominantemente feminino. Homens que dançam são geralmente considerados homossexuais, por não se enquadrarem dentro das normas culturais hegemônicas de gênero e sexualidade. Por outro lado, demonstram a não existência de um único tipo de masculinidade, enfatizando que as identidades humanas são múltiplas e plurais. No contexto da dança, as representações hegemônicas de gênero e as regulações sociais que essas impõem não se manifestam de forma igual em todas as modalidades de dança. Persiste essa forte representação cultural ocidental que associa o balé à feminilidade e à homossexualidade. Em outras danças, ela não se revela tão forte, e os homens não aparecem em menor número, como nas tradicionais danças folclóricas ou no moderno hip hop.",
+      "enunciado": "No que tange à identidade de gênero masculina, a dança e suas modalidades expressam o(a)",
+      "alternativas": {
+        "A": "padronização da inserção dos homens nessas manifestações corporais.",
+        "B": "identificação de como essas práticas regulam uma única masculinidade.",
+        "C": "reconhecimento das diferentes masculinidades.",
+        "D": "contestação das normas sociais pelo balé.",
+        "E": "reforço de uma feminilidade hegemônica."
+      },
+      "gabarito": "C",
+      "comentario": "Segundo o texto, a dança associa-se, normalmente, ao universo feminino, principalmente, o balé. Porém, há danças, como as folclóricas e o hip hop, em que o homem não é associado à homossexualidade, o que indica diferentes masculinidades."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_58_57",
+      "materia": "Sociologia",
+      "assunto": "Poder político e controle social",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "O jovem que nasceu e cresceu sob a ditadura perdeu muitos contatos com a realidade e com a história como processo vivo. Mas conheceu em sua carne o que é a opressão e como a repressão institucional (às vezes inconsciente e definitiva, dentro da família, da escola etc.) é odiosa. Essa é uma riqueza ímpar. O potencial radical de um jovem — pobre, de pequena burguesia ou “rico” — que sofre prolongadamente uma experiência dessas, constitui um agente político valioso. Ele está “embalado” para rejeitar e combater a opressão sistemática e a repressão dissimulada, o que o converte em um ser político inconformista promissor.\nFERNANDES, F. O dilema político dos jovens. In: Florestan Fernandes na constituinte: leituras para reforma política. São Paulo: Expressão Popular, 2014.",
+      "enunciado": "No contexto mencionado, Florestan Fernandes tematiza um efeito inesperado do exercício do poder político decorrente da",
+      "alternativas": {
+        "A": "evolução histórica do conflito de gerações.",
+        "B": "fragilidade moral das instituições públicas.",
+        "C": "impossibilidade de realização do controle total.",
+        "D": "legitimação ideológica do nacionalismo estatal.",
+        "E": "restrição da oferta de oportunidades de educação."
+      },
+      "gabarito": "C",
+      "comentario": "O efeito inesperado para aquele que tenta suprimir/submeter o outro é não conquistar seu domínio na íntegra e o texto revela que, mesmo frente a abusos de ordem a coagir o jovem, este permanece à parte da dominação."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_75_74",
+      "materia": "Sociologia",
+      "assunto": "Trabalho e Tecnologia",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "Ao mesmo tempo que as novas tecnologias inseridas no universo do trabalho estão provocando profundas transformações nos modos de produção, tornam cada vez mais plausível a possibilidade de liberação do homem do trabalho mecânico e repetitivo.\nJORGE, M. T. S. Será o ensino escolar supérfluo no mundo das novas tecnologias? Educação e Sociedade , v. 19, n. 65, dez. 1998 (adaptado).",
+      "enunciado": "O paradoxo da relação entre as novas tecnologias e o mundo do trabalho, demonstrado no texto, pode ser exemplificado pelo(a)",
+      "alternativas": {
+        "A": "utilização das redes sociais como ferramenta de recrutamento e seleção.",
+        "B": "transferência de fábricas para locais onde estas desfrutem de benefícios fiscais.",
+        "C": "necessidade de trabalhadores flexíveis para se adequarem ao mercado de trabalho.",
+        "D": "fenômeno do desemprego que aflige milhões de pessoas no mundo contemporâneo.",
+        "E": "conflito entre trabalhadores e empresários por conta da exigência de qualificação profissional."
+      },
+      "gabarito": "D",
+      "comentario": "As novas tecnologias insertas no universo do trabalho, citadas pelo autor do texto, criam uma situação paradoxal, na medida em que permitem a liberação do homem em relação ao trabalho mecânico e repetitivo, mas também provocam uma situação de desemprego estrutural, visto que há um acelerado ritmo de extinção de postos de trabalho. Portanto, o paradoxo em questão pode ser exemplificado pelo fenômeno do desemprego, que aflige milhões de pessoas no mundo contemporâneo."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_78_77",
+      "materia": "Sociologia",
+      "assunto": "Ética protestante e capitalismo",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "No protestantismo ascético, temos não apenas a clara noção da primazia da ética sobre o mundo, mas também a mitigação dos efeitos da dupla moral judaica (uma moral interna para os irmãos de crença e outra externa para os infiéis). O desafio aqui é o da ética, que quer deixar de ser um ideal eventual e ocasional (que exige dos virtuosos religiosos quase sempre uma “fuga do mundo”, como na prática monástica cristã medieval) para tornar-se efetivamente uma lei prática e cotidiana “dentro do mundo”. \nSOUZA, J. A ética protestante e a ideologia do atraso brasileiro. Revista Brasileira de Ciências Sociais, n. 38, out. 1998.",
+      "enunciado": "Retomando o pensamento de Max Weber, o texto apresenta a tensão entre positividade ético-religiosa e esferas mundanas de ação. Nessa perspectiva, a ética protestante é compreendida como",
+      "alternativas": {
+        "A": "vinculada ao abandono da felicidade terrena.",
+        "B": "contrária aos princípios econômicos liberais.",
+        "C": "promovedora da dimensão política da vida cotidiana.",
+        "D": "estimuladora da igualdade social como direito divino.",
+        "E": "adequada ao desenvolvimento do capitalismo moderno."
+      },
+      "gabarito": "E",
+      "comentario": "Em sua obra A Ética Protestante e o Espírito do Capitalismo, Weber entende que o ascetismo e o trabalho vivenciado como vocação, em concordância com a ética puritana nos Estados Unidos, contribuíram para o processo de acúmulo de capital naquele país."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_79_78",
+      "materia": "Sociologia",
+      "assunto": "Sociedade de controle",
+      "banca": "INEP",
+      "ano": 2020,
+      "texto_auxiliar": "É certo que entramos na era das sociedades de ‘controle’. Elas já não são exatamente sociedades disciplinares, cuja técnica principal é o confinamento (não somente o hospital e a prisão, mas também a escola, a fábrica, o quartel). A sociedade de controle não funciona por confinamento, mas por controle contínuo e comunicação instantânea. É evidente que não deixamos de falar de prisão, de escola, de hospital: mas essas instituições estão em crise. \nDELEUZE, G. Entrevista a Toni Negri. In: O devir revolucionário e as criações políticas. Novos Estudos Cebrap, n. 28, out. 1990. (adaptado).",
+      "enunciado": "No trecho, ao problematizar as sociedades contemporâneas, Gilles Deleuze está enfatizando a ausência de",
+      "alternativas": {
+        "A": "legitimidade nas redes de informação.",
+        "B": "autonomia nas ações individuais.",
+        "C": "sanções no ordenamento jurídico.",
+        "D": "padrões na sociedade de consumo.",
+        "E": "inovações nos sistemas educacionais."
+      },
+      "gabarito": "B",
+      "comentario": "De acordo com o texto, a sociedade de 'controle' já não funciona só pelo confinamento, mas por controle contínuo e comunicação instantânea, promovendo a redução da autonomia nas ações individuais."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_82_81",
+      "materia": "Sociologia",
+      "assunto": "Democracia representativa",
+      "banca": "INEP",
+      "ano": 2020,
+      "texto_auxiliar": "Numa democracia representativa, como é o Brasil, o direito de votar para escolha dos governantes, que irão ocupar os cargos do Executivo e do Legislativo, é um dos direitos fundamentais da cidadania. Na impossibilidade de participação direta do povo nas decisões que deverão ser tomadas a respeito de questões da máxima relevância para o interesse público, a escolha de representantes para o desempenho dessas tarefas foi o caminho encontrado para que as opções reflitam a vontade do povo.\nDALLARI, D. Em busca da democracia representativa. Disponível em: www.jb.com.br. Acesso em: 2 fev. 2015.",
+      "enunciado": "Na perspectiva apontada no texto, a consolidação da democracia no Brasil baseia-se na representação popular por meio dos(as)",
+      "alternativas": {
+        "A": "fóruns sociais.",
+        "B": "partidos políticos.",
+        "C": "conselhos federais.",
+        "D": "entidades de classe.",
+        "E": "organizações não governamentais."
+      },
+      "gabarito": "B",
+      "comentario": "Democracia representativa é o exercício do poder pela população eleitoral, em que os agentes políticos se organizam em partidos para representar os interesses dos eleitores."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_89_88",
+      "materia": "Sociologia",
+      "assunto": "Corrupção",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "TEXTO I\nC = M + D − R. A equação, desenvolvida pelo economista Robert Klitgaard, descreve a corrupção. Traduzindo-a em palavras, temos que a corrupção (C) é dada pelo grau de monopólio (M) existente no serviço público, mais o poder discricionário (D) que as autoridades têm para tomar decisões, menos a responsabilização (R), que é basicamente a existência de mecanismos de controle. Outras versões da fórmula acrescentam ao R uma dimensão moral, que também funcionaria como barreira contra a cultura da corrupção.\nSCHWARTSMAN, H. Fórmula da corrupção. Disponível em: www.folha.uol.com.br. Acesso em: 26 abr. 2015. (adaptado).\n\nTEXTO II\n“Corrupção significa transação ou troca entre quem corrompe e quem se deixa corromper. Trata-se normalmente de uma promessa de recompensa em troca de um comportamento que favoreça os interesses do corruptor. A corrupção não está ligada apenas ao grau de institucionalização, à amplitude do setor público e ao ritmo das mudanças sociais; está também relacionada com a cultura das elites e das massas. Depende da percepção que tende a variar no tempo e no espaço.”\n(BOBBIO, N.; MATTEUCCI, N.; PASQUINO, G. Dicionário de política. Brasília: UnB, 2009. Adaptado.)",
+      "enunciado": "O segundo texto complementa a compreensão do fenômeno da corrupção tal como abordado no primeiro texto, na medida em que",
+      "alternativas": {
+        "A": "comprova a limitação do sistema normativo pátrio.",
+        "B": "evidencia a atuação de agentes externos ao Estado.",
+        "C": "elucida o padrão de idoneidade do setor empresarial.",
+        "D": "minimiza a capacidade de mobilização da sociedade civil.",
+        "E": "demonstra a influência dos atores vinculados ao Judiciário."
+      },
+      "gabarito": "B",
+      "comentario": "O texto II complementa a compreensão do fenômeno da corrupção à medida que imputa responsabilidade e participação por parte de uma cultura das elites e das massas, agentes que são externos ao Estado."
+    },
+    {
+      "id": "enem_enem2021_1dia_vs4_39_43",
+      "materia": "Sociologia",
+      "assunto": "Infância e lazer",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "Coincidindo com o Dia Internacional dos Direitos da Infância, foram apresentados diversos trabalhos que mostram as mudanças que afetam a vida das crianças. Um desses estudos compara o que sonham e brincam as crianças hoje em relação às dos anos 1990. E o que se descobriu é que as crianças têm agora menos lazer e estão mais sobrecarregadas por deveres e atividades extracurriculares do que as de 25 anos atrás. As crianças de hoje não só dedicam menos tempo para brincar, como também, quando brincam, a maioria não o faz com outras crianças no parque, na rua ou na praça, mas em casa e muitas vezes sozinhas. E já não brincam tanto com brinquedos, mas com aparelhos eletrônicos, entre os quais predomina o jogo individual com a máquina. OLIVA, M. P. O direito das crianças ao lazer... e a crescer sem carências. El Pais, 20 nov. 2015 (adaptado).",
+      "enunciado": "O texto indica que as transformações nas experiências lúdicas na infância",
+      "alternativas": {
+        "A": "fomentaram as relações sociais entre as crianças.",
+        "B": "tomaram o lazer uma prática difundida entre as crianças.",
+        "C": "incentivaram a criação de novos espaços para se divertir.",
+        "D": "promoveram uma vivência corporal menos ativa.",
+        "E": "contribuíram para o aumento do tempo dedicado para brincar."
+      },
+      "gabarito": "D",
+      "comentario": "O texto apresenta a mudança no comportamento infantil em relação ao lúdico, ao brincar. Segundo as informações apresentadas, as crianças de hoje estão 'sobrecarregadas por deveres e atividades extracurriculares', não têm, portanto, 'tempo para brincar' e nem vão a 'parques, ruas ou praças', dedicados ao lazer. Logo, elas ficam restritas ao âmbito doméstico e ao entretenimento com 'aparelhos eletrônicos', resultando em 'uma vivência corporal menos ativa'."
+    },
+    {
+      "id": "enem_enem2021_1dia_vs4_53_57",
+      "materia": "Sociologia",
+      "assunto": "Desenvolvimento e mudança social",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "Numa sociedade em transição, a marcha da mudança, em diferentes graus, está impressa em todos os aspectos da ordem social, especialmente no jogo político, que nessas sociedades sempre apresenta padrões característicos de ambivalência, cujas raízes sociais se encontram na coexistência de dois padrões de estrutura social: o padrão tradicional, em declínio, e o novo, emergente, em expansão. Em tais situações, é possível encontrar, simultaneamente, apoio para uma orientação política ou para outra que seja exatamente o seu oposto. O padrão ambivalente do processo político, nas sociedades em desenvolvimento, é o que explica um dos seus traços mais salientes, e que consiste na tendência ao adiamento das grandes decisões. Resulta daí que a inércia política ou a convulsão política podem se suceder uma à outra em períodos surpreendentemente curtos.\nPINTO, L A. C. Sociologia e desenvolvimento . Rio de Janeiro: Civilização Brasileira, 1975 (adaptado).",
+      "enunciado": "De acordo com a perspectiva apresentada, central no pensamento social brasileiro dos anos 1950 e 1960, o desenvolvimento do país foi marcado por",
+      "alternativas": {
+        "A": "radicalidade nas agendas de reforma das elites dirigentes.",
+        "B": "anomalias na execução dos planos econômicos ortodoxos.",
+        "C": "descompassos na construção de quadros institucionais modernos.",
+        "D": "ilegitimidade na atuação dos movimentos de representação classista.",
+        "E": "vagarosidade na dinâmica de aperfeiçoamento dos programas partidários."
+      },
+      "gabarito": "C",
+      "comentario": "O texto refere-se ao padrão ambivalente ou ambíguo, em que ocorre a passagem de padrões tradicionais aos modernos, por vezes, apenas atualizando estruturas e aspectos conservadores, revelando descompassos na construção de quadros institucionais modernos."
+    },
+    {
+      "id": "enem_enem2021_1dia_vs4_57_61",
+      "materia": "Sociologia",
+      "assunto": "Políticas públicas e sistema prisional",
+      "banca": "INEP",
+      "ano": 2021,
+      "texto_auxiliar": "Houve crescimento de 74% da população brasileira encarcerada entre 2005 e 2012. As análises possibilitaram identificar o perfil da população que está nas prisões do país: homens, jovens (abaixo de 29 anos), negros, com ensino fundamental incompleto, acusados de crimes patrimoniais e, no caso dos presos adultos, condenados e cumprindo regime fechado e, majoritariamente, com penas de quatro até oito anos.\nBRASIL. Mapa do encarceramento: os jovens do Brasil. Brasília: Presidência da República, 2015.",
+      "enunciado": "Nesse contexto, as políticas públicas para minimizar a problemática descrita devem privilegiar a",
+      "alternativas": {
+        "A": "flexibilização do Código Civil.",
+        "B": "promoção da inclusão social.",
+        "C": "redução da maioridade penal.",
+        "D": "contenção da corrupção política.",
+        "E": "expansão do período de reclusão."
+      },
+      "gabarito": "B",
+      "comentario": "A política pública que tende a amenizar as desigualdades estruturais, vinculadas aos fatores da superlotação carcerária, é baseada na inserção social, na inclusão social."
+    },
+    {
+      "id": "enem_enem2021_1dia_vs4_59_63",
+      "materia": "Sociologia",
+      "assunto": "Movimentos sociais e identidade",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "O protagonismo indígena vem optando por uma estratégia de “des-invisibilização”, valendo-se da dinâmica das novas tecnologias. Em outubro de 2012, após receberem uma liminar lhes negando o direito a permanecer em suas terras, os Guarani de Pyelito Kuedi vulgaram uma carta na qual se dispunham a morrer, mas não a sair de suas terras. Esse fato foi amplamente divulgado, gerando uma grande mobilização na internet, que levou milhares de pessoas a escolherem seu lado, divulgando a hashtag “#somostodosGuarani-Kaiowá” ou acrescentando o sobrenome Guarani-Kaiowá a seus nomes nos perfis das principais redes sociais.",
+      "enunciado": "A estratégia comunicativa adotada pelos indígenas, no contexto em pauta, teve por efeito.",
+      "alternativas": {
+        "A": "enfraquecer as formas de militância política.",
+        "B": "abalar a identidade de povos tradicionais.",
+        "C": "inserir as comunidades no mercado global.",
+        "D": "distanciar os grupos de culturas locais.",
+        "E": "angariar o apoio de segmentos étnicos externos."
+      },
+      "gabarito": "E",
+      "comentario": "A estratégia midiática descrita no texto buscou angariar a adesão e a simpatia dos internautas, que são cidadãos do mundo, originários de vários segmentos étnicos."
+    },
+    {
+      "id": "enem_enem2021_1dia_vs4_70_74",
+      "materia": "Sociologia",
+      "assunto": "Luta de classes",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "Ao mesmo tempo, graças às amplas possibilidades que tive de observar a classe média, vossa adversária, rapidamente conclui que vós tendes razão, inteira razão, em não esperar dela qualquer ajuda. Seus interesses são diametralmente opostos aos vossos, mesmo que ela procure incessantemente afirmar o contrário e vos queira persuadir que sente a maior simpatia por vossa sorte. Mas seus atos desmentem suas palavras.\nENGELS, F. A situação da classe trabalhadora na Inglaterra. São Paulo: Boitempo, 2010.",
+      "enunciado": "No texto, o autor apresenta delineamentos éticos que correspondem ao(s)",
+      "alternativas": {
+        "A": "conceito de luta de classes.",
+        "B": "alicerce da ideia de mais-valia.",
+        "C": "fundamentos do método científico.",
+        "D": "paradigmas do processo indagativo.",
+        "E": "domínios do fetichismo da mercadoria."
+      },
+      "gabarito": "A",
+      "comentario": "O texto de Engels alude ao conceito de luta de classes, uma vez que é descrita a classe média em situação conflituosa com as demais, nem senhora de um condicionamento das superestruturas à infraestrutura, tampouco identificando-se com aqueles à mercê do jugo da classe dominante."
+    },
+    {
+      "id": "enem_enem2021_1dia_vs4_78_82",
+      "materia": "Sociologia",
+      "assunto": "Indústria cultural e sociedade de consumo",
+      "banca": "INEP",
+      "ano": 2021,
+      "texto_auxiliar": "Nos setores mais altamente desenvolvidos da sociedade contemporânea, o transplante de necessidades sociais para individuais é de tal modo eficaz que a diferença entre elas parece puramente teórica. As criaturas se reconhecem em suas mercadorias; encontram sua alma em seu automóvel, casa em patamares, utensílios de cozinha.\nMARCUSE H. A ideologia da sociedade industrial: o homem unidimensional. Rio de Janeiro: Zahar, 1979.",
+      "enunciado": "O texto indica que, no capitalismo, a satisfação dos desejos pessoais é influenciada por",
+      "alternativas": {
+        "A": "políticas estatais de divulgação.",
+        "B": "incentivos controlados de consumo.",
+        "C": "prescrições coletivas de organização.",
+        "D": "mecanismos subjetivos de identificação.",
+        "E": "repressões racionalizadas do narcisismo."
+      },
+      "gabarito": "D",
+      "comentario": "Para Marcuse o indivíduo contemporâneo é tipificado por aquilo que conquista e carrega enquanto uma marca de status social vinculado às mercadorias consumidas, numa consolidação do processo de etiquetamento social."
+    },
+    {
+      "id": "enem_enem2021_1dia_vs4_86_90",
+      "materia": "Sociologia",
+      "assunto": "Trabalho e Tecnologia",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "O uso de novas tecnologias envolve a assimilação de uma cultura empresarial na qual haja a integração entre as propostas de modernização tecnológica e a racionalização. Nem sempre o uso de novas tecnologias é apenas um processo técnico na medida em que pressupõe uma nova orientação no controle do capital, no processo produtivo e na qualificação da mão de obra. Dos diversos efeitos que derivaram dessa orientação, a terceirização, a precarização e a flexibilização aparecem com constância como características do paradigma flexível, em substituição ao modelo taylorista-fordista. (HERÉDIA, V. Novas tecnologias nos processos da trabalho: efeito, da reestruturação produtiva. Scripta Nova, n. 170, ago. 2004 (adaptado).)",
+      "enunciado": "O uso de novas tecnologias relacionado ao controle empresarial é criticado no texto em razão da",
+      "alternativas": {
+        "A": "operacionalização da tarefa laboral.",
+        "B": "capacitação de profissionais liberais.",
+        "C": "fragilização das relações de trabalho.",
+        "D": "hierarquização dos cargos executivos.",
+        "E": "aplicação dos conhecimentos da ciência."
+      },
+      "gabarito": "C",
+      "comentario": "A modernização do processo produtivo associada à evolução tecnológica permite maior produtividade e exige maior qualificação. No entanto, esta modernização amplia o desemprego estrutural e desarticula as organizações dos trabalhadores, com a terceirização, a precarização e flexibilização."
+    },
+    {
+      "id": "enem_enem2021_1dia_vs4_88_92",
+      "materia": "Sociologia",
+      "assunto": "Desigualdade social e ideologia do mérito",
+      "banca": "INEP",
+      "ano": 2021,
+      "texto_auxiliar": "Quando a taxa de remuneração do capital excede substancialmente a taxa de crescimento da economia, pela lógica, a riqueza herdada aumenta mais rápido do que a renda e a produção. Então, basta aos herdeiros poupar uma parte limitada da renda de seu capital para que ele cresça mais rápido do que a economia como um todo. Sob essas condições, é quase inevitável que a riqueza herdada supere a riqueza constituída durante uma vida de trabalho, e que a concentração do capital atinja níveis muito altos.\nPIKETTY, T. O capital no século XXI. Rio de Janeiro: Intrínseca, 2014 (adaptado).",
+      "enunciado": "Considerando os princípios que legitimam as democracias liberais, a lógica econômica descrita no texto enfraquece o(a)",
+      "alternativas": {
+        "A": "ideologia do mérito.",
+        "B": "direito de nascimento.",
+        "C": "eficácia da legislação.",
+        "D": "ganho das financeiras.",
+        "E": "eficiência dos mercados."
+      },
+      "gabarito": "A",
+      "comentario": "Considerando que o livre mercado é o elemento fundamental da democracia liberal, o texto ao indicar que bastaria aos herdeiros a poupança de parte de sua riqueza para que esta se ampliasse, mostra que fica enfraquecida a ideologia do mérito – considerada uma ilusão das sociedades democráticas."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_55_59",
+      "materia": "Sociologia",
+      "assunto": "Ações afirmativas e diversidade",
+      "banca": "INEP",
+      "ano": 2022,
+      "texto_auxiliar": "Em um placar acirrado (quatro votos a três), a Suprema Corte dos EUA decidiu que a cota racial conquistada por negros(as) e latinos(as) para admissão de novos(as) alunos(as) nas universidades não viola o princípio de igualdade perante a lei. Portanto, não é inconstitucional, como foi alegado. Nos EUA, a cota racial é chamada de “ação afirmativa”.\nMELO, J. O. Suprema Corte mantém cota racial para universidades dos EUA .\nDisponível em: www.conjur.com.br. \nAcesso em: 12 nov. 2021 (adaptado).",
+      "enunciado": "A decisão da Suprema Corte, com impacto sobre o sistema educacional estadunidense, objetivou garantir a",
+      "alternativas": {
+        "A": "obtenção do perdão judicial.",
+        "B": "anulação das dívidas estudantis.",
+        "C": "aprovação dos cursos superiores.",
+        "D": "utilização dos recursos estrangeiros.",
+        "E": "promoção da diversidade acadêmica."
+      },
+      "gabarito": "E",
+      "comentario": "O acesso à universidade nos Estados Unidos concentra a maioria dos estudantes de cor de pele branca. Ao aprovar a ação afirmativa citada no texto, espera-se que ocorra o aumento da população universitária de cor de pele preta a fim de promover a diversidade acadêmica no país."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_58_62",
+      "materia": "Sociologia",
+      "assunto": "Classes sociais e conflito social",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "A sociedade burguesa moderna, que surgiu do declínio da sociedade feudal, não aboliu os antagonismos de classes. Não fez senão estabelecer novas classes, novas condições de opressão, novas formas de luta em lugar das anteriores. Entretanto, a nossa época, a época da burguesia, caracteriza-se por ter simplificado os antagonismos de classe. Toda a sociedade está se dividindo, cada vez mais, em dois grandes campos hostis, em duas grandes classes em confronto direto: a burguesia e o proletariado.\nMARX, K.; ENGELS, F. O manifesto do Partido Comunista . São Paulo: Boitempo, 2010 (adaptado).",
+      "enunciado": "Típico de sociedades urbanas industriais, o conflito social apresentado no texto é uma consequência da",
+      "alternativas": {
+        "A": "imposição de políticas neoliberais.",
+        "B": "exploração da propriedade privada.",
+        "C": "implantação da abertura comercial.",
+        "D": "repressão de movimentos sindicais.",
+        "E": "consolidação da democracia representativa."
+      },
+      "gabarito": "B",
+      "comentario": "O processo de ascensão da burguesia como classe dominante foi fruto da luta dessa classe pela construção do Estado de direito com base na propriedade privada. A burguesia desejava consolidar seu poder econômico através do controle do poder político, o que não era possível dentro da sociedade do Antigo Regime. As revoluções burguesas (inglesa e francesa, principalmente) deram as diretrizes dos verdadeiros interesses desse setor: o discurso iluminista de “igualdade e liberdade” dizia respeito apenas aos desejos burgueses de se consolidar no poder e construir uma sociedade capitalista industrial onde suas vontades prevaleceriam. Assim, as desigualdades sociais foram mantidas, sendo apenas ressignificadas dentro do novo “Estado liberal”."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_67_71",
+      "materia": "Sociologia",
+      "assunto": "Discriminação racial",
+      "banca": "INEP",
+      "ano": 2022,
+      "texto_auxiliar": "A morte de um homem negro em Minnesota, nos Estados Unidos, causou uma onda de indignação depois da divulgação de um vídeo que mostra um policial branco ajoelhado no pescoço dele. Nas imagens, o homem, identificado como George Floyd, de 40 anos, reclama e diz repetidamente: “Não consigo respirar”. \nCaso George Floyd: morte de homem negro filmado com policial branco com joelhos em seu pescoço causa indignação nos EUA. Disponível em: https://g1.globo.com. Acesso em: 11 nov. 2021 (adaptado).",
+      "enunciado": "Esse acontecimento motivou uma série de movimentos organizados de pressão por ações governamentais de combate à",
+      "alternativas": {
+        "A": "pobreza extrema.",
+        "B": "prática xenofóbica.",
+        "C": "intolerância política.",
+        "D": "discriminação racial.",
+        "E": "segregação religiosa."
+      },
+      "gabarito": "D",
+      "comentario": "A morte de George Floyd por um policial nos Estados Unidos reacendeu o movimento Black Lives Matter (Vidas Pretas Importam), pois houve uma clara discriminação racial sofrida por Floyd."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_69_73",
+      "materia": "Sociologia",
+      "assunto": "Movimentos sociais e globalização",
+      "banca": "INEP",
+      "ano": 2022,
+      "texto_auxiliar": "De Seattle a Porto Alegre, contramovimentos espontâneos estariam emergindo pragmaticamente na esteira da nova onda de mercantilização causada pela globalização. Assim, somados, o aumento da feminilização, as diferentes formas de flexibilização e o aumento da informalidade verificados em escala global serviriam para aproximar objetivamente os interesses do proletariado do norte e sul globalizados, possibilitando uma retomada do processo de internacionalização das práticas solidárias.\nBRAGA, R. A rebeldia do precariado: trabalho e neoliberalismo no sul global. São Paulo: Boitempo, 2017 (adaptado).",
+      "enunciado": "A unificação da pauta dos movimentos sociais internacionais, descrita no texto, tem como principal objetivo:",
+      "alternativas": {
+        "A": "Denunciar o tráfico de pessoas.",
+        "B": "Contestar a corrida armamentista.",
+        "C": "Condenar a degradação ambiental.",
+        "D": "Desaprovar o comércio transnacional.",
+        "E": "Combater a precarização do emprego."
+      },
+      "gabarito": "E",
+      "comentario": "As situações descritas no texto mostram as perdas de direitos trabalhistas e o aumento do desemprego estrutural, que precarizam as condições do emprego, levando trabalhadores de diversas partes do mundo a promover movimentos de oposição a esse estado de coisas, na busca por melhores condições de trabalho."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_71_75",
+      "materia": "Sociologia",
+      "assunto": "Poder e política",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "A história conheceu dois grandes títulos para governar os homens: um que se deve à filiação humana ou divina, ou seja, a superioridade no nascimento; e outro que se deve à organização das atividades produtoras e reprodutoras da sociedade, ou seja, o poder da riqueza. As sociedades são habitualmente governadas por uma combinação desses dois títulos.\nRANCIÈRE, J. O ódio à democracia. São Paulo: Boitempo, 2014.",
+      "enunciado": "O texto evoca duas explicações acerca da legitimidade do governo nas sociedades ocidentais. Na história recente das democracias, o fenômeno que resulta da combinação mencionada aponta a presença de",
+      "alternativas": {
+        "A": "burocracias dos órgãos estatais.",
+        "B": "corrupção nas práticas eleitorais.",
+        "C": "oligarquias nas casas legislativas.",
+        "D": "degradação nas estruturas fiscais.",
+        "E": "fortalecimento das siglas partidárias."
+      },
+      "gabarito": "C",
+      "comentario": "O texto fala da combinação de dois títulos que governam as sociedades: a titulação de nobreza e o poder de produzir riqueza. A combinação dos dois elementos tende a gerar oligarquias nas casas legislativas, como as bancadas que representam setores específicos da economia."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_74_78",
+      "materia": "Sociologia",
+      "assunto": "Movimentos sociais",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "Ao longo da história, os movimentos sociais são produtores de novos valores e objetivos, criando novas normas para organizar a vida social. Os movimentos sociais exercem o contrapoder construindo-se mediante um processo de comunicação autônoma, livre do controle dos que detêm o poder institucional.\nCASTELLS, M. Redes da indignação e esperança. Rio de Janeiro: Jorge Zahar, 2013 (adaptado).",
+      "enunciado": "O contrapoder indicado no texto se expressa na",
+      "alternativas": {
+        "A": "adoção de éticas horizontais.",
+        "B": "rejeição de dissidências morais.",
+        "C": "negação de estratégias coletivas.",
+        "D": "promoção de descrenças axiológicas.",
+        "E": "incorporação de convenções estatais."
+      },
+      "gabarito": "A",
+      "comentario": "Ao se constituírem de forma autônoma e livre de controle, os movimentos sociais se revelam como manifestações democráticas, livres dos agentes detentores de poder, e, portanto, com dimensões políticas e éticas horizontais."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_76_80",
+      "materia": "Sociologia",
+      "assunto": "Trabalho e produção na contemporaneidade",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "O mundo da produção material e do trabalho na contemporaneidade é cada vez mais marcado pela especialização flexível, isto é, pela assimilação da tecnologia da informação à atividade produtiva e pela adaptação da força de trabalho a essas novas circunstâncias. A flexibilidade possibilita a satisfação das demandas de grupos de consumidores cada vez mais diferenciados no mercado de massa. A reorganização produtiva do capitalismo permite diversificar produtos para nichos de mercado cada vez mais específicos. \nFRIDMAN, L. C. Vertigens pós-modernas : configurações institucionais contemporâneas. Rio de Janeiro: Relume Dumará, 2000 (adaptado).",
+      "enunciado": "Sobre a flexibilidade, o ponto de vista apresentado no texto tem como fundamento uma",
+      "alternativas": {
+        "A": "concepção culturalista das adaptações promovidas na contemporaneidade.",
+        "B": "compreensão funcionalista do desenvolvimento tecnológico no trabalho.",
+        "C": "interpretação determinista dos modelos organizacionais capitalistas.",
+        "D": "reflexão marxista da transformação do trabalhador em especialista.",
+        "E": "percepção positivista da dinâmica do consumo segmentado em nichos."
+      },
+      "gabarito": "B",
+      "comentario": "A flexibilidade da produção busca aliar a força de trabalho às novas tecnologias, privilegiando estas últimas. Assim, espera-se que seja possível melhorar a produtividade, a competitividade, para melhor atender as demandas de mercado."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_82_86",
+      "materia": "Sociologia",
+      "assunto": "Corpo e cultura",
+      "banca": "INEP",
+      "ano": 2022,
+      "texto_auxiliar": "Pensar o corpo como algo produzido pela cultura é, simultaneamente, um desafio e uma necessidade. Um desafio porque rompe, de certa forma, com o olhar naturalista sobre o qual muitas vezes o corpo é observado, explicado, classificado e tratado. Uma necessidade porque, ao desnaturalizá-lo, revela, sobretudo, que o corpo é histórico. Isto é, mais do que um dado natural cuja materialidade nos presentifica no mundo, o corpo é uma construção sobre a qual são conferidas diferentes marcas em diferentes tempos, espaços, conjunturas econômicas, grupos sociais e étnicos. (LOURO, G. L.; FELIPE, J.; GOELLNER, S. V. (Org.). Corpo, gênero e sexualidade: um debate contemporâneo na educação. Petrópolis: Vozes, 2013, adaptado)",
+      "enunciado": "A que valor da contemporaneidade o entendimento sobre o corpo expresso no texto é correlato?",
+      "alternativas": {
+        "A": "Individualidade.",
+        "B": "Fraternidade.",
+        "C": "Diversidade.",
+        "D": "Igualdade.",
+        "E": "Liberdade."
+      },
+      "gabarito": "C",
+      "comentario": "Um dos papeis da antropologia cultural é o de desnaturalizar, isto é, o de perceber os elementos sociais como construções humanas, históricas e da cultura. Esse olhar de estranhamento facilita olhar para a alteridade, em que o outro é diferente e constituinte da diversidade."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_85_89",
+      "materia": "Sociologia",
+      "assunto": "Biopolítica",
+      "banca": "INEP",
+      "ano": "2022",
+      "texto_auxiliar": "A velha potência de morte em que se simbolizava o poder soberano é agora, cuidadosamente, recoberta pela administração dos corpos. Aparecimento, também, nos terrenos das práticas políticas e observações econômicas, dos problemas de natalidade, longevidade, saúde pública, habitação e migração.\nFOUCAULT, M. História da sexualidade I: a vontade de saber. Rio de Janeiro: Graal, 1988 (adaptado).",
+      "enunciado": "O texto aponta para a emergência, a partir de meados do século XIX, de um novo tipo de gestão da sociedade ocidental, centrado na",
+      "alternativas": {
+        "A": "ordenação calculista das vidas.",
+        "B": "exposição ostensiva das punições.",
+        "C": "distribuição igualitária das riquezas.",
+        "D": "supressão estratégica das fronteiras.",
+        "E": "espacialização controlada das classes."
+      },
+      "gabarito": "A",
+      "comentario": "Foucault chama de biopolítica as práticas governamentais de gestão de saberes que regulam taxas de natalidade, epidemias, fluxos migratórios ou aumento da expectativa de vida."
+    },
+    {
+      "id": "enem_enem2023-2_1dia_46_50",
+      "materia": "Sociologia",
+      "assunto": "Fake news e democracia",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "Pode chamar de fake news, notícias falsas de internet, fraude informativa, informações falsas, ou até de misinformation, se prefere inglês, que você estará designando corretamente a mesma doença informacional que se disseminou como uma pandemia pela vida pública mundo afora nos ultimos anos, e cujos principais sintomas nas pessoas infectadas consistem na perda da capacidade de distinguir a verdade, de lidar adequadamente com fatos e dados e de tomar decisões bem-informadas. Sabe-se que o portador do vírus se torna alérgico a fatos e evita a todo custo a dissonância cognitiva, isto é, entrar em contato com informações que não satisfaçam os seus desejos e com relatos que se choquem com as suas crenças.",
+      "enunciado": "Qual é a consequência do fenômeno apresentado no texto para a vida democrática?",
+      "alternativas": {
+        "A": "Prática de censura.",
+        "B": "Distorção da realidade.",
+        "C": "Manifestação de cidadania.",
+        "D": "Regulamentação das condutas.",
+        "E": "Fortalecimento das instituições."
+      },
+      "gabarito": "B",
+      "comentario": "A divulgação de fake news e a manipulação de dados representam uma ameaça à democracia pelo seu poder de desinformar e de distorcer a realidade."
+    },
+    {
+      "id": "enem_enem2023-2_1dia_53_57",
+      "materia": "Sociologia",
+      "assunto": "Panoptismo e vigilância",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "TEXTO I\nO dispositivo panóptico organiza unidades espaciais que permitem ver sem parar e reconhecer imediatamente. Em suma, o princípio da masmorra é invertido; ou antes, de suas três funções – trancar, privar de luz e esconder – só se conserva a primeira e suprimem-se as outras duas. A visibilidade é uma armadilha. Fazer com que a vigilância seja permanente em seus efeitos, mesmo se é descontínua em sua ação; que a perfeição do poder tenda a tornar inútil a atualidade de seu exercício; que esse aparelho arquitetural seja uma máquina de criar e sustentar uma relação de poder independente daquele que o exerce.\nFOUCAULT, M. Vigiar e punir: nascimento da prisão. Petrópolis: Vozes, 1987 (adaptado).\n\nTEXTO II\n[IMAGEM OMITIDA]",
+      "enunciado": "O objetivo do modelo de vigilância descrito nos textos I e II aponta para o(a)",
+      "alternativas": {
+        "A": "intercâmbio de opinião diversa.",
+        "B": "desenvolvimento de sujeito crítico.",
+        "C": "sentimento de observação constante.",
+        "D": "movimento de revolta individual.",
+        "E": "criação de liberdade efetiva."
+      },
+      "gabarito": "C",
+      "comentario": "A vigilância invisível, assim como o dispositivo panóptico (um termo utilizado para designar uma penitenciária concebida pelo jurista inglês Jeremy Bentham no século XVIII, que permite a um único vigilante observar todos os prisioneiros), são formas de controlar e vigiar o comportamento e o movimento das pessoas, o que gera um sentimento de observação constante."
+    },
+    {
+      "id": "enem_enem2023-2_1dia_61_65",
+      "materia": "Sociologia",
+      "assunto": "Racismo estrutural",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "Nas Antilhas, o jovem negro que, na escola, não para de repetir “nossos pais, os gauleses”, identifica-se com o explorador, com o civilizador, com o branco que traz a verdade aos selvagens, uma verdade toda branca. Há identificação, isto é, o jovem negro adota subjetivamente uma atitude de branco. Ele carrega o herói, que é branco, com toda a sua agressividade – a qual, nessa idade, assemelha-se estreitamente a uma dádiva: uma dádiva carregada de sadismo.\nFANON, F. Pele negra, máscaras brancas . Salvador: Edufba, 2008.",
+      "enunciado": "A reflexão do autor sobre o processo de socialização apresentado no texto expõe qual elemento constituidor das relações sociais?",
+      "alternativas": {
+        "A": "A violência estatal.",
+        "B": "O racismo estrutural.",
+        "C": "A opressão religiosa.",
+        "D": "O desemprego crônico.",
+        "E": "A desigualdade educacional."
+      },
+      "gabarito": "B",
+      "comentario": "Em seu livro O que é racismo estrutural, Sílvio Almeida escreve: “O racismo não é um ato ou um conjunto de atos e tampouco se resume a um fenômeno restrito às práticas institucionais; é, sobretudo, um processo histórico e político em que as condições de subalternidade ou de privilégio de sujeitos racializados é estruturalmente reproduzida”. Trata-se exatamente do exemplo citado no enunciado do exercício."
+    },
+    {
+      "id": "enem_enem2023-2_1dia_62_66",
+      "materia": "Sociologia",
+      "assunto": "Relações de trabalho e herança colonial",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "Ana Maria [entrevistadora]: Vida de empreguete é tão dura assim como vocês retratam no clipe? \nPenha [empregada]: Olha, Ana, difícil mesmo é aturar cara de patroa ignorante que não sabe pedir as coisas com educação. \nSonia [patroa]: Ana, eu acho que nós estamos vivendo uma inversão total de valores, entende? Não somos nós que precisamos das empregadas. Elas é que precisam do emprego, precisam do dinheiro que nós pagamos. \nCida [empregada]: Até parece, dona Sonia, a senhora precisa de mim até pra pegar água! \nSonia: Eu sou de um tempo em que os serviçais sabiam o seu lugar! \nCida: Eu esqueci que a senhora pegou a época da escravidão! \nAna Maria: Gente, eu só quis promover aqui uma confraternização… \nChayenne [patroa]: Ana, pare tudo, porque agora eu quero falar! Eu sou uma patroa que dou de tudo: eu dou comida, eu dou quartinho, eu dou sabão de coco pra elas se lavarem, eu dou papel higiênico, eu dou copo, prato, talher, tudo separado, sem descontar o salário! \nPenha: Agora, pra tirar férias, como manda a lei, é um sacrifício! E ela viaja e quer que eu fique carregando a mala dela. Eu não sou carregadora de mala, não! \nMACEDO, R. M. Espelho mágico: produção e recepção de imagens de empregadas domésticas em uma telenovela brasileira. Cadernos Pagu, n. 48. 2016.",
+      "enunciado": "O diálogo, extraído de uma telenovela brasileira exibida em 2012, traduz o pensamento de uma sociedade caracterizada pela presença de",
+      "alternativas": {
+        "A": "símbolos da expansão de bens culturais.",
+        "B": "avanços do número de contratos formais.",
+        "C": "elementos do sistema do cativeiro colonial.",
+        "D": "progressos da venda de produtos midiáticos.",
+        "E": "signos da modernização de relações laborais."
+      },
+      "gabarito": "C",
+      "comentario": "As atuais relações de trabalho no Brasil, exemplificadas no texto, traduzem reminiscências históricas da escravatura colonial. Frases como “Eu sou do tempo em que os serviçais sabiam o seu lugar!” denotam tal influência."
+    },
+    {
+      "id": "enem_enem2017_1dia_58_62",
+      "materia": "Sociologia",
+      "assunto": "Democracia e multiculturalismo",
+      "banca": "INEP",
+      "ano": 2017,
+      "texto_auxiliar": "Muitos países se caracterizam por terem populações multiétnicas. Com frequência, evoluíram desse modo ao longo de séculos. Outras sociedades se tornaram multiétnicas mais rapidamente, como resultado de políticas incentivando a migração, ou por conta de legados coloniais e imperiais.\nGIDDENS. A. Sociologia. Porto Alegre: Penso, 2012 (adaptado).",
+      "enunciado": "Do ponto de vista do funcionamento das democracias contemporâneas, o modelo de sociedade descrito demanda, simultaneamente,",
+      "alternativas": {
+        "A": "defesa do patriotismo e rejeição ao hibridismo.",
+        "B": "universalização de direitos e respeito à diversidade.",
+        "C": "segregação do território e estímulo ao autogoverno.",
+        "D": "políticas de compensação e homogeneização do idioma.",
+        "E": "padronização da cultura e repressão aos particularismos."
+      },
+      "gabarito": "B",
+      "comentario": "O texto trata das multietnias existentes não apenas no mundo, como também dentro de um único país. Portanto, para o funcionamento da democracia, de acordo com o excerto, é necessário o respeito às multietnias, independentemente da localização presente no globo terrestre. Por isso, manifestações extremistas, homogenizações e padronizações estão distantes da proposta demandada."
+    },
+    {
+      "id": "enem_enem2017_1dia_60_64",
+      "materia": "Sociologia",
+      "assunto": "Desenvolvimento e Liberdade",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "Procuramos demonstrar que o desenvolvimento pode ser visto como um processo de expansão das liberdades reais que as pessoas desfrutam. O enfoque nas liberdades humanas contrasta com visões mais restritas de desenvolvimento, como as que identificam desenvolvimento com crescimento do Produto Nacional Bruto, ou industrialização. O crescimento do PNB pode ser muito importante como um meio de expandir as liberdades. Mas as liberdades dependem também de outros determinantes, como os serviços de educação e saúde e os direitos civis.\nSEN, A. Desenvolvimento como liberdade. São Paulo: Cia. das Letras, 2010.",
+      "enunciado": "A concepção de desenvolvimento proposta no texto fundamenta-se no vínculo entre",
+      "alternativas": {
+        "A": "incremento da indústria e atuação no mercado financeiro.",
+        "B": "criação de programas assistencialistas e controle de preços.",
+        "C": "elevação da renda média e arrecadação de impostos.",
+        "D": "garantia da cidadania e ascensão econômica.",
+        "E": "ajuste de políticas econômicas e incentivos fiscais."
+      },
+      "gabarito": "D",
+      "comentario": "A concepção presente no texto relaciona o desenvolvimento com a expansão das liberdades reais das pessoas. Trata-se de uma perspectiva que extrapola a acepção tradicional de desenvolvimento, centrada exclusivamente em índices econômicos. De acordo com o texto, desenvolvimento abarca também educação, saúde e direitos sociais. Nesse sentido, ele está vinculado à articulação entre cidadania e ascensão econômica."
+    },
+    {
+      "id": "enem_enem2017_1dia_67_71",
+      "materia": "Sociologia",
+      "assunto": "Poder Judiciário e controle de constitucionalidade",
+      "banca": "INEP",
+      "ano": 2017,
+      "texto_auxiliar": "A grande maioria dos países ocidentais democráticos adotou o Tribunal Constitucional como mecanismo de controle dos demais poderes. A inclusão dos Tribunais no cenário político implicou alterações no cálculo para a implementação de políticas públicas. O governo, além de negociar seu plano político com o Parlamento, teve que se preocupar em não infringir a Constituição. Essa nova arquitetura institucional propiciou o desenvolvimento de um ambiente político que viabilizou a participação do Judiciário nos processos decisórios.",
+      "enunciado": "O texto faz referência a uma importante mudança na dinâmica de funcionamento dos Estados contemporâneos que, no caso brasileiro, teve como consequência a",
+      "alternativas": {
+        "A": "adoção de eleições para a alta magistratura.",
+        "B": "diminuição das tensões entre os entes federativos.",
+        "C": "suspensão do princípio geral dos freios e contrapesos.",
+        "D": "judicialização de questões próprias da esfera legislativa.",
+        "E": "profissionalização do quadro de funcionários da Justiça."
+      },
+      "gabarito": "D",
+      "comentario": "O assunto abordado pela questão é de extrema atualidade em relação à política brasileira: a interferência crescente do Poder Judiciário para dirimir questões próprias do Poder Legislativo. Entretanto, somente o futuro poderá definir se tal situação será definitiva ou terá caráter momentâneo, adstrito à atual crise institucional do País."
+    },
+    {
+      "id": "enem_enem2017_1dia_74_78",
+      "materia": "Sociologia",
+      "assunto": "Participação política feminina",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "A participação da mulher no processo de decisão política ainda é extremamente limitada em praticamente todos os países, independentemente do regime econômico e social e da estrutura institucional vigente em cada um deles. É fato público e notório, além de empiricamente comprovado, que as mulheres estão em geral sub-representadas nos órgãos do poder, pois a proporção não corresponde jamais ao peso relativo dessa parte da população.\nTABAK, F. Mulheres públicas: participação política e poder. Rio de Janeiro: Leira Capital, 2002.",
+      "enunciado": "No âmbito do Poder Legislativo brasileiro, a tentativa de reverter esse quadro de sub-representação tem envolvido a implementação, pelo Estado, de",
+      "alternativas": {
+        "A": "leis de combate à violência doméstica.",
+        "B": "cotas de gênero nas candidaturas partidárias.",
+        "C": "programas de mobilização política nas escolas.",
+        "D": "propagandas de incentivo ao voto consciente.",
+        "E": "apoio financeiro às lideranças femininas."
+      },
+      "gabarito": "B",
+      "comentario": "O percentual mínimo de 30% e máximo de 70% para candidaturas de cada gênero foi estabelecido pela lei 4.504/97 no artigo 10, parágrafo 3. A participação de ambos os gêneros é essencial para o encaminhamento de políticas de inclusão para as mulheres."
+    },
+    {
+      "id": "enem_enem2017_1dia_84_88",
+      "materia": "Sociologia",
+      "assunto": "Democracia deliberativa",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "O conceito de democracia, no pensamento de Habermas, é construído a partir de uma dimensão procedimental, calcada no discurso e na deliberação. A legitimidade democrática exige que o processo de tomada de decisões políticas ocorra a partir de uma ampla discussão pública, para somente então decidir. Assim, o caráter deliberativo corresponde a um processo coletivo de ponderação e análise, permeado pelo discurso, que antecede a decisão.",
+      "enunciado": "O conceito de democracia proposto por Jürgen Habermas pode favorecer processos de inclusão social. De acordo com o texto, é uma condição para que isso aconteça o(a)",
+      "alternativas": {
+        "A": "participação direta periódica do cidadão.",
+        "B": "debate livre e racional entre cidadãos e Estado.",
+        "C": "interlocução entre os poderes governamentais.",
+        "D": "eleição de lideranças políticas com mandatos temporários.",
+        "E": "controle do poder político por cidadãos mais esclarecidos."
+      },
+      "gabarito": "B",
+      "comentario": "Habermas criou o conceito de democracia deliberativa, segundo a qual deve ocorrer a participação da sociedade civil na administração pública, através de debates, conforme o próprio texto do exercício expõe."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_2_1",
+      "materia": "Sociologia",
+      "assunto": "Estigma e representações sociais",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "A favela é vista como um lugar sem ordem, capaz de ameaçar os que nela não se incluem. Atribuir-lhe a ideia de perigo é o mesmo que reafirmar os valores e estruturas da sociedade que busca viver diferentemente do que se considera viver na favela. Alguns oticiantes do direito, ao defenderem ou acusaram réus moradores de favelas, usam em seus discursos representações previamente formuladas pela sociedade e incorporadas nesse campo profissional. Suas falas se fundamentam nas representações inventadas a respeito da favela e que acabam por marcar a identidade dos indivíduos que nela residem.\nRINALDI. A. Marginais, delinquentes e vítimas: um estudo sobre a representação da categoria favelado no tribunal do jun. da cidade do Rio de Janeiro. In: ZALUAR, A.; ALVITO, M. (Orgs.). \nUm século de favela . Rio de Janeiro, Editora FGV . 1998.",
+      "enunciado": "O estigma apontado no texto tem como consequência o(a)",
+      "alternativas": {
+        "A": "aumento da impunidade criminal.",
+        "B": "enfraquecimento dos direitos civis.",
+        "C": "distorção na representação política.",
+        "D": "crescimento dos índices de criminalidade.",
+        "E": "ineficiência das medidas socioeducativas."
+      },
+      "gabarito": "B",
+      "comentario": "O conceito de estigma faz referência a uma desaprovação de características ou posições pessoais, que vão contra normas culturais, e levam frequentemente à marginalização. As representações do imaginário coletivo relacionam os moradores da favela com criminalidade e violência, produzindo um efeito de não reconhecimento do direito de cidadania política, o que gera uma perda dos direitos civis."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_16_15",
+      "materia": "Sociologia",
+      "assunto": "Movimentos sociais e relações raciais",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "O Movimento Negro Unificado (MNU) distingue-se do Teatro Experimental do Negro (TEN) por sua crítica ao discurso nacional hegemônico. Isto é, enquanto o TEN defende a plena integração simbólica dos negros na identidade nacional “híbrida”, o MNU condena qualquer tipo de assimilação, fazendo do combate à ideologia da democracia racial uma das suas principais bandeiras de luta, visto que, aos olhos desse movimento, a igualdade formal assegurada pela lei entre negros e brancos e a difusão do mito de que a sociedade brasileira não é racista teriam servido para sustentar, ideologicamente, a opressão racial.\nCOSTA. S. Dois Atlânticos : teoria social antirracismo, cosmopolitismo. Belo Horizonte: UFMG, 2006 (adaptado)",
+      "enunciado": "No texto, são comparadas duas organizações do movimento negro brasileiro, criadas em diferentes contextos históricos: o TEN, em 1944, e o MNU, em 1978. Ao assumir uma postura divergente da do TEN, o MNU pretendia",
+      "alternativas": {
+        "A": "pressionar o governo brasileiro a decretar a igualdade racial.",
+        "B": "denunciar a permanência do racismo nas relações sociais.",
+        "C": "contestar a necessidade da igualdade entre negros e brancos.",
+        "D": "defender a assimilação do negro por meios não democráticos.",
+        "E": "divulgar a ideia da miscigenação como marca da nacionalidade."
+      },
+      "gabarito": "B",
+      "comentario": "O mito da democracia racial no Brasil foi supostamente elaborado por Gilberto Freyre, segundo denúncia do sociólogo Florestan Fernandes, contudo – é curioso – Freyre defendeu-se de tal acusação. O MNU, e isso está no enunciado do exercício, combate a ideologia ou o mito da democracia racial, denunciando a permanência do racismo nas relações humanas em nosso país."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_34_33",
+      "materia": "Sociologia",
+      "assunto": "Trabalho e capitalismo",
+      "banca": "INEP",
+      "ano": 2016,
+      "texto_auxiliar": "TEXTO I\nCidadão\nTá vendo aquele edifício, moço?\nAjudei a levantar\nFoi um tempo de aflição\nEram quatro condução\nDuas pra ir, duas pra voltar\nHoje depois dele pronto\nOlho pra cima e fico tonto\nMas me vem um cidadão\nE me diz desconfiado\n“Tu tá aí admirado\nOu tá querendo roubar?”\nMeu domingo tá perdido\nVou pra casa entristecido\nDá vontade de beber\nE pra aumentar meu tédio\nEu nem posso olhar pro prédio\nQue eu ajudei a fazer.\nBARBOSA. L. In: ZÉ RAMALHO, 20 Super Sucessos. Rio de Janeiro: Sony Music. 1999 (fragmento).\n\nTEXTO II\nO trabalhador fica mais pobre à medida que produz mais riqueza e sua produção cresce em força e extensão. O trabalhador torna-se uma mercadoria ainda mais barata à medida que cria mais bens. Esse fato simplesmente subentende que o objeto produzido pelo trabalho, o seu produto, agora se lhe opõe como um ser estranho, como uma força independente do produtor.\nMARX, K. Manuscritos econômicos-filosóficos (Primeiro manuscrito). São Paulo: Boitempo Editorial, 2004 (adaptado).",
+      "enunciado": "Com base nos textos, a relação entre trabalho e modo de produção capitalista é",
+      "alternativas": {
+        "A": "baseada na desvalorização do trabalho especializado e no aumento da demanda social por novos postos de emprego.",
+        "B": "fundada no crescimento proporcional entre o número de trabalhadores e o aumento da produção de bens e serviços.",
+        "C": "estruturada na distribuição equânime de renda e no declínio do capitalismo industrial e tecnocrata.",
+        "D": "instaurada a partir do fortalecimento da luta de classes e da criação da economia solidária.",
+        "E": "derivada do aumento da riqueza e da ampliação da exploração do trabalhador."
+      },
+      "gabarito": "E",
+      "comentario": "O processo produtivo capitalista cria um sistema que leva o trabalhador a um alheamento cada vez maior do objeto produzido."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_41_40",
+      "materia": "Sociologia",
+      "assunto": "Política e Economia",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "TEXTO I\nDezenas de milhares de pessoas compareceram à maior manifestação anti- troika (Comissão Europeia, Banco Central Europeu e FMI) em Atenas contra a austeridade e os cortes de gastos públicos aprovados neste domingo no parlamento grego.\nDisponível em: www.cartamaior.com.br. Acesso em: 8 nov. 2013.\n\nTEXTO II\nAs políticas de austeridade transferem o ônus econômico para as classes trabalhadoras. Para diminuir os prejuízos do capital financeiro, socializam as perdas entre as classes trabalhadoras. O capitalismo não foi capaz de integrar os trabalhadores e ao mesmo tempo protegê-los.\nEntrevista com Ruy Braga. Revista IHU online. Disponível em: www.ihu.unisinos.br. Acesso em: 8 nov. 2013 (adaptado).",
+      "enunciado": "Diante dos fatos e da análise apresentados, a política econômica e a demanda popular correlacionada encontram-se, respectivamente, em",
+      "alternativas": {
+        "A": "controle da dívida interna e implementação das regras patronais.",
+        "B": "afrouxamento da economia de mercado e superação da lógica individualista.",
+        "C": "aplicação de plano desenvolvimentista e afirmação das conquistas neoliberais.",
+        "D": "defesa dos interesses corporativos do capital e manutenção de direitos sociais.",
+        "E": "mudança na estrutura do sistema produtivo e democratização do acesso ao trabalho."
+      },
+      "gabarito": "D",
+      "comentario": "A questão grega é uma clara demonstração de como o capital manipula a economia e as leis em seu exclusivo interesse, contrapondo-se à luta da sociedade pela manutenção de seus direitos."
+    },
+    {
+      "id": "enem_enem2015_1dia_2_1",
+      "materia": "Sociologia",
+      "assunto": "Indústria cultural e sociedade do espetáculo",
+      "banca": "INEP",
+      "ano": "2015",
+      "texto_auxiliar": "Na sociedade contemporânea, onde as relações sociais tendem a reger-se por imagens midiáticas, a imagem de um indivíduo, principalmente na indústria do espetáculo, pode agregar valor econômico na medida de seu incremento técnico: amplitude do espelhamento e da atenção pública. Aparecer é então mais do que ser; o sujeito é famoso porque é falado. Nesse âmbito, a lógica circulatória do mercado, ao mesmo tempo que acena democraticamente para as massas com os supostos “ganhos distributivos” (a informação ilimitada, a quebra das supostas hierarquias culturais), afeta a velha cultura disseminada na esfera pública. A participação nas redes sociais, a obsessão dos selfies, tanto falar e ser falado quanto ser visto são índices do desejo de “espelhamento”.\nSODRÉ, M. Disponível em: http://aulas.estadao.com.br. Acesso em: 9 fev. 2015 (adaptado).",
+      "enunciado": "A crítica contida no texto sobre a sociedade contemporânea enfatiza",
+      "alternativas": {
+        "A": "a prática identitária autorreferente.",
+        "B": "a dinâmica política democratizante.",
+        "C": "a produção instantânea de notícias.",
+        "D": "os processos difusores de informações.",
+        "E": "os mecanismos de convergência tecnológica."
+      },
+      "gabarito": "A",
+      "comentario": "“Aparecer é então mais do que ser”, relações sociais que são regidas pela imagem de um indivíduo. A participação nas redes sociais e a obsessão dos selfies, ser visto e falado, estão entre os maiores desejos da atualidade. O autor não está criticando os processos difusores de informação nem a produção instantânea de notícias, mas sim a sua utilização na autopromoção, numa identidade não de reconhecimento público por mérito, mas autorreferente."
+    },
+    {
+      "id": "enem_enem2015_1dia_3_2",
+      "materia": "Sociologia",
+      "assunto": "Desencantamento do mundo e racionalização",
+      "banca": "INEP",
+      "ano": "2015",
+      "texto_auxiliar": "A crescente intelectualização e racionalização não indicam um conhecimento maior e geral das condições sob as quais vivemos. Significa a crença em que, se quiséssemos, poderíamos ter esse conhecimento a qualquer momento. Não há forças misteriosas incalculáveis; podemos dominar todas as coisas pelo cálculo. \nWEBER, M. A ciência como vocação. In: GERTH, H., MILLS, W. (Org.). Max Weber: ensaios de sociologia. Rio de Janeiro: Zahar, 1979 (adaptado).",
+      "enunciado": "Tal como apresentada no texto, a proposição de Max Weber a respeito do processo de desencantamento do mundo evidencia o(a)",
+      "alternativas": {
+        "A": "progresso civilizatório como decorrência da expansão do industrialismo.",
+        "B": "extinção do pensamento mítico como um desdobramento do capitalismo.",
+        "C": "emancipação como consequência do processo de racionalização da vida.",
+        "D": "afastamento de crenças tradicionais como uma característica da modernidade.",
+        "E": "fim do monoteísmo como condição para a consolidação da ciência."
+      },
+      "gabarito": "D",
+      "comentario": "Para o clássico da sociologia Max Weber, uma das características do advento histórico do capitalismo era o desencantamento e a racionalização. Isso significava a superação gradual das concepções míticas e misteriosas acerca do mundo, as quais marcaram o período medieval. Nesse sentido, a religião protestante desempenhou papel fundamental no estabelecimento de uma cultura racional sobre a qual se desenvolveu o capitalismo. Deve-se observar, contudo, que Weber jamais usou o conceito de “modernidade”, ainda mais por tratar-se de uma criação intelectual do século XX, sendo que o eminente sociólogo alemão morreu em princípios dessa centúria."
+    },
+    {
+      "id": "enem_enem2015_1dia_4_3",
+      "materia": "Sociologia",
+      "assunto": "Princípio da Precaução",
+      "banca": "INEP",
+      "ano": "2015",
+      "texto_auxiliar": "Diante de ameaças surgidas com a engenharia genética de alimentos, vários grupos da sociedade civil conceberam o chamado “princípio da precaução”. O fundamento desse princípio é: quando uma tecnologia ou produto comporta alguma ameaça à saúde ou ao ambiente, ainda que não se possa avaliar a natureza precisa ou a magnitude do dano que venha a ser causado por eles, deve-se evitá-los ou deixá-los de quarentena para maiores estudos e avaliações antes de sua liberação. SEVCENKO, N. A corrida para o século XXI: no loop da montanha-russa. São Paulo: Cia. das Letras, 2001 (adaptado).",
+      "enunciado": "O texto expõe uma tendência representativa do pensamento social contemporâneo, na qual o desenvolvimento de mecanismos de acautelamento ou administração de riscos tem como objetivo",
+      "alternativas": {
+        "A": "priorizar os interesses econômicos em relação aos seres humanos e à natureza.",
+        "B": "negar a perspectiva científica e suas conquistas por causa de riscos ecológicos.",
+        "C": "instituir o diálogo público sobre mudanças tecnológicas e suas consequências.",
+        "D": "combater a introdução de tecnologias para travar o curso das mudanças sociais.",
+        "E": "romper o equilíbrio entre benefícios e riscos do avanço tecnológico e científico."
+      },
+      "gabarito": "C",
+      "comentario": "O texto se reporta à questão do “princípio da precaução”, relacionado com a engenharia genética dos alimentos e possíveis ameaças à saúde e ao ambiente, como tendências do pensamento social, e com a criação de mecanismos preventivos aos riscos possíveis. Trata-se, portanto, de estabelecer um diálogo público acerca das mudanças empreendidas pelo uso de tecnologias científicas e suas decorrentes consequências."
+    },
+    {
+      "id": "enem_enem2015_1dia_5_4",
+      "materia": "Sociologia",
+      "assunto": "Gênero e feminismo",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "Ninguém nasce mulher; torna-se mulher. Nenhum destino biológico, psíquico, econômico define a forma que a fêmea humana assume no seio da sociedade; é o conjunto da civilização que elabora esse produto intermediário entre o macho e o castrado que qualificam o feminino.\nBEAUVOIR, S. O segundo sexo. Rio de Janeiro: Nova Fronteira, 1980.",
+      "enunciado": "Na década de 1960, a proposição de Simone de Beauvoir contribuiu para estruturar um movimento social que teve como marca o(a)",
+      "alternativas": {
+        "A": "ação do Poder Judiciário para criminalizar a violência sexual.",
+        "B": "pressão do Poder Legislativo para impedir a dupla jornada de trabalho.",
+        "C": "organização de protestos públicos para garantir a igualdade de gênero.",
+        "D": "oposição de grupos religiosos para impedir os casamentos homoafetivos.",
+        "E": "estabelecimento de políticas governamentais para promover ações afirmativas."
+      },
+      "gabarito": "C",
+      "comentario": "Simone de Beauvoir foi escritora e ativista feminista. Preocupou-se, sobretudo, em desnaturalizar o conceito de 'feminino', mostrando tratar-se de uma construção social num contexto de dominação do gênero masculino."
+    },
+    {
+      "id": "enem_enem2015_1dia_6_5",
+      "materia": "Sociologia",
+      "assunto": "Sociologia do conhecimento",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "Só num sentido muito restrito, o indivíduo cria com seus próprios recursos o modo de falar e de pensar que lhe são atribuídos. Fala o idioma de seu grupo; pensa à maneira de seu grupo. Encontra a sua disposição apenas determinadas palavras e significados. Estas não só determinam, em grau considerável, as vias de acesso mental ao mundo circundante, mas também mostram, ao mesmo tempo, sob que ângulo e em que contexto de atividade os objetos foram até agora perceptíveis ao grupo ou ao indivíduo. \nMANNHEIM, K. Ideologia e utopia. Porto Alegre: Globo, 1950 (adaptado).",
+      "enunciado": "Ilustrando uma proposição básica da sociologia do conhecimento, o argumento de Karl Mannheim defende que o(a)",
+      "alternativas": {
+        "A": "conhecimento sobre a realidade é condicionado socialmente.",
+        "B": "submissão ao grupo manipula o conhecimento do mundo.",
+        "C": "divergência é um privilégio de indivíduos excepcionais.",
+        "D": "educação formal determina o conhecimento do idioma.",
+        "E": "domínio das línguas universaliza o conhecimento"
+      },
+      "gabarito": "A",
+      "comentario": "Karl Mannheim é considerado o fundador da sociologia do conhecimento. Essa vertente entende que toda teorização sofre uma influência do contexto histórico e cultural em que é tecida. Mannheim dirá que existem estilos de pensamento, elaborados sob influências determinadas, às quais ele chama de constelações."
+    },
+    {
+      "id": "enem_enem2015_1dia_7_6",
+      "materia": "Sociologia",
+      "assunto": "Patrimônio histórico e cultural",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "A Unesco condenou a destruição da antiga capital assíria de Nimrod, no Iraque, pelo Estado Islâmico, com a agência da ONU considerando o ato como um crime de guerra. O grupo iniciou um processo de demolição em vários sítios arqueológicos em uma área reconhecida como um dos berços da civilização. \nUnesco e especialistas condenam destruição de cidade assíria pelo Estado Islâmico. \nDisponivel em: http://oglobo.globo.com. Acesso em: 30 mar. 2015 (adaptado).",
+      "enunciado": "O tipo de atentado descrito no texto tem como consequência para as populações de países como o Iraque a desestruturação do(a)",
+      "alternativas": {
+        "A": "homogeneidade cultural.",
+        "B": "patrimônio histórico.",
+        "C": "controle ocidental.",
+        "D": "unidade étnica.",
+        "E": "religião oficial."
+      },
+      "gabarito": "B",
+      "comentario": "A destruição de cidades históricas, vestígios arqueológicos e monumentos, pelo Estado Islâmico, foi condenada pela Unesco, organismo da ONU, considerando-o como um crime de guerra ao destruir o patrimônio histórico, no caso, a antiga capital assíria no Iraque."
+    },
+    {
+      "id": "enem_enem2015_1dia_12_11",
+      "materia": "Sociologia",
+      "assunto": "Cultura e alteridade",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "Quanto ao “choque de civilizações”, é bom lembrar a carta de uma menina americana de sete anos cujo pai era piloto na Guerra do Afeganistão: ela escreveu que – embora amasse muito seu pai – estava pronta a deixá-lo morrer, a sacrificá-lo por seu país. Quando o presidente Bush citou suas palavras, elas foram entendidas como manifestação “normal” de patriotismo americano; vamos conduzir uma experiência mental simples e imaginar uma menina árabe maometana pateticamente lendo para as câmeras as mesmas palavras a respeito do pai que lutava pelo Talibã – não é necessário pensar muito sobre qual teria sido a nossa reação. (ZIZEK. S. Bem-vindo ao deserto do real. São Paulo: Bom Tempo. 2003.)",
+      "enunciado": "A situação imaginária proposta pelo autor explicita o desafio cultural do(a)",
+      "alternativas": {
+        "A": "prática da diplomacia.",
+        "B": "exercício da alteridade.",
+        "C": "expansão da democracia.",
+        "D": "universalização do progresso.",
+        "E": "conquista da autodeterminação."
+      },
+      "gabarito": "B",
+      "comentario": "A situação que se apresenta leva a confiar ao governo a situação de sacrifício a que a população se propõe enfrentar, no caso, as agruras de uma guerra, abandonando o próprio interesse. Não se pensa, em termos simétricos, como seriam os efeitos do mesmo apelo patriótico no lado oposto do conflito."
+    },
+    {
+      "id": "enem_enem2015_2dia_121_30",
+      "materia": "Sociologia",
+      "assunto": "Sociedade da informação",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "A emergência da sociedade da informação está associada a um conjunto de profundas transformações ocorridas desde as últimas duas décadas do século XX. Tais mudanças ocorrem em dimensões distintas da vida humana em sociedade, as quais interagem de maneira sinérgica e confluem para projetar a informação e o conhecimento como elementos estratégicos, dos pontos de vista econômico-produtivo, político e sociocultural. A sociedade da informação caracteriza-se pela crescente utilização de técnicas de transmissão, armazenamento de dados e informações a baixo custo, acompanhadas por inovações organizacionais, sociais e legais. Ainda que tenha surgido motivada por um conjunto de transformações na base técnico-científica, ela se investe de um significado bem mais abrangente. LEGEY, L.; ALBAGLI, S. Disponível em: www.dgz.org.br. Acesso em: 4 dez. 2012 (adaptado).",
+      "enunciado": "O mundo contemporâneo tem sido caracterizado pela crescente utilização das novas tecnologias e pelo acesso à informação cada vez mais facilitado. De acordo com o texto, a sociedade da informação corresponde a uma mudança na organização social porque",
+      "alternativas": {
+        "A": "representa uma alternativa para a melhoria da qualidade de vida.",
+        "B": "associa informações obtidas instantaneamente por todos e em qualquer parte do mundo.",
+        "C": "propõe uma comunicação mais rápida e barata, contribuindo para a intensificação do comércio.",
+        "D": "propicia a interação entre as pessoas por meio de redes sociais.",
+        "E": "representa um modelo em que a informação é utilizada intensamente nos vários setores da vida."
+      },
+      "gabarito": "E",
+      "comentario": "O texto enfatiza o uso da tecnologia como responsável pelas grandes transformações sociais, econômicas e culturais, marcadas pela intensa troca de informação entre os mais diferentes setores."
+    }
+  ]
+}

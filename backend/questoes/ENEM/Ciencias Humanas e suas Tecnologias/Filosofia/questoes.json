@@ -1,0 +1,832 @@
+{
+  "Filosofia": [
+    {
+      "id": "enem_enem2019_1dia_46_50",
+      "materia": "Filosofia",
+      "assunto": "Ética e alteridade",
+      "banca": "INEP",
+      "ano": "2019",
+      "texto_auxiliar": "A hospitalidade pura consiste em acolher aquele que chega antes de lhe impor condições, antes de saber e indagar o que quer que seja, ainda que seja um nome ou um “documento” de identidade. Mas ela também supõe que se dirija a ele, de maneira singular, chamando-o portanto e reconhecendo-lhe um nome próprio: “Como você se chama?” A hospitalidade consiste em fazer tudo para se dirigir ao outro, em lhe conceder, até mesmo perguntar seu nome, evitando que essa pergunta se torne uma “condição”, um inquérito policial, um fichamento ou um simples controle das fronteiras. Uma arte e uma poética, mas também toda uma política dependem disso, toda uma ética se decide aí.\nDERRIDA, J. Papel-máquina. São Paulo: Estação Liberdade, 2004 (adaptado).",
+      "enunciado": "Associado ao contexto migratório contemporâneo, o conceito de hospitalidade proposto pelo autor impõe a necessidade de",
+      "alternativas": {
+        "A": "anulação da diferença.",
+        "B": "cristalização da biografia.",
+        "C": "incorporação da alteridade.",
+        "D": "supressão da comunicação.",
+        "E": "verificação da proveniência."
+      },
+      "gabarito": "C",
+      "comentario": "O filósofo Derrida evoca o exercício de saber acolher (incorporar) o outro (a alteridade) pela hospitalidade e pelo respeito à diversidade que o outro revela."
+    },
+    {
+      "id": "enem_enem2019_1dia_47_51",
+      "materia": "Filosofia",
+      "assunto": "Conceito de Direito",
+      "banca": "INEP",
+      "ano": "2019",
+      "texto_auxiliar": "Em sentido geral e fundamental, Direito é a técnica da coexistência humana, isto é, a técnica voltada a tornar possível a coexistência dos homens. Como técnica, o Direito se concretiza em um conjunto de regras (que, nesse caso, são leis ou normais); e tais regras têm por objeto o comportamento intersubjetivo, isto é, o comportamento recíproco dos homens entre si.\nABBAGNANO, N. Dicionário de Filosofia. São Paulo: Martins Fontes, 2007.",
+      "enunciado": "O sentido geral e fundamental do Direito, conforme foi destacado, refere-se à",
+      "alternativas": {
+        "A": "aplicação de códigos legais.",
+        "B": "regulação do convívio social.",
+        "C": "legitimação de decisões políticas.",
+        "D": "mediação de conflitos econômicos.",
+        "E": "representação da autoridade constituída."
+      },
+      "gabarito": "B",
+      "comentario": "As definições contidas no texto remetem ao direito como definidor de ações, assegurando o espaço individual básico, aproximado ao grande contratualismo de relações sociais harmônicas."
+    },
+    {
+      "id": "enem_enem2019_1dia_64_68",
+      "materia": "Filosofia",
+      "assunto": "Filosofia Medieval",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "De fato, não é porque o homem pode usar a vontade livre para pecar que se deve supor que Deus a concedeu para isso. Há, portanto, uma razão pela qual Deus deu ao homem esta característica, pois sem ela não poderia viver e agir corretamente. Pode-se compreender, então, que ela foi concedida ao homem para esse fim, considerando-se que se um homem a usar para pecar, recairão sobre ele as punições divinas. Ora, isso seria injusto se a vontade livre tivesse sido dada ao homem não apenas para agir corretamente, mas também para pecar. Na verdade, porque deveria ser punido aquele que usasse da sua vontade para o fim para o qual ela lhe foi dada?\nAGOSTINHO. O livre-arbítrio. In: MARCONDES, D. Textos básicos de ética. Rio de Janeiro: Jorge Zahar, 2008.",
+      "enunciado": "Nesse texto, o filósofo cristão Agostinho de Hipona sustenta que a punição divina tem como fundamento o(a)",
+      "alternativas": {
+        "A": "desvio da postura celibatária.",
+        "B": "insuficiência da autonomia moral.",
+        "C": "afastamento das ações de desapego.",
+        "D": "distanciamento das práticas de sacrifício.",
+        "E": "violação dos preceitos do Velho Testamento."
+      },
+      "gabarito": "B",
+      "comentario": "O texto fundamenta a punição como limite para práticas humanas, colocando o ser em aspecto de uma ausência de significado sobre atos negativos, ou imorais, necessitando, portanto, da ação divina."
+    },
+    {
+      "id": "enem_enem2019_1dia_70_74",
+      "materia": "Filosofia",
+      "assunto": "Filosofia Moderna - Kant",
+      "banca": "INEP",
+      "ano": "2019",
+      "texto_auxiliar": "TEXTO I \nDuas coisas enchem o ânimo de admiração e veneração sempre crescentes: o céu estrelado sobre mim e a lei moral em mim. \nKANT, I. Crítica da razão prática. Lisboa: Edições 70, s/d (adaptado). \nTEXTO II \nDuas coisas admiro: a dura lei cobrindo-me e o estrelado céu dentro de mim. \nFONTELA, O. Kant (relido). In: Poesia completa. São Paulo: Hedra, 2015.",
+      "enunciado": "A releitura realizada pela poeta inverte as seguintes ideias centrais do pensamento kantiano:",
+      "alternativas": {
+        "A": "Possibilidade da liberdade e obrigação da ação.",
+        "B": "Aprioridade do juízo e importância da natureza.",
+        "C": "Necessidade da boa vontade e crítica da metafísica.",
+        "D": "Prescindibilidade do empírico e autoridade da razão.",
+        "E": "Interioridade da norma e fenomenalidade do mundo."
+      },
+      "gabarito": "E",
+      "comentario": "O poeta inverte a fala de Kant, ao dizer que a Lei pesa sobre sua cabeça e o céu estrelado se encontra dentro dele. Nesse sentido, critica-se o conceito de interioridade da norma e a fenomenologia do mundo."
+    },
+    {
+      "id": "enem_enem2019_1dia_81_85",
+      "materia": "Filosofia",
+      "assunto": "Racionalismo cartesiano",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "Dizem que Humboldt, naturalista do século XIX, maravilhado pela geografia, flora e fauna da região sul-americana, via seus habitantes como se fossem mendigos sentados sobre um saco de ouro, referindo-se a suas incomensuráveis riquezas naturais não exploradas. De alguma maneira, o cientista ratificou nosso papel de exportadores de natureza no que seria o mundo depois da colonização ibérica: enxergou-nos como territórios condenados a aproveitar os recursos naturais existentes.\nACOSTA, A. Bem viver : uma oportunidade para imaginar outros mundos. São Paulo: Elefante, 2016 (adaptado).",
+      "enunciado": "A relação entre ser humano e natureza ressaltada no texto refletia a permanência da seguinte corrente filosófica:",
+      "alternativas": {
+        "A": "Relativismo cognitivo.",
+        "B": "Materialismo dialético.",
+        "C": "Racionalismo cartesiano.",
+        "D": "Pluralismo epistemológico.",
+        "E": "Existencialismo fenomenológico."
+      },
+      "gabarito": "C",
+      "comentario": "A questão evoca o racionalismo, como instrumento de superioridade do ser humano. O texto relembra teorias que viriam a justificar o domínio de continentes e povos considerados “menos evoluídos” que o europeu. O racionalismo cartesiano relativiza o aspecto do humano incompleto de todos os significados."
+    },
+    {
+      "id": "enem_enem2019_1dia_84_88",
+      "materia": "Filosofia",
+      "assunto": "Subjetivação e poder em Foucault",
+      "banca": "INEP",
+      "ano": 2019,
+      "texto_auxiliar": "Penso que não há um sujeito soberano, fundador, uma forma universal de sujeito que poderíamos encontrar em todos os lugares. Penso, pelo contrário, que o sujeito se constitui através das práticas de sujeição ou, de maneira mais autônoma, através de práticas de liberação, de liberdade, como na Antiguidade – a partir, obviamente, de um certo número de regras, de estilos, que podemos encontrar no meio cultural. \nFOUCAULT, M. Ditos e escritos V: ética, sexualidade, política. Rio de Janeiro: Forense Universitária, 2004.",
+      "enunciado": "O texto aponta que a subjetivação se efetiva numa dimensão",
+      "alternativas": {
+        "A": "legal, pautada em preceitos jurídicos.",
+        "B": "racional, baseada em pressupostos lógicos.",
+        "C": "contingencial, processada em interações sociais.",
+        "D": "transcendental, efetivada em princípios religiosos.",
+        "E": "essencial, fundamentada em parâmetros substancialistas."
+      },
+      "gabarito": "C",
+      "comentario": "Foucault é um pensador estruturalista para quem o homem é adestrado por instituições para se adequar em dada sociedade. No texto, Foucault fala sobre a construção do sujeito pelas interações sociais."
+    },
+    {
+      "id": "enem_enem2019_1dia_85_89",
+      "materia": "Filosofia",
+      "assunto": "Relação ser humano-natureza",
+      "banca": "INEP",
+      "ano": "2019",
+      "texto_auxiliar": "TEXTO I: Os segredos da natureza se revelam mais sob a tortura dos experimentos do que no seu curso natural. BACON, F. Novum Organum, 1620. In: HADOT, P. O véu de Ísis: ensaio sobre a história da ideia de natureza. São Paulo: Loyola, 2006. TEXTO II: O ser humano, totalmente desintegrado do todo, não percebe mais as relações de equilíbrio da natureza. Age de forma totalmente desarmônica sobre o ambiente, causando grandes desequilíbrios ambientais. GUIMARÃES, M. A dimensão ambiental na educação. Campinas: Papirus, 1995.",
+      "enunciado": "Os textos indicam uma relação da sociedade diante da natureza caracterizada pela",
+      "alternativas": {
+        "A": "objetificação do espaço físico.",
+        "B": "retomada do modelo criacionista.",
+        "C": "recuperação do legado ancestral.",
+        "D": "infalibilidade do método científico.",
+        "E": "formação da cosmovisão holística."
+      },
+      "gabarito": "A",
+      "comentario": "Os textos fazem refletir sobre a busca de significâncias na natureza (tornando-a objeto para atingir a verdade) e o distanciamento da noção de equilíbrio do meio ambiente."
+    },
+    {
+      "id": "enem_enem2019_1dia_87_91",
+      "materia": "Filosofia",
+      "assunto": "Maquiavel e a moral política",
+      "banca": "INEP",
+      "ano": "2019",
+      "texto_auxiliar": "Para Maquiavel, quando um homem decide dizer a verdade pondo em risco a própria integridade física, tal resolução diz respeito apenas a sua pessoa. Mas se esse mesmo homem é um chefe de Estado, os critérios pessoais não são mais adequados para decidir sobre ações cujas consequências se tornam tão amplas, já que o prejuízo não será apenas individual, mas coletivo. Nesse caso, conforme as circunstâncias e os fins a serem atingidos, pode-se decidir que o melhor para o bem comum seja mentir. \nARANHA, M. L. Maquiavel : a lógica da força. São Paulo: Moderna, 2006 (adaptado).",
+      "enunciado": "O texto aponta uma inovação na teoria política na época moderna expressa na distinção entre",
+      "alternativas": {
+        "A": "idealidade e efetividade da moral.",
+        "B": "nulidade e preservabilidade da liberdade.",
+        "C": "ilegalidade e legitimidade do governante.",
+        "D": "verificabilidade e possibilidade da verdade.",
+        "E": "objetividade e subjetividade do conhecimento"
+      },
+      "gabarito": "A",
+      "comentario": "Maquiavel introduz, em sua obra O Príncipe, uma filosofia pragmática em que propõe uma moralidade específica na qual os fins justificam os meios."
+    },
+    {
+      "id": "enem_enem2019_1dia_89_93",
+      "materia": "Filosofia",
+      "assunto": "Modernidade e Razão",
+      "banca": "INEP",
+      "ano": "2019",
+      "texto_auxiliar": "TEXTO I\nConsidero apropriado deter-me algum tempo na contemplação deste Deus todo perfeito, ponderar totalmente à vontade seus maravilhosos atributos, considerar, admirar e adorar a incomparável beleza dessa imensa luz.\nDESCARTES, R. Meditações. São Paulo: Abril Cultural, 1980.\n\nTEXTO II\nQual será a forma mais razoável de entender como é o mundo? Existirá alguma boa razão para acreditar que o mundo foi criado por uma divindade todo-poderosa? Não podemos dizer que a crença em Deus é “apenas” uma questão de fé.\nRACHELS, J. Problemas da filosofia. Lisboa: Gradiva, 2009.",
+      "enunciado": "Os textos abordam um questionamento da construção da modernidade que defende um modelo",
+      "alternativas": {
+        "A": "centrado na razão humana.",
+        "B": "baseado na explicação mitológica.",
+        "C": "fundamentado na ordenação imanentista.",
+        "D": "focado na legitimação contratualista.",
+        "E": "configurado na percepção etnocêntrica."
+      },
+      "gabarito": "A",
+      "comentario": "Nos textos, as proposições em torno da contemplação e da fé abordam um questionamento que definiu o advento da modernidade centrada na razão humana."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_55_54",
+      "materia": "Filosofia",
+      "assunto": "Ética Kantiana",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "Princípios práticos são subjetivos, ou máximas, quando a condição é considerada pelo sujeito como verdadeira só para a sua vontade; são, por outro lado, objetivos, quando a condição é válida para a vontade de todo ser natural.\nKANT, I. Crítica da razão prática. Lisboa: Edições 70, 2008.",
+      "enunciado": "A concepção ética presente no texto defende a",
+      "alternativas": {
+        "A": "universalidade do dever.",
+        "B": "maximização da utilidade.",
+        "C": "aprovação pelo sentimento.",
+        "D": "identificação da justa medida.",
+        "E": "obediência à determinação divina."
+      },
+      "gabarito": "A",
+      "comentario": "O texto remete ao conceito de Kant em relação ao imperativo categórico, lei universal com finalidade de regular ações para equilíbrio, em contraposição às máximas, de cunho individual de ações."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_56_55",
+      "materia": "Filosofia",
+      "assunto": "Sofistas",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "Os sofistas inventam a educação em ambiente artificial, o que se tornará uma das características de nossa civilização. Eles são os profissionais do ensino, antes de tudo pedagogos, ainda que seja necessário reconhecer a notável originalidade de um Protágoras, de um Górgias ou de um Antifonte, por exemplo. Por um salário, eles ensinavam a seus alunos receitas que lhes permitiam persuadir os ouvintes, defender, com a mesma habilidade, o pró e o contra, conforme o entendimento de cada um.\nHADOT, P. O que é a filosofia antiga? São Paulo: Loyola, 2010 (adaptado).",
+      "enunciado": "O texto apresenta uma característica dos sofistas, mestres da oratória que defendiam a(o)",
+      "alternativas": {
+        "A": "ideia do bem, demonstrado na mente com base na teoria da reminiscência.",
+        "B": "relativismo, evidenciado na convencionalidade das instituições políticas.",
+        "C": "ética, aprimorada pela educação de cada indivíduo com base na virtude.",
+        "D": "ciência, comprovada empiricamente por meio de conceitos universais.",
+        "E": "religião, revelada pelos mandamentos das leis divinas."
+      },
+      "gabarito": "B",
+      "comentario": "A base do pensamento sofista nunca foi algo homogêneo, mas tende a ligá-los a uma prática de defesa ampla que assegura não uma só verdade, mas uma relativização para construí-la."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_57_56",
+      "materia": "Filosofia",
+      "assunto": "Ética Socrática",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "Há um tempo, belas e boas são todas as ações justas e virtuosas. Os que as conhecem nada podem preferir-lhes. Os que não as conhecem, não somente não podem praticá-las como, se o tentam, só cometem erros. Assim praticam os sábios atos belos e bons, enquanto os que não o são só podem descambar em faltas. E se nada se faz justo, belo e bom que não pela virtude, claro é que na sabedoria se resumem a justiça e todas as mais virtudes.\nXENOFONTE. Ditos e feitos memoráveis de Sócrates. Apud CHALITA, G. Vivendo a filosofia. São Paulo: Ática, 2005.",
+      "enunciado": "Ao fazer referência ao conteúdo moral da filosofia socrática narrada por Xenofonte, o texto indica que a vida virtuosa está associada à",
+      "alternativas": {
+        "A": "aceitação do sofrimento como gênese da felicidade suprema.",
+        "B": "moderação dos prazeres com vistas à serenidade da alma.",
+        "C": "contemplação da physis como fonte de conhecimento.",
+        "D": "satisfação dos desejos com o objetivo de evitar a melancolia.",
+        "E": "persecução da verdade como forma de agir corretamente."
+      },
+      "gabarito": "E",
+      "comentario": "Para Sócrates a ação virtuosa está voltada à prática do bem/bom estar, de maneira a tornar a vida um ato constante de civilidade na pólis."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_72_71",
+      "materia": "Filosofia",
+      "assunto": "Livre-arbítrio e presciência divina",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "Sem negar que Deus prevê todos os acontecimentos futuros, entretanto, nós queremos livremente aquilo que queremos. Porque, se o objeto da presciência divina é a nossa vontade, é essa mesma vontade assim prevista que se realizará. Haverá, pois, um ato de vontade livre, já que Deus vê esse ato livre com antecedência.\nSANTO AGOSTINHO. O livre-arbítrio . São Paulo: Paulus, 1995 (adaptado).",
+      "enunciado": "Essa discussão, proposta pelo filósofo Agostinho de Hipona (354-430), indica que a liberdade humana apresenta uma",
+      "alternativas": {
+        "A": "natureza condicionada.",
+        "B": "competência absoluta.",
+        "C": "aplicação subsidiária.",
+        "D": "utilização facultativa.",
+        "E": "autonomia irrestrita."
+      },
+      "gabarito": "A",
+      "comentario": "O texto aponta o princípio básico de existência e de ações previstas pelo criador e, portanto, trata-se de uma instância absoluta condicionadora de sabedoria."
+    },
+    {
+      "id": "enem_enem2020_digital_1dia_80_79",
+      "materia": "Filosofia",
+      "assunto": "Contratualismo",
+      "banca": "INEP",
+      "ano": "2020",
+      "texto_auxiliar": "O fim último, causa final e desígnio dos homens, ao introduzir uma restrição sobre si mesmos sob a qual os vemos viver nos Estados, é o cuidado com sua própria conservação e com uma vida mais satisfeita; quer dizer, o desejo de sair da mísera condição de guerra que é a consequência necessária das paixões naturais dos homens, como o orgulho, a vingança e coisas semelhantes. É necessário um poder visível capaz de mantê-los em respeito, forçando-os, por medo do castigo, ao cumprimento de seus pactos e ao respeito às leis, que são contrárias a nossas paixões naturais.\nHOBBES, T. M. Leviatã. São Paulo: Nova Cultural, 1999 (adaptado).",
+      "enunciado": "Para o autor, o surgimento do estado civil estabelece as condições para o ser humano",
+      "alternativas": {
+        "A": "internalizar os princípios morais, objetivando a satisfação da vontade individual.",
+        "B": "aderir à organização política, almejando o estabelecimento do despotismo.",
+        "C": "aprofundar sua religiosidade, contribuindo para o fortalecimento da Igreja.",
+        "D": "assegurar o exercício do poder, com o resgate da sua autonomia.",
+        "E": "obter a situação de paz, com a garantia legal do seu bem-estar."
+      },
+      "gabarito": "E",
+      "comentario": "Para Hobbes, filósofo contratualista, a sociedade civil seria um artifício para conter o estado de conflito e guerra em que estariam mergulhados os homens em estado de natureza, e, dessa forma, torna-se necessário obter a situação de paz, com a consolidação do Estado absolutista."
+    },
+    {
+      "id": "enem_enem2021_1dia_vs4_50_54",
+      "materia": "Filosofia",
+      "assunto": "Epistemologia",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "A filosofia é como uma árvore, cujas raízes são a metafísica; o tronco, a física, e os ramos que saem do tronco são todas as outras ciências, que se reduzem a três principais: a medicina, a mecânica e a moral, entendendo por moral a mais elevada e a mais perfeita porquê pressupõe um saber integral das outras ciências, e é o último grau da sabedoria.\nDESCARTES, R. Princípios da filosofia. Lisboa: Edições 70, 1997 (adaptado).",
+      "enunciado": "Essa construção alegórica de Descartes, acerca da condição epistemológica da filosofia, tem como objetivo",
+      "alternativas": {
+        "A": "sustentar a unidade essencial do conhecimento.",
+        "B": "refutar o elemento fundamental das crenças.",
+        "C": "impulsionar o pensamento especulativo.",
+        "D": "recepcionar o método experimental.",
+        "E": "incentivar a suspensão dos juízos."
+      },
+      "gabarito": "A",
+      "comentario": "Descartes utiliza a árvore, formada por raízes, tronco e ramos, como alegoria para mostrar que o conhecimento possui uma unidade essencial, sustentada pela metafísica. A imagem da árvore pressupõe, nas palavras do filósofo, um saber integral."
+    },
+    {
+      "id": "enem_enem2021_1dia_vs4_51_55",
+      "materia": "Filosofia",
+      "assunto": "Nietzsche e crítica à tradição cristã",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "Minha fórmula para o que há de grande no indivíduo é amor fati: nada desejar além daquilo que é, nem diante de si, nem atrás de si, nem nos séculos dos séculos. Não se contentar em suportar o inelutável, e ainda menos dissimulá-lo, mas amá-lo.\nNIETZSCHE apud FERRY L. Aprender a viver: filosofia para os novos tempos. Rio da Janeiro Objetiva. 2010 (adaptado).",
+      "enunciado": "Essa fórmula indicada por Nietzsche consiste em uma crítica à tradição cristã que",
+      "alternativas": {
+        "A": "combate as práticas sociais de cunho afetivo.",
+        "B": "impede o avanço científico no contexto moderno.",
+        "C": "associa os cultos pagãos à sacralização da natureza.",
+        "D": "condena os modelos filosóficos da Antiguidade Clássica.",
+        "E": "consagra a realização humana ao campo transcendental."
+      },
+      "gabarito": "E",
+      "comentario": "No texto, Nietzsche evoca um amor ao destino, ao mundo real, imediatamente acessível, deixando de lado o aspecto metafísico e transcendental do amor apregoado pela tradição cristã."
+    },
+    {
+      "id": "enem_enem2021_1dia_vs4_52_56",
+      "materia": "Filosofia",
+      "assunto": "Filosofia Medieval",
+      "banca": "INEP",
+      "ano": 2021,
+      "texto_auxiliar": "É preciso usar de violência e rebater varonilmente os apetites dos sentidos sem atender ao que a carne quer ou não quer, mas trabalhando por sujeitá-la ao espírito, ainda que se revolte. Cumpre castigá-la e curvá-la à sujeição, a tal ponto que esteja disposta para tudo, sabendo contentar-se com pouco e deleitar-se com a simplicidade, sem resmungar por qualquer incômodo.\nKEMPIS, T. Imitação de Cristo. Petrópolis; Vozes. 2015.",
+      "enunciado": "Qual característica do ascetismo medieval é destacada no texto?",
+      "alternativas": {
+        "A": "Exaltação do ritualismo litúrgico.",
+        "B": "Afirmação do pensamento racional.",
+        "C": "Desqualificação da atividade laboral.",
+        "D": "Condenação da alimentação impura.",
+        "E": "Desvalorização da materialidade corpórea."
+      },
+      "gabarito": "E",
+      "comentario": "A teologia ascética prega a via purgativa, por meio de exercícios de controle dos sentidos e do corpo para enaltecer o espírito."
+    },
+    {
+      "id": "enem_enem2021_1dia_vs4_55_59",
+      "materia": "Filosofia",
+      "assunto": "Método dialético",
+      "banca": "INEP",
+      "ano": 2021,
+      "texto_auxiliar": "Sócrates: “Quem não sabe o que uma coisa é, como poderia saber de que tipo de coisa ela é? Ou te parece ser possível alguém que não conhece absolutamente quem é Mênon, esse alguém saber se ele é belo, se é rico e ainda se é nobre? Parece-te ser isso possível? Assim, Mênon, que coisa afirmas ser a virtude?”.\nPLATÃO. Mênon. Rio de Janeiro: PUC-Rio; São Paulo: Loyola, 2001 (adaptado).",
+      "enunciado": "A atitude apresentada na interlocução do filósofo com Mênon é um exemplo da utilização do(a)",
+      "alternativas": {
+        "A": "escrita epistolar.",
+        "B": "método dialético.",
+        "C": "linguagem trágica.",
+        "D": "explicação fisicalista.",
+        "E": "suspensão judicativa."
+      },
+      "gabarito": "B",
+      "comentario": "A obra de Platão é, em geral, escrita em padrão dialético clássico. Seus textos são diálogos que questionam posicionamentos equivocados, fazendo revelar-se a verdade."
+    },
+    {
+      "id": "enem_enem2021_1dia_vs4_69_73",
+      "materia": "Filosofia",
+      "assunto": "Filosofia Política",
+      "banca": "INEP",
+      "ano": "2021",
+      "texto_auxiliar": "Por maioria, nós não entendemos uma quantidade relativa maior, mas a determinação de um estado ou de um padrão em relação ao qual tanto as quantidades maiores quanto as menores serão ditas minoritárias. Maioria supõe um estado de dominação. É nesse sentido que as mulheres, as crianças e também os animais são minoritários.\nDELEUZE, G.; GUATTARI. F. Mil platôs. São Paulo: Editora 34, 2012 (adaptado).",
+      "enunciado": "No texto, a caracterização de uma minoria decorre da existência de",
+      "alternativas": {
+        "A": "ameaças de extinção social.",
+        "B": "políticas de incentivos estatais.",
+        "C": "relações de natureza arbitrária.",
+        "D": "valorações de conexões simétricas.",
+        "E": "hierarquizações de origem biológica."
+      },
+      "gabarito": "C",
+      "comentario": "Deleuze desconstrói a categoria de minoria no sentido quantitativo, adotando referências de relações de poder que foram politicamente estabelecidas."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_62_66",
+      "materia": "Filosofia",
+      "assunto": "Existencialismo",
+      "banca": "INEP",
+      "ano": 2022,
+      "texto_auxiliar": "Em primeiro lugar, é preciso libertar-se do preconceito segundo o qual a filosofia é apenas uma disciplina particular, apenas o trabalho de um círculo restrito de pessoas que dedicam sua atividade a refletir e a indagar sobre certos tipos de problemas. A filosofia é isso também, mas não só. Deve haver uma filosofia como ato existencial, que faz do homem um ente que pergunta, duvida, teme e age para dominar o futuro.\nABBAGNANO, N. Introdução ao existencialismo. São Paulo: Martins Fontes, 2001 (adaptado).",
+      "enunciado": "De acordo com a corrente de pensamento do século XX da qual o texto trata, o tema fundamental da filosofia é o(a)",
+      "alternativas": {
+        "A": "realidade humana, seu sentido e possibilidades.",
+        "B": "mundo físico, sua essência e leis reguladoras.",
+        "C": "lógica, suas inferências e estudos de validade.",
+        "D": "imaginação, seus objetos e contribuições.",
+        "E": "conhecimento, sua natureza e condições."
+      },
+      "gabarito": "A",
+      "comentario": "Abbagnano, no excerto, estende o conceito e o objeto da Filosofia, atribuindo-lhe um caráter humano, existencial e instrumental no sentido de ser um olhar capaz de debruçar-se sobre as possibilidades do futuro."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_80_84",
+      "materia": "Filosofia",
+      "assunto": "Antropologia filosófica",
+      "banca": "INEP",
+      "ano": 2022,
+      "texto_auxiliar": "TEXTO I\nA sociedade cultiva a violência, inculcando-a nos indivíduos como virtude do homem forte, do homem corajoso, do homem honrado, que se arrisca a morrer para defender os “valores” que dão sentido à sua vida. \nMULLER, J. M. O princípio da não violência : uma trajetória filosófica. São Paulo: Palas Athena, 2007.\n\nTEXTO II\nA ideia de a humanidade tomar seu destino nas próprias mãos somente faz sentido se atribuirmos consciência e propósito à espécie; as espécies são apenas correntes na flutuação aleatória dos genes.\nGRAY , J. Cachorros de palha : reflexões sobre humanos e outros animais. São Paulo: Record, 2002.",
+      "enunciado": "Os textos articulam argumentos em torno de dois modelos explicativos da condição humana. Esses dois modelos caracterizam-se, respectivamente, por valorizar como determinantes dessa condição elementos",
+      "alternativas": {
+        "A": "estéticos e éticos.",
+        "B": "místicos e científicos.",
+        "C": "culturais e biológicos.",
+        "D": "emocionais e racionais.",
+        "E": "voluntaristas e possibilistas."
+      },
+      "gabarito": "C",
+      "comentario": "Os dois textos se diferenciam nos critérios empregados para compor as suas antropologias: o primeiro texto tem uma argumentação culturalista, ao citar os valores que as sociedades cultivam, como coragem e honra; enquanto o segundo texto faz uso de critérios biológicos ao referir-se às correntes na flutuação aleatória dos genes para definir a condição humana."
+    },
+    {
+      "id": "enem_enem2022-2_1dia_86_90",
+      "materia": "Filosofia",
+      "assunto": "Maquiavel e o pensamento político renascentista",
+      "banca": "INEP",
+      "ano": 2022,
+      "texto_auxiliar": "A um príncipe, portanto, não é necessário ter de fato todas as qualidades, mas é indispensável parecer tê-las. Aliás, ousarei dizer que, se as tiver e utilizar sempre, serão danosas, enquanto, se parecer tê-las, serão úteis. Assim, deves parecer clemente, fiel, humano, íntegro, religioso — e sê-lo, mas com a condição de estares com o ânimo disposto a, quando necessário, não o seres, de modo que possas e saibas como tornar-te o contrário.\nMAQUIAVEL, N. O príncipe. São Paulo: Martins Fontes, 2004 (adaptado).",
+      "enunciado": "Segundo o autor, a conquista e a conservação do poder político exigem a",
+      "alternativas": {
+        "A": "flexibilidade moral do monarca.",
+        "B": "retomada dos valores cristãos.",
+        "C": "consulta periódica dos cidadãos.",
+        "D": "adoção do imperativo categórico.",
+        "E": "liberdade incondicional do estadista."
+      },
+      "gabarito": "A",
+      "comentario": "Maquiavel, renascentista defensor do Estado absolutista, entendia que o monarca tem o direito de se estabelecer como o poder supremo e que sua autoridade não poderia ser colocada em dúvida. Assim, no trecho, ele defende que o rei deveria oscilar entre uma aparência clemente e uma prática forte, visando garantir sua soberania sobre os governados."
+    },
+    {
+      "id": "enem_enem2023-2_1dia_57_61",
+      "materia": "Filosofia",
+      "assunto": "Hume e o hábito",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "Suponha-se que seja trazida de súbito a este mundo uma pessoa dotada das mais poderosas faculdades da razão e reflexão. É verdade que ela observaria imediatamente um acontecimento seguindo-se a outro, mas não conseguiria descobrir nada além disso. Ela não seria, no início, capaz de apreender, por meio de nenhum raciocínio, a ideia de causa e efeito. HUME, D. Investigação sobre o entendimento humano e sobre os princípios da moral. São Paulo: Unesp. 2003.",
+      "enunciado": "Segundo Hume, nossa capacidade de estabelecer relações como aquelas mencionadas no texto resulta do(a)",
+      "alternativas": {
+        "A": "representação construída pela assimilação dos juízos universais.",
+        "B": "hábito desenvolvido pela repetição de uma operação.",
+        "C": "testemunho proveniente de relato de terceiros.",
+        "D": "intuição formada pela atividade mental pura.",
+        "E": "reminiscência advinda de vidas passadas."
+      },
+      "gabarito": "B",
+      "comentario": "Para Hume, os homens associam ideias e acreditam nessa associação por força do hábito, ou costume. Este não é a repetição de experiências semelhantes por parte de um único indivíduo, mas de muitos. Acreditamos que o sol nascerá amanhã, como sempre nasceu, pois acreditamos nisso; em outras palavras, nossa certeza tem como origem a crença. O conhecimento, por sua vez, resulta da associação de ideias, que é traduzida na conexão de várias impressões por meio de suas cópias; dessa associação surgem ideias complexas."
+    },
+    {
+      "id": "enem_enem2023-2_1dia_69_73",
+      "materia": "Filosofia",
+      "assunto": "Política e Ética",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "O Estado surge pelo fato de ser o homem um animal naturalmente social, político. O Estado provê, inicialmente, a satisfação daquelas necessidades materiais, negativas e positivas, defesa e segurança, conservação e engrandecimento, de outro modo irrealizáveis. Mas o seu fim essencial é espiritual, isto é, deve promover a virtude e, consequentemente, a felicidade dos súditos mediante a ciência. ARISTÓTELES. A política. São Paulo: Martins Fontes, 2006 (adaptado).",
+      "enunciado": "Segundo o autor, é função do Estado garantir o(a)",
+      "alternativas": {
+        "A": "justiça divina, pregando a salvação eterna dos fiéis.",
+        "B": "soberania, respeitando a autonomia dos três poderes.",
+        "C": "propriedade privada, protegendo o direito natural inalienável.",
+        "D": "vida ética, proporcionando a formação moral dos cidadãos.",
+        "E": "direito de resistência, suprimindo governos considerados impopulares."
+      },
+      "gabarito": "D",
+      "comentario": "Para Aristóteles, o fim essencial do Estado é de ordem espiritual (não se limita ao material), de forma que se trata do dever de assegurar formação moral e virtude ética, capazes de proporcionar a felicidade."
+    },
+    {
+      "id": "enem_enem2023-2_1dia_71_75",
+      "materia": "Filosofia",
+      "assunto": "Ética e moral",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "Estudiosos do Instituto de Antropologia Evolucionária de Leipzig, na Alemanha, colocaram um chimpanzé em um quarto com a visão de suculentos pedaços de comida trancados dentro de um armário. A um segundo chimpanzé era dada, então, a oportunidade de liberar a comida, porém, sem usufruir dela. Em aproximadamente 80% das vezes, eles tomaram a decisão mais caridosa e liberaram o alimento para o outro chimpanzé.",
+      "enunciado": "Considerando nossa relação com outros, o experimento envolvendo os chimpanzés ilustra qual tipo de comportamento moral humano?",
+      "alternativas": {
+        "A": "Hedonista, anseia o prazer pessoal.",
+        "B": "Altruísta, promove o bem-estar imparcial.",
+        "C": "Retributivo, busca um retorno equivalente.",
+        "D": "Deontológico, cumpre uma obrigação formal.",
+        "E": "Meritocrático, valoriza o merecimento individual."
+      },
+      "gabarito": "B",
+      "comentario": "Altruísmo imparcial consiste em ações humanas executadas por coletividades que conciliam os interesses destas com os interesses mais amplos da sociedade humana."
+    },
+    {
+      "id": "enem_enem2023-2_1dia_78_82",
+      "materia": "Filosofia",
+      "assunto": "Tecnocracia e participação política",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "A concepção tecnocrata está associada à fé em mercados – não necessariamente no capitalismo livre, laissez-faire, mas uma crença mais ampla de que mecanismos de mercado são os principais instrumentos para alcançar o bem público. Esse modo de pensar é tecnocrático, no sentido de que esvazia o discurso público de argumentos substantivamente morais e questões ideologicamente contestáveis como se fossem assuntos de eficiência econômica, domínio de especialistas. A verdadeira divisão, argumentaram eles, não era mais esquerda versus direita, mas aberto versus fechado. Isso insinuava que os contrários à terceirização, tratados de livre-comércio e fluxos de capitais irrestritos eram pessoas de mente fechada, não de mente aberta; eram tribais, não globais.\nSANDEL, M. J. A tirania do mérito : o que aconteceu ao bem comum? Rio de Janeiro: Civilização Brasileira, 2020 (adaptado).",
+      "enunciado": "A crítica ao modelo de pensamento apresentado no texto fundamenta-se na postura de desvalorização do(a)",
+      "alternativas": {
+        "A": "sistema financeiro.",
+        "B": "participação política.",
+        "C": "intercâmbio comercial.",
+        "D": "produção exportadora.",
+        "E": "comportamento diplomático."
+      },
+      "gabarito": "B",
+      "comentario": "A postura tecnocrata reduz a participação política a meras dualidades: o “bem”, o “mal”, o “aberto” e o “fechado” etc."
+    },
+    {
+      "id": "enem_enem2023-2_1dia_90_94",
+      "materia": "Filosofia",
+      "assunto": "Teoria da justiça",
+      "banca": "INEP",
+      "ano": "2023",
+      "texto_auxiliar": "Os valores políticos são valores efetivamente superiores, que regem o quadro básico da vida social e definem precisamente os termos fundamentais da cooperação política e social. Na teoria da justiça como equidade, alguns desses valores políticos são expressos pelos princípios de justiça para a estrutura básica: a liberdade política e civil igual para todos, a justa igualdade das oportunidades, a reciprocidade econômica, as bases sociais do respeito mútuo entre os cidadãos. RAWLS, J. Justiça e democracia. São Paulo: Martins Fontes, 2000 (adaptado).",
+      "enunciado": "Conforme descrito no texto, a teoria da justiça como equidade é mais adequada ao regime político",
+      "alternativas": {
+        "A": "fascista.",
+        "B": "totalitário.",
+        "C": "despótico.",
+        "D": "autocrático.",
+        "E": "democrático."
+      },
+      "gabarito": "E",
+      "comentario": "Democracia é um regime político em que os cidadãos no aspecto dos direitos políticos participam igualmente – diretamente ou através de representantes eleitos – na proposta, no desenvolvimento e na criação de leis, exercendo o poder da governação por meio do sufrágio universal, sendo o regime mais adequado no sentido de conduzir à equidade e à justiça, conceitos colocados no texto."
+    },
+    {
+      "id": "enem_enem2017_1dia_48_52",
+      "materia": "Filosofia",
+      "assunto": "Utilitarismo",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "A moralidade, Bentham exortava, não é uma questão de agradar a Deus, muito menos de fidelidade a regras abstratas. A moralidade é a tentativa de criar a maior quantidade de felicidade possível neste mundo. Ao decidir o que fazer, deveríamos, portanto, perguntar qual curso de conduta promoveria a maior quantidade de felicidade para todos aqueles que serão afetados.",
+      "enunciado": "Os parâmetros da ação indicados no texto estão em conformidade com uma",
+      "alternativas": {
+        "A": "fundamentação científica de viés positivista.",
+        "B": "convenção social de orientação normativa.",
+        "C": "transgressão comportamental religiosa.",
+        "D": "racionalidade de caráter pragmático.",
+        "E": "inclinação de natureza passional."
+      },
+      "gabarito": "D",
+      "comentario": "Para Bentham, a primeira lei da natureza é evitar a dor, e, portanto, seria necessário conciliar a felicidade pessoal com a alheia. O paradigma da premissa é o pragmatismo, entendido aqui como utilitarismo, pois objetiva-se pela ação, e os efeitos alcançados, no caso, são a felicidade em maior quantidade possível."
+    },
+    {
+      "id": "enem_enem2017_1dia_64_68",
+      "materia": "Filosofia",
+      "assunto": "Teoria da Justiça",
+      "banca": "INEP",
+      "ano": 2017,
+      "texto_auxiliar": "Uma sociedade é uma associação mais ou menos autossuficiente de pessoas que em suas relações mútuas reconhecem certas regras de conduta como obrigatórias e que, na maioria das vezes, agem de acordo com elas. Uma sociedade é bem ordenada não apenas quando está planejada para promover o bem de seus membros, mas quando é também efetivamente regulada por uma concepção pública de justiça. Isto é, trata-se de uma sociedade na qual todos aceitam, e sabem que os outros aceitam, o mesmo princípio de justiça. \nRAWLS, J. Uma teoria da justiça. São Paulo: Martins Fontes, 1997 (adaptado).",
+      "enunciado": "A visão expressa nesse texto do século XX remete a qual aspecto do pensamento moderno?",
+      "alternativas": {
+        "A": "A relação entre liberdade e autonomia do Liberalismo.",
+        "B": "A independência entre poder e moral do Racionalismo.",
+        "C": "A convenção entre cidadãos e soberano do Absolutismo.",
+        "D": "A dialética entre indivíduo e governo autocrata do Idealismo.",
+        "E": "A contraposição entre bondade e condição selvagem do Naturalismo."
+      },
+      "gabarito": "A",
+      "comentario": "O liberalismo político foi fundado sobre ideias que defendem a liberdade individual como fundamento da legislação e com base no igualitarismo. Estão relacionados ao pensamento liberal princípios como liberdade de expressão, eleições democráticas, igualdade de gênero, estado laico e o direito à propriedade."
+    },
+    {
+      "id": "enem_enem2017_1dia_65_69",
+      "materia": "Filosofia",
+      "assunto": "Pré-socráticos",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "A representação de Demócrito é semelhante à de Anaxágoras, na medida em que um infinitamente múltiplo é a origem; mas nele a determinação dos princípios fundamentais aparece de maneira tal que contém aquilo que para o que foi formado não é, absolutamente, o aspecto simples para si. Por exemplo, partículas de carne e ouro seriam princípios que, através de sua concentração, formam aquilo que aparece como figura. \nHEGEL. G. W. F. Crítica moderna. In: SOUZA, J. C. (Org.). Os pré-socráticos: vida e obra. São Paulo: Nova Cultural. 2000 (adaptado).",
+      "enunciado": "O texto faz uma apresentação crítica acerca do pensamento de Demócrito, segundo o qual o “princípio constitutivo das coisas” estava representado pelo(a)",
+      "alternativas": {
+        "A": "número, que fundamenta a criação dos deuses.",
+        "B": "devir, que simboliza o constante movimento dos objetos.",
+        "C": "água, que expressa a causa material da origem do universo.",
+        "D": "imobilidade, que sustenta a existência do ser atemporal.",
+        "E": "átomo, que explica o surgimento dos entes."
+      },
+      "gabarito": "E",
+      "comentario": "Demócrito, aluno de Leucipo na Antiga Grécia foi coautor do atomismo. Para o mestre e discípulo, a matéria era composta de uma partícula básica à qual deram o nome de átomo."
+    },
+    {
+      "id": "enem_enem2017_1dia_66_70",
+      "materia": "Filosofia",
+      "assunto": "Filosofia Antiga - Sócrates",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "Uma conversação de tal natureza transforma o ouvinte; o contato de Sócrates paralisa e embaraça; leva a refletir sobre si mesmo, a imprimir à atenção uma direção incomum: os temperamentais, como Alcibíades, sabem que encontrarão junto dele todo o bem de que são capazes, mas fogem porque receiam essa influência poderosa, que os leva a se censurarem. E sobretudo a esses jovens, muitos quase crianças, que ele tenta imprimir sua orientação.\nBRÉHIER, E. História da filosofia. São Paulo: Mestre Jou, 1977.",
+      "enunciado": "O texto evidencia características do modo de vida socrático, que se baseava na",
+      "alternativas": {
+        "A": "contemplação da tradição mítica.",
+        "B": "sustentação do método dialético.",
+        "C": "relativização do saber verdadeiro.",
+        "D": "valorização da argumentação retórica.",
+        "E": "investigação dos fundamentos da natureza."
+      },
+      "gabarito": "B",
+      "comentario": "A dialética socrática leva, pelo diálogo, o interlocutor a desembocar na própria ignorância, em que aparecem ideias mal estruturadas e equívocas. Após, o filósofo aplicava a maiêutica (a arte do parto) trazendo à luz a verdade dentro do interlocutor."
+    },
+    {
+      "id": "enem_enem2017_1dia_85_89",
+      "materia": "Filosofia",
+      "assunto": "Ética Kantiana",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "Uma pessoa vê-se forçada pela necessidade a pedir dinheiro emprestado. Sabe muito bem que não poderá pagar, mas vê também que não lhe emprestarão nada senão prometer firmemente pagar em prazo determinado. Sente a tentação de fazer a promessa; mas tem ainda consciência bastante para perguntar a si mesma: não é proibido e contrário ao dever livrar-se de apuros desta maneira? Admitindo que se decida a fazê-lo, a sua máxima de ação seria: quando julgo estar em apuros de dinheiro, vou pedi-lo emprestado e prometo pagá-lo, embora saiba que tal nunca sucederá.\nKANT, I. Fundamentação da metafísica dos costumes. São Paulo: Abril Cultural, 1980.",
+      "enunciado": "De acordo com a moral kantiana, a “falsa promessa de pagamento” representada no texto",
+      "alternativas": {
+        "A": "assegura que a ação seja aceita por todos a partir da livre discussão participativa.",
+        "B": "garante que os efeitos das ações não destruam a possibilidade da vida futura na terra.",
+        "C": "opõe-se ao princípio de que toda ação do homem possa valer como norma universal.",
+        "D": "materializa-se no entendimento de que os fins da ação humana podem justificar os meios.",
+        "E": "permite que a ação individual produza a mais ampla felicidade para as pessoas envolvidas."
+      },
+      "gabarito": "C",
+      "comentario": "A ética em Kant tem como conceito central o imperativo categórico, o dever de toda pessoa agir conforme princípios aos quais considera que seriam benéficos caso fossem seguidos por todos. Para Kant, porém, a falsa promessa é moralmente permissível porque será praticada apenas para escapar de apuros, mas não pode valer como lei universal."
+    },
+    {
+      "id": "enem_enem2017_1dia_88_92",
+      "materia": "Filosofia",
+      "assunto": "Ética e Política em Aristóteles",
+      "banca": "INEP",
+      "ano": "2017",
+      "texto_auxiliar": "Se, pois, para as coisas que fazemos existe um fim que desejamos por ele mesmo e tudo o mais é desejado no interesse desse fim; evidentemente tal fim será o bem, ou antes, o sumo bem. Mas não terá o conhecimento, porventura, grande influência sobre essa vida? Se assim é, esforcemo-nos por determinar, ainda que em linhas gerais apenas, o que seja ele e de qual das ciências ou faculdades constitui o objeto. Ninguém duvidará de que o seu estudo pertença à arte mais prestigiosa e que mais verdadeiramente se pode chamar a arte mestra. Ora, a política mostra ser dessa natureza, pois é ela que determina quais as ciências que devem ser estudadas num Estado, quais são as que cada cidadão deve aprender, e até que ponto; e vemos que até as faculdades tidas em maior apreço, como a estratégia, a economia e a retórica, estão sujeitas a ela. Ora, como a política utiliza as demais ciências e, por outro lado, legisla sobre o que devemos e o que não devemos fazer, a finalidade dessa ciência deve abranger as das outras, de modo que essa finalidade será o bem humano. \nARISTÓTELES. Ética a Nicômaco. In: Pensadores. São Paulo: Nova Cultural, 1991 (adaptado).",
+      "enunciado": "Para Aristóteles, a relação entre o sumo bem e a organização da pólis pressupõe que",
+      "alternativas": {
+        "A": "o bem dos indivíduos consiste em cada um perseguir seus interesses.",
+        "B": "o sumo bem é dado pela fé de que os deuses são os portadores da verdade.",
+        "C": "a política é a ciência que precede todas as demais na organização da cidade.",
+        "D": "a educação visa formar a consciência de cada pessoa para agir corretamente.",
+        "E": "a democracia protege as atividades políticas necessárias para o bem comum."
+      },
+      "gabarito": "C",
+      "comentario": "Aristóteles relaciona estreitamente política e moral. O fim da política é produzir a felicidade humana, através da investigação das formas de governo. O texto do exercício subordina as demais ciências à política."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_8_7",
+      "materia": "Filosofia",
+      "assunto": "Contratualismo",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "A justiça e a conformidade ao contrato consistem em algo com que a maioria dos homens parece concordar. Constitui um princípio julgado estender-se até os esconderijos dos ladrões e às confederações dos maiores vilões; até os que se afastaram a tal ponto da própria humanidade conservam entre si a fé e as regras da justiça.\nLOCKE, J. Ensaio acerca do entendimento humano. São Paulo: Nova Cultural, 2000 (adaptado).",
+      "enunciado": "De acordo com Locke, até a mais precária coletividade depende de uma noção de justiça, pois tal noção",
+      "alternativas": {
+        "A": "identifica indivíduos despreparados para a vida em comum.",
+        "B": "contribui com a manutenção da ordem e do equilíbrio social.",
+        "C": "estabelece um conjunto de regras para a formação da sociedade.",
+        "D": "determina o que é certo ou errado num contexto de interesses conflitantes.",
+        "E": "representa os interesses da coletividade, expressos pela vontade da maioria."
+      },
+      "gabarito": "B",
+      "comentario": "Locke, pensador do século XVII, é um filósofo contratualista e, portanto, postulava um “estado de natureza” original em que não haveria nenhuma autoridade política e argumentava que era do interesse de cada indivíduo entrar em acordo com os demais para estabelecer um governo comum, capaz de manter a ordem e o equilíbrio social, sendo fundamental a construção e o estabelecimento da noção clara de justiça."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_13_12",
+      "materia": "Filosofia",
+      "assunto": "Platão e o amor",
+      "banca": "INEP",
+      "ano": 2016,
+      "texto_auxiliar": "Os andróginos tentaram escalar o céu para combater os deuses. No entanto, os deuses em um primeiro momento pensam em matá-los de forma sumária. Depois decidem puni-los da forma mais cruel: dividem-nos em dois. Por exemplo, é como se pegássemos um ovo cozido e, com uma linha, dividíssemos ao meio. Desta forma, até hoje as metades separadas buscam reunir-se. Cada um com saudade de sua metade, tenta juntar-se novamente a ela, abraçando-se, enlaçando-se um ao outro, desejando formar um único ser.\nPLATÃO. O banquete. São Paulo: Nova Cultural, 1987.",
+      "enunciado": "No trecho da obra O banquete, Platão explicita, por meio de uma alegoria, o",
+      "alternativas": {
+        "A": "bem supremo como fim do homem.",
+        "B": "prazer perene como fundamento da felicidade.",
+        "C": "ideal inteligível como transcendência desejada.",
+        "D": "amor como falta constituinte do ser humano.",
+        "E": "autoconhecimento como caminho da verdade."
+      },
+      "gabarito": "D",
+      "comentario": "Para Platão, a alma preexiste e tem sua origem no mundo original das ideias, de natureza metafísica. Assim, o homem porta naturalmente uma nostalgia constituinte de um ser perfeito e belo de natureza metafísica que lhe desperta um sentimento de amor irrealizável (amor platônico). O mito dos andróginos em O Banquete será uma alegoria dessa condição humana, que é a de experimentar continuamente o amor como ausência."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_20_19",
+      "materia": "Filosofia",
+      "assunto": "Democracia e Direitos Humanos",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "O processo de justiça é um processo ora de diversificação do diverso, ora de unificação do idêntico. A igualdade entre todos os seres humanos em relação aos direitos fundamentais é o resultado de um processo de gradual eliminação de discriminações e, portanto, de unificação daquilo que ia sendo reconhecido como idêntico: uma natureza comum do homem acima de qualquer diferença de sexo, raça, religião etc.\nBOBBIO, N. Teoria geral da política: a filosofia política e as lições dos clássicos. Rio de Janeiro: Campus, 2000.",
+      "enunciado": "De acordo com o texto, a construção de uma sociedade democrática fundamenta-se em:",
+      "alternativas": {
+        "A": "A norma estabelecida pela disciplina social.",
+        "B": "A pertença dos indivíduos à mesma categoria.",
+        "C": "A ausência de constrangimentos de ordem pública.",
+        "D": "A debilitação das esperanças na condição humana.",
+        "E": "A garantia da segurança das pessoas e valores sociais."
+      },
+      "gabarito": "B",
+      "comentario": "Bobbio escreveu A Era dos Direitos, e, para esse autor, os direitos humanos são construções históricas, sem os quais não há democracia e sem democracia não existem condições mínimas para a solução pacífica dos conflitos. O primeiro passo na realização de uma sociedade democrática e plural é a eliminação de toda expressão de discriminação."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_22_21",
+      "materia": "Filosofia",
+      "assunto": "Ética aristotélica",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "Ninguém delibera sobre coisas que não podem ser de outro modo, nem sobre as que lhe é impossível fazer. Por conseguinte, como o conhecimento científico envolve demonstração, mas não há demonstração de coisas cujos primeiros princípios são variáveis (pois todas elas poderiam ser diferentemente), e como é impossível deliberar sobre coisas que são por necessidade, a sabedoria prática não pode ser ciência, nem arte: nem ciência, porque aquilo que se pode fazer é capaz de ser diferentemente, nem arte, porque o agir e o produzir são duas espécies diferentes de coisa. Resta, pois, a alternativa de ser ela uma capacidade verdadeira e raciocinada de agir com respeito às coisas que são boas ou más para o homem.\nARISTÓTELES. Ética a Nicômaco. São Paulo: Abril Cultural, 1980.",
+      "enunciado": "Aristóteles considera a ética como pertencente ao campo do saber prático. Nesse sentido, ela difere-se dos outros saberes porque é caracterizada como",
+      "alternativas": {
+        "A": "conduta definida pela capacidade racional de escolha.",
+        "B": "capacidade de escolher de acordo com padrões científicos.",
+        "C": "conhecimento das coisas importantes para a vida do homem.",
+        "D": "técnica que tem como resultado a produção de boas ações.",
+        "E": "política estabelecida de acordo com padrões democráticos de deliberação."
+      },
+      "gabarito": "A",
+      "comentario": "Para Aristóteles, todo conhecimento (ciência) resulta, não de uma necessidade de sobrevivência, mas de um ato livre e racional."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_25_24",
+      "materia": "Filosofia",
+      "assunto": "Contratualismo: Hobbes e Locke",
+      "banca": "INEP",
+      "ano": 2016,
+      "texto_auxiliar": "TEXTO I\nAté aqui expus a natureza do homem (cujo orgulho e outras paixões o obrigaram a submeter-se ao governo), juntamente com o grande poder do seu governante, o qual comparei com o Leviatã, tirando essa comparação dos dois últimos versículos do capítulo 41 de Jó, onde Deus, após ter estabelecido o grande poder do Leviatã, lhe chamou Rei dos Soberbos. Não há nada na Terra, disse ele, que se lhe possa comparar.\nHOBBES. T. O Leviatã. São Paulo: Martins Fontes, 2003\n\nTEXTO II\nEu asseguro, tranquilamente, que o governo civil é a solução adequada para as inconveniências do estado de natureza, que devem certamente ser grandes quando os homens podem ser juízes em causa própria, pois é fácil imaginar que um homem tão injusto a ponto de lesar o irmão dificilmente será justo para condenar a si mesmo pela mesma ofensa.\nLOCKE, J. Segundo tratado sobre o governo civil. Petrópolis: Vozes, 1994.",
+      "enunciado": "Thomas Hobbes e John Locke, importantes teóricos contratualistas, discutiram aspectos ligados à natureza humana e ao Estado. Thomas Hobbes, diferentemente de John Locke, entende o estado de natureza como um(a)",
+      "alternativas": {
+        "A": "condição de guerra de todos contra todos, miséria universal, insegurança e medo da morte violenta.",
+        "B": "organização pré-social e pré-política em que o homem nasce com os direitos naturais: vida, liberdade, igualdade e propriedade.",
+        "C": "capricho típico da menoridade, que deve ser eliminado pela exigência moral, para que o homem possa constituir o Estado civil.",
+        "D": "situação em que os homens nascem como detentores de livre-arbítrio, mas são feridos em sua livre decisão pelo pecado original.",
+        "E": "estado de felicidade, saúde e liberdade que é destruído pela civilização, que perturba as relações sociais e violenta a humanidade."
+      },
+      "gabarito": "A",
+      "comentario": "Para Thomas Hobbes, o homem é um ser naturalmente egoísta e inclinado à guerra e ao conflito com a alteridade, sendo o Estado o bem construído artificialmente capaz de estabelecer a ordem."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_35_34",
+      "materia": "Filosofia",
+      "assunto": "Epistemologia",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "Pode-se admitir que a experiência passada dá somente uma informação direta e segura sobre determinados objetos em determinados períodos do tempo, dos quais ela teve conhecimento. Todavia, é esta a principal questão sobre a qual gostaria de insistir: por que esta experiência tem de ser estendida a tempos futuros e a outros objetos que, pelo que sabemos, unicamente são similares em aparência. O pão que outrora comi alimentou-me, isto é, um corpo dotado de tais qualidades sensíveis estava, a este tempo, dotado de tais poderes desconhecidos. Mas, segue-se daí que este outro pão deve também alimentar-me como ocorreu na outra vez, e que qualidades sensíveis semelhantes devem sempre ser acompanhadas de poderes ocultos semelhantes? A consequência não parece de nenhum modo necessária.\nHUME, D. Investigação acerca do entendimento humano. São Paulo: Abril cultural, 1995",
+      "enunciado": "O problema descrito no texto tem como consequência a",
+      "alternativas": {
+        "A": "universabilidade do conjunto das proposições de observação.",
+        "B": "normatividade das teorias científicas que se valem da experiência.",
+        "C": "dificuldade de se fundamentar as leis científicas em bases empíricas.",
+        "D": "inviabilidade de se considerar a experiência na construção da ciência.",
+        "E": "correspondência entre afirmações singulares e afirmações universais."
+      },
+      "gabarito": "C",
+      "comentario": "Epistemologia (teoria do conhecimento) tem sido uma constante nas provas de vestibulares e de avaliação do ensino médio. David Hume, diferentemente dos inatistas ou racionalistas, para os quais o conhecimento se encontra no sujeito e na razão, é um representante do empirismo, segundo o qual o conhecimento resulta da apreensão sensível e em contato com a experiência concreta do mundo real e objetivo. O texto, contudo, mostra que a experiência pode ser insuficiente para fundamentar o conhecimento, pois este deve se basear nas percepções e nas ideias."
+    },
+    {
+      "id": "enem_enem2016-2_1dia_42_41",
+      "materia": "Filosofia",
+      "assunto": "Ética da Responsabilidade",
+      "banca": "INEP",
+      "ano": "2016",
+      "texto_auxiliar": "Fundamos, como afirmam alguns cientistas, o antropoceno: uma nova era geológica com altíssimo poder de destruição, fruto dos últimos séculos que significaram um transtorno perverso do equilíbrio do sistema-Terra. Como enfrentar esta nova situação nunca ocorrida antes de forma globalizada e profunda? Temos pessoalmente trabalhado os paradigmas da sustentabilidade e do cuidado como relação amigável e cooperativa para com a natureza. Queremos, agora, agregar a ética da responsabilidade.\nBOFF, L. Responsabilidade coletiva. Disponível em: http://leonardoboff.wordpress.com. Acesso em: 14 maio 2013.",
+      "enunciado": "A ética da responsabilidade protagonizada pelo filósofo alemão Hans Jonas e reinvindicada no texto é expressa pela máxima:",
+      "alternativas": {
+        "A": "“A tua ação possa valer como norma para todos os homens.”",
+        "B": "“A norma aceita por todos advenha da ação comunicativa e do discurso.”",
+        "C": "“A tua ação possa produzir a máxima felicidade para a maioria das pessoas.”",
+        "D": "“O teu agir almeje alcançar determinados fins que possam justificar os meios.”",
+        "E": "“O efeito de tuas ações não destrua a possibilidade futura da vida das novas gerações.”"
+      },
+      "gabarito": "E",
+      "comentario": "Hans Jonas, citado pelo teólogo brasileiro Boff, escreveu O Princípio Responsabilidade: ensaio para uma ética da civilização tecnológica, no qual elabora uma preocupação ética com as gerações futuras, princípio incorporado no conceito de sustentabilidade, em que a capacidade de produção e as necessidades de consumo do presente não comprometam o bem-estar das gerações futuras."
+    },
+    {
+      "id": "enem_enem2015_1dia_11_10",
+      "materia": "Filosofia",
+      "assunto": "Pré-socráticos",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "A filosofia grega parece começar com uma ideia absurda, com a proposição: a água é a origem e a matriz de todas as coisas. Será mesmo necessário deter-nos nela e levá-la a sério? Sim, e por três razões: em primeiro lugar, porque essa proposição enuncia algo sobre a origem das coisas; em segundo lugar, porque o faz sem imagem e fabulação; e enfim, em terceiro lugar, porque nela, embora apenas em estado de crisálida, está contido o pensamento: Tudo é um.\nNIETZSCHE. F. Crítica moderna. In: Os pré-socráticos. São Paulo: Nova Cultural. 1999",
+      "enunciado": "O que, de acordo com Nietzsche, caracteriza o surgimento da filosofia entre os gregos?",
+      "alternativas": {
+        "A": "O impulso para transformar, mediante justificativas, os elementos sensíveis em verdades racionais.",
+        "B": "O desejo de explicar, usando metáforas, a origem dos seres e das coisas.",
+        "C": "A necessidade de buscar, de forma racional, a causa primeira das coisas existentes.",
+        "D": "A ambição de expor, de maneira metódica, as diferenças entre as coisas.",
+        "E": "A tentativa de justificar, a partir de elementos empíricos, o que existe no real."
+      },
+      "gabarito": "C",
+      "comentario": "Nietzsche refere-se a um grupo de filósofos pré-socráticos chamados naturalistas, ou filósofos da physis. Esses buscavam a realidade primeira fundamental numa perspectiva cosmológica. Nietzsche valoriza o esforço desse grupo por sondarem o real de forma racional, sem 'imagem e fabulação' próprias da mitologia."
+    },
+    {
+      "id": "enem_enem2015_1dia_20_19",
+      "materia": "Filosofia",
+      "assunto": "Estado de natureza e contrato social",
+      "banca": "INEP",
+      "ano": "2015",
+      "texto_auxiliar": "A natureza fez os homens tão iguais, quanto às faculdades do corpo e do espírito, que, embora por vezes se encontre um homem manifestamente mais forte de corpo, ou de espírito mais vivo do que outro, mesmo assim, quando se considera tudo isto em conjunto, a diferença entre um e outro homem não é suficientemente considerável para que um deles possa com base nela reclamar algum benefício a que outro não possa igualmente aspirar. \nHOBBES, T. Leviatã. São Paulo Martins Fontes, 2003",
+      "enunciado": "Para Hobbes, antes da constituição da sociedade civil, quando dois homens desejavam o mesmo objeto, eles",
+      "alternativas": {
+        "A": "entravam em conflito.",
+        "B": "recorriam aos clérigos.",
+        "C": "consultavam os anciãos.",
+        "D": "apelavam aos governantes.",
+        "E": "exerciam a solidariedade."
+      },
+      "gabarito": "A",
+      "comentario": "Thomas Hobbes sustentou, em sua filosofia, uma concepção pessimista de ser humano. Em estado de natureza, o homem revela uma índole egoísta, inclinado ao conflito. Portanto, antes da constituição da sociedade civil, que para o pensador em questão era um pacto artificial, dominava o estado de guerra de todos contra todos."
+    },
+    {
+      "id": "enem_enem2015_1dia_29_28",
+      "materia": "Filosofia",
+      "assunto": "Filosofia Medieval",
+      "banca": "INEP",
+      "ano": "2015",
+      "texto_auxiliar": "Ora, em todas as coisas ordenadas a algum fim, é preciso haver algum dirigente, pelo qual se atinja diretamente o devido fim. Com efeito, um navio, que se move para diversos lados pelo impulso dos ventos contrários, não chegaria ao fim de destino, se por indústria do piloto não fosse dirigido ao porto; ora, tem o homem um fim, para o qual se ordenam toda a sua vida e ação. Acontece, porém, agirem os homens de modos diversos em vista do fim, o que a própria diversidade dos esforços e ações humanas comprova. Portanto, precisa o homem de um dirigente para o fim. \nAQUINO. T. Do reino ou do governo dos homens: ao rei do Chipre. Escritos políticos de São Tomás de Aquino. Petrópolis: Vozes, 1995 (adaptado).",
+      "enunciado": "No trecho citado, Tomás de Aquino justifica a monarquia como o regime de governo capaz de",
+      "alternativas": {
+        "A": "refrear os movimentos religiosos contestatórios.",
+        "B": "promover a atuação da sociedade civil na vida política.",
+        "C": "unir a sociedade tendo em vista a realização do bem comum.",
+        "D": "reformar a religião por meio do retorno à tradição helenística.",
+        "E": "dissociar a relação política entre os poderes temporal e espiritual."
+      },
+      "gabarito": "C",
+      "comentario": "Alternativa escolhida por eliminação, pois o trecho transcrito faz referência apenas à necessidade de existir alguém que governe, sem explicitar que esse alguém seja necessariamente um monarca (a citação de que se trata de uma carta de Tomás de Aquino ao rei de Chipre, não faz parte do texto). De qualquer forma pode-se admitir que o objetivo da argumentação do teólogo é justificar a autoridade dos reis, pois esta era a forma de governo predominante na Europa medieval, sendo – ao menos em tese –, direcionada para a realização do bem comum."
+    },
+    {
+      "id": "enem_enem2015_1dia_34_33",
+      "materia": "Filosofia",
+      "assunto": "Sofistas e relativismo moral",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "Trasímaco estava impaciente porque Sócrates e os seus amigos presumiam que a justiça era algo real e importante. Trasímaco negava isso. Em seu entender, as pessoas acreditavam no certo e no errado apenas por terem sido ensinadas a obedecer às regras da sua sociedade. No entanto, essas regras não passavam de invenções humanas. \nRACHELS. J. Problemas da filosofia. Lisboa: Gradiva, 2009.",
+      "enunciado": "O sofista Trasímaco, personagem imortalizado no diálogo A República, de Platão, sustentava que a correlação entre justiça e ética é resultado de",
+      "alternativas": {
+        "A": "determinações biológicas impregnadas na natureza humana.",
+        "B": "verdades objetivas com fundamento anterior aos interesses sociais.",
+        "C": "mandamentos divinos inquestionáveis legados das tradições antigas.",
+        "D": "convenções sociais resultantes de interesses humanos contingentes.",
+        "E": "sentimentos experimentados diante de determinadas atitudes humanas."
+      },
+      "gabarito": "D",
+      "comentario": "Trasímaco, representante dos sofistas, entendia que a justiça não era nada mais do que a conveniência do mais forte, ou seja, fazer-se de acordo com o interesse do mais forte. Os sofistas, de fato, representavam um tipo de relativismo filosófico ao qual Sócrates fazia oposição."
+    },
+    {
+      "id": "enem_enem2015_1dia_37_36",
+      "materia": "Filosofia",
+      "assunto": "Empirismo de Hume",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "Todo o poder criativo da mente se reduz a nada mais do que a faculdade de compor, transpor, aumentar ou diminuir os materiais que nos fornecem os sentidos e a experiência. Quando pensamos em uma montanha de ouro, não fazemos mais do que juntar duas ideias consistentes, ouro e montanha, que já conhecíamos. Podemos conceber um cavalo virtuoso, porque somos capazes de conceber a virtude a partir de nossos próprios sentimentos, e podemos unir a isso a figura e a forma de um cavalo, animal que nos é familiar. \nHUME, D. Investigação sobre o entendimento humano. São Paulo: Abril Cultural, 1995.",
+      "enunciado": "Hume estabelece um vínculo entre pensamento e impressão ao considerar que",
+      "alternativas": {
+        "A": "os conteúdos das ideias no intelecto têm origem na sensação.",
+        "B": "o espírito é capaz de classificar os dados da percepção sensível.",
+        "C": "as ideias fracas resultam de experiências sensoriais determinadas pelo acaso.",
+        "D": "os sentimentos ordenam como os pensamentos devem ser processados na memória.",
+        "E": "as ideias têm como fonte específica o sentimento cujos dados são colhidos na empiria."
+      },
+      "gabarito": "A",
+      "comentario": "Para Hume, as impressões e ideias são nossos conteúdos mentais. As impressões resultam diretamente da experiência imediata; e as ideias são as cópias fracas e desbotadas das impressões. Para Hume, o acaso não existe, não passando de um efeito aparente de uma causa desconhecida e oculta."
+    },
+    {
+      "id": "enem_enem2015_1dia_40_39",
+      "materia": "Filosofia",
+      "assunto": "Educação como prática da liberdade",
+      "banca": "INEP",
+      "ano": 2015,
+      "texto_auxiliar": "Apesar de seu disfarce de iniciativa e otimismo, o homem moderno está esmagado por um profundo sentimento de impotência que o faz olhar fixamente e, como que paralisado, para as catástrofes que se avizinham. Por isso, desde já, saliente-se a necessidade de uma permanente atitude crítica, o único modo pelo qual o homem realizará sua vocação natural de integrar-se, superando a atitude do simples ajustamento ou acomodação, apreendendo temas e tarefas de sua época. FREIRE. P. Educação como prática da liberdade. Rio de Janeiro: Paz e Terra. 2011.",
+      "enunciado": "Paulo Freire defende que a superação das dificuldades e a apreensão da realidade atual será obtida pelo(a)",
+      "alternativas": {
+        "A": "desenvolvimento do pensamento autônomo.",
+        "B": "obtenção de qualificação profissional.",
+        "C": "resgate de valores tradicionais.",
+        "D": "realização de desejos pessoais.",
+        "E": "aumento da renda familiar."
+      },
+      "gabarito": "A",
+      "comentario": "O fragmento do texto destacado na questão elucida a importância da educação como prática da liberdade, uma vez que, mesmo num mundo repleto de possibilidades, o homem moderno encontra-se imerso em uma grande passividade. O enunciado da questão nos remete à necessidade do desenvolvimento de um pensamento autônomo capaz de permitir que o homem moderno possa, por autocrítica, superar os problemas existentes em sua época e alcançar de fato a liberdade."
+    }
+  ]
+}

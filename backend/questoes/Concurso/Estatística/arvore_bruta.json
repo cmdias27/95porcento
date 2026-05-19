@@ -1,0 +1,1522 @@
+[
+  {
+    "id": 432469,
+    "nome": "Código de Ética Profissional do Estatístico |"
+  },
+  {
+    "id": 7124,
+    "nome": "Conceitos Iniciais |"
+  },
+  {
+    "id": 7129,
+    "nome": "Ramos da Estatística |"
+  },
+  {
+    "id": 7130,
+    "nome": "Censo |"
+  },
+  {
+    "id": 7131,
+    "nome": "Amostra |"
+  },
+  {
+    "id": 7125,
+    "nome": "Proporção Amostral |"
+  },
+  {
+    "id": 416497,
+    "nome": "Tipos de variáveis |"
+  },
+  {
+    "id": 7126,
+    "nome": "Quantitativas |"
+  },
+  {
+    "id": 416498,
+    "nome": "Discreta |"
+  },
+  {
+    "id": 416502,
+    "nome": "Contínua |"
+  },
+  {
+    "id": 7127,
+    "nome": "Qualitativas |"
+  },
+  {
+    "id": 7128,
+    "nome": "Ordinal |"
+  },
+  {
+    "id": 416514,
+    "nome": "Nominal |"
+  },
+  {
+    "id": 7142,
+    "nome": "Cálculo de Medidas Estatísticas |"
+  },
+  {
+    "id": 7143,
+    "nome": "Escalas de Medida |"
+  },
+  {
+    "id": 7147,
+    "nome": "Escala Nominal |"
+  },
+  {
+    "id": 426542,
+    "nome": "Escala Ordinal |"
+  },
+  {
+    "id": 426543,
+    "nome": "Escala Intervalar |"
+  },
+  {
+    "id": 426544,
+    "nome": "Escala de Razão |"
+  },
+  {
+    "id": 7144,
+    "nome": "Séries Estatísticas |"
+  },
+  {
+    "id": 7145,
+    "nome": "Cronológicas ou Temporais |"
+  },
+  {
+    "id": 7146,
+    "nome": "Geográficas ou de Localização |"
+  },
+  {
+    "id": 426546,
+    "nome": "Mistas |"
+  },
+  {
+    "id": 426547,
+    "nome": "Métodos de Coleta de Dados |"
+  },
+  {
+    "id": 426548,
+    "nome": "População |"
+  },
+  {
+    "id": 426549,
+    "nome": "Softwares Estatísticos |"
+  },
+  {
+    "id": 426550,
+    "nome": "Planejamento de Pesquisas |"
+  },
+  {
+    "id": 426551,
+    "nome": "Pesquisas Quantitativas |"
+  },
+  {
+    "id": 426552,
+    "nome": "Pesquisas Qualitativas |"
+  },
+  {
+    "id": 416549,
+    "nome": "Estatística Descritiva |"
+  },
+  {
+    "id": 426553,
+    "nome": "Distribuições de Frequências |"
+  },
+  {
+    "id": 426556,
+    "nome": "Elementos de uma Distribuição de Frequências |"
+  },
+  {
+    "id": 426557,
+    "nome": "Classe |"
+  },
+  {
+    "id": 426558,
+    "nome": "Limites de Classe |"
+  },
+  {
+    "id": 426559,
+    "nome": "Amplitude de um Intervalo de Classe |"
+  },
+  {
+    "id": 426560,
+    "nome": "Amplitude Total da Distribuição |"
+  },
+  {
+    "id": 426561,
+    "nome": "Ponto Médio de uma Classe |"
+  },
+  {
+    "id": 426562,
+    "nome": "Tipos de Frequências |"
+  },
+  {
+    "id": 426563,
+    "nome": "Frequência Absoluta Simples |"
+  },
+  {
+    "id": 426564,
+    "nome": "Frequência Relativa Simples |"
+  },
+  {
+    "id": 426565,
+    "nome": "Frequências Acumuladas |"
+  },
+  {
+    "id": 426566,
+    "nome": "Frequência Acumulada Crescente |"
+  },
+  {
+    "id": 426567,
+    "nome": "Frequência Acumulada Decrescente |"
+  },
+  {
+    "id": 426568,
+    "nome": "Densidade de Frequência |"
+  },
+  {
+    "id": 426554,
+    "nome": "Variáveis |"
+  },
+  {
+    "id": 426555,
+    "nome": "Gráficos Estatísticos e Formas de Organização de Dados |"
+  },
+  {
+    "id": 7179,
+    "nome": "Formas Não Agrupadas de Apresentação de Dados |"
+  },
+  {
+    "id": 7178,
+    "nome": "Dados Brutos |"
+  },
+  {
+    "id": 7182,
+    "nome": "ROL |"
+  },
+  {
+    "id": 400226,
+    "nome": "Somatório |"
+  },
+  {
+    "id": 7181,
+    "nome": "Diagrama de Ramos e Folhas (Stem and Leaf) |"
+  },
+  {
+    "id": 7183,
+    "nome": "Gráfico de Colunas ou Barras Justapostas |"
+  },
+  {
+    "id": 7188,
+    "nome": "Gráfico de Setores (ou de Pizza) |"
+  },
+  {
+    "id": 7180,
+    "nome": "Gráfico de Linhas |"
+  },
+  {
+    "id": 7184,
+    "nome": "Gráfico de Hastes ou Bastões |"
+  },
+  {
+    "id": 7176,
+    "nome": "Histograma |"
+  },
+  {
+    "id": 400223,
+    "nome": "Polígono de Frequência |"
+  },
+  {
+    "id": 7191,
+    "nome": "Histograma Baseado em Densidade de Frequência |"
+  },
+  {
+    "id": 7192,
+    "nome": "Medidas de Posição (ou de tendência central) |"
+  },
+  {
+    "id": 7193,
+    "nome": "Médias |"
+  },
+  {
+    "id": 7194,
+    "nome": "Média Aritmética |"
+  },
+  {
+    "id": 426577,
+    "nome": "Média para dados em Rol |"
+  },
+  {
+    "id": 426578,
+    "nome": "Propriedades da Média Aritmética |"
+  },
+  {
+    "id": 426579,
+    "nome": "Média para dados agrupados por valor |"
+  },
+  {
+    "id": 426580,
+    "nome": "Utilização da Variável Auxiliar |"
+  },
+  {
+    "id": 426581,
+    "nome": "Média para Dados em Classe |"
+  },
+  {
+    "id": 7195,
+    "nome": "Média Ponderada |"
+  },
+  {
+    "id": 7196,
+    "nome": "Média para Dados Agrupados por Valor |"
+  },
+  {
+    "id": 7197,
+    "nome": "Média para Dados Agrupados por Classe |"
+  },
+  {
+    "id": 7198,
+    "nome": "Cálculo da Média por Mudança de Variável |"
+  },
+  {
+    "id": 7199,
+    "nome": "Média Geométrica |"
+  },
+  {
+    "id": 7200,
+    "nome": "Média Harmônica |"
+  },
+  {
+    "id": 7201,
+    "nome": "Desigualdade das Médias |"
+  },
+  {
+    "id": 7202,
+    "nome": "Mediana |"
+  },
+  {
+    "id": 7203,
+    "nome": "Mediana para Dados Não-Agrupados |"
+  },
+  {
+    "id": 7204,
+    "nome": "Mediana para Dados Agrupados sem Intervalos de Classe |"
+  },
+  {
+    "id": 7205,
+    "nome": "Mediana para Dados Agrupados em Classes |"
+  },
+  {
+    "id": 426582,
+    "nome": "Propriedades da Mediana |"
+  },
+  {
+    "id": 7185,
+    "nome": "Quartil, Decil e Percentil |"
+  },
+  {
+    "id": 7187,
+    "nome": "Box Plot |"
+  },
+  {
+    "id": 7206,
+    "nome": "Moda |"
+  },
+  {
+    "id": 7207,
+    "nome": "Moda para dados Não-Agrupados |"
+  },
+  {
+    "id": 7209,
+    "nome": "Moda para dados agrupados sem Intervalos de Classe |"
+  },
+  {
+    "id": 7210,
+    "nome": "Moda de Pearson |"
+  },
+  {
+    "id": 426583,
+    "nome": "Moda Bruta |"
+  },
+  {
+    "id": 426584,
+    "nome": "Moda de Czuber |"
+  },
+  {
+    "id": 7208,
+    "nome": "Moda de King |"
+  },
+  {
+    "id": 7211,
+    "nome": "Propriedades da Moda |"
+  },
+  {
+    "id": 7189,
+    "nome": "Moda para dados agrupados por classe |"
+  },
+  {
+    "id": 7212,
+    "nome": "Medidas de Variabilidade (ou de dispersão) |"
+  },
+  {
+    "id": 7175,
+    "nome": "Amplitude |"
+  },
+  {
+    "id": 7216,
+    "nome": "Amplitude para dados em classe |"
+  },
+  {
+    "id": 7218,
+    "nome": "Propriedades da Amplitude |"
+  },
+  {
+    "id": 416496,
+    "nome": "Amplitude Interquartílica |"
+  },
+  {
+    "id": 7224,
+    "nome": "Desvio Absoluto Médio |"
+  },
+  {
+    "id": 7225,
+    "nome": "Propriedades do Desvio Médio |"
+  },
+  {
+    "id": 7217,
+    "nome": "Desvio Médio para Dados em Classe |"
+  },
+  {
+    "id": 7219,
+    "nome": "Variância |"
+  },
+  {
+    "id": 7220,
+    "nome": "Propriedades da Variância |"
+  },
+  {
+    "id": 7221,
+    "nome": "Variância para Dados em Classe |"
+  },
+  {
+    "id": 7222,
+    "nome": "Uso da Variável Auxiliar para Cálculo da Variância |"
+  },
+  {
+    "id": 7223,
+    "nome": "Variância da União de Dois Conjuntos |"
+  },
+  {
+    "id": 7228,
+    "nome": "Desvio Padrão |"
+  },
+  {
+    "id": 426591,
+    "nome": "Propriedades do Desvio Padrão |"
+  },
+  {
+    "id": 426592,
+    "nome": "Desvio Padrão para Dados em Classe |"
+  },
+  {
+    "id": 426593,
+    "nome": "Propriedades das Medidas de Posição Relacionadas a Desvios |"
+  },
+  {
+    "id": 7229,
+    "nome": "Coeficiente de Variação |"
+  },
+  {
+    "id": 7230,
+    "nome": "Variância Relativa |"
+  },
+  {
+    "id": 7227,
+    "nome": "Covariância e Correlação |"
+  },
+  {
+    "id": 7226,
+    "nome": "Coeficiente de variação de Pearson |"
+  },
+  {
+    "id": 7215,
+    "nome": "Propriedades da Covariância |"
+  },
+  {
+    "id": 7213,
+    "nome": "Variância da Soma e da Diferença |"
+  },
+  {
+    "id": 7214,
+    "nome": "Propriedades das Medidas de Variabilidade |"
+  },
+  {
+    "id": 426594,
+    "nome": "Medidas de Desigualdade e Concentração |"
+  },
+  {
+    "id": 426595,
+    "nome": "Medidas de Desigualdade |"
+  },
+  {
+    "id": 426596,
+    "nome": "Curva de Lorenz e o Índice de Gini |"
+  },
+  {
+    "id": 426597,
+    "nome": "Discrepância Máxima |"
+  },
+  {
+    "id": 426598,
+    "nome": "Medidas de Concentração |"
+  },
+  {
+    "id": 426599,
+    "nome": "Razão de Concentração |"
+  },
+  {
+    "id": 426600,
+    "nome": "Índice de Hirschman-Herfindahl |"
+  },
+  {
+    "id": 426602,
+    "nome": "Comportamento dos Índices IHH e IR |"
+  },
+  {
+    "id": 416541,
+    "nome": "Momentos de uma Distribuição de Frequências |"
+  },
+  {
+    "id": 426603,
+    "nome": "Em Relação à Média e à Origem |"
+  },
+  {
+    "id": 400221,
+    "nome": "Em Relação à Média (momentos centrais) |"
+  },
+  {
+    "id": 400224,
+    "nome": "Em Relação à Origem |"
+  },
+  {
+    "id": 416518,
+    "nome": "Para Variáveis Aleatórias |"
+  },
+  {
+    "id": 416519,
+    "nome": "Para Variáveis Discretas |"
+  },
+  {
+    "id": 400225,
+    "nome": "Para Variáveis Contínuas |"
+  },
+  {
+    "id": 426604,
+    "nome": "Função Geradora de Momentos |"
+  },
+  {
+    "id": 400222,
+    "nome": "Caso de Variáveis Discretas |"
+  },
+  {
+    "id": 416516,
+    "nome": "Caso de Variáveis Contínuas |"
+  },
+  {
+    "id": 7251,
+    "nome": "Assimetria |"
+  },
+  {
+    "id": 7252,
+    "nome": "Aspectos Gerais |"
+  },
+  {
+    "id": 7253,
+    "nome": "Diferença entre Quartis |"
+  },
+  {
+    "id": 426607,
+    "nome": "Coeficientes de Assimetria |"
+  },
+  {
+    "id": 7244,
+    "nome": "Curtose |"
+  },
+  {
+    "id": 7238,
+    "nome": "Coeficientes de Curtose |"
+  },
+  {
+    "id": 7254,
+    "nome": "Correlação Linear |"
+  },
+  {
+    "id": 7255,
+    "nome": "Coeficiente de Correlação Linear |"
+  },
+  {
+    "id": 7256,
+    "nome": "Sinal do Coeficiente de Correlação Linear |"
+  },
+  {
+    "id": 7258,
+    "nome": "Propriedades do Coeficiente de Correlação Linear |"
+  },
+  {
+    "id": 7265,
+    "nome": "Análise de Correlação |"
+  },
+  {
+    "id": 7266,
+    "nome": "Coeficiente de Correlação Ordinal de Spearman |"
+  },
+  {
+    "id": 7267,
+    "nome": "Números Índices |"
+  },
+  {
+    "id": 7269,
+    "nome": "Números Relativos |"
+  },
+  {
+    "id": 7270,
+    "nome": "Índice Simples de Preços Agregados |"
+  },
+  {
+    "id": 7276,
+    "nome": "Mudança de Base |"
+  },
+  {
+    "id": 7280,
+    "nome": "Índices de Preço |"
+  },
+  {
+    "id": 7278,
+    "nome": "Índice de Laspeyres |"
+  },
+  {
+    "id": 7279,
+    "nome": "Índice de Paasche |"
+  },
+  {
+    "id": 7281,
+    "nome": "Índice de Fisher |"
+  },
+  {
+    "id": 7282,
+    "nome": "Índice de Valor |"
+  },
+  {
+    "id": 7268,
+    "nome": "Cálculo de Valores Reais ou Deflacionados |"
+  },
+  {
+    "id": 416517,
+    "nome": "Medidas de Associação |"
+  },
+  {
+    "id": 416521,
+    "nome": "Kappa |"
+  },
+  {
+    "id": 7132,
+    "nome": "Amostragem |"
+  },
+  {
+    "id": 416526,
+    "nome": "Definições |"
+  },
+  {
+    "id": 7133,
+    "nome": "Tipos de Amostragem |"
+  },
+  {
+    "id": 7136,
+    "nome": "Amostragem Aleatória Simples |"
+  },
+  {
+    "id": 7137,
+    "nome": "Amostragem por Estratificação |"
+  },
+  {
+    "id": 7138,
+    "nome": "Amostragem Por Conglomerados |"
+  },
+  {
+    "id": 416527,
+    "nome": "Amostragem Sistemática |"
+  },
+  {
+    "id": 416525,
+    "nome": "Amostragem por Conveniência (ou acidental) |"
+  },
+  {
+    "id": 7134,
+    "nome": "Amostragem Por Julgamento |"
+  },
+  {
+    "id": 7135,
+    "nome": "Amostragem por Cotas (ou proporcional) |"
+  },
+  {
+    "id": 416550,
+    "nome": "Estimadores |"
+  },
+  {
+    "id": 416551,
+    "nome": "Estimador Razão |"
+  },
+  {
+    "id": 416528,
+    "nome": "Estimador Regressão |"
+  },
+  {
+    "id": 426608,
+    "nome": "Estatística Inferencial |"
+  },
+  {
+    "id": 426609,
+    "nome": "Estimadores |"
+  },
+  {
+    "id": 426610,
+    "nome": "Estimador não Tendencioso |"
+  },
+  {
+    "id": 7264,
+    "nome": "Estimador de Variância Mínima |"
+  },
+  {
+    "id": 7263,
+    "nome": "Estimador de Mínimos Quadrados |"
+  },
+  {
+    "id": 7262,
+    "nome": "Estimador de Máxima Verossimilhança |"
+  },
+  {
+    "id": 7261,
+    "nome": "Estimador de Momentos |"
+  },
+  {
+    "id": 7260,
+    "nome": "Propriedades Assintóticas |"
+  },
+  {
+    "id": 416524,
+    "nome": "Estimadores de Bayes |"
+  },
+  {
+    "id": 416523,
+    "nome": "Distribuição Amostral dos Estimadores |"
+  },
+  {
+    "id": 416522,
+    "nome": "Distribuição Amostral da Média |"
+  },
+  {
+    "id": 7284,
+    "nome": "Fator de Correção para População Finita |"
+  },
+  {
+    "id": 7304,
+    "nome": "Média Amostral e Distribuição Normal |"
+  },
+  {
+    "id": 7291,
+    "nome": "Características da Média Amostral |"
+  },
+  {
+    "id": 7290,
+    "nome": "Distribuição Amostral da Variância |"
+  },
+  {
+    "id": 7161,
+    "nome": "Distribuição Amostral da Proporção |"
+  },
+  {
+    "id": 7160,
+    "nome": "Fator de Correção para População Finita |"
+  },
+  {
+    "id": 7233,
+    "nome": "Intervalos de Confiança |"
+  },
+  {
+    "id": 400220,
+    "nome": "Para a Média |"
+  },
+  {
+    "id": 7162,
+    "nome": "Para µ quando a variância é conhecida |"
+  },
+  {
+    "id": 7157,
+    "nome": "Para µ quando a variância é desconhecida |"
+  },
+  {
+    "id": 416537,
+    "nome": "Para uma Proporção |"
+  },
+  {
+    "id": 416538,
+    "nome": "Para a Variância |"
+  },
+  {
+    "id": 416539,
+    "nome": "Tamanho da Amostra e Erro Máximo |"
+  },
+  {
+    "id": 416540,
+    "nome": "Para o Desvio Padrão |"
+  },
+  {
+    "id": 428031,
+    "nome": "Erro padrão |"
+  },
+  {
+    "id": 416536,
+    "nome": "Testes de Hipóteses |"
+  },
+  {
+    "id": 7297,
+    "nome": "Tipos de Erro |"
+  },
+  {
+    "id": 7298,
+    "nome": "Testes de Hipóteses para a Média |"
+  },
+  {
+    "id": 7299,
+    "nome": "População Normal com Variância Conhecida |"
+  },
+  {
+    "id": 7300,
+    "nome": "População Normal com Variância Desconhecida |"
+  },
+  {
+    "id": 7308,
+    "nome": "Tipos de Testes |"
+  },
+  {
+    "id": 7307,
+    "nome": "Teste de Tukey |"
+  },
+  {
+    "id": 7306,
+    "nome": "P-Valor |"
+  },
+  {
+    "id": 7305,
+    "nome": "Testes de Hipóteses para Proporções |"
+  },
+  {
+    "id": 7295,
+    "nome": "Usando a Distribuição Binomial |"
+  },
+  {
+    "id": 7303,
+    "nome": "Usando a Distribuição Normal |"
+  },
+  {
+    "id": 7292,
+    "nome": "Distribuição Qui-Quadrado e Testes de Hipóteses |"
+  },
+  {
+    "id": 7293,
+    "nome": "Teste para a Variância |"
+  },
+  {
+    "id": 7294,
+    "nome": "Teste Qui-Quadrado |"
+  },
+  {
+    "id": 7296,
+    "nome": "Análise de Variância (ANOVA) |"
+  },
+  {
+    "id": 7301,
+    "nome": "Hipóteses do Modelo |"
+  },
+  {
+    "id": 7302,
+    "nome": "Somas de Quadrados |"
+  },
+  {
+    "id": 7289,
+    "nome": "Graus de Liberdade |"
+  },
+  {
+    "id": 7288,
+    "nome": "Distribuição de Qui-Quadrados e Soma de Quadrados |"
+  },
+  {
+    "id": 7287,
+    "nome": "Quadrados Médios |"
+  },
+  {
+    "id": 7286,
+    "nome": "A Distribuição F (Teste F) |"
+  },
+  {
+    "id": 7285,
+    "nome": "Outros Testes |"
+  },
+  {
+    "id": 7283,
+    "nome": "Conceitos básicos de Testes de Hipóteses |"
+  },
+  {
+    "id": 7159,
+    "nome": "Significância |"
+  },
+  {
+    "id": 7158,
+    "nome": "Poder |"
+  },
+  {
+    "id": 7148,
+    "nome": "Regressão |"
+  },
+  {
+    "id": 7149,
+    "nome": "Regressão Linear Simples |"
+  },
+  {
+    "id": 7167,
+    "nome": "Aspectos Teóricos |"
+  },
+  {
+    "id": 7166,
+    "nome": "Análise de Variância da Regressão Simples |"
+  },
+  {
+    "id": 7168,
+    "nome": "Somas de Quadrados |"
+  },
+  {
+    "id": 7165,
+    "nome": "Quadrados Médios e Estatística de F |"
+  },
+  {
+    "id": 7164,
+    "nome": "Coeficiente de Determinação |"
+  },
+  {
+    "id": 7174,
+    "nome": "Inferência sobre as Estimativas dos Parâmetros |"
+  },
+  {
+    "id": 7173,
+    "nome": "Variância da Estimativa de Y |"
+  },
+  {
+    "id": 7172,
+    "nome": "Erro de Previsão |"
+  },
+  {
+    "id": 7171,
+    "nome": "Cálculo dos Coeficientes de Regressão |"
+  },
+  {
+    "id": 7170,
+    "nome": "Predição do Valor da Variável Dependente |"
+  },
+  {
+    "id": 7169,
+    "nome": "Análise de Resíduos |"
+  },
+  {
+    "id": 7150,
+    "nome": "Regressão Linear Múltipla |"
+  },
+  {
+    "id": 7151,
+    "nome": "Aspectos Teóricos |"
+  },
+  {
+    "id": 7152,
+    "nome": "Análise de Variância da Regressão Múltipla |"
+  },
+  {
+    "id": 7163,
+    "nome": "Somas de Quadrados |"
+  },
+  {
+    "id": 7250,
+    "nome": "Quadrados Médios e Estatística de F |"
+  },
+  {
+    "id": 7249,
+    "nome": "Coeficiente de Determinação |"
+  },
+  {
+    "id": 7153,
+    "nome": "Inferência sobre as Estimativas dos Parâmetros |"
+  },
+  {
+    "id": 7248,
+    "nome": "Variância da Estimativa de Y |"
+  },
+  {
+    "id": 7154,
+    "nome": "Cálculo dos Coeficientes de Regressão |"
+  },
+  {
+    "id": 7155,
+    "nome": "Predição do Valor da Variável Dependente |"
+  },
+  {
+    "id": 7156,
+    "nome": "Análise de Resíduos |"
+  },
+  {
+    "id": 426611,
+    "nome": "Regressão Não Linear |"
+  },
+  {
+    "id": 7231,
+    "nome": "Séries Temporais |"
+  },
+  {
+    "id": 7232,
+    "nome": "Tendência Secular |"
+  },
+  {
+    "id": 7245,
+    "nome": "Variação Sazonal |"
+  },
+  {
+    "id": 7246,
+    "nome": "Variação Cíclica |"
+  },
+  {
+    "id": 7237,
+    "nome": "Variações Aleatórias |"
+  },
+  {
+    "id": 7234,
+    "nome": "Modelos de Séries Temporais |"
+  },
+  {
+    "id": 7235,
+    "nome": "Modelo Aditivo |"
+  },
+  {
+    "id": 7236,
+    "nome": "Modelo Multiplicativo |"
+  },
+  {
+    "id": 7242,
+    "nome": "Operadores |"
+  },
+  {
+    "id": 7243,
+    "nome": "Funções de Autocovariância e Autocorrelação |"
+  },
+  {
+    "id": 7241,
+    "nome": "Modelos ARIMA |"
+  },
+  {
+    "id": 7240,
+    "nome": "Modelos Autorregressivos (AR) |"
+  },
+  {
+    "id": 426612,
+    "nome": "Estacionariedade e Invertibilidade |"
+  },
+  {
+    "id": 7239,
+    "nome": "Modelos de Médias Móveis (MA) |"
+  },
+  {
+    "id": 426613,
+    "nome": "Modelos ARMA |"
+  },
+  {
+    "id": 426614,
+    "nome": "Modelos não Estacionários |"
+  },
+  {
+    "id": 426615,
+    "nome": "Estacionariedade |"
+  },
+  {
+    "id": 426616,
+    "nome": "Critérios de Informação |"
+  },
+  {
+    "id": 426617,
+    "nome": "Aspectos Gerais |"
+  },
+  {
+    "id": 416542,
+    "nome": "Análise Multivariada |"
+  },
+  {
+    "id": 416543,
+    "nome": "Distribuição Normal Multivariada |"
+  },
+  {
+    "id": 416544,
+    "nome": "Distribuição Multinomial |"
+  },
+  {
+    "id": 416545,
+    "nome": "Dados Multivariados |"
+  },
+  {
+    "id": 416547,
+    "nome": "Análise de Agrupamentos (Clustering) |"
+  },
+  {
+    "id": 426618,
+    "nome": "Medidas de Proximidade |"
+  },
+  {
+    "id": 416546,
+    "nome": "Análise Fatorial |"
+  },
+  {
+    "id": 426619,
+    "nome": "Análise dos Componentes Principais |"
+  },
+  {
+    "id": 426620,
+    "nome": "Análise de Fatores Comuns |"
+  },
+  {
+    "id": 426621,
+    "nome": "Análise Discriminante |"
+  },
+  {
+    "id": 426622,
+    "nome": "Análise de Correspondência |"
+  },
+  {
+    "id": 426623,
+    "nome": "Análise de Regressão Logística |"
+  },
+  {
+    "id": 426625,
+    "nome": "Análise de Correlação Canônica |"
+  },
+  {
+    "id": 7139,
+    "nome": "Probabilidade |"
+  },
+  {
+    "id": 7140,
+    "nome": "Aspectos Introdutórios |"
+  },
+  {
+    "id": 426626,
+    "nome": "Espaço Amostral |"
+  },
+  {
+    "id": 426627,
+    "nome": "Eventos |"
+  },
+  {
+    "id": 426628,
+    "nome": "Eventos Complementares |"
+  },
+  {
+    "id": 426629,
+    "nome": "Eventos Independentes |"
+  },
+  {
+    "id": 426630,
+    "nome": "Eventos Mutuamente Exclusivos |"
+  },
+  {
+    "id": 426631,
+    "nome": "Definição Clássica de Probabilidade (Laplace) |"
+  },
+  {
+    "id": 426632,
+    "nome": "Probabilidade como Frequência Relativa |"
+  },
+  {
+    "id": 426633,
+    "nome": "Combinações de Eventos |"
+  },
+  {
+    "id": 426638,
+    "nome": "Propriedades sobre Probabilidades |"
+  },
+  {
+    "id": 426639,
+    "nome": "Definição Axiomática de Probabilidade |"
+  },
+  {
+    "id": 426640,
+    "nome": "Experimento Aleatório |"
+  },
+  {
+    "id": 7141,
+    "nome": "Probabilidade Condicional |"
+  },
+  {
+    "id": 426641,
+    "nome": "Teorema da Multiplicação |"
+  },
+  {
+    "id": 426642,
+    "nome": "Independência de Três Eventos |"
+  },
+  {
+    "id": 426643,
+    "nome": "Teorema da Probabilidade Total |"
+  },
+  {
+    "id": 426644,
+    "nome": "Teorema de Bayes |"
+  },
+  {
+    "id": 416506,
+    "nome": "Probabilidade da Intersecção |"
+  },
+  {
+    "id": 416507,
+    "nome": "Probabilidade da União |"
+  },
+  {
+    "id": 416508,
+    "nome": "Probabilidade do Evento Complementar |"
+  },
+  {
+    "id": 416509,
+    "nome": "Variáveis Aleatórias |"
+  },
+  {
+    "id": 426645,
+    "nome": "Discretas |"
+  },
+  {
+    "id": 426646,
+    "nome": "Contínuas |"
+  },
+  {
+    "id": 416510,
+    "nome": "Distribuições Teóricas de Probabilidade |"
+  },
+  {
+    "id": 426647,
+    "nome": "Discretas |"
+  },
+  {
+    "id": 426648,
+    "nome": "Uniforme Discreta |"
+  },
+  {
+    "id": 426649,
+    "nome": "De Bernoulli |"
+  },
+  {
+    "id": 426650,
+    "nome": "Binomial |"
+  },
+  {
+    "id": 426651,
+    "nome": "Média e Variância da Distribuição Binomial |"
+  },
+  {
+    "id": 426652,
+    "nome": "Distribuição Binomial e Proporções |"
+  },
+  {
+    "id": 426653,
+    "nome": "Geométrica |"
+  },
+  {
+    "id": 426654,
+    "nome": "Hipergeométrica |"
+  },
+  {
+    "id": 426655,
+    "nome": "De Poisson |"
+  },
+  {
+    "id": 426656,
+    "nome": "Binomial Negativa (Pascal) |"
+  },
+  {
+    "id": 426657,
+    "nome": "Comparação entre a Binomial e a Binomial Negativa |"
+  },
+  {
+    "id": 426658,
+    "nome": "Comparação entre a Geométrica e a Binomial Negativa |"
+  },
+  {
+    "id": 426659,
+    "nome": "Esperança e Variância da Binomial Negativa |"
+  },
+  {
+    "id": 426660,
+    "nome": "Multinomial |"
+  },
+  {
+    "id": 426661,
+    "nome": "Contínuas |"
+  },
+  {
+    "id": 426662,
+    "nome": "Uniforme Contínua |"
+  },
+  {
+    "id": 426663,
+    "nome": "Exponencial |"
+  },
+  {
+    "id": 426664,
+    "nome": "Normal |"
+  },
+  {
+    "id": 426665,
+    "nome": "Propriedades da Curva Normal |"
+  },
+  {
+    "id": 426666,
+    "nome": "Distribuição Normal Padrão |"
+  },
+  {
+    "id": 426667,
+    "nome": "Aproximação da Binomial pela Normal |"
+  },
+  {
+    "id": 426668,
+    "nome": "Soma de Variáveis Aleatórias Normais |"
+  },
+  {
+    "id": 426669,
+    "nome": "Distribuição Normal Bivariada |"
+  },
+  {
+    "id": 426670,
+    "nome": "Gama |"
+  },
+  {
+    "id": 426671,
+    "nome": "Qui-Quadrado |"
+  },
+  {
+    "id": 426672,
+    "nome": "Student |"
+  },
+  {
+    "id": 426673,
+    "nome": "Snedecor |"
+  },
+  {
+    "id": 426674,
+    "nome": "Beta |"
+  },
+  {
+    "id": 426675,
+    "nome": "Distribuições Conjuntas, Marginais e Condicionais |"
+  },
+  {
+    "id": 426676,
+    "nome": "Caso Contínuo |"
+  },
+  {
+    "id": 426677,
+    "nome": "Caso Discreto |"
+  },
+  {
+    "id": 426678,
+    "nome": "Distribuição Conjunta de Duas Variáveis Aleatórias |"
+  },
+  {
+    "id": 416511,
+    "nome": "Esperança Matemática |"
+  },
+  {
+    "id": 426679,
+    "nome": "Propriedades da Esperança Matemática |"
+  },
+  {
+    "id": 416512,
+    "nome": "Função de Distribuição |"
+  },
+  {
+    "id": 426634,
+    "nome": "Teorema de Chebyshev |"
+  },
+  {
+    "id": 426635,
+    "nome": "Lei dos Grandes Números |"
+  },
+  {
+    "id": 426636,
+    "nome": "Teorema Central do Limite |"
+  },
+  {
+    "id": 426637,
+    "nome": "Função de Distribuição Acumulada |"
+  },
+  {
+    "id": 426680,
+    "nome": "Controle Estatístico de Qualidade |"
+  },
+  {
+    "id": 426685,
+    "nome": "Gráficos de Controle |"
+  },
+  {
+    "id": 426686,
+    "nome": "Gráfico de Controle para a Média |"
+  },
+  {
+    "id": 426687,
+    "nome": "Gráfico de Controle para Variação |"
+  },
+  {
+    "id": 426688,
+    "nome": "Gráfico de Controle para o Desvio Padrão |"
+  },
+  {
+    "id": 426689,
+    "nome": "Gráfico de Controle para Atributos |"
+  },
+  {
+    "id": 426681,
+    "nome": "Modelagem e Simulação |"
+  },
+  {
+    "id": 426690,
+    "nome": "Simulação de Monte Carlo |"
+  },
+  {
+    "id": 426691,
+    "nome": "Amostrador de Gibbs |"
+  },
+  {
+    "id": 426692,
+    "nome": "Jacknife |"
+  },
+  {
+    "id": 426682,
+    "nome": "Planejamento de Experimentos (Delineamento de Experimentos) |"
+  },
+  {
+    "id": 426693,
+    "nome": "Estudos Observacionais |"
+  },
+  {
+    "id": 426694,
+    "nome": "Estudos Experimentais |"
+  },
+  {
+    "id": 426683,
+    "nome": "Estatística Aplicada |"
+  },
+  {
+    "id": 426695,
+    "nome": "Bioestatística |"
+  },
+  {
+    "id": 426699,
+    "nome": "Bioestatística aplicada à Medicina |"
+  },
+  {
+    "id": 426703,
+    "nome": "Bioestatística aplicada à Enfermagem |"
+  },
+  {
+    "id": 426696,
+    "nome": "Geoestatística |"
+  },
+  {
+    "id": 426704,
+    "nome": "Geoestatística aplicada à agricultura de precisão |"
+  },
+  {
+    "id": 426705,
+    "nome": "Geoestatística aplicada à mineração |"
+  },
+  {
+    "id": 426707,
+    "nome": "Geoestatística aplicada ao petróleo |"
+  },
+  {
+    "id": 426708,
+    "nome": "Geoestatística aplicada ao inventário florestal |"
+  },
+  {
+    "id": 426697,
+    "nome": "Estatística Aplicada à Teoria da Informação |"
+  },
+  {
+    "id": 426698,
+    "nome": "Estatística aplicada à Demografia |"
+  },
+  {
+    "id": 416529,
+    "nome": "Estatística não paramétrica |"
+  },
+  {
+    "id": 416530,
+    "nome": "Testes não-paramétricos |"
+  },
+  {
+    "id": 416531,
+    "nome": "Teste da Soma das Ordens (Wilcoxon) |"
+  },
+  {
+    "id": 416532,
+    "nome": "Teste de Mann-Whitney |"
+  },
+  {
+    "id": 416533,
+    "nome": "Teste do Sinal |"
+  },
+  {
+    "id": 416534,
+    "nome": "Teste das Ordens Assinaladas |"
+  },
+  {
+    "id": 416535,
+    "nome": "Teste de Kruskal-Wallis |"
+  },
+  {
+    "id": 426684,
+    "nome": "Processos Estocásticos |"
+  },
+  {
+    "id": 426710,
+    "nome": "Classificação dos Processos Estocásticos |"
+  },
+  {
+    "id": 426713,
+    "nome": "Classificação quanto ao Estado |"
+  },
+  {
+    "id": 426714,
+    "nome": "Estado Discreto |"
+  },
+  {
+    "id": 426716,
+    "nome": "Classificação quanto ao Tempo |"
+  },
+  {
+    "id": 426717,
+    "nome": "Tempo Discreto |"
+  },
+  {
+    "id": 426718,
+    "nome": "Tempo Contínuo |"
+  },
+  {
+    "id": 426711,
+    "nome": "Cadeias de Markov |"
+  },
+  {
+    "id": 426712,
+    "nome": "Processos de Poisson |"
+  }
+]
