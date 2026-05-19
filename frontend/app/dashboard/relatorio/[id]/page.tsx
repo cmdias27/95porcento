@@ -156,7 +156,7 @@ export default function RelatorioFinal() {
   const [relatorio, setRelatorio] = useState<any>(null);
   const [carregando, setCarregando] = useState(true);
   const [gabaritosRevelados, setGabaritosRevelados] = useState<Set<string>>(new Set());
-  const [openSections, setOpenSections] = useState<Set<string>>(new Set());
+  const [openSections, setOpenSections] = useState<Set<string>>(new Set(["mentor"]));
 
   const toggleGabarito = (id: string) => setGabaritosRevelados(prev => {
     const n = new Set(prev);
