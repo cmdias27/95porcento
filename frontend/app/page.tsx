@@ -453,22 +453,25 @@ export default function LandingPage() {
       ))}
 
       {/* Nav */}
-      <nav className="relative z-20 flex items-center justify-between px-6 py-4 flex-shrink-0">
+      <nav className="relative z-20 flex items-center justify-between px-8 h-20 flex-shrink-0 bg-white/80 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        {/* Logo */}
         <Logo size="lg" />
+
+        {/* Botões */}
         <div className="flex items-center gap-3">
           <motion.button
             whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
             onClick={() => router.push("/login")}
-            className="text-xs font-black uppercase tracking-widest text-slate-500 hover:text-slate-900 transition-colors px-3 py-2"
+            className="text-xs font-black uppercase tracking-widest text-slate-500 hover:text-slate-900 transition-colors px-4 py-2"
           >
             Entrar
           </motion.button>
           <motion.button
             whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
             onClick={() => router.push("/login")}
-            className="text-xs font-black uppercase tracking-widest bg-black text-white px-4 py-2 rounded-xl hover:bg-blue-600 transition-colors"
+            className="text-xs font-black uppercase tracking-widest bg-black text-white px-5 py-2.5 rounded-xl hover:bg-blue-600 transition-colors shadow-sm"
           >
-            Começar
+            Começar →
           </motion.button>
         </div>
       </nav>
