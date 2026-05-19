@@ -55,10 +55,12 @@ export interface DadosPerfil {
   score_medio: number;
 }
 
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+
 export async function fetchPerfilCognitivo(): Promise<DadosPerfil> {
   // 🔒 UID lido do token JWT pelo backend — não enviamos uid na URL
   const res = await apiFetch(
-    `http://127.0.0.1:5000/api/perfil-cognitivo-dados`
+    `${API_BASE_URL}/api/perfil-cognitivo-dados`
   );
   if (!res.ok) throw new Error("Falha ao buscar perfil cognitivo");
   return res.json();

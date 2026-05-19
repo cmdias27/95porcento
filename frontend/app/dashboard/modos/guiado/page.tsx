@@ -15,6 +15,8 @@ import {
 import { verificarRenovacaoSemanal, podeIniciarSessao, incrementarSessaoUsada, formatarDataRenovacao, PerfilUsuario } from "@/lib/premium";
 import { ModalLimiteSessao } from "@/components/ModalLimiteSessao";
 
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+
 type Pergunta = {
   id: string;
   assunto_idx: number;
@@ -120,7 +122,7 @@ function ModoGuiadoContent() {
     const controller = new AbortController();
     const carregar = async () => {
       try {
-        const res = await apiFetch("http://127.0.0.1:5000/api/gerar-perguntas-guiado", {
+        const res = await apiFetch(`${API_BASE_URL}/api/gerar-perguntas-guiado`, {
           method: "POST",
           body: JSON.stringify({
             jornada, materia, tema, faixa_salarial: faixaSalarial,
@@ -289,7 +291,7 @@ function ModoGuiadoContent() {
     if (mediaStream) mediaStream.getTracks().forEach(t => t.stop());
     setTela("finalizando");
     try {
-      const res = await apiFetch("http://127.0.0.1:5000/api/avaliar-sessao-guiada", {
+      const res = await apiFetch(`${API_BASE_URL}/api/avaliar-sessao-guiada`, {
         method: "POST",
         body: JSON.stringify({
           jornada, materia, tema, banca,

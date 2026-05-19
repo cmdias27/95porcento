@@ -8,6 +8,8 @@ import { ArrowLeft, Swords, Loader2, CheckCircle2, XCircle, Brain, Target, Chevr
 import { JORNADAS_ESTUDO } from "@/data/materias";
 import { apiFetch } from "@/lib/apiFetch";
 
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+
 export default function SimuladorPage() {
   const router = useRouter();
 
@@ -38,7 +40,7 @@ export default function SimuladorPage() {
     setFase('loading');
 
     try {
-      const response = await apiFetch('http://127.0.0.1:5000/api/gerar-simulado', {
+      const response = await apiFetch(`${API_BASE_URL}/api/gerar-simulado`, {
         method: 'POST',
         body: JSON.stringify({ jornada, materia, tema, faixa_salarial: faixaSalarial, banca, tipo: tipoQuestao, quantidade: parseInt(quantidade) })
       });

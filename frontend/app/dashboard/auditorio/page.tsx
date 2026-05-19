@@ -15,6 +15,8 @@ import {
 } from "@/lib/premium";
 import { ModalLimiteSessao } from "@/components/ModalLimiteSessao";
 
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+
 function AuditorioContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -87,7 +89,7 @@ function AuditorioContent() {
         return;
       }
       try {
-        const response = await apiFetch("http://127.0.0.1:5000/api/gerar-checklist", {
+        const response = await apiFetch(`${API_BASE_URL}/api/gerar-checklist`, {
           method: "POST",
           body: JSON.stringify({
             jornada,
@@ -261,7 +263,7 @@ function AuditorioContent() {
         anotacoes_manuais: rascunho,
         ...(personalizado && prioridades.length > 0 ? { contexto_personalizado: prioridades } : {}),
       };
-      const response = await apiFetch("http://127.0.0.1:5000/api/processar-texto", {
+      const response = await apiFetch(`${API_BASE_URL}/api/processar-texto`, {
         method: "POST",
         body: JSON.stringify(payload),
       });

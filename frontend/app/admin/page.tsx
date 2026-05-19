@@ -36,7 +36,7 @@ interface AdminStats {
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
-const API = "http://127.0.0.1:5000";
+const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 
 function fmtNum(n: number) { return n.toLocaleString("pt-BR"); }
 function fmtUSD(n: number) { return `$${n.toFixed(4)}`; }
