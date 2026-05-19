@@ -22,14 +22,27 @@ load_dotenv()
 
 app = Flask(__name__)
 
-# 🔒 CORS restrito — apenas origens confiáveis
-ORIGENS_PERMITIDAS = [
-    "http://localhost:3000",
-    "https://95porcento.com.br",
-    "https://www.95porcento.com.br",
-    "https://95porcento-dpoqh9neu-cassio-s-projects2.vercel.app/"
-]
-CORS(app, resources={r"/api/*": {"origins": ORIGENS_PERMITIDAS}})
+# CORS — origens confiáveis + qualquer deploy da Vercel
+import re as _re
+
+def _cors_origin_check(origin: str) -> bool:
+    if not origin:
+        return False
+    allowed = [
+        "http://localhost:3000",
+        "https://95porcento.com.br",
+        "https://www.95porcento.com.br",
+    ]
+    if origin in allowed:
+        return True
+    # Aceita qualquer subdomínio *.vercel.app (preview e production)
+    if _re.match(r"^https://[a-zA-Z0-9-]+-cassio-s-projects2\.vercel\.app$", origin):
+        return True
+    if _re.match(r"^https://95porcento[a-zA-Z0-9-]*\.vercel\.app$", origin):
+        return True
+    return False
+
+CORS(app, resources={r"/api/*": {"origins": _cors_origin_check}})
 
 # 🔒 Rate limiting — protege rotas de IA contra abuso e custo excessivo
 # Chave por UID (quando disponível) ou IP como fallback
