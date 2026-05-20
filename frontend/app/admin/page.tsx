@@ -144,13 +144,8 @@ export default function AdminPage() {
     try {
       const res = await apiFetch(`${API}/api/admin/stats`);
       if (res.status === 403) {
-        let debugInfo = "";
-        try {
-          const me = await apiFetch(`${API}/api/admin/me`);
-          const meData = await me.json();
-          debugInfo = ` | Backend vê: uid=${meData.uid ?? "?"} email="${meData.email ?? "(vazio)"}"`;
-        } catch {}
-        setErro(`Acesso negado (403). O backend não reconhece este usuário como admin.${debugInfo}`);
+        const frontendUid = auth.currentUser?.uid ?? "desconhecido";
+        setErro(`Acesso negado (403). UID do usuário: ${frontendUid}`);
         return;
       }
       if (!res.ok) {
