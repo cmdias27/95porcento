@@ -1213,6 +1213,23 @@ def perfil_cognitivo_dados_endpoint():
 # Admin — estatísticas da plataforma
 # ---------------------------------------------------------------------------
 
+@app.route('/api/admin/me', methods=['GET', 'OPTIONS'])
+@validar_token_firebase
+def admin_me():
+    """Debug: retorna uid e email do token atual."""
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+    uid_me   = getattr(request, "uid_seguro", "")
+    email_me = getattr(request, "email_seguro", "")
+    if not email_me:
+        try:
+            fb_user  = firebase_auth.get_user(uid_me)
+            email_me = fb_user.email or ""
+        except Exception:
+            pass
+    return jsonify({"uid": uid_me, "email": email_me}), 200
+
+
 _TIPOS_EVENTO_PERMITIDOS = {"sessao_abandonada", "sessao_concluida", "relatorio_visualizado"}
 
 @app.route('/api/evento', methods=['POST', 'OPTIONS'])
@@ -1252,11 +1269,19 @@ def admin_stats_endpoint():
         return jsonify({}), 200
 
     uid_admin   = getattr(request, "uid_seguro", "").strip()
-    email_admin = getattr(request, "email_seguro", "")
+    email_admin = getattr(request, "email_seguro", "").lower()
     ADMIN_EMAILS = {"cassio.mattos@gmail.com"}
 
     if not db or not uid_admin:
         return jsonify({"erro": "Acesso negado"}), 403
+
+    # Se o email não veio no token, busca diretamente no Firebase Auth
+    if not email_admin:
+        try:
+            fb_user = firebase_auth.get_user(uid_admin)
+            email_admin = (fb_user.email or "").lower()
+        except Exception:
+            pass
 
     # Verifica role admin no Firestore OU email whitelist
     try:
