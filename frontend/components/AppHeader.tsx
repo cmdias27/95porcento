@@ -7,7 +7,7 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { signOut } from "firebase/auth";
 import { auth } from "@/lib/firebase";
-import { LogoMark } from "@/components/Logo";
+import { LogoAnimated } from "@/components/Logo";
 import { useUserContext } from "@/hooks/useUserContext";
 import {
   ArrowLeft, LayoutDashboard, Dumbbell, User,
@@ -235,7 +235,7 @@ export function AppHeader(props: AppHeaderProps) {
 
         {/* Left: Logo */}
         <div className="flex items-center shrink-0">
-          <LogoMark size={96} />
+          <LogoAnimated size={38} />
         </div>
 
         {/* Center: Nav (desktop) */}

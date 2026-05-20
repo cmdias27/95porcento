@@ -4,7 +4,7 @@ import { useEffect, useRef, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "@/lib/firebase";
-import { LogoMark } from "@/components/Logo";
+import { LogoAnimated } from "@/components/Logo";
 import { motion } from "framer-motion";
 import { FileText, Mic, BookOpen, Target } from "lucide-react";
 
@@ -420,7 +420,7 @@ export default function LandingPage() {
 
       {/* ── Nav ── */}
       <nav className="relative z-20 flex items-center justify-between px-4 md:px-8 h-16 md:h-20 flex-shrink-0 bg-white/80 backdrop-blur-md border-b border-slate-200 shadow-sm">
-        <LogoMark size={48} className="md:!w-[60px] md:!h-[60px]" />
+        <LogoAnimated size={38} />
         <div className="flex items-center gap-2 md:gap-3">
           <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
             onClick={() => router.push("/login")}
