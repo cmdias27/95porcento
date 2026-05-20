@@ -11,7 +11,6 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { doc, setDoc, serverTimestamp } from "firebase/firestore";
-import Image from "next/image";
 import { Mail, Lock, LogIn, ArrowLeft, User, Eye, EyeOff } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { LogoMark } from "@/components/Logo";
@@ -167,50 +166,104 @@ export default function LoginPage() {
     }
   };
 
+  // Pirâmide de Glasser — dados do topo (90%) para a base (10%)
+  const piramideLayers = [
+    { label: "ENSINAR", sub: "Explicar para outros", pct: "90%", fill: "#059669", stroke: "#34d399" },
+    { label: "DISCUTIR", sub: "Grupos de estudo",   pct: "70%", fill: "#0d9488", stroke: "#2dd4bf" },
+    { label: "VER E OUVIR", sub: "Audiovisual",     pct: "50%", fill: "#0369a1", stroke: "#38bdf8" },
+    { label: "VER", sub: "Demonstrações",            pct: "30%", fill: "#1d4ed8", stroke: "#60a5fa" },
+    { label: "OUVIR", sub: "Palestras/Áudios",      pct: "20%", fill: "#1e40af", stroke: "#818cf8" },
+    { label: "LER", sub: "Livros/Artigos",           pct: "10%", fill: "#1e3a5f", stroke: "#94a3b8" },
+  ];
+  const W = 400, H = 372, CX = 200, minHalf = 44, layerH = H / piramideLayers.length;
+  const slope = (CX - minHalf) / piramideLayers.length;
+  const pts = (i: number) => {
+    const yT = i * layerH, yB = yT + layerH;
+    const lT = CX - minHalf - i * slope, rT = CX + minHalf + i * slope;
+    const lB = CX - minHalf - (i + 1) * slope, rB = CX + minHalf + (i + 1) * slope;
+    return `${lT},${yT} ${rT},${yT} ${rB},${yB} ${lB},${yB}`;
+  };
+
   return (
     <div className="min-h-[100dvh] font-sans flex">
 
-      {/* ── Painel esquerdo: pirâmide (só desktop) ── */}
-      <div className="hidden lg:flex flex-col items-center justify-center flex-1 relative overflow-hidden p-12">
+      {/* ── Painel esquerdo: pirâmide SVG ── */}
+      <div className="hidden lg:flex flex-col items-center justify-center flex-1 relative overflow-hidden px-10 py-10 gap-7">
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-blue-950" />
-        <div className="relative z-10 flex flex-col items-center text-center gap-8 max-w-xl">
-          <div>
-            <h2 className="text-4xl font-black text-white leading-tight">
-              Aprenda com<br />
-              <span className="text-blue-400">90% de retenção</span>
-            </h2>
-            <p className="text-slate-400 text-sm mt-3 font-medium leading-relaxed">
-              Baseado na Pirâmide do Aprendizado de Glasser,<br />
-              o 95porcento usa IA para que você aprenda ensinando.
-            </p>
-          </div>
 
-          <Image
-            src="/piramide_login.png"
-            alt="Pirâmide do Aprendizado"
-            width={560}
-            height={305}
-            className="w-full rounded-2xl shadow-2xl"
-            priority
-          />
-
-          <div className="flex gap-8 text-center">
-            <div>
-              <div className="text-2xl font-black text-white">90%</div>
-              <div className="text-xs text-slate-400 font-medium mt-0.5">retenção ao ensinar</div>
-            </div>
-            <div className="w-px bg-slate-700" />
-            <div>
-              <div className="text-2xl font-black text-white">5×</div>
-              <div className="text-xs text-slate-400 font-medium mt-0.5">mais eficiente</div>
-            </div>
-            <div className="w-px bg-slate-700" />
-            <div>
-              <div className="text-2xl font-black text-white">IA</div>
-              <div className="text-xs text-slate-400 font-medium mt-0.5">como seu aluno</div>
-            </div>
-          </div>
+        <div className="relative z-10 text-center">
+          <p className="text-[9px] font-black uppercase tracking-[0.35em] text-emerald-400 mb-3">Pirâmide de Glasser</p>
+          <h2 className="text-3xl font-black text-white leading-tight">
+            Quem ensina retém<br />
+            <span className="text-emerald-400">90% do conteúdo.</span>
+          </h2>
+          <p className="text-slate-400 text-sm mt-3 leading-relaxed">
+            O 95porcento coloca a IA como seu aluno.<br />
+            Você explica. A IA audita. Você aprende de verdade.
+          </p>
         </div>
+
+        {/* SVG Pyramid */}
+        <div className="relative z-10 w-full max-w-sm">
+          <svg viewBox={`0 0 ${W} ${H}`} className="w-full drop-shadow-2xl">
+            {piramideLayers.map((layer, i) => {
+              const cy = i * layerH + layerH / 2;
+              const isTop = i === 0;
+              return (
+                <g key={i}>
+                  <polygon
+                    points={pts(i)}
+                    fill={layer.fill}
+                    stroke="rgba(255,255,255,0.12)"
+                    strokeWidth="1.5"
+                  />
+                  {isTop && (
+                    <polygon points={pts(i)} fill="rgba(52,211,153,0.18)" />
+                  )}
+                  {/* % lado esquerdo */}
+                  <text
+                    x={CX - minHalf - i * slope - 10}
+                    y={cy + 5}
+                    textAnchor="end"
+                    fontSize="13"
+                    fontWeight="900"
+                    fill={isTop ? "#34d399" : "rgba(255,255,255,0.55)"}
+                    fontFamily="system-ui, sans-serif"
+                  >
+                    {layer.pct}
+                  </text>
+                  {/* Label central */}
+                  <text
+                    x={CX}
+                    y={cy - (isTop ? 4 : 5)}
+                    textAnchor="middle"
+                    fontSize={isTop ? "13" : "12"}
+                    fontWeight="900"
+                    fill="white"
+                    fontFamily="system-ui, sans-serif"
+                    letterSpacing="1"
+                  >
+                    {layer.label}
+                  </text>
+                  <text
+                    x={CX}
+                    y={cy + (isTop ? 11 : 10)}
+                    textAnchor="middle"
+                    fontSize="9"
+                    fill="rgba(255,255,255,0.55)"
+                    fontFamily="system-ui, sans-serif"
+                  >
+                    {layer.sub}
+                  </text>
+                </g>
+              );
+            })}
+          </svg>
+        </div>
+
+        <p className="relative z-10 text-[10px] text-slate-500 font-medium">
+          Teoria: William Glasser • Psicologia Cognitiva
+        </p>
       </div>
 
       {/* ── Painel direito: formulário ── */}
@@ -225,17 +278,9 @@ export default function LoginPage() {
 
         <div className="w-full max-w-md">
 
-          {/* Logo + título */}
-          <div className="flex flex-col items-center mb-8 gap-3">
-            <LogoMark size={80} />
-            <div className="text-center">
-              <span className="text-xl font-black tracking-tight text-slate-900">
-                <span className="text-blue-600">95</span>porcento
-              </span>
-              <p className="text-[9px] font-black uppercase tracking-[0.25em] text-slate-400 mt-0.5">
-                Protocolo de Aprendizagem
-              </p>
-            </div>
+          {/* Logo */}
+          <div className="flex justify-center mb-8">
+            <LogoMark size={100} />
           </div>
 
           {/* Card principal */}
@@ -337,9 +382,6 @@ export default function LoginPage() {
             </div>
           </div>
 
-          <p className="text-center text-[9px] font-bold text-slate-400 mt-6 uppercase tracking-widest">
-            95porcento AI Protocol • 2026
-          </p>
         </div>
       </div>
     </div>
