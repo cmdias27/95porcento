@@ -3,8 +3,8 @@
 
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { ArrowLeft, Brain, CheckCircle2, AlertTriangle, ChevronRight, Download, Printer, Sparkles, Edit3, BrainCircuit, Activity, Compass, BookOpen, LayoutGrid, Eye, EyeOff, Fingerprint, Zap, Mic, Star, Send } from "lucide-react";
-import Link from "next/link";
+import { Brain, CheckCircle2, AlertTriangle, ChevronRight, Download, Printer, Sparkles, Edit3, BrainCircuit, Activity, Compass, BookOpen, LayoutGrid, Eye, EyeOff, Fingerprint, Zap, Mic, Star, Send } from "lucide-react";
+import { AppHeader } from "@/components/AppHeader";
 import { db, auth } from "@/lib/firebase";
 import { doc, getDoc, addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { motion, AnimatePresence } from "framer-motion";
@@ -336,26 +336,21 @@ export default function RelatorioFinal() {
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] text-slate-900 font-sans flex flex-col">
-      <header className="w-full px-4 md:px-8 py-4 flex items-center justify-between border-b-2 border-black bg-white sticky top-0 z-20 print:hidden">
-        <div className="flex items-center gap-4 md:gap-6">
-          <Link href="/dashboard" className="flex items-center gap-2 text-[10px] md:text-xs font-black uppercase text-slate-400 hover:text-black transition-colors">
-            <ArrowLeft size={16} /> Voltar
-          </Link>
-          <div className="h-6 w-[2px] bg-black opacity-10" />
-          <div>
-            <h1 className="text-sm md:text-base font-black text-black truncate max-w-[200px] md:max-w-md">{relatorio.tema}</h1>
-            <p className="text-[9px] font-black text-slate-500 uppercase tracking-widest">{relatorio.materia} • {relatorio.banca_escolhida || 'Banca Geral'}</p>
+      <AppHeader
+        variant="report"
+        title={relatorio.tema}
+        subtitle={`${relatorio.materia} • ${relatorio.banca_escolhida || "Banca Geral"}`}
+        actions={
+          <div className="flex items-center gap-2">
+            <button onClick={exportarRelatorioTXT} className="flex items-center gap-2 px-3 py-2 text-[10px] font-black uppercase text-slate-600 hover:text-black border-2 border-slate-200 hover:border-black rounded-xl transition-all">
+              <Download size={13} /> TXT
+            </button>
+            <button onClick={() => window.print()} className="flex items-center gap-2 px-3 py-2 text-[10px] font-black uppercase text-white bg-black rounded-xl hover:-translate-y-0.5 transition-all">
+              <Printer size={13} /> Imprimir
+            </button>
           </div>
-        </div>
-        <div className="hidden md:flex items-center gap-2">
-          <button onClick={exportarRelatorioTXT} className="flex items-center gap-2 px-4 py-2 text-[10px] font-black uppercase text-slate-700 hover:text-black border-2 border-slate-300 hover:border-black rounded-xl transition-all">
-            <Download size={14} /> TXT
-          </button>
-          <button onClick={() => window.print()} className="flex items-center gap-2 px-4 py-2 text-[10px] font-black uppercase text-white bg-black rounded-xl shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:-translate-y-0.5 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] active:translate-y-[1px] active:shadow-none transition-all">
-            <Printer size={14} /> Imprimir
-          </button>
-        </div>
-      </header>
+        }
+      />
 
       <main className="w-full max-w-5xl mx-auto px-4 md:px-8 py-8 flex flex-col gap-10 print:max-w-none print:p-0">
 

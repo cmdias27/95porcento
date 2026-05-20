@@ -5,13 +5,13 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
-  ArrowLeft, User, Mail, Lock, LogOut, Zap, Crown,
+  ArrowLeft, User, Mail, Lock, Zap, Crown,
   BarChart2, TrendingUp, AlertTriangle, Brain, ChevronRight,
   Check, X, Edit2, BookOpen, Settings2,
 } from "lucide-react";
 import { auth, db } from "@/lib/firebase";
 import {
-  onAuthStateChanged, signOut,
+  onAuthStateChanged,
   updateProfile, updatePassword,
   EmailAuthProvider, reauthenticateWithCredential,
 } from "firebase/auth";
@@ -22,7 +22,7 @@ import {
   formatarDataRenovacao, LIMITE_SESSOES_GRATUITAS,
   type PerfilUsuario,
 } from "@/lib/premium";
-import { Logo } from "@/components/Logo";
+import { AppHeader } from "@/components/AppHeader";
 
 // ---------------------------------------------------------------------------
 // Tipos locais
@@ -105,9 +105,6 @@ export default function PerfilPage() {
   // Configurações de estudo
   const [salvandoConfig, setSalvandoConfig] = useState(false);
 
-  // Role admin
-  const [isAdmin, setIsAdmin] = useState(false);
-
   // ---------------------------------------------------------------------------
   // Auth listener
   // ---------------------------------------------------------------------------
@@ -117,12 +114,11 @@ export default function PerfilPage() {
       setUser(u);
       setNovoNome(u.displayName || "");
       setLoading(false);
-      // Carregar perfil premium + role
+      // Carregar perfil premium
       try {
         const p = await verificarRenovacaoSemanal(u.uid);
         setPerfil(p);
-        const snap = await getDoc(doc(db, "usuarios", u.uid));
-        if (snap.exists() && snap.data().role === "admin") setIsAdmin(true);
+        await getDoc(doc(db, "usuarios", u.uid));
       } catch {
         // fallback seguro
         setPerfil({
@@ -256,26 +252,7 @@ export default function PerfilPage() {
         )}
       </AnimatePresence>
 
-      {/* NAVBAR */}
-      <nav className="w-full px-6 py-3.5 flex items-center justify-between bg-white border-b-2 border-black z-20 shrink-0">
-        <div className="flex items-center gap-3">
-          <Link href="/dashboard" className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest text-slate-400 hover:text-black transition-colors">
-            <ArrowLeft size={13} /> Dashboard
-          </Link>
-          <span className="text-slate-200">|</span>
-          <Logo size="sm" />
-        </div>
-        {isAdmin && (
-          <Link href="/admin"
-            className="text-[9px] font-black uppercase tracking-widest text-blue-600 hover:text-blue-800 flex items-center gap-1.5 border border-blue-200 px-2.5 py-1.5 rounded-lg transition-colors">
-            <BarChart2 size={11} /> Admin
-          </Link>
-        )}
-        <button onClick={() => signOut(auth).then(() => router.push("/"))}
-          className="text-[9px] font-black uppercase tracking-widest text-slate-300 hover:text-red-500 transition-all flex items-center gap-1.5">
-          <LogOut size={12} /> Sair
-        </button>
-      </nav>
+      <AppHeader variant="default" />
 
       <main className="flex-1 max-w-3xl w-full mx-auto px-4 md:px-6 py-8 flex flex-col gap-8">
 

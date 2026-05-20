@@ -12,6 +12,7 @@ import {
   CheckCircle2, Circle, Clock, BrainCircuit, Loader2,
   Mic, MicOff, Type, AlertTriangle, ChevronRight, Camera, Info,
 } from "lucide-react";
+import { AppHeader } from "@/components/AppHeader";
 import { verificarRenovacaoSemanal, podeIniciarSessao, incrementarSessaoUsada, formatarDataRenovacao, PerfilUsuario } from "@/lib/premium";
 import { ModalLimiteSessao } from "@/components/ModalLimiteSessao";
 
@@ -438,28 +439,18 @@ function ModoGuiadoContent() {
         renovacaoEm={perfilUsuario ? formatarDataRenovacao(perfilUsuario.ultima_renovacao_sessoes) : undefined}
       />
 
-      {/* HEADER */}
-      <header className="w-full px-4 md:px-8 py-4 border-b-2 border-black bg-white flex items-center justify-between gap-4 shrink-0 sticky top-0 z-20">
-        <button onClick={handleAbandonar}
-          className="bg-white border-2 border-black rounded-xl px-4 py-2.5 flex items-center gap-2 text-[10px] font-black uppercase tracking-widest shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[1px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:translate-y-[3px] active:shadow-none transition-all">
-          <ArrowLeft size={14} /> Abandonar
-        </button>
-
-        <div className="flex-1 text-center">
-          <p className="text-[10px] font-black uppercase tracking-[0.2em] text-purple-600">
-            Assunto {assuntoAtualIdx + 1} de {totalAssuntos}
-          </p>
-          <h1 className="text-sm md:text-base font-black text-black truncate max-w-[60vw] mx-auto">{assuntoAtualNome}</h1>
-          <p className="text-[9px] font-black text-slate-400 uppercase tracking-widest">
-            Fase {faseAtual} — {FASE_LABEL[faseAtual]} • {materia}
-          </p>
-        </div>
-
-        <div className="flex items-center gap-1.5 bg-slate-100 border border-slate-200 rounded-xl px-3 py-2">
-          <Clock size={12} className="text-slate-500" />
-          <span className="text-xs font-black text-slate-600 tabular-nums">{formatarTempo(segundos)}</span>
-        </div>
-      </header>
+      <AppHeader
+        variant="session"
+        tema={assuntoAtualNome}
+        subtitulo={`Fase ${faseAtual} — ${FASE_LABEL[faseAtual]} • ${materia} • ${assuntoAtualIdx + 1}/${totalAssuntos}`}
+        onAbandonar={handleAbandonar}
+        timer={
+          <div className="flex items-center gap-1.5 bg-slate-100 border border-slate-200 rounded-xl px-3 py-2">
+            <Clock size={12} className="text-slate-500" />
+            <span className="text-xs font-black text-slate-600 tabular-nums">{formatarTempo(segundos)}</span>
+          </div>
+        }
+      />
 
       {/* BARRA DE PROGRESSO */}
       <div className="w-full h-1.5 bg-slate-100">
@@ -685,19 +676,7 @@ function ModoGuiadoContent() {
 }
 
 function SimpleHeader({ onAbandonar, subtitulo }: { onAbandonar: () => void; subtitulo: string }) {
-  return (
-    <header className="w-full px-4 md:px-8 py-4 border-b-2 border-black bg-white flex items-center justify-between gap-4 shrink-0 sticky top-0 z-20">
-      <button onClick={onAbandonar}
-        className="bg-white border-2 border-black rounded-xl px-4 py-2.5 flex items-center gap-2 text-[10px] font-black uppercase tracking-widest shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[1px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all">
-        <ArrowLeft size={14} /> Abandonar
-      </button>
-      <div className="text-center">
-        <p className="text-xs font-black text-slate-800">Modo Guiado</p>
-        <p className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">{subtitulo}</p>
-      </div>
-      <div className="w-24" />
-    </header>
-  );
+  return <AppHeader variant="session" tema="Modo Guiado" subtitulo={subtitulo} onAbandonar={onAbandonar} />;
 }
 
 import { Suspense } from "react";

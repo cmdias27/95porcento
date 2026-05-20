@@ -4,7 +4,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
-import { ArrowLeft, Mic, Type, Camera, PenTool, Loader2, Play, CheckCircle2, Circle, ChevronRight, Zap, Info, MicOff } from "lucide-react";
+import { Mic, Type, Camera, PenTool, Loader2, Play, CheckCircle2, Circle, ChevronRight, Zap, Info, MicOff } from "lucide-react";
+import { AppHeader } from "@/components/AppHeader";
 import { auth } from "@/lib/firebase";
 import { apiFetch } from "@/lib/apiFetch";
 import { onAuthStateChanged } from "firebase/auth";
@@ -371,18 +372,12 @@ function AuditorioContent() {
         renovacaoEm={perfilUsuario ? formatarDataRenovacao(perfilUsuario.ultima_renovacao_sessoes) : undefined}
       />
 
-      <header className="w-full px-4 md:px-8 py-4 md:py-5 border-b-2 border-black bg-white flex flex-col md:flex-row items-center justify-between gap-4 shrink-0 z-20 sticky top-0">
-        <button onClick={handleAbandonar}
-          className="w-full md:w-auto bg-white border-2 border-black rounded-xl px-4 py-2.5 flex items-center justify-center gap-2 text-[10px] md:text-xs font-black uppercase tracking-widest shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[1px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:translate-y-[3px] active:shadow-none transition-all">
-          <ArrowLeft size={16} /> Abandonar
-        </button>
-        <div className="text-center md:text-right w-full md:w-auto">
-          <h1 className="text-base md:text-xl font-black text-black truncate max-w-[90vw] md:max-w-lg mx-auto md:mx-0">{tema}</h1>
-          <h2 className="text-[9px] md:text-[10px] font-black text-slate-500 uppercase tracking-[0.2em] mt-1">
-            {materia} • Banca: <span className="text-blue-600">{banca}</span> • Alvo: <span className="text-purple-600">{faixaSalarial}</span>
-          </h2>
-        </div>
-      </header>
+      <AppHeader
+        variant="session"
+        tema={tema}
+        subtitulo={`${materia} • ${banca} • ${faixaSalarial}`}
+        onAbandonar={handleAbandonar}
+      />
 
       {/* MAIN GRID - COCKPIT */}
       <main className="flex-1 w-full max-w-[1400px] mx-auto p-4 md:p-6 lg:p-8 flex flex-col lg:grid lg:grid-cols-12 gap-6 lg:gap-8">

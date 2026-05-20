@@ -3,10 +3,9 @@
 
 import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
-import { Mic, Brain, Target, Settings, ChevronRight, Flame, Check, RotateCcw, BookOpen } from "lucide-react";
+import { Mic, Brain, Target, ChevronRight, Check, RotateCcw, BookOpen } from "lucide-react";
 import { auth, db } from "@/lib/firebase";
-import { Logo } from "@/components/Logo";
+import { AppHeader } from "@/components/AppHeader";
 import { onAuthStateChanged } from "firebase/auth";
 import { doc, getDoc, collection, query, where, getDocs } from "firebase/firestore";
 import { JORNADAS_ESTUDO } from "@/data/materias";
@@ -203,21 +202,7 @@ export default function ModosPage() {
 
   return (
     <div className="min-h-[100dvh] bg-[#F8FAFC] text-slate-900 font-sans pb-20">
-      {/* NAVBAR */}
-      <nav className="w-full px-6 py-4 flex items-center justify-between bg-white border-b border-slate-200 sticky top-0 z-50">
-        <Logo />
-        <div className="flex items-center gap-4">
-          <div className="flex items-center gap-1.5 text-amber-500 font-black text-xs bg-amber-50 px-3 py-1.5 rounded-full border border-amber-200">
-            <Flame size={14} className="fill-amber-500" /> 3 Dias
-          </div>
-          <Link href="/dashboard" className="text-slate-500 hover:text-black transition-colors text-[10px] font-black uppercase tracking-widest hidden md:block">
-            Dashboard
-          </Link>
-          <Link href="/perfil" className="text-slate-400 hover:text-black transition-colors">
-            <Settings size={20} />
-          </Link>
-        </div>
-      </nav>
+      <AppHeader variant="default" contextPill="Nova Sessão" />
 
       <main className="max-w-3xl mx-auto px-4 pt-8 space-y-8">
 

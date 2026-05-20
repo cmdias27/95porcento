@@ -1,17 +1,16 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  Mic, Settings, ChevronDown, FileText,
+  Mic, ChevronDown, FileText,
   Calendar, Play, BookOpen, Brain, TrendingUp, Zap,
 } from "lucide-react";
 import { onAuthStateChanged } from "firebase/auth";
 import { collection, doc, getDoc, getDocs, query, where } from "firebase/firestore";
 import { auth, db } from "@/lib/firebase";
-import { Logo } from "@/components/Logo";
+import { AppHeader } from "@/components/AppHeader";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -211,10 +210,7 @@ export default function DashboardPage() {
   if (sessoes.length === 0) {
     return (
       <div className="min-h-[100dvh] bg-[#F8FAFC] flex flex-col">
-        <nav className="w-full px-6 py-4 flex items-center justify-between bg-white border-b border-slate-200 sticky top-0 z-50">
-          <Logo />
-          <Link href="/perfil"><Settings size={20} className="text-slate-400 hover:text-black transition-colors" /></Link>
-        </nav>
+        <AppHeader variant="default" />
         <div className="flex-1 flex items-center justify-center p-8">
           <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-sm">
@@ -240,11 +236,7 @@ export default function DashboardPage() {
   return (
     <div className="h-[100dvh] bg-[#F8FAFC] flex flex-col overflow-hidden">
 
-      {/* NAV */}
-      <nav className="w-full px-6 py-4 flex items-center justify-between bg-white border-b border-slate-200 shrink-0 z-50">
-        <Logo />
-        <Link href="/perfil"><Settings size={20} className="text-slate-400 hover:text-black transition-colors" /></Link>
-      </nav>
+      <AppHeader variant="default" />
 
       {/* BODY */}
       <div className="flex-1 flex overflow-hidden">
