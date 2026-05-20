@@ -235,9 +235,7 @@ export function AppHeader(props: AppHeaderProps) {
 
         {/* Left: Logo */}
         <div className="flex items-center shrink-0">
-          <div className="scale-[2.2] origin-left ml-2">
-            <LogoMark size={44} />
-          </div>
+          <LogoMark size={96} />
         </div>
 
         {/* Center: Nav (desktop) */}
