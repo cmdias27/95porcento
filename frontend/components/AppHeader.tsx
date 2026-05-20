@@ -234,8 +234,10 @@ export function AppHeader(props: AppHeaderProps) {
       <header className="w-full h-14 px-4 md:px-6 flex items-center justify-between bg-white/95 backdrop-blur-md border-b border-slate-200 shrink-0 sticky top-0 z-30 shadow-sm">
 
         {/* Left: Logo */}
-        <div className="flex items-center">
-          <LogoMark size={44} />
+        <div className="flex items-center shrink-0">
+          <div className="scale-[2.2] origin-left ml-2">
+            <LogoMark size={44} />
+          </div>
         </div>
 
         {/* Center: Nav (desktop) */}
