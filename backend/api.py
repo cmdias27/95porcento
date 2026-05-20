@@ -1273,29 +1273,34 @@ def admin_stats_endpoint():
 
     uid_admin   = getattr(request, "uid_seguro", "").strip()
     email_admin = getattr(request, "email_seguro", "").lower()
+    ADMIN_UIDS   = {"YUMMaoW1viXvTIhzn2LCShyEXmC3"}
     ADMIN_EMAILS = {"cassio.mattos@gmail.com"}
 
     if not db or not uid_admin:
         return jsonify({"erro": "Acesso negado"}), 403
 
-    # Se o email não veio no token, busca diretamente no Firebase Auth
-    if not email_admin:
-        try:
-            fb_user = firebase_auth.get_user(uid_admin)
-            email_admin = (fb_user.email or "").lower()
-        except Exception:
-            pass
+    # UID direto no whitelist → acesso imediato
+    if uid_admin in ADMIN_UIDS:
+        pass  # continua para buscar os stats
+    else:
+        # Se o email não veio no token, busca diretamente no Firebase Auth
+        if not email_admin:
+            try:
+                fb_user = firebase_auth.get_user(uid_admin)
+                email_admin = (fb_user.email or "").lower()
+            except Exception:
+                pass
 
-    # Verifica role admin no Firestore OU email whitelist
-    try:
-        snap_admin = db.collection("usuarios").document(uid_admin).get()
-        is_admin = (snap_admin.exists() and snap_admin.to_dict().get("role") == "admin") \
-                   or email_admin in ADMIN_EMAILS
-        if not is_admin:
-            return jsonify({"erro": "Acesso negado"}), 403
-    except Exception:
-        if email_admin not in ADMIN_EMAILS:
-            return jsonify({"erro": "Acesso negado"}), 403
+        # Verifica role admin no Firestore OU email whitelist
+        try:
+            snap_admin = db.collection("usuarios").document(uid_admin).get()
+            is_admin = (snap_admin.exists() and snap_admin.to_dict().get("role") == "admin") \
+                       or email_admin in ADMIN_EMAILS
+            if not is_admin:
+                return jsonify({"erro": "Acesso negado"}), 403
+        except Exception:
+            if email_admin not in ADMIN_EMAILS:
+                return jsonify({"erro": "Acesso negado"}), 403
 
     agora = datetime.now()
     iso_hoje   = agora.replace(hour=0, minute=0, second=0, microsecond=0).isoformat()
