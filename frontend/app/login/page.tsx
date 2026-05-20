@@ -11,9 +11,10 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { doc, setDoc, serverTimestamp } from "firebase/firestore";
-import { Mail, Lock, LogIn, ArrowLeft, User, Eye, EyeOff } from "lucide-react";
+import { Mail, Lock, LogIn, ArrowLeft, User, Eye, EyeOff, FileText, Cookie, Megaphone } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { LogoMark } from "@/components/Logo";
+import { TermosModal } from "@/components/TermosModal";
 
 // ─── Input com ícone ────────────────────────
 function Campo({
@@ -91,12 +92,19 @@ export default function LoginPage() {
   const [nome, setNome]                 = useState("");
   const [confirmarSenha, setConfirmarSenha] = useState("");
 
+  // Consentimentos
+  const [aceitouTermos,    setAceitouTermos]    = useState(false);
+  const [aceitouCookies,   setAceitouCookies]   = useState(false);
+  const [aceitouMarketing, setAceitouMarketing] = useState(false);
+  const [modalAberto,      setModalAberto]      = useState(false);
+
   const [carregando, setCarregando] = useState(false);
   const [erro, setErro]             = useState("");
 
   const limpar = () => {
     setErro("");
     setEmail(""); setSenha(""); setNome(""); setConfirmarSenha("");
+    setAceitouTermos(false); setAceitouCookies(false); setAceitouMarketing(false);
   };
 
   const trocarModo = (novo: "entrar" | "cadastrar") => {
@@ -122,10 +130,12 @@ export default function LoginPage() {
   // ── Cadastro ──
   const cadastrar = async () => {
     setErro("");
-    if (!nome.trim())       { setErro("Informe seu nome."); return; }
-    if (!email)             { setErro("Informe seu e-mail."); return; }
-    if (senha.length < 6)   { setErro("A senha deve ter ao menos 6 caracteres."); return; }
+    if (!nome.trim())             { setErro("Informe seu nome."); return; }
+    if (!email)                   { setErro("Informe seu e-mail."); return; }
+    if (senha.length < 6)         { setErro("A senha deve ter ao menos 6 caracteres."); return; }
     if (senha !== confirmarSenha) { setErro("As senhas não coincidem."); return; }
+    if (!aceitouTermos)           { setErro("Você deve ler e aceitar os Termos de Uso e Privacidade."); return; }
+    if (!aceitouCookies)          { setErro("Você deve aceitar o uso de cookies para continuar."); return; }
     setCarregando(true);
     try {
       const cred = await createUserWithEmailAndPassword(auth, email, senha);
@@ -136,6 +146,13 @@ export default function LoginPage() {
         uid: cred.user.uid,
         criadoEm: serverTimestamp(),
         premium: true,
+        consentimentos: {
+          termos: true,
+          cookies: true,
+          marketing: aceitouMarketing,
+          dataConsentimento: serverTimestamp(),
+          versaoTermos: "1.0",
+        },
       });
       router.push("/dashboard/modos");
     } catch (err: any) {
@@ -181,6 +198,7 @@ export default function LoginPage() {
   const CX_PYR = 250, LH = 60, MIN_HALF = 40, SLOPE = 25;
 
   return (
+    <>
     <div className="min-h-[100dvh] font-sans flex">
 
       {/* ── Painel esquerdo: pirâmide SVG ── */}
@@ -373,6 +391,72 @@ export default function LoginPage() {
                     <Campo label="Confirmar senha" type="password" value={confirmarSenha}
                       onChange={setConfirmarSenha} placeholder="Repita a senha" icon={Lock} />
 
+                    {/* ── Consentimentos ── */}
+                    <div className="space-y-2.5 border-t-2 border-slate-100 pt-4">
+
+                      {/* Termos obrigatório */}
+                      <label className="flex items-start gap-3 cursor-pointer group">
+                        <div className="relative mt-0.5 flex-shrink-0">
+                          <input type="checkbox" className="sr-only" checked={aceitouTermos} readOnly />
+                          <div
+                            onClick={() => aceitouTermos ? setAceitouTermos(false) : setModalAberto(true)}
+                            className={`w-4 h-4 rounded border-2 flex items-center justify-center transition-all cursor-pointer ${aceitouTermos ? "bg-black border-black" : "border-slate-300 group-hover:border-black"}`}
+                          >
+                            {aceitouTermos && <span className="text-white text-[10px] font-black">✓</span>}
+                          </div>
+                        </div>
+                        <span className="text-[11px] font-medium text-slate-600 leading-tight">
+                          Li e aceito os{" "}
+                          <button
+                            type="button"
+                            onClick={() => setModalAberto(true)}
+                            className="text-blue-600 font-black underline underline-offset-2 hover:text-blue-800"
+                          >
+                            Termos de Uso, Política de Privacidade e Cookies
+                          </button>
+                          {" "}<span className="text-red-500 font-black">*</span>
+                        </span>
+                      </label>
+
+                      {/* Cookies obrigatório */}
+                      <label className="flex items-start gap-3 cursor-pointer group">
+                        <div className="relative mt-0.5 flex-shrink-0">
+                          <input type="checkbox" className="sr-only" checked={aceitouCookies} onChange={e => setAceitouCookies(e.target.checked)} />
+                          <div
+                            onClick={() => setAceitouCookies(v => !v)}
+                            className={`w-4 h-4 rounded border-2 flex items-center justify-center transition-all cursor-pointer ${aceitouCookies ? "bg-black border-black" : "border-slate-300 group-hover:border-black"}`}
+                          >
+                            {aceitouCookies && <span className="text-white text-[10px] font-black">✓</span>}
+                          </div>
+                        </div>
+                        <span className="text-[11px] font-medium text-slate-600 leading-tight">
+                          Aceito o uso de cookies essenciais e analíticos para melhorar minha experiência{" "}
+                          <span className="text-red-500 font-black">*</span>
+                        </span>
+                      </label>
+
+                      {/* Marketing opcional */}
+                      <label className="flex items-start gap-3 cursor-pointer group">
+                        <div className="relative mt-0.5 flex-shrink-0">
+                          <input type="checkbox" className="sr-only" checked={aceitouMarketing} onChange={e => setAceitouMarketing(e.target.checked)} />
+                          <div
+                            onClick={() => setAceitouMarketing(v => !v)}
+                            className={`w-4 h-4 rounded border-2 flex items-center justify-center transition-all cursor-pointer ${aceitouMarketing ? "bg-blue-600 border-blue-600" : "border-slate-300 group-hover:border-blue-400"}`}
+                          >
+                            {aceitouMarketing && <span className="text-white text-[10px] font-black">✓</span>}
+                          </div>
+                        </div>
+                        <span className="text-[11px] font-medium text-slate-600 leading-tight">
+                          <span className="text-[9px] font-black text-slate-400 uppercase tracking-wider">(Opcional)</span>{" "}
+                          Autorizo o uso do meu nome em campanhas publicitárias e materiais de marketing do 95porcento
+                        </span>
+                      </label>
+
+                      <p className="text-[9px] text-slate-400 font-medium">
+                        <span className="text-red-500 font-black">*</span> Campos obrigatórios para criar a conta
+                      </p>
+                    </div>
+
                     <button type="submit" disabled={carregando}
                       className="w-full bg-black text-white py-3.5 rounded-2xl font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-2 hover:bg-blue-600 transition-all disabled:opacity-50 mt-2 shadow-[3px_3px_0px_0px_rgba(37,99,235,0.3)]">
                       {carregando
@@ -408,5 +492,20 @@ export default function LoginPage() {
         </div>
       </div>
     </div>
+
+    {/* Modal de Termos */}
+    <AnimatePresence>
+      {modalAberto && (
+        <TermosModal
+          onClose={() => setModalAberto(false)}
+          onAccept={() => {
+            setAceitouTermos(true);
+            setAceitouCookies(true);
+            setModalAberto(false);
+          }}
+        />
+      )}
+    </AnimatePresence>
+    </>
   );
 }
