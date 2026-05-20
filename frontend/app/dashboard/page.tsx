@@ -346,8 +346,8 @@ export default function DashboardPage() {
           </div>
 
           {/* Matéria cards */}
-          <div className="px-4 md:px-6 lg:px-8 pb-8">
-            <div className="grid grid-cols-1 xl:grid-cols-2 gap-3">
+          <div className="px-3 md:px-6 lg:px-8 pb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-3">
               {materiaGroups.map((group, idx) => {
                 const st        = scoreStyle(group.scoreMedia);
                 const isExpanded = expandedMaterias.has(group.materia);
@@ -363,7 +363,7 @@ export default function DashboardPage() {
                     {/* Card header — clicável */}
                     <button
                       onClick={() => toggleMateria(group.materia)}
-                      className="w-full flex items-center gap-3 px-5 py-4 text-left hover:bg-slate-50 transition-colors">
+                      className="w-full flex items-center gap-3 px-4 md:px-5 py-3.5 md:py-4 text-left hover:bg-slate-50 transition-colors min-h-[60px]">
 
                       {/* Score badge */}
                       <div className={`w-11 h-11 rounded-xl flex flex-col items-center justify-center shrink-0 border-2 ${st.border} ${st.bg}`}>
@@ -433,7 +433,7 @@ export default function DashboardPage() {
 
                               return (
                                 <div key={sessao.id}
-                                  className={`flex items-center gap-3 px-5 py-3 ${!isLast ? "border-b border-slate-100" : ""} hover:bg-slate-50/70 transition-colors`}>
+                                  className={`flex items-center gap-2 md:gap-3 px-3 md:px-5 py-3 ${!isLast ? "border-b border-slate-100" : ""} hover:bg-slate-50/70 transition-colors`}>
 
                                   {/* Score mini badge */}
                                   <div className={`w-7 h-7 rounded-lg flex items-center justify-center text-[10px] font-black shrink-0 border ${s !== null ? `${ss.bg} ${ss.border} ${ss.text}` : "bg-slate-100 border-slate-200 text-slate-300"}`}>
@@ -443,12 +443,12 @@ export default function DashboardPage() {
                                   {/* Tema info */}
                                   <div className="flex-1 min-w-0">
                                     <p className="text-xs font-black text-slate-800 truncate">{sessao.tema}</p>
-                                    <div className="flex items-center gap-1.5 mt-0.5">
+                                    <div className="flex items-center gap-1.5 mt-0.5 flex-wrap">
                                       <span className={`text-[8px] font-black uppercase tracking-wide px-1.5 py-0.5 rounded-full border ${mCfg.color}`}>
                                         {mCfg.label}
                                       </span>
                                       {sessao.timestamp && (
-                                        <span className="text-[9px] font-bold text-slate-400">
+                                        <span className="text-[9px] font-bold text-slate-400 hidden sm:inline">
                                           {formatDate(sessao.timestamp)}
                                         </span>
                                       )}
@@ -459,12 +459,12 @@ export default function DashboardPage() {
                                   <div className="flex items-center gap-1.5 shrink-0">
                                     <button
                                       onClick={() => router.push(sessao.url)}
-                                      className="flex items-center gap-1 px-3 py-1.5 bg-black text-white rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-blue-600 transition-colors">
+                                      className="flex items-center gap-1 px-2.5 md:px-3 py-1.5 min-h-[36px] bg-black text-white rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-blue-600 transition-colors">
                                       <FileText size={10} /> Abrir
                                     </button>
                                     <button
                                       onClick={() => router.push("/dashboard/modos")}
-                                      className="flex items-center gap-1 px-3 py-1.5 bg-slate-100 text-slate-600 rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-slate-200 transition-colors">
+                                      className="hidden sm:flex items-center gap-1 px-3 py-1.5 bg-slate-100 text-slate-600 rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-slate-200 transition-colors">
                                       <Play size={10} /> Repetir
                                     </button>
                                   </div>

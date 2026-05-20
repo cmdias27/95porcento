@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import {
   Users, Activity, Zap, DollarSign, RefreshCw,
   ArrowLeft, TrendingUp, BarChart2, BookOpen, Clock,
+  Mic, Timer, RotateCcw, Repeat2, AlertOctagon, FileText,
 } from "lucide-react";
 import { auth, db } from "@/lib/firebase";
 import { onAuthStateChanged } from "firebase/auth";
@@ -33,6 +34,16 @@ interface AdminStats {
     tipo: string; jornada: string; materia: string;
     tema: string; modo: string; timestamp: string;
   }[];
+  engajamento: {
+    taxa_abandono_pct: number;
+    duracao_media_segundos: number;
+    taxa_audio_pct: number;
+    taxa_retorno_dia_seguinte_pct: number;
+    taxa_segunda_sessao_pct: number;
+    tempo_medio_primeira_exp_s: number;
+    abandono_por_etapa: Record<string, number>;
+    top_relatorios: { tema: string; count: number }[];
+  };
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -102,17 +113,24 @@ export default function AdminPage() {
     const unsub = onAuthStateChanged(auth, async (u) => {
       if (!u) { router.replace("/"); return; }
       setUid(u.uid);
+      const ADMIN_EMAILS = ["cassio.mattos@gmail.com"];
       try {
         const snap = await getDoc(doc(db, "usuarios", u.uid));
-        if (snap.exists() && snap.data().role === "admin") {
+        const isAdmin = (snap.exists() && snap.data().role === "admin")
+          || ADMIN_EMAILS.includes(u.email ?? "");
+        if (isAdmin) {
           setAutorizado(true);
         } else {
           setAutorizado(false);
           router.replace("/dashboard");
         }
       } catch {
-        setAutorizado(false);
-        router.replace("/dashboard");
+        if (ADMIN_EMAILS.includes(u.email ?? "")) {
+          setAutorizado(true);
+        } else {
+          setAutorizado(false);
+          router.replace("/dashboard");
+        }
       }
     });
     return () => unsub();
@@ -155,6 +173,15 @@ export default function AdminPage() {
   const maxJornada  = s ? Math.max(...Object.values(s.sessoes.por_jornada), 1) : 1;
   const maxJUser    = s ? Math.max(...Object.values(s.usuarios.por_jornada), 1) : 1;
   const maxMateria  = s ? (s.sessoes.top_materias[0]?.count || 1) : 1;
+  const maxEtapa    = s ? Math.max(...Object.values(s.engajamento?.abandono_por_etapa ?? {}), 1) : 1;
+  const maxRelat    = s ? (s.engajamento?.top_relatorios[0]?.count || 1) : 1;
+
+  function fmtDur(s: number) {
+    if (!s) return "—";
+    const m = Math.floor(s / 60);
+    const sec = s % 60;
+    return m > 0 ? `${m}m ${sec}s` : `${sec}s`;
+  }
 
   return (
     <div className="min-h-[100dvh] bg-[#F8FAFC] font-sans text-slate-900 antialiased">
@@ -420,6 +447,67 @@ export default function AdminPage() {
                 </div>
               )}
             </div>
+
+            {/* ── ENGAJAMENTO & COMPORTAMENTO ── */}
+            {s.engajamento && (
+              <>
+                {/* KPIs de engajamento */}
+                <div>
+                  <div className="flex items-center gap-2 mb-4">
+                    <TrendingUp size={15} className="text-purple-600" />
+                    <h2 className="text-xs font-black uppercase tracking-widest text-purple-600">Engajamento & Comportamento</h2>
+                  </div>
+                  <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
+                    <KpiCard icon={AlertOctagon} label="Taxa de Abandono"         value={`${s.engajamento.taxa_abandono_pct}%`}              sub="dos que iniciam"                  cor="bg-orange-500" />
+                    <KpiCard icon={Timer}        label="Duração Média"            value={fmtDur(s.engajamento.duracao_media_segundos)}       sub="por sessão concluída"             cor="bg-purple-600" />
+                    <KpiCard icon={Mic}          label="Uso de Áudio"             value={`${s.engajamento.taxa_audio_pct}%`}                 sub="das sessões concluídas"           cor="bg-blue-600"   />
+                    <KpiCard icon={RotateCcw}    label="Retorno Dia Seguinte"     value={`${s.engajamento.taxa_retorno_dia_seguinte_pct}%`}  sub="voltam no dia +1"                 cor="bg-emerald-600"/>
+                    <KpiCard icon={Repeat2}      label="2ª Sessão"               value={`${s.engajamento.taxa_segunda_sessao_pct}%`}        sub="fazem ao menos 2"                 cor="bg-teal-600"   />
+                    <KpiCard icon={Clock}        label="Tempo à 1ª Explicação"   value={fmtDur(s.engajamento.tempo_medio_primeira_exp_s)}   sub="média até 1º envio"               cor="bg-slate-700"  />
+                  </div>
+                </div>
+
+                {/* Abandono por etapa + Top relatórios */}
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+                  {/* Abandono por etapa */}
+                  <div className="bg-white border-2 border-black rounded-[2rem] p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] space-y-4">
+                    <div className="flex items-center gap-2 pb-3 border-b-2 border-slate-100">
+                      <AlertOctagon size={15} className="text-orange-500" />
+                      <h2 className="text-xs font-black uppercase tracking-widest text-orange-500">Abandono por Etapa</h2>
+                    </div>
+                    {Object.keys(s.engajamento.abandono_por_etapa).length === 0 ? (
+                      <p className="text-xs font-bold text-slate-400">Sem dados ainda.</p>
+                    ) : (
+                      <div className="space-y-2">
+                        {Object.entries(s.engajamento.abandono_por_etapa)
+                          .sort((a, b) => b[1] - a[1])
+                          .map(([etapa, count]) => (
+                            <BarRow key={etapa} label={etapa} value={count} max={maxEtapa} cor="bg-orange-400" />
+                          ))}
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Top relatórios acessados */}
+                  <div className="bg-white border-2 border-black rounded-[2rem] p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] space-y-4">
+                    <div className="flex items-center gap-2 pb-3 border-b-2 border-slate-100">
+                      <FileText size={15} className="text-indigo-600" />
+                      <h2 className="text-xs font-black uppercase tracking-widest text-indigo-600">Relatórios Mais Acessados</h2>
+                    </div>
+                    {s.engajamento.top_relatorios.length === 0 ? (
+                      <p className="text-xs font-bold text-slate-400">Sem dados ainda.</p>
+                    ) : (
+                      <div className="space-y-2">
+                        {s.engajamento.top_relatorios.map(({ tema, count }) => (
+                          <BarRow key={tema} label={tema} value={count} max={maxRelat} cor="bg-indigo-500" />
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </>
+            )}
           </>
         )}
       </main>

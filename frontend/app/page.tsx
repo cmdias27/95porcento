@@ -4,7 +4,7 @@ import { useEffect, useRef, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "@/lib/firebase";
-import { Logo } from "@/components/Logo";
+import { LogoMark } from "@/components/Logo";
 import { motion } from "framer-motion";
 import { FileText, Mic, BookOpen, Target } from "lucide-react";
 
@@ -453,23 +453,23 @@ export default function LandingPage() {
       ))}
 
       {/* Nav */}
-      <nav className="relative z-20 flex items-center justify-between px-8 h-20 flex-shrink-0 bg-white/80 backdrop-blur-md border-b border-slate-200 shadow-sm">
+      <nav className="relative z-20 flex items-center justify-between px-4 md:px-8 h-20 md:h-24 flex-shrink-0 bg-white/80 backdrop-blur-md border-b border-slate-200 shadow-sm">
         {/* Logo */}
-        <Logo size="lg" />
+        <LogoMark size={56} className="md:!w-[72px] md:!h-[72px]" />
 
         {/* Botões */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 md:gap-3">
           <motion.button
             whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
             onClick={() => router.push("/login")}
-            className="text-xs font-black uppercase tracking-widest text-slate-500 hover:text-slate-900 transition-colors px-4 py-2"
+            className="text-xs font-black uppercase tracking-widest text-slate-500 hover:text-slate-900 transition-colors px-3 md:px-4 py-2 min-h-[40px]"
           >
             Entrar
           </motion.button>
           <motion.button
             whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
             onClick={() => router.push("/login")}
-            className="text-xs font-black uppercase tracking-widest bg-black text-white px-5 py-2.5 rounded-xl hover:bg-blue-600 transition-colors shadow-sm"
+            className="text-xs font-black uppercase tracking-widest bg-black text-white px-4 md:px-5 py-2.5 rounded-xl hover:bg-blue-600 transition-colors shadow-sm min-h-[40px]"
           >
             Começar →
           </motion.button>
@@ -524,12 +524,14 @@ export default function LandingPage() {
           />
         ))}
 
-        {/* Floating diagnostic labels */}
-        {LABELS.map((label) => (
-          <div key={label.text} className="absolute" style={{ top: label.top, left: label.left, zIndex: 10 }}>
-            <FloatingLabel text={label.text} ok={label.ok} delay={label.delay} dir={label.dir} />
-          </div>
-        ))}
+        {/* Floating diagnostic labels — hidden on small screens (use absolute px offsets that overflow) */}
+        <div className="hidden md:block">
+          {LABELS.map((label) => (
+            <div key={label.text} className="absolute" style={{ top: label.top, left: label.left, zIndex: 10 }}>
+              <FloatingLabel text={label.text} ok={label.ok} delay={label.delay} dir={label.dir} />
+            </div>
+          ))}
+        </div>
 
         {/* Nucleus */}
         <motion.div
@@ -569,7 +571,7 @@ export default function LandingPage() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.4, ease: "easeOut" }}
-          className="absolute bottom-[7%] left-1/2 -translate-x-1/2 flex flex-col items-center gap-5 w-full max-w-xl px-6"
+          className="absolute bottom-[5%] md:bottom-[7%] left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 md:gap-5 w-full max-w-xl px-4 md:px-6"
         >
           <p
             className="text-center text-slate-500 font-semibold leading-snug"

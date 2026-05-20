@@ -308,20 +308,22 @@ export default function LoginPage() {
       </div>
 
       {/* ── Painel direito: formulário ── */}
-      <div className="flex-1 flex flex-col items-center justify-center p-4 relative bg-[#F8FAFC]"
+      <div className="flex-1 flex flex-col items-center justify-center p-4 md:p-8 relative bg-[#F8FAFC] min-h-[100dvh] lg:min-h-0"
         style={{ backgroundImage: "radial-gradient(#E2E8F0 1px, transparent 1px)", backgroundSize: "28px 28px" }}>
 
         {/* Voltar */}
         <button onClick={() => router.push("/")}
-          className="absolute top-6 left-6 flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest text-slate-400 hover:text-black transition-colors">
+          className="absolute top-4 left-4 md:top-6 md:left-6 flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest text-slate-400 hover:text-black transition-colors min-h-[40px]">
           <ArrowLeft size={13} /> Voltar
         </button>
 
         <div className="w-full max-w-md">
 
           {/* Logo */}
-          <div className="flex justify-center mb-8">
-            <LogoMark size={200} />
+          <div className="flex justify-center mb-6 md:mb-8">
+            <div className="w-24 h-24 md:w-40 md:h-40 relative">
+              <LogoMark size={160} className="!w-full !h-full" />
+            </div>
           </div>
 
           {/* Card principal */}
@@ -339,7 +341,7 @@ export default function LoginPage() {
               ))}
             </div>
 
-            <div className="p-8">
+            <div className="p-5 md:p-8">
 
               {/* Erro */}
               <AnimatePresence>

@@ -7,20 +7,19 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { signOut } from "firebase/auth";
 import { auth } from "@/lib/firebase";
-import { Logo } from "@/components/Logo";
+import { LogoMark } from "@/components/Logo";
 import { useUserContext } from "@/hooks/useUserContext";
 import {
-  ArrowLeft, LayoutDashboard, Dumbbell, TrendingUp, User,
+  ArrowLeft, LayoutDashboard, Dumbbell, User,
   LogOut, ChevronDown, Menu, X, Zap,
 } from "lucide-react";
 
 // ─── Nav items ────────────────────────────────────────────────────────────────
 
 const NAV_ITEMS = [
-  { href: "/dashboard",       label: "Início",    icon: LayoutDashboard },
-  { href: "/dashboard/modos", label: "Praticar",  icon: Dumbbell },
-  { href: "/evolucao",        label: "Evolução",  icon: TrendingUp },
-  { href: "/perfil",          label: "Perfil",    icon: User },
+  { href: "/dashboard",       label: "Início",   icon: LayoutDashboard },
+  { href: "/dashboard/modos", label: "Praticar", icon: Dumbbell },
+  { href: "/perfil",          label: "Perfil",   icon: User },
 ];
 
 // ─── Variant types ────────────────────────────────────────────────────────────
@@ -187,16 +186,16 @@ export function AppHeader(props: AppHeaderProps) {
   if (props.variant === "session") {
     const { tema, subtitulo, onAbandonar, timer } = props;
     return (
-      <header className="w-full px-4 md:px-8 py-3.5 border-b-2 border-black bg-white flex items-center justify-between gap-4 shrink-0 sticky top-0 z-30">
+      <header className="w-full px-3 md:px-8 py-3 md:py-3.5 border-b-2 border-black bg-white flex items-center justify-between gap-3 shrink-0 sticky top-0 z-30">
         <button onClick={onAbandonar}
-          className="bg-white border-2 border-black rounded-xl px-4 py-2.5 flex items-center gap-2 text-[10px] font-black uppercase tracking-widest shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[1px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:translate-y-[3px] active:shadow-none transition-all whitespace-nowrap">
-          <ArrowLeft size={14} /> Abandonar
+          className="bg-white border-2 border-black rounded-xl px-3 md:px-4 py-2.5 min-h-[44px] flex items-center gap-2 text-[10px] font-black uppercase tracking-widest shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[1px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:translate-y-[3px] active:shadow-none transition-all whitespace-nowrap shrink-0">
+          <ArrowLeft size={14} /> <span className="hidden sm:inline">Abandonar</span><span className="sm:hidden">Sair</span>
         </button>
         <div className="text-center flex-1 min-w-0">
-          <p className="text-sm md:text-base font-black text-black truncate">{tema}</p>
-          {subtitulo && <p className="text-[9px] font-bold text-slate-400 uppercase tracking-widest mt-0.5 truncate">{subtitulo}</p>}
+          <p className="text-xs md:text-sm font-black text-black truncate">{tema}</p>
+          {subtitulo && <p className="text-[8px] md:text-[9px] font-bold text-slate-400 uppercase tracking-widest mt-0.5 truncate">{subtitulo}</p>}
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 md:gap-3 shrink-0">
           {timer}
         </div>
       </header>
@@ -232,11 +231,11 @@ export function AppHeader(props: AppHeaderProps) {
     <>
       <MobileDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} nome={nome} premium={premium} pathname={pathname} />
 
-      <header className="w-full h-14 px-4 md:px-6 flex items-center justify-between bg-white/95 backdrop-blur-md border-b border-slate-200 shrink-0 sticky top-0 z-30 shadow-sm">
+      <header className="w-full h-20 px-4 md:px-6 flex items-center justify-between bg-white/95 backdrop-blur-md border-b border-slate-200 shrink-0 sticky top-0 z-30 shadow-sm">
 
         {/* Left: Logo */}
         <div className="flex items-center gap-4">
-          <Logo size="sm" className="!w-8 !h-8" />
+          <LogoMark size={56} />
         </div>
 
         {/* Center: Nav (desktop) */}

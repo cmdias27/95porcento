@@ -11,6 +11,7 @@ import {
 import Link from "next/link";
 import { auth, db } from "@/lib/firebase";
 import { doc, getDoc } from "firebase/firestore";
+import { apiFetch } from "@/lib/apiFetch";
 import { motion } from "framer-motion";
 
 const FASE_LABEL: Record<number, string> = {
@@ -133,6 +134,20 @@ export default function RelatorioGuiado() {
     if (relatorioId) buscar();
   }, [relatorioId, router]);
 
+  useEffect(() => {
+    if (!relatorio || !relatorioId) return;
+    const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+    apiFetch(`${API}/api/evento`, {
+      method: "POST",
+      body: JSON.stringify({
+        tipo: "relatorio_visualizado",
+        relatorio_id: relatorioId,
+        tema:    relatorio.tema    ?? "",
+        materia: relatorio.materia ?? "",
+        jornada: relatorio.jornada ?? "",
+      }),
+    }).catch(() => {});
+  }, [relatorio, relatorioId]);
 
   if (carregando || !relatorio) {
     return (

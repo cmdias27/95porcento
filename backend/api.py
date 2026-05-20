@@ -88,8 +88,9 @@ def validar_token_firebase(f):
         try:
             # Valida criptograficamente: token emitido pelo Firebase e não expirado
             decoded_token = firebase_auth.verify_id_token(token)
-            # Injeta o UID seguro na request para as rotas usarem
-            request.uid_seguro = decoded_token["uid"]
+            # Injeta o UID e email seguros na request para as rotas usarem
+            request.uid_seguro   = decoded_token["uid"]
+            request.email_seguro = decoded_token.get("email", "")
         except Exception:
             return jsonify({"erro": "Token inválido ou expirado."}), 401
 
@@ -1212,23 +1213,61 @@ def perfil_cognitivo_dados_endpoint():
 # Admin — estatísticas da plataforma
 # ---------------------------------------------------------------------------
 
+_TIPOS_EVENTO_PERMITIDOS = {"sessao_abandonada", "sessao_concluida", "relatorio_visualizado"}
+
+@app.route('/api/evento', methods=['POST', 'OPTIONS'])
+@validar_token_firebase
+def registrar_evento_cliente():
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+
+    dados = request.get_json(silent=True) or {}
+    tipo  = dados.get("tipo", "")
+    if tipo not in _TIPOS_EVENTO_PERMITIDOS:
+        return jsonify({"erro": "Tipo de evento inválido"}), 400
+
+    uid_autor = getattr(request, "uid_seguro", "")
+    campos_seguros = {
+        "tipo", "jornada", "materia", "tema", "modo",
+        "etapa", "duracao_segundos", "usou_audio",
+        "tempo_primeira_explicacao", "relatorio_id",
+    }
+    evento = {k: v for k, v in dados.items() if k in campos_seguros}
+    evento["uid"]       = uid_autor
+    evento["timestamp"] = datetime.now().isoformat()
+
+    if db:
+        try:
+            db.collection("eventos_sistema").add(evento)
+        except Exception as e:
+            print(f"⚠️ registrar_evento_cliente falhou: {e}")
+
+    return jsonify({"ok": True}), 200
+
+
 @app.route('/api/admin/stats', methods=['GET', 'OPTIONS'])
 @validar_token_firebase
 def admin_stats_endpoint():
     if request.method == 'OPTIONS':
         return jsonify({}), 200
 
-    uid_admin = request.args.get("uid", "").strip()
+    uid_admin   = getattr(request, "uid_seguro", "").strip()
+    email_admin = getattr(request, "email_seguro", "")
+    ADMIN_EMAILS = {"cassio.mattos@gmail.com"}
+
     if not db or not uid_admin:
         return jsonify({"erro": "Acesso negado"}), 403
 
-    # Verifica role admin no Firestore
+    # Verifica role admin no Firestore OU email whitelist
     try:
         snap_admin = db.collection("usuarios").document(uid_admin).get()
-        if not snap_admin.exists() or snap_admin.to_dict().get("role") != "admin":
+        is_admin = (snap_admin.exists() and snap_admin.to_dict().get("role") == "admin") \
+                   or email_admin in ADMIN_EMAILS
+        if not is_admin:
             return jsonify({"erro": "Acesso negado"}), 403
     except Exception:
-        return jsonify({"erro": "Acesso negado"}), 403
+        if email_admin not in ADMIN_EMAILS:
+            return jsonify({"erro": "Acesso negado"}), 403
 
     agora = datetime.now()
     iso_hoje   = agora.replace(hour=0, minute=0, second=0, microsecond=0).isoformat()
@@ -1270,6 +1309,16 @@ def admin_stats_endpoint():
     tokens_in_hoje  = tokens_out_hoje  = 0
     atividade_recente = []
 
+    # ── Métricas de engajamento ───────────────────────────────────────────────
+    abandono_por_etapa: dict = {}
+    sessoes_concluidas_tracked = 0
+    duracoes: list = []
+    usou_audio_count = 0
+    tempo_primeira_exp_list: list = []
+    relatorios_count: dict = {}
+    uid_session_counts: dict = {}
+    uid_dias: dict = {}
+
     for ev_snap in eventos_snap:
         ev = ev_snap.to_dict()
         tipo      = ev.get("tipo", "")
@@ -1300,6 +1349,34 @@ def admin_stats_endpoint():
             simulados_7d += 1
             if ts >= iso_7d:   simulados_7d    = max(simulados_7d - 1, 0) + 1
             if ts >= iso_hoje: simulados_hoje  += 1
+
+        elif tipo == "sessao_abandonada":
+            etapa = ev.get("etapa", "desconhecido")
+            abandono_por_etapa[etapa] = abandono_por_etapa.get(etapa, 0) + 1
+
+        elif tipo == "sessao_concluida":
+            sessoes_concluidas_tracked += 1
+            d = ev.get("duracao_segundos")
+            if d and isinstance(d, (int, float)) and d > 0:
+                duracoes.append(int(d))
+            if ev.get("usou_audio"):
+                usou_audio_count += 1
+            t_exp = ev.get("tempo_primeira_explicacao")
+            if t_exp and isinstance(t_exp, (int, float)) and t_exp > 0:
+                tempo_primeira_exp_list.append(int(t_exp))
+
+        elif tipo == "relatorio_visualizado":
+            chave = ev.get("tema") or ev.get("materia") or "—"
+            relatorios_count[chave] = relatorios_count.get(chave, 0) + 1
+
+        # UID tracking para taxa de segunda sessão e retorno
+        if tipo in ("sessao_explicacao", "sessao_concluida"):
+            uid_s = ev.get("uid", "")
+            if uid_s:
+                uid_session_counts[uid_s] = uid_session_counts.get(uid_s, 0) + 1
+                if ts:
+                    dia = ts[:10]
+                    uid_dias.setdefault(uid_s, set()).add(dia)
 
         atividade_recente.append({
             "tipo":     tipo,
@@ -1336,6 +1413,32 @@ def admin_stats_endpoint():
     atividade_recente.sort(key=lambda x: x["timestamp"], reverse=True)
     atividade_recente = atividade_recente[:25]
 
+    # ── Métricas de engajamento ────────────────────────────────────────────────
+    total_abandonadas_val = sum(abandono_por_etapa.values())
+    total_iniciadas = total_abandonadas_val + sessoes_30d
+    taxa_abandono = round(total_abandonadas_val / total_iniciadas * 100) if total_iniciadas > 0 else 0
+
+    duracao_media = round(sum(duracoes) / len(duracoes)) if duracoes else 0
+    taxa_audio    = round(usou_audio_count / sessoes_concluidas_tracked * 100) if sessoes_concluidas_tracked > 0 else 0
+    tempo_medio_primeira_exp = round(sum(tempo_primeira_exp_list) / len(tempo_primeira_exp_list)) if tempo_primeira_exp_list else 0
+
+    uids_com_sessao     = len(uid_session_counts)
+    uids_segunda_sessao = sum(1 for c in uid_session_counts.values() if c >= 2)
+    taxa_segunda_sessao = round(uids_segunda_sessao / uids_com_sessao * 100) if uids_com_sessao > 0 else 0
+
+    uids_retornaram = 0
+    for _, _dias in uid_dias.items():
+        _dias_sorted = sorted(_dias)
+        for _i in range(len(_dias_sorted) - 1):
+            _d1 = datetime.strptime(_dias_sorted[_i],     "%Y-%m-%d")
+            _d2 = datetime.strptime(_dias_sorted[_i + 1], "%Y-%m-%d")
+            if (_d2 - _d1).days == 1:
+                uids_retornaram += 1
+                break
+    taxa_retorno_dia = round(uids_retornaram / uids_com_sessao * 100) if uids_com_sessao > 0 else 0
+
+    top_relatorios_list = sorted(relatorios_count.items(), key=lambda x: x[1], reverse=True)[:10]
+
     return jsonify({
         "usuarios": {
             "total":          total_usuarios,
@@ -1368,6 +1471,16 @@ def admin_stats_endpoint():
             "custo_hoje_usd":    custo_hoje,
         },
         "atividade_recente": atividade_recente,
+        "engajamento": {
+            "taxa_abandono_pct":             taxa_abandono,
+            "duracao_media_segundos":        duracao_media,
+            "taxa_audio_pct":                taxa_audio,
+            "taxa_retorno_dia_seguinte_pct": taxa_retorno_dia,
+            "taxa_segunda_sessao_pct":       taxa_segunda_sessao,
+            "tempo_medio_primeira_exp_s":    tempo_medio_primeira_exp,
+            "abandono_por_etapa":            abandono_por_etapa,
+            "top_relatorios": [{"tema": t, "count": c} for t, c in top_relatorios_list],
+        },
     }), 200
 
 

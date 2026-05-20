@@ -31,6 +31,8 @@ function AuditorioContent() {
   const personalizado = searchParams.get("personalizado")  === "1";
   const prioridades   = searchParams.get("prioridades")?.split("|").filter(Boolean) ?? [];
 
+  const sessionStartRef = useRef<number>(Date.now());
+
   // UID do usuário autenticado (resolvido de forma reativa)
   const [uid, setUid] = useState<string>("");
   const [perfilUsuario, setPerfilUsuario] = useState<PerfilUsuario | null>(null);
@@ -236,8 +238,21 @@ function AuditorioContent() {
     setTranscricaoInterim("");
   };
 
+  const emitirEvento = (tipo: string, extra: Record<string, unknown> = {}) => {
+    apiFetch(`${API_BASE_URL}/api/evento`, {
+      method: "POST",
+      body: JSON.stringify({
+        tipo, jornada, materia, tema, modo: "livre",
+        duracao_segundos: Math.round((Date.now() - sessionStartRef.current) / 1000),
+        ...extra,
+      }),
+    }).catch(() => {});
+  };
+
   const handleAbandonar = () => {
     if (confirm("Deseja realmente abandonar a sessão? O progresso não será guardado.")) {
+      const etapa = processando ? "analise" : gravando ? "gravando" : textoExplicacao ? "com_conteudo" : "inicio";
+      emitirEvento("sessao_abandonada", { etapa });
       pararGravacao();
       if (mediaStream) mediaStream.getTracks().forEach(t => t.stop());
       router.push('/dashboard');
@@ -273,7 +288,7 @@ function AuditorioContent() {
         throw new Error(errorData.erro || "Falha na auditoria.");
       }
       const data = await response.json();
-      // Incrementa contagem de sessão após sucesso
+      emitirEvento("sessao_concluida", { usou_audio: modo === "audio" });
       if (uid) await incrementarSessaoUsada(uid).catch(() => {});
       router.push(`/dashboard/relatorio/${data.relatorio_id}`);
     } catch (error: any) {
@@ -380,10 +395,10 @@ function AuditorioContent() {
       />
 
       {/* MAIN GRID - COCKPIT */}
-      <main className="flex-1 w-full max-w-[1400px] mx-auto p-4 md:p-6 lg:p-8 flex flex-col lg:grid lg:grid-cols-12 gap-6 lg:gap-8">
+      <main className="flex-1 w-full max-w-[1400px] mx-auto p-3 md:p-6 lg:p-8 flex flex-col lg:grid lg:grid-cols-12 gap-4 md:gap-6 lg:gap-8">
 
         {/* COLUNA 1 (ESQUERDA): CHECKLIST */}
-        <div className="order-2 lg:order-1 lg:col-span-3 bg-white border-2 border-black rounded-[2rem] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col h-[350px] lg:h-[calc(100vh-140px)] overflow-hidden">
+        <div className="order-2 lg:order-1 lg:col-span-3 bg-white border-2 border-black rounded-[2rem] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col h-[260px] md:h-[320px] lg:h-[calc(100vh-140px)] overflow-hidden">
           <div className="p-4 border-b-2 border-black bg-slate-50 text-center shrink-0">
             <h3 className="font-black text-[10px] md:text-xs uppercase tracking-[0.2em] text-slate-800">{checklistTitulo}</h3>
             <p className="text-[9px] font-bold text-slate-400 mt-1">{checklistSubtitulo}</p>
@@ -394,7 +409,7 @@ function AuditorioContent() {
         </div>
 
         {/* COLUNA 2 (CENTRO): AÇÃO PRINCIPAL */}
-        <div className="order-1 lg:order-2 lg:col-span-6 flex flex-col h-auto lg:h-[calc(100vh-140px)]">
+        <div className="order-1 lg:order-2 lg:col-span-6 flex flex-col h-auto lg:h-[calc(100vh-140px)] min-h-[480px] md:min-h-[560px]">
           <div className="bg-white border-2 border-black rounded-[2rem] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col overflow-hidden flex-1">
             {processando ? (
               <div className="flex-1 flex flex-col items-center justify-center p-10 bg-white">
@@ -418,13 +433,15 @@ function AuditorioContent() {
                 {/* TABS — áudio em destaque */}
                 <div className="flex border-b-2 border-black shrink-0">
                   <button onClick={() => setModo('audio')}
-                    className={`flex-[2] p-4 font-black text-[10px] md:text-xs uppercase tracking-widest flex items-center justify-center gap-2 transition-colors ${modo === 'audio' ? 'bg-black text-white' : 'bg-slate-50 text-slate-500 hover:bg-slate-100 hover:text-black'}`}>
-                    <Mic size={16}/> Voz — Análise Profunda
-                    {modo === 'audio' && <span className="ml-1 text-[8px] bg-blue-600 text-white px-1.5 py-0.5 rounded-full">Recomendado</span>}
+                    className={`flex-[2] py-3 px-3 md:p-4 font-black text-[10px] md:text-xs uppercase tracking-widest flex items-center justify-center gap-1.5 md:gap-2 transition-colors ${modo === 'audio' ? 'bg-black text-white' : 'bg-slate-50 text-slate-500 hover:bg-slate-100 hover:text-black'}`}>
+                    <Mic size={15} className="shrink-0"/>
+                    <span className="hidden sm:inline">Voz — Análise Profunda</span>
+                    <span className="sm:hidden">Voz</span>
+                    {modo === 'audio' && <span className="hidden sm:inline ml-1 text-[8px] bg-blue-600 text-white px-1.5 py-0.5 rounded-full">Recomendado</span>}
                   </button>
                   <button onClick={() => setModo('texto')}
-                    className={`flex-1 p-4 font-black text-[10px] md:text-xs uppercase tracking-widest flex items-center justify-center gap-2 transition-colors border-l-2 border-black ${modo === 'texto' ? 'bg-black text-white' : 'bg-slate-50 text-slate-400 hover:bg-slate-100 hover:text-black'}`}>
-                    <Type size={16}/> Texto
+                    className={`flex-1 py-3 px-3 md:p-4 font-black text-[10px] md:text-xs uppercase tracking-widest flex items-center justify-center gap-1.5 md:gap-2 transition-colors border-l-2 border-black ${modo === 'texto' ? 'bg-black text-white' : 'bg-slate-50 text-slate-400 hover:bg-slate-100 hover:text-black'}`}>
+                    <Type size={15} className="shrink-0"/> Texto
                   </button>
                 </div>
 
@@ -435,8 +452,9 @@ function AuditorioContent() {
                       {/* CONTROLES DE CÂMERA */}
                       <div className="flex flex-col items-center gap-2 w-full">
                         <button onClick={toggleEspelho}
-                          className={`border-2 border-black rounded-xl px-5 py-2.5 font-black text-[10px] uppercase tracking-widest shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all active:translate-y-[2px] active:shadow-none flex items-center gap-2 ${espelhoAtivo ? 'bg-blue-100 text-blue-800' : 'bg-white text-slate-700'}`}>
-                          <Camera size={14}/> {espelhoAtivo ? 'Desligar Espelho' : 'Ligar Espelho'}
+                          className={`border-2 border-black rounded-xl px-4 py-2.5 min-h-[44px] font-black text-[10px] uppercase tracking-widest shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all active:translate-y-[2px] active:shadow-none flex items-center gap-2 ${espelhoAtivo ? 'bg-blue-100 text-blue-800' : 'bg-white text-slate-700'}`}>
+                          <Camera size={14} className="shrink-0"/>
+                          <span>{espelhoAtivo ? 'Desligar Espelho' : 'Ligar Espelho'}</span>
                         </button>
 
                         {/* AVISO: sem gravação de vídeo */}
@@ -451,7 +469,7 @@ function AuditorioContent() {
                       </div>
 
                       {/* VIDEO / MIC */}
-                      <div className={`transition-all duration-500 rounded-full flex items-center justify-center overflow-hidden shrink-0 ${espelhoAtivo ? 'w-44 h-44 md:w-52 md:h-52 border-4 border-black shadow-lg bg-black' : 'w-20 h-20'} ${gravando && !espelhoAtivo ? 'bg-red-100 animate-pulse' : 'bg-slate-100'} ${gravando && espelhoAtivo ? 'border-red-500 animate-pulse' : ''}`}>
+                      <div className={`transition-all duration-500 rounded-full flex items-center justify-center overflow-hidden shrink-0 ${espelhoAtivo ? 'w-36 h-36 sm:w-44 sm:h-44 md:w-52 md:h-52 border-4 border-black shadow-lg bg-black' : 'w-16 h-16 md:w-20 md:h-20'} ${gravando && !espelhoAtivo ? 'bg-red-100 animate-pulse' : 'bg-slate-100'} ${gravando && espelhoAtivo ? 'border-red-500 animate-pulse' : ''}`}>
                         {espelhoAtivo
                           ? <video ref={videoRef} autoPlay playsInline muted className="w-full h-full object-cover transform -scale-x-100" />
                           : <Mic size={36} className={gravando ? 'text-red-600' : 'text-slate-400'} />}
@@ -514,7 +532,7 @@ function AuditorioContent() {
         </div>
 
         {/* COLUNA 3 (DIREITA): RASCUNHO */}
-        <div className="order-3 lg:col-span-3 bg-[#FEF08A] border-2 border-black rounded-[2rem] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col h-[250px] lg:h-[calc(100vh-140px)] overflow-hidden">
+        <div className="order-3 lg:col-span-3 bg-[#FEF08A] border-2 border-black rounded-[2rem] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col h-[200px] md:h-[250px] lg:h-[calc(100vh-140px)] overflow-hidden">
           <div className="p-4 border-b-2 border-black bg-[#FDE047] flex items-center justify-center gap-2 shrink-0">
             <PenTool size={16} className="text-yellow-900"/>
             <span className="font-black text-[10px] md:text-xs uppercase tracking-[0.2em] text-yellow-900">Rascunho de Apoio</span>

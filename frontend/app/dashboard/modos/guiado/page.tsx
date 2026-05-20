@@ -94,6 +94,8 @@ function ModoGuiadoContent() {
   // Loading de finalização
   const [progressoFinal, setProgressoFinal] = useState(0);
 
+  const sessionStartRef = useRef<number>(Date.now());
+
   // Premium / limite de sessões
   const [uid, setUid] = useState<string | null>(null);
   const [perfilUsuario, setPerfilUsuario] = useState<PerfilUsuario | null>(null);
@@ -287,6 +289,17 @@ function ModoGuiadoContent() {
     pulada,
   });
 
+  const emitirEvento = (tipo: string, extra: Record<string, unknown> = {}) => {
+    apiFetch(`${API_BASE_URL}/api/evento`, {
+      method: "POST",
+      body: JSON.stringify({
+        tipo, jornada, materia, tema, modo: "guiado",
+        duracao_segundos: Math.round((Date.now() - sessionStartRef.current) / 1000),
+        ...extra,
+      }),
+    }).catch(() => {});
+  };
+
   const finalizar = async (todasRespostas: Resposta[]) => {
     pararGravacao();
     if (mediaStream) mediaStream.getTracks().forEach(t => t.stop());
@@ -306,6 +319,7 @@ function ModoGuiadoContent() {
         throw new Error(err.erro || "Falha na avaliação.");
       }
       const data = await res.json();
+      emitirEvento("sessao_concluida", { usou_audio: modo === "audio" });
       await incrementarSessaoUsada(uid ?? "").catch(() => {});
       router.push(`/dashboard/relatorio-guiado/${data.relatorio_id}`);
     } catch (err: any) {
@@ -342,6 +356,7 @@ function ModoGuiadoContent() {
 
   const handleAbandonar = () => {
     if (confirm("Deseja realmente abandonar esta sessão? O progresso não será guardado.")) {
+      emitirEvento("sessao_abandonada", { etapa: `pergunta_${indiceAtual + 1}_de_${total}` });
       pararGravacao();
       if (mediaStream) mediaStream.getTracks().forEach(t => t.stop());
       const qs = new URLSearchParams({ jornada, materia, tema, banca, faixa_salarial: faixaSalarial });
@@ -474,10 +489,10 @@ function ModoGuiadoContent() {
         </div>
       )}
 
-      <main className="flex-1 w-full max-w-[1200px] mx-auto p-4 md:p-6 lg:p-8 flex flex-col lg:grid lg:grid-cols-12 gap-6">
+      <main className="flex-1 w-full max-w-[1200px] mx-auto p-3 md:p-6 lg:p-8 flex flex-col lg:grid lg:grid-cols-12 gap-4 md:gap-6">
 
         {/* COLUNA PRINCIPAL */}
-        <div className="lg:col-span-8 flex flex-col gap-6">
+        <div className="lg:col-span-8 flex flex-col gap-4 md:gap-6">
 
           {/* CARD DA PERGUNTA */}
           <AnimatePresence mode="wait">
@@ -485,17 +500,17 @@ function ModoGuiadoContent() {
               <motion.div key={perguntaAtual.id}
                 initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -12 }} transition={{ duration: 0.3 }}
-                className="bg-white border-2 border-black rounded-[2rem] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] p-6 md:p-8">
-                <div className="flex flex-wrap items-center gap-2 mb-6">
+                className="bg-white border-2 border-black rounded-[2rem] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] p-4 md:p-6 lg:p-8">
+                <div className="flex flex-wrap items-center gap-2 mb-4 md:mb-6">
                   <span className="text-[9px] font-black uppercase tracking-widest text-purple-700 bg-purple-50 border border-purple-200 px-3 py-1 rounded-full">
                     Fase {faseAtual} — {FASE_LABEL[faseAtual]}
                   </span>
                   <span className={`text-[9px] font-black uppercase tracking-widest border px-3 py-1 rounded-full ${DIFICULDADE_COLOR[perguntaAtual.dificuldade] ?? "text-slate-600 bg-slate-50 border-slate-200"}`}>
                     {perguntaAtual.dificuldade}
                   </span>
-                  <span className="ml-auto text-[10px] font-black text-slate-400 uppercase tracking-widest">{assuntoAtualNome}</span>
+                  <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest w-full sm:w-auto sm:ml-auto truncate">{assuntoAtualNome}</span>
                 </div>
-                <p className="text-lg md:text-xl font-black text-black leading-relaxed">{perguntaAtual.pergunta}</p>
+                <p className="text-base md:text-lg lg:text-xl font-black text-black leading-relaxed">{perguntaAtual.pergunta}</p>
               </motion.div>
             )}
           </AnimatePresence>
@@ -506,13 +521,15 @@ function ModoGuiadoContent() {
             {/* TABS — voz em destaque */}
             <div className="flex border-b-2 border-black shrink-0">
               <button onClick={() => setModo("audio")}
-                className={`flex-[2] p-3.5 font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-2 transition-colors ${modo === "audio" ? "bg-black text-white" : "bg-slate-50 text-slate-500 hover:bg-slate-100"}`}>
-                <Mic size={14} /> Voz — Análise Profunda
-                {modo === "audio" && <span className="ml-1 text-[8px] bg-blue-600 text-white px-1.5 py-0.5 rounded-full">Recomendado</span>}
+                className={`flex-[2] py-3 px-3 md:p-3.5 font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-1.5 transition-colors ${modo === "audio" ? "bg-black text-white" : "bg-slate-50 text-slate-500 hover:bg-slate-100"}`}>
+                <Mic size={14} className="shrink-0" />
+                <span className="hidden sm:inline">Voz — Análise Profunda</span>
+                <span className="sm:hidden">Voz</span>
+                {modo === "audio" && <span className="hidden sm:inline ml-1 text-[8px] bg-blue-600 text-white px-1.5 py-0.5 rounded-full">Recomendado</span>}
               </button>
               <button onClick={() => { if (gravando) pararGravacao(); setModo("texto"); }}
-                className={`flex-1 p-3.5 font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-2 transition-colors border-l-2 border-black ${modo === "texto" ? "bg-black text-white" : "bg-slate-50 text-slate-400 hover:bg-slate-100"}`}>
-                <Type size={14} /> Texto
+                className={`flex-1 py-3 px-3 md:p-3.5 font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-1.5 transition-colors border-l-2 border-black ${modo === "texto" ? "bg-black text-white" : "bg-slate-50 text-slate-400 hover:bg-slate-100"}`}>
+                <Type size={14} className="shrink-0" /> Texto
               </button>
             </div>
 
@@ -538,8 +555,10 @@ function ModoGuiadoContent() {
                 {/* CÂMERA */}
                 <div className="flex flex-col items-center gap-2 w-full">
                   <button onClick={toggleEspelho}
-                    className={`border-2 border-black rounded-xl px-5 py-2 font-black text-[10px] uppercase tracking-widest shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all active:translate-y-[2px] active:shadow-none flex items-center gap-2 ${espelhoAtivo ? "bg-blue-100 text-blue-800" : "bg-white text-slate-700"}`}>
-                    <Camera size={13} /> {espelhoAtivo ? "Desligar Câmera" : "Ligar Câmera (Espelho)"}
+                    className={`border-2 border-black rounded-xl px-4 py-2.5 min-h-[44px] font-black text-[10px] uppercase tracking-widest shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all active:translate-y-[2px] active:shadow-none flex items-center gap-2 ${espelhoAtivo ? "bg-blue-100 text-blue-800" : "bg-white text-slate-700"}`}>
+                    <Camera size={13} className="shrink-0" />
+                    <span className="hidden sm:inline">{espelhoAtivo ? "Desligar Câmera" : "Ligar Câmera (Espelho)"}</span>
+                    <span className="sm:hidden">{espelhoAtivo ? "Desligar" : "Câmera"}</span>
                   </button>
 
                   {/* AVISO: sem gravação de vídeo */}
@@ -554,7 +573,7 @@ function ModoGuiadoContent() {
                 </div>
 
                 {/* VIDEO / MIC */}
-                <div className={`transition-all duration-500 rounded-full flex items-center justify-center overflow-hidden shrink-0 ${espelhoAtivo ? "w-36 h-36 border-4 border-black shadow-lg bg-black" : "w-16 h-16"} ${gravando && !espelhoAtivo ? "bg-red-100 animate-pulse" : "bg-slate-100"} ${gravando && espelhoAtivo ? "border-red-500 animate-pulse" : ""}`}>
+                <div className={`transition-all duration-500 rounded-full flex items-center justify-center overflow-hidden shrink-0 mx-auto ${espelhoAtivo ? "w-28 h-28 sm:w-36 sm:h-36 md:w-40 md:h-40 border-4 border-black shadow-lg bg-black" : "w-14 h-14 md:w-16 md:h-16"} ${gravando && !espelhoAtivo ? "bg-red-100 animate-pulse" : "bg-slate-100"} ${gravando && espelhoAtivo ? "border-red-500 animate-pulse" : ""}`}>
                   {espelhoAtivo
                     ? <video ref={videoRef} autoPlay playsInline muted className="w-full h-full object-cover transform -scale-x-100" />
                     : <Mic size={28} className={gravando ? "text-red-600" : "text-slate-400"} />}
@@ -591,15 +610,15 @@ function ModoGuiadoContent() {
             )}
 
             {/* BOTÕES DE AÇÃO */}
-            <div className="p-4 border-t-2 border-black bg-white flex items-center gap-3">
+            <div className="p-3 md:p-4 border-t-2 border-black bg-white flex items-center gap-3">
               <button onClick={pular}
-                className="flex items-center gap-2 px-4 py-2.5 text-[10px] font-black uppercase tracking-widest text-slate-500 border-2 border-slate-300 rounded-xl hover:border-black hover:text-black transition-all">
+                className="flex items-center gap-2 px-4 py-2.5 min-h-[44px] text-[10px] font-black uppercase tracking-widest text-slate-500 border-2 border-slate-300 rounded-xl hover:border-black hover:text-black transition-all">
                 <SkipForward size={13} /> Pular
               </button>
 
-<button onClick={avancar}
+              <button onClick={avancar}
                 disabled={modo === "texto" && !temResposta}
-                className={`ml-auto flex items-center gap-2 px-6 py-2.5 text-[10px] font-black uppercase tracking-widest rounded-xl border-2 transition-all ${(podeAvancar)
+                className={`ml-auto flex items-center gap-2 px-5 md:px-6 py-2.5 min-h-[44px] text-[10px] font-black uppercase tracking-widest rounded-xl border-2 transition-all ${(podeAvancar)
                   ? "bg-black text-white border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:-translate-y-[1px] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] active:translate-y-[1px] active:shadow-none"
                   : "bg-slate-100 text-slate-400 border-slate-200 cursor-not-allowed"}`}>
                 {indiceAtual < total - 1
@@ -611,8 +630,8 @@ function ModoGuiadoContent() {
         </div>
 
         {/* COLUNA LATERAL — PROGRESSO POR ASSUNTO */}
-        <div className="lg:col-span-4 flex flex-col gap-4">
-          <div className="bg-white border-2 border-black rounded-[2rem] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] p-5 flex flex-col gap-4">
+        <div className="lg:col-span-4 flex flex-col gap-4 max-h-[300px] md:max-h-[400px] lg:max-h-none overflow-hidden lg:overflow-visible">
+          <div className="bg-white border-2 border-black rounded-[2rem] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] p-4 md:p-5 flex flex-col gap-4 overflow-y-auto lg:overflow-visible custom-scrollbar">
             <div className="flex items-center gap-2 pb-3 border-b-2 border-slate-100">
               <BrainCircuit size={15} className="text-purple-600" />
               <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-700">Progresso</span>

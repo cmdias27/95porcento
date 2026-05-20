@@ -204,7 +204,7 @@ export default function ModosPage() {
     <div className="min-h-[100dvh] bg-[#F8FAFC] text-slate-900 font-sans pb-20">
       <AppHeader variant="default" contextPill="Nova Sessão" />
 
-      <main className="max-w-3xl mx-auto px-4 pt-8 space-y-8">
+      <main className="max-w-3xl mx-auto px-3 md:px-4 pt-4 md:pt-8 space-y-6 md:space-y-8">
 
         <div>
           <h1 className="text-2xl font-black text-black tracking-tight">
@@ -332,7 +332,7 @@ export default function ModosPage() {
         {/* MODO DE ESTUDO */}
         <section className="space-y-4">
           <h3 className="text-xs font-black uppercase tracking-widest text-slate-500">Como Quer Estudar?</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-4">
             {MODOS.map(m => {
               const Icon = m.icon;
               const ativo = modo === m.value;
@@ -343,7 +343,7 @@ export default function ModosPage() {
                   whileHover={{ y: -6, boxShadow: m.hoverShadow }}
                   whileTap={{ scale: 0.97 }}
                   transition={{ duration: 0.2, ease: "easeOut" }}
-                  className={`relative flex flex-col p-6 rounded-[1.5rem] border-2 text-left bg-gradient-to-br ${m.bgGrad} transition-colors ${
+                  className={`relative flex flex-col p-4 md:p-6 rounded-[1.5rem] border-2 text-left bg-gradient-to-br ${m.bgGrad} transition-colors ${
                     ativo
                       ? `${m.borderActive} ring-4 ring-offset-2 ${m.ring}`
                       : m.border

@@ -6,6 +6,7 @@ import { useParams, useRouter } from "next/navigation";
 import { Brain, CheckCircle2, AlertTriangle, ChevronRight, Download, Printer, Sparkles, Edit3, BrainCircuit, Activity, Compass, BookOpen, LayoutGrid, Eye, EyeOff, Fingerprint, Zap, Mic, Star, Send } from "lucide-react";
 import { AppHeader } from "@/components/AppHeader";
 import { db, auth } from "@/lib/firebase";
+import { apiFetch } from "@/lib/apiFetch";
 import { doc, getDoc, addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -54,8 +55,8 @@ function CollapsibleSection({
         className="w-full flex items-center justify-between gap-3 border-b-2 border-black pb-3 text-left group"
       >
         <div className="flex items-center gap-3 min-w-0">
-          <Icon size={22} className={`${iconColor} shrink-0`} />
-          <h2 className="text-xl md:text-2xl font-black uppercase tracking-tight text-black">{title}</h2>
+          <Icon size={20} className={`${iconColor} shrink-0`} />
+          <h2 className="text-base md:text-xl lg:text-2xl font-black uppercase tracking-tight text-black">{title}</h2>
           {badge !== undefined && badge > 0 && (
             <span className="text-[10px] font-black text-white bg-slate-700 px-2 py-0.5 rounded-full shrink-0">{badge}</span>
           )}
@@ -296,6 +297,21 @@ export default function RelatorioFinal() {
     if (relatorioId) buscarRelatorio();
   }, [relatorioId, router]);
 
+  useEffect(() => {
+    if (!relatorio || !relatorioId) return;
+    const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+    apiFetch(`${API}/api/evento`, {
+      method: "POST",
+      body: JSON.stringify({
+        tipo: "relatorio_visualizado",
+        relatorio_id: relatorioId,
+        tema:    relatorio.tema    ?? "",
+        materia: relatorio.materia ?? "",
+        jornada: relatorio.jornada ?? "",
+      }),
+    }).catch(() => {});
+  }, [relatorio, relatorioId]);
+
   const exportarRelatorioTXT = () => {
     if (!relatorio) return;
     let c = `=== RELATÓRIO DE AUDITORIA: ${relatorio.tema?.toUpperCase()} ===\n`;
@@ -352,7 +368,7 @@ export default function RelatorioFinal() {
         }
       />
 
-      <main className="w-full max-w-5xl mx-auto px-4 md:px-8 py-8 flex flex-col gap-10 print:max-w-none print:p-0">
+      <main className="w-full max-w-5xl mx-auto px-3 md:px-8 py-4 md:py-8 flex flex-col gap-6 md:gap-10 print:max-w-none print:p-0">
 
         {/* SEÇÃO 1: ANÁLISE DO MENTOR */}
         <CollapsibleSection
@@ -393,7 +409,7 @@ export default function RelatorioFinal() {
                   {relatorio.perfil_quadrante}
                 </span>
               </div>
-              <div className="text-base md:text-lg font-bold text-slate-900 leading-relaxed mb-8 max-w-3xl whitespace-pre-wrap">
+              <div className="text-sm md:text-base lg:text-lg font-bold text-slate-900 leading-relaxed mb-6 md:mb-8 max-w-3xl whitespace-pre-wrap">
                 {formatarTexto(relatorio.diagnostico_eficiencia)}
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -663,7 +679,7 @@ export default function RelatorioFinal() {
               <h3 className="text-[10px] font-black uppercase text-slate-400 tracking-widest mb-3 flex items-center gap-2">
                 <Mic size={14} /> Transcrição Capturada
               </h3>
-              <div className="bg-white p-5 rounded-xl border border-slate-200 text-xs font-medium text-slate-500 italic leading-relaxed whitespace-pre-wrap h-64 overflow-y-auto print:h-auto print:border-black custom-scrollbar">
+              <div className="bg-white p-5 rounded-xl border border-slate-200 text-xs font-medium text-slate-500 italic leading-relaxed whitespace-pre-wrap h-48 md:h-64 overflow-y-auto print:h-auto print:border-black custom-scrollbar">
                 {relatorio.texto_transcrito || "Sem transcrição de áudio/texto."}
               </div>
             </div>

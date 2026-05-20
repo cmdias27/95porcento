@@ -254,7 +254,7 @@ export default function PerfilPage() {
 
       <AppHeader variant="default" />
 
-      <main className="flex-1 max-w-3xl w-full mx-auto px-4 md:px-6 py-8 flex flex-col gap-8">
+      <main className="flex-1 max-w-3xl w-full mx-auto px-3 md:px-6 py-4 md:py-8 flex flex-col gap-6 md:gap-8">
 
         {/* ── SEÇÃO 1: DADOS DA CONTA ── */}
         <AnimatePresence mode="wait">
@@ -396,7 +396,7 @@ export default function PerfilPage() {
           {/* Jornada */}
           <div className="mb-6">
             <p className="text-[9px] font-black uppercase tracking-widest text-slate-400 mb-3">Jornada de Estudo</p>
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {[
                 { value: "concurso", label: "Concurso", desc: "Público Federal / Estadual / Municipal" },
                 { value: "oab",      label: "OAB",      desc: "Exame da Ordem dos Advogados" },
