@@ -231,11 +231,11 @@ export function AppHeader(props: AppHeaderProps) {
     <>
       <MobileDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} nome={nome} premium={premium} pathname={pathname} />
 
-      <header className="w-full h-20 px-4 md:px-6 flex items-center justify-between bg-white/95 backdrop-blur-md border-b border-slate-200 shrink-0 sticky top-0 z-30 shadow-sm">
+      <header className="w-full h-28 md:h-44 px-4 md:px-6 flex items-center justify-between bg-white/95 backdrop-blur-md border-b border-slate-200 shrink-0 sticky top-0 z-30 shadow-sm">
 
         {/* Left: Logo */}
         <div className="flex items-center gap-4">
-          <LogoMark size={56} />
+          <LogoMark size={160} className="!w-20 !h-20 md:!w-40 md:!h-40" />
         </div>
 
         {/* Center: Nav (desktop) */}

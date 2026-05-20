@@ -202,7 +202,7 @@ export default function ModosPage() {
 
   return (
     <div className="min-h-[100dvh] bg-[#F8FAFC] text-slate-900 font-sans pb-20">
-      <AppHeader variant="default" contextPill="Nova Sessão" />
+      <AppHeader variant="default" />
 
       <main className="max-w-3xl mx-auto px-3 md:px-4 pt-4 md:pt-8 space-y-6 md:space-y-8">
 
