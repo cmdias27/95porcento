@@ -7,7 +7,7 @@ type LogoMarkProps = {
   className?: string;
 };
 
-export function LogoMark({ size = 48, className }: LogoMarkProps) {
+export function LogoMark({ size = 96, className }: LogoMarkProps) {
   return (
     <Image
       src="/logo.png"
@@ -27,7 +27,7 @@ type LogoProps = {
   textClassName?: string; // mantido por compatibilidade, não usado
 };
 
-const HEIGHT_MAP = { sm: 48, md: 72, lg: 96 };
+const HEIGHT_MAP = { sm: 96, md: 144, lg: 192 };
 
 export function Logo({ size = "md", className = "" }: LogoProps) {
   const h = HEIGHT_MAP[size];

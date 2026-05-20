@@ -207,50 +207,56 @@ export default function LoginPage() {
         <div className="relative z-10 w-full max-w-sm">
           <svg viewBox={`0 0 ${W} ${H}`} className="w-full drop-shadow-2xl">
             {piramideLayers.map((layer, i) => {
-              const cy = i * layerH + layerH / 2;
+              const yT = i * layerH;
+              const yB = yT + layerH;
+              const cy = (yT + yB) / 2;
+              const xLT = CX - minHalf - i * slope;
+              const xLB = CX - minHalf - (i + 1) * slope;
+              // centro-esquerda do trapézio (onde entra o % label)
+              const xPct = (xLT + xLB) / 2 + 10;
               const isTop = i === 0;
               return (
                 <g key={i}>
                   <polygon
                     points={pts(i)}
                     fill={layer.fill}
-                    stroke="rgba(255,255,255,0.12)"
+                    stroke="rgba(255,255,255,0.15)"
                     strokeWidth="1.5"
                   />
                   {isTop && (
-                    <polygon points={pts(i)} fill="rgba(52,211,153,0.18)" />
+                    <polygon points={pts(i)} fill="rgba(52,211,153,0.2)" />
                   )}
-                  {/* % lado esquerdo */}
+                  {/* % — dentro do trapézio, à esquerda */}
                   <text
-                    x={CX - minHalf - i * slope - 10}
+                    x={xPct}
                     y={cy + 5}
-                    textAnchor="end"
-                    fontSize="13"
+                    textAnchor="middle"
+                    fontSize="11"
                     fontWeight="900"
-                    fill={isTop ? "#34d399" : "rgba(255,255,255,0.55)"}
+                    fill={isTop ? "#34d399" : "rgba(255,255,255,0.6)"}
                     fontFamily="system-ui, sans-serif"
                   >
                     {layer.pct}
                   </text>
                   {/* Label central */}
                   <text
-                    x={CX}
-                    y={cy - (isTop ? 4 : 5)}
+                    x={CX + 12}
+                    y={cy - 5}
                     textAnchor="middle"
                     fontSize={isTop ? "13" : "12"}
                     fontWeight="900"
                     fill="white"
                     fontFamily="system-ui, sans-serif"
-                    letterSpacing="1"
+                    letterSpacing="0.5"
                   >
                     {layer.label}
                   </text>
                   <text
-                    x={CX}
-                    y={cy + (isTop ? 11 : 10)}
+                    x={CX + 12}
+                    y={cy + 10}
                     textAnchor="middle"
                     fontSize="9"
-                    fill="rgba(255,255,255,0.55)"
+                    fill="rgba(255,255,255,0.5)"
                     fontFamily="system-ui, sans-serif"
                   >
                     {layer.sub}
@@ -280,7 +286,7 @@ export default function LoginPage() {
 
           {/* Logo */}
           <div className="flex justify-center mb-8">
-            <LogoMark size={100} />
+            <LogoMark size={200} />
           </div>
 
           {/* Card principal */}
