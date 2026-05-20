@@ -166,23 +166,19 @@ export default function LoginPage() {
     }
   };
 
-  // Pirâmide de Glasser — dados do topo (90%) para a base (10%)
+  // Pirâmide de Glasser — topo (90%) → base (10%)
   const piramideLayers = [
-    { label: "ENSINAR", sub: "Explicar para outros", pct: "90%", fill: "#059669", stroke: "#34d399" },
-    { label: "DISCUTIR", sub: "Grupos de estudo",   pct: "70%", fill: "#0d9488", stroke: "#2dd4bf" },
-    { label: "VER E OUVIR", sub: "Audiovisual",     pct: "50%", fill: "#0369a1", stroke: "#38bdf8" },
-    { label: "VER", sub: "Demonstrações",            pct: "30%", fill: "#1d4ed8", stroke: "#60a5fa" },
-    { label: "OUVIR", sub: "Palestras/Áudios",      pct: "20%", fill: "#1e40af", stroke: "#818cf8" },
-    { label: "LER", sub: "Livros/Artigos",           pct: "10%", fill: "#1e3a5f", stroke: "#94a3b8" },
+    { label: "ENSINAR",    sub: "Explicar para outros", pct: "90%", fill: "#059669", top: true  },
+    { label: "DISCUTIR",   sub: "Grupos de estudo",     pct: "70%", fill: "#0d9488", top: false },
+    { label: "VER E OUVIR",sub: "Audiovisual",          pct: "50%", fill: "#0369a1", top: false },
+    { label: "VER",        sub: "Demonstrações",         pct: "30%", fill: "#1d4ed8", top: false },
+    { label: "OUVIR",      sub: "Palestras/Áudios",     pct: "20%", fill: "#1e40af", top: false },
+    { label: "LER",        sub: "Livros/Artigos",        pct: "10%", fill: "#1e3a5f", top: false },
   ];
-  const W = 400, H = 372, CX = 200, minHalf = 44, layerH = H / piramideLayers.length;
-  const slope = (CX - minHalf) / piramideLayers.length;
-  const pts = (i: number) => {
-    const yT = i * layerH, yB = yT + layerH;
-    const lT = CX - minHalf - i * slope, rT = CX + minHalf + i * slope;
-    const lB = CX - minHalf - (i + 1) * slope, rB = CX + minHalf + (i + 1) * slope;
-    return `${lT},${yT} ${rT},${yT} ${rB},${yB} ${lB},${yB}`;
-  };
+  // Geometria: viewBox 500×360, pirâmide centrada em x=250
+  // Camada 0 (topo): meia-largura=40 → largura=80px
+  // Cada camada cresce +25px de cada lado → camada 5 (base): meia=165 → largura=330px
+  const CX_PYR = 250, LH = 60, MIN_HALF = 40, SLOPE = 25;
 
   return (
     <div className="min-h-[100dvh] font-sans flex">
@@ -203,60 +199,81 @@ export default function LoginPage() {
           </p>
         </div>
 
-        {/* SVG Pyramid */}
-        <div className="relative z-10 w-full max-w-sm">
-          <svg viewBox={`0 0 ${W} ${H}`} className="w-full drop-shadow-2xl">
+        {/* SVG Pyramid — viewBox 500×360, pirâmide centrada em x=250
+            Coluna esquerda (0–55): % labels
+            Pirâmide (55–445): trapézios
+            Margem direita (445–500): espaço
+        */}
+        <div className="relative z-10 w-full max-w-md">
+          <svg viewBox="0 0 500 360" className="w-full drop-shadow-2xl">
+            <defs>
+              <filter id="topGlow" x="-30%" y="-30%" width="160%" height="160%">
+                <feGaussianBlur stdDeviation="4" result="blur" />
+                <feMerge>
+                  <feMergeNode in="blur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+            </defs>
+
             {piramideLayers.map((layer, i) => {
-              const yT = i * layerH;
-              const yB = yT + layerH;
-              const cy = (yT + yB) / 2;
-              const xLT = CX - minHalf - i * slope;
-              const xLB = CX - minHalf - (i + 1) * slope;
-              // centro-esquerda do trapézio (onde entra o % label)
-              const xPct = (xLT + xLB) / 2 + 10;
-              const isTop = i === 0;
+              const yT = i * LH, yB = yT + LH, cy = yT + LH / 2;
+              const halfT = MIN_HALF + i * SLOPE;
+              const halfB = MIN_HALF + (i + 1) * SLOPE;
+              const xLT = CX_PYR - halfT, xRT = CX_PYR + halfT;
+              const xLB = CX_PYR - halfB, xRB = CX_PYR + halfB;
+              const points = `${xLT},${yT} ${xRT},${yT} ${xRB},${yB} ${xLB},${yB}`;
+              // ponto médio da borda esquerda (para conectar o traço)
+              const xEdge = (xLT + xLB) / 2;
+
               return (
                 <g key={i}>
-                  <polygon
-                    points={pts(i)}
-                    fill={layer.fill}
-                    stroke="rgba(255,255,255,0.15)"
-                    strokeWidth="1.5"
-                  />
-                  {isTop && (
-                    <polygon points={pts(i)} fill="rgba(52,211,153,0.2)" />
+                  {/* Camada */}
+                  <polygon points={points} fill={layer.fill} stroke="rgba(255,255,255,0.1)" strokeWidth="1" />
+                  {/* Destaque extra no topo */}
+                  {layer.top && (
+                    <polygon points={points} fill="rgba(52,211,153,0.18)" filter="url(#topGlow)" />
                   )}
-                  {/* % — dentro do trapézio, à esquerda */}
+
+                  {/* Traço pontilhado: % → borda esquerda */}
+                  <line
+                    x1="50" y1={cy}
+                    x2={xEdge - 3} y2={cy}
+                    stroke="rgba(255,255,255,0.18)"
+                    strokeWidth="0.8"
+                    strokeDasharray="3 3"
+                  />
+
+                  {/* % — coluna esquerda, fora do trapézio */}
                   <text
-                    x={xPct}
-                    y={cy + 5}
-                    textAnchor="middle"
-                    fontSize="11"
-                    fontWeight="900"
-                    fill={isTop ? "#34d399" : "rgba(255,255,255,0.6)"}
+                    x="48" y={cy + 5}
+                    textAnchor="end"
+                    fontSize="12" fontWeight="900"
+                    fill={layer.top ? "#34d399" : "rgba(255,255,255,0.45)"}
                     fontFamily="system-ui, sans-serif"
                   >
                     {layer.pct}
                   </text>
-                  {/* Label central */}
+
+                  {/* Nome do método — centralizado no trapézio */}
                   <text
-                    x={CX + 12}
-                    y={cy - 5}
+                    x={CX_PYR} y={cy - 5}
                     textAnchor="middle"
-                    fontSize={isTop ? "13" : "12"}
-                    fontWeight="900"
+                    fontSize="12" fontWeight="900"
                     fill="white"
                     fontFamily="system-ui, sans-serif"
-                    letterSpacing="0.5"
+                    letterSpacing="0.8"
+                    filter={layer.top ? "url(#topGlow)" : undefined}
                   >
                     {layer.label}
                   </text>
+
+                  {/* Descrição curta */}
                   <text
-                    x={CX + 12}
-                    y={cy + 10}
+                    x={CX_PYR} y={cy + 11}
                     textAnchor="middle"
                     fontSize="9"
-                    fill="rgba(255,255,255,0.5)"
+                    fill="rgba(255,255,255,0.4)"
                     fontFamily="system-ui, sans-serif"
                   >
                     {layer.sub}
