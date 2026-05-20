@@ -142,13 +142,26 @@ export default function AdminPage() {
     setCarregando(true);
     setErro("");
     try {
-      const res  = await apiFetch(`${API}/api/admin/stats`);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const res = await apiFetch(`${API}/api/admin/stats`);
+      if (res.status === 403) {
+        setErro("Acesso negado (403). O backend ainda não reconhece seu email como admin — certifique-se de que o backend foi atualizado e reiniciado.");
+        return;
+      }
+      if (!res.ok) {
+        let detalhe = "";
+        try { const j = await res.json(); detalhe = j.erro || j.error || ""; } catch {}
+        throw new Error(`HTTP ${res.status}${detalhe ? ": " + detalhe : ""}`);
+      }
       const data = await res.json();
       setStats(data);
       setUltimaAtual(new Date().toLocaleTimeString("pt-BR"));
     } catch (e: any) {
-      setErro("Não foi possível carregar as estatísticas. Verifique se o backend está rodando.");
+      const isNetwork = e instanceof TypeError && e.message.includes("fetch");
+      setErro(
+        isNetwork
+          ? `Erro de rede: o backend não está acessível em ${API}. Verifique se está rodando.`
+          : `Erro ao carregar estatísticas: ${e.message}`
+      );
     } finally {
       setCarregando(false);
     }
