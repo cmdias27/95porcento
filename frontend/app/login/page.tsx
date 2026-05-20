@@ -395,16 +395,14 @@ export default function LoginPage() {
                     <div className="space-y-2.5 border-t-2 border-slate-100 pt-4">
 
                       {/* Termos obrigatório */}
-                      <label className="flex items-start gap-3 cursor-pointer group">
-                        <div className="relative mt-0.5 flex-shrink-0">
-                          <input type="checkbox" className="sr-only" checked={aceitouTermos} readOnly />
-                          <div
-                            onClick={() => aceitouTermos ? setAceitouTermos(false) : setModalAberto(true)}
-                            className={`w-4 h-4 rounded border-2 flex items-center justify-center transition-all cursor-pointer ${aceitouTermos ? "bg-black border-black" : "border-slate-300 group-hover:border-black"}`}
-                          >
-                            {aceitouTermos && <span className="text-white text-[10px] font-black">✓</span>}
-                          </div>
-                        </div>
+                      <div className="flex items-start gap-3">
+                        <button
+                          type="button"
+                          onClick={() => aceitouTermos ? setAceitouTermos(false) : setModalAberto(true)}
+                          className={`mt-0.5 w-4 h-4 flex-shrink-0 rounded border-2 flex items-center justify-center transition-all ${aceitouTermos ? "bg-black border-black" : "border-slate-300 hover:border-black"}`}
+                        >
+                          {aceitouTermos && <span className="text-white text-[10px] font-black leading-none">✓</span>}
+                        </button>
                         <span className="text-[11px] font-medium text-slate-600 leading-tight">
                           Li e aceito os{" "}
                           <button
@@ -416,41 +414,35 @@ export default function LoginPage() {
                           </button>
                           {" "}<span className="text-red-500 font-black">*</span>
                         </span>
-                      </label>
+                      </div>
 
                       {/* Cookies obrigatório */}
-                      <label className="flex items-start gap-3 cursor-pointer group">
-                        <div className="relative mt-0.5 flex-shrink-0">
-                          <input type="checkbox" className="sr-only" checked={aceitouCookies} onChange={e => setAceitouCookies(e.target.checked)} />
-                          <div
-                            onClick={() => setAceitouCookies(v => !v)}
-                            className={`w-4 h-4 rounded border-2 flex items-center justify-center transition-all cursor-pointer ${aceitouCookies ? "bg-black border-black" : "border-slate-300 group-hover:border-black"}`}
-                          >
-                            {aceitouCookies && <span className="text-white text-[10px] font-black">✓</span>}
-                          </div>
+                      <div
+                        className="flex items-start gap-3 cursor-pointer"
+                        onClick={() => setAceitouCookies(v => !v)}
+                      >
+                        <div className={`mt-0.5 w-4 h-4 flex-shrink-0 rounded border-2 flex items-center justify-center transition-all ${aceitouCookies ? "bg-black border-black" : "border-slate-300 hover:border-black"}`}>
+                          {aceitouCookies && <span className="text-white text-[10px] font-black leading-none">✓</span>}
                         </div>
-                        <span className="text-[11px] font-medium text-slate-600 leading-tight">
+                        <span className="text-[11px] font-medium text-slate-600 leading-tight select-none">
                           Aceito o uso de cookies essenciais e analíticos para melhorar minha experiência{" "}
                           <span className="text-red-500 font-black">*</span>
                         </span>
-                      </label>
+                      </div>
 
                       {/* Marketing opcional */}
-                      <label className="flex items-start gap-3 cursor-pointer group">
-                        <div className="relative mt-0.5 flex-shrink-0">
-                          <input type="checkbox" className="sr-only" checked={aceitouMarketing} onChange={e => setAceitouMarketing(e.target.checked)} />
-                          <div
-                            onClick={() => setAceitouMarketing(v => !v)}
-                            className={`w-4 h-4 rounded border-2 flex items-center justify-center transition-all cursor-pointer ${aceitouMarketing ? "bg-blue-600 border-blue-600" : "border-slate-300 group-hover:border-blue-400"}`}
-                          >
-                            {aceitouMarketing && <span className="text-white text-[10px] font-black">✓</span>}
-                          </div>
+                      <div
+                        className="flex items-start gap-3 cursor-pointer"
+                        onClick={() => setAceitouMarketing(v => !v)}
+                      >
+                        <div className={`mt-0.5 w-4 h-4 flex-shrink-0 rounded border-2 flex items-center justify-center transition-all ${aceitouMarketing ? "bg-blue-600 border-blue-600" : "border-slate-300 hover:border-blue-400"}`}>
+                          {aceitouMarketing && <span className="text-white text-[10px] font-black leading-none">✓</span>}
                         </div>
-                        <span className="text-[11px] font-medium text-slate-600 leading-tight">
+                        <span className="text-[11px] font-medium text-slate-600 leading-tight select-none">
                           <span className="text-[9px] font-black text-slate-400 uppercase tracking-wider">(Opcional)</span>{" "}
                           Autorizo o uso do meu nome em campanhas publicitárias e materiais de marketing do 95porcento
                         </span>
-                      </label>
+                      </div>
 
                       <p className="text-[9px] text-slate-400 font-medium">
                         <span className="text-red-500 font-black">*</span> Campos obrigatórios para criar a conta
