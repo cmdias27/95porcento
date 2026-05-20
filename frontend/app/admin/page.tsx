@@ -144,7 +144,13 @@ export default function AdminPage() {
     try {
       const res = await apiFetch(`${API}/api/admin/stats`);
       if (res.status === 403) {
-        setErro("Acesso negado (403). O backend ainda não reconhece seu email como admin — certifique-se de que o backend foi atualizado e reiniciado.");
+        let debugInfo = "";
+        try {
+          const me = await apiFetch(`${API}/api/admin/me`);
+          const meData = await me.json();
+          debugInfo = ` | Backend vê: uid=${meData.uid ?? "?"} email="${meData.email ?? "(vazio)"}"`;
+        } catch {}
+        setErro(`Acesso negado (403). O backend não reconhece este usuário como admin.${debugInfo}`);
         return;
       }
       if (!res.ok) {
