@@ -3,10 +3,10 @@
 
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { ArrowLeft, Brain, CheckCircle2, AlertTriangle, ChevronRight, Download, Printer, Sparkles, Edit3, BrainCircuit, Activity, Compass, BookOpen, LayoutGrid, Eye, EyeOff, Fingerprint, Zap, Mic } from "lucide-react";
+import { ArrowLeft, Brain, CheckCircle2, AlertTriangle, ChevronRight, Download, Printer, Sparkles, Edit3, BrainCircuit, Activity, Compass, BookOpen, LayoutGrid, Eye, EyeOff, Fingerprint, Zap, Mic, Star, Send } from "lucide-react";
 import Link from "next/link";
-import { db } from "@/lib/firebase";
-import { doc, getDoc } from "firebase/firestore";
+import { db, auth } from "@/lib/firebase";
+import { doc, getDoc, addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { motion, AnimatePresence } from "framer-motion";
 
 const formatarTexto = (texto: any) => {
@@ -145,6 +145,119 @@ function QuestaoCard({ questao, gabaritosRevelados, toggle, autoral = false, ban
           </div>
         )}
       </div>
+    </div>
+  );
+}
+
+// ─── Pesquisa de satisfação ──────────────────────────────────
+function PesquisaSatisfacao({ relatorioId }: { relatorioId: string }) {
+  const [notas, setNotas] = useState<Record<string, number>>({});
+  const [recomenda, setRecomenda] = useState<string>("");
+  const [sugestao, setSugestao] = useState("");
+  const [enviado, setEnviado] = useState(false);
+  const [enviando, setEnviando] = useState(false);
+
+  const perguntas = [
+    { id: "relatorio", texto: "Como você avalia o relatório gerado?" },
+    { id: "precisao", texto: "A análise foi precisa com o que você explicou?" },
+    { id: "utilidade", texto: "O quanto isso ajudou no seu aprendizado?" },
+  ];
+
+  const setNota = (id: string, valor: number) =>
+    setNotas(prev => ({ ...prev, [id]: valor }));
+
+  const podeSalvar = Object.keys(notas).length === perguntas.length && recomenda !== "";
+
+  const enviar = async () => {
+    if (!podeSalvar) return;
+    setEnviando(true);
+    try {
+      await addDoc(collection(db, "feedbacks"), {
+        relatorioId,
+        uid: auth.currentUser?.uid ?? null,
+        notas,
+        recomenda,
+        sugestao: sugestao.trim() || null,
+        criadoEm: serverTimestamp(),
+      });
+      setEnviado(true);
+    } catch (e) {
+      console.error(e);
+    } finally {
+      setEnviando(false);
+    }
+  };
+
+  if (enviado) return (
+    <div className="flex flex-col items-center gap-3 py-10 text-center">
+      <CheckCircle2 size={36} className="text-emerald-500" />
+      <p className="text-base font-black text-slate-900">Obrigado pelo feedback!</p>
+      <p className="text-sm text-slate-500">Suas respostas nos ajudam a melhorar.</p>
+    </div>
+  );
+
+  return (
+    <div className="bg-white border-2 border-black rounded-[2rem] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] p-6 md:p-8 space-y-7">
+      <div>
+        <p className="text-[10px] font-black uppercase tracking-widest text-blue-600 mb-1">Sua opinião importa</p>
+        <h3 className="text-xl font-black text-slate-900">Como foi essa sessão?</h3>
+      </div>
+
+      {/* Estrelas */}
+      {perguntas.map(p => (
+        <div key={p.id} className="space-y-2">
+          <p className="text-sm font-bold text-slate-700">{p.texto}</p>
+          <div className="flex gap-1">
+            {[1, 2, 3, 4, 5].map(v => (
+              <button key={v} onClick={() => setNota(p.id, v)}
+                className="transition-transform hover:scale-110 active:scale-95">
+                <Star
+                  size={28}
+                  className={v <= (notas[p.id] ?? 0)
+                    ? "fill-amber-400 text-amber-400"
+                    : "text-slate-300"}
+                />
+              </button>
+            ))}
+          </div>
+        </div>
+      ))}
+
+      {/* Recomendaria */}
+      <div className="space-y-2">
+        <p className="text-sm font-bold text-slate-700">Você recomendaria o 95porcento para outros estudantes?</p>
+        <div className="flex gap-2 flex-wrap">
+          {["Sim", "Talvez", "Não"].map(op => (
+            <button key={op} onClick={() => setRecomenda(op)}
+              className={`px-5 py-2 rounded-xl text-xs font-black uppercase tracking-widest border-2 transition-all ${
+                recomenda === op
+                  ? "bg-black text-white border-black"
+                  : "border-slate-200 text-slate-500 hover:border-black hover:text-black"
+              }`}>
+              {op}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Sugestão livre */}
+      <div className="space-y-2">
+        <p className="text-sm font-bold text-slate-700">O que você melhoraria? <span className="font-normal text-slate-400">(opcional)</span></p>
+        <textarea
+          value={sugestao}
+          onChange={e => setSugestao(e.target.value)}
+          placeholder="Escreva sua sugestão..."
+          rows={3}
+          className="w-full bg-slate-50 border-2 border-slate-200 focus:border-black rounded-2xl p-4 text-sm font-medium text-slate-700 placeholder-slate-400 outline-none transition-colors resize-none"
+        />
+      </div>
+
+      <button onClick={enviar} disabled={!podeSalvar || enviando}
+        className="w-full bg-black text-white py-3.5 rounded-2xl font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-2 hover:bg-blue-600 transition-all disabled:opacity-40 shadow-[3px_3px_0px_0px_rgba(37,99,235,0.3)]">
+        {enviando
+          ? <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+          : <><Send size={13} /> Enviar Feedback</>}
+      </button>
     </div>
   );
 }
@@ -561,6 +674,11 @@ export default function RelatorioFinal() {
             </div>
           </div>
         </CollapsibleSection>
+
+        {/* PESQUISA DE SATISFAÇÃO */}
+        <section className="print:hidden pb-12">
+          <PesquisaSatisfacao relatorioId={relatorioId} />
+        </section>
 
       </main>
 

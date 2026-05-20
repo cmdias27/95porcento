@@ -3,13 +3,14 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { auth, googleProvider } from "@/lib/firebase";
+import { auth, googleProvider, db } from "@/lib/firebase";
 import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
   signInWithPopup,
   updateProfile,
 } from "firebase/auth";
+import { doc, setDoc, serverTimestamp } from "firebase/firestore";
 import Image from "next/image";
 import { Mail, Lock, LogIn, ArrowLeft, User, Eye, EyeOff } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -130,6 +131,13 @@ export default function LoginPage() {
     try {
       const cred = await createUserWithEmailAndPassword(auth, email, senha);
       await updateProfile(cred.user, { displayName: nome.trim() });
+      await setDoc(doc(db, "usuarios", cred.user.uid), {
+        nome: nome.trim(),
+        email: cred.user.email,
+        uid: cred.user.uid,
+        criadoEm: serverTimestamp(),
+        premium: true,
+      });
       router.push("/dashboard/modos");
     } catch (err: any) {
       setErro(erroFirebase(err.code));
@@ -143,7 +151,14 @@ export default function LoginPage() {
     setErro("");
     setCarregando(true);
     try {
-      await signInWithPopup(auth, googleProvider);
+      const result = await signInWithPopup(auth, googleProvider);
+      await setDoc(doc(db, "usuarios", result.user.uid), {
+        nome: result.user.displayName || "",
+        email: result.user.email || "",
+        uid: result.user.uid,
+        ultimoAcesso: serverTimestamp(),
+        premium: true,
+      }, { merge: true });
       router.push("/dashboard/modos");
     } catch (err: any) {
       setErro(erroFirebase(err.code));
