@@ -13,6 +13,7 @@ import { auth, db } from "@/lib/firebase";
 import { doc, getDoc } from "firebase/firestore";
 import { apiFetch } from "@/lib/apiFetch";
 import { motion } from "framer-motion";
+import { FeedbackPopup } from "@/components/FeedbackPopup";
 
 const STATUS_CONFIG: Record<string, { label: string; cor: string; icon: React.ReactNode }> = {
   Acerto:      { label: "Acerto",      cor: "emerald", icon: <CheckCircle2 size={14} /> },
@@ -67,7 +68,7 @@ function QuestaoCard({ questao, gabaritosRevelados, toggle, autoral = false, ban
         {!autoral && questao.ano   && <span className="text-[10px] font-bold text-slate-500 bg-white px-2 py-0.5 rounded border border-slate-200">{questao.ano}</span>}
       </div>
       <div className="p-4">
-        {questao.texto_auxiliar && (
+        {questao.texto_auxiliar && questao.texto_auxiliar.trim().toLowerCase() !== "sem texto auxiliar" && (
           <div className="text-sm font-medium text-slate-600 leading-relaxed mb-3 bg-slate-100 border border-slate-200 rounded-lg p-3 whitespace-pre-wrap">
             {questao.texto_auxiliar}
           </div>
@@ -382,6 +383,8 @@ export default function RelatorioSimulado() {
         </section>
 
       </main>
+
+      <FeedbackPopup relatorioId={relatorioId} />
 
       <style jsx global>{`
         .custom-scrollbar::-webkit-scrollbar { width: 6px; }

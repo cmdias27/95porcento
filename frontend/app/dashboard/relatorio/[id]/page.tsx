@@ -4,6 +4,7 @@
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { Brain, CheckCircle2, AlertTriangle, ChevronRight, Download, Printer, Sparkles, Edit3, BrainCircuit, Activity, Compass, BookOpen, LayoutGrid, Eye, EyeOff, Fingerprint, Zap, Mic, Star, Send } from "lucide-react";
+import { FeedbackPopup } from "@/components/FeedbackPopup";
 import { AppHeader } from "@/components/AppHeader";
 import { db, auth } from "@/lib/firebase";
 import { apiFetch } from "@/lib/apiFetch";
@@ -109,7 +110,7 @@ function QuestaoCard({ questao, gabaritosRevelados, toggle, autoral = false, ban
         {!autoral && questao.ano && <span className="text-[10px] font-bold text-slate-500 bg-white px-2 py-0.5 rounded border border-slate-200">{questao.ano}</span>}
       </div>
       <div className="p-4">
-        {questao.texto_auxiliar && (
+        {questao.texto_auxiliar && questao.texto_auxiliar.trim().toLowerCase() !== "sem texto auxiliar" && (
           <div className="text-sm font-medium text-slate-600 leading-relaxed mb-3 bg-slate-100 border border-slate-200 rounded-lg p-3 whitespace-pre-wrap">
             {questao.texto_auxiliar}
           </div>
@@ -692,6 +693,8 @@ export default function RelatorioFinal() {
         </section>
 
       </main>
+
+      <FeedbackPopup relatorioId={relatorioId} />
 
       <style jsx global>{`
         .custom-scrollbar::-webkit-scrollbar { width: 6px; }

@@ -280,7 +280,10 @@ def _sortear_questao(pool: list, banca_aluno: str, ids_usados: set, topico: str 
         escolhida = random.choice(candidatos)
 
     ids_usados.add(escolhida.get("id"))
-    return {k: escolhida[k] for k in ("id", "banca", "ano", "texto_auxiliar", "enunciado", "alternativas", "gabarito", "comentario") if k in escolhida}
+    q = {k: escolhida[k] for k in ("id", "banca", "ano", "texto_auxiliar", "enunciado", "alternativas", "gabarito", "comentario") if k in escolhida}
+    if q.get("texto_auxiliar", "").strip().lower() in ("sem texto auxiliar", ""):
+        q.pop("texto_auxiliar", None)
+    return q
 
 # ---------------------------------------------------------------------------
 # Helpers para ID de perfil cognitivo
