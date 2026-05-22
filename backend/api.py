@@ -505,6 +505,29 @@ def extrair_metadados_cognitivos(
         traceback.print_exc()
 
 # ---------------------------------------------------------------------------
+# Extrair assunto (texto livre → materia + tema via IA)
+# ---------------------------------------------------------------------------
+
+@app.route('/api/extrair-assunto', methods=['POST', 'OPTIONS'])
+@validar_token_firebase
+@limiter.limit("30 per minute")
+def extrair_assunto_endpoint():
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+    try:
+        dados = request.json
+        texto = (dados.get("texto") or "").strip()
+        jornada = (dados.get("jornada") or "concurso").strip()
+        if not texto:
+            return jsonify({"erro": "Texto não fornecido."}), 400
+        resultado = auditor_v3.extrair_assunto(texto, jornada)
+        return jsonify(resultado), 200
+    except Exception as e:
+        print(f"❌ [LOG INTERNO] ERRO Extrair Assunto: {e}")
+        return jsonify({"erro": "Erro ao processar o assunto."}), 500
+
+
+# ---------------------------------------------------------------------------
 # Rota principal
 # ---------------------------------------------------------------------------
 

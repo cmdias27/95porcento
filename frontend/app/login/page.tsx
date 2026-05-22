@@ -10,7 +10,7 @@ import {
   signInWithPopup,
   updateProfile,
 } from "firebase/auth";
-import { doc, setDoc, serverTimestamp } from "firebase/firestore";
+import { doc, setDoc, getDoc, serverTimestamp } from "firebase/firestore";
 import { Mail, Lock, LogIn, ArrowLeft, User, Eye, EyeOff, FileText, Cookie, Megaphone } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { LogoMark } from "@/components/Logo";
@@ -79,6 +79,20 @@ function erroFirebase(code: string): string {
   }
 }
 
+// ─── Roteamento pós-auth ─────────────────────
+async function rotearAposAuth(uid: string, router: ReturnType<typeof useRouter>) {
+  try {
+    const snap = await getDoc(doc(db, "usuarios", uid));
+    if (snap.exists() && snap.data().onboarding_completo) {
+      router.push("/dashboard");
+    } else {
+      router.push("/onboarding");
+    }
+  } catch {
+    router.push("/onboarding");
+  }
+}
+
 // ─── Página ─────────────────────────────────
 export default function LoginPage() {
   const router = useRouter();
@@ -118,8 +132,8 @@ export default function LoginPage() {
     if (!email || !senha) { setErro("Preencha todos os campos."); return; }
     setCarregando(true);
     try {
-      await signInWithEmailAndPassword(auth, email, senha);
-      router.push("/dashboard/modos");
+      const cred = await signInWithEmailAndPassword(auth, email, senha);
+      await rotearAposAuth(cred.user.uid, router);
     } catch (err: any) {
       setErro(erroFirebase(err.code));
     } finally {
@@ -154,7 +168,7 @@ export default function LoginPage() {
           versaoTermos: "1.0",
         },
       });
-      router.push("/dashboard/modos");
+      await rotearAposAuth(cred.user.uid, router);
     } catch (err: any) {
       setErro(erroFirebase(err.code));
     } finally {
@@ -175,7 +189,7 @@ export default function LoginPage() {
         ultimoAcesso: serverTimestamp(),
         premium: true,
       }, { merge: true });
-      router.push("/dashboard/modos");
+      await rotearAposAuth(result.user.uid, router);
     } catch (err: any) {
       setErro(erroFirebase(err.code));
     } finally {

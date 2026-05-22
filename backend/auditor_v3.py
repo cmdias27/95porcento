@@ -102,6 +102,49 @@ INSTRUÇÃO OBRIGATÓRIA:
         return {"topicos": [], "nivel_elite": False}
 
 
+def extrair_assunto(texto: str, jornada: str) -> dict:
+    """
+    Extrai matéria e tema a partir de texto livre do usuário.
+    Retorna {"materia": str, "tema": str}
+    """
+    if not os.getenv("OPENAI_API_KEY"):
+        return {"materia": "", "tema": ""}
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    prompt = f"""O usuário quer estudar algo específico. Texto dele: "{texto}"
+Jornada de estudo: {jornada}
+
+Extraia a matéria (disciplina/área) e o tema específico (tópico dentro da matéria) do que o usuário quer estudar.
+Exemplos: materia="Direito Constitucional", tema="Princípios Fundamentais"
+         materia="Matemática", tema="Frações"
+         materia="Português", tema="Concordância Verbal"
+
+Retorne JSON: {{"materia": "...", "tema": "..."}}"""
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"},
+            temperature=0.2,
+        )
+        resultado = json.loads(limpar_json_ia(response.choices[0].message.content), strict=False)
+        return {
+            "materia": resultado.get("materia", ""),
+            "tema": resultado.get("tema", ""),
+        }
+    except Exception as e:
+        print(f"⚠️ Extrair Assunto: {e}")
+        return {"materia": "", "tema": ""}
+
+
+def _nivel_desc(faixa_salarial: str) -> str:
+    faixa = (faixa_salarial or "").lower()
+    if "avancado" in faixa or "avançado" in faixa or "elite" in faixa:
+        return "Avançado: exija profundidade máxima, múltiplas conexões entre conceitos, alto rigor técnico e abstração."
+    if "intermediar" in faixa:
+        return "Intermediário: exija conexão entre conceitos, menor apoio contextual, profundidade progressiva."
+    return "Iniciante: linguagem acessível, apoio contextual, conceitos diretos e progressivos."
+
+
 def gerar_perguntas_guiado(jornada: str, materia: str, tema: str, faixa_salarial: str,
                             contexto_personalizado: list | None = None) -> dict:
     """
@@ -109,16 +152,8 @@ def gerar_perguntas_guiado(jornada: str, materia: str, tema: str, faixa_salarial
     Retorna {"perguntas": [{id, assunto_idx, assunto, fase, pergunta, dificuldade}], "total_assuntos": N}
     contexto_personalizado: lista de tópicos prioritários do histórico cognitivo do aluno.
     """
-    faixa = (faixa_salarial or "").lower()
-    if "elite" in faixa:
-        n_assuntos = 8
-        nivel_desc = "Elite: exija profundidade máxima, múltiplas conexões entre conceitos, alto rigor técnico e abstração."
-    elif "intermediar" in faixa:
-        n_assuntos = 6
-        nivel_desc = "Intermediário: exija conexão entre conceitos, menor apoio contextual, profundidade progressiva."
-    else:
-        n_assuntos = 4
-        nivel_desc = "Inicial: linguagem acessível, apoio contextual, conceitos diretos e progressivos."
+    n_assuntos = 5
+    nivel_desc = _nivel_desc(faixa_salarial)
 
     bloco_personalizado = ""
     if contexto_personalizado:

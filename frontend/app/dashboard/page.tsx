@@ -1,47 +1,44 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  Mic, ChevronDown, FileText,
-  Calendar, Play, BookOpen, Brain, TrendingUp, Zap,
+  ArrowRight, BookOpen, Brain, Calendar, Check, ChevronRight,
+  FileText, Loader2, Mic, Pencil, Play, Target, Zap,
 } from "lucide-react";
 import { onAuthStateChanged } from "firebase/auth";
 import { collection, doc, getDoc, getDocs, query, where } from "firebase/firestore";
 import { auth, db } from "@/lib/firebase";
+import { apiFetch } from "@/lib/apiFetch";
 import { AppHeader } from "@/components/AppHeader";
+import { JORNADAS_ESTUDO } from "@/data/materias";
 
-// ── Types ─────────────────────────────────────────────────────────────────────
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 
+// ─── Types ────────────────────────────────────────────────────────────────────
+
+type FlowState = "auth" | "chat" | "extraindo" | "confirmando" | "modo";
 type ModoSessao = "livre" | "guiado" | "simulado";
 
-type SessaoHistorico = {
-  id: string;
-  materia: string;
-  tema: string;
-  timestamp: string;
-  modo: ModoSessao;
-  url: string;
-  data: Record<string, any>;
+type SessaoRecente = {
+  id: string; materia: string; tema: string;
+  modo: ModoSessao; url: string;
 };
 
-type MateriaGroup = {
-  materia: string;
-  sessoes: SessaoHistorico[];
-  scoreMedia: number | null;
-  ultimaData: string;
+const MODOS: { value: ModoSessao; label: string; desc: string; icon: typeof Mic; color: string; bg: string; border: string }[] = [
+  { value: "livre",    label: "Livre",    icon: Mic,    desc: "Você explica livremente. A IA analisa seu raciocínio.",    color: "text-blue-700",   bg: "bg-blue-50",   border: "border-blue-200"   },
+  { value: "guiado",   label: "Guiado",   icon: Target, desc: "A IA conduz com perguntas progressivas por fases.",        color: "text-emerald-700", bg: "bg-emerald-50", border: "border-emerald-200" },
+  { value: "simulado", label: "Simulado", icon: Brain,  desc: "Cenário hipotético apresentado como em prova real.",       color: "text-violet-700",  bg: "bg-violet-50",  border: "border-violet-200"  },
+];
+
+const MODO_URLS: Record<ModoSessao, string> = {
+  livre:    "/dashboard/auditorio",
+  guiado:   "/dashboard/modos/guiado",
+  simulado: "/dashboard/modos/simulado",
 };
 
-// ── Helpers ───────────────────────────────────────────────────────────────────
-
-function extractScore(data: Record<string, any>): number | null {
-  if (!data) return null;
-  if (typeof data.score_cognitivo === "number") return data.score_cognitivo;
-  if (typeof data.resumo_geral?.score_cognitivo === "number") return data.resumo_geral.score_cognitivo;
-  if (typeof data.resultado?.score_cognitivo === "number") return data.resultado.score_cognitivo;
-  return null;
-}
+// ─── Helpers ──────────────────────────────────────────────────────────────────
 
 function formatDate(value?: string) {
   if (!value) return "";
@@ -50,438 +47,352 @@ function formatDate(value?: string) {
   return d.toLocaleDateString("pt-BR", { day: "2-digit", month: "short" });
 }
 
-function scoreStyle(score: number | null) {
-  if (score === null)
-    return { text: "text-slate-400", bg: "bg-slate-50", border: "border-slate-200", bar: "bg-slate-200", ring: "ring-slate-200", label: "Sem dados" };
-  if (score >= 8)
-    return { text: "text-emerald-700", bg: "bg-emerald-50", border: "border-emerald-300", bar: "bg-emerald-500", ring: "ring-emerald-300", label: "Dominando" };
-  if (score >= 6)
-    return { text: "text-amber-700", bg: "bg-amber-50", border: "border-amber-300", bar: "bg-amber-400", ring: "ring-amber-300", label: "Em progresso" };
-  return { text: "text-red-700", bg: "bg-red-50", border: "border-red-300", bar: "bg-red-400", ring: "ring-red-300", label: "Precisa reforço" };
-}
+const MODO_LABEL: Record<ModoSessao, string> = { livre: "Livre", guiado: "Guiado", simulado: "Simulado" };
+const MODO_DOT:   Record<ModoSessao, string> = { livre: "bg-blue-500", guiado: "bg-emerald-500", simulado: "bg-violet-500" };
 
-const MODO_CONFIG: Record<ModoSessao, { label: string; color: string; dot: string }> = {
-  livre:    { label: "Livre",    color: "text-blue-600 bg-blue-50 border-blue-200",    dot: "bg-blue-500"   },
-  guiado:   { label: "Guiado",   color: "text-purple-600 bg-purple-50 border-purple-200", dot: "bg-purple-500" },
-  simulado: { label: "Simulado", color: "text-amber-600 bg-amber-50 border-amber-200",  dot: "bg-amber-500"  },
-};
-
-// ── Score Ring (SVG) ──────────────────────────────────────────────────────────
-
-function ScoreRing({ score }: { score: number | null }) {
-  const st = scoreStyle(score);
-  const pct = score !== null ? (score / 10) * 100 : 0;
-  const r = 36;
-  const circ = 2 * Math.PI * r;
-  const dash = (pct / 100) * circ;
-
-  return (
-    <div className="relative flex items-center justify-center w-24 h-24">
-      <svg width="96" height="96" viewBox="0 0 96 96" className="-rotate-90">
-        <circle cx="48" cy="48" r={r} fill="none" stroke="#e2e8f0" strokeWidth="8" />
-        <circle
-          cx="48" cy="48" r={r} fill="none"
-          stroke={score === null ? "#cbd5e1" : score >= 8 ? "#10b981" : score >= 6 ? "#f59e0b" : "#f87171"}
-          strokeWidth="8" strokeLinecap="round"
-          strokeDasharray={`${dash} ${circ}`}
-          style={{ transition: "stroke-dasharray 1s ease" }}
-        />
-      </svg>
-      <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <span className={`text-2xl font-black leading-none ${st.text}`}>
-          {score !== null ? score : "—"}
-        </span>
-        <span className="text-[9px] font-bold text-slate-400">/10</span>
-      </div>
-    </div>
-  );
-}
-
-// ── Main Component ────────────────────────────────────────────────────────────
+// ─── Main Component ───────────────────────────────────────────────────────────
 
 export default function DashboardPage() {
-  const router = useRouter();
-  const [user, setUser] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
-  const [sessoes, setSessoes] = useState<SessaoHistorico[]>([]);
-  const [expandedMaterias, setExpandedMaterias] = useState<Set<string>>(new Set());
+  const router  = useRouter();
+  const inputRef = useRef<HTMLTextAreaElement>(null);
+
+  const [flow,     setFlow]     = useState<FlowState>("auth");
+  const [nome,     setNome]     = useState("Estudante");
+  const [jornada,  setJornada]  = useState("concurso");
+  const [nivel,    setNivel]    = useState("Intermediario");
+  const [banca,    setBanca]    = useState("Livre");
+
+  const [texto,    setTexto]    = useState("");
+  const [materia,  setMateria]  = useState("");
+  const [tema,     setTema]     = useState("");
+  const [editando, setEditando] = useState(false);
+
+  const [modo,     setModo]     = useState<ModoSessao>("guiado");
+  const [recentes, setRecentes] = useState<SessaoRecente[]>([]);
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
-      if (!currentUser) { router.push("/"); return; }
-      setUser(currentUser);
-
+    const unsub = onAuthStateChanged(auth, async (u) => {
+      if (!u) { router.replace("/"); return; }
       try {
-        const userSnap = await getDoc(doc(db, "usuarios", currentUser.uid));
-        if (!userSnap.exists()) { router.replace("/onboarding"); return; }
-        const userData = userSnap.data();
-        if (!userData.onboarding_completo) { router.replace("/onboarding"); return; }
-
-        const [livresSnap, guiadosSnap, simuladosSnap] = await Promise.all([
-          getDocs(query(collection(db, "relatorios"),          where("user_id", "==", currentUser.uid))),
-          getDocs(query(collection(db, "relatorios_guiados"),  where("user_id", "==", currentUser.uid))),
-          getDocs(query(collection(db, "relatorios_simulados"),where("user_id", "==", currentUser.uid))),
-        ]);
-
-        const toSessao = (
-          docs: typeof livresSnap.docs,
-          modo: ModoSessao,
-          baseUrl: string,
-        ): SessaoHistorico[] => docs.map(d => {
-          const data = d.data();
-          return {
-            id: d.id,
-            materia: data.materia || "Sem matéria",
-            tema: data.tema || "Sem tema",
-            timestamp: data.timestamp || data.created_at || data.data || "",
-            modo,
-            url: `${baseUrl}/${d.id}`,
-            data,
-          };
-        });
-
-        const historico = [
-          ...toSessao(livresSnap.docs,    "livre",    "/dashboard/relatorio"),
-          ...toSessao(guiadosSnap.docs,   "guiado",   "/dashboard/relatorio-guiado"),
-          ...toSessao(simuladosSnap.docs, "simulado", "/dashboard/relatorio-simulado"),
-        ].sort((a, b) => new Date(b.timestamp || 0).getTime() - new Date(a.timestamp || 0).getTime());
-
-        setSessoes(historico);
-
-        // Abre a primeira matéria automaticamente
-        if (historico.length > 0) {
-          setExpandedMaterias(new Set([historico[0].materia]));
+        const snap = await getDoc(doc(db, "usuarios", u.uid));
+        if (!snap.exists() || !snap.data().onboarding_completo) {
+          router.replace("/onboarding"); return;
         }
-      } catch (e) {
-        console.error(e);
-      } finally {
-        setLoading(false);
+        const d = snap.data();
+        setNome(d.nome || u.displayName?.split(" ")[0] || "Estudante");
+        setJornada(d.jornada || "concurso");
+        setNivel(d.nivel_padrao || "Intermediario");
+        setBanca(d.banca_padrao || "Livre");
+
+        // Busca sessões recentes (últimas 6 de qualquer modo)
+        const [livres, guiados, simulados] = await Promise.all([
+          getDocs(query(collection(db, "relatorios"),           where("user_id", "==", u.uid))),
+          getDocs(query(collection(db, "relatorios_guiados"),   where("user_id", "==", u.uid))),
+          getDocs(query(collection(db, "relatorios_simulados"), where("user_id", "==", u.uid))),
+        ]);
+        const todas: (SessaoRecente & { ts: number })[] = [
+          ...livres.docs.map(x => ({ id: x.id, materia: x.data().materia || "", tema: x.data().tema || "", modo: "livre" as ModoSessao, url: `/dashboard/relatorio/${x.id}`, ts: new Date(x.data().timestamp || 0).getTime() })),
+          ...guiados.docs.map(x => ({ id: x.id, materia: x.data().materia || "", tema: x.data().tema || "", modo: "guiado" as ModoSessao, url: `/dashboard/relatorio-guiado/${x.id}`, ts: new Date(x.data().timestamp || 0).getTime() })),
+          ...simulados.docs.map(x => ({ id: x.id, materia: x.data().materia || "", tema: x.data().tema || "", modo: "simulado" as ModoSessao, url: `/dashboard/relatorio-simulado/${x.id}`, ts: new Date(x.data().timestamp || 0).getTime() })),
+        ];
+        todas.sort((a, b) => b.ts - a.ts);
+        setRecentes(todas.slice(0, 6));
+
+        // Verifica pending_topic do sessionStorage (vindo da landing page)
+        const pending = typeof window !== "undefined" ? sessionStorage.getItem("pending_topic") : null;
+        if (pending) {
+          sessionStorage.removeItem("pending_topic");
+          setTexto(pending);
+          setFlow("extraindo");
+          extrairAssunto(pending, d.jornada || "concurso");
+          return;
+        }
+        setFlow("chat");
+      } catch {
+        setFlow("chat");
       }
     });
+    return () => unsub();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
-    return () => unsubscribe();
-  }, [router]);
+  const extrairAssunto = async (t: string, j: string) => {
+    setFlow("extraindo");
+    try {
+      const res = await apiFetch(`${API_BASE_URL}/api/extrair-assunto`, {
+        method: "POST",
+        body: JSON.stringify({ texto: t, jornada: j }),
+      });
+      if (!res.ok) throw new Error();
+      const data = await res.json();
+      setMateria(data.materia || "");
+      setTema(data.tema || "");
+      setFlow("confirmando");
+    } catch {
+      // Fallback: pede para o usuário preencher manualmente
+      setEditando(true);
+      setFlow("confirmando");
+    }
+  };
 
-  // Agrupa por matéria (mantém ordem cronológica decrescente)
-  const materiaGroups = useMemo((): MateriaGroup[] => {
-    const map = new Map<string, SessaoHistorico[]>();
-    sessoes.forEach(s => {
-      if (!map.has(s.materia)) map.set(s.materia, []);
-      map.get(s.materia)!.push(s);
-    });
-    return Array.from(map.entries()).map(([materia, sess]) => {
-      const scores = sess.map(s => extractScore(s.data)).filter((x): x is number => x !== null);
-      const scoreMedia = scores.length
-        ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length * 10) / 10
-        : null;
-      return { materia, sessoes: sess, scoreMedia, ultimaData: sess[0]?.timestamp || "" };
-    });
-  }, [sessoes]);
+  const handleEnviar = () => {
+    if (!texto.trim()) return;
+    extrairAssunto(texto.trim(), jornada);
+  };
 
-  const totalMaterias = materiaGroups.length;
-  const totalSessoes  = sessoes.length;
-  const allScores     = materiaGroups.map(m => m.scoreMedia).filter((x): x is number => x !== null);
-  const scoreGeral    = allScores.length
-    ? Math.round(allScores.reduce((a, b) => a + b, 0) / allScores.length * 10) / 10
-    : null;
+  const iniciarSessao = () => {
+    const qs = new URLSearchParams({ jornada, materia, tema, banca, faixa_salarial: nivel });
+    router.push(`${MODO_URLS[modo]}?${qs}`);
+  };
 
-  const toggleMateria = (materia: string) =>
-    setExpandedMaterias(prev => {
-      const n = new Set(prev);
-      n.has(materia) ? n.delete(materia) : n.add(materia);
-      return n;
-    });
+  const jornadaObj = useMemo(() => JORNADAS_ESTUDO.find(j => j.nome.toLowerCase() === jornada), [jornada]);
+  const materiaObj = useMemo(() => jornadaObj?.materias.find(m => m.nome === materia), [jornadaObj, materia]);
 
-  const nome = user?.displayName?.split(" ")[0] || "Estudante";
-  const stGeral = scoreStyle(scoreGeral);
-
-  // ── Loading ────────────────────────────────────────────────────────────────
-
-  if (loading) {
-    return (
-      <div className="h-[100dvh] bg-[#F8FAFC] flex items-center justify-center">
-        <div className="w-6 h-6 border-4 border-blue-600 border-t-transparent rounded-full animate-spin" />
-      </div>
-    );
-  }
-
-  // ── Empty state ────────────────────────────────────────────────────────────
-
-  if (sessoes.length === 0) {
-    return (
-      <div className="min-h-[100dvh] bg-[#F8FAFC] flex flex-col">
-        <AppHeader variant="default" />
-        <div className="flex-1 flex items-center justify-center p-8">
-          <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }}
-            className="text-center max-w-sm">
-            <div className="w-20 h-20 bg-blue-50 rounded-3xl flex items-center justify-center mx-auto mb-6 border-2 border-blue-100">
-              <Mic size={36} className="text-blue-600" />
-            </div>
-            <h1 className="text-2xl font-black text-black mb-2">Olá, {nome}.</h1>
-            <p className="text-slate-500 font-medium mb-8 leading-relaxed">
-              Explique um tema para a IA analisar seu raciocínio e gerar seu perfil cognitivo.
-            </p>
-            <button onClick={() => router.push("/dashboard/modos")}
-              className="bg-black text-white px-8 py-4 rounded-xl font-black text-xs uppercase tracking-widest hover:bg-blue-600 transition-colors flex items-center gap-2 mx-auto">
-              Começar agora <Mic size={14} />
-            </button>
-          </motion.div>
-        </div>
-      </div>
-    );
-  }
-
-  // ── Main layout ────────────────────────────────────────────────────────────
+  // ─── AUTH LOADING ──────────────────────────────────────────────────────────
+  if (flow === "auth") return (
+    <div className="h-[100dvh] bg-[#F8FAFC] flex items-center justify-center">
+      <div className="w-6 h-6 border-4 border-blue-600 border-t-transparent rounded-full animate-spin" />
+    </div>
+  );
 
   return (
-    <div className="h-[100dvh] bg-[#F8FAFC] flex flex-col overflow-hidden">
-
+    <div className="min-h-[100dvh] bg-[#F8FAFC] flex flex-col">
       <AppHeader variant="default" />
 
-      {/* BODY */}
-      <div className="flex-1 flex overflow-hidden">
+      <main className="flex-1 flex flex-col items-center justify-start px-4 pt-8 pb-20 max-w-2xl mx-auto w-full">
 
-        {/* ── SIDEBAR ─────────────────────────────────────────────────────── */}
-        <aside className="hidden lg:flex w-72 xl:w-80 flex-col bg-white border-r-2 border-slate-100 overflow-y-auto shrink-0">
+        <AnimatePresence mode="wait">
 
-          {/* Greeting block */}
-          <div className="p-6 pb-0">
-            <p className="text-[9px] font-black uppercase tracking-[0.2em] text-blue-600 mb-1">Painel Cognitivo</p>
-            <h1 className="text-2xl font-black text-black leading-tight">Olá, {nome}.</h1>
-            <p className="text-xs font-bold text-slate-400 mt-1">
-              {totalSessoes} {totalSessoes === 1 ? "sessão" : "sessões"} em {totalMaterias} {totalMaterias === 1 ? "matéria" : "matérias"}
-            </p>
-          </div>
+          {/* ─── CHAT ────────────────────────────────────────────────────── */}
+          {flow === "chat" && (
+            <motion.div key="chat"
+              initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -12 }} transition={{ duration: 0.3 }}
+              className="w-full space-y-6">
 
-          {/* Score ring card */}
-          <div className="p-4">
-            <div className={`rounded-2xl border-2 ${stGeral.border} ${stGeral.bg} p-5 flex items-center gap-4`}>
-              <ScoreRing score={scoreGeral} />
-              <div className="flex flex-col gap-1 min-w-0">
-                <p className="text-[9px] font-black uppercase tracking-widest text-slate-500">Score Cognitivo</p>
-                <p className={`text-xs font-black uppercase tracking-wider ${stGeral.text}`}>{stGeral.label}</p>
-                {/* Mini bars per matéria */}
-                <div className="mt-2 space-y-1.5">
-                  {materiaGroups.slice(0, 4).map(g => {
-                    const st = scoreStyle(g.scoreMedia);
-                    return (
-                      <div key={g.materia} className="flex items-center gap-2">
-                        <div className="w-14 h-1 bg-slate-200 rounded-full overflow-hidden shrink-0">
-                          <div className={`h-full ${st.bar} rounded-full`}
-                            style={{ width: g.scoreMedia !== null ? `${(g.scoreMedia / 10) * 100}%` : "0%" }} />
+              {/* Greeting */}
+              <div>
+                <h1 className="text-2xl md:text-3xl font-black text-black tracking-tight">
+                  Olá, {nome.split(" ")[0]}.
+                </h1>
+                <p className="text-sm font-bold text-slate-400 mt-1">O que vamos estudar hoje?</p>
+              </div>
+
+              {/* Profile pills */}
+              <div className="flex flex-wrap gap-2">
+                {[
+                  { label: jornada === "concurso" ? "Concurso Público" : jornada === "oab" ? "OAB" : "ENEM" },
+                  { label: nivel },
+                  ...(banca && banca !== "Livre" ? [{ label: banca }] : []),
+                ].map(({ label }) => (
+                  <span key={label} className="text-[10px] font-black uppercase tracking-widest text-slate-500 bg-white border border-slate-200 px-3 py-1.5 rounded-full">
+                    {label}
+                  </span>
+                ))}
+                <button onClick={() => router.push("/perfil")}
+                  className="text-[10px] font-black uppercase tracking-widest text-blue-500 hover:text-blue-700 px-3 py-1.5 rounded-full border border-blue-200 bg-blue-50 transition-colors flex items-center gap-1">
+                  <Pencil size={10} /> Editar perfil
+                </button>
+              </div>
+
+              {/* Chat input */}
+              <div className="bg-white border-2 border-slate-200 rounded-2xl shadow-sm overflow-hidden focus-within:border-blue-500 transition-colors">
+                <textarea
+                  ref={inputRef}
+                  value={texto}
+                  onChange={e => setTexto(e.target.value)}
+                  onKeyDown={e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); handleEnviar(); } }}
+                  placeholder="Sobre o que você quer estudar? (ex: princípios constitucionais, frações, concordância verbal...)"
+                  rows={3}
+                  className="w-full resize-none p-5 outline-none font-medium text-slate-800 placeholder-slate-400 text-sm leading-relaxed bg-transparent"
+                />
+                <div className="flex items-center justify-between px-4 pb-3 gap-3">
+                  <p className="text-[10px] font-bold text-slate-400">Enter para enviar · Shift+Enter para nova linha</p>
+                  <button onClick={handleEnviar} disabled={!texto.trim()}
+                    className="flex items-center gap-2 bg-black text-white text-[10px] font-black uppercase tracking-widest px-4 py-2.5 rounded-xl hover:bg-blue-600 transition-colors disabled:opacity-30 disabled:hover:bg-black shrink-0">
+                    Continuar <ArrowRight size={13} />
+                  </button>
+                </div>
+              </div>
+
+              {/* Recent sessions */}
+              {recentes.length > 0 && (
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 flex items-center gap-1.5">
+                      <Zap size={11} /> Sessões Recentes
+                    </p>
+                  </div>
+                  <div className="grid gap-2">
+                    {recentes.map((s) => (
+                      <motion.div key={s.id} whileHover={{ x: 3 }} transition={{ duration: 0.15 }}
+                        className="bg-white border border-slate-200 rounded-xl p-3.5 flex items-center gap-3 hover:border-slate-300 transition-colors">
+                        <span className={`w-2 h-2 rounded-full shrink-0 ${MODO_DOT[s.modo]}`} />
+                        <div className="flex-1 min-w-0">
+                          <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 truncate">{s.materia}</p>
+                          <p className="text-sm font-black text-slate-800 truncate">{s.tema}</p>
                         </div>
-                        <span className="text-[9px] font-bold text-slate-400 truncate">{g.materia}</span>
-                      </div>
-                    );
-                  })}
+                        <div className="flex items-center gap-2 shrink-0">
+                          <span className="text-[9px] font-black uppercase text-slate-400">{MODO_LABEL[s.modo]}</span>
+                          <button onClick={() => router.push(s.url)}
+                            className="flex items-center gap-1 px-2.5 py-1.5 bg-slate-100 text-slate-600 rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-black hover:text-white transition-colors">
+                            <FileText size={10} /> Ver
+                          </button>
+                          <button
+                            onClick={() => {
+                              setMateria(s.materia); setTema(s.tema); setFlow("modo");
+                            }}
+                            className="flex items-center gap-1 px-2.5 py-1.5 bg-black text-white rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-blue-600 transition-colors">
+                            <Play size={10} /> Repetir
+                          </button>
+                        </div>
+                      </motion.div>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
+              )}
+            </motion.div>
+          )}
 
-          {/* Stats grid */}
-          <div className="px-4 grid grid-cols-3 gap-2">
-            {[
-              { icon: BookOpen,    value: totalMaterias, label: "Matérias" },
-              { icon: Brain,       value: totalSessoes,  label: "Sessões"  },
-              { icon: TrendingUp,  value: scoreGeral !== null ? `${scoreGeral}` : "—", label: "Score"   },
-            ].map(({ icon: Icon, value, label }) => (
-              <div key={label} className="bg-slate-50 border border-slate-200 rounded-xl p-3 text-center">
-                <Icon size={14} className="text-slate-400 mx-auto mb-1" />
-                <p className="text-base font-black text-black leading-none">{value}</p>
-                <p className="text-[8px] font-black uppercase tracking-widest text-slate-400 mt-1">{label}</p>
+          {/* ─── EXTRAINDO ───────────────────────────────────────────────── */}
+          {flow === "extraindo" && (
+            <motion.div key="extraindo"
+              initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0 }} transition={{ duration: 0.3 }}
+              className="w-full flex flex-col items-center gap-6 pt-16">
+              <div className="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center border-2 border-blue-100">
+                <Loader2 size={28} className="text-blue-600 animate-spin" />
               </div>
-            ))}
-          </div>
+              <div className="text-center">
+                <p className="font-black text-black text-lg mb-1">Identificando o assunto...</p>
+                <p className="text-sm font-bold text-slate-400 max-w-xs leading-relaxed">"{texto}"</p>
+              </div>
+            </motion.div>
+          )}
 
-          {/* Legend de modos */}
-          <div className="px-4 mt-4">
-            <p className="text-[9px] font-black uppercase tracking-widest text-slate-400 mb-2">Modos de Estudo</p>
-            <div className="space-y-1.5">
-              {(Object.entries(MODO_CONFIG) as [ModoSessao, typeof MODO_CONFIG[ModoSessao]][]).map(([, cfg]) => (
-                <div key={cfg.label} className="flex items-center gap-2">
-                  <span className={`w-1.5 h-1.5 rounded-full ${cfg.dot}`} />
-                  <span className="text-[10px] font-bold text-slate-500">{cfg.label}</span>
+          {/* ─── CONFIRMANDO ─────────────────────────────────────────────── */}
+          {flow === "confirmando" && (
+            <motion.div key="confirmando"
+              initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -12 }} transition={{ duration: 0.3 }}
+              className="w-full space-y-6">
+
+              <div>
+                <p className="text-[10px] font-black uppercase tracking-widest text-blue-600 mb-2">Assunto identificado</p>
+                <h2 className="text-xl font-black text-black">É isso que você quer estudar?</h2>
+              </div>
+
+              {!editando ? (
+                <div className="bg-white border-2 border-black rounded-2xl shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-6 space-y-3">
+                  <div>
+                    <p className="text-[9px] font-black uppercase tracking-widest text-slate-400 mb-1">Matéria</p>
+                    <p className="text-xl font-black text-black">{materia || "—"}</p>
+                  </div>
+                  <div className="border-t border-slate-100 pt-3">
+                    <p className="text-[9px] font-black uppercase tracking-widest text-slate-400 mb-1">Tema</p>
+                    <p className="text-lg font-black text-slate-700">{tema || "—"}</p>
+                  </div>
                 </div>
-              ))}
-            </div>
-          </div>
+              ) : (
+                <div className="bg-white border-2 border-slate-200 rounded-2xl p-5 space-y-4">
+                  <div>
+                    <label className="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-2 block">Matéria</label>
+                    <select value={materia} onChange={e => { setMateria(e.target.value); setTema(""); }}
+                      className="w-full bg-slate-50 border-2 border-slate-200 rounded-xl p-4 font-bold text-slate-800 outline-none focus:border-blue-600 transition-colors">
+                      <option value="">Selecione a matéria</option>
+                      {jornadaObj?.materias.map(m => <option key={m.id} value={m.nome}>{m.nome}</option>)}
+                    </select>
+                  </div>
+                  {materia && (
+                    <div>
+                      <label className="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-2 block">Tema</label>
+                      <select value={tema} onChange={e => setTema(e.target.value)}
+                        className="w-full bg-slate-50 border-2 border-slate-200 rounded-xl p-4 font-bold text-slate-800 outline-none focus:border-blue-600 transition-colors">
+                        <option value="">Selecione o tema</option>
+                        {materiaObj?.temas.map(t => <option key={t} value={t}>{t}</option>)}
+                      </select>
+                    </div>
+                  )}
+                </div>
+              )}
 
-          {/* CTA */}
-          <div className="p-4 mt-auto">
-            <button
-              onClick={() => router.push("/dashboard/modos")}
-              className="w-full bg-black text-white py-3.5 rounded-xl font-black text-[10px] uppercase tracking-widest hover:bg-blue-600 transition-colors flex items-center justify-center gap-2">
-              <Mic size={13} /> Nova Explicação
-            </button>
-          </div>
-        </aside>
+              <div className="flex gap-3">
+                <button onClick={() => { setEditando(false); setFlow("chat"); }}
+                  className="flex items-center gap-2 px-5 py-3 text-[10px] font-black uppercase tracking-widest text-slate-500 border-2 border-slate-200 rounded-xl hover:border-black hover:text-black transition-all">
+                  Voltar
+                </button>
+                <button onClick={() => setEditando(v => !v)}
+                  className="flex items-center gap-2 px-5 py-3 text-[10px] font-black uppercase tracking-widest text-slate-600 border-2 border-slate-200 rounded-xl hover:border-slate-400 transition-all">
+                  <Pencil size={11} /> {editando ? "Usar sugestão da IA" : "Editar manualmente"}
+                </button>
+                <button
+                  onClick={() => { setEditando(false); setFlow("modo"); }}
+                  disabled={!materia || !tema}
+                  className="ml-auto flex items-center gap-2 px-6 py-3 text-[10px] font-black uppercase tracking-widest bg-black text-white rounded-xl hover:bg-blue-600 transition-all disabled:opacity-30 disabled:hover:bg-black">
+                  Confirmar <Check size={13} />
+                </button>
+              </div>
+            </motion.div>
+          )}
 
-        {/* ── MAIN ────────────────────────────────────────────────────────── */}
-        <main className="flex-1 overflow-y-auto">
+          {/* ─── MODO ────────────────────────────────────────────────────── */}
+          {flow === "modo" && (
+            <motion.div key="modo"
+              initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -12 }} transition={{ duration: 0.3 }}
+              className="w-full space-y-6">
 
-          {/* Mobile header */}
-          <div className="lg:hidden flex items-center justify-between px-4 pt-5 pb-3">
-            <div>
-              <h1 className="text-lg font-black text-black">Olá, {nome}.</h1>
-              <p className="text-[10px] font-bold text-slate-400">{totalMaterias} matérias · {totalSessoes} sessões{scoreGeral !== null ? ` · Score ${scoreGeral}` : ""}</p>
-            </div>
-            <button onClick={() => router.push("/dashboard/modos")}
-              className="bg-black text-white px-4 py-2.5 rounded-xl font-black text-[9px] uppercase tracking-widest flex items-center gap-1.5 hover:bg-blue-600 transition-colors">
-              <Mic size={12} /> Nova
-            </button>
-          </div>
+              <div>
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="text-[9px] font-black uppercase tracking-widest text-slate-400">{materia}</span>
+                  <ChevronRight size={10} className="text-slate-300" />
+                  <span className="text-[9px] font-black uppercase tracking-widest text-blue-600">{tema}</span>
+                </div>
+                <h2 className="text-xl font-black text-black">Como quer estudar?</h2>
+              </div>
 
-          {/* Section header */}
-          <div className="px-4 md:px-6 lg:px-8 pt-4 lg:pt-6 pb-3 flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <Zap size={14} className="text-blue-600" />
-              <h2 className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
-                Suas Matérias
-              </h2>
-            </div>
-            <span className="text-[9px] font-black uppercase tracking-widest text-slate-400 bg-slate-100 px-2 py-1 rounded-full">
-              {totalMaterias} estudadas
-            </span>
-          </div>
-
-          {/* Matéria cards */}
-          <div className="px-3 md:px-6 lg:px-8 pb-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-3">
-              {materiaGroups.map((group, idx) => {
-                const st        = scoreStyle(group.scoreMedia);
-                const isExpanded = expandedMaterias.has(group.materia);
-
-                return (
-                  <motion.div
-                    key={group.materia}
-                    initial={{ opacity: 0, y: 14 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: idx * 0.04 }}
-                    className="bg-white border-2 border-black rounded-2xl shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] overflow-hidden">
-
-                    {/* Card header — clicável */}
-                    <button
-                      onClick={() => toggleMateria(group.materia)}
-                      className="w-full flex items-center gap-3 px-4 md:px-5 py-3.5 md:py-4 text-left hover:bg-slate-50 transition-colors min-h-[60px]">
-
-                      {/* Score badge */}
-                      <div className={`w-11 h-11 rounded-xl flex flex-col items-center justify-center shrink-0 border-2 ${st.border} ${st.bg}`}>
-                        {group.scoreMedia !== null ? (
-                          <>
-                            <span className={`text-sm font-black leading-none ${st.text}`}>{group.scoreMedia}</span>
-                            <span className={`text-[7px] font-bold opacity-60 ${st.text}`}>/10</span>
-                          </>
-                        ) : (
-                          <BookOpen size={16} className="text-slate-300" />
-                        )}
+              <div className="grid gap-3">
+                {MODOS.map(m => {
+                  const Icon  = m.icon;
+                  const ativo = modo === m.value;
+                  return (
+                    <motion.button key={m.value} onClick={() => setModo(m.value)}
+                      whileTap={{ scale: 0.98 }}
+                      className={`flex items-center gap-4 p-5 rounded-2xl border-2 text-left transition-all ${
+                        ativo
+                          ? `${m.border} ${m.bg} ring-4 ring-offset-2 ring-slate-200`
+                          : "border-slate-200 bg-white hover:border-slate-300"
+                      }`}>
+                      <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${m.bg} ${m.color}`}>
+                        <Icon size={22} />
                       </div>
-
-                      {/* Info */}
                       <div className="flex-1 min-w-0">
-                        <p className="font-black text-black text-sm truncate">{group.materia}</p>
-                        <div className="flex items-center gap-2 mt-0.5 flex-wrap">
-                          <span className="text-[9px] font-bold text-slate-400">
-                            {group.sessoes.length} {group.sessoes.length === 1 ? "sessão" : "sessões"}
-                          </span>
-                          {group.ultimaData && (
-                            <>
-                              <span className="w-0.5 h-0.5 rounded-full bg-slate-300" />
-                              <span className="text-[9px] font-bold text-slate-400 flex items-center gap-1">
-                                <Calendar size={9} />{formatDate(group.ultimaData)}
-                              </span>
-                            </>
-                          )}
-                          {group.scoreMedia !== null && (
-                            <>
-                              <span className="w-0.5 h-0.5 rounded-full bg-slate-300" />
-                              <span className={`text-[9px] font-black uppercase ${st.text}`}>{st.label}</span>
-                            </>
-                          )}
-                        </div>
+                        <p className={`font-black text-base ${ativo ? m.color : "text-slate-800"}`}>{m.label}</p>
+                        <p className="text-xs font-bold text-slate-500 mt-0.5 leading-snug">{m.desc}</p>
                       </div>
+                      <div className={`w-5 h-5 rounded-full border-2 shrink-0 flex items-center justify-center transition-all ${ativo ? "bg-black border-black" : "border-slate-300"}`}>
+                        {ativo && <Check size={10} className="text-white" />}
+                      </div>
+                    </motion.button>
+                  );
+                })}
+              </div>
 
-                      {/* Score bar (desktop) */}
-                      {group.scoreMedia !== null && (
-                        <div className="hidden md:flex items-center gap-2 shrink-0 w-24">
-                          <div className="flex-1 h-1.5 bg-slate-100 rounded-full overflow-hidden">
-                            <div className={`h-full ${st.bar} rounded-full transition-all duration-700`}
-                              style={{ width: `${(group.scoreMedia / 10) * 100}%` }} />
-                          </div>
-                        </div>
-                      )}
+              <div className="flex gap-3 pt-2">
+                <button onClick={() => setFlow("confirmando")}
+                  className="flex items-center gap-2 px-5 py-3.5 text-[10px] font-black uppercase tracking-widest text-slate-500 border-2 border-slate-200 rounded-xl hover:border-black hover:text-black transition-all">
+                  Voltar
+                </button>
+                <button onClick={iniciarSessao}
+                  className="flex-1 flex items-center justify-center gap-2 bg-black text-white py-3.5 rounded-xl font-black text-[10px] uppercase tracking-widest hover:bg-blue-600 transition-colors">
+                  Iniciar Sessão <ArrowRight size={14} />
+                </button>
+              </div>
+            </motion.div>
+          )}
 
-                      <ChevronDown size={15} className={`text-slate-400 transition-transform duration-200 shrink-0 ${isExpanded ? "rotate-180" : ""}`} />
-                    </button>
-
-                    {/* Tema rows */}
-                    <AnimatePresence initial={false}>
-                      {isExpanded && (
-                        <motion.div
-                          key="temas"
-                          initial={{ height: 0 }}
-                          animate={{ height: "auto" }}
-                          exit={{ height: 0 }}
-                          transition={{ duration: 0.22, ease: "easeInOut" }}
-                          style={{ overflow: "hidden" }}>
-                          <div className="border-t-2 border-slate-100">
-                            {group.sessoes.map((sessao, i) => {
-                              const s      = extractScore(sessao.data);
-                              const ss     = scoreStyle(s);
-                              const mCfg   = MODO_CONFIG[sessao.modo];
-                              const isLast = i === group.sessoes.length - 1;
-
-                              return (
-                                <div key={sessao.id}
-                                  className={`flex items-center gap-2 md:gap-3 px-3 md:px-5 py-3 ${!isLast ? "border-b border-slate-100" : ""} hover:bg-slate-50/70 transition-colors`}>
-
-                                  {/* Score mini badge */}
-                                  <div className={`w-7 h-7 rounded-lg flex items-center justify-center text-[10px] font-black shrink-0 border ${s !== null ? `${ss.bg} ${ss.border} ${ss.text}` : "bg-slate-100 border-slate-200 text-slate-300"}`}>
-                                    {s !== null ? s : "—"}
-                                  </div>
-
-                                  {/* Tema info */}
-                                  <div className="flex-1 min-w-0">
-                                    <p className="text-xs font-black text-slate-800 truncate">{sessao.tema}</p>
-                                    <div className="flex items-center gap-1.5 mt-0.5 flex-wrap">
-                                      <span className={`text-[8px] font-black uppercase tracking-wide px-1.5 py-0.5 rounded-full border ${mCfg.color}`}>
-                                        {mCfg.label}
-                                      </span>
-                                      {sessao.timestamp && (
-                                        <span className="text-[9px] font-bold text-slate-400 hidden sm:inline">
-                                          {formatDate(sessao.timestamp)}
-                                        </span>
-                                      )}
-                                    </div>
-                                  </div>
-
-                                  {/* Actions */}
-                                  <div className="flex items-center gap-1.5 shrink-0">
-                                    <button
-                                      onClick={() => router.push(sessao.url)}
-                                      className="flex items-center gap-1 px-2.5 md:px-3 py-1.5 min-h-[36px] bg-black text-white rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-blue-600 transition-colors">
-                                      <FileText size={10} /> Abrir
-                                    </button>
-                                    <button
-                                      onClick={() => router.push("/dashboard/modos")}
-                                      className="hidden sm:flex items-center gap-1 px-3 py-1.5 bg-slate-100 text-slate-600 rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-slate-200 transition-colors">
-                                      <Play size={10} /> Repetir
-                                    </button>
-                                  </div>
-                                </div>
-                              );
-                            })}
-                          </div>
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
-                  </motion.div>
-                );
-              })}
-            </div>
-          </div>
-        </main>
-      </div>
+        </AnimatePresence>
+      </main>
     </div>
   );
 }

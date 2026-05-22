@@ -53,10 +53,10 @@ export default function OnboardingPage() {
         banca_padrao: banca || "Livre",
         onboarding_completo: true,
       }, { merge: true });
-      router.replace("/dashboard/modos");
+      router.replace("/dashboard");
     } catch (e) {
       console.error(e);
-      router.replace("/dashboard/modos");
+      router.replace("/dashboard");
     } finally {
       setSalvando(false);
     }

@@ -6,7 +6,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "@/lib/firebase";
 import { LogoAnimated } from "@/components/Logo";
 import { motion } from "framer-motion";
-import { FileText, Mic, BookOpen, Target } from "lucide-react";
+import { FileText, Mic, BookOpen, Target, ArrowRight } from "lucide-react";
 
 // ─── Canvas config ────────────────────────────────────────────
 const SZ = 340;
@@ -303,34 +303,38 @@ function CardSimulado() {
   );
 }
 
-// ─── Shared CTA elements ───────────────────────────────────────
-function CTAButton({ onClick }: { onClick: () => void }) {
+// ─── Chat input CTA ────────────────────────────────────────────
+function ChatInputCTA({ onSubmit }: { onSubmit: (text: string) => void }) {
+  const [value, setValue] = useState("");
+
+  const handleSubmit = () => {
+    if (value.trim()) {
+      sessionStorage.setItem("pending_topic", value.trim());
+    }
+    onSubmit(value.trim());
+  };
+
   return (
-    <div className="relative w-full max-w-xs mx-auto">
-      <motion.div
-        className="absolute inset-0 rounded-full bg-blue-500/20 pointer-events-none"
-        animate={{ scale: [1, 1.6], opacity: [0.4, 0] }}
-        transition={{ duration: 2, repeat: Infinity, ease: "easeOut" }}
-      />
-      <motion.button
-        whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}
-        onClick={onClick}
-        className="relative w-full overflow-hidden flex items-center justify-center gap-3 px-6 py-4 rounded-full font-black text-sm uppercase tracking-widest text-white shadow-xl"
-        style={{ background: "linear-gradient(135deg, #1d4ed8 0%, #2563eb 50%, #3b82f6 100%)" }}
-      >
-        <motion.div
-          className="absolute inset-0 pointer-events-none"
-          style={{ background: "linear-gradient(105deg, transparent 30%, rgba(255,255,255,0.18) 50%, transparent 70%)" }}
-          animate={{ x: ["-100%", "200%"] }}
-          transition={{ duration: 2.4, repeat: Infinity, repeatDelay: 1.6, ease: "easeInOut" }}
+    <div className="w-full max-w-md mx-auto space-y-3">
+      <div className="relative flex items-center bg-white border-2 border-slate-200 rounded-2xl shadow-lg overflow-hidden focus-within:border-blue-500 transition-colors">
+        <input
+          type="text"
+          value={value}
+          onChange={e => setValue(e.target.value)}
+          onKeyDown={e => { if (e.key === "Enter") handleSubmit(); }}
+          placeholder="O que você quer estudar? (ex: princípios constitucionais)"
+          className="flex-1 py-4 pl-5 pr-3 outline-none font-semibold text-sm text-slate-800 placeholder-slate-400 bg-transparent"
         />
-        Explique um assunto agora
-        <span className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">
-          <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-            <path d="M2 5h6M6 3l2 2-2 2" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </span>
-      </motion.button>
+        <button
+          onClick={handleSubmit}
+          className="m-1.5 flex items-center gap-1.5 bg-black text-white text-[10px] font-black uppercase tracking-widest px-4 py-3 rounded-xl hover:bg-blue-600 transition-colors shrink-0"
+        >
+          Começar <ArrowRight size={13} />
+        </button>
+      </div>
+      <p className="text-center text-[10px] font-bold text-slate-400 uppercase tracking-widest">
+        Ou <button onClick={() => onSubmit("")} className="text-blue-500 hover:text-blue-700 transition-colors underline underline-offset-2">explore sem tema definido</button>
+      </p>
     </div>
   );
 }
@@ -482,7 +486,7 @@ export default function LandingPage() {
             Explicar cria conexões mais fortes. Nosso sistema acompanha
             sua linha de raciocínio, detecta falhas e fortalece sua retenção.
           </p>
-          <CTAButton onClick={() => router.push("/login")} />
+          <ChatInputCTA onSubmit={() => router.push("/login")} />
           <Ticker />
         </motion.div>
 
@@ -563,7 +567,7 @@ export default function LandingPage() {
             <br />
             sua linha de raciocínio, detecta falhas e fortalece sua retenção.
           </p>
-          <CTAButton onClick={() => router.push("/login")} />
+          <ChatInputCTA onSubmit={() => router.push("/login")} />
           <Ticker />
         </motion.div>
 
