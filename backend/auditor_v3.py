@@ -90,7 +90,7 @@ INSTRUÇÃO OBRIGATÓRIA:
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     try:
         response = client.chat.completions.create(
-            model="gpt-5.4-mini",
+            model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
             temperature=0.2
@@ -207,7 +207,7 @@ Retorne JSON estrito com TODAS as {n_assuntos * 4} perguntas em ordem (todos os 
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     try:
         response = client.chat.completions.create(
-            model="gpt-5.4-mini",
+            model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
             temperature=0.4
@@ -282,7 +282,7 @@ SAÍDA OBRIGATÓRIA (JSON estrito):
 
     try:
         response = client.chat.completions.create(
-            model="gpt-5.4-mini",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": prompt_sistema},
                 {"role": "user", "content": f"PERGUNTAS E RESPOSTAS:\n{itens_str}"}
@@ -385,7 +385,7 @@ ITENS:
 
     try:
         response = client.chat.completions.create(
-            model="gpt-5.4-mini",
+            model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
             temperature=0.7
@@ -434,7 +434,7 @@ QUESTÕES:
 
     try:
         response = client.chat.completions.create(
-            model="gpt-5.4-mini",
+            model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
             temperature=0.7
@@ -530,7 +530,7 @@ Retorne JSON estrito:
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     try:
         response = client.chat.completions.create(
-            model="gpt-5.4-mini",
+            model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
             temperature=0.5
@@ -618,7 +618,7 @@ SAÍDA OBRIGATÓRIA (JSON estrito):
 
     try:
         response = client.chat.completions.create(
-            model="gpt-5.4-mini",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": prompt_sistema},
                 {"role": "user", "content": f"PERGUNTAS E RESPOSTAS:\n{itens_str}"}
@@ -722,7 +722,7 @@ ATENÇÃO: VOCÊ NÃO FARÁ CÁLCULOS MATEMÁTICOS NEM DARÁ NOTAS. O SEU TRABAL
     try:
         # Retornamos para o gpt-4o para garantir a capacidade cognitiva de seguir regras longas sem alucinar
         response = client.chat.completions.create(
-            model="gpt-5.4-mini",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": template_sistema},
                 {"role": "user", "content": f"AULA DO CANDIDATO:\n{aula_text}"}
