@@ -263,7 +263,9 @@ def _score_relevancia(questao: dict, topico: str) -> int:
     # Strongest signal: assunto field is the question's labeled topic
     assunto_norm = _norm(questao.get("assunto", ""))
     if assunto_norm:
-        if topico_norm in assunto_norm or assunto_norm in topico_norm:
+        # Only score via assunto when the topic is contained IN the assunto (not the other way)
+        # to avoid falsely matching every question in a broad category
+        if topico_norm == assunto_norm or topico_norm in assunto_norm:
             return 100
         palavras_assunto = {p for p in assunto_norm.split() if len(p) > 3}
         overlap = len(palavras & palavras_assunto)
@@ -290,7 +292,13 @@ def _sortear_questao(pool: list, banca_aluno: str, ids_usados: set, topico: str 
     if topico:
         scores = [(q, _score_relevancia(q, topico)) for q in candidatos]
         pos_scored = sorted([(q, s) for q, s in scores if s > 0], key=lambda x: x[1], reverse=True)
-        pool_final = [q for q, _ in pos_scored[:10]] if pos_scored else candidatos
+        if pos_scored:
+            top_score = pos_scored[0][1]
+            # Prefer questions at peak relevance; fallback to top-5 when few perfect matches
+            best = [q for q, s in pos_scored if s == top_score]
+            pool_final = best if len(best) >= 3 else [q for q, _ in pos_scored[:max(len(best), 3)]]
+        else:
+            pool_final = candidatos
         escolhida = random.choice(pool_final)
     else:
         escolhida = random.choice(candidatos)
@@ -619,7 +627,7 @@ def avaliar_sessao_guiada_endpoint():
             av["fase"]           = pr.get("fase", av.get("fase", 1))
             av["assunto_idx"]    = pr.get("assunto_idx", 0)
             av["questao_vinculada"] = _sortear_questao(
-                pool_questoes, banca, ids_usados, topico=av.get("assunto", "")
+                pool_questoes, banca, ids_usados, topico=tema
             )
 
         # Reescrever comentários das questões vinculadas
@@ -633,7 +641,7 @@ def avaliar_sessao_guiada_endpoint():
 
         # Gerar questões autorais no estilo da banca
         itens_autorais = [
-            {"id": av.get("id"), "topico": av.get("assunto", ""), "contexto": av.get("feedback", "")}
+            {"id": av.get("id"), "topico": tema, "contexto": f"{av.get('assunto', '')} — {av.get('feedback', '')}"}
             for av in avaliacoes
         ]
         questoes_autorais = auditor_v3.gerar_questoes_autorais(itens_autorais, banca, materia)
@@ -770,7 +778,7 @@ def avaliar_sessao_simulada_endpoint():
             av["pulada"]         = pr.get("pulada", False)
             av["fase"]           = pr.get("fase", av.get("fase", 1))
             av["questao_vinculada"] = _sortear_questao(
-                pool_questoes, banca, ids_usados, topico=av.get("objetivo", "")
+                pool_questoes, banca, ids_usados, topico=tema
             )
 
         # Reescrever comentários das questões vinculadas
@@ -784,7 +792,7 @@ def avaliar_sessao_simulada_endpoint():
 
         # Gerar questões autorais no estilo da banca
         itens_autorais = [
-            {"id": av.get("id"), "topico": av.get("objetivo", ""), "contexto": av.get("feedback", "")}
+            {"id": av.get("id"), "topico": tema, "contexto": f"{av.get('objetivo', '')} — {av.get('feedback', '')}"}
             for av in avaliacoes
         ]
         questoes_autorais = auditor_v3.gerar_questoes_autorais(itens_autorais, banca, materia)
@@ -1040,7 +1048,7 @@ def processar_e_salvar_auditoria():
         erros_cometidos = [
             {**erro, "questao_vinculada": _sortear_questao(
                 pool_questoes, banca, ids_usados,
-                topico=f"{erro.get('trecho_aluno', '')} {erro.get('correcao', '')}"
+                topico=tema
             )}
             for erro in erros_cometidos_base
         ]
@@ -1048,7 +1056,7 @@ def processar_e_salvar_auditoria():
         omissoes_com_questao = [
             {**omissao, "questao_vinculada": _sortear_questao(
                 pool_questoes, banca, ids_usados,
-                topico=f"{omissao.get('tema', '')} {omissao.get('resumo', '')}"
+                topico=omissao.get("tema") or tema
             )}
             for omissao in temas_nao_abordados
         ]
@@ -1071,13 +1079,13 @@ def processar_e_salvar_auditoria():
         for i, erro in enumerate(erros_cometidos):
             itens_autorais.append({
                 "id": f"erro_{i}",
-                "topico": str(erro.get("trecho_aluno", "") or erro.get("erro", ""))[:300],
-                "contexto": str(erro.get("correcao", "") or erro.get("resumo", ""))[:300],
+                "topico": tema,
+                "contexto": str(erro.get("trecho_aluno", "") or erro.get("erro", ""))[:300],
             })
         for i, om in enumerate(omissoes_com_questao):
             itens_autorais.append({
                 "id": f"omissao_{i}",
-                "topico": str(om.get("tema", ""))[:200],
+                "topico": f"{tema} — {str(om.get('tema', ''))[:100]}".strip(" —"),
                 "contexto": str(om.get("resumo", ""))[:300],
             })
         questoes_autorais = auditor_v3.gerar_questoes_autorais(itens_autorais, banca, materia)
