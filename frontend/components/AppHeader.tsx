@@ -7,19 +7,18 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { signOut } from "firebase/auth";
 import { auth } from "@/lib/firebase";
-import { LogoAnimated } from "@/components/Logo";
 import { useUserContext } from "@/hooks/useUserContext";
 import {
-  ArrowLeft, LayoutDashboard, Dumbbell, User,
+  ArrowLeft, LayoutDashboard, History, User,
   LogOut, ChevronDown, Menu, X, Zap,
 } from "lucide-react";
 
 // ─── Nav items ────────────────────────────────────────────────────────────────
 
 const NAV_ITEMS = [
-  { href: "/dashboard",       label: "Início",   icon: LayoutDashboard },
-  { href: "/dashboard/modos", label: "Praticar", icon: Dumbbell },
-  { href: "/perfil",          label: "Perfil",   icon: User },
+  { href: "/dashboard",   label: "Início",    icon: LayoutDashboard },
+  { href: "/onboarding",  label: "Histórico", icon: History },
+  { href: "/perfil",      label: "Perfil",    icon: User },
 ];
 
 // ─── Variant types ────────────────────────────────────────────────────────────
@@ -235,7 +234,9 @@ export function AppHeader(props: AppHeaderProps) {
 
         {/* Left: Logo */}
         <div className="flex items-center shrink-0">
-          <LogoAnimated size={38} />
+          <span className="font-black text-xl leading-none tracking-tighter select-none">
+            <span className="text-black">95</span><span className="text-blue-500">%</span>
+          </span>
         </div>
 
         {/* Center: Nav (desktop) */}
@@ -269,7 +270,7 @@ export function AppHeader(props: AppHeaderProps) {
           )}
 
           <button
-            onClick={() => router.push("/dashboard/modos")}
+            onClick={() => router.push("/dashboard")}
             className="hidden md:flex items-center gap-1.5 bg-black text-white text-[10px] font-black uppercase tracking-widest px-3.5 py-2 rounded-xl hover:bg-blue-600 transition-all"
           >
             <Zap size={11} className="fill-white" /> Nova sessão

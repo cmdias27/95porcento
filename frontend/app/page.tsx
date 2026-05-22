@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "@/lib/firebase";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRight, Check } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { JORNADAS_ESTUDO } from "@/data/materias";
 
 // ─── Logo simples (só texto) ───────────────────────────────────
@@ -19,20 +19,13 @@ function Marca() {
 }
 
 // ─── Tipos ─────────────────────────────────────────────────────
-type Etapa = "jornada" | "assunto" | "modo";
-type ModoSessao = "livre" | "guiado" | "simulado";
+type Etapa = "jornada" | "assunto";
 
 const JORNADAS = [
   { value: "concurso", label: "Concurso Público", sub: "Federal, Estadual, Municipal" },
   { value: "oab",      label: "OAB",              sub: "1ª e 2ª fase"               },
   { value: "enem",     label: "ENEM",             sub: "Redação e objetivas"         },
 ] as const;
-
-const MODOS: { value: ModoSessao; label: string; desc: string }[] = [
-  { value: "livre",    label: "Livre",    desc: "Você explica livremente. A IA avalia." },
-  { value: "guiado",   label: "Guiado",   desc: "A IA conduz com perguntas por fases."  },
-  { value: "simulado", label: "Simulado", desc: "Cenário hipotético como na prova."     },
-];
 
 // ─── Página ─────────────────────────────────────────────────────
 export default function LandingPage() {
@@ -45,8 +38,6 @@ export default function LandingPage() {
   const [textoLivre, setTextoLivre]   = useState("");
   const [materia, setMateria]         = useState("");
   const [tema, setTema]               = useState("");
-  const [modo, setModo]               = useState<ModoSessao>("guiado");
-
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => {
@@ -86,11 +77,6 @@ export default function LandingPage() {
       sessionStorage.setItem("pending_tema", tema);
     }
     sessionStorage.setItem("pending_jornada", jornada);
-    setEtapa("modo");
-  };
-
-  const iniciar = () => {
-    sessionStorage.setItem("pending_modo", modo);
     router.push("/login");
   };
 
@@ -267,52 +253,6 @@ export default function LandingPage() {
                 <button onClick={avancarAssunto} disabled={!podeAvancarAssunto}
                   className="w-full bg-black text-white py-4 rounded-xl font-black text-[11px] uppercase tracking-widest hover:bg-blue-600 transition-colors disabled:opacity-25 flex items-center justify-center gap-2">
                   Continuar <ArrowRight size={14} />
-                </button>
-              </motion.div>
-            )}
-
-            {/* ───── ETAPA 3: MODO ───── */}
-            {etapa === "modo" && (
-              <motion.div key="modo"
-                initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -10 }} transition={{ duration: 0.22 }}
-                className="space-y-4"
-              >
-                <button onClick={() => setEtapa("assunto")}
-                  className="text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-black transition-colors">
-                  ← Voltar
-                </button>
-
-                <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">
-                  Como quer estudar?
-                </p>
-
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                  {MODOS.map(m => {
-                    const ativo = modo === m.value;
-                    return (
-                      <button key={m.value} onClick={() => setModo(m.value)}
-                        className={`py-5 px-5 rounded-2xl border-2 text-left transition-all duration-200 ${
-                          ativo
-                            ? "border-black bg-black text-white"
-                            : "border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50"
-                        }`}
-                      >
-                        <div className="flex items-center justify-between mb-1">
-                          <p className="font-black">{m.label}</p>
-                          {ativo && <Check size={14} className="text-blue-400 shrink-0" />}
-                        </div>
-                        <p className={`text-[11px] font-bold leading-snug ${ativo ? "text-slate-400" : "text-slate-400"}`}>
-                          {m.desc}
-                        </p>
-                      </button>
-                    );
-                  })}
-                </div>
-
-                <button onClick={iniciar}
-                  className="w-full bg-black text-white py-4 rounded-xl font-black text-[11px] uppercase tracking-widest hover:bg-blue-600 transition-colors flex items-center justify-center gap-2">
-                  Começar agora <ArrowRight size={14} />
                 </button>
               </motion.div>
             )}
