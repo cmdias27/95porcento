@@ -8,7 +8,6 @@ import {
   CheckCircle2, BookOpen, Zap, ChevronRight, Award,
   Clock, BarChart2, ListChecks, Lightbulb,
 } from "lucide-react";
-import { Logo } from "@/components/Logo";
 
 // ─── Card de seção ───────────────────────────────────
 function SectionCard({ children, className = "" }: { children: React.ReactNode; className?: string }) {
@@ -103,7 +102,9 @@ export default function ComoFuncionaPage() {
             <ArrowLeft size={13} /> Voltar
           </button>
           <span className="text-slate-200">|</span>
-          <Logo size="sm" />
+          <span className="font-black text-lg leading-none tracking-tighter select-none">
+            <span className="text-black">95</span><span className="text-blue-500">%</span>
+          </span>
         </div>
         <Link href="/login"
           className="bg-black text-white px-5 py-2 rounded-xl font-black text-[9px] uppercase tracking-widest hover:bg-blue-600 transition-all">

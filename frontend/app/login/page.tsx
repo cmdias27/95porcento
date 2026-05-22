@@ -13,7 +13,6 @@ import {
 import { doc, setDoc, getDoc, serverTimestamp } from "firebase/firestore";
 import { Mail, Lock, LogIn, ArrowLeft, User, Eye, EyeOff, FileText, Cookie, Megaphone } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { LogoMark } from "@/components/Logo";
 import { TermosModal } from "@/components/TermosModal";
 
 // ─── Input com ícone ────────────────────────
@@ -335,9 +334,9 @@ export default function LoginPage() {
 
           {/* Logo */}
           <div className="flex justify-center mb-6 md:mb-8">
-            <div className="w-24 h-24 md:w-40 md:h-40 relative">
-              <LogoMark size={160} className="!w-full !h-full" />
-            </div>
+            <span className="font-black text-7xl md:text-9xl leading-none tracking-tighter select-none">
+              <span className="text-black">95</span><span className="text-blue-500">%</span>
+            </span>
           </div>
 
           {/* Card principal */}
