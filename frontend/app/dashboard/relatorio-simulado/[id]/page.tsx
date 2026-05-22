@@ -351,7 +351,7 @@ export default function RelatorioSimulado() {
           <div className="bg-slate-900 border-2 border-slate-900 rounded-[2rem] p-6 shadow-[4px_4px_0px_0px_rgba(37,99,235,1)] text-white">
             <p className="text-[10px] font-black uppercase tracking-widest text-blue-400 mb-2">Próximo Passo</p>
             <h3 className="text-xl font-black mb-4">Continue sua jornada com uma nova sessão.</h3>
-            <button onClick={() => router.push("/dashboard/modos")} className="w-full bg-blue-600 text-white py-4 rounded-xl font-black text-xs uppercase tracking-widest flex items-center justify-center gap-2 hover:bg-blue-500 transition-colors">
+            <button onClick={() => router.push("/dashboard")} className="w-full bg-blue-600 text-white py-4 rounded-xl font-black text-xs uppercase tracking-widest flex items-center justify-center gap-2 hover:bg-blue-500 transition-colors">
               Nova Sessão <ChevronRight size={16} />
             </button>
             <button onClick={() => router.push("/dashboard")} className="w-full mt-3 py-2 font-black text-xs uppercase tracking-widest text-slate-400 hover:text-white transition-colors">

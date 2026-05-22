@@ -255,7 +255,22 @@ def _banca_match(banca_questao: str, banca_aluno: str) -> bool:
 def _score_relevancia(questao: dict, topico: str) -> int:
     if not topico:
         return 0
-    palavras = {p for p in _norm(topico).split() if len(p) > 3}
+    topico_norm = _norm(topico)
+    palavras = {p for p in topico_norm.split() if len(p) > 3}
+    if not palavras:
+        return 0
+
+    # Strongest signal: assunto field is the question's labeled topic
+    assunto_norm = _norm(questao.get("assunto", ""))
+    if assunto_norm:
+        if topico_norm in assunto_norm or assunto_norm in topico_norm:
+            return 100
+        palavras_assunto = {p for p in assunto_norm.split() if len(p) > 3}
+        overlap = len(palavras & palavras_assunto)
+        if overlap > 0:
+            return overlap * 5
+
+    # Fallback: keyword presence in enunciado + comentario
     texto = _norm(questao.get("enunciado", "") + " " + questao.get("comentario", ""))
     return sum(1 for p in palavras if p in texto)
 
@@ -273,9 +288,10 @@ def _sortear_questao(pool: list, banca_aluno: str, ids_usados: set, topico: str 
 
     # Seleciona por relevância temática quando possível
     if topico:
-        scored = sorted(candidatos, key=lambda q: _score_relevancia(q, topico), reverse=True)
-        com_score = [q for q in scored[:5] if _score_relevancia(q, topico) > 0]
-        escolhida = random.choice(com_score if com_score else candidatos)
+        scores = [(q, _score_relevancia(q, topico)) for q in candidatos]
+        pos_scored = sorted([(q, s) for q, s in scores if s > 0], key=lambda x: x[1], reverse=True)
+        pool_final = [q for q, _ in pos_scored[:10]] if pos_scored else candidatos
+        escolhida = random.choice(pool_final)
     else:
         escolhida = random.choice(candidatos)
 

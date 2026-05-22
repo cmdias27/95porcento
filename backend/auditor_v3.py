@@ -16,11 +16,19 @@ def limpar_json_ia(texto_ia):
         texto = re.sub(r"\s*```$", "", texto)
         inicio = texto.find('{')
         fim = texto.rfind('}')
-        if inicio != -1 and fim != -1: 
+        if inicio != -1 and fim != -1:
             texto = texto[inicio:fim+1]
         return texto
-    except: 
+    except:
         return texto_ia
+
+def _sanitizar_pt(texto: str) -> str:
+    """Remove caracteres fora do bloco Latino do texto, preservando português."""
+    if not isinstance(texto, str):
+        return texto
+    # Mantém: ASCII imprimível + latin-1 supplement + Latin Extended A/B + Latin Extended Additional
+    # Remove: Devanagari, Árabe, CJK, Cirílico e outros blocos não-latinos
+    return re.sub(r'[^\x09\x0A\x0D\x20-\x7E\xA0-ɏḀ-ỿ]', '', texto)
 
 def gerar_checklist(
     jornada: str,
@@ -362,6 +370,7 @@ Gere UMA questão autoral para CADA item da lista abaixo. Cada questão deve tes
 FORMATO: {formato_instrucao}
 
 REGRAS OBRIGATÓRIAS:
+- Responda EXCLUSIVAMENTE em português brasileiro. Não use caracteres de outros alfabetos ou idiomas.
 - Gere exatamente uma questão por item — mesmo número de itens na saída
 - O campo "id" de cada questão deve ser IDÊNTICO ao "id" do item de entrada
 - Questão 100% original — não copie enunciados de provas conhecidas
@@ -391,7 +400,16 @@ ITENS:
             temperature=0.7
         )
         resultado = json.loads(limpar_json_ia(response.choices[0].message.content), strict=False)
-        return {q["id"]: q for q in resultado.get("questoes", []) if q.get("id")}
+        questoes = {}
+        for q in resultado.get("questoes", []):
+            if not q.get("id"):
+                continue
+            q["enunciado"] = _sanitizar_pt(q.get("enunciado", ""))
+            q["comentario"] = _sanitizar_pt(q.get("comentario", ""))
+            if isinstance(q.get("alternativas"), dict):
+                q["alternativas"] = {k: _sanitizar_pt(v) for k, v in q["alternativas"].items()}
+            questoes[q["id"]] = q
+        return questoes
     except Exception as e:
         print(f"⚠️ Questões Autorais: {e}")
         return {}
