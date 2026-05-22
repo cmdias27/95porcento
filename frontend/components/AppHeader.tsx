@@ -17,7 +17,7 @@ import {
 
 const NAV_ITEMS = [
   { href: "/dashboard",   label: "Início",    icon: LayoutDashboard },
-  { href: "/onboarding",  label: "Histórico", icon: History },
+  { href: "/dashboard/historico", label: "Histórico", icon: History },
   { href: "/perfil",      label: "Perfil",    icon: User },
 ];
 

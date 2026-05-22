@@ -618,7 +618,12 @@ export default function PerfilPage() {
                   </div>
 
                   {isPremium && (
-                    <Link href="/dashboard"
+                    <Link
+                      href={
+                        recurso.id === "simulador" ? "/dashboard/simulador" :
+                        recurso.id === "historico" ? "/dashboard/historico" :
+                        "/dashboard/historico"
+                      }
                       className="mt-3 flex items-center gap-1 text-[9px] font-black uppercase tracking-widest text-slate-400 hover:text-black transition-colors">
                       Acessar <ChevronRight size={11} />
                     </Link>
