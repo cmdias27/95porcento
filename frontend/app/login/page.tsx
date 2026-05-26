@@ -224,7 +224,6 @@ export default function LoginPage() {
             <span className="text-emerald-400">95% do conteúdo.</span>
           </h2>
           <p className="text-slate-400 text-sm mt-3 leading-relaxed">
-            O 95porcento coloca a IA como seu aluno.<br />
             Você explica. A IA audita. Você aprende de verdade.
           </p>
         </div>

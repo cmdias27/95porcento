@@ -269,13 +269,6 @@ export function AppHeader(props: AppHeaderProps) {
             </span>
           )}
 
-          <button
-            onClick={() => router.push("/dashboard")}
-            className="hidden md:flex items-center gap-1.5 bg-black text-white text-[10px] font-black uppercase tracking-widest px-3.5 py-2 rounded-xl hover:bg-blue-600 transition-all"
-          >
-            <Zap size={11} className="fill-white" /> Nova sessão
-          </button>
-
           {user && <AvatarMenu nome={nome} premium={premium} />}
 
           {/* Hamburger (mobile) */}

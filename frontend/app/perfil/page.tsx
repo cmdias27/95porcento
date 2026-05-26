@@ -2,12 +2,11 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
   ArrowLeft, User, Mail, Lock, Zap, Crown,
-  BarChart2, TrendingUp, AlertTriangle, Brain, ChevronRight,
-  Check, X, Edit2, BookOpen, Settings2,
+  AlertTriangle, ChevronRight,
+  Check, X, Edit2, BookOpen,
 } from "lucide-react";
 import { auth, db } from "@/lib/firebase";
 import {
@@ -29,46 +28,6 @@ import { AppHeader } from "@/components/AppHeader";
 // ---------------------------------------------------------------------------
 type Tela = "perfil" | "senha";
 
-// ---------------------------------------------------------------------------
-// Recursos premium
-// ---------------------------------------------------------------------------
-const RECURSOS_PREMIUM = [
-  {
-    id: "historico",
-    icon: BarChart2,
-    titulo: "Histórico Cognitivo",
-    descricao: "Acompanhe sua evolução em cada matéria ao longo do tempo.",
-    cor: "blue",
-  },
-  {
-    id: "evolucao",
-    icon: TrendingUp,
-    titulo: "Evolução no Tema",
-    descricao: "Gráfico de melhora sessão a sessão com pontos de inflexão.",
-    cor: "emerald",
-  },
-  {
-    id: "dificuldades",
-    icon: AlertTriangle,
-    titulo: "Principais Dificuldades",
-    descricao: "Mapa das lacunas mais frequentes para foco cirúrgico.",
-    cor: "amber",
-  },
-  {
-    id: "simulador",
-    icon: Brain,
-    titulo: "Simulador Inteligente",
-    descricao: "Sessões adaptativas baseadas no seu perfil cognitivo acumulado.",
-    cor: "purple",
-  },
-];
-
-const COR_MAP: Record<string, { bg: string; border: string; icon: string; badge: string }> = {
-  blue:    { bg: "bg-blue-50",    border: "border-blue-200",    icon: "text-blue-500",    badge: "bg-blue-100 text-blue-700" },
-  emerald: { bg: "bg-emerald-50", border: "border-emerald-200", icon: "text-emerald-500", badge: "bg-emerald-100 text-emerald-700" },
-  amber:   { bg: "bg-amber-50",   border: "border-amber-200",   icon: "text-amber-500",   badge: "bg-amber-100 text-amber-700" },
-  purple:  { bg: "bg-purple-50",  border: "border-purple-200",  icon: "text-purple-500",  badge: "bg-purple-100 text-purple-700" },
-};
 
 // ---------------------------------------------------------------------------
 // Página principal
@@ -566,80 +525,6 @@ export default function PerfilPage() {
           )}
         </section>
 
-        {/* ── SEÇÃO 4: RECURSOS PREMIUM ── */}
-        <section>
-          <div className="flex items-center gap-2 mb-4">
-            <Crown size={16} className="text-amber-500" />
-            <h2 className="text-xs font-black uppercase tracking-widest text-slate-700">Recursos Premium</h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {RECURSOS_PREMIUM.map((recurso) => {
-              const c = COR_MAP[recurso.cor];
-              const IconComp = recurso.icon;
-              return (
-                <motion.div
-                  key={recurso.id}
-                  whileHover={{ y: isPremium ? -3 : 0 }}
-                  className={`relative border-2 rounded-2xl p-5 overflow-hidden transition-all ${
-                    isPremium
-                      ? `bg-white border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]`
-                      : `${c.bg} ${c.border} opacity-80`
-                  }`}
-                >
-                  {/* Ícone de bloqueio */}
-                  {!isPremium && (
-                    <div className="absolute top-3 right-3 pointer-events-none">
-                      <div className="w-7 h-7 bg-white/90 border border-slate-200 rounded-lg flex items-center justify-center shadow-sm">
-                        <Lock size={12} className="text-slate-400" />
-                      </div>
-                    </div>
-                  )}
-
-                  <div className="flex items-start gap-3">
-                    <div className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 ${
-                      isPremium ? "bg-slate-100" : "bg-white/80"
-                    }`}>
-                      <IconComp size={17} className={isPremium ? "text-blue-600" : c.icon} />
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-center gap-2 mb-1">
-                        <p className="text-sm font-black text-black">{recurso.titulo}</p>
-                        {!isPremium && (
-                          <span className={`text-[8px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full ${c.badge}`}>
-                            Premium
-                          </span>
-                        )}
-                      </div>
-                      <p className="text-xs font-semibold text-slate-500 leading-relaxed">
-                        {recurso.descricao}
-                      </p>
-                    </div>
-                  </div>
-
-                  {isPremium && (
-                    <Link
-                      href={
-                        recurso.id === "simulador" ? "/dashboard/simulador" :
-                        recurso.id === "historico" ? "/dashboard/historico" :
-                        "/dashboard/historico"
-                      }
-                      className="mt-3 flex items-center gap-1 text-[9px] font-black uppercase tracking-widest text-slate-400 hover:text-black transition-colors">
-                      Acessar <ChevronRight size={11} />
-                    </Link>
-                  )}
-
-                  {!isPremium && (
-                    <button onClick={() => setModalPremium(true)}
-                      className="mt-3 flex items-center gap-1 text-[9px] font-black uppercase tracking-widest text-slate-400 hover:text-black transition-colors">
-                      Desbloquear <ChevronRight size={11} />
-                    </button>
-                  )}
-                </motion.div>
-              );
-            })}
-          </div>
-        </section>
 
       </main>
 
