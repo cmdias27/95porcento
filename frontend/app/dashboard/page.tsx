@@ -19,7 +19,7 @@ const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 // ─── Types ────────────────────────────────────────────────────────────────────
 
 type FlowState = "auth" | "chat" | "extraindo" | "confirmando" | "modo";
-type ModoSessao = "livre" | "guiado" | "simulado" | "personalizada";
+type ModoSessao = "livre" | "guiado" | "simulado";
 
 type SessaoRecente = {
   id: string; materia: string; tema: string;
@@ -33,10 +33,9 @@ const MODOS: { value: ModoSessao; label: string; desc: string; icon: typeof Mic;
 ];
 
 const MODO_URLS: Record<ModoSessao, string> = {
-  livre:         "/dashboard/auditorio",
-  guiado:        "/dashboard/modos/guiado",
-  simulado:      "/dashboard/modos/simulado",
-  personalizada: "/dashboard/auditorio",
+  livre:    "/dashboard/auditorio",
+  guiado:   "/dashboard/modos/guiado",
+  simulado: "/dashboard/modos/simulado",
 };
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -48,8 +47,8 @@ function formatDate(value?: string) {
   return d.toLocaleDateString("pt-BR", { day: "2-digit", month: "short" });
 }
 
-const MODO_LABEL: Record<ModoSessao, string> = { livre: "Livre", guiado: "Guiado", simulado: "Simulado", personalizada: "Personalizada" };
-const MODO_DOT:   Record<ModoSessao, string> = { livre: "bg-blue-500", guiado: "bg-emerald-500", simulado: "bg-violet-500", personalizada: "bg-orange-500" };
+const MODO_LABEL: Record<ModoSessao, string> = { livre: "Livre", guiado: "Guiado", simulado: "Simulado" };
+const MODO_DOT:   Record<ModoSessao, string> = { livre: "bg-blue-500", guiado: "bg-emerald-500", simulado: "bg-violet-500" };
 
 // ─── Main Component ───────────────────────────────────────────────────────────
 
@@ -74,6 +73,7 @@ export default function DashboardPage() {
   const [historico,            setHistorico]            = useState<string[]>([]);
   const [temHistorico,         setTemHistorico]         = useState(false);
   const [carregandoHistorico,  setCarregandoHistorico]  = useState(false);
+  const [personalizada,        setPersonalizada]        = useState(false);
 
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, async (u) => {
@@ -123,7 +123,7 @@ export default function DashboardPage() {
 
   // Verifica histórico do tema ao entrar no fluxo "modo"
   useEffect(() => {
-    if (flow !== "modo") { setTemHistorico(false); setHistorico([]); return; }
+    if (flow !== "modo") { setTemHistorico(false); setHistorico([]); setPersonalizada(false); return; }
     const user = auth.currentUser;
     if (!user || !materia || !tema) return;
 
@@ -192,31 +192,17 @@ export default function DashboardPage() {
   };
 
   const iniciarSessao = () => {
-    if (modo === "personalizada") {
-      const qs = new URLSearchParams({ jornada, materia, tema, banca, faixa_salarial: nivel, personalizado: "1" });
-      if (historico.length > 0) qs.set("prioridades", historico.join("|"));
-      router.push(`/dashboard/auditorio?${qs}`);
-      return;
+    const base: Record<string, string> = { jornada, materia, tema, banca, faixa_salarial: nivel };
+    if (personalizada) {
+      base.personalizado = "1";
+      if (historico.length > 0) base.prioridades = historico.join("|");
     }
-    const qs = new URLSearchParams({ jornada, materia, tema, banca, faixa_salarial: nivel });
-    router.push(`${MODO_URLS[modo]}?${qs}`);
+    router.push(`${MODO_URLS[modo]}?${new URLSearchParams(base)}`);
   };
 
   const jornadaObj = useMemo(() => JORNADAS_ESTUDO.find(j => j.nome.toLowerCase() === jornada), [jornada]);
   const materiaObj = useMemo(() => jornadaObj?.materias.find(m => m.nome === materia), [jornadaObj, materia]);
 
-  const modoPersonalizada = {
-    value: "personalizada" as const,
-    label: "Personalizada",
-    icon: BookOpen,
-    desc: historico.length > 0
-      ? `${historico.length} lacuna${historico.length !== 1 ? "s" : ""} identificada${historico.length !== 1 ? "s" : ""} para reforçar com foco no seu histórico.`
-      : "Sessão baseada no seu histórico de estudo neste tema.",
-    color: "text-orange-700",
-    bg: "bg-orange-50",
-    border: "border-orange-200",
-  };
-  const modsVisiveis = [...MODOS, ...(temHistorico ? [modoPersonalizada] : [])];
 
   // ─── AUTH LOADING ──────────────────────────────────────────────────────────
   if (flow === "auth") return (
@@ -430,7 +416,7 @@ export default function DashboardPage() {
               </div>
 
               <div className="grid gap-3">
-                {modsVisiveis.map(m => {
+                {MODOS.map(m => {
                   const Icon  = m.icon;
                   const ativo = modo === m.value;
                   return (
@@ -455,6 +441,62 @@ export default function DashboardPage() {
                   );
                 })}
               </div>
+
+              {/* Sessão Personalizada — toggle, apenas quando há histórico */}
+              {(temHistorico || carregandoHistorico) && (
+                <div className="space-y-3">
+                  <button
+                    onClick={() => setPersonalizada(v => !v)}
+                    disabled={carregandoHistorico}
+                    className={`w-full flex items-center gap-4 p-4 rounded-2xl border-2 text-left transition-all ${
+                      personalizada
+                        ? "border-orange-300 bg-orange-50 ring-4 ring-offset-2 ring-orange-100"
+                        : "border-slate-200 bg-white hover:border-orange-200"
+                    } disabled:opacity-50`}>
+                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-colors ${personalizada ? "bg-orange-100" : "bg-slate-100"}`}>
+                      {carregandoHistorico
+                        ? <div className="w-4 h-4 border-2 border-slate-400 border-t-transparent rounded-full animate-spin" />
+                        : <BookOpen size={18} className={personalizada ? "text-orange-600" : "text-slate-500"} />
+                      }
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className={`font-black text-sm ${personalizada ? "text-orange-700" : "text-slate-700"}`}>
+                        Sessão Personalizada
+                      </p>
+                      <p className="text-[11px] font-bold text-slate-500 mt-0.5 leading-snug">
+                        {carregandoHistorico
+                          ? "Verificando seu histórico..."
+                          : "Ajusta o roteiro com base nas suas dificuldades anteriores neste tema."}
+                      </p>
+                    </div>
+                    <div className={`w-5 h-5 rounded-full border-2 shrink-0 flex items-center justify-center transition-all ${personalizada ? "bg-orange-500 border-orange-500" : "border-slate-300"}`}>
+                      {personalizada && <Check size={10} className="text-white" />}
+                    </div>
+                  </button>
+
+                  {/* Atenção Especial — exibida quando personalizada está ativa */}
+                  {personalizada && historico.length > 0 && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }}
+                      className="bg-orange-50 border-2 border-orange-200 rounded-2xl p-4 space-y-2">
+                      <p className="text-[9px] font-black uppercase tracking-widest text-orange-600 flex items-center gap-1.5">
+                        <Zap size={11} /> Atenção Especial
+                      </p>
+                      <p className="text-[11px] font-bold text-orange-700">
+                        Pontos a reforçar identificados em sessões anteriores:
+                      </p>
+                      <ul className="space-y-1.5">
+                        {historico.map((p, i) => (
+                          <li key={i} className="flex items-start gap-2">
+                            <ChevronRight size={12} className="text-orange-400 shrink-0 mt-0.5" />
+                            <span className="text-[11px] font-bold text-orange-800 leading-snug">{p}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </motion.div>
+                  )}
+                </div>
+              )}
 
               <div className="flex gap-3 pt-2">
                 <button onClick={() => setFlow("confirmando")}
