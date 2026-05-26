@@ -114,7 +114,7 @@ export default function LandingPage() {
       </nav>
 
       {/* ── Hero — oculto no mobile quando na etapa de assunto ── */}
-      <section className={`flex-1 min-h-0 flex-col justify-end px-5 md:px-16 pb-10 md:pb-14 pt-6 w-full max-w-5xl mx-auto ${naEtapaAssunto ? "hidden md:flex" : "flex"}`}>
+      <section className={`flex-col justify-end px-5 md:px-16 pb-10 md:pb-14 pt-6 w-full max-w-5xl mx-auto ${naEtapaAssunto ? "hidden" : "flex flex-1 min-h-0"}`}>
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}

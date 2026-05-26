@@ -23,7 +23,7 @@ type ModoSessao = "livre" | "guiado" | "simulado";
 
 type SessaoRecente = {
   id: string; materia: string; tema: string;
-  modo: ModoSessao; url: string;
+  modo: ModoSessao; url: string; ts: number;
 };
 
 const MODOS: { value: ModoSessao; label: string; desc: string; icon: typeof Mic; color: string; bg: string; border: string }[] = [
@@ -95,13 +95,13 @@ export default function DashboardPage() {
           getDocs(query(collection(db, "relatorios_guiados"),   where("user_id", "==", u.uid))),
           getDocs(query(collection(db, "relatorios_simulados"), where("user_id", "==", u.uid))),
         ]);
-        const todas: (SessaoRecente & { ts: number })[] = [
+        const todas: SessaoRecente[] = [
           ...livres.docs.map(x => ({ id: x.id, materia: x.data().materia || "", tema: x.data().tema || "", modo: "livre" as ModoSessao, url: `/dashboard/relatorio/${x.id}`, ts: new Date(x.data().timestamp || 0).getTime() })),
           ...guiados.docs.map(x => ({ id: x.id, materia: x.data().materia || "", tema: x.data().tema || "", modo: "guiado" as ModoSessao, url: `/dashboard/relatorio-guiado/${x.id}`, ts: new Date(x.data().timestamp || 0).getTime() })),
           ...simulados.docs.map(x => ({ id: x.id, materia: x.data().materia || "", tema: x.data().tema || "", modo: "simulado" as ModoSessao, url: `/dashboard/relatorio-simulado/${x.id}`, ts: new Date(x.data().timestamp || 0).getTime() })),
         ];
         todas.sort((a, b) => b.ts - a.ts);
-        setRecentes(todas.slice(0, 6));
+        setRecentes(todas.slice(0, 18));
 
         // Verifica pending_topic do sessionStorage (vindo da landing page)
         const pending = typeof window !== "undefined" ? sessionStorage.getItem("pending_topic") : null;
@@ -203,6 +203,17 @@ export default function DashboardPage() {
   const jornadaObj = useMemo(() => JORNADAS_ESTUDO.find(j => j.nome.toLowerCase() === jornada), [jornada]);
   const materiaObj = useMemo(() => jornadaObj?.materias.find(m => m.nome === materia), [jornadaObj, materia]);
 
+  const temasEstudados = useMemo(() => {
+    const map = new Map<string, { materia: string; tema: string; sessoes: SessaoRecente[] }>();
+    recentes.forEach(r => {
+      const key = `${r.materia.toLowerCase()}||${r.tema.toLowerCase()}`;
+      const g = map.get(key);
+      if (g) g.sessoes.push(r);
+      else map.set(key, { materia: r.materia, tema: r.tema, sessoes: [r] });
+    });
+    return Array.from(map.values());
+  }, [recentes]);
+
 
   // ─── AUTH LOADING ──────────────────────────────────────────────────────────
   if (flow === "auth") return (
@@ -271,35 +282,53 @@ export default function DashboardPage() {
                     </div>
                   </div>
 
-                  {/* Recent sessions (max 3) */}
-                  {recentes.length > 0 && (
-                    <div className="space-y-2">
+                  {/* Topic evolution cards */}
+                  {temasEstudados.length > 0 && (
+                    <div className="space-y-2.5">
                       <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 flex items-center gap-1.5">
-                        <Zap size={11} /> Sessões Recentes
+                        <BookOpen size={11} /> Meus Temas
                       </p>
-                      <div className="grid gap-2">
-                        {recentes.slice(0, 3).map((s) => (
-                          <motion.div key={s.id} whileHover={{ x: 3 }} transition={{ duration: 0.15 }}
-                            className="bg-slate-50 border border-slate-200 rounded-xl p-3 flex items-center gap-3 hover:border-slate-300 transition-colors">
-                            <span className={`w-2 h-2 rounded-full shrink-0 ${MODO_DOT[s.modo]}`} />
-                            <div className="flex-1 min-w-0">
-                              <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 truncate">{s.materia}</p>
-                              <p className="text-sm font-black text-slate-800 truncate">{s.tema}</p>
+                      {temasEstudados.slice(0, 6).map(({ materia: m, tema: t, sessoes }) => {
+                        const count = sessoes.length;
+                        const progW = count >= 5 ? "w-full" : count === 4 ? "w-4/5" : count === 3 ? "w-3/5" : count === 2 ? "w-2/5" : "w-1/5";
+                        const progC = count >= 4 ? "bg-emerald-500" : count >= 3 ? "bg-lime-400" : count >= 2 ? "bg-yellow-400" : "bg-slate-300";
+                        const desc = count === 1
+                          ? "Primeira sessão feita. Repita o tema para identificar suas lacunas e acompanhar a evolução."
+                          : count === 2
+                          ? "2 sessões concluídas. Você está construindo consistência neste tema."
+                          : count === 3
+                          ? "3 sessões. Progresso sólido! Continue praticando para consolidar."
+                          : `${count} sessões. Domínio crescente. Continue assim!`;
+                        return (
+                          <div key={`${m}||${t}`} className="bg-white border border-slate-200 rounded-2xl p-4 space-y-3 hover:border-slate-300 transition-colors">
+                            <div>
+                              <p className="text-[9px] font-black uppercase tracking-widest text-slate-400">{m}</p>
+                              <p className="text-sm font-black text-slate-800 mt-0.5 leading-tight">{t}</p>
                             </div>
-                            <div className="flex items-center gap-2 shrink-0">
-                              <span className="text-[9px] font-black uppercase text-slate-400">{MODO_LABEL[s.modo]}</span>
-                              <button onClick={() => router.push(s.url)}
-                                className="flex items-center gap-1 px-2.5 py-1.5 bg-slate-100 text-slate-600 rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-black hover:text-white transition-colors">
-                                <FileText size={10} /> Ver
+                            <div className="flex items-center gap-2">
+                              <div className="flex-1 h-1.5 bg-slate-100 rounded-full overflow-hidden">
+                                <div className={`h-full rounded-full ${progC} ${progW} transition-all`} />
+                              </div>
+                              <span className="text-[9px] font-black text-slate-400 shrink-0">
+                                {count} {count === 1 ? "sessão" : "sessões"}
+                              </span>
+                            </div>
+                            <p className="text-[11px] font-medium text-slate-500 leading-snug">{desc}</p>
+                            <div className="flex gap-2">
+                              <button
+                                onClick={() => { setMateria(m); setTema(t); setFlow("modo"); }}
+                                className="flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-black text-white text-[9px] font-black uppercase tracking-widest hover:bg-blue-600 transition-colors">
+                                <Play size={10} /> Nova Sessão
                               </button>
-                              <button onClick={() => { setMateria(s.materia); setTema(s.tema); setFlow("modo"); }}
-                                className="flex items-center gap-1 px-2.5 py-1.5 bg-black text-white rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-blue-600 transition-colors">
-                                <Play size={10} /> Repetir
+                              <button
+                                onClick={() => router.push("/dashboard/historico")}
+                                className="flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-slate-100 text-slate-600 text-[9px] font-black uppercase tracking-widest hover:bg-black hover:text-white transition-colors">
+                                <FileText size={10} /> Histórico
                               </button>
                             </div>
-                          </motion.div>
-                        ))}
-                      </div>
+                          </div>
+                        );
+                      })}
                     </div>
                   )}
 
@@ -442,61 +471,59 @@ export default function DashboardPage() {
                 })}
               </div>
 
-              {/* Sessão Personalizada — toggle, apenas quando há histórico */}
-              {(temHistorico || carregandoHistorico) && (
-                <div className="space-y-3">
-                  <button
-                    onClick={() => setPersonalizada(v => !v)}
-                    disabled={carregandoHistorico}
-                    className={`w-full flex items-center gap-4 p-4 rounded-2xl border-2 text-left transition-all ${
-                      personalizada
-                        ? "border-orange-300 bg-orange-50 ring-4 ring-offset-2 ring-orange-100"
-                        : "border-slate-200 bg-white hover:border-orange-200"
-                    } disabled:opacity-50`}>
-                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-colors ${personalizada ? "bg-orange-100" : "bg-slate-100"}`}>
-                      {carregandoHistorico
-                        ? <div className="w-4 h-4 border-2 border-slate-400 border-t-transparent rounded-full animate-spin" />
-                        : <BookOpen size={18} className={personalizada ? "text-orange-600" : "text-slate-500"} />
-                      }
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <p className={`font-black text-sm ${personalizada ? "text-orange-700" : "text-slate-700"}`}>
+              {/* Sessão Personalizada — toggle sempre visível */}
+              <div className={`rounded-2xl border-2 p-4 transition-all ${
+                personalizada ? "border-orange-300 bg-orange-50" : "border-dashed border-slate-200 bg-white"
+              }`}>
+                <div className="flex items-start gap-3">
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-1.5 mb-0.5">
+                      <BookOpen size={13} className={personalizada ? "text-orange-600" : "text-slate-400"} />
+                      <p className={`font-black text-sm ${personalizada ? "text-orange-700" : "text-slate-600"}`}>
                         Sessão Personalizada
                       </p>
-                      <p className="text-[11px] font-bold text-slate-500 mt-0.5 leading-snug">
-                        {carregandoHistorico
-                          ? "Verificando seu histórico..."
-                          : "Ajusta o roteiro com base nas suas dificuldades anteriores neste tema."}
-                      </p>
                     </div>
-                    <div className={`w-5 h-5 rounded-full border-2 shrink-0 flex items-center justify-center transition-all ${personalizada ? "bg-orange-500 border-orange-500" : "border-slate-300"}`}>
-                      {personalizada && <Check size={10} className="text-white" />}
-                    </div>
+                    <p className="text-[11px] font-medium leading-snug text-slate-400 pl-[18px]">
+                      {carregandoHistorico
+                        ? "Verificando histórico..."
+                        : !temHistorico
+                        ? "Faça sua primeira explicação para habilitar a sessão personalizada."
+                        : "Ajusta o roteiro com foco nas suas dificuldades anteriores neste tema."}
+                    </p>
+                  </div>
+                  {/* Toggle switch */}
+                  <button
+                    disabled={!temHistorico || carregandoHistorico}
+                    onClick={() => setPersonalizada(v => !v)}
+                    className={`relative w-11 h-6 rounded-full transition-colors shrink-0 mt-0.5 ${
+                      personalizada ? "bg-orange-500" : "bg-slate-200"
+                    } disabled:opacity-40 disabled:cursor-not-allowed`}
+                  >
+                    <div className={`w-5 h-5 bg-white rounded-full absolute top-0.5 shadow-sm transition-transform ${
+                      personalizada ? "translate-x-[22px]" : "translate-x-0.5"
+                    }`} />
                   </button>
-
-                  {/* Atenção Especial — exibida quando personalizada está ativa */}
-                  {personalizada && historico.length > 0 && (
-                    <motion.div
-                      initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }}
-                      className="bg-orange-50 border-2 border-orange-200 rounded-2xl p-4 space-y-2">
-                      <p className="text-[9px] font-black uppercase tracking-widest text-orange-600 flex items-center gap-1.5">
-                        <Zap size={11} /> Atenção Especial
-                      </p>
-                      <p className="text-[11px] font-bold text-orange-700">
-                        Pontos a reforçar identificados em sessões anteriores:
-                      </p>
-                      <ul className="space-y-1.5">
-                        {historico.map((p, i) => (
-                          <li key={i} className="flex items-start gap-2">
-                            <ChevronRight size={12} className="text-orange-400 shrink-0 mt-0.5" />
-                            <span className="text-[11px] font-bold text-orange-800 leading-snug">{p}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </motion.div>
-                  )}
                 </div>
-              )}
+
+                {/* Atenção Especial */}
+                {personalizada && historico.length > 0 && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -4 }} animate={{ opacity: 1, y: 0 }}
+                    className="mt-3 pt-3 border-t border-orange-200 space-y-2">
+                    <p className="text-[9px] font-black uppercase tracking-widest text-orange-600 flex items-center gap-1.5">
+                      <Zap size={11} /> Atenção Especial
+                    </p>
+                    <ul className="space-y-1">
+                      {historico.map((p, i) => (
+                        <li key={i} className="flex items-start gap-2">
+                          <ChevronRight size={12} className="text-orange-400 shrink-0 mt-0.5" />
+                          <span className="text-[11px] font-bold text-orange-800 leading-snug">{p}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </motion.div>
+                )}
+              </div>
 
               <div className="flex gap-3 pt-2">
                 <button onClick={() => setFlow("confirmando")}
