@@ -29,10 +29,12 @@ export function FeedbackPopup({ relatorioId }: Props) {
   const [enviando, setEnviando] = useState(false);
 
   useEffect(() => {
-    if (localStorage.getItem("feedback_popup_done")) return;
-    const t = setTimeout(() => setVisible(true), 10000);
+    if (!relatorioId) return;
+    const key = `feedback_done_${relatorioId}`;
+    if (localStorage.getItem(key)) return;
+    const t = setTimeout(() => setVisible(true), 8000);
     return () => clearTimeout(t);
-  }, []);
+  }, [relatorioId]);
 
   const responder = (id: string, valor: string) =>
     setRespostas(prev => ({ ...prev, [id]: valor }));
@@ -41,7 +43,7 @@ export function FeedbackPopup({ relatorioId }: Props) {
     PERGUNTAS_BINARIAS.every(p => respostas[p.id]) && faixa !== "";
 
   const fechar = () => {
-    localStorage.setItem("feedback_popup_done", "true");
+    localStorage.setItem(`feedback_done_${relatorioId}`, "true");
     setVisible(false);
   };
 

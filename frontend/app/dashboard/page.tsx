@@ -156,101 +156,99 @@ export default function DashboardPage() {
   );
 
   return (
-    <div className="min-h-[100dvh] bg-[#F8FAFC] flex flex-col">
+    <div className={`h-[100dvh] overflow-hidden flex flex-col transition-colors duration-300 ${flow === "chat" ? "bg-[#0A0F1E]" : "bg-[#F8FAFC]"}`}>
       <AppHeader variant="default" />
 
-      <main className="flex-1 flex flex-col items-center justify-start px-4 pt-8 pb-20 max-w-2xl mx-auto w-full">
+      <AnimatePresence mode="wait">
 
-        <AnimatePresence mode="wait">
-
-          {/* ─── CHAT ────────────────────────────────────────────────────── */}
+          {/* ─── CHAT: dark hero + white card ────────────────────────────── */}
           {flow === "chat" && (
             <motion.div key="chat"
-              initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -12 }} transition={{ duration: 0.3 }}
-              className="w-full space-y-6">
+              initial={{ opacity: 0 }} animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }} transition={{ duration: 0.25 }}
+              className="flex-1 min-h-0 flex flex-col overflow-hidden">
 
-              {/* Greeting */}
-              <div>
-                <h1 className="text-2xl md:text-3xl font-black text-black tracking-tight">
+              {/* Dark hero section */}
+              <div className="flex-1 min-h-0 flex flex-col justify-end px-5 pb-6 max-w-2xl mx-auto w-full">
+                <h1 className="text-2xl md:text-3xl font-black text-white tracking-tight">
                   Olá, {nome.split(" ")[0]}.
                 </h1>
-                <p className="text-sm font-bold text-slate-400 mt-1">O que vamos estudar hoje?</p>
-              </div>
-
-              {/* Profile pills */}
-              <div className="flex flex-wrap gap-2">
-                {[
-                  { label: jornada === "concurso" ? "Concurso Público" : jornada === "oab" ? "OAB" : "ENEM" },
-                  { label: nivel },
-                  ...(banca && banca !== "Livre" ? [{ label: banca }] : []),
-                ].map(({ label }) => (
-                  <span key={label} className="text-[10px] font-black uppercase tracking-widest text-slate-500 bg-white border border-slate-200 px-3 py-1.5 rounded-full">
-                    {label}
-                  </span>
-                ))}
-                <button onClick={() => router.push("/perfil")}
-                  className="text-[10px] font-black uppercase tracking-widest text-blue-500 hover:text-blue-700 px-3 py-1.5 rounded-full border border-blue-200 bg-blue-50 transition-colors flex items-center gap-1">
-                  <Pencil size={10} /> Editar perfil
-                </button>
-              </div>
-
-              {/* Chat input */}
-              <div className="bg-white border-2 border-slate-200 rounded-2xl shadow-sm overflow-hidden focus-within:border-blue-500 transition-colors">
-                <textarea
-                  ref={inputRef}
-                  value={texto}
-                  onChange={e => setTexto(e.target.value)}
-                  onKeyDown={e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); handleEnviar(); } }}
-                  placeholder="Sobre o que você quer estudar? (ex: princípios constitucionais, frações, concordância verbal...)"
-                  rows={3}
-                  className="w-full resize-none p-5 outline-none font-medium text-slate-800 placeholder-slate-400 text-sm leading-relaxed bg-transparent"
-                />
-                <div className="flex items-center justify-between px-4 pb-3 gap-3">
-                  <p className="text-[10px] font-bold text-slate-400">Enter para enviar · Shift+Enter para nova linha</p>
-                  <button onClick={handleEnviar} disabled={!texto.trim()}
-                    className="flex items-center gap-2 bg-black text-white text-[10px] font-black uppercase tracking-widest px-4 py-2.5 rounded-xl hover:bg-blue-600 transition-colors disabled:opacity-30 disabled:hover:bg-black shrink-0">
-                    Continuar <ArrowRight size={13} />
+                <p className="text-sm font-bold text-slate-500 mt-1">O que vamos estudar hoje?</p>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  {[
+                    { label: jornada === "concurso" ? "Concurso Público" : jornada === "oab" ? "OAB" : "ENEM" },
+                    { label: nivel },
+                    ...(banca && banca !== "Livre" ? [{ label: banca }] : []),
+                  ].map(({ label }) => (
+                    <span key={label} className="text-[10px] font-black uppercase tracking-widest text-slate-400 bg-white/10 border border-white/20 px-3 py-1.5 rounded-full">
+                      {label}
+                    </span>
+                  ))}
+                  <button onClick={() => router.push("/perfil")}
+                    className="text-[10px] font-black uppercase tracking-widest text-blue-400 hover:text-blue-300 px-3 py-1.5 rounded-full border border-blue-500/30 bg-blue-500/10 transition-colors flex items-center gap-1">
+                    <Pencil size={10} /> Editar perfil
                   </button>
                 </div>
               </div>
 
-              {/* Recent sessions */}
-              {recentes.length > 0 && (
-                <div className="space-y-3">
-                  <div className="flex items-center justify-between">
-                    <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 flex items-center gap-1.5">
-                      <Zap size={11} /> Sessões Recentes
-                    </p>
+              {/* White card */}
+              <div className="bg-white rounded-t-[2rem] shadow-[0_-8px_40px_rgba(0,0,0,0.4)] shrink-0">
+                <div className="max-w-2xl mx-auto px-5 pt-6 pb-6 space-y-4">
+
+                  {/* Chat input */}
+                  <div className="bg-white border-2 border-slate-200 rounded-2xl shadow-sm overflow-hidden focus-within:border-blue-500 transition-colors">
+                    <textarea
+                      ref={inputRef}
+                      value={texto}
+                      onChange={e => setTexto(e.target.value)}
+                      onKeyDown={e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); handleEnviar(); } }}
+                      placeholder="Sobre o que você quer estudar? (ex: princípios constitucionais, frações, concordância verbal...)"
+                      rows={3}
+                      className="w-full resize-none p-5 outline-none font-medium text-slate-800 placeholder-slate-400 text-sm leading-relaxed bg-transparent"
+                    />
+                    <div className="flex items-center justify-between px-4 pb-3 gap-3">
+                      <p className="text-[10px] font-bold text-slate-400">Enter para enviar · Shift+Enter para nova linha</p>
+                      <button onClick={handleEnviar} disabled={!texto.trim()}
+                        className="flex items-center gap-2 bg-black text-white text-[10px] font-black uppercase tracking-widest px-4 py-2.5 rounded-xl hover:bg-blue-600 transition-colors disabled:opacity-30 disabled:hover:bg-black shrink-0">
+                        Continuar <ArrowRight size={13} />
+                      </button>
+                    </div>
                   </div>
-                  <div className="grid gap-2">
-                    {recentes.map((s) => (
-                      <motion.div key={s.id} whileHover={{ x: 3 }} transition={{ duration: 0.15 }}
-                        className="bg-white border border-slate-200 rounded-xl p-3.5 flex items-center gap-3 hover:border-slate-300 transition-colors">
-                        <span className={`w-2 h-2 rounded-full shrink-0 ${MODO_DOT[s.modo]}`} />
-                        <div className="flex-1 min-w-0">
-                          <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 truncate">{s.materia}</p>
-                          <p className="text-sm font-black text-slate-800 truncate">{s.tema}</p>
-                        </div>
-                        <div className="flex items-center gap-2 shrink-0">
-                          <span className="text-[9px] font-black uppercase text-slate-400">{MODO_LABEL[s.modo]}</span>
-                          <button onClick={() => router.push(s.url)}
-                            className="flex items-center gap-1 px-2.5 py-1.5 bg-slate-100 text-slate-600 rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-black hover:text-white transition-colors">
-                            <FileText size={10} /> Ver
-                          </button>
-                          <button
-                            onClick={() => {
-                              setMateria(s.materia); setTema(s.tema); setFlow("modo");
-                            }}
-                            className="flex items-center gap-1 px-2.5 py-1.5 bg-black text-white rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-blue-600 transition-colors">
-                            <Play size={10} /> Repetir
-                          </button>
-                        </div>
-                      </motion.div>
-                    ))}
-                  </div>
+
+                  {/* Recent sessions (max 3) */}
+                  {recentes.length > 0 && (
+                    <div className="space-y-2">
+                      <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 flex items-center gap-1.5">
+                        <Zap size={11} /> Sessões Recentes
+                      </p>
+                      <div className="grid gap-2">
+                        {recentes.slice(0, 3).map((s) => (
+                          <motion.div key={s.id} whileHover={{ x: 3 }} transition={{ duration: 0.15 }}
+                            className="bg-slate-50 border border-slate-200 rounded-xl p-3 flex items-center gap-3 hover:border-slate-300 transition-colors">
+                            <span className={`w-2 h-2 rounded-full shrink-0 ${MODO_DOT[s.modo]}`} />
+                            <div className="flex-1 min-w-0">
+                              <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 truncate">{s.materia}</p>
+                              <p className="text-sm font-black text-slate-800 truncate">{s.tema}</p>
+                            </div>
+                            <div className="flex items-center gap-2 shrink-0">
+                              <span className="text-[9px] font-black uppercase text-slate-400">{MODO_LABEL[s.modo]}</span>
+                              <button onClick={() => router.push(s.url)}
+                                className="flex items-center gap-1 px-2.5 py-1.5 bg-slate-100 text-slate-600 rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-black hover:text-white transition-colors">
+                                <FileText size={10} /> Ver
+                              </button>
+                              <button onClick={() => { setMateria(s.materia); setTema(s.tema); setFlow("modo"); }}
+                                className="flex items-center gap-1 px-2.5 py-1.5 bg-black text-white rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-blue-600 transition-colors">
+                                <Play size={10} /> Repetir
+                              </button>
+                            </div>
+                          </motion.div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
                 </div>
-              )}
+              </div>
             </motion.div>
           )}
 
@@ -259,7 +257,7 @@ export default function DashboardPage() {
             <motion.div key="extraindo"
               initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0 }} transition={{ duration: 0.3 }}
-              className="w-full flex flex-col items-center gap-6 pt-16">
+              className="flex-1 flex flex-col items-center justify-center gap-6 px-4">
               <div className="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center border-2 border-blue-100">
                 <Loader2 size={28} className="text-blue-600 animate-spin" />
               </div>
@@ -275,7 +273,8 @@ export default function DashboardPage() {
             <motion.div key="confirmando"
               initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -12 }} transition={{ duration: 0.3 }}
-              className="w-full space-y-6">
+              className="flex-1 overflow-y-auto px-4 pt-8 pb-10 max-w-2xl mx-auto w-full">
+              <div className="space-y-6">
 
               <div>
                 <p className="text-[10px] font-black uppercase tracking-widest text-blue-600 mb-2">Assunto identificado</p>
@@ -332,6 +331,8 @@ export default function DashboardPage() {
                   Confirmar <Check size={13} />
                 </button>
               </div>
+
+              </div>
             </motion.div>
           )}
 
@@ -340,7 +341,8 @@ export default function DashboardPage() {
             <motion.div key="modo"
               initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -12 }} transition={{ duration: 0.3 }}
-              className="w-full space-y-6">
+              className="flex-1 overflow-y-auto px-4 pt-8 pb-10 max-w-2xl mx-auto w-full">
+              <div className="space-y-6">
 
               <div>
                 <div className="flex items-center gap-2 mb-1">
@@ -388,11 +390,12 @@ export default function DashboardPage() {
                   Iniciar Sessão <ArrowRight size={14} />
                 </button>
               </div>
+
+              </div>
             </motion.div>
           )}
 
         </AnimatePresence>
-      </main>
     </div>
   );
 }

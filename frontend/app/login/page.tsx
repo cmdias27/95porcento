@@ -219,7 +219,6 @@ export default function LoginPage() {
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-blue-950" />
 
         <div className="relative z-10 text-center">
-          <p className="text-[9px] font-black uppercase tracking-[0.35em] text-emerald-400 mb-3">Pirâmide de Glasser</p>
           <h2 className="text-3xl font-black text-white leading-tight">
             Quem ensina retém<br />
             <span className="text-emerald-400">90% do conteúdo.</span>

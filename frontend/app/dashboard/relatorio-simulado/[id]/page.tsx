@@ -116,7 +116,7 @@ export default function RelatorioSimulado() {
 
   const [relatorio, setRelatorio] = useState<any>(null);
   const [carregando, setCarregando] = useState(true);
-  const [enriquecendo, setEnriquecendo] = useState(false);
+  const [enriquecendo, setEnriquecendo] = useState(true);
   const [gabaritosRevelados, setGabaritosRevelados] = useState<Set<string>>(new Set());
   const [showCenario, setShowCenario] = useState(false);
 
@@ -141,9 +141,9 @@ export default function RelatorioSimulado() {
 
   // Enriquecimento de questões (fase 2)
   useEffect(() => {
-    if (!relatorio || relatorio.enriquecido) return;
+    if (!relatorio) return;
+    if (relatorio.enriquecido) { setEnriquecendo(false); return; }
     const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
-    setEnriquecendo(true);
     apiFetch(`${API}/api/enriquecer-relatorio`, {
       method: "POST",
       body: JSON.stringify({ relatorio_id: relatorioId, modo: "simulado" }),
@@ -208,6 +208,14 @@ export default function RelatorioSimulado() {
       </header>
 
       <main className="w-full max-w-5xl mx-auto px-4 md:px-8 py-8 flex flex-col gap-10">
+
+        {/* Banner de carregamento das questões */}
+        {enriquecendo && (
+          <div className="flex items-center gap-3 bg-blue-50 border border-blue-200 rounded-2xl px-5 py-3.5">
+            <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin shrink-0" />
+            <p className="text-xs font-black uppercase tracking-widest text-blue-600">Buscando questões de prova relacionadas...</p>
+          </div>
+        )}
 
         {/* ── SEÇÃO 1: RESUMO ── */}
         <section>
