@@ -297,7 +297,10 @@ export default function RelatorioGuiado() {
 
                     {/* Questões vinculadas */}
                     {enriquecendo ? (
-                      <div className="mt-4 h-24 bg-slate-100 rounded-xl animate-pulse" />
+                      <div className="mt-4 border border-dashed border-slate-200 rounded-xl p-4 flex items-center gap-3 bg-slate-50">
+                        <div className="w-4 h-4 border-2 border-blue-400 border-t-transparent rounded-full animate-spin shrink-0" />
+                        <p className="text-xs font-bold text-slate-400">Carregando questão de prova...</p>
+                      </div>
                     ) : (
                       <>
                         <QuestaoCard questao={av.questao_vinculada} gabaritosRevelados={gabaritosRevelados} toggle={toggleGabarito} />

@@ -196,9 +196,9 @@ export default function LoginPage() {
     }
   };
 
-  // Pirâmide de Glasser — topo (90%) → base (10%)
+  // Pirâmide de Glasser — topo (95%) → base (10%)
   const piramideLayers = [
-    { label: "ENSINAR",    sub: "Explicar para outros", pct: "90%", fill: "#059669", top: true  },
+    { label: "ENSINAR",    sub: "Explicar para outros", pct: "95%", fill: "#059669", top: true  },
     { label: "DISCUTIR",   sub: "Grupos de estudo",     pct: "70%", fill: "#0d9488", top: false },
     { label: "VER E OUVIR",sub: "Audiovisual",          pct: "50%", fill: "#0369a1", top: false },
     { label: "VER",        sub: "Demonstrações",         pct: "30%", fill: "#1d4ed8", top: false },
@@ -221,7 +221,7 @@ export default function LoginPage() {
         <div className="relative z-10 text-center">
           <h2 className="text-3xl font-black text-white leading-tight">
             Quem ensina retém<br />
-            <span className="text-emerald-400">90% do conteúdo.</span>
+            <span className="text-emerald-400">95% do conteúdo.</span>
           </h2>
           <p className="text-slate-400 text-sm mt-3 leading-relaxed">
             O 95porcento coloca a IA como seu aluno.<br />
