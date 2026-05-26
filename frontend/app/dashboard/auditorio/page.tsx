@@ -108,7 +108,7 @@ function AuditorioContent() {
         else { setNivelElite(false); setTopicos(data.topicos || []); }
       } catch (error) {
         console.warn("Checklist não gerado.", error);
-        setTopicos(["Erro ao gerar checklist. Verifique a conexão."]);
+        setTopicos([]);
       } finally {
         setExtraindo(false);
       }

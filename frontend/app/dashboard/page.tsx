@@ -19,7 +19,7 @@ const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 // ─── Types ────────────────────────────────────────────────────────────────────
 
 type FlowState = "auth" | "chat" | "extraindo" | "confirmando" | "modo";
-type ModoSessao = "livre" | "guiado" | "simulado";
+type ModoSessao = "livre" | "guiado" | "simulado" | "personalizada";
 
 type SessaoRecente = {
   id: string; materia: string; tema: string;
@@ -33,9 +33,10 @@ const MODOS: { value: ModoSessao; label: string; desc: string; icon: typeof Mic;
 ];
 
 const MODO_URLS: Record<ModoSessao, string> = {
-  livre:    "/dashboard/auditorio",
-  guiado:   "/dashboard/modos/guiado",
-  simulado: "/dashboard/modos/simulado",
+  livre:         "/dashboard/auditorio",
+  guiado:        "/dashboard/modos/guiado",
+  simulado:      "/dashboard/modos/simulado",
+  personalizada: "/dashboard/auditorio",
 };
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -47,8 +48,8 @@ function formatDate(value?: string) {
   return d.toLocaleDateString("pt-BR", { day: "2-digit", month: "short" });
 }
 
-const MODO_LABEL: Record<ModoSessao, string> = { livre: "Livre", guiado: "Guiado", simulado: "Simulado" };
-const MODO_DOT:   Record<ModoSessao, string> = { livre: "bg-blue-500", guiado: "bg-emerald-500", simulado: "bg-violet-500" };
+const MODO_LABEL: Record<ModoSessao, string> = { livre: "Livre", guiado: "Guiado", simulado: "Simulado", personalizada: "Personalizada" };
+const MODO_DOT:   Record<ModoSessao, string> = { livre: "bg-blue-500", guiado: "bg-emerald-500", simulado: "bg-violet-500", personalizada: "bg-orange-500" };
 
 // ─── Main Component ───────────────────────────────────────────────────────────
 
@@ -69,6 +70,10 @@ export default function DashboardPage() {
 
   const [modo,     setModo]     = useState<ModoSessao>("guiado");
   const [recentes, setRecentes] = useState<SessaoRecente[]>([]);
+
+  const [historico,            setHistorico]            = useState<string[]>([]);
+  const [temHistorico,         setTemHistorico]         = useState(false);
+  const [carregandoHistorico,  setCarregandoHistorico]  = useState(false);
 
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, async (u) => {
@@ -116,6 +121,52 @@ export default function DashboardPage() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // Verifica histórico do tema ao entrar no fluxo "modo"
+  useEffect(() => {
+    if (flow !== "modo") { setTemHistorico(false); setHistorico([]); return; }
+    const user = auth.currentUser;
+    if (!user || !materia || !tema) return;
+
+    const matching = recentes.filter(r =>
+      r.materia.toLowerCase() === materia.toLowerCase() &&
+      r.tema.toLowerCase() === tema.toLowerCase()
+    );
+
+    if (matching.length === 0) { setTemHistorico(false); setHistorico([]); return; }
+
+    setCarregandoHistorico(true);
+    Promise.all(
+      matching.slice(0, 3).map(async (s) => {
+        const col = s.modo === "guiado" ? "relatorios_guiados"
+          : s.modo === "simulado" ? "relatorios_simulados"
+          : "relatorios";
+        try {
+          const snap = await getDoc(doc(db, col, s.id));
+          return snap.exists() ? snap.data() : null;
+        } catch { return null; }
+      })
+    ).then(docs => {
+      const pontos: string[] = [];
+      docs.filter(Boolean).forEach(d => {
+        (d!.erros_cometidos || []).forEach((e: any) => {
+          const txt = typeof e === "string" ? e : (e.conceito || e.topico || e.titulo || "");
+          if (txt) pontos.push(txt);
+        });
+        (d!.temas_nao_abordados || []).forEach((t: any) => {
+          const txt = typeof t === "string" ? t : (t.tema || t.conceito || t.topico || "");
+          if (txt) pontos.push(txt);
+        });
+      });
+      setHistorico([...new Set(pontos)].slice(0, 10));
+      setTemHistorico(true);
+    }).catch(() => {
+      setTemHistorico(true);
+    }).finally(() => {
+      setCarregandoHistorico(false);
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [flow, materia, tema]);
+
   const extrairAssunto = async (t: string, j: string) => {
     setFlow("extraindo");
     try {
@@ -141,12 +192,31 @@ export default function DashboardPage() {
   };
 
   const iniciarSessao = () => {
+    if (modo === "personalizada") {
+      const qs = new URLSearchParams({ jornada, materia, tema, banca, faixa_salarial: nivel, personalizado: "1" });
+      if (historico.length > 0) qs.set("prioridades", historico.join("|"));
+      router.push(`/dashboard/auditorio?${qs}`);
+      return;
+    }
     const qs = new URLSearchParams({ jornada, materia, tema, banca, faixa_salarial: nivel });
     router.push(`${MODO_URLS[modo]}?${qs}`);
   };
 
   const jornadaObj = useMemo(() => JORNADAS_ESTUDO.find(j => j.nome.toLowerCase() === jornada), [jornada]);
   const materiaObj = useMemo(() => jornadaObj?.materias.find(m => m.nome === materia), [jornadaObj, materia]);
+
+  const modoPersonalizada = {
+    value: "personalizada" as const,
+    label: "Personalizada",
+    icon: BookOpen,
+    desc: historico.length > 0
+      ? `${historico.length} lacuna${historico.length !== 1 ? "s" : ""} identificada${historico.length !== 1 ? "s" : ""} para reforçar com foco no seu histórico.`
+      : "Sessão baseada no seu histórico de estudo neste tema.",
+    color: "text-orange-700",
+    bg: "bg-orange-50",
+    border: "border-orange-200",
+  };
+  const modsVisiveis = [...MODOS, ...(temHistorico ? [modoPersonalizada] : [])];
 
   // ─── AUTH LOADING ──────────────────────────────────────────────────────────
   if (flow === "auth") return (
@@ -168,8 +238,8 @@ export default function DashboardPage() {
               exit={{ opacity: 0 }} transition={{ duration: 0.25 }}
               className="flex-1 min-h-0 flex flex-col overflow-hidden">
 
-              {/* Dark hero section */}
-              <div className="flex-1 min-h-0 flex flex-col justify-end px-5 pb-6 max-w-2xl mx-auto w-full">
+              {/* Dark hero section — compact */}
+              <div className="shrink-0 flex flex-col justify-end px-5 pb-6 pt-10 max-w-2xl mx-auto w-full">
                 <h1 className="text-2xl md:text-3xl font-black text-white tracking-tight">
                   Olá, {nome.split(" ")[0]}.
                 </h1>
@@ -191,9 +261,9 @@ export default function DashboardPage() {
                 </div>
               </div>
 
-              {/* White card */}
-              <div className="bg-white rounded-t-[2rem] shadow-[0_-8px_40px_rgba(0,0,0,0.4)] shrink-0">
-                <div className="max-w-2xl mx-auto px-5 pt-6 pb-6 space-y-4">
+              {/* White card — fills remaining space */}
+              <div className="bg-white rounded-t-[2rem] shadow-[0_-8px_40px_rgba(0,0,0,0.4)] flex-1 min-h-0 overflow-y-auto">
+                <div className="max-w-2xl mx-auto px-5 pt-6 pb-8 space-y-4">
 
                   {/* Chat input */}
                   <div className="bg-white border-2 border-slate-200 rounded-2xl shadow-sm overflow-hidden focus-within:border-blue-500 transition-colors">
@@ -351,10 +421,16 @@ export default function DashboardPage() {
                   <span className="text-[9px] font-black uppercase tracking-widest text-blue-600">{tema}</span>
                 </div>
                 <h2 className="text-xl font-black text-black">Como quer estudar?</h2>
+                {carregandoHistorico && (
+                  <div className="flex items-center gap-1.5 mt-1">
+                    <div className="w-3 h-3 border-2 border-slate-300 border-t-transparent rounded-full animate-spin" />
+                    <p className="text-xs text-slate-400">Verificando histórico...</p>
+                  </div>
+                )}
               </div>
 
               <div className="grid gap-3">
-                {MODOS.map(m => {
+                {modsVisiveis.map(m => {
                   const Icon  = m.icon;
                   const ativo = modo === m.value;
                   return (

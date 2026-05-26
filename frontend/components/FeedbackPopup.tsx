@@ -32,7 +32,7 @@ export function FeedbackPopup({ relatorioId }: Props) {
     if (!relatorioId) return;
     const key = `feedback_done_${relatorioId}`;
     if (localStorage.getItem(key)) return;
-    const t = setTimeout(() => setVisible(true), 8000);
+    const t = setTimeout(() => setVisible(true), 24000);
     return () => clearTimeout(t);
   }, [relatorioId]);
 
