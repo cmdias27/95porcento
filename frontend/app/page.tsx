@@ -89,8 +89,10 @@ export default function LandingPage() {
     );
   }
 
+  const naEtapaAssunto = etapa === "assunto";
+
   return (
-    <div className="min-h-[100dvh] flex flex-col bg-[#080808]">
+    <div className="h-[100dvh] overflow-hidden flex flex-col bg-[#080808]">
 
       {/* ── Nav ───────────────────────────────────────────────── */}
       <nav className="flex items-center justify-between px-5 md:px-10 h-14 shrink-0">
@@ -111,8 +113,8 @@ export default function LandingPage() {
         </div>
       </nav>
 
-      {/* ── Hero ──────────────────────────────────────────────── */}
-      <section className="flex-1 flex flex-col justify-end px-5 md:px-16 pb-10 md:pb-14 pt-6 w-full max-w-5xl mx-auto">
+      {/* ── Hero — oculto no mobile quando na etapa de assunto ── */}
+      <section className={`flex-1 min-h-0 flex-col justify-end px-5 md:px-16 pb-10 md:pb-14 pt-6 w-full max-w-5xl mx-auto ${naEtapaAssunto ? "hidden md:flex" : "flex"}`}>
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
@@ -146,118 +148,127 @@ export default function LandingPage() {
         initial={{ y: 40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.35, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className="bg-white rounded-t-[2rem] md:rounded-t-[2.5rem] w-full shadow-[0_-8px_60px_rgba(0,0,0,0.45)]"
+        className={`bg-white rounded-t-[2rem] md:rounded-t-[2.5rem] w-full shadow-[0_-8px_60px_rgba(0,0,0,0.45)] flex flex-col ${naEtapaAssunto ? "flex-1 min-h-0 overflow-hidden" : ""}`}
       >
-        <div className="max-w-3xl mx-auto px-5 md:px-12 pt-8 pb-10 md:pt-10 md:pb-14">
+        <div className="max-w-3xl mx-auto w-full px-5 md:px-12 pt-8 md:pt-10 flex flex-col flex-1 min-h-0">
 
-          <p className="text-xl md:text-2xl font-black text-black mb-7">
+          <p className="text-xl md:text-2xl font-black text-black mb-7 shrink-0">
             Olá! O que quer fixar hoje?
           </p>
 
-          <AnimatePresence mode="wait">
+          {/* Scrollable form area */}
+          <div className={`${naEtapaAssunto ? "flex-1 min-h-0 overflow-y-auto" : ""}`}>
+            <AnimatePresence mode="wait">
 
-            {/* ───── ETAPA 1: JORNADA ───── */}
-            {etapa === "jornada" && (
-              <motion.div key="jornada"
-                initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -10 }} transition={{ duration: 0.22 }}
-                className="space-y-3"
-              >
-                <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">
-                  Qual é o seu objetivo?
-                </p>
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                  {JORNADAS.map(j => (
-                    <button key={j.value} onClick={() => selecionarJornada(j.value)}
-                      className="group py-5 px-5 rounded-2xl border-2 border-slate-200 text-left hover:border-black hover:bg-black transition-all duration-200"
-                    >
-                      <p className="font-black text-slate-800 group-hover:text-white transition-colors">
-                        {j.label}
-                      </p>
-                      <p className="text-[10px] font-bold text-slate-400 group-hover:text-slate-400 mt-1">
-                        {j.sub}
-                      </p>
-                    </button>
-                  ))}
-                </div>
-              </motion.div>
-            )}
-
-            {/* ───── ETAPA 2: ASSUNTO ───── */}
-            {etapa === "assunto" && (
-              <motion.div key="assunto"
-                initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -10 }} transition={{ duration: 0.22 }}
-                className="space-y-4"
-              >
-                {/* Breadcrumb */}
-                <div className="flex items-center gap-2">
-                  <button onClick={() => setEtapa("jornada")}
-                    className="text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-black transition-colors">
-                    ← Voltar
-                  </button>
-                  <span className="text-[10px] font-black uppercase tracking-widest text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full">
-                    {JORNADAS.find(j => j.value === jornada)?.label}
-                  </span>
-                </div>
-
-                <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">
-                  Qual assunto quer estudar?
-                </p>
-
-                {/* Toggle: digitar ou selecionar */}
-                <div className="flex gap-1 bg-slate-100 rounded-xl p-1 w-fit">
-                  {[{ v: true, l: "Digitar" }, { v: false, l: "Selecionar" }].map(({ v, l }) => (
-                    <button key={l} onClick={() => setUsarTexto(v)}
-                      className={`text-[10px] font-black uppercase tracking-widest px-4 py-1.5 rounded-lg transition-all ${
-                        usarTexto === v ? "bg-white text-black shadow-sm" : "text-slate-400 hover:text-black"
-                      }`}
-                    >{l}</button>
-                  ))}
-                </div>
-
-                {usarTexto ? (
-                  <textarea
-                    ref={textareaRef}
-                    value={textoLivre}
-                    onChange={e => setTextoLivre(e.target.value)}
-                    onKeyDown={e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); avancarAssunto(); } }}
-                    placeholder="ex: princípios da administração pública..."
-                    rows={3}
-                    className="w-full resize-none border-2 border-slate-200 rounded-xl p-4 outline-none font-medium text-slate-800 placeholder-slate-300 text-sm leading-relaxed focus:border-black transition-colors"
-                  />
-                ) : (
-                  <div className="space-y-3">
-                    <select value={materia}
-                      onChange={e => { setMateria(e.target.value); setTema(""); }}
-                      className="w-full border-2 border-slate-200 rounded-xl p-4 outline-none font-bold text-slate-700 bg-white focus:border-black transition-colors">
-                      <option value="">Selecione a matéria</option>
-                      {jornadaObj?.materias.map(m => (
-                        <option key={m.id} value={m.nome}>{m.nome}</option>
-                      ))}
-                    </select>
-                    {materia && (
-                      <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: "auto" }}>
-                        <select value={tema} onChange={e => setTema(e.target.value)}
-                          className="w-full border-2 border-slate-200 rounded-xl p-4 outline-none font-bold text-slate-700 bg-white focus:border-black transition-colors">
-                          <option value="">Selecione o tema</option>
-                          {materiaObj?.temas.map(t => (
-                            <option key={t} value={t}>{t}</option>
-                          ))}
-                        </select>
-                      </motion.div>
-                    )}
+              {/* ───── ETAPA 1: JORNADA ───── */}
+              {etapa === "jornada" && (
+                <motion.div key="jornada"
+                  initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }} transition={{ duration: 0.22 }}
+                  className="space-y-3 pb-10 md:pb-14"
+                >
+                  <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">
+                    Qual é o seu objetivo?
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    {JORNADAS.map(j => (
+                      <button key={j.value} onClick={() => selecionarJornada(j.value)}
+                        className="group py-5 px-5 rounded-2xl border-2 border-slate-200 text-left hover:border-black hover:bg-black transition-all duration-200"
+                      >
+                        <p className="font-black text-slate-800 group-hover:text-white transition-colors">
+                          {j.label}
+                        </p>
+                        <p className="text-[10px] font-bold text-slate-400 group-hover:text-slate-400 mt-1">
+                          {j.sub}
+                        </p>
+                      </button>
+                    ))}
                   </div>
-                )}
+                </motion.div>
+              )}
 
-                <button onClick={avancarAssunto} disabled={!podeAvancarAssunto}
-                  className="w-full bg-black text-white py-4 rounded-xl font-black text-[11px] uppercase tracking-widest hover:bg-blue-600 transition-colors disabled:opacity-25 flex items-center justify-center gap-2">
-                  Continuar <ArrowRight size={14} />
-                </button>
-              </motion.div>
-            )}
+              {/* ───── ETAPA 2: ASSUNTO ───── */}
+              {etapa === "assunto" && (
+                <motion.div key="assunto"
+                  initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }} transition={{ duration: 0.22 }}
+                  className="space-y-4 pb-4"
+                >
+                  {/* Breadcrumb */}
+                  <div className="flex items-center gap-2">
+                    <button onClick={() => setEtapa("jornada")}
+                      className="text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-black transition-colors">
+                      ← Voltar
+                    </button>
+                    <span className="text-[10px] font-black uppercase tracking-widest text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full">
+                      {JORNADAS.find(j => j.value === jornada)?.label}
+                    </span>
+                  </div>
 
-          </AnimatePresence>
+                  <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">
+                    Qual assunto quer estudar?
+                  </p>
+
+                  {/* Toggle: digitar ou selecionar */}
+                  <div className="flex gap-1 bg-slate-100 rounded-xl p-1 w-fit">
+                    {[{ v: true, l: "Digitar" }, { v: false, l: "Selecionar" }].map(({ v, l }) => (
+                      <button key={l} onClick={() => setUsarTexto(v)}
+                        className={`text-[10px] font-black uppercase tracking-widest px-4 py-1.5 rounded-lg transition-all ${
+                          usarTexto === v ? "bg-white text-black shadow-sm" : "text-slate-400 hover:text-black"
+                        }`}
+                      >{l}</button>
+                    ))}
+                  </div>
+
+                  {usarTexto ? (
+                    <textarea
+                      ref={textareaRef}
+                      value={textoLivre}
+                      onChange={e => setTextoLivre(e.target.value)}
+                      onKeyDown={e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); avancarAssunto(); } }}
+                      placeholder="ex: princípios da administração pública..."
+                      rows={3}
+                      className="w-full resize-none border-2 border-slate-200 rounded-xl p-4 outline-none font-medium text-slate-800 placeholder-slate-300 text-sm leading-relaxed focus:border-black transition-colors"
+                    />
+                  ) : (
+                    <div className="space-y-3">
+                      <select value={materia}
+                        onChange={e => { setMateria(e.target.value); setTema(""); }}
+                        className="w-full border-2 border-slate-200 rounded-xl p-4 outline-none font-bold text-slate-700 bg-white focus:border-black transition-colors">
+                        <option value="">Selecione a matéria</option>
+                        {jornadaObj?.materias.map(m => (
+                          <option key={m.id} value={m.nome}>{m.nome}</option>
+                        ))}
+                      </select>
+                      {materia && (
+                        <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: "auto" }}>
+                          <select value={tema} onChange={e => setTema(e.target.value)}
+                            className="w-full border-2 border-slate-200 rounded-xl p-4 outline-none font-bold text-slate-700 bg-white focus:border-black transition-colors">
+                            <option value="">Selecione o tema</option>
+                            {materiaObj?.temas.map(t => (
+                              <option key={t} value={t}>{t}</option>
+                            ))}
+                          </select>
+                        </motion.div>
+                      )}
+                    </div>
+                  )}
+                </motion.div>
+              )}
+
+            </AnimatePresence>
+          </div>
+
+          {/* ── Botão fixo na base — apenas na etapa assunto ── */}
+          {naEtapaAssunto && (
+            <div className="shrink-0 pb-8 md:pb-10 pt-3">
+              <button onClick={avancarAssunto} disabled={!podeAvancarAssunto}
+                className="w-full bg-black text-white py-4 rounded-xl font-black text-[11px] uppercase tracking-widest hover:bg-blue-600 transition-colors disabled:opacity-25 flex items-center justify-center gap-2">
+                Continuar <ArrowRight size={14} />
+              </button>
+            </div>
+          )}
+
         </div>
       </motion.section>
 

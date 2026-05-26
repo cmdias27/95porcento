@@ -699,7 +699,7 @@ ATENÇÃO: VOCÊ NÃO FARÁ CÁLCULOS MATEMÁTICOS NEM DARÁ NOTAS. O SEU TRABAL
 
 --- INSTRUÇÕES DE MAPEAMENTO (CRÍTICO - NÃO INVENTE DADOS) ---
 1. ANALISE DO MENTOR: Escreva OBRIGATORIAMENTE 1 parágrafo direto e preciso, com entre 5 e 7 linhas. Resuma o domínio geral do candidato sobre "{tema}": o que foi explicado com qualidade, quais as lacunas mais críticas identificadas e o nível geral de preparo para prova. Não repita itens individualmente — sintetize o perfil.
-2. AUDITORIA DO ROTEIRO: Para ABSOLUTAMENTE TODOS os itens do "[ROTEIRO TÉCNICO IDEAL]", classifique como:
+2. AUDITORIA DO ROTEIRO: Se o bloco "[ROTEIRO TÉCNICO IDEAL]" estiver vazio, retorne lista vazia. Caso contrário, para ABSOLUTAMENTE TODOS os itens, classifique como:
    - "Dominado": O aluno explicou o NÚCLEO ESSENCIAL deste tópico de forma correta. Não exija perfeição absoluta — basta que a ideia principal esteja certa e desenvolvida com alguma substância.
    - "Parcial": Abordou a ideia principal corretamente, mas omitiu aspectos relevantes ou não desenvolveu suficientemente para uma prova.
    - "Superficial": Apenas citou ou mencionou o tópico de passagem, sem nenhuma explicação real do conceito.
@@ -707,8 +707,8 @@ ATENÇÃO: VOCÊ NÃO FARÁ CÁLCULOS MATEMÁTICOS NEM DARÁ NOTAS. O SEU TRABAL
    - "Omitido": Não mencionou este tópico em nenhum momento da aula.
    REGRA DE INDEPENDÊNCIA (CRÍTICA): Avalie cada tópico de forma ISOLADA. O fato de o aluno ter errado OUTRO tópico NÃO contamina a avaliação deste. Se o aluno explicou corretamente o conceito X mas errou o conceito Y, X é "Dominado" e Y é "Incorreto" — nunca marque X como "Incorreto" por causa de Y.
    REGRA DE ESCALA: Prefira "Dominado" a "Parcial" quando o aluno acertou o núcleo e apenas faltou detalhe secundário. Prefira "Parcial" a "Superficial" quando desenvolveu minimamente além de citar. Prefira "Superficial" a "Omitido" quando ao menos mencionou.
-3. AUDITORIA DE INCIDÊNCIA (ATENÇÃO MÁXIMA): Copie EXATAMENTE os itens listados no bloco "[PESOS DE INCIDÊNCIA NA PROVA]". É ESTRITAMENTE PROIBIDO inventar assuntos ou alterar os percentuais. Preencha 'explicou_bem' como true ou false.
-4. AUDITORIA DE PEGADINHAS: Para cada item em "[ANATOMIA E PEGADINHAS DA BANCA]", marque 'caiu_na_pegadinha' como true se ele explicou errado ou se OMITIU a explicação dessa exceção/pegadinha.
+3. AUDITORIA DE INCIDÊNCIA (ATENÇÃO MÁXIMA): Se o bloco "[PESOS DE INCIDÊNCIA NA PROVA]" estiver vazio, retorne lista vazia. Caso contrário, copie EXATAMENTE os itens listados. É ESTRITAMENTE PROIBIDO inventar assuntos ou alterar os percentuais. Preencha 'explicou_bem' como true ou false.
+4. AUDITORIA DE PEGADINHAS: Se o bloco "[ANATOMIA E PEGADINHAS DA BANCA]" estiver vazio, retorne lista vazia. Caso contrário, para cada item, marque 'caiu_na_pegadinha' como true se ele explicou errado ou se OMITIU a explicação dessa exceção/pegadinha.
 5. INCONSISTÊNCIAS: Cite apenas trechos onde o aluno afirmou algo TECNICAMENTE FALSO — uma "mentira conceitual" verificável. Não inclua omissões ou simplificações, apenas afirmações incorretas.
 6. OMISSÕES INTELIGENTES: Com base no seu conhecimento especializado sobre "{tema}" para {nome_banca_prompt}, identifique conceitos, aplicações, variações ou subtópicos que um candidato de alto desempenho DEVERIA ter abordado mas que NÃO aparecem na aula — independentemente do roteiro fornecido. Liste apenas omissões relevantes e cobráveis em prova. Seja específico: não repita o que já está no roteiro como "Omitido", adicione apenas o que vai ALÉM do roteiro.
 7. ACERTOS DO CONHECIMENTO GERAL: Identifique os conceitos ou tópicos que o aluno explicou CORRETAMENTE na aula e que NÃO estão cobertos pelo [ROTEIRO TÉCNICO IDEAL] acima. Estes são pontos positivos do conhecimento geral do aluno sobre "{tema}". Liste APENAS afirmações corretas e relevantes — ignore erros. Se nada além do roteiro foi explicado corretamente, retorne lista vazia.

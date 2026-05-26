@@ -85,6 +85,7 @@ export default function RelatorioFinal() {
   const relatorioId = params.id as string;
   const [relatorio, setRelatorio] = useState<any>(null);
   const [carregando, setCarregando] = useState(true);
+  const [enriquecendo, setEnriquecendo] = useState(false);
   const [gabaritosRevelados, setGabaritosRevelados] = useState<Set<string>>(new Set());
 
   const toggleGabarito = (id: string) => setGabaritosRevelados(prev => {
@@ -105,6 +106,30 @@ export default function RelatorioFinal() {
     };
     if (relatorioId) buscarRelatorio();
   }, [relatorioId, router]);
+
+  // Enriquecimento de questões (fase 2)
+  useEffect(() => {
+    if (!relatorio || relatorio.enriquecido) return;
+    const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+    setEnriquecendo(true);
+    apiFetch(`${API}/api/enriquecer-relatorio`, {
+      method: "POST",
+      body: JSON.stringify({ relatorio_id: relatorioId, modo: "livre" }),
+    })
+      .then(r => r.json())
+      .then(data => {
+        if (data.erros_cometidos !== undefined || data.temas_nao_abordados !== undefined) {
+          setRelatorio((prev: any) => ({
+            ...prev,
+            erros_cometidos:    data.erros_cometidos    ?? prev.erros_cometidos,
+            temas_nao_abordados: data.temas_nao_abordados ?? prev.temas_nao_abordados,
+            enriquecido: true,
+          }));
+        }
+      })
+      .catch(() => {})
+      .finally(() => setEnriquecendo(false));
+  }, [relatorio?.enriquecido, relatorioId]);
 
   useEffect(() => {
     if (!relatorio || !relatorioId) return;
@@ -205,12 +230,16 @@ export default function RelatorioFinal() {
                       </p>
                     </div>
                   </div>
-                  {(item.questao_vinculada || item.questao_autoral) && (
-                    <div className="px-5 pb-5">
-                      <QuestaoCard questao={item.questao_vinculada} gabaritosRevelados={gabaritosRevelados} toggle={toggleGabarito} />
-                      <QuestaoCard questao={item.questao_autoral} gabaritosRevelados={gabaritosRevelados} toggle={toggleGabarito} autoral bancaLabel={relatorio.banca_escolhida} />
-                    </div>
-                  )}
+                  <div className="px-5 pb-5">
+                    {enriquecendo ? (
+                      <div className="mt-4 h-24 bg-slate-100 rounded-xl animate-pulse" />
+                    ) : (
+                      <>
+                        <QuestaoCard questao={item.questao_vinculada} gabaritosRevelados={gabaritosRevelados} toggle={toggleGabarito} />
+                        <QuestaoCard questao={item.questao_autoral} gabaritosRevelados={gabaritosRevelados} toggle={toggleGabarito} autoral bancaLabel={relatorio.banca_escolhida} />
+                      </>
+                    )}
+                  </div>
                 </motion.div>
               ))}
             </div>
@@ -232,8 +261,14 @@ export default function RelatorioFinal() {
                     {o.tema || o.conceito}
                   </h3>
                   <p className="text-sm font-medium text-slate-600 leading-relaxed">{o.resumo || o.importancia}</p>
-                  <QuestaoCard questao={o.questao_vinculada} gabaritosRevelados={gabaritosRevelados} toggle={toggleGabarito} />
-                  <QuestaoCard questao={o.questao_autoral} gabaritosRevelados={gabaritosRevelados} toggle={toggleGabarito} autoral bancaLabel={relatorio.banca_escolhida} />
+                  {enriquecendo ? (
+                    <div className="mt-4 h-24 bg-slate-100 rounded-xl animate-pulse" />
+                  ) : (
+                    <>
+                      <QuestaoCard questao={o.questao_vinculada} gabaritosRevelados={gabaritosRevelados} toggle={toggleGabarito} />
+                      <QuestaoCard questao={o.questao_autoral} gabaritosRevelados={gabaritosRevelados} toggle={toggleGabarito} autoral bancaLabel={relatorio.banca_escolhida} />
+                    </>
+                  )}
                 </div>
               ))}
             </div>

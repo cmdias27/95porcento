@@ -116,6 +116,7 @@ export default function RelatorioSimulado() {
 
   const [relatorio, setRelatorio] = useState<any>(null);
   const [carregando, setCarregando] = useState(true);
+  const [enriquecendo, setEnriquecendo] = useState(false);
   const [gabaritosRevelados, setGabaritosRevelados] = useState<Set<string>>(new Set());
   const [showCenario, setShowCenario] = useState(false);
 
@@ -137,6 +138,25 @@ export default function RelatorioSimulado() {
     };
     if (relatorioId) buscar();
   }, [relatorioId, router]);
+
+  // Enriquecimento de questões (fase 2)
+  useEffect(() => {
+    if (!relatorio || relatorio.enriquecido) return;
+    const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+    setEnriquecendo(true);
+    apiFetch(`${API}/api/enriquecer-relatorio`, {
+      method: "POST",
+      body: JSON.stringify({ relatorio_id: relatorioId, modo: "simulado" }),
+    })
+      .then(r => r.json())
+      .then(data => {
+        if (data.avaliacoes) {
+          setRelatorio((prev: any) => ({ ...prev, avaliacoes: data.avaliacoes, enriquecido: true }));
+        }
+      })
+      .catch(() => {})
+      .finally(() => setEnriquecendo(false));
+  }, [relatorio?.enriquecido, relatorioId]);
 
   useEffect(() => {
     if (!relatorio || !relatorioId) return;
@@ -316,8 +336,14 @@ export default function RelatorioSimulado() {
                       )}
                     </div>
 
-                    <QuestaoCard questao={av.questao_vinculada} gabaritosRevelados={gabaritosRevelados} toggle={toggleGabarito} />
-                    <QuestaoCard questao={av.questao_autoral} gabaritosRevelados={gabaritosRevelados} toggle={toggleGabarito} autoral bancaLabel={relatorio.banca_escolhida} />
+                    {enriquecendo ? (
+                      <div className="mt-4 h-24 bg-slate-100 rounded-xl animate-pulse" />
+                    ) : (
+                      <>
+                        <QuestaoCard questao={av.questao_vinculada} gabaritosRevelados={gabaritosRevelados} toggle={toggleGabarito} />
+                        <QuestaoCard questao={av.questao_autoral} gabaritosRevelados={gabaritosRevelados} toggle={toggleGabarito} autoral bancaLabel={relatorio.banca_escolhida} />
+                      </>
+                    )}
                   </div>
                 </motion.div>
               );

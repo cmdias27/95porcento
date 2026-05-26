@@ -292,13 +292,11 @@ def _sortear_questao(pool: list, banca_aluno: str, ids_usados: set, topico: str 
     if topico:
         scores = [(q, _score_relevancia(q, topico)) for q in candidatos]
         pos_scored = sorted([(q, s) for q, s in scores if s > 0], key=lambda x: x[1], reverse=True)
-        if pos_scored:
-            top_score = pos_scored[0][1]
-            # Prefer questions at peak relevance; fallback to top-5 when few perfect matches
-            best = [q for q, s in pos_scored if s == top_score]
-            pool_final = best if len(best) >= 3 else [q for q, _ in pos_scored[:max(len(best), 3)]]
-        else:
-            pool_final = candidatos
+        if not pos_scored:
+            return None  # nenhuma questão real pertinente — frontend exibe só a autoral
+        top_score = pos_scored[0][1]
+        best = [q for q, s in pos_scored if s == top_score]
+        pool_final = best if len(best) >= 3 else [q for q, _ in pos_scored[:max(len(best), 3)]]
         escolhida = random.choice(pool_final)
     else:
         escolhida = random.choice(candidatos)
@@ -601,8 +599,6 @@ def avaliar_sessao_guiada_endpoint():
         if len(respostas_texto.encode()) > MAX_PAYLOAD_BYTES:
             return jsonify({"erro": "Payload de respostas excede o limite permitido."}), 413
 
-        pool_questoes = _carregar_pool_questoes(jornada, materia)
-
         resultado_ia = auditor_v3.avaliar_sessao_guiada(
             jornada=jornada,
             materia=materia,
@@ -617,7 +613,6 @@ def avaliar_sessao_guiada_endpoint():
 
         # Mergear pergunta + resposta_aluno + fase de volta nas avaliações da IA
         pr_map = {pr.get("id"): pr for pr in perguntas_respostas}
-        ids_usados: set = set()
         avaliacoes = resultado_ia.get("avaliacoes", [])
         for av in avaliacoes:
             pr = pr_map.get(av.get("id"), {})
@@ -626,30 +621,6 @@ def avaliar_sessao_guiada_endpoint():
             av["pulada"]         = pr.get("pulada", False)
             av["fase"]           = pr.get("fase", av.get("fase", 1))
             av["assunto_idx"]    = pr.get("assunto_idx", 0)
-            av["questao_vinculada"] = _sortear_questao(
-                pool_questoes, banca, ids_usados, topico=tema
-            )
-
-        # Reescrever comentários das questões vinculadas
-        questoes_vinculadas = [av["questao_vinculada"] for av in avaliacoes if av.get("questao_vinculada")]
-        if questoes_vinculadas:
-            comentarios_ia = auditor_v3.gerar_comentarios_questoes(questoes_vinculadas, materia)
-            for av in avaliacoes:
-                q = av.get("questao_vinculada")
-                if q and q.get("id") in comentarios_ia:
-                    q["comentario"] = comentarios_ia[q["id"]]
-
-        # Gerar questões autorais no estilo da banca
-        itens_autorais = [
-            {"id": av.get("id"), "topico": tema, "contexto": f"{av.get('assunto', '')} — {av.get('feedback', '')}"}
-            for av in avaliacoes
-        ]
-        questoes_autorais = auditor_v3.gerar_questoes_autorais(itens_autorais, banca, materia)
-        for av in avaliacoes:
-            q = questoes_autorais.get(av.get("id"))
-            if q:
-                q["id"] = f"autoral_{av.get('id')}"
-            av["questao_autoral"] = q
 
         # Score cognitivo — guiado
         n_acertos  = sum(1 for av in avaliacoes if av.get("status") == "Acerto")
@@ -671,6 +642,7 @@ def avaliar_sessao_guiada_endpoint():
             "resumo_geral": resultado_ia.get("resumo_geral", {}),
             "avaliacoes": avaliacoes,
             "omissoes": resultado_ia.get("omissoes", []),
+            "enriquecido": False,
             **score_data_g,
         }
 
@@ -752,8 +724,6 @@ def avaliar_sessao_simulada_endpoint():
         if len(respostas_texto.encode()) > MAX_PAYLOAD_BYTES:
             return jsonify({"erro": "Payload de respostas excede o limite permitido."}), 413
 
-        pool_questoes = _carregar_pool_questoes(jornada, materia)
-
         resultado_ia = auditor_v3.avaliar_sessao_simulada(
             jornada=jornada,
             materia=materia,
@@ -769,7 +739,6 @@ def avaliar_sessao_simulada_endpoint():
 
         # Mergear pergunta + resposta_aluno + fase de volta nas avaliações
         pr_map = {pr.get("id"): pr for pr in perguntas_respostas}
-        ids_usados: set = set()
         avaliacoes = resultado_ia.get("avaliacoes", [])
         for av in avaliacoes:
             pr = pr_map.get(av.get("id"), {})
@@ -777,30 +746,6 @@ def avaliar_sessao_simulada_endpoint():
             av["resposta_aluno"] = pr.get("resposta_aluno", "")
             av["pulada"]         = pr.get("pulada", False)
             av["fase"]           = pr.get("fase", av.get("fase", 1))
-            av["questao_vinculada"] = _sortear_questao(
-                pool_questoes, banca, ids_usados, topico=tema
-            )
-
-        # Reescrever comentários das questões vinculadas
-        questoes_vinculadas = [av["questao_vinculada"] for av in avaliacoes if av.get("questao_vinculada")]
-        if questoes_vinculadas:
-            comentarios_ia = auditor_v3.gerar_comentarios_questoes(questoes_vinculadas, materia)
-            for av in avaliacoes:
-                q = av.get("questao_vinculada")
-                if q and q.get("id") in comentarios_ia:
-                    q["comentario"] = comentarios_ia[q["id"]]
-
-        # Gerar questões autorais no estilo da banca
-        itens_autorais = [
-            {"id": av.get("id"), "topico": tema, "contexto": f"{av.get('objetivo', '')} — {av.get('feedback', '')}"}
-            for av in avaliacoes
-        ]
-        questoes_autorais = auditor_v3.gerar_questoes_autorais(itens_autorais, banca, materia)
-        for av in avaliacoes:
-            q = questoes_autorais.get(av.get("id"))
-            if q:
-                q["id"] = f"autoral_{av.get('id')}"
-            av["questao_autoral"] = q
 
         # Score cognitivo — simulado
         n_ac_s  = sum(1 for av in avaliacoes if av.get("status") == "Acerto")
@@ -824,6 +769,7 @@ def avaliar_sessao_simulada_endpoint():
             "diagnostico_cognitivo": resultado_ia.get("diagnostico_cognitivo", {}),
             "avaliacoes": avaliacoes,
             "omissoes": resultado_ia.get("omissoes", []),
+            "enriquecido": False,
             **score_data_s,
         }
 
@@ -945,30 +891,28 @@ def processar_e_salvar_auditoria():
 
         caminho_analise = os.path.join(_pasta_materia(jornada, materia), "analise_estatica.json")
 
-        if not os.path.exists(caminho_analise):
-            return jsonify({"erro": f"Dossiê não encontrado para {materia}"}), 404
+        dados_tema = {}
+        try:
+            with open(caminho_analise, 'r', encoding='utf-8') as f:
+                banco_analise = json.load(f)
 
-        with open(caminho_analise, 'r', encoding='utf-8') as f:
-            banco_analise = json.load(f)
+            # Tentativa 1: chave exata
+            dados_tema = banco_analise.get(tema, {})
 
-        # Tentativa 1: chave exata
-        dados_tema = banco_analise.get(tema, {})
+            # Tentativa 2: match normalizado (sem acento, minúsculo)
+            if not dados_tema:
+                banco_norm = {_norm(k): v for k, v in banco_analise.items()}
+                dados_tema = banco_norm.get(_norm(tema), {})
 
-        # Tentativa 2: match normalizado (sem acento, minúsculo)
-        if not dados_tema:
-            banco_norm = {_norm(k): v for k, v in banco_analise.items()}
-            dados_tema = banco_norm.get(_norm(tema), {})
-
-        # Tentativa 3: prefixo — o tema do UI pode ter "(artigos...)" ou "- Título..." extras
-        if not dados_tema:
-            tema_norm = _norm(tema)
-            for chave_norm, val in banco_norm.items():
-                if tema_norm.startswith(chave_norm) or chave_norm.startswith(tema_norm):
-                    dados_tema = val
-                    break
-
-        if not dados_tema:
-            return jsonify({"erro": f"Tema '{tema}' não mapeado."}), 404
+            # Tentativa 3: prefixo — o tema do UI pode ter "(artigos...)" ou "- Título..." extras
+            if not dados_tema:
+                tema_norm = _norm(tema)
+                for chave_norm, val in banco_norm.items():
+                    if tema_norm.startswith(chave_norm) or chave_norm.startswith(tema_norm):
+                        dados_tema = val
+                        break
+        except (FileNotFoundError, json.JSONDecodeError):
+            pass
 
         fingerprint_banca = dados_tema.get("fingerprint_banca", {})
 
@@ -977,17 +921,17 @@ def processar_e_salvar_auditoria():
         anatomia = [f"{m.get('nome_microtema')}: {m.get('armadilha_favorita', '')}" for m in microtemas]
         pesos    = [{"assunto": m.get("nome_microtema", ""), "peso": str(m.get("peso_percentual", 0))} for m in microtemas]
 
-        roteiro_str  = "\n".join(f"- {r}" for r in roteiro)
-        anatomia_str = "\n".join(f"- {a}" for a in anatomia)
-        pesos_str    = "\n".join(f"- {p['assunto']}: {p['peso']}%" for p in pesos)
-
-        dados_auditoria = (
-            f"[ROTEIRO TÉCNICO IDEAL]\n{roteiro_str}\n\n"
-            f"[ANATOMIA E PEGADINHAS DA BANCA]\n{anatomia_str}\n\n"
-            f"[PESOS DE INCIDÊNCIA NA PROVA]\n{pesos_str}"
-        )
-
-        pool_questoes = _carregar_pool_questoes(jornada, materia)
+        if microtemas:
+            roteiro_str  = "\n".join(f"- {r}" for r in roteiro)
+            anatomia_str = "\n".join(f"- {a}" for a in anatomia)
+            pesos_str    = "\n".join(f"- {p['assunto']}: {p['peso']}%" for p in pesos)
+            dados_auditoria = (
+                f"[ROTEIRO TÉCNICO IDEAL]\n{roteiro_str}\n\n"
+                f"[ANATOMIA E PEGADINHAS DA BANCA]\n{anatomia_str}\n\n"
+                f"[PESOS DE INCIDÊNCIA NA PROVA]\n{pesos_str}"
+            )
+        else:
+            dados_auditoria = ""
 
         print(f"🚀 Iniciando auditoria forense para: {tema}...")
 
@@ -1042,63 +986,8 @@ def processar_e_salvar_auditoria():
         pegadinhas_caiu   = [p["pegadinha"] for p in auditoria_pegadinhas if p.get("caiu_na_pegadinha")]
         pegadinhas_evitou = [p["pegadinha"] for p in auditoria_pegadinhas if not p.get("caiu_na_pegadinha")]
 
-        # --- Vincular questões reais a erros e omissões ---
-        ids_usados: set = set()
-
-        erros_cometidos = [
-            {**erro, "questao_vinculada": _sortear_questao(
-                pool_questoes, banca, ids_usados,
-                topico=tema
-            )}
-            for erro in erros_cometidos_base
-        ]
-
-        omissoes_com_questao = [
-            {**omissao, "questao_vinculada": _sortear_questao(
-                pool_questoes, banca, ids_usados,
-                topico=omissao.get("tema") or tema
-            )}
-            for omissao in temas_nao_abordados
-        ]
-
-        # --- Reescrever / gerar comentários das questões vinculadas via IA ---
-        questoes_vinculadas = [
-            item["questao_vinculada"]
-            for item in erros_cometidos + omissoes_com_questao
-            if item.get("questao_vinculada")
-        ]
-        if questoes_vinculadas:
-            comentarios_ia = auditor_v3.gerar_comentarios_questoes(questoes_vinculadas, materia)
-            for item in erros_cometidos + omissoes_com_questao:
-                q = item.get("questao_vinculada")
-                if q and q.get("id") in comentarios_ia:
-                    q["comentario"] = comentarios_ia[q["id"]]
-
-        # --- Gerar questões autorais no estilo da banca ---
-        itens_autorais = []
-        for i, erro in enumerate(erros_cometidos):
-            itens_autorais.append({
-                "id": f"erro_{i}",
-                "topico": tema,
-                "contexto": str(erro.get("trecho_aluno", "") or erro.get("erro", ""))[:300],
-            })
-        for i, om in enumerate(omissoes_com_questao):
-            itens_autorais.append({
-                "id": f"omissao_{i}",
-                "topico": f"{tema} — {str(om.get('tema', ''))[:100]}".strip(" —"),
-                "contexto": str(om.get("resumo", ""))[:300],
-            })
-        questoes_autorais = auditor_v3.gerar_questoes_autorais(itens_autorais, banca, materia)
-        for i, erro in enumerate(erros_cometidos):
-            q = questoes_autorais.get(f"erro_{i}")
-            if q:
-                q["id"] = f"autoral_erro_{i}"
-            erro["questao_autoral"] = q
-        for i, om in enumerate(omissoes_com_questao):
-            q = questoes_autorais.get(f"omissao_{i}")
-            if q:
-                q["id"] = f"autoral_omissao_{i}"
-            om["questao_autoral"] = q
+        erros_cometidos = [{**erro} for erro in erros_cometidos_base]
+        omissoes_com_questao = [{**omissao} for omissao in temas_nao_abordados]
 
         # --- Score cognitivo ---
         score_data = calcular_score_cognitivo(
@@ -1136,6 +1025,7 @@ def processar_e_salvar_auditoria():
             },
             "anotacoes_manuais": anotacoes,
             "texto_transcrito": aula_texto,
+            "enriquecido": False,
             **score_data,
         }
 
@@ -1168,6 +1058,146 @@ def processar_e_salvar_auditoria():
     except Exception as e:
         print(f"❌ [LOG INTERNO] ERRO API processar-texto: {e}")
         return jsonify({"erro": "Ocorreu um erro interno no servidor ao processar a requisição."}), 500
+
+
+@app.route('/api/enriquecer-relatorio', methods=['POST', 'OPTIONS'])
+@validar_token_firebase
+@limiter.limit("20 per minute")
+def enriquecer_relatorio_endpoint():
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+    try:
+        dados = request.json
+        relatorio_id = dados.get("relatorio_id", "")
+        modo         = dados.get("modo", "")
+
+        if not relatorio_id or not modo:
+            return jsonify({"erro": "relatorio_id e modo são obrigatórios."}), 400
+
+        colecao = {"guiado": "relatorios_guiados", "simulado": "relatorios_simulados", "livre": "relatorios"}.get(modo)
+        if not colecao:
+            return jsonify({"erro": "Modo inválido."}), 400
+
+        if not db:
+            return jsonify({"erro": "Banco de dados indisponível."}), 503
+
+        doc_ref  = db.collection(colecao).document(relatorio_id)
+        doc_snap = doc_ref.get()
+        if not doc_snap.exists:
+            return jsonify({"erro": "Relatório não encontrado."}), 404
+
+        relatorio = doc_snap.to_dict()
+
+        # Idempotente: já enriquecido → devolve dados existentes sem refazer IA
+        if relatorio.get("enriquecido"):
+            if modo in ("guiado", "simulado"):
+                return jsonify({"avaliacoes": relatorio.get("avaliacoes", [])}), 200
+            return jsonify({
+                "erros_cometidos":    relatorio.get("erros_cometidos", []),
+                "temas_nao_abordados": relatorio.get("temas_nao_abordados", []),
+            }), 200
+
+        jornada = relatorio.get("jornada", "concurso")
+        materia = relatorio.get("materia", "")
+        banca   = relatorio.get("banca_escolhida", "Livre")
+        tema    = relatorio.get("tema", "")
+
+        pool_questoes = _carregar_pool_questoes(jornada, materia)
+        ids_usados: set = set()
+
+        if modo in ("guiado", "simulado"):
+            avaliacoes   = relatorio.get("avaliacoes", [])
+            topico_key   = "objetivo" if modo == "simulado" else "assunto"
+
+            for av in avaliacoes:
+                av["questao_vinculada"] = _sortear_questao(pool_questoes, banca, ids_usados, topico=tema)
+
+            questoes_vinculadas = [av["questao_vinculada"] for av in avaliacoes if av.get("questao_vinculada")]
+            if questoes_vinculadas:
+                comentarios_ia = auditor_v3.gerar_comentarios_questoes(questoes_vinculadas, materia)
+                for av in avaliacoes:
+                    q = av.get("questao_vinculada")
+                    if q and q.get("id") in comentarios_ia:
+                        q["comentario"] = comentarios_ia[q["id"]]
+
+            itens_autorais = [
+                {"id": av.get("id"), "topico": tema, "contexto": f"{av.get(topico_key, '')} — {av.get('feedback', '')}"}
+                for av in avaliacoes
+            ]
+            questoes_autorais = auditor_v3.gerar_questoes_autorais(itens_autorais, banca, materia)
+            for av in avaliacoes:
+                q = questoes_autorais.get(av.get("id"))
+                if q:
+                    q["id"] = f"autoral_{av.get('id')}"
+                av["questao_autoral"] = q
+
+            doc_ref.update({"avaliacoes": avaliacoes, "enriquecido": True})
+            return jsonify({"avaliacoes": avaliacoes}), 200
+
+        # --- modo livre ---
+        erros_base   = relatorio.get("erros_cometidos", [])
+        omissoes_base = relatorio.get("temas_nao_abordados", [])
+
+        erros_cometidos = [
+            {**erro, "questao_vinculada": _sortear_questao(pool_questoes, banca, ids_usados, topico=tema)}
+            for erro in erros_base
+        ]
+        omissoes_com_questao = [
+            {**om, "questao_vinculada": _sortear_questao(pool_questoes, banca, ids_usados, topico=om.get("tema") or tema)}
+            for om in omissoes_base
+        ]
+
+        questoes_vinculadas = [
+            item["questao_vinculada"]
+            for item in erros_cometidos + omissoes_com_questao
+            if item.get("questao_vinculada")
+        ]
+        if questoes_vinculadas:
+            comentarios_ia = auditor_v3.gerar_comentarios_questoes(questoes_vinculadas, materia)
+            for item in erros_cometidos + omissoes_com_questao:
+                q = item.get("questao_vinculada")
+                if q and q.get("id") in comentarios_ia:
+                    q["comentario"] = comentarios_ia[q["id"]]
+
+        itens_autorais = []
+        for i, erro in enumerate(erros_cometidos):
+            itens_autorais.append({
+                "id": f"erro_{i}",
+                "topico": tema,
+                "contexto": str(erro.get("trecho_aluno", "") or erro.get("erro", ""))[:300],
+            })
+        for i, om in enumerate(omissoes_com_questao):
+            itens_autorais.append({
+                "id": f"omissao_{i}",
+                "topico": f"{tema} — {str(om.get('tema', ''))[:100]}".strip(" —"),
+                "contexto": str(om.get("resumo", ""))[:300],
+            })
+        questoes_autorais = auditor_v3.gerar_questoes_autorais(itens_autorais, banca, materia)
+        for i, erro in enumerate(erros_cometidos):
+            q = questoes_autorais.get(f"erro_{i}")
+            if q:
+                q["id"] = f"autoral_erro_{i}"
+            erro["questao_autoral"] = q
+        for i, om in enumerate(omissoes_com_questao):
+            q = questoes_autorais.get(f"omissao_{i}")
+            if q:
+                q["id"] = f"autoral_omissao_{i}"
+            om["questao_autoral"] = q
+
+        doc_ref.update({
+            "erros_cometidos":    erros_cometidos,
+            "temas_nao_abordados": omissoes_com_questao,
+            "enriquecido": True,
+        })
+        return jsonify({
+            "erros_cometidos":    erros_cometidos,
+            "temas_nao_abordados": omissoes_com_questao,
+        }), 200
+
+    except Exception as e:
+        print(f"❌ [LOG INTERNO] ERRO enriquecer-relatorio: {e}")
+        return jsonify({"erro": "Ocorreu um erro interno ao enriquecer o relatório."}), 500
+
 
 @app.route('/api/perfil-cognitivo-dados', methods=['GET', 'OPTIONS'])
 @validar_token_firebase
