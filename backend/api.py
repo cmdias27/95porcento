@@ -14,7 +14,7 @@ from flask_limiter.util import get_remote_address
 from dotenv import load_dotenv
 import firebase_admin
 from firebase_admin import credentials, firestore, auth as firebase_auth
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import auditor_v3
 
@@ -1592,6 +1592,187 @@ def admin_stats_endpoint():
             "top_relatorios": [{"tema": t, "count": c} for t, c in top_relatorios_list],
         },
     }), 200
+
+
+# ---------------------------------------------------------------------------
+# Admin — gestão de usuários
+# ---------------------------------------------------------------------------
+
+def _is_admin(req):
+    uid_admin   = getattr(req, "uid_seguro", "").strip()
+    email_admin = getattr(req, "email_seguro", "").lower()
+    ADMIN_UIDS   = {"YUMMaoW1viXvTIhzn2LCShyEXmC3"}
+    ADMIN_EMAILS = {"cassio.mattos@gmail.com"}
+    if not db or not uid_admin:
+        return False
+    if uid_admin in ADMIN_UIDS:
+        return True
+    if not email_admin:
+        try:
+            fb_user = firebase_auth.get_user(uid_admin)
+            email_admin = (fb_user.email or "").lower()
+        except Exception:
+            pass
+    if email_admin in ADMIN_EMAILS:
+        return True
+    try:
+        snap = db.collection("usuarios").document(uid_admin).get()
+        if snap.exists() and snap.to_dict().get("role") == "admin":
+            return True
+    except Exception:
+        pass
+    return False
+
+
+@app.route('/api/admin/users', methods=['GET', 'OPTIONS'])
+@validar_token_firebase
+def admin_users_list():
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+    if not _is_admin(request):
+        return jsonify({"erro": "Acesso negado"}), 403
+
+    # Carrega todos os docs Firestore em uma única leitura
+    fs_users: dict = {}
+    try:
+        for snap in db.collection("usuarios").stream():
+            fs_users[snap.id] = snap.to_dict()
+    except Exception:
+        pass
+
+    result = []
+    try:
+        page = firebase_auth.list_users()
+        while page:
+            for u in page.users:
+                provider = "email"
+                for p in (u.provider_data or []):
+                    if p.provider_id == "google.com":
+                        provider = "google"
+                        break
+                fs = fs_users.get(u.uid, {})
+                result.append({
+                    "uid":              u.uid,
+                    "nome":             u.display_name or fs.get("nome", ""),
+                    "email":            u.email or "",
+                    "loginProvider":    provider,
+                    "emailVerified":    u.email_verified,
+                    "accountStatus":    "suspended" if u.disabled else "active",
+                    "criadoEm":         u.user_metadata.creation_timestamp,
+                    "ultimoAcesso":     u.user_metadata.last_sign_in_timestamp,
+                    "premium":          fs.get("premium", False),
+                    "premiumExpiracao": fs.get("premium_expiracao", None),
+                    "role":             fs.get("role", "user"),
+                })
+            page = page.get_next_page()
+    except Exception as e:
+        return jsonify({"erro": f"Erro ao listar usuários: {e}"}), 500
+
+    result.sort(key=lambda x: x.get("criadoEm") or 0, reverse=True)
+    return jsonify({"usuarios": result}), 200
+
+
+@app.route('/api/admin/users/<uid>/premium', methods=['POST', 'OPTIONS'])
+@validar_token_firebase
+def admin_user_premium(uid):
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+    if not _is_admin(request):
+        return jsonify({"erro": "Acesso negado"}), 403
+
+    body   = request.get_json(silent=True) or {}
+    action = body.get("action", "toggle")
+    try:
+        if action == "toggle":
+            premium = bool(body.get("premium", False))
+            update  = {"premium": premium}
+            if not premium:
+                update["premium_expiracao"] = None
+            db.collection("usuarios").document(uid).set(update, merge=True)
+
+        elif action == "extend":
+            days = int(body.get("days", 30))
+            snap = db.collection("usuarios").document(uid).get()
+            current = snap.to_dict().get("premium_expiracao") if snap.exists() else None
+            try:
+                base = datetime.fromisoformat(current) if current else datetime.now()
+            except Exception:
+                base = datetime.now()
+            if base < datetime.now():
+                base = datetime.now()
+            new_expiry = (base + timedelta(days=days)).isoformat()
+            db.collection("usuarios").document(uid).set(
+                {"premium": True, "premium_expiracao": new_expiry}, merge=True
+            )
+
+        elif action == "set_expiry":
+            expires_at = body.get("expiresAt")
+            if not expires_at:
+                return jsonify({"erro": "expiresAt é obrigatório"}), 400
+            db.collection("usuarios").document(uid).set(
+                {"premium": True, "premium_expiracao": expires_at}, merge=True
+            )
+        else:
+            return jsonify({"erro": "Ação inválida"}), 400
+
+        return jsonify({"ok": True}), 200
+    except Exception as e:
+        return jsonify({"erro": str(e)}), 500
+
+
+@app.route('/api/admin/users/<uid>/suspend', methods=['POST', 'OPTIONS'])
+@validar_token_firebase
+def admin_user_suspend(uid):
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+    if not _is_admin(request):
+        return jsonify({"erro": "Acesso negado"}), 403
+
+    body     = request.get_json(silent=True) or {}
+    disabled = bool(body.get("disabled", True))
+    try:
+        firebase_auth.update_user(uid, disabled=disabled)
+        db.collection("usuarios").document(uid).set(
+            {"accountStatus": "suspended" if disabled else "active"}, merge=True
+        )
+        return jsonify({"ok": True}), 200
+    except Exception as e:
+        return jsonify({"erro": str(e)}), 500
+
+
+@app.route('/api/admin/users/<uid>/revoke-sessions', methods=['POST', 'OPTIONS'])
+@validar_token_firebase
+def admin_user_revoke_sessions(uid):
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+    if not _is_admin(request):
+        return jsonify({"erro": "Acesso negado"}), 403
+    try:
+        firebase_auth.revoke_refresh_tokens(uid)
+        return jsonify({"ok": True}), 200
+    except Exception as e:
+        return jsonify({"erro": str(e)}), 500
+
+
+@app.route('/api/admin/users/<uid>/reset-password', methods=['POST', 'OPTIONS'])
+@validar_token_firebase
+def admin_user_reset_password(uid):
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+    if not _is_admin(request):
+        return jsonify({"erro": "Acesso negado"}), 403
+    try:
+        fb_user = firebase_auth.get_user(uid)
+        email   = fb_user.email
+        if not email:
+            return jsonify({"erro": "Usuário sem e-mail"}), 400
+        providers = [p.provider_id for p in (fb_user.provider_data or [])]
+        if "password" not in providers:
+            return jsonify({"erro": "Usuário não usa login por senha"}), 400
+        link = firebase_auth.generate_password_reset_link(email)
+        return jsonify({"ok": True, "link": link}), 200
+    except Exception as e:
+        return jsonify({"erro": str(e)}), 500
 
 
 if __name__ == '__main__':

@@ -4,10 +4,10 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  ArrowRight, BookOpen, Brain, Calendar, Check, ChevronRight,
+  AlertTriangle, ArrowRight, BookOpen, Brain, Calendar, Check, ChevronRight,
   FileText, Loader2, Mic, Pencil, Play, Target, Zap,
 } from "lucide-react";
-import { onAuthStateChanged } from "firebase/auth";
+import { onAuthStateChanged, sendEmailVerification } from "firebase/auth";
 import { collection, doc, getDoc, getDocs, query, where } from "firebase/firestore";
 import { auth, db } from "@/lib/firebase";
 import { apiFetch } from "@/lib/apiFetch";
@@ -75,9 +75,19 @@ export default function DashboardPage() {
   const [carregandoHistorico,  setCarregandoHistorico]  = useState(false);
   const [personalizada,        setPersonalizada]        = useState(false);
 
+  const [emailVerificado,  setEmailVerificado]  = useState(true);
+  const [isGoogleUser,     setIsGoogleUser]     = useState(false);
+
+  const reenviarVerificacao = async () => {
+    const u = auth.currentUser;
+    if (u) { try { await sendEmailVerification(u); } catch {} }
+  };
+
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, async (u) => {
       if (!u) { router.replace("/"); return; }
+      setEmailVerificado(u.emailVerified);
+      setIsGoogleUser((u.providerData || []).some(p => p.providerId === "google.com"));
       try {
         const snap = await getDoc(doc(db, "usuarios", u.uid));
         if (!snap.exists() || !snap.data().onboarding_completo) {
@@ -225,6 +235,17 @@ export default function DashboardPage() {
   return (
     <div className={`h-[100dvh] overflow-hidden flex flex-col transition-colors duration-300 ${flow === "chat" ? "bg-[#0A0F1E]" : "bg-[#F8FAFC]"}`}>
       <AppHeader variant="default" />
+
+      {!emailVerificado && !isGoogleUser && (
+        <div className="mx-4 md:mx-6 mt-2 px-4 py-2.5 bg-amber-50 border border-amber-200 rounded-xl flex items-center gap-2.5 shrink-0">
+          <AlertTriangle size={13} className="text-amber-500 shrink-0" />
+          <p className="text-[11px] font-bold text-amber-700 flex-1">Verifique seu e-mail para ativar todos os recursos.</p>
+          <button onClick={reenviarVerificacao}
+            className="text-[10px] font-black text-amber-600 hover:text-amber-800 whitespace-nowrap transition-colors">
+            Reenviar →
+          </button>
+        </div>
+      )}
 
       <AnimatePresence mode="wait">
 

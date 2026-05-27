@@ -9,6 +9,8 @@ import {
   createUserWithEmailAndPassword,
   signInWithPopup,
   updateProfile,
+  sendEmailVerification,
+  sendPasswordResetEmail,
 } from "firebase/auth";
 import { doc, setDoc, getDoc, serverTimestamp } from "firebase/firestore";
 import { Mail, Lock, LogIn, ArrowLeft, User, Eye, EyeOff, FileText, Cookie, Megaphone } from "lucide-react";
@@ -95,7 +97,7 @@ async function rotearAposAuth(uid: string, router: ReturnType<typeof useRouter>)
 // ─── Página ─────────────────────────────────
 export default function LoginPage() {
   const router = useRouter();
-  const [modo, setModo] = useState<"entrar" | "cadastrar">("entrar");
+  const [modo, setModo] = useState<"entrar" | "cadastrar" | "esqueci">("entrar");
 
   // Campos compartilhados
   const [email, setEmail]       = useState("");
@@ -114,15 +116,39 @@ export default function LoginPage() {
   const [carregando, setCarregando] = useState(false);
   const [erro, setErro]             = useState("");
 
+  // Esqueci minha senha
+  const [esqueceuEmail,  setEsqueceuEmail]  = useState("");
+  const [resetEnviado,   setResetEnviado]   = useState(false);
+
   const limpar = () => {
     setErro("");
     setEmail(""); setSenha(""); setNome(""); setConfirmarSenha("");
     setAceitouTermos(false); setAceitouCookies(false); setAceitouMarketing(false);
+    setEsqueceuEmail(""); setResetEnviado(false);
   };
 
   const trocarModo = (novo: "entrar" | "cadastrar") => {
     limpar();
     setModo(novo);
+  };
+
+  const esqueceuSenha = async () => {
+    setErro("");
+    if (!esqueceuEmail) { setErro("Informe seu e-mail."); return; }
+    setCarregando(true);
+    try {
+      await sendPasswordResetEmail(auth, esqueceuEmail);
+    } catch (err: any) {
+      // Não revela se o e-mail existe ou não (evita enumeração de usuários)
+      if (err.code !== "auth/user-not-found" && err.code !== "auth/invalid-email") {
+        setCarregando(false);
+        setErro(erroFirebase(err.code));
+        return;
+      }
+    } finally {
+      setCarregando(false);
+    }
+    setResetEnviado(true);
   };
 
   // ── Login com e-mail ──
@@ -132,6 +158,10 @@ export default function LoginPage() {
     setCarregando(true);
     try {
       const cred = await signInWithEmailAndPassword(auth, email, senha);
+      await setDoc(doc(db, "usuarios", cred.user.uid), {
+        ultimoAcesso: serverTimestamp(),
+        loginProvider: "email",
+      }, { merge: true });
       await rotearAposAuth(cred.user.uid, router);
     } catch (err: any) {
       setErro(erroFirebase(err.code));
@@ -159,6 +189,7 @@ export default function LoginPage() {
         uid: cred.user.uid,
         criadoEm: serverTimestamp(),
         premium: true,
+        loginProvider: "email",
         consentimentos: {
           termos: true,
           cookies: true,
@@ -167,6 +198,7 @@ export default function LoginPage() {
           versaoTermos: "1.0",
         },
       });
+      try { await sendEmailVerification(cred.user); } catch {}
       await rotearAposAuth(cred.user.uid, router);
     } catch (err: any) {
       setErro(erroFirebase(err.code));
@@ -187,6 +219,7 @@ export default function LoginPage() {
         uid: result.user.uid,
         ultimoAcesso: serverTimestamp(),
         premium: true,
+        loginProvider: "google",
       }, { merge: true });
       await rotearAposAuth(result.user.uid, router);
     } catch (err: any) {
@@ -341,6 +374,7 @@ export default function LoginPage() {
           <div className="bg-white border-2 border-black rounded-[2rem] shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] overflow-hidden">
 
             {/* Tabs */}
+            {modo !== "esqueci" ? (
             <div className="flex border-b-2 border-black">
               {(["entrar", "cadastrar"] as const).map(m => (
                 <button key={m} onClick={() => trocarModo(m)}
@@ -351,6 +385,13 @@ export default function LoginPage() {
                 </button>
               ))}
             </div>
+            ) : (
+            <div className="flex border-b-2 border-black">
+              <div className="flex-1 py-4 text-[9px] font-black uppercase tracking-widest text-center text-slate-400">
+                Redefinir Senha
+              </div>
+            </div>
+            )}
 
             <div className="p-5 md:p-8">
 
@@ -384,7 +425,54 @@ export default function LoginPage() {
                         ? <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
                         : <><LogIn size={14} /> Entrar</>}
                     </button>
+
+                    <div className="text-center pt-2">
+                      <button type="button" onClick={() => { setErro(""); setModo("esqueci"); }}
+                        className="text-[10px] font-bold text-slate-400 hover:text-black transition-colors">
+                        Esqueci minha senha
+                      </button>
+                    </div>
                   </motion.form>
+
+                ) : modo === "esqueci" ? (
+                  <motion.div key="esqueci"
+                    initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.18 }}
+                    className="space-y-4">
+
+                    <button type="button" onClick={() => trocarModo("entrar")}
+                      className="flex items-center gap-1.5 text-[10px] font-bold text-slate-400 hover:text-black transition-colors">
+                      ← Voltar ao login
+                    </button>
+
+                    {resetEnviado ? (
+                      <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 text-center space-y-2">
+                        <p className="text-sm font-black text-emerald-800">E-mail enviado!</p>
+                        <p className="text-xs font-medium text-emerald-700 leading-relaxed">
+                          Se este e-mail estiver cadastrado, você receberá as instruções em breve.
+                          Verifique também sua pasta de spam.
+                        </p>
+                        <button type="button" onClick={() => trocarModo("entrar")}
+                          className="mt-2 text-[10px] font-black uppercase tracking-widest text-slate-500 hover:text-black transition-colors">
+                          Voltar ao login →
+                        </button>
+                      </div>
+                    ) : (
+                      <div className="space-y-4">
+                        <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">
+                          Informe seu e-mail para redefinir a senha
+                        </p>
+                        <Campo label="E-mail" type="email" value={esqueceuEmail}
+                          onChange={setEsqueceuEmail} placeholder="seu@email.com" icon={Mail} />
+                        <button type="button" onClick={esqueceuSenha} disabled={carregando}
+                          className="w-full bg-black text-white py-3.5 rounded-2xl font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-2 hover:bg-blue-600 transition-all disabled:opacity-50 mt-2 shadow-[3px_3px_0px_0px_rgba(37,99,235,0.3)]">
+                          {carregando
+                            ? <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                            : "Enviar link de redefinição"}
+                        </button>
+                      </div>
+                    )}
+                  </motion.div>
 
                 ) : (
                   <motion.form key="cadastrar"

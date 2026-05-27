@@ -1,12 +1,13 @@
 // frontend/app/admin/page.tsx
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import {
   Users, Activity, Zap, DollarSign, RefreshCw,
   ArrowLeft, TrendingUp, BarChart2, BookOpen, Clock,
   Mic, Timer, RotateCcw, Repeat2, AlertOctagon, FileText,
+  Search, Crown, Key,
 } from "lucide-react";
 import { auth, db } from "@/lib/firebase";
 import { onAuthStateChanged } from "firebase/auth";
@@ -44,6 +45,20 @@ interface AdminStats {
     abandono_por_etapa: Record<string, number>;
     top_relatorios: { tema: string; count: number }[];
   };
+}
+
+interface AdminUser {
+  uid: string;
+  nome: string;
+  email: string;
+  loginProvider: "email" | "google";
+  emailVerified: boolean;
+  accountStatus: "active" | "suspended";
+  criadoEm: number;
+  ultimoAcesso: number;
+  premium: boolean;
+  premiumExpiracao: string | null;
+  role: string;
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -107,6 +122,14 @@ export default function AdminPage() {
   const [carregando, setCarregando] = useState(false);
   const [ultimaAtual, setUltimaAtual] = useState<string>("");
   const [erro, setErro]         = useState("");
+
+  // ── Aba usuários ─────────────────────────────────────────────────────────
+  const [activeTab,          setActiveTab]          = useState<"stats" | "users">("stats");
+  const [usuarios,           setUsuarios]           = useState<AdminUser[]>([]);
+  const [buscaUsuario,       setBuscaUsuario]       = useState("");
+  const [carregandoUsuarios, setCarregandoUsuarios] = useState(false);
+  const [erroUsuarios,       setErroUsuarios]       = useState("");
+  const [acaoLoading,        setAcaoLoading]        = useState("");
 
   // ── Auth + verificação de role ─────────────────────────────────────────────
   useEffect(() => {
@@ -172,6 +195,96 @@ export default function AdminPage() {
     if (autorizado && uid) fetchStats();
   }, [autorizado, uid, fetchStats]);
 
+  const fetchUsuarios = useCallback(async () => {
+    setCarregandoUsuarios(true);
+    setErroUsuarios("");
+    try {
+      const res = await apiFetch(`${API}/api/admin/users`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      setUsuarios(data.usuarios);
+    } catch (e: any) {
+      setErroUsuarios(`Erro: ${e.message}`);
+    } finally {
+      setCarregandoUsuarios(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (activeTab === "users" && autorizado) fetchUsuarios();
+  }, [activeTab, autorizado, fetchUsuarios]);
+
+  const atualizarPremium = async (userUid: string, action: string, params: Record<string, unknown>) => {
+    setAcaoLoading(userUid);
+    try {
+      const res = await apiFetch(`${API}/api/admin/users/${userUid}/premium`, {
+        method: "POST",
+        body: JSON.stringify({ action, ...params }),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      await fetchUsuarios();
+    } catch (e: any) {
+      alert(`Erro: ${e.message}`);
+    } finally {
+      setAcaoLoading("");
+    }
+  };
+
+  const suspenderUsuario = async (userUid: string, disabled: boolean) => {
+    setAcaoLoading(userUid);
+    try {
+      const res = await apiFetch(`${API}/api/admin/users/${userUid}/suspend`, {
+        method: "POST",
+        body: JSON.stringify({ disabled }),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      await fetchUsuarios();
+    } catch (e: any) {
+      alert(`Erro: ${e.message}`);
+    } finally {
+      setAcaoLoading("");
+    }
+  };
+
+  const revogarSessoes = async (userUid: string) => {
+    setAcaoLoading(userUid);
+    try {
+      const res = await apiFetch(`${API}/api/admin/users/${userUid}/revoke-sessions`, { method: "POST" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      alert("Sessões revogadas. O usuário precisará fazer login novamente.");
+    } catch (e: any) {
+      alert(`Erro: ${e.message}`);
+    } finally {
+      setAcaoLoading("");
+    }
+  };
+
+  const resetarSenha = async (userUid: string) => {
+    setAcaoLoading(userUid);
+    try {
+      const res = await apiFetch(`${API}/api/admin/users/${userUid}/reset-password`, { method: "POST" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      if (data.link) {
+        prompt("Link de redefinição (copie e envie ao usuário):", data.link);
+      } else {
+        alert("E-mail de redefinição enviado.");
+      }
+    } catch (e: any) {
+      alert(`Erro: ${e.message}`);
+    } finally {
+      setAcaoLoading("");
+    }
+  };
+
+  const usuariosFiltrados = useMemo(() => {
+    if (!buscaUsuario.trim()) return usuarios;
+    const q = buscaUsuario.toLowerCase();
+    return usuarios.filter(u =>
+      u.nome.toLowerCase().includes(q) || u.email.toLowerCase().includes(q)
+    );
+  }, [usuarios, buscaUsuario]);
+
   // ── Guards ─────────────────────────────────────────────────────────────────
   if (autorizado === null) return (
     <div className="h-[100dvh] bg-white flex items-center justify-center">
@@ -212,37 +325,205 @@ export default function AdminPage() {
             <BarChart2 size={12} className="text-blue-600" /> Painel Admin
           </span>
         </div>
+        {/* Tab switcher */}
+        <div className="flex items-center gap-1 bg-slate-100 rounded-xl p-1">
+          {(["stats", "users"] as const).map(tab => (
+            <button key={tab} onClick={() => setActiveTab(tab)}
+              className={`text-[9px] font-black uppercase tracking-widest px-3 py-1.5 rounded-lg transition-all ${
+                activeTab === tab ? "bg-white text-black shadow-sm" : "text-slate-400 hover:text-black"
+              }`}>
+              {tab === "stats" ? "Dashboard" : "Usuários"}
+            </button>
+          ))}
+        </div>
+
         <div className="flex items-center gap-4">
-          {ultimaAtual && (
+          {activeTab === "stats" && ultimaAtual && (
             <span className="text-[9px] font-bold text-slate-400 hidden md:block">
               Atualizado às {ultimaAtual}
             </span>
           )}
-          <button onClick={fetchStats} disabled={carregando}
-            className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest
-              text-slate-500 hover:text-black border-2 border-slate-200 hover:border-black
-              px-3 py-1.5 rounded-lg transition-all disabled:opacity-40">
-            <RefreshCw size={11} className={carregando ? "animate-spin" : ""} />
-            Atualizar
-          </button>
+          {activeTab === "stats" ? (
+            <button onClick={fetchStats} disabled={carregando}
+              className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest
+                text-slate-500 hover:text-black border-2 border-slate-200 hover:border-black
+                px-3 py-1.5 rounded-lg transition-all disabled:opacity-40">
+              <RefreshCw size={11} className={carregando ? "animate-spin" : ""} />
+              Atualizar
+            </button>
+          ) : (
+            <button onClick={fetchUsuarios} disabled={carregandoUsuarios}
+              className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest
+                text-slate-500 hover:text-black border-2 border-slate-200 hover:border-black
+                px-3 py-1.5 rounded-lg transition-all disabled:opacity-40">
+              <RefreshCw size={11} className={carregandoUsuarios ? "animate-spin" : ""} />
+              Atualizar
+            </button>
+          )}
         </div>
       </nav>
 
       <main className="max-w-7xl w-full mx-auto px-4 md:px-6 py-8 space-y-8">
 
-        {erro && (
+        {/* ── ABA: USUÁRIOS ── */}
+        {activeTab === "users" && (
+          <div className="bg-white border-2 border-black rounded-[2rem] p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+            <div className="flex items-center gap-3 mb-5 pb-4 border-b-2 border-slate-100">
+              <Users size={15} className="text-blue-600" />
+              <h2 className="text-xs font-black uppercase tracking-widest text-blue-600">Gestão de Usuários</h2>
+              <span className="ml-auto text-[9px] font-bold text-slate-400">{usuarios.length} usuários</span>
+            </div>
+
+            <div className="relative mb-4">
+              <Search size={13} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+              <input value={buscaUsuario} onChange={e => setBuscaUsuario(e.target.value)}
+                placeholder="Buscar por nome ou e-mail..."
+                className="w-full bg-slate-50 border-2 border-slate-200 focus:border-black rounded-xl py-2.5 pl-9 pr-4 outline-none text-xs font-bold text-slate-700 placeholder-slate-400 transition-colors" />
+            </div>
+
+            {erroUsuarios && (
+              <div className="bg-red-50 border border-red-200 rounded-xl p-3 text-xs font-bold text-red-700 mb-4">{erroUsuarios}</div>
+            )}
+
+            {carregandoUsuarios ? (
+              <div className="flex justify-center py-12">
+                <div className="w-6 h-6 border-2 border-black border-t-transparent rounded-full animate-spin" />
+              </div>
+            ) : (
+              <div className="overflow-x-auto">
+                <table className="w-full text-xs min-w-[960px]">
+                  <thead>
+                    <tr className="border-b-2 border-slate-100">
+                      {["Usuário", "Login", "Email ✓", "Status", "Premium", "Criado Em", "Último Acesso", "Ações"].map(h => (
+                        <th key={h} className="text-[8px] font-black uppercase tracking-widest text-slate-400 text-left pb-3 pr-3">{h}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {usuariosFiltrados.map(u => (
+                      <tr key={u.uid} className="border-b border-slate-50 hover:bg-slate-50/50 transition-colors">
+                        {/* Nome + Email */}
+                        <td className="py-3 pr-3">
+                          <div className="flex items-center gap-2">
+                            <div className="w-7 h-7 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-[10px] font-black shrink-0">
+                              {(u.nome || u.email || "?")[0].toUpperCase()}
+                            </div>
+                            <div className="min-w-0">
+                              <p className="font-black text-slate-800 truncate max-w-[110px]">{u.nome || "—"}</p>
+                              <p className="text-[9px] font-bold text-slate-400 truncate max-w-[110px]">{u.email}</p>
+                            </div>
+                          </div>
+                        </td>
+                        {/* Login */}
+                        <td className="py-3 pr-3">
+                          <span className={`text-[9px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full ${
+                            u.loginProvider === "google" ? "bg-blue-50 text-blue-700 border border-blue-200" : "bg-slate-100 text-slate-600"
+                          }`}>
+                            {u.loginProvider === "google" ? "Google" : "E-mail"}
+                          </span>
+                        </td>
+                        {/* Email verificado */}
+                        <td className="py-3 pr-3">
+                          <span className={`text-[10px] font-black ${u.emailVerified ? "text-emerald-600" : "text-red-500"}`}>
+                            {u.emailVerified ? "✓" : "✗"}
+                          </span>
+                        </td>
+                        {/* Status */}
+                        <td className="py-3 pr-3">
+                          <span className={`text-[9px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full ${
+                            u.accountStatus === "active" ? "bg-emerald-50 text-emerald-700 border border-emerald-200" : "bg-red-50 text-red-700 border border-red-200"
+                          }`}>
+                            {u.accountStatus === "active" ? "Ativo" : "Suspenso"}
+                          </span>
+                        </td>
+                        {/* Premium */}
+                        <td className="py-3 pr-3">
+                          <div>
+                            <span className={`text-[9px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full ${
+                              u.premium ? "bg-amber-50 text-amber-700 border border-amber-200" : "bg-slate-100 text-slate-500"
+                            }`}>
+                              {u.premium ? "Premium" : "Free"}
+                            </span>
+                            {u.premium && u.premiumExpiracao && (
+                              <p className="text-[8px] font-bold text-slate-400 mt-0.5">
+                                até {new Date(u.premiumExpiracao).toLocaleDateString("pt-BR")}
+                              </p>
+                            )}
+                          </div>
+                        </td>
+                        {/* Criado Em */}
+                        <td className="py-3 pr-3 font-bold text-slate-500 text-[10px] whitespace-nowrap">
+                          {u.criadoEm ? new Date(u.criadoEm).toLocaleDateString("pt-BR") : "—"}
+                        </td>
+                        {/* Último Acesso */}
+                        <td className="py-3 pr-3 font-bold text-slate-500 text-[10px] whitespace-nowrap">
+                          {u.ultimoAcesso ? new Date(u.ultimoAcesso).toLocaleDateString("pt-BR") : "—"}
+                        </td>
+                        {/* Ações */}
+                        <td className="py-3">
+                          {acaoLoading === u.uid ? (
+                            <div className="w-4 h-4 border-2 border-black border-t-transparent rounded-full animate-spin" />
+                          ) : (
+                            <div className="flex flex-wrap gap-1">
+                              <button onClick={() => atualizarPremium(u.uid, "toggle", { premium: !u.premium })}
+                                className={`text-[8px] font-black uppercase px-2 py-1 rounded-lg border transition-all ${
+                                  u.premium ? "border-slate-200 text-slate-600 hover:bg-slate-50" : "border-amber-200 text-amber-700 hover:bg-amber-50"
+                                }`}>
+                                <Crown size={9} className="inline mr-0.5" />
+                                {u.premium ? "→ Free" : "→ Pro"}
+                              </button>
+                              {u.premium && [7, 30, 90].map(d => (
+                                <button key={d} onClick={() => atualizarPremium(u.uid, "extend", { days: d })}
+                                  className="text-[8px] font-black text-blue-600 px-1.5 py-1 rounded-lg border border-blue-200 hover:bg-blue-50 transition-all">
+                                  +{d}d
+                                </button>
+                              ))}
+                              <button onClick={() => suspenderUsuario(u.uid, u.accountStatus === "active")}
+                                className={`text-[8px] font-black uppercase px-2 py-1 rounded-lg border transition-all ${
+                                  u.accountStatus === "active" ? "border-red-200 text-red-600 hover:bg-red-50" : "border-emerald-200 text-emerald-600 hover:bg-emerald-50"
+                                }`}>
+                                {u.accountStatus === "active" ? "Suspender" : "Ativar"}
+                              </button>
+                              <button onClick={() => revogarSessoes(u.uid)}
+                                className="text-[8px] font-black uppercase text-slate-500 px-2 py-1 rounded-lg border border-slate-200 hover:bg-slate-100 transition-all">
+                                Logout
+                              </button>
+                              {u.loginProvider === "email" && (
+                                <button onClick={() => resetarSenha(u.uid)}
+                                  className="text-[8px] font-black uppercase text-purple-600 px-2 py-1 rounded-lg border border-purple-200 hover:bg-purple-50 transition-all">
+                                  <Key size={9} className="inline mr-0.5" />
+                                  Reset
+                                </button>
+                              )}
+                            </div>
+                          )}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+                {usuariosFiltrados.length === 0 && !carregandoUsuarios && (
+                  <p className="text-xs font-bold text-slate-400 text-center py-8">Nenhum usuário encontrado.</p>
+                )}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* ── ABA: DASHBOARD (stats) ── */}
+        {activeTab === "stats" && erro && (
           <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-4 text-sm font-bold text-red-700">
             {erro}
           </div>
         )}
 
-        {!s && !erro && (
+        {activeTab === "stats" && !s && !erro && (
           <div className="flex items-center justify-center py-24">
             <div className="w-8 h-8 border-2 border-black border-t-transparent rounded-full animate-spin" />
           </div>
         )}
 
-        {s && (
+        {activeTab === "stats" && s && (
           <>
             {/* ── KPIs PRINCIPAIS ── */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
