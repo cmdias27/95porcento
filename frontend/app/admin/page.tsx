@@ -470,7 +470,7 @@ export default function AdminPage() {
                                   u.premium ? "border-slate-200 text-slate-600 hover:bg-slate-50" : "border-amber-200 text-amber-700 hover:bg-amber-50"
                                 }`}>
                                 <Crown size={9} className="inline mr-0.5" />
-                                {u.premium ? "→ Free" : "→ Pro"}
+                                {u.premium ? "→ Free" : "→ Premium"}
                               </button>
                               {u.premium && [7, 30, 90].map(d => (
                                 <button key={d} onClick={() => atualizarPremium(u.uid, "extend", { days: d })}

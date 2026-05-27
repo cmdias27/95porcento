@@ -63,7 +63,7 @@ function AvatarMenu({ nome, premium }: { nome: string; premium: boolean }) {
         </div>
         {premium && (
           <span className="hidden md:flex items-center gap-1 text-[9px] font-black uppercase tracking-widest text-amber-600 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded-full">
-            <Zap size={9} className="fill-amber-500" /> PRO
+            <Zap size={9} className="fill-amber-500" /> PREMIUM
           </span>
         )}
         <ChevronDown size={13} className={`text-slate-400 transition-transform ${open ? "rotate-180" : ""}`} />
@@ -134,7 +134,7 @@ function MobileDrawer({ open, onClose, nome, premium, pathname }: {
                 </div>
                 <div>
                   <p className="text-[11px] font-black text-slate-800">{nome}</p>
-                  {premium && <p className="text-[9px] font-bold text-amber-500 uppercase tracking-widest">Pro</p>}
+                  {premium && <p className="text-[9px] font-bold text-amber-500 uppercase tracking-widest">Premium</p>}
                 </div>
               </div>
               <button onClick={onClose} className="text-slate-400 hover:text-black transition-colors">

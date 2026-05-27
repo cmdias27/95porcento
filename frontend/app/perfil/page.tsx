@@ -14,7 +14,7 @@ import {
   updateProfile, updatePassword,
   EmailAuthProvider, reauthenticateWithCredential,
 } from "firebase/auth";
-import { doc, getDoc, setDoc } from "firebase/firestore";
+import { doc, setDoc } from "firebase/firestore";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   getPerfilUsuario, verificarRenovacaoSemanal,
@@ -77,7 +77,6 @@ export default function PerfilPage() {
       try {
         const p = await verificarRenovacaoSemanal(u.uid);
         setPerfil(p);
-        await getDoc(doc(db, "usuarios", u.uid));
       } catch {
         // fallback seguro
         setPerfil({

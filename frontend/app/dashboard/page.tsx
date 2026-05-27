@@ -83,6 +83,21 @@ export default function DashboardPage() {
     if (u) { try { await sendEmailVerification(u); } catch {} }
   };
 
+  // Polling: verifica se o e-mail foi confirmado a cada 8 segundos e remove o banner automaticamente
+  useEffect(() => {
+    if (emailVerificado || isGoogleUser) return;
+    const interval = setInterval(async () => {
+      const u = auth.currentUser;
+      if (u) {
+        try {
+          await u.reload();
+          if (u.emailVerified) setEmailVerificado(true);
+        } catch {}
+      }
+    }, 8000);
+    return () => clearInterval(interval);
+  }, [emailVerificado, isGoogleUser]);
+
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, async (u) => {
       if (!u) { router.replace("/"); return; }
