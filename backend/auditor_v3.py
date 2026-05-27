@@ -30,6 +30,16 @@ def _sanitizar_pt(texto: str) -> str:
     # Remove: Devanagari, Árabe, CJK, Cirílico e outros blocos não-latinos
     return re.sub(r'[^\x09\x0A\x0D\x20-\x7E\xA0-ɏḀ-ỿ]', '', texto)
 
+def _strip_alternativas_do_enunciado(enunciado: str, alternativas: dict) -> str:
+    """Remove alternativas embutidas no enunciado pelo modelo de IA."""
+    if not alternativas or not isinstance(alternativas, dict):
+        return enunciado
+    # Procura o padrão "A) texto" seguido de "B) texto" — bloco de alternativas
+    match = re.search(r'[\s\n]A\)\s', enunciado)
+    if match and re.search(r'[B-E]\)', enunciado[match.start():]):
+        return enunciado[:match.start()].strip()
+    return enunciado
+
 def gerar_checklist(
     jornada: str,
     materia: str,
@@ -408,6 +418,7 @@ ITENS:
             q["comentario"] = _sanitizar_pt(q.get("comentario", ""))
             if isinstance(q.get("alternativas"), dict):
                 q["alternativas"] = {k: _sanitizar_pt(v) for k, v in q["alternativas"].items()}
+            q["enunciado"] = _strip_alternativas_do_enunciado(q["enunciado"], q.get("alternativas", {}))
             questoes[q["id"]] = q
         return questoes
     except Exception as e:

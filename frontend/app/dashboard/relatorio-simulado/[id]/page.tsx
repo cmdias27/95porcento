@@ -15,6 +15,14 @@ import { apiFetch } from "@/lib/apiFetch";
 import { motion } from "framer-motion";
 import { FeedbackPopup } from "@/components/FeedbackPopup";
 
+function stripEmbeddedAlternatives(enunciado: string): string {
+  const match = enunciado.match(/[\s\n]A\)\s/);
+  if (match?.index !== undefined && /[B-E]\)/.test(enunciado.slice(match.index))) {
+    return enunciado.slice(0, match.index).trim();
+  }
+  return enunciado;
+}
+
 const STATUS_CONFIG: Record<string, { label: string; cor: string; icon: React.ReactNode }> = {
   Acerto:      { label: "Acerto",      cor: "emerald", icon: <CheckCircle2 size={14} /> },
   Parcial:     { label: "Parcial",     cor: "amber",   icon: <AlertTriangle size={14} /> },
@@ -73,7 +81,7 @@ function QuestaoCard({ questao, gabaritosRevelados, toggle, autoral = false, ban
             {questao.texto_auxiliar}
           </div>
         )}
-        <p className="text-sm font-medium text-slate-800 leading-relaxed mb-4">{questao.enunciado}</p>
+        <p className="text-sm font-medium text-slate-800 leading-relaxed mb-4">{autoral ? stripEmbeddedAlternatives(questao.enunciado) : questao.enunciado}</p>
         {questao.alternativas && (
           <ul className="space-y-1.5 mb-4">
             {Object.entries(questao.alternativas).sort(([a], [b]) => a.localeCompare(b)).map(([letra, texto]) => (
