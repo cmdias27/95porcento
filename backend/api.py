@@ -250,48 +250,77 @@ def _banca_match(banca_questao: str, banca_aluno: str) -> bool:
             return True
     return False
 
-def _score_relevancia(questao: dict, topico: str) -> int:
+def _score_relevancia(questao: dict, topico: str, tema: str = "") -> int:
+    """Pontua a pertinência de uma questão ao tópico específico e ao tema geral.
+    Retorna 0 quando não há pertinência real, evitando falsos-positivos.
+    """
     if not topico:
         return 0
     topico_norm = _norm(topico)
-    palavras = {p for p in topico_norm.split() if len(p) > 3}
-    if not palavras:
+    palavras_topico = {p for p in topico_norm.split() if len(p) > 3}
+    if not palavras_topico:
         return 0
 
-    # Strongest signal: assunto field is the question's labeled topic
     assunto_norm = _norm(questao.get("assunto", ""))
+
+    # Tier 1 — correspondência direta com o campo assunto (sinal mais forte)
     if assunto_norm:
-        # Only score via assunto when the topic is contained IN the assunto (not the other way)
-        # to avoid falsely matching every question in a broad category
         if topico_norm == assunto_norm or topico_norm in assunto_norm:
             return 100
+        # Inverso: assunto contido no tópico (ex.: assunto="Legalidade", tópico="Princípio da Legalidade")
+        if assunto_norm in topico_norm and len(assunto_norm) > 5:
+            return 80
         palavras_assunto = {p for p in assunto_norm.split() if len(p) > 3}
-        overlap = len(palavras & palavras_assunto)
-        if overlap > 0:
-            return overlap * 5
+        overlap_topico = len(palavras_topico & palavras_assunto)
+        if overlap_topico > 0:
+            return overlap_topico * 10  # sinal forte por palavra coincidente no assunto
 
-    # Fallback: keyword presence in enunciado + comentario
-    texto = _norm(questao.get("enunciado", "") + " " + questao.get("comentario", ""))
-    return sum(1 for p in palavras if p in texto)
+    # Tier 2 — correspondência com o tema geral (relevância mais ampla)
+    if tema:
+        tema_norm = _norm(tema)
+        if assunto_norm:
+            if tema_norm == assunto_norm or tema_norm in assunto_norm or assunto_norm in tema_norm:
+                return 20
+            palavras_tema = {p for p in tema_norm.split() if len(p) > 3}
+            if palavras_tema:
+                palavras_assunto2 = {p for p in assunto_norm.split() if len(p) > 3}
+                overlap_tema = len(palavras_tema & palavras_assunto2)
+                if overlap_tema > 0:
+                    return overlap_tema * 5
 
-def _sortear_questao(pool: list, banca_aluno: str, ids_usados: set, topico: str = "") -> dict | None:
+    # Tier 3 — busca por palavra exata no enunciado + comentário (fallback)
+    # Usa conjunto de palavras (não substring) para evitar falsos-positivos
+    palavras_texto = set(_norm(
+        questao.get("enunciado", "") + " " + questao.get("comentario", "")
+    ).split())
+    keywords_encontradas = len(palavras_topico & palavras_texto)
+    if keywords_encontradas >= 2:  # mínimo 2 palavras coincidentes para aceitar
+        return keywords_encontradas
+    return 0
+
+
+def _sortear_questao(pool: list, banca_aluno: str, ids_usados: set, topico: str = "", tema: str = "") -> dict | None:
+    """Retorna a questão mais pertinente ao tópico específico dentro do pool.
+    Retorna None quando nenhuma questão do banco atende ao critério de relevância
+    (o frontend deve exibir apenas a questão autoral gerada pela IA).
+    """
     if not pool:
         return None
-    # Determina o subconjunto preferido por banca (independente de ids_usados)
-    por_banca = [q for q in pool if _banca_match(q.get("banca", ""), banca_aluno)]
-    fonte = por_banca if por_banca else pool  # só usa outras bancas se 0 questões da banca existirem
 
-    # Tenta questões ainda não usadas; se esgotadas, reutiliza dentro da mesma banca
+    por_banca = [q for q in pool if _banca_match(q.get("banca", ""), banca_aluno)]
+    fonte = por_banca if por_banca else pool
+
     candidatos = [q for q in fonte if q.get("id") not in ids_usados]
     if not candidatos:
-        candidatos = fonte  # reusa da banca certa antes de trocar de banca
+        candidatos = fonte
 
-    # Seleciona por relevância temática quando possível
-    if topico:
-        scores = [(q, _score_relevancia(q, topico)) for q in candidatos]
-        pos_scored = sorted([(q, s) for q, s in scores if s > 0], key=lambda x: x[1], reverse=True)
+    if topico or tema:
+        scores = [(q, _score_relevancia(q, topico, tema)) for q in candidatos]
+        # Limiar mínimo de pertinência — evita retornar questão sem relação real
+        LIMIAR = 5
+        pos_scored = sorted([(q, s) for q, s in scores if s >= LIMIAR], key=lambda x: x[1], reverse=True)
         if not pos_scored:
-            return None  # nenhuma questão real pertinente — frontend exibe só a autoral
+            return None  # sem questão pertinente — frontend usa só a autoral
         top_score = pos_scored[0][1]
         best = [q for q, s in pos_scored if s == top_score]
         pool_final = best if len(best) >= 3 else [q for q, _ in pos_scored[:max(len(best), 3)]]
@@ -1089,7 +1118,10 @@ def enriquecer_relatorio_endpoint():
         # Idempotente: já enriquecido → devolve dados existentes sem refazer IA
         if relatorio.get("enriquecido"):
             if modo in ("guiado", "simulado"):
-                return jsonify({"avaliacoes": relatorio.get("avaliacoes", [])}), 200
+                return jsonify({
+                    "avaliacoes": relatorio.get("avaliacoes", []),
+                    "omissoes":   relatorio.get("omissoes", []),
+                }), 200
             return jsonify({
                 "erros_cometidos":    relatorio.get("erros_cometidos", []),
                 "temas_nao_abordados": relatorio.get("temas_nao_abordados", []),
@@ -1108,7 +1140,13 @@ def enriquecer_relatorio_endpoint():
             topico_key   = "objetivo" if modo == "simulado" else "assunto"
 
             for av in avaliacoes:
-                av["questao_vinculada"] = _sortear_questao(pool_questoes, banca, ids_usados, topico=tema)
+                # Usa o tópico específico da avaliação; cai para o tema geral apenas como contexto
+                topico_av = (av.get(topico_key) or "").strip()
+                av["questao_vinculada"] = _sortear_questao(
+                    pool_questoes, banca, ids_usados,
+                    topico=topico_av or tema,
+                    tema=tema,
+                )
 
             questoes_vinculadas = [av["questao_vinculada"] for av in avaliacoes if av.get("questao_vinculada")]
             if questoes_vinculadas:
@@ -1119,7 +1157,11 @@ def enriquecer_relatorio_endpoint():
                         q["comentario"] = comentarios_ia[q["id"]]
 
             itens_autorais = [
-                {"id": av.get("id"), "topico": tema, "contexto": f"{av.get(topico_key, '')} — {av.get('feedback', '')}"}
+                {
+                    "id": av.get("id"),
+                    "topico": (av.get(topico_key) or tema),
+                    "contexto": f"{av.get(topico_key, '')} — {av.get('feedback', '')}".strip(" —"),
+                }
                 for av in avaliacoes
             ]
             questoes_autorais = auditor_v3.gerar_questoes_autorais(itens_autorais, banca, materia)
@@ -1129,19 +1171,55 @@ def enriquecer_relatorio_endpoint():
                     q["id"] = f"autoral_{av.get('id')}"
                 av["questao_autoral"] = q
 
-            doc_ref.update({"avaliacoes": avaliacoes, "enriquecido": True})
-            return jsonify({"avaliacoes": avaliacoes}), 200
+            # Enriquecer omissões com questões do banco + autorais
+            omissoes_base = relatorio.get("omissoes", [])
+            omissoes_enriquecidas = []
+            for i, om in enumerate(omissoes_base):
+                topico_om = (om.get("conceito") or om.get("tema") or "").strip()
+                om_novo = {**om, "questao_vinculada": _sortear_questao(
+                    pool_questoes, banca, ids_usados,
+                    topico=topico_om or tema,
+                    tema=tema,
+                )}
+                omissoes_enriquecidas.append(om_novo)
+
+            if omissoes_enriquecidas:
+                itens_om = [
+                    {
+                        "id": f"om_{i}",
+                        "topico": f"{tema} — {(om.get('conceito', '') or '')[:100]}".strip(" —"),
+                        "contexto": str(om.get("importancia", ""))[:300],
+                    }
+                    for i, om in enumerate(omissoes_enriquecidas)
+                ]
+                questoes_om = auditor_v3.gerar_questoes_autorais(itens_om, banca, materia)
+                for i, om in enumerate(omissoes_enriquecidas):
+                    q = questoes_om.get(f"om_{i}")
+                    if q:
+                        q["id"] = f"autoral_om_{i}"
+                    om["questao_autoral"] = q
+
+            doc_ref.update({"avaliacoes": avaliacoes, "omissoes": omissoes_enriquecidas, "enriquecido": True})
+            return jsonify({"avaliacoes": avaliacoes, "omissoes": omissoes_enriquecidas}), 200
 
         # --- modo livre ---
         erros_base   = relatorio.get("erros_cometidos", [])
         omissoes_base = relatorio.get("temas_nao_abordados", [])
 
         erros_cometidos = [
-            {**erro, "questao_vinculada": _sortear_questao(pool_questoes, banca, ids_usados, topico=tema)}
+            {**erro, "questao_vinculada": _sortear_questao(
+                pool_questoes, banca, ids_usados,
+                topico=(erro.get("topico") or erro.get("conceito") or erro.get("titulo") or tema),
+                tema=tema,
+            )}
             for erro in erros_base
         ]
         omissoes_com_questao = [
-            {**om, "questao_vinculada": _sortear_questao(pool_questoes, banca, ids_usados, topico=om.get("tema") or tema)}
+            {**om, "questao_vinculada": _sortear_questao(
+                pool_questoes, banca, ids_usados,
+                topico=(om.get("tema") or om.get("conceito") or om.get("titulo") or tema),
+                tema=tema,
+            )}
             for om in omissoes_base
         ]
 
@@ -1159,16 +1237,18 @@ def enriquecer_relatorio_endpoint():
 
         itens_autorais = []
         for i, erro in enumerate(erros_cometidos):
+            topico_erro = (erro.get("topico") or erro.get("conceito") or erro.get("titulo") or "").strip()
             itens_autorais.append({
                 "id": f"erro_{i}",
-                "topico": tema,
+                "topico": f"{tema} — {topico_erro}".strip(" —") if topico_erro else tema,
                 "contexto": str(erro.get("trecho_aluno", "") or erro.get("erro", ""))[:300],
             })
         for i, om in enumerate(omissoes_com_questao):
+            topico_om = (om.get("tema") or om.get("conceito") or om.get("titulo") or "").strip()
             itens_autorais.append({
                 "id": f"omissao_{i}",
-                "topico": f"{tema} — {str(om.get('tema', ''))[:100]}".strip(" —"),
-                "contexto": str(om.get("resumo", ""))[:300],
+                "topico": f"{tema} — {topico_om[:100]}".strip(" —") if topico_om else tema,
+                "contexto": str(om.get("resumo", "") or om.get("importancia", ""))[:300],
             })
         questoes_autorais = auditor_v3.gerar_questoes_autorais(itens_autorais, banca, materia)
         for i, erro in enumerate(erros_cometidos):
