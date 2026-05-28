@@ -370,7 +370,7 @@ export default function RelatorioGuiado() {
                       </div>
                       <div className="flex-1">
                         <p className="text-[9px] font-black uppercase tracking-widest text-purple-500">Ciclo {cicloNum}</p>
-                        <h3 className="text-base font-black text-slate-900">Avaliação de Progresso</h3>
+                        <h3 className="text-base font-black text-slate-900 leading-snug">{ciclo[0]?.assunto || "Avaliação de Progresso"}</h3>
                       </div>
                       <div className="hidden sm:flex items-center gap-2">
                         {acertosC > 0 && (
@@ -419,8 +419,10 @@ export default function RelatorioGuiado() {
                                 </span>
                               </div>
 
-                              {/* Assunto */}
-                              <p className="text-sm font-black text-slate-800 leading-tight">{av.assunto}</p>
+                              {/* Pergunta */}
+                              <p className="text-sm font-semibold text-slate-700 leading-snug italic">
+                                {av.pergunta || av.assunto}
+                              </p>
 
                               {/* Feedback (truncado) */}
                               {av.feedback && (
