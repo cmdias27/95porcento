@@ -7,7 +7,7 @@ import {
   Users, Activity, Zap, DollarSign, RefreshCw,
   ArrowLeft, TrendingUp, BarChart2, BookOpen, Clock,
   Mic, Timer, RotateCcw, Repeat2, AlertOctagon, FileText,
-  Search, Crown, Key,
+  Search, Crown, Key, MessageSquare, CheckSquare, Download,
 } from "lucide-react";
 import { auth, db } from "@/lib/firebase";
 import { onAuthStateChanged } from "firebase/auth";
@@ -60,6 +60,28 @@ interface AdminUser {
   premiumExpiracao: string | null;
   role: string;
 }
+
+interface AdminFeedback {
+  id: string;
+  uid: string;
+  nome: string;
+  email: string;
+  premium: boolean;
+  respostas: Record<string, string>;
+  faixa_preco: string | null;
+  texto_livre: string | null;
+  criadoEm: string;
+  lido: boolean;
+}
+
+const PERGUNTAS_LABELS: Record<string, string> = {
+  confuso:     "Ficou confuso?",
+  inteligente: "Relatório inteligente?",
+  descobriu:   "IA descobriu lacuna?",
+  voltaria:    "Voltaria amanhã?",
+  cansativo:   "Fluxo cansativo?",
+  pagaria:     "Pagaria hoje?",
+};
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
@@ -123,13 +145,17 @@ export default function AdminPage() {
   const [ultimaAtual, setUltimaAtual] = useState<string>("");
   const [erro, setErro]         = useState("");
 
-  // ── Aba usuários ─────────────────────────────────────────────────────────
-  const [activeTab,          setActiveTab]          = useState<"stats" | "users">("stats");
+  // ── Abas ─────────────────────────────────────────────────────────────────
+  const [activeTab,          setActiveTab]          = useState<"stats" | "users" | "feedbacks">("stats");
   const [usuarios,           setUsuarios]           = useState<AdminUser[]>([]);
   const [buscaUsuario,       setBuscaUsuario]       = useState("");
   const [carregandoUsuarios, setCarregandoUsuarios] = useState(false);
   const [erroUsuarios,       setErroUsuarios]       = useState("");
   const [acaoLoading,        setAcaoLoading]        = useState("");
+
+  const [feedbacks,           setFeedbacks]           = useState<AdminFeedback[]>([]);
+  const [carregandoFeedbacks, setCarregandoFeedbacks] = useState(false);
+  const [erroFeedbacks,       setErroFeedbacks]       = useState("");
 
   // ── Auth + verificação de role ─────────────────────────────────────────────
   useEffect(() => {
@@ -213,6 +239,32 @@ export default function AdminPage() {
   useEffect(() => {
     if (activeTab === "users" && autorizado) fetchUsuarios();
   }, [activeTab, autorizado, fetchUsuarios]);
+
+  const fetchFeedbacks = useCallback(async () => {
+    setCarregandoFeedbacks(true);
+    setErroFeedbacks("");
+    try {
+      const res = await apiFetch(`${API}/api/admin/feedbacks`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      setFeedbacks(data.feedbacks);
+    } catch (e: any) {
+      setErroFeedbacks(`Erro: ${e.message}`);
+    } finally {
+      setCarregandoFeedbacks(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (activeTab === "feedbacks" && autorizado) fetchFeedbacks();
+  }, [activeTab, autorizado, fetchFeedbacks]);
+
+  const marcarLido = async (id: string) => {
+    try {
+      await apiFetch(`${API}/api/admin/feedbacks/${id}/lido`, { method: "POST" });
+      setFeedbacks(prev => prev.map(f => f.id === id ? { ...f, lido: true } : f));
+    } catch {}
+  };
 
   const atualizarPremium = async (userUid: string, action: string, params: Record<string, unknown>) => {
     setAcaoLoading(userUid);
@@ -327,12 +379,12 @@ export default function AdminPage() {
         </div>
         {/* Tab switcher */}
         <div className="flex items-center gap-1 bg-slate-100 rounded-xl p-1">
-          {(["stats", "users"] as const).map(tab => (
+          {(["stats", "users", "feedbacks"] as const).map(tab => (
             <button key={tab} onClick={() => setActiveTab(tab)}
               className={`text-[9px] font-black uppercase tracking-widest px-3 py-1.5 rounded-lg transition-all ${
                 activeTab === tab ? "bg-white text-black shadow-sm" : "text-slate-400 hover:text-black"
               }`}>
-              {tab === "stats" ? "Dashboard" : "Usuários"}
+              {tab === "stats" ? "Dashboard" : tab === "users" ? "Usuários" : "Feedbacks"}
             </button>
           ))}
         </div>
@@ -343,23 +395,15 @@ export default function AdminPage() {
               Atualizado às {ultimaAtual}
             </span>
           )}
-          {activeTab === "stats" ? (
-            <button onClick={fetchStats} disabled={carregando}
-              className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest
-                text-slate-500 hover:text-black border-2 border-slate-200 hover:border-black
-                px-3 py-1.5 rounded-lg transition-all disabled:opacity-40">
-              <RefreshCw size={11} className={carregando ? "animate-spin" : ""} />
-              Atualizar
-            </button>
-          ) : (
-            <button onClick={fetchUsuarios} disabled={carregandoUsuarios}
-              className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest
-                text-slate-500 hover:text-black border-2 border-slate-200 hover:border-black
-                px-3 py-1.5 rounded-lg transition-all disabled:opacity-40">
-              <RefreshCw size={11} className={carregandoUsuarios ? "animate-spin" : ""} />
-              Atualizar
-            </button>
-          )}
+          <button
+            onClick={activeTab === "stats" ? fetchStats : activeTab === "users" ? fetchUsuarios : fetchFeedbacks}
+            disabled={activeTab === "stats" ? carregando : activeTab === "users" ? carregandoUsuarios : carregandoFeedbacks}
+            className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest
+              text-slate-500 hover:text-black border-2 border-slate-200 hover:border-black
+              px-3 py-1.5 rounded-lg transition-all disabled:opacity-40">
+            <RefreshCw size={11} className={(carregando || carregandoUsuarios || carregandoFeedbacks) ? "animate-spin" : ""} />
+            Atualizar
+          </button>
         </div>
       </nav>
 
@@ -805,6 +849,120 @@ export default function AdminPage() {
             )}
           </>
         )}
+        {/* ── ABA: FEEDBACKS ── */}
+        {activeTab === "feedbacks" && (
+          <div className="bg-white border-2 border-black rounded-[2rem] p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+            <div className="flex items-center gap-3 mb-5 pb-4 border-b-2 border-slate-100">
+              <MessageSquare size={15} className="text-violet-600" />
+              <h2 className="text-xs font-black uppercase tracking-widest text-violet-600">Feedbacks dos Usuários</h2>
+              <span className="ml-auto text-[9px] font-bold text-slate-400">{feedbacks.length} respostas</span>
+              <button
+                disabled
+                title="Em breve"
+                className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest text-slate-300 border-2 border-slate-100 px-3 py-1.5 rounded-lg cursor-not-allowed">
+                <Download size={11} /> Exportar
+              </button>
+            </div>
+
+            {erroFeedbacks && (
+              <div className="bg-red-50 border border-red-200 rounded-xl p-3 text-xs font-bold text-red-700 mb-4">
+                {erroFeedbacks}
+              </div>
+            )}
+
+            {carregandoFeedbacks ? (
+              <div className="flex justify-center py-12">
+                <div className="w-6 h-6 border-4 border-violet-600 border-t-transparent rounded-full animate-spin" />
+              </div>
+            ) : feedbacks.length === 0 ? (
+              <p className="text-xs font-bold text-slate-400 text-center py-12">
+                Nenhum feedback enviado ainda.
+              </p>
+            ) : (
+              <div className="space-y-4">
+                {feedbacks.map(fb => (
+                  <div key={fb.id}
+                    className={`border-2 rounded-2xl p-5 transition-colors ${
+                      fb.lido ? "border-slate-100 bg-slate-50/50" : "border-violet-200 bg-violet-50/30"
+                    }`}>
+
+                    {/* Header do feedback */}
+                    <div className="flex items-start justify-between gap-4 mb-4">
+                      <div className="flex items-center gap-3">
+                        <div className="w-9 h-9 rounded-full bg-gradient-to-br from-violet-400 to-purple-500 flex items-center justify-center text-white text-[11px] font-black shrink-0">
+                          {fb.nome ? fb.nome[0].toUpperCase() : "?"}
+                        </div>
+                        <div>
+                          <p className="text-xs font-black text-slate-800">{fb.nome || "—"}</p>
+                          <p className="text-[10px] font-bold text-slate-400">{fb.email || fb.uid}</p>
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-2 shrink-0">
+                        {fb.premium
+                          ? <span className="text-[9px] font-black uppercase tracking-widest text-amber-600 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded-full">Premium</span>
+                          : <span className="text-[9px] font-black uppercase tracking-widest text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full">Free</span>
+                        }
+                        <span className="text-[9px] font-bold text-slate-400">
+                          {fb.criadoEm ? new Date(fb.criadoEm).toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit", year: "2-digit", hour: "2-digit", minute: "2-digit" }) : "—"}
+                        </span>
+                        {!fb.lido && (
+                          <span className="w-2 h-2 rounded-full bg-violet-500 shrink-0" />
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Respostas Sim/Não */}
+                    {Object.keys(fb.respostas).length > 0 && (
+                      <div className="flex flex-wrap gap-2 mb-3">
+                        {Object.entries(fb.respostas).map(([id, val]) => (
+                          <div key={id} className="flex items-center gap-1.5 bg-white border border-slate-200 rounded-lg px-2.5 py-1">
+                            <span className="text-[9px] font-bold text-slate-500 truncate max-w-[120px]">
+                              {PERGUNTAS_LABELS[id] || id}
+                            </span>
+                            <span className={`text-[9px] font-black px-1.5 py-0.5 rounded ${
+                              val === "Sim" ? "bg-emerald-100 text-emerald-700" : "bg-red-100 text-red-700"
+                            }`}>
+                              {val}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
+                    {/* Faixa de preço */}
+                    {fb.faixa_preco && (
+                      <p className="text-[10px] font-bold text-slate-600 mb-2">
+                        <span className="text-slate-400">Pagaria:</span> {fb.faixa_preco}
+                      </p>
+                    )}
+
+                    {/* Texto livre */}
+                    {fb.texto_livre && (
+                      <p className="text-xs font-medium text-slate-600 bg-white border border-slate-200 rounded-xl px-3 py-2 mb-3 leading-relaxed">
+                        "{fb.texto_livre}"
+                      </p>
+                    )}
+
+                    {/* Ações */}
+                    {!fb.lido && (
+                      <button
+                        onClick={() => marcarLido(fb.id)}
+                        className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest text-slate-500 hover:text-black border-2 border-slate-200 hover:border-black px-3 py-1.5 rounded-lg transition-all">
+                        <CheckSquare size={11} /> Marcar como lido
+                      </button>
+                    )}
+                    {fb.lido && (
+                      <span className="flex items-center gap-1 text-[9px] font-bold text-slate-400">
+                        <CheckSquare size={11} className="text-emerald-400" /> Lido
+                      </span>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
       </main>
     </div>
   );

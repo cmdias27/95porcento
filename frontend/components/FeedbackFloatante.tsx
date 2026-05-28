@@ -3,22 +3,29 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Gift, CheckCircle2 } from "lucide-react";
+import { X, Send, CheckCircle2, Gift } from "lucide-react";
 import { apiFetch } from "@/lib/apiFetch";
 
-const PERGUNTAS = [
-  { id: "ajudando", texto: "O 95% está te ajudando nos estudos?" },
-  { id: "voltaria",  texto: "Você voltaria para estudar aqui amanhã?" },
+const PERGUNTAS_BINARIAS = [
+  { id: "confuso",     texto: "Você ficou confuso em algum momento no site?" },
+  { id: "inteligente", texto: "O relatório pareceu inteligente?" },
+  { id: "descobriu",   texto: "A IA identificou algo que você realmente não sabia?" },
+  { id: "voltaria",    texto: "Você voltaria amanhã?" },
+  { id: "cansativo",   texto: "O fluxo foi cansativo?" },
+  { id: "pagaria",     texto: "Você pagaria por isso hoje?" },
 ];
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+const FAIXAS = ["Entre R$ 9,90 e 19,90", "Entre R$ 20,00 e 39,90", "Acima de R$ 40,00"];
+
+const API_BASE    = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 const STORAGE_KEY = "feedback_premium_done";
 
 export function FeedbackFloatante() {
   const [visible,   setVisible]   = useState(false);
   const [open,      setOpen]      = useState(false);
   const [respostas, setRespostas] = useState<Record<string, string>>({});
-  const [textLivre, setTextLivre] = useState("");
+  const [faixa,     setFaixa]     = useState("");
+  const [faltando,  setFaltando]  = useState("");
   const [enviando,  setEnviando]  = useState(false);
   const [resultado, setResultado] = useState<{ recompensa: boolean } | null>(null);
 
@@ -29,7 +36,11 @@ export function FeedbackFloatante() {
     return () => clearTimeout(t);
   }, []);
 
-  const podeSalvar = PERGUNTAS.every(p => respostas[p.id]);
+  const responder = (id: string, valor: string) =>
+    setRespostas(prev => ({ ...prev, [id]: valor }));
+
+  const podeSalvar =
+    PERGUNTAS_BINARIAS.every(p => respostas[p.id]) && faixa !== "";
 
   const enviar = async () => {
     if (!podeSalvar) return;
@@ -37,7 +48,11 @@ export function FeedbackFloatante() {
     try {
       const res  = await apiFetch(`${API_BASE}/api/feedback`, {
         method: "POST",
-        body: JSON.stringify({ respostas, texto_livre: textLivre }),
+        body: JSON.stringify({
+          respostas,
+          faixa_preco: faixa,
+          texto_livre: faltando.trim() || null,
+        }),
       });
       const data = await res.json();
       setResultado({ recompensa: !!data.recompensa_ativada });
@@ -98,7 +113,7 @@ export function FeedbackFloatante() {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 32, scale: 0.96 }}
               transition={{ type: "spring", stiffness: 320, damping: 28 }}
-              className="fixed inset-x-4 bottom-4 md:inset-x-auto md:right-6 md:bottom-6 md:w-[380px] bg-white rounded-[1.5rem] shadow-2xl z-50 overflow-hidden"
+              className="fixed inset-x-4 bottom-4 md:inset-x-auto md:right-6 md:bottom-6 md:w-[420px] bg-white rounded-[1.5rem] shadow-2xl z-50 overflow-hidden max-h-[92dvh] flex flex-col"
             >
               {resultado ? (
                 /* ── Tela de sucesso ──────────────────────────────────── */
@@ -128,8 +143,8 @@ export function FeedbackFloatante() {
                   </button>
                 </div>
               ) : (
-                /* ── Formulário ───────────────────────────────────────── */
-                <div className="p-6 space-y-5">
+                /* ── Formulário completo ──────────────────────────────── */
+                <div className="overflow-y-auto flex-1 p-6 space-y-5">
                   {/* Header */}
                   <div className="flex items-start justify-between gap-3">
                     <div>
@@ -140,24 +155,24 @@ export function FeedbackFloatante() {
                         </span>
                       </div>
                       <h3 className="text-lg font-black text-slate-900 leading-tight">Ganhe 1 mês Premium</h3>
-                      <p className="text-xs text-slate-500 mt-0.5">Responda 2 perguntas rápidas — leva 30 segundos.</p>
+                      <p className="text-xs text-slate-500 mt-0.5">1 minuto · suas respostas nos ajudam muito.</p>
                     </div>
                     <button onClick={fechar} className="text-slate-400 hover:text-black transition-colors shrink-0 mt-1">
                       <X size={18} />
                     </button>
                   </div>
 
-                  {/* Perguntas */}
+                  {/* Perguntas Sim / Não */}
                   <div className="space-y-4">
-                    {PERGUNTAS.map(p => (
+                    {PERGUNTAS_BINARIAS.map(p => (
                       <div key={p.id}>
                         <p className="text-sm font-bold text-slate-700 mb-2">{p.texto}</p>
                         <div className="flex gap-2">
                           {["Sim", "Não"].map(op => (
                             <button
                               key={op}
-                              onClick={() => setRespostas(prev => ({ ...prev, [p.id]: op }))}
-                              className={`px-5 py-2 rounded-xl text-xs font-black uppercase tracking-widest border-2 transition-all ${
+                              onClick={() => responder(p.id, op)}
+                              className={`px-5 py-1.5 rounded-xl text-xs font-black uppercase tracking-widest border-2 transition-all ${
                                 respostas[p.id] === op
                                   ? "bg-black text-white border-black"
                                   : "border-slate-200 text-slate-500 hover:border-black hover:text-black"
@@ -171,17 +186,39 @@ export function FeedbackFloatante() {
                     ))}
                   </div>
 
+                  {/* Faixa de preço */}
+                  <div>
+                    <p className="text-sm font-bold text-slate-700 mb-2">
+                      De forma hipotética, quanto você pagaria por mês?
+                    </p>
+                    <div className="flex flex-col gap-1.5">
+                      {FAIXAS.map(f => (
+                        <button
+                          key={f}
+                          onClick={() => setFaixa(f)}
+                          className={`px-4 py-2.5 rounded-xl text-xs font-black text-left border-2 transition-all ${
+                            faixa === f
+                              ? "bg-black text-white border-black"
+                              : "border-slate-200 text-slate-600 hover:border-black hover:text-black"
+                          }`}
+                        >
+                          {f}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
                   {/* Texto livre */}
                   <div>
                     <p className="text-sm font-bold text-slate-700 mb-1.5">
-                      O que pode melhorar?{" "}
+                      O que está faltando?{" "}
                       <span className="font-normal text-slate-400">(opcional)</span>
                     </p>
                     <textarea
-                      value={textLivre}
-                      onChange={e => setTextLivre(e.target.value)}
+                      value={faltando}
+                      onChange={e => setFaltando(e.target.value)}
                       placeholder="Escreva aqui..."
-                      rows={2}
+                      rows={3}
                       className="w-full bg-slate-50 border-2 border-slate-200 focus:border-black rounded-xl p-3 text-sm font-medium text-slate-700 placeholder-slate-400 outline-none resize-none transition-colors"
                     />
                   </div>
@@ -190,7 +227,7 @@ export function FeedbackFloatante() {
                   <button
                     onClick={enviar}
                     disabled={!podeSalvar || enviando}
-                    className="w-full bg-gradient-to-r from-violet-600 to-purple-500 text-white py-3.5 rounded-xl font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-2 hover:opacity-90 active:scale-98 transition-all disabled:opacity-40"
+                    className="w-full bg-gradient-to-r from-violet-600 to-purple-500 text-white py-3.5 rounded-xl font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-2 hover:opacity-90 transition-opacity disabled:opacity-40"
                   >
                     {enviando
                       ? <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />

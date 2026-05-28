@@ -1773,6 +1773,63 @@ def admin_user_reset_password(uid):
         return jsonify({"erro": str(e)}), 500
 
 
+@app.route('/api/admin/feedbacks', methods=['GET', 'OPTIONS'])
+@validar_token_firebase
+def admin_listar_feedbacks():
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+    if not _is_admin(request):
+        return jsonify({"erro": "Acesso negado"}), 403
+    try:
+        docs = list(db.collection("feedbacks").stream())
+        docs.sort(key=lambda d: d.to_dict().get("criadoEm", ""), reverse=True)
+
+        result = []
+        for d in docs[:200]:
+            data = d.to_dict()
+            uid  = data.get("uid", "")
+            nome = email = ""
+            premium = False
+            try:
+                fb_user = firebase_auth.get_user(uid)
+                nome  = fb_user.display_name or ""
+                email = fb_user.email or ""
+                usnap = db.collection("usuarios").document(uid).get()
+                if usnap.exists():
+                    premium = bool(usnap.to_dict().get("premium", False))
+            except Exception:
+                pass
+            result.append({
+                "id":          d.id,
+                "uid":         uid,
+                "nome":        nome,
+                "email":       email,
+                "premium":     premium,
+                "respostas":   data.get("respostas", {}),
+                "faixa_preco": data.get("faixa_preco"),
+                "texto_livre": data.get("texto_livre"),
+                "criadoEm":    data.get("criadoEm", ""),
+                "lido":        bool(data.get("lido", False)),
+            })
+        return jsonify({"feedbacks": result}), 200
+    except Exception as e:
+        return jsonify({"erro": str(e)}), 500
+
+
+@app.route('/api/admin/feedbacks/<feedback_id>/lido', methods=['POST', 'OPTIONS'])
+@validar_token_firebase
+def admin_feedback_lido(feedback_id):
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+    if not _is_admin(request):
+        return jsonify({"erro": "Acesso negado"}), 403
+    try:
+        db.collection("feedbacks").document(feedback_id).set({"lido": True}, merge=True)
+        return jsonify({"ok": True}), 200
+    except Exception as e:
+        return jsonify({"erro": str(e)}), 500
+
+
 @app.route('/api/feedback', methods=['POST', 'OPTIONS'])
 @validar_token_firebase
 @limiter.limit("5 per day")
@@ -1785,10 +1842,12 @@ def submit_feedback():
 
     try:
         db.collection("feedbacks").add({
-            "uid":        user_id,
-            "respostas":  body.get("respostas", {}),
+            "uid":         user_id,
+            "respostas":   body.get("respostas", {}),
+            "faixa_preco": (body.get("faixa_preco") or "").strip() or None,
             "texto_livre": (body.get("texto_livre") or "").strip() or None,
-            "criadoEm":   datetime.now().isoformat(),
+            "criadoEm":    datetime.now().isoformat(),
+            "lido":        False,
         })
 
         user_ref = db.collection("usuarios").document(user_id)

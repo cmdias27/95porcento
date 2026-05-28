@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  AlertTriangle, ArrowRight, BookOpen, Brain, Check, ChevronRight,
+  AlertTriangle, ArrowRight, BookOpen, Brain, Check, ChevronDown, ChevronRight,
   FileText, Loader2, Mic, Pencil, Play, Target, Zap,
 } from "lucide-react";
 import { onAuthStateChanged, sendEmailVerification } from "firebase/auth";
@@ -78,6 +78,9 @@ export default function DashboardPage() {
 
   const [emailVerificado,  setEmailVerificado]  = useState(true);
   const [isGoogleUser,     setIsGoogleUser]     = useState(false);
+
+  const [expandedCard,     setExpandedCard]     = useState<string | null>(null);
+  const [perfisCognitivos, setPerfisCognitivos] = useState<Record<string, any>>({});
 
   const reenviarVerificacao = async () => {
     const u = auth.currentUser;
@@ -193,6 +196,27 @@ export default function DashboardPage() {
     });
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [flow, materia, tema]);
+
+  // eslint-disable-next-line no-misleading-character-class
+  const slugify = (s: string) =>
+    s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim()
+     .replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "").slice(0, 80);
+
+  const toggleCard = (key: string, m: string, t: string) => {
+    const opening = expandedCard !== key;
+    setExpandedCard(opening ? key : null);
+    if (opening && !(key in perfisCognitivos)) {
+      const u = auth.currentUser;
+      if (!u) return;
+      const docId = `${u.uid}_${slugify(jornada)}_${slugify(m)}_${slugify(t)}`;
+      getDoc(doc(db, "perfis_cognitivos", docId))
+        .then(snap => setPerfisCognitivos(prev => ({
+          ...prev,
+          [key]: snap.exists() ? snap.data() : null,
+        })))
+        .catch(() => setPerfisCognitivos(prev => ({ ...prev, [key]: null })));
+    }
+  };
 
   const extrairAssunto = async (t: string, j: string) => {
     setFlow("extraindo");
@@ -375,20 +399,28 @@ export default function DashboardPage() {
                         const trend = lastScore - firstScore;
                         const trendColor = trend > 0.3 ? "#10b981" : trend < -0.3 ? "#f87171" : "#94a3b8";
 
+                        const cardKey   = `${m}||${t}`;
+                        const isExpanded = expandedCard === cardKey;
+                        const perfil     = perfisCognitivos[cardKey];   // undefined=carregando, null=sem dados
+                        const scoreHistory = sorted.filter(s => (s.score ?? 0) > 0);
+
                         return (
-                          <div key={`${m}||${t}`}
-                            className="bg-white border border-slate-200 rounded-2xl overflow-hidden hover:border-slate-300 hover:shadow-md transition-all flex flex-col">
+                          <div key={cardKey}
+                            className={`bg-white border rounded-2xl overflow-hidden transition-all flex flex-col cursor-pointer select-none ${
+                              isExpanded ? "border-slate-300 shadow-md" : "border-slate-200 hover:border-slate-300 hover:shadow-sm"
+                            }`}
+                            onClick={() => toggleCard(cardKey, m, t)}>
+
                             {/* Mode accent strip */}
                             <div className={`h-1 ${modeAccent} opacity-60`} />
 
-                            <div className="p-5 flex flex-col flex-1 gap-3">
-                              {/* Header */}
+                            <div className="p-5 flex flex-col gap-3">
+                              {/* Header: materia + tema + sparkline */}
                               <div className="flex items-start justify-between gap-2">
-                                <div className="min-w-0">
+                                <div className="min-w-0 flex-1">
                                   <p className="text-[9px] font-black uppercase tracking-widest text-slate-400 truncate">{m}</p>
                                   <p className="text-sm font-black text-slate-800 mt-0.5 leading-tight">{t}</p>
                                 </div>
-                                {/* Sparkline or session dots */}
                                 {count >= 2 && (
                                   <div className="shrink-0 flex items-center gap-1.5">
                                     {hasScores ? (
@@ -425,21 +457,109 @@ export default function DashboardPage() {
                                 )}
                               </div>
 
-                              {/* Progress bar */}
+                              {/* Progress bar + expand indicator */}
                               <div className="flex items-center gap-2">
                                 <div className="flex-1 h-1 bg-slate-100 rounded-full overflow-hidden">
                                   <div className={`h-full rounded-full ${progC} ${progW} transition-all`} />
                                 </div>
-                                <span className="text-[9px] font-black text-slate-400 shrink-0 tabular-nums">
-                                  {count}×
-                                </span>
+                                <span className="text-[9px] font-black text-slate-400 shrink-0 tabular-nums">{count}×</span>
+                                <ChevronDown size={13} className={`text-slate-300 transition-transform duration-200 shrink-0 ${isExpanded ? "rotate-180" : ""}`} />
                               </div>
 
-                              {/* Spacer */}
-                              <div className="flex-1" />
+                              {/* ── Accordion ──────────────────────────────── */}
+                              <AnimatePresence initial={false}>
+                                {isExpanded && (
+                                  <motion.div
+                                    key="accordion"
+                                    initial={{ height: 0, opacity: 0 }}
+                                    animate={{ height: "auto", opacity: 1 }}
+                                    exit={{ height: 0, opacity: 0 }}
+                                    transition={{ duration: 0.22, ease: "easeInOut" }}
+                                    className="overflow-hidden"
+                                  >
+                                    <div className="pt-3 border-t border-slate-100 space-y-3" onClick={e => e.stopPropagation()}>
 
-                              {/* Buttons */}
-                              <div className="flex gap-2 pt-1">
+                                      {/* Score history */}
+                                      {scoreHistory.length > 0 && (
+                                        <div>
+                                          <p className="text-[9px] font-black uppercase tracking-widest text-slate-400 mb-2">
+                                            Notas por sessão
+                                          </p>
+                                          <div className="flex flex-wrap gap-1.5">
+                                            {scoreHistory.map((s, i) => {
+                                              const sc  = s.score!;
+                                              const bg  = sc >= 7 ? "bg-emerald-50 text-emerald-700 border-emerald-200"
+                                                        : sc >= 5 ? "bg-yellow-50 text-yellow-700 border-yellow-200"
+                                                        :           "bg-red-50 text-red-700 border-red-200";
+                                              const dt  = new Date(s.ts).toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit" });
+                                              return (
+                                                <div key={i} className={`border rounded-lg px-2 py-1 text-center ${bg}`}>
+                                                  <p className="text-[11px] font-black leading-none">{sc.toFixed(1)}</p>
+                                                  <p className="text-[8px] opacity-60 mt-0.5">{dt}</p>
+                                                </div>
+                                              );
+                                            })}
+                                          </div>
+                                        </div>
+                                      )}
+
+                                      {/* Perfil cognitivo — loading */}
+                                      {!(cardKey in perfisCognitivos) && (
+                                        <div className="flex items-center gap-2 py-1">
+                                          <div className="w-3 h-3 border-2 border-slate-300 border-t-transparent rounded-full animate-spin" />
+                                          <p className="text-[10px] text-slate-400">Carregando perfil...</p>
+                                        </div>
+                                      )}
+
+                                      {/* Erros recorrentes */}
+                                      {perfil?.erros?.length > 0 && (
+                                        <div>
+                                          <p className="text-[9px] font-black uppercase tracking-widest text-red-400 mb-1.5">
+                                            Atenção especial
+                                          </p>
+                                          <div className="space-y-1">
+                                            {perfil.erros.slice(0, 4).map((e: any, i: number) => (
+                                              <div key={i} className="flex items-start gap-1.5">
+                                                <span className="text-red-300 shrink-0 mt-px text-xs">•</span>
+                                                <span className="text-[10px] font-semibold text-slate-600 leading-snug">
+                                                  {e.topico || e}
+                                                </span>
+                                              </div>
+                                            ))}
+                                          </div>
+                                        </div>
+                                      )}
+
+                                      {/* Omissões */}
+                                      {perfil?.omissoes?.length > 0 && (
+                                        <div>
+                                          <p className="text-[9px] font-black uppercase tracking-widest text-amber-500 mb-1.5">
+                                            Não abordado
+                                          </p>
+                                          <div className="flex flex-wrap gap-1">
+                                            {perfil.omissoes.slice(0, 5).map((o: any, i: number) => (
+                                              <span key={i} className="text-[9px] font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">
+                                                {o.topico || o}
+                                              </span>
+                                            ))}
+                                          </div>
+                                        </div>
+                                      )}
+
+                                      {/* Sem dados */}
+                                      {cardKey in perfisCognitivos && !perfil && scoreHistory.length === 0 && (
+                                        <p className="text-[10px] text-slate-400 py-1">
+                                          Dados de evolução disponíveis após a próxima sessão.
+                                        </p>
+                                      )}
+
+                                    </div>
+                                  </motion.div>
+                                )}
+                              </AnimatePresence>
+
+                              {/* Buttons — stopPropagation para não fechar o accordion */}
+                              <div className="flex gap-2 pt-1" onClick={e => e.stopPropagation()}>
                                 <button
                                   onClick={() => { setMateria(m); setTema(t); setFlow("modo"); }}
                                   className="flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-black text-white text-[9px] font-black uppercase tracking-widest hover:bg-blue-600 transition-colors">
