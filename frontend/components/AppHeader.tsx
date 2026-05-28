@@ -12,6 +12,7 @@ import {
   ArrowLeft, LayoutDashboard, History, User,
   LogOut, ChevronDown, Menu, X, Zap,
 } from "lucide-react";
+import { FeedbackFloatante } from "@/components/FeedbackFloatante";
 
 // ─── Nav items ────────────────────────────────────────────────────────────────
 
@@ -205,21 +206,24 @@ export function AppHeader(props: AppHeaderProps) {
   if (props.variant === "report") {
     const { title, subtitle, actions } = props;
     return (
-      <header className="w-full px-4 md:px-8 py-4 flex items-center justify-between border-b border-slate-200 bg-white/95 backdrop-blur-md sticky top-0 z-30 print:hidden">
-        <div className="flex items-center gap-4">
-          <Link href="/dashboard"
-            className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-black transition-colors">
-            <ArrowLeft size={15} /> Voltar
-          </Link>
-          {title && (
-            <div className="hidden sm:block pl-4 border-l border-slate-200">
-              <p className="text-sm font-black text-slate-800 truncate max-w-xs">{title}</p>
-              {subtitle && <p className="text-[9px] font-bold text-slate-400 uppercase tracking-widest mt-0.5">{subtitle}</p>}
-            </div>
-          )}
-        </div>
-        {actions && <div className="flex items-center gap-2">{actions}</div>}
-      </header>
+      <>
+        <header className="w-full px-4 md:px-8 py-4 flex items-center justify-between border-b border-slate-200 bg-white/95 backdrop-blur-md sticky top-0 z-30 print:hidden">
+          <div className="flex items-center gap-4">
+            <Link href="/dashboard"
+              className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-black transition-colors">
+              <ArrowLeft size={15} /> Voltar
+            </Link>
+            {title && (
+              <div className="hidden sm:block pl-4 border-l border-slate-200">
+                <p className="text-sm font-black text-slate-800 truncate max-w-xs">{title}</p>
+                {subtitle && <p className="text-[9px] font-bold text-slate-400 uppercase tracking-widest mt-0.5">{subtitle}</p>}
+              </div>
+            )}
+          </div>
+          {actions && <div className="flex items-center gap-2">{actions}</div>}
+        </header>
+        <FeedbackFloatante />
+      </>
     );
   }
 
@@ -228,6 +232,7 @@ export function AppHeader(props: AppHeaderProps) {
 
   return (
     <>
+      <FeedbackFloatante />
       <MobileDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} nome={nome} premium={premium} pathname={pathname} />
 
       <header className="w-full h-14 px-4 md:px-6 flex items-center justify-between bg-white/95 backdrop-blur-md border-b border-slate-200 shrink-0 sticky top-0 z-30 shadow-sm">

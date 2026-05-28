@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  AlertTriangle, ArrowRight, BookOpen, Brain, Calendar, Check, ChevronRight,
+  AlertTriangle, ArrowRight, BookOpen, Brain, Check, ChevronRight,
   FileText, Loader2, Mic, Pencil, Play, Target, Zap,
 } from "lucide-react";
 import { onAuthStateChanged, sendEmailVerification } from "firebase/auth";
@@ -24,6 +24,7 @@ type ModoSessao = "livre" | "guiado" | "simulado";
 type SessaoRecente = {
   id: string; materia: string; tema: string;
   modo: ModoSessao; url: string; ts: number;
+  score?: number;
 };
 
 const MODOS: { value: ModoSessao; label: string; desc: string; icon: typeof Mic; color: string; bg: string; border: string }[] = [
@@ -120,10 +121,11 @@ export default function DashboardPage() {
           getDocs(query(collection(db, "relatorios_guiados"),   where("user_id", "==", u.uid))),
           getDocs(query(collection(db, "relatorios_simulados"), where("user_id", "==", u.uid))),
         ]);
+        const toTs = (d: any) => new Date(d.data || d.timestamp || 0).getTime();
         const todas: SessaoRecente[] = [
-          ...livres.docs.map(x => ({ id: x.id, materia: x.data().materia || "", tema: x.data().tema || "", modo: "livre" as ModoSessao, url: `/dashboard/relatorio/${x.id}`, ts: new Date(x.data().timestamp || 0).getTime() })),
-          ...guiados.docs.map(x => ({ id: x.id, materia: x.data().materia || "", tema: x.data().tema || "", modo: "guiado" as ModoSessao, url: `/dashboard/relatorio-guiado/${x.id}`, ts: new Date(x.data().timestamp || 0).getTime() })),
-          ...simulados.docs.map(x => ({ id: x.id, materia: x.data().materia || "", tema: x.data().tema || "", modo: "simulado" as ModoSessao, url: `/dashboard/relatorio-simulado/${x.id}`, ts: new Date(x.data().timestamp || 0).getTime() })),
+          ...livres.docs.map(x => ({ id: x.id, materia: x.data().materia || "", tema: x.data().tema || "", modo: "livre" as ModoSessao, url: `/dashboard/relatorio/${x.id}`, ts: toTs(x.data()), score: x.data().score_cognitivo })),
+          ...guiados.docs.map(x => ({ id: x.id, materia: x.data().materia || "", tema: x.data().tema || "", modo: "guiado" as ModoSessao, url: `/dashboard/relatorio-guiado/${x.id}`, ts: toTs(x.data()), score: x.data().score_cognitivo })),
+          ...simulados.docs.map(x => ({ id: x.id, materia: x.data().materia || "", tema: x.data().tema || "", modo: "simulado" as ModoSessao, url: `/dashboard/relatorio-simulado/${x.id}`, ts: toTs(x.data()), score: x.data().score_cognitivo })),
         ];
         todas.sort((a, b) => b.ts - a.ts);
         setRecentes(todas.slice(0, 18));
@@ -292,13 +294,34 @@ export default function DashboardPage() {
                     <Pencil size={10} /> Editar perfil
                   </button>
                 </div>
+                {recentes.length > 0 && (
+                  <div className="flex items-center gap-6 mt-5 pt-4 border-t border-white/10">
+                    <div>
+                      <p className="text-xl font-black text-white tabular-nums">{recentes.length}</p>
+                      <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">sessões</p>
+                    </div>
+                    <div>
+                      <p className="text-xl font-black text-white tabular-nums">{temasEstudados.length}</p>
+                      <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">temas</p>
+                    </div>
+                    {recentes.length > 0 && (() => {
+                      const topScore = Math.max(...recentes.map(r => r.score ?? 0).filter(s => s > 0));
+                      return topScore > 0 ? (
+                        <div>
+                          <p className="text-xl font-black text-white tabular-nums">{topScore.toFixed(1)}</p>
+                          <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">melhor score</p>
+                        </div>
+                      ) : null;
+                    })()}
+                  </div>
+                )}
               </div>
 
               {/* White card — fills remaining space */}
               <div className="bg-white rounded-t-[2rem] shadow-[0_-8px_40px_rgba(0,0,0,0.4)] flex-1 min-h-0 overflow-y-auto">
-                <div className="max-w-2xl mx-auto px-5 pt-6 pb-8 space-y-4">
 
-                  {/* Chat input */}
+                {/* Input — constrained width */}
+                <div className="max-w-2xl mx-auto px-5 pt-6 pb-5">
                   <div className="bg-white border-2 border-slate-200 rounded-2xl shadow-sm overflow-hidden focus-within:border-blue-500 transition-colors">
                     <textarea
                       ref={inputRef}
@@ -317,58 +340,125 @@ export default function DashboardPage() {
                       </button>
                     </div>
                   </div>
+                </div>
 
-                  {/* Topic evolution cards */}
-                  {temasEstudados.length > 0 && (
-                    <div className="space-y-2.5">
-                      <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 flex items-center gap-1.5">
-                        <BookOpen size={11} /> Meus Temas
-                      </p>
-                      {temasEstudados.slice(0, 6).map(({ materia: m, tema: t, sessoes }) => {
+                {/* Meus Temas — grid, wider container */}
+                {temasEstudados.length > 0 && (
+                  <div className="max-w-5xl mx-auto px-5 pb-10">
+                    <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 flex items-center gap-1.5 mb-4">
+                      <BookOpen size={11} /> Meus Temas
+                      <span className="ml-1 text-[9px] font-bold text-slate-300">({temasEstudados.length})</span>
+                    </p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                      {temasEstudados.slice(0, 9).map(({ materia: m, tema: t, sessoes }) => {
                         const count = sessoes.length;
+                        const sorted = [...sessoes].sort((a, b) => a.ts - b.ts);
+                        const scores = sorted.map(s => s.score ?? 0);
+                        const hasScores = scores.filter(s => s > 0).length >= 2;
                         const progW = count >= 5 ? "w-full" : count === 4 ? "w-4/5" : count === 3 ? "w-3/5" : count === 2 ? "w-2/5" : "w-1/5";
                         const progC = count >= 4 ? "bg-emerald-500" : count >= 3 ? "bg-lime-400" : count >= 2 ? "bg-yellow-400" : "bg-slate-300";
-                        const desc = count === 1
-                          ? "Primeira sessão feita. Repita o tema para identificar suas lacunas e acompanhar a evolução."
-                          : count === 2
-                          ? "2 sessões concluídas. Você está construindo consistência neste tema."
-                          : count === 3
-                          ? "3 sessões. Progresso sólido! Continue praticando para consolidar."
-                          : `${count} sessões. Domínio crescente. Continue assim!`;
+                        const modeAccent = sessoes[0]?.modo === "guiado" ? "bg-emerald-500" : sessoes[0]?.modo === "simulado" ? "bg-violet-500" : "bg-blue-500";
+
+                        // Sparkline data
+                        const sparkScores = scores.filter(s => s > 0).slice(-5);
+                        const sMin = Math.min(...sparkScores);
+                        const sMax = Math.max(...sparkScores);
+                        const sRange = sMax - sMin || 1;
+                        const W = 60, H = 22;
+                        const sparkPts = sparkScores.map((s, i) => {
+                          const x = (i / Math.max(sparkScores.length - 1, 1)) * W;
+                          const y = H - ((s - sMin) / sRange) * (H - 4) - 2;
+                          return [x, y] as [number, number];
+                        });
+                        const lastScore = sparkScores[sparkScores.length - 1];
+                        const firstScore = sparkScores[0];
+                        const trend = lastScore - firstScore;
+                        const trendColor = trend > 0.3 ? "#10b981" : trend < -0.3 ? "#f87171" : "#94a3b8";
+
                         return (
-                          <div key={`${m}||${t}`} className="bg-white border border-slate-200 rounded-2xl p-4 space-y-3 hover:border-slate-300 transition-colors">
-                            <div>
-                              <p className="text-[9px] font-black uppercase tracking-widest text-slate-400">{m}</p>
-                              <p className="text-sm font-black text-slate-800 mt-0.5 leading-tight">{t}</p>
-                            </div>
-                            <div className="flex items-center gap-2">
-                              <div className="flex-1 h-1.5 bg-slate-100 rounded-full overflow-hidden">
-                                <div className={`h-full rounded-full ${progC} ${progW} transition-all`} />
+                          <div key={`${m}||${t}`}
+                            className="bg-white border border-slate-200 rounded-2xl overflow-hidden hover:border-slate-300 hover:shadow-md transition-all flex flex-col">
+                            {/* Mode accent strip */}
+                            <div className={`h-1 ${modeAccent} opacity-60`} />
+
+                            <div className="p-5 flex flex-col flex-1 gap-3">
+                              {/* Header */}
+                              <div className="flex items-start justify-between gap-2">
+                                <div className="min-w-0">
+                                  <p className="text-[9px] font-black uppercase tracking-widest text-slate-400 truncate">{m}</p>
+                                  <p className="text-sm font-black text-slate-800 mt-0.5 leading-tight">{t}</p>
+                                </div>
+                                {/* Sparkline or session dots */}
+                                {count >= 2 && (
+                                  <div className="shrink-0 flex items-center gap-1.5">
+                                    {hasScores ? (
+                                      <>
+                                        <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} className="overflow-visible">
+                                          <polyline
+                                            points={sparkPts.map(([x, y]) => `${x},${y}`).join(" ")}
+                                            fill="none" stroke={trendColor} strokeWidth="1.5"
+                                            strokeLinecap="round" strokeLinejoin="round" opacity="0.8"
+                                          />
+                                          {sparkPts.map(([x, y], i) => (
+                                            <circle key={i} cx={x} cy={y}
+                                              r={i === sparkPts.length - 1 ? 2.5 : 1.5}
+                                              fill={trendColor} />
+                                          ))}
+                                        </svg>
+                                        <div className="text-right leading-none">
+                                          <p className="text-[10px] font-black" style={{ color: trendColor }}>
+                                            {trend > 0.3 ? "↑" : trend < -0.3 ? "↓" : "→"}{lastScore?.toFixed(1)}
+                                          </p>
+                                          <p className="text-[8px] text-slate-400 mt-0.5">score</p>
+                                        </div>
+                                      </>
+                                    ) : (
+                                      <div className="flex items-center gap-1">
+                                        {sorted.slice(-5).map((s, i) => {
+                                          const dot = s.modo === "guiado" ? "bg-emerald-400" : s.modo === "simulado" ? "bg-violet-400" : "bg-blue-400";
+                                          const age = Math.max(0, 1 - (Date.now() - s.ts) / (1000 * 60 * 60 * 24 * 30));
+                                          return <div key={i} className={`w-2 h-2 rounded-full ${dot}`} style={{ opacity: 0.3 + age * 0.7 }} />;
+                                        })}
+                                      </div>
+                                    )}
+                                  </div>
+                                )}
                               </div>
-                              <span className="text-[9px] font-black text-slate-400 shrink-0">
-                                {count} {count === 1 ? "sessão" : "sessões"}
-                              </span>
-                            </div>
-                            <p className="text-[11px] font-medium text-slate-500 leading-snug">{desc}</p>
-                            <div className="flex gap-2">
-                              <button
-                                onClick={() => { setMateria(m); setTema(t); setFlow("modo"); }}
-                                className="flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-black text-white text-[9px] font-black uppercase tracking-widest hover:bg-blue-600 transition-colors">
-                                <Play size={10} /> Nova Sessão
-                              </button>
-                              <button
-                                onClick={() => router.push("/dashboard/historico")}
-                                className="flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-slate-100 text-slate-600 text-[9px] font-black uppercase tracking-widest hover:bg-black hover:text-white transition-colors">
-                                <FileText size={10} /> Histórico
-                              </button>
+
+                              {/* Progress bar */}
+                              <div className="flex items-center gap-2">
+                                <div className="flex-1 h-1 bg-slate-100 rounded-full overflow-hidden">
+                                  <div className={`h-full rounded-full ${progC} ${progW} transition-all`} />
+                                </div>
+                                <span className="text-[9px] font-black text-slate-400 shrink-0 tabular-nums">
+                                  {count}×
+                                </span>
+                              </div>
+
+                              {/* Spacer */}
+                              <div className="flex-1" />
+
+                              {/* Buttons */}
+                              <div className="flex gap-2 pt-1">
+                                <button
+                                  onClick={() => { setMateria(m); setTema(t); setFlow("modo"); }}
+                                  className="flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-black text-white text-[9px] font-black uppercase tracking-widest hover:bg-blue-600 transition-colors">
+                                  <Play size={10} /> Estudar
+                                </button>
+                                <button
+                                  onClick={() => router.push("/dashboard/historico")}
+                                  className="flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-slate-100 text-slate-500 text-[9px] font-black uppercase tracking-widest hover:bg-slate-200 transition-colors">
+                                  <FileText size={10} />
+                                </button>
+                              </div>
                             </div>
                           </div>
                         );
                       })}
                     </div>
-                  )}
+                  </div>
+                )}
 
-                </div>
               </div>
             </motion.div>
           )}

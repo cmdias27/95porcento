@@ -13,7 +13,6 @@ import { db } from "@/lib/firebase";
 import { apiFetch } from "@/lib/apiFetch";
 import { doc, getDoc } from "firebase/firestore";
 import { motion } from "framer-motion";
-import { FeedbackPopup } from "@/components/FeedbackPopup";
 
 function stripEmbeddedAlternatives(enunciado: string): string {
   const match = enunciado.match(/[\s\n]A\)\s/);
@@ -382,8 +381,6 @@ export default function RelatorioFinal() {
         </section>
 
       </main>
-
-      <FeedbackPopup relatorioId={relatorioId} />
 
       <style jsx global>{`
         .custom-scrollbar::-webkit-scrollbar { width: 6px; }

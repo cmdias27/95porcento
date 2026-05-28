@@ -1773,6 +1773,50 @@ def admin_user_reset_password(uid):
         return jsonify({"erro": str(e)}), 500
 
 
+@app.route('/api/feedback', methods=['POST', 'OPTIONS'])
+@validar_token_firebase
+@limiter.limit("5 per day")
+def submit_feedback():
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+
+    user_id = request.uid_seguro
+    body = request.get_json(silent=True) or {}
+
+    try:
+        db.collection("feedbacks").add({
+            "uid":        user_id,
+            "respostas":  body.get("respostas", {}),
+            "texto_livre": (body.get("texto_livre") or "").strip() or None,
+            "criadoEm":   datetime.now().isoformat(),
+        })
+
+        user_ref = db.collection("usuarios").document(user_id)
+        snap = user_ref.get()
+        user_data = snap.to_dict() if snap.exists() else {}
+
+        recompensa_ativada = False
+        if not user_data.get("feedback_recompensa_recebida"):
+            current_expiry = user_data.get("premium_expiracao")
+            try:
+                base = datetime.fromisoformat(current_expiry) if current_expiry else datetime.now()
+            except Exception:
+                base = datetime.now()
+            if base < datetime.now():
+                base = datetime.now()
+            new_expiry = (base + timedelta(days=30)).isoformat()
+            user_ref.set({
+                "premium":                      True,
+                "premium_expiracao":             new_expiry,
+                "feedback_recompensa_recebida":  True,
+            }, merge=True)
+            recompensa_ativada = True
+
+        return jsonify({"ok": True, "recompensa_ativada": recompensa_ativada}), 200
+    except Exception as e:
+        return jsonify({"erro": str(e)}), 500
+
+
 if __name__ == '__main__':
     port = int(os.getenv("PORT", 5000))
     app.run(debug=False, host="0.0.0.0", port=port)
