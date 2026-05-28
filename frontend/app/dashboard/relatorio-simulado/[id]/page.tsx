@@ -603,9 +603,6 @@ export default function RelatorioSimulado() {
                 </div>
                 <div>
                   <h2 className="text-2xl md:text-3xl font-black tracking-tight text-slate-900">CONCEITOS OMITIDOS</h2>
-                  <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 mt-0.5">
-                    {omissoes.length} conceito{omissoes.length > 1 ? "s" : ""} não abordado{omissoes.length > 1 ? "s" : ""}
-                  </p>
                 </div>
               </div>
 

@@ -327,9 +327,6 @@ export default function RelatorioFinal() {
                 <h2 className="text-2xl md:text-3xl font-black tracking-tight text-slate-900">
                   CORREÇÃO DE ERROS
                 </h2>
-                <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 mt-0.5">
-                  {erros.length} ponto{erros.length > 1 ? "s" : ""} identificado{erros.length > 1 ? "s" : ""}
-                </p>
               </div>
             </div>
 
@@ -441,9 +438,6 @@ export default function RelatorioFinal() {
                 <h2 className="text-2xl md:text-3xl font-black tracking-tight text-slate-900">
                   CONCEITOS OMITIDOS
                 </h2>
-                <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 mt-0.5">
-                  {omissoes.length} conceito{omissoes.length > 1 ? "s" : ""} não abordado{omissoes.length > 1 ? "s" : ""}
-                </p>
               </div>
             </div>
 
@@ -554,9 +548,6 @@ export default function RelatorioFinal() {
                 <h2 className="text-2xl md:text-3xl font-black tracking-tight text-slate-900">
                   FIXAÇÃO DE ACERTOS
                 </h2>
-                <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 mt-0.5">
-                  {acertos.length} ponto{acertos.length > 1 ? "s" : ""} dominado{acertos.length > 1 ? "s" : ""}
-                </p>
               </div>
             </div>
 

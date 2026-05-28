@@ -67,7 +67,7 @@ function ModoSimuladoContent() {
   const [respostas, setRespostas] = useState<Resposta[]>([]);
   const [showCenario, setShowCenario] = useState(false);
 
-  const [modo, setModo] = useState<"texto" | "audio">("texto");
+  const [modo, setModo] = useState<"texto" | "audio">("audio");
   const [respostaAtual, setRespostaAtual] = useState("");
   const [transcricaoInterim, setTranscricaoInterim] = useState("");
   const [gravando, setGravando] = useState(false);
@@ -594,15 +594,18 @@ function ModoSimuladoContent() {
           {/* ÁREA DE RESPOSTA */}
           <div className="bg-white border-2 border-black rounded-[2rem] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col overflow-hidden">
 
-            {/* TABS */}
+            {/* TABS — áudio em destaque */}
             <div className="flex border-b-2 border-black shrink-0">
-              <button onClick={() => { if (gravando) pararGravacao(); setModo("texto"); }}
-                className={`flex-1 p-3.5 font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-2 transition-colors ${modo === "texto" ? "bg-black text-white" : "bg-slate-50 text-slate-500 hover:bg-slate-100"}`}>
-                <Type size={14} /> Texto
-              </button>
               <button onClick={() => setModo("audio")}
-                className={`flex-1 p-3.5 font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-2 transition-colors border-l-2 border-black ${modo === "audio" ? "bg-black text-white" : "bg-slate-50 text-slate-500 hover:bg-slate-100"}`}>
-                <Mic size={14} /> Áudio
+                className={`flex-[2] py-3 px-3 md:p-3.5 font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-1.5 transition-colors ${modo === "audio" ? "bg-black text-white" : "bg-slate-50 text-slate-500 hover:bg-slate-100 hover:text-black"}`}>
+                <Mic size={14} className="shrink-0" />
+                <span className="hidden sm:inline">Voz — Análise Profunda</span>
+                <span className="sm:hidden">Voz</span>
+                {modo === "audio" && <span className="hidden sm:inline ml-1 text-[8px] bg-blue-600 text-white px-1.5 py-0.5 rounded-full">Recomendado</span>}
+              </button>
+              <button onClick={() => { if (gravando) pararGravacao(); setModo("texto"); }}
+                className={`flex-1 py-3 px-3 md:p-3.5 font-black text-[10px] uppercase tracking-widest flex items-center justify-center gap-1.5 transition-colors border-l-2 border-black ${modo === "texto" ? "bg-black text-white" : "bg-slate-50 text-slate-400 hover:bg-slate-100 hover:text-black"}`}>
+                <Type size={14} className="shrink-0" /> Texto
               </button>
             </div>
 

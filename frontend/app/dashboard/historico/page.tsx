@@ -77,8 +77,8 @@ export default function HistoricoPage() {
             tema: x.data().tema || "",
             modo: "livre" as Modo,
             url: `/dashboard/relatorio/${x.id}`,
-            ts: new Date(x.data().timestamp || 0).getTime(),
-            nota: x.data().nota_geral,
+            ts: new Date(x.data().data || x.data().timestamp || 0).getTime(),
+            nota: x.data().score_cognitivo ?? x.data().nota_geral,
           })),
           ...guiados.docs.map(x => ({
             id: x.id,
@@ -86,8 +86,8 @@ export default function HistoricoPage() {
             tema: x.data().tema || "",
             modo: "guiado" as Modo,
             url: `/dashboard/relatorio-guiado/${x.id}`,
-            ts: new Date(x.data().timestamp || 0).getTime(),
-            nota: x.data().nota_final,
+            ts: new Date(x.data().data || x.data().timestamp || 0).getTime(),
+            nota: x.data().score_cognitivo ?? x.data().nota_final,
           })),
           ...simulados.docs.map(x => ({
             id: x.id,
@@ -95,8 +95,8 @@ export default function HistoricoPage() {
             tema: x.data().tema || "",
             modo: "simulado" as Modo,
             url: `/dashboard/relatorio-simulado/${x.id}`,
-            ts: new Date(x.data().timestamp || 0).getTime(),
-            nota: x.data().acertos,
+            ts: new Date(x.data().data || x.data().timestamp || 0).getTime(),
+            nota: x.data().score_cognitivo ?? x.data().acertos,
           })),
         ];
         todas.sort((a, b) => b.ts - a.ts);
@@ -192,7 +192,7 @@ export default function HistoricoPage() {
                   <div className="flex items-center gap-2 shrink-0">
                     {s.nota !== undefined && s.nota !== null && (
                       <span className="text-[10px] font-black text-slate-500 bg-slate-100 px-2 py-1 rounded-lg">
-                        {s.modo === "simulado" ? `${s.nota}pts` : `${s.nota}/10`}
+                        {Number(s.nota).toFixed(1)}/10
                       </span>
                     )}
                     <button onClick={() => router.push(s.url)}
