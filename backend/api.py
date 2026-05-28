@@ -1136,15 +1136,25 @@ def enriquecer_relatorio_endpoint():
         ids_usados: set = set()
 
         if modo in ("guiado", "simulado"):
-            avaliacoes   = relatorio.get("avaliacoes", [])
-            topico_key   = "objetivo" if modo == "simulado" else "assunto"
+            avaliacoes = relatorio.get("avaliacoes", [])
+
+            # ── Simulado: av.objetivo = nome da fase cognitiva ("Interpretação", "Identificação
+            #    do Problema"...), NÃO um assunto de conteúdo. Usar tema como topico principal
+            #    para garantir que as questões do banco sejam pertinentes ao conteúdo estudado.
+            # ── Guiado: av.assunto = assunto específico de cada pergunta → usar diretamente.
+            cenario_titulo = relatorio.get("cenario", {}).get("titulo", "") if modo == "simulado" else ""
 
             for av in avaliacoes:
-                # Usa o tópico específico da avaliação; cai para o tema geral apenas como contexto
-                topico_av = (av.get(topico_key) or "").strip()
+                if modo == "simulado":
+                    # Para simulado, todas as fases tratam do mesmo tema — questão do banco deve
+                    # ser sobre o conteúdo, não sobre o tipo cognitivo da fase.
+                    topico_q = f"{tema} {cenario_titulo}".strip() if cenario_titulo else tema
+                else:
+                    topico_q = (av.get("assunto") or "").strip() or tema
+
                 av["questao_vinculada"] = _sortear_questao(
                     pool_questoes, banca, ids_usados,
-                    topico=topico_av or tema,
+                    topico=topico_q,
                     tema=tema,
                 )
 
@@ -1156,14 +1166,22 @@ def enriquecer_relatorio_endpoint():
                     if q and q.get("id") in comentarios_ia:
                         q["comentario"] = comentarios_ia[q["id"]]
 
-            itens_autorais = [
-                {
-                    "id": av.get("id"),
-                    "topico": (av.get(topico_key) or tema),
-                    "contexto": f"{av.get(topico_key, '')} — {av.get('feedback', '')}".strip(" —"),
-                }
-                for av in avaliacoes
-            ]
+            itens_autorais = []
+            for av in avaliacoes:
+                if modo == "simulado":
+                    objetivo = (av.get("objetivo") or "").strip()
+                    itens_autorais.append({
+                        "id":      av.get("id"),
+                        "topico":  f"{tema} — {objetivo}".strip(" —") if objetivo else tema,
+                        "contexto": f"{cenario_titulo} — {objetivo} — {av.get('feedback', '')}".strip(" —"),
+                    })
+                else:
+                    assunto_av = (av.get("assunto") or "").strip()
+                    itens_autorais.append({
+                        "id":      av.get("id"),
+                        "topico":  assunto_av or tema,
+                        "contexto": f"{assunto_av} — {av.get('feedback', '')}".strip(" —"),
+                    })
             questoes_autorais = auditor_v3.gerar_questoes_autorais(itens_autorais, banca, materia)
             for av in avaliacoes:
                 q = questoes_autorais.get(av.get("id"))
@@ -1952,6 +1970,27 @@ def submit_feedback():
             recompensa_ativada = True
 
         return jsonify({"ok": True, "recompensa_ativada": recompensa_ativada}), 200
+    except Exception as e:
+        return jsonify({"erro": str(e)}), 500
+
+
+@app.route('/api/admin/reset-enriquecimento', methods=['POST', 'OPTIONS'])
+@validar_token_firebase
+def admin_reset_enriquecimento():
+    """Remove o flag enriquecido de um relatório para forçar re-enriquecimento."""
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+    if not _is_admin(request):
+        return jsonify({"erro": "Acesso negado"}), 403
+    body        = request.get_json(silent=True) or {}
+    relatorio_id = body.get("relatorio_id", "")
+    modo         = body.get("modo", "")
+    colecao = {"guiado": "relatorios_guiados", "simulado": "relatorios_simulados", "livre": "relatorios"}.get(modo)
+    if not relatorio_id or not colecao:
+        return jsonify({"erro": "relatorio_id e modo obrigatórios"}), 400
+    try:
+        db.collection(colecao).document(relatorio_id).set({"enriquecido": False}, merge=True)
+        return jsonify({"ok": True}), 200
     except Exception as e:
         return jsonify({"erro": str(e)}), 500
 

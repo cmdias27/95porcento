@@ -383,12 +383,9 @@ export default function RelatorioSimulado() {
             </motion.div>
           )}
 
-          {/* Score KPIs */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
-            <ScoreKpi label="Score"      value={`${score.toFixed ? score.toFixed(1) : score}/10`} color="amber"   icon={Brain} />
-            <ScoreKpi label="Acertos"    value={nAcertos}           color="emerald" icon={CheckCircle2} />
-            <ScoreKpi label="A Melhorar" value={nMelhorar}          color="red"     icon={AlertTriangle} />
-            <ScoreKpi label="Omissões"   value={omissoes.length}    color="blue"    icon={Lightbulb} />
+          {/* Score */}
+          <div className="max-w-[200px] mb-8">
+            <ScoreKpi label="Score" value={`${score.toFixed ? score.toFixed(1) : score}/10`} color="amber" icon={Brain} />
           </div>
 
           {/* Análise da simulação */}
@@ -402,22 +399,40 @@ export default function RelatorioSimulado() {
                 <span className="text-[10px] font-black uppercase tracking-widest text-amber-400">Análise da Simulação</span>
               </div>
               <p className="text-sm md:text-base font-medium text-slate-200 leading-relaxed">{resumo.desempenho}</p>
-              {(resumo.profundidade_media || resumo.clareza || resumo.retencao_percebida) && (
-                <div className="flex flex-wrap gap-3 mt-4 pt-4 border-t border-white/10">
-                  {[
-                    { label: "Profundidade", val: resumo.profundidade_media },
-                    { label: "Clareza",      val: resumo.clareza },
-                    { label: "Retenção",     val: resumo.retencao_percebida },
-                  ].map(item => item.val && (
-                    <div key={item.label} className="flex items-center gap-2">
-                      <span className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">{item.label}:</span>
-                      <span className={`text-[9px] font-black uppercase tracking-widest border px-2.5 py-0.5 rounded-full ${NIVEL_CLASSES[item.val] ?? "bg-slate-100 text-slate-600 border-slate-200"}`}>
-                        {item.val}
-                      </span>
-                    </div>
-                  ))}
+              <div className="mt-4 pt-4 border-t border-white/10 space-y-3">
+                {/* Acertos / A Melhorar / Omissões */}
+                <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
+                  <div className="flex items-center gap-1.5">
+                    <CheckCircle2 size={12} className="text-emerald-400" />
+                    <span className="text-[11px] font-semibold text-slate-300">{nAcertos} acerto{nAcertos !== 1 ? "s" : ""}</span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <AlertTriangle size={12} className="text-amber-400" />
+                    <span className="text-[11px] font-semibold text-slate-300">{nMelhorar} a melhorar</span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <Lightbulb size={12} className="text-blue-400" />
+                    <span className="text-[11px] font-semibold text-slate-300">{omissoes.length} omissão{omissoes.length !== 1 ? "ões" : ""}</span>
+                  </div>
                 </div>
-              )}
+                {/* Profundidade / Clareza / Retenção */}
+                {(resumo.profundidade_media || resumo.clareza || resumo.retencao_percebida) && (
+                  <div className="flex flex-wrap gap-3">
+                    {[
+                      { label: "Profundidade", val: resumo.profundidade_media },
+                      { label: "Clareza",      val: resumo.clareza },
+                      { label: "Retenção",     val: resumo.retencao_percebida },
+                    ].map(item => item.val && (
+                      <div key={item.label} className="flex items-center gap-2">
+                        <span className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">{item.label}:</span>
+                        <span className={`text-[9px] font-black uppercase tracking-widest border px-2.5 py-0.5 rounded-full ${NIVEL_CLASSES[item.val] ?? "bg-slate-100 text-slate-600 border-slate-200"}`}>
+                          {item.val}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
             </motion.div>
           )}
 

@@ -243,12 +243,9 @@ export default function RelatorioFinal() {
             </motion.div>
           )}
 
-          {/* Score KPIs */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
-            <ScoreKpi label="Score Cognitivo" value={`${score.toFixed ? score.toFixed(1) : score}/10`} color="blue"    icon={Brain} />
-            <ScoreKpi label="Acertos"         value={nAcertos}  color="emerald" icon={CheckCircle2} />
-            <ScoreKpi label="Erros"           value={nErros}    color="red"     icon={XCircle} />
-            <ScoreKpi label="Omissões"        value={nOmissoes} color="amber"   icon={Lightbulb} />
+          {/* Score */}
+          <div className="max-w-[200px] mb-8">
+            <ScoreKpi label="Score Cognitivo" value={`${score.toFixed ? score.toFixed(1) : score}/10`} color="blue" icon={Brain} />
           </div>
 
           {/* Análise do Mentor */}
@@ -269,6 +266,20 @@ export default function RelatorioFinal() {
               <p className="text-sm md:text-base font-medium text-slate-200 leading-relaxed whitespace-pre-line">
                 {relatorio.raciocinio_interno}
               </p>
+              <div className="flex flex-wrap items-center gap-x-5 gap-y-2 mt-4 pt-4 border-t border-white/10">
+                <div className="flex items-center gap-1.5">
+                  <CheckCircle2 size={12} className="text-emerald-400" />
+                  <span className="text-[11px] font-semibold text-slate-300">{nAcertos} acerto{nAcertos !== 1 ? "s" : ""}</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <XCircle size={12} className="text-red-400" />
+                  <span className="text-[11px] font-semibold text-slate-300">{nErros} erro{nErros !== 1 ? "s" : ""}</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <Lightbulb size={12} className="text-amber-400" />
+                  <span className="text-[11px] font-semibold text-slate-300">{nOmissoes} omissão{nOmissoes !== 1 ? "ões" : ""}</span>
+                </div>
+              </div>
             </motion.div>
           )}
 
