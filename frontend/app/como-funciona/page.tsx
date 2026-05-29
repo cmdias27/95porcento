@@ -8,7 +8,6 @@ import {
   CheckCircle2, BookOpen, Zap, ChevronRight, Award,
   Clock, BarChart2, ListChecks, Lightbulb,
 } from "lucide-react";
-import { Footer } from "@/components/Footer";
 
 // ─── Card de seção ───────────────────────────────────
 function SectionCard({ children, className = "" }: { children: React.ReactNode; className?: string }) {
@@ -405,8 +404,6 @@ export default function ComoFuncionaPage() {
         </div>
 
       </main>
-
-      <Footer />
     </div>
   );
 }

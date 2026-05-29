@@ -9,7 +9,6 @@ import {
   ArrowLeft, ChevronDown, HelpCircle, Mic, Brain, Swords,
   CreditCard, ShieldCheck, Settings, ChevronRight,
 } from "lucide-react";
-import { Footer } from "@/components/Footer";
 
 type Pergunta = { q: string; a: string };
 type Grupo = { titulo: string; icon: React.ElementType; cor: string; perguntas: Pergunta[] };
@@ -173,8 +172,6 @@ export default function AjudaPage() {
         </div>
 
       </main>
-
-      <Footer />
     </div>
   );
 }

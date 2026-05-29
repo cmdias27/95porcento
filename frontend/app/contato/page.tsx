@@ -6,7 +6,6 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useState, useEffect, Suspense } from "react";
 import { motion } from "framer-motion";
 import { ArrowLeft, Mail, Send, CheckCircle2, MessageSquare } from "lucide-react";
-import { Footer } from "@/components/Footer";
 import { apiFetch } from "@/lib/apiFetch";
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
@@ -189,8 +188,6 @@ export default function ContatoPage() {
         </div>
 
       </main>
-
-      <Footer />
     </div>
   );
 }
