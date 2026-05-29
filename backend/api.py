@@ -1928,6 +1928,48 @@ def admin_feedback_lido(feedback_id):
         return jsonify({"erro": str(e)}), 500
 
 
+@app.route('/api/admin/contatos', methods=['GET', 'OPTIONS'])
+@validar_token_firebase
+def admin_listar_contatos():
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+    if not _is_admin(request):
+        return jsonify({"erro": "Acesso negado"}), 403
+    try:
+        docs = list(db.collection("contatos").stream())
+        docs.sort(key=lambda d: d.to_dict().get("criadoEm", ""), reverse=True)
+
+        result = []
+        for d in docs[:300]:
+            data = d.to_dict()
+            result.append({
+                "id":       d.id,
+                "nome":     data.get("nome", ""),
+                "email":    data.get("email", ""),
+                "assunto":  data.get("assunto", ""),
+                "mensagem": data.get("mensagem", ""),
+                "criadoEm": data.get("criadoEm", ""),
+                "lido":     bool(data.get("lido", False)),
+            })
+        return jsonify({"contatos": result}), 200
+    except Exception as e:
+        return jsonify({"erro": str(e)}), 500
+
+
+@app.route('/api/admin/contatos/<contato_id>/lido', methods=['POST', 'OPTIONS'])
+@validar_token_firebase
+def admin_contato_lido(contato_id):
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+    if not _is_admin(request):
+        return jsonify({"erro": "Acesso negado"}), 403
+    try:
+        db.collection("contatos").document(contato_id).set({"lido": True}, merge=True)
+        return jsonify({"ok": True}), 200
+    except Exception as e:
+        return jsonify({"erro": str(e)}), 500
+
+
 @app.route('/api/feedback', methods=['POST', 'OPTIONS'])
 @validar_token_firebase
 @limiter.limit("5 per day")
@@ -1972,6 +2014,75 @@ def submit_feedback():
         return jsonify({"ok": True, "recompensa_ativada": recompensa_ativada}), 200
     except Exception as e:
         return jsonify({"erro": str(e)}), 500
+
+
+@app.route('/api/contato', methods=['POST', 'OPTIONS'])
+@limiter.limit("5 per hour")
+def contato_endpoint():
+    """Formulário de contato público. Salva no Firestore e envia e-mail (se SMTP configurado)."""
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+
+    body     = request.get_json(silent=True) or {}
+    nome     = (body.get("nome") or "").strip()
+    email    = (body.get("email") or "").strip()
+    assunto  = (body.get("assunto") or "Contato").strip()
+    mensagem = (body.get("mensagem") or "").strip()
+
+    if not nome or not email or not mensagem:
+        return jsonify({"erro": "Nome, e-mail e mensagem são obrigatórios."}), 400
+    if "@" not in email or "." not in email.split("@")[-1]:
+        return jsonify({"erro": "E-mail inválido."}), 400
+    if len(nome) > 200 or len(email) > 200 or len(assunto) > 200 or len(mensagem) > 5000:
+        return jsonify({"erro": "Conteúdo excede o limite permitido."}), 400
+
+    DESTINO = "cassio.mattos@gmail.com"
+
+    # 1) Persistir sempre — nenhuma mensagem é perdida, mesmo sem SMTP
+    try:
+        if db:
+            db.collection("contatos").add({
+                "nome":     nome,
+                "email":    email,
+                "assunto":  assunto,
+                "mensagem": mensagem,
+                "criadoEm": datetime.now().isoformat(),
+                "lido":     False,
+            })
+    except Exception as e:
+        print(f"⚠️ Contato não salvo no Firestore: {e}")
+
+    # 2) Enviar e-mail para cassio.mattos@gmail.com se SMTP estiver configurado
+    enviado = False
+    smtp_user = os.getenv("SMTP_USER")
+    smtp_pass = os.getenv("SMTP_PASS")
+    if smtp_user and smtp_pass:
+        try:
+            import smtplib
+            from email.message import EmailMessage
+            msg = EmailMessage()
+            msg["Subject"] = f"[95porcento] {assunto} — {nome}"
+            msg["From"]    = smtp_user
+            msg["To"]      = DESTINO
+            msg["Reply-To"] = email
+            msg.set_content(
+                f"Nome: {nome}\n"
+                f"E-mail: {email}\n"
+                f"Assunto: {assunto}\n"
+                f"Data: {datetime.now().strftime('%d/%m/%Y %H:%M')}\n\n"
+                f"{mensagem}"
+            )
+            host = os.getenv("SMTP_HOST", "smtp.gmail.com")
+            port = int(os.getenv("SMTP_PORT", "587"))
+            with smtplib.SMTP(host, port, timeout=15) as server:
+                server.starttls()
+                server.login(smtp_user, smtp_pass)
+                server.send_message(msg)
+            enviado = True
+        except Exception as e:
+            print(f"⚠️ Falha ao enviar e-mail de contato: {e}")
+
+    return jsonify({"ok": True, "enviado": enviado}), 200
 
 
 @app.route('/api/admin/reset-enriquecimento', methods=['POST', 'OPTIONS'])

@@ -7,7 +7,7 @@ import {
   Users, Activity, Zap, DollarSign, RefreshCw,
   ArrowLeft, TrendingUp, BarChart2, BookOpen, Clock,
   Mic, Timer, RotateCcw, Repeat2, AlertOctagon, FileText,
-  Search, Crown, Key, MessageSquare, CheckSquare, Download,
+  Search, Crown, Key, MessageSquare, CheckSquare, Download, Mail,
 } from "lucide-react";
 import { auth, db } from "@/lib/firebase";
 import { onAuthStateChanged } from "firebase/auth";
@@ -83,6 +83,16 @@ const PERGUNTAS_LABELS: Record<string, string> = {
   pagaria:     "Pagaria hoje?",
 };
 
+interface AdminContato {
+  id: string;
+  nome: string;
+  email: string;
+  assunto: string;
+  mensagem: string;
+  criadoEm: string;
+  lido: boolean;
+}
+
 // ── Helpers ──────────────────────────────────────────────────────────────────
 const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 
@@ -146,7 +156,7 @@ export default function AdminPage() {
   const [erro, setErro]         = useState("");
 
   // ── Abas ─────────────────────────────────────────────────────────────────
-  const [activeTab,          setActiveTab]          = useState<"stats" | "users" | "feedbacks">("stats");
+  const [activeTab,          setActiveTab]          = useState<"stats" | "users" | "feedbacks" | "contatos">("stats");
   const [usuarios,           setUsuarios]           = useState<AdminUser[]>([]);
   const [buscaUsuario,       setBuscaUsuario]       = useState("");
   const [carregandoUsuarios, setCarregandoUsuarios] = useState(false);
@@ -156,6 +166,10 @@ export default function AdminPage() {
   const [feedbacks,           setFeedbacks]           = useState<AdminFeedback[]>([]);
   const [carregandoFeedbacks, setCarregandoFeedbacks] = useState(false);
   const [erroFeedbacks,       setErroFeedbacks]       = useState("");
+
+  const [contatos,           setContatos]           = useState<AdminContato[]>([]);
+  const [carregandoContatos, setCarregandoContatos] = useState(false);
+  const [erroContatos,       setErroContatos]       = useState("");
 
   // ── Auth + verificação de role ─────────────────────────────────────────────
   useEffect(() => {
@@ -263,6 +277,32 @@ export default function AdminPage() {
     try {
       await apiFetch(`${API}/api/admin/feedbacks/${id}/lido`, { method: "POST" });
       setFeedbacks(prev => prev.map(f => f.id === id ? { ...f, lido: true } : f));
+    } catch {}
+  };
+
+  const fetchContatos = useCallback(async () => {
+    setCarregandoContatos(true);
+    setErroContatos("");
+    try {
+      const res = await apiFetch(`${API}/api/admin/contatos`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      setContatos(data.contatos);
+    } catch (e: any) {
+      setErroContatos(`Erro: ${e.message}`);
+    } finally {
+      setCarregandoContatos(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (activeTab === "contatos" && autorizado) fetchContatos();
+  }, [activeTab, autorizado, fetchContatos]);
+
+  const marcarContatoLido = async (id: string) => {
+    try {
+      await apiFetch(`${API}/api/admin/contatos/${id}/lido`, { method: "POST" });
+      setContatos(prev => prev.map(c => c.id === id ? { ...c, lido: true } : c));
     } catch {}
   };
 
@@ -379,12 +419,12 @@ export default function AdminPage() {
         </div>
         {/* Tab switcher */}
         <div className="flex items-center gap-1 bg-slate-100 rounded-xl p-1">
-          {(["stats", "users", "feedbacks"] as const).map(tab => (
+          {(["stats", "users", "feedbacks", "contatos"] as const).map(tab => (
             <button key={tab} onClick={() => setActiveTab(tab)}
               className={`text-[9px] font-black uppercase tracking-widest px-3 py-1.5 rounded-lg transition-all ${
                 activeTab === tab ? "bg-white text-black shadow-sm" : "text-slate-400 hover:text-black"
               }`}>
-              {tab === "stats" ? "Dashboard" : tab === "users" ? "Usuários" : "Feedbacks"}
+              {tab === "stats" ? "Dashboard" : tab === "users" ? "Usuários" : tab === "feedbacks" ? "Feedbacks" : "Contatos"}
             </button>
           ))}
         </div>
@@ -396,12 +436,12 @@ export default function AdminPage() {
             </span>
           )}
           <button
-            onClick={activeTab === "stats" ? fetchStats : activeTab === "users" ? fetchUsuarios : fetchFeedbacks}
-            disabled={activeTab === "stats" ? carregando : activeTab === "users" ? carregandoUsuarios : carregandoFeedbacks}
+            onClick={activeTab === "stats" ? fetchStats : activeTab === "users" ? fetchUsuarios : activeTab === "feedbacks" ? fetchFeedbacks : fetchContatos}
+            disabled={activeTab === "stats" ? carregando : activeTab === "users" ? carregandoUsuarios : activeTab === "feedbacks" ? carregandoFeedbacks : carregandoContatos}
             className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest
               text-slate-500 hover:text-black border-2 border-slate-200 hover:border-black
               px-3 py-1.5 rounded-lg transition-all disabled:opacity-40">
-            <RefreshCw size={11} className={(carregando || carregandoUsuarios || carregandoFeedbacks) ? "animate-spin" : ""} />
+            <RefreshCw size={11} className={(carregando || carregandoUsuarios || carregandoFeedbacks || carregandoContatos) ? "animate-spin" : ""} />
             Atualizar
           </button>
         </div>
@@ -956,6 +996,99 @@ export default function AdminPage() {
                         <CheckSquare size={11} className="text-emerald-400" /> Lido
                       </span>
                     )}
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* ── ABA: CONTATOS ── */}
+        {activeTab === "contatos" && (
+          <div className="bg-white border-2 border-black rounded-[2rem] p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+            <div className="flex items-center gap-3 mb-5 pb-4 border-b-2 border-slate-100">
+              <Mail size={15} className="text-blue-600" />
+              <h2 className="text-xs font-black uppercase tracking-widest text-blue-600">Mensagens de Contato</h2>
+              <span className="ml-auto text-[9px] font-bold text-slate-400">
+                {contatos.length} mensage{contatos.length === 1 ? "m" : "ns"}
+                {contatos.filter(c => !c.lido).length > 0 && (
+                  <span className="ml-1 text-blue-600">· {contatos.filter(c => !c.lido).length} nova{contatos.filter(c => !c.lido).length === 1 ? "" : "s"}</span>
+                )}
+              </span>
+            </div>
+
+            {erroContatos && (
+              <div className="bg-red-50 border border-red-200 rounded-xl p-3 text-xs font-bold text-red-700 mb-4">
+                {erroContatos}
+              </div>
+            )}
+
+            {carregandoContatos ? (
+              <div className="flex justify-center py-12">
+                <div className="w-6 h-6 border-4 border-blue-600 border-t-transparent rounded-full animate-spin" />
+              </div>
+            ) : contatos.length === 0 ? (
+              <p className="text-xs font-bold text-slate-400 text-center py-12">
+                Nenhuma mensagem de contato ainda.
+              </p>
+            ) : (
+              <div className="space-y-4">
+                {contatos.map(ct => (
+                  <div key={ct.id}
+                    className={`border-2 rounded-2xl p-5 transition-colors ${
+                      ct.lido ? "border-slate-100 bg-slate-50/50" : "border-blue-200 bg-blue-50/30"
+                    }`}>
+
+                    {/* Header */}
+                    <div className="flex items-start justify-between gap-4 mb-3">
+                      <div className="flex items-center gap-3 min-w-0">
+                        <div className="w-9 h-9 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white text-[11px] font-black shrink-0">
+                          {ct.nome ? ct.nome[0].toUpperCase() : "?"}
+                        </div>
+                        <div className="min-w-0">
+                          <p className="text-xs font-black text-slate-800 truncate">{ct.nome || "—"}</p>
+                          <a href={`mailto:${ct.email}`} className="text-[10px] font-bold text-blue-600 hover:underline truncate block">
+                            {ct.email}
+                          </a>
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-2 shrink-0">
+                        {ct.assunto && (
+                          <span className="text-[9px] font-black uppercase tracking-widest text-slate-600 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full">
+                            {ct.assunto}
+                          </span>
+                        )}
+                        <span className="text-[9px] font-bold text-slate-400 whitespace-nowrap">
+                          {ct.criadoEm ? new Date(ct.criadoEm).toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit", year: "2-digit", hour: "2-digit", minute: "2-digit" }) : "—"}
+                        </span>
+                        {!ct.lido && <span className="w-2 h-2 rounded-full bg-blue-500 shrink-0" />}
+                      </div>
+                    </div>
+
+                    {/* Mensagem */}
+                    <p className="text-xs font-medium text-slate-700 bg-white border border-slate-200 rounded-xl px-4 py-3 mb-3 leading-relaxed whitespace-pre-wrap">
+                      {ct.mensagem}
+                    </p>
+
+                    {/* Ações */}
+                    <div className="flex items-center gap-2">
+                      <a
+                        href={`mailto:${ct.email}?subject=${encodeURIComponent("Re: " + (ct.assunto || "Seu contato no 95porcento"))}`}
+                        className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest text-blue-600 hover:text-blue-800 border-2 border-blue-200 hover:border-blue-400 px-3 py-1.5 rounded-lg transition-all">
+                        <Mail size={11} /> Responder
+                      </a>
+                      {!ct.lido ? (
+                        <button
+                          onClick={() => marcarContatoLido(ct.id)}
+                          className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest text-slate-500 hover:text-black border-2 border-slate-200 hover:border-black px-3 py-1.5 rounded-lg transition-all">
+                          <CheckSquare size={11} /> Marcar como lido
+                        </button>
+                      ) : (
+                        <span className="flex items-center gap-1 text-[9px] font-bold text-slate-400">
+                          <CheckSquare size={11} className="text-emerald-400" /> Lido
+                        </span>
+                      )}
+                    </div>
                   </div>
                 ))}
               </div>
