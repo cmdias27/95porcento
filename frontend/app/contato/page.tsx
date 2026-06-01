@@ -7,6 +7,7 @@ import { useState, useEffect, Suspense } from "react";
 import { motion } from "framer-motion";
 import { ArrowLeft, Mail, Send, CheckCircle2, MessageSquare } from "lucide-react";
 import { apiFetch } from "@/lib/apiFetch";
+import { Marca } from "@/components/Marca";
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 
@@ -151,9 +152,7 @@ export default function ContatoPage() {
             <ArrowLeft size={13} /> Voltar
           </button>
           <span className="text-slate-200">|</span>
-          <span className="font-black text-lg leading-none tracking-tighter select-none">
-            <span className="text-black">95</span><span className="text-blue-500">%</span>
-          </span>
+          <Marca className="h-9 w-auto" />
         </div>
         <Link href="/ajuda"
           className="text-[9px] font-black uppercase tracking-widest text-slate-400 hover:text-black transition-colors">

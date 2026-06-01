@@ -6,6 +6,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, ShieldCheck, MessageSquarePlus, ArrowRight } from "lucide-react";
 import { SECOES_LEGAIS } from "@/data/legal";
+import { Marca } from "@/components/Marca";
 
 // Índices das seções legais em data/legal.ts
 const SECAO = { termos: 0, privacidade: 1, lgpd: 1 } as const;
@@ -33,9 +34,7 @@ export function Footer() {
 
             {/* ── Marca + proposta ── */}
             <div className="col-span-2 lg:col-span-2">
-              <span className="font-black text-2xl leading-none tracking-tighter select-none">
-                <span className="text-white">95</span><span className="text-blue-400">%</span>
-              </span>
+              <Marca className="h-12 w-auto" />
               <p className="text-sm font-bold text-slate-300 mt-3">Aprenda explicando.</p>
               <p className="text-xs font-medium text-slate-500 mt-2 max-w-xs leading-relaxed">
                 Você retém 95% do que ensina. Explique para a nossa IA e descubra

@@ -13,6 +13,7 @@ import {
   LogOut, ChevronDown, Menu, X, Zap,
 } from "lucide-react";
 import { FeedbackFloatante } from "@/components/FeedbackFloatante";
+import { Marca } from "@/components/Marca";
 
 // ─── Nav items ────────────────────────────────────────────────────────────────
 
@@ -239,9 +240,7 @@ export function AppHeader(props: AppHeaderProps) {
 
         {/* Left: Logo */}
         <div className="flex items-center shrink-0">
-          <span className="font-black text-xl leading-none tracking-tighter select-none">
-            <span className="text-black">95</span><span className="text-blue-500">%</span>
-          </span>
+          <Marca className="h-10 w-auto" />
         </div>
 
         {/* Center: Nav (desktop) */}

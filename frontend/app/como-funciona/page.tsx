@@ -3,6 +3,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { Marca } from "@/components/Marca";
 import {
   ArrowLeft, Mic, Swords, Brain, Target, TrendingUp,
   CheckCircle2, BookOpen, Zap, ChevronRight, Award,
@@ -102,9 +103,7 @@ export default function ComoFuncionaPage() {
             <ArrowLeft size={13} /> Voltar
           </button>
           <span className="text-slate-200">|</span>
-          <span className="font-black text-lg leading-none tracking-tighter select-none">
-            <span className="text-black">95</span><span className="text-blue-500">%</span>
-          </span>
+          <Marca className="h-9 w-auto" />
         </div>
         <Link href="/login"
           className="bg-black text-white px-5 py-2 rounded-xl font-black text-[9px] uppercase tracking-widest hover:bg-blue-600 transition-all">

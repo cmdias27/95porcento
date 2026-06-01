@@ -16,6 +16,7 @@ import { doc, setDoc, getDoc, serverTimestamp } from "firebase/firestore";
 import { Mail, Lock, LogIn, ArrowLeft, User, Eye, EyeOff, FileText, Cookie, Megaphone } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { TermosModal } from "@/components/TermosModal";
+import { Marca } from "@/components/Marca";
 
 // ─── Input com ícone ────────────────────────
 function Campo({
@@ -365,9 +366,7 @@ export default function LoginPage() {
 
           {/* Logo */}
           <div className="flex justify-center mb-6 md:mb-8">
-            <span className="font-black text-7xl md:text-9xl leading-none tracking-tighter select-none">
-              <span className="text-black">95</span><span className="text-blue-500">%</span>
-            </span>
+            <Marca className="h-24 md:h-28 w-auto" />
           </div>
 
           {/* Card principal */}

@@ -7,16 +7,7 @@ import { auth } from "@/lib/firebase";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { JORNADAS_ESTUDO } from "@/data/materias";
-
-// ─── Logo simples (só texto) ───────────────────────────────────
-function Marca() {
-  return (
-    <span className="font-black text-xl leading-none tracking-tighter select-none">
-      <span className="text-white">95</span>
-      <span className="text-blue-400">%</span>
-    </span>
-  );
-}
+import { Marca } from "@/components/Marca";
 
 // ─── Tipos ─────────────────────────────────────────────────────
 type Etapa = "jornada" | "assunto";
@@ -95,8 +86,8 @@ export default function LandingPage() {
     <div className="h-[100dvh] overflow-hidden flex flex-col bg-[#080808]">
 
       {/* ── Nav ───────────────────────────────────────────────── */}
-      <nav className="flex items-center justify-between px-5 md:px-10 h-14 shrink-0">
-        <Marca />
+      <nav className="flex items-center justify-between px-5 md:px-10 h-20 shrink-0">
+        <Marca className="h-16 w-auto" />
         <div className="flex items-center gap-1">
           <button
             onClick={() => router.push("/login")}
