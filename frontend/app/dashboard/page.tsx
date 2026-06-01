@@ -274,7 +274,7 @@ export default function DashboardPage() {
   );
 
   return (
-    <div className={`h-[100dvh] overflow-hidden flex flex-col transition-colors duration-300 ${flow === "chat" ? "bg-[#0A0F1E]" : "bg-[#F8FAFC]"}`}>
+    <div className={`flex flex-col transition-colors duration-300 ${flow === "chat" ? "min-h-[100dvh] bg-[#0A0F1E]" : "h-[100dvh] overflow-hidden bg-[#F8FAFC]"}`}>
       <AppHeader variant="default" />
 
       {!emailVerificado && !isGoogleUser && (
@@ -295,7 +295,7 @@ export default function DashboardPage() {
             <motion.div key="chat"
               initial={{ opacity: 0 }} animate={{ opacity: 1 }}
               exit={{ opacity: 0 }} transition={{ duration: 0.25 }}
-              className="flex-1 min-h-0 flex flex-col overflow-hidden">
+              className="flex-1 flex flex-col">
 
               {/* Dark hero section — compact */}
               <div className="shrink-0 flex flex-col justify-end px-5 pb-6 pt-10 max-w-2xl mx-auto w-full">
@@ -341,8 +341,8 @@ export default function DashboardPage() {
                 )}
               </div>
 
-              {/* White card — fills remaining space */}
-              <div className="bg-white rounded-t-[2rem] shadow-[0_-8px_40px_rgba(0,0,0,0.4)] flex-1 min-h-0 overflow-y-auto">
+              {/* White card — flui naturalmente na página (scroll único) */}
+              <div className="bg-white rounded-t-[2rem] shadow-[0_-8px_40px_rgba(0,0,0,0.4)] flex-1">
 
                 {/* Input — constrained width */}
                 <div className="max-w-2xl mx-auto px-5 pt-6 pb-5">

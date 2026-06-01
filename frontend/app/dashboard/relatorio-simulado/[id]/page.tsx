@@ -528,9 +528,6 @@ export default function RelatorioSimulado() {
       {/* ── CONTEÚDO ── */}
       <main className="max-w-7xl mx-auto px-4 md:px-8 pb-16">
 
-        {/* ── SEÇÃO: DNA DA BANCA ── */}
-        <DnaBanca dna={relatorio.dna_banca} banca={relatorio.banca_escolhida} accent="amber" />
-
         {/* ── SEÇÃO: AVALIAÇÃO POR FASE ── */}
         {avaliacoes.length > 0 && (
           <section className="py-10">
@@ -692,6 +689,9 @@ export default function RelatorioSimulado() {
             </section>
           </>
         )}
+
+        {/* ── SEÇÃO: DNA DA BANCA ── */}
+        <DnaBanca dna={relatorio.dna_banca} banca={relatorio.banca_escolhida} accent="amber" />
 
         {/* ── CTA ── */}
         <section className="py-10">

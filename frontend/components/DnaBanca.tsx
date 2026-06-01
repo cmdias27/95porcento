@@ -64,8 +64,14 @@ export function DnaBanca({ dna, banca, accent = "blue" }: {
           {/* Palavras-gatilho */}
           {(dna.palavras_gatilho?.length ?? 0) > 0 && (
             <div>
-              <p className="text-[9px] font-black uppercase tracking-widest text-slate-400 mb-2.5 flex items-center gap-1.5">
+              <p className="text-[9px] font-black uppercase tracking-widest text-slate-400 mb-2 flex items-center gap-1.5">
                 <Tag size={11} className={a.dot} /> Palavras-gatilho
+              </p>
+              <p className="text-xs font-medium text-slate-500 leading-relaxed mb-3">
+                A banca usa esses termos para criar afirmações extremas ou restritivas. Muitas vezes
+                basta uma delas — inserida, trocada ou retirada — para tornar a alternativa errada,
+                ainda que ela pareça correta à primeira leitura. Ao ver uma dessas palavras, redobre a
+                atenção e confirme se a regra realmente é absoluta.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {dna.palavras_gatilho!.map((p, i) => (

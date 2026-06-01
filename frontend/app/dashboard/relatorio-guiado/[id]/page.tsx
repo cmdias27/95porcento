@@ -356,9 +356,6 @@ export default function RelatorioGuiado() {
       {/* ── CONTEÚDO ── */}
       <main className="max-w-7xl mx-auto px-4 md:px-8 pb-16">
 
-        {/* ── SEÇÃO: DNA DA BANCA ── */}
-        <DnaBanca dna={relatorio.dna_banca} banca={relatorio.banca_escolhida} accent="purple" />
-
         {/* ── SEÇÃO: AVALIAÇÃO POR CICLO ── */}
         {ciclos.length > 0 && (
           <section className="py-10">
@@ -622,6 +619,9 @@ export default function RelatorioGuiado() {
             </section>
           </>
         )}
+
+        {/* ── SEÇÃO: DNA DA BANCA ── */}
+        <DnaBanca dna={relatorio.dna_banca} banca={relatorio.banca_escolhida} accent="purple" />
 
         {/* ── CTA ── */}
         <section className="py-10">

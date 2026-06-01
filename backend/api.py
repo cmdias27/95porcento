@@ -382,6 +382,11 @@ def _extrair_dna_banca(jornada: str, materia: str, tema: str) -> dict:
         elif isinstance(fp, str):
             estilo = fp.strip()
 
+        # Descarta placeholders não preenchidos do gerador (templates em forma de
+        # pergunta, ex.: "literal, doutrinária ou jurisprudencial?")
+        if estilo.endswith("?"):
+            estilo = ""
+
         micros = dados_tema.get("microtemas_mapeados", [])
         micros_ord = sorted(micros, key=lambda m: m.get("peso_percentual", 0), reverse=True)
         armadilhas = []

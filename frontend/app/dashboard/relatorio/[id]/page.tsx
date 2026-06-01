@@ -317,9 +317,6 @@ export default function RelatorioFinal() {
       {/* ── CONTENT ── */}
       <main className="max-w-7xl mx-auto px-4 md:px-8 pb-16 space-y-0">
 
-        {/* ── SEÇÃO: DNA DA BANCA ── */}
-        <DnaBanca dna={relatorio.dna_banca} banca={relatorio.banca_escolhida} accent="blue" />
-
         {/* ── SEÇÃO: CORREÇÃO DE ERROS ── */}
         {erros.length > 0 && (
           <section className="py-10">
@@ -640,6 +637,9 @@ export default function RelatorioFinal() {
             </div>
           </section>
         )}
+
+        {/* ── SEÇÃO: DNA DA BANCA ── */}
+        <DnaBanca dna={relatorio.dna_banca} banca={relatorio.banca_escolhida} accent="blue" />
 
         {/* ── CTA PRÓXIMA SESSÃO ── */}
         <section className="py-10">
