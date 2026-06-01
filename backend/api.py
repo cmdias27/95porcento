@@ -347,6 +347,64 @@ def _slugify(s: str) -> str:
 def _doc_id_perfil(user_id: str, jornada: str, materia: str, tema: str) -> str:
     return f"{user_id}_{_slugify(jornada)}_{_slugify(materia)}_{_slugify(tema)}"
 
+
+def _extrair_dna_banca(jornada: str, materia: str, tema: str) -> dict:
+    """Lê analise_estatica.json e retorna o 'DNA da Banca' do tema:
+    estilo de cobrança, palavras-gatilho e as armadilhas favoritas dos microtemas
+    (ordenadas por peso de incidência). Tudo curado offline — sem custo de IA.
+    """
+    try:
+        caminho = os.path.join(_pasta_materia(jornada, materia), "analise_estatica.json")
+        if not os.path.exists(caminho):
+            return {}
+        with open(caminho, 'r', encoding='utf-8') as f:
+            banco = json.load(f)
+
+        # Match do tema: exato → normalizado → prefixo
+        dados_tema = banco.get(tema, {})
+        if not dados_tema:
+            banco_norm = {_norm(k): v for k, v in banco.items()}
+            tema_norm = _norm(tema)
+            dados_tema = banco_norm.get(tema_norm, {})
+            if not dados_tema:
+                for chave_norm, val in banco_norm.items():
+                    if tema_norm.startswith(chave_norm) or chave_norm.startswith(tema_norm):
+                        dados_tema = val
+                        break
+        if not dados_tema:
+            return {}
+
+        fp = dados_tema.get("fingerprint_banca", {})
+        estilo, gatilhos = "", []
+        if isinstance(fp, dict):
+            estilo = (fp.get("estilo_cobranca") or "").strip()
+            gatilhos = fp.get("palavras_gatilho", []) or []
+        elif isinstance(fp, str):
+            estilo = fp.strip()
+
+        micros = dados_tema.get("microtemas_mapeados", [])
+        micros_ord = sorted(micros, key=lambda m: m.get("peso_percentual", 0), reverse=True)
+        armadilhas = []
+        for m in micros_ord:
+            arm = (m.get("armadilha_favorita") or "").strip()
+            if arm:
+                armadilhas.append({
+                    "microtema": (m.get("nome_microtema") or "").strip(),
+                    "armadilha": arm,
+                })
+        armadilhas = armadilhas[:5]
+
+        if not estilo and not armadilhas and not gatilhos:
+            return {}
+        return {
+            "estilo_cobranca":  estilo,
+            "palavras_gatilho": [str(g) for g in gatilhos][:12],
+            "armadilhas":       armadilhas,
+        }
+    except Exception as e:
+        print(f"⚠️ DNA da banca não extraído: {e}")
+        return {}
+
 # ---------------------------------------------------------------------------
 # Perfil Cognitivo — erros e omissões acumulados por sessão
 # ---------------------------------------------------------------------------
@@ -666,6 +724,7 @@ def avaliar_sessao_guiada_endpoint():
             "tema": tema,
             "banca_escolhida": banca,
             "faixa_salarial_alvo": faixa_salarial,
+            "dna_banca": _extrair_dna_banca(jornada, materia, tema),
             "resumo_geral": resultado_ia.get("resumo_geral", {}),
             "avaliacoes": avaliacoes,
             "omissoes": resultado_ia.get("omissoes", []),
@@ -791,6 +850,7 @@ def avaliar_sessao_simulada_endpoint():
             "tema": tema,
             "banca_escolhida": banca,
             "faixa_salarial_alvo": faixa_salarial,
+            "dna_banca": _extrair_dna_banca(jornada, materia, tema),
             "cenario": cenario,
             "resumo_geral": resultado_ia.get("resumo_geral", {}),
             "diagnostico_cognitivo": resultado_ia.get("diagnostico_cognitivo", {}),
@@ -1036,6 +1096,7 @@ def processar_e_salvar_auditoria():
             "tema": tema,
             "banca_escolhida": banca,
             "faixa_salarial_alvo": faixa_salarial,
+            "dna_banca": _extrair_dna_banca(jornada, materia, tema),
             "raciocinio_interno": resultado_ia.get("analise_mentor", ""),
             "erros_cometidos": erros_cometidos,
             "temas_nao_abordados": omissoes_com_questao,

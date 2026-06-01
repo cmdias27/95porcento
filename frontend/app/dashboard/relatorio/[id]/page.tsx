@@ -13,6 +13,7 @@ import { apiFetch } from "@/lib/apiFetch";
 import { doc, getDoc } from "firebase/firestore";
 import { motion, AnimatePresence } from "framer-motion";
 import { AppHeader } from "@/components/AppHeader";
+import { DnaBanca } from "@/components/DnaBanca";
 
 // ─── helpers ──────────────────────────────────────────────────────────────────
 
@@ -315,6 +316,9 @@ export default function RelatorioFinal() {
 
       {/* ── CONTENT ── */}
       <main className="max-w-7xl mx-auto px-4 md:px-8 pb-16 space-y-0">
+
+        {/* ── SEÇÃO: DNA DA BANCA ── */}
+        <DnaBanca dna={relatorio.dna_banca} banca={relatorio.banca_escolhida} accent="blue" />
 
         {/* ── SEÇÃO: CORREÇÃO DE ERROS ── */}
         {erros.length > 0 && (
