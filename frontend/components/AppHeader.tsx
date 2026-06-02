@@ -1,7 +1,7 @@
 // frontend/components/AppHeader.tsx
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
@@ -12,7 +12,7 @@ import {
   ArrowLeft, LayoutDashboard, History, User,
   LogOut, ChevronDown, Menu, X, Zap,
 } from "lucide-react";
-import { FeedbackFloatante } from "@/components/FeedbackFloatante";
+import { FeedbackFloatante, FEEDBACK_EVENT, FLAG_PRIMEIRA_EXPLICACAO } from "@/components/FeedbackFloatante";
 import { Marca } from "@/components/Marca";
 
 // ─── Nav items ────────────────────────────────────────────────────────────────
@@ -183,6 +183,26 @@ export function AppHeader(props: AppHeaderProps) {
   const pathname = usePathname();
   const [drawerOpen, setDrawerOpen] = useState(false);
 
+  // Ver um relatório = primeira explicação concluída → libera o feedback
+  useEffect(() => {
+    if (props.variant === "report" && typeof window !== "undefined") {
+      try { localStorage.setItem(FLAG_PRIMEIRA_EXPLICACAO, "1"); } catch {}
+    }
+  }, [props.variant]);
+
+  // "Voltar" do relatório: na primeira vez (e se ainda não enviou feedback),
+  // abre o formulário oferecendo 1 mês de acesso ilimitado antes de navegar.
+  const voltarDoRelatorio = () => {
+    if (typeof window !== "undefined"
+        && !localStorage.getItem("feedback_premium_done")
+        && !localStorage.getItem("feedback_voltar_ofertado")) {
+      localStorage.setItem("feedback_voltar_ofertado", "1");
+      window.dispatchEvent(new CustomEvent(FEEDBACK_EVENT, { detail: { redirect: "/dashboard" } }));
+      return;
+    }
+    router.push("/dashboard");
+  };
+
   // ── SESSION variant ──────────────────────────────────────────────────────
   if (props.variant === "session") {
     const { tema, subtitulo, onAbandonar, timer } = props;
@@ -210,10 +230,10 @@ export function AppHeader(props: AppHeaderProps) {
       <>
         <header className="w-full px-4 md:px-8 py-4 flex items-center justify-between border-b border-slate-200 bg-white/95 backdrop-blur-md sticky top-0 z-30 print:hidden">
           <div className="flex items-center gap-4">
-            <Link href="/dashboard"
+            <button onClick={voltarDoRelatorio}
               className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-black transition-colors">
               <ArrowLeft size={15} /> Voltar
-            </Link>
+            </button>
             {title && (
               <div className="hidden sm:block pl-4 border-l border-slate-200">
                 <p className="text-sm font-black text-slate-800 truncate max-w-xs">{title}</p>

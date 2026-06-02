@@ -2172,6 +2172,37 @@ def admin_reset_enriquecimento():
         return jsonify({"erro": str(e)}), 500
 
 
+@app.route('/api/admin/reset-stats', methods=['POST', 'OPTIONS'])
+@validar_token_firebase
+def admin_reset_stats():
+    """Apaga TODOS os eventos do sistema (zera as estatísticas de uso do painel).
+    Não remove usuários nem relatórios — apenas eventos_sistema."""
+    if request.method == 'OPTIONS':
+        return jsonify({}), 200
+    if not _is_admin(request):
+        return jsonify({"erro": "Acesso negado"}), 403
+    if not db:
+        return jsonify({"erro": "Banco de dados indisponível."}), 503
+    try:
+        col = db.collection("eventos_sistema")
+        apagados = 0
+        while True:
+            docs = list(col.limit(400).stream())
+            if not docs:
+                break
+            batch = db.batch()
+            for d in docs:
+                batch.delete(d.reference)
+            batch.commit()
+            apagados += len(docs)
+            if len(docs) < 400:
+                break
+        return jsonify({"ok": True, "apagados": apagados}), 200
+    except Exception as e:
+        print(f"❌ [LOG INTERNO] ERRO reset-stats: {e}")
+        return jsonify({"erro": str(e)}), 500
+
+
 if __name__ == '__main__':
     port = int(os.getenv("PORT", 5000))
     app.run(debug=False, host="0.0.0.0", port=port)

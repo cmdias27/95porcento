@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import { onAuthStateChanged, User } from "firebase/auth";
 import { doc, getDoc } from "firebase/firestore";
 import { auth, db } from "@/lib/firebase";
+import { premiumAtivo } from "@/lib/premium";
 
 export type UserContext = {
   user: User | null;
@@ -33,7 +34,7 @@ export function useUserContext(): UserContext {
         if (snap.exists()) {
           const data = snap.data();
           setNome(data.nome || u.displayName?.split(" ")[0] || "Estudante");
-          setPremium(data.premium ?? false);
+          setPremium(premiumAtivo({ premium: data.premium ?? false, premium_expiracao: data.premium_expiracao ?? null }));
           setJornada(data.jornada || "concurso");
           setNivel(data.nivel_padrao || "Intermediario");
           setBanca(data.banca_padrao || "Livre");

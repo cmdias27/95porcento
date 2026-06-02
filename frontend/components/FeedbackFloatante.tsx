@@ -2,9 +2,16 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Send, CheckCircle2, Gift } from "lucide-react";
 import { apiFetch } from "@/lib/apiFetch";
+
+// Evento global para abrir o feedback programaticamente (ex.: botão "Voltar" do 1º relatório).
+// detail.redirect (opcional): rota para navegar ao fechar o modal.
+export const FEEDBACK_EVENT = "abrir-feedback";
+// Marca, no localStorage, que o usuário já concluiu a primeira explicação.
+export const FLAG_PRIMEIRA_EXPLICACAO = "ja_explicou";
 
 const PERGUNTAS_BINARIAS = [
   { id: "confuso",     texto: "Você ficou confuso em algum momento no site?" },
@@ -21,6 +28,7 @@ const API_BASE    = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 const STORAGE_KEY = "feedback_premium_done";
 
 export function FeedbackFloatante() {
+  const router = useRouter();
   const [visible,   setVisible]   = useState(false);
   const [open,      setOpen]      = useState(false);
   const [respostas, setRespostas] = useState<Record<string, string>>({});
@@ -28,12 +36,25 @@ export function FeedbackFloatante() {
   const [faltando,  setFaltando]  = useState("");
   const [enviando,  setEnviando]  = useState(false);
   const [resultado, setResultado] = useState<{ recompensa: boolean } | null>(null);
+  const [redirectAoFechar, setRedirectAoFechar] = useState<string | null>(null);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    if (localStorage.getItem(STORAGE_KEY)) return;
-    const t = setTimeout(() => setVisible(true), 4000);
-    return () => clearTimeout(t);
+    if (localStorage.getItem(STORAGE_KEY)) return; // já enviou → nada a fazer
+
+    // Botão flutuante só fica disponível após a primeira explicação
+    if (localStorage.getItem(FLAG_PRIMEIRA_EXPLICACAO) === "1") setVisible(true);
+
+    // Abertura programática (ex.: "Voltar" do primeiro relatório)
+    const onAbrir = (e: Event) => {
+      if (localStorage.getItem(STORAGE_KEY)) return;
+      const detail = (e as CustomEvent).detail || {};
+      setVisible(true);
+      setOpen(true);
+      if (detail.redirect) setRedirectAoFechar(detail.redirect);
+    };
+    window.addEventListener(FEEDBACK_EVENT, onAbrir as EventListener);
+    return () => window.removeEventListener(FEEDBACK_EVENT, onAbrir as EventListener);
   }, []);
 
   const responder = (id: string, valor: string) =>
@@ -67,6 +88,11 @@ export function FeedbackFloatante() {
   const fechar = () => {
     setOpen(false);
     if (resultado) setVisible(false);
+    if (redirectAoFechar) {
+      const destino = redirectAoFechar;
+      setRedirectAoFechar(null);
+      router.push(destino);
+    }
   };
 
   if (!visible) return null;
@@ -92,7 +118,7 @@ export function FeedbackFloatante() {
               🎁
             </motion.span>
             <div className="text-left leading-none">
-              <p className="text-[11px] font-black tracking-tight">Ganhe 1 mês Premium</p>
+              <p className="text-[11px] font-black tracking-tight">Ganhe 1 mês ilimitado</p>
               <p className="text-[9px] font-semibold opacity-75 mt-[3px]">Envie seu feedback</p>
             </div>
           </motion.button>
@@ -127,11 +153,11 @@ export function FeedbackFloatante() {
                   </motion.div>
                   <div>
                     <p className="text-lg font-black text-slate-900">
-                      {resultado.recompensa ? "1 mês Premium ativado! 🎉" : "Obrigado pelo feedback!"}
+                      {resultado.recompensa ? "1 mês ilimitado ativado! 🎉" : "Obrigado pelo feedback!"}
                     </p>
                     <p className="text-sm text-slate-500 mt-1 leading-snug">
                       {resultado.recompensa
-                        ? "Seu acesso premium foi estendido por 30 dias. Aproveite!"
+                        ? "Seu acesso ilimitado foi estendido por 30 dias. Aproveite!"
                         : "Suas respostas nos ajudam a melhorar o produto."}
                     </p>
                   </div>
@@ -154,8 +180,8 @@ export function FeedbackFloatante() {
                           Recompensa
                         </span>
                       </div>
-                      <h3 className="text-lg font-black text-slate-900 leading-tight">Ganhe 1 mês Premium</h3>
-                      <p className="text-xs text-slate-500 mt-0.5">1 minuto · suas respostas nos ajudam muito.</p>
+                      <h3 className="text-lg font-black text-slate-900 leading-tight">Ganhe 1 mês de acesso ilimitado</h3>
+                      <p className="text-xs text-slate-500 mt-0.5">Preencha em 1 minuto e ganhe 30 dias ilimitados.</p>
                     </div>
                     <button onClick={fechar} className="text-slate-400 hover:text-black transition-colors shrink-0 mt-1">
                       <X size={18} />
@@ -231,7 +257,7 @@ export function FeedbackFloatante() {
                   >
                     {enviando
                       ? <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                      : <><Gift size={13} /> Enviar e ativar Premium</>}
+                      : <><Gift size={13} /> Enviar e ativar 1 mês grátis</>}
                   </button>
                 </div>
               )}

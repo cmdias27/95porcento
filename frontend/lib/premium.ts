@@ -21,6 +21,19 @@ export interface PerfilUsuario {
 export const LIMITE_SESSOES_GRATUITAS = 5;
 
 // ---------------------------------------------------------------------------
+// Premium ativo — considera a data de expiração
+// (sem expiração = premium permanente; usado por contas legadas / admin)
+// ---------------------------------------------------------------------------
+
+export function premiumAtivo(
+  perfil: { premium?: boolean; premium_expiracao?: string | null },
+): boolean {
+  if (!perfil.premium) return false;
+  if (!perfil.premium_expiracao) return true;
+  return new Date(perfil.premium_expiracao).getTime() > Date.now();
+}
+
+// ---------------------------------------------------------------------------
 // Perfil do usuário — leitura com fallback seguro para usuários antigos
 // ---------------------------------------------------------------------------
 
@@ -87,7 +100,7 @@ export async function verificarRenovacaoSemanal(uid: string): Promise<PerfilUsua
 // ---------------------------------------------------------------------------
 
 export function podeIniciarSessao(perfil: PerfilUsuario): boolean {
-  if (perfil.premium) return true;
+  if (premiumAtivo(perfil)) return true;
   return perfil.sessoes_semanais_usadas < LIMITE_SESSOES_GRATUITAS;
 }
 
@@ -98,7 +111,7 @@ export function podeIniciarSessao(perfil: PerfilUsuario): boolean {
 export async function incrementarSessaoUsada(uid: string): Promise<void> {
   const ref    = doc(db, "usuarios", uid);
   const perfil = await getPerfilUsuario(uid);
-  if (perfil.premium) return; // ilimitado
+  if (premiumAtivo(perfil)) return; // ilimitado enquanto premium vigente
   await updateDoc(ref, {
     sessoes_semanais_usadas: perfil.sessoes_semanais_usadas + 1,
   });

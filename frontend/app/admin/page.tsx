@@ -7,7 +7,7 @@ import {
   Users, Activity, Zap, DollarSign, RefreshCw,
   ArrowLeft, TrendingUp, BarChart2, BookOpen, Clock,
   Mic, Timer, RotateCcw, Repeat2, AlertOctagon, FileText,
-  Search, Crown, Key, MessageSquare, CheckSquare, Download, Mail,
+  Search, Crown, Key, MessageSquare, CheckSquare, Download, Mail, Trash2,
 } from "lucide-react";
 import { auth, db } from "@/lib/firebase";
 import { onAuthStateChanged } from "firebase/auth";
@@ -154,6 +154,7 @@ export default function AdminPage() {
   const [carregando, setCarregando] = useState(false);
   const [ultimaAtual, setUltimaAtual] = useState<string>("");
   const [erro, setErro]         = useState("");
+  const [resetando, setResetando] = useState(false);
 
   // ── Abas ─────────────────────────────────────────────────────────────────
   const [activeTab,          setActiveTab]          = useState<"stats" | "users" | "feedbacks" | "contatos">("stats");
@@ -234,6 +235,25 @@ export default function AdminPage() {
   useEffect(() => {
     if (autorizado && uid) fetchStats();
   }, [autorizado, uid, fetchStats]);
+
+  const resetarStats = async () => {
+    if (!window.confirm(
+      "Apagar TODAS as estatísticas de uso (sessões, tokens, engajamento)?\n\n" +
+      "Esta ação é IRREVERSÍVEL. Usuários e relatórios NÃO são afetados."
+    )) return;
+    setResetando(true);
+    try {
+      const res = await apiFetch(`${API}/api/admin/reset-stats`, { method: "POST" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      await fetchStats();
+      alert(`Estatísticas resetadas. ${data.apagados ?? 0} eventos apagados.`);
+    } catch (e: any) {
+      alert(`Erro ao resetar: ${e.message}`);
+    } finally {
+      setResetando(false);
+    }
+  };
 
   const fetchUsuarios = useCallback(async () => {
     setCarregandoUsuarios(true);
@@ -434,6 +454,17 @@ export default function AdminPage() {
             <span className="text-[9px] font-bold text-slate-400 hidden md:block">
               Atualizado às {ultimaAtual}
             </span>
+          )}
+          {activeTab === "stats" && (
+            <button
+              onClick={resetarStats}
+              disabled={resetando}
+              className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest
+                text-red-500 hover:text-white border-2 border-red-200 hover:bg-red-500 hover:border-red-500
+                px-3 py-1.5 rounded-lg transition-all disabled:opacity-40">
+              <Trash2 size={11} className={resetando ? "animate-pulse" : ""} />
+              {resetando ? "Resetando..." : "Resetar stats"}
+            </button>
           )}
           <button
             onClick={activeTab === "stats" ? fetchStats : activeTab === "users" ? fetchUsuarios : activeTab === "feedbacks" ? fetchFeedbacks : fetchContatos}

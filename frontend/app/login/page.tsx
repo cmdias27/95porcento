@@ -184,12 +184,15 @@ export default function LoginPage() {
     try {
       const cred = await createUserWithEmailAndPassword(auth, email, senha);
       await updateProfile(cred.user, { displayName: nome.trim() });
+      const expiracao7d = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString();
       await setDoc(doc(db, "usuarios", cred.user.uid), {
         nome: nome.trim(),
         email: cred.user.email,
         uid: cred.user.uid,
         criadoEm: serverTimestamp(),
+        criado_em: new Date().toISOString(),
         premium: true,
+        premium_expiracao: expiracao7d,
         loginProvider: "email",
         consentimentos: {
           termos: true,
@@ -214,14 +217,24 @@ export default function LoginPage() {
     setCarregando(true);
     try {
       const result = await signInWithPopup(auth, googleProvider);
-      await setDoc(doc(db, "usuarios", result.user.uid), {
+      const ref = doc(db, "usuarios", result.user.uid);
+      const jaExiste = (await getDoc(ref)).exists();
+      // Dados base atualizados em todo login
+      const base: Record<string, unknown> = {
         nome: result.user.displayName || "",
         email: result.user.email || "",
         uid: result.user.uid,
         ultimoAcesso: serverTimestamp(),
-        premium: true,
         loginProvider: "google",
-      }, { merge: true });
+      };
+      // Novo usuário → 7 dias de acesso ilimitado (não sobrescreve quem já tem conta)
+      if (!jaExiste) {
+        base.premium = true;
+        base.premium_expiracao = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString();
+        base.criadoEm = serverTimestamp();
+        base.criado_em = new Date().toISOString();
+      }
+      await setDoc(ref, base, { merge: true });
       await rotearAposAuth(result.user.uid, router);
     } catch (err: any) {
       setErro(erroFirebase(err.code));
