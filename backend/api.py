@@ -250,81 +250,99 @@ def _banca_match(banca_questao: str, banca_aluno: str) -> bool:
             return True
     return False
 
-def _score_relevancia(questao: dict, topico: str, tema: str = "") -> int:
-    """Pontua a pertinência de uma questão ao tópico específico e ao tema geral.
-    Retorna 0 quando não há pertinência real, evitando falsos-positivos.
+_PALAVRAS_GENERICAS = {
+    "direito", "administrativo", "administrativa", "administrativos", "administrativas",
+    "publico", "publica", "publicos", "publicas", "estado", "lei", "leis", "geral",
+    "constitucional", "processual", "processo", "norma", "normas", "juridico", "juridica",
+}
+
+
+def _palavras_sig(texto_norm: str, remover_genericas: bool = False) -> set:
+    """Palavras significativas (>3 letras), opcionalmente sem termos genéricos do domínio."""
+    palavras = {p for p in texto_norm.split() if len(p) > 3}
+    if remover_genericas:
+        palavras -= _PALAVRAS_GENERICAS
+    return palavras
+
+
+def _assunto_casa_tema(assunto: str, tema_norm: str, palavras_tema: set) -> bool:
+    """True se o `assunto` da questão corresponde ao tema do relatório.
+    Âncora forte: igualdade, contenção, ou overlap da maioria das palavras
+    significativas (ignorando termos genéricos do domínio para evitar vazamento
+    entre assuntos vizinhos, ex.: 'Atos Administrativos' x 'Contratos Administrativos').
     """
-    if not topico:
-        return 0
+    a = _norm(assunto)
+    if not a or not tema_norm:
+        return False
+    if a == tema_norm:
+        return True
+    # Contenção por PALAVRAS (não por substring de caracteres, que causaria
+    # falso-positivo: "atos administrativos" ⊂ "contratos administrativos").
+    tok_tema, tok_assunto = set(tema_norm.split()), set(a.split())
+    if tok_tema and (tok_tema <= tok_assunto or tok_assunto <= tok_tema):
+        return True
+    if not palavras_tema:
+        return False
+    palavras_assunto = _palavras_sig(a, remover_genericas=True)
+    overlap = len(palavras_tema & palavras_assunto)
+    # exige a maioria das palavras específicas do tema (mín. 2) para considerar match
+    return overlap >= max(2, round(0.6 * len(palavras_tema)))
+
+
+def _score_topico(questao: dict, topico: str) -> int:
+    """Prioriza, DENTRO do tema, as questões mais ligadas ao tópico específico
+    do erro/omissão. Não exclui questões — apenas ordena (já estão todas no tema)."""
     topico_norm = _norm(topico)
-    palavras_topico = {p for p in topico_norm.split() if len(p) > 3}
-    if not palavras_topico:
+    palavras = _palavras_sig(topico_norm)
+    if not palavras:
         return 0
-
     assunto_norm = _norm(questao.get("assunto", ""))
-
-    # Tier 1 — correspondência direta com o campo assunto (sinal mais forte)
-    if assunto_norm:
-        if topico_norm == assunto_norm or topico_norm in assunto_norm:
-            return 100
-        # Inverso: assunto contido no tópico (ex.: assunto="Legalidade", tópico="Princípio da Legalidade")
-        if assunto_norm in topico_norm and len(assunto_norm) > 5:
-            return 80
-        palavras_assunto = {p for p in assunto_norm.split() if len(p) > 3}
-        overlap_topico = len(palavras_topico & palavras_assunto)
-        if overlap_topico > 0:
-            return overlap_topico * 10  # sinal forte por palavra coincidente no assunto
-
-    # Tier 2 — correspondência com o tema geral (relevância mais ampla)
-    if tema:
-        tema_norm = _norm(tema)
-        if assunto_norm:
-            if tema_norm == assunto_norm or tema_norm in assunto_norm or assunto_norm in tema_norm:
-                return 20
-            palavras_tema = {p for p in tema_norm.split() if len(p) > 3}
-            if palavras_tema:
-                palavras_assunto2 = {p for p in assunto_norm.split() if len(p) > 3}
-                overlap_tema = len(palavras_tema & palavras_assunto2)
-                if overlap_tema > 0:
-                    return overlap_tema * 5
-
-    # Tier 3 — busca por palavra exata no enunciado + comentário (fallback)
-    # Usa conjunto de palavras (não substring) para evitar falsos-positivos
-    palavras_texto = set(_norm(
-        questao.get("enunciado", "") + " " + questao.get("comentario", "")
-    ).split())
-    keywords_encontradas = len(palavras_topico & palavras_texto)
-    if keywords_encontradas >= 2:  # mínimo 2 palavras coincidentes para aceitar
-        return keywords_encontradas
-    return 0
+    # match direto no assunto vale mais
+    if topico_norm and (topico_norm in assunto_norm or assunto_norm in topico_norm) and assunto_norm:
+        return 100
+    texto = _norm(
+        questao.get("assunto", "") + " " +
+        questao.get("enunciado", "") + " " +
+        questao.get("comentario", "")
+    )
+    return len(palavras & set(texto.split()))
 
 
 def _sortear_questao(pool: list, banca_aluno: str, ids_usados: set, topico: str = "", tema: str = "") -> dict | None:
-    """Retorna a questão mais pertinente ao tópico específico dentro do pool.
-    Retorna None quando nenhuma questão do banco atende ao critério de relevância
-    (o frontend deve exibir apenas a questão autoral gerada pela IA).
+    """Retorna uma questão real PERTINENTE AO TEMA do relatório.
+
+    Estratégia (definitiva):
+      1. Âncora por tema: filtra o pool só para questões cujo campo `assunto`
+         corresponde ao tema. Garante pertinência temática.
+      2. Refina por tópico específico (erro/omissão) apenas como prioridade,
+         sem nunca trazer questão de fora do tema.
+      3. Se o banco não tem o tema → None (frontend mostra só a questão autoral).
     """
     if not pool:
         return None
 
-    por_banca = [q for q in pool if _banca_match(q.get("banca", ""), banca_aluno)]
-    fonte = por_banca if por_banca else pool
+    # 1) ÂNCORA POR TEMA — prioriza o assunto IDÊNTICO ao tema; só usa correspondência
+    #    aproximada como fallback (evita misturar temas distintos da mesma matéria,
+    #    ex.: "Administração Pública" x "Princípios da Administração Pública").
+    tema_norm = _norm(tema)
+    do_tema = [q for q in pool if _norm(q.get("assunto", "")) == tema_norm] if tema_norm else []
+    if not do_tema:
+        palavras_tema = _palavras_sig(tema_norm, remover_genericas=True)
+        do_tema = [q for q in pool if _assunto_casa_tema(q.get("assunto", ""), tema_norm, palavras_tema)]
+    if not do_tema:
+        return None  # banco não cobre este tema → só autoral
 
-    candidatos = [q for q in fonte if q.get("id") not in ids_usados]
-    if not candidatos:
-        candidatos = fonte
+    # 2) Banca preferida + exclui já usadas (sempre dentro do tema)
+    por_banca = [q for q in do_tema if _banca_match(q.get("banca", ""), banca_aluno)]
+    fonte = por_banca if por_banca else do_tema
+    candidatos = [q for q in fonte if q.get("id") not in ids_usados] or fonte
 
-    if topico or tema:
-        scores = [(q, _score_relevancia(q, topico, tema)) for q in candidatos]
-        # Limiar mínimo de pertinência — evita retornar questão sem relação real
-        LIMIAR = 5
-        pos_scored = sorted([(q, s) for q, s in scores if s >= LIMIAR], key=lambda x: x[1], reverse=True)
-        if not pos_scored:
-            return None  # sem questão pertinente — frontend usa só a autoral
-        top_score = pos_scored[0][1]
-        best = [q for q, s in pos_scored if s == top_score]
-        pool_final = best if len(best) >= 3 else [q for q, _ in pos_scored[:max(len(best), 3)]]
-        escolhida = random.choice(pool_final)
+    # 3) Refino por tópico específico — prioriza, mas mantém-se no tema
+    if topico:
+        scores = [(q, _score_topico(q, topico)) for q in candidatos]
+        melhor = max(s for _, s in scores)
+        top = [q for q, s in scores if s == melhor] if melhor > 0 else candidatos
+        escolhida = random.choice(top)
     else:
         escolhida = random.choice(candidatos)
 
