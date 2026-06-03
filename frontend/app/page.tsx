@@ -83,7 +83,7 @@ export default function LandingPage() {
   const naEtapaAssunto = etapa === "assunto";
 
   return (
-    <div className="h-[100dvh] overflow-hidden flex flex-col bg-[#080808]">
+    <div className="min-h-[100dvh] md:h-[100dvh] md:overflow-hidden flex flex-col bg-[#080808]">
 
       {/* ── Nav ───────────────────────────────────────────────── */}
       <nav className="flex items-center justify-between px-5 md:px-10 h-20 shrink-0">
@@ -105,7 +105,7 @@ export default function LandingPage() {
       </nav>
 
       {/* ── Hero — oculto no mobile quando na etapa de assunto ── */}
-      <section className={`flex-col justify-end px-5 md:px-16 pb-10 md:pb-14 pt-6 w-full max-w-5xl mx-auto ${naEtapaAssunto ? "hidden" : "flex flex-1 min-h-0"}`}>
+      <section className={`flex-col justify-end px-5 md:px-16 pb-10 md:pb-14 pt-6 w-full max-w-5xl mx-auto ${naEtapaAssunto ? "hidden" : "flex md:flex-1 md:min-h-0"}`}>
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
@@ -139,16 +139,16 @@ export default function LandingPage() {
         initial={{ y: 40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.35, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className={`bg-white rounded-t-[2rem] md:rounded-t-[2.5rem] w-full shadow-[0_-8px_60px_rgba(0,0,0,0.45)] flex flex-col ${naEtapaAssunto ? "flex-1 min-h-0 overflow-hidden" : ""}`}
+        className={`bg-white rounded-t-[2rem] md:rounded-t-[2.5rem] w-full shadow-[0_-8px_60px_rgba(0,0,0,0.45)] flex flex-col ${naEtapaAssunto ? "md:flex-1 md:min-h-0 md:overflow-hidden" : ""}`}
       >
-        <div className="max-w-3xl mx-auto w-full px-5 md:px-12 pt-8 md:pt-10 flex flex-col flex-1 min-h-0">
+        <div className="max-w-3xl mx-auto w-full px-5 md:px-12 pt-8 md:pt-10 flex flex-col md:flex-1 md:min-h-0">
 
           <p className="text-xl md:text-2xl font-black text-black mb-7 shrink-0">
             Olá! O que quer fixar hoje?
           </p>
 
           {/* Scrollable form area */}
-          <div className={`${naEtapaAssunto ? "flex-1 min-h-0 overflow-y-auto" : ""}`}>
+          <div className={`${naEtapaAssunto ? "md:flex-1 md:min-h-0 md:overflow-y-auto" : ""}`}>
             <AnimatePresence mode="wait">
 
               {/* ───── ETAPA 1: JORNADA ───── */}
