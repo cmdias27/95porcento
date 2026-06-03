@@ -23,6 +23,7 @@ export default function LandingPage() {
   const router = useRouter();
 
   const [authChecked, setAuthChecked] = useState(false);
+  const [logado, setLogado]           = useState(false);
   const [etapa, setEtapa]             = useState<Etapa>("jornada");
   const [jornada, setJornada]         = useState("");
   const [usarTexto, setUsarTexto]     = useState(true);
@@ -32,9 +33,14 @@ export default function LandingPage() {
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => {
+    // ?home=1 (clique na logo) → mostra a landing mesmo logado;
+    // acesso direto a "/" logado continua indo para o dashboard.
+    const verHome = typeof window !== "undefined"
+      && new URLSearchParams(window.location.search).get("home") === "1";
     const unsub = onAuthStateChanged(auth, (user) => {
-      if (user) router.replace("/dashboard");
-      else setAuthChecked(true);
+      if (user && !verHome) { router.replace("/dashboard"); return; }
+      setLogado(!!user);
+      setAuthChecked(true);
     });
     return () => unsub();
   }, [router]);
@@ -89,18 +95,29 @@ export default function LandingPage() {
       <nav className="flex items-center justify-between px-5 md:px-10 h-20 shrink-0">
         <Marca className="h-16 w-auto" />
         <div className="flex items-center gap-1">
-          <button
-            onClick={() => router.push("/login")}
-            className="text-[11px] font-black uppercase tracking-widest text-slate-500 hover:text-white px-4 py-2 transition-colors"
-          >
-            Entrar
-          </button>
-          <button
-            onClick={() => router.push("/login")}
-            className="text-[11px] font-black uppercase tracking-widest bg-white text-black px-4 py-2.5 rounded-xl hover:bg-blue-500 hover:text-white transition-colors"
-          >
-            Criar conta
-          </button>
+          {logado ? (
+            <button
+              onClick={() => router.push("/dashboard")}
+              className="text-[11px] font-black uppercase tracking-widest bg-white text-black px-4 py-2.5 rounded-xl hover:bg-blue-500 hover:text-white transition-colors"
+            >
+              Ir para o Dashboard
+            </button>
+          ) : (
+            <>
+              <button
+                onClick={() => router.push("/login")}
+                className="text-[11px] font-black uppercase tracking-widest text-slate-500 hover:text-white px-4 py-2 transition-colors"
+              >
+                Entrar
+              </button>
+              <button
+                onClick={() => router.push("/login")}
+                className="text-[11px] font-black uppercase tracking-widest bg-white text-black px-4 py-2.5 rounded-xl hover:bg-blue-500 hover:text-white transition-colors"
+              >
+                Criar conta
+              </button>
+            </>
+          )}
         </div>
       </nav>
 

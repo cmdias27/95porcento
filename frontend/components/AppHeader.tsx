@@ -258,10 +258,10 @@ export function AppHeader(props: AppHeaderProps) {
 
       <header className="w-full h-14 px-4 md:px-6 flex items-center justify-between bg-white/95 backdrop-blur-md border-b border-slate-200 shrink-0 sticky top-0 z-30 shadow-sm">
 
-        {/* Left: Logo */}
-        <div className="flex items-center shrink-0">
+        {/* Left: Logo → página inicial */}
+        <Link href="/?home=1" aria-label="Página inicial" className="flex items-center shrink-0 hover:opacity-80 transition-opacity">
           <Marca className="h-10 w-auto" />
-        </div>
+        </Link>
 
         {/* Center: Nav (desktop) */}
         <nav className="hidden md:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">
