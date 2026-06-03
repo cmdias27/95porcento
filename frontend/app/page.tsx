@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { JORNADAS_ESTUDO } from "@/data/materias";
 import { Marca } from "@/components/Marca";
+import { ParticleNetwork } from "@/components/ParticleNetwork";
 
 // ─── Tipos ─────────────────────────────────────────────────────
 type Etapa = "jornada" | "assunto";
@@ -89,10 +90,13 @@ export default function LandingPage() {
   const naEtapaAssunto = etapa === "assunto";
 
   return (
-    <div className="min-h-[100dvh] md:h-[100dvh] md:overflow-hidden flex flex-col bg-[#080808]">
+    <div className="relative min-h-[100dvh] md:h-[100dvh] md:overflow-hidden flex flex-col bg-[#080808]">
+
+      {/* Fundo de partículas (rede neural) — só na área escura */}
+      <ParticleNetwork />
 
       {/* ── Nav ───────────────────────────────────────────────── */}
-      <nav className="flex items-center justify-between px-5 md:px-10 h-20 shrink-0">
+      <nav className="relative z-10 flex items-center justify-between px-5 md:px-10 h-20 shrink-0">
         <Marca className="h-16 w-auto" />
         <div className="flex items-center gap-1">
           {logado ? (
@@ -122,17 +126,13 @@ export default function LandingPage() {
       </nav>
 
       {/* ── Hero — oculto no mobile quando na etapa de assunto ── */}
-      <section className={`flex-col justify-end px-5 md:px-16 pb-10 md:pb-14 pt-6 w-full max-w-5xl mx-auto ${naEtapaAssunto ? "hidden" : "flex md:flex-1 md:min-h-0"}`}>
+      <section className={`relative z-10 flex-col justify-end px-5 md:px-16 pb-12 md:pb-20 pt-2 w-full max-w-5xl mx-auto ${naEtapaAssunto ? "hidden" : "flex md:flex-1 md:min-h-0"}`}>
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="space-y-5"
         >
-          <p className="text-[10px] font-black uppercase tracking-[0.4em] text-blue-500">
-            Estudo Ativo com IA
-          </p>
-
           <h1 className="text-[clamp(2.4rem,6vw,4.5rem)] font-black text-white leading-[1.06] tracking-tight">
             Você está realmente<br />
             preparado para<br />
@@ -156,7 +156,7 @@ export default function LandingPage() {
         initial={{ y: 40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.35, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className={`bg-white rounded-t-[2rem] md:rounded-t-[2.5rem] w-full shadow-[0_-8px_60px_rgba(0,0,0,0.45)] flex flex-col ${naEtapaAssunto ? "md:flex-1 md:min-h-0 md:overflow-hidden" : ""}`}
+        className={`relative z-10 bg-white rounded-t-[2rem] md:rounded-t-[2.5rem] w-full shadow-[0_-8px_60px_rgba(0,0,0,0.45)] flex flex-col ${naEtapaAssunto ? "md:flex-1 md:min-h-0 md:overflow-hidden" : ""}`}
       >
         <div className="max-w-3xl mx-auto w-full px-5 md:px-12 pt-8 md:pt-10 flex flex-col md:flex-1 md:min-h-0">
 

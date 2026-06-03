@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rede de Partículas Interativa</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #000;        /* fundo preto */
+    }
+
+    /* canvas transparente por cima do fundo */
+    #network {
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: block;
+      background: transparent;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="network"></canvas>
+
+  <script>
+  (function () {
+    'use strict';
+
+    const canvas = document.getElementById('network');
+    const ctx = canvas.getContext('2d');
+
+    // ---------- Configuração ----------
+    const CONFIG = {
+      density:        9000,   // 1 partícula a cada N pixels (menor = mais partículas)
+      maxParticles:   180,    // teto de partículas
+      linkDistance:   130,    // distância máx. para desenhar uma linha
+      mouseRadius:    180,    // raio de influência do mouse
+      attraction:     0.04,   // intensidade da atração ao mouse
+      friction:       0.92,   // amortecimento da velocidade
+      baseSpeed:      0.35,   // velocidade de flutuação livre
+      pointColor:     '180, 210, 255',
+      lineColor:      '120, 170, 255'
+    };
+
+    let width, height, particles = [];
+    const mouse = { x: null, y: null, active: false };
+    const DPR = window.devicePixelRatio || 1;
+
+    // ---------- Partícula ----------
+    function Particle(x, y) {
+      this.x = x;
+      this.y = y;
+      this.vx = (Math.random() - 0.5) * CONFIG.baseSpeed;
+      this.vy = (Math.random() - 0.5) * CONFIG.baseSpeed;
+      this.radius = 1.5 + Math.random() * 1.5;
+      this.pulsePhase = Math.random() * Math.PI * 2;   // fase para pulsar
+      this.pulseSpeed = 0.02 + Math.random() * 0.03;
+    }
+
+    Particle.prototype.update = function () {
+      // Atração suave em direção ao mouse
+      if (mouse.active) {
+        const dx = mouse.x - this.x;
+        const dy = mouse.y - this.y;
+        const dist = Math.hypot(dx, dy);
+        if (dist < CONFIG.mouseRadius && dist > 0) {
+          const force = (1 - dist / CONFIG.mouseRadius) * CONFIG.attraction;
+          this.vx += (dx / dist) * force;
+          this.vy += (dy / dist) * force;
+        }
+      }
+
+      // Flutuação: garante movimento mínimo mesmo com o mouse parado
+      this.vx += (Math.random() - 0.5) * 0.04;
+      this.vy += (Math.random() - 0.5) * 0.04;
+
+      // Amortecimento
+      this.vx *= CONFIG.friction;
+      this.vy *= CONFIG.friction;
+
+      // Limite mínimo de velocidade para nunca congelar
+      const minSpeed = 0.15;
+      if (Math.hypot(this.vx, this.vy) < minSpeed) {
+        this.vx += (Math.random() - 0.5) * 0.1;
+        this.vy += (Math.random() - 0.5) * 0.1;
+      }
+
+      this.x += this.vx;
+      this.y += this.vy;
+
+      // Rebote nas bordas
+      if (this.x < 0)      { this.x = 0;      this.vx *= -1; }
+      if (this.x > width)  { this.x = width;  this.vx *= -1; }
+      if (this.y < 0)      { this.y = 0;      this.vy *= -1; }
+      if (this.y > height) { this.y = height; this.vy *= -1; }
+
+      // Pulsação do brilho
+      this.pulsePhase += this.pulseSpeed;
+    };
+
+    Particle.prototype.draw = function () {
+      const pulse = 0.6 + 0.4 * Math.sin(this.pulsePhase);   // 0.2 .. 1.0
+      const r = this.radius * (0.8 + 0.4 * Math.sin(this.pulsePhase));
+
+      // Halo suave
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, r * 3, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(' + CONFIG.pointColor + ',' + (0.06 * pulse) + ')';
+      ctx.fill();
+
+      // Núcleo
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, r, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(' + CONFIG.pointColor + ',' + (0.85 * pulse) + ')';
+      ctx.fill();
+    };
+
+    // ---------- Conexões (sinapses) ----------
+    function drawLinks() {
+      for (let i = 0; i < particles.length; i++) {
+        for (let j = i + 1; j < particles.length; j++) {
+          const a = particles[i], b = particles[j];
+          const dx = a.x - b.x, dy = a.y - b.y;
+          const dist = Math.hypot(dx, dy);
+          if (dist < CONFIG.linkDistance) {
+            const opacity = (1 - dist / CONFIG.linkDistance) * 0.5;
+            ctx.beginPath();
+            ctx.moveTo(a.x, a.y);
+            ctx.lineTo(b.x, b.y);
+            ctx.strokeStyle = 'rgba(' + CONFIG.lineColor + ',' + opacity + ')';
+            ctx.lineWidth = 0.6;
+            ctx.stroke();
+          }
+        }
+      }
+
+      // Linhas do mouse para partículas próximas (sinapses ativas)
+      if (mouse.active) {
+        for (const p of particles) {
+          const dx = mouse.x - p.x, dy = mouse.y - p.y;
+          const dist = Math.hypot(dx, dy);
+          if (dist < CONFIG.mouseRadius) {
+            const opacity = (1 - dist / CONFIG.mouseRadius) * 0.6;
+            ctx.beginPath();
+            ctx.moveTo(mouse.x, mouse.y);
+            ctx.lineTo(p.x, p.y);
+            ctx.strokeStyle = 'rgba(' + CONFIG.lineColor + ',' + opacity + ')';
+            ctx.lineWidth = 0.8;
+            ctx.stroke();
+          }
+        }
+      }
+    }
+
+    // ---------- Loop de animação ----------
+    function animate() {
+      ctx.clearRect(0, 0, width, height);
+      drawLinks();
+      for (const p of particles) {
+        p.update();
+        p.draw();
+      }
+      requestAnimationFrame(animate);
+    }
+
+    // ---------- Inicialização / resize ----------
+    function init() {
+      particles = [];
+      const count = Math.min(
+        CONFIG.maxParticles,
+        Math.floor((width * height) / CONFIG.density)
+      );
+      for (let i = 0; i < count; i++) {
+        particles.push(new Particle(Math.random() * width, Math.random() * height));
+      }
+    }
+
+    function resize() {
+      width = window.innerWidth;
+      height = window.innerHeight;
+      canvas.width = width * DPR;
+      canvas.height = height * DPR;
+      canvas.style.width = width + 'px';
+      canvas.style.height = height + 'px';
+      ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+      init();
+    }
+
+    // ---------- Eventos ----------
+    window.addEventListener('resize', resize);
+
+    window.addEventListener('mousemove', function (e) {
+      mouse.x = e.clientX;
+      mouse.y = e.clientY;
+      mouse.active = true;
+    });
+
+    window.addEventListener('mouseout', function () {
+      mouse.active = false;
+    });
+
+    // Suporte a toque
+    window.addEventListener('touchmove', function (e) {
+      const t = e.touches[0];
+      mouse.x = t.clientX;
+      mouse.y = t.clientY;
+      mouse.active = true;
+    }, { passive: true });
+
+    window.addEventListener('touchend', function () {
+      mouse.active = false;
+    });
+
+    // ---------- Start ----------
+    resize();
+    animate();
+  })();
+  </script>
+</body>
+</html>
